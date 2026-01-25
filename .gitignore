@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated reports / build outputs
+NewsReport/*.log
+NewsReport/data/
+site/
+
+# Local backups
+.codex-backup-*.tgz
