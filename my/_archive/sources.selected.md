@@ -24,6 +24,9 @@ V2EX - 技术	https://www.v2ex.com/feed/tab/tech.xml
 caoz的梦呓	https://plink.anyfeeder.com/weixin/caozsay
 虹膜	https://plink.anyfeeder.com/weixin/IrisMagazine
 
+## 国际 / 深度
+端传媒 - 最新	https://plink.anyfeeder.com/initium/latest
+
 ## 市场 / 财经
 # 该 URL 有时会返回非 XML（可能被拦/跳转），建议后续补一个替补国际财经源
 路透中文	https://plink.anyfeeder.com/reuters/cn
@@ -35,8 +38,23 @@ caoz的梦呓	https://plink.anyfeeder.com/weixin/caozsay
 # 该 URL 偶尔返回 HTML，先注释，确认稳定后再开启
 # 今日话题 - 雪球	https://plink.anyfeeder.com/xueqiu/hot
 
+## 商业 / 方法论
+饭统戴老板	https://plink.anyfeeder.com/weixin/worldofboss
+槽边往事	https://plink.anyfeeder.com/weixin/bitsea
+
+## 科学 / 知识
+知识分子	http://plink.anyfeeder.com/weixin/The-Intellectual
+中国国家地理	https://plink.anyfeeder.com/weixin/dili360
+
 ## 工程 / 开源
 HelloGitHub 月刊	http://hellogithub.com/rss
 美团技术团队	https://tech.meituan.com/feed/
 有赞技术团队	https://tech.youzan.com/rss/
 
+## 工程 / 技术（个人）
+酷 壳 – CoolShell	http://coolshell.cn/feed
+云风的 BLOG	http://blog.codingnow.com/atom.xml
+DIYGod	https://diygod.me/atom.xml
+
+## 独立产品 / 出海
+Decohack	https://www.decohack.com/feed

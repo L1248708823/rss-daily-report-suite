@@ -1,10 +1,12 @@
 {
   "defaults": {
-    "sources": ["my/sources.selected.md"],
-    "select_keys_file": "my/RSS.md",
+    "sources": ["my/sources.md"],
     "group_by": "platform",
     "platform_heat_window_days": 30,
     "per_platform_limit": 10,
+    "per_platform_limit_overrides": {
+      "HelloGitHub 月刊": 1
+    },
     "platform_top_by": "recent",
     "per_feed_limit": 30,
     "min_score": 2.6,

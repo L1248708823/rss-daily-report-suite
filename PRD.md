@@ -27,14 +27,16 @@
   - 黄金价格（现货/期货二选一）
 - 报告顶部提供「今日指标卡片」+ 与昨日/近 7 日简单对比（若可获取历史）。
  - 数据落地：写入 `NewsReport/data/YYYY-MM-DD.json` 的 `meta.market`（包含 `value/change/change_pct/as_of/provider` 等），前端只负责渲染。
+ - 信息源治理：以 `my/sources.checklist.md` 为唯一入口（勾选），脚本同步生成启用列表 `my/sources.md`。
 
 3) **可配置性（避免强改代码）**
 - 将关键配额/策略参数外置：如 `per_feed_limit`、`per_platform_limit`、`max_items`、`time_budget`、`proxy`、栏目配比等。
+ - 支持“按平台单独限额”（例如 HelloGitHub 固定只保留 1 条）。
 
 ### 4.2 vNext（让“站点好玩”与可扩展）
 - 前端升级为 Vue 3（建议 Vite）+ 组件化信息卡片。
 - 站点能力：多维筛选、收藏/稍后读、热词与趋势（近 7 天）、分享/复制 Markdown。
-- “源管理”可视化：从 `RSS源.md` / 自定义列表中勾选启用，生成 `my/sources.selected.md`。
+- “源管理”可视化：在站内管理并落盘到 `my/sources.checklist.md`（再同步生成 `my/sources.md`）。
 
 ## 5. 功能需求（验收口径）
 1) **定时任务**

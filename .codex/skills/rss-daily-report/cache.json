@@ -3,9 +3,9 @@
   "description": "rss-daily-report cache (dedupe + history + stats)",
   "last_run": {
     "date": "2026-01-26",
-    "duration_seconds": 21,
-    "items_collected": 40,
-    "items_published": 29,
+    "duration_seconds": 24,
+    "items_collected": 86,
+    "items_published": 61,
     "sources_used": [
       "https://v2ex.com/index.xml",
       "http://www.v2ex.com/index.xml",
@@ -16,35 +16,47 @@
       "https://www.ruanyifeng.com/blog/atom.xml",
       "https://plink.anyfeeder.com/weixin/caozsay",
       "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
       "https://plink.anyfeeder.com/reuters/cn",
       "https://plink.anyfeeder.com/weixin/theeconomist",
       "https://xueqiu.com/hots/topic/rss",
       "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "https://plink.anyfeeder.com/weixin/bitsea",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
       "http://hellogithub.com/rss",
       "https://tech.meituan.com/feed/",
       "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://diygod.me/atom.xml",
+      "https://www.decohack.com/feed",
       "https://github.com/trending?since=daily"
     ],
     "errors": [
       "知乎每日精选 (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss: no element found: line 1, column 0",
-      "路透中文 (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn: syntax error: line 1, column 0",
       "知乎热榜 (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist: non-feed HTML response",
-      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c18e460a540>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
-      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c18e460af00>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
-      "V2EX (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7c18e460aa50>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
+      "端传媒 - 最新 (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest: non-feed HTML response",
+      "路透中文 (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn: syntax error: line 1, column 0",
+      "V2EX (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984753a0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
+      "DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984d5c40>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))",
+      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984f7050>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
+      "GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=18.0)"
     ]
   },
   "source_stats": {
     "_comment": "per-feed stats keyed by feed URL",
     "https://www.zhihu.com/rss": {
-      "total_fetches": 14,
+      "total_fetches": 17,
       "success_count": 0,
       "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://www.ruanyifeng.com/blog/atom.xml": {
-      "total_fetches": 14,
-      "success_count": 13,
+      "total_fetches": 17,
+      "success_count": 16,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
@@ -55,7 +67,7 @@
       "last_success": "2026-01-25"
     },
     "https://v2ex.com/index.xml": {
-      "total_fetches": 14,
+      "total_fetches": 17,
       "success_count": 0,
       "last_fetch": "2026-01-26",
       "last_success": null
@@ -97,8 +109,8 @@
       "last_success": "2026-01-25"
     },
     "https://plink.anyfeeder.com/weixin/caozsay": {
-      "total_fetches": 14,
-      "success_count": 13,
+      "total_fetches": 17,
+      "success_count": 16,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
@@ -121,14 +133,14 @@
       "last_success": null
     },
     "http://www.v2ex.com/index.xml": {
-      "total_fetches": 10,
+      "total_fetches": 13,
       "success_count": 0,
       "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/zhihu/daily": {
-      "total_fetches": 10,
-      "success_count": 10,
+      "total_fetches": 13,
+      "success_count": 13,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
@@ -145,68 +157,122 @@
       "last_success": "2026-01-25"
     },
     "https://xueqiu.com/hots/topic/rss": {
-      "total_fetches": 10,
-      "success_count": 10,
+      "total_fetches": 13,
+      "success_count": 13,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/zhihu/hotlist": {
-      "total_fetches": 10,
+      "total_fetches": 13,
       "success_count": 4,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-23"
     },
     "https://www.v2ex.com/feed/tab/tech.xml": {
-      "total_fetches": 10,
+      "total_fetches": 13,
       "success_count": 0,
       "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/weixin/IrisMagazine": {
-      "total_fetches": 10,
-      "success_count": 9,
+      "total_fetches": 13,
+      "success_count": 12,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/weixin/xueqiujinghua": {
-      "total_fetches": 10,
-      "success_count": 9,
+      "total_fetches": 13,
+      "success_count": 12,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://github.com/trending?since=daily": {
-      "total_fetches": 8,
-      "success_count": 6,
+      "total_fetches": 11,
+      "success_count": 8,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/reuters/cn": {
-      "total_fetches": 4,
+      "total_fetches": 7,
       "success_count": 0,
       "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/weixin/theeconomist": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 7,
+      "success_count": 7,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "http://hellogithub.com/rss": {
-      "total_fetches": 5,
-      "success_count": 5,
+      "total_fetches": 8,
+      "success_count": 8,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://tech.meituan.com/feed/": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 7,
+      "success_count": 7,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     },
     "https://tech.youzan.com/rss/": {
-      "total_fetches": 4,
-      "success_count": 4,
+      "total_fetches": 7,
+      "success_count": 7,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "https://plink.anyfeeder.com/initium/latest": {
+      "total_fetches": 1,
+      "success_count": 0,
+      "last_fetch": "2026-01-26",
+      "last_success": null
+    },
+    "https://plink.anyfeeder.com/weixin/worldofboss": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "https://plink.anyfeeder.com/weixin/bitsea": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "http://plink.anyfeeder.com/weixin/The-Intellectual": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "https://plink.anyfeeder.com/weixin/dili360": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "http://coolshell.cn/feed": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "http://blog.codingnow.com/atom.xml": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
+    },
+    "https://diygod.me/atom.xml": {
+      "total_fetches": 1,
+      "success_count": 0,
+      "last_fetch": "2026-01-26",
+      "last_success": null
+    },
+    "https://www.decohack.com/feed": {
+      "total_fetches": 1,
+      "success_count": 1,
       "last_fetch": "2026-01-26",
       "last_success": "2026-01-26"
     }
@@ -983,6 +1049,159 @@
         "date_added": "2026-01-26"
       },
       "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/97": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22422.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22398.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22367.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22341.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22320.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22298.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22263.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22242.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22173.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://coolshell.cn/articles/22157.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-25/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-24/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-23/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-22/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-21/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-20/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-19/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-18/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-17/": {
+        "date_added": "2026-01-26"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-16/": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%BB%94%E4%B8%9C%E5%8D%97%E8%BF%99%E5%BA%A7%E5%8F%A4%E9%95%87%EF%BC%8C%E6%8A%8A%E6%88%91%E7%9C%8B%E9%86%89%E4%BA%86": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E4%B8%AD%E5%9B%BD%EF%BC%8C%E6%9C%80%E8%A2%AB%E5%BF%BD%E8%A7%86%E7%9A%84%E4%B8%96%E7%95%8C%E7%BA%A7%E9%A3%8E%E6%99%AF": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%AC%A8%E2%80%9D%E5%91%B3%E5%9C%B0%E7%90%86%EF%BC%8C%E7%AC%A8%E5%BE%97%E8%AE%A9%E4%BA%BA%E7%9D%80%E8%BF%B7": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%A5%BF%E5%AE%89%E4%B8%80%E4%B8%8B%E9%9B%AA%EF%BC%8C%E5%B0%B1%E6%88%90%E4%BA%86%E9%95%BF%E5%AE%89": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2026/01/solo_boardgame.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2026/01/ai_game_design.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/12/skynet_lua_550.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/12/coco.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/12/deckbuilder_games.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/11/eu5_notes.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/11/task_schedule_in_eventloop.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/11/eu5.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/10/boardgame_design_contest.html": {
+        "date_added": "2026-01-26"
+      },
+      "https://blog.codingnow.com/2025/10/deepfuture_dev.html": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+352+H301+%E5%8A%A0%E6%B9%BF%E6%9C%BA%E4%B8%8D%E4%B8%8A%E6%B0%B4%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%96%B9%E6%B3%95%E4%B9%8B%E4%B8%80": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+Free+solo": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%85%88%E5%9A%BC%E5%86%8D%E5%92%BD": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BD%A0%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9C%9F%E7%9A%84": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%9B%B7%E5%87%BB%E6%9C%A8%E8%BE%B9%E4%B8%8A%E7%9A%84%E5%B9%BC%E8%8A%BD": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92%EF%BC%8C%E5%85%B6%E5%AE%9E%E4%B8%8D%E6%98%AF%E5%AE%87%E5%AE%99%E9%93%81%E5%BE%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E4%BA%86%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%9F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%97%A5%E6%9C%AC%E8%AF%BA%E5%A5%96%E2%80%9D%E6%8F%AD%E6%99%93%EF%BC%9A%E5%8D%8E%E4%BA%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%99%88%E5%BF%97%E5%9D%9A%E9%97%AE%E9%BC%8E": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%A4%E4%BD%8D%E7%A7%91%E5%AD%A6%E5%B7%A8%E4%BA%BA%E7%9A%84%E7%BB%88%E8%BA%AB%E5%AF%B9%E5%B3%99%EF%BC%9A%E6%80%8E%E6%A0%B7%E6%94%B9%E5%86%99%E4%BA%86%E4%BA%BA%E7%B1%BB%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD%EF%BC%9F+%7C+%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E2%80%9C%E6%A9%84%E6%A6%84%E6%9E%9D%E2%80%9D%E5%88%B0%E2%80%9C%E5%AD%A6%E6%9C%AF%E8%B4%B7%E2%80%9D%EF%BC%8C%E6%AD%A3%E5%9C%A8%E6%B6%88%E5%A4%B1%E7%9A%84%E5%AE%89%E5%AE%B6%E8%B4%B9%E8%83%8C%E5%90%8E%EF%BC%8C%E5%8D%9A%E5%A3%AB%E4%BB%AC%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%86%8D%E8%A7%81%E7%8E%8B%E7%9F%B3": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%9A%84%E2%80%9C%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E9%97%AE%E7%95%8CM9%EF%BC%8C%E9%87%8D%E9%93%B8%E8%B1%AA%E5%8D%8E%E8%BD%A6%E7%9A%84%E7%A4%BE%E4%BA%A4%E8%B4%A7%E5%B8%81": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E5%B8%8C%E6%9C%9B%E9%98%BF%E7%A6%8F%E8%83%BD%E6%88%90%EF%BC%9F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%BA%BA%E7%B1%BB%E8%BF%98%E9%85%8D%E4%B8%8D%E4%B8%8A%E2%80%9C%E8%B4%BE%E7%BB%B4%E6%96%AF%E2%80%9D": {
         "date_added": "2026-01-26"
       }
     }
@@ -1762,6 +1981,159 @@
         "date_added": "2026-01-26"
       },
       "42dbe6d0b014beb6d53274f4b68868edc6dc7bac": {
+        "date_added": "2026-01-26"
+      },
+      "193ca1f6123db0e375a6d5f6af5f6695a11cd858": {
+        "date_added": "2026-01-26"
+      },
+      "d679bdf7ea37c1e167a0b0aed934e1c006ddf74f": {
+        "date_added": "2026-01-26"
+      },
+      "5b418d83231600ff2b809949e784be05fbaa9389": {
+        "date_added": "2026-01-26"
+      },
+      "c60e286aa3cf18d25b573665be0105eaaaae045b": {
+        "date_added": "2026-01-26"
+      },
+      "4aaae0bd0dc0ac8632e5f9c554d0292653947e2f": {
+        "date_added": "2026-01-26"
+      },
+      "bb5e6c0d79536232ba0f2eb672f4d4ee2ce567c3": {
+        "date_added": "2026-01-26"
+      },
+      "245e16011598c57acc85c9366d59b8602c6ac347": {
+        "date_added": "2026-01-26"
+      },
+      "3ee7a822d67e29579d6d02adabf138147633fdc2": {
+        "date_added": "2026-01-26"
+      },
+      "2d889b1846e35a7fe153a1b83b3c0fe2430d905c": {
+        "date_added": "2026-01-26"
+      },
+      "934db911feed7690a869239d9b64f9415b7b9f93": {
+        "date_added": "2026-01-26"
+      },
+      "e3cea5de5b118841832d20a6e00c6b37d11e95e7": {
+        "date_added": "2026-01-26"
+      },
+      "1c90742526a7c8ba7f0ff41f7961b673f349407d": {
+        "date_added": "2026-01-26"
+      },
+      "018dbcd4abe446077fce8297323e22a67789a995": {
+        "date_added": "2026-01-26"
+      },
+      "bded1adc6b7f742a2ba05c1b887a61fe4aa41783": {
+        "date_added": "2026-01-26"
+      },
+      "80a14ce88c671c3289cd8c099818795adde56408": {
+        "date_added": "2026-01-26"
+      },
+      "c0ced664531a8b3e3b6f342d7b6f767500461e40": {
+        "date_added": "2026-01-26"
+      },
+      "391c337b3e9e0081efd739a71451d220e95996bf": {
+        "date_added": "2026-01-26"
+      },
+      "0b831b91b521fa989d213029afa50a0cdde066ca": {
+        "date_added": "2026-01-26"
+      },
+      "96c098895243ac184fedbc3b3887cf9c276a66b2": {
+        "date_added": "2026-01-26"
+      },
+      "be82b5acf7d4652592b75f5f79379f166b3a6a44": {
+        "date_added": "2026-01-26"
+      },
+      "82dddded3da7ff862ef87fec60c3b242c4641813": {
+        "date_added": "2026-01-26"
+      },
+      "7f8ba5b14d97e47beee2b896cc0e77ef07e25ef0": {
+        "date_added": "2026-01-26"
+      },
+      "40ccc90cb4be8cfbcab9c300a844ee2d7399e6d6": {
+        "date_added": "2026-01-26"
+      },
+      "b714cb6bb9d948cc4b267faa56f9ac6657b3db24": {
+        "date_added": "2026-01-26"
+      },
+      "a79116e6160a74050aab5bc7411b3a901bdd8f4d": {
+        "date_added": "2026-01-26"
+      },
+      "9f6b43fe2acc5e3f773b18e151adca4400c780f2": {
+        "date_added": "2026-01-26"
+      },
+      "97927dea5c0d2a99703cbcd70f994858334b3292": {
+        "date_added": "2026-01-26"
+      },
+      "f2216bf2d8be859c2aeec5ded487daba1419fc34": {
+        "date_added": "2026-01-26"
+      },
+      "4ab3f546045199fa4cf9baef1b2c7886b7756068": {
+        "date_added": "2026-01-26"
+      },
+      "f51a79411fb10f18d95261a3064e134507d2ea98": {
+        "date_added": "2026-01-26"
+      },
+      "7ebe8faa67ca22c2837331ad973d8d3508a6616e": {
+        "date_added": "2026-01-26"
+      },
+      "d9215306779fb82ec295d4b533e59b70452355aa": {
+        "date_added": "2026-01-26"
+      },
+      "36b97e988a83b436a67b4aa0dbb271c35bf8cdda": {
+        "date_added": "2026-01-26"
+      },
+      "16ee0254a78841f03e09bad56efc38f263cb3809": {
+        "date_added": "2026-01-26"
+      },
+      "4374bd51e6eaad79c44f652be9fed0c96b5b45e0": {
+        "date_added": "2026-01-26"
+      },
+      "eab7899226b60376ffe5a90c321a7fec366ea933": {
+        "date_added": "2026-01-26"
+      },
+      "b81534fee3f63b9a28de79068b82214276b66046": {
+        "date_added": "2026-01-26"
+      },
+      "22d33f113bd46d982bcf46d92d0e8a29de3654b7": {
+        "date_added": "2026-01-26"
+      },
+      "e532a1a90054ea0b301679d47aec6dccaaafdfae": {
+        "date_added": "2026-01-26"
+      },
+      "68a3a39fbb1039ec61a6e9b28fb63dbefb5d16d9": {
+        "date_added": "2026-01-26"
+      },
+      "d5e7c24e75ed222f19d07f6bfdc9d6a4219a4414": {
+        "date_added": "2026-01-26"
+      },
+      "467a3bd204652538eb4ec9b53cc13e93011cd26c": {
+        "date_added": "2026-01-26"
+      },
+      "ffb2ad956332bc9f3681b4be141f9b5d90a54417": {
+        "date_added": "2026-01-26"
+      },
+      "100cd005fa072d5adb3a13f31dc6e74ffbbf777b": {
+        "date_added": "2026-01-26"
+      },
+      "fd0ea649b68fba8cb456a02c00573bb91082355a": {
+        "date_added": "2026-01-26"
+      },
+      "af5ea84863de05cfeebe3530c44f21a49a4ffb03": {
+        "date_added": "2026-01-26"
+      },
+      "95251fd14d11757ee14255c160307081168a4712": {
+        "date_added": "2026-01-26"
+      },
+      "acbc04569de295c361c3260f329d4999d5aff513": {
+        "date_added": "2026-01-26"
+      },
+      "a98cdace37089114741c95a2da98c750d7fe302e": {
+        "date_added": "2026-01-26"
+      },
+      "3e58c2ced67693619877733aea18cb6b6a3f5208": {
+        "date_added": "2026-01-26"
+      },
+      "7914a301a3447abd94b00cd0119cc81939f8ba5f": {
         "date_added": "2026-01-26"
       }
     }
@@ -3196,194 +3568,514 @@
         "quality_score": 3.3
       },
       {
-        "source": "雪球",
-        "platform": "雪球",
-        "title": "（化工三）石油化工行业新周期深度解析及核心标的对比研究",
-        "title_hash": "f88ec30118ecd6c5d36fe1398afe86c0e90054b7",
-        "url": "http://xueqiu.com/6183582796/372800186",
-        "category": "财经",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
-        "source": "雪球",
-        "platform": "雪球",
-        "title": "千亿兴业银锡之再思考：不被市场情绪裹挟，锚定自身的能力圈与投资思路。",
-        "title_hash": "d72b7b3e90e1ad10fc81e1a823ae65c2fa9bc999",
-        "url": "http://xueqiu.com/4086512744/372804205",
-        "category": "财经",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "Psiphon-Inc/conduit",
-        "title_hash": "5079647cf7b4f251c72dd495eec1740165af5610",
-        "url": "https://github.com/Psiphon-Inc/conduit",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
         "source": "HelloGitHub 月刊",
         "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 107 期",
-        "title_hash": "0feafe62daee0cff11fe55463b111868a41f6a00",
-        "url": "https://hellogithub.com/periodical/volume/107",
+        "title": "HelloGitHub 第 97 期",
+        "title_hash": "193ca1f6123db0e375a6d5f6af5f6695a11cd858",
+        "url": "https://hellogithub.com/periodical/volume/97",
         "category": "技术",
         "carrier": "项目",
         "quality_score": 3.7
       },
       {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 106 期",
-        "title_hash": "245446e0f0b6179014893ad3e9a309798b52a731",
-        "url": "https://hellogithub.com/periodical/volume/106",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 105 期",
-        "title_hash": "405c49f80db41a42feab73d454e079a1f1071721",
-        "url": "https://hellogithub.com/periodical/volume/105",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 104 期",
-        "title_hash": "3db81a89de090cfcbb7e8359f43e83d787a6fb1b",
-        "url": "https://hellogithub.com/periodical/volume/104",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 103 期",
-        "title_hash": "19e0465261617847d3b20f14bccadc17c153f102",
-        "url": "https://hellogithub.com/periodical/volume/103",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 102 期",
-        "title_hash": "06b92ae69f304aa31d54945fb3215cf5e87d1eff",
-        "url": "https://hellogithub.com/periodical/volume/102",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 101 期",
-        "title_hash": "db83eb520441b5f9f57941d745aa458bd4f82ad8",
-        "url": "https://hellogithub.com/periodical/volume/101",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 100 期",
-        "title_hash": "bb09a4c8fe51e754ff601694118231115d60b625",
-        "url": "https://hellogithub.com/periodical/volume/100",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 99 期",
-        "title_hash": "f889f99bcb0b8989379271e0dfe1449704164245",
-        "url": "https://hellogithub.com/periodical/volume/99",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "HelloGitHub 月刊",
-        "platform": "HelloGitHub 月刊",
-        "title": "HelloGitHub 第 98 期",
-        "title_hash": "ebe4ceb4e7e26775e644d1fee12685f79af4cac2",
-        "url": "https://hellogithub.com/periodical/volume/98",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "有赞技术团队",
-        "platform": "有赞技术团队",
-        "title": "数据测试方法",
-        "title_hash": "73e0cad9e2457ac47f46a017195bbf27c1d4d794",
-        "url": "https://tech.youzan.com/shu-ju-ce-shi-fang-fa/",
-        "category": "商业/产品",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "有赞技术团队",
-        "platform": "有赞技术团队",
-        "title": "Redis源码解析",
-        "title_hash": "7f2f71d56129f24537e753c84e34127f550dcb71",
-        "url": "https://tech.youzan.com/redisyuan-ma-jie-xi/",
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "是微服务架构不香还是云不香？",
+        "title_hash": "d679bdf7ea37c1e167a0b0aed934e1c006ddf74f",
+        "url": "https://coolshell.cn/articles/22422.html",
         "category": "技术",
         "carrier": "文章",
         "quality_score": 3.3
       },
       {
-        "source": "有赞技术团队",
-        "platform": "有赞技术团队",
-        "title": "Java锁与线程的那些事",
-        "title_hash": "9da1c98002fe660c884d92579f6e0f7a3a54f7db",
-        "url": "https://tech.youzan.com/javasuo-yu-xian-cheng-de-na-xie-shi/",
-        "category": "技术",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
-        "source": "有赞技术团队",
-        "platform": "有赞技术团队",
-        "title": "有赞实时计算 Flink 1.13 升级实践",
-        "title_hash": "623e164b9133c1d9411390aa8274afd44a69011b",
-        "url": "https://tech.youzan.com/flink_13/",
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "我看ChatGPT: 为啥谷歌掉了千亿美金",
+        "title_hash": "5b418d83231600ff2b809949e784be05fbaa9389",
+        "url": "https://coolshell.cn/articles/22398.html",
         "category": "其他",
         "carrier": "文章",
         "quality_score": 3.0
       },
       {
-        "source": "虹膜",
-        "platform": "虹膜",
-        "title": "国内外达成一致了，就是超级烂片",
-        "title_hash": "8144eab0920784775fbdc76a3423efe0fc8f99b7",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87",
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "聊聊 nostr 和 审查",
+        "title_hash": "c60e286aa3cf18d25b573665be0105eaaaae045b",
+        "url": "https://coolshell.cn/articles/22367.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "感染新冠的经历",
+        "title_hash": "4aaae0bd0dc0ac8632e5f9c554d0292653947e2f",
+        "url": "https://coolshell.cn/articles/22341.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "eBPF 介绍",
+        "title_hash": "bb5e6c0d79536232ba0f2eb672f4d4ee2ce567c3",
+        "url": "https://coolshell.cn/articles/22320.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "聊聊团队协同和协同工具",
+        "title_hash": "245e16011598c57acc85c9366d59b8602c6ac347",
+        "url": "https://coolshell.cn/articles/22298.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "从一次经历谈 TIME_WAIT 的那些事",
+        "title_hash": "3ee7a822d67e29579d6d02adabf138147633fdc2",
+        "url": "https://coolshell.cn/articles/22263.html",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "ETCD的内存问题",
+        "title_hash": "2d889b1846e35a7fe153a1b83b3c0fe2430d905c",
+        "url": "https://coolshell.cn/articles/22242.html",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "“一把梭：REST API 全用 POST”",
+        "title_hash": "934db911feed7690a869239d9b64f9415b7b9f93",
+        "url": "https://coolshell.cn/articles/22173.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "酷 壳 – CoolShell",
+        "platform": "CoolShell",
+        "title": "谈谈公司对员工的监控",
+        "title_hash": "e3cea5de5b118841832d20a6e00c6b37d11e95e7",
+        "url": "https://coolshell.cn/articles/22157.html",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-25",
+        "title_hash": "1c90742526a7c8ba7f0ff41f7961b673f349407d",
+        "url": "https://decohack.com/producthunt-daily-2026-01-25/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-24",
+        "title_hash": "018dbcd4abe446077fce8297323e22a67789a995",
+        "url": "https://decohack.com/producthunt-daily-2026-01-24/",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-23",
+        "title_hash": "bded1adc6b7f742a2ba05c1b887a61fe4aa41783",
+        "url": "https://decohack.com/producthunt-daily-2026-01-23/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-22",
+        "title_hash": "80a14ce88c671c3289cd8c099818795adde56408",
+        "url": "https://decohack.com/producthunt-daily-2026-01-22/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-21",
+        "title_hash": "c0ced664531a8b3e3b6f342d7b6f767500461e40",
+        "url": "https://decohack.com/producthunt-daily-2026-01-21/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-20",
+        "title_hash": "391c337b3e9e0081efd739a71451d220e95996bf",
+        "url": "https://decohack.com/producthunt-daily-2026-01-20/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-19",
+        "title_hash": "0b831b91b521fa989d213029afa50a0cdde066ca",
+        "url": "https://decohack.com/producthunt-daily-2026-01-19/",
         "category": "商业/产品",
         "carrier": "文章",
         "quality_score": 3.0
       },
       {
-        "source": "虹膜",
-        "platform": "虹膜",
-        "title": "是枝裕和的电影被死亡笼罩",
-        "title_hash": "42dbe6d0b014beb6d53274f4b68868edc6dc7bac",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9",
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-18",
+        "title_hash": "96c098895243ac184fedbc3b3887cf9c276a66b2",
+        "url": "https://decohack.com/producthunt-daily-2026-01-18/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-17",
+        "title_hash": "be82b5acf7d4652592b75f5f79379f166b3a6a44",
+        "url": "https://decohack.com/producthunt-daily-2026-01-17/",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-16",
+        "title_hash": "82dddded3da7ff862ef87fec60c3b242c4641813",
+        "url": "https://decohack.com/producthunt-daily-2026-01-16/",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "图片过于震撼，一年只发一遍",
+        "title_hash": "7f8ba5b14d97e47beee2b896cc0e77ef07e25ef0",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "黔东南这座古镇，把我看醉了",
+        "title_hash": "40ccc90cb4be8cfbcab9c300a844ee2d7399e6d6",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%BB%94%E4%B8%9C%E5%8D%97%E8%BF%99%E5%BA%A7%E5%8F%A4%E9%95%87%EF%BC%8C%E6%8A%8A%E6%88%91%E7%9C%8B%E9%86%89%E4%BA%86",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "在中国，最被忽视的世界级风景",
+        "title_hash": "b714cb6bb9d948cc4b267faa56f9ac6657b3db24",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E4%B8%AD%E5%9B%BD%EF%BC%8C%E6%9C%80%E8%A2%AB%E5%BF%BD%E8%A7%86%E7%9A%84%E4%B8%96%E7%95%8C%E7%BA%A7%E9%A3%8E%E6%99%AF",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "中国“笨”味地理，笨得让人着迷",
+        "title_hash": "a79116e6160a74050aab5bc7411b3a901bdd8f4d",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%AC%A8%E2%80%9D%E5%91%B3%E5%9C%B0%E7%90%86%EF%BC%8C%E7%AC%A8%E5%BE%97%E8%AE%A9%E4%BA%BA%E7%9D%80%E8%BF%B7",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "西安一下雪，就成了长安",
+        "title_hash": "9f6b43fe2acc5e3f773b18e151adca4400c780f2",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%A5%BF%E5%AE%89%E4%B8%80%E4%B8%8B%E9%9B%AA%EF%BC%8C%E5%B0%B1%E6%88%90%E4%BA%86%E9%95%BF%E5%AE%89",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "介绍几款单人桌游",
+        "title_hash": "97927dea5c0d2a99703cbcd70f994858334b3292",
+        "url": "https://blog.codingnow.com/2026/01/solo_boardgame.html",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "和 AI 聊游戏设计",
+        "title_hash": "f2216bf2d8be859c2aeec5ded487daba1419fc34",
+        "url": "https://blog.codingnow.com/2026/01/ai_game_design.html",
+        "category": "娱乐",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "Skynet 升级到 Lua 5.5.0",
+        "title_hash": "4ab3f546045199fa4cf9baef1b2c7886b7756068",
+        "url": "https://blog.codingnow.com/2025/12/skynet_lua_550.html",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "带可可学数学",
+        "title_hash": "f51a79411fb10f18d95261a3064e134507d2ea98",
+        "url": "https://blog.codingnow.com/2025/12/coco.html",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "最近玩的几款卡牌构筑类电子游戏",
+        "title_hash": "7ebe8faa67ca22c2837331ad973d8d3508a6616e",
+        "url": "https://blog.codingnow.com/2025/12/deckbuilder_games.html",
+        "category": "娱乐",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "欧陆风云5的游玩笔记",
+        "title_hash": "d9215306779fb82ec295d4b533e59b70452355aa",
+        "url": "https://blog.codingnow.com/2025/11/eu5_notes.html",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "嵌入主线程消息循环的任务调度器",
+        "title_hash": "36b97e988a83b436a67b4aa0dbb271c35bf8cdda",
+        "url": "https://blog.codingnow.com/2025/11/task_schedule_in_eventloop.html",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "欧陆风云 5 的经济系统",
+        "title_hash": "16ee0254a78841f03e09bad56efc38f263cb3809",
+        "url": "https://blog.codingnow.com/2025/11/eu5.html",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "关于桌游设计大赛的介绍",
+        "title_hash": "4374bd51e6eaad79c44f652be9fed0c96b5b45e0",
+        "url": "https://blog.codingnow.com/2025/10/boardgame_design_contest.html",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "云风的 BLOG",
+        "platform": "云风",
+        "title": "深远未来开发总结",
+        "title_hash": "eab7899226b60376ffe5a90c321a7fec366ea933",
+        "url": "https://blog.codingnow.com/2025/10/deepfuture_dev.html",
+        "category": "娱乐",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "352 H301 加湿机不上水故障排除方法之一",
+        "title_hash": "b81534fee3f63b9a28de79068b82214276b66046",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+352+H301+%E5%8A%A0%E6%B9%BF%E6%9C%BA%E4%B8%8D%E4%B8%8A%E6%B0%B4%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%96%B9%E6%B3%95%E4%B9%8B%E4%B8%80",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "Free solo",
+        "title_hash": "22d33f113bd46d982bcf46d92d0e8a29de3654b7",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+Free+solo",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "先嚼再咽",
+        "title_hash": "e532a1a90054ea0b301679d47aec6dccaaafdfae",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%85%88%E5%9A%BC%E5%86%8D%E5%92%BD",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "你怎么来真的",
+        "title_hash": "68a3a39fbb1039ec61a6e9b28fb63dbefb5d16d9",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BD%A0%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9C%9F%E7%9A%84",
         "category": "时事",
         "carrier": "文章",
         "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "雷击木边上的幼芽",
+        "title_hash": "d5e7c24e75ed222f19d07f6bfdc9d6a4219a4414",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%9B%B7%E5%87%BB%E6%9C%A8%E8%BE%B9%E4%B8%8A%E7%9A%84%E5%B9%BC%E8%8A%BD",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？",
+        "title_hash": "467a3bd204652538eb4ec9b53cc13e93011cd26c",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92%EF%BC%8C%E5%85%B6%E5%AE%9E%E4%B8%8D%E6%98%AF%E5%AE%87%E5%AE%99%E9%93%81%E5%BE%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E4%BA%86%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%9F",
+        "category": "时事",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "经常使用AI的人更容易抑郁、焦虑和易怒？",
+        "title_hash": "ffb2ad956332bc9f3681b4be141f9b5d90a54417",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "“日本诺奖”揭晓：华人科学家陈志坚问鼎",
+        "title_hash": "100cd005fa072d5adb3a13f31dc6e74ffbbf777b",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%97%A5%E6%9C%AC%E8%AF%BA%E5%A5%96%E2%80%9D%E6%8F%AD%E6%99%93%EF%BC%9A%E5%8D%8E%E4%BA%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%99%88%E5%BF%97%E5%9D%9A%E9%97%AE%E9%BC%8E",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "两位科学巨人的终身对峙：怎样改写了人类的平均寿命？ | 商周专栏",
+        "title_hash": "fd0ea649b68fba8cb456a02c00573bb91082355a",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%A4%E4%BD%8D%E7%A7%91%E5%AD%A6%E5%B7%A8%E4%BA%BA%E7%9A%84%E7%BB%88%E8%BA%AB%E5%AF%B9%E5%B3%99%EF%BC%9A%E6%80%8E%E6%A0%B7%E6%94%B9%E5%86%99%E4%BA%86%E4%BA%BA%E7%B1%BB%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD%EF%BC%9F+%7C+%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "从“橄榄枝”到“学术贷”，正在消失的安家费背后，博士们经历了什么？",
+        "title_hash": "af5ea84863de05cfeebe3530c44f21a49a4ffb03",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E2%80%9C%E6%A9%84%E6%A6%84%E6%9E%9D%E2%80%9D%E5%88%B0%E2%80%9C%E5%AD%A6%E6%9C%AF%E8%B4%B7%E2%80%9D%EF%BC%8C%E6%AD%A3%E5%9C%A8%E6%B6%88%E5%A4%B1%E7%9A%84%E5%AE%89%E5%AE%B6%E8%B4%B9%E8%83%8C%E5%90%8E%EF%BC%8C%E5%8D%9A%E5%A3%AB%E4%BB%AC%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "再见王石",
+        "title_hash": "95251fd14d11757ee14255c160307081168a4712",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%86%8D%E8%A7%81%E7%8E%8B%E7%9F%B3",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "小米汽车的“成人礼”",
+        "title_hash": "acbc04569de295c361c3260f329d4999d5aff513",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%9A%84%E2%80%9C%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "问界M9，重铸豪华车的社交货币",
+        "title_hash": "a98cdace37089114741c95a2da98c750d7fe302e",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E9%97%AE%E7%95%8CM9%EF%BC%8C%E9%87%8D%E9%93%B8%E8%B1%AA%E5%8D%8E%E8%BD%A6%E7%9A%84%E7%A4%BE%E4%BA%A4%E8%B4%A7%E5%B8%81",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "为什么我们希望阿福能成？",
+        "title_hash": "3e58c2ced67693619877733aea18cb6b6a3f5208",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E5%B8%8C%E6%9C%9B%E9%98%BF%E7%A6%8F%E8%83%BD%E6%88%90%EF%BC%9F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "人类还配不上“贾维斯”",
+        "title_hash": "7914a301a3447abd94b00cd0119cc81939f8ba5f",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%BA%BA%E7%B1%BB%E8%BF%98%E9%85%8D%E4%B8%8D%E4%B8%8A%E2%80%9C%E8%B4%BE%E7%BB%B4%E6%96%AF%E2%80%9D",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
       }
     ]
   }

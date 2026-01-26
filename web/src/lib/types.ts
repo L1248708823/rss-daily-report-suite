@@ -26,7 +26,26 @@ export type NewsItem = {
 export type NewsDayData = {
   date: string
   generated_at?: string
-  meta?: Record<string, unknown>
+  meta?: {
+    market?: {
+      requested_date?: string
+      fetched_at?: string
+      note?: string
+      indicators?: Array<{
+        id: string
+        name?: string
+        value?: number
+        change?: number | null
+        change_pct?: number | null
+        prev_close?: number | null
+        unit?: string | null
+        currency?: string | null
+        provider?: string | null
+        source_url?: string | null
+        as_of?: string | null
+      }>
+      errors?: string[]
+    }
+  } & Record<string, unknown>
   items: NewsItem[]
 }
-

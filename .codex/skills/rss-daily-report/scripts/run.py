@@ -289,6 +289,53 @@ def fetch_market_snapshot(
             errors.append(f"SSE(sina) failed: {normalize_ws(str(e2))}")
 
     # --- 伦敦金（现货黄金）：优先腾讯（与新浪同源格式），兜底新浪 ---
+    # 国内更常用“元/克”口径：先抓沪金（Au99.99 类）作为展示口径（参考 leek-fund 类项目常用行情端点）。
+    try:
+        # 新浪：var hq_str_gds_AU9999="1139.69,0,1139.10,1139.50,1143.00,1105.00,10:37:22,1110.30,1107.00,1154800,2.00,565.00,2026-01-26,沪金99";
+        t = requests.get(
+            "https://hq.sinajs.cn/list=gds_AU9999",
+            headers=headers,
+            timeout=timeout,
+            allow_redirects=True,
+            proxies=proxies,
+        ).text
+        payload = parse_js_quoted_payload(t)
+        parts = [normalize_ws(x) for x in payload.split(",")] if payload else []
+        if len(parts) >= 14:
+            value = try_float(parts[0])
+            time_str = parts[6]
+            prev_close = try_float(parts[7])
+            date_part = parts[12]
+            name = parts[13] or "沪金99"
+            chg = None
+            pct = None
+            if value is not None and prev_close is not None and prev_close != 0:
+                chg = value - prev_close
+                pct = (chg / prev_close) * 100.0
+            as_of = None
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", date_part) and re.match(r"^\d{2}:\d{2}:\d{2}$", time_str):
+                as_of = f"{date_part} {time_str}"
+            if value is not None:
+                indicators.append(
+                    {
+                        "id": "gds_AU9999",
+                        "name": f"{name}（元/克）",
+                        "value": value,
+                        "change": chg,
+                        "change_pct": pct,
+                        "prev_close": prev_close,
+                        "unit": "CNY/g",
+                        "currency": "CNY",
+                        "provider": "sina",
+                        "source_url": "https://hq.sinajs.cn/list=gds_AU9999",
+                        "as_of": as_of,
+                    }
+                )
+        else:
+            raise ValueError("unexpected sina format")
+    except Exception as e:
+        errors.append(f"Gold(CNY/g) failed: {normalize_ws(str(e))}")
+
     try:
         # 腾讯：v_hf_XAU="5076.86,1.82,5076.86,5077.21,5085.52,5003.53,10:21:00,4986.02,5006.31,0,0,0,2026-01-26,伦敦金（现货黄金）";
         t = get_text("https://qt.gtimg.cn/q=hf_XAU")
@@ -316,6 +363,7 @@ def fetch_market_snapshot(
                         "change": chg,
                         "change_pct": pct,
                         "prev_close": prev_close,
+                        "unit": "raw",
                         "currency": None,
                         "provider": "tencent",
                         "source_url": "https://qt.gtimg.cn/q=hf_XAU",
@@ -374,6 +422,7 @@ def fetch_market_snapshot(
     return {
         "requested_date": date_str,
         "fetched_at": fetched_at,
+        "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
         "indicators": indicators,
         "errors": errors[:10],
     }
@@ -485,6 +534,9 @@ def fetch_github_trending_source(
 class FeedSource:
     name: str
     url: str
+    # Optional platform/group label for --group-by platform mode.
+    # Can be set in sources.md via: Name|platform=Foo<TAB>URL
+    platform: Optional[str] = None
     # Optional user-defined "platform heat" weight.
     # Can be set in sources.md via: Name|80<TAB>URL
     weight: float = 0.0
@@ -923,7 +975,7 @@ def parse_sources_file(path: str) -> List[FeedSource]:
         return sources
 
     # Default: one URL per line (optionally with "Name<TAB>URL")
-    def parse_name_meta(raw_name: str) -> Tuple[str, float, Optional[int], Tuple[str, ...]]:
+    def parse_name_meta(raw_name: str) -> Tuple[str, Optional[str], float, Optional[int], Tuple[str, ...]]:
         """
         Parse optional metadata from the name cell.
 
@@ -932,30 +984,37 @@ def parse_sources_file(path: str) -> List[FeedSource]:
           - Name|limit=15             -> per_feed_limit=15
           - Name|80|limit=15          -> both
           - Name|fallback=https://... -> fallback_urls
+          - Name|platform=Foo         -> platform group label
         """
 
         raw_name = normalize_ws(raw_name or "")
         if not raw_name:
-            return "", 0.0, None, ()
+            return "", None, 0.0, None, ()
 
         parts = [normalize_ws(x) for x in raw_name.split("|") if normalize_ws(x)]
         if not parts:
-            return "", 0.0, None, ()
+            return "", None, 0.0, None, ()
 
         name = parts[0]
+        platform: Optional[str] = None
         weight = 0.0
         per_feed_limit: Optional[int] = None
         fallback_urls: List[str] = []
 
         for seg in parts[1:]:
-            if re.fullmatch(r"[0-9]+(?:\\.[0-9]+)?", seg):
+            m_plat = re.match(r"^(?:platform|group)\s*=\s*(.+)$", seg, flags=re.I)
+            if m_plat:
+                platform = normalize_ws(m_plat.group(1))
+                continue
+
+            if re.fullmatch(r"[0-9]+(?:\.[0-9]+)?", seg):
                 try:
                     weight = float(seg)
                 except Exception:
                     weight = 0.0
                 continue
 
-            m_lim = re.match(r"^(?:limit|per_feed_limit)\\s*=\\s*([0-9]+)$", seg, flags=re.I)
+            m_lim = re.match(r"^(?:limit|per_feed_limit)\s*=\s*([0-9]+)$", seg, flags=re.I)
             if m_lim:
                 try:
                     per_feed_limit = max(1, int(m_lim.group(1)))
@@ -963,7 +1022,7 @@ def parse_sources_file(path: str) -> List[FeedSource]:
                     per_feed_limit = None
                 continue
 
-            m_fb = re.match(r"^(?:fallback|alt|mirror)\\s*=\\s*(https?://.+)$", seg, flags=re.I)
+            m_fb = re.match(r"^(?:fallback|alt|mirror)\s*=\s*(https?://.+)$", seg, flags=re.I)
             if m_fb:
                 u = normalize_ws(m_fb.group(1))
                 if u.startswith("http"):
@@ -979,7 +1038,7 @@ def parse_sources_file(path: str) -> List[FeedSource]:
             seen_fb.add(u)
             dedup_fb.append(u)
 
-        return name, weight, per_feed_limit, tuple(dedup_fb)
+        return name, platform, weight, per_feed_limit, tuple(dedup_fb)
 
     sources2: List[FeedSource] = []
     seen2: set[str] = set()
@@ -1003,14 +1062,21 @@ def parse_sources_file(path: str) -> List[FeedSource]:
                     break
         idx = line.find(url)
         raw_name = normalize_ws(line[:idx].strip()) if idx >= 0 else ""
-        name, weight, per_feed_limit, fallback_urls = parse_name_meta(raw_name)
+        name, platform, weight, per_feed_limit, fallback_urls = parse_name_meta(raw_name)
         if not name:
             name = urllib.parse.urlsplit(url).netloc or url
         if url in seen2:
             continue
         seen2.add(url)
         sources2.append(
-            FeedSource(name=name, url=url, weight=weight, per_feed_limit=per_feed_limit, fallback_urls=fallback_urls)
+            FeedSource(
+                name=name,
+                url=url,
+                platform=platform,
+                weight=weight,
+                per_feed_limit=per_feed_limit,
+                fallback_urls=fallback_urls,
+            )
         )
     return sources2
 
@@ -1710,8 +1776,11 @@ def build_report(
     lines.append(f"# RSS Daily Report（{date_str}）\n")
     lines.append(f"> 信息源：{len(sources)} 个 | 收录：{len(items)} 条  ")
     lines.append(group_header_line())
-    if selected_keys:
-        lines.append(f"> 平台 key：{len(selected_keys)} 个 | 每平台 Top：{max(0, int(per_platform_limit))}  ")
+    if group_by == "platform" and max(0, int(per_platform_limit)) > 0:
+        if selected_keys:
+            lines.append(f"> 平台 key：{len(selected_keys)} 个 | 每平台 Top：{max(0, int(per_platform_limit))}  ")
+        else:
+            lines.append(f"> 平台组：{len(platform_sources)} 个 | 每平台 Top：{max(0, int(per_platform_limit))}  ")
     lines.append(f"> 生成耗时：~{max(1, int(round(duration_seconds / 60)))} 分钟\n")
     lines.append("---\n")
 
@@ -1723,9 +1792,19 @@ def build_report(
         lines.append("- 常见但本脚本当前未解析/未使用的字段：作者（author）、分类/标签（category）、GUID/ID、图片/附件（media/enclosure url）、评论链接等（不同源差异很大）\n")
         lines.append("---\n")
 
-    if selected_keys and group_by == "platform":
+    show_fetch_details = (
+        group_by == "platform"
+        and bool(platform_sources)
+        and (bool(errors) or bool(selected_keys) or len(platform_sources) <= 50)
+    )
+    if show_fetch_details:
         lines.append("## 抓取明细\n")
-        for k in selected_keys:
+
+        def p_sort_key(p: str) -> Tuple[float, str]:
+            return (-float(platform_heat.get(p, 0.0)), p)
+
+        platforms = selected_keys if selected_keys else sorted(platform_sources.keys(), key=p_sort_key)
+        for k in platforms:
             srcs = platform_sources.get(k, [])
             ok = sum(1 for s in srcs if s.url in success_source_urls)
             bad = sum(1 for s in srcs if s.url in failed_source_urls)
@@ -1978,6 +2057,11 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="When --group-by platform: keep top N items per platform (default: 0 = disabled).",
     )
     parser.add_argument(
+        "--per-platform-limit-overrides",
+        default=None,
+        help='Optional JSON dict for per-platform overrides, e.g. {"HelloGitHub 月刊":1}. Prefer config file.',
+    )
+    parser.add_argument(
         "--platform-top-by",
         choices=["recent", "quality"],
         default=str(cfg_get("platform_top_by", "recent")),
@@ -2174,6 +2258,11 @@ def main(argv: Optional[List[str]] = None) -> int:
     else:
         platform_for_source_url = {}
 
+    # If sources provide an explicit platform/group label, apply it when not already overridden by selected_keys.
+    for s in sources:
+        if s.platform:
+            platform_for_source_url.setdefault(s.url, str(s.platform))
+
     enable_github_top10 = bool(args.github_top10) if args.github_top10 is not None else bool(auto_mode)
     if enable_github_top10:
         gh_url = f"https://github.com/trending?since={args.github_trending_since}"
@@ -2313,6 +2402,22 @@ def main(argv: Optional[List[str]] = None) -> int:
         max_items = 50
 
     if args.group_by == "platform" and per_platform_limit > 0:
+        per_platform_limit_overrides: Dict[str, int] = {}
+        raw_overrides = getattr(args, "per_platform_limit_overrides", None)
+        if raw_overrides:
+            try:
+                obj = json.loads(str(raw_overrides))
+                if isinstance(obj, dict):
+                    per_platform_limit_overrides = {str(k): int(v) for k, v in obj.items() if v is not None}
+            except Exception:
+                per_platform_limit_overrides = {}
+        elif isinstance(cfg_defaults.get("per_platform_limit_overrides"), dict):
+            per_platform_limit_overrides = {
+                str(k): int(v)
+                for k, v in dict(cfg_defaults.get("per_platform_limit_overrides") or {}).items()
+                if v is not None
+            }
+
         by_platform: Dict[str, List[EnrichedEntry]] = {}
         for it in enriched:
             by_platform.setdefault(it.entry.platform or it.entry.source_name or "未知来源", []).append(it)
@@ -2328,7 +2433,8 @@ def main(argv: Optional[List[str]] = None) -> int:
 
         for p in by_platform:
             by_platform[p].sort(key=within_platform_sort_key)
-            by_platform[p] = by_platform[p][:per_platform_limit]
+            limit = per_platform_limit_overrides.get(p, per_platform_limit)
+            by_platform[p] = by_platform[p][: max(0, int(limit))]
 
         def p_sort_key(p: str) -> Tuple[float, str]:
             return (-float(platform_heat.get(p, 0.0)), p)

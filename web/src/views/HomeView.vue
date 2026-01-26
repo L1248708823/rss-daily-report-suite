@@ -25,6 +25,20 @@ const filteredItems = computed<NewsItem[]>(() => {
   })
 })
 
+const marketCards = computed(() => {
+  const m = day.value?.meta?.market
+  const indicators = m?.indicators ?? []
+  const sse = indicators.find((x) => x.id === 'sh000001')
+  const goldCny = indicators.find((x) => x.id === 'gds_AU9999')
+  return {
+    fetchedAt: m?.fetched_at || null,
+    note: m?.note || null,
+    sse,
+    goldCny,
+    errors: m?.errors ?? [],
+  }
+})
+
 function displayTitle(item: NewsItem): string {
   return item.title_zh?.trim() || item.title
 }
@@ -94,6 +108,52 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
       <div class="pill" v-else>
         {{ selectedDate || '未选择日期' }} · {{ filteredItems.length }} 条
       </div>
+    </section>
+
+    <section class="market" v-if="marketCards.sse || marketCards.goldCny || marketCards.errors.length">
+      <div class="marketTop">
+        <div class="marketTitle">市场快照</div>
+        <div class="marketSub" v-if="marketCards.fetchedAt">fetched_at: {{ marketCards.fetchedAt }}</div>
+      </div>
+
+      <div v-if="marketCards.errors.length" class="marketErr">
+        <div class="muted">行情抓取有错误（不影响日报生成）：</div>
+        <ul>
+          <li v-for="(e, idx) in marketCards.errors" :key="idx" class="mono">{{ e }}</li>
+        </ul>
+      </div>
+
+      <div class="marketGrid">
+        <div v-if="marketCards.sse" class="mcard">
+          <div class="mname">{{ marketCards.sse.name || '上证指数' }}</div>
+          <div class="mvalue">
+            {{ typeof marketCards.sse.value === 'number' ? marketCards.sse.value.toFixed(2) : '—' }}
+            <span class="munit">点</span>
+          </div>
+          <div class="mmeta">
+            <span v-if="typeof marketCards.sse.change_pct === 'number'" class="tag">
+              {{ marketCards.sse.change_pct >= 0 ? '+' : '' }}{{ marketCards.sse.change_pct.toFixed(2) }}%
+            </span>
+            <span v-if="marketCards.sse.provider" class="muted">provider: {{ marketCards.sse.provider }}</span>
+          </div>
+        </div>
+
+        <div v-if="marketCards.goldCny" class="mcard">
+          <div class="mname">{{ marketCards.goldCny.name || '现货黄金' }}</div>
+          <div class="mvalue">
+            {{ typeof marketCards.goldCny.value === 'number' ? marketCards.goldCny.value.toFixed(2) : '—' }}
+            <span class="munit">元/克</span>
+          </div>
+          <div class="mmeta">
+            <span v-if="typeof marketCards.goldCny.change_pct === 'number'" class="tag">
+              {{ marketCards.goldCny.change_pct >= 0 ? '+' : '' }}{{ marketCards.goldCny.change_pct.toFixed(2) }}%
+            </span>
+            <span v-if="marketCards.goldCny.as_of" class="muted">as_of: {{ marketCards.goldCny.as_of }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="marketCards.note" class="marketNote">{{ marketCards.note }}</div>
     </section>
 
     <section class="list" v-if="filteredItems.length">
@@ -313,8 +373,95 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
   opacity: 0.7;
 }
 
+.market {
+  border-radius: 14px;
+  border: 1px solid var(--color-border);
+  background: var(--color-background-soft);
+  padding: 12px;
+}
+
+.marketTop {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.marketTitle {
+  font-weight: 600;
+}
+
+.marketSub {
+  font-size: 12px;
+  opacity: 0.7;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+.marketErr {
+  margin-bottom: 10px;
+}
+
+.marketErr ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.marketGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mcard {
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-background);
+  padding: 10px;
+}
+
+.mname {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.mvalue {
+  margin-top: 4px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.munit {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.6;
+  margin-left: 6px;
+}
+
+.mmeta {
+  margin-top: 6px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.marketNote {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 @media (max-width: 720px) {
   .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .marketGrid {
     grid-template-columns: 1fr;
   }
 }
