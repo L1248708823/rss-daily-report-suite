@@ -48,4 +48,5 @@ export type NewsDayData = {
     }
   } & Record<string, unknown>
   items: NewsItem[]
+  backfill_items?: NewsItem[]
 }

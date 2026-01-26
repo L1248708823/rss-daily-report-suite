@@ -68,13 +68,55 @@ def infer_platform(name: str, url: str) -> str:
     return n or (re.sub(r"^https?://", "", url).split("/")[0] if url else "未知来源")
 
 
-def parse_checklist(path: str) -> List[Tuple[str, str, str]]:
+def parse_name_meta(name_part: str) -> Tuple[str, Optional[str], Optional[int], List[str]]:
     """
-    Returns list of (name, platform, url) for checked items.
+    Parse inline meta tokens from the checklist name part.
+
+    Supported syntax (before the full-width '｜' separator):
+      - [x] Name|platform=Foo|limit=15|fallback=https://...｜https://example.com/feed
+    Returns: (display_name, platform_override, per_feed_limit, fallback_urls)
+    """
+
+    raw = normalize_ws(name_part)
+    if not raw:
+        return "", None, None, []
+
+    parts = [normalize_ws(p) for p in raw.split("|") if normalize_ws(p)]
+    display_name = parts[0] if parts else raw
+
+    platform_override: Optional[str] = None
+    per_feed_limit: Optional[int] = None
+    fallback_urls: List[str] = []
+
+    for tok in parts[1:]:
+        if tok.startswith("platform="):
+            v = normalize_ws(tok.split("=", 1)[1])
+            if v:
+                platform_override = v
+            continue
+        if tok.startswith("limit="):
+            v = normalize_ws(tok.split("=", 1)[1])
+            try:
+                per_feed_limit = int(v)
+            except Exception:
+                per_feed_limit = None
+            continue
+        if tok.startswith("fallback="):
+            v = normalize_ws(tok.split("=", 1)[1])
+            if v.startswith("http://") or v.startswith("https://"):
+                fallback_urls.append(v)
+            continue
+
+    return display_name, platform_override, per_feed_limit, fallback_urls
+
+
+def parse_checklist(path: str) -> List[Tuple[str, str, str, Optional[int], Tuple[str, ...]]]:
+    """
+    Returns list of (name, platform, url, per_feed_limit, fallback_urls) for checked items.
     """
 
     lines = open(path, "r", encoding="utf-8").read().splitlines()
-    out: List[Tuple[str, str, str]] = []
+    out: List[Tuple[str, str, str, Optional[int], Tuple[str, ...]]] = []
     for raw in lines:
         m = re.match(r"^\s*-\s*\[([xX ])\]\s*(.+?)\s*$", raw)
         if not m:
@@ -88,23 +130,25 @@ def parse_checklist(path: str) -> List[Tuple[str, str, str]]:
             continue
 
         # Name: try split by full-width '｜' first, then fall back to text before URL.
-        name = rest
+        name_part = rest
         if "｜" in rest:
-            name = rest.split("｜", 1)[0]
+            name_part = rest.split("｜", 1)[0]
         else:
             idx = rest.find(url)
             if idx > 0:
-                name = rest[:idx]
-        name = normalize_ws(name).strip("：:|｜-—– ")
+                name_part = rest[:idx]
+
+        display_name, platform_override, per_feed_limit, fallback_urls = parse_name_meta(name_part)
+        name = normalize_ws(display_name).strip("：:|｜-—– ")
         if not name:
             name = re.sub(r"^https?://", "", url).split("/")[0]
 
-        platform = infer_platform(name, url)
-        out.append((name, platform, url))
+        platform = platform_override or infer_platform(name, url)
+        out.append((name, platform, url, per_feed_limit, tuple(fallback_urls)))
     return out
 
 
-def write_sources(path: str, entries: List[Tuple[str, str, str]]) -> None:
+def write_sources(path: str, entries: List[Tuple[str, str, str, Optional[int], Tuple[str, ...]]]) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + ".tmp"
 
@@ -115,11 +159,17 @@ def write_sources(path: str, entries: List[Tuple[str, str, str]]) -> None:
     lines.append("# Format: Name|platform=Platform<TAB>URL\n")
     lines.append("\n")
 
-    for name, platform, url in entries:
+    for name, platform, url, per_feed_limit, fallback_urls in entries:
         if url in seen_urls:
             continue
         seen_urls.add(url)
-        lines.append(f"{name}|platform={platform}\t{url}\n")
+        tokens: List[str] = [f"{name}", f"platform={platform}"]
+        if per_feed_limit is not None:
+            tokens.append(f"limit={int(per_feed_limit)}")
+        for fu in (fallback_urls or ()):
+            tokens.append(f"fallback={fu}")
+        left = "|".join(tokens)
+        lines.append(f"{left}\t{url}\n")
 
     with open(tmp, "w", encoding="utf-8") as f:
         f.writelines(lines)
@@ -140,8 +190,14 @@ def main(argv: List[str] | None = None) -> int:
 
     entries = parse_checklist(checklist)
     if args.dry_run:
-        for name, platform, url in entries:
-            print(f"{name} | platform={platform} | {url}")
+        for name, platform, url, per_feed_limit, fallback_urls in entries:
+            extra = []
+            if per_feed_limit is not None:
+                extra.append(f"limit={per_feed_limit}")
+            for fu in (fallback_urls or ()):
+                extra.append(f"fallback={fu}")
+            tail = (" | " + " | ".join(extra)) if extra else ""
+            print(f"{name} | platform={platform}{tail} | {url}")
         return 0
 
     write_sources(out_path, entries)

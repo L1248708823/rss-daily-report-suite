@@ -2,43 +2,44 @@
 
 ## Project Structure & Module Organization
 
-- `.codex/skills/rss-daily-report/`: publishable skill root.
-  - `scripts/run.py`: main pipeline (fetch → de-dup → score → optional AI → Markdown/JSON).
-  - `sources.md`: default RSS/Atom source list (one per line).
-  - `cache.json`: de-dup/cache state (updated by runs).
-  - `references/`: examples and docs for source formats.
-- `.claude/agents/`: agent personas/prompts (used by some host environments).
-- `RSS源.md`: curated RSS catalog (Markdown table).
-- `my/`: personal lists (e.g., `my/RSS.md` is “one key per line” for platform/source selection).
-- `NewsReport/`: generated reports and structured data (e.g., `NewsReport/data/*.json`).
-- `site/`: static reader UI; `site/assets/data.js` is generated from `NewsReport/data`.
+- `.codex/skills/rss-daily-report/`: RSS 日报核心实现（可发布 skill）。
+  - `scripts/run.py`: 抓取 → 去重 → 打分 →（可选 AI）→ 产出 Markdown/JSON。
+  - `scripts/sync_sources.py`: 从勾选清单同步生成启用源文件。
+  - `sources.md`: 默认源列表（不建议直接手改，优先用 `my/` 覆盖）。
+- `RSS源.md`: 全量 RSS 目录（表格），用于检索/补充来源。
+- `my/`: 个人配置与“唯一入口”。
+  - `my/sources.checklist.md`: 勾选/取消勾选的入口（脚本会同步生成启用列表）。
+  - `my/sources.md`: 自动生成的启用源（供 `run.py` 读取）。
+  - `my/config.json`: 本地默认参数（配额、窗口期、补读等）。
+- `NewsReport/`: 生成物（`NewsReport/data/YYYY-MM-DD.json` + Markdown 日报）。
+- `web/`: Vue3（Vite）前端 MVP，用于本地阅读 `NewsReport/data`。
+- `site/`: 静态旧站（`site/assets/data.js` 由 `build_site.py` 生成）。
 
 ## Build, Test, and Development Commands
 
-This repo runs as scripts (no build step) and intentionally keeps dependencies minimal.
+This repo is primarily script-driven; keep dependencies minimal.
 
-- Install deps: `python3 -m pip install requests`
-- Generate today’s report: `python3 .codex/skills/rss-daily-report/scripts/run.py`
+- Sync enabled sources from checklist: `python3 .codex/skills/rss-daily-report/scripts/sync_sources.py`
+- Generate today’s report (uses `my/config.json` if present): `python3 .codex/skills/rss-daily-report/scripts/run.py`
 - Generate a date: `python3 .codex/skills/rss-daily-report/scripts/run.py YYYY-MM-DD`
-- Use the repo catalog + selection keys:
-  - `python3 .codex/skills/rss-daily-report/scripts/run.py --sources RSS源.md --select-keys-file my/RSS.md --group-by platform`
-- Dry run (no files written): `python3 .codex/skills/rss-daily-report/scripts/run.py --dry-run`
-- Disable AI even if configured: `python3 .codex/skills/rss-daily-report/scripts/run.py --no-ai`
-- Rebuild site data only: `python3 .codex/skills/rss-daily-report/scripts/build_site.py`
-- View locally: open `site/index.html` directly (no server required).
+- Dry run (no files written): `python3 .codex/skills/rss-daily-report/scripts/run.py --dry-run --no-ai`
+- Rebuild legacy site bundle: `python3 .codex/skills/rss-daily-report/scripts/build_site.py`
+- Web dev server: `cd web && npm run dev`
 
 ## Coding Style & Naming Conventions
 
-- Python 3.10+; 4-space indentation.
-- Match existing style in `scripts/run.py`: type hints, `dataclass` models, small explicit helpers, readable control flow.
-- Prefer descriptive names and avoid clever one-liners; keep the skill portable by avoiding heavy new dependencies.
+- Python 3.10+; 4-space indentation; prefer small helpers and explicit control flow (see `scripts/run.py`).
+- Type hints are expected for new functions and dataclasses.
+- Avoid heavy dependencies (keep the pipeline portable).
+- Frontend: follow Vue3 + TypeScript patterns; keep components small and readable.
 
 ## Testing Guidelines
 
-There is no dedicated test framework yet. Before opening a PR:
+No dedicated Python test suite yet. Before opening a PR:
 
 - Syntax check: `python3 -m compileall .`
-- Smoke run on a small budget: `python3 .codex/skills/rss-daily-report/scripts/run.py --dry-run --per-feed-limit 5 --max-items 10`
+- Smoke run (low budget): `python3 .codex/skills/rss-daily-report/scripts/run.py --dry-run --per-feed-limit 5 --max-items 10 --no-ai`
+- Web checks: `cd web && npm run type-check && npm run lint`
 
 ## Commit & Pull Request Guidelines
 

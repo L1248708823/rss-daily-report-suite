@@ -23,9 +23,17 @@ user-invocable: true
 
 如果你不想每次都手敲一堆参数，可以在仓库根目录放一个 `my/config.json`（脚本会自动读取；用 `--no-config` 可禁用），例如：
 
-- `{"defaults":{"per_feed_limit":30,"per_platform_limit":10,"time_budget":240,"sources":["RSS源.md"],"select_keys_file":"my/RSS.md","proxy":"http://127.0.0.1:7890"}}`
+- `{"defaults":{"per_feed_limit":30,"per_platform_limit":10,"time_budget":240,"sources":["my/sources.md"],"proxy":"http://127.0.0.1:7890"}}`
 
-如果你有一份“RSS 源目录”（Markdown 表格）+ 一份“关键 key 列表”（你想要的平台/来源名），可以这样跑：
+本仓库推荐的“选源方式”是只维护一份可勾选清单，然后一键同步生成启用源：
+
+- 勾选：`my/sources.checklist.md`
+- 同步：`python3 .codex/skills/rss-daily-report/scripts/sync_sources.py`（写入 `my/sources.md`）
+- 生成：`python3 .codex/skills/rss-daily-report/scripts/run.py`
+
+可选：在 checklist 的名称后追加 `|limit=15` / `|platform=Foo` / `|fallback=https://...`，同步后会写入 `my/sources.md`（用于“每个源抓几条/兜底端点”的可维护配置）。
+
+如果你有一份“RSS 源目录”（Markdown 表格）+ 一份“关键 key 列表”（你想要的平台/来源名），也可以这样跑（可选）：
 
 - `python3 .codex/skills/rss-daily-report/scripts/run.py --sources RSS源.md --select-keys-file my/RSS.md --group-by platform --per-platform-limit 10 --max-items 0 --per-feed-limit 30`
 
@@ -91,7 +99,8 @@ user-invocable: true
 - `--platform-heat-window-days 30`：平台热度回看天数（仅 `--group-by platform` 生效）
 - `--per-platform-limit 10`：每个平台最多保留 N 条（仅 `--group-by platform` 生效；默认 0 不开启）
 - `--platform-top-by recent|quality`：开启 `--per-platform-limit` 时的选取方式（默认 `recent`）
-- `--select-keys-file my/RSS.md`：从 key 文件筛选平台/来源（1 行 1 个 key；key 会作为“平台”分组名）
+- `--sources my/sources.md`：直接指定启用源列表（推荐配合 `sync_sources.py` 从 checklist 生成）
+- `--select-keys-file my/RSS.md`：可选（旧模式），从 key 文件筛选平台/来源（1 行 1 个 key；key 会作为“平台”分组名）
 - `--select-key "知乎"`：额外追加筛选 key（可重复）
 - `--foreign-news-section`：增加“国外时政”单独 section（随机抽 3 个 feed URL）
 - `--foreign-source-key "world"`：识别“国外时政源”的关键词（可重复；默认内置一组关键词）

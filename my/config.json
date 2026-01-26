@@ -8,6 +8,13 @@
       "HelloGitHub 月刊": 1
     },
     "platform_top_by": "recent",
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_per_platform_limit": 1,
+    "dynamic_platform_quota": true,
+    "platform_quota_window_days": 14,
+    "cold_start_quota_cap": 5,
     "per_feed_limit": 30,
     "min_score": 2.6,
     "time_budget": 240,

@@ -3,7 +3,7 @@
 > 说明：以 MVP 本地可用为第一目标；每次新增需求先补到 `PRD.md`，再拆到这里。
 
 ## P0 · MVP（本地开发）
-- [x] 输出/收敛本地开发文档（`DEV.md`；历史版本归档到 `docs/_archive/`）
+- [x] 输出/收敛本地开发文档（`DEV.md`）
 - [x] 新建 Vue3（Vite）前端项目目录（`web/`）
 - [x] 打通数据读取：Vite dev 下通过 `/api/news/*.json` 读取 `NewsReport/data`
 - [x] 首页 MVP：日期选择 + 搜索 + 条目列表渲染（先不做重设计）

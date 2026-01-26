@@ -1,78 +1,74 @@
 # RSS Daily Report（2026-01-26）
 
-> 信息源：26 个 | 收录：61 条  
+> 信息源：26 个 | 收录：26 条  
 > 分组：按平台热度（窗口 30 天）  
-> 平台 key：20 个 | 每平台 Top：10  
+> 新内容窗口：3 天 | 补读上限：3 条  
+> 平台组：21 个 | 每平台 Top：10  
 > 生成耗时：~1 分钟
-
----
-
-## RSS/Atom 条目字段说明
-
-- 本脚本从 RSS/Atom 解析并使用的字段：`source_name`（源名称）`source_url`（源地址）`title`（标题）`url`（链接）`description`（description/summary/content 清洗）`published`（pubDate/updated）`enclosure_type`（enclosure@type，可用于判断音频/视频）
-- 常见但本脚本当前未解析/未使用的字段：作者（author）、分类/标签（category）、GUID/ID、图片/附件（media/enclosure url）、评论链接等（不同源差异很大）
 
 ---
 
 ## 抓取明细
 
-- **V2EX**：源 3 个（成功 0 / 失败 3 / 未收集 0）
-  - 失败：V2EX — https://v2ex.com/index.xml
-  - 失败：V2EX — http://www.v2ex.com/index.xml
-  - 失败：V2EX - 技术 — https://www.v2ex.com/feed/tab/tech.xml
 - **知乎**：源 3 个（成功 1 / 失败 2 / 未收集 0）
-  - 成功：知乎日报 — https://plink.anyfeeder.com/zhihu/daily
-  - 失败：知乎每日精选 — https://www.zhihu.com/rss
-  - 失败：知乎热榜 — https://plink.anyfeeder.com/zhihu/hotlist
-- **阮一峰的网络日志**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：阮一峰的网络日志 — https://www.ruanyifeng.com/blog/atom.xml
-- **caoz的梦呓**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：caoz的梦呓 — https://plink.anyfeeder.com/weixin/caozsay
-- **虹膜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：虹膜 — https://plink.anyfeeder.com/weixin/IrisMagazine
-- **端传媒**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：端传媒 - 最新 — https://plink.anyfeeder.com/initium/latest
+  - 成功：知乎日报（聚合） — https://plink.anyfeeder.com/zhihu/daily
+  - 失败：知乎每日精选（不稳定） — https://www.zhihu.com/rss
+  - 失败：知乎热榜（不稳定） — https://plink.anyfeeder.com/zhihu/hotlist
 - **雪球**：源 2 个（成功 2 / 失败 0 / 未收集 0）
   - 成功：雪球 — https://xueqiu.com/hots/topic/rss
-  - 成功：雪球 — https://plink.anyfeeder.com/weixin/xueqiujinghua
-- **路透中文**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：路透中文 — https://plink.anyfeeder.com/reuters/cn
-- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
-- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
+  - 成功：雪球（公众号精选） — https://plink.anyfeeder.com/weixin/xueqiujinghua
+- **HelloGitHub 月刊**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：HelloGitHub 月刊 — http://hellogithub.com/rss
+- **GitHub**：源 1 个（成功 0 / 失败 1 / 未收集 0）
+  - 失败：GitHub Trending — https://github.com/trending?since=daily
+- **阮一峰的网络日志**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：阮一峰的网络日志 — https://www.ruanyifeng.com/blog/atom.xml
+- **V2EX**：源 3 个（成功 0 / 失败 3 / 未收集 0）
+  - 失败：V2EX — https://v2ex.com/index.xml
+  - 失败：V2EX（HTTP 兜底） — http://www.v2ex.com/index.xml
+  - 失败：V2EX - 技术 — https://www.v2ex.com/feed/tab/tech.xml
+- **CoolShell**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：酷 壳 – CoolShell — http://coolshell.cn/feed
+- **Decohack**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：Decohack — https://www.decohack.com/feed
+- **云风**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：云风的 BLOG — http://blog.codingnow.com/atom.xml
+- **有赞技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：有赞技术团队 — https://tech.youzan.com/rss/
+- **美团技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：美团技术团队 — https://tech.meituan.com/feed/
+- **虹膜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：虹膜 — https://plink.anyfeeder.com/weixin/IrisMagazine
+- **中国国家地理**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：中国国家地理 — https://plink.anyfeeder.com/weixin/dili360
 - **槽边往事**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：槽边往事 — https://plink.anyfeeder.com/weixin/bitsea
 - **知识分子**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：知识分子 — http://plink.anyfeeder.com/weixin/The-Intellectual
-- **中国国家地理**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：中国国家地理 — https://plink.anyfeeder.com/weixin/dili360
-- **HelloGitHub 月刊**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：HelloGitHub 月刊 — http://hellogithub.com/rss
-- **美团技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：美团技术团队 — https://tech.meituan.com/feed/
-- **有赞技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：有赞技术团队 — https://tech.youzan.com/rss/
-- **CoolShell**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：酷 壳 – CoolShell — http://coolshell.cn/feed
-- **云风**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：云风的 BLOG — http://blog.codingnow.com/atom.xml
+- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
+- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
 - **DIYGod**：源 1 个（成功 0 / 失败 1 / 未收集 0）
   - 失败：DIYGod — https://diygod.me/atom.xml
-- **Decohack**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：Decohack — https://www.decohack.com/feed
+- **caoz的梦呓**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：caoz的梦呓 — https://plink.anyfeeder.com/weixin/caozsay
+- **端传媒**：源 1 个（成功 0 / 失败 1 / 未收集 0）
+  - 失败：端传媒 - 最新（不稳定） — https://plink.anyfeeder.com/initium/latest
+- **路透中文**：源 1 个（成功 0 / 失败 1 / 未收集 0）
+  - 失败：路透中文（不稳定） — https://plink.anyfeeder.com/reuters/cn
 
 ## 失败原因（节选）
 
-- 知乎每日精选 (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss: no element found: line 1, column 0
-- 知乎热榜 (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist: non-feed HTML response
-- 端传媒 - 最新 (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest: non-feed HTML response
-- 路透中文 (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn: syntax error: line 1, column 0
-- V2EX (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-- V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984753a0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))
-- DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984d5c40>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))
-- V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x726d984f7050>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))
-- GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=18.0)
+- 知乎每日精选（不稳定） (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss: no element found: line 1, column 0
+- 路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn: syntax error: line 1, column 0
+- 知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist: non-feed HTML response
+- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest: non-feed HTML response
+- V2EX（HTTP 兜底） (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+- V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7e6810004110>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))
+- V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+- DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7e680c6812b0>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))
+- GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7e680c682db0>, 'Connection to github.com timed out. (connect timeout=5.0)'))
 
 ---
 
@@ -86,7 +82,7 @@
   1. 就是你大脑中那个大人有天突然想放飞自我了，一起加入了孩子们的捣蛋活动中，这时候你会发现自己可以有各种超能力，比如说变透明或是时间静止之类的，简直无所不能
   2. 这也是为何一些精神病人的想法和行为在正常人眼中很荒谬。你看到他们的表现，与你在梦境中看自己的感受，其实没有什么太大差别
   3. 如果大人醒来了，他就会看到孩子们折腾出来的杰作，产生这真是太荒谬了的认知
-- **来源**：[知乎日报](https://daily.zhihu.com/story/9787102)
+- **来源**：[知乎日报（聚合）](https://daily.zhihu.com/story/9787102)
 - **关键词**：`REM` `hypofrontality` `NREM`
 - **评分**：⭐⭐⭐ (3/5)
 
@@ -98,7 +94,7 @@
   1. 去到真正没有光污染的乡村或高原，在秋冬季节的夜晚，朝着仙女座和仙后座之间的方向凝视，你很容易目睹到一团略带光亮的、纺锤形的模糊斑块，这就是从地球上看到的仙女座星…
   2. 然而一个更惊人的事实是：我们不必飞向它，因为它正朝我们而来
   3. 以及它在我们夜空中的“隐藏”形态，远远超乎了所有人的想象
-- **来源**：[知乎日报](https://daily.zhihu.com/story/9787093)
+- **来源**：[知乎日报（聚合）](https://daily.zhihu.com/story/9787093)
 - **关键词**：`M31`
 - **评分**：⭐⭐⭐ (3/5)
 
@@ -110,7 +106,7 @@
   1. 公众号：魅力科学君 在天琴座方向，距离地球大约 219 光年的位置上，有一颗被称为“开普勒 -138”（Kepler-138）的恒星，它是一颗比太阳小得多的红矮…
   2. （↑地球与“开普勒 -138d”的对比，“开普勒 -138c”的内部结构与“开普勒 -138d”基本相同） 那么，这两个“水世界”有可能存在生命吗？正如我们所知…
   3. 水并非都是液态的，在行星表面，大量的水会受热变成水蒸气，这也是它们大气层中的主要气体，而在行星的深处，随着深度的增加，压力也会越来越大，当达到一定程度时，水就会…
-- **来源**：[知乎日报](https://daily.zhihu.com/story/9787088)
+- **来源**：[知乎日报（聚合）](https://daily.zhihu.com/story/9787088)
 - **关键词**：`Kepler-138` `Kepler-138b` `Kepler-138c` `Kepler-138d` `VII`
 - **评分**：⭐⭐⭐ (3/5)
 
@@ -150,7 +146,7 @@
   1. 如果资金转入账户后，投资者什么都不做，那么这笔钱大概率就会一直以现金形式留存。我们的研究显示，这些资金会长期躺在现金账户里——对于很多投资者而言，尤其是那些较年…
   2. Reed：这是一个非常好的问题。作为两个孩子的父亲，我自己也在努力摸索答案。所有研究——包括先锋领航的研究——都表明，早年的金钱对话和金钱体验，能够影响一个人几…
   3. 反而离赚钱越远？这个问题的答案，就在于投资中的“惰性”
-- **来源**：[雪球](http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E6%8A%95%E8%B5%84%E4%B8%AD%EF%BC%8C%E8%B6%8A%E5%8A%AA%E5%8A%9B%E5%B0%B1%E4%BC%9A%E8%B6%8A%E5%B9%B8%E8%BF%90%E5%90%97%EF%BC%9F)
+- **来源**：[雪球（公众号精选）](http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E6%8A%95%E8%B5%84%E4%B8%AD%EF%BC%8C%E8%B6%8A%E5%8A%AA%E5%8A%9B%E5%B0%B1%E4%BC%9A%E8%B6%8A%E5%B9%B8%E8%BF%90%E5%90%97%EF%BC%9F)
 - **关键词**：`Reed` `IRA` `AI` `Andy` `Herbert` `Meir`
 - **评分**：⭐⭐⭐ (3/5)
 
@@ -198,177 +194,15 @@
   1. 核心定调：2025年的真相是“货币贬值”，而非“股市繁荣” 达利欧认为，虽然2025年美股（尤其是AI概念股）表面看起来非常强劲，但这是一种“货币错觉”。202…
   2. 摩根在野 来源：雪球 “2025年的真正故事并非是股市或人工智能，而是货币价值的崩溃以及远离美国资产的转变。” 近期，桥水基金创始人Ray Dalio（瑞·达利…
   3. 一句话总结：达利欧认为我们正处于一个“货币贬值、债务高企、泡沫积聚”的动荡周期中，看似繁荣的股市掩盖了购买力下降和美国“K型”经济的真相，2026年必须高度警惕…
-- **来源**：[雪球](http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%91%9E%C2%B7%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E5%88%A4%E6%96%AD%EF%BC%9A%E7%9C%9F%E7%9B%B8%E4%B8%8D%E6%98%AF%E8%82%A1%E5%B8%82%E7%B9%81%E8%8D%A3%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B4%A7%E5%B8%81%E7%9A%84%E8%B4%AC%E5%80%BC%EF%BC%8C2026%E5%B9%B4%E6%89%8D%E5%88%9A%E5%BC%80%E5%A7%8B)
+- **来源**：[雪球（公众号精选）](http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%91%9E%C2%B7%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E5%88%A4%E6%96%AD%EF%BC%9A%E7%9C%9F%E7%9B%B8%E4%B8%8D%E6%98%AF%E8%82%A1%E5%B8%82%E7%B9%81%E8%8D%A3%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B4%A7%E5%B8%81%E7%9A%84%E8%B4%AC%E5%80%BC%EF%BC%8C2026%E5%B9%B4%E6%89%8D%E5%88%9A%E5%BC%80%E5%A7%8B)
 - **关键词**：`AI` `Dalio` `Ray` `Affordability` `Issue` `Plan`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---
 
-## HelloGitHub 月刊（热度 71）
+## Decohack（热度 10）
 
-### 11. HelloGitHub 第 97 期
-
-- **摘要**：本期共有 40 个项目，包含 C 项目 (3)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (3)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (1)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (2)，人工智能 (4)，其它 (5)，开源书籍 (2)
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 包含 C 项目 (3)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (3)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…
-- **来源**：[HelloGitHub 月刊](https://hellogithub.com/periodical/volume/97)
-- **关键词**：`C++` `Go` `HelloGitHub` `Java` `JavaScript` `Kotlin`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
----
-
-## CoolShell（热度 0）
-
-### 12. ETCD的内存问题
-
-- **摘要**：今天跟大家分享一个etcd的内存大量占用的问题，这是前段时间在我们开源软件Easegress中遇到的问题，问题是比较简单的，但是我还想把前因后果说一下，包括，为... Read More Read More The post ETCD的内存问题 first appeared on 酷 壳 - CoolShell .
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post ETCD的内存问题 first appeared on 酷 壳 - CoolShell
-  2. 今天跟大家分享一个etcd的内存大量占用的问题，这是前段时间在我们开源软件Easegress中遇到的问题，问题是比较简单的，但是我还想把前因后果说一下，包括，为
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22242.html)
-- **关键词**：`ETCD` `More` `Read` `appeared` `CoolShell` `Easegress`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 13. 从一次经历谈 TIME_WAIT 的那些事
-
-- **摘要**：今天来讲一讲TCP 的 TIME_WAIT 的问题。这个问题尽人皆知，不过，这次遇到的是不太一样的场景，前两天也解决了，正好写篇文章，顺便把 TIME_WAIT... Read More Read More The post 从一次经历谈 TIME_WAIT 的那些事 first appeared on 酷 壳 - CoolShell .
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 从一次经历谈 TIME_WAIT 的那些事 first appeared on 酷 壳 - CoolS…
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22263.html)
-- **关键词**：`TIME_WAIT` `More` `Read` `appeared` `CoolShell` `first`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 14. 是微服务架构不香还是云不香？
-
-- **摘要**：这两天技术圈里热议的一件事就是Amazon的流媒体平台Prime Video在2023年3月22日发布了一篇技术博客《规模化Prime Video的音视频监控服... Read More Read More The post 是微服务架构不香还是云不香？ first appeared on 酷 壳 - CoolShell .
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 是微服务架构不香还是云不香
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22422.html)
-- **关键词**：`More` `Prime` `Read` `Video` `Amazon` `appeared`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 15. eBPF 介绍
-
-- **摘要**：很早前就想写一篇关于eBPF的文章，但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎... Read More Read More The post eBPF 介绍 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post eBPF 介绍 first appeared on 酷 壳 - CoolShell
-  2. 但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22320.html)
-- **关键词**：`eBPF` `More` `Read` `appeared` `CoolShell` `first`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 16. “一把梭：REST API 全用 POST”
-
-- **摘要**：写这篇文章的原因主要还是因为V2EX上的这个贴子，这个贴子中说—— “对接同事的接口，他定义的所有接口都是 post 请求，理由是 https 用 post 更... Read More Read More The post “一把梭：REST API 全用 POST” first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post “一把梭：REST API 全用 POST” first appeared on 酷 壳 - Cool…
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22173.html)
-- **关键词**：`post` `API` `More` `POST` `Read` `REST`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 17. 感染新冠的经历
-
-- **摘要**：写一篇与技术无关的文章，供大家参考。我住北京朝阳，从上周三开始我家一家三口陆续发烧生病，自测抗原后，都是阳性。好消息是，这个奥密克戎跟一般的病毒性感冒差不多，没... Read More Read More The post 感染新冠的经历 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 感染新冠的经历 first appeared on 酷 壳 - CoolShell
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22341.html)
-- **关键词**：`More` `Read` `appeared` `CoolShell` `first` `on`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 18. 我看ChatGPT: 为啥谷歌掉了千亿美金
-
-- **摘要**：两个月前，我试着想用 ChatGPT 帮我写篇文章《eBPF 介绍》，结果错误百出，导致我又要从头改一遍，从那天我觉得 ChatGPT 生成的内容完全不靠谱，所... Read More Read More The post 我看ChatGPT: 为啥谷歌掉了千亿美金 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 我看ChatGPT: 为啥谷歌掉了千亿美金 first appeared on 酷 壳 - CoolS…
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22398.html)
-- **关键词**：`ChatGPT` `More` `Read` `appeared` `CoolShell` `eBPF`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 19. 聊聊 nostr 和 审查
-
-- **摘要**：这两天在网络上又有一个东西火了，Twitter 的创始人 @jack 新的社交 iOS App Damus 上苹果商店（第二天就因为违反中国法律在中国区下架了... Read More Read More The post 聊聊 nostr 和 审查 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 聊聊 nostr 和 审查 first appeared on 酷 壳 - CoolShell
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22367.html)
-- **关键词**：`More` `nostr` `Read` `App` `appeared` `CoolShell`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 20. 聊聊团队协同和协同工具
-
-- **摘要**：这两天跟 Cali 和 Rather 做了一个线上的 Podcast &#8211; Ep.5 一起聊聊团队协同。主要是从 IM 工具扩展开来聊了一下团队的协同... Read More Read More The post 聊聊团队协同和协同工具 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 聊聊团队协同和协同工具 first appeared on 酷 壳 - CoolShell
-  2. 这两天跟 Cali 和 Rather 做了一个线上的 Podcast &#8211; Ep.5 一起聊聊团队协同。主要是从 IM 工具扩展开来聊了一下团队的协同
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22298.html)
-- **关键词**：`More` `Read` `appeared` `Cali` `CoolShell` `Ep.5`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 21. 谈谈公司对员工的监控
-
-- **摘要**：今天看到微博上有一个热点事件， 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，... Read More Read More The post 谈谈公司对员工的监控 first appeared on 酷 壳 - CoolShell .
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Read More Read More The post 谈谈公司对员工的监控 first appeared on 酷 壳 - CoolShell
-  2. 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，
-- **来源**：[酷 壳 – CoolShell](https://coolshell.cn/articles/22157.html)
-- **关键词**：`More` `Read` `appeared` `CoolShell` `first` `on`
-- **评分**：⭐⭐⭐ (3/5)
-
----
-
-## Decohack（热度 0）
-
-### 22. PH今日热榜 | 2026-01-18
-
-- **摘要**：1. Sled 标语：用手机通过语音控制你的编程助手。 介绍：Sled让你通过手机语音来控制你的编程助手。编程 [&#8230;]
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 介绍：Sled让你通过手机语音来控制你的编程助手。编程 [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-18/)
-- **关键词**：`Sled` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 23. PH今日热榜 | 2026-01-20
-
-- **摘要**：1. Noodle Seed 标语：让您的业务在几分钟内与AI对话连接起来。 介绍：让你的客户在他们已经搜索的 [&#8230;]
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Noodle Seed 标语：让您的业务在几分钟内与AI对话连接起来
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-20/)
-- **关键词**：`AI` `Noodle` `PH` `Seed`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 24. PH今日热榜 | 2026-01-21
-
-- **摘要**：1. daily.dev Recruiter 标语：从全球最大的开发者社区中招聘人才 介绍：接触那些只在 da [&#8230;]
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. daily.dev Recruiter 标语：从全球最大的开发者社区中招聘人才 介绍：接触那些只在 da [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-21/)
-- **关键词**：`da` `daily.dev` `PH` `Recruiter`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 25. PH今日热榜 | 2026-01-22
-
-- **摘要**：1. Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了！ 介绍：Blink是首个 [&#8230;]
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-22/)
-- **关键词**：`Blink` `Agent` `Builder` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 26. PH今日热榜 | 2026-01-23
+### 11. PH今日热榜 | 2026-01-23
 
 - **摘要**：1. ChartGen AI 标语：几秒钟内将数据转化为专业图表并获得洞察。 介绍：来自Ada.im团队的Ch [&#8230;]
 - **分类**：`技术`  |  **载体**：`文章`
@@ -378,7 +212,7 @@
 - **关键词**：`Ada.im` `AI` `Ch` `ChartGen` `PH`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 27. PH今日热榜 | 2026-01-25
+### 12. PH今日热榜 | 2026-01-25
 
 - **摘要**：1. Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理编程和人工智能相关的话题 [&#8230;]
 - **分类**：`技术`  |  **载体**：`文章`
@@ -388,37 +222,7 @@
 - **关键词**：`Humans` `in` `Loop` `PH`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 28. PH今日热榜 | 2026-01-16
-
-- **摘要**：1. Cal.com Companion Apps 标语：原生iOS和Android应用程序 + 用于调度的浏 [&#8230;]
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. Cal.com Companion Apps 标语：原生iOS和Android应用程序 + 用于调度的浏 [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-16/)
-- **关键词**：`Android` `Apps` `Cal.com` `Companion` `iOS` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 29. PH今日热榜 | 2026-01-17
-
-- **摘要**：1. 1Code 标语：开源的类似光标的用户界面，用于Claude编码 介绍：什么是1Code？它是一款可以让 [&#8230;]
-- **分类**：`商业/产品`  |  **载体**：`文章`
-- **要点**：
-  1. 1Code 标语：开源的类似光标的用户界面，用于Claude编码 介绍：什么是1Code？它是一款可以让 [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-17/)
-- **关键词**：`Code` `Claude` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 30. PH今日热榜 | 2026-01-19
-
-- **摘要**：1. OMEGA Ω™ 标语：一个只有3.6MB的浏览器，它不会追踪、分析或出售用户数据。 介绍：OMEGA： [&#8230;]
-- **分类**：`商业/产品`  |  **载体**：`文章`
-- **要点**：
-  1. OMEGA Ω™ 标语：一个只有3.6MB的浏览器，它不会追踪、分析或出售用户数据
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-19/)
-- **关键词**：`OMEGA` `MB` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 31. PH今日热榜 | 2026-01-24
+### 13. PH今日热榜 | 2026-01-24
 
 - **摘要**：1. Tonkotsu 标语：管理一支编码团队的文档 介绍：Tonkotsu是一种全新的体验：它提供了一个简洁 [&#8230;]
 - **分类**：`其他`  |  **载体**：`文章`
@@ -430,113 +234,9 @@
 
 ---
 
-## 中国国家地理（热度 0）
+## 云风（热度 10）
 
-### 32. 中国“笨”味地理，笨得让人着迷
-
-- **摘要**：最近， 河南 “笨菠菜” 爆火 它其貌不扬、缓慢生长 却堪称 “菠菜界天花板” “笨”成了传奇 在万物匆忙、一切求 “快” 的当下 “笨” 字的含金量反而不断上升 在神州大地的褶皱里 总有些慢吞吞生长的“小笨笨” 它们拒绝激素催产、无视大棚恒温 在风霜里长得缓慢粗糙，甚至有点丑 但正是这些“笨东西” 留住了大地最宝贵的滋味 河南“笨菠菜” “笨”成传奇，“甜”入人心 “霜打的茄子”会 蔫 但霜打的“笨菠菜”很 甜 每年10月中下旬的豫东北地区，初霜将至，深秋来临，菜农开始在 中原大地上 “暗送秋菠” 。 但这可不是…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 【参考文献】 [1]《河南“趴地菠菜”凭啥甜进全国心坎？》河南省文旅厅 2026年01月16日 [2]《听说东北人专吃“小笨蛋”？还说越笨越香……》 中国新闻网…
-  2. 黄河三角洲位置示意图 图源：中国国家地理 2022年08期 审图号：GS京（2022）0616号 所以，不仅寿光的独根红可称为“笨韭菜”，作为“中国菜篮子”的山…
-  3. 中国最厚黑土地几乎全分布于黑龙江境内 即松嫩平原北部与中部、三江平原西缘 图源：中国国家地理 2026年01期 审图号：GS京（2025）2638号 而在眼前当…
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%AC%A8%E2%80%9D%E5%91%B3%E5%9C%B0%E7%90%86%EF%BC%8C%E7%AC%A8%E5%BE%97%E8%AE%A9%E4%BA%BA%E7%9D%80%E8%BF%B7)
-- **关键词**：`GS` `http` `Jubei` `wUHLIdxaHM` `www.jintiankansha.me`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 33. 图片过于震撼，一年只发一遍
-
-- **摘要**：转眼马上腊八，回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的12张封面照 又是 百里挑一中的百里挑一 但受制于杂志尺寸 很多人并未见过 12张神图的 “完全体” 因此，那些以最极致方式 浓缩我们一整年精华的图片 今天，就让它们以完整比例示人！ 1月：广东专辑（上）湾区篇 2025年的头两个月 我们的眼里全是 “粤” 2025刚一开年 一个重磅消息就横空出世 广东成为 我国首个 GDP超14万亿元大省 且…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的…
-  2. 点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：Jubei 春节自驾，这5条线赢麻了 最震撼的“火与水之歌”，在这里奏响
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D)
-- **关键词**：`GDP` `gu6ofjkr77` `http` `Jubei` `www.jintiankansha.me`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 34. 在中国，最被忽视的世界级风景
-
-- **摘要**：提到“世界自然遗产”，很多人脑海里浮现的，往往是那些早已成名的风景名片。但在中国，还有一些地方，你或许听过名字，却未必意识到它们早已被写进世界遗产名录；也有一些，看似低调，甚至并不“网红”，却在全球自然保护体系中占据着重要位置。截至2024年8月，中国共有19处世界自然遗产（含自然遗产与自然文化双遗产），数量位居世界前列。这些遗产的价值，并不只在于“好看”，更在于它们所代表的生态类型、地质演化过程与生物多样性，在全球尺度上都具有不可替代性。01 新疆伊犁巩留县库尔德宁风景区02 青海省可可西里03 云南省迪庆藏族自…
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 很多人脑海里浮现的，往往是那些早已成名的风景名片。但在中国，还有一些地方，你或许听过名字，却未必意识到它们早已被写进世界遗产名录；也有一些，看似低调，甚至并不“…
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E4%B8%AD%E5%9B%BD%EF%BC%8C%E6%9C%80%E8%A2%AB%E5%BF%BD%E8%A7%86%E7%9A%84%E4%B8%96%E7%95%8C%E7%BA%A7%E9%A3%8E%E6%99%AF)
-- **关键词**：`http` `mPCIamYsZ` `www.jintiankansha.me`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 35. 西安一下雪，就成了长安
-
-- **摘要**：陕西省西安市，有“长安”等古称，是一座有着3000多年建城史的古都，是我国最著名的古都之一。强盛的西汉、辉煌的唐代等，在此接力书写了十三朝古都的璀璨华章。 当雪花飘落，历史仿佛在此刻苏醒。六百余年的明城墙上，为新春准备的灯饰在飞雪中晕开温暖光晕，古老的砖石在现代光影中诉说新的年节篇章；终南山下的楼观台，雪覆层峦，天地清寂，老子著经的哲思仍在雪雾中萦绕。 历史不再是书页中的记载，而是化为城墙上一明一暗的灯火，化为楼观台一片雪的清宁。雪落下的声音，是与千年时光对话的絮语。 #西安 #赏雪 #长安 #旅行 #摄影 #地理…
-- **分类**：`生活`  |  **载体**：`文章`
-- **要点**：
-  1. #西安 #赏雪 #长安 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 平台地址： http://www.jintiankansha.me/t/cvRW…
-  2. 有“长安”等古称，是一座有着3000多年建城史的古都，是我国最著名的古都之一。强盛的西汉、辉煌的唐代等，在此接力书写了十三朝古都的璀璨华章
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%A5%BF%E5%AE%89%E4%B8%80%E4%B8%8B%E9%9B%AA%EF%BC%8C%E5%B0%B1%E6%88%90%E4%BA%86%E9%95%BF%E5%AE%89)
-- **关键词**：`cvRW1tLY0O` `gt` `http` `lt` `www.jintiankansha.me`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 36. 黔东南这座古镇，把我看醉了
-
-- **摘要**：镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事。这里也因此，被誉为“国家历史文化名城”与“国家5A级旅游景区”。 登高远眺，碧绿的㵲阳河如玉带环抱，与古城的粉墙黛瓦一同，晕染出千年不变的温润底色。夜幕降临，华灯初上，古桥、老宅、灯笼的倒影在水波中轻漾，历史的气息在流光中变得可触可感。这一刻，你不是过客，而是这幅千年画卷中，如约而至的旅人。 #镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现…
-- **分类**：`生活`  |  **载体**：`文章`
-- **要点**：
-  1. 镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事…
-  2. #镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 平台地址： http://www.jintiankansha.me/t/…
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%BB%94%E4%B8%9C%E5%8D%97%E8%BF%99%E5%BA%A7%E5%8F%A4%E9%95%87%EF%BC%8C%E6%8A%8A%E6%88%91%E7%9C%8B%E9%86%89%E4%BA%86)
-- **关键词**：`gt` `http` `kiT0JBXmys` `lt` `www.jintiankansha.me`
-- **评分**：⭐⭐⭐ (3/5)
-
----
-
-## 云风（热度 0）
-
-### 37. Skynet 升级到 Lua 5.5.0
-
-- **摘要**：Lua 5.5.0 已经正式发布。所以，skynet 的 Lua 版本也随之升级。 skynet 维护了一份修改版的 Lua ，允许在多个虚拟机之间共享函数原型。这可以节省初始化 Lua 服务的时间，减少内存占用。 跨虚拟机共享函数原型最困难的部分是函数原型会引用常量字符串，而 Lua 在处理短字符串时，需要在虚拟机内部做 interning 。所以 skynet 的这个 patch 主要解决的是正确处理被 interning 的短字符串和从外部导入的函数原型中包含的字符串共存的问题。具体方法记录在这篇 blog…
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. Lua 5.5.0 已经正式发布。所以，skynet 的 Lua 版本也随之升级
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/12/skynet_lua_550.html)
-- **关键词**：`Lua` `skynet` `interning` `blog` `patch` `Skynet`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 38. 嵌入主线程消息循环的任务调度器
-
-- **摘要**：最近在网友协助下把 soluna port 到包括 wasm 在内的非 windows 平台。其间遇到很多难题，大多是多线程环境的问题。因为 soluna 的根基就是基于 ltask 的多线程调度器，如果用单线程实现它，整个项目的意义就几乎不存在，所以它是把项目维护下去必须解决的问题。 好在 lua 有优秀的 coroutine 支持，它可以把运行流程抽象成数据，而 Lua 本身并未限制数据的具体储存方式，所以完全可以存在于内存堆中，脱离于 C 栈存在，这为各种在 C 环境下的多线程难题开了后门。C 语言依赖栈运行…
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 最近在网友协助下把 soluna port 到包括 wasm 在内的非 windows 平台。其间遇到很多难题，大多是多线程环境的问题。因为 soluna 的根…
-  2. 好在 lua 有优秀的 coroutine 支持，它可以把运行流程抽象成数据，而 Lua 本身并未限制数据的具体储存方式，所以完全可以存在于内存堆中，脱离于 C…
-  3. 上一次发现利用一些技巧就可以完成一些看似不可能却的确可行的调度方式是 多线程串行运行 Lua 虚拟机
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/11/task_schedule_in_eventloop.html)
-- **关键词**：`Lua` `soluna` `coroutine` `ltask` `lua` `port`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 39. 欧陆风云 5 的经济系统
-
-- **摘要**：很早从“舅舅”那里拿到了《欧陆风云 5》的试玩版。因为开发期的缘故，更新版本后需要重玩，所以一开始只是陆陆续续玩了十几个小时。前段时间从阳朔攀岩回来，据说已经是发售前最后一版了，便投入精力好好玩了 50 小时，感觉非常好。 我没有玩过这个系列的前作，但有 800 小时《群星》的经验，还有维多利亚 2/3 以及十字军之王 2/3 的近百小时游戏时间，对 P 社的大战略游戏的套路还是比较了解的。这一作中有很多似曾相识的机制，但玩进去又颇为新鲜，未曾在其它游戏中体验过。 我特别喜欢 P 社这种在微观上使用简洁公式，宏观展…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 我特别喜欢 P 社这种在微观上使用简洁公式，宏观展现出深度的游戏设计。我试着对游戏的一小部分设计作一些分析，记录一下它的经济系统是如何构建的
-  2. 很早从“舅舅”那里拿到了《欧陆风云 5》的试玩版。因为开发期的缘故，更新版本后需要重玩，所以一开始只是陆陆续续玩了十几个小时。前段时间从阳朔攀岩回来，据说已经是…
-  3. 但有 800 小时《群星》的经验，还有维多利亚 2/3 以及十字军之王 2/3 的近百小时游戏时间，对 P 社的大战略游戏的套路还是比较了解的。这一作中有很多似…
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/11/eu5.html)
-- **评分**：⭐⭐⭐ (3/5)
-
-### 40. 欧陆风云5的游玩笔记
-
-- **摘要**：最近一个月共玩了 270 小时的欧陆风云5 ，这两天打算停下来。最近在游戏后期打大战役时，交互已经卡得不行。我已经是 i9-14900K 的 CPU ，估计升级硬件已经无法解决这个问题，只能等版本更新优化了。 ps. 其实只要把游戏暂停下来立刻就不卡了。虽然我直到这个游戏需要的计算量非常大，但是卡交互操作肯定是实现的不对。因为这并不是因为渲染负荷造成的卡顿，可以让游戏时间流逝更慢一些，也不应该让鼠标点击后的界面弹出时间变长。 在暂置游戏前，我先把一些关于游戏设计上的理解先记录下来。也是对上一篇的补充。 在最初几十小…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 我一直想确认游戏经济系统的基础逻辑。和很多类似策略游戏不同，欧陆风云5 在游戏一开始，展现给玩家的是一个发展过（或者说是设定出来）的经济系统版图。玩家更需要了解…
-  2. 最近一个月共玩了 270 小时的欧陆风云5 ，这两天打算停下来。最近在游戏后期打大战役时，交互已经卡得不行。我已经是 i9-14900K 的 CPU ，估计升级…
-  3. 我十分好奇这样一个复杂的经济系统是怎样启动起来的，所以仔细做了一点归纳笔记。不一定全对，但很多信息在游戏内的说明和目前的官方 wiki 都不完整，只能自己探索
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/11/eu5_notes.html)
-- **关键词**：`CPU` `EU5` `i9-14900K` `ps.` `wiki`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 41. 介绍几款单人桌游
+### 14. 介绍几款单人桌游
 
 - **摘要**：上个月我花了不少时间在 dotAge 这个游戏中。我很喜欢这种通过精算规划应对确定风险的感觉。由于 dotAge 有很强的欧式桌游的设计感，所以我在桌游中尝试了一些有类似设计元素的单人游戏。 我感觉体验比较接近的有 Voidfall (2023) 和 Spirit Island (2017) 。因为灵魂岛（spirit island ）更早一些，而且 steam 上有官方的电子版，bgg 上总体排名也更高，所以我在上面花的时间最多。 这两个游戏的特点都是确定性战斗机制，即在战斗时完全没有投骰这类随机元素介入。在开战…
 - **分类**：`商业/产品`  |  **载体**：`文章`
@@ -546,82 +246,69 @@
 - **关键词**：`dotAge` `Avatar` `bgg` `Island` `island` `Spirit`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 42. 关于桌游设计大赛的介绍
+---
 
-- **摘要**：这一篇是前几个月研究桌游规则期间的另一篇小结。因为最近两个多月都在制作 Deep Future 的数字版，没空整理笔记。现在闲下来，汇总整理这么一篇记录。 今年夏天，我迷上了 DIY 类型的桌游。这类桌游最显设计灵感。商业桌游固然被打磨的更好，但设计/制作周期也更长。通常，规则也更复杂，游戏时间更长。我经常买到喜欢的游戏找不到人开。阅读和理解游戏规则也是颇花精力的事情。所以，我近年更倾向于有单人模式的游戏。这样至少学会了规则就能开始玩。但为单人游玩的商业桌游并不算多（不太好卖），而我对多年前玩过的几款 PnP （打…
-- **分类**：`商业/产品`  |  **载体**：`文章`
+## 中国国家地理（热度 5）
+
+### 15. 中国“笨”味地理，笨得让人着迷
+
+- **摘要**：最近， 河南 “笨菠菜” 爆火 它其貌不扬、缓慢生长 却堪称 “菠菜界天花板” “笨”成了传奇 在万物匆忙、一切求 “快” 的当下 “笨” 字的含金量反而不断上升 在神州大地的褶皱里 总有些慢吞吞生长的“小笨笨” 它们拒绝激素催产、无视大棚恒温 在风霜里长得缓慢粗糙，甚至有点丑 但正是这些“笨东西” 留住了大地最宝贵的滋味 河南“笨菠菜” “笨”成传奇，“甜”入人心 “霜打的茄子”会 蔫 但霜打的“笨菠菜”很 甜 每年10月中下旬的豫东北地区，初霜将至，深秋来临，菜农开始在 中原大地上 “暗送秋菠” 。 但这可不是…
+- **分类**：`财经`  |  **载体**：`文章`
 - **要点**：
-  1. 我了解到了 9 卡微型 PnP 游戏设计大赛。从 2008 年开始，在 bgg (boardgamegeek) 上每年都会举办
-  2. 我迷上了 DIY 类型的桌游。这类桌游最显设计灵感。商业桌游固然被打磨的更好，但设计/制作周期也更长。通常，规则也更复杂，游戏时间更长。我经常买到喜欢的游戏找不…
-  3. 这一篇是前几个月研究桌游规则期间的另一篇小结。因为最近两个多月都在制作 Deep Future 的数字版，没空整理笔记。现在闲下来，汇总整理这么一篇记录
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/10/boardgame_design_contest.html)
-- **关键词**：`bgg` `PnP` `A4` `boardgamegeek` `Deep` `Delve`
+  1. 【参考文献】 [1]《河南“趴地菠菜”凭啥甜进全国心坎？》河南省文旅厅 2026年01月16日 [2]《听说东北人专吃“小笨蛋”？还说越笨越香……》 中国新闻网…
+  2. 黄河三角洲位置示意图 图源：中国国家地理 2022年08期 审图号：GS京（2022）0616号 所以，不仅寿光的独根红可称为“笨韭菜”，作为“中国菜篮子”的山…
+  3. 中国最厚黑土地几乎全分布于黑龙江境内 即松嫩平原北部与中部、三江平原西缘 图源：中国国家地理 2026年01期 审图号：GS京（2025）2638号 而在眼前当…
+- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E7%AC%A8%E2%80%9D%E5%91%B3%E5%9C%B0%E7%90%86%EF%BC%8C%E7%AC%A8%E5%BE%97%E8%AE%A9%E4%BA%BA%E7%9D%80%E8%BF%B7)
+- **关键词**：`GS` `Jubei`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 43. 和 AI 聊游戏设计
+### 16. 图片过于震撼，一年只发一遍
 
-- **摘要**：最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok 。 去年也和朋友聊过很多，但对理清楚自己的想法帮助有限。因为和人聊容易陷入不断的细节解释当中，一些天马行空的想法更容易被质疑，一旦陷入辩论就不太容易跳出来。而且每个人的时间并不固定，很容易造成时间和精力的浪费。和 AI 聊要轻松得多，AI 毕竟见多识广，随便提到的点都能接得上话。不想聊下去尽可以中断，不用担心浪费时间。即使怀疑 AI 出现幻觉，也可以随时暂停下来通过搜索核实。 不过，我觉…
-- **分类**：`娱乐`  |  **载体**：`文章`
+- **摘要**：转眼马上腊八，回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的12张封面照 又是 百里挑一中的百里挑一 但受制于杂志尺寸 很多人并未见过 12张神图的 “完全体” 因此，那些以最极致方式 浓缩我们一整年精华的图片 今天，就让它们以完整比例示人！ 1月：广东专辑（上）湾区篇 2025年的头两个月 我们的眼里全是 “粤” 2025刚一开年 一个重磅消息就横空出世 广东成为 我国首个 GDP超14万亿元大省 且…
+- **分类**：`财经`  |  **载体**：`文章`
 - **要点**：
-  1. 最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok
-  2. 我觉得和 AI 讨论也有另一方面的问题。那就是太容易顺着你的思路夸大其词。它更像是一个貌似领域知识渊博但只是想讨好你的同好，不断的放出一些华丽的辞藻却在逻辑上经…
-  3. 但我依然偶尔被 AI 的总结惊艳到。比如说有一场主题为模拟类型游戏的话题，聊到最后 AI 总结：
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2026/01/ai_game_design.html)
-- **关键词**：`AI` `google` `grok` `twitter`
+  1. 回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的…
+  2. 点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：Jubei 春节自驾，这5条线赢麻了 最震撼的“火与水之歌”，在这里奏响
+- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D)
+- **关键词**：`GDP` `Jubei`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 44. 带可可学数学
+### 17. 在中国，最被忽视的世界级风景
 
-- **摘要**：可可三年级，前段老师说她数学成绩不好，需要在家加强一下。 这段时间我每天晚上给她讲一点点数学，都是课本上的内容，然后我再稍稍发挥一下。几次之后，我发现最大的问题是她觉得数学很无聊。 她似乎比较抗拒学新的知识，更喜欢用熟悉的方法。去年我发现她计算能力有问题，每天给她做加减法练习，总算不再用更早年我教她的 +1 法算加法了：即计算 7+8 的时候，算 8 次 +1 ，也就是数数。二年级学了乘法，乘法表也背了，但现在做应用题，本该用乘法的场合，她还是习惯连续算加法，一旦乘数太大就会出错。要用除法的时候就更混乱了，并不是用…
+- **摘要**：提到“世界自然遗产”，很多人脑海里浮现的，往往是那些早已成名的风景名片。但在中国，还有一些地方，你或许听过名字，却未必意识到它们早已被写进世界遗产名录；也有一些，看似低调，甚至并不“网红”，却在全球自然保护体系中占据着重要位置。截至2024年8月，中国共有19处世界自然遗产（含自然遗产与自然文化双遗产），数量位居世界前列。这些遗产的价值，并不只在于“好看”，更在于它们所代表的生态类型、地质演化过程与生物多样性，在全球尺度上都具有不可替代性。01 新疆伊犁巩留县库尔德宁风景区02 青海省可可西里03 云南省迪庆藏族自…
+- **分类**：`技术`  |  **载体**：`文章`
+- **要点**：
+  1. 很多人脑海里浮现的，往往是那些早已成名的风景名片。但在中国，还有一些地方，你或许听过名字，却未必意识到它们早已被写进世界遗产名录；也有一些，看似低调，甚至并不“…
+- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E4%B8%AD%E5%9B%BD%EF%BC%8C%E6%9C%80%E8%A2%AB%E5%BF%BD%E8%A7%86%E7%9A%84%E4%B8%96%E7%95%8C%E7%BA%A7%E9%A3%8E%E6%99%AF)
+- **评分**：⭐⭐⭐ (3/5)
+
+### 18. 西安一下雪，就成了长安
+
+- **摘要**：陕西省西安市，有“长安”等古称，是一座有着3000多年建城史的古都，是我国最著名的古都之一。强盛的西汉、辉煌的唐代等，在此接力书写了十三朝古都的璀璨华章。 当雪花飘落，历史仿佛在此刻苏醒。六百余年的明城墙上，为新春准备的灯饰在飞雪中晕开温暖光晕，古老的砖石在现代光影中诉说新的年节篇章；终南山下的楼观台，雪覆层峦，天地清寂，老子著经的哲思仍在雪雾中萦绕。 历史不再是书页中的记载，而是化为城墙上一明一暗的灯火，化为楼观台一片雪的清宁。雪落下的声音，是与千年时光对话的絮语。 #西安 #赏雪 #长安 #旅行 #摄影 #地理…
 - **分类**：`生活`  |  **载体**：`文章`
 - **要点**：
-  1. 不着急。首先不要排斥它。学数学其实不需要硬背那么多东西，我小时候最不喜欢背书了，所以才喜欢数学的。因为数学是最不需要背的，只要你从原理出发，一步步理解，最后什么…
-  2. 但数学是性价比最高的。一本数学书很便宜，但可以让你读很久。从中发现有那么多有趣的事实。原来解决不了的问题，知道方法突然就明白了。如果是自己找到的方法，就更让人兴…
-  3. 都是课本上的内容，然后我再稍稍发挥一下。几次之后，我发现最大的问题是她觉得数学很无聊
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/12/coco.html)
+  1. #西安 #赏雪 #长安 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文
+  2. 有“长安”等古称，是一座有着3000多年建城史的古都，是我国最著名的古都之一。强盛的西汉、辉煌的唐代等，在此接力书写了十三朝古都的璀璨华章
+- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%A5%BF%E5%AE%89%E4%B8%80%E4%B8%8B%E9%9B%AA%EF%BC%8C%E5%B0%B1%E6%88%90%E4%BA%86%E9%95%BF%E5%AE%89)
+- **关键词**：`gt` `lt`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 45. 最近玩的几款卡牌构筑类电子游戏
+### 19. 黔东南这座古镇，把我看醉了
 
-- **摘要**：最近玩了几个卡牌构筑类的电子游戏，觉得颇为有趣，值得记录一下。 首先是 Decktamer（训牌师）。我玩了十几个小时，把初级难度通关了。 它的新设计是用卡牌构筑的形式重新做了一个宝可梦。和杀戮尖塔开创的战斗结束后抽卡，用战斗胜利的奖励钱买卡、洗卡、升级的模式不同。它的战斗卡是不需要洗的，战斗中死亡就直接消失；新卡片是在战斗中捕获对手获得。加强战斗卡的方式主要是用道具卡杂交战斗卡：从一张战斗卡上抽取需要的技能，加到另一张战斗卡上。 战斗过程更像是万智牌那种更传统的卡牌战斗模式：摆放战斗卡都场上，再由上场的卡片发动能…
-- **分类**：`娱乐`  |  **载体**：`文章`
+- **摘要**：镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事。这里也因此，被誉为“国家历史文化名城”与“国家5A级旅游景区”。 登高远眺，碧绿的㵲阳河如玉带环抱，与古城的粉墙黛瓦一同，晕染出千年不变的温润底色。夜幕降临，华灯初上，古桥、老宅、灯笼的倒影在水波中轻漾，历史的气息在流光中变得可触可感。这一刻，你不是过客，而是这幅千年画卷中，如约而至的旅人。 #镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现…
+- **分类**：`生活`  |  **载体**：`文章`
 - **要点**：
-  1. 玩家卡牌被分成了两个牌堆：战斗卡堆和道具卡堆。这种双卡堆的模式最近的卡牌构筑游戏中比较常见，下面还会再提到。不过这里道具卡堆并不是抽牌堆，更像是一个道具背包，可…
-  2. 它的新设计是用卡牌构筑的形式重新做了一个宝可梦。和杀戮尖塔开创的战斗结束后抽卡，用战斗胜利的奖励钱买卡、洗卡、升级的模式不同。它的战斗卡是不需要洗的，战斗中死亡…
-  3. 我在简单难度通关的感受是：只有最终 boss 有挑战。而这种挑战更像是一个谜题。所以第一次面对最终 boss 我没有一次通过。而是熟悉了它的技能，第二次刻意针对…
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/12/deckbuilder_games.html)
-- **关键词**：`boss` `Decktamer` `undo`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 46. 深远未来开发总结
-
-- **摘要**：桌游 Deep Future（深远未来）开发告一段落，我为它创建了一个 itch.io 的页面 发布第一个试玩版本。接下来的 bugfix 会在 github 继续，等积累一定更新后再发布下一个小版本。 这是一个兴趣驱动的项目。正如上一篇 blog 中写到，驱使我写它的一大动力是在实践中探索游戏开发的难题。写这么一篇总结就是非常必要的了。 开发过程 我在 2025 年 7 月底写下了项目的第一行代码。在前三周并没有在实现游戏方面有太多进展。一开始的工作主要在思考实现这么一个游戏，底层需要怎样的支持。我使用的引擎 s…
-- **分类**：`娱乐`  |  **载体**：`文章`
-- **要点**：
-  1. 桌游 Deep Future（深远未来）开发告一段落，我为它创建了一个 itch.io 的页面 发布第一个试玩版本。接下来的 bugfix 会在 github…
-  2. 这是一个兴趣驱动的项目。正如上一篇 blog 中写到，驱使我写它的一大动力是在实践中探索游戏开发的难题。写这么一篇总结就是非常必要的了
-  3. 开发过程 我在 2025 年 7 月底写下了项目的第一行代码。在前三周并没有在实现游戏方面有太多进展。一开始的工作主要在思考实现这么一个游戏，底层需要怎样的支持…
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2025/10/deepfuture_dev.html)
-- **关键词**：`soluna` `blog` `box` `bugfix` `Deep` `Future`
+  1. 镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事…
+  2. #镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文
+- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%BB%94%E4%B8%9C%E5%8D%97%E8%BF%99%E5%BA%A7%E5%8F%A4%E9%95%87%EF%BC%8C%E6%8A%8A%E6%88%91%E7%9C%8B%E9%86%89%E4%BA%86)
+- **关键词**：`gt` `lt`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---
 
-## 槽边往事（热度 0）
+## 槽边往事（热度 5）
 
-### 47. 雷击木边上的幼芽
-
-- **摘要**：有读者发来一条我多年前早已经删除的微博，当时我说： 「现在是凌晨 3:04，我的微博每个月删一次。但是，我相信如果你能看到这条微博，一定有特别的因缘。胡波并没有得到圆满，他看到了生命中枯寂无望的那一面，但是没有看到灰烬中隐藏的生机。胡波一定程度上是对的，人生中的一切努力都是徒劳无益。但是我们和这种徒劳无益作战，因此有了文明，有了艺术，有了诸多不可言说的隐秘快乐。一定程度上来说，我们的快乐都源自灰烬。在追寻人生中的一个半圆的同时，不应该忘记另一个半圆的存在。雷法毁灭万物，但是在雷击木的边上，会有新的幼芽。」 我已经很…
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 物是人非，我如今的想法和当初相比并没有发生任何改变。我依然相信人生中大部分事情都是徒劳无益，我也依然相信和徒劳无益对抗本身是有意义的，我还坚持认为人生的图景就是…
-  2. 有读者发来一条我多年前早已经删除的微博，当时我说： 「现在是凌晨 3:04，我的微博每个月删一次。但是，我相信如果你能看到这条微博，一定有特别的因缘。胡波并没有…
-  3. 所以我认为讲出我所见到的景象是有意义的，它能够破除「全世界只有我一个人在受苦」这种幻觉，它也能够提供某种信心或者确认，让人们知道遭遇雷击并非人生的终点，它的确是…
-- **来源**：[槽边往事](http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%9B%B7%E5%87%BB%E6%9C%A8%E8%BE%B9%E4%B8%8A%E7%9A%84%E5%B9%BC%E8%8A%BD)
-- **关键词**：`in` `AI` `ar` `before` `Bitsea` `cinematic`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 48. 352 H301 加湿机不上水故障排除方法之一
+### 20. 352 H301 加湿机不上水故障排除方法之一
 
 - **摘要**：今天，修好了 352 H301 加湿机不上水的故障。原因很细小：滤网组件(图中标识 4） 去掉盖子，去掉白色滤网，剩余的骨架上方，有一条黑色的橡胶条，固定在骨架顶端的环形凹槽内。这个橡胶条上有很多细小的孔，水从细孔渗出，均匀下注濡湿滤网。一旦这里阻塞，滤网就始终是干的，无法上水。处理方法是把橡胶条取下冲洗，对准孔洞用力吹气，即可去除堵塞物，最后清洗凹槽，再把橡胶条安装回去，注意分对上下面。网上搜索和过去一样，找不到攻略。我写在这里，希望未来能够帮助到其他人。 文章原文
 - **分类**：`其他`  |  **载体**：`文章`
@@ -631,7 +318,7 @@
 - **关键词**：`H301`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 49. Free solo
+### 21. Free solo
 
 - **摘要**：七年之前，我在公众号推荐过一部纪录片：《 周末荐片：徒手攀岩 》。今天早上 9 点，纪录片中的主角亚历克斯在没有任何保护装置的情况下，徒手攀登台北 101 大厦。历经 1 小时 31 分 34 秒，跨越 500 米的垂直高度，他登顶成功。 在此之前，2004 年12 月 25 日法国「蜘蛛人」阿 伦·罗伯特 (Alain Robert) 做过同样的尝试，但是攀登当天因为下雨的缘故，改为使用安全绳索攀登，耗时四小时登顶成功。 亚历克斯在纪录片中攀登的是位于美国优山美地国家公园的酋长岩，这部纪录片最终获得奥斯卡最佳纪录…
 - **分类**：`生活`  |  **载体**：`文章`
@@ -641,7 +328,7 @@
 - **关键词**：`Free` `solo` `AI` `Alain` `ar` `Bitsea`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 50. 你怎么来真的
+### 22. 你怎么来真的
 
 - **摘要**：刚读完一本书，明就仁波切的《归零---遇见真实》。之前我介绍过他的另外一本书：《 世界上最快乐的人 》，不过，我想两者的读者数量差距可能超过 100 倍，也许都不止。 这里我并不做推荐，因为《归零》对于大多数人来说可能有些吃力，远不如《世界上最快乐的人》那么好读。我只是想写一篇读后感，免得将来遗忘，又无迹可寻。 明就仁波切是一位仁波切，这意味着他拥有完整的传承，接受过严格的训练，然后拥有自己的头衔、寺庙和信众，生活中有忠诚的侍者在周围服侍，出门有热情的弟子提供各种便利和照顾。总之，他生活在一个完美的小世界里，而且位…
 - **分类**：`时事`  |  **载体**：`文章`
@@ -651,7 +338,7 @@
 - **关键词**：`AI` `ar` `Bitsea` `exp` `female` `highway`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 51. 先嚼再咽
+### 23. 先嚼再咽
 
 - **摘要**：也许你已经发现了，我这里没有谈过之前的「红楼梦悼明」，或者现在的「斩杀线」一类的概念，甚至连留言区里打扫得干干净净，不会出现相关的字眼。 为什么会这样？ 因为我觉得这些内容已经太流行，太泛滥了，没有必要在我这里继续出现。大家可以在别处看到，而且是海量地看到，在我这里看不见也许可以算作是一种休息。 当然，有些读者因此会觉得不高兴，因为自己搭楼回复，其他读者的新回复不断被我放出来，但是自己的那一条却迟迟不见动静。原因通常很简单：留言里用到了本日最流行的金句，近期最流行的网络概念，或者是所谓的「流行热梗」。我不想有这些东…
 - **分类**：`商业/产品`  |  **载体**：`文章`
@@ -663,9 +350,9 @@
 
 ---
 
-## 知识分子（热度 0）
+## 知识分子（热度 5）
 
-### 52. “日本诺奖”揭晓：华人科学家陈志坚问鼎
+### 24. “日本诺奖”揭晓：华人科学家陈志坚问鼎
 
 - **摘要**：1.23 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 1月21日下午，日本国际奖基金会 （The Japan Prize Foundation） 公布了 2026年日本国际奖 （Japan Prize） 的获奖者名单。美国德克萨斯大学西南医学中心教授陈志坚和大阪大学高级模式与诊断学中心教授审良静男 （Shizuo Akira） 荣获“生命科学”领域奖；哈佛大学计算机科学家辛西娅·德沃克 （Cynthia Dwork） 荣获“电子、信息与通信”领域奖。 “日本国际奖”是一项日本国家级的科学大奖，也是…
 - **分类**：`财经`  |  **载体**：`文章`
@@ -677,31 +364,7 @@
 - **关键词**：`DNA` `cGAS` `RNA` `STING` `MAVS` `PI`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 53. 两位科学巨人的终身对峙：怎样改写了人类的平均寿命？ | 商周专栏
-
-- **摘要**：1.22 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 巴斯德（左）和科赫（右）。 图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走上了正轨，并逐渐找到了相应的对策，从而使人类的平均寿命得到了极大的提高。 病原微生物学的诞生，两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科赫。 从…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走…
-  2. 仍将在竞争与传承中继续存在下去，并为人类健康不断贡献力量——正如当年的巴斯德与科赫两位科学巨人一样
-  3. 两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科…
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%A4%E4%BD%8D%E7%A7%91%E5%AD%A6%E5%B7%A8%E4%BA%BA%E7%9A%84%E7%BB%88%E8%BA%AB%E5%AF%B9%E5%B3%99%EF%BC%9A%E6%80%8E%E6%A0%B7%E6%94%B9%E5%86%99%E4%BA%86%E4%BA%BA%E7%B1%BB%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD%EF%BC%9F+%7C+%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F)
-- **关键词**：`me` `better` `END` `get` `Intellectual` `too`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 54. 从“橄榄枝”到“学术贷”，正在消失的安家费背后，博士们经历了什么？
-
-- **摘要**：1.21 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash 撰文｜李珊珊 ● ● ● 2025年，可能会被不少青年学者记住——不是因为某项重大政策出台，而是因为一项曾被视为“入场券”的待遇，正在悄然消失：高校安家费。 取消安家费的风，从东部沿海吹向中西部院校。据媒体不完全统计，截至2025年，公开宣布取消安家费的高校已至少25所。一项在过去近二十年间深刻影响博士流动、决定无数人生去向的制度安排，正在被快速拆解、撤下，甚至来不及留下一个正式的告别仪式。 但对许多人来说，安家费从来不是…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 在中国高校舞台上，安家费终于从“橄榄枝”演变为“学术贷”，直至在许多角落悄然消失，其背后，除了博士培养的“大众化”，高校岗位从“求贤若渴”到“僧多粥少”的转变，…
-  2. 一位经历过黄金时代尾声的985博士对此感触尤深：“前些年，为快速提升师资中的博士学历占比，很多地方院校不惜重金，房子、编制、安家费一应俱全，菲律宾、东南亚的博士…
-  3. 周秀龙介绍，向他咨询的高校教师中只有少量的人会真正踏出离职这一步，更多的人则因为考虑到高额的赔偿金而放弃了离职的打算。周秀龙印象最深刻的是一位医学博士跟他提到，…
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E2%80%9C%E6%A9%84%E6%A6%84%E6%9E%9D%E2%80%9D%E5%88%B0%E2%80%9C%E5%AD%A6%E6%9C%AF%E8%B4%B7%E2%80%9D%EF%BC%8C%E6%AD%A3%E5%9C%A8%E6%B6%88%E5%A4%B1%E7%9A%84%E5%AE%89%E5%AE%B6%E8%B4%B9%E8%83%8C%E5%90%8E%EF%BC%8C%E5%8D%9A%E5%A3%AB%E4%BB%AC%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F)
-- **关键词**：`END` `get` `Intellectual` `QS` `Unsplash`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 55. 经常使用AI的人更容易抑郁、焦虑和易怒？
+### 25. 经常使用AI的人更容易抑郁、焦虑和易怒？
 
 - **摘要**：1.24 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 人工智能工具的使用和抑郁症状的关联 图片来源：pixabay .com 生成式人工智能极大地方便了人们的生活。但是，人工智能对精神健康的潜在危害也逐渐被人们所重视。近日，美国麻省总医院定量健康中心Roy H. Perlis团队完成了一项20847名美国成年人参与的调查，分析了人工智能的使用与抑郁症状的关系。结果显示，10.3%的受访者每…
 - **分类**：`生活`  |  **载体**：`文章`
@@ -712,7 +375,7 @@
 - **关键词**：`https` `iNO300` `com` `pixabay` `articles` `mA`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 56. 能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？
+### 26. 能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？
 
 - **摘要**：1.25 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 艾米·诺特（Emmy Noether）。 图源：维基百科 撰 文 | 夏志宏 ● ● ● 我们从小就被灌输一个“物理常识”： 能量守恒。 能量不会凭空产生，也不会凭空消失，只会从一种形式转化为另一种形式。 听起来像宇宙的铁律，甚至像一种“道德”： 你不能作弊，永动机永远不可能出现。 但20世纪初，一位数学家做了一件惊人的事：她告诉我们—— 守恒定律并不是宇宙的基本规则，它其实来自一种更深层的东西：对称性。而在爱因斯坦相对论的时空观里，能量是不守恒…
 - **分类**：`时事`  |  **载体**：`文章`
@@ -726,69 +389,43 @@
 
 ---
 
-## 饭统戴老板（热度 0）
+## 补读（历史库存，去重后每日上限 3 条）
 
-### 57. 为什么我们希望阿福能成？
+### 27. PH今日热榜 | 2026-01-22
 
-- **摘要**：今年YC活动上，微软CEO纳德拉聊起狂热的AI行业，在这个资本开支换股价的人工智能时代，最让他感触的变革是一个发生在他的家乡印度的故事。 2023年初的印度，一位当地开发者用ChatGPT以及构建了一个聊天机器人，交到当地农民手上，让他们访问政府网站来获得农业补贴——美国西海岸的科技漂洋过海，正在惠及远方具体的人。 在纳德拉的观察里，当下的科技领域，一些模型能力被过度炒作，而这样体现AI真正价值的故事正在被低估[1]。早在2016年的微软Ignite大会上，他就表达过类似的观点[2]： AI研究不是为了击败人类，而…
-- **分类**：`财经`  |  **载体**：`文章`
+- **摘要**：1. Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了！ 介绍：Blink是首个 [&#8230;]
+- **分类**：`技术`  |  **载体**：`文章`
 - **要点**：
-  1. 快、赶、抢， 抓住苹果，天下杂志 [1] A conversation with Satya Nadella，Y Combinator [2] Microsof…
-  2. 上海东方医院妇产科主任段涛的“AI分身”，上线半年已为16万人提供过咨询，相当于重庆一家医院产科门诊一年的接诊量。段涛医生说，很多产科门诊竖着“男性禁止入内”的…
-  3. 阿福App上已经有500余位名医开通了AI分身，对于真实就医人群，30万医生可以提供在线问诊服务，将医生的智慧和科技的力量凝聚在一起，能做到面向所有人、7X24…
-- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E5%B8%8C%E6%9C%9B%E9%98%BF%E7%A6%8F%E8%83%BD%E6%88%90%EF%BC%9F)
-- **关键词**：`AI` `of` `AlphaFold` `in` `Microsoft` `App`
+  1. Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了
+- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-22/)
+- **关键词**：`Blink` `Agent` `Builder` `PH`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 58. 人类还配不上“贾维斯”
+### 28. 雷击木边上的幼芽
 
-- **摘要**：在漫威宇宙里，亿万富翁托尼·斯塔克除了钢铁侠机甲外，还创造了一个名为 贾维斯 （J.A.R.V.I.S.）的超级AI助手。 J.A.R.V.I.S.是“Just A Rather Very Intelligent System”（一个相当非常智能的系统）的首字母演化而来，但这个名字，其实是取自斯塔克家族的真人管家。它备受钢铁侠信任，管理从袜子到遗产的一切琐事。而在漫威后续剧情中，贾维斯脱虚向实，演化成了超级英雄“幻视”（Vision），从只懂01的二级制代码，变成了一枚八块腹肌的振金猛男。 保罗·贝坦尼饰演的 真人…
-- **分类**：`财经`  |  **载体**：`文章`
+- **摘要**：有读者发来一条我多年前早已经删除的微博，当时我说： 「现在是凌晨 3:04，我的微博每个月删一次。但是，我相信如果你能看到这条微博，一定有特别的因缘。胡波并没有得到圆满，他看到了生命中枯寂无望的那一面，但是没有看到灰烬中隐藏的生机。胡波一定程度上是对的，人生中的一切努力都是徒劳无益。但是我们和这种徒劳无益作战，因此有了文明，有了艺术，有了诸多不可言说的隐秘快乐。一定程度上来说，我们的快乐都源自灰烬。在追寻人生中的一个半圆的同时，不应该忘记另一个半圆的存在。雷法毁灭万物，但是在雷击木的边上，会有新的幼芽。」 我已经很…
+- **分类**：`技术`  |  **载体**：`文章`
 - **要点**：
-  1. 《银翼杀手2049》 在ChatGPT引爆AGI革命后，人类骤然看到了“贾维斯”们集体涌现的希望，超级AI助手似乎离我们只有咫尺之遥了。在各路科学家和企业家的设…
-  2. 人类创造出无数类似贾维斯的“亲密伙伴”——在《她》里，这个伙伴是温柔体贴的萨曼莎；在《星际穿越》里，这个伙伴是喜欢讲冷笑话的TARS；在《超能陆战队》里，这个伙…
-  3. “豆包手机助手” 遭遇的争议告诉我们—— 人类，其实还没做好迎接“贾维斯”的准备
-- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E4%BA%BA%E7%B1%BB%E8%BF%98%E9%85%8D%E4%B8%8D%E4%B8%8A%E2%80%9C%E8%B4%BE%E7%BB%B4%E6%96%AF%E2%80%9D)
-- **关键词**：`AI` `App` `Agent` `APP` `AGI` `Joi`
+  1. 物是人非，我如今的想法和当初相比并没有发生任何改变。我依然相信人生中大部分事情都是徒劳无益，我也依然相信和徒劳无益对抗本身是有意义的，我还坚持认为人生的图景就是…
+  2. 有读者发来一条我多年前早已经删除的微博，当时我说： 「现在是凌晨 3:04，我的微博每个月删一次。但是，我相信如果你能看到这条微博，一定有特别的因缘。胡波并没有…
+  3. 所以我认为讲出我所见到的景象是有意义的，它能够破除「全世界只有我一个人在受苦」这种幻觉，它也能够提供某种信心或者确认，让人们知道遭遇雷击并非人生的终点，它的确是…
+- **来源**：[槽边往事](http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%9B%B7%E5%87%BB%E6%9C%A8%E8%BE%B9%E4%B8%8A%E7%9A%84%E5%B9%BC%E8%8A%BD)
+- **关键词**：`in` `AI` `ar` `before` `Bitsea` `cinematic`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 59. 再见王石
+### 29. 两位科学巨人的终身对峙：怎样改写了人类的平均寿命？ | 商周专栏
 
-- **摘要**：见段永平的这天，王石穿了一件粉白色的格纹衬衫。 近1小时里，他几乎没有任何肢体动作，只是两手交叉在腹前，不像田朴珺一样跷二郎腿，也不像段永平时而翻动手掌。只有一次，他罕见地挥舞小臂，是为了讲和田朴珺恋爱时滑雪的故事，直到年轻妻子的激动语调两次压过他的表达欲，他才又恢复沉默。 段永平、王石、田朴珺，《共同说 第三季》第三集 这是2025年12月初播出的《共同说 第三季》录制现场，王石坐在千亿身价的段永平，和小自己30岁的妻子兼主持人田朴珺之间，充当陪衬。在这档播了4年的访谈节目中，他作为丈夫，不仅负责给田朴珺摇人、做…
+- **摘要**：1.22 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 巴斯德（左）和科赫（右）。 图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走上了正轨，并逐渐找到了相应的对策，从而使人类的平均寿命得到了极大的提高。 病原微生物学的诞生，两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科赫。 从…
 - **分类**：`财经`  |  **载体**：`文章`
 - **要点**：
-  1. 执掌“后王石”时代万科的郁亮和祝九胜 这一切发生的时候，王石正在外出游学，满世界划赛艇，在深圳海滨的别墅里读书、小酌、吹海风。他当然不必经历杨国强的黯然，也无需…
-  2. 宝能在半年内分批买入万科近25%股权，万科四处求助、停牌反制，最终深圳地铁入局，击退了野蛮人姚振华。2017年6月30日，王石在股东大会上鞠躬退休，给万科留下了…
-  3. 王石代言的Jeep大切诺基广告 褚时健蛰伏在哀牢山，花10年种出了褚橙，而王石登过五大洲的最高峰，现在以“刷脸”为生。但一个企业家的“脸”值多少钱，往往取决于他…
-- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%86%8D%E8%A7%81%E7%8E%8B%E7%9F%B3)
-- **关键词**：`DeepDive` `Jeep` `AI` `APT` `http` `KPI`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 60. 小米汽车的“成人礼”
-
-- **摘要**：去年12月，牛津大学出版社把“愤怒诱饵”（Rage Bait）选为了2025年的年度词汇，如果把它翻译成中文，那大概就是拱火、引战和带节奏。 作为雷军赌上声誉的“最后一战”，小米汽车从诞生之日起就是万众瞩目的“流量圣体”，但也毫无悬念地成了流量猎人眼中的完美诱饵。 去年3月，雷军在赛道上测试了SU7 Ultra的制动性能，并且随后感慨了一句“瞬间刹停”，然而就是这句有感而发被流量猎人精准截取，他们利用大众对物理常识的本能捍卫去制造对立，激发愤怒，收割流量。 此外，被恶意贴上的“绿化带战神”标签以及被上纲上线的“13…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 在一些有意无意的引导下，公众似乎一直存在某种“幸存者偏差”，习惯把小米汽车的成功简单归结于雷军的营销能力
-  2. 没有小米对底层技术的偏执投入，小米SU7也很难成为一款全球瞩目的现象级产品，一家甘心成为“组装厂”的车企不会斥巨资研发热成型钢，去挑战电机转速的极限，去研发一体…
-  3. 小米汽车第50万辆车下线，距离小米SU7上市不到20个月，刷新了全球新能源车行业的最快下线纪录，这证明了尽管小米是汽车行业的新兵，但绝不是不懂生产制造和供应链管…
-- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%9A%84%E2%80%9C%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D)
-- **关键词**：`SU7` `Model` `iPhone` `CEO` `Max` `TOPS`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 61. 问界M9，重铸豪华车的社交货币
-
-- **摘要**：1907 年6 月 10 日清晨，北京东交民巷尘土飞扬，五辆造型怪异的汽车在使馆区响起一阵刺耳轰鸣，它们即将从这里出发，穿越欧亚大陆，驶向巴黎，完成人类有史以来第一次洲际汽车拉力赛。 当时正处于清朝末期，国力衰微，顺天府主动为外国车队清理街道、洒水送行，但也在《大公报》提前给自己 “ 叠甲 ” ： “ 赛车若遇劫掠或损伤，中国政府概不担责 ”[1] 。 泥泞中艰难行走的车队 接下来的两个月里，这些车队在河流中抛锚，在木桥上翻车，在戈壁滩迷路，在沼泽里求助，有的车队不得不中途退出，最终，一位意大利亲王率先带队抵达巴黎…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 问界 M9 能打破 “ 电动车贬值快 ” 的行业魔咒，形成 “ 销量— 口碑— 保值率 ” 的正向循环，本质上是市场对它品牌力和产品力的双重认可，而它也近乎一己…
-  2. 杰兰路数据显示： M9 车主平均家庭年收入 92 万元，超过一半来自奔驰、宝马、奥迪的增换购。这意味着，真正持有 “ 旧豪华通行证 ” 的那群人，开始主动换发一…
-  3. 当中国用户开始自发地分享、讨论、推荐问界 M9 ，当越来越多来自 BBA 的车主主动换发这套新社交货币，它的意义就已经超越了 “ 卖车 ” 的范畴，而是一次游戏…
-- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E9%97%AE%E7%95%8CM9%EF%BC%8C%E9%87%8D%E9%93%B8%E8%B1%AA%E5%8D%8E%E8%BD%A6%E7%9A%84%E7%A4%BE%E4%BA%A4%E8%B4%A7%E5%B8%81)
-- **关键词**：`M9` `BBA` `ADS` `BU` `ES8` `FR`
+  1. 图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走…
+  2. 仍将在竞争与传承中继续存在下去，并为人类健康不断贡献力量——正如当年的巴斯德与科赫两位科学巨人一样
+  3. 两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科…
+- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%A4%E4%BD%8D%E7%A7%91%E5%AD%A6%E5%B7%A8%E4%BA%BA%E7%9A%84%E7%BB%88%E8%BA%AB%E5%AF%B9%E5%B3%99%EF%BC%9A%E6%80%8E%E6%A0%B7%E6%94%B9%E5%86%99%E4%BA%86%E4%BA%BA%E7%B1%BB%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD%EF%BC%9F+%7C+%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F)
+- **关键词**：`me` `better` `END` `get` `Intellectual` `too`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---
 
 *Generated by rss-daily-report*  
-*Sources: DIYGod, Decohack, GitHub Trending, HelloGitHub 月刊, V2EX, V2EX - 技术, caoz的梦呓, 中国国家地理, 云风的 BLOG, 有赞技术团队, 槽边往事, 知乎日报, 知乎每日精选, 知乎热榜, 知识分子, 端传媒 - 最新, 经济学人, 美团技术团队, 虹膜, 路透中文, 酷 壳 – CoolShell, 阮一峰的网络日志, 雪球, 饭统戴老板*
+*Sources: DIYGod, Decohack, GitHub Trending, HelloGitHub 月刊, V2EX, V2EX - 技术, V2EX（HTTP 兜底）, caoz的梦呓, 中国国家地理, 云风的 BLOG, 有赞技术团队, 槽边往事, 知乎日报（聚合）, 知乎每日精选（不稳定）, 知乎热榜（不稳定）, 知识分子, 端传媒 - 最新（不稳定）, 经济学人, 美团技术团队, 虹膜, 路透中文（不稳定）, 酷 壳 – CoolShell, 阮一峰的网络日志, 雪球, 雪球（公众号精选）, 饭统戴老板*

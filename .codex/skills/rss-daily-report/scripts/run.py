@@ -31,6 +31,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -509,12 +510,13 @@ def fetch_github_trending_source(
     )
     repos = parse_github_trending_top10(html)
     out: List[FeedEntry] = []
-    for r in repos:
+    for i, r in enumerate(repos):
         out.append(
             FeedEntry(
                 source_name=source.name,
                 source_url=source.url,
                 platform="GitHub",
+                source_pos=i,
                 title=r["slug"],
                 url=safe_url(r["url"]),
                 description=normalize_ws(r.get("description") or ""),
@@ -558,6 +560,9 @@ class FeedEntry:
     title: str
     url: str
     description: str
+    # 0-based position in the source feed result (best-effort).
+    # Used as a fallback "recency" signal when published time is missing.
+    source_pos: Optional[int] = None
     published: Optional[str] = None
     enclosure_type: Optional[str] = None
 
@@ -755,33 +760,35 @@ def write_report_data_json(
     data_dir: str,
     date_str: str,
     items: List[EnrichedEntry],
+    backfill_items: Optional[List[EnrichedEntry]] = None,
     meta: Dict[str, Any],
 ) -> Tuple[str, str]:
     os.makedirs(data_dir, exist_ok=True)
     day_path = os.path.join(data_dir, f"{date_str}.json")
+    def to_item_dict(it: EnrichedEntry) -> Dict[str, Any]:
+        return {
+            "date": date_str,
+            "platform": it.entry.platform or it.entry.source_name,
+            "source": it.entry.source_name,
+            "source_url": it.entry.source_url,
+            "title": it.entry.title,
+            "title_zh": it.title_zh,
+            "url": it.entry.url,
+            "published": it.entry.published,
+            "category": it.category,
+            "carrier": it.carrier,
+            "quality_score": round(float(it.quality_score), 2),
+            "keywords": list(it.keywords or []),
+            "summary": it.summary,
+            "key_points": list(it.key_points or []),
+        }
+
     payload = {
         "date": date_str,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "meta": meta,
-        "items": [
-            {
-                "date": date_str,
-                "platform": it.entry.platform or it.entry.source_name,
-                "source": it.entry.source_name,
-                "source_url": it.entry.source_url,
-                "title": it.entry.title,
-                "title_zh": it.title_zh,
-                "url": it.entry.url,
-                "published": it.entry.published,
-                "category": it.category,
-                "carrier": it.carrier,
-                "quality_score": round(float(it.quality_score), 2),
-                "keywords": list(it.keywords or []),
-                "summary": it.summary,
-                "key_points": list(it.key_points or []),
-            }
-            for it in items
-        ],
+        "items": [to_item_dict(it) for it in items],
+        "backfill_items": [to_item_dict(it) for it in (backfill_items or [])],
     }
     write_json(day_path, payload)
 
@@ -1184,6 +1191,34 @@ def parse_published_dt(entry: FeedEntry) -> Optional[dt.datetime]:
         return None
 
 
+def is_fresh_entry(
+    entry: FeedEntry,
+    *,
+    report_day: dt.date,
+    fresh_window_days: int,
+    fallback_fresh_top_k: int,
+) -> bool:
+    """
+    Freshness = (novel item after cache de-dup) AND (recently published).
+    - If published is available: age <= fresh_window_days
+    - If published is missing: treat only the top-K items from that feed as fresh (order proxy)
+    """
+
+    fresh_window_days = max(1, int(fresh_window_days))
+    fallback_fresh_top_k = max(1, int(fallback_fresh_top_k))
+
+    pub = parse_published_dt(entry)
+    if pub is not None:
+        age_days = (report_day - pub.date()).days
+        # tolerate small clock skew / timezone issues
+        if age_days < 0:
+            age_days = 0
+        return age_days <= fresh_window_days
+
+    pos = entry.source_pos if entry.source_pos is not None else 999999
+    return int(pos) < fallback_fresh_top_k
+
+
 # -----------------------------
 # RSS/Atom parsing
 # -----------------------------
@@ -1302,12 +1337,13 @@ def fetch_and_parse_source(
         raise RuntimeError(f"failed after {len(candidates)} endpoint(s)")
 
     out: List[FeedEntry] = []
-    for title, link, desc, pub, enclosure_type in items[:per_feed_limit]:
+    for idx, (title, link, desc, pub, enclosure_type) in enumerate(items[:per_feed_limit]):
         out.append(
             FeedEntry(
                 source_name=source.name,
                 source_url=source.url,
                 platform=source.name,
+                source_pos=idx,
                 title=title,
                 url=safe_url(link),
                 description=normalize_ws(desc),
@@ -1740,12 +1776,15 @@ def build_report(
     date_str: str,
     sources: List[FeedSource],
     items: List[EnrichedEntry],
+    backfill_items: List[EnrichedEntry],
     duration_seconds: int,
     group_by: str,
     platform_heat: Dict[str, float],
     platform_heat_window_days: int,
     selected_keys: List[str],
     per_platform_limit: int,
+    fresh_window_days: int,
+    backfill_daily_cap: int,
     platform_sources: Dict[str, List[FeedSource]],
     success_source_urls: set[str],
     failed_source_urls: set[str],
@@ -1776,6 +1815,9 @@ def build_report(
     lines.append(f"# RSS Daily Report（{date_str}）\n")
     lines.append(f"> 信息源：{len(sources)} 个 | 收录：{len(items)} 条  ")
     lines.append(group_header_line())
+    lines.append(
+        f"> 新内容窗口：{max(1, int(fresh_window_days))} 天 | 补读上限：{max(0, int(backfill_daily_cap))} 条  "
+    )
     if group_by == "platform" and max(0, int(per_platform_limit)) > 0:
         if selected_keys:
             lines.append(f"> 平台 key：{len(selected_keys)} 个 | 每平台 Top：{max(0, int(per_platform_limit))}  ")
@@ -1903,6 +1945,14 @@ def build_report(
             for it in shown:
                 lines.append(render_entry_md(idx, it))
                 idx += 1
+        lines.append("---\n")
+
+    if backfill_items and max(0, int(backfill_daily_cap)) > 0:
+        cap = max(1, int(backfill_daily_cap))
+        lines.append(f"## 补读（历史库存，去重后每日上限 {cap} 条）\n")
+        for it in backfill_items[:cap]:
+            lines.append(render_entry_md(idx, it))
+            idx += 1
         lines.append("---\n")
 
     lines.append("*Generated by rss-daily-report*  ")
@@ -2068,6 +2118,56 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="When using --per-platform-limit: select top items by recent (default) or quality.",
     )
     parser.add_argument(
+        "--fresh-window-days",
+        type=int,
+        default=int(cfg_get("fresh_window_days", 3)),
+        help="Treat items published within N days as fresh (default: 3).",
+    )
+    parser.add_argument(
+        "--fallback-fresh-top-k",
+        type=int,
+        default=int(cfg_get("fallback_fresh_top_k", 3)),
+        help="If published is missing, treat top-K items per feed as fresh (default: 3).",
+    )
+    parser.add_argument(
+        "--backfill-daily-cap",
+        type=int,
+        default=int(cfg_get("backfill_daily_cap", 3)),
+        help="How many backfill (old inventory) items to show in the report (default: 3; 0=disable).",
+    )
+    parser.add_argument(
+        "--backfill-per-platform-limit",
+        type=int,
+        default=int(cfg_get("backfill_per_platform_limit", 1)),
+        help="Per-platform cap for backfill selection (default: 1).",
+    )
+    parser.add_argument(
+        "--dynamic-platform-quota",
+        dest="dynamic_platform_quota",
+        action="store_true",
+        default=None,
+        help="Dynamically adjust per-platform quota by recent activity (default: enabled via config).",
+    )
+    parser.add_argument(
+        "--no-dynamic-platform-quota",
+        dest="dynamic_platform_quota",
+        action="store_false",
+        default=None,
+        help="Disable dynamic per-platform quota adjustment.",
+    )
+    parser.add_argument(
+        "--platform-quota-window-days",
+        type=int,
+        default=int(cfg_get("platform_quota_window_days", 14)),
+        help="Lookback window days for dynamic platform quota (default: 14).",
+    )
+    parser.add_argument(
+        "--cold-start-quota-cap",
+        type=int,
+        default=int(cfg_get("cold_start_quota_cap", 5)),
+        help="For platforms without recent history, cap today's quota by this number (default: 5).",
+    )
+    parser.add_argument(
         "--select-keys-file",
         default=cfg_defaults.get("select_keys_file", None),
         help="Optional file of platform keywords (one per line) to filter sources by name/url.",
@@ -2171,7 +2271,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         if isinstance(cfg_sources, list) and cfg_sources:
             args.sources = [str(x).strip() for x in cfg_sources if str(x).strip()]
 
-    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site", "market"]:
+    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site", "market", "dynamic_platform_quota"]:
         if getattr(args, tri_flag, None) is None and isinstance(cfg_defaults.get(tri_flag), bool):
             setattr(args, tri_flag, bool(cfg_defaults.get(tri_flag)))
 
@@ -2338,46 +2438,67 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     entries = dedupe_entries(entries, cache, date_str=date_str)
 
-    enable_ai = (not args.no_ai) and bool(os.getenv("OPENAI_API_KEY"))
-    enriched: List[EnrichedEntry] = []
-    for e in entries:
-        carrier = carrier_from_entry(e)
-        category = classify_topic(e)
-        q = score_entry(e, category, carrier)
-        if q < float(args.min_score):
-            continue
+    report_day = dt.date.fromisoformat(date_str)
+    fresh_window_days = max(1, int(getattr(args, "fresh_window_days", 3)))
+    fallback_fresh_top_k = max(1, int(getattr(args, "fallback_fresh_top_k", 3)))
+    backfill_daily_cap = max(0, int(getattr(args, "backfill_daily_cap", 3)))
 
-        ai = maybe_ai_enrich(e, category=category, carrier=carrier, enable_ai=enable_ai, model=args.openai_model)
-        if ai:
-            summary, key_points, keywords, q2, title_zh = ai
-            enriched.append(
-                EnrichedEntry(
-                    entry=e,
-                    category=category,
-                    carrier=carrier,
-                    quality_score=q2,
-                    keywords=keywords,
-                    summary=summary,
-                    key_points=key_points,
-                    title_zh=title_zh,
-                )
-            )
+    fresh_entries: List[FeedEntry] = []
+    backfill_entries: List[FeedEntry] = []
+    for e in entries:
+        if is_fresh_entry(
+            e, report_day=report_day, fresh_window_days=fresh_window_days, fallback_fresh_top_k=fallback_fresh_top_k
+        ):
+            fresh_entries.append(e)
         else:
-            summary, key_points = fallback_summary(e)
-            enriched.append(
-                EnrichedEntry(
-                    entry=e,
-                    category=category,
-                    carrier=carrier,
-                    quality_score=q,
-                    keywords=derive_keywords(e),
-                    summary=summary,
-                    key_points=key_points,
+            backfill_entries.append(e)
+
+    enable_ai = (not args.no_ai) and bool(os.getenv("OPENAI_API_KEY"))
+
+    def enrich_entries(batch: List[FeedEntry]) -> List[EnrichedEntry]:
+        out: List[EnrichedEntry] = []
+        for e in batch:
+            carrier = carrier_from_entry(e)
+            category = classify_topic(e)
+            q = score_entry(e, category, carrier)
+            if q < float(args.min_score):
+                continue
+
+            ai = maybe_ai_enrich(e, category=category, carrier=carrier, enable_ai=enable_ai, model=args.openai_model)
+            if ai:
+                summary, key_points, keywords, q2, title_zh = ai
+                out.append(
+                    EnrichedEntry(
+                        entry=e,
+                        category=category,
+                        carrier=carrier,
+                        quality_score=q2,
+                        keywords=keywords,
+                        summary=summary,
+                        key_points=key_points,
+                        title_zh=title_zh,
+                    )
                 )
-            )
+            else:
+                summary, key_points = fallback_summary(e)
+                out.append(
+                    EnrichedEntry(
+                        entry=e,
+                        category=category,
+                        carrier=carrier,
+                        quality_score=q,
+                        keywords=derive_keywords(e),
+                        summary=summary,
+                        key_points=key_points,
+                    )
+                )
+        return out
+
+    enriched_fresh = enrich_entries(fresh_entries)
+    enriched_backfill = enrich_entries(backfill_entries)
 
     if args.group_by in {"platform", "none"}:
-        enriched.sort(
+        enriched_fresh.sort(
             key=lambda x: (
                 -float(platform_heat.get(x.entry.platform or x.entry.source_name or "未知来源", 0.0)),
                 -x.quality_score,
@@ -2385,9 +2506,9 @@ def main(argv: Optional[List[str]] = None) -> int:
             )
         )
     elif args.group_by == "topic":
-        enriched.sort(key=lambda x: (-x.quality_score, x.category, x.entry.title.lower()))
+        enriched_fresh.sort(key=lambda x: (-x.quality_score, x.category, x.entry.title.lower()))
     else:
-        enriched.sort(key=lambda x: (-x.quality_score, x.entry.title.lower()))
+        enriched_fresh.sort(key=lambda x: (-x.quality_score, x.entry.title.lower()))
 
     per_platform_limit = max(0, int(args.per_platform_limit))
     if selected_keys and args.group_by == "platform" and per_platform_limit == 0:
@@ -2419,21 +2540,65 @@ def main(argv: Optional[List[str]] = None) -> int:
             }
 
         by_platform: Dict[str, List[EnrichedEntry]] = {}
-        for it in enriched:
+        for it in enriched_fresh:
             by_platform.setdefault(it.entry.platform or it.entry.source_name or "未知来源", []).append(it)
 
         def within_platform_sort_key(it: EnrichedEntry) -> Tuple[Any, ...]:
-            pub = parse_published_dt(it.entry) or dt.datetime.min
+            pub = parse_published_dt(it.entry)
+            pos = int(it.entry.source_pos) if it.entry.source_pos is not None else 999999
             pub_ts = (
-                pub.replace(tzinfo=dt.timezone.utc).timestamp() if pub != dt.datetime.min else float("-inf")
+                pub.replace(tzinfo=dt.timezone.utc).timestamp() if pub is not None else float("-inf")
             )
             if args.platform_top_by == "quality":
-                return (-it.quality_score, -pub_ts, it.entry.title.lower())
-            return (-pub_ts, -it.quality_score, it.entry.title.lower())
+                if pub is not None:
+                    return (0, -it.quality_score, -pub_ts, it.entry.title.lower())
+                return (1, -it.quality_score, pos, it.entry.title.lower())
+            if pub is not None:
+                return (0, -pub_ts, -it.quality_score, it.entry.title.lower())
+            return (1, pos, -it.quality_score, it.entry.title.lower())
+
+        # Dynamic quota: more slots for consistently-updating platforms; reduce noise for low-frequency ones.
+        dynamic_quota: Dict[str, int] = {}
+        if bool(getattr(args, "dynamic_platform_quota", False)):
+            window_days = max(1, int(getattr(args, "platform_quota_window_days", 14)))
+            start_day = report_day - dt.timedelta(days=window_days - 1)
+            hist = cache.get("article_history") or {}
+            totals: Counter[str] = Counter()
+            active_days: Counter[str] = Counter()
+            for day_k, day_items in (hist or {}).items():
+                if not isinstance(day_k, str) or not re.match(r"^\d{4}-\d{2}-\d{2}$", day_k):
+                    continue
+                try:
+                    d = dt.date.fromisoformat(day_k)
+                except Exception:
+                    continue
+                if d < start_day or d > report_day:
+                    continue
+                if not isinstance(day_items, list):
+                    continue
+                per_day: Counter[str] = Counter()
+                for it in day_items:
+                    if not isinstance(it, dict):
+                        continue
+                    p = str(it.get("platform") or it.get("source") or "未知来源")
+                    per_day[p] += 1
+                for p, n in per_day.items():
+                    totals[p] += int(n)
+                    active_days[p] += 1
+
+            cold_cap = max(1, int(getattr(args, "cold_start_quota_cap", 5)))
+            today_counts = {p: len(v) for p, v in by_platform.items()}
+            for p in by_platform.keys():
+                if int(active_days.get(p, 0)) > 0:
+                    avg_when_active = float(totals.get(p, 0)) / float(active_days.get(p, 1))
+                    dynamic_quota[p] = min(per_platform_limit, max(1, int(round(avg_when_active))))
+                else:
+                    dynamic_quota[p] = min(per_platform_limit, max(1, min(cold_cap, int(today_counts.get(p, 0) or 1))))
 
         for p in by_platform:
             by_platform[p].sort(key=within_platform_sort_key)
-            limit = per_platform_limit_overrides.get(p, per_platform_limit)
+            base_limit = dynamic_quota.get(p, per_platform_limit)
+            limit = per_platform_limit_overrides.get(p, base_limit)
             by_platform[p] = by_platform[p][: max(0, int(limit))]
 
         def p_sort_key(p: str) -> Tuple[float, str]:
@@ -2445,7 +2610,33 @@ def main(argv: Optional[List[str]] = None) -> int:
         if max_items > 0:
             published = published[: max(1, max_items)]
     else:
-        published = enriched if max_items == 0 else enriched[: max(1, max_items)]
+        published = enriched_fresh if max_items == 0 else enriched_fresh[: max(1, max_items)]
+
+    backfill_published: List[EnrichedEntry] = []
+    if backfill_daily_cap > 0 and enriched_backfill:
+        per_plat_cap = max(0, int(getattr(args, "backfill_per_platform_limit", 1)))
+
+        def backfill_sort_key(it: EnrichedEntry) -> Tuple[Any, ...]:
+            pub = parse_published_dt(it.entry)
+            pos = int(it.entry.source_pos) if it.entry.source_pos is not None else 999999
+            pub_ts = (
+                pub.replace(tzinfo=dt.timezone.utc).timestamp() if pub is not None else float("-inf")
+            )
+            return (-pub_ts, -it.quality_score, pos, it.entry.title.lower())
+
+        candidates = sorted(enriched_backfill, key=backfill_sort_key)
+        if per_plat_cap <= 0:
+            backfill_published = candidates[:backfill_daily_cap]
+        else:
+            counts: Counter[str] = Counter()
+            for it in candidates:
+                p = it.entry.platform or it.entry.source_name or "未知来源"
+                if counts[p] >= per_plat_cap:
+                    continue
+                backfill_published.append(it)
+                counts[p] += 1
+                if len(backfill_published) >= backfill_daily_cap:
+                    break
 
     # -----------------------------
     # Optional: foreign-news section
@@ -2572,12 +2763,15 @@ def main(argv: Optional[List[str]] = None) -> int:
         date_str=date_str,
         sources=sources,
         items=published,
+        backfill_items=backfill_published,
         duration_seconds=duration_seconds,
         group_by=str(args.group_by),
         platform_heat=platform_heat,
         platform_heat_window_days=int(args.platform_heat_window_days),
         selected_keys=selected_keys,
         per_platform_limit=per_platform_limit,
+        fresh_window_days=fresh_window_days,
+        backfill_daily_cap=backfill_daily_cap,
         platform_sources=platform_sources,
         success_source_urls=success_source_urls,
         failed_source_urls=failed_source_urls,
@@ -2609,14 +2803,17 @@ def main(argv: Optional[List[str]] = None) -> int:
         "date": date_str,
         "duration_seconds": duration_seconds,
         "items_collected": len(entries),
+        "fresh_candidates": int(len(fresh_entries)),
+        "backfill_candidates": int(len(backfill_entries)),
         "items_published": len(published),
+        "backfill_published": int(len(backfill_published)),
         "sources_used": [s.url for s in sources],
         "errors": errors[:100],
     }
 
     url_entries = cache["url_cache"].setdefault("entries", {})
     title_entries = cache["title_hashes"].setdefault("entries", {})
-    for it in published:
+    for it in list(published) + list(backfill_published):
         url_entries[it.entry.url] = {"date_added": date_str}
         title_entries[title_fingerprint(it.entry.title)] = {"date_added": date_str}
 
@@ -2673,13 +2870,20 @@ def main(argv: Optional[List[str]] = None) -> int:
             data_dir=data_dir,
             date_str=date_str,
             items=published,
+            backfill_items=backfill_published,
             meta={
                 "group_by": str(args.group_by),
                 "selected_keys": selected_keys,
                 "per_platform_limit": int(per_platform_limit),
+                "fresh_window_days": int(fresh_window_days),
+                "fallback_fresh_top_k": int(fallback_fresh_top_k),
+                "backfill_daily_cap": int(backfill_daily_cap),
+                "backfill_published": int(len(backfill_published)),
                 "min_score": float(args.min_score),
                 "duration_seconds": int(duration_seconds),
                 "items_collected": int(len(entries)),
+                "fresh_candidates": int(len(fresh_entries)),
+                "backfill_candidates": int(len(backfill_entries)),
                 "items_published": int(len(published)),
                 "sources_used": [s.url for s in sources],
                 **({"market": market_snapshot} if market_snapshot else {}),

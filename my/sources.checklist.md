@@ -2,6 +2,13 @@
 
 > 这是“唯一入口”。你只需要在这里勾选/取消勾选，我会用脚本同步生成启用列表 `my/sources.md`。  
 > 约定：允许公众号；尽量避开国内媒体/热榜/搬运站。对多端点平台（知乎/V2EX/雪球）会**全部请求后去重**。
+>
+> 可选：你也可以在名称后追加元信息（用于避免“每次强改”）：
+> - `|limit=15`：该源单次最多抓取 15 条（覆盖全局 `per_feed_limit`）
+> - `|platform=Foo`：强制归到平台组 Foo（覆盖自动推断）
+> - `|fallback=https://...`：增加兜底端点（可重复）
+>
+> 示例：`- [x] V2EX - 技术|limit=30｜https://www.v2ex.com/feed/tab/tech.xml`
 
 ## 社区 / 讨论
 - [x] V2EX｜https://v2ex.com/index.xml
@@ -62,4 +69,3 @@
 - [ ] 透明创业实验｜https://blog.t9t.io/atom.xml
 - [ ] ezindie｜https://www.ezindie.com/feed/rss.xml
 - [ ] 潮流周刊｜https://weekly.tw93.fun/rss.xml
-

@@ -24,6 +24,18 @@ const filteredItems = computed<NewsItem[]>(() => {
     return [title, summary, platform, category].some((x) => x.includes(q))
   })
 })
+const filteredBackfillItems = computed<NewsItem[]>(() => {
+  const items = day.value?.backfill_items ?? []
+  const q = query.value.trim().toLowerCase()
+  if (!q) return items
+  return items.filter((it) => {
+    const title = (it.title_zh || it.title || '').toLowerCase()
+    const summary = (it.summary || '').toLowerCase()
+    const platform = (it.platform || '').toLowerCase()
+    const category = (it.category || '').toLowerCase()
+    return [title, summary, platform, category].some((x) => x.includes(q))
+  })
+})
 
 const marketCards = computed(() => {
   const m = day.value?.meta?.market
@@ -106,7 +118,8 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
     <section v-else class="meta">
       <div class="pill" v-if="loading">载入中…</div>
       <div class="pill" v-else>
-        {{ selectedDate || '未选择日期' }} · {{ filteredItems.length }} 条
+        {{ selectedDate || '未选择日期' }} · 新内容 {{ filteredItems.length }} 条
+        <span v-if="filteredBackfillItems.length" class="muted"> · 补读 {{ filteredBackfillItems.length }} 条</span>
       </div>
     </section>
 
@@ -182,7 +195,29 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
       </article>
     </section>
 
-    <section v-else class="empty">
+    <section v-if="filteredBackfillItems.length" class="backfill">
+      <details class="backfillDetails">
+        <summary>补读（历史库存） · {{ filteredBackfillItems.length }} 条</summary>
+        <div class="list backfillList">
+          <article v-for="it in filteredBackfillItems" :key="it.url" class="card">
+            <div class="line">
+              <a class="link" :href="it.url" target="_blank" rel="noreferrer">
+                {{ displayTitle(it) }}
+              </a>
+            </div>
+            <div class="meta2">
+              <span v-if="it.platform" class="tag">{{ it.platform }}</span>
+              <span v-if="it.category" class="tag muted">{{ it.category }}</span>
+              <span v-if="typeof it.quality_score === 'number'" class="muted">score {{ it.quality_score.toFixed(2) }}</span>
+              <span v-if="it.published" class="muted">{{ it.published }}</span>
+            </div>
+            <p v-if="it.summary" class="summary">{{ it.summary }}</p>
+          </article>
+        </div>
+      </details>
+    </section>
+
+    <section v-if="!filteredItems.length && !filteredBackfillItems.length" class="empty">
       <div class="emptyTitle">没有匹配条目</div>
       <div class="emptySub">试试换个日期或清空搜索。</div>
     </section>
@@ -371,6 +406,16 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
   margin-top: 4px;
   font-size: 12px;
   opacity: 0.7;
+}
+
+.backfillDetails summary {
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.backfillList {
+  margin-top: 12px;
 }
 
 .market {
