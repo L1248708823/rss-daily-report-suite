@@ -13,6 +13,8 @@
     "github_top10": true,
     "export_json": true,
     "build_site": true,
+    "market": true,
+    "market_timeout": 6,
     "proxy": "",
     "retries": 1,
     "retry_sleep_ms": 250

@@ -54,6 +54,7 @@ def load_all_days(data_dir: str) -> Tuple[List[Dict[str, Any]], List[Dict[str, A
         days.sort(key=lambda x: x["date"], reverse=True)
 
     items: List[Dict[str, Any]] = []
+    market_by_date: Dict[str, Any] = {}
     for d in days:
         date_str = str(d.get("date") or "").strip()
         if not date_str:
@@ -63,13 +64,16 @@ def load_all_days(data_dir: str) -> Tuple[List[Dict[str, Any]], List[Dict[str, A
             continue
         try:
             obj = read_json(p)
+            meta = obj.get("meta") or {}
+            if isinstance(meta, dict) and meta.get("market"):
+                market_by_date[date_str] = meta.get("market")
             day_items = obj.get("items") or []
             if isinstance(day_items, list):
                 items.extend([x for x in day_items if isinstance(x, dict)])
         except Exception:
             continue
 
-    return days, items
+    return days, items, market_by_date
 
 
 def main(argv: List[str] | None = None) -> int:
@@ -85,11 +89,12 @@ def main(argv: List[str] | None = None) -> int:
     if not os.path.isdir(data_dir):
         raise SystemExit(f"data-dir not found: {data_dir}")
 
-    days, items = load_all_days(data_dir)
+    days, items, market_by_date = load_all_days(data_dir)
     payload = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "days": days,
         "items": items,
+        "market": market_by_date,
     }
 
     js = "// Generated from NewsReport/data (local).\n"
@@ -101,4 +106,3 @@ def main(argv: List[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

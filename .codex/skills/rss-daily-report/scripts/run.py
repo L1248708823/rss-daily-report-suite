@@ -154,6 +154,230 @@ def http_get_bytes(
         raise last_err
     return b""
 
+
+def parse_js_quoted_payload(text: str) -> str:
+    """
+    Parse responses like:
+      var hq_str_xxx="...";  or  v_xxx="...";
+    Returns the quoted payload, or empty string if not found.
+    """
+
+    if not text:
+        return ""
+    m = re.search(r'="([^"]*)"\s*;?\s*$', text.strip())
+    if not m:
+        return ""
+    return m.group(1)
+
+
+def try_float(x: str) -> Optional[float]:
+    s = normalize_ws(x)
+    if not s:
+        return None
+    try:
+        return float(s)
+    except Exception:
+        return None
+
+
+def fetch_market_snapshot(
+    *,
+    date_str: str,
+    proxies: Optional[Dict[str, str]],
+    retries: int,
+    retry_sleep_ms: int,
+    timeout: Tuple[float, float],
+) -> Dict[str, Any]:
+    """
+    Best-effort fetch of market indicators (SSE index + gold).
+    Data sources follow the same style as LeekHub/leek-fund (public quote endpoints).
+
+    IMPORTANT:
+    - This is NOT historical data for `date_str`; it fetches the latest quote at runtime.
+    - Failures are non-fatal and will be reported in the returned `errors`.
+    """
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+        "Referer": "https://finance.sina.com.cn",
+    }
+
+    def get_text(url: str) -> str:
+        return http_get_text(
+            url,
+            timeout=timeout,
+            retries=retries,
+            retry_sleep_ms=retry_sleep_ms,
+            proxies=proxies,
+        )
+
+    indicators: List[Dict[str, Any]] = []
+    errors: List[str] = []
+
+    fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
+
+    # --- 上证指数（优先腾讯，兜底新浪） ---
+    try:
+        # 腾讯：v_s_sh000001="1~上证指数~000001~4145.68~9.52~0.23~418407314~69901721~~...";
+        t = get_text("https://qt.gtimg.cn/q=s_sh000001")
+        payload = parse_js_quoted_payload(t)
+        parts = payload.split("~") if payload else []
+        if len(parts) >= 8:
+            name = normalize_ws(parts[1]) or "上证指数"
+            value = try_float(parts[3])
+            chg = try_float(parts[4])
+            pct = try_float(parts[5])
+            vol = try_float(parts[6])
+            amt = try_float(parts[7])
+            if value is not None:
+                indicators.append(
+                    {
+                        "id": "sh000001",
+                        "name": name,
+                        "value": value,
+                        "change": chg,
+                        "change_pct": pct,
+                        "volume": vol,
+                        "amount": amt,
+                        "currency": "CNY",
+                        "provider": "tencent",
+                        "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+                        "as_of": None,
+                    }
+                )
+        else:
+            raise ValueError("unexpected tencent format")
+    except Exception as e:
+        errors.append(f"SSE(tencent) failed: {normalize_ws(str(e))}")
+        try:
+            # 新浪：var hq_str_s_sh000001="上证指数,4145.0342,8.8700,0.21,4166504,69594068";
+            t = requests.get(
+                "https://hq.sinajs.cn/list=s_sh000001",
+                headers=headers,
+                timeout=timeout,
+                allow_redirects=True,
+                proxies=proxies,
+            ).text
+            payload = parse_js_quoted_payload(t)
+            parts = [normalize_ws(x) for x in payload.split(",")] if payload else []
+            if len(parts) >= 4:
+                name = parts[0] or "上证指数"
+                value = try_float(parts[1])
+                chg = try_float(parts[2])
+                pct = try_float(parts[3])
+                vol = try_float(parts[4]) if len(parts) > 4 else None
+                amt = try_float(parts[5]) if len(parts) > 5 else None
+                if value is not None:
+                    indicators.append(
+                        {
+                            "id": "sh000001",
+                            "name": name,
+                            "value": value,
+                            "change": chg,
+                            "change_pct": pct,
+                            "volume": vol,
+                            "amount": amt,
+                            "currency": "CNY",
+                            "provider": "sina",
+                            "source_url": "https://hq.sinajs.cn/list=s_sh000001",
+                            "as_of": None,
+                        }
+                    )
+            else:
+                raise ValueError("unexpected sina format")
+        except Exception as e2:
+            errors.append(f"SSE(sina) failed: {normalize_ws(str(e2))}")
+
+    # --- 伦敦金（现货黄金）：优先腾讯（与新浪同源格式），兜底新浪 ---
+    try:
+        # 腾讯：v_hf_XAU="5076.86,1.82,5076.86,5077.21,5085.52,5003.53,10:21:00,4986.02,5006.31,0,0,0,2026-01-26,伦敦金（现货黄金）";
+        t = get_text("https://qt.gtimg.cn/q=hf_XAU")
+        payload = parse_js_quoted_payload(t)
+        parts = [normalize_ws(x) for x in payload.split(",")] if payload else []
+        if len(parts) >= 14:
+            value = try_float(parts[0])
+            pct = try_float(parts[1])  # usually percent change
+            time_str = parts[6]
+            prev_close = try_float(parts[7])
+            date_part = parts[12]
+            name = parts[13] or "伦敦金（现货黄金）"
+            chg = None
+            if value is not None and prev_close is not None:
+                chg = value - prev_close
+            as_of = None
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", date_part) and re.match(r"^\d{2}:\d{2}:\d{2}$", time_str):
+                as_of = f"{date_part} {time_str}"
+            if value is not None:
+                indicators.append(
+                    {
+                        "id": "hf_XAU",
+                        "name": name,
+                        "value": value,
+                        "change": chg,
+                        "change_pct": pct,
+                        "prev_close": prev_close,
+                        "currency": None,
+                        "provider": "tencent",
+                        "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+                        "as_of": as_of,
+                    }
+                )
+        else:
+            raise ValueError("unexpected tencent format")
+    except Exception as e:
+        errors.append(f"XAU(tencent) failed: {normalize_ws(str(e))}")
+        try:
+            t = requests.get(
+                "https://hq.sinajs.cn/list=hf_XAU",
+                headers=headers,
+                timeout=timeout,
+                allow_redirects=True,
+                proxies=proxies,
+            ).text
+            payload = parse_js_quoted_payload(t)
+            parts = [normalize_ws(x) for x in payload.split(",")] if payload else []
+            # 新浪格式略有差异，但最后通常包含日期与名称
+            if len(parts) >= 14:
+                value = try_float(parts[0])
+                prev_close = try_float(parts[1]) or try_float(parts[7])
+                time_str = parts[6]
+                date_part = parts[12]
+                name = parts[13] or "伦敦金（现货黄金）"
+                chg = None
+                pct = None
+                if value is not None and prev_close is not None and prev_close != 0:
+                    chg = value - prev_close
+                    pct = (chg / prev_close) * 100.0
+                as_of = None
+                if re.match(r"^\d{4}-\d{2}-\d{2}$", date_part) and re.match(r"^\d{2}:\d{2}:\d{2}$", time_str):
+                    as_of = f"{date_part} {time_str}"
+                if value is not None:
+                    indicators.append(
+                        {
+                            "id": "hf_XAU",
+                            "name": name,
+                            "value": value,
+                            "change": chg,
+                            "change_pct": pct,
+                            "prev_close": prev_close,
+                            "currency": None,
+                            "provider": "sina",
+                            "source_url": "https://hq.sinajs.cn/list=hf_XAU",
+                            "as_of": as_of,
+                        }
+                    )
+            else:
+                raise ValueError("unexpected sina format")
+        except Exception as e2:
+            errors.append(f"XAU(sina) failed: {normalize_ws(str(e2))}")
+
+    return {
+        "requested_date": date_str,
+        "fetched_at": fetched_at,
+        "indicators": indicators,
+        "errors": errors[:10],
+    }
+
 def parse_github_trending_top10(html: str) -> List[Dict[str, str]]:
     """
     Best-effort parser for https://github.com/trending HTML.
@@ -569,6 +793,7 @@ def write_site_data_js(*, site_dir: str, data_dir: str) -> str:
         days.sort(key=lambda x: x.get("date", ""), reverse=True)
 
     items: List[Dict[str, Any]] = []
+    market_by_date: Dict[str, Any] = {}
     for d in days:
         date_str = normalize_ws(str(d.get("date") or ""))
         if not date_str:
@@ -578,6 +803,9 @@ def write_site_data_js(*, site_dir: str, data_dir: str) -> str:
             continue
         try:
             obj = read_json(p)
+            meta = obj.get("meta") or {}
+            if isinstance(meta, dict) and meta.get("market"):
+                market_by_date[date_str] = meta.get("market")
             day_items = obj.get("items") or []
             if isinstance(day_items, list):
                 items.extend([x for x in day_items if isinstance(x, dict)])
@@ -588,6 +816,7 @@ def write_site_data_js(*, site_dir: str, data_dir: str) -> str:
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "days": days,
         "items": items,
+        "market": market_by_date,
     }
     js = "// Generated from NewsReport/data (local).\n"
     js += "window.__NEWS_DATA__ = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n"
@@ -1692,6 +1921,26 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Sleep between retries in milliseconds (default: 0).",
     )
     parser.add_argument(
+        "--market",
+        dest="market",
+        action="store_true",
+        default=None,
+        help="Fetch market indicators (SSE index + spot gold) and write into daily JSON meta.",
+    )
+    parser.add_argument(
+        "--no-market",
+        dest="market",
+        action="store_false",
+        default=None,
+        help="Disable market indicators fetching.",
+    )
+    parser.add_argument(
+        "--market-timeout",
+        type=float,
+        default=float(cfg_get("market_timeout", 6)),
+        help="Market fetch read timeout seconds (connect timeout fixed at 3s; default: 6).",
+    )
+    parser.add_argument(
         "--proxy",
         default=str(cfg_get("proxy", "") or ""),
         help="Optional HTTP proxy URL applied to both http/https (e.g. http://127.0.0.1:7890).",
@@ -1838,7 +2087,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         if isinstance(cfg_sources, list) and cfg_sources:
             args.sources = [str(x).strip() for x in cfg_sources if str(x).strip()]
 
-    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site"]:
+    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site", "market"]:
         if getattr(args, tri_flag, None) is None and isinstance(cfg_defaults.get(tri_flag), bool):
             setattr(args, tri_flag, bool(cfg_defaults.get(tri_flag)))
 
@@ -2297,6 +2546,23 @@ def main(argv: Optional[List[str]] = None) -> int:
     enable_export_json = bool(args.export_json) if args.export_json is not None else True
     data_dir = os.path.join(args.out_dir, "data")
     if enable_export_json:
+        market_snapshot: Optional[Dict[str, Any]] = None
+        if bool(getattr(args, "market", False)):
+            try:
+                market_snapshot = fetch_market_snapshot(
+                    date_str=date_str,
+                    proxies=proxies,
+                    retries=int(args.retries),
+                    retry_sleep_ms=int(args.retry_sleep_ms),
+                    timeout=(3.0, max(1.0, float(getattr(args, "market_timeout", 6) or 6.0))),
+                )
+            except Exception as e:
+                market_snapshot = {
+                    "requested_date": date_str,
+                    "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                    "indicators": [],
+                    "errors": [f"market snapshot failed: {normalize_ws(str(e))}"],
+                }
         day_json_path, index_json_path = write_report_data_json(
             data_dir=data_dir,
             date_str=date_str,
@@ -2310,6 +2576,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                 "items_collected": int(len(entries)),
                 "items_published": int(len(published)),
                 "sources_used": [s.url for s in sources],
+                **({"market": market_snapshot} if market_snapshot else {}),
             },
         )
         print(f"Wrote data: {day_json_path}")

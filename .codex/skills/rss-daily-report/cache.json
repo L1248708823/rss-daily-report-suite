@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "description": "rss-daily-report cache (dedupe + history + stats)",
   "last_run": {
-    "date": "2026-01-25",
-    "duration_seconds": 20,
-    "items_collected": 87,
-    "items_published": 57,
+    "date": "2026-01-26",
+    "duration_seconds": 21,
+    "items_collected": 40,
+    "items_published": 29,
     "sources_used": [
       "https://v2ex.com/index.xml",
       "http://www.v2ex.com/index.xml",
@@ -27,27 +27,26 @@
     ],
     "errors": [
       "知乎每日精选 (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss: no element found: line 1, column 0",
-      "知乎热榜 (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist: non-feed HTML response",
       "路透中文 (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn: syntax error: line 1, column 0",
-      "GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x774a6ead9fd0>, 'Connection to github.com timed out. (connect timeout=5.0)'))",
-      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x774a6ea89ca0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
-      "V2EX (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x774a6eaa2600>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
-      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x774a6ead8350>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))"
+      "知乎热榜 (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist: non-feed HTML response",
+      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c18e460a540>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
+      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7c18e460af00>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
+      "V2EX (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7c18e460aa50>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
     ]
   },
   "source_stats": {
     "_comment": "per-feed stats keyed by feed URL",
     "https://www.zhihu.com/rss": {
-      "total_fetches": 13,
+      "total_fetches": 14,
       "success_count": 0,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://www.ruanyifeng.com/blog/atom.xml": {
-      "total_fetches": 13,
-      "success_count": 12,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 14,
+      "success_count": 13,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://sspai.com/feed": {
       "total_fetches": 10,
@@ -56,9 +55,9 @@
       "last_success": "2026-01-25"
     },
     "https://v2ex.com/index.xml": {
-      "total_fetches": 13,
+      "total_fetches": 14,
       "success_count": 0,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://rsshub.app/zhihu/hotlist": {
@@ -98,10 +97,10 @@
       "last_success": "2026-01-25"
     },
     "https://plink.anyfeeder.com/weixin/caozsay": {
-      "total_fetches": 13,
-      "success_count": 12,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 14,
+      "success_count": 13,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://rsshub.app/telegram/channel/dianying4K": {
       "total_fetches": 4,
@@ -122,16 +121,16 @@
       "last_success": null
     },
     "http://www.v2ex.com/index.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 0,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/zhihu/daily": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/ssapi/matrix": {
       "total_fetches": 6,
@@ -146,70 +145,70 @@
       "last_success": "2026-01-25"
     },
     "https://xueqiu.com/hots/topic/rss": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/zhihu/hotlist": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 4,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": "2026-01-23"
     },
     "https://www.v2ex.com/feed/tab/tech.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 0,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/weixin/IrisMagazine": {
-      "total_fetches": 9,
-      "success_count": 8,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 10,
+      "success_count": 9,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/weixin/xueqiujinghua": {
-      "total_fetches": 9,
-      "success_count": 8,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 10,
+      "success_count": 9,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://github.com/trending?since=daily": {
-      "total_fetches": 7,
-      "success_count": 5,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 8,
+      "success_count": 6,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://plink.anyfeeder.com/reuters/cn": {
-      "total_fetches": 3,
+      "total_fetches": 4,
       "success_count": 0,
-      "last_fetch": "2026-01-25",
+      "last_fetch": "2026-01-26",
       "last_success": null
     },
     "https://plink.anyfeeder.com/weixin/theeconomist": {
-      "total_fetches": 3,
-      "success_count": 3,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 4,
+      "success_count": 4,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "http://hellogithub.com/rss": {
-      "total_fetches": 3,
-      "success_count": 3,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 5,
+      "success_count": 5,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://tech.meituan.com/feed/": {
-      "total_fetches": 3,
-      "success_count": 3,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 4,
+      "success_count": 4,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     },
     "https://tech.youzan.com/rss/": {
-      "total_fetches": 3,
-      "success_count": 3,
-      "last_fetch": "2026-01-25",
-      "last_success": "2026-01-25"
+      "total_fetches": 4,
+      "success_count": 4,
+      "last_fetch": "2026-01-26",
+      "last_success": "2026-01-26"
     }
   },
   "url_cache": {
@@ -898,6 +897,93 @@
       },
       "https://tech.meituan.com/2025/11/28/longcat-r-horizon.html": {
         "date_added": "2026-01-25"
+      },
+      "https://daily.zhihu.com/story/9787102": {
+        "date_added": "2026-01-26"
+      },
+      "https://daily.zhihu.com/story/9787093": {
+        "date_added": "2026-01-26"
+      },
+      "https://daily.zhihu.com/story/9787088": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/7913104177/372865111": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/7977283243/372897476": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/3491589810/372886250": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/1344684945/372869391": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E6%8A%95%E8%B5%84%E4%B8%AD%EF%BC%8C%E8%B6%8A%E5%8A%AA%E5%8A%9B%E5%B0%B1%E4%BC%9A%E8%B6%8A%E5%B9%B8%E8%BF%90%E5%90%97%EF%BC%9F": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%91%9E%C2%B7%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E5%88%A4%E6%96%AD%EF%BC%9A%E7%9C%9F%E7%9B%B8%E4%B8%8D%E6%98%AF%E8%82%A1%E5%B8%82%E7%B9%81%E8%8D%A3%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B4%A7%E5%B8%81%E7%9A%84%E8%B4%AC%E5%80%BC%EF%BC%8C2026%E5%B9%B4%E6%89%8D%E5%88%9A%E5%BC%80%E5%A7%8B": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/8991898356/372727781": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/6183582796/372800186": {
+        "date_added": "2026-01-26"
+      },
+      "http://xueqiu.com/4086512744/372804205": {
+        "date_added": "2026-01-26"
+      },
+      "https://github.com/Psiphon-Inc/conduit": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/107": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/106": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/105": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/104": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/103": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/102": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/101": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/100": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/99": {
+        "date_added": "2026-01-26"
+      },
+      "https://hellogithub.com/periodical/volume/98": {
+        "date_added": "2026-01-26"
+      },
+      "https://tech.youzan.com/shu-ju-ce-shi-fang-fa/": {
+        "date_added": "2026-01-26"
+      },
+      "https://tech.youzan.com/redisyuan-ma-jie-xi/": {
+        "date_added": "2026-01-26"
+      },
+      "https://tech.youzan.com/javasuo-yu-xian-cheng-de-na-xie-shi/": {
+        "date_added": "2026-01-26"
+      },
+      "https://tech.youzan.com/flink_13/": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87": {
+        "date_added": "2026-01-26"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9": {
+        "date_added": "2026-01-26"
       }
     }
   },
@@ -1590,6 +1676,93 @@
       },
       "9bc4ef5c21b4683410602e9d967dd58421f238ac": {
         "date_added": "2026-01-25"
+      },
+      "ef199528a861aa16bb644a13ad749507cc3c5f65": {
+        "date_added": "2026-01-26"
+      },
+      "9341b640fb2d65a7150049ba94c0ba32f7d6bcd0": {
+        "date_added": "2026-01-26"
+      },
+      "79384032019c43fb81e19a389fb7ef3a23f0cde4": {
+        "date_added": "2026-01-26"
+      },
+      "06f73a9d08661a1dd2d3c580c2c78536671fc127": {
+        "date_added": "2026-01-26"
+      },
+      "9ca217cb968096bc01eecfd73fd23c6463d2797e": {
+        "date_added": "2026-01-26"
+      },
+      "7656f2eb1e1640e6a7ac3b7ae65bfcb6951b3705": {
+        "date_added": "2026-01-26"
+      },
+      "589207853a335094a8b8ab47c49a06d29c680e2e": {
+        "date_added": "2026-01-26"
+      },
+      "c30f92a81100d47266e8e78536d005ec14519aae": {
+        "date_added": "2026-01-26"
+      },
+      "e72375381359bd824bd28a44132dc251b4c8da9c": {
+        "date_added": "2026-01-26"
+      },
+      "8beb41e1ba39181c0f6b4f6e297d7d6450dffed5": {
+        "date_added": "2026-01-26"
+      },
+      "f88ec30118ecd6c5d36fe1398afe86c0e90054b7": {
+        "date_added": "2026-01-26"
+      },
+      "d72b7b3e90e1ad10fc81e1a823ae65c2fa9bc999": {
+        "date_added": "2026-01-26"
+      },
+      "5079647cf7b4f251c72dd495eec1740165af5610": {
+        "date_added": "2026-01-26"
+      },
+      "0feafe62daee0cff11fe55463b111868a41f6a00": {
+        "date_added": "2026-01-26"
+      },
+      "245446e0f0b6179014893ad3e9a309798b52a731": {
+        "date_added": "2026-01-26"
+      },
+      "405c49f80db41a42feab73d454e079a1f1071721": {
+        "date_added": "2026-01-26"
+      },
+      "3db81a89de090cfcbb7e8359f43e83d787a6fb1b": {
+        "date_added": "2026-01-26"
+      },
+      "19e0465261617847d3b20f14bccadc17c153f102": {
+        "date_added": "2026-01-26"
+      },
+      "06b92ae69f304aa31d54945fb3215cf5e87d1eff": {
+        "date_added": "2026-01-26"
+      },
+      "db83eb520441b5f9f57941d745aa458bd4f82ad8": {
+        "date_added": "2026-01-26"
+      },
+      "bb09a4c8fe51e754ff601694118231115d60b625": {
+        "date_added": "2026-01-26"
+      },
+      "f889f99bcb0b8989379271e0dfe1449704164245": {
+        "date_added": "2026-01-26"
+      },
+      "ebe4ceb4e7e26775e644d1fee12685f79af4cac2": {
+        "date_added": "2026-01-26"
+      },
+      "73e0cad9e2457ac47f46a017195bbf27c1d4d794": {
+        "date_added": "2026-01-26"
+      },
+      "7f2f71d56129f24537e753c84e34127f550dcb71": {
+        "date_added": "2026-01-26"
+      },
+      "9da1c98002fe660c884d92579f6e0f7a3a54f7db": {
+        "date_added": "2026-01-26"
+      },
+      "623e164b9133c1d9411390aa8274afd44a69011b": {
+        "date_added": "2026-01-26"
+      },
+      "8144eab0920784775fbdc76a3423efe0fc8f99b7": {
+        "date_added": "2026-01-26"
+      },
+      "42dbe6d0b014beb6d53274f4b68868edc6dc7bac": {
+        "date_added": "2026-01-26"
       }
     }
   },
@@ -2919,6 +3092,298 @@
         "category": "财经",
         "carrier": "文章",
         "quality_score": 3.3
+      }
+    ],
+    "2026-01-26": [
+      {
+        "source": "知乎日报",
+        "platform": "知乎",
+        "title": "为什么做梦时，即使场景再荒谬，大脑也不会对其有丝毫怀疑？",
+        "title_hash": "ef199528a861aa16bb644a13ad749507cc3c5f65",
+        "url": "https://daily.zhihu.com/story/9787102",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知乎日报",
+        "platform": "知乎",
+        "title": "在没有任何东西阻挡的情况下，人的眼睛最远可以看多远？",
+        "title_hash": "9341b640fb2d65a7150049ba94c0ba32f7d6bcd0",
+        "url": "https://daily.zhihu.com/story/9787093",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知乎日报",
+        "platform": "知乎",
+        "title": "有哪些奇异有趣的系外行星？",
+        "title_hash": "79384032019c43fb81e19a389fb7ef3a23f0cde4",
+        "url": "https://daily.zhihu.com/story/9787088",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "泸州老窖管理层24-25年发言汇总",
+        "title_hash": "06f73a9d08661a1dd2d3c580c2c78536671fc127",
+        "url": "http://xueqiu.com/7913104177/372865111",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "全球科技股超级周到来&存储芯片动态更新",
+        "title_hash": "9ca217cb968096bc01eecfd73fd23c6463d2797e",
+        "url": "http://xueqiu.com/7977283243/372897476",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "沪深300被大幅抛售，长期看只是一朵小浪花",
+        "title_hash": "7656f2eb1e1640e6a7ac3b7ae65bfcb6951b3705",
+        "url": "http://xueqiu.com/3491589810/372886250",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "战略资源价值重估仍在路上",
+        "title_hash": "589207853a335094a8b8ab47c49a06d29c680e2e",
+        "url": "http://xueqiu.com/1344684945/372869391",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "在投资中，越努力就会越幸运吗？",
+        "title_hash": "c30f92a81100d47266e8e78536d005ec14519aae",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E6%8A%95%E8%B5%84%E4%B8%AD%EF%BC%8C%E8%B6%8A%E5%8A%AA%E5%8A%9B%E5%B0%B1%E4%BC%9A%E8%B6%8A%E5%B9%B8%E8%BF%90%E5%90%97%EF%BC%9F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "瑞·达利欧最新判断：真相不是股市繁荣，而是货币的贬值，2026年才刚开始",
+        "title_hash": "e72375381359bd824bd28a44132dc251b4c8da9c",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%91%9E%C2%B7%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E5%88%A4%E6%96%AD%EF%BC%9A%E7%9C%9F%E7%9B%B8%E4%B8%8D%E6%98%AF%E8%82%A1%E5%B8%82%E7%B9%81%E8%8D%A3%EF%BC%8C%E8%80%8C%E6%98%AF%E8%B4%A7%E5%B8%81%E7%9A%84%E8%B4%AC%E5%80%BC%EF%BC%8C2026%E5%B9%B4%E6%89%8D%E5%88%9A%E5%BC%80%E5%A7%8B",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "利润飙升510%，锂矿寡头，连续五年全球第一！",
+        "title_hash": "8beb41e1ba39181c0f6b4f6e297d7d6450dffed5",
+        "url": "http://xueqiu.com/8991898356/372727781",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "（化工三）石油化工行业新周期深度解析及核心标的对比研究",
+        "title_hash": "f88ec30118ecd6c5d36fe1398afe86c0e90054b7",
+        "url": "http://xueqiu.com/6183582796/372800186",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "千亿兴业银锡之再思考：不被市场情绪裹挟，锚定自身的能力圈与投资思路。",
+        "title_hash": "d72b7b3e90e1ad10fc81e1a823ae65c2fa9bc999",
+        "url": "http://xueqiu.com/4086512744/372804205",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "GitHub Trending",
+        "platform": "GitHub",
+        "title": "Psiphon-Inc/conduit",
+        "title_hash": "5079647cf7b4f251c72dd495eec1740165af5610",
+        "url": "https://github.com/Psiphon-Inc/conduit",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 107 期",
+        "title_hash": "0feafe62daee0cff11fe55463b111868a41f6a00",
+        "url": "https://hellogithub.com/periodical/volume/107",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 106 期",
+        "title_hash": "245446e0f0b6179014893ad3e9a309798b52a731",
+        "url": "https://hellogithub.com/periodical/volume/106",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 105 期",
+        "title_hash": "405c49f80db41a42feab73d454e079a1f1071721",
+        "url": "https://hellogithub.com/periodical/volume/105",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 104 期",
+        "title_hash": "3db81a89de090cfcbb7e8359f43e83d787a6fb1b",
+        "url": "https://hellogithub.com/periodical/volume/104",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 103 期",
+        "title_hash": "19e0465261617847d3b20f14bccadc17c153f102",
+        "url": "https://hellogithub.com/periodical/volume/103",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 102 期",
+        "title_hash": "06b92ae69f304aa31d54945fb3215cf5e87d1eff",
+        "url": "https://hellogithub.com/periodical/volume/102",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 101 期",
+        "title_hash": "db83eb520441b5f9f57941d745aa458bd4f82ad8",
+        "url": "https://hellogithub.com/periodical/volume/101",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 100 期",
+        "title_hash": "bb09a4c8fe51e754ff601694118231115d60b625",
+        "url": "https://hellogithub.com/periodical/volume/100",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 99 期",
+        "title_hash": "f889f99bcb0b8989379271e0dfe1449704164245",
+        "url": "https://hellogithub.com/periodical/volume/99",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 98 期",
+        "title_hash": "ebe4ceb4e7e26775e644d1fee12685f79af4cac2",
+        "url": "https://hellogithub.com/periodical/volume/98",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "有赞技术团队",
+        "platform": "有赞技术团队",
+        "title": "数据测试方法",
+        "title_hash": "73e0cad9e2457ac47f46a017195bbf27c1d4d794",
+        "url": "https://tech.youzan.com/shu-ju-ce-shi-fang-fa/",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "有赞技术团队",
+        "platform": "有赞技术团队",
+        "title": "Redis源码解析",
+        "title_hash": "7f2f71d56129f24537e753c84e34127f550dcb71",
+        "url": "https://tech.youzan.com/redisyuan-ma-jie-xi/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "有赞技术团队",
+        "platform": "有赞技术团队",
+        "title": "Java锁与线程的那些事",
+        "title_hash": "9da1c98002fe660c884d92579f6e0f7a3a54f7db",
+        "url": "https://tech.youzan.com/javasuo-yu-xian-cheng-de-na-xie-shi/",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "有赞技术团队",
+        "platform": "有赞技术团队",
+        "title": "有赞实时计算 Flink 1.13 升级实践",
+        "title_hash": "623e164b9133c1d9411390aa8274afd44a69011b",
+        "url": "https://tech.youzan.com/flink_13/",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "虹膜",
+        "platform": "虹膜",
+        "title": "国内外达成一致了，就是超级烂片",
+        "title_hash": "8144eab0920784775fbdc76a3423efe0fc8f99b7",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "虹膜",
+        "platform": "虹膜",
+        "title": "是枝裕和的电影被死亡笼罩",
+        "title_hash": "42dbe6d0b014beb6d53274f4b68868edc6dc7bac",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9",
+        "category": "时事",
+        "carrier": "文章",
+        "quality_score": 3.0
       }
     ]
   }
