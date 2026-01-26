@@ -17,21 +17,21 @@
 
 ## Build, Test, and Development Commands
 
-This repo is primarily script-driven; keep dependencies minimal.
+本仓库以脚本为主（尽量少依赖），前端仅用于本地阅读。
 
 - Sync enabled sources from checklist: `python3 .codex/skills/rss-daily-report/scripts/sync_sources.py`
 - Generate today’s report (uses `my/config.json` if present): `python3 .codex/skills/rss-daily-report/scripts/run.py`
 - Generate a date: `python3 .codex/skills/rss-daily-report/scripts/run.py YYYY-MM-DD`
 - Dry run (no files written): `python3 .codex/skills/rss-daily-report/scripts/run.py --dry-run --no-ai`
 - Rebuild legacy site bundle: `python3 .codex/skills/rss-daily-report/scripts/build_site.py`
-- Web dev server: `cd web && npm run dev`
+- Web dev server: `cd web && pnpm run dev`
 
 ## Coding Style & Naming Conventions
 
 - Python 3.10+; 4-space indentation; prefer small helpers and explicit control flow (see `scripts/run.py`).
 - Type hints are expected for new functions and dataclasses.
 - Avoid heavy dependencies (keep the pipeline portable).
-- Frontend: follow Vue3 + TypeScript patterns; keep components small and readable.
+- Frontend: Vue3 + TypeScript；样式使用 Tailwind（见 `web/vite.config.ts` 与 `web/tailwind.config.cjs`）。
 
 ## Testing Guidelines
 

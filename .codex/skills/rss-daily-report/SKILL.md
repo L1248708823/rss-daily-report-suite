@@ -102,6 +102,14 @@ user-invocable: true
 - `--sources my/sources.md`：直接指定启用源列表（推荐配合 `sync_sources.py` 从 checklist 生成）
 - `--select-keys-file my/RSS.md`：可选（旧模式），从 key 文件筛选平台/来源（1 行 1 个 key；key 会作为“平台”分组名）
 - `--select-key "知乎"`：额外追加筛选 key（可重复）
+- `--fresh-window-days 3`：新内容时间窗（默认 3 天；超出视为“库存补读”候选）
+- `--fallback-fresh-top-k 3`：没有 published 时间时，用 feed 内顺序兜底：每个源只把 top-K 当作“新内容”
+- `--backfill-daily-cap 3`：补读（历史库存）每天最多展示多少条（默认 3）
+- `--backfill-per-platform-limit 1`：补读的“每平台上限”（默认 1）
+- `--min-items-floor 20`：主列表展示保底条数（新内容不足时，从补读候选里补齐；默认 0 关闭）
+- `--floor-per-platform-cap 3`：补齐时主列表的“每平台上限”（默认 3）
+- `--circuit-breaker-fail-streak 3`：连续失败 N 次后熔断该源（默认 3）
+- `--circuit-breaker-mute-days 2`：熔断持续天数（默认 2）
 - `--foreign-news-section`：增加“国外时政”单独 section（随机抽 3 个 feed URL）
 - `--foreign-source-key "world"`：识别“国外时政源”的关键词（可重复；默认内置一组关键词）
 - `--foreign-sample-feeds 3`：随机抽取多少个 feed URL（默认 3）

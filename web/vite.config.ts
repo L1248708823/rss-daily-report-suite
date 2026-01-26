@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import tailwindcss from '@tailwindcss/vite'
 import type { Plugin } from 'vite'
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -10,6 +11,7 @@ import path from 'node:path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
+    tailwindcss(),
     vue(),
     vueDevTools(),
     localNewsData(),

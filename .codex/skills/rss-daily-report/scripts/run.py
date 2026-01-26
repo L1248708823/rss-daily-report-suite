@@ -63,6 +63,114 @@ DEFAULT_REPO_SITE_DIR = os.path.join(REPO_ROOT, "site")
 DEFAULT_REQUEST_TIMEOUT: Tuple[float, float] = (5.0, 12.0)
 
 
+def is_proxy_reachable(proxy_url: str, *, timeout_seconds: float = 0.8) -> bool:
+    """
+    Best-effort check whether an HTTP proxy endpoint is reachable.
+    This prevents misconfigured proxies from breaking all feed fetches.
+    """
+
+    p = normalize_ws(str(proxy_url or ""))
+    if not p:
+        return False
+    try:
+        u = urllib.parse.urlsplit(p)
+        host = u.hostname
+        port = int(u.port or 0)
+    except Exception:
+        return False
+    if not host or port <= 0:
+        return False
+    try:
+        with socket.create_connection((host, port), timeout=float(timeout_seconds)):
+            return True
+    except Exception:
+        return False
+
+
+def is_source_muted(cache: Dict[str, Any], *, url: str, today: dt.date) -> bool:
+    """
+    Circuit breaker: skip a feed temporarily if it has been failing consistently.
+    """
+
+    if not url:
+        return False
+    sh = cache.get("source_health", {}).get("entries", {})
+    if not isinstance(sh, dict):
+        return False
+    obj = sh.get(url)
+    if not isinstance(obj, dict):
+        return False
+    muted_until = str(obj.get("muted_until") or "")
+    if not muted_until:
+        return False
+    try:
+        return dt.date.fromisoformat(muted_until) >= today
+    except Exception:
+        return False
+
+
+def record_source_result(
+    cache: Dict[str, Any],
+    *,
+    url: str,
+    today: dt.date,
+    ok: bool,
+    error: Optional[str] = None,
+) -> None:
+    sh = cache.setdefault("source_health", {"entries": {}}).setdefault("entries", {})
+    if not isinstance(sh, dict) or not url:
+        return
+    obj = sh.get(url)
+    if not isinstance(obj, dict):
+        obj = {}
+        sh[url] = obj
+    obj["last_seen"] = today.isoformat()
+
+    if ok:
+        obj["fail_streak"] = 0
+        obj.pop("muted_until", None)
+        obj.pop("last_error", None)
+        return
+
+    obj["last_error"] = normalize_ws(str(error or ""))[:500]
+    try:
+        obj["fail_streak"] = int(obj.get("fail_streak") or 0) + 1
+    except Exception:
+        obj["fail_streak"] = 1
+
+
+def maybe_trip_circuit_breaker(
+    cache: Dict[str, Any],
+    *,
+    url: str,
+    today: dt.date,
+    fail_streak_threshold: int,
+    mute_days: int,
+) -> Optional[str]:
+    """
+    If a source has reached the failure threshold, mark it muted for N days.
+    Returns a short message if muted, otherwise None.
+    """
+
+    fail_streak_threshold = max(1, int(fail_streak_threshold))
+    mute_days = max(1, int(mute_days))
+    sh = cache.get("source_health", {}).get("entries", {})
+    if not isinstance(sh, dict) or not url:
+        return None
+    obj = sh.get(url)
+    if not isinstance(obj, dict):
+        return None
+    try:
+        streak = int(obj.get("fail_streak") or 0)
+    except Exception:
+        streak = 0
+    if streak < fail_streak_threshold:
+        return None
+    muted_until = today + dt.timedelta(days=mute_days)
+    obj["muted_until"] = muted_until.isoformat()
+    return f"muted_until={obj['muted_until']} (fail_streak={streak})"
+
+
 def force_requests_ipv4() -> None:
     """
     Some environments have no IPv6 route, but DNS still returns AAAA first,
@@ -154,6 +262,45 @@ def http_get_bytes(
     if last_err:
         raise last_err
     return b""
+
+
+def http_get_bytes_with_meta(
+    url: str,
+    *,
+    timeout: Tuple[float, float] = DEFAULT_REQUEST_TIMEOUT,
+    retries: int = 0,
+    retry_sleep_ms: int = 0,
+    proxies: Optional[Dict[str, str]] = None,
+) -> Tuple[bytes, Dict[str, Any]]:
+    """
+    Fetch URL as bytes and return basic response metadata for troubleshooting.
+    """
+
+    last_err: Optional[BaseException] = None
+    for attempt in range(max(0, int(retries)) + 1):
+        try:
+            r = requests.get(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=timeout,
+                allow_redirects=True,
+                proxies=proxies,
+            )
+            meta = {
+                "status_code": int(getattr(r, "status_code", 0) or 0),
+                "content_type": str(r.headers.get("content-type") or ""),
+                "final_url": str(getattr(r, "url", "") or url),
+            }
+            return (r.content or b""), meta
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_err = e
+            if attempt >= max(0, int(retries)):
+                raise
+            if int(retry_sleep_ms) > 0:
+                time.sleep(max(0.0, float(retry_sleep_ms)) / 1000.0)
+    if last_err:
+        raise last_err
+    return b"", {"status_code": 0, "content_type": "", "final_url": url}
 
 
 def parse_js_quoted_payload(text: str) -> str:
@@ -891,6 +1038,7 @@ def ensure_cache_shape(cache: Dict[str, Any]) -> Dict[str, Any]:
     cache.setdefault("url_cache", {"_ttl_hours": 168, "entries": {}})
     cache.setdefault("title_hashes", {"_ttl_hours": 168, "entries": {}})
     cache.setdefault("article_history", {"_comment": "daily published items"})
+    cache.setdefault("source_health", {"_comment": "per-feed health state keyed by feed URL", "entries": {}})
     return cache
 
 
@@ -921,6 +1069,35 @@ def load_cache(path: str) -> Dict[str, Any]:
         int(cache["title_hashes"].get("_ttl_hours", 168)),
         today,
     )
+    # best-effort prune muted sources map (keep recent/active only)
+    sh = cache.get("source_health", {}).get("entries", {})
+    if isinstance(sh, dict):
+        kept: Dict[str, Any] = {}
+        for k, v in sh.items():
+            if not isinstance(v, dict):
+                continue
+            muted_until = str(v.get("muted_until") or "")
+            last_seen = str(v.get("last_seen") or "")
+            # keep if muted in the future, or seen within 60 days
+            keep = False
+            try:
+                if muted_until:
+                    d = dt.date.fromisoformat(muted_until)
+                    if d >= today:
+                        keep = True
+            except Exception:
+                pass
+            if not keep:
+                try:
+                    if last_seen:
+                        d2 = dt.date.fromisoformat(last_seen)
+                        if (today - d2).days <= 60:
+                            keep = True
+                except Exception:
+                    keep = False
+            if keep:
+                kept[str(k)] = v
+        cache["source_health"]["entries"] = kept
     return cache
 
 
@@ -1310,17 +1487,26 @@ def fetch_and_parse_source(
 
     last_err: Optional[BaseException] = None
     last_url: Optional[str] = None
+    last_meta: Dict[str, Any] = {}
     items: List[Tuple[str, str, str, Optional[str], Optional[str]]] = []
     for u in candidates:
         last_url = u
         try:
-            xml_bytes = http_get_bytes(
+            xml_bytes, meta = http_get_bytes_with_meta(
                 u,
                 timeout=timeout,
                 retries=retries,
                 retry_sleep_ms=retry_sleep_ms,
                 proxies=proxies,
             )
+            last_meta = meta or {}
+            try:
+                sample = (xml_bytes or b"")[:200].decode("utf-8", errors="ignore")
+                sample = normalize_ws(sample).strip()
+                if sample:
+                    last_meta["sample"] = sample
+            except Exception:
+                pass
             items = parse_feed(xml_bytes)
             if items:
                 break
@@ -1333,7 +1519,21 @@ def fetch_and_parse_source(
             continue
     if not items:
         if last_err:
-            raise RuntimeError(f"failed after {len(candidates)} endpoint(s), last={last_url}: {last_err}")
+            status = str(last_meta.get("status_code") or "")
+            ctype = normalize_ws(str(last_meta.get("content_type") or ""))
+            final_url = normalize_ws(str(last_meta.get("final_url") or ""))
+            sample = normalize_ws(str(last_meta.get("sample") or ""))
+            extra = []
+            if status:
+                extra.append(f"status={status}")
+            if ctype:
+                extra.append(f"content-type={ctype}")
+            if final_url and final_url != (last_url or ""):
+                extra.append(f"final={final_url}")
+            if sample:
+                extra.append(f"sample={sample[:200]}")
+            extra_str = ("; " + ", ".join(extra)) if extra else ""
+            raise RuntimeError(f"failed after {len(candidates)} endpoint(s), last={last_url}{extra_str}: {last_err}")
         raise RuntimeError(f"failed after {len(candidates)} endpoint(s)")
 
     out: List[FeedEntry] = []
@@ -1584,8 +1784,12 @@ def score_entry(entry: FeedEntry, category: str, carrier: str) -> float:
 
 
 def dedupe_entries(entries: List[FeedEntry], cache: Dict[str, Any], *, date_str: str) -> List[FeedEntry]:
-    url_seen = set((cache.get("url_cache", {}).get("entries") or {}).keys())
-    title_seen = set((cache.get("title_hashes", {}).get("entries") or {}).keys())
+    # IMPORTANT: if re-running the same date, don't let a previous partial publish
+    # shrink today's result set. We still de-dup within the run, but ignore cache
+    # TTL filters so the run is not path-dependent.
+    is_rerun_same_day = str((cache.get("last_run") or {}).get("date") or "") == str(date_str)
+    url_seen = set() if is_rerun_same_day else set((cache.get("url_cache", {}).get("entries") or {}).keys())
+    title_seen = set() if is_rerun_same_day else set((cache.get("title_hashes", {}).get("entries") or {}).keys())
 
     allow_url: set[str] = set()
     allow_title: set[str] = set()
@@ -1785,10 +1989,13 @@ def build_report(
     per_platform_limit: int,
     fresh_window_days: int,
     backfill_daily_cap: int,
+    min_items_floor: int,
+    floor_added: int,
     platform_sources: Dict[str, List[FeedSource]],
     success_source_urls: set[str],
     failed_source_urls: set[str],
     skipped_source_urls: set[str],
+    muted_source_urls: set[str],
     errors: List[str],
     foreign_section_title: Optional[str],
     foreign_section_sources: List[FeedSource],
@@ -1818,6 +2025,8 @@ def build_report(
     lines.append(
         f"> 新内容窗口：{max(1, int(fresh_window_days))} 天 | 补读上限：{max(0, int(backfill_daily_cap))} 条  "
     )
+    if max(0, int(min_items_floor)) > 0:
+        lines.append(f"> 展示保底：{max(0, int(min_items_floor))} 条（从补读补齐 {max(0, int(floor_added))} 条）  ")
     if group_by == "platform" and max(0, int(per_platform_limit)) > 0:
         if selected_keys:
             lines.append(f"> 平台 key：{len(selected_keys)} 个 | 每平台 Top：{max(0, int(per_platform_limit))}  ")
@@ -1851,11 +2060,17 @@ def build_report(
             ok = sum(1 for s in srcs if s.url in success_source_urls)
             bad = sum(1 for s in srcs if s.url in failed_source_urls)
             skipped = sum(1 for s in srcs if s.url in skipped_source_urls)
-            lines.append(f"- **{k}**：源 {len(srcs)} 个（成功 {ok} / 失败 {bad} / 未收集 {skipped}）")
+            muted = sum(1 for s in srcs if s.url in muted_source_urls)
+            if muted:
+                lines.append(f"- **{k}**：源 {len(srcs)} 个（成功 {ok} / 失败 {bad} / 熔断 {muted} / 未收集 {skipped}）")
+            else:
+                lines.append(f"- **{k}**：源 {len(srcs)} 个（成功 {ok} / 失败 {bad} / 未收集 {skipped}）")
             # avoid huge logs in the report; show up to 8 endpoints
             for s in srcs[:8]:
                 if s.url in failed_source_urls:
                     status = "失败"
+                elif s.url in muted_source_urls:
+                    status = "熔断"
                 elif s.url in skipped_source_urls:
                     status = "未收集"
                 elif s.url in success_source_urls:
@@ -2142,6 +2357,30 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Per-platform cap for backfill selection (default: 1).",
     )
     parser.add_argument(
+        "--min-items-floor",
+        type=int,
+        default=int(cfg_get("min_items_floor", 0)),
+        help="Ensure at least N items are shown in the main list by supplementing from backfill (default: 0 = disabled).",
+    )
+    parser.add_argument(
+        "--floor-per-platform-cap",
+        type=int,
+        default=int(cfg_get("floor_per_platform_cap", 3)),
+        help="When supplementing from backfill to reach --min-items-floor, cap items per platform in the main list (default: 3).",
+    )
+    parser.add_argument(
+        "--circuit-breaker-fail-streak",
+        type=int,
+        default=int(cfg_get("circuit_breaker_fail_streak", 3)),
+        help="Mute a source after N consecutive failures (default: 3).",
+    )
+    parser.add_argument(
+        "--circuit-breaker-mute-days",
+        type=int,
+        default=int(cfg_get("circuit_breaker_mute_days", 2)),
+        help="Mute duration days after tripping circuit breaker (default: 2).",
+    )
+    parser.add_argument(
         "--dynamic-platform-quota",
         dest="dynamic_platform_quota",
         action="store_true",
@@ -2278,7 +2517,11 @@ def main(argv: Optional[List[str]] = None) -> int:
     proxies: Optional[Dict[str, str]] = None
     proxy = normalize_ws(str(getattr(args, "proxy", "") or ""))
     if proxy:
-        proxies = {"http": proxy, "https": proxy}
+        if is_proxy_reachable(proxy):
+            proxies = {"http": proxy, "https": proxy}
+        else:
+            # Don't fail the whole run if the proxy is not reachable (common on WSL if Windows proxy binds 127.0.0.1 only).
+            print(f"[warn] proxy not reachable, disabled: {proxy}", file=sys.stderr)
 
     date_str = parse_date_arg(args.date)
     os.makedirs(args.out_dir, exist_ok=True)
@@ -2374,10 +2617,11 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     cache = load_cache(DEFAULT_CACHE_PATH)
     t0 = time.time()
+    today_date = dt.date.fromisoformat(date_str)
     platform_heat = compute_platform_heat(
         cache=cache,
         sources=sources,
-        today=dt.date.fromisoformat(date_str),
+        today=today_date,
         window_days=int(args.platform_heat_window_days),
         group_for_source=(lambda s: platform_for_source_url.get(s.url, s.name)),
     )
@@ -2387,12 +2631,17 @@ def main(argv: Optional[List[str]] = None) -> int:
     success_source_urls: set[str] = set()
     failed_source_urls: set[str] = set()
     skipped_source_urls: set[str] = set()
+    muted_source_urls: set[str] = set()
     platform_sources: Dict[str, List[FeedSource]] = {}
     for s in sources:
         plat = platform_for_source_url.get(s.url, s.name)
         platform_sources.setdefault(str(plat), []).append(s)
 
     def fetch_one(src: FeedSource) -> List[FeedEntry]:
+        if is_source_muted(cache, url=src.url, today=today_date):
+            muted_source_urls.add(src.url)
+            skipped_source_urls.add(src.url)
+            return []
         if src.url.startswith("https://github.com/trending"):
             items = fetch_github_trending_source(
                 src,
@@ -2430,11 +2679,23 @@ def main(argv: Optional[List[str]] = None) -> int:
             src = future_to_src[fut]
             done.add(fut)
             try:
-                entries.extend(fut.result())
+                got = fut.result()
+                entries.extend(got)
                 success_source_urls.add(src.url)
+                record_source_result(cache, url=src.url, today=today_date, ok=True)
             except Exception as e:
                 errors.append(f"{src.name} ({src.url}): {e}")
                 failed_source_urls.add(src.url)
+                record_source_result(cache, url=src.url, today=today_date, ok=False, error=str(e))
+                msg = maybe_trip_circuit_breaker(
+                    cache,
+                    url=src.url,
+                    today=today_date,
+                    fail_streak_threshold=int(getattr(args, "circuit_breaker_fail_streak", 3)),
+                    mute_days=int(getattr(args, "circuit_breaker_mute_days", 2)),
+                )
+                if msg:
+                    errors.append(f"{src.name} ({src.url}): circuit-breaker tripped, {msg}")
 
     entries = dedupe_entries(entries, cache, date_str=date_str)
 
@@ -2639,6 +2900,72 @@ def main(argv: Optional[List[str]] = None) -> int:
                     break
 
     # -----------------------------
+    # Floor: supplement main list from backfill
+    # -----------------------------
+
+    raw_min_items_floor = max(0, int(getattr(args, "min_items_floor", 0)))
+    min_items_floor = raw_min_items_floor
+    # Respect explicit --max-items if set (>0). If user caps output to 10, floor should not force 20.
+    if max_items_arg is not None:
+        try:
+            explicit_max = int(max_items_arg)
+        except Exception:
+            explicit_max = 0
+        if explicit_max > 0:
+            min_items_floor = min(min_items_floor, explicit_max)
+    floor_added: List[EnrichedEntry] = []
+    if min_items_floor > 0 and len(published) < min_items_floor and enriched_backfill:
+        floor_per_platform_cap = max(1, int(getattr(args, "floor_per_platform_cap", 3)))
+
+        def floor_candidate_sort_key(it: EnrichedEntry) -> Tuple[Any, ...]:
+            pub = parse_published_dt(it.entry)
+            pos = int(it.entry.source_pos) if it.entry.source_pos is not None else 999999
+            pub_ts = pub.replace(tzinfo=dt.timezone.utc).timestamp() if pub is not None else float("-inf")
+            return (-pub_ts, -it.quality_score, pos, it.entry.title.lower())
+
+        candidates = sorted(enriched_backfill, key=floor_candidate_sort_key)
+        existing_urls = {it.entry.url for it in published if it.entry.url}
+        counts: Counter[str] = Counter()
+        for it in published:
+            counts[it.entry.platform or it.entry.source_name or "未知来源"] += 1
+
+        # Avoid dumping too much entertainment into the main list.
+        deferred_ent: List[EnrichedEntry] = []
+        for it in candidates:
+            if len(published) >= min_items_floor:
+                break
+            if not it.entry.url or it.entry.url in existing_urls:
+                continue
+            p = it.entry.platform or it.entry.source_name or "未知来源"
+            if counts[p] >= floor_per_platform_cap:
+                continue
+            if it.category == "娱乐":
+                deferred_ent.append(it)
+                continue
+            published.append(it)
+            floor_added.append(it)
+            existing_urls.add(it.entry.url)
+            counts[p] += 1
+
+        if len(published) < min_items_floor and deferred_ent:
+            for it in deferred_ent:
+                if len(published) >= min_items_floor:
+                    break
+                if not it.entry.url or it.entry.url in existing_urls:
+                    continue
+                p = it.entry.platform or it.entry.source_name or "未知来源"
+                if counts[p] >= floor_per_platform_cap:
+                    continue
+                published.append(it)
+                floor_added.append(it)
+                existing_urls.add(it.entry.url)
+                counts[p] += 1
+
+        if floor_added and backfill_published:
+            floor_urls = {it.entry.url for it in floor_added if it.entry.url}
+            backfill_published = [it for it in backfill_published if it.entry.url not in floor_urls]
+
+    # -----------------------------
     # Optional: foreign-news section
     # -----------------------------
 
@@ -2772,10 +3099,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         per_platform_limit=per_platform_limit,
         fresh_window_days=fresh_window_days,
         backfill_daily_cap=backfill_daily_cap,
+        min_items_floor=int(min_items_floor),
+        floor_added=int(len(floor_added)),
         platform_sources=platform_sources,
         success_source_urls=success_source_urls,
         failed_source_urls=failed_source_urls,
         skipped_source_urls=skipped_source_urls,
+        muted_source_urls=muted_source_urls,
         errors=errors,
         foreign_section_title=foreign_section_title,
         foreign_section_sources=foreign_section_sources,
@@ -2807,6 +3137,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         "backfill_candidates": int(len(backfill_entries)),
         "items_published": len(published),
         "backfill_published": int(len(backfill_published)),
+        "floor_added": int(len(floor_added)),
+        "min_items_floor": int(min_items_floor),
         "sources_used": [s.url for s in sources],
         "errors": errors[:100],
     }
@@ -2879,6 +3211,9 @@ def main(argv: Optional[List[str]] = None) -> int:
                 "fallback_fresh_top_k": int(fallback_fresh_top_k),
                 "backfill_daily_cap": int(backfill_daily_cap),
                 "backfill_published": int(len(backfill_published)),
+                "min_items_floor": int(min_items_floor),
+                "floor_added": int(len(floor_added)),
+                "floor_per_platform_cap": int(getattr(args, "floor_per_platform_cap", 3)),
                 "min_score": float(args.min_score),
                 "duration_seconds": int(duration_seconds),
                 "items_collected": int(len(entries)),
