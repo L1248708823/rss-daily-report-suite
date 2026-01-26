@@ -50,6 +50,7 @@ DEFAULT_OUT_DIR = os.path.join(REPO_ROOT, "NewsReport")
 DEFAULT_CACHE_PATH = os.path.join(SKILL_DIR, "cache.json")
 DEFAULT_REPO_CATALOG_PATH = os.path.join(REPO_ROOT, "RSS源.md")
 DEFAULT_REPO_KEYS_PATH = os.path.join(REPO_ROOT, "my", "RSS.md")
+DEFAULT_REPO_CONFIG_PATH = os.path.join(REPO_ROOT, "my", "config.json")
 DEFAULT_REPO_SITE_DIR = os.path.join(REPO_ROOT, "site")
 
 
@@ -81,7 +82,14 @@ def force_requests_ipv4() -> None:
         return
 
 
-def http_get_text(url: str, *, timeout: Tuple[float, float] = DEFAULT_REQUEST_TIMEOUT) -> str:
+def http_get_text(
+    url: str,
+    *,
+    timeout: Tuple[float, float] = DEFAULT_REQUEST_TIMEOUT,
+    retries: int = 0,
+    retry_sleep_ms: int = 0,
+    proxies: Optional[Dict[str, str]] = None,
+) -> str:
     """
     Fetch URL as text.
     - short timeouts so one slow feed won't block the whole report
@@ -89,9 +97,62 @@ def http_get_text(url: str, *, timeout: Tuple[float, float] = DEFAULT_REQUEST_TI
       (we'll attempt to parse; if it fails, it's treated as a failed source).
     """
 
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout, allow_redirects=True)
-    return r.text or ""
+    last_err: Optional[BaseException] = None
+    for attempt in range(max(0, int(retries)) + 1):
+        try:
+            r = requests.get(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=timeout,
+                allow_redirects=True,
+                proxies=proxies,
+            )
+            return r.text or ""
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_err = e
+            if attempt >= max(0, int(retries)):
+                raise
+            if int(retry_sleep_ms) > 0:
+                time.sleep(max(0.0, float(retry_sleep_ms)) / 1000.0)
+    if last_err:
+        raise last_err
+    return ""
 
+
+def http_get_bytes(
+    url: str,
+    *,
+    timeout: Tuple[float, float] = DEFAULT_REQUEST_TIMEOUT,
+    retries: int = 0,
+    retry_sleep_ms: int = 0,
+    proxies: Optional[Dict[str, str]] = None,
+) -> bytes:
+    """
+    Fetch URL as bytes.
+    Using bytes for XML allows ElementTree to respect the XML declaration encoding,
+    avoiding mojibake when servers omit/lie about HTTP charset headers.
+    """
+
+    last_err: Optional[BaseException] = None
+    for attempt in range(max(0, int(retries)) + 1):
+        try:
+            r = requests.get(
+                url,
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=timeout,
+                allow_redirects=True,
+                proxies=proxies,
+            )
+            return r.content or b""
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_err = e
+            if attempt >= max(0, int(retries)):
+                raise
+            if int(retry_sleep_ms) > 0:
+                time.sleep(max(0.0, float(retry_sleep_ms)) / 1000.0)
+    if last_err:
+        raise last_err
+    return b""
 
 def parse_github_trending_top10(html: str) -> List[Dict[str, str]]:
     """
@@ -158,8 +219,21 @@ def parse_github_trending_top10(html: str) -> List[Dict[str, str]]:
     return out
 
 
-def fetch_github_trending_source(source: FeedSource, *, date_str: str) -> List[FeedEntry]:
-    html = http_get_text(source.url, timeout=(5.0, 18.0))
+def fetch_github_trending_source(
+    source: FeedSource,
+    *,
+    date_str: str,
+    retries: int = 0,
+    retry_sleep_ms: int = 0,
+    proxies: Optional[Dict[str, str]] = None,
+) -> List[FeedEntry]:
+    html = http_get_text(
+        source.url,
+        timeout=(5.0, 18.0),
+        retries=retries,
+        retry_sleep_ms=retry_sleep_ms,
+        proxies=proxies,
+    )
     repos = parse_github_trending_top10(html)
     out: List[FeedEntry] = []
     for r in repos:
@@ -190,6 +264,12 @@ class FeedSource:
     # Optional user-defined "platform heat" weight.
     # Can be set in sources.md via: Name|80<TAB>URL
     weight: float = 0.0
+    # Optional per-feed fetch cap override (takes precedence over --per-feed-limit).
+    # Can be set in sources.md via: Name|limit=15<TAB>URL (or: Name|80|limit=15<TAB>URL)
+    per_feed_limit: Optional[int] = None
+    # Optional fallback endpoints (tried in order after url).
+    # Can be set in sources.md via: Name|fallback=https://...|fallback=https://...<TAB>URL
+    fallback_urls: Tuple[str, ...] = ()
 
 
 @dataclass
@@ -215,6 +295,7 @@ class EnrichedEntry:
     keywords: List[str]
     summary: str
     key_points: List[str]
+    title_zh: Optional[str] = None
 
 
 # -----------------------------
@@ -226,11 +307,138 @@ def normalize_ws(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "")).strip()
 
 
+def is_mostly_english(text: str) -> bool:
+    t = (text or "").strip()
+    if not t:
+        return False
+    # If it contains CJK, treat as not mostly English.
+    if re.search(r"[\u4e00-\u9fff]", t):
+        return False
+    letters = sum(1 for ch in t if ("A" <= ch <= "Z") or ("a" <= ch <= "z"))
+    # Ignore short tokens like "AI", "GPU" etc.
+    if letters < 8:
+        return False
+    non_space = sum(1 for ch in t if not ch.isspace())
+    return (letters / max(1, non_space)) >= 0.45
+
+
+def split_sentences(text: str) -> List[str]:
+    """
+    Best-effort sentence splitter for both Chinese and English.
+    """
+
+    t = normalize_ws(text)
+    if not t:
+        return []
+    parts = re.split(r"(?<=[。！？.!?])\s+", t)
+    out: List[str] = []
+    for p in parts:
+        s = normalize_ws(p).strip()
+        if s:
+            out.append(s)
+    return out
+
+
+def clean_fallback_point(text: str) -> str:
+    """
+    Remove common boilerplate/noise from feed descriptions.
+    This is a best-effort heuristic used only when AI is disabled/unavailable.
+    """
+
+    t = normalize_ws(text)
+    if not t:
+        return ""
+
+    # Common CTA / boilerplate fragments.
+    for frag in [
+        "查看知乎原文",
+        "查看原文",
+        "查看全文",
+        "阅读原文",
+        "阅读全文",
+        "点击查看",
+        "点击阅读",
+    ]:
+        t = t.replace(frag, " ")
+    t = normalize_ws(t)
+
+    # Remove stock tickers and dense wrappers like $XYZ(SH000001)$.
+    t = re.sub(r"\$[^$]{1,40}\$", " ", t)
+    t = normalize_ws(t)
+
+    # Remove leading "首发：" / "作者：" labels.
+    t = re.sub(r"^(首发|作者|来源)\s*[:：]\s*", "", t, flags=re.I)
+    t = normalize_ws(t)
+
+    # Remove leading author signature like "张三， xxx" (keep the remaining clause if any).
+    t = re.sub(r"^[^，,]{1,18}[，,]\s*", "", t)
+    t = normalize_ws(t)
+
+    return t
+
+
+def title_bigrams(title: str) -> List[str]:
+    """
+    Extract Chinese bigrams from a title for weak relevance scoring in fallback mode.
+    """
+
+    t = normalize_ws(title)
+    chunks = re.findall(r"[\u4e00-\u9fff]+", t)
+    if not chunks:
+        return []
+    stop = {
+        "什么",
+        "为什么",
+        "怎么",
+        "如何",
+        "是否",
+        "可以",
+        "有的",
+        "一个",
+        "哪些",
+        "不会",
+        "会不",
+        "到底",
+        "真的",
+        "我们",
+        "你们",
+        "他们",
+        "这个",
+        "那个",
+        "中国",
+    }
+    out: List[str] = []
+    seen: set[str] = set()
+    for c in chunks:
+        if len(c) < 2:
+            continue
+        for i in range(len(c) - 1):
+            bg = c[i : i + 2]
+            if bg in stop:
+                continue
+            if bg in seen:
+                continue
+            seen.add(bg)
+            out.append(bg)
+    return out[:20]
+
 def strip_html(html: str) -> str:
     html = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html, flags=re.S | re.I)
     text = re.sub(r"<[^>]+>", " ", html)
     text = text.replace("&nbsp;", " ").replace("\xa0", " ")
     return normalize_ws(text)
+
+
+def sanitize_xml_bytes(xml_bytes: bytes) -> bytes:
+    """
+    Remove control characters that are illegal in XML 1.0.
+    Helps with a subset of feeds that embed stray bytes and break strict parsers.
+    """
+
+    if not xml_bytes:
+        return xml_bytes
+    bad = set(range(0x00, 0x20)) - {0x09, 0x0A, 0x0D}
+    return bytes(b for b in xml_bytes if b not in bad)
 
 
 def safe_url(url: str) -> str:
@@ -286,6 +494,7 @@ def write_report_data_json(
                 "source": it.entry.source_name,
                 "source_url": it.entry.source_url,
                 "title": it.entry.title,
+                "title_zh": it.title_zh,
                 "url": it.entry.url,
                 "published": it.entry.published,
                 "category": it.category,
@@ -485,6 +694,64 @@ def parse_sources_file(path: str) -> List[FeedSource]:
         return sources
 
     # Default: one URL per line (optionally with "Name<TAB>URL")
+    def parse_name_meta(raw_name: str) -> Tuple[str, float, Optional[int], Tuple[str, ...]]:
+        """
+        Parse optional metadata from the name cell.
+
+        Supported:
+          - Name|80                   -> weight=80
+          - Name|limit=15             -> per_feed_limit=15
+          - Name|80|limit=15          -> both
+          - Name|fallback=https://... -> fallback_urls
+        """
+
+        raw_name = normalize_ws(raw_name or "")
+        if not raw_name:
+            return "", 0.0, None, ()
+
+        parts = [normalize_ws(x) for x in raw_name.split("|") if normalize_ws(x)]
+        if not parts:
+            return "", 0.0, None, ()
+
+        name = parts[0]
+        weight = 0.0
+        per_feed_limit: Optional[int] = None
+        fallback_urls: List[str] = []
+
+        for seg in parts[1:]:
+            if re.fullmatch(r"[0-9]+(?:\\.[0-9]+)?", seg):
+                try:
+                    weight = float(seg)
+                except Exception:
+                    weight = 0.0
+                continue
+
+            m_lim = re.match(r"^(?:limit|per_feed_limit)\\s*=\\s*([0-9]+)$", seg, flags=re.I)
+            if m_lim:
+                try:
+                    per_feed_limit = max(1, int(m_lim.group(1)))
+                except Exception:
+                    per_feed_limit = None
+                continue
+
+            m_fb = re.match(r"^(?:fallback|alt|mirror)\\s*=\\s*(https?://.+)$", seg, flags=re.I)
+            if m_fb:
+                u = normalize_ws(m_fb.group(1))
+                if u.startswith("http"):
+                    fallback_urls.append(u)
+                continue
+
+        # de-dup while keeping order
+        dedup_fb: List[str] = []
+        seen_fb: set[str] = set()
+        for u in fallback_urls:
+            if u in seen_fb:
+                continue
+            seen_fb.add(u)
+            dedup_fb.append(u)
+
+        return name, weight, per_feed_limit, tuple(dedup_fb)
+
     sources2: List[FeedSource] = []
     seen2: set[str] = set()
     for raw in raw_lines:
@@ -506,21 +773,16 @@ def parse_sources_file(path: str) -> List[FeedSource]:
                     url = cand.strip()
                     break
         idx = line.find(url)
-        name = normalize_ws(line[:idx].strip()) if idx >= 0 else ""
-        weight = 0.0
-        m_w = re.match(r"^(.*)\|([0-9]+(?:\.[0-9]+)?)$", name)
-        if m_w:
-            name = normalize_ws(m_w.group(1))
-            try:
-                weight = float(m_w.group(2))
-            except Exception:
-                weight = 0.0
+        raw_name = normalize_ws(line[:idx].strip()) if idx >= 0 else ""
+        name, weight, per_feed_limit, fallback_urls = parse_name_meta(raw_name)
         if not name:
             name = urllib.parse.urlsplit(url).netloc or url
         if url in seen2:
             continue
         seen2.add(url)
-        sources2.append(FeedSource(name=name, url=url, weight=weight))
+        sources2.append(
+            FeedSource(name=name, url=url, weight=weight, per_feed_limit=per_feed_limit, fallback_urls=fallback_urls)
+        )
     return sources2
 
 
@@ -632,13 +894,17 @@ def parse_published_dt(entry: FeedEntry) -> Optional[dt.datetime]:
 # -----------------------------
 
 
-def parse_feed(xml_text: str) -> List[Tuple[str, str, str, Optional[str], Optional[str]]]:
+def parse_feed(xml_bytes: bytes) -> List[Tuple[str, str, str, Optional[str], Optional[str]]]:
     """
     Return list:
       (title, link, description, published, enclosure_type)
     """
 
-    root = ET.fromstring(xml_text)
+    try:
+        root = ET.fromstring(xml_bytes)
+    except Exception:
+        # Best-effort repair for malformed feeds (most commonly illegal control chars).
+        root = ET.fromstring(sanitize_xml_bytes(xml_bytes))
     tag = root.tag.lower()
 
     if tag.endswith("rss"):
@@ -692,15 +958,54 @@ def parse_feed(xml_text: str) -> List[Tuple[str, str, str, Optional[str], Option
     return []
 
 
-def fetch_and_parse_source(source: FeedSource, *, per_feed_limit: int) -> List[FeedEntry]:
+def fetch_and_parse_source(
+    source: FeedSource,
+    *,
+    per_feed_limit: int,
+    retries: int = 0,
+    retry_sleep_ms: int = 0,
+    proxies: Optional[Dict[str, str]] = None,
+) -> List[FeedEntry]:
     timeout = DEFAULT_REQUEST_TIMEOUT
     dom = (urllib.parse.urlsplit(source.url).netloc or "").lower()
     if "v2ex.com" in dom:
         timeout = (10.0, 18.0)
     elif "rsshub.app" in dom:
         timeout = (8.0, 18.0)
-    xml_text = http_get_text(source.url, timeout=timeout)
-    items = parse_feed(xml_text)
+
+    candidates: List[str] = [source.url]
+    for u in source.fallback_urls:
+        if u and u not in candidates:
+            candidates.append(u)
+
+    last_err: Optional[BaseException] = None
+    last_url: Optional[str] = None
+    items: List[Tuple[str, str, str, Optional[str], Optional[str]]] = []
+    for u in candidates:
+        last_url = u
+        try:
+            xml_bytes = http_get_bytes(
+                u,
+                timeout=timeout,
+                retries=retries,
+                retry_sleep_ms=retry_sleep_ms,
+                proxies=proxies,
+            )
+            items = parse_feed(xml_bytes)
+            if items:
+                break
+            # If the endpoint returns non-feed HTML (e.g., WAF block page), treat as failure and try fallback.
+            if b"<html" in (xml_bytes or b"").lower():
+                raise ValueError("non-feed HTML response")
+        except Exception as e:
+            last_err = e
+            items = []
+            continue
+    if not items:
+        if last_err:
+            raise RuntimeError(f"failed after {len(candidates)} endpoint(s), last={last_url}: {last_err}")
+        raise RuntimeError(f"failed after {len(candidates)} endpoint(s)")
+
     out: List[FeedEntry] = []
     for title, link, desc, pub, enclosure_type in items[:per_feed_limit]:
         out.append(
@@ -1008,16 +1313,20 @@ def maybe_ai_enrich(
     carrier: str,
     enable_ai: bool,
     model: str,
-) -> Optional[Tuple[str, List[str], List[str], float]]:
+) -> Optional[Tuple[str, List[str], List[str], float, Optional[str]]]:
     if not enable_ai:
         return None
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         return None
 
+    need_title_zh = is_mostly_english(entry.title)
     system = (
-        "你是一个日报编辑。根据输入信息输出严格 JSON（不要 Markdown）。"
-        "摘要 2-4 句中文；要点最多 3 条；关键词 3-6 个；质量评分 1-5（可小数）。"
+        "你是一个日报编辑。根据输入信息输出严格 JSON（不要 Markdown，不要多余字段）。"
+        "要求：摘要 2-4 句中文；要点最多 3 条；关键词 3-6 个；质量评分 1-5（可小数）。"
+        "要点必须是对内容的具体提炼（包含具体名词/事实/结论），不要输出模板化建议"
+        "（例如：'建议先扫一遍'、'收藏+打标签' 之类）。"
+        + ("原标题主要为英文时，额外输出 title_zh（中文标题翻译，尽量简洁）。" if need_title_zh else "")
     )
     user_obj = {
         "source": entry.source_name,
@@ -1031,7 +1340,14 @@ def maybe_ai_enrich(
     messages = [
         {"role": "system", "content": system},
         {"role": "user", "content": json.dumps(user_obj, ensure_ascii=False)},
-        {"role": "user", "content": "{\"summary\":\"...\",\"key_points\":[\"...\"],\"keywords\":[\"...\"],\"quality_score\":4.2}"},
+        {
+            "role": "user",
+            "content": (
+                "{\"summary\":\"...\",\"key_points\":[\"...\"],\"keywords\":[\"...\"],\"quality_score\":4.2"
+                + (",\"title_zh\":\"...\"" if need_title_zh else "")
+                + "}"
+            ),
+        },
     ]
 
     try:
@@ -1040,12 +1356,17 @@ def maybe_ai_enrich(
         data = json.loads(content)
         summary = normalize_ws(str(data.get("summary") or ""))
         key_points = [normalize_ws(str(x)) for x in (data.get("key_points") or [])][:3]
+        key_points = [x for x in key_points if x]
         keywords = [normalize_ws(str(x)) for x in (data.get("keywords") or [])][:6]
+        keywords = [x for x in keywords if x]
         q = float(data.get("quality_score") or 3.0)
         q = max(1.0, min(5.0, q))
+        title_zh = normalize_ws(str(data.get("title_zh") or "")) if need_title_zh else ""
+        if title_zh and title_zh.lower() == entry.title.lower():
+            title_zh = ""
         if not summary:
             return None
-        return summary, key_points, keywords, q
+        return summary, key_points, keywords, q, (title_zh or None)
     except Exception:
         return None
 
@@ -1054,11 +1375,40 @@ def fallback_summary(entry: FeedEntry) -> Tuple[str, List[str]]:
     summary = normalize_ws(entry.description or entry.title)
     if len(summary) > 260:
         summary = summary[:260].rstrip() + "…"
-    key_points = [
-        "建议先扫一遍标题/摘要，再决定是否深读",
-        "如果要形成积累：收藏 + 打标签 + 记录 1 条行动项",
-    ]
-    return summary, key_points[:3]
+    sents = split_sentences(entry.description or "")
+    bigrams = title_bigrams(entry.title)
+    scored: List[Tuple[int, int, str]] = []
+    for raw in sents:
+        s = clean_fallback_point(raw).strip().strip("。！？.!?").strip()
+        if not s:
+            continue
+        if len(s) < 12:
+            continue
+        score = 0
+        if bigrams:
+            for bg in bigrams:
+                if bg and bg in s:
+                    score += 1
+        scored.append((score, len(s), s))
+
+    # Prefer sentences that overlap with title; fall back to longer (more informative) ones.
+    scored.sort(key=lambda x: (-x[0], -x[1]))
+    points: List[str] = []
+    for score, _, s in scored:
+        if score == 0 and points:
+            # Once we already have some relevant points, avoid filling the rest with unrelated noise.
+            continue
+        if len(s) > 80:
+            s = s[:80].rstrip() + "…"
+        if s not in points:
+            points.append(s)
+        if len(points) >= 3:
+            break
+
+    if not points:
+        points = [clean_fallback_point(entry.title)[:80] or normalize_ws(entry.title)[:80]]
+
+    return summary, points[:3]
 
 
 # -----------------------------
@@ -1072,7 +1422,11 @@ def render_entry_md(idx: int, e: EnrichedEntry) -> str:
     stars = "⭐" * int(round(e.quality_score))
 
     lines: List[str] = []
-    lines.append(f"### {idx}. {e.entry.title}\n")
+    if e.title_zh and e.title_zh != e.entry.title:
+        lines.append(f"### {idx}. {e.title_zh}\n")
+        lines.append(f"- **原标题**：{e.entry.title}")
+    else:
+        lines.append(f"### {idx}. {e.entry.title}\n")
     lines.append(f"- **摘要**：{e.summary}")
     lines.append(f"- **分类**：`{e.category}`  |  **载体**：`{e.carrier}`")
     if e.key_points:
@@ -1261,8 +1615,40 @@ def parse_date_arg(date_str: Optional[str]) -> str:
 
 
 def main(argv: Optional[List[str]] = None) -> int:
+    argv = argv if argv is not None else sys.argv[1:]
+
+    # Optional JSON config (repo-friendly). CLI flags always override config.
+    pre = argparse.ArgumentParser(add_help=False)
+    pre.add_argument("--config", default=None, help="Optional JSON config file.")
+    pre.add_argument("--no-config", action="store_true", help="Disable auto loading my/config.json.")
+    pre_args, _ = pre.parse_known_args(argv)
+
+    cfg_path: Optional[str] = None
+    if not bool(pre_args.no_config):
+        cfg_path = (
+            str(pre_args.config)
+            if pre_args.config
+            else (DEFAULT_REPO_CONFIG_PATH if os.path.exists(DEFAULT_REPO_CONFIG_PATH) else None)
+        )
+
+    cfg_defaults: Dict[str, Any] = {}
+    if cfg_path:
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as f:
+                obj = json.load(f)
+            if isinstance(obj, dict) and isinstance(obj.get("defaults"), dict):
+                cfg_defaults = dict(obj.get("defaults") or {})
+        except Exception:
+            cfg_defaults = {}
+
+    def cfg_get(key: str, fallback: Any) -> Any:
+        v = cfg_defaults.get(key, fallback)
+        return fallback if v is None else v
+
     parser = argparse.ArgumentParser(description="Generate a daily report from RSS/Atom feeds.")
     parser.add_argument("date", nargs="?", help="Optional date: YYYY-MM-DD (default: today)")
+    parser.add_argument("--config", default=cfg_path, help="Optional JSON config file (default: my/config.json if exists).")
+    parser.add_argument("--no-config", action="store_true", help="Disable auto loading my/config.json.")
     parser.add_argument(
         "--sources",
         action="append",
@@ -1272,12 +1658,44 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument(
         "--max-items",
         type=int,
-        default=None,
+        default=cfg_defaults.get("max_items", None),
         help="Max published items overall (default: 50; set 0 for unlimited).",
     )
-    parser.add_argument("--per-feed-limit", type=int, default=10, help="Max items per feed to consider (default: 10)")
-    parser.add_argument("--min-score", type=float, default=2.6, help="Minimum score to include (default: 2.6)")
-    parser.add_argument("--time-budget", type=int, default=120, help="Max wall time budget in seconds (default: 120)")
+    parser.add_argument(
+        "--per-feed-limit",
+        type=int,
+        default=int(cfg_get("per_feed_limit", 10)),
+        help="Max items per feed to consider (default: 10)",
+    )
+    parser.add_argument(
+        "--min-score",
+        type=float,
+        default=float(cfg_get("min_score", 2.6)),
+        help="Minimum score to include (default: 2.6)",
+    )
+    parser.add_argument(
+        "--time-budget",
+        type=int,
+        default=int(cfg_get("time_budget", 120)),
+        help="Max wall time budget in seconds (default: 120)",
+    )
+    parser.add_argument(
+        "--retries",
+        type=int,
+        default=int(cfg_get("retries", 0)),
+        help="Retry count for network errors per endpoint (default: 0).",
+    )
+    parser.add_argument(
+        "--retry-sleep-ms",
+        type=int,
+        default=int(cfg_get("retry_sleep_ms", 0)),
+        help="Sleep between retries in milliseconds (default: 0).",
+    )
+    parser.add_argument(
+        "--proxy",
+        default=str(cfg_get("proxy", "") or ""),
+        help="Optional HTTP proxy URL applied to both http/https (e.g. http://127.0.0.1:7890).",
+    )
     parser.add_argument(
         "--prefer-ipv4",
         dest="prefer_ipv4",
@@ -1295,30 +1713,30 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument(
         "--group-by",
         choices=GROUP_BY_CHOICES,
-        default="platform",
+        default=str(cfg_get("group_by", "platform")),
         help="Report grouping mode: platform (default), topic, none",
     )
     parser.add_argument(
         "--platform-heat-window-days",
         type=int,
-        default=30,
+        default=int(cfg_get("platform_heat_window_days", 30)),
         help="Platform heat lookback window days (default: 30, only for --group-by platform)",
     )
     parser.add_argument(
         "--per-platform-limit",
         type=int,
-        default=0,
+        default=int(cfg_get("per_platform_limit", 0)),
         help="When --group-by platform: keep top N items per platform (default: 0 = disabled).",
     )
     parser.add_argument(
         "--platform-top-by",
         choices=["recent", "quality"],
-        default="recent",
+        default=str(cfg_get("platform_top_by", "recent")),
         help="When using --per-platform-limit: select top items by recent (default) or quality.",
     )
     parser.add_argument(
         "--select-keys-file",
-        default=None,
+        default=cfg_defaults.get("select_keys_file", None),
         help="Optional file of platform keywords (one per line) to filter sources by name/url.",
     )
     parser.add_argument(
@@ -1412,6 +1830,22 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Optional random seed for foreign-news sampling (default: deterministic by date).",
     )
     args = parser.parse_args(argv)
+
+    # Apply config-only defaults that are awkward to express in argparse defaults.
+    # (e.g. --sources is "append", and some flags use tri-state None/True/False.)
+    if not args.sources:
+        cfg_sources = cfg_defaults.get("sources")
+        if isinstance(cfg_sources, list) and cfg_sources:
+            args.sources = [str(x).strip() for x in cfg_sources if str(x).strip()]
+
+    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site"]:
+        if getattr(args, tri_flag, None) is None and isinstance(cfg_defaults.get(tri_flag), bool):
+            setattr(args, tri_flag, bool(cfg_defaults.get(tri_flag)))
+
+    proxies: Optional[Dict[str, str]] = None
+    proxy = normalize_ws(str(getattr(args, "proxy", "") or ""))
+    if proxy:
+        proxies = {"http": proxy, "https": proxy}
 
     date_str = parse_date_arg(args.date)
     os.makedirs(args.out_dir, exist_ok=True)
@@ -1522,9 +1956,22 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     def fetch_one(src: FeedSource) -> List[FeedEntry]:
         if src.url.startswith("https://github.com/trending"):
-            items = fetch_github_trending_source(src, date_str=date_str)
+            items = fetch_github_trending_source(
+                src,
+                date_str=date_str,
+                retries=int(args.retries),
+                retry_sleep_ms=int(args.retry_sleep_ms),
+                proxies=proxies,
+            )
         else:
-            items = fetch_and_parse_source(src, per_feed_limit=int(args.per_feed_limit))
+            per_feed_limit = int(src.per_feed_limit) if src.per_feed_limit else int(args.per_feed_limit)
+            items = fetch_and_parse_source(
+                src,
+                per_feed_limit=per_feed_limit,
+                retries=int(args.retries),
+                retry_sleep_ms=int(args.retry_sleep_ms),
+                proxies=proxies,
+            )
         plat = platform_for_source_url.get(src.url)
         if plat:
             for it in items:
@@ -1564,7 +2011,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
         ai = maybe_ai_enrich(e, category=category, carrier=carrier, enable_ai=enable_ai, model=args.openai_model)
         if ai:
-            summary, key_points, keywords, q2 = ai
+            summary, key_points, keywords, q2, title_zh = ai
             enriched.append(
                 EnrichedEntry(
                     entry=e,
@@ -1574,6 +2021,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                     keywords=keywords,
                     summary=summary,
                     key_points=key_points,
+                    title_zh=title_zh,
                 )
             )
         else:
@@ -1680,7 +2128,14 @@ def main(argv: Optional[List[str]] = None) -> int:
             foreign_section_sources = candidates[: min(k, len(candidates))]
 
             def fetch_foreign_one(src: FeedSource) -> List[FeedEntry]:
-                items = fetch_and_parse_source(src, per_feed_limit=int(args.per_feed_limit))
+                per_feed_limit = int(src.per_feed_limit) if src.per_feed_limit else int(args.per_feed_limit)
+                items = fetch_and_parse_source(
+                    src,
+                    per_feed_limit=per_feed_limit,
+                    retries=int(args.retries),
+                    retry_sleep_ms=int(args.retry_sleep_ms),
+                    proxies=proxies,
+                )
                 for it in items:
                     it.platform = foreign_section_title or src.name
                 return items
@@ -1723,7 +2178,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                     model=args.openai_model,
                 )
                 if ai:
-                    summary, key_points, keywords, q2 = ai
+                    summary, key_points, keywords, q2, title_zh = ai
                     foreign_section_enriched.append(
                         EnrichedEntry(
                             entry=e,
@@ -1733,6 +2188,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                             keywords=keywords,
                             summary=summary,
                             key_points=key_points,
+                            title_zh=title_zh,
                         )
                     )
                 else:

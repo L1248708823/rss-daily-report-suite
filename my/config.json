@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "sources": ["my/sources.selected.md"],
+    "select_keys_file": "my/RSS.md",
+    "group_by": "platform",
+    "platform_heat_window_days": 30,
+    "per_platform_limit": 10,
+    "platform_top_by": "recent",
+    "per_feed_limit": 30,
+    "min_score": 2.6,
+    "time_budget": 240,
+    "prefer_ipv4": true,
+    "github_top10": true,
+    "export_json": true,
+    "build_site": true,
+    "proxy": "",
+    "retries": 1,
+    "retry_sleep_ms": 250
+  }
+}

@@ -21,6 +21,10 @@ user-invocable: true
 
 - `python3 .codex/skills/rss-daily-report/scripts/run.py`
 
+如果你不想每次都手敲一堆参数，可以在仓库根目录放一个 `my/config.json`（脚本会自动读取；用 `--no-config` 可禁用），例如：
+
+- `{"defaults":{"per_feed_limit":30,"per_platform_limit":10,"time_budget":240,"sources":["RSS源.md"],"select_keys_file":"my/RSS.md","proxy":"http://127.0.0.1:7890"}}`
+
 如果你有一份“RSS 源目录”（Markdown 表格）+ 一份“关键 key 列表”（你想要的平台/来源名），可以这样跑：
 
 - `python3 .codex/skills/rss-daily-report/scripts/run.py --sources RSS源.md --select-keys-file my/RSS.md --group-by platform --per-platform-limit 10 --max-items 0 --per-feed-limit 30`
@@ -49,6 +53,12 @@ user-invocable: true
 
 - `名字|80<TAB>URL`
 
+可选：为单个源设置抓取条数/回退 URL（用于源站不通时重试其它端点），格式：
+
+- `名字|limit=15<TAB>URL`
+- `名字|fallback=https://mirror.example.com/feed<TAB>URL`
+- `名字|80|limit=15|fallback=https://mirror.example.com/feed<TAB>URL`
+
 支持 `https://` 的 RSS/Atom；空行与 `#` 注释行会被忽略。
 
 此外，`--sources` 也支持读取“RSS 源目录”的 Markdown 表格（列名包含“名称 / RSS”即可），会自动从表格行里提取 `名称` + `RSS源`。
@@ -62,6 +72,10 @@ user-invocable: true
 - `export OPENAI_API_KEY='...'`
 - 可选：`export OPENAI_MODEL='gpt-4o-mini'`
 - 运行同上
+
+英文条目增强（需要 AI）：
+
+- 当标题主要为英文时，脚本会在日报里输出中文标题翻译，并保留原标题。
 
 关闭 AI（即使你设置了 key）：
 
