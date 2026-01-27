@@ -3,13 +3,13 @@
   "description": "rss-daily-report cache",
   "last_run": {
     "date": "2026-01-27",
-    "duration_seconds": 23,
-    "items_collected": 208,
-    "fresh_candidates": 60,
-    "backfill_candidates": 148,
-    "items_published": 31,
-    "backfill_published": 3,
-    "floor_added": 0,
+    "duration_seconds": 27,
+    "items_collected": 185,
+    "fresh_candidates": 30,
+    "backfill_candidates": 155,
+    "items_published": 20,
+    "backfill_published": 1,
+    "floor_added": 7,
     "min_items_floor": 20,
     "sources_used": [
       "https://v2ex.com/index.xml",
@@ -42,183 +42,177 @@
       "https://github.com/trending?since=daily"
     ],
     "errors": [
-      "知乎每日精选（不稳定） (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0",
-      "端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response",
-      "知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response",
-      "路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang=\"zh-Hans\"> <head class=\"no-js\"> <meta name=\"referrer\" content=\"no-referrer\" /> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale: syntax error: line 1, column 0",
-      "构建我的被动收入｜ (https://www.bmpi.dev/index.xml): failed after 1 endpoint(s), last=https://www.bmpi.dev/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-      "V2EX（HTTP 兜底） (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7bfb54e810d0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
-      "DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6b70>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))",
-      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6210>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
+      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824ff20>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
+      "GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824c350>, 'Connection to github.com timed out. (connect timeout=5.0)'))"
     ]
   },
   "source_stats": {
     "_comment": "per-feed stats keyed by feed URL",
     "https://v2ex.com/index.xml": {
-      "total_fetches": 7,
+      "total_fetches": 9,
       "success_count": 3,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "http://www.v2ex.com/index.xml": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://www.v2ex.com/feed/tab/tech.xml": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/zhihu/daily": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://www.zhihu.com/rss": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/zhihu/hotlist": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://www.ruanyifeng.com/blog/atom.xml": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/caozsay": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/IrisMagazine": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/initium/latest": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/reuters/cn": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/theeconomist": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://xueqiu.com/hots/topic/rss": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/xueqiujinghua": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/worldofboss": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/bitsea": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "http://plink.anyfeeder.com/weixin/The-Intellectual": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/dili360": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "http://hellogithub.com/rss": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://tech.meituan.com/feed/": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://tech.youzan.com/rss/": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "http://coolshell.cn/feed": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "http://blog.codingnow.com/atom.xml": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://diygod.me/atom.xml": {
-      "total_fetches": 7,
-      "success_count": 1,
+      "total_fetches": 9,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
-      "last_success": "2026-01-26"
+      "last_success": "2026-01-27"
     },
     "https://www.decohack.com/feed": {
-      "total_fetches": 7,
-      "success_count": 7,
+      "total_fetches": 9,
+      "success_count": 9,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://github.com/trending?since=daily": {
-      "total_fetches": 7,
+      "total_fetches": 9,
       "success_count": 5,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://www.bmpi.dev/index.xml": {
-      "total_fetches": 2,
-      "success_count": 1,
+      "total_fetches": 4,
+      "success_count": 2,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     },
     "https://weekly.tw93.fun/rss.xml": {
-      "total_fetches": 2,
-      "success_count": 2,
+      "total_fetches": 4,
+      "success_count": 4,
       "last_fetch": "2026-01-27",
       "last_success": "2026-01-27"
     }
@@ -1125,76 +1119,6 @@
         "quality_score": 3.3
       },
       {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "AI4Finance-Foundation/FinRobot",
-        "title_hash": "d94bd4a0b00d7476fa8d1fb2867dd01fb8d46c7f",
-        "url": "https://github.com/AI4Finance-Foundation/FinRobot",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "block/goose",
-        "title_hash": "6d8e14517542a47b6665d3f81c86de8a48b700ab",
-        "url": "https://github.com/block/goose",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "business-science/ai-data-science-team",
-        "title_hash": "01b60512cecf390a65ea42bb05b43cd3422b311f",
-        "url": "https://github.com/business-science/ai-data-science-team",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "remotion-dev/remotion",
-        "title_hash": "48fd86256b389e6500a15e6c936efa60fa18ad34",
-        "url": "https://github.com/remotion-dev/remotion",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "GitHub Trending",
-        "platform": "GitHub",
-        "title": "sponsors/Blaizzy",
-        "title_hash": "1ab277858b5183ddcbed692ae4ca05bd0d96c17e",
-        "url": "https://github.com/sponsors/Blaizzy",
-        "category": "技术",
-        "carrier": "项目",
-        "quality_score": 3.7
-      },
-      {
-        "source": "阮一峰的网络日志",
-        "platform": "阮一峰的网络日志",
-        "title": "科技爱好者周刊（第 382 期）：独立软件的黄昏",
-        "title_hash": "bbc6cc7eec1ce07511163889b496ae3d9c73b407",
-        "url": "http://www.ruanyifeng.com/blog/2026/01/weekly-issue-382.html",
-        "category": "技术",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
-        "source": "阮一峰的网络日志",
-        "platform": "阮一峰的网络日志",
-        "title": "AI native Workspace 也许是智能体的下一阶段",
-        "title_hash": "86d7b801b06d768f3000c9e6cc9b33142992e621",
-        "url": "http://www.ruanyifeng.com/blog/2026/01/ai-native-workspace.html",
-        "category": "技术",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
         "source": "中国国家地理",
         "platform": "中国国家地理",
         "title": "《中国妖鬼》上市，一书纵览千年妖鬼文化",
@@ -1225,16 +1149,6 @@
         "quality_score": 3.0
       },
       {
-        "source": "中国国家地理",
-        "platform": "中国国家地理",
-        "title": "图片过于震撼，一年只发一遍",
-        "title_hash": "7f8ba5b14d97e47beee2b896cc0e77ef07e25ef0",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D",
-        "category": "财经",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
         "source": "虹膜",
         "platform": "虹膜",
         "title": "《徒手攀岩》值得看吗？",
@@ -1255,51 +1169,11 @@
         "quality_score": 3.0
       },
       {
-        "source": "虹膜",
-        "platform": "虹膜",
-        "title": "国内外达成一致了，就是超级烂片",
-        "title_hash": "8144eab0920784775fbdc76a3423efe0fc8f99b7",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87",
-        "category": "商业/产品",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "虹膜",
-        "platform": "虹膜",
-        "title": "是枝裕和的电影被死亡笼罩",
-        "title_hash": "42dbe6d0b014beb6d53274f4b68868edc6dc7bac",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9",
-        "category": "时事",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
         "source": "Decohack",
         "platform": "Decohack",
         "title": "PH今日热榜 | 2026-01-26",
         "title_hash": "f15a7e9c9cb5e4dd59242bdbe44b4f917a2aebbf",
         "url": "https://decohack.com/producthunt-daily-2026-01-26/",
-        "category": "其他",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "Decohack",
-        "platform": "Decohack",
-        "title": "PH今日热榜 | 2026-01-25",
-        "title_hash": "1c90742526a7c8ba7f0ff41f7961b673f349407d",
-        "url": "https://decohack.com/producthunt-daily-2026-01-25/",
-        "category": "技术",
-        "carrier": "文章",
-        "quality_score": 3.3
-      },
-      {
-        "source": "Decohack",
-        "platform": "Decohack",
-        "title": "PH今日热榜 | 2026-01-24",
-        "title_hash": "018dbcd4abe446077fce8297323e22a67789a995",
-        "url": "https://decohack.com/producthunt-daily-2026-01-24/",
         "category": "其他",
         "carrier": "文章",
         "quality_score": 3.0
@@ -1315,46 +1189,6 @@
         "quality_score": 3.0
       },
       {
-        "source": "槽边往事",
-        "platform": "槽边往事",
-        "title": "352 H301 加湿机不上水故障排除方法之一",
-        "title_hash": "b81534fee3f63b9a28de79068b82214276b66046",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+352+H301+%E5%8A%A0%E6%B9%BF%E6%9C%BA%E4%B8%8D%E4%B8%8A%E6%B0%B4%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%96%B9%E6%B3%95%E4%B9%8B%E4%B8%80",
-        "category": "其他",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "知识分子",
-        "platform": "知识分子",
-        "title": "剔除撤稿与灌水，中国大学的排名如何？",
-        "title_hash": "6fc5898ebee99993fe7c5fc45d8cd52169555395",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%89%94%E9%99%A4%E6%92%A4%E7%A8%BF%E4%B8%8E%E7%81%8C%E6%B0%B4%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%8E%92%E5%90%8D%E5%A6%82%E4%BD%95%EF%BC%9F",
-        "category": "商业/产品",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "知识分子",
-        "platform": "知识分子",
-        "title": "能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？",
-        "title_hash": "467a3bd204652538eb4ec9b53cc13e93011cd26c",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92%EF%BC%8C%E5%85%B6%E5%AE%9E%E4%B8%8D%E6%98%AF%E5%AE%87%E5%AE%99%E9%93%81%E5%BE%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E4%BA%86%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%9F",
-        "category": "时事",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
-        "source": "知识分子",
-        "platform": "知识分子",
-        "title": "经常使用AI的人更容易抑郁、焦虑和易怒？",
-        "title_hash": "ffb2ad956332bc9f3681b4be141f9b5d90a54417",
-        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F",
-        "category": "生活",
-        "carrier": "文章",
-        "quality_score": 3.0
-      },
-      {
         "source": "潮流周刊｜",
         "platform": "潮流周刊｜",
         "title": "第255期 - 好吃鸡翅",
@@ -1365,22 +1199,72 @@
         "quality_score": 3.3
       },
       {
-        "source": "云风的 BLOG",
-        "platform": "云风",
-        "title": "介绍几款单人桌游",
-        "title_hash": "97927dea5c0d2a99703cbcd70f994858334b3292",
-        "url": "https://blog.codingnow.com/2026/01/solo_boardgame.html",
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-19",
+        "title_hash": "0b831b91b521fa989d213029afa50a0cdde066ca",
+        "url": "https://decohack.com/producthunt-daily-2026-01-19/",
         "category": "商业/产品",
         "carrier": "文章",
         "quality_score": 3.0
       },
       {
-        "source": "美团技术团队",
-        "platform": "美团技术团队",
-        "title": "美团 EvoCUA 刷新开源 SOTA，会用电脑还会持续进化的智能体！",
-        "title_hash": "d3867ddd6ea1b8f49a123c69f44cc7c6dd5c337c",
-        "url": "https://tech.meituan.com/2026/01/26/evocua.html",
+        "source": "潮流周刊｜",
+        "platform": "潮流周刊｜",
+        "title": "第254期 - 二零二六",
+        "title_hash": "976f437e40c57934a50338edde79aa4c23385efc",
+        "url": "https://weekly.tw93.fun/posts/254/",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-18",
+        "title_hash": "96c098895243ac184fedbc3b3887cf9c276a66b2",
+        "url": "https://decohack.com/producthunt-daily-2026-01-18/",
         "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "潮流周刊｜",
+        "platform": "潮流周刊｜",
+        "title": "第253期 - 爱无人机",
+        "title_hash": "f3f49989b5045d9aa7b8723b5bf9e45e5225acba",
+        "url": "https://weekly.tw93.fun/posts/253/",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "经济学人",
+        "platform": "经济学人",
+        "title": "【邀您申领】299美元席位限量登记 | 亚洲基建变局——从智慧港口到深科技高地，寻找增长新动能",
+        "title_hash": "c589c51c2624605d90d2144c2eb9fbaf4af859ca",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E3%80%90%E9%82%80%E6%82%A8%E7%94%B3%E9%A2%86%E3%80%91299%E7%BE%8E%E5%85%83%E5%B8%AD%E4%BD%8D%E9%99%90%E9%87%8F%E7%99%BB%E8%AE%B0++%7C+%E4%BA%9A%E6%B4%B2%E5%9F%BA%E5%BB%BA%E5%8F%98%E5%B1%80%E2%80%94%E2%80%94%E4%BB%8E%E6%99%BA%E6%85%A7%E6%B8%AF%E5%8F%A3%E5%88%B0%E6%B7%B1%E7%A7%91%E6%8A%80%E9%AB%98%E5%9C%B0%EF%BC%8C%E5%AF%BB%E6%89%BE%E5%A2%9E%E9%95%BF%E6%96%B0%E5%8A%A8%E8%83%BD",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "经济学人",
+        "platform": "经济学人",
+        "title": "全球车企战略前瞻 | 中国电动车销量增速预计在2026放缓",
+        "title_hash": "1968799bc15a173f0144f24c9714ff79c4b4496d",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E5%85%A8%E7%90%83%E8%BD%A6%E4%BC%81%E6%88%98%E7%95%A5%E5%89%8D%E7%9E%BB+%7C+%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%A8%E8%BD%A6%E9%94%80%E9%87%8F%E5%A2%9E%E9%80%9F%E9%A2%84%E8%AE%A1%E5%9C%A82026%E6%94%BE%E7%BC%93",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "饭统戴老板",
+        "platform": "饭统戴老板",
+        "title": "小米汽车的“成人礼”",
+        "title_hash": "acbc04569de295c361c3260f329d4999d5aff513",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%9A%84%E2%80%9C%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D",
+        "category": "财经",
         "carrier": "文章",
         "quality_score": 3.3
       }
@@ -1391,8 +1275,7 @@
     "entries": {
       "https://www.zhihu.com/rss": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0"
+        "fail_streak": 0
       },
       "https://xueqiu.com/hots/topic/rss": {
         "last_seen": "2026-01-27",
@@ -1404,13 +1287,11 @@
       },
       "https://www.v2ex.com/feed/tab/tech.xml": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6210>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
+        "fail_streak": 0
       },
       "https://plink.anyfeeder.com/initium/latest": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response"
+        "fail_streak": 0
       },
       "https://www.ruanyifeng.com/blog/atom.xml": {
         "last_seen": "2026-01-27",
@@ -1458,13 +1339,11 @@
       },
       "https://plink.anyfeeder.com/zhihu/hotlist": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response"
+        "fail_streak": 0
       },
       "https://plink.anyfeeder.com/reuters/cn": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang=\"zh-Hans\"> <head class=\"no-js\"> <meta name=\"referrer\" content=\"no-referrer\" /> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale: syntax error: line 1, column 0"
+        "fail_streak": 0
       },
       "http://plink.anyfeeder.com/weixin/The-Intellectual": {
         "last_seen": "2026-01-27",
@@ -1472,12 +1351,12 @@
       },
       "https://github.com/trending?since=daily": {
         "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "fail_streak": 2,
+        "last_error": "HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824c350>, 'Connection to github.com timed out. (connect timeout=5.0)'))"
       },
       "https://diygod.me/atom.xml": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6b70>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))"
+        "fail_streak": 0
       },
       "http://coolshell.cn/feed": {
         "last_seen": "2026-01-27",
@@ -1493,12 +1372,12 @@
       },
       "http://www.v2ex.com/index.xml": {
         "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7bfb54e810d0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
+        "fail_streak": 0
       },
       "https://v2ex.com/index.xml": {
         "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "fail_streak": 2,
+        "last_error": "failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824ff20>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))"
       },
       "https://weekly.tw93.fun/rss.xml": {
         "last_seen": "2026-01-27",
@@ -1506,8 +1385,7 @@
       },
       "https://www.bmpi.dev/index.xml": {
         "last_seen": "2026-01-27",
-        "fail_streak": 1,
-        "last_error": "failed after 1 endpoint(s), last=https://www.bmpi.dev/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+        "fail_streak": 0
       }
     }
   }

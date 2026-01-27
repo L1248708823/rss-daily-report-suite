@@ -1,6 +1,6 @@
 {
   "date": "2026-01-27",
-  "generated_at": "2026-01-27T02:00:02.138754+00:00",
+  "generated_at": "2026-01-27T02:29:30.688482+00:00",
   "meta": {
     "group_by": "platform",
     "selected_keys": [],
@@ -13,10 +13,10 @@
     "floor_added": 7,
     "floor_per_platform_cap": 3,
     "min_score": 2.6,
-    "duration_seconds": 25,
-    "items_collected": 155,
+    "duration_seconds": 27,
+    "items_collected": 185,
     "fresh_candidates": 30,
-    "backfill_candidates": 125,
+    "backfill_candidates": 155,
     "items_published": 20,
     "sources_used": [
       "https://v2ex.com/index.xml",
@@ -50,17 +50,17 @@
     ],
     "market": {
       "requested_date": "2026-01-27",
-      "fetched_at": "2026-01-27T02:00:01.710220+00:00",
+      "fetched_at": "2026-01-27T02:29:28.046628+00:00",
       "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
       "indicators": [
         {
           "id": "sh000001",
           "name": "上证指数",
-          "value": 4107.83,
-          "change": -24.78,
-          "change_pct": -0.6,
-          "volume": 269688165.0,
-          "amount": 42829081.0,
+          "value": 4121.78,
+          "change": -10.83,
+          "change_pct": -0.26,
+          "volume": 378891992.0,
+          "amount": 61669069.0,
           "currency": "CNY",
           "provider": "tencent",
           "source_url": "https://qt.gtimg.cn/q=s_sh000001",
@@ -69,34 +69,34 @@
         {
           "id": "gds_AU9999",
           "name": "沪金99（元/克）",
-          "value": 1137.75,
-          "change": -6.7000000000000455,
-          "change_pct": -0.5854340512910171,
+          "value": 1138.9,
+          "change": -5.5499999999999545,
+          "change_pct": -0.4849491021888203,
           "prev_close": 1144.45,
           "unit": "CNY/g",
           "currency": "CNY",
           "provider": "sina",
           "source_url": "https://hq.sinajs.cn/list=gds_AU9999",
-          "as_of": "2026-01-27 09:59:47"
+          "as_of": "2026-01-27 10:29:18"
         },
         {
           "id": "hf_XAU",
           "name": "伦敦金（现货黄金）",
-          "value": 5064.42,
-          "change": 56.35999999999967,
-          "change_pct": 1.13,
+          "value": 5067.37,
+          "change": 59.30999999999949,
+          "change_pct": 1.18,
           "prev_close": 5008.06,
           "unit": "raw",
           "currency": null,
           "provider": "tencent",
           "source_url": "https://qt.gtimg.cn/q=hf_XAU",
-          "as_of": "2026-01-27 09:56:00"
+          "as_of": "2026-01-27 10:29:00"
         }
       ],
       "errors": []
     },
     "editor_picks": {
-      "generated_at": "2026-01-27T02:00:02.541282+00:00",
+      "generated_at": "2026-01-27T02:29:31.160434+00:00",
       "lead_n": 1,
       "top_n": 5,
       "lead_urls": [

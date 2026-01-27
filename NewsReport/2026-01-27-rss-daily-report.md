@@ -29,70 +29,62 @@
 
 ## 抓取明细
 
-- **知乎**：源 3 个（成功 1 / 失败 2 / 未收集 0）
+- **知乎**：源 3 个（成功 3 / 失败 0 / 熔断 2 / 未收集 2）
   - 成功：知乎日报（聚合） — https://plink.anyfeeder.com/zhihu/daily
-  - 失败：知乎每日精选（不稳定） — https://www.zhihu.com/rss
-  - 失败：知乎热榜（不稳定） — https://plink.anyfeeder.com/zhihu/hotlist
-- **GitHub**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：GitHub Trending — https://github.com/trending?since=daily
+  - 熔断：知乎每日精选（不稳定） — https://www.zhihu.com/rss
+  - 熔断：知乎热榜（不稳定） — https://plink.anyfeeder.com/zhihu/hotlist
 - **雪球**：源 2 个（成功 2 / 失败 0 / 未收集 0）
   - 成功：雪球 — https://xueqiu.com/hots/topic/rss
   - 成功：雪球（公众号精选） — https://plink.anyfeeder.com/weixin/xueqiujinghua
+- **GitHub**：源 1 个（成功 0 / 失败 1 / 未收集 0）
+  - 失败：GitHub Trending — https://github.com/trending?since=daily
 - **HelloGitHub 月刊**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：HelloGitHub 月刊 — http://hellogithub.com/rss
 - **阮一峰的网络日志**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：阮一峰的网络日志 — https://www.ruanyifeng.com/blog/atom.xml
-- **V2EX**：源 3 个（成功 0 / 失败 3 / 未收集 0）
+- **V2EX**：源 3 个（成功 2 / 失败 1 / 熔断 2 / 未收集 2）
   - 失败：V2EX — https://v2ex.com/index.xml
-  - 失败：V2EX（HTTP 兜底） — http://www.v2ex.com/index.xml
-  - 失败：V2EX - 技术 — https://www.v2ex.com/feed/tab/tech.xml
+  - 熔断：V2EX（HTTP 兜底） — http://www.v2ex.com/index.xml
+  - 熔断：V2EX - 技术 — https://www.v2ex.com/feed/tab/tech.xml
 - **中国国家地理**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：中国国家地理 — https://plink.anyfeeder.com/weixin/dili360
 - **虹膜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：虹膜 — https://plink.anyfeeder.com/weixin/IrisMagazine
-- **知识分子**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：知识分子 — http://plink.anyfeeder.com/weixin/The-Intellectual
 - **Decohack**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：Decohack — https://www.decohack.com/feed
 - **槽边往事**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：槽边往事 — https://plink.anyfeeder.com/weixin/bitsea
+- **知识分子**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：知识分子 — http://plink.anyfeeder.com/weixin/The-Intellectual
+- **潮流周刊｜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：潮流周刊｜ — https://weekly.tw93.fun/rss.xml
+- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
 - **云风**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：云风的 BLOG — http://blog.codingnow.com/atom.xml
 - **美团技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：美团技术团队 — https://tech.meituan.com/feed/
-- **潮流周刊｜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：潮流周刊｜ — https://weekly.tw93.fun/rss.xml
+- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
 - **CoolShell**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：酷 壳 – CoolShell — http://coolshell.cn/feed
-- **DIYGod**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：DIYGod — https://diygod.me/atom.xml
+- **DIYGod**：源 1 个（成功 1 / 失败 0 / 熔断 1 / 未收集 1）
+  - 熔断：DIYGod — https://diygod.me/atom.xml
 - **caoz的梦呓**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：caoz的梦呓 — https://plink.anyfeeder.com/weixin/caozsay
 - **有赞技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：有赞技术团队 — https://tech.youzan.com/rss/
-- **构建我的被动收入｜**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：构建我的被动收入｜ — https://www.bmpi.dev/index.xml
-- **端传媒**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：端传媒 - 最新（不稳定） — https://plink.anyfeeder.com/initium/latest
-- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
-- **路透中文**：源 1 个（成功 0 / 失败 1 / 未收集 0）
-  - 失败：路透中文（不稳定） — https://plink.anyfeeder.com/reuters/cn
-- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
+- **构建我的被动收入｜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：构建我的被动收入｜ — https://www.bmpi.dev/index.xml
+- **端传媒**：源 1 个（成功 1 / 失败 0 / 熔断 1 / 未收集 1）
+  - 熔断：端传媒 - 最新（不稳定） — https://plink.anyfeeder.com/initium/latest
+- **路透中文**：源 1 个（成功 1 / 失败 0 / 熔断 1 / 未收集 1）
+  - 熔断：路透中文（不稳定） — https://plink.anyfeeder.com/reuters/cn
 
 ## 失败原因（节选）
 
-- 知乎每日精选（不稳定） (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0
-- 知乎每日精选（不稳定） (https://www.zhihu.com/rss): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
-- 知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src="https://cdn.tailwindcss.com"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response
-- 知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
-- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src="https://cdn.tailwindcss.com"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response
-- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
-- 路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang="zh-Hans"> <head class="no-js"> <meta name="referrer" content="no-referrer" /> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale: syntax error: line 1, column 0
-- 路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
-- 构建我的被动收入｜ (https://www.bmpi.dev/index.xml): failed after 1 endpoint(s), last=https://www.bmpi.dev/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-- DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x770334e45790>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))
+- V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824ff20>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))
+- GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824c350>, 'Connection to github.com timed out. (connect timeout=5.0)'))
 
 ---
 
@@ -164,7 +156,7 @@
 
 ---
 
-## 中国国家地理（热度 9）
+## 中国国家地理（热度 8）
 
 ### 6. 《中国妖鬼》上市，一书纵览千年妖鬼文化
 
@@ -202,7 +194,7 @@
 
 ---
 
-## 虹膜（热度 9）
+## 虹膜（热度 7）
 
 ### 9. 《徒手攀岩》值得看吗？
 
@@ -264,7 +256,7 @@
 
 ---
 
-## 槽边往事（热度 6）
+## 槽边往事（热度 5）
 
 ### 14. 毫不犹豫找客服
 
@@ -280,7 +272,7 @@
 
 ---
 
-## 潮流周刊｜（热度 1）
+## 潮流周刊｜（热度 3）
 
 ### 15. 第254期 - 二零二六
 
@@ -314,7 +306,7 @@
 
 ---
 
-## 经济学人（热度 0）
+## 经济学人（热度 2）
 
 ### 18. 【邀您申领】299美元席位限量登记 | 亚洲基建变局——从智慧港口到深科技高地，寻找增长新动能
 
@@ -342,7 +334,7 @@
 
 ---
 
-## 饭统戴老板（热度 0）
+## 饭统戴老板（热度 1）
 
 ### 20. 小米汽车的“成人礼”
 

@@ -1792,19 +1792,77 @@ def dedupe_entries(entries: List[FeedEntry], cache: Dict[str, Any], *, date_str:
     # shrink today's result set. We still de-dup within the run, but ignore cache
     # TTL filters so the run is not path-dependent.
     is_rerun_same_day = str((cache.get("last_run") or {}).get("date") or "") == str(date_str)
-    url_seen = set() if is_rerun_same_day else set((cache.get("url_cache", {}).get("entries") or {}).keys())
-    title_seen = set() if is_rerun_same_day else set((cache.get("title_hashes", {}).get("entries") or {}).keys())
+    url_cache_entries = cache.get("url_cache", {}).get("entries") or {}
+    title_cache_entries = cache.get("title_hashes", {}).get("entries") or {}
+
+    if is_rerun_same_day:
+        # Re-run same day:
+        # - Don't let today's cached entries block the rerun (avoids shrinking the result set).
+        # - Still enforce cross-day de-dup to avoid repeating yesterday's content.
+        url_seen: set[str] = set()
+        title_seen: set[str] = set()
+
+        for u, meta in (url_cache_entries or {}).items():
+            if not isinstance(meta, dict):
+                continue
+            if str(meta.get("date_added") or "") == str(date_str):
+                continue
+            url_seen.add(safe_url(str(u)))
+        for th, meta in (title_cache_entries or {}).items():
+            if not isinstance(meta, dict):
+                continue
+            if str(meta.get("date_added") or "") == str(date_str):
+                continue
+            title_seen.add(str(th))
+
+        # url_cache "date_added" can be overwritten on reruns; use article_history as the source of truth
+        # for cross-day duplicates within TTL window.
+        try:
+            today = dt.date.fromisoformat(str(date_str))
+        except Exception:
+            today = dt.date.today()
+        ttl_hours = int((cache.get("url_cache", {}) or {}).get("_ttl_hours", 168) or 168)
+        ttl_days = max(1, int(ttl_hours // 24))
+        hist = cache.get("article_history", {})
+        if isinstance(hist, dict):
+            for d_str, day_items in hist.items():
+                if not isinstance(d_str, str) or d_str.startswith("_"):
+                    continue
+                if str(d_str) == str(date_str):
+                    continue
+                try:
+                    d = dt.date.fromisoformat(d_str)
+                except Exception:
+                    continue
+                delta = (today - d).days
+                if delta < 0 or delta > ttl_days:
+                    continue
+                if not isinstance(day_items, list):
+                    continue
+                for it in day_items:
+                    if not isinstance(it, dict):
+                        continue
+                    if it.get("url"):
+                        url_seen.add(safe_url(str(it["url"])))
+                    if it.get("title_hash"):
+                        title_seen.add(str(it["title_hash"]))
+    else:
+        url_seen = set((url_cache_entries or {}).keys())
+        title_seen = set((title_cache_entries or {}).keys())
 
     allow_url: set[str] = set()
     allow_title: set[str] = set()
-    day_hist = cache.get("article_history", {}).get(date_str)
-    if isinstance(day_hist, list):
-        for x in day_hist:
-            if isinstance(x, dict):
-                if x.get("url"):
-                    allow_url.add(str(x["url"]))
-                if x.get("title_hash"):
-                    allow_title.add(str(x["title_hash"]))
+    # NOTE: For same-day reruns, allowlist can accidentally “lock in” cross-day duplicates
+    # from a previous buggy rerun. We keep allowlist for non-reruns only.
+    if not is_rerun_same_day:
+        day_hist = cache.get("article_history", {}).get(date_str)
+        if isinstance(day_hist, list):
+            for x in day_hist:
+                if isinstance(x, dict):
+                    if x.get("url"):
+                        allow_url.add(str(x["url"]))
+                    if x.get("title_hash"):
+                        allow_title.add(str(x["title_hash"]))
 
     out: List[FeedEntry] = []
     local_title_seen: set[str] = set()

@@ -401,8 +401,6 @@ def compute_pick_score(item: Dict[str, Any]) -> float:
     # Developer-first: de-prioritize purely entertainment-ish items unless they are clearly valuable.
     if tag == "ent":
         score -= 0.6
-    if normalize_ws(source) in {"虹膜", "机核"} and tag not in {"tech", "finance"}:
-        score -= 0.4
     if is_mostly_english(title) and not normalize_ws(str(item.get("title_zh") or "")):
         score -= 0.15
     return score
