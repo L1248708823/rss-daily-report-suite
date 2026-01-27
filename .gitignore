@@ -8,8 +8,8 @@ __pycache__/
 *.py[cod]
 
 # Generated reports / build outputs
-NewsReport/*.log
-NewsReport/data/
+
+
 site/
 
 # Local backups

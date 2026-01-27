@@ -1,9 +1,9 @@
 # RSS Daily Report（2026-01-27）
 
-> 信息源：28 个 | 收录：31 条  
+> 信息源：28 个 | 收录：20 条  
 > 分组：按平台热度（窗口 30 天）  
 > 新内容窗口：3 天 | 补读上限：3 条  
-> 展示保底：20 条（从补读补齐 0 条）  
+> 展示保底：20 条（从补读补齐 7 条）  
 > 平台组：23 个 | 每平台 Top：10  
 > 生成耗时：~1 分钟
 
@@ -11,20 +11,20 @@
 
 <!-- editorial-picks:start -->
 ## 头条
-- **美团 EvoCUA 刷新开源 SOTA，会用电脑还会持续进化的智能体！**（美团技术团队 · 技术 · 评分 3.30） — https://tech.meituan.com/2026/01/26/evocua.html
-  - 摘要：美团技术团队推出了 EvoCUA 模型并在 Github、Huggingface 开源，通过构建可验证数据合成引擎与十万级并发的交互沙盒，将训练范式从传统的“静态轨迹模仿”转变为高效的“经验进化学习”。
-
-## 精选
-- **AI4Finance-Foundation/FinRobot（英文原题）**（GitHub · 技术 · 评分 3.70） — https://github.com/AI4Finance-Foundation/FinRobot
-  - 摘要：合集/热榜（GitHub）：今日 +68 • Jupyter Notebook • FinRobot: An Open-Source AI Age…
-- **AI native Workspace 也许是智能体的下一阶段**（阮一峰的网络日志 · 技术 · 评分 3.30） — http://www.ruanyifeng.com/blog/2026/01/ai-native-workspace.html
-  - 摘要：一、智能体的形态 我问大家一个问题，什么是 AI 的产品形态？...
-- **PH今日热榜 | 2026-01-25**（Decohack · 技术 · 评分 3.30） — https://decohack.com/producthunt-daily-2026-01-25/
-  - 摘要：合集/热榜（Decohack）：1.；Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理编程和人工智能相关的话题 [&#823…
 - **不要低估这轮大宗商品的牛市**（雪球 · 财经 · 评分 3.30） — http://xueqiu.com/3502863673/373004639
   - 摘要：2026开年以来，A股春季攻势全面展开，一举站上4100点。在这波行情中，以AI为主导的科技股无疑是造富神话主战场，而顺着科技产业升级与全球经济复苏的主线，大宗商品自去年以来的赚钱效应也同样亮眼，值得深入研究。 图表1：2025年以来，几类代表性资产涨跌情况 来源：Wind，截…
+
+## 精选
+- **三“阳”开泰，接好运！**（中国国家地理 · 生活 · 评分 3.00） — http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%89%E2%80%9C%E9%98%B3%E2%80%9D%E5%BC%80%E6%B3%B0%EF%BC%8C%E6%8E%A5%E5%A5%BD%E8%BF%90%EF%BC%81
+  - 摘要：你见过 三“阳”开泰的奇观吗？ 我国冬季的北方雪原上，常会出现“三个太阳”的天象奇观。其实，太阳的本体只有一个，而 左右一对22°幻日是本体的“ 影分身”，这是冰晕类大气光学现象。 形成幻日需要天空中存在卷层云，当悬浮其间的大量六角形片状冰晶体在竖直方向上整齐排列时，就会有规律…
+- **猫科动物的眼睛为什么能在夜间反光？**（知乎 · 商业/产品 · 评分 3.00） — https://daily.zhihu.com/story/9787066
+  - 摘要：瞻云， 先让一部分知识有趣起来 查看知乎原文 因为猫科动物的眼睛里，都有一面“镜子”。 明毯 / 照膜 （tapetum lucidum） 我们知道夜行动物，眼睛普遍能反光。 所以，它们普遍具有这种叫作明毯的“镜子”。 狗的祖先灰狼也是夜行动物，所以狗也有明毯。 猫狗的明毯，是…
 - **第255期 - 好吃鸡翅**（潮流周刊｜ · 财经 · 评分 3.30） — https://weekly.tw93.fun/posts/255/
   - 摘要：封面图拍摄于周末吃的烤鸡翅，摆盘很好看，吃起来也不错，加一点欧芹碎。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 243 个工程师，最近一年买到的好东西 https://tw93.fun/2026-01-24/good.ht…
+- **《徒手攀岩》值得看吗？**（虹膜 · 财经 · 评分 3.30） — http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E5%BE%92%E6%89%8B%E6%94%80%E5%B2%A9%E3%80%8B%E5%80%BC%E5%BE%97%E7%9C%8B%E5%90%97%EF%BC%9F
+  - 摘要：文 盛昊阳 自由与稳定之间，何者为轻，何者为重。 在获得奥斯卡最佳纪录片奖项的认可之前，《徒手攀岩》已经成为2018年度北美第二卖座的纪录片，1890万美元的票房在纪录片界堪称一个天文数字。是攀岩运动的受众特别热情？还是主人公亚历克斯·霍诺尔德的知名度真的家喻户晓？ 《徒手攀岩…
+- **当前市场过热了吗？十大指标来测温！**（雪球 · 财经 · 评分 3.30） — http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%BD%93%E5%89%8D%E5%B8%82%E5%9C%BA%E8%BF%87%E7%83%AD%E4%BA%86%E5%90%97%EF%BC%9F%E5%8D%81%E5%A4%A7%E6%8C%87%E6%A0%87%E6%9D%A5%E6%B5%8B%E6%B8%A9%EF%BC%81
+  - 摘要：↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：投顾主理人张济民 来源：雪球 2026年开年以来的行情可谓是十分火热 ， 即便近期主流宽基ETF大幅流出 ， 指数还是 “ 稳稳当当 ” ， 成交量…
 <!-- editorial-picks:end -->
 
 ## 抓取明细
@@ -33,39 +33,35 @@
   - 成功：知乎日报（聚合） — https://plink.anyfeeder.com/zhihu/daily
   - 失败：知乎每日精选（不稳定） — https://www.zhihu.com/rss
   - 失败：知乎热榜（不稳定） — https://plink.anyfeeder.com/zhihu/hotlist
+- **GitHub**：源 1 个（成功 0 / 失败 1 / 未收集 0）
+  - 失败：GitHub Trending — https://github.com/trending?since=daily
 - **雪球**：源 2 个（成功 2 / 失败 0 / 未收集 0）
   - 成功：雪球 — https://xueqiu.com/hots/topic/rss
   - 成功：雪球（公众号精选） — https://plink.anyfeeder.com/weixin/xueqiujinghua
-- **GitHub**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：GitHub Trending — https://github.com/trending?since=daily
 - **HelloGitHub 月刊**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：HelloGitHub 月刊 — http://hellogithub.com/rss
 - **阮一峰的网络日志**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：阮一峰的网络日志 — https://www.ruanyifeng.com/blog/atom.xml
-- **V2EX**：源 3 个（成功 1 / 失败 2 / 熔断 1 / 未收集 1）
-  - 熔断：V2EX — https://v2ex.com/index.xml
+- **V2EX**：源 3 个（成功 0 / 失败 3 / 未收集 0）
+  - 失败：V2EX — https://v2ex.com/index.xml
   - 失败：V2EX（HTTP 兜底） — http://www.v2ex.com/index.xml
   - 失败：V2EX - 技术 — https://www.v2ex.com/feed/tab/tech.xml
 - **中国国家地理**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：中国国家地理 — https://plink.anyfeeder.com/weixin/dili360
 - **虹膜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：虹膜 — https://plink.anyfeeder.com/weixin/IrisMagazine
+- **知识分子**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：知识分子 — http://plink.anyfeeder.com/weixin/The-Intellectual
 - **Decohack**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：Decohack — https://www.decohack.com/feed
 - **槽边往事**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：槽边往事 — https://plink.anyfeeder.com/weixin/bitsea
-- **知识分子**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：知识分子 — http://plink.anyfeeder.com/weixin/The-Intellectual
-- **潮流周刊｜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：潮流周刊｜ — https://weekly.tw93.fun/rss.xml
-- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
 - **云风**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：云风的 BLOG — http://blog.codingnow.com/atom.xml
 - **美团技术团队**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：美团技术团队 — https://tech.meituan.com/feed/
-- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
-  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
+- **潮流周刊｜**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：潮流周刊｜ — https://weekly.tw93.fun/rss.xml
 - **CoolShell**：源 1 个（成功 1 / 失败 0 / 未收集 0）
   - 成功：酷 壳 – CoolShell — http://coolshell.cn/feed
 - **DIYGod**：源 1 个（成功 0 / 失败 1 / 未收集 0）
@@ -78,19 +74,25 @@
   - 失败：构建我的被动收入｜ — https://www.bmpi.dev/index.xml
 - **端传媒**：源 1 个（成功 0 / 失败 1 / 未收集 0）
   - 失败：端传媒 - 最新（不稳定） — https://plink.anyfeeder.com/initium/latest
+- **经济学人**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：经济学人 — https://plink.anyfeeder.com/weixin/theeconomist
 - **路透中文**：源 1 个（成功 0 / 失败 1 / 未收集 0）
   - 失败：路透中文（不稳定） — https://plink.anyfeeder.com/reuters/cn
+- **饭统戴老板**：源 1 个（成功 1 / 失败 0 / 未收集 0）
+  - 成功：饭统戴老板 — https://plink.anyfeeder.com/weixin/worldofboss
 
 ## 失败原因（节选）
 
 - 知乎每日精选（不稳定） (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0
-- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src="https://cdn.tailwindcss.com"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response
+- 知乎每日精选（不稳定） (https://www.zhihu.com/rss): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
 - 知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src="https://cdn.tailwindcss.com"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response
+- 知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
+- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src="https://cdn.tailwindcss.com"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response
+- 端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
 - 路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang="zh-Hans"> <head class="no-js"> <meta name="referrer" content="no-referrer" /> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale: syntax error: line 1, column 0
+- 路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): circuit-breaker tripped, muted_until=2026-01-29 (fail_streak=3)
 - 构建我的被动收入｜ (https://www.bmpi.dev/index.xml): failed after 1 endpoint(s), last=https://www.bmpi.dev/index.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-- V2EX（HTTP 兜底） (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7bfb54e810d0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))
-- DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6b70>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))
-- V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bfb54ef6210>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))
+- DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: HTTPSConnectionPool(host='diygod.me', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x770334e45790>, 'Connection to diygod.me timed out. (connect timeout=5.0)'))
 
 ---
 
@@ -162,97 +164,9 @@
 
 ---
 
-## GitHub（热度 65）
+## 中国国家地理（热度 9）
 
-### 6. AI4Finance-Foundation/FinRobot
-
-- **摘要**：今日 +68 • Jupyter Notebook • FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 今日 +68 • Jupyter Notebook • FinRobot: An Open-Source AI Agent Platform for Finan…
-- **来源**：[GitHub Trending](https://github.com/AI4Finance-Foundation/FinRobot)
-- **关键词**：`FinRobot` `Agent` `AI` `AI4Finance-Foundation` `An` `Analysis`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
-### 7. block/goose
-
-- **摘要**：今日 +332 • Rust • an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 今日 +332 • Rust • an open source, extensible AI agent that goes beyond code sugge…
-- **来源**：[GitHub Trending](https://github.com/block/goose)
-- **关键词**：`agent` `AI` `an` `any` `beyond` `block`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
-### 8. business-science/ai-data-science-team
-
-- **摘要**：今日 +80 • Python • An AI-powered data science team of agents to help you perform common data science tasks 10X faster.
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 今日 +80 • Python • An AI-powered data science team of agents to help you perform…
-- **来源**：[GitHub Trending](https://github.com/business-science/ai-data-science-team)
-- **关键词**：`data` `science` `agents` `ai-data-science-team` `AI-powered` `An`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
-### 9. remotion-dev/remotion
-
-- **摘要**：今日 +1,374 • TypeScript • 🎥 Make videos programmatically with React
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 374 • TypeScript • 🎥 Make videos programmatically with React
-- **来源**：[GitHub Trending](https://github.com/remotion-dev/remotion)
-- **关键词**：`Make` `programmatically` `React` `remotion` `remotion-dev` `TypeScript`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
-### 10. sponsors/Blaizzy
-
-- **摘要**：今日 +1,233 • Python • A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.
-- **分类**：`技术`  |  **载体**：`项目`
-- **要点**：
-  1. 233 • Python • A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech…
-- **来源**：[GitHub Trending](https://github.com/sponsors/Blaizzy)
-- **关键词**：`Apple` `on` `analysis` `Blaizzy` `built` `efficient`
-- **评分**：⭐⭐⭐⭐ (4/5)
-
----
-
-## 阮一峰的网络日志（热度 57）
-
-### 11. AI native Workspace 也许是智能体的下一阶段
-
-- **摘要**：一、智能体的形态 我问大家一个问题，什么是 AI 的产品形态？...
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 什么是 AI 的产品形态
-- **来源**：[阮一峰的网络日志](http://www.ruanyifeng.com/blog/2026/01/ai-native-workspace.html)
-- **关键词**：`AI` `native` `Workspace`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 12. 科技爱好者周刊（第 382 期）：独立软件的黄昏
-
-- **摘要**：这里记录每周值得分享的科技内容，周五发布。...
-- **分类**：`技术`  |  **载体**：`文章`
-- **要点**：
-  1. 科技爱好者周刊（第 382 期）：独立软件的黄昏
-- **来源**：[阮一峰的网络日志](http://www.ruanyifeng.com/blog/2026/01/weekly-issue-382.html)
-- **评分**：⭐⭐⭐ (3/5)
-
----
-
-## 中国国家地理（热度 8）
-
-### 13. 图片过于震撼，一年只发一遍
-
-- **摘要**：转眼马上腊八，回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的12张封面照 又是 百里挑一中的百里挑一 但受制于杂志尺寸 很多人并未见过 12张神图的 “完全体” 因此，那些以最极致方式 浓缩我们一整年精华的图片 今天，就让它们以完整比例示人！ 1月：广东专辑（上）湾区篇 2025年的头两个月 我们的眼里全是 “粤” 2025刚一开年 一个重磅消息就横空出世 广东成为 我国首个 GDP超14万亿元大省 且…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的…
-  2. 点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：Jubei 春节自驾，这5条线赢麻了 最震撼的“火与水之歌”，在这里奏响
-- **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D)
-- **关键词**：`GDP` `Jubei`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 14. 《中国妖鬼》上市，一书纵览千年妖鬼文化
+### 6. 《中国妖鬼》上市，一书纵览千年妖鬼文化
 
 - **摘要**：从《哪吒之魔童闹海》到《黑神话：悟空》，从大银幕到游戏世界，中国传统文化中的妖鬼精怪从未曾远离，而是始终活跃在大众视野里，并不断被赋予新的内涵与解读。 今天，原《中华遗产》杂志编辑部出品的《中国妖鬼》一书正式上市！ 本书系统梳理了妖鬼文化的 定义、谱系与千年流变 ，收录《骷髅幻戏图》《钟馗捉鬼图》等 百余幅珍贵名画 ，以图文并茂的形式生动呈现妖鬼这一传统文化符号的 完整脉络 。 超2米《二郎神搜山图》长卷 裸脊锁线装订，可完全平摊阅读 翻阅这本精心制作、图文并茂的《中国妖鬼》，如同展开一场穿越千年的对话。 点击下图…
 - **分类**：`娱乐`  |  **载体**：`文章`
@@ -263,7 +177,7 @@
 - **来源**：[中国国家地理](http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E3%80%8A%E4%B8%AD%E5%9B%BD%E5%A6%96%E9%AC%BC%E3%80%8B%E4%B8%8A%E5%B8%82%EF%BC%8C%E4%B8%80%E4%B9%A6%E7%BA%B5%E8%A7%88%E5%8D%83%E5%B9%B4%E5%A6%96%E9%AC%BC%E6%96%87%E5%8C%96)
 - **评分**：⭐⭐⭐ (3/5)
 
-### 15. 三“阳”开泰，接好运！
+### 7. 三“阳”开泰，接好运！
 
 - **摘要**：你见过 三“阳”开泰的奇观吗？ 我国冬季的北方雪原上，常会出现“三个太阳”的天象奇观。其实，太阳的本体只有一个，而 左右一对22°幻日是本体的“ 影分身”，这是冰晕类大气光学现象。 形成幻日需要天空中存在卷层云，当悬浮其间的大量六角形片状冰晶体在竖直方向上整齐排列时，就会有规律地折射太阳光，从而在天空中施展光的神奇魔法。 北方冰原送上季节限定的壮丽美景，接好运的同时，也欢迎在评论区和大家分享你镜头下的「万千气象」～ #接好运 #幻日 #天象奇观 #正能量 #治愈系 #旅行 #地理君带你发现中国 &lt;&gt; 文…
 - **分类**：`生活`  |  **载体**：`文章`
@@ -274,7 +188,7 @@
 - **关键词**：`gt` `lt`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 16. 中国最美的河流景观，在哪里？
+### 8. 中国最美的河流景观，在哪里？
 
 - **摘要**：河流是地球的动脉 不仅孕育了文明 也赋予了大自然无限的生命力 河流在不同河段中 造就出截然不同的自然奇观 更成为大地极为壮美的风景线 源头 辫状水系 当你来到众多河流的发源地、被称为“亚洲水塔”的青藏高原时，会发现这里的河道犹如巨大的渔网，若以更大的视角观察，河流则如同姑娘长长的发辫一般，这样的景观称之为“ 辫状水系 ”。 楚玛尔河辫状水系 这里是青藏高原三江源区，一片广袤独特的大地，孕育出了我国第一大河，以及中华民族的母亲河。 长江始于这里的雪峰冰川，涓涓细流不断集结拥抱，一路向东南奔腾。 三江源 在 长江上游…
 - **分类**：`生活`  |  **载体**：`文章`
@@ -288,9 +202,9 @@
 
 ---
 
-## 虹膜（热度 7）
+## 虹膜（热度 9）
 
-### 17. 《徒手攀岩》值得看吗？
+### 9. 《徒手攀岩》值得看吗？
 
 - **摘要**：文 盛昊阳 自由与稳定之间，何者为轻，何者为重。 在获得奥斯卡最佳纪录片奖项的认可之前，《徒手攀岩》已经成为2018年度北美第二卖座的纪录片，1890万美元的票房在纪录片界堪称一个天文数字。是攀岩运动的受众特别热情？还是主人公亚历克斯·霍诺尔德的知名度真的家喻户晓？ 《徒手攀岩》 大部分观众在观看《徒手攀岩》时，对这项运动的认知可能仅仅停留在《碟中谍2》开头，阿汤哥为了耍帅，仿佛不要命般的惊险镜头。 徒手攀岩，英文的Free Solo，无保护自由攀登，孤身一人，不可使用绳索、保护带等一切保护设备，唯一可依仗的只有自…
 - **分类**：`财经`  |  **载体**：`文章`
@@ -302,19 +216,7 @@
 - **关键词**：`Alex` `Free` `hongmomgs` `Honnold` `irisfilm` `qq.com`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 18. 国内外达成一致了，就是超级烂片
-
-- **摘要**：文 Nose 期待十多年的《重返寂静岭》上了，在国内引发巨大删剪争议，不过这不是我今天想说的重点。我更关心的还是这个 IP 自身的命运。 《重返寂静岭》 因为这部电影不仅仅是一部普通的续集而已，它实际上承载了 Konami 公司试图复兴 「 寂静岭 」 这个经典 IP 的宏大野心，同时也标志着导演甘斯在阔别该系列二十年后，试图纠正 2012 年《寂静岭 2 ：启示录》所造成的口碑崩塌，重新定义这个系列。 但他也没想到，他造成了一次新的崩塌。 影片是松散改编自 2001 年的游戏杰作《寂静岭 2 》。原游戏充满深邃的…
-- **分类**：`商业/产品`  |  **载体**：`文章`
-- **要点**：
-  1. 文 Nose 期待十多年的《重返寂静岭》上了，在国内引发巨大删剪争议，不过这不是我今天想说的重点。我更关心的还是这个 IP 自身的命运
-  2. 将伦理危机简化为了简单的正义行动。恐怖的源头从詹姆斯的内心转移到了外部的邪教组织。这种外化处理，直接导致了心理恐怖向超自然惊悚的降级
-  3. 这部电影最遗憾的就是丢掉了让《寂静岭》成为经典的独特气质，也就是一种无法言说、无法逃离的孤独感
-- **来源**：[虹膜](http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87)
-- **关键词**：`IP` `A24` `Boss` `HBO` `hongmomgs` `irisfilm`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 19. 攀登101 ，是一种全新的电影
+### 10. 攀登101 ，是一种全新的电影
 
 - **摘要**：文 树宝 亚历克斯 · 霍诺德无保护徒手攀登台北 101 大楼的直播，大家都看了么？ 这当然是一件极限运动的壮举，不过，它同时也是影像媒体传播的一个盛事，如果把网飞的直播视为七年前那部获得奥斯卡的纪录片《徒手攀岩》的精神续篇，其中包含的视听媒介演化的含义，就更耐人寻味了。 先说说这次挑战发生的物理空间，台北 101 大楼。作为曾经的世界第一高楼的台北 101 ，它的建筑语言本身构成了本次挑战的核心叙事障碍。 与自然岩壁不同，李祖原设计的台北 101 充满了工业化的重复和几何秩序。大楼外立面最具标志性的特征是模仿竹节…
 - **分类**：`商业/产品`  |  **载体**：`文章`
@@ -326,43 +228,31 @@
 - **关键词**：`ESPN` `hongmomgs` `IMAX` `irisfilm` `qq.com` `WWE`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 20. 是枝裕和的电影被死亡笼罩
-
-- **摘要**：作者： Dennis Lim 译者： Issac 校对：易二三 来源： Criterion（2011年2月7日） 死亡笼罩着是枝裕和的电影。 他的第一部长片《幻之光》（1995）平静地研究了丧亲之痛，讲述了一位年轻女子在丈夫费解地自杀后挣扎着继续前行的故事。《下一站，天国》（1998）是一个超自然的寓言故事，说的是记忆的（电影的）重要性，片中，刚离世的人发现自己处于一种空灵的状态，他们可以选择一段世俗的回忆，将其变成永恒的电影纪念品。《距离》（2001）观察了一家人的情绪冲突——悲伤、羞耻和不解，他们的家人参加了一…
-- **分类**：`时事`  |  **载体**：`文章`
-- **要点**：
-  1. Dennis Lim 译者： Issac 校对：易二三 来源： Criterion（2011年2月7日） 死亡笼罩着是枝裕和的电影
-  2. 是枝裕和似乎一直与他同时代的人截然不同——其中很多像清黑泽清和三池崇史这样的著名人物，都致力于类型实验，以自己的方式扩展激进化的电影，例如日本新浪潮的大岛渚和今…
-  3. 《当记忆失去了》 是枝裕和的许多纪录片为他的虚构电影提供了素材。他根据一本小说改编了《幻之光》，但在塑造他的女主人公时，也借鉴了《但是……在这个扔弃福祉的时代》…
-- **来源**：[虹膜](http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9)
-- **关键词**：`Criterion` `Dennis` `hongmomgs` `irisfilm` `Issac` `Lim`
-- **评分**：⭐⭐⭐ (3/5)
-
 ---
 
 ## Decohack（热度 6）
 
-### 21. PH今日热榜 | 2026-01-25
+### 11. PH今日热榜 | 2026-01-18
 
-- **摘要**：1. Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理编程和人工智能相关的话题 [&#8230;]
+- **摘要**：1. Sled 标语：用手机通过语音控制你的编程助手。 介绍：Sled让你通过手机语音来控制你的编程助手。编程 [&#8230;]
 - **分类**：`技术`  |  **载体**：`文章`
 - **要点**：
-  1. Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理编程和人工智能相关的话题 [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-25/)
-- **关键词**：`Humans` `in` `Loop` `PH`
+  1. 介绍：Sled让你通过手机语音来控制你的编程助手。编程 [&#8230;]
+- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-18/)
+- **关键词**：`Sled` `PH`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 22. PH今日热榜 | 2026-01-24
+### 12. PH今日热榜 | 2026-01-19
 
-- **摘要**：1. Tonkotsu 标语：管理一支编码团队的文档 介绍：Tonkotsu是一种全新的体验：它提供了一个简洁 [&#8230;]
-- **分类**：`其他`  |  **载体**：`文章`
+- **摘要**：1. OMEGA Ω™ 标语：一个只有3.6MB的浏览器，它不会追踪、分析或出售用户数据。 介绍：OMEGA： [&#8230;]
+- **分类**：`商业/产品`  |  **载体**：`文章`
 - **要点**：
-  1. Tonkotsu 标语：管理一支编码团队的文档 介绍：Tonkotsu是一种全新的体验：它提供了一个简洁 [&#8230;]
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-24/)
-- **关键词**：`Tonkotsu` `PH`
+  1. OMEGA Ω™ 标语：一个只有3.6MB的浏览器，它不会追踪、分析或出售用户数据
+- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-19/)
+- **关键词**：`OMEGA` `MB` `PH`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 23. PH今日热榜 | 2026-01-26
+### 13. PH今日热榜 | 2026-01-26
 
 - **摘要**：1. Thumbfa.st 标语：Midjourney 用于制作 YouTube 缩略图——每次都能展现你的面 [&#8230;]
 - **分类**：`其他`  |  **载体**：`文章`
@@ -374,19 +264,9 @@
 
 ---
 
-## 槽边往事（热度 5）
+## 槽边往事（热度 6）
 
-### 24. 352 H301 加湿机不上水故障排除方法之一
-
-- **摘要**：今天，修好了 352 H301 加湿机不上水的故障。原因很细小：滤网组件(图中标识 4） 去掉盖子，去掉白色滤网，剩余的骨架上方，有一条黑色的橡胶条，固定在骨架顶端的环形凹槽内。这个橡胶条上有很多细小的孔，水从细孔渗出，均匀下注濡湿滤网。一旦这里阻塞，滤网就始终是干的，无法上水。处理方法是把橡胶条取下冲洗，对准孔洞用力吹气，即可去除堵塞物，最后清洗凹槽，再把橡胶条安装回去，注意分对上下面。网上搜索和过去一样，找不到攻略。我写在这里，希望未来能够帮助到其他人。 文章原文
-- **分类**：`其他`  |  **载体**：`文章`
-- **要点**：
-  1. 修好了 352 H301 加湿机不上水的故障。原因很细小：滤网组件(图中标识 4） 去掉盖子，去掉白色滤网，剩余的骨架上方，有一条黑色的橡胶条，固定在骨架顶端的…
-- **来源**：[槽边往事](http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+352+H301+%E5%8A%A0%E6%B9%BF%E6%9C%BA%E4%B8%8D%E4%B8%8A%E6%B0%B4%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%96%B9%E6%B3%95%E4%B9%8B%E4%B8%80)
-- **关键词**：`H301`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 25. 毫不犹豫找客服
+### 14. 毫不犹豫找客服
 
 - **摘要**：小时候我接受过一种截然不同的生活观：家里什么东西坏了，自己修。家里缺了什么东西，自己做。换灯泡、修桌椅、搭灶台，甚至垒砖铺石棉瓦建一个临时厨房的技能都是那么来的。 这让我在今天过得磕磕绊绊，因为现在想要自己动手一般都得看说明书，而网上一般搜不到，网上能搜到的一般极为简略。结果我本该是那个看攻略然后干活的人，现在我变成了那个写攻略的人，把我的维修心得写下来发在网上，希望和我遇见相同问题的人能够找到我提供的答案。 对此我困惑了很久，为什么说明书在今天变得毫无存在感？昨天，当我耗时 24 小时终于锁定了我家空气加湿机的故…
 - **分类**：`商业/产品`  |  **载体**：`文章`
@@ -400,48 +280,19 @@
 
 ---
 
-## 知识分子（热度 4）
+## 潮流周刊｜（热度 1）
 
-### 26. 剔除撤稿与灌水，中国大学的排名如何？
+### 15. 第254期 - 二零二六
 
-- **摘要**：1.26 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Dan Dimmock 撰 文 | 张天祁 ● ● ● 在当下的学术评价体系中，中国科研机构的排名在各大榜单上不断攀升，这往往被视为科研实力跃进的印证。2025年的自然指数机构排名中，中国的研究机构甚至占据了前10名中的8位 [1] 。 在最近荷兰莱顿大学科技研究中心的莱顿大学排名中，浙江大学已跃居首位，哈佛大学排名第三，另有七所中国高校进入前十 [2] 。中国高校在科研成果数量上的快速增长有目共睹 [2] 。 然而，…
-- **分类**：`商业/产品`  |  **载体**：`文章`
+- **摘要**：封面图拍摄于园区的一个2026的灯光装扮，猛然一想，居然的2026了，这几年过得真的是太快了，我想着慢一点。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 2025 大语言模型年度回顾 https://tw93.fun/2026-01-14/llm.html 花了一晚上时间把 Simon Willison’s Weblog 这篇 《2025: The year in LLMs》翻译完了，我觉得写得非常好，能够帮助我们很好看清楚去年这一年大模型领域发展的一…
+- **分类**：`财经`  |  **载体**：`文章`
 - **要点**：
-  1. 这是否意味着中国大学已经在全面领先？大学排名的评价逻辑本身就放大了规模效应，而中国科研机构最不缺的正是规模。再考虑近年来频发的学术不端事件，剔除那些由撤稿论文、…
-  2. 02 撤稿惩罚最严重的100家研究机构，75家来自中国 考虑作者设计的对于学术不端的惩罚机制，中国机构的排名跌落就更快。作者这套算法的核心，是机构的净得分，也就…
-  3. 单纯看高被引科学家这一指标本身也存在缺陷，而且这一指标也容易受到操纵。正因为如此，这项研究才引入了撤稿、过度自引和问题期刊论文这三个惩罚因子。作者认为，只有经过…
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%89%94%E9%99%A4%E6%92%A4%E7%A8%BF%E4%B8%8E%E7%81%8C%E6%B0%B4%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%8E%92%E5%90%8D%E5%A6%82%E4%BD%95%EF%BC%9F)
-- **关键词**：`Scopus` `Index.` `Ioannidis` `J.` `Nature` `A.`
+  1. 筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 2025 大语言模型年度回顾 https://tw93.fun/2026-01-14…
+- **来源**：[潮流周刊｜](https://weekly.tw93.fun/posts/254/)
+- **关键词**：`https` `Mole` `AI` `brew` `github.com` `tailspin`
 - **评分**：⭐⭐⭐ (3/5)
 
-### 27. 经常使用AI的人更容易抑郁、焦虑和易怒？
-
-- **摘要**：1.24 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 人工智能工具的使用和抑郁症状的关联 图片来源：pixabay .com 生成式人工智能极大地方便了人们的生活。但是，人工智能对精神健康的潜在危害也逐渐被人们所重视。近日，美国麻省总医院定量健康中心Roy H. Perlis团队完成了一项20847名美国成年人参与的调查，分析了人工智能的使用与抑郁症状的关系。结果显示，10.3%的受访者每…
-- **分类**：`生活`  |  **载体**：`文章`
-- **要点**：
-  1. Perlis团队完成了一项20847名美国成年人参与的调查，分析了人工智能的使用与抑郁症状的关系。结果显示，10.3%的受访者每天都会使用人工智能工具，5.3%…
-  2. 1.24 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既…
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F)
-- **关键词**：`https` `iNO300` `com` `pixabay` `articles` `mA`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 28. 能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？
-
-- **摘要**：1.25 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 艾米·诺特（Emmy Noether）。 图源：维基百科 撰 文 | 夏志宏 ● ● ● 我们从小就被灌输一个“物理常识”： 能量守恒。 能量不会凭空产生，也不会凭空消失，只会从一种形式转化为另一种形式。 听起来像宇宙的铁律，甚至像一种“道德”： 你不能作弊，永动机永远不可能出现。 但20世纪初，一位数学家做了一件惊人的事：她告诉我们—— 守恒定律并不是宇宙的基本规则，它其实来自一种更深层的东西：对称性。而在爱因斯坦相对论的时空观里，能量是不守恒…
-- **分类**：`时事`  |  **载体**：`文章`
-- **要点**：
-  1. 一位数学家做了一件惊人的事：她告诉我们—— 守恒定律并不是宇宙的基本规则，它其实来自一种更深层的东西：对称性。而在爱因斯坦相对论的时空观里，能量是不守恒的
-  2. 几个最经典的对应关系是： 时间平移对称性 → 能量守恒 空间平移对称性 → 动量守恒 旋转对称性 → 角动量守恒 所以守恒律不是天外飞来的规定，而是宇宙在说：…
-  3. 图源：维基百科 撰 文 | 夏志宏 ● ● ● 我们从小就被灌输一个“物理常识”： 能量守恒
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92%EF%BC%8C%E5%85%B6%E5%AE%9E%E4%B8%8D%E6%98%AF%E5%AE%87%E5%AE%99%E9%93%81%E5%BE%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E4%BA%86%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%9F)
-- **关键词**：`Emmy` `Noether` `END` `get` `Intellectual` `mc`
-- **评分**：⭐⭐⭐ (3/5)
-
----
-
-## 潮流周刊｜（热度 3）
-
-### 29. 第255期 - 好吃鸡翅
+### 16. 第255期 - 好吃鸡翅
 
 - **摘要**：封面图拍摄于周末吃的烤鸡翅，摆盘很好看，吃起来也不错，加一点欧芹碎。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 243 个工程师，最近一年买到的好东西 https://tw93.fun/2026-01-24/good.html 上周为了给团队同学买年夜饭礼物，在 X 上随口问大伙，最近一年，你买过最称心如意的东西是什么，或者说假如需要推荐一个你最想推荐的东西会是什么？可以是电子设备、软件、生活用品都可以。 没想到收到了 243 位小伙伴的回复，很有生命活人感，…
 - **分类**：`财经`  |  **载体**：`文章`
@@ -451,68 +302,74 @@
 - **关键词**：`https` `Agent` `github.com` `Linux` `MemOS` `AI`
 - **评分**：⭐⭐⭐ (3/5)
 
----
+### 17. 第253期 - 爱无人机
 
-## 云风（热度 1）
-
-### 30. 介绍几款单人桌游
-
-- **摘要**：上个月我花了不少时间在 dotAge 这个游戏中。我很喜欢这种通过精算规划应对确定风险的感觉。由于 dotAge 有很强的欧式桌游的设计感，所以我在桌游中尝试了一些有类似设计元素的单人游戏。 我感觉体验比较接近的有 Voidfall (2023) 和 Spirit Island (2017) 。因为灵魂岛（spirit island ）更早一些，而且 steam 上有官方的电子版，bgg 上总体排名也更高，所以我在上面花的时间最多。 这两个游戏的特点都是确定性战斗机制，即在战斗时完全没有投骰这类随机元素介入。在开战…
+- **摘要**：封面图拍摄于整了一个大疆无人机，非常好玩，也很方便，你可以去看文章后面我拍的视频，有惊喜。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 Mole 人生高光时刻和 Paul Graham 交流上了 https://github.com/tw93/Mole Mole 1.20 更新了，这次加了不少好玩的东西，具体内容大家可以直接去 changelog 看，这里就不展开说了。 这次我想先和大家分享一个好消息，通过 Mole 这个产品，我意外地和我的技术偶像…
 - **分类**：`商业/产品`  |  **载体**：`文章`
 - **要点**：
-  1. 上个月我花了不少时间在 dotAge 这个游戏中。我很喜欢这种通过精算规划应对确定风险的感觉。由于 dotAge 有很强的欧式桌游的设计感，所以我在桌游中尝试了…
-- **来源**：[云风的 BLOG](https://blog.codingnow.com/2026/01/solo_boardgame.html)
-- **关键词**：`dotAge` `Avatar` `bgg` `Island` `island` `Spirit`
+  1. brew install --cask --no-quarantine antigravity-tools 随便看看 给大伙看看我的无人机拍的记录 小菜鸟的第二…
+- **来源**：[潮流周刊｜](https://weekly.tw93.fun/posts/253/)
+- **关键词**：`Mole` `https` `ChatGPT` `Antigravity` `antigravity-tools` `github.com`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---
 
-## 美团技术团队（热度 1）
+## 经济学人（热度 0）
 
-### 31. 美团 EvoCUA 刷新开源 SOTA，会用电脑还会持续进化的智能体！
+### 18. 【邀您申领】299美元席位限量登记 | 亚洲基建变局——从智慧港口到深科技高地，寻找增长新动能
 
-- **摘要**：美团技术团队推出了 EvoCUA 模型并在 Github、Huggingface 开源，通过构建可验证数据合成引擎与十万级并发的交互沙盒，将训练范式从传统的“静态轨迹模仿”转变为高效的“经验进化学习”。
-- **分类**：`技术`  |  **载体**：`文章`
+- **摘要**：2026年3月11日-12日， 第六届亚洲科技变革峰会（Technology for Change Asia 2026） 将于香港举行。 我们诚邀您与700位行业领袖齐聚香江，深度解码政策、出行与连接技术的融合，看智慧生态系统——从全自动化港口到深科技（Deep Tech）科创中心——将如何重写亚洲的流动、建设与贸易版图。 ↓扫码注册↓ 立即申请免费VIP席位（价值：299美元） 席位有限，主办方审核通过后确认资格 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，合和酒店 关于Economist…
+- **分类**：`财经`  |  **载体**：`文章`
 - **要点**：
-  1. 美团技术团队推出了 EvoCUA 模型并在 Github、Huggingface 开源，通过构建可验证数据合成引擎与十万级并发的交互沙盒，将训练范式从传统的“静…
-- **来源**：[美团技术团队](https://tech.meituan.com/2026/01/26/evocua.html)
-- **关键词**：`EvoCUA` `Github` `Huggingface` `SOTA`
+  1. 深度解码政策、出行与连接技术的融合，看智慧生态系统——从全自动化港口到深科技（Deep Tech）科创中心——将如何重写亚洲的流动、建设与贸易版图
+  2. ↓扫码注册↓ 立即申请免费VIP席位（价值：299美元） 席位有限，主办方审核通过后确认资格 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，…
+  3. 第六届亚洲科技变革峰会（Technology for Change Asia 2026） 将于香港举行
+- **来源**：[经济学人](http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E3%80%90%E9%82%80%E6%82%A8%E7%94%B3%E9%A2%86%E3%80%91299%E7%BE%8E%E5%85%83%E5%B8%AD%E4%BD%8D%E9%99%90%E9%87%8F%E7%99%BB%E8%AE%B0++%7C+%E4%BA%9A%E6%B4%B2%E5%9F%BA%E5%BB%BA%E5%8F%98%E5%B1%80%E2%80%94%E2%80%94%E4%BB%8E%E6%99%BA%E6%85%A7%E6%B8%AF%E5%8F%A3%E5%88%B0%E6%B7%B1%E7%A7%91%E6%8A%80%E9%AB%98%E5%9C%B0%EF%BC%8C%E5%AF%BB%E6%89%BE%E5%A2%9E%E9%95%BF%E6%96%B0%E5%8A%A8%E8%83%BD)
+- **关键词**：`Economist` `Impact` `Asia` `asiaevents` `Change` `Deep`
+- **评分**：⭐⭐⭐ (3/5)
+
+### 19. 全球车企战略前瞻 | 中国电动车销量增速预计在2026放缓
+
+- **摘要**：目前电动汽车约占中国新车市场的半壁江山，但其销量与政策导向密切相关，市场波动较为明显。回顾2025年，在年初的低谷后，得益于价格下探及消费者抢搭政策“末班车”的心理，2025年中国新能源汽车销量实现了持续加速增长。 此前在2025年，中国符合条件的新能源汽车可享受最高3万元人民币的车辆购置税减免政策。自2026年1月1日起，购置减税额度减半至1.5万元，该政策将持续直至2027年底。 2026年市场增长预计将面临一定压力。我们将2026年和2027年全年销量增速预测分别从原先的16%和5%调整至14%和3%。同时，…
+- **分类**：`财经`  |  **载体**：`文章`
+- **要点**：
+  1. 2026年市场增长预计将面临一定压力。我们将2026年和2027年全年销量增速预测分别从原先的16%和5%调整至14%和3%。同时，中国新能源汽车销量的五年复合…
+  2. ↑扫码报名↑ 讲座时间： 2026年2月3日（周二） 16:30 北京时间 主讲嘉宾 Ana Nicholls - EIU行业研究总监 Arushi Kotec…
+  3. 汽车产业 展望2026 全球汽车产业在压力中步入2026年。贸易紧张局势、关税政策变动与监管不确定性，正加剧行业向电动化转型的复杂性，促使车企 重新规划生产布局…
+- **来源**：[经济学人](http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E5%85%A8%E7%90%83%E8%BD%A6%E4%BC%81%E6%88%98%E7%95%A5%E5%89%8D%E7%9E%BB+%7C+%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%A8%E8%BD%A6%E9%94%80%E9%87%8F%E5%A2%9E%E9%80%9F%E9%A2%84%E8%AE%A1%E5%9C%A82026%E6%94%BE%E7%BC%93)
+- **关键词**：`EIU` `Ana` `Arushi` `asia` `eiu.com` `Kotecha`
+- **评分**：⭐⭐⭐ (3/5)
+
+---
+
+## 饭统戴老板（热度 0）
+
+### 20. 小米汽车的“成人礼”
+
+- **摘要**：去年12月，牛津大学出版社把“愤怒诱饵”（Rage Bait）选为了2025年的年度词汇，如果把它翻译成中文，那大概就是拱火、引战和带节奏。 作为雷军赌上声誉的“最后一战”，小米汽车从诞生之日起就是万众瞩目的“流量圣体”，但也毫无悬念地成了流量猎人眼中的完美诱饵。 去年3月，雷军在赛道上测试了SU7 Ultra的制动性能，并且随后感慨了一句“瞬间刹停”，然而就是这句有感而发被流量猎人精准截取，他们利用大众对物理常识的本能捍卫去制造对立，激发愤怒，收割流量。 此外，被恶意贴上的“绿化带战神”标签以及被上纲上线的“13…
+- **分类**：`财经`  |  **载体**：`文章`
+- **要点**：
+  1. 在一些有意无意的引导下，公众似乎一直存在某种“幸存者偏差”，习惯把小米汽车的成功简单归结于雷军的营销能力
+  2. 没有小米对底层技术的偏执投入，小米SU7也很难成为一款全球瞩目的现象级产品，一家甘心成为“组装厂”的车企不会斥巨资研发热成型钢，去挑战电机转速的极限，去研发一体…
+  3. 小米汽车第50万辆车下线，距离小米SU7上市不到20个月，刷新了全球新能源车行业的最快下线纪录，这证明了尽管小米是汽车行业的新兵，但绝不是不懂生产制造和供应链管…
+- **来源**：[饭统戴老板](http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E7%9A%84%E2%80%9C%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D)
+- **关键词**：`SU7` `Model` `iPhone` `CEO` `Max` `TOPS`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---
 
 ## 补读（历史库存，去重后每日上限 3 条）
 
-### 32. PH今日热榜 | 2026-01-23
+### 21. 和 AI 聊游戏设计
 
-- **摘要**：1. ChartGen AI 标语：几秒钟内将数据转化为专业图表并获得洞察。 介绍：来自Ada.im团队的Ch [&#8230;]
-- **分类**：`技术`  |  **载体**：`文章`
+- **摘要**：最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok 。 去年也和朋友聊过很多，但对理清楚自己的想法帮助有限。因为和人聊容易陷入不断的细节解释当中，一些天马行空的想法更容易被质疑，一旦陷入辩论就不太容易跳出来。而且每个人的时间并不固定，很容易造成时间和精力的浪费。和 AI 聊要轻松得多，AI 毕竟见多识广，随便提到的点都能接得上话。不想聊下去尽可以中断，不用担心浪费时间。即使怀疑 AI 出现幻觉，也可以随时暂停下来通过搜索核实。 不过，我觉…
+- **分类**：`娱乐`  |  **载体**：`文章`
 - **要点**：
-  1. ChartGen AI 标语：几秒钟内将数据转化为专业图表并获得洞察
-- **来源**：[Decohack](https://decohack.com/producthunt-daily-2026-01-23/)
-- **关键词**：`Ada.im` `AI` `Ch` `ChartGen` `PH`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 33. 你怎么来真的
-
-- **摘要**：刚读完一本书，明就仁波切的《归零---遇见真实》。之前我介绍过他的另外一本书：《 世界上最快乐的人 》，不过，我想两者的读者数量差距可能超过 100 倍，也许都不止。 这里我并不做推荐，因为《归零》对于大多数人来说可能有些吃力，远不如《世界上最快乐的人》那么好读。我只是想写一篇读后感，免得将来遗忘，又无迹可寻。 明就仁波切是一位仁波切，这意味着他拥有完整的传承，接受过严格的训练，然后拥有自己的头衔、寺庙和信众，生活中有忠诚的侍者在周围服侍，出门有热情的弟子提供各种便利和照顾。总之，他生活在一个完美的小世界里，而且位…
-- **分类**：`时事`  |  **载体**：`文章`
-- **要点**：
-  1. 题图标题： 《雪山跑者 》 创作者： 和菜头的小肉手 AI算法提供： Midjourney V 7.0 Prompt: A female runner on a…
-- **来源**：[槽边往事](http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BD%A0%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9C%9F%E7%9A%84)
-- **关键词**：`AI` `ar` `Bitsea` `exp` `female` `highway`
-- **评分**：⭐⭐⭐ (3/5)
-
-### 34. “日本诺奖”揭晓：华人科学家陈志坚问鼎
-
-- **摘要**：1.23 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 1月21日下午，日本国际奖基金会 （The Japan Prize Foundation） 公布了 2026年日本国际奖 （Japan Prize） 的获奖者名单。美国德克萨斯大学西南医学中心教授陈志坚和大阪大学高级模式与诊断学中心教授审良静男 （Shizuo Akira） 荣获“生命科学”领域奖；哈佛大学计算机科学家辛西娅·德沃克 （Cynthia Dwork） 荣获“电子、信息与通信”领域奖。 “日本国际奖”是一项日本国家级的科学大奖，也是…
-- **分类**：`财经`  |  **载体**：`文章`
-- **要点**：
-  1. 约翰·古迪纳夫和吉野彰 2001 年获日本国际奖，等了 18 年终获诺奖，当时古迪纳夫已经 97 岁高龄。而其他 5 位科学家获得日本国际奖之后，很快拿到诺奖。…
-  2. 1.23 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 1月21日下午，日本国际奖基金会 （The Japan Prize Foundation…
-  3. 在本次获得“生命科学”奖的两位科学家中，审良静男是全球论文被引用频率最高的科学家之一，曾获加拿大盖尔德纳国际奖；陈志坚更曾获得过生命科学突破奖和被誉为“诺奖风向…
-- **来源**：[知识分子](http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%97%A5%E6%9C%AC%E8%AF%BA%E5%A5%96%E2%80%9D%E6%8F%AD%E6%99%93%EF%BC%9A%E5%8D%8E%E4%BA%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%99%88%E5%BF%97%E5%9D%9A%E9%97%AE%E9%BC%8E)
-- **关键词**：`DNA` `cGAS` `RNA` `STING` `MAVS` `PI`
+  1. 最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok
+  2. 我觉得和 AI 讨论也有另一方面的问题。那就是太容易顺着你的思路夸大其词。它更像是一个貌似领域知识渊博但只是想讨好你的同好，不断的放出一些华丽的辞藻却在逻辑上经…
+  3. 但我依然偶尔被 AI 的总结惊艳到。比如说有一场主题为模拟类型游戏的话题，聊到最后 AI 总结：
+- **来源**：[云风的 BLOG](https://blog.codingnow.com/2026/01/ai_game_design.html)
+- **关键词**：`AI` `google` `grok` `twitter`
 - **评分**：⭐⭐⭐ (3/5)
 
 ---

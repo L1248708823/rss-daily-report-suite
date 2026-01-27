@@ -1,0 +1,1095 @@
+{
+  "date": "2026-01-26",
+  "generated_at": "2026-01-26T14:13:31.053086+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 26,
+    "items_collected": 250,
+    "fresh_candidates": 75,
+    "backfill_candidates": 175,
+    "items_published": 36,
+    "sources_used": [
+      "https://v2ex.com/index.xml",
+      "http://www.v2ex.com/index.xml",
+      "https://www.v2ex.com/feed/tab/tech.xml",
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "https://plink.anyfeeder.com/weixin/bitsea",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "https://www.gcores.com/rss",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://diygod.me/atom.xml",
+      "https://www.decohack.com/feed",
+      "https://www.bmpi.dev/index.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://github.com/trending?since=daily"
+    ],
+    "market": {
+      "requested_date": "2026-01-26",
+      "fetched_at": "2026-01-26T14:13:30.475095+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4132.61,
+          "change": -3.55,
+          "change_pct": -0.09,
+          "volume": 887439731.0,
+          "amount": 145185984.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1143.5,
+          "change": -0.9500000000000455,
+          "change_pct": -0.083009305780073,
+          "prev_close": 1144.45,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "sina",
+          "source_url": "https://hq.sinajs.cn/list=gds_AU9999",
+          "as_of": "2026-01-26 22:11:19"
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5072.12,
+          "change": 86.09999999999945,
+          "change_pct": 1.73,
+          "prev_close": 4986.02,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-01-26 22:12:00"
+        }
+      ],
+      "errors": []
+    },
+    "editor_picks": {
+      "generated_at": "2026-01-27T01:36:17.573561+00:00",
+      "lead_n": 1,
+      "top_n": 5,
+      "lead_urls": [
+        "https://tech.meituan.com/2026/01/26/evocua.html"
+      ],
+      "top_urls": [
+        "https://decohack.com/producthunt-daily-2026-01-25/",
+        "http://www.ruanyifeng.com/blog/2026/01/ai-native-workspace.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F",
+        "http://xueqiu.com/3502863673/373004639",
+        "https://weekly.tw93.fun/posts/255/"
+      ],
+      "note": "rule-based offline; prefers tech/finance and high information density"
+    }
+  },
+  "items": [
+    {
+      "date": "2026-01-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些奇异有趣的系外行星？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787088",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Kepler-138",
+        "Kepler-138b",
+        "Kepler-138c",
+        "Kepler-138d",
+        "VII"
+      ],
+      "summary": "笨笨， 公众号：魅力科学君 查看知乎原文 在天琴座方向，距离地球大约 219 光年的位置上，有一颗被称为“开普勒 -138”（Kepler-138）的恒星，它是一颗比太阳小得多的红矮星，其质量与半径只有太阳的 53%左右，它有三颗已确认的系外行星，分别是“开普勒 -138b”（Kepler-138b）、“开普勒 -138c”（Kepler-138c）和“开普勒 -138d”（Kepler-138d）。 在这三颗行星之中，由于“开普勒 -138c”和“开普勒 -138d”与主恒星的距离既不太远，也不太近，刚好位于“宜…",
+      "key_points": [
+        "公众号：魅力科学君 在天琴座方向，距离地球大约 219 光年的位置上，有一颗被称为“开普勒 -138”（Kepler-138）的恒星，它是一颗比太阳小得多的红矮…",
+        "（↑地球与“开普勒 -138d”的对比，“开普勒 -138c”的内部结构与“开普勒 -138d”基本相同） 那么，这两个“水世界”有可能存在生命吗？正如我们所知…",
+        "水并非都是液态的，在行星表面，大量的水会受热变成水蒸气，这也是它们大气层中的主要气体，而在行星的深处，随着深度的增加，压力也会越来越大，当达到一定程度时，水就会…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么做梦时，即使场景再荒谬，大脑也不会对其有丝毫怀疑？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787102",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "REM",
+        "hypofrontality",
+        "NREM"
+      ],
+      "summary": "解磊， 格物当澄明似镜，处世可烂漫如诗 查看知乎原文 有个专门的术语形容这状态，叫做 前额叶低激活状态（hypofrontality） 。 你就想，你的大脑是一个幼儿园。 海马体（管记忆回放）、边缘系统（负责情绪处理）这些区域都是精力充沛的熊孩子，就没有个安生的时候。 而你的前额叶皮层（负责思维和调控）则是幼儿园的老师，负责管理那些熊孩子，以防它们做出什么裸婚裸辞裸奔之类的出格事件。 管过熊孩子的都知道，这是件多么劳心劳力的事儿。 所以到了晚上，最需要好好躺平的区域，自然就是前额叶皮层。 可是那些熊孩子们，它们一个…",
+      "key_points": [
+        "就是你大脑中那个大人有天突然想放飞自我了，一起加入了孩子们的捣蛋活动中，这时候你会发现自己可以有各种超能力，比如说变透明或是时间静止之类的，简直无所不能",
+        "这也是为何一些精神病人的想法和行为在正常人眼中很荒谬。你看到他们的表现，与你在梦境中看自己的感受，其实没有什么太大差别",
+        "如果大人醒来了，他就会看到孩子们折腾出来的杰作，产生这真是太荒谬了的认知"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "在没有任何东西阻挡的情况下，人的眼睛最远可以看多远？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787093",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "M31"
+      ],
+      "summary": "宇宙-观察， 微信公众号：宇宙观察 查看知乎原文 注意看，你眼前这个在深空照片中如旋涡般壮丽的天体，正是大名鼎鼎的仙女座星系，这不仅仅是一张漂亮的照片，它还是一个奇迹的代名词，因为在晴朗、黑暗的夜晚，只有它是人类仅凭肉眼就能见到的最遥远的宇宙天体。 然而仙女座星系的真实大小，以及它在我们夜空中的“隐藏”形态，远远超乎了所有人的想象。 要理解仙女座的非凡，我们必须首先理解我们自己的“家”。 我们知道，我们所见的星空，是一个由数不尽的恒星、星云以及尘埃气体构成的巨大天体系统，我们的地球正处在这个被称为银河系的系统之中，…",
+      "key_points": [
+        "去到真正没有光污染的乡村或高原，在秋冬季节的夜晚，朝着仙女座和仙后座之间的方向凝视，你很容易目睹到一团略带光亮的、纺锤形的模糊斑块，这就是从地球上看到的仙女座星…",
+        "然而一个更惊人的事实是：我们不必飞向它，因为它正朝我们而来",
+        "以及它在我们夜空中的“隐藏”形态，远远超乎了所有人的想象"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第255期 - 好吃鸡翅",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/255/",
+      "published": "Mon, 26 Jan 2026 00:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Agent",
+        "github.com",
+        "Linux",
+        "MemOS",
+        "AI"
+      ],
+      "summary": "封面图拍摄于周末吃的烤鸡翅，摆盘很好看，吃起来也不错，加一点欧芹碎。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 243 个工程师，最近一年买到的好东西 https://tw93.fun/2026-01-24/good.html 上周为了给团队同学买年夜饭礼物，在 X 上随口问大伙，最近一年，你买过最称心如意的东西是什么，或者说假如需要推荐一个你最想推荐的东西会是什么？可以是电子设备、软件、生活用品都可以。 没想到收到了 243 位小伙伴的回复，很有生命活人感，…",
+      "key_points": [
+        "随便看看 在 Netflix 直播看到的 Alex Honnold 攀爬台湾地标台北 101 https://www.bilibili.com/video/BV…"
+      ],
+      "pin": "top"
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "不要低估这轮大宗商品的牛市",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3502863673/373004639",
+      "published": "Mon, 26 Jan 2026 09:38:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Wind",
+        "CPI",
+        "PPI",
+        "PTA",
+        "http"
+      ],
+      "summary": "2026开年以来，A股春季攻势全面展开，一举站上4100点。在这波行情中，以AI为主导的科技股无疑是造富神话主战场，而顺着科技产业升级与全球经济复苏的主线，大宗商品自去年以来的赚钱效应也同样亮眼，值得深入研究。 图表1：2025年以来，几类代表性资产涨跌情况 来源：Wind，截至2026.1.12 不过，大宗商品内部的行情节奏并不完全一致，如果对细分品种没有独到的认知和理解，很难真正捕捉到大宗商品行情。 一、 2025年以来大宗商品的轮动节奏 回顾2025年的行情表现，大宗商品呈现出明显的分化格局，金、银、铜价频创…",
+      "key_points": [
+        "资金向实物资产扩散，大豆、玉米等农产品展现出补涨属性；工业金属、能源、化工等需求见顶回落；避险+抗通胀的双重需求推升金价，白银同步走强； 图表3：经济周期的四个…",
+        "图表2：大宗商品主要类型 1、贵金属呈现出明显的领跑特征。以黄金为例，这轮黄金的涨幅是远超很多人的预期的。过去二十年，市场分析黄金价格的核心抓手是宏观经济周期和…",
+        "国内经济有望延续复苏进程，很多大宗商品价格将陆续演绎“需求回暖→库存增加→价格回升”的逻辑；同时在去全球化趋势下，大宗商品的全球供给约束越来越明显，部分大宗商品…"
+      ],
+      "pin": "top"
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒周期启示录",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7929282130/372895279",
+      "published": "Mon, 26 Jan 2026 09:38:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600519",
+        "SZ000858",
+        "SZ002304",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "很多朋友在小羊上亏了不少钱，看着大家的吐槽，我心里也挺不是滋味的。 当年在白酒高位的时候也重仓过，我走的不算早，但也不晚。 整体来看，这四五年，我白酒没亏钱，但也没赚钱。 其实，在小羊上亏的钱，本质上不是因为洋河的，管理层或者财报有问题， 而是踩中了行业周期下行这个大雷。 当你把这两组，横跨13年的白酒数据，摆在一起时，就像翻开了一本行业周期的教科书。 2013-2021年的 鸡犬升天 有多疯狂，2022-2026 年的 泥沙俱下 就有多骨感。 我们不用抠财报细节，也不用纠结管理层是否诚信，单看数字就能把， 行业周…",
+      "key_points": [
+        "再选标的 上行周期 ：大胆拥抱行业 β，不用纠结个股细节。哪怕是区域酒企，也能跟着涨；如果想赚更多，就选确定性高的白酒龙头贵州茅台，与弹性大的次高端（比如汾酒）",
+        "横跨13年的白酒数据，摆在一起时，就像翻开了一本行业周期的教科书",
+        "照出了白酒行业的周期本质：上行时鸡犬升天，下行时泥沙俱下"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 382 期）：独立软件的黄昏",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/01/weekly-issue-382.html",
+      "published": "2026-01-26T01:23:39Z",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 382 期）：独立软件的黄昏"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "AI native Workspace 也许是智能体的下一阶段",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/01/ai-native-workspace.html",
+      "published": "2026-01-25T10:11:19Z",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "native",
+        "Workspace"
+      ],
+      "summary": "一、智能体的形态 我问大家一个问题，什么是 AI 的产品形态？...",
+      "key_points": [
+        "什么是 AI 的产品形态"
+      ],
+      "pin": "top"
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "机核",
+      "source": "机核",
+      "source_url": "https://www.gcores.com/rss",
+      "title": "啥也不是，散会！创作来自对生活的感悟，以及聊里番",
+      "title_zh": null,
+      "url": "https://www.gcores.com/radios/209634",
+      "published": "Mon, 26 Jan 2026 21:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Tcho_Tcho"
+      ],
+      "summary": "本期时间轴制作：Tcho_Tcho 专栏播客节目，不定期更新，敬请期待每期朱老师带来的神奇小话题。最近这期我们聊聊最近看了点什么，比如乔治·卡林的脱口秀，比如《为美好的世界献上祝福》、《重启人生》、《热点》、《同乐者》等等。",
+      "key_points": [
+        "本期时间轴制作：Tcho_Tcho 专栏播客节目，不定期更新，敬请期待每期朱老师带来的神奇小话题。最近这期我们聊聊最近看了点什么，比如乔治·卡林的脱口秀，比如《…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "机核",
+      "source": "机核",
+      "source_url": "https://www.gcores.com/rss",
+      "title": "《彩虹六号：攻势》过审：2026年1月份网络游戏审批信息公布",
+      "title_zh": null,
+      "url": "https://www.gcores.com/articles/210106",
+      "published": "Mon, 26 Jan 2026 20:07:36 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "2026年1月份国产网络游戏审批信息以及进口网络游戏审批信息公布，其中177款国产游戏过审， 《彩虹六号：攻势》等5款进口游戏过审。",
+      "key_points": [
+        "2026年1月份国产网络游戏审批信息以及进口网络游戏审批信息公布，其中177款国产游戏过审， 《彩虹六号：攻势》等5款进口游戏过审"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "机核",
+      "source": "机核",
+      "source_url": "https://www.gcores.com/rss",
+      "title": "《真·三国无双2 with 猛将传复刻版》宣布延期，具体发售时间待定",
+      "title_zh": null,
+      "url": "https://www.gcores.com/articles/210105",
+      "published": "Mon, 26 Jan 2026 19:13:01 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Remastered",
+        "Complete",
+        "DYNASTY",
+        "Edition",
+        "remaster",
+        "WARRIORS"
+      ],
+      "summary": "光荣特库摩游戏宣布，《真·三国无双2 with 猛将传 Remastered》 (DYNASTY WARRIORS 3: Complete Edition Remastered) 的发售日期将由此前定于2026年3月19日的计划，调整为2026年内发售。开发团队深知广大系列玩家对本作的期待，竭尽全力在重现当时极具挑战性的游戏性的同时，也以卓越的无双动作体验为目标，投入现代技术进行打造。 此外，本作也是“真·三国无双”系列首款复刻作品，对团队来说是一项新的挑战，因此还需要更多时间进行打磨，以呈现最佳的游戏体验。制作人…",
+      "key_points": [
+        "《真·三国无双2 with 猛将传 Remastered》 (DYNASTY WARRIORS 3: Complete Edition Remastered)…",
+        "本作也是“真·三国无双”系列首款复刻作品，对团队来说是一项新的挑战，因此还需要更多时间进行打磨，以呈现最佳的游戏体验。制作人庄知彦表示：“对于需要各位再次等待，…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "机核",
+      "source": "机核",
+      "source_url": "https://www.gcores.com/rss",
+      "title": "【抽奖】潜力全开！《潜水员戴夫》手机版定档2月6日，同步登陆TapPC平台",
+      "title_zh": null,
+      "url": "https://www.gcores.com/articles/210104",
+      "published": "Mon, 26 Jan 2026 18:43:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "DLC",
+        "Steam",
+        "TapTap",
+        "iOS",
+        "PC",
+        "TapPC"
+      ],
+      "summary": "全球超500万份销量、在Steam获得“好评如潮”的海洋冒险模拟经营游戏《潜水员戴夫》，于TapTap年度游戏大赏中正式宣布：游戏手机版将于2026年2月6日春节前夕正式发售，并同步上架Tap PC版。届时，广大潜水员可以随时随地潜入神秘蓝洞，开启指尖上的深海捕鱼与寿司店经营之旅！ 全球史低定价，优惠覆盖春节 《潜水员戴夫》是一款由MINTROCKET开发的海洋冒险游戏，玩家能够在白天的大海中捕鱼，晚上则通过经营寿司店赚钱。凭借独特的画风、幽默的剧情以及丰富的玩法，本作在全球范围内收获了极高的评价，更一举拿下TGA…",
+      "key_points": [
+        "手机体验优化 为了适应移动平台的操作特点，《潜水员戴夫》手机版在交互与体验层面进行了深度优化。开发团队不仅加入了按键自定义、体感操控及全新的竖屏模式，显著提升触…",
+        "请前往机核查看&gt; 上述首发折扣活动将持续至2026年2月23日，覆盖整个春节假期。此外，TapTap平台还将推出手机版与PC版的捆绑包活动，在折扣价基础上…",
+        "全球超500万份销量、在Steam获得“好评如潮”的海洋冒险模拟经营游戏《潜水员戴夫》，于TapTap年度游戏大赏中正式宣布：游戏手机版将于2026年2月6日春…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "机核",
+      "source": "机核",
+      "source_url": "https://www.gcores.com/rss",
+      "title": "【抽奖】经典解谜系列续作《纪念碑谷3》手游现已于TapTap开启预约",
+      "title_zh": null,
+      "url": "https://www.gcores.com/articles/210103",
+      "published": "Mon, 26 Jan 2026 18:31:45 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "TapTap",
+        "DLC",
+        "IP",
+        "Ustwo"
+      ],
+      "summary": "艺术品一般的极简几何风游戏画面，天马行空、精巧奇妙的错视觉解谜 —— 2014年，Ustwo工作室创造的独立游戏《纪念碑谷》横空出世，几乎成为当年手机上代表品味与潮流的「装机必备」，也让无数人自此对游戏「第九艺术」的称号有了切实概念。 作为视错觉解谜玩法的一个代表符号，「纪念碑谷」系列历经十余年沉淀，已成为广被玩家熟知的独立游戏IP。经典总是禁得起时间的打磨与考验，续作《纪念碑谷2》以及最新作品《纪念碑谷3》都延续了《纪念碑谷》特色的玩法与艺术风格。系列历久弥新的清新解谜体验特点突出，使其至今仍是独游玩家与解谜类爱…",
+      "key_points": [
+        "影响一代玩家的经典解谜系列再次回归 ——《纪念碑谷3》官方正版手游现已在TapTap开启预约，期待游戏正式上线那一天的到来",
+        "手机始终是最适配「纪念碑谷」解谜玩法的游戏平台。在不久前刚刚结束的TapTap年度游戏大赏上，《纪念碑谷3》官方正版手游官宣登陆国服。游戏将由心动发行，采用买断…",
+        "「纪念碑谷」系列历经十余年沉淀，已成为广被玩家熟知的独立游戏IP。经典总是禁得起时间的打磨与考验，续作《纪念碑谷2》以及最新作品《纪念碑谷3》都延续了《纪念碑谷…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "《中国妖鬼》上市，一书纵览千年妖鬼文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E3%80%8A%E4%B8%AD%E5%9B%BD%E5%A6%96%E9%AC%BC%E3%80%8B%E4%B8%8A%E5%B8%82%EF%BC%8C%E4%B8%80%E4%B9%A6%E7%BA%B5%E8%A7%88%E5%8D%83%E5%B9%B4%E5%A6%96%E9%AC%BC%E6%96%87%E5%8C%96",
+      "published": "Mon, 26 Jan 2026 17:18:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "从《哪吒之魔童闹海》到《黑神话：悟空》，从大银幕到游戏世界，中国传统文化中的妖鬼精怪从未曾远离，而是始终活跃在大众视野里，并不断被赋予新的内涵与解读。 今天，原《中华遗产》杂志编辑部出品的《中国妖鬼》一书正式上市！ 本书系统梳理了妖鬼文化的 定义、谱系与千年流变 ，收录《骷髅幻戏图》《钟馗捉鬼图》等 百余幅珍贵名画 ，以图文并茂的形式生动呈现妖鬼这一传统文化符号的 完整脉络 。 超2米《二郎神搜山图》长卷 裸脊锁线装订，可完全平摊阅读 翻阅这本精心制作、图文并茂的《中国妖鬼》，如同展开一场穿越千年的对话。 点击下图…",
+      "key_points": [
+        "本书系统梳理了妖鬼文化的 定义、谱系与千年流变 ，收录《骷髅幻戏图》《钟馗捉鬼图》等 百余幅珍贵名画 ，以图文并茂的形式生动呈现妖鬼这一传统文化符号的 完整脉络",
+        "原《中华遗产》杂志编辑部出品的《中国妖鬼》一书正式上市",
+        "超2米《二郎神搜山图》长卷 裸脊锁线装订，可完全平摊阅读 翻阅这本精心制作、图文并茂的《中国妖鬼》，如同展开一场穿越千年的对话"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "三“阳”开泰，接好运！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%89%E2%80%9C%E9%98%B3%E2%80%9D%E5%BC%80%E6%B3%B0%EF%BC%8C%E6%8E%A5%E5%A5%BD%E8%BF%90%EF%BC%81",
+      "published": "Mon, 26 Jan 2026 17:18:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "你见过 三“阳”开泰的奇观吗？ 我国冬季的北方雪原上，常会出现“三个太阳”的天象奇观。其实，太阳的本体只有一个，而 左右一对22°幻日是本体的“ 影分身”，这是冰晕类大气光学现象。 形成幻日需要天空中存在卷层云，当悬浮其间的大量六角形片状冰晶体在竖直方向上整齐排列时，就会有规律地折射太阳光，从而在天空中施展光的神奇魔法。 北方冰原送上季节限定的壮丽美景，接好运的同时，也欢迎在评论区和大家分享你镜头下的「万千气象」～ #接好运 #幻日 #天象奇观 #正能量 #治愈系 #旅行 #地理君带你发现中国 &lt;&gt; 文…",
+      "key_points": [
+        "接好运的同时，也欢迎在评论区和大家分享你镜头下的「万千气象」～ #接好运 #幻日 #天象奇观 #正能量 #治愈系 #旅行 #地理君带你发现中国 &lt;&gt;…",
+        "你见过 三“阳”开泰的奇观吗"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最美的河流景观，在哪里？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%BE%8E%E7%9A%84%E6%B2%B3%E6%B5%81%E6%99%AF%E8%A7%82%EF%BC%8C%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F",
+      "published": "Mon, 26 Jan 2026 17:18:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "km"
+      ],
+      "summary": "河流是地球的动脉 不仅孕育了文明 也赋予了大自然无限的生命力 河流在不同河段中 造就出截然不同的自然奇观 更成为大地极为壮美的风景线 源头 辫状水系 当你来到众多河流的发源地、被称为“亚洲水塔”的青藏高原时，会发现这里的河道犹如巨大的渔网，若以更大的视角观察，河流则如同姑娘长长的发辫一般，这样的景观称之为“ 辫状水系 ”。 楚玛尔河辫状水系 这里是青藏高原三江源区，一片广袤独特的大地，孕育出了我国第一大河，以及中华民族的母亲河。 长江始于这里的雪峰冰川，涓涓细流不断集结拥抱，一路向东南奔腾。 三江源 在 长江上游…",
+      "key_points": [
+        "河流是地球的动脉 不仅孕育了文明 也赋予了大自然无限的生命力 河流在不同河段中 造就出截然不同的自然奇观 更成为大地极为壮美的风景线 源头 辫状水系 当你来到众…",
+        "发源于天山冰川的安集海河一路奔腾 在天山北侧形成规模宏大的冲积扇 奔涌的河水强烈侵蚀、切割大地 留下陡峭梯田般的河流阶地和大峡谷 赤水大瀑布 贵州遵义赤水市南部…",
+        "河流逐渐向下、向两侧侵蚀 最终形成c乃至更广阔的平原 桃花峪 黄河中下游分界点，下游即华北平原 在平原之上的河流，流速减慢，我们便可以欣赏到奇妙的 河曲（也称为…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "图片过于震撼，一年只发一遍",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9B%BE%E7%89%87%E8%BF%87%E4%BA%8E%E9%9C%87%E6%92%BC%EF%BC%8C%E4%B8%80%E5%B9%B4%E5%8F%AA%E5%8F%91%E4%B8%80%E9%81%8D",
+      "published": "Sun, 25 Jan 2026 09:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "Jubei"
+      ],
+      "summary": "转眼马上腊八，回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的12张封面照 又是 百里挑一中的百里挑一 但受制于杂志尺寸 很多人并未见过 12张神图的 “完全体” 因此，那些以最极致方式 浓缩我们一整年精华的图片 今天，就让它们以完整比例示人！ 1月：广东专辑（上）湾区篇 2025年的头两个月 我们的眼里全是 “粤” 2025刚一开年 一个重磅消息就横空出世 广东成为 我国首个 GDP超14万亿元大省 且…",
+      "key_points": [
+        "回望过往一年 若论我们全年最震撼图片，肯定是—— 2025《中国国家地理》杂志的12期封面 12期杂志共用图约 3000张 每张都堪称百里挑一、精心制作 其中的…",
+        "点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：Jubei 春节自驾，这5条线赢麻了 最震撼的“火与水之歌”，在这里奏响"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "黔东南这座古镇，把我看醉了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%BB%94%E4%B8%9C%E5%8D%97%E8%BF%99%E5%BA%A7%E5%8F%A4%E9%95%87%EF%BC%8C%E6%8A%8A%E6%88%91%E7%9C%8B%E9%86%89%E4%BA%86",
+      "published": "Sun, 25 Jan 2026 09:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事。这里也因此，被誉为“国家历史文化名城”与“国家5A级旅游景区”。 登高远眺，碧绿的㵲阳河如玉带环抱，与古城的粉墙黛瓦一同，晕染出千年不变的温润底色。夜幕降临，华灯初上，古桥、老宅、灯笼的倒影在水波中轻漾，历史的气息在流光中变得可触可感。这一刻，你不是过客，而是这幅千年画卷中，如约而至的旅人。 #镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现…",
+      "key_points": [
+        "镇远古城位于贵州 黔东南苗族侗族自治州 ，历史悠久，沉淀着深厚的文化底蕴。这里的建筑风格古朴典雅，明清古民居、古巷道、古码头等众多历史遗迹，共同诉说着旧时的故事…",
+        "#镇远古镇 #贵州 #中式美学 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《徒手攀岩》值得看吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E5%BE%92%E6%89%8B%E6%94%80%E5%B2%A9%E3%80%8B%E5%80%BC%E5%BE%97%E7%9C%8B%E5%90%97%EF%BC%9F",
+      "published": "Mon, 26 Jan 2026 11:34:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "Alex",
+        "Free",
+        "hongmomgs",
+        "Honnold",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 盛昊阳 自由与稳定之间，何者为轻，何者为重。 在获得奥斯卡最佳纪录片奖项的认可之前，《徒手攀岩》已经成为2018年度北美第二卖座的纪录片，1890万美元的票房在纪录片界堪称一个天文数字。是攀岩运动的受众特别热情？还是主人公亚历克斯·霍诺尔德的知名度真的家喻户晓？ 《徒手攀岩》 大部分观众在观看《徒手攀岩》时，对这项运动的认知可能仅仅停留在《碟中谍2》开头，阿汤哥为了耍帅，仿佛不要命般的惊险镜头。 徒手攀岩，英文的Free Solo，无保护自由攀登，孤身一人，不可使用绳索、保护带等一切保护设备，唯一可依仗的只有自…",
+      "key_points": [
+        "《徒手攀岩》 如果赢取自由的代价只是面对虎视眈眈的死神，也许还不会让人那么难以抉择。米兰·昆德拉将生活的重担和感情的重负与生命力相关联，把远离大地的生命称作「半…",
+        "《徒手攀岩》 卡尔维诺以珀尔修斯和美杜莎的譬喻消解了生命中难以承受之重，「珀尔修斯的力量在于他能做到不去直接观看，而不是在于他拒否他命定生活于其中的现实；他承担…",
+        "Alex Honnold住在优胜美地的时候每天在房车里面健身 《徒手攀岩》没有刻意将亚历克斯塑造成一个离群索居、性情怪异的异类。30岁出头的他相貌平平，身材中等…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "攀登101 ，是一种全新的电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%94%80%E7%99%BB101+%EF%BC%8C%E6%98%AF%E4%B8%80%E7%A7%8D%E5%85%A8%E6%96%B0%E7%9A%84%E7%94%B5%E5%BD%B1",
+      "published": "Mon, 26 Jan 2026 11:34:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "ESPN",
+        "hongmomgs",
+        "IMAX",
+        "irisfilm",
+        "qq.com",
+        "WWE"
+      ],
+      "summary": "文 树宝 亚历克斯 · 霍诺德无保护徒手攀登台北 101 大楼的直播，大家都看了么？ 这当然是一件极限运动的壮举，不过，它同时也是影像媒体传播的一个盛事，如果把网飞的直播视为七年前那部获得奥斯卡的纪录片《徒手攀岩》的精神续篇，其中包含的视听媒介演化的含义，就更耐人寻味了。 先说说这次挑战发生的物理空间，台北 101 大楼。作为曾经的世界第一高楼的台北 101 ，它的建筑语言本身构成了本次挑战的核心叙事障碍。 与自然岩壁不同，李祖原设计的台北 101 充满了工业化的重复和几何秩序。大楼外立面最具标志性的特征是模仿竹节…",
+      "key_points": [
+        "而《摩天大楼直播》的镜头则是外向的、景观化的，使用了大量的无人机环绕和航拍，旨在展示台北的城市全貌和热烈的围观人群。这是一种全景敞视的视角，霍诺德被置于城市舞台…",
+        "《徒手攀岩》 电影通过影像语言建立了一种宗教般的仪式感，将这种自然奇观的呈现超越了体育竞技的范畴，进入了关于人类在大自然面前的微不足道，以及试图通过意志力超越这…",
+        "所以这一次亚历克斯挑战的不是解决自然环境构造的难题，而是对抗一种工业的精密设计。这种清晰的层级结构，在转播中也可以说是降低了观众的认知门槛，让攀登过程具有了电子…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "国内外达成一致了，就是超级烂片",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%BD%E5%86%85%E5%A4%96%E8%BE%BE%E6%88%90%E4%B8%80%E8%87%B4%E4%BA%86%EF%BC%8C%E5%B0%B1%E6%98%AF%E8%B6%85%E7%BA%A7%E7%83%82%E7%89%87",
+      "published": "Sun, 25 Jan 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "IP",
+        "A24",
+        "Boss",
+        "HBO",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 Nose 期待十多年的《重返寂静岭》上了，在国内引发巨大删剪争议，不过这不是我今天想说的重点。我更关心的还是这个 IP 自身的命运。 《重返寂静岭》 因为这部电影不仅仅是一部普通的续集而已，它实际上承载了 Konami 公司试图复兴 「 寂静岭 」 这个经典 IP 的宏大野心，同时也标志着导演甘斯在阔别该系列二十年后，试图纠正 2012 年《寂静岭 2 ：启示录》所造成的口碑崩塌，重新定义这个系列。 但他也没想到，他造成了一次新的崩塌。 影片是松散改编自 2001 年的游戏杰作《寂静岭 2 》。原游戏充满深邃的…",
+      "key_points": [
+        "文 Nose 期待十多年的《重返寂静岭》上了，在国内引发巨大删剪争议，不过这不是我今天想说的重点。我更关心的还是这个 IP 自身的命运",
+        "将伦理危机简化为了简单的正义行动。恐怖的源头从詹姆斯的内心转移到了外部的邪教组织。这种外化处理，直接导致了心理恐怖向超自然惊悚的降级",
+        "这部电影最遗憾的就是丢掉了让《寂静岭》成为经典的独特气质，也就是一种无法言说、无法逃离的孤独感"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "是枝裕和的电影被死亡笼罩",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A2%AB%E6%AD%BB%E4%BA%A1%E7%AC%BC%E7%BD%A9",
+      "published": "Sun, 25 Jan 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Criterion",
+        "Dennis",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Lim"
+      ],
+      "summary": "作者： Dennis Lim 译者： Issac 校对：易二三 来源： Criterion（2011年2月7日） 死亡笼罩着是枝裕和的电影。 他的第一部长片《幻之光》（1995）平静地研究了丧亲之痛，讲述了一位年轻女子在丈夫费解地自杀后挣扎着继续前行的故事。《下一站，天国》（1998）是一个超自然的寓言故事，说的是记忆的（电影的）重要性，片中，刚离世的人发现自己处于一种空灵的状态，他们可以选择一段世俗的回忆，将其变成永恒的电影纪念品。《距离》（2001）观察了一家人的情绪冲突——悲伤、羞耻和不解，他们的家人参加了一…",
+      "key_points": [
+        "Dennis Lim 译者： Issac 校对：易二三 来源： Criterion（2011年2月7日） 死亡笼罩着是枝裕和的电影",
+        "是枝裕和似乎一直与他同时代的人截然不同——其中很多像清黑泽清和三池崇史这样的著名人物，都致力于类型实验，以自己的方式扩展激进化的电影，例如日本新浪潮的大岛渚和今…",
+        "《当记忆失去了》 是枝裕和的许多纪录片为他的虚构电影提供了素材。他根据一本小说改编了《幻之光》，但在塑造他的女主人公时，也借鉴了《但是……在这个扔弃福祉的时代》…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "今年奥斯卡，最有看头的一组竞争",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%8A%E5%B9%B4%E5%A5%A5%E6%96%AF%E5%8D%A1%EF%BC%8C%E6%9C%80%E6%9C%89%E7%9C%8B%E5%A4%B4%E7%9A%84%E4%B8%80%E7%BB%84%E7%AB%9E%E4%BA%89",
+      "published": "Sat, 24 Jan 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "NEON",
+        "A24",
+        "COVID-19",
+        "Hind",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 soree 今年的奥斯卡，很可能是一个重要的分水岭。 不仅是因为瑞恩 · 库格勒执导的恐怖片《罪人》以 16 项提名刷新了影史单片提名纪录，更是因为最佳国际影片这一类别的边界，正在以前所未有的速度消融。 《罪人》 长久以来，好莱坞的颁奖季往往将非英语电影隔离在特定的外语片领域内，当然最近这些年的趋势表明，这种做法即将结束。 尤其是本年度入围最佳国际影片的五部作品中，竟有两部同时入围了最佳影片的竞争，分别是挪威的《情感价值》和巴西的《秘密特工》。 《情感价值》 《秘密特工》 国际影片不再是点缀，而在成为奥斯卡的核…",
+      "key_points": [
+        "《接近终点》 通过对 2026 年入围名单的梳理，可以清晰地洞察到几个核心趋势。最令人震惊的现象是发行商 NEON 的绝对统治，在 5 个提名席位中独占 4 席…",
+        "《 总统的蛋糕 》 2026 年 1 月 22 日，第 98 届奥斯卡提名名单正式揭晓，最终入围最佳国际影片的五部影片分别是《情感价值》《秘密特工》《普通事故》…",
+        "基于提名数据、工会奖项表现以及学院的历史投票逻辑，我们可以谨慎预测领跑者是挪威的《情感价值》，最大理由是它获得了 9 项奥斯卡提名，这是压倒性的优势"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "毫不犹豫找客服",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%AF%AB%E4%B8%8D%E7%8A%B9%E8%B1%AB%E6%89%BE%E5%AE%A2%E6%9C%8D",
+      "published": "Mon, 26 Jan 2026 12:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ar",
+        "Bitsea",
+        "chinese",
+        "exp",
+        "Midjourney"
+      ],
+      "summary": "小时候我接受过一种截然不同的生活观：家里什么东西坏了，自己修。家里缺了什么东西，自己做。换灯泡、修桌椅、搭灶台，甚至垒砖铺石棉瓦建一个临时厨房的技能都是那么来的。 这让我在今天过得磕磕绊绊，因为现在想要自己动手一般都得看说明书，而网上一般搜不到，网上能搜到的一般极为简略。结果我本该是那个看攻略然后干活的人，现在我变成了那个写攻略的人，把我的维修心得写下来发在网上，希望和我遇见相同问题的人能够找到我提供的答案。 对此我困惑了很久，为什么说明书在今天变得毫无存在感？昨天，当我耗时 24 小时终于锁定了我家空气加湿机的故…",
+      "key_points": [
+        "为什么说明书在今天变得毫无存在感？昨天，当我耗时 24 小时终于锁定了我家空气加湿机的故障所在，并且终于成功维修之后，我认为我想出了答案--- 因为没这个必要，…",
+        "我觉得这样的服务水准把中国人给惯坏了。昨天我看到一起网上投诉，某人买了十斤大米，买回来之后把大米装进 2 个 5 升的矿泉水桶，发现根本装不满，每个水桶还空了好…",
+        "像我这样愿意动手的人可能是少数。但如果我这样的人可以自行顺利维修，那么也等于是在减少客服压力，减少一张工单。从长远看，哪怕厂商是用 AI 客服来回答，AI 本身…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "352 H301 加湿机不上水故障排除方法之一",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+352+H301+%E5%8A%A0%E6%B9%BF%E6%9C%BA%E4%B8%8D%E4%B8%8A%E6%B0%B4%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%96%B9%E6%B3%95%E4%B9%8B%E4%B8%80",
+      "published": "Sun, 25 Jan 2026 15:40:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "H301"
+      ],
+      "summary": "今天，修好了 352 H301 加湿机不上水的故障。原因很细小：滤网组件(图中标识 4） 去掉盖子，去掉白色滤网，剩余的骨架上方，有一条黑色的橡胶条，固定在骨架顶端的环形凹槽内。这个橡胶条上有很多细小的孔，水从细孔渗出，均匀下注濡湿滤网。一旦这里阻塞，滤网就始终是干的，无法上水。处理方法是把橡胶条取下冲洗，对准孔洞用力吹气，即可去除堵塞物，最后清洗凹槽，再把橡胶条安装回去，注意分对上下面。网上搜索和过去一样，找不到攻略。我写在这里，希望未来能够帮助到其他人。 文章原文",
+      "key_points": [
+        "修好了 352 H301 加湿机不上水的故障。原因很细小：滤网组件(图中标识 4） 去掉盖子，去掉白色滤网，剩余的骨架上方，有一条黑色的橡胶条，固定在骨架顶端的…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "Free solo",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+Free+solo",
+      "published": "Sun, 25 Jan 2026 11:54:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Free",
+        "solo",
+        "AI",
+        "Alain",
+        "ar",
+        "Bitsea"
+      ],
+      "summary": "七年之前，我在公众号推荐过一部纪录片：《 周末荐片：徒手攀岩 》。今天早上 9 点，纪录片中的主角亚历克斯在没有任何保护装置的情况下，徒手攀登台北 101 大厦。历经 1 小时 31 分 34 秒，跨越 500 米的垂直高度，他登顶成功。 在此之前，2004 年12 月 25 日法国「蜘蛛人」阿 伦·罗伯特 (Alain Robert) 做过同样的尝试，但是攀登当天因为下雨的缘故，改为使用安全绳索攀登，耗时四小时登顶成功。 亚历克斯在纪录片中攀登的是位于美国优山美地国家公园的酋长岩，这部纪录片最终获得奥斯卡最佳纪录…",
+      "key_points": [
+        "题图标题： 《窗外 》 创作者： 和菜头的小肉手 AI算法提供： Midjourney V 7.0 Prompt: portrait photography o…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "先嚼再咽",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%85%88%E5%9A%BC%E5%86%8D%E5%92%BD",
+      "published": "Sat, 24 Jan 2026 11:53:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "in",
+        "of",
+        "an",
+        "there",
+        "above.",
+        "across"
+      ],
+      "summary": "也许你已经发现了，我这里没有谈过之前的「红楼梦悼明」，或者现在的「斩杀线」一类的概念，甚至连留言区里打扫得干干净净，不会出现相关的字眼。 为什么会这样？ 因为我觉得这些内容已经太流行，太泛滥了，没有必要在我这里继续出现。大家可以在别处看到，而且是海量地看到，在我这里看不见也许可以算作是一种休息。 当然，有些读者因此会觉得不高兴，因为自己搭楼回复，其他读者的新回复不断被我放出来，但是自己的那一条却迟迟不见动静。原因通常很简单：留言里用到了本日最流行的金句，近期最流行的网络概念，或者是所谓的「流行热梗」。我不想有这些东…",
+      "key_points": [
+        "我所说的先嚼再咽概念在网络世界里肯定是一种小众行为。一个人做出和大多数人不一样的选择，难免会觉得孤单，难免会遭受排斥，但正如那首歌里唱过的那样：于是转身向山里走…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "剔除撤稿与灌水，中国大学的排名如何？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%89%94%E9%99%A4%E6%92%A4%E7%A8%BF%E4%B8%8E%E7%81%8C%E6%B0%B4%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%9A%84%E6%8E%92%E5%90%8D%E5%A6%82%E4%BD%95%EF%BC%9F",
+      "published": "Mon, 26 Jan 2026 08:34:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Scopus",
+        "Index.",
+        "Ioannidis",
+        "J.",
+        "Nature",
+        "A."
+      ],
+      "summary": "1.26 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Dan Dimmock 撰 文 | 张天祁 ● ● ● 在当下的学术评价体系中，中国科研机构的排名在各大榜单上不断攀升，这往往被视为科研实力跃进的印证。2025年的自然指数机构排名中，中国的研究机构甚至占据了前10名中的8位 [1] 。 在最近荷兰莱顿大学科技研究中心的莱顿大学排名中，浙江大学已跃居首位，哈佛大学排名第三，另有七所中国高校进入前十 [2] 。中国高校在科研成果数量上的快速增长有目共睹 [2] 。 然而，…",
+      "key_points": [
+        "这是否意味着中国大学已经在全面领先？大学排名的评价逻辑本身就放大了规模效应，而中国科研机构最不缺的正是规模。再考虑近年来频发的学术不端事件，剔除那些由撤稿论文、…",
+        "02 撤稿惩罚最严重的100家研究机构，75家来自中国 考虑作者设计的对于学术不端的惩罚机制，中国机构的排名跌落就更快。作者这套算法的核心，是机构的净得分，也就…",
+        "单纯看高被引科学家这一指标本身也存在缺陷，而且这一指标也容易受到操纵。正因为如此，这项研究才引入了撤稿、过度自引和问题期刊论文这三个惩罚因子。作者认为，只有经过…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "能量守恒，其实不是宇宙铁律，一个女数学家如何改变了物理学？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92%EF%BC%8C%E5%85%B6%E5%AE%9E%E4%B8%8D%E6%98%AF%E5%AE%87%E5%AE%99%E9%93%81%E5%BE%8B%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E4%BA%86%E7%89%A9%E7%90%86%E5%AD%A6%EF%BC%9F",
+      "published": "Sun, 25 Jan 2026 08:55:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Emmy",
+        "Noether",
+        "END",
+        "get",
+        "http",
+        "Intellectual"
+      ],
+      "summary": "1.25 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 艾米·诺特（Emmy Noether）。 图源：维基百科 撰 文 | 夏志宏 ● ● ● 我们从小就被灌输一个“物理常识”： 能量守恒。 能量不会凭空产生，也不会凭空消失，只会从一种形式转化为另一种形式。 听起来像宇宙的铁律，甚至像一种“道德”： 你不能作弊，永动机永远不可能出现。 但20世纪初，一位数学家做了一件惊人的事：她告诉我们—— 守恒定律并不是宇宙的基本规则，它其实来自一种更深层的东西：对称性。而在爱因斯坦相对论的时空观里，能量是不守恒…",
+      "key_points": [
+        "一位数学家做了一件惊人的事：她告诉我们—— 守恒定律并不是宇宙的基本规则，它其实来自一种更深层的东西：对称性。而在爱因斯坦相对论的时空观里，能量是不守恒的",
+        "几个最经典的对应关系是： 时间平移对称性 → 能量守恒 空间平移对称性 → 动量守恒 旋转对称性 → 角动量守恒 所以守恒律不是天外飞来的规定，而是宇宙在说：…",
+        "图源：维基百科 撰 文 | 夏志宏 ● ● ● 我们从小就被灌输一个“物理常识”： 能量守恒"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "经常使用AI的人更容易抑郁、焦虑和易怒？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8AI%E7%9A%84%E4%BA%BA%E6%9B%B4%E5%AE%B9%E6%98%93%E6%8A%91%E9%83%81%E3%80%81%E7%84%A6%E8%99%91%E5%92%8C%E6%98%93%E6%80%92%EF%BC%9F",
+      "published": "Sat, 24 Jan 2026 08:10:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "iNO300",
+        "com",
+        "pixabay",
+        "articles",
+        "mA"
+      ],
+      "summary": "1.24 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 人工智能工具的使用和抑郁症状的关联 图片来源：pixabay .com 生成式人工智能极大地方便了人们的生活。但是，人工智能对精神健康的潜在危害也逐渐被人们所重视。近日，美国麻省总医院定量健康中心Roy H. Perlis团队完成了一项20847名美国成年人参与的调查，分析了人工智能的使用与抑郁症状的关系。结果显示，10.3%的受访者每…",
+      "key_points": [
+        "Perlis团队完成了一项20847名美国成年人参与的调查，分析了人工智能的使用与抑郁症状的关系。结果显示，10.3%的受访者每天都会使用人工智能工具，5.3%…",
+        "1.24 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既…"
+      ],
+      "pin": "top"
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“日本诺奖”揭晓：华人科学家陈志坚问鼎",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%97%A5%E6%9C%AC%E8%AF%BA%E5%A5%96%E2%80%9D%E6%8F%AD%E6%99%93%EF%BC%9A%E5%8D%8E%E4%BA%BA%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%99%88%E5%BF%97%E5%9D%9A%E9%97%AE%E9%BC%8E",
+      "published": "Fri, 23 Jan 2026 08:48:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "DNA",
+        "cGAS",
+        "RNA",
+        "STING",
+        "MAVS",
+        "PI"
+      ],
+      "summary": "1.23 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 1月21日下午，日本国际奖基金会 （The Japan Prize Foundation） 公布了 2026年日本国际奖 （Japan Prize） 的获奖者名单。美国德克萨斯大学西南医学中心教授陈志坚和大阪大学高级模式与诊断学中心教授审良静男 （Shizuo Akira） 荣获“生命科学”领域奖；哈佛大学计算机科学家辛西娅·德沃克 （Cynthia Dwork） 荣获“电子、信息与通信”领域奖。 “日本国际奖”是一项日本国家级的科学大奖，也是…",
+      "key_points": [
+        "约翰·古迪纳夫和吉野彰 2001 年获日本国际奖，等了 18 年终获诺奖，当时古迪纳夫已经 97 岁高龄。而其他 5 位科学家获得日本国际奖之后，很快拿到诺奖。…",
+        "1.23 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 1月21日下午，日本国际奖基金会 （The Japan Prize Foundation…",
+        "在本次获得“生命科学”奖的两位科学家中，审良静男是全球论文被引用频率最高的科学家之一，曾获加拿大盖尔德纳国际奖；陈志坚更曾获得过生命科学突破奖和被誉为“诺奖风向…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "Decohack",
+      "source": "Decohack",
+      "source_url": "https://www.decohack.com/feed",
+      "title": "PH今日热榜 | 2026-01-26",
+      "title_zh": null,
+      "url": "https://decohack.com/producthunt-daily-2026-01-26/",
+      "published": "Mon, 26 Jan 2026 07:28:07 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "PH",
+        "Thumbfa.st",
+        "YouTube"
+      ],
+      "summary": "1. Thumbfa.st 标语：Midjourney 用于制作 YouTube 缩略图——每次都能展现你的面 [&#8230;]",
+      "key_points": [
+        "Thumbfa.st 标语：Midjourney 用于制作 YouTube 缩略图——每次都能展现你的面 [&#8230;]"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "Decohack",
+      "source": "Decohack",
+      "source_url": "https://www.decohack.com/feed",
+      "title": "PH今日热榜 | 2026-01-25",
+      "title_zh": null,
+      "url": "https://decohack.com/producthunt-daily-2026-01-25/",
+      "published": "Sun, 25 Jan 2026 07:21:41 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "Humans",
+        "in",
+        "Loop",
+        "PH"
+      ],
+      "summary": "合集/热榜（Decohack）：合集/热榜（Decohack）：1.；Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理…",
+      "key_points": [
+        "Humans in the Loop 标语：一个免费的社区，专注于讨论所有与代理编程和人工智能相关的话题 [&#8230;]"
+      ],
+      "pin": "top"
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "Decohack",
+      "source": "Decohack",
+      "source_url": "https://www.decohack.com/feed",
+      "title": "PH今日热榜 | 2026-01-24",
+      "title_zh": null,
+      "url": "https://decohack.com/producthunt-daily-2026-01-24/",
+      "published": "Sat, 24 Jan 2026 07:20:26 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "Tonkotsu",
+        "PH"
+      ],
+      "summary": "1. Tonkotsu 标语：管理一支编码团队的文档 介绍：Tonkotsu是一种全新的体验：它提供了一个简洁 [&#8230;]",
+      "key_points": [
+        "Tonkotsu 标语：管理一支编码团队的文档 介绍：Tonkotsu是一种全新的体验：它提供了一个简洁 [&#8230;]"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "介绍几款单人桌游",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/01/solo_boardgame.html",
+      "published": "2026-01-24T13:12:08Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "quality_score": 3.0,
+      "keywords": [
+        "dotAge",
+        "Avatar",
+        "bgg",
+        "Island",
+        "island",
+        "Spirit"
+      ],
+      "summary": "上个月我花了不少时间在 dotAge 这个游戏中。我很喜欢这种通过精算规划应对确定风险的感觉。由于 dotAge 有很强的欧式桌游的设计感，所以我在桌游中尝试了一些有类似设计元素的单人游戏。 我感觉体验比较接近的有 Voidfall (2023) 和 Spirit Island (2017) 。因为灵魂岛（spirit island ）更早一些，而且 steam 上有官方的电子版，bgg 上总体排名也更高，所以我在上面花的时间最多。 这两个游戏的特点都是确定性战斗机制，即在战斗时完全没有投骰这类随机元素介入。在开战…",
+      "key_points": [
+        "上个月我花了不少时间在 dotAge 这个游戏中。我很喜欢这种通过精算规划应对确定风险的感觉。由于 dotAge 有很强的欧式桌游的设计感，所以我在桌游中尝试了…"
+      ],
+      "pin": null
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "美团 EvoCUA 刷新开源 SOTA，会用电脑还会持续进化的智能体！",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/01/26/evocua.html",
+      "published": "Mon, 26 Jan 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "EvoCUA",
+        "Github",
+        "Huggingface",
+        "SOTA"
+      ],
+      "summary": "美团技术团队推出了 EvoCUA 模型并在 Github、Huggingface 开源，通过构建可验证数据合成引擎与十万级并发的交互沙盒，将训练范式从传统的“静态轨迹模仿”转变为高效的“经验进化学习”。",
+      "key_points": [
+        "美团技术团队推出了 EvoCUA 模型并在 Github、Huggingface 开源，通过构建可验证数据合成引擎与十万级并发的交互沙盒，将训练范式从传统的“静…"
+      ],
+      "pin": "lead"
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-01-26",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 381 期）：中国 AI 大模型领导者在想什么",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/01/weekly-issue-381.html",
+      "published": "2026-01-22T18:26:37Z",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 381 期）：中国 AI 大模型领导者在想什么"
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "Decohack",
+      "source": "Decohack",
+      "source_url": "https://www.decohack.com/feed",
+      "title": "PH今日热榜 | 2026-01-22",
+      "title_zh": null,
+      "url": "https://decohack.com/producthunt-daily-2026-01-22/",
+      "published": "Thu, 22 Jan 2026 07:27:25 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "Blink",
+        "Agent",
+        "Builder",
+        "PH"
+      ],
+      "summary": "1. Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了！ 介绍：Blink是首个 [&#8230;]",
+      "key_points": [
+        "Blink Agent Builder 标语：你现在可以轻松开发智能应用程序了"
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "两位科学巨人的终身对峙：怎样改写了人类的平均寿命？ | 商周专栏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%A4%E4%BD%8D%E7%A7%91%E5%AD%A6%E5%B7%A8%E4%BA%BA%E7%9A%84%E7%BB%88%E8%BA%AB%E5%AF%B9%E5%B3%99%EF%BC%9A%E6%80%8E%E6%A0%B7%E6%94%B9%E5%86%99%E4%BA%86%E4%BA%BA%E7%B1%BB%E7%9A%84%E5%B9%B3%E5%9D%87%E5%AF%BF%E5%91%BD%EF%BC%9F+%7C+%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F",
+      "published": "Thu, 22 Jan 2026 09:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "quality_score": 3.3,
+      "keywords": [
+        "me",
+        "better",
+        "END",
+        "get",
+        "http",
+        "Intellectual"
+      ],
+      "summary": "1.22 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 巴斯德（左）和科赫（右）。 图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走上了正轨，并逐渐找到了相应的对策，从而使人类的平均寿命得到了极大的提高。 病原微生物学的诞生，两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科赫。 从…",
+      "key_points": [
+        "图源：维基百科 撰 文 | 商周 ● ● ● 在十九世纪，生命科学领域划时代的发现不断涌现，其中之一就是病原微生物学的诞生。从此之后，科学界对感染性疾病的认知走…",
+        "仍将在竞争与传承中继续存在下去，并为人类健康不断贡献力量——正如当年的巴斯德与科赫两位科学巨人一样",
+        "两个人的贡献居功至伟：一个是为这一学科提出理论基础——疾病细菌说——的法国科学家路易·巴斯德，另一个是首次鉴定出病原微生物——炭疽杆菌——的德国科学家罗伯特·科…"
+      ]
+    }
+  ]
+}
