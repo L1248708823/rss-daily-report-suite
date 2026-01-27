@@ -82,8 +82,8 @@ const featured = computed<NewsItem | null>(() => {
   return withScore[0] ?? null
 })
 
-const pinnedLead = computed(() => filteredItems.value.find((x) => x.carrier === 'lead') ?? null)
-const pinnedTop = computed(() => filteredItems.value.filter((x) => x.carrier === 'top').slice(0, 5))
+const pinnedLead = computed(() => filteredItems.value.find((x) => x.pin === 'lead') ?? null)
+const pinnedTop = computed(() => filteredItems.value.filter((x) => x.pin === 'top').slice(0, 5))
 
 const lead = computed(() => pinnedLead.value ?? featured.value)
 
@@ -563,7 +563,7 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
         </div>
       </div>
 
-      <!-- 精选（后续由技能包产出 carrier=top） -->
+      <!-- 精选（由 editor picks 回写 pin=top） -->
       <div class="mt-10">
 
           <section>

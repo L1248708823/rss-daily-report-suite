@@ -26,6 +26,7 @@ import os
 import random
 import re
 import socket
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -924,6 +925,9 @@ def write_report_data_json(
             "published": it.entry.published,
             "category": it.category,
             "carrier": it.carrier,
+            # Editorial pinning is a post-process step (see rss-editor-picks).
+            # Values: "lead" (1x), "top" (N x), or null.
+            "pin": None,
             "quality_score": round(float(it.quality_score), 2),
             "keywords": list(it.keywords or []),
             "summary": it.summary,
@@ -2452,6 +2456,34 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Disable writing structured JSON data.",
     )
     parser.add_argument(
+        "--editor-picks",
+        dest="editor_picks",
+        action="store_true",
+        default=None,
+        help="Post-process: select editorial lead/top picks and write back into JSON + Markdown (default: enabled in repo auto-mode).",
+    )
+    parser.add_argument(
+        "--no-editor-picks",
+        dest="editor_picks",
+        action="store_false",
+        default=None,
+        help="Disable editorial picks post-process.",
+    )
+    parser.add_argument(
+        "--editor-lead-n",
+        dest="editor_lead_n",
+        type=int,
+        default=int(cfg_get("editor_lead_n", 1)),
+        help="How many lead items to pin (default: 1).",
+    )
+    parser.add_argument(
+        "--editor-top-n",
+        dest="editor_top_n",
+        type=int,
+        default=int(cfg_get("editor_top_n", 5)),
+        help="How many top items to pin (default: 5).",
+    )
+    parser.add_argument(
         "--build-site",
         dest="build_site",
         action="store_true",
@@ -3226,6 +3258,34 @@ def main(argv: Optional[List[str]] = None) -> int:
         )
         print(f"Wrote data: {day_json_path}")
         print(f"Updated data index: {index_json_path}")
+
+        # Enable editor picks by default: it is a deterministic local post-process
+        # that improves both JSON data and the Markdown report.
+        enable_editor_picks = bool(args.editor_picks) if args.editor_picks is not None else True
+        if enable_editor_picks:
+            try:
+                editor_script = os.path.normpath(
+                    os.path.join(os.path.dirname(__file__), "..", "..", "rss-editor-picks", "scripts", "run.py")
+                )
+                subprocess.run(
+                    [
+                        sys.executable,
+                        editor_script,
+                        date_str,
+                        "--day-json",
+                        str(day_json_path),
+                        "--report-md",
+                        str(out_path),
+                        "--lead-n",
+                        str(max(1, int(getattr(args, "editor_lead_n", 1) or 1))),
+                        "--top-n",
+                        str(max(0, int(getattr(args, "editor_top_n", 5) or 5))),
+                    ],
+                    check=True,
+                )
+                print("Applied editorial picks (lead/top).")
+            except Exception as e:
+                print(f"Warning: failed to apply editorial picks: {e}", file=sys.stderr)
 
     enable_build_site = bool(args.build_site) if args.build_site is not None else bool(auto_mode)
     if enable_build_site:

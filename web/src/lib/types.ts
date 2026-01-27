@@ -17,6 +17,7 @@ export type NewsItem = {
   published?: string | null
   category?: string | null
   carrier?: string | null
+  pin?: 'lead' | 'top' | null
   quality_score?: number | null
   keywords?: string[] | null
   summary?: string | null

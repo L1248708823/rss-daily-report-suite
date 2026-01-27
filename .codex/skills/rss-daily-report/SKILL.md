@@ -48,7 +48,25 @@ user-invocable: true
 输出：
 
 - 日报：`NewsReport/YYYY-MM-DD-rss-daily-report.md`
+- 头条/精选：默认会在日报生成后自动挑选并回写（见下文“头条 / 精选”）
 - 缓存：`.codex/skills/rss-daily-report/cache.json`
+
+## 头条 / 精选（回写 pin）
+
+日报生成后默认会自动执行一次后处理（可用 `--no-editor-picks` 关闭）：
+
+- 从当天 `NewsReport/data/YYYY-MM-DD.json` 的 `items` 中挑选：
+  - `pin=lead` 1 条（头条）
+  - `pin=top` 5 条（精选）
+- 对入选条目补齐中文标题/摘要的离线兜底（不依赖任何 API/key）
+- 回写到当天 JSON，并把“头条/精选”区块插入到当天 Markdown 日报中
+
+实现：`.codex/skills/rss-editor-picks/`
+
+可通过参数控制：
+
+- 关闭：`--no-editor-picks`
+- 自定义条数：`--editor-lead-n 1 --editor-top-n 5`
 
 ## 源列表格式（sources.md）
 

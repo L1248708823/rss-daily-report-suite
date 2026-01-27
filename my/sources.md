@@ -27,3 +27,5 @@ HelloGitHub 月刊|platform=HelloGitHub 月刊	http://hellogithub.com/rss
 云风的 BLOG|platform=云风	http://blog.codingnow.com/atom.xml
 DIYGod|platform=DIYGod	https://diygod.me/atom.xml
 Decohack|platform=Decohack	https://www.decohack.com/feed
+构建我的被动收入｜https://www.bmpi.dev/index.xml
+ 潮流周刊｜https://weekly.tw93.fun/rss.xml
