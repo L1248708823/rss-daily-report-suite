@@ -14,6 +14,7 @@ export default defineConfig({
     tailwindcss(),
     vue(),
     vueDevTools(),
+    bundleNewsData(),
     localNewsData(),
   ],
   resolve: {
@@ -30,6 +31,49 @@ export default defineConfig({
     },
   },
 })
+
+function bundleNewsData(): Plugin {
+  const repoRoot = fileURLToPath(new URL('..', import.meta.url))
+  const dataDir = path.join(repoRoot, 'NewsReport', 'data')
+
+  let outDirAbs = ''
+
+  return {
+    name: 'bundle-news-data',
+    apply: 'build',
+    configResolved(config) {
+      const outDir = config.build.outDir || 'dist'
+      outDirAbs = path.isAbsolute(outDir) ? outDir : path.resolve(config.root, outDir)
+    },
+    async closeBundle() {
+      if (!outDirAbs) return
+
+      const targetDir = path.join(outDirAbs, 'api', 'news')
+      await fs.mkdir(targetDir, { recursive: true })
+
+      let files: string[] = []
+      try {
+        files = await fs.readdir(dataDir)
+      } catch {
+        // When building in CI/Pages without pre-generated data, don't fail the build.
+        console.warn(`[bundle-news-data] skip: missing NewsReport/data at ${dataDir}`)
+        return
+      }
+
+      const jsonFiles = files.filter((fn) => fn.endsWith('.json'))
+      if (!jsonFiles.length) {
+        console.warn(`[bundle-news-data] skip: no json files found under ${dataDir}`)
+        return
+      }
+
+      await Promise.all(
+        jsonFiles.map(async (fn) => {
+          await fs.copyFile(path.join(dataDir, fn), path.join(targetDir, fn))
+        }),
+      )
+    },
+  }
+}
 
 function localNewsData(): Plugin {
   const repoRoot = fileURLToPath(new URL('..', import.meta.url))
