@@ -1,5 +1,10 @@
 # Repository Guidelines
 
+## 约定
+- 开头回答的前缀加上【曼波】
+- 需要不断和我确认方案和颗粒度后才能写代码
+- 需要边工作边维护todo文档
+
 ## Project Structure & Module Organization
 
 - `.codex/skills/rss-daily-report/`: RSS 日报核心实现（可发布 skill）。
