@@ -682,5 +682,16 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
         </details>
       </div>
     </section>
+
+    <div class="mx-auto mt-10 max-w-6xl px-4 pb-10">
+      <div class="flex justify-end">
+        <RouterLink
+          to="/lab/chat"
+          class="rounded-md border border-[var(--rule)] bg-white/60 px-3 py-2 text-xs text-[color:var(--muted)] transition hover:border-[var(--rule-strong)] hover:text-[color:var(--ink)]"
+        >
+          Lab：Chat API 测试
+        </RouterLink>
+      </div>
+    </div>
   </main>
 </template>
