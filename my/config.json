@@ -21,7 +21,7 @@
     "min_score": 2.6,
     "time_budget": 240,
     "prefer_ipv4": true,
-    "github_top10": true,
+    "github_top10": false,
     "export_json": true,
     "build_site": true,
     "market": true,

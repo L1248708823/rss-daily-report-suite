@@ -27,5 +27,10 @@ HelloGitHub 月刊|platform=HelloGitHub 月刊	http://hellogithub.com/rss
 云风的 BLOG|platform=云风	http://blog.codingnow.com/atom.xml
 DIYGod|platform=DIYGod	https://diygod.me/atom.xml
 Decohack|platform=Decohack	https://www.decohack.com/feed
-构建我的被动收入｜https://www.bmpi.dev/index.xml
- 潮流周刊｜https://weekly.tw93.fun/rss.xml
+构建我的被动收入|platform=构建我的被动收入	https://www.bmpi.dev/index.xml
+潮流周刊|platform=潮流周刊	https://weekly.tw93.fun/rss.xml
+豆瓣最受欢迎的影评|platform=豆瓣最受欢迎的影评	https://plink.anyfeeder.com/douban/review/movie
+豆瓣最受欢迎的书评|platform=豆瓣最受欢迎的书评	https://plink.anyfeeder.com/douban/review/book
+知识分子|platform=知识分子	https://plink.anyfeeder.com/weixin/The-Intellectual
+一天一篇经济学人(双语)|platform=一天一篇经济学人	https://plink.anyfeeder.com/weixin/Economist_fans
+张佳玮写字的地方|platform=张佳玮写字的地方	https://plink.anyfeeder.com/weixin/zhangjiawei_1983

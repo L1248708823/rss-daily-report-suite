@@ -2,14 +2,14 @@
   "schema_version": "1.0",
   "description": "rss-daily-report cache",
   "last_run": {
-    "date": "2026-01-27",
-    "duration_seconds": 27,
-    "items_collected": 185,
-    "fresh_candidates": 30,
-    "backfill_candidates": 155,
-    "items_published": 20,
-    "backfill_published": 1,
-    "floor_added": 7,
+    "date": "2026-01-28",
+    "duration_seconds": 47,
+    "items_collected": 193,
+    "fresh_candidates": 39,
+    "backfill_candidates": 154,
+    "items_published": 23,
+    "backfill_published": 3,
+    "floor_added": 0,
     "min_items_floor": 20,
     "sources_used": [
       "https://v2ex.com/index.xml",
@@ -39,164 +39,176 @@
       "https://www.decohack.com/feed",
       "https://www.bmpi.dev/index.xml",
       "https://weekly.tw93.fun/rss.xml",
-      "https://github.com/trending?since=daily"
+      "https://plink.anyfeeder.com/douban/review/movie",
+      "https://plink.anyfeeder.com/douban/review/book",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/zhangjiawei_1983"
     ],
     "errors": [
-      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824ff20>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
-      "GitHub Trending (https://github.com/trending?since=daily): HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824c350>, 'Connection to github.com timed out. (connect timeout=5.0)'))"
+      "知乎每日精选（不稳定） (https://www.zhihu.com/rss): failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0",
+      "端传媒 - 最新（不稳定） (https://plink.anyfeeder.com/initium/latest): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response",
+      "知乎热榜（不稳定） (https://plink.anyfeeder.com/zhihu/hotlist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response",
+      "DIYGod (https://diygod.me/atom.xml): failed after 1 endpoint(s), last=https://diygod.me/atom.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "路透中文（不稳定） (https://plink.anyfeeder.com/reuters/cn): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang=\"zh-Hans\"> <head class=\"no-js\"> <meta name=\"referrer\" content=\"no-referrer\" /> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale: syntax error: line 1, column 0",
+      "V2EX (https://v2ex.com/index.xml): failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7d073f029fa0>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
+      "V2EX (https://v2ex.com/index.xml): circuit-breaker tripped, muted_until=2026-01-30 (fail_streak=3)",
+      "V2EX（HTTP 兜底） (http://www.v2ex.com/index.xml): failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7d073c6253d0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
+      "V2EX - 技术 (https://www.v2ex.com/feed/tab/tech.xml): failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7d073c625d00>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))",
+      "经济学人 (https://plink.anyfeeder.com/weixin/theeconomist): failed after 1 endpoint(s), last=https://plink.anyfeeder.com/weixin/theeconomist: HTTPSConnectionPool(host='plink.anyfeeder.com', port=443): Read timed out."
     ]
   },
   "source_stats": {
     "_comment": "per-feed stats keyed by feed URL",
     "https://v2ex.com/index.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 3,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "http://www.v2ex.com/index.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://www.v2ex.com/feed/tab/tech.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/zhihu/daily": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://www.zhihu.com/rss": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/zhihu/hotlist": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://www.ruanyifeng.com/blog/atom.xml": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/caozsay": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/IrisMagazine": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/initium/latest": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/reuters/cn": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://plink.anyfeeder.com/weixin/theeconomist": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 9,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://xueqiu.com/hots/topic/rss": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/xueqiujinghua": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/worldofboss": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/bitsea": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "http://plink.anyfeeder.com/weixin/The-Intellectual": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://plink.anyfeeder.com/weixin/dili360": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "http://hellogithub.com/rss": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://tech.meituan.com/feed/": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://tech.youzan.com/rss/": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "http://coolshell.cn/feed": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "http://blog.codingnow.com/atom.xml": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://diygod.me/atom.xml": {
-      "total_fetches": 9,
+      "total_fetches": 10,
       "success_count": 2,
-      "last_fetch": "2026-01-27",
+      "last_fetch": "2026-01-28",
       "last_success": "2026-01-27"
     },
     "https://www.decohack.com/feed": {
-      "total_fetches": 9,
-      "success_count": 9,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 10,
+      "success_count": 10,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://github.com/trending?since=daily": {
       "total_fetches": 9,
@@ -205,16 +217,46 @@
       "last_success": "2026-01-27"
     },
     "https://www.bmpi.dev/index.xml": {
-      "total_fetches": 4,
-      "success_count": 2,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 5,
+      "success_count": 3,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     },
     "https://weekly.tw93.fun/rss.xml": {
-      "total_fetches": 4,
-      "success_count": 4,
-      "last_fetch": "2026-01-27",
-      "last_success": "2026-01-27"
+      "total_fetches": 5,
+      "success_count": 5,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
+    },
+    "https://plink.anyfeeder.com/douban/review/movie": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
+    },
+    "https://plink.anyfeeder.com/douban/review/book": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
+    },
+    "https://plink.anyfeeder.com/weixin/The-Intellectual": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
+    },
+    "https://plink.anyfeeder.com/weixin/Economist_fans": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
+    },
+    "https://plink.anyfeeder.com/weixin/zhangjiawei_1983": {
+      "total_fetches": 1,
+      "success_count": 1,
+      "last_fetch": "2026-01-28",
+      "last_success": "2026-01-28"
     }
   },
   "url_cache": {
@@ -462,6 +504,84 @@
       },
       "https://github.com/business-science/ai-data-science-team": {
         "date_added": "2026-01-27"
+      },
+      "https://daily.zhihu.com/story/9787109": {
+        "date_added": "2026-01-28"
+      },
+      "https://daily.zhihu.com/story/9787120": {
+        "date_added": "2026-01-28"
+      },
+      "https://daily.zhihu.com/story/9787114": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B8%82%E5%9C%BA%E5%8F%AF%E8%83%BD%E8%BF%9B%E5%85%A5%E9%AB%98%E6%B3%A2%E5%8A%A8%E5%8C%BA%E9%97%B4%EF%BC%8C%E7%A1%AC%E6%89%9B%E8%BF%98%E6%98%AF%E8%B7%91%E8%B7%AF%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "http://xueqiu.com/6244752229/373230936": {
+        "date_added": "2026-01-28"
+      },
+      "https://hellogithub.com/periodical/volume/118": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+2026%E2%80%942027%E5%B9%B4%E3%80%8E%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%E5%8F%B7%E3%80%8F%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E2%80%9C%E7%AB%8B%E4%BD%93%E8%8D%89%E5%8E%9F%E2%80%9D%E5%96%80%E6%8B%89%E5%B3%BB%E7%9A%84%E5%86%AC%E6%97%A5%E6%9C%89%E5%A4%9A%E7%BE%8E%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%87%E8%B1%A1%E7%BB%98%E5%BD%A9+%7C+%E8%87%B4%E6%95%AC%E4%BA%8C%E5%8D%81%E5%B9%B4%E5%B1%B1%E6%B2%B3%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85%EF%BC%81": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E9%83%A8%E5%89%A7%E9%87%8E%E5%BF%83%E5%BE%88%E5%A4%A7%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8A%9B%E6%8C%BD%E7%8B%82%E6%BE%9C%E5%90%97%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BD%B1%E5%93%8D%E3%80%8A%E6%9D%80%E4%BA%BA%E5%9B%9E%E5%BF%86%E3%80%8B%E7%9A%84%E7%94%B5%E5%BD%B1%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "https://decohack.com/producthunt-daily-2026-01-27/": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+AI%E6%98%AF%E4%B8%AA%E9%A9%AC%E5%B1%81%E7%B2%BE": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E6%83%85%E5%AF%B9AI%E8%AF%B4%E4%B8%89%E9%81%8D": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+46%E4%BA%BA%E8%A2%AB%E6%9F%A5%EF%BC%81%E5%9F%BA%E9%87%91%E5%A7%94%E4%BB%8A%E5%B9%B4%E9%A6%96%E6%89%B9%E5%AD%A6%E6%9C%AF%E4%B8%8D%E7%AB%AF%E6%9B%9D%E5%85%89%EF%BC%8C%E6%9C%89%E4%BA%BA%E5%9B%A0%E6%89%93%E6%8B%9B%E5%91%BC%E8%A2%AB%E6%B0%B8%E4%B9%85%E5%8F%96%E6%B6%88%E8%B5%84%E6%A0%BC": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+AI%E8%99%BD%E5%A5%BD%EF%BC%8C%E5%88%87%E8%8E%AB%E8%B4%AA%E6%9D%AF": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%99%BA%E8%83%BD%E6%89%8B%E6%9C%BA%E8%83%BD%E5%90%A6%E5%9C%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%B9%B8%E5%AD%98%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E8%AF%B8%E8%91%9B%E4%BA%AEvs%E7%8E%8B%E6%9C%97%EF%BC%9A%E5%90%B5%E6%9E%B6%E5%89%8D%E9%80%89%E9%A2%98%E6%9C%89%E5%A4%9A%E9%87%8D%E8%A6%81%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E4%B8%9C%E5%A5%91%E5%A5%87%E7%9A%84%E8%B4%9F%E6%8B%85%E6%9C%89%E5%A4%9A%E9%87%8D%EF%BC%9F": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E7%A7%91%E6%AF%94%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%AF%B9%E6%89%8B": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E8%85%8A%E5%85%AB%E7%B2%A5%EF%BC%9A%E8%A7%81%E4%BD%9B%E4%B8%8D%E6%98%AF%E4%BD%9B%EF%BC%8C%E8%A7%81%E7%B2%A5%E5%8F%AA%E6%98%AF%E7%B2%A5": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E7%BD%97%E6%96%AF%EF%BC%8C%E6%97%A0%E7%97%95%E4%B8%87%E8%83%BD%E7%BB%88%E7%BB%93%E8%80%85": {
+        "date_added": "2026-01-28"
+      },
+      "https://book.douban.com/review/17415390/": {
+        "date_added": "2026-01-28"
+      },
+      "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BA%BA%E7%9A%84%E4%B8%80%E7%94%9F%E5%8F%AA%E6%9C%89%E4%B8%80%E6%A2%9D%E8%B7%AF": {
+        "date_added": "2026-01-28"
+      },
+      "https://book.douban.com/review/17409480/": {
+        "date_added": "2026-01-28"
+      },
+      "https://daily.zhihu.com/story/9786908": {
+        "date_added": "2026-01-28"
       }
     }
   },
@@ -710,6 +830,84 @@
       },
       "01b60512cecf390a65ea42bb05b43cd3422b311f": {
         "date_added": "2026-01-27"
+      },
+      "ad9093853e64e4ed08e90b7487194a0dd8e7b5a0": {
+        "date_added": "2026-01-28"
+      },
+      "ff52b6c64fd9c7fa3716bf8c99ac5ae1be439aea": {
+        "date_added": "2026-01-28"
+      },
+      "6a3928b68870c7b14906dc8bcbeda7c41109617d": {
+        "date_added": "2026-01-28"
+      },
+      "d61665a84c4f6adeaea0f7d42df2c3340bc30f66": {
+        "date_added": "2026-01-28"
+      },
+      "74547771bfc12555e1814ab789ab32d75679a377": {
+        "date_added": "2026-01-28"
+      },
+      "c1dd052ba81a1dee54fc94ef249b734da33ee543": {
+        "date_added": "2026-01-28"
+      },
+      "700e10cd60f5366f19ae906c462aaf63ebae0bf3": {
+        "date_added": "2026-01-28"
+      },
+      "ef6266259f7127018f9a1c70b54ba9ab41d3b17d": {
+        "date_added": "2026-01-28"
+      },
+      "31f7ff447f6faf894fcb830e2c65a4e785fbd46d": {
+        "date_added": "2026-01-28"
+      },
+      "e2762f7f4f1a3078a7b58b488b0d514297f5705a": {
+        "date_added": "2026-01-28"
+      },
+      "e272cae037dcbfc012e9efcfe8d1911ada822e74": {
+        "date_added": "2026-01-28"
+      },
+      "dad168ffb8a35537c80d67f131da432313dd81cf": {
+        "date_added": "2026-01-28"
+      },
+      "b8246c2d2eb377043cb580bf49f6b0672c29a21d": {
+        "date_added": "2026-01-28"
+      },
+      "2a8ebde236b87f6a0b24ee24e5eabf336fc4b1e3": {
+        "date_added": "2026-01-28"
+      },
+      "f38a9085d08a80475a86f641a914dce6b69c30a3": {
+        "date_added": "2026-01-28"
+      },
+      "690bb73068cf76661c2818bb6f5dc547e93ef25c": {
+        "date_added": "2026-01-28"
+      },
+      "82752a55280b3aa3155bbf50c85ce46bebb69d06": {
+        "date_added": "2026-01-28"
+      },
+      "e8642e2a7f42823f09a0acc3144e4402e5d4a085": {
+        "date_added": "2026-01-28"
+      },
+      "6e981203195868b1adb1dd01a0a18e2b97020d64": {
+        "date_added": "2026-01-28"
+      },
+      "0fae031959d9d8d7346d94e314cfa7ed6c2718f1": {
+        "date_added": "2026-01-28"
+      },
+      "915d177f3c44b6eef01b00b9138dd5d7cc61c25a": {
+        "date_added": "2026-01-28"
+      },
+      "d866a2edffa7320ef18da225de136c1b05fd6325": {
+        "date_added": "2026-01-28"
+      },
+      "6f535da13c8188beb3084d4c660973baf3b8bf74": {
+        "date_added": "2026-01-28"
+      },
+      "25751e6e48734146e7eb287e5eba4c1f842474b9": {
+        "date_added": "2026-01-28"
+      },
+      "c4cdef6e06345d0691c1b718fdfa079b38e28e2a": {
+        "date_added": "2026-01-28"
+      },
+      "6c1fca09c1d94d6b6dbbde9a4c8130fb87dcb6bb": {
+        "date_added": "2026-01-28"
       }
     }
   },
@@ -1268,85 +1466,323 @@
         "carrier": "文章",
         "quality_score": 3.3
       }
+    ],
+    "2026-01-28": [
+      {
+        "source": "知乎日报（聚合）",
+        "platform": "知乎",
+        "title": "恐龙憋得住屎吗？",
+        "title_hash": "ad9093853e64e4ed08e90b7487194a0dd8e7b5a0",
+        "url": "https://daily.zhihu.com/story/9787109",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知乎日报（聚合）",
+        "platform": "知乎",
+        "title": "既然紫色不好染，古人能不能用红线做经线，蓝线做纬线，纺织出紫色的布料？",
+        "title_hash": "ff52b6c64fd9c7fa3716bf8c99ac5ae1be439aea",
+        "url": "https://daily.zhihu.com/story/9787120",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "知乎日报（聚合）",
+        "platform": "知乎",
+        "title": "为什么奇蹄目和偶蹄目不叫食草目？",
+        "title_hash": "6a3928b68870c7b14906dc8bcbeda7c41109617d",
+        "url": "https://daily.zhihu.com/story/9787114",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "雪球（公众号精选）",
+        "platform": "雪球",
+        "title": "市场可能进入高波动区间，硬扛还是跑路？",
+        "title_hash": "d61665a84c4f6adeaea0f7d42df2c3340bc30f66",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B8%82%E5%9C%BA%E5%8F%AF%E8%83%BD%E8%BF%9B%E5%85%A5%E9%AB%98%E6%B3%A2%E5%8A%A8%E5%8C%BA%E9%97%B4%EF%BC%8C%E7%A1%AC%E6%89%9B%E8%BF%98%E6%98%AF%E8%B7%91%E8%B7%AF%EF%BC%9F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "雪球",
+        "platform": "雪球",
+        "title": "按照保守的Q4业绩预测，腾讯当前公允市值是多少（SOTP 估值法）",
+        "title_hash": "74547771bfc12555e1814ab789ab32d75679a377",
+        "url": "http://xueqiu.com/6244752229/373230936",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "HelloGitHub 月刊",
+        "platform": "HelloGitHub 月刊",
+        "title": "HelloGitHub 第 118 期",
+        "title_hash": "c1dd052ba81a1dee54fc94ef249b734da33ee543",
+        "url": "https://hellogithub.com/periodical/volume/118",
+        "category": "技术",
+        "carrier": "项目",
+        "quality_score": 3.7
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "2026—2027年『中国国家地理号』活动预告",
+        "title_hash": "700e10cd60f5366f19ae906c462aaf63ebae0bf3",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+2026%E2%80%942027%E5%B9%B4%E3%80%8E%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%E5%8F%B7%E3%80%8F%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A",
+        "category": "时事",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "“立体草原”喀拉峻的冬日有多美？",
+        "title_hash": "ef6266259f7127018f9a1c70b54ba9ab41d3b17d",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E2%80%9C%E7%AB%8B%E4%BD%93%E8%8D%89%E5%8E%9F%E2%80%9D%E5%96%80%E6%8B%89%E5%B3%BB%E7%9A%84%E5%86%AC%E6%97%A5%E6%9C%89%E5%A4%9A%E7%BE%8E%EF%BC%9F",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "中国国家地理",
+        "platform": "中国国家地理",
+        "title": "万象绘彩 | 致敬二十年山河发现之旅！",
+        "title_hash": "31f7ff447f6faf894fcb830e2c65a4e785fbd46d",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%87%E8%B1%A1%E7%BB%98%E5%BD%A9+%7C+%E8%87%B4%E6%95%AC%E4%BA%8C%E5%8D%81%E5%B9%B4%E5%B1%B1%E6%B2%B3%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85%EF%BC%81",
+        "category": "娱乐",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "虹膜",
+        "platform": "虹膜",
+        "title": "这部剧野心很大，可以力挽狂澜吗？",
+        "title_hash": "e2762f7f4f1a3078a7b58b488b0d514297f5705a",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E9%83%A8%E5%89%A7%E9%87%8E%E5%BF%83%E5%BE%88%E5%A4%A7%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8A%9B%E6%8C%BD%E7%8B%82%E6%BE%9C%E5%90%97%EF%BC%9F",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "虹膜",
+        "platform": "虹膜",
+        "title": "影响《杀人回忆》的电影有哪些？",
+        "title_hash": "e272cae037dcbfc012e9efcfe8d1911ada822e74",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BD%B1%E5%93%8D%E3%80%8A%E6%9D%80%E4%BA%BA%E5%9B%9E%E5%BF%86%E3%80%8B%E7%9A%84%E7%94%B5%E5%BD%B1%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F",
+        "category": "商业/产品",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "Decohack",
+        "platform": "Decohack",
+        "title": "PH今日热榜 | 2026-01-27",
+        "title_hash": "dad168ffb8a35537c80d67f131da432313dd81cf",
+        "url": "https://decohack.com/producthunt-daily-2026-01-27/",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "AI是个马屁精",
+        "title_hash": "b8246c2d2eb377043cb580bf49f6b0672c29a21d",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+AI%E6%98%AF%E4%B8%AA%E9%A9%AC%E5%B1%81%E7%B2%BE",
+        "category": "时事",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "槽边往事",
+        "platform": "槽边往事",
+        "title": "重要的事情对AI说三遍",
+        "title_hash": "2a8ebde236b87f6a0b24ee24e5eabf336fc4b1e3",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E6%83%85%E5%AF%B9AI%E8%AF%B4%E4%B8%89%E9%81%8D",
+        "category": "技术",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "知识分子",
+        "platform": "知识分子",
+        "title": "46人被查！基金委今年首批学术不端曝光，有人因打招呼被永久取消资格",
+        "title_hash": "f38a9085d08a80475a86f641a914dce6b69c30a3",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+46%E4%BA%BA%E8%A2%AB%E6%9F%A5%EF%BC%81%E5%9F%BA%E9%87%91%E5%A7%94%E4%BB%8A%E5%B9%B4%E9%A6%96%E6%89%B9%E5%AD%A6%E6%9C%AF%E4%B8%8D%E7%AB%AF%E6%9B%9D%E5%85%89%EF%BC%8C%E6%9C%89%E4%BA%BA%E5%9B%A0%E6%89%93%E6%8B%9B%E5%91%BC%E8%A2%AB%E6%B0%B8%E4%B9%85%E5%8F%96%E6%B6%88%E8%B5%84%E6%A0%BC",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "caoz的梦呓",
+        "platform": "caoz的梦呓",
+        "title": "AI虽好，切莫贪杯",
+        "title_hash": "690bb73068cf76661c2818bb6f5dc547e93ef25c",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+AI%E8%99%BD%E5%A5%BD%EF%BC%8C%E5%88%87%E8%8E%AB%E8%B4%AA%E6%9D%AF",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "一天一篇经济学人(双语)",
+        "platform": "一天一篇经济学人",
+        "title": "智能手机能否在人工智能时代幸存？ | 经济学人商业",
+        "title_hash": "82752a55280b3aa3155bbf50c85ce46bebb69d06",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%99%BA%E8%83%BD%E6%89%8B%E6%9C%BA%E8%83%BD%E5%90%A6%E5%9C%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E5%B9%B8%E5%AD%98%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      },
+      {
+        "source": "张佳玮写字的地方",
+        "platform": "张佳玮写字的地方",
+        "title": "诸葛亮vs王朗：吵架前选题有多重要？",
+        "title_hash": "e8642e2a7f42823f09a0acc3144e4402e5d4a085",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E8%AF%B8%E8%91%9B%E4%BA%AEvs%E7%8E%8B%E6%9C%97%EF%BC%9A%E5%90%B5%E6%9E%B6%E5%89%8D%E9%80%89%E9%A2%98%E6%9C%89%E5%A4%9A%E9%87%8D%E8%A6%81%EF%BC%9F",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "张佳玮写字的地方",
+        "platform": "张佳玮写字的地方",
+        "title": "东契奇的负担有多重？",
+        "title_hash": "6e981203195868b1adb1dd01a0a18e2b97020d64",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E4%B8%9C%E5%A5%91%E5%A5%87%E7%9A%84%E8%B4%9F%E6%8B%85%E6%9C%89%E5%A4%9A%E9%87%8D%EF%BC%9F",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "张佳玮写字的地方",
+        "platform": "张佳玮写字的地方",
+        "title": "科比真正的对手",
+        "title_hash": "0fae031959d9d8d7346d94e314cfa7ed6c2718f1",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E7%A7%91%E6%AF%94%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%AF%B9%E6%89%8B",
+        "category": "生活",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "张佳玮写字的地方",
+        "platform": "张佳玮写字的地方",
+        "title": "腊八粥：见佛不是佛，见粥只是粥",
+        "title_hash": "915d177f3c44b6eef01b00b9138dd5d7cc61c25a",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E8%85%8A%E5%85%AB%E7%B2%A5%EF%BC%9A%E8%A7%81%E4%BD%9B%E4%B8%8D%E6%98%AF%E4%BD%9B%EF%BC%8C%E8%A7%81%E7%B2%A5%E5%8F%AA%E6%98%AF%E7%B2%A5",
+        "category": "娱乐",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "张佳玮写字的地方",
+        "platform": "张佳玮写字的地方",
+        "title": "罗斯，无痕万能终结者",
+        "title_hash": "d866a2edffa7320ef18da225de136c1b05fd6325",
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%BC%A0%E4%BD%B3%E7%8E%AE%E5%86%99%E5%AD%97%E7%9A%84%E5%9C%B0%E6%96%B9+%E7%BD%97%E6%96%AF%EF%BC%8C%E6%97%A0%E7%97%95%E4%B8%87%E8%83%BD%E7%BB%88%E7%BB%93%E8%80%85",
+        "category": "其他",
+        "carrier": "文章",
+        "quality_score": 3.0
+      },
+      {
+        "source": "豆瓣最受欢迎的书评",
+        "platform": "豆瓣最受欢迎的书评",
+        "title": "王安石青苗法失败的深层逻辑：基于《大宋理财》的思考 (评论: 大宋理财)",
+        "title_hash": "6f535da13c8188beb3084d4c660973baf3b8bf74",
+        "url": "https://book.douban.com/review/17415390/",
+        "category": "财经",
+        "carrier": "文章",
+        "quality_score": 3.3
+      }
     ]
   },
   "source_health": {
     "_comment": "per-feed health state keyed by feed URL",
     "entries": {
       "https://www.zhihu.com/rss": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://www.zhihu.com/rss; status=200, content-type=application/rss+xml; charset=utf-8: no element found: line 1, column 0"
       },
       "https://xueqiu.com/hots/topic/rss": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/caozsay": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://www.v2ex.com/feed/tab/tech.xml": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://www.v2ex.com/feed/tab/tech.xml: HTTPSConnectionPool(host='www.v2ex.com', port=443): Max retries exceeded with url: /feed/tab/tech.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7d073c625d00>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
       },
       "https://plink.anyfeeder.com/initium/latest": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/initium/latest; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response"
       },
       "https://www.ruanyifeng.com/blog/atom.xml": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/IrisMagazine": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/bitsea": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/theeconomist": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/weixin/theeconomist: HTTPSConnectionPool(host='plink.anyfeeder.com', port=443): Read timed out."
       },
       "https://tech.meituan.com/feed/": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "http://hellogithub.com/rss": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/dili360": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/worldofboss": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/zhihu/daily": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/weixin/xueqiujinghua": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://tech.youzan.com/rss/": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://plink.anyfeeder.com/zhihu/hotlist": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/zhihu/hotlist; status=503, content-type=text/html; charset=UTF-8, sample=<html><head><title>Welcome to RSSHub!</title><script src=\"https://cdn.tailwindcss.com\"></script><style> details::-webkit-scrollbar { width: 0.25rem;: non-feed HTML response"
       },
       "https://plink.anyfeeder.com/reuters/cn": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://plink.anyfeeder.com/reuters/cn; status=404, content-type=text/html; charset=UTF-8, sample=<!doctype html> <html lang=\"zh-Hans\"> <head class=\"no-js\"> <meta name=\"referrer\" content=\"no-referrer\" /> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale: syntax error: line 1, column 0"
       },
       "http://plink.anyfeeder.com/weixin/The-Intellectual": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://github.com/trending?since=daily": {
@@ -1355,36 +1791,59 @@
         "last_error": "HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending?since=daily (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824c350>, 'Connection to github.com timed out. (connect timeout=5.0)'))"
       },
       "https://diygod.me/atom.xml": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=https://diygod.me/atom.xml: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
       },
       "http://coolshell.cn/feed": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://www.decohack.com/feed": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "http://blog.codingnow.com/atom.xml": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "http://www.v2ex.com/index.xml": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 0
+        "last_seen": "2026-01-28",
+        "fail_streak": 1,
+        "last_error": "failed after 1 endpoint(s), last=http://www.v2ex.com/index.xml: HTTPConnectionPool(host='www.v2ex.com', port=80): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7d073c6253d0>, 'Connection to www.v2ex.com timed out. (connect timeout=10.0)'))"
       },
       "https://v2ex.com/index.xml": {
-        "last_seen": "2026-01-27",
-        "fail_streak": 2,
-        "last_error": "failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x79abd824ff20>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))"
+        "last_seen": "2026-01-28",
+        "fail_streak": 3,
+        "last_error": "failed after 1 endpoint(s), last=https://v2ex.com/index.xml: HTTPSConnectionPool(host='v2ex.com', port=443): Max retries exceeded with url: /index.xml (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7d073f029fa0>, 'Connection to v2ex.com timed out. (connect timeout=10.0)'))",
+        "muted_until": "2026-01-30"
       },
       "https://weekly.tw93.fun/rss.xml": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       },
       "https://www.bmpi.dev/index.xml": {
-        "last_seen": "2026-01-27",
+        "last_seen": "2026-01-28",
+        "fail_streak": 0
+      },
+      "https://plink.anyfeeder.com/weixin/Economist_fans": {
+        "last_seen": "2026-01-28",
+        "fail_streak": 0
+      },
+      "https://plink.anyfeeder.com/douban/review/movie": {
+        "last_seen": "2026-01-28",
+        "fail_streak": 0
+      },
+      "https://plink.anyfeeder.com/weixin/The-Intellectual": {
+        "last_seen": "2026-01-28",
+        "fail_streak": 0
+      },
+      "https://plink.anyfeeder.com/weixin/zhangjiawei_1983": {
+        "last_seen": "2026-01-28",
+        "fail_streak": 0
+      },
+      "https://plink.anyfeeder.com/douban/review/book": {
+        "last_seen": "2026-01-28",
         "fail_streak": 0
       }
     }

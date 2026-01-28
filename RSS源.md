@@ -366,3 +366,9 @@ Record those recommended RSS feeds, irregularly and continuously updated
 [![Star History Chart](https://api.star-history.com/svg?repos=amazingcoderpro/rss-recomanded&type=Date)](https://star-history.com/#amazingcoderpro/rss-recomanded&Date)
 
 You are my ![Visitor Count](https://profile-counter.glitch.me/rss-recomanded/count.svg) visitor
+
+## 常用网站 RSS 收集
+
+| 名称 | 链接 |
+| --- | --- |
+| 豆瓣最受欢迎的影评 | https://plink.anyfeeder.com/douban/review/movie |

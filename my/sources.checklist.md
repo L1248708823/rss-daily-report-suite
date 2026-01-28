@@ -34,10 +34,10 @@
 
 ## 商业 / 方法论
 - [x] 饭统戴老板｜https://plink.anyfeeder.com/weixin/worldofboss
-- [x] 槽边往事｜https://plink.anyfeeder.com/weixin/bitsea
+<!-- - [x] 槽边往事｜https://plink.anyfeeder.com/weixin/bitsea -->
 - [ ] 哈佛商业评论｜https://plink.anyfeeder.com/weixin/hbrchinese
 - [ ] 刘润｜https://plink.anyfeeder.com/weixin/runliu-pub
-- [ ] keso怎么看｜https://plink.anyfeeder.com/weixin/kesoview
+- [x] keso怎么看｜https://plink.anyfeeder.com/weixin/kesoview
 - [ ] 唐书房｜https://plink.anyfeeder.com/weixin/clouds70
 
 ## 科学 / 知识
@@ -65,7 +65,14 @@
 
 ## 独立产品 / 出海
 - [x] Decohack｜https://www.decohack.com/feed
-- [ ] 构建我的被动收入｜https://www.bmpi.dev/index.xml
+- [x] 构建我的被动收入｜https://www.bmpi.dev/index.xml
 - [ ] 透明创业实验｜https://blog.t9t.io/atom.xml
 - [ ] ezindie｜https://www.ezindie.com/feed/rss.xml
-- [ ] 潮流周刊｜https://weekly.tw93.fun/rss.xml
+- [x] 潮流周刊｜https://weekly.tw93.fun/rss.xml
+
+## OPML 导入
+- [x] 豆瓣最受欢迎的影评｜https://plink.anyfeeder.com/douban/review/movie
+- [x] 豆瓣最受欢迎的书评｜https://plink.anyfeeder.com/douban/review/book
+- [x] 知识分子｜https://plink.anyfeeder.com/weixin/The-Intellectual
+- [x] 一天一篇经济学人(双语)｜https://plink.anyfeeder.com/weixin/Economist_fans
+- [x] 张佳玮写字的地方｜https://plink.anyfeeder.com/weixin/zhangjiawei_1983

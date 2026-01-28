@@ -1,0 +1,265 @@
+# OPML 导入候选（feeds-all.opml）
+
+> 由 OPML 自动转换；默认未勾选。按需搬到 my/sources.checklist.md 并改为 [x] 以启用。
+
+- [ ] 喷嚏图卦｜https://plink.anyfeeder.com/pentitugua
+- [ ] iDaily 每日环球视野｜https://plink.anyfeeder.com/idaily/today
+- [ ] 抽屉新热榜｜https://plink.anyfeeder.com/chouti/hot
+- [ ] 求是网｜https://plink.anyfeeder.com/qstheory
+- [ ] 网易新闻 / 今日关注｜https://plink.anyfeeder.com/netease/today
+- [ ] 新华网 / 新华社新闻｜https://plink.anyfeeder.com/newscn/whxw
+- [ ] 联合早报 / 中国｜https://plink.anyfeeder.com/zaobao/realtime/china
+- [ ] 联合早报 / 国际｜https://plink.anyfeeder.com/zaobao/realtime/world
+- [ ] 南方周末 / 新闻｜https://plink.anyfeeder.com/infzm/news
+- [ ] 南方周末 / 推荐｜https://plink.anyfeeder.com/infzm/recommends
+- [ ] 澎湃新闻｜https://plink.anyfeeder.com/thepaper
+- [ ] 人民网 / 头条｜https://plink.anyfeeder.com/people
+- [ ] 人民网 / 国内新闻｜https://plink.anyfeeder.com/people/politics
+- [ ] 人民网 / 国际新闻｜https://plink.anyfeeder.com/people/world
+- [ ] 人民网 / 英语新闻｜https://plink.anyfeeder.com/people/english
+- [ ] 新京报｜https://plink.anyfeeder.com/bjnews
+- [ ] 人民日报｜https://plink.anyfeeder.com/people-daily
+- [ ] 光明日报｜https://plink.anyfeeder.com/guangmingribao
+- [ ] 解放军报｜https://plink.anyfeeder.com/jiefangjunbao
+- [ ] 中国日报 / 双语新闻｜https://plink.anyfeeder.com/chinadaily/dual
+- [ ] 中国日报 / 专栏｜https://plink.anyfeeder.com/chinadaily/column
+- [ ] 中国日报 / 时政｜https://plink.anyfeeder.com/chinadaily/china
+- [ ] 中国日报 / 资讯｜https://plink.anyfeeder.com/chinadaily/world
+- [ ] 中国日报 / 财经｜https://plink.anyfeeder.com/chinadaily/caijing
+- [ ] 喷嚏网 / 铂程斋｜https://plink.anyfeeder.com/dapenti/xilei
+- [ ] 腾讯新闻 / 国际｜https://plink.anyfeeder.com/qq/news/world
+- [ ] 腾讯新闻 / 国内｜https://plink.anyfeeder.com/qq/news/china
+- [ ] 界面新闻: 新闻｜https://plink.anyfeeder.com/jiemian/news
+- [ ] Solidot｜https://www.solidot.org/index.rss
+- [ ] 数字尾巴｜https://plink.anyfeeder.com/dgtle
+- [ ] 36氪｜https://plink.anyfeeder.com/36kr
+- [ ] cnBeta｜https://plink.anyfeeder.com/cnbeta
+- [ ] IT 之家｜https://plink.anyfeeder.com/ithome/it
+- [ ] MIT 科技评论 / 本周热榜｜https://plink.anyfeeder.com/mittrchina/hot
+- [ ] Readhub / 热门话题｜https://plink.anyfeeder.com/readhub/topic
+- [ ] Readhub / 每日早报｜https://plink.anyfeeder.com/readhub/daily
+- [ ] Readhub / 区块链快讯｜https://plink.anyfeeder.com/readhub/blockchain
+- [ ] 爱范儿｜https://plink.anyfeeder.com/ifanr
+- [ ] 果壳网 / 科学人｜https://plink.anyfeeder.com/guokr/scientific
+- [ ] 虎嗅｜https://plink.anyfeeder.com/huxiu
+- [ ] 机核｜https://plink.anyfeeder.com/gcores
+- [ ] 快科技｜https://plink.anyfeeder.com/mydrivers
+- [ ] 雷峰网｜https://plink.anyfeeder.com/leiphone
+- [ ] 软餐 - 新鲜软件资讯｜https://plink.anyfeeder.com/ruancan
+- [ ] 少数派｜https://plink.anyfeeder.com/sspai
+- [ ] 少数派 / Matrix｜https://plink.anyfeeder.com/ssapi/matrix
+- [ ] 新浪专栏 / 创事记｜https://plink.anyfeeder.com/sina/csj
+- [ ] 极客公园｜https://plink.anyfeeder.com/geekpark
+- [ ] 小众软件｜https://plink.anyfeeder.com/appinn
+- [ ] 超能网｜https://plink.anyfeeder.com/expreview
+- [ ] 钛媒体｜https://plink.anyfeeder.com/tmtpost
+- [ ] 猎云网｜https://plink.anyfeeder.com/lieyunwang
+- [ ] 品玩｜https://plink.anyfeeder.com/pingwest
+- [ ] 湾区日报｜https://wanqu.co/feed/
+- [ ] 晚晴幽草轩｜https://www.jeffjade.com/atom.xml
+- [ ] 阮一峰的网络日志｜https://www.ruanyifeng.com/blog/atom.xml
+- [ ] 知乎日报｜https://plink.anyfeeder.com/zhihu/daily
+- [ ] 知乎每日精选｜http://www.zhihu.com/rss
+- [ ] 简书 / 首页｜https://plink.anyfeeder.com/jianshu/home
+- [ ] 简书: 热门｜https://plink.anyfeeder.com/jianshu/trending/weekly
+- [ ] 知乎热榜｜https://plink.anyfeeder.com/zhihu/hotlist
+- [ ] 人人都是产品经理｜https://plink.anyfeeder.com/woshipm/popular
+- [ ] 维基百科优良条目｜https://zh.wikipedia.org/w/api.php?action=featuredfeed&feed=good&feedformat=atom
+- [ ] BBC 英语教学｜https://plink.anyfeeder.com/bbc/learningenglish
+- [ ] 观止·每日一文｜https://plink.anyfeeder.com/meiriyiwen
+- [x] 豆瓣最受欢迎的影评｜https://plink.anyfeeder.com/douban/review/movie
+- [x] 豆瓣最受欢迎的书评｜https://plink.anyfeeder.com/douban/review/book
+- [ ] 雪球 / 今日话题｜https://plink.anyfeeder.com/xueqiu/today
+- [ ] 雪球 / 热帖｜https://plink.anyfeeder.com/xueqiu/hot
+- [ ] 财富中文网｜https://plink.anyfeeder.com/fortunechina
+- [ ] 财富中文网 / 商业｜https://plink.anyfeeder.com/fortunechina/shangye
+- [ ] 财富中文网 / 领导力｜https://plink.anyfeeder.com/fortunechina/lindgaoli
+- [ ] 财富中文网 / 科技｜https://plink.anyfeeder.com/fortunechina/keji
+- [ ] 财富中文网 / 研究｜https://plink.anyfeeder.com/fortunechina/report
+- [ ] 经济日报｜https://plink.anyfeeder.com/jingjiribao
+- [ ] 喷嚏网 / 财经风云｜https://plink.anyfeeder.com/dapenti/caijing
+- [ ] 经济观察网｜https://plink.anyfeeder.com/eeo
+- [ ] 界面新闻: 商业｜https://plink.anyfeeder.com/jiemian/business
+- [ ] 界面新闻: 财经｜https://plink.anyfeeder.com/jiemian/finance
+- [ ] 微博 / 热搜榜｜https://plink.anyfeeder.com/weibo/search/hot
+- [ ] 煎蛋｜https://plink.anyfeeder.com/jiandan
+- [ ] 理想生活实验室｜https://plink.anyfeeder.com/toodaylab
+- [ ] InfoQ 中文｜https://plink.anyfeeder.com/infoq/recommend
+- [ ] Readhub / 开发者资讯｜https://plink.anyfeeder.com/readhub/technews
+- [ ] Linux 中国｜https://plink.anyfeeder.com/linux.cn
+- [ ] 开发者头条｜https://plink.anyfeeder.com/toutiao.io
+- [ ] FreeBuf 关注黑客｜https://plink.anyfeeder.com/freebuf
+- [ ] Aljazeera半岛网 / 新闻｜https://plink.anyfeeder.com/aljazeera/news
+- [ ] SBS 中文｜https://plink.anyfeeder.com/sbs/chinese
+- [ ] VOA 美国之音｜https://plink.anyfeeder.com/voa/chinese
+- [ ] 端传媒 / 最新｜https://plink.anyfeeder.com/initium/latest
+- [ ] 端传媒 / 深度｜https://plink.anyfeeder.com/initium/feature
+- [ ] 路透中文｜https://plink.anyfeeder.com/reuters/cn
+- [ ] 华尔街日报中文版｜https://plink.anyfeeder.com/wsj/cn
+- [ ] 纽约时报中文网｜https://plink.anyfeeder.com/nytimes/cn
+- [ ] BBC 中文版｜https://plink.anyfeeder.com/bbc/cn
+- [ ] RFI 法国国际广播电台｜https://plink.anyfeeder.com/rfi/cn
+- [ ] ABC 澳大利亚广播公司｜https://plink.anyfeeder.com/abc/cn
+- [ ] 纽约时报双语版｜https://plink.anyfeeder.com/nytimes/dual
+- [ ] caoz的梦呓｜https://plink.anyfeeder.com/weixin/caozsay
+- [ ] keso怎么看｜https://plink.anyfeeder.com/weixin/kesoview
+- [ ] 读库小报｜https://plink.anyfeeder.com/weixin/dukuxiaobao
+- [ ] 南方周末｜https://plink.anyfeeder.com/weixin/nanfangzhoumo
+- [ ] 经济学人｜https://plink.anyfeeder.com/weixin/theeconomist
+- [ ] 三联生活周刊｜https://plink.anyfeeder.com/weixin/lifeweek
+- [ ] 单读｜https://plink.anyfeeder.com/weixin/dandureading
+- [ ] 新世相｜https://plink.anyfeeder.com/weixin/thefair2
+- [ ] 连岳｜https://plink.anyfeeder.com/weixin/ilianyue
+- [ ] 南都周刊｜https://plink.anyfeeder.com/weixin/nbweekly
+- [ ] 人民日报｜https://plink.anyfeeder.com/weixin/rmrbwx
+- [ ] 十点读书｜https://plink.anyfeeder.com/weixin/duhaoshu
+- [ ] 洞见｜https://plink.anyfeeder.com/weixin/DJ00123987
+- [ ] 医学界｜https://plink.anyfeeder.com/weixin/yixuejiezazhi
+- [ ] 央视财经｜https://plink.anyfeeder.com/weixin/cctvyscj
+- [ ] 阑夕｜https://plink.anyfeeder.com/weixin/techread
+- [ ] 半月谈｜https://plink.anyfeeder.com/weixin/banyuetan-weixin
+- [ ] 理想岛｜https://plink.anyfeeder.com/weixin/lixiangdao002
+- [ ] 六神磊磊读金庸｜https://plink.anyfeeder.com/weixin/dujinyong6
+- [ ] 魔宙｜https://plink.anyfeeder.com/weixin/mzmojo
+- [ ] 东哥解读电商｜https://plink.anyfeeder.com/weixin/dgjdds
+- [ ] 书单来了｜https://plink.anyfeeder.com/weixin/shudanlaile
+- [ ] ImportNew｜https://plink.anyfeeder.com/weixin/importnew
+- [ ] 界面｜https://plink.anyfeeder.com/weixin/wowjiemian
+- [ ] 人人都是产品经理｜https://plink.anyfeeder.com/weixin/woshipm
+- [ ] 架构师之路｜https://plink.anyfeeder.com/weixin/gh_10a6b96351a9
+- [ ] 青年文摘｜https://plink.anyfeeder.com/weixin/qnwzwx
+- [ ] 历史研习社｜https://plink.anyfeeder.com/weixin/mingqinghistory
+- [ ] 译言｜https://plink.anyfeeder.com/weixin/yeeyancom
+- [ ] 真实故事计划｜https://plink.anyfeeder.com/weixin/zhenshigushi1
+- [x] 知识分子｜https://plink.anyfeeder.com/weixin/The-Intellectual
+- [ ] 财新网｜https://plink.anyfeeder.com/weixin/caixinwang
+- [ ] 侠客岛｜https://plink.anyfeeder.com/weixin/xiake_island
+- [ ] 棱镜｜https://plink.anyfeeder.com/weixin/lengjing_qqfinance
+- [ ] 香港凤凰周刊｜https://plink.anyfeeder.com/weixin/phoenixweekly
+- [ ] 国家人文历史｜https://plink.anyfeeder.com/weixin/gjrwls
+- [ ] 机器之心｜https://plink.anyfeeder.com/weixin/almosthuman2014
+- [ ] 果壳网｜https://plink.anyfeeder.com/weixin/Guokr42
+- [ ] 虹膜｜https://plink.anyfeeder.com/weixin/IrisMagazine
+- [ ] 新京报书评周刊｜https://plink.anyfeeder.com/weixin/ibookreview
+- [ ] 环球时报｜https://plink.anyfeeder.com/weixin/hqsbwx
+- [ ] 铁血军事｜https://plink.anyfeeder.com/weixin/tiexuejunshi
+- [ ] 人民网｜https://plink.anyfeeder.com/weixin/people_rmw
+- [ ] 丁香医生｜https://plink.anyfeeder.com/weixin/DingXiangYiSheng
+- [ ] 澎湃新闻｜https://plink.anyfeeder.com/weixin/thepapernews
+- [ ] 新华网｜https://plink.anyfeeder.com/weixin/newsxinhua
+- [ ] 糗事百科｜https://plink.anyfeeder.com/weixin/qiubai2005
+- [ ] 虎嗅网｜https://plink.anyfeeder.com/weixin/huxiu_com
+- [ ] 参考消息｜https://plink.anyfeeder.com/weixin/ckxxwx
+- [ ] Vista看天下｜https://plink.anyfeeder.com/weixin/vistaweek
+- [ ] 小道消息｜https://plink.anyfeeder.com/weixin/WebNotes
+- [ ] 有书｜https://plink.anyfeeder.com/weixin/youshucc
+- [ ] 简书｜https://plink.anyfeeder.com/weixin/jianshuio
+- [ ] 经济观察报｜https://plink.anyfeeder.com/weixin/eeo-com-cn
+- [ ] 第一财经周刊｜https://plink.anyfeeder.com/weixin/CBNweekly2008
+- [ ] MacTalk｜https://plink.anyfeeder.com/weixin/sagacity-mac
+- [ ] 新浪体育｜https://plink.anyfeeder.com/weixin/sports_sina
+- [ ] 华尔街见闻｜https://plink.anyfeeder.com/weixin/wallstreetcn
+- [ ] 吴晓波频道｜https://plink.anyfeeder.com/weixin/wuxiaobopd
+- [ ] 21世纪经济报道｜https://plink.anyfeeder.com/weixin/jjbd21
+- [ ] 前端之巅｜https://plink.anyfeeder.com/weixin/frontshow
+- [ ] 丁香妈妈｜https://plink.anyfeeder.com/weixin/DingXiangMaMi
+- [ ] 人物｜https://plink.anyfeeder.com/weixin/renwumag1980
+- [ ] 看理想｜https://plink.anyfeeder.com/weixin/ikanlixiang
+- [ ] 罗辑思维｜https://plink.anyfeeder.com/weixin/luojisw
+- [ ] Knowyourself｜https://plink.anyfeeder.com/weixin/knowyourself2015
+- [ ] 读小库｜https://plink.anyfeeder.com/weixin/duxiaoku666
+- [x] 槽边往事｜https://plink.anyfeeder.com/weixin/bitsea
+- [ ] 脑洞故事板｜https://plink.anyfeeder.com/weixin/ndgs233
+- [ ] 环球科学｜https://plink.anyfeeder.com/weixin/ScientificAmerican
+- [ ] 地球知识局｜https://plink.anyfeeder.com/weixin/diqiuzhishiju
+- [ ] 中国国家地理｜https://plink.anyfeeder.com/weixin/dili360
+- [ ] 雪球｜https://plink.anyfeeder.com/weixin/xueqiujinghua
+- [ ] 微软研究院AI头条｜https://plink.anyfeeder.com/weixin/MSRAsia
+- [ ] 新智元｜https://plink.anyfeeder.com/weixin/AI_era
+- [ ] 长安街知事｜https://plink.anyfeeder.com/weixin/capitalnews
+- [ ] 腾讯科技｜https://plink.anyfeeder.com/weixin/qqtech
+- [ ] 科技美学｜https://plink.anyfeeder.com/weixin/kejimx
+- [ ] CSDN｜https://plink.anyfeeder.com/weixin/CSDNnews
+- [ ] 唐书房｜https://plink.anyfeeder.com/weixin/clouds70
+- [ ] 毛有话说｜https://plink.anyfeeder.com/weixin/mao-talk
+- [ ] 搬砖小组｜https://plink.anyfeeder.com/weixin/banzhuanxiaozu
+- [x] 一天一篇经济学人(双语)｜https://plink.anyfeeder.com/weixin/Economist_fans
+- [ ] 央视新闻｜https://plink.anyfeeder.com/weixin/cctvnewscenter
+- [ ] MOOC｜https://plink.anyfeeder.com/weixin/mooc
+- [ ] 三节课｜https://plink.anyfeeder.com/weixin/sanjieke01
+- [ ] 利维坦｜https://plink.anyfeeder.com/weixin/liweitan2014
+- [ ] 饭统戴老板｜https://plink.anyfeeder.com/weixin/worldofboss
+- [ ] 刘润｜https://plink.anyfeeder.com/weixin/runliu-pub
+- [ ] 笔记侠｜https://plink.anyfeeder.com/weixin/Notesman
+- [x] 张佳玮写字的地方｜https://plink.anyfeeder.com/weixin/zhangjiawei_1983
+- [ ] 德林社｜https://plink.anyfeeder.com/weixin/delinshe
+- [ ] 中国企业家杂志｜https://plink.anyfeeder.com/weixin/iceo-com-cn
+- [ ] 新经济100人｜https://plink.anyfeeder.com/weixin/qiyejiagc
+- [ ] 新财富｜https://plink.anyfeeder.com/weixin/newfortune
+- [ ] 福布斯｜https://plink.anyfeeder.com/weixin/forbes_china
+- [ ] 美股研究社｜https://plink.anyfeeder.com/weixin/meigushe
+- [ ] X博士｜https://plink.anyfeeder.com/weixin/doctorx666
+- [ ] 科学松鼠会｜https://plink.anyfeeder.com/weixin/SquirrelClub
+- [ ] 物种日历｜https://plink.anyfeeder.com/weixin/guokrpac
+- [ ] 叶檀财经｜https://plink.anyfeeder.com/weixin/tancaijing
+- [ ] LinkedIn 领英｜https://plink.anyfeeder.com/weixin/LinkedIn-China
+- [ ] 哈佛商业评论｜https://plink.anyfeeder.com/weixin/hbrchinese
+- [ ] 猫笔刀｜https://plink.anyfeeder.com/weixin/maobidao
+- [ ] 经济学原理｜https://plink.anyfeeder.com/weixin/jingjixue_yuanli
+- [ ] CGTN: Top News｜https://plink.anyfeeder.com/cgtn/top
+- [ ] CGTN: Opinions｜https://plink.anyfeeder.com/cgtn/opinions
+- [ ] CGTN: Editors' Pick｜https://plink.anyfeeder.com/cgtn/pick
+- [ ] Sixth Tone｜https://plink.anyfeeder.com/sixthtone
+- [ ] BBC / Top Stories｜https://plink.anyfeeder.com/bbc
+- [ ] BBC / World｜https://plink.anyfeeder.com/bbc/world
+- [ ] BBC / UK｜https://plink.anyfeeder.com/bbc/uk
+- [ ] BBC / Business｜https://plink.anyfeeder.com/bbc/business
+- [ ] BBC / politics｜https://plink.anyfeeder.com/bbc/politics
+- [ ] BBC / Health｜https://plink.anyfeeder.com/bbc/health
+- [ ] BBC / Education & Family｜https://plink.anyfeeder.com/bbc/education
+- [ ] BBC / Science & Environment｜https://plink.anyfeeder.com/bbc/science_and_environment
+- [ ] BBC / Technology｜https://plink.anyfeeder.com/bbc/technology
+- [ ] BBC / Entertainment & Arts｜https://plink.anyfeeder.com/bbc/entertainment_and_arts
+- [ ] Economist / Leaders｜https://plink.anyfeeder.com/economist/leaders
+- [ ] Economist / Briefing｜https://plink.anyfeeder.com/economist/briefing
+- [ ] Economist / United States｜https://plink.anyfeeder.com/economist/us-politics
+- [ ] Economist / The Americas｜https://plink.anyfeeder.com/economist/americas
+- [ ] Economist / Asia｜https://plink.anyfeeder.com/economist/asia
+- [ ] Economist / China｜https://plink.anyfeeder.com/economist/china-politics
+- [ ] Economist / Middle East & Africa｜https://plink.anyfeeder.com/economist/middle-east-africa
+- [ ] Economist / Europe｜https://plink.anyfeeder.com/economist/europe
+- [ ] Economist / Britain｜https://plink.anyfeeder.com/economist/britain
+- [ ] Economist / International｜https://plink.anyfeeder.com/economist/international
+- [ ] Economist / Business｜https://plink.anyfeeder.com/economist/business-finance
+- [ ] Economist / Finance & economics｜https://plink.anyfeeder.com/economist/economics
+- [ ] Economist / Science & technology｜https://plink.anyfeeder.com/economist/science-technology
+- [ ] Economist / Culture｜https://plink.anyfeeder.com/economist/culture
+- [ ] The New Yorker / News｜https://plink.anyfeeder.com/newyorker/news
+- [ ] The New Yorker / Culture｜https://plink.anyfeeder.com/newyorker/culture
+- [ ] The New Yorker / Humor｜https://plink.anyfeeder.com/newyorker/humor
+- [ ] TIME｜https://plink.anyfeeder.com/time
+- [ ] Motherboard｜https://plink.anyfeeder.com/vice/motherboard
+- [ ] ZeroHedge｜https://plink.anyfeeder.com/zerohedge
+- [ ] Business Insider｜https://plink.anyfeeder.com/businessinsider
+- [ ] Gawker｜https://plink.anyfeeder.com/gawker
+- [ ] The Atlantic｜https://plink.anyfeeder.com/theatlantic
+- [ ] Vice｜https://plink.anyfeeder.com/vice
+- [ ] WIRED / Top Stories｜https://plink.anyfeeder.com/wired/top-stories
+- [ ] WIRED / Business｜https://plink.anyfeeder.com/wired/business
+- [ ] WIRED / Artificial Intelligence｜https://plink.anyfeeder.com/wired/ai
+- [ ] WIRED / Culture｜https://plink.anyfeeder.com/wired/culture
+- [ ] WIRED / Tech｜https://plink.anyfeeder.com/wired/gear
+- [ ] WIRED / Ideas｜https://plink.anyfeeder.com/wired/ideas
+- [ ] WIRED / Science｜https://plink.anyfeeder.com/wired/science
+- [ ] WIRED / Security｜https://plink.anyfeeder.com/wired/security
+- [ ] WIRED / Backchannel｜https://plink.anyfeeder.com/wired/backchannel
+- [ ] CSS-Tricks｜https://css-tricks.com/feed/
+- [ ] web.dev｜https://web.dev/feed.xml
+- [ ] The Verge｜https://plink.anyfeeder.com/verge
+- [ ] Ars Technica｜https://plink.anyfeeder.com/arstechnica
+- [ ] ExtremeTech｜https://plink.anyfeeder.com/extremetech
+- [ ] TechCrunch｜https://plink.anyfeeder.com/techcrunch
+- [ ] 9to5Mac｜https://plink.anyfeeder.com/9to5mac
+- [ ] Daring Fireball｜https://daringfireball.net/feeds/main
+- [ ] Six Colors｜https://feedpress.me/sixcolors
+- [ ] Longreads｜https://plink.anyfeeder.com/longreads
