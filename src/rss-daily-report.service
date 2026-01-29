@@ -1,0 +1,27 @@
+# RSS 日报生成服务（systemd service 模板）
+# 用途：由 timer 触发执行，生成日报 + Codex 精选 + 提交/推送。
+
+[Unit]
+# 服务描述（systemctl status 可见）
+Description=RSS Daily Report (generate + editor picks + git push)
+# 依赖网络可用（RSS 抓取、Codex 调用、Git 推送都需要网络）
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+# 一次性任务，执行完退出
+Type=oneshot
+# 以非 root 用户运行（建议创建专用用户）
+User=rssbot
+# 工作目录设为仓库根目录
+WorkingDirectory=/mnt/e/skills/rss-daily-report-suite
+# 显式设置时区，保证日期一致
+Environment=TZ=Asia/Shanghai
+# 如果 codex 不在 PATH，取消注释并补齐路径
+# Environment=PATH=/usr/local/bin:/usr/bin:/bin
+# 真正执行的脚本（仓库内）
+ExecStart=/bin/bash /mnt/e/skills/rss-daily-report-suite/src/run_daily.sh
+
+[Install]
+# systemd 常规目标
+WantedBy=multi-user.target

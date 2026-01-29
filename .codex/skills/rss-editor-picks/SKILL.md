@@ -15,6 +15,13 @@ user-invocable: true
   - 精选（`pin=top`）5 条
 - 回写到当天 JSON（方便 web 端直接展示/过滤）
 - 同步把“头条/精选”区块写入 `NewsReport/YYYY-MM-DD-rss-daily-report.md`
+## 执行模式要求（重要）
+- 当前的指令包，明确不遵从 仓库中颗粒度的约定！非常重要
+- **默认必须全自动**：除非你明确提出“需要确认/分步执行”，否则执行时必须使用 `--full-auto`，避免每步询问中断。  
+- **示例命令**（默认不询问）：  
+  `codex exec --full-auto --sandbox workspace-write "$rss-editor-picks YYYY-MM-DD"`  
+
+只允许基于 `YYYY-MM-DD.json` 中的 `items[]` 做选择；**不得编造不存在的条目/URL**。
 
 ## 如何执行（AI 审查员的操作脚本）
 > 没有可执行代码，一切动作由对话模型按下列步骤完成；每一步都要在回答里说明“已完成/结果”，并写回文件。
@@ -45,7 +52,7 @@ user-invocable: true
 - 日数据：`NewsReport/data/YYYY-MM-DD.json`
 - 日报 Markdown：`NewsReport/YYYY-MM-DD-rss-daily-report.md`
 
-只允许基于 `YYYY-MM-DD.json` 中的 `items[]` 做选择；**不得编造不存在的条目/URL**。
+
 
 ## 输出与回写规则（必须遵守）
 

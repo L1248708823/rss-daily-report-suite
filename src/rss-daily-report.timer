@@ -1,0 +1,16 @@
+# RSS 日报定时器（systemd timer 模板）
+# 用途：每天 09:00（本机时区）触发 service。
+
+[Unit]
+Description=RSS Daily Report Timer
+
+[Timer]
+# 每天 09:00 执行（需保证服务器时区为 Asia/Shanghai）
+OnCalendar=*-*-* 09:00:00
+# 若机器关机/离线，恢复后会补跑一次
+Persistent=true
+# 可选：随机延迟，分散抓取（默认注释）
+# RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target

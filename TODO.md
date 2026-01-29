@@ -15,6 +15,10 @@
 
 ## P1 · 自动化（先不做部署，先把流水线跑通）
 - [ ] 增加“每日 09:00（Asia/Shanghai）运行”的 CI 方案草案（GitHub Actions/其他）
+- [x] 服务器定时执行方案与脚本文档（systemd + codex exec + git 提交）
+- [x] 生成执行脚本（`src/run_daily.sh`）
+- [x] systemd 模板文件（`src/rss-daily-report.service` / `src/rss-daily-report.timer`）
+- [ ] 运行用户/权限与凭证策略（Git 推送 + Codex 认证）
 - [x] 失败可观测：输出失败源、状态码、content-type 与响应前 200 字节（便于定位）
 
 ## P2 · 源多样性与质量治理
@@ -39,6 +43,7 @@
 - [ ] 生产观测：代理日志（status、耗时、上游错误）+ 前端错误提示收敛
 
 ## P2.5 · 头条/精选（从规则升级为 AI，可回退）
+- [x] 2026-01-29 执行 rss-editor-picks 回写（lead/top + 软删除）
 - [ ] 明确目标：AI 负责“挑选”还是“挑选 + 改写标题/摘要”，以及预算上限（tokens/天）
 - [ ] 设计数据契约：输入候选条目（去重后 top N）→ 输出结构化 JSON（lead/top 的索引 + 理由 + 可选 title_zh/summary）
 - [ ] 实现 AI 模式（环境变量注入 key，默认不开启）：失败/无 key 时回退现有 `rss-editor-picks` 规则

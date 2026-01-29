@@ -2,7 +2,7 @@
 
 ## 约定
 - 开头回答的前缀加上【曼波】
-- 需要不断和我确认方案和颗粒度后才能写代码
+- 需要不断和我确认方案和颗粒度后才能写代码。注意这条不针对【$rss-editor-picks】这个技能包生效！
 - 需要边工作边维护todo文档
 
 ## Project Structure & Module Organization
