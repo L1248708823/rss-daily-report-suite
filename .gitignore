@@ -11,6 +11,7 @@ __pycache__/
 
 
 site/
+/.codex/skills/rss-daily-report/cache.json
 
 # Local backups
 .codex-backup-*.tgz
