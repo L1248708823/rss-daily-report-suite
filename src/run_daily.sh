@@ -11,27 +11,26 @@ cd "$REPO_DIR"
 # 显式使用北京时间，确保“今天”的日期与日报文件一致。
 DATE="$(TZ=Asia/Shanghai date +%F)"
 
+# Codex 可执行路径（线上实际路径）。
+CODEX="/home/ubuntu/.volta/bin/codex"
+if [[ ! -x "$CODEX" ]]; then
+  echo "[error] codex not found: $CODEX" >&2
+  exit 1
+fi
+
 # 1) 先生成日报数据：关闭内置 editor-picks，避免与 Codex 版本重复。
 python3 .codex/skills/rss-daily-report/scripts/run.py "$DATE" --no-editor-picks --no-build-site
 
 # 2) 再调用 Codex 的 rss-editor-picks 做“头条/精选”回写。
 #    注意："$rss-editor-picks" 中的 "$" 是 Codex 的技能引用语法，
 #    不能被 shell 展开成变量，因此这里显式转义 "$"。
-CODEX_FAILED=0
 CODEX_PROMPT="\$rss-editor-picks $DATE"
-if ! codex exec --full-auto --sandbox workspace-write "$CODEX_PROMPT"; then
-  CODEX_FAILED=1
-  echo "[warn] codex exec failed, committing without editor picks" >&2
-fi
+"$CODEX" exec --full-auto --sandbox workspace-write "$CODEX_PROMPT"
 
 # 3) 仅当 NewsReport 目录有变更时才提交，避免 cache 或其他噪声触发提交。
 if [[ -n "$(git status --porcelain -- NewsReport)" ]]; then
   git add NewsReport
-  if [[ "$CODEX_FAILED" -eq 1 ]]; then
-    git commit -m "chore: daily report $DATE (no picks)"
-  else
-    git commit -m "chore: daily report $DATE"
-  fi
+  git commit -m "chore: daily report $DATE"
   git push
 else
   echo "No changes under NewsReport, skip commit."

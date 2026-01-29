@@ -11,16 +11,18 @@ Wants=network-online.target
 [Service]
 # 一次性任务，执行完退出
 Type=oneshot
-# 以非 root 用户运行（建议创建专用用户）
-User=rssbot
+# 以 ubuntu 用户运行（与当前线上环境保持一致）
+User=ubuntu
 # 工作目录设为仓库根目录
-WorkingDirectory=/mnt/e/skills/rss-daily-report-suite
+WorkingDirectory=/srv/services/rss-daily-report-suite
 # 显式设置时区，保证日期一致
 Environment=TZ=Asia/Shanghai
-# 如果 codex 不在 PATH，取消注释并补齐路径
-# Environment=PATH=/usr/local/bin:/usr/bin:/bin
+# 指定 HOME，确保 Codex 认证可被读取
+Environment=HOME=/home/ubuntu
+# PATH 兜底，避免找不到 python3/git
+Environment=PATH=/usr/local/bin:/usr/bin:/bin:/home/ubuntu/.volta/bin
 # 真正执行的脚本（仓库内）
-ExecStart=/bin/bash /mnt/e/skills/rss-daily-report-suite/src/run_daily.sh
+ExecStart=/bin/bash /srv/services/rss-daily-report-suite/src/run_daily.sh
 
 [Install]
 # systemd 常规目标
