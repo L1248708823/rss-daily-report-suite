@@ -71,8 +71,12 @@
 - [x] 潮流周刊｜https://weekly.tw93.fun/rss.xml
 
 ## OPML 导入
-- [x] 豆瓣最受欢迎的影评｜https://plink.anyfeeder.com/douban/review/movie
-- [x] 豆瓣最受欢迎的书评｜https://plink.anyfeeder.com/douban/review/book
 - [x] 知识分子｜https://plink.anyfeeder.com/weixin/The-Intellectual
 - [x] 一天一篇经济学人(双语)｜https://plink.anyfeeder.com/weixin/Economist_fans
 - [x] 张佳玮写字的地方｜https://plink.anyfeeder.com/weixin/zhangjiawei_1983
+
+## 从 RSS_分类清单 迁移
+- [x] 【荐】阑夕｜https://plink.anyfeeder.com/weixin/techread
+- [x] 果壳网｜https://plink.anyfeeder.com/weixin/Guokr42
+- [x] 全栈应用开发:精益实践｜https://www.phodal.com/blog/feeds/rss/
+- [x] 人人都是产品经理｜https://plink.anyfeeder.com/woshipm/popular
