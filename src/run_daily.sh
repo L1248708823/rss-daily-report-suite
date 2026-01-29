@@ -19,7 +19,7 @@ if [[ ! -x "$CODEX" ]]; then
 fi
 
 # 1) 先生成日报数据：关闭内置 editor-picks，避免与 Codex 版本重复。
-python3 .codex/skills/rss-daily-report/scripts/run.py "$DATE" --no-editor-picks --no-build-site
+OPENAI_API_KEY= python3 .codex/skills/rss-daily-report/scripts/run.py "$DATE" --no-ai --no-editor-picks --no-build-site
 
 # 2) 再调用 Codex 的 rss-editor-picks 做“头条/精选”回写。
 #    注意："$rss-editor-picks" 中的 "$" 是 Codex 的技能引用语法，

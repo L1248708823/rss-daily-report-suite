@@ -11,9 +11,9 @@
 > 示例：`- [x] V2EX - 技术|limit=30｜https://www.v2ex.com/feed/tab/tech.xml`
 
 ## 社区 / 讨论
-- [x] V2EX｜https://v2ex.com/index.xml
-- [x] V2EX（HTTP 兜底）｜http://www.v2ex.com/index.xml
-- [x] V2EX - 技术｜https://www.v2ex.com/feed/tab/tech.xml
+- [ ] V2EX（暂时禁用）｜https://v2ex.com/index.xml
+- [ ] V2EX（HTTP 兜底，暂时禁用）｜http://www.v2ex.com/index.xml
+- [ ] V2EX - 技术（暂时禁用）｜https://www.v2ex.com/feed/tab/tech.xml
 
 ## 中文内容 / 观点
 - [x] 知乎日报（聚合）｜https://plink.anyfeeder.com/zhihu/daily
@@ -35,18 +35,18 @@
 ## 商业 / 方法论
 - [x] 饭统戴老板｜https://plink.anyfeeder.com/weixin/worldofboss
 <!-- - [x] 槽边往事｜https://plink.anyfeeder.com/weixin/bitsea -->
-- [ ] 哈佛商业评论｜https://plink.anyfeeder.com/weixin/hbrchinese
-- [ ] 刘润｜https://plink.anyfeeder.com/weixin/runliu-pub
+- [x] 哈佛商业评论｜https://plink.anyfeeder.com/weixin/hbrchinese
+- [x] 刘润｜https://plink.anyfeeder.com/weixin/runliu-pub
 - [x] keso怎么看｜https://plink.anyfeeder.com/weixin/kesoview
-- [ ] 唐书房｜https://plink.anyfeeder.com/weixin/clouds70
+- [x] 唐书房｜https://plink.anyfeeder.com/weixin/clouds70
 
 ## 科学 / 知识
 - [x] 知识分子｜http://plink.anyfeeder.com/weixin/The-Intellectual
 - [x] 中国国家地理｜https://plink.anyfeeder.com/weixin/dili360
-- [ ] 环球科学｜https://plink.anyfeeder.com/weixin/ScientificAmerican
-- [ ] 地球知识局｜https://plink.anyfeeder.com/weixin/diqiuzhishiju
-- [ ] 物种日历｜https://plink.anyfeeder.com/weixin/guokrpac
-- [ ] Knowyourself｜https://plink.anyfeeder.com/weixin/knowyourself2015
+- [x] 环球科学｜https://plink.anyfeeder.com/weixin/ScientificAmerican
+- [x] 地球知识局｜https://plink.anyfeeder.com/weixin/diqiuzhishiju
+- [x] 物种日历｜https://plink.anyfeeder.com/weixin/guokrpac
+- [x] Knowyourself｜https://plink.anyfeeder.com/weixin/knowyourself2015
 
 ## 工程 / 开源
 - [x] HelloGitHub 月刊｜http://hellogithub.com/rss
@@ -56,18 +56,18 @@
 ## 工程 / 技术（个人）
 - [x] 酷 壳 – CoolShell｜http://coolshell.cn/feed
 - [x] 云风的 BLOG｜http://blog.codingnow.com/atom.xml
-- [x] DIYGod｜https://diygod.me/atom.xml
-- [ ] draveness.me｜https://draveness.me/feed.xml
-- [ ] 风雪之隅（Laruence）｜http://www.laruence.com/feed
-- [ ] 张鑫旭｜https://www.zhangxinxu.com/wordpress/feed/
-- [ ] Python 工匠｜https://www.zlovezl.cn/feeds/latest/
-- [ ] 技术小黑屋｜https://droidyue.com/atom.xml
+- [ ] DIYGod（暂时禁用）｜https://diygod.me/atom.xml
+- [x] draveness.me｜https://draveness.me/feed.xml
+- [x] 风雪之隅（Laruence）｜http://www.laruence.com/feed
+- [x] 张鑫旭｜https://www.zhangxinxu.com/wordpress/feed/
+- [x] Python 工匠｜https://www.zlovezl.cn/feeds/latest/
+- [x] 技术小黑屋｜https://droidyue.com/atom.xml
 
 ## 独立产品 / 出海
 - [x] Decohack｜https://www.decohack.com/feed
 - [x] 构建我的被动收入｜https://www.bmpi.dev/index.xml
-- [ ] 透明创业实验｜https://blog.t9t.io/atom.xml
-- [ ] ezindie｜https://www.ezindie.com/feed/rss.xml
+- [x] 透明创业实验｜https://blog.t9t.io/atom.xml
+- [x] ezindie｜https://www.ezindie.com/feed/rss.xml
 - [x] 潮流周刊｜https://weekly.tw93.fun/rss.xml
 
 ## OPML 导入

@@ -18,6 +18,7 @@ Typical usage:
 from __future__ import annotations
 
 import argparse
+import math
 import datetime as dt
 import email.utils
 import hashlib
@@ -61,7 +62,7 @@ DEFAULT_REPO_SITE_DIR = os.path.join(REPO_ROOT, "site")
 # -----------------------------
 
 # connect timeout, read timeout
-DEFAULT_REQUEST_TIMEOUT: Tuple[float, float] = (5.0, 12.0)
+DEFAULT_REQUEST_TIMEOUT: Tuple[float, float] = (3.0, 8.0)
 
 
 def is_proxy_reachable(proxy_url: str, *, timeout_seconds: float = 0.8) -> bool:
@@ -1476,13 +1477,23 @@ def fetch_and_parse_source(
     retries: int = 0,
     retry_sleep_ms: int = 0,
     proxies: Optional[Dict[str, str]] = None,
+    per_source_timeout: float = 0.0,
 ) -> List[FeedEntry]:
     timeout = DEFAULT_REQUEST_TIMEOUT
     dom = (urllib.parse.urlsplit(source.url).netloc or "").lower()
     if "v2ex.com" in dom:
-        timeout = (10.0, 18.0)
+        timeout = (6.0, 12.0)
     elif "rsshub.app" in dom:
-        timeout = (8.0, 18.0)
+        timeout = (5.0, 10.0)
+    per_source_budget = float(per_source_timeout or 0.0)
+    source_started_at = time.time()
+
+    def split_timeout(total_seconds: float, base: Tuple[float, float]) -> Tuple[float, float]:
+        total = max(0.5, float(total_seconds))
+        # Allocate 40% for connect, 60% for read, both capped by base timeout.
+        connect = min(float(base[0]), max(0.5, total * 0.4))
+        read = min(float(base[1]), max(0.5, total * 0.6))
+        return (connect, read)
 
     candidates: List[str] = [source.url]
     for u in source.fallback_urls:
@@ -1494,11 +1505,19 @@ def fetch_and_parse_source(
     last_meta: Dict[str, Any] = {}
     items: List[Tuple[str, str, str, Optional[str], Optional[str]]] = []
     for u in candidates:
+        if per_source_budget > 0:
+            elapsed = time.time() - source_started_at
+            if elapsed >= per_source_budget:
+                raise TimeoutError(f"per-source timeout ({per_source_budget:.0f}s) exceeded: {source.url}")
+            remaining = per_source_budget - elapsed
+            timeout_for_request = split_timeout(remaining, timeout)
+        else:
+            timeout_for_request = timeout
         last_url = u
         try:
             xml_bytes, meta = http_get_bytes_with_meta(
                 u,
-                timeout=timeout,
+                timeout=timeout_for_request,
                 retries=retries,
                 retry_sleep_ms=retry_sleep_ms,
                 proxies=proxies,
@@ -2315,6 +2334,26 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Max wall time budget in seconds (default: 120)",
     )
     parser.add_argument(
+        "--per-source-timeout",
+        type=float,
+        default=float(cfg_get("per_source_timeout", 0)),
+        help="Max wall time per source in seconds (0 = disable).",
+    )
+    parser.add_argument(
+        "--auto-time-budget",
+        dest="auto_time_budget",
+        action="store_true",
+        default=None,
+        help="Auto compute time budget from source count and per-source timeout.",
+    )
+    parser.add_argument(
+        "--no-auto-time-budget",
+        dest="auto_time_budget",
+        action="store_false",
+        default=None,
+        help="Disable auto time budget.",
+    )
+    parser.add_argument(
         "--retries",
         type=int,
         default=int(cfg_get("retries", 0)),
@@ -2600,7 +2639,15 @@ def main(argv: Optional[List[str]] = None) -> int:
         if isinstance(cfg_sources, list) and cfg_sources:
             args.sources = [str(x).strip() for x in cfg_sources if str(x).strip()]
 
-    for tri_flag in ["prefer_ipv4", "github_top10", "export_json", "build_site", "market", "dynamic_platform_quota"]:
+    for tri_flag in [
+        "prefer_ipv4",
+        "github_top10",
+        "export_json",
+        "build_site",
+        "market",
+        "dynamic_platform_quota",
+        "auto_time_budget",
+    ]:
         if getattr(args, tri_flag, None) is None and isinstance(cfg_defaults.get(tri_flag), bool):
             setattr(args, tri_flag, bool(cfg_defaults.get(tri_flag)))
 
@@ -2748,6 +2795,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                 retries=int(args.retries),
                 retry_sleep_ms=int(args.retry_sleep_ms),
                 proxies=proxies,
+                per_source_timeout=float(getattr(args, "per_source_timeout", 0) or 0),
             )
         plat = platform_for_source_url.get(src.url)
         if plat:
@@ -2757,6 +2805,20 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     # Concurrency cap: be polite to the network.
     max_workers = min(12, max(4, len(sources)))
+
+    per_source_budget = float(getattr(args, "per_source_timeout", 0) or 0)
+    if bool(getattr(args, "auto_time_budget", False)) and per_source_budget > 0 and len(sources) > 0:
+        waves = int(math.ceil(len(sources) / float(max_workers))) if max_workers > 0 else len(sources)
+        auto_budget = int(math.ceil(waves * per_source_budget + 30))
+        auto_budget = max(30, auto_budget)
+        if int(args.time_budget) > 0:
+            args.time_budget = min(int(args.time_budget), auto_budget)
+        else:
+            args.time_budget = auto_budget
+        print(
+            f"[info] auto time budget={int(args.time_budget)}s (sources={len(sources)}, workers={max_workers}, per_source_timeout={per_source_budget:.0f}s)",
+            file=sys.stderr,
+        )
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         future_to_src = {ex.submit(fetch_one, src): src for src in sources}
         done: set[Any] = set()
@@ -3098,6 +3160,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                     retries=int(args.retries),
                     retry_sleep_ms=int(args.retry_sleep_ms),
                     proxies=proxies,
+                    per_source_timeout=float(getattr(args, "per_source_timeout", 0) or 0),
                 )
                 for it in items:
                     it.platform = foreign_section_title or src.name

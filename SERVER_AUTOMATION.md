@@ -15,6 +15,7 @@
 - 工具：`git`、`codex`
 - 网络：可访问 RSS 源；Codex 可访问 OpenAI（登录或 API Key 已可用）
 - 时区：使用 `Asia/Shanghai`（service 中显式设置）
+- 已启用“单源最大耗时 + 自动总预算”配置（见 `my/config.json`）：`per_source_timeout=40`、`auto_time_budget=true`
 
 ## 2. 运行用户与权限策略（当前实际）
 - 使用 `ubuntu` 用户
