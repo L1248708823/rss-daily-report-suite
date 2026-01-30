@@ -146,7 +146,7 @@ const market = computed(() => {
   const m = day.value?.meta?.market
   const indicators = m?.indicators ?? []
   const sse = indicators.find((x) => x.id === 'sh000001')
-  const goldCny = indicators.find((x) => x.id === 'gds_AU9999')
+  const goldCny = indicators.find((x) => x.id === 'gds_AU9999') || indicators.find((x) => x.id === 'hf_XAU')
   return {
     fetchedAt: m?.fetched_at || null,
     note: m?.note || null,
@@ -154,6 +154,16 @@ const market = computed(() => {
     sse,
     goldCny,
   }
+})
+
+const goldUnit = computed(() => {
+  const g = market.value?.goldCny
+  if (!g) return '元/克'
+  if (g.unit === 'CNY/g') return '元/克'
+  if (g.unit && g.unit !== 'raw') return g.unit
+  if (g.id === 'hf_XAU' || (g.name && g.name.includes('伦敦金'))) return 'USD/oz'
+  if (g.currency === 'USD') return 'USD/oz'
+  return '元/克'
 })
 
 function pickChangeClass(changePct?: number | null): string {
@@ -541,7 +551,7 @@ watch(selectedDate, (d) => void loadDay(d), { immediate: false })
                 <div class="text-[11px] uppercase tracking-[0.22em] text-[color:var(--muted)]">gold</div>
                 <div class="mt-2 text-3xl font-semibold text-[color:var(--ink)] tabular-nums">
                   {{ market.goldCny && typeof market.goldCny.value === 'number' ? market.goldCny.value.toFixed(2) : '—' }}
-                  <span class="ml-2 text-sm font-medium text-[color:var(--muted)]">元/克</span>
+                  <span class="ml-2 text-sm font-medium text-[color:var(--muted)]">{{ goldUnit }}</span>
                 </div>
                 <div class="mt-2 flex items-center justify-between gap-3 text-sm">
                   <span class="truncate text-[color:var(--muted)]">{{ market.goldCny?.name || '沪金99' }}</span>

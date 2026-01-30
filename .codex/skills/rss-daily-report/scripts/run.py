@@ -364,7 +364,30 @@ def fetch_market_snapshot(
     indicators: List[Dict[str, Any]] = []
     errors: List[str] = []
 
+    has_gold_cny = False
+    xau_value: Optional[float] = None
+    xau_prev_close: Optional[float] = None
+    xau_as_of: Optional[str] = None
+    fx_rate: Optional[float] = None
+    fx_as_of: Optional[str] = None
+
     fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
+
+    # --- 美元兑人民币（USDCNY）：用于将伦敦金换算为“元/克” ---
+    try:
+        # 腾讯：v_fxUSDCNY="310~美元人民币~USDCNY~6.9488~0~20260130145022~...";
+        t = get_text("https://qt.gtimg.cn/q=fxUSDCNY")
+        payload = parse_js_quoted_payload(t)
+        parts = payload.split("~") if payload else []
+        if len(parts) >= 6:
+            fx_rate = try_float(parts[3])
+            ts = normalize_ws(parts[5])
+            if re.match(r"^\d{14}$", ts):
+                fx_as_of = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]} {ts[8:10]}:{ts[10:12]}:{ts[12:14]}"
+        else:
+            raise ValueError("unexpected tencent format")
+    except Exception as e:
+        errors.append(f"USDCNY(tencent) failed: {normalize_ws(str(e))}")
 
     # --- 上证指数（优先腾讯，兜底新浪） ---
     try:
@@ -481,6 +504,7 @@ def fetch_market_snapshot(
                         "as_of": as_of,
                     }
                 )
+                has_gold_cny = True
         else:
             raise ValueError("unexpected sina format")
     except Exception as e:
@@ -505,6 +529,9 @@ def fetch_market_snapshot(
             if re.match(r"^\d{4}-\d{2}-\d{2}$", date_part) and re.match(r"^\d{2}:\d{2}:\d{2}$", time_str):
                 as_of = f"{date_part} {time_str}"
             if value is not None:
+                xau_value = value
+                xau_prev_close = prev_close
+                xau_as_of = as_of
                 indicators.append(
                     {
                         "id": "hf_XAU",
@@ -516,10 +543,10 @@ def fetch_market_snapshot(
                         "unit": "raw",
                         "currency": None,
                         "provider": "tencent",
-                        "source_url": "https://qt.gtimg.cn/q=hf_XAU",
-                        "as_of": as_of,
-                    }
-                )
+                    "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+                    "as_of": as_of,
+                }
+            )
         else:
             raise ValueError("unexpected tencent format")
     except Exception as e:
@@ -550,6 +577,9 @@ def fetch_market_snapshot(
                 if re.match(r"^\d{4}-\d{2}-\d{2}$", date_part) and re.match(r"^\d{2}:\d{2}:\d{2}$", time_str):
                     as_of = f"{date_part} {time_str}"
                 if value is not None:
+                    xau_value = value
+                    xau_prev_close = prev_close
+                    xau_as_of = as_of
                     indicators.append(
                         {
                             "id": "hf_XAU",
@@ -568,6 +598,31 @@ def fetch_market_snapshot(
                 raise ValueError("unexpected sina format")
         except Exception as e2:
             errors.append(f"XAU(sina) failed: {normalize_ws(str(e2))}")
+
+    # 若沪金（元/克）不可得，则用伦敦金 * USDCNY 折算为元/克
+    if (not has_gold_cny) and (xau_value is not None) and (fx_rate is not None):
+        try:
+            cny_value = xau_value * fx_rate / 31.1035
+            prev_close_cny = (xau_prev_close * fx_rate / 31.1035) if xau_prev_close is not None else None
+            chg = (cny_value - prev_close_cny) if prev_close_cny is not None else None
+            pct = (chg / prev_close_cny * 100.0) if (prev_close_cny is not None and prev_close_cny != 0) else None
+            indicators.append(
+                {
+                    "id": "gds_AU9999",
+                    "name": "沪金99（元/克）",
+                    "value": cny_value,
+                    "change": chg,
+                    "change_pct": pct,
+                    "prev_close": prev_close_cny,
+                    "unit": "CNY/g",
+                    "currency": "CNY",
+                    "provider": "derived",
+                    "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+                    "as_of": xau_as_of or fx_as_of,
+                }
+            )
+        except Exception as e:
+            errors.append(f"Gold(CNY/g, derived) failed: {normalize_ws(str(e))}")
 
     return {
         "requested_date": date_str,
@@ -709,6 +764,8 @@ class FeedEntry:
     title: str
     url: str
     description: str
+    # Optional stable id from feed (guid/id) if provided.
+    guid: Optional[str] = None
     # 0-based position in the source feed result (best-effort).
     # Used as a fallback "recency" signal when published time is missing.
     source_pos: Optional[int] = None
@@ -891,6 +948,27 @@ def title_fingerprint(title: str) -> str:
     return hashlib.sha1(t.encode("utf-8", errors="ignore")).hexdigest()
 
 
+def title_exact_fingerprint(title: str) -> str:
+    t = normalize_ws(title or "").lower()
+    t = t[:200]
+    return hashlib.sha1(t.encode("utf-8", errors="ignore")).hexdigest()
+
+
+def entry_content_keys(entry: "FeedEntry") -> List[str]:
+    keys: List[str] = []
+    guid = normalize_ws(str(entry.guid or ""))
+    if guid:
+        keys.append(f"guid:{guid}")
+    url = safe_url(entry.url)
+    if url:
+        keys.append(f"url:{url}")
+    # Title + published date (YYYY-MM-DD) for strict de-dup (avoid near-duplicate false positives).
+    pub = parse_published_dt(entry)
+    if pub is not None:
+        keys.append(f"title_date:{title_exact_fingerprint(entry.title)}|{pub.date().isoformat()}")
+    return keys
+
+
 def read_json(path: str) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -1040,8 +1118,7 @@ def ensure_cache_shape(cache: Dict[str, Any]) -> Dict[str, Any]:
     cache.setdefault("description", "rss-daily-report cache")
     cache.setdefault("last_run", {})
     cache.setdefault("source_stats", {"_comment": "per-feed stats keyed by feed URL"})
-    cache.setdefault("url_cache", {"_ttl_hours": 168, "entries": {}})
-    cache.setdefault("title_hashes", {"_ttl_hours": 168, "entries": {}})
+    cache.setdefault("content_seen", {"_comment": "permanent content keys (guid/url/title+date) to prevent cross-day repeats", "entries": {}})
     cache.setdefault("article_history", {"_comment": "daily published items"})
     cache.setdefault("source_health", {"_comment": "per-feed health state keyed by feed URL", "entries": {}})
     return cache
@@ -1064,16 +1141,6 @@ def load_cache(path: str) -> Dict[str, Any]:
     cache = read_json(path) if os.path.exists(path) else {}
     cache = ensure_cache_shape(cache)
     today = dt.date.today()
-    cache["url_cache"]["entries"] = prune_ttl(
-        cache["url_cache"].get("entries", {}),
-        int(cache["url_cache"].get("_ttl_hours", 168)),
-        today,
-    )
-    cache["title_hashes"]["entries"] = prune_ttl(
-        cache["title_hashes"].get("entries", {}),
-        int(cache["title_hashes"].get("_ttl_hours", 168)),
-        today,
-    )
     # best-effort prune muted sources map (keep recent/active only)
     sh = cache.get("source_health", {}).get("entries", {})
     if isinstance(sh, dict):
@@ -1406,10 +1473,10 @@ def is_fresh_entry(
 # -----------------------------
 
 
-def parse_feed(xml_bytes: bytes) -> List[Tuple[str, str, str, Optional[str], Optional[str]]]:
+def parse_feed(xml_bytes: bytes) -> List[Tuple[str, str, str, Optional[str], Optional[str], Optional[str]]]:
     """
     Return list:
-      (title, link, description, published, enclosure_type)
+      (title, link, description, published, enclosure_type, guid)
     """
 
     try:
@@ -1434,12 +1501,13 @@ def parse_feed(xml_bytes: bytes) -> List[Tuple[str, str, str, Optional[str], Opt
                         desc = child.text
                         break
             pub = normalize_ws(item.findtext("pubDate") or "") or None
+            guid = normalize_ws(item.findtext("guid") or "") or None
 
             enclosure = item.find("enclosure")
             enclosure_type = enclosure.attrib.get("type") if enclosure is not None else None
 
             if title and link:
-                out.append((title, link, strip_html(desc), pub, enclosure_type))
+                out.append((title, link, strip_html(desc), pub, enclosure_type, guid))
         return out
 
     if tag.endswith("feed"):
@@ -1462,9 +1530,12 @@ def parse_feed(xml_bytes: bytes) -> List[Tuple[str, str, str, Optional[str], Opt
             updated = normalize_ws(
                 e.findtext("a:updated", default="", namespaces=ns) if ns else e.findtext("updated", default="")
             ) or None
+            guid = normalize_ws(
+                e.findtext("a:id", default="", namespaces=ns) if ns else e.findtext("id", default="")
+            ) or None
 
             if title and link:
-                out.append((title, link, desc, updated, None))
+                out.append((title, link, desc, updated, None, guid))
         return out
 
     return []
@@ -1560,7 +1631,7 @@ def fetch_and_parse_source(
         raise RuntimeError(f"failed after {len(candidates)} endpoint(s)")
 
     out: List[FeedEntry] = []
-    for idx, (title, link, desc, pub, enclosure_type) in enumerate(items[:per_feed_limit]):
+    for idx, (title, link, desc, pub, enclosure_type, guid) in enumerate(items[:per_feed_limit]):
         out.append(
             FeedEntry(
                 source_name=source.name,
@@ -1570,6 +1641,7 @@ def fetch_and_parse_source(
                 title=title,
                 url=safe_url(link),
                 description=normalize_ws(desc),
+                guid=guid,
                 published=pub,
                 enclosure_type=enclosure_type,
             )
@@ -1811,94 +1883,40 @@ def dedupe_entries(entries: List[FeedEntry], cache: Dict[str, Any], *, date_str:
     # shrink today's result set. We still de-dup within the run, but ignore cache
     # TTL filters so the run is not path-dependent.
     is_rerun_same_day = str((cache.get("last_run") or {}).get("date") or "") == str(date_str)
-    url_cache_entries = cache.get("url_cache", {}).get("entries") or {}
-    title_cache_entries = cache.get("title_hashes", {}).get("entries") or {}
+    content_seen_entries = cache.get("content_seen", {}).get("entries") or {}
 
     if is_rerun_same_day:
-        # Re-run same day:
-        # - Don't let today's cached entries block the rerun (avoids shrinking the result set).
-        # - Still enforce cross-day de-dup to avoid repeating yesterday's content.
-        url_seen: set[str] = set()
-        title_seen: set[str] = set()
-
-        for u, meta in (url_cache_entries or {}).items():
+        # Re-run same day: don't let today's entries block the rerun.
+        content_seen: set[str] = set()
+        for k, meta in (content_seen_entries or {}).items():
             if not isinstance(meta, dict):
                 continue
             if str(meta.get("date_added") or "") == str(date_str):
                 continue
-            url_seen.add(safe_url(str(u)))
-        for th, meta in (title_cache_entries or {}).items():
-            if not isinstance(meta, dict):
-                continue
-            if str(meta.get("date_added") or "") == str(date_str):
-                continue
-            title_seen.add(str(th))
-
-        # url_cache "date_added" can be overwritten on reruns; use article_history as the source of truth
-        # for cross-day duplicates within TTL window.
-        try:
-            today = dt.date.fromisoformat(str(date_str))
-        except Exception:
-            today = dt.date.today()
-        ttl_hours = int((cache.get("url_cache", {}) or {}).get("_ttl_hours", 168) or 168)
-        ttl_days = max(1, int(ttl_hours // 24))
-        hist = cache.get("article_history", {})
-        if isinstance(hist, dict):
-            for d_str, day_items in hist.items():
-                if not isinstance(d_str, str) or d_str.startswith("_"):
-                    continue
-                if str(d_str) == str(date_str):
-                    continue
-                try:
-                    d = dt.date.fromisoformat(d_str)
-                except Exception:
-                    continue
-                delta = (today - d).days
-                if delta < 0 or delta > ttl_days:
-                    continue
-                if not isinstance(day_items, list):
-                    continue
-                for it in day_items:
-                    if not isinstance(it, dict):
-                        continue
-                    if it.get("url"):
-                        url_seen.add(safe_url(str(it["url"])))
-                    if it.get("title_hash"):
-                        title_seen.add(str(it["title_hash"]))
+            content_seen.add(str(k))
     else:
-        url_seen = set((url_cache_entries or {}).keys())
-        title_seen = set((title_cache_entries or {}).keys())
-
-    allow_url: set[str] = set()
-    allow_title: set[str] = set()
-    # NOTE: For same-day reruns, allowlist can accidentally “lock in” cross-day duplicates
-    # from a previous buggy rerun. We keep allowlist for non-reruns only.
-    if not is_rerun_same_day:
-        day_hist = cache.get("article_history", {}).get(date_str)
-        if isinstance(day_hist, list):
-            for x in day_hist:
-                if isinstance(x, dict):
-                    if x.get("url"):
-                        allow_url.add(str(x["url"]))
-                    if x.get("title_hash"):
-                        allow_title.add(str(x["title_hash"]))
+        content_seen = set((content_seen_entries or {}).keys())
 
     out: List[FeedEntry] = []
     local_title_seen: set[str] = set()
     local_url_seen: set[str] = set()
+    local_content_seen: set[str] = set()
     for e in entries:
         u = safe_url(e.url)
         th = title_fingerprint(e.title)
+        ckeys = entry_content_keys(e)
 
         if u in local_url_seen or th in local_title_seen:
             continue
-        if (u in url_seen) and (u not in allow_url):
+        if any(k in local_content_seen for k in ckeys):
             continue
-        if (th in title_seen) and (th not in allow_title):
+        if any(k in content_seen for k in ckeys):
             continue
 
         local_url_seen.add(u)
         local_title_seen.add(th)
+        for k in ckeys:
+            local_content_seen.add(k)
         out.append(FeedEntry(**{**e.__dict__, "url": u}))
 
     return out
@@ -3296,11 +3314,15 @@ def main(argv: Optional[List[str]] = None) -> int:
         "errors": errors[:100],
     }
 
-    url_entries = cache["url_cache"].setdefault("entries", {})
-    title_entries = cache["title_hashes"].setdefault("entries", {})
+    content_entries = cache["content_seen"].setdefault("entries", {})
     for it in list(published) + list(backfill_published):
-        url_entries[it.entry.url] = {"date_added": date_str}
-        title_entries[title_fingerprint(it.entry.title)] = {"date_added": date_str}
+        for k in entry_content_keys(it.entry):
+            content_entries[k] = {
+                "date_added": date_str,
+                "title": it.entry.title,
+                "url": it.entry.url,
+                "source": it.entry.source_name,
+            }
 
     hist = cache.setdefault("article_history", {"_comment": "daily published items"})
     hist[date_str] = [
@@ -3310,6 +3332,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             "title": it.entry.title,
             "title_hash": title_fingerprint(it.entry.title),
             "url": it.entry.url,
+            "content_keys": entry_content_keys(it.entry),
             "category": it.category,
             "carrier": it.carrier,
             "quality_score": round(it.quality_score, 2),

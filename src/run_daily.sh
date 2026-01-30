@@ -25,7 +25,18 @@ OPENAI_API_KEY= python3 .codex/skills/rss-daily-report/scripts/run.py "$DATE" --
 #    注意："$rss-editor-picks" 中的 "$" 是 Codex 的技能引用语法，
 #    不能被 shell 展开成变量，因此这里显式转义 "$"。
 CODEX_PROMPT="\$rss-editor-picks $DATE"
-"$CODEX" exec --full-auto --sandbox workspace-write "$CODEX_PROMPT"
+# 允许外部覆盖超时（单位：秒），默认 15 分钟。
+CODEX_EXEC_TIMEOUT_SEC="${CODEX_EXEC_TIMEOUT_SEC:-300}"
+
+if command -v timeout >/dev/null 2>&1; then
+  if ! timeout --signal=INT --kill-after=30s "${CODEX_EXEC_TIMEOUT_SEC}"       "$CODEX" exec --full-auto --sandbox workspace-write "$CODEX_PROMPT"; then
+    echo "[warn] codex exec failed or timed out, continue."
+  fi
+else
+  if ! "$CODEX" exec --full-auto --sandbox workspace-write "$CODEX_PROMPT"; then
+    echo "[warn] codex exec failed, continue."
+  fi
+fi
 
 # 3) 仅当 NewsReport 目录有变更时才提交，避免 cache 或其他噪声触发提交。
 if [[ -n "$(git status --porcelain -- NewsReport)" ]]; then

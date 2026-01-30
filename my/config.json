@@ -1,6 +1,8 @@
 {
   "defaults": {
-    "sources": ["my/sources.md"],
+    "sources": [
+      "my/sources.md"
+    ],
     "group_by": "platform",
     "platform_heat_window_days": 30,
     "per_platform_limit": 10,
@@ -26,7 +28,7 @@
     "github_top10": false,
     "export_json": true,
     "build_site": true,
-    "market": false,
+    "market": true,
     "market_timeout": 6,
     "proxy": "",
     "retries": 0,

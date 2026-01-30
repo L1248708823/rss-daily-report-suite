@@ -81,6 +81,19 @@
           "provider": "tencent",
           "source_url": "https://qt.gtimg.cn/q=hf_XAU",
           "as_of": "2026-01-30 14:33:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1151.590808815728,
+          "change": -49.88322375295411,
+          "change_pct": -4.151835362292988,
+          "prev_close": 1201.474032568682,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-01-30 14:33:00"
         }
       ],
       "errors": [
