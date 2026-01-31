@@ -1,0 +1,912 @@
+{
+  "date": "2026-01-31",
+  "generated_at": "2026-01-31T01:00:04.395969+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 276,
+    "fresh_candidates": 61,
+    "backfill_candidates": 215,
+    "items_published": 27,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-01-31",
+      "fetched_at": "2026-01-31T01:00:04.034488+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4117.95,
+          "change": -40.03,
+          "change_pct": -0.96,
+          "volume": 804342746.0,
+          "amount": 126985569.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4860.39,
+          "change": -516.75,
+          "change_pct": -9.61,
+          "prev_close": 5377.14,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-01-31 05:45:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1086.9328121594033,
+          "change": -115.56120613435792,
+          "change_pct": -9.610127316752031,
+          "prev_close": 1202.4940182937612,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-01-31 05:45:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-01-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "我们看天上的太阳是 8 分钟前的太阳，还是此时的太阳？如果是 8 分钟前的，那么是否代表我们可以亲眼看到历史？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787147",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "lux",
+        "kg",
+        "cm",
+        "mm",
+        "CT",
+        "hv"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 你看到的所有都是历史，但你也永远看不清历史。 与你相隔 1 米的人交谈，他的嘴部动作传到你眼睛需要： 1/299792458=0.000000003336s 你的视细胞把光信号转化成电信号，再传递到大脑辨认所需要的时间大约为： 1/10——1/20s 也即最短需要 0.05s（所以动态迷糊的 24 帧以上，人眼就会觉得流畅）。 其实这个过程视神经（髓鞘）传递信号用时低于 0.01s，主要耗时在信号转化和辨认上。 总用时，0.100000003336s 在大多数人的认知里…",
+      "key_points": [
+        "如果打造这个天文望远镜使用了的能源少于当前文明的 1%，那么这个文明则相当于 2.5 级文明，介于卡尔达舍夫二级和三级文明之间",
+        "0.0565 光年光年直径的总面积是： 2.235×10^29m^2 总体积是：1.263×10^27m^3 密度取 2500kg/m^3，计算得到重量为：3.…",
+        "也即 5.345×10^14m 相当于 3573 个天文单位（日地距离） 也就是说，制造的天文望远镜口径达到 3573 个太阳到地球的距离，才能看到一个渣画质的…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么大部分塑料汽水瓶的底部是花瓣状的结构？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787196",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PET",
+        "Stretch",
+        "Base",
+        "Blow",
+        "Gate",
+        "glycol"
+      ],
+      "summary": "祥昊， 疯狂或者死亡，主要看医生的证明 查看知乎原文 如果你仔细观察的话，甭管是矿泉水还是饮料瓶， 底部正中都会凹进去。 没错，汽水瓶后腚开花的原因就在这里。 想探究这个原因，咱得先了解下汽水瓶是咋做出来的。 做汽水瓶的原料是聚对苯二甲酸乙二醇酯（polyethylene glycol terephthalate），简称 PET 由于回收标识是 1，又俗称一号塑料，原料是一种透明颗粒。 PET 颗粒 拉到工厂后，会首先融化倒膜， 做成一个试管状的瓶胚，可以看到，此时瓶口部分是已经完成了。 然后再次加热瓶胚顶部（就是…",
+      "key_points": [
+        "做汽水瓶的原料是聚对苯二甲酸乙二醇酯（polyethylene glycol terephthalate），简称 PET 由于回收标识是 1，又俗称一号塑料，原…",
+        "而最需要强度支撑的底部边缘由于材料不足被拉伸的过薄， 这样的可能瓶子正常站着都费劲",
+        "会首先融化倒膜， 做成一个试管状的瓶胚，可以看到，此时瓶口部分是已经完成了"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么我们穿的都是塑料？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787161",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PET",
+        "Polyethylene",
+        "terephthalate",
+        "C10H8O4",
+        "chloride",
+        "Dry-Tec"
+      ],
+      "summary": "知谦， 以富润屋，不如以德润身。 查看知乎原文 你没有听错，我们从内到外，从上到下，穿的大多都是高分子材料，但它们绝非廉价和低端。 啥是高分子材料？ 高分子材料就是以高分子聚合物为基体，再加上其他添加剂（或助剂）所制成的材料 [1] 。 在高分子材料的旗下，主要有“四大金刚”，它们是： 塑料、橡胶、纤维（化纤）和涂料。 其中， 橡胶和涂料大家都比较清楚，汽车轮胎就是橡胶，装修时家里边也都会刷涂料。 本回答着重介绍一下塑料和纤维。 首先，什么是塑料？ 按照前面所述，塑料是高分子材料的一种，它是以高分子聚合物为主体，辅…",
+      "key_points": [
+        "塑料纤维（化纤）还远不止制上面那些用途，我们只要记住一点就行： 在现实生活中，高分子材料尤其是塑料、纤维，几乎是无处不在，我们已经渐渐离不开它们了",
+        "我们从内到外，从上到下，穿的大多都是高分子材料，但它们绝非廉价和低端",
+        "饮料瓶底的 PET 塑料回收标识 知道了什么是塑料，纤维就简单了"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "4100点的十字路口，如何做好投资布局？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+4100%E7%82%B9%E7%9A%84%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%EF%BC%8C%E5%A6%82%E4%BD%95%E5%81%9A%E5%A5%BD%E6%8A%95%E8%B5%84%E5%B8%83%E5%B1%80%EF%BC%9F",
+      "published": "Fri, 30 Jan 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "AI",
+        "KAIZEN",
+        "PPI"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： KAIZEN投资之道 来源：雪球 上证指数突破4000点，看似一片繁荣，市场却上演“冰火两重天”：一边是代表着传统经济的“老登股”（如部分消费、传统制造）走势疲软，另一边则是以有色金属、商业航天为代表的板块持续暴涨，强势领跑。 这种极致的分化，并非市场混乱的信号，而是新一轮经济周期与产业变革在资本市场的清晰投射。它清晰地告诉我们， 当前市场正处于从前期“结构性牛市”向更广泛的“全面牛市…",
+      "key_points": [
+        "未来的超额收益将主要来源于两个方向：一是 “新质生产力”的产业化落地，如商业航天、人工智能、人形机器人等，这些领域将从概念炒作进入订单和业绩验证期； 二是 “传…",
+        "这是一个从主题投资迈向业绩兑现的“超级赛道”，可通过布局覆盖卫星制造、发射、应用全产业链的ETF来参与，分享行业成长红利，同时规避个股技术路线的高波动风险",
+        "并非市场混乱的信号，而是新一轮经济周期与产业变革在资本市场的清晰投射。它清晰地告诉我们， 当前市场正处于从前期“结构性牛市”向更广泛的“全面牛市”过渡的关键阶段…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "茅台赚2000亿利润是商业世界最确定会发生的事件之一",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3452146899/373927280",
+      "published": "Fri, 30 Jan 2026 10:18:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "先感谢球友指出上篇文的一处错误，“25年中国白酒产量350万吨，茅台占1.3%”，统计口径是规模以上折合65度，所以换算53度再加上规模以下，应该有550万吨，那么茅台大概在0.8%。 统计过去多年茅台的量价，5年、10年、25年维度的复合增速如右表。拉长时间看，茅台出厂价和飞天市价复合增速基本吻合，且体外一直冗余丰厚的利润。21年以来随着飞天市价的下降和出厂价的持续提升，到25年体外利润已低于上一轮周期14年的低点，不同的是，这一次茅台市场化改革的决心有望让经销商面向市场的暴利成为历史。 上市公司是怎么做到吨价逐…",
+      "key_points": [
+        "茅台酒的均价超过500万元/吨是大概率事件，若销量到8～9万吨，对应23-2500亿净利润",
+        "5年、10年、25年维度的复合增速如右表。拉长时间看，茅台出厂价和飞天市价复合增速基本吻合，且体外一直冗余丰厚的利润。21年以来随着飞天市价的下降和出厂价的持续…",
+        "所售约1.5万吨的非标产品需求下滑，而底牌和方案是，作为基座的飞天通过“i茅台”的直营渠道以合理价格触达广大的潜在消费群体。按理说产能只有这么多，高价的非标卖少…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "择时是价值投资的核心",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6186913084/373907858",
+      "published": "Fri, 30 Jan 2026 10:18:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "全球通秉持的核心投资逻辑，恰是价值投资的底层共识——股票价格长期围绕价值主轴波动。当价格高于或显著高于价值，便是估值高估的信号；当价格严重低于其内在价值，便是市场错杀造就的低位，也是价值投资的最佳介入时机。价值投资领域素来以“时间的玫瑰”为核心理念，强调标的价值与长期持有的力量，却往往淡化择时的重要性。但回归投资本质，对于具备长期价值的标的而言，择时才是价值投资的核心，是决定投资成败的关键因素——优质标的是价值投资的基础，而精准择时正是捕捉“价格偏离价值”的窗口，让价值落地、让收益放大，无择时的价值投资，不过是脱离…",
+      "key_points": [
+        "恰是价值投资的底层共识——股票价格长期围绕价值主轴波动。当价格高于或显著高于价值，便是估值高估的信号；当价格严重低于其内在价值，便是市场错杀造就的低位，也是价值…",
+        "低位介入是博取价值投资超额收益的核心保障。价值投资的收益公式，是“企业成长收益+估值修复收益”的双重叠加，而这一切都源于价格与价值的偏离度。当价格严重低于价值时…",
+        "突发行业或个股黑天鹅事件时，危中寻机是捕捉价格偏离价值的最佳窗口。黑天鹅事件往往引发市场非理性恐慌，导致优质标的股价脱离价值主轴大幅下探，价格与价值形成显著背离…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "全市场65°：消费崛起，耐心的果实？（1.30）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9391624441/373931715",
+      "published": "Fri, 30 Jan 2026 10:18:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "SH515650",
+        "SZ159928",
+        "SZ399997",
+        "xueqiu.com"
+      ],
+      "summary": "每日短评：2026.01.13 昨天白酒一骑绝尘，领涨整个市场，在其带动下消费类指数出现较大涨幅。 在过去较长的一段时间里，消费行业受多方面因素影响，出现了较长的单边震荡下跌。也正因为这种煎熬，才让我们有机会用相对更低的估值，去慢慢定投。 消费、医药、科技，是61长期关注的三条行业主线，它们与我们的生活息息相关。但行业投资从来不能仅靠信念，需要一套更为完整的策略，去应对如中概、医疗和消费的周期困境。 行业指数波动较大，从高点常常有70%-80%的最大回撤，外部的情绪干扰也多。所以61一直建议， 新手经验的不足时，别…",
+      "key_points": [
+        "每日短评：2026.01.13 昨天白酒一骑绝尘，领涨整个市场，在其带动下消费类指数出现较大涨幅",
+        "是61长期关注的三条行业主线，它们与我们的生活息息相关。但行业投资从来不能仅靠信念，需要一套更为完整的策略，去应对如中概、医疗和消费的周期困境",
+        "消费行业受多方面因素影响，出现了较长的单边震荡下跌。也正因为这种煎熬，才让我们有机会用相对更低的估值，去慢慢定投"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "油价上涨对化工行业的影响",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8537206007/373938219",
+      "published": "Fri, 30 Jan 2026 10:18:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PS",
+        "http",
+        "MDI",
+        "SH600309",
+        "SH600989",
+        "xueqiu.com"
+      ],
+      "summary": "其实大家常问，石油价格上涨，是不是整个化工行业都得受影响、都不利？答案真不是这样的，不能一刀切看，得拆开揉碎了说，跟你最开始分析的核心逻辑完全对得上——短期内确实是所有化工相关产品一起涨，属于集体涨价的情况，但这只是表面现象，里面的盈利门道其实特别多。 一、短期内，化工与石油集体涨价背后，藏着“利润剪刀差”的机会 为啥说短期不是利空，反而有机会？最关键的一点，就是很多化工企业的原材料，签的都不是现货价，而是长协议价格。这种长协，期限不一样，有的是半年，有的能到一年，也就是说，在签好的这段时间里，他们的原料成本是固定…",
+      "key_points": [
+        "油价越高，它的盈利空间就越大。（虽然乙烷价格确实会随天然气价格波动，但波动率仅为天然气的1/10左右，两者是“强联动、弱同步”的关系。） 四、总结 总结一下就很…",
+        "石油价格上涨，是不是整个化工行业都得受影响、都不利？答案真不是这样的，不能一刀切看，得拆开揉碎了说，跟你最开始分析的核心逻辑完全对得上——短期内确实是所有化工相…",
+        "后续煤炭价格也有可能跟着上涨。所以这里强调了有煤炭资源的煤化工） 先说说定价逻辑，现在大化工产品的价格波动，主要还是看油价，虽然这几年煤化工发展起来了，在定价上…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "中国AI大战进入决赛圈，最好的一篇报道",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%B8%AD%E5%9B%BDAI%E5%A4%A7%E6%88%98%E8%BF%9B%E5%85%A5%E5%86%B3%E8%B5%9B%E5%9C%88%EF%BC%8C%E6%9C%80%E5%A5%BD%E7%9A%84%E4%B8%80%E7%AF%87%E6%8A%A5%E9%81%93",
+      "published": "Fri, 30 Jan 2026 19:57:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "LatePost"
+      ],
+      "summary": "给晚点LatePost的深度报道「字节、阿里、腾讯 AI 大战全记录：一场影响命运的战争」做了一份笔记～原文 ⬇️ 文章原文",
+      "key_points": [
+        "给晚点LatePost的深度报道「字节、阿里、腾讯 AI 大战全记录：一场影响命运的战争」做了一份笔记～原文 ⬇️ 文章原文"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "特朗普政府以司法手段威胁美联储 | 经济学人财经",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%BF%E5%BA%9C%E4%BB%A5%E5%8F%B8%E6%B3%95%E6%89%8B%E6%AE%B5%E5%A8%81%E8%83%81%E7%BE%8E%E8%81%94%E5%82%A8+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F",
+      "published": "Fri, 30 Jan 2026 08:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "Fed",
+        "Mr",
+        "is",
+        "in"
+      ],
+      "summary": "1 写在前面 思维导图作者： Summer ，女， QE 在职，梦想能仗走天涯 翻译 / 音乐 / 健康 2 精读|翻译|词组 Finance &amp; economics | Fed up 财经｜美联储纷争 英文部分选自经济学人20250112财经板块 Finance &amp; economics | Fed up 财经｜美联储纷争 The Trump administration threatens the Fed with a criminal cudgel 特朗普政府以司法手段威胁美联储 The pre…",
+      "key_points": [
+        "1 写在前面 思维导图作者： Summer ，女， QE 在职，梦想能仗走天涯 翻译 / 音乐 / 健康 2 精读|翻译|词组 Finance &amp; ec…",
+        "接下来的交锋将围绕鲍威尔的继任者人选展开，鲍威尔的任期将于今年 5 月届满。特朗普预计将在未来几周内公布提名人选。博彩市场显示，特朗普的核心顾问凯文 ・ 哈西特…",
+        "唐纳德 ·特朗普 （ Donald Trump ） 一直对美联储展开无端指责，并发出法律威胁"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "全国上下，“数”这里最美！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%85%A8%E5%9B%BD%E4%B8%8A%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%95%B0%E2%80%9D%E8%BF%99%E9%87%8C%E6%9C%80%E7%BE%8E%EF%BC%81",
+      "published": "Fri, 30 Jan 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "sh",
+        "Allom",
+        "Jubei",
+        "Thomas"
+      ],
+      "summary": "平时从一数到九，没有任何感觉 这次完全不一样，地理君带你 以特别的方式 “数（shǔ）数（shù）”！ 数到九，就能看遍绝美中国 数到九，山河便已然成诗 数到九，也看到一种崭新的 “中国数数地理” 新春将至，纵览神州，数到九 更会发现—— “数” 这些风景最好看！ “一” 起始：一画开天，万象更新 “一”作为始元之数，真正代表了一元复始、万象更新。与此同时，作为 笔画最少的汉字 之一，它也犹如“太初有光”般—— “一画开天” 。 湖北鹤峰屏山峡谷 一线裂隙透出天光 那么无论从外形到内涵都与“一”高度相似的，就是一种…",
+      "key_points": [
+        "【参考文献】 [1]《中国双河现象》中国国家地理 2019年10期 [2]《湖南和湖北的“湖”，是指哪个湖》人民周刊 2021年06期 [3]《长江黄河的“两河…",
+        "“长江源头第一桥” 位于青海唐古拉山镇沱沱河站附近青藏铁路 而关于时间层面的“四”，那当然最适合说说四季——既然一年将尽，地理君就送你一份倍加美好的 “四季平安…",
+        "还有一种观点：在1981年韩振华《七州洋考》中，认为七洲洋主要指西沙群岛。于是就遇到又一个关于“七”的美丽巧合—— 在“中国最美海岛”西沙群岛之中、在中国最广阔…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "去台州，看最美围岩天然壁画群！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%8E%BB%E5%8F%B0%E5%B7%9E%EF%BC%8C%E7%9C%8B%E6%9C%80%E7%BE%8E%E5%9B%B4%E5%B2%A9%E5%A4%A9%E7%84%B6%E5%A3%81%E7%94%BB%E7%BE%A4%EF%BC%81",
+      "published": "Fri, 30 Jan 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "在浙江台州，有一座由时光与地质共同创作的艺术殿堂——黄岩石窟。 这里自唐代起便是采石场，蕴藏着千余年的人文记忆。经过保护性改造，昔日的矿坑化身为一座巨大的天然艺术厅。 岩壁上，矿物质自然渗透，形成了色彩斑斓、栩栩如生的天然壁画，被大世界基尼斯认证为 规模最大的天然壁画群 。蜿蜒于洞窟间的步道，总长超过2000米，巧妙串联起宏伟的石仓与碧水深潭，让人可漫步也可泛舟，深入感受自然与人力共同雕琢的壮丽景致。 漫步于此，犹如穿梭在时光长廊，聆听石壁的千年回响，体验跨越时空的沉浸之旅。 #黄岩石窟 #浙江 #台州 #治愈系风…",
+      "key_points": [
+        "矿物质自然渗透，形成了色彩斑斓、栩栩如生的天然壁画，被大世界基尼斯认证为 规模最大的天然壁画群 。蜿蜒于洞窟间的步道，总长超过2000米，巧妙串联起宏伟的石仓与…",
+        "#黄岩石窟 #浙江 #台州 #治愈系风景 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文",
+        "蕴藏着千余年的人文记忆。经过保护性改造，昔日的矿坑化身为一座巨大的天然艺术厅"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "账务核心的核算、架构、产品",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6336019.html",
+      "published": "Fri, 30 Jan 2026 07:50:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "账务核心作为支付系统的基石，融合了会计核算、高性能架构与产品设计三大维度。本文从核算原理切入，深入解析资金与账簿分离、实时与缓冲记账机制，并拆解收款、退款、付款等典型交易的账务核算流程。通过领域模型与业务架构图例，展现账务科目设置、分户账映射、期末总账核算等核心设计，为支付产品与研发人员提供一套完整的账务系统实践框架。 账务核心可以说是支付系统的皇冠，因为你既要懂会计核算，又要懂技术、还要实现高性能，因为所有业务都依赖于他的记账结果来结算资资金。 下面我就用大白话从账务、核算、架构完整的给你介绍下，这套最核心的系统…",
+      "key_points": [
+        "融合了会计核算、高性能架构与产品设计三大维度。本文从核算原理切入，深入解析资金与账簿分离、实时与缓冲记账机制，并拆解收款、退款、付款等典型交易的账务核算流程。通…",
+        "最后完成总账的核算检查后账务核心就能日切。这部分内容“交易核算”、“渠道清算”支付产品、研发进阶必须掌握的，总账核算作为补充知识了解即可（因为总账在中小机构结算…",
+        "二、账务核心设计 账务核心是支付平台的所有账务的基准。他日间与支付引擎配合记录联机交易清算账务，日终与对账中心配合处理期末的核算账务"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DeepSeek+时刻来了：Hilight让营销视频告别“抽奖式”生成",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6335928.html",
+      "published": "Fri, 30 Jan 2026 07:13:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hilight",
+        "AI",
+        "Agent",
+        "Prompt",
+        "DeepSeek",
+        "Agentic"
+      ],
+      "summary": "Hilight AI通过多智能体架构与慢思考机制，重新定义了AI营销视频的生产范式。该系统以跨帧一致性为核心突破点，构建了从商品理解、素材处理到多镜头协同的完整工业化流程。本文深度解析其如何通过知识图谱、N宫格输入、数字人强约束等创新技术，实现电商营销视频从'可用'到'商用'的质变。 营销视频生成：一个价值极高，却长期缺少好用产品的 AI 赛道 如果回看近几年 AI 的演进路径，我们会发现一条正在逐渐清晰的主线： 在模态层面，能力从文本逐步扩展至图片、视频、音频等多模态； 在应用层面，重心从通用能力转向垂直场景能力…",
+      "key_points": [
+        "首个真干活·多智能体架构——十几个Agent“边做边吵”可视化 十几个 Agent “边做边吵”可视化效果 现在市面上的 AI 视频工具，生成往往是“一个模型…",
+        "慢思考模式——营销视频的 DeepSeek 时刻 在 AI 视频生成的世界里，速度似乎总是被无限追求：几秒钟、一键生成、秒出成片…… 但 Hilight 并不在…",
+        "它并没有把 AI 视频生成设计成“一个模型 + 一个 Prompt”，而是通过对近10年的实际视频营销案例的拆解， 完整复刻了专业视频制作团队的协作结构，开创了…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI浪潮下，产品经理如何利用AI赋能业务？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/class/6335671.html",
+      "published": "Fri, 30 Jan 2026 07:00:11 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CRM",
+        "EC",
+        "SA",
+        "A+",
+        "amp"
+      ],
+      "summary": "在AI时代，产品经理的角色正在经历前所未有的变化。部分洞察敏锐的职场人快速拥抱变化，积极规划职业新方向，实现跳槽涨薪；处于适应期的产品经理一边焦虑变化，逐渐陷入职业发展瓶颈。当下，产品经理如何打破求职和职业困局，实现快速成长？ AI不仅改变了我们的生活方式，更重塑了产品经理的工作，作为企业中连接市场需求、技术创新和用户体验的桥梁，产品经理的能力模型和工作方式正在经历快速的转变。 以前你可能掌握核心技能A，就可以脱颖而出，现在你可能需要掌握核心技能A+行业能力B才能脱颖而出。 一些产品经理无法快速适应环境变化，主要表…",
+      "key_points": [
+        "主要表现在： 如何利用AI赋能产品业务？没有思路 想转AI产品经理如何准备？不清楚 在求职、成长晋升过程中屡屡碰壁，如何破局？没办法 在这个充满不确定性的时代中…",
+        "-任职过的企业：华为、腾讯EC、加脉、一号互联 -做过的领域：通讯、数字化办公、职场社交、人工智能 -从事过的岗位：产品总监、系统分析师 -做过的产品：CRM、…",
+        "产品经理的角色正在经历前所未有的变化。部分洞察敏锐的职场人快速拥抱变化，积极规划职业新方向，实现跳槽涨薪；处于适应期的产品经理一边焦虑变化，逐渐陷入职业发展瓶颈…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Claude Cowork 产品深度分析：从“助手”到“同事”，AI Agent 如何重塑办公协作新范式？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6335767.html",
+      "published": "Fri, 30 Jan 2026 06:37:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Claude",
+        "Cowork",
+        "Agent",
+        "Anthropic",
+        "Copilot"
+      ],
+      "summary": "Claude Cowork 的出现正在颠覆传统AI助手的边界，让它从被动应答转向主动执行复杂任务。这款由Anthropic推出的创新产品，通过赋予AI本地文件系统的读写权限与自主规划能力，使其真正成为能并肩作战的“数字同事”。本文将深入解析这款产品如何重构办公协作范式，并探讨AI Agent赛道未来的竞争格局与可能性。 一、引言：当 AI 不再满足于“对话”，而是开始“动手” 近年来，以大语言模型（LLM）为核心的生成式AI，已经从技术前沿渗透到我们日常工作的方方面面。我们习惯了向AI“提问”，让它生成文案、编写代…",
+      "key_points": [
+        "对 Claude Cowork 进行深度剖析，探讨其产品定义、核心功能、用户价值，并分析其在AI Agent赛道中的市场定位与未来潜力，以期理解这一变革将如何重…",
+        "Claude Cowork 的出现正在颠覆传统AI助手的边界，让它从被动应答转向主动执行复杂任务。这款由Anthropic推出的创新产品，通过赋予AI本地文件系…",
+        "Anthropic 推出的 Claude Cowork 功能，正试图打破这一现状。它标志着主流AI产品正在从被动的“对话式助手”向主动的“任务执行者”演进。当A…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用 Agent Skills 重构你的职业竞争力",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6335503.html",
+      "published": "Fri, 30 Jan 2026 06:30:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Skill",
+        "Agent",
+        "gt",
+        "Skills",
+        "PM"
+      ],
+      "summary": "AI时代的产品定义正在被彻底重构——Agent Skills（智能体技能）将成为下一代产品的核心竞争壁垒。从GUI设计到API调用，从功能堆砌到能力抽象，AI产品经理的工作范式正经历革命性转变。本文深度拆解技能化转型的底层逻辑，揭示如何将传统业务编译为AI可执行的原子能力，以及产品架构师在这场变革中必须掌握的三种新能力。 在AI圈子里摸爬滚打的这一年，尤其是从一名和像素死磕的资深设计师，转型为在逻辑与模型间周旋的AI产品经理，我最大的感触不是技术的迭代速度，而是“产品”定义的崩塌与重构。 我们曾经引以为傲的“护城河…",
+      "key_points": [
+        "这才是真正的“用Agent Skills重构职业竞争力”",
+        "不仅仅是工作流的变化，更是 职业核心竞争力 的重塑",
+        "AI时代的产品定义正在被彻底重构——Agent Skills（智能体技能）将成为下一代产品的核心竞争壁垒。从GUI设计到API调用，从功能堆砌到能力抽象，AI产…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "冬天脚后跟干裂，小腿长“鱼鳞”？还真不是你皮肤缺水！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%86%AC%E5%A4%A9%E8%84%9A%E5%90%8E%E8%B7%9F%E5%B9%B2%E8%A3%82%EF%BC%8C%E5%B0%8F%E8%85%BF%E9%95%BF%E2%80%9C%E9%B1%BC%E9%B3%9E%E2%80%9D%EF%BC%9F%E8%BF%98%E7%9C%9F%E4%B8%8D%E6%98%AF%E4%BD%A0%E7%9A%AE%E8%82%A4%E7%BC%BA%E6%B0%B4%EF%BC%81",
+      "published": "Fri, 30 Jan 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "End",
+        "keep",
+        "SPA"
+      ],
+      "summary": "每到秋冬，我的身体都会发出 干燥警报 ： 脱下秋裤，皮屑如雪花般飘落； 脚后跟 又厚又硬，粗糙得 经常勾到袜子； 手上的倒刺反复长，一撕就流血，疼得钻心； 手肘、膝盖处干硬发白，有时还有小裂口...... 图源：图虫创意 更恼人的是， 普通身体乳总是“治标不治本” ，刚抹上润润的，没多久又被打回原形。 因为这种情况 往往是皮肤 屏障已经受损 ——它需要的，远不止表层补水。 如果你也被这种 “真性干裂” 困扰，那今天这个故事，或许能帮助到你。 这个故事的主角，是一位92岁高龄的药学家—— 周家礽 先生。 他是云南白药…",
+      "key_points": [
+        "果壳实拍 ✔经常长倒刺、✔长期做家务、✔季节性干燥、✔ 美甲后修护、✔皮肤干裂的 ，手霜安排上！1支搞定多种手部问题~ ✔脚后跟开裂、✔干燥起皮、✔脚趾干纹、✔…",
+        "99元带走2大罐 秋冬皮肤总是干裂、冻裂的，试过各种产品都不好使的，换成裂博吧！随时水水润润—— 分区护理 ： 手、足、身体、面部，精细化护理； 安心选择 ：…",
+        "我的身体都会发出 干燥警报 ： 脱下秋裤，皮屑如雪花般飘落； 脚后跟 又厚又硬，粗糙得 经常勾到袜子； 手上的倒刺反复长，一撕就流血，疼得钻心； 手肘、膝盖处干…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "在海里潜水，你可以当众尿尿，但绝不可以摸鱼，更不能踢珊瑚！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%A8%E6%B5%B7%E9%87%8C%E6%BD%9C%E6%B0%B4%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%BD%93%E4%BC%97%E5%B0%BF%E5%B0%BF%EF%BC%8C%E4%BD%86%E7%BB%9D%E4%B8%8D%E5%8F%AF%E4%BB%A5%E6%91%B8%E9%B1%BC%EF%BC%8C%E6%9B%B4%E4%B8%8D%E8%83%BD%E8%B8%A2%E7%8F%8A%E7%91%9A%EF%BC%81",
+      "published": "Fri, 30 Jan 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PADI",
+        "https",
+        "c418250-40548089.html",
+        "Facebook",
+        "guokr.com",
+        "GuokrNature"
+      ],
+      "summary": "有人为了保护珊瑚，潜水时连防晒霜都不敢擦，有人却随随便便拖拽极危物种玳瑁海龟，毫不在意地掰断珊瑚，甚至捏死一大只海兔！ 网友拍摄仙本那一男子潜水时恶意破坏海洋生态 | 小红书 1月5日，有网友发布视频，曝光一男子在仙本那潜水时恶意破坏海洋生态的行为。该男子被劝阻后不仅不悔改，还继续偷偷用棉线手套摸珊瑚。 好好好，2026刚一开年就被气到两眼一黑又一黑。 评论区都被气到不行丨小红书 在潜水培训最初的理论课学习阶段，每个人都会被告知： 不可以触碰海洋生物，并且在潜水时要有意和海洋生物保持距离。 网友拍到被捏死的海兔 |…",
+      "key_points": [
+        "海洋中看似优雅无害的生物可能有剧毒或者攻击性： 摸一把火珊瑚之后，你的皮肤会红肿、刺痛，像持续在被火燎； 呆萌的扳机鱼牙口好到可以一口咬断脚蹼，如果你用手去惹它…",
+        "你可以在海里撒尿！甚至拉屎 潜水圈流传着这么一句话：“这世界上只有两种潜水员，在水下撒过尿的潜水员，和不承认自己在水下撒过尿的潜水员”",
+        "如果被水下警察拍到有人踢到珊瑚，整组潜水员会被要求立刻起水，并且不能再次下潜，同时破坏珊瑚的潜水员将面临数千元的罚款。也因此，水下警察的照片被戏称为“天价水下游…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么现在的学生会把课桌叫“民用机床”？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%AD%A6%E7%94%9F%E4%BC%9A%E6%8A%8A%E8%AF%BE%E6%A1%8C%E5%8F%AB%E2%80%9C%E6%B0%91%E7%94%A8%E6%9C%BA%E5%BA%8A%E2%80%9D%EF%BC%9F",
+      "published": "Fri, 30 Jan 2026 16:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "近段时间诞生了一个说法： 一种新型“民用机床”，正在国内冉冉升起。 它精度极高，专产奇迹，无数奇怪但合理的小发明，正在这里火速诞生。 不过不在工厂，也不在实验室，而是在教室里。 就是那套我们最熟悉的校园桌椅板凳套装。 如今，这原本只负责承载作业和胳膊肘以及困意的东西，已经被学生们郑重其事地命名为“民用机床”。 原因是，它现在催生出来的劲爆发明实在太多了。 这里需要提前说一下的是，看到这里的大多数人，应该都会想起自己的学生时代，那时候，这套课桌上确实没少出过“科研成果”。 但现在不太一样，之所以能升格出“机床”的说法…",
+      "key_points": [
+        "本文转载自微信公众号 为什么现在的学生会把课桌叫“民用机床”",
+        "现在学生们会把课桌称为机床，并不奇怪",
+        "这原本只负责承载作业和胳膊肘以及困意的东西，已经被学生们郑重其事地命名为“民用机床”"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "洗澡只要5分钟的男人，建议你在第3分钟停顿3秒",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B4%97%E6%BE%A1%E5%8F%AA%E8%A6%815%E5%88%86%E9%92%9F%E7%9A%84%E7%94%B7%E4%BA%BA%EF%BC%8C%E5%BB%BA%E8%AE%AE%E4%BD%A0%E5%9C%A8%E7%AC%AC3%E5%88%86%E9%92%9F%E5%81%9C%E9%A1%BF3%E7%A7%92",
+      "published": "Fri, 30 Jan 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HPV",
+        "al.",
+        "et",
+        "in",
+        "https",
+        "of"
+      ],
+      "summary": "问：一个男人洗澡要多久？ 答：看他洗发水的泡沫能维持多久。 很多男人的洗澡过程就是：淋湿、抹肥皂、冲水、结束。干净利落，从不拖泥带水。 从进浴室到关掉水龙头，通常不会超过十分钟。洗头、洗脸、重点部位、冲干。就因为快，很多细节容易被忽略。 但其实，在抹肥皂或冲水的这几分钟里，只需要顺便抽出几秒钟，有意识地低头看一眼，或者用手感受一下几个特定部位的皮肤。这不仅是为了清洁，更是一次基础的身体自检。很多关于HPV的早期信号，往往就藏在这些一扫而过的瞬间里。 图虫创意 很多男性觉得HPV与自己无关，但实际上，这几秒钟的自检非…",
+      "key_points": [
+        "很多男人的洗澡过程就是：淋湿、抹肥皂、冲水、结束。干净利落，从不拖泥带水",
+        "在每天这不到十分钟的清洁过程中顺便完成，就是对健康风险的及时捕捉",
+        "旨在分析皮肤科门诊男性患者人乳头瘤病毒(HPV)感染情况及基因亚型分布，为防治男性HPV感染提供参考。调查2022年1月-2023年3月在南京市江宁医院皮肤科门…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "天再冷也别开电热毯，尤其是南方！现在都流行用这个！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A9%E5%86%8D%E5%86%B7%E4%B9%9F%E5%88%AB%E5%BC%80%E7%94%B5%E7%83%AD%E6%AF%AF%EF%BC%8C%E5%B0%A4%E5%85%B6%E6%98%AF%E5%8D%97%E6%96%B9%EF%BC%81%E7%8E%B0%E5%9C%A8%E9%83%BD%E6%B5%81%E8%A1%8C%E7%94%A8%E8%BF%99%E4%B8%AA%EF%BC%81",
+      "published": "Fri, 30 Jan 2026 12:18:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "APP",
+        "UP",
+        "battle",
+        "dc_ps",
+        "detail"
+      ],
+      "summary": "都说冬天北方的 宝子 在房间里嘚瑟，而南方的 土豆则 在屋里冻得直哆嗦。 尤其是阴雨天一来，家里到处都冷冰冰的。每 天 钻进 和钻出 被窝的那一刻，冻得格外清醒。 所以南方人睡觉基本是离不开 电热毯 的。 不过， 电热毯选不好，用起来也是小心翼翼、不太舒适的 。比如—— 很容易越睡越干燥 ，上火上到嗓子眼； 总担心不安全，不敢开一整夜，还可能存在漏电、短路着火等风险； 传统 热毯一般采用电阻丝 （比较硬） 来发热，躺上去总 隐约有一丝异物感，对小孩或皮肤敏敏的宝子来说，这种不适感会更明显。 而且，电热毯只能温暖晚上…",
+      "key_points": [
+        "用这种材料做出来的毯子得有 多轻薄、多舒服 ~ 再一个，碳纳米 管 薄膜 非常柔软且耐弯折 。这两个特点直接就表明了它是一种非常适合制作电热毯的材料",
+        "所以南方人睡觉基本是离不开 电热毯 的",
+        "电热毯选不好，用起来也是小心翼翼、不太舒适的 。比如—— 很容易越睡越干燥 ，上火上到嗓子眼； 总担心不安全，不敢开一整夜，还可能存在漏电、短路着火等风险； 传…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "如何在微信里找文章",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BE%AE%E4%BF%A1%E9%87%8C%E6%89%BE%E6%96%87%E7%AB%A0",
+      "published": "Fri, 30 Jan 2026 11:29:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ar",
+        "big",
+        "Bitsea",
+        "exp",
+        "gray"
+      ],
+      "summary": "我有烦恼，心不得安。 我做了原创标记的公众号文章接近 3000 篇，然后经常有读者来问我：请帮我找一下某某文章，它是谈什么什么的，我现在找不到了。我也经常会分享一些文章，推荐一些文章，然后经常有读者来问我：你是不是曾经推荐过一篇文章？内容是关于什么什么的，当时我看了一半现在找不到了，请你给我链接。 这就让我很烦恼。让我在 3000 篇文章里回想某一篇，问这个问题的人能不能回想一下自己过去十年间的某一天自己做了什么？既然你做不到，为什么觉得我就能做到呢？ 我推荐一篇文章，这已经是我本分之外的事情。是因为我的缘故，你知…",
+      "key_points": [
+        "现在的问题是：如何在微信体系里找到一篇自己错过的文章。别人的做法我不知道，这里分享一下我的方法： 1、如果我记得那篇文章的关键信息，能想起其中提到的几个特定中文…",
+        "那么你就有可能主动养成一个新习惯：当你阅读任何公众号文章的时候，如果觉得文章有趣但是你此刻又没有时间，你可以点开文章页面右上角的三个省略号，然后你就有很多个选择…",
+        "想过一会儿接着读，你可以点「浮窗」，于是文章就会变成微信任何窗口右上的一个小浮窗。任何时候你闲下来了，点开浮窗，文章就在里面，你就可以接着继续读。还有个好消息：…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "28岁，博士毕业一年多，这个科研大奖为什么选中了她？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+28%E5%B2%81%EF%BC%8C%E5%8D%9A%E5%A3%AB%E6%AF%95%E4%B8%9A%E4%B8%80%E5%B9%B4%E5%A4%9A%EF%BC%8C%E8%BF%99%E4%B8%AA%E7%A7%91%E7%A0%94%E5%A4%A7%E5%A5%96%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E4%B8%AD%E4%BA%86%E5%A5%B9%EF%BC%9F",
+      "published": "Fri, 30 Jan 2026 08:03:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Nature",
+        "OLET",
+        "ACCEL",
+        "END",
+        "get"
+      ],
+      "summary": "1.30 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash 撰 文 | 戴晶晶 ● ● ● 在申报青山科技奖时，上海交通大学助理教授、28 岁的陈一彤把申报材料交给一位前辈请教。对方看完后直言不讳：“你这 PPT 不行，看起来像刚博士毕业没多久的人做的。” 陈一彤愣了一下，“我确实博士毕业才一年多”。 就在昨天，她成为青山科技奖有史以来最年轻的获奖者，这是一个由美团发起的，聚焦绿色、低碳、可持续发展，面向青年科学家的公益性奖项。 第五届青山科技奖得主、上海交通大学助理教授陈一彤 2…",
+      "key_points": [
+        "1.30 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash 撰 文 | 戴晶晶 ● ● ● 在申报青山科技奖时，上海交通大学助…",
+        "但刚毕业时，资金也非常有限。“只能带几个学生做基础研究”，想把科研成果落地做技术开发和示范，却缺乏资金支持，只能先构思，尝试与企业进行探索性合作",
+        "当研究开始真正面对能耗、成本、稳定性和产业链适配性等具体约束时，数字化与绿色化往往同时出现，彼此嵌套。也正是在这一阶段，企业科研奖项的特别之处开始显现：它不要求…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "亚洲科技变革峰会 | 2026年，企业如何重新定义企业的AI核心战略？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E4%BA%9A%E6%B4%B2%E7%A7%91%E6%8A%80%E5%8F%98%E9%9D%A9%E5%B3%B0%E4%BC%9A+%7C+2026%E5%B9%B4%EF%BC%8C%E4%BC%81%E4%B8%9A%E5%A6%82%E4%BD%95%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89%E4%BC%81%E4%B8%9A%E7%9A%84AI%E6%A0%B8%E5%BF%83%E6%88%98%E7%95%A5%EF%BC%9F",
+      "published": "Wed, 28 Jan 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "Impact",
+        "AI",
+        "Asia",
+        "asiaevents",
+        "Change"
+      ],
+      "summary": "由Economist Impact主办的 第六届亚洲科技变革峰会（Technology for Change Asia 2026） 将 于3月11日-12日在香港举行。 免费VIP席位申请通道已开放，诚邀您加入。 意向人士请扫码提交登记。审核通过后，您将在邮箱收到正式确认与参会细则。 ↓扫码申请免费席位↓ 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，合和酒店 关于Economist Impact Economist Impact 致力赋能企业、政府及基金会，推动变革并促进发展。作为 经济学人集…",
+      "key_points": [
+        "由Economist Impact主办的 第六届亚洲科技变革峰会（Technology for Change Asia 2026） 将 于3月11日-12日在香…",
+        "↓扫码申请免费席位↓ 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，合和酒店 关于Economist Impact Economist Im…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《卡罗尔》，十年了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E5%8D%A1%E7%BD%97%E5%B0%94%E3%80%8B%EF%BC%8C%E5%8D%81%E5%B9%B4%E4%BA%86",
+      "published": "Fri, 30 Jan 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Desirae",
+        "Embree",
+        "hongmomgs",
+        "irisfilm",
+        "Lies",
+        "Little"
+      ],
+      "summary": "作者： Desirae Embree 译者： 覃天 校对： 易二三 来源： Little White Lies （2025年12月10日） 当托德·海因斯的经典爱情故事迎来十周年，《卡罗尔》邀请我们用新的眼光来想象「节日」。 自从我们收到托德·海因斯的《卡罗尔》这份「节日礼物」，已经过去十年。影片改编自帕特里夏·海史密斯 1952 年的小说，讲述两位女性在 20 世纪 50 年代纽约的节日期间相恋。 它一上映便被迅速奉入「经典圣诞电影」的殿堂——在这个类型片传统里，影迷们总爱做「纯度测试」、爱抠细节，而要在其中站稳…",
+      "key_points": [
+        "它一上映便被迅速奉入「经典圣诞电影」的殿堂——在这个类型片传统里，影迷们总爱做「纯度测试」、爱抠细节，而要在其中站稳一席之地并不容易。与此同时，《卡罗尔》既唤起…",
+        "自从我们收到托德·海因斯的《卡罗尔》这份「节日礼物」，已经过去十年。影片改编自帕特里夏·海史密斯 1952 年的小说，讲述两位女性在 20 世纪 50 年代纽约…",
+        "以至于我们往往不以为意、男性也常常看不见；它在当代的对应物，也许就是那种下意识的互夸与立刻回夸：「我喜欢你的裙子！」「谢谢！我也喜欢你的！」 这段对话发生在百货…"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "如果最近不知道看什么剧，那就看这部",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A6%82%E6%9E%9C%E6%9C%80%E8%BF%91%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9C%8B%E4%BB%80%E4%B9%88%E5%89%A7%EF%BC%8C%E9%82%A3%E5%B0%B1%E7%9C%8B%E8%BF%99%E9%83%A8",
+      "published": "Fri, 30 Jan 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MCU",
+        "DODC",
+        "Back",
+        "Call",
+        "Doorman",
+        "Footage"
+      ],
+      "summary": "文 Nose 《奇迹人》肯定是最近很受期待的一部剧了。 毕竟漫威血统嘛。 它是漫威聚焦旗下的一个项目，发行模式上采用的是全集同步上线的策略，而在内容上，它也对「超级英雄」的概念，做了一次颠覆式的拆解，依我看，这部剧所图甚大。 故事主角西蒙 · 威廉姆斯，是一个在好莱坞苦苦挣扎的非裔美国演员，不仅要面对行业系统排斥，还必须隐藏自己真实拥有的一种离子超能力。 这种「演员扮演超级英雄」的叙事设定，让这部剧集从一开始就脱离了传统动作片的范畴，进入社会学和媒介批评的领域——它又是一种元叙事。 《奇迹人》有一个比较复杂的戏中戏…",
+      "key_points": [
+        "《奇迹人》的一大优点在于对地面层级叙事的坚持。不同于动辄涉及多元宇宙毁灭的宏大项目，这部将冲突锁定在洛杉矶的音像棚和破旧公寓中，通过对拍摄现场细节的真实呈现，为…",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 韩国同志电影，又进步了 这部剧野心很大，可以力挽狂澜吗",
+        "发行模式上采用的是全集同步上线的策略，而在内容上，它也对「超级英雄」的概念，做了一次颠覆式的拆解，依我看，这部剧所图甚大"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-01-31",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "伦敦凭什么超越柏林、巴黎、东京？它不是硅谷，却孵化了比这三座城市总和还多的独角兽企业 | 经济学人英国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BC%A6%E6%95%A6%E5%87%AD%E4%BB%80%E4%B9%88%E8%B6%85%E8%B6%8A%E6%9F%8F%E6%9E%97%E3%80%81%E5%B7%B4%E9%BB%8E%E3%80%81%E4%B8%9C%E4%BA%AC%EF%BC%9F%E5%AE%83%E4%B8%8D%E6%98%AF%E7%A1%85%E8%B0%B7%EF%BC%8C%E5%8D%B4%E5%AD%B5%E5%8C%96%E4%BA%86%E6%AF%94%E8%BF%99%E4%B8%89%E5%BA%A7%E5%9F%8E%E5%B8%82%E6%80%BB%E5%92%8C%E8%BF%98%E5%A4%9A%E7%9A%84%E7%8B%AC%E8%A7%92%E5%85%BD%E4%BC%81%E4%B8%9A+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%8B%B1%E5%9B%BD",
+      "published": "Tue, 27 Jan 2026 19:21:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "in",
+        "London",
+        "is",
+        "as"
+      ],
+      "summary": "本文选自经济学人20260126英国板块 Britain | Founder Factory 英国｜创业者工厂 How London became the rest of the world ’ s startup capital 伦敦如何成为全球（硅谷以外）的初创之都 Outside America, no other city comes close 放眼美国之外，无一城市能望其项背 AT FIRST GLANCE London ’ s startup scene can look like a parody.…",
+      "key_points": [
+        "本文选自经济学人20260126英国板块 Britain | Founder Factory 英国｜创业者工厂 How London became the re…",
+        "“ Home Grown Club ”自称是“值得结识之人”的私密商务会所，提供奢华晚宴、“流瑜伽”，还举办诸如“从默默无闻到举足轻重”之类的活动；“ Opus…",
+        "伦敦的创业圈简直像个滑稽模仿秀"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "理论上一个行星上最大的陨石坑能达到行星的什么比例？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9786958",
+      "published": "Sat, 24 Jan 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HD80606b",
+        "NASA",
+        "snowtree"
+      ],
+      "summary": "snowtree， 用科幻的眼睛看世界 查看知乎原文 行星级的碰撞事件非常常见，而且极端暴力 。这些撞击不止让天体变成到处乱飞的流体，还会改变整个恒星系的轨道分布。 朱诺号于 2016 年抵近木星，它传回的引力场数据显示木星的内核是碎的。近一步分析是 46 亿年前有一颗比地球大 10 倍的岩质行星撞击了木星的正中间，完全击碎了木星的岩质内核。按照当量来说比忒弥亚大了好几个数量级，是太阳系形成至今的最大撞击。 链接 这次撞击把木星岩石内核给撞没了，木星内部现在没有成型的岩石核心，重元素残骸弥散在金属氢的海洋之中 太阳…",
+      "key_points": [
+        "木星内部现在没有成型的岩石核心，重元素残骸弥散在金属氢的海洋之中 太阳系形成之初的木星大撞击 天王星的自转倾角高达 98 度，几乎是躺在轨道上转动，这是因为至少…",
+        "它传回的引力场数据显示木星的内核是碎的。近一步分析是 46 亿年前有一颗比地球大 10 倍的岩质行星撞击了木星的正中间，完全击碎了木星的岩质内核。按照当量来说比…",
+        "这有可能是 45 亿年前一颗火星大的行星把它给撞翻了 180 度，上下颠倒了。这目前只是其中一个假说，有可能撞击规模比较小，只是减慢了金星的转速"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "新物种PixVerse R1，闯入大模型的无人区",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%96%B0%E7%89%A9%E7%A7%8DPixVerse+R1%EF%BC%8C%E9%97%AF%E5%85%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%97%A0%E4%BA%BA%E5%8C%BA",
+      "published": "Thu, 22 Jan 2026 15:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PixVerse",
+        "R1",
+        "AI",
+        "DeepSeek",
+        "Sora",
+        "ARR"
+      ],
+      "summary": "文 ｜ 阑夕 PixVerse R1新发布的「世界模型」，有点科幻照进现实的味道了。 之所以这么晚才写——要知道，AI行业的热点更新以小时为计，时隔一日就是过气话题了——是上周花了50块咸鱼买了邀请码之后，一直在玩这个模型，越用越上头的那种。 作为可灵、Veo 3、Runway的消耗大户， 我对PixVerse R1的最大感触，倒不是觉得视频大模型行业又蹦出了一个强大的竞争对手。 今天早上听405游局最新一期播客，爱诗 的人出来聊PixVerse R1做了一种 「 可玩的现实 」 ，给了用户没有预设的一个空间。这和…",
+      "key_points": [
+        "彼得·蒂尔说他对创新的价值判断始终在于「无人尝试的地方」，因为在已知的市场里翻拣，只会误导自己关注过去的机会： 「如果你根据一台打字机造出了一百台打字机，那就只…",
+        "爱诗 的人出来聊PixVerse R1做了一种 「 可玩的现实 」 ，给了用户没有预设的一个空间。这和我的感触一致： PixVerse R1打开的是一片无人区，…",
+        "作为可灵、Veo 3、Runway的消耗大户， 我对PixVerse R1的最大感触，倒不是觉得视频大模型行业又蹦出了一个强大的竞争对手"
+      ]
+    }
+  ]
+}
