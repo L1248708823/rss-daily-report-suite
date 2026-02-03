@@ -1,0 +1,893 @@
+{
+  "date": "2026-02-03",
+  "generated_at": "2026-02-03T01:00:05.844824+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 264,
+    "fresh_candidates": 67,
+    "backfill_candidates": 197,
+    "items_published": 27,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-03",
+      "fetched_at": "2026-02-03T01:00:05.503824+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4015.75,
+          "change": -102.2,
+          "change_pct": -2.48,
+          "volume": 732953698.0,
+          "amount": 116353265.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4779.64,
+          "change": 123.18000000000029,
+          "change_pct": 2.65,
+          "prev_close": 4656.46,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-03 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1067.0767006928481,
+          "change": 27.500503801823015,
+          "change_pct": 2.6453572026818724,
+          "prev_close": 1039.5761968910251,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-03 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么我觉得朱元璋的文治武功其实不如朱棣?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787358",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "KPI"
+      ],
+      "summary": "宁南左侯， 太极生二姨 查看知乎原文 朱元璋的文治武功有一个问题，叫“善战者无赫赫之功”，因为解决的太彻底，以至于后来大家都开始怀疑当时问题的严峻程度，甚至觉得不过如此。 举个例子，科举。 元代的时候官方政策倾斜于读书人，我们现在说九儒十丐，似乎元朝不屑于这些儒士，然而在当时，儒士是单独编为儒籍的，而儒籍较之于民籍、军籍最大的特点就是可以优免杂泛差役，“汉儿人、河西秀才每， 不拣甚么差发， 休着秀才的功业习者”“年不经分拣附籍、漏籍儒人……能通文学者， 依例免差”。而且既然是编入户籍，就意味着他的子孙也享受此待遇，…",
+      "key_points": [
+        "太极生二姨 朱元璋的文治武功有一个问题，叫“善战者无赫赫之功”，因为解决的太彻底，以至于后来大家都开始怀疑当时问题的严峻程度，甚至觉得不过如此",
+        "朱元璋制定的科举、贡士规则贯穿整个明朝，而他亲自厘定的教育系统更是沿用了明清两朝五百多年，但现在似乎没有人觉得这是朱元璋的功劳，也没人觉得老朱在科举制度和明清教…",
+        "连中原都还没彻底拿下来的朱元璋就已经下令在全国范围内“大建学校”了，府州县各有学校，府学 40 人、州学 30 人、县学 20 人，你说你没时间读书，得种地养家…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史上后妃每天都在干什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787366",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "好吃的什锦锅， 爱好人文历史 喜欢杂想杂记 查看知乎原文 也别后妃了，咱以唐朝为例，通过《旧唐书》、《新唐书》、《唐六典》等史书中史料，来看看皇后的一日是怎样度过的吧。 清晨 3-5 点 寅时初刻，长安城尚在沉睡，太极宫立政殿已点亮了第一盏宫灯。皇后在贴身女官尚宫的轻声唤请中醒来（唐代后宫制度严密，据《唐六典》记载，皇后有专属的“尚宫局”管理起居）。这位贞观年间（假设以唐太宗长孙皇后为参照）的皇后，缓缓起身时，已有四名司寝宫女跪奉温热的蔷薇露供她净面。 晨妆时刻绝非简单的梳洗。司饰女官奉上御制妆奁：先用玉簪花露润肤…",
+      "key_points": [
+        "爱好人文历史 喜欢杂想杂记 也别后妃了，咱以唐朝为例，通过《旧唐书》、《新唐书》、《唐六典》等史书中史料，来看看皇后的一日是怎样度过的吧"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "鱼从来没上过陆地，为什么知道玉米粒可以吃？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787362",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "L-",
+        "Acids",
+        "Amino",
+        "Animalonearth",
+        "FAAs",
+        "Fish"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 因为在鱼的感官逻辑里，玉米压根就不是植物。 我们先说视觉。水是一种很特别的滤光器，随着深度增加，红光最先被吸收，世界变得一片惨绿或幽蓝。 不同颜色的光在清澈的远洋海域与较浑浊的近岸海域中穿透深度的比较。水会吸收如红色和橙色等较暖的长波长颜色，并散射较冷的短波长颜色。 但在淡水河流或湖泊这种经常浑浊的环境里，长波长的红橙光虽被过滤，但黄光和绿光的穿透效率依然很高 。 对于拥有四色视觉的鲤科鱼类来说，黄色是极高对比度的信号色 [1] [2…",
+      "key_points": [
+        "鱼吃玉米只是感官误判，它不知道这是一种蔬菜。玉米偶然地集齐了鱼类食谱中所有诱人的特征：长得像高蛋白虫卵，闻起来又鲜美，吃起来还甜甜的。至于这玩意到底是啥，对它来…",
+        "所以当玉米粒在水中释放出这股混合了谷氨酸和甜菜碱的化学羽流时，鱼闻到的根本不是淀粉的味道，而是一股浓烈的“这里有肉”的信号 [4] [5]",
+        "黄色是极高对比度的信号色 [1] [2] 。当一颗亮黄色的玉米粒沉入水底暗色的淤泥背景中时，它在鱼眼里显得十分亮眼"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "大事频发，投资如何心安？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%A4%A7%E4%BA%8B%E9%A2%91%E5%8F%91%EF%BC%8C%E6%8A%95%E8%B5%84%E5%A6%82%E4%BD%95%E5%BF%83%E5%AE%89%EF%BC%9F",
+      "published": "Mon, 02 Feb 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 中泰证券资管 “大事频发”是许多投资者近期的深切感受。地缘冲突、政策转向、巨头财报、重要会议……常常是前一个议题还没搞清楚，新的议题又已跃入视野。在这种快节奏、高密度的信息冲击下，人很容易陷入焦虑，担心有片刻“离线”，就会错过什么大事。 可能引发市场震荡的大事那么多，投资如何心安？这也是近期小编和同事们常讨论的问题。以下，是我们的一些思考整理。 一是接受“不可为”，聚焦“可为处”。 上…",
+      "key_points": [
+        "中泰证券资管 “大事频发”是许多投资者近期的深切感受。地缘冲突、政策转向、巨头财报、重要会议……常常是前一个议题还没搞清楚，新的议题又已跃入视野。在这种快节奏、…",
+        "投资如何心安？这也是近期小编和同事们常讨论的问题。以下，是我们的一些思考整理",
+        "投资如果追求的不是“赚得最多”，而是“睡得更稳”与“内心安宁”，那么多元资产配置的价值就很明确。其本质是利用不同资产间不完全同步的周期形成波动对冲，从而平滑收益…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "且论周期与周期股--以有色金属七大龙头企业为例",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1641200866/374291173",
+      "published": "Mon, 02 Feb 2026 09:31:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CAGR",
+        "pe",
+        "CAGR32.05",
+        "CAGR37.68",
+        "http",
+        "ps"
+      ],
+      "summary": "发现很多人看周期，只看绝对的价格，来判断是否是周期高点和低点，而不是从底层逻辑来看。就像很多人看股价一样。他默认的把周期当成在一个波段内循环往复，却不思考内在原因。(这也是为什么技术面突破箱体结构之后的价格爆发上涨，因为打破了人们心中的共识价格区间，形成了新的估值逻辑)。 什么是周期？简单说就是经济/行业的景气度会按“复苏→繁荣→衰退→萧条”的规律循环往复。而周期股是业绩和股价走势高度绑定宏观经济周期、行业供需景气度的股票，其盈利会随经济冷热、行业兴衰出现大幅的周期性波动。 万物皆周期，哪怕是王朝都有历史的兴衰周期…",
+      "key_points": [
+        "最重要的是影响因素供需关系，其次是流动性。所以判断周期是高是低，而是判断供需关系，其次看流动性。就如同看一个股票股价上涨，首先判断的应该是基本面，包括估值，盈利…",
+        "全行业净利润处于历史低位，体现周期的“共性低迷” 2016年是有色金属行业的大底部，铜、金等大宗商品价格跌至近10年低位，行业供需严重过剩，7家公司净利润均处于…",
+        "在有色金属是以强周期性行业中，不同企业因资源品位，技术能力导致的生产成本差异极大(2-3倍以上)。这就会导致其周期性远弱于差异很小的化工行业，其产品技术，成本，…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "储能经济性与碳酸锂价格的关系研究",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7286533602/374289303",
+      "published": "Mon, 02 Feb 2026 09:31:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IRR",
+        "EPC",
+        "MW",
+        "MWh",
+        "Wh",
+        "wh"
+      ],
+      "summary": "当碳酸锂的价格进入15-20万区间时，市场对于碳酸锂价格可能压制储能需求的声音又多了起来，这里主要从几个方面拆解进行一些分析： 碳酸锂在储能整体EPC中的成本占比，储能项目的收益项目构成，未来融资利率降低对储能IRR提升的意义可以一定程度上冲抵碳酸锂价格的上涨。 惯例结论在前： 在当前储能项目的成本与收益结构下， 碳酸锂价格并非决定储能项目经济性的核心变量 。在主流储能EPC价格约0.75–0.85元/Wh的区间内，按偏保守口径估算，碳酸锂在EPC总成本中的占比通常处于 8%–20%的范围（对应10-30万碳酸锂价…",
+      "key_points": [
+        "惯例结论在前： 在当前储能项目的成本与收益结构下， 碳酸锂价格并非决定储能项目经济性的核心变量 。在主流储能EPC价格约0.75–0.85元/Wh的区间内，按偏…",
+        "市场对于碳酸锂价格可能压制储能需求的声音又多了起来，这里主要从几个方面拆解进行一些分析： 碳酸锂在储能整体EPC中的成本占比，储能项目的收益项目构成，未来融资利…",
+        "储能项目的经济性，本质上更多取决于 收入机制（电量套利、容量补偿、辅助服务）与融资条件 ，而非单一原材料价格波动。在容量补偿政策逐步明确、辅助服务市场化程度持续…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "元宝10亿红包，只不过暴露了腾讯AI的落后",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7368170779/374400633",
+      "published": "Mon, 02 Feb 2026 09:31:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "Kik",
+        "APP",
+        "H200",
+        "http"
+      ],
+      "summary": "元宝最近砸 10 亿发红包的声势很大，各类微信群里红包链接刷屏，也正因链接泛滥造成信息过载，不少群开始集体抵制，甚至还有不少群立下 “发元宝链接即踢出群聊” 的群规。 这波操作的直接效果立竿见影，腾讯元宝 App 一举冲上苹果商店免费 App 榜单第一名。而阿里千问也火速加入这场红包大战，据传计划投入 30 亿跟进。 我把几款产品都体验了一遍，还是觉得豆包最好用，尤其是豆包的 “深入研究” 功能，更是我的日常投资研究的刚需，每天都会用。 所以在我看来，元宝这样的烧钱不能说没意义，可能在培养用户习惯上是有些作用的，但…",
+      "key_points": [
+        "腾讯元宝 App 一举冲上苹果商店免费 App 榜单第一名。而阿里千问也火速加入这场红包大战，据传计划投入 30 亿跟进",
+        "26年抓紧囤货才是正事，用千亿级投入夯实 AI 基础能力，而不是用红包战术掩盖产品的不足。用户最终会用脚投票，谁更好用就用哪个，就像当年选择微信而非米聊一样，今…",
+        "各类微信群里红包链接刷屏，也正因链接泛滥造成信息过载，不少群开始集体抵制，甚至还有不少群立下 “发元宝链接即踢出群聊” 的群规"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "黄金历史性暴跌之后，能不能去抄底？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6087293231/374240591",
+      "published": "Mon, 02 Feb 2026 09:30:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CME",
+        "Comex",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "贵金属迎来历史性波动，黄金创下近40年最大单日跌幅，最高跌超12%；白银则刷新历史最大日内跌幅纪录，一度跌超36%。现货铂金和钯金也未能幸免于难，分别重挫17.59%和14.89%。接下去那就涉及到一个问题：要不要去抄底？ 先给结论：短期不用急着抄底，尤其是对于风险偏好偏低的朋友来说，更需格外谨慎。 按照我自己的理解，这次金银的大跌是情绪跟杠杆都到达极端后的一次短期出清，回顾历史性金银见到阶段性高端的走势，本轮具备几乎所有的特征：黄金拉高后，白银疯狂补涨，不敢买黄金的散户快速入场拉高银价，情绪到达极端，然后呈现出崩…",
+      "key_points": [
+        "看到三个因素都指向抄底仍旧需要谨慎： （1）贵金属的波动率水平仍旧处在极端水平，无论是黄金突破40，白银突破100，这都属于历史极端的波动状态。这种高波动意味着…",
+        "黄金创下近40年最大单日跌幅，最高跌超12%；白银则刷新历史最大日内跌幅纪录，一度跌超36%。现货铂金和钯金也未能幸免于难，分别重挫17.59%和14.89%。…",
+        "这次金银的大跌是情绪跟杠杆都到达极端后的一次短期出清，回顾历史性金银见到阶段性高端的走势，本轮具备几乎所有的特征：黄金拉高后，白银疯狂补涨，不敢买黄金的散户快速…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "春节十亿红包的背后：AI超级入口的豪赌",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337084.html",
+      "published": "Mon, 02 Feb 2026 08:44:24 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "App",
+        "Kimi",
+        "AGENT",
+        "Agent"
+      ],
+      "summary": "当腾讯、百度、阿里、字节四家大厂在春节前夕集体抛出5-10亿红包，这场看似熟悉的撒钱大战已悄然换血——主角从支付、电商，变成了AI助手。红包不再是简单的营销工具，而是培养用户“先问AI”习惯的诱饵，更是大厂争夺AI超级入口叙事权的关键战役。 似乎是某种默契，AI将大厂的争夺拉到了同一个水平起点上。马年春节临近，腾讯、百度、字节跳动、阿里巴巴四家大厂重启了红包大战，金额从5亿到10亿不等，而将靶点也直接指向了AI。 十年前，红包是支付入口或电商导流的工具；如今，红包成了争夺AI助手“超级入口”的诱饵。 腾讯元宝、百度…",
+      "key_points": [
+        "当腾讯、百度、阿里、字节四家大厂在春节前夕集体抛出5-10亿红包，这场看似熟悉的撒钱大战已悄然换血——主角从支付、电商，变成了AI助手。红包不再是简单的营销工具…",
+        "红包是支付入口或电商导流的工具；如今，红包成了争夺AI助手“超级入口”的诱饵",
+        "这种变化让“AI超级入口”的争夺更具战略价值——谁能先让用户形成“先问AI”的习惯，谁就拿到了未来互联网生态的新船票"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "连续创立2家AI独角兽！这个大佬，这次要让AI自己进化",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6337079.html",
+      "published": "Mon, 02 Feb 2026 08:32:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Socher",
+        "You.com",
+        "Recursive",
+        "MetaMind",
+        "Richard"
+      ],
+      "summary": "从MetaMind的企业级AI应用到You.com的搜索平台转型，再到Recursive的自我进化AI系统，Richard Socher的创业轨迹始终围绕AI技术的边界突破展开。本文深度解析这位连续创业者对AI演进方向的五个关键判断，包括奖励工程范式革命、目标错位风险及三种未来AI图景，揭示超智能时代的技术与伦理挑战。 说起Richard Socher，AI 圈里的人大多不会陌生。 他是较早一批将深度学习从学术研究推向产业落地的研究者之一。早年，Socher 创立了 MetaMind，专注于利用神经网络理解语言结构…",
+      "key_points": [
+        "从MetaMind的企业级AI应用到You.com的搜索平台转型，再到Recursive的自我进化AI系统，Richard Socher的创业轨迹始终围绕AI技…",
+        "这也意味着，Richard Socher 在短短几年内，已连续打造出两家AI独角兽公司",
+        "02 对AI的5个关键判断 作为一位在AI 领域多次完成从研究到商业化落地的连续创业者，Socher 对 AI 的判断，往往并非停留在技术层面，而是带有明显的长…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "岗位名称也能成为壁垒？谁先给AI岗位起个好名字，谁就赢了人才争夺战",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6337077.html",
+      "published": "Mon, 02 Feb 2026 08:27:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "engineer",
+        "title",
+        "Palantir",
+        "arbitrage",
+        "Hollands"
+      ],
+      "summary": "一个职位名称的改变，竟能重塑行业权力结构？从Palantir创造“前线部署工程师”到AI时代涌现的“法律工程师”，title arbitrage（职位头衔套利）正成为企业抢占人才高地的隐秘武器。本文深度解析职位头衔如何随组织能力演变，揭示在AI重构各行各业的当下，率先定义新角色名称的公司如何赢得心智份额、构建招聘护城河。 你有没有想过，一个职位名称的改变，能够彻底重塑一个行业的权力结构？2011年，Palantir做了一件看起来很荒谬的事：他们把公司里地位相对较低的解决方案工程师和集成工程师，统统改名叫 Forwa…",
+      "key_points": [
+        "一个职位名称的改变，能够彻底重塑一个行业的权力结构？2011年，Palantir做了一件看起来很荒谬的事：他们把公司里地位相对较低的解决方案工程师和集成工程师，…",
+        "竟能重塑行业权力结构？从Palantir创造“前线部署工程师”到AI时代涌现的“法律工程师”，title arbitrage（职位头衔套利）正成为企业抢占人才高…",
+        "最好的例子莫过于那些让每家科技公司运转的人：程序员。最初，程序员相对不重要，他们被称为”IT”。但IT让人联想到小隔间、呆伯特漫画、电影《办公室空间》里的压抑氛…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2026，告别内卷：一份来自蓝海战略的破局指南",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6337050.html",
+      "published": "Mon, 02 Feb 2026 08:17:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Eleven",
+        "AI",
+        "Costco",
+        "House",
+        "QB",
+        "W."
+      ],
+      "summary": "19年过去，《蓝海战略》依然闪耀着不灭的商业智慧光芒。当无数企业深陷红海内卷时，本书提出的价值创新框架正成为破局增长的关键密码。本文将通过50个最新案例，深度解析七维蓝海方法论，带你掌握从存量厮杀转向增量创造的战略思维。 自2005年问世以来，《蓝海战略》便席卷全球商界，成为重塑商界认知、影响学术研究的里程碑式著作。“红海”与“蓝海”这两个概念，也已超越单纯的色彩符号，逐渐沉淀为商业领域中具有普遍解释力的战略隐喻： 前者象征厮杀激烈、利润枯竭的已知市场空间，后者则指向尚未开拓、充满可能的新领域。 时至今日，当许多企…",
+      "key_points": [
+        "《蓝海战略》的两位作者曾用五年时间，研究了全球30个行业中超过50家企业的增长轨迹，并得出两个值得关注的结论： 增长具有广泛性 ：10倍级的增长并非只属于巨头或…",
+        "《蓝海战略》依然闪耀着不灭的商业智慧光芒。当无数企业深陷红海内卷时，本书提出的价值创新框架正成为破局增长的关键密码。本文将通过50个最新案例，深度解析七维蓝海方…",
+        "它可以看作是对以迈克尔·波特为代表的传统竞争战略框架的一种延伸与发展，主要体现在以下三个方面： 竞争焦点的转移： 波特战略的核心，是在既定的产业结构中 建立防御…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用 3169 模型拆解霸王茶姬商业模式，如何用“工业化芯片”重做东方茶？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6337037.html",
+      "published": "Mon, 02 Feb 2026 08:15:49 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GMV",
+        "vs.",
+        "CC0",
+        "CoCo",
+        "Franchisees",
+        "OpenClaw"
+      ],
+      "summary": "霸王茶姬的成功绝非偶然，其背后是一套精密设计的工业化系统。从原叶鲜奶茶的标准化定位，到自动化车间的业务系统，再到利益重组的交易结构，这家企业用效率重构了整个茶饮行业的商业模式。本文将用‘三层九要素’框架，深度拆解这家现象级企业如何把东方茶饮变成一门精密生意。 “排长队”只是经营的结果，而非经营的过程 最近两年，如果要说中国餐饮界有什么现象级的案例，霸王茶姬绝对绕不开。 很多人看霸王茶姬，看到的是什么？是“排队”，是“包装像迪奥”，是“好像有点像茶颜悦色但开得满世界都是”。 但在我眼里，这些都只是表象。 如果你只盯着…",
+      "key_points": [
+        "其背后是一套精密设计的工业化系统。从原叶鲜奶茶的标准化定位，到自动化车间的业务系统，再到利益重组的交易结构，这家企业用效率重构了整个茶饮行业的商业模式。本文将用…",
+        "这是霸王茶姬在2025年即将进行的一场豪赌，也是商业模式中最精彩的 结构性变革",
+        "霸王茶姬给我们的启示是： 不要迷恋所谓的“风口”和“爆品”。真正的商业底气，藏在那些枯燥的、可拆解的、可优化的“三层九要素”里"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "疯狂收割“爱老己”的年轻人，VR“摆地摊”的月入10万",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%96%AF%E7%8B%82%E6%94%B6%E5%89%B2%E2%80%9C%E7%88%B1%E8%80%81%E5%B7%B1%E2%80%9D%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%EF%BC%8CVR%E2%80%9C%E6%91%86%E5%9C%B0%E6%91%8A%E2%80%9D%E7%9A%84%E6%9C%88%E5%85%A510%E4%B8%87",
+      "published": "Mon, 02 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VR",
+        "XR",
+        "IP",
+        "AI",
+        "excel-ers",
+        "FuntasyVR"
+      ],
+      "summary": "内容转载自表外表里，微信公众号ID：excel-ers。 文：陈梓洁 编辑：曹宾玲 数据支持：洞见数据研究院 VR摆摊、一次10块，听起来像荒谬的“行为艺术”，罗坚却从最初的1台头显，一路做大到4台、8台。 他原本只想低成本试水VR赛道，结果超乎意料：第一批客人尝鲜后，路人们纷纷吻了上来，一台头显不够用，赚到的钱又被他拿去买新设备。 敏宁更是深刻体会了VR行业的潜力，生意最火爆时，她大年三十的晚上被顾客打电话催开门营业。如今，第5家体验馆已在落地的路上，预计3-6个月收回固定投入成本，一年内实现盈利。 “我们店里的…",
+      "key_points": [
+        "有跨越大半个城市，只为跟朋友在包间里热闹一阵子的小年轻；也有70后医生，下了手术台结伴而来，玩上几百块都不眨眼。接待的人越多，敏宁越能清晰感觉到，现代人的孤独与…",
+        "开饮品店的也来凑热闹，马诗轩听过最夸张的一位，通过爆改第三空间为VR剧场，做到了日入3k、月入近10万"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "配眼镜验光时看到的“小房子”或者“热气球”，是干什么用的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%85%8D%E7%9C%BC%E9%95%9C%E9%AA%8C%E5%85%89%E6%97%B6%E7%9C%8B%E5%88%B0%E7%9A%84%E2%80%9C%E5%B0%8F%E6%88%BF%E5%AD%90%E2%80%9D%E6%88%96%E8%80%85%E2%80%9C%E7%83%AD%E6%B0%94%E7%90%83%E2%80%9D%EF%BC%8C%E6%98%AF%E5%B9%B2%E4%BB%80%E4%B9%88%E7%94%A8%E7%9A%84%EF%BC%9F",
+      "published": "Mon, 02 Feb 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Bryce",
+        "of",
+        "Wilner",
+        "cet-archive",
+        "Device",
+        "dfv.com.au"
+      ],
+      "summary": "你见过下面这张图吗？如果没见过，那你可真是个幸运的人。 图丨Bryce Wilner 本高度近视患者告诉你：人们见到这张图的时候，往往正坐在电脑自动验光机面前，把眼睛怼在验光机上接受验光，准备配一副新眼镜，而这个房子就是他们透过视孔，在机器里能看到的唯一东西，并且还会一会儿模糊一会儿清楚。 这样丨参考资料[1] 图像变模糊的时候，人的感觉就好像脸贴书上看字，或者像摘了眼镜之后看2米外的电视，总之视线（和思维？）会进入一种涣散的状态。这时， 你的眼部肌肉放松了下来，眼睛状态很自然。 过一会儿，在验光师的操作下，这张图…",
+      "key_points": [
+        "图丨Bryce Wilner 本高度近视患者告诉你：人们见到这张图的时候，往往正坐在电脑自动验光机面前，把眼睛怼在验光机上接受验光，准备配一副新眼镜，而这个房子…",
+        "很多国家都出口或进口验光机，为了生意好做，固视图标应该还要符合“ 没有文化歧义 ”的特征，比如房子、花朵、热气球这些形象就很合适。要是弄个蓝天白云黑乌鸦，倒也能…",
+        "开头放的绿野版丨Bryce Wilner 栅栏版丨zh.dotmed.com 公路版丨reddit@Slyismylife54321 当然，固视图标也没必要非得…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "初高中脱颖而出的孩子，小学其实都在“死磕”同一件事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%88%9D%E9%AB%98%E4%B8%AD%E8%84%B1%E9%A2%96%E8%80%8C%E5%87%BA%E7%9A%84%E5%AD%A9%E5%AD%90%EF%BC%8C%E5%B0%8F%E5%AD%A6%E5%85%B6%E5%AE%9E%E9%83%BD%E5%9C%A8%E2%80%9C%E6%AD%BB%E7%A3%95%E2%80%9D%E5%90%8C%E4%B8%80%E4%BB%B6%E4%BA%8B",
+      "published": "Mon, 02 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "get",
+        "after",
+        "before",
+        "dc_ps",
+        "End",
+        "feature"
+      ],
+      "summary": "孩子上小学以后，能自由看书的时间少了，但是老师会要求多读书， 写阅读笔记、读后作文、 做思维导图等等，一切都围绕 “思辨阅读”、“读有所得” 来展开。 👆🏻新课标更注重情感、态度、价值观的正确导向 每次开 家长会， 老师都建议尽量保证每天晚上至少半个小时的阅读，每个年级都给推荐了相应的书单。 于是很多家长假期照着书单，给娃哐哐买书。不买不知道，一读娃给咱吓一跳： ❌ 书要么是翻也不翻，就是翻，也没能专注地看上个一俩小时； ❌ 不布置读书任务，抽空检查字词句和含义，娃是 “看过就忘” ； ❌ 好不容易坚持下来，再落到…",
+      "key_points": [
+        "深感让一群3年级的孩子辩论这类问题，挑战很大： 👉要有 鲜明的观点 ，说出能站得住脚的理由，否则就会有对方来抓你漏洞反驳你； 👉 要脑子转得快， 不能和你的队友…",
+        "需要提醒的是：“圆桌星球”可能不是每个孩子都能适应，但 好奇心强，不喜欢被思维惯式束缚，热爱打破常规思考问题，提出创新想法的孩子，一定能如鱼得水 （下图里，是孩…",
+        "感兴趣的妈妈又比较多，我也给大家提个醒： 👉这个课程需要有一定的理解能力，更适合小学的孩子； 👉上小学的孩子，出现以下这5种情况的，建议考虑试听一下这堂思辨课：…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么劝你不要买几千块的洗地机？（不只是因为贵",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8A%9D%E4%BD%A0%E4%B8%8D%E8%A6%81%E4%B9%B0%E5%87%A0%E5%8D%83%E5%9D%97%E7%9A%84%E6%B4%97%E5%9C%B0%E6%9C%BA%EF%BC%9F%EF%BC%88%E4%B8%8D%E5%8F%AA%E6%98%AF%E5%9B%A0%E4%B8%BA%E8%B4%B5",
+      "published": "Mon, 02 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "D7S",
+        "min",
+        "kg",
+        "amp",
+        "Brushed",
+        "D7"
+      ],
+      "summary": "工作后才发现， 什么也不如让自己偷懒多休息更爽 。扫地拖地那么累的活，就该用上科技，省力省时。 尤其马上要过年了，屋子各处都需要好好打扫一下 ，每次清扫都快把腰累断了，咱可别都揽活自己干了！ 但是自从看了科普后，家里的拖把是不敢用了， 脏拖把混在水里搅啊搅，就是脏水拖地 ，在潮湿的卫生间放半天，还容易有一股“馊了吧唧”的恶心味道。要说 全能省力选手肯定是 洗地机 无疑了。 不过市面上洗地机品牌真的太多了，但是 二千多的洗地机也能成“脏垃圾现场” ，很多人也是在观望犹豫。 每次大扫除真是累吐了，被折磨过的朋友们都在准…",
+      "key_points": [
+        "但是D7S用的是新材料滚筒， 头发不会缠死， 新升级的毛刷可以把女生的长发也收集到刷上 ，只需用包装盒里自带的刮刀刮下来就可以，比以前的洗地机方便省力很多",
+        "但是 二千多的洗地机也能成“脏垃圾现场” ，很多人也是在观望犹豫",
+        "手臂感受到的洗地机重量只有近500g，轻松省力"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "背上莫名出现“鞭痕”16年，每次都跟这种蘑菇有关……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%83%8C%E4%B8%8A%E8%8E%AB%E5%90%8D%E5%87%BA%E7%8E%B0%E2%80%9C%E9%9E%AD%E7%97%95%E2%80%9D16%E5%B9%B4%EF%BC%8C%E6%AF%8F%E6%AC%A1%E9%83%BD%E8%B7%9F%E8%BF%99%E7%A7%8D%E8%98%91%E8%8F%87%E6%9C%89%E5%85%B3%E2%80%A6%E2%80%A6",
+      "published": "Mon, 02 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Shiitake",
+        "dermatitis",
+        "of",
+        "Dermatol.",
+        "Flagellate",
+        "shiitake"
+      ],
+      "summary": "“你这样已经16年了？”医生脱口而出。 “对，间断出现过很多次，但我一直不知道是怎么来的。”这位45岁的女性低头看看自己的手臂，然后拉起上衣，露出更多猩红色线条，这些长长的红线穿过她的脖子、前胸、后背，一直向下延伸到腰腹的位置。 这看起来很像是……鞭打留下的痕迹。为了不被别人看到，她只能穿高领长袖的衣服。 背部莫名出现的红色线条 | 参考文献[2] 不是鞭子打的，也不是抓挠的 “红线每次都出现在胸背上，有的时候手臂和腿上也有，在2天内突然出现，大约一周之后逐渐消失，不留痕迹。”她继续描述着。 医生贴近观察，这是成片…",
+      "key_points": [
+        "背部莫名出现的红色线条 | 参考文献[2] 不是鞭子打的，也不是抓挠的 “红线每次都出现在胸背上，有的时候手臂和腿上也有，在2天内突然出现，大约一周之后逐渐消失…",
+        "你接触过平时遇不到的植物吗？或者吃过什么特殊的食物或药物？” 她早就仔细梳理过， 没有一样东西，是每次接触都会引起发作的 。她犹豫了一下说，不知道跟香菇有没有关…",
+        "香菇皮炎 没做熟加特殊体质才会出现 香菇皮炎，是 指食用生的或没有完全做熟的香菇引起的皮肤反应 。香菇目前是全世界销售量第二的蘑菇，1977年日本研究者报道了第…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "续集等了十年，果然更胜前作！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BB%AD%E9%9B%86%E7%AD%89%E4%BA%86%E5%8D%81%E5%B9%B4%EF%BC%8C%E6%9E%9C%E7%84%B6%E6%9B%B4%E8%83%9C%E5%89%8D%E4%BD%9C%EF%BC%81",
+      "published": "Mon, 02 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MI6",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 漠九 没想到《夜班经理》还有续集！ 下面会有一定的剧透，大家自己判断对你有没有影响吧。 《夜班经理》第二季 2016 年首播的《夜班经理》第一季，一直被间谍迷看成是约翰 · 勒 · 卡雷文学作品改编成当代影视剧的一个标杆。 《夜班经理》第一季 这一季最大的成功，当然是将勒卡雷笔下的冷战残余背景置换到了阿拉伯之春后的全球地缘政治框架。 不过，抛开政治背景而言，它把各种高端生活方式、异域美学情调，还有经典的间谍博弈策略，组合成一套符合当代审美的视觉范式，这也是极难的创作能力。 刚刚结束的第二季六集，又该怎么评价呢？…",
+      "key_points": [
+        "《夜班经理》第二季时隔十年回归，像是从浪漫主义发展到了存在主义悲剧。最终集彻底推翻了前五集建立的所有希望，这种无功而返的结局是需要勇气的，它拒绝给予观众廉价的情…",
+        "文 漠九 没想到《夜班经理》还有续集"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "阿兰·德龙最好的作品是哪一部？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%98%BF%E5%85%B0%C2%B7%E5%BE%B7%E9%BE%99%E6%9C%80%E5%A5%BD%E7%9A%84%E4%BD%9C%E5%93%81%E6%98%AF%E5%93%AA%E4%B8%80%E9%83%A8%EF%BC%9F",
+      "published": "Mon, 02 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "David",
+        "EUR",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Sin"
+      ],
+      "summary": "作者：David Sin 译者：覃天 校对：易二三 来源： 《视与听》 （2015年8月23日） 如果我们真的对我们出生前那个时代的文化特别感兴趣，那么我对《蚀》的热情可能是预先确定的。 《蚀》 我出生于20世纪60年代中期，就在米开朗基罗·安东尼奥尼完成了在国际影坛掀起波澜的三部电影的几个月后。这三部电影代表了一种共同的尝试，即创造一种新的电影语言形式，他认为这种形式对战后的新世界是必要的。 第一部电影《奇遇》（1960）在当年的戛纳电影节上遭到了嘘声，然而很快，评论家们就带着新的目光重新审视了这部电影。 《奇遇…",
+      "key_points": [
+        "维多利亚和里卡多/皮耶罗之间的每一个手势，每一个爱的宣言，都变得虚假。莫妮卡·维蒂和阿兰·德龙美丽而孤寂的面孔为此片增色不少，很难想象还有两位演员能比他们更好地…",
+        "为何《蚀》仍然是一部引人入胜的电影？漫长的岁月似乎并没有削弱它作为一部创新的电影作品的影响力，也没有减弱它作为对我们所处时代的更广泛的批评",
+        "《蚀》是一个爱情故事，主人公维多利亚（莫妮卡·维蒂饰）结束了与作家里卡多的一段恋情，并与股市交易员皮耶罗（阿兰·德隆饰）开始了新的关系"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "2月最应该去哪里旅行？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+2%E6%9C%88%E6%9C%80%E5%BA%94%E8%AF%A5%E5%8E%BB%E5%93%AA%E9%87%8C%E6%97%85%E8%A1%8C%EF%BC%9F",
+      "published": "Mon, 02 Feb 2026 17:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "JnB57YuUvq",
+        "Jubei",
+        "sh",
+        "www.jintiankansha.me"
+      ],
+      "summary": "对全国大部分地区而言 1月太冷，3月虽暖但年味已淡 唯有现在的2月 能同时将 暖春的和煦、 冬雪的浪漫、年味的喜庆 聚在一起，令 “三喜同框” 2月 既能感受南方大地的春潮暗涌 也能体验北国疆域的千里冰封 而覆盖全国各地、角角落落的 是无与伦比的喜气洋洋，马年大吉！ 若问2月最适合去哪里？ 走！我们这就出发 （温馨提示：文章顺序不代表排名） 且去赏初春 一封最早的春信，敬请查收 有个地方入春巨早，且是 全国春季最长省级行政区 —— 云南 ，其春天约占全年时长的 40% ！该省多地的春天，竟然长到了 “连夏天都没有”…",
+      "key_points": [
+        "【参考文献】 [1]《 春天是最短的季节吗？》中国气象报 2020年05月11日 [2]《中国最壮观的春天，都藏在这1亿亩花海里》地道风物 2024年03月12…",
+        "海南三亚蜈支洲岛 时值2月却一派绿色生机 在三亚绵延200多公里的海岸线上，散布着19个大小港湾与40余座岛屿，无论走到哪里，都能感受到大海的浩渺、宁静与湛蓝，…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "张家界，值得！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%BC%A0%E5%AE%B6%E7%95%8C%EF%BC%8C%E5%80%BC%E5%BE%97%EF%BC%81",
+      "published": "Mon, 02 Feb 2026 17:02:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "http",
+        "jkrMPptpeG",
+        "lt",
+        "www.jintiankansha.me"
+      ],
+      "summary": "以这里命名的一种独特地貌——就叫“张家界地貌”，因此，这里代表了一种世界自然遗产的极致，张家界值得。 它西邻巴蜀，北接荆州，南连衡山，东向洞庭，这几个区域历史上都是汉文化核心区；然而，以上几个地方李白、杜甫等都去过，却唯独 绕过了 中间的张家界；徐霞客也曾看遍湖南山水，偏偏也漏过了张家界。终于在1979年，画家吴冠中来到当时还被称为大庸县的山林写生，发现了这处自然景观，并在1980年向外界介绍了张家界的美。 被发现后仅过了12年，也就是1992年，湖南张家界的武陵源风景名胜区就和四川九寨沟、黄龙一起成为了中国最早的…",
+      "key_points": [
+        "也就是1992年，湖南张家界的武陵源风景名胜区就和四川九寨沟、黄龙一起成为了中国最早的三处世界自然遗产。因此，这是一幅被埋没太久的“立体丹青”——张家界值得",
+        "以这里命名的一种独特地貌——就叫“张家界地貌”，因此，这里代表了一种世界自然遗产的极致，张家界值得",
+        "北接荆州，南连衡山，东向洞庭，这几个区域历史上都是汉文化核心区；然而，以上几个地方李白、杜甫等都去过，却唯独 绕过了 中间的张家界；徐霞客也曾看遍湖南山水，偏偏…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "登味不分男女",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%99%BB%E5%91%B3%E4%B8%8D%E5%88%86%E7%94%B7%E5%A5%B3",
+      "published": "Mon, 02 Feb 2026 11:56:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ar",
+        "Bitsea",
+        "exterior",
+        "futuristic",
+        "humanoid"
+      ],
+      "summary": "以前我写老登的时候，基本都是用自己，或者其他男性为例。读者就不断留言问：有没有女老登？这不是废话吗，我又不傻，在网上只要开性别话题，热闹马上就有了，但我在瞬间也同时成为了靶子，我的人生理想又不是成为一面筛子。 但是读者不依不饶，时常追过来问：有没有？当然有，在我看来老登和年龄、性别没有任何关系，它和青春一样，都纯粹指一个人的心态。有的人 80 岁了还有青春活力，有的人才 20 岁在自己心里就早已经内退。如果一位女性也喜欢在人前建立自己的权威感，喜欢居高临下指导他人的人生和生活，喜欢一会儿「考考你」一会儿「我教你一个…",
+      "key_points": [
+        "就是喜欢不分时间场合对象，坚定不移地找寻自我优越感的人。人们无法清楚地总结什么是老登，但是明确地感到冒犯和反感，原因是他们在面对老登时，强烈地感受到了「上对下」…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "元宝，不鸣则已",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%85%83%E5%AE%9D%EF%BC%8C%E4%B8%8D%E9%B8%A3%E5%88%99%E5%B7%B2",
+      "published": "Mon, 02 Feb 2026 17:21:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "QQ",
+        "ChatBot",
+        "ChatGPT",
+        "DeepSeek",
+        "AGI"
+      ],
+      "summary": "文 ｜ 阑夕 新版的元宝在社交能力上的步子迈得极大，好友、群聊、开会、看片、听歌等玩法一应俱全，加上10亿红包，大的总算是来了。 整体把玩下来，只能说不愧是腾讯出品，除了交互的丝滑之外，全局和群内的搜索、群成员的管理、甚至免打扰的开关都很规整。 而且很明显，作为群成员的元宝，和作为模型产品的元宝，经过了不同的微调。 主入口的元宝，主要表现还是和主流大模型对齐。 但在派里的元宝，就更人味了，能用三言两语回复的， 绝不 啰里吧嗦 ， 我个人是很喜欢这种言简意赅，其实在微信里的元宝机器人也被训练成了这种「搭子」人设，相当…",
+      "key_points": [
+        "就像德鲁克说的：「我了解的任何一个组织，都不缺少构想，也就是说问题不在于没有创造力，而在于很少有组织真正着手去实现它们这些好的构想，所有的人都在忙旧任务。」 过…",
+        "一边看着春晚，一边在派里吐槽，遇到不认识的明星at一次元宝，问问这是谁，听到熟悉的梗问问元宝这个来自哪里……这也许能带来一种新的「共同观看」形式，毕竟以前大家都…",
+        "元宝的派，和传统的群，用法差别很大，派更像是Vibe Coding的场景——代码成本趋近于零，所以生产一次性代码不再显得奢侈——为了解决一件事情而去建一个派，是…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0202-0301）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880202-0301%EF%BC%89",
+      "published": "Sun, 01 Feb 2026 11:21:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和上班时间冲…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "2025美团技术年货，「马」上到来",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/02/02/2025-spring-festival-present.html",
+      "published": "Mon, 02 Feb 2026 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "值此马年春节来临之际，我们精选了过去一年美团技术团队微信公众号发布的 40 多篇优质技术文章，精心汇编成一本 500 多页的电子书。谨以此作为一份特别的新年礼物，献给每一位热爱技术、持续探索的同学。",
+      "key_points": [
+        "我们精选了过去一年美团技术团队微信公众号发布的 40 多篇优质技术文章，精心汇编成一本 500 多页的电子书。谨以此作为一份特别的新年礼物，献给每一位热爱技术、…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "多维创新打造强泛化智能体模型，LongCat-Flash-Thinking-2601技术报告发布",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/02/02/longcat-flash-thinking-2601-techreport.html",
+      "published": "Mon, 02 Feb 2026 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LongCat-Flash-Thinking-26"
+      ],
+      "summary": "LongCat-Flash-Thinking-2601模型创新性地打造了 “重思考模式” ，通过并行推理与深度总结，实现推理宽度与深度的协同扩展，显著提升复杂交互与多步规划任务中的表现。",
+      "key_points": [
+        "LongCat-Flash-Thinking-2601模型创新性地打造了 “重思考模式” ，通过并行推理与深度总结，实现推理宽度与深度的协同扩展，显著提升复杂交…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-03",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "稀土困局：欧洲在中美夹缝中“失血” | 经济学人欧洲",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%A8%80%E5%9C%9F%E5%9B%B0%E5%B1%80%EF%BC%9A%E6%AC%A7%E6%B4%B2%E5%9C%A8%E4%B8%AD%E7%BE%8E%E5%A4%B9%E7%BC%9D%E4%B8%AD%E2%80%9C%E5%A4%B1%E8%A1%80%E2%80%9D+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%AC%A7%E6%B4%B2",
+      "published": "Fri, 30 Jan 2026 20:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "in",
+        "is",
+        "Europe",
+        "China"
+      ],
+      "summary": "本文选自经济学人20260131期欧洲板块 Europe | Rare, not well-done 欧洲 | 稀土困局，火候未到 Europe is at China’s mercy to get crucial raw materials 欧洲在关键原材料上受制于中国 And it is losing out to America in the race for alternatives 而在寻找替代方案的竞争中，欧洲正输给美国 EUROPE HAS sleepwalked into all kinds of…",
+      "key_points": [
+        "本文选自经济学人20260131期欧洲板块 Europe | Rare, not well-done 欧洲 | 稀土困局，火候未到 Europe is at C…",
+        "欧洲在不知不觉中陷入了各种依赖，从美国的数字服务到俄罗斯的能源供应莫不如此。而其对于中国稀土的依赖 —— 这在电动汽车、风力涡轮机乃至战斗机等各个领域都至关重要…",
+        "中国的筹码在于其近乎垄断的稀土供应链。中国开采的稀土矿石占全球总量的 70% ，精炼材料占比超过 90% ，而由这些材料制成的磁铁更是占据了九成的份额。中国已将…"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "和 AI 聊游戏设计",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/01/ai_game_design.html",
+      "published": "2026-01-15T08:11:12Z",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "google",
+        "grok",
+        "twitter"
+      ],
+      "summary": "最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok 。 去年也和朋友聊过很多，但对理清楚自己的想法帮助有限。因为和人聊容易陷入不断的细节解释当中，一些天马行空的想法更容易被质疑，一旦陷入辩论就不太容易跳出来。而且每个人的时间并不固定，很容易造成时间和精力的浪费。和 AI 聊要轻松得多，AI 毕竟见多识广，随便提到的点都能接得上话。不想聊下去尽可以中断，不用担心浪费时间。即使怀疑 AI 出现幻觉，也可以随时暂停下来通过搜索核实。 不过，我觉…",
+      "key_points": [
+        "最近一段时间和 AI 聊游戏设计比较多。我主要用的是 google 首页上的 AI 模式，也试过 twitter 上的 grok",
+        "我觉得和 AI 讨论也有另一方面的问题。那就是太容易顺着你的思路夸大其词。它更像是一个貌似领域知识渊博但只是想讨好你的同好，不断的放出一些华丽的辞藻却在逻辑上经…",
+        "但我依然偶尔被 AI 的总结惊艳到。比如说有一场主题为模拟类型游戏的话题，聊到最后 AI 总结："
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "AI时代的燃料",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+AI%E6%97%B6%E4%BB%A3%E7%9A%84%E7%87%83%E6%96%99",
+      "published": "Wed, 14 Jan 2026 10:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "stackoverflow"
+      ],
+      "summary": "最近看到一些新闻，还挺唏嘘的。 stackoverflow的流量断崖式下跌，讨论热度和活跃度甚至跌破了这个项目刚上线的时候。 当然，他们收入还不错，因为大模型公司愿意花钱买他们的数据，但是以后呢？ 另一个知名开源项目，收入下跌75%，被迫裁员，因为大部分程序员已经使用AI请求他们，所以他们的网站，项目打开率都直线下跌；有热心参与者建议他们修改说明，方便大模型阅读，被创业者拒绝，因为大模型已经把他们的商业模式彻底摧毁。不过好消息是，谷歌给他们提供了一笔赞助，他们可以召回裁撤的程序员继续升级了。 越来越多这样的事情会发…",
+      "key_points": [
+        "我统称为，AI时代的燃料，他们为AI的发展和强大贡献了数据价值，然后转头就被AI时代碾压",
+        "你可能理解不了这种进步的速度。就好比你之前雇佣了一个菜鸟实习生，以肉眼可见的速度变得成熟，经验丰富，沟通理解力也在急速成长，虽然现在我们挑刺来说依然会有不足，但…",
+        "光鲜的工作，正在被AI快速蚕食和替代，但当局者迷的情况，依然普遍；有些从业者会觉得，AI时代真好，以前很辛苦需要大量手工整理的数据，大量加班熬夜整理的资料，现在…"
+      ]
+    }
+  ]
+}
