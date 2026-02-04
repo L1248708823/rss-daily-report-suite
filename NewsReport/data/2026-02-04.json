@@ -1,0 +1,659 @@
+{
+  "date": "2026-02-04",
+  "generated_at": "2026-02-04T01:00:04.448812+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 3,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 248,
+    "fresh_candidates": 53,
+    "backfill_candidates": 195,
+    "items_published": 20,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-04",
+      "fetched_at": "2026-02-04T01:00:04.115806+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4067.74,
+          "change": 51.99,
+          "change_pct": 1.29,
+          "volume": 637684249.0,
+          "amount": 111072021.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5015.76,
+          "change": 70.53000000000065,
+          "change_pct": 1.43,
+          "prev_close": 4945.23,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-04 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1118.7272629768356,
+          "change": 15.731182085617547,
+          "change_pct": 1.4262228450446344,
+          "prev_close": 1102.996080891218,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-04 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "明代科举档案里的「医户」「捕户」「站户」是什么情况？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787375",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "济东杂谈， 这是一个没什么梦想的人文博主，渴望缀拾遗珠抱玉。 查看知乎原文 明代户籍制度是学的大元的，按职业种类划分户籍。 医户就是世代行医的；捕户是世代捕猎的；站户是世代负责驿站运维的。 或许按一般人的理解，这些户籍都属于完了个蛋的，只有专门读书的儒户才有机会科举当官。 但实际却并非如此，明朝时期遍地设学，朱元璋甚至 把学堂开到了军队卫所 ，称之为卫学。 到了明英宗、宪宗时，卫所设学被制度化普及，全国有三四百个卫所，就有三四百所卫学。 所以哪怕是军户，也能读书考科举。而且竞争比普通县学府学要容易得多。 明朝军户出…",
+      "key_points": [
+        "医户就是世代行医的；捕户是世代捕猎的；站户是世代负责驿站运维的",
+        "而明代却真的是百行百业都在读书。甚至有统计，明朝科举成绩最优秀的一千多人中(也就是能入翰林院成为庶吉士的)，有六百多人来自于农户，三百多人来自于军户，还有三十多…",
+        "指责明代匠户生活凄惨，世世代代被束缚，也无法科举。今天看来，这显然是一种谬论"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么人类要把体毛进化没？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787387",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "维森 查看知乎原文 动物：哈哈哈，你看这群两脚兽，光着屁股好搞笑，冬天不得冻死。 两脚兽：我有毛呀。 动物：在哪呢？ 两脚兽：这不在你身上么？ 动物：这是我的毛。 两脚兽：不，一会就是我的了。 动物：小样，就你这样还想追上我？ 然后就展开了万米追逐，动物因为有厚重的皮毛，散热不佳累瘫了，躺在喘着粗气。 人类因为两脚奔跑能节省部分体力，并且因为体毛更少，散热更好，依旧战斗力旺盛。 人类：看，现在你得毛是我的了。 人类褪去体毛，并进化出全身数百万个汗腺（其他哺乳动物主要靠喘气散热），使得我们可以通过蒸发汗水来极速降温。…",
+      "key_points": [
+        "狩猎而来的动物皮可以保暖，肉可以吃，直接验证了，在散热系统上加点，是一个成功的演化，我想保暖就保暖，想散热就脱衣服，从而再这条正确的道路上，把体毛演化的越来越短",
+        "并进化出全身数百万个汗腺（其他哺乳动物主要靠喘气散热），使得我们可以通过蒸发汗水来极速降温。皮肤直接暴露在空气中，汗水迅速蒸发，这是最高效的散热系统",
+        "那可叫一个呜呼哀哉，生灵涂炭，片甲不留，导致很多动物都给杀绝种了，然后成了世界霸主之后，最后跟动物打不过瘾，然后开始人类跟人类打"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "网友发视频称「用芥末泡虾能把虾线吐出来」，这种方法靠谱吗？背后是什么原理？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787377",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TRPA1",
+        "blastn",
+        "AITC",
+        "DNA",
+        "XP_069989621.1",
+        "Allyl"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 所谓的“虾线”，在生物学上是虾的 肠 ，它是用来储存和通过粪便的管道。 这根管子并不是像耳机线一样随意塞在虾壳里的，它通过一系列精密而强韧的结缔组织和肌肉纤维，被牢牢“锚定”在腹部肌肉（也就是我们吃的虾肉）深处 [1] 。 这意味着，除非你用牙签或刀物理切断这些连接，否则这根管子根本没有“滑动”的空间。 重点是，肠子怎么从嘴巴里吐出来？开玩笑吗？ 前肠和后肠之间隔着结构极其复杂的中肠（Midgut）和幽门过滤结构，物理上完全阻断了后肠…",
+      "key_points": [
+        "在行为学上被称为逃逸反射（Escape Reflex） [5] 或伤害感受性行为。这种极端的神经刺激会导致虾的腹部肌肉发生强直性痉挛（Muscle Spasm）…",
+        "前肠和后肠之间隔着结构极其复杂的中肠（Midgut）和幽门过滤结构，物理上完全阻断了后肠内容物逆流回嘴里的可能性 。所以，指望虾从嘴里吐出背部的“线”，相当于指…",
+        "有人在做视频之前悄悄切断了虾头和虾身的连接处，或者人为挑松了虾线，那么当虾因为剧痛而发生剧烈肌肉收缩时，腹腔内压瞬间飙升，是有可能通过液压作用将断裂的肠道从切口…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "金银惊魂72小时！给我们投资者哪些启发？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%87%91%E9%93%B6%E6%83%8A%E9%AD%8272%E5%B0%8F%E6%97%B6%EF%BC%81%E7%BB%99%E6%88%91%E4%BB%AC%E6%8A%95%E8%B5%84%E8%80%85%E5%93%AA%E4%BA%9B%E5%90%AF%E5%8F%91%EF%BC%9F",
+      "published": "Tue, 03 Feb 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "COMEX",
+        "KOSPI",
+        "V1"
+      ],
+      "summary": "朋友们，又一次见证历史了！ 贵金属经历了48h史诗级大崩盘后，今天暴力反弹！ 此前，白银盘中一度跌超35%，创造40年最大单日跌幅，短短两天，就抹去了一个月的涨幅。 黄金单日暴跌13%，也创造了40多年来最大单日跌幅。 于是，网上诞生了一个段子：30岁的芳龄，一天之内见证了两个40年一遇的史诗级行情。 金、银、有色暴跌，也带崩了全球股市。 韩国KOSPI指数跌超5%，国内宽基指数中证1000跌超3%，大多数行业指数，也跌超4%。 不过今天，又迎来史诗级反转，贵金属暴力反弹，带动全球股票大反攻。 截至发稿，COMEX…",
+      "key_points": [
+        "一、金银惊魂72小时！赚不到钱的投资者都经历了什么",
+        "可以点击图片添加小雪企业微信，为您免费提供：（1）雪球官方投资工具三分法； （2）私人定制投资方案； （3）小雪1V1投资陪伴； （4）资产配置学习资料 三分法…",
+        "那么只需要两天，就能把1个月的收益全部吃干抹尽； 如果晚几天重仓，那昨天就已经开始浮亏； 如果在快速拉升的过程中，还不断提高投资金额，那么亏损幅度会进一步扩大；…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于比亚迪的布局，我还相信什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6529577449/374612535",
+      "published": "Tue, 03 Feb 2026 11:02:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "dmi",
+        "AI",
+        "http",
+        "PE",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这两天我一直在反复思考重仓比亚迪这件事情，我也在反思我有没有可能进入了某种信息茧房，就是比亚迪已经出问题了，而我还在梦里。 昨晚，我换了一个立场思考问题，就是假设我现在是一个纯粹的比亚迪做空者，那么我有哪些理由看空比亚迪？大概有以下这些： 1，汽车行业本身是个苦力活，重资产，重研发，低利润率。加上产业链垂直整合，导致管理困难，员工人数众多，负担重。 2，国内外新能源汽车竞争激烈，国内内卷严重，低端市场，吉利，奇瑞，零跑抢夺市场，中高端市场问界，小米，特斯拉，蔚小理挤压。包括传统燃油车企的反扑。 3，比亚迪的技术领先…",
+      "key_points": [
+        "这个时候就是对投资者的考验了，你是相信比亚迪的研发投入一定会有产出，在接下来的五年重演刀片电池和dmi技术甩开同行的一幕，还是认为比亚迪只是在故弄玄虚，研发投入…",
+        "其实在王传福去年年底的投资者沟通会议上已经回应了，就是那句著名的：“销量下滑是因为我们技术不够领先，我们还有很多先进的技术要发布，重新获得行业领先。” 下面从研…",
+        "其实和船长的观点类似，汽车行业的重资产，固然并不那么讨资本喜欢，但也正是这样的公司。才是一个国家真正科技和生产力的中流砥柱。资本嘴里面那些轻资产，高利润的公司。…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为何中控技术TPT之AI生态平台不惧华为进入",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3724308977/374588352",
+      "published": "Tue, 03 Feb 2026 11:01:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "TPT",
+        "ICT",
+        "DCS",
+        "UCS",
+        "AGENT"
+      ],
+      "summary": "$中控技术(SH688777)$ 最近老是有人问我，说华为进入中控技术TPT领域咋办？大家都担心行业“百枯草”，其实这是对这个行业不懂和误解。 先看看中控技术和华为如何合作的，华为提供什么服务？ 中控技术自己宣布，其“1+2+N”工业AI新架构将全面采用华为鲲鹏服务器 与 OceanStor存储，为工厂提供统一的数据贯通与分析能力。同时，核心大模型TPT与HGT将基于华为AI算力底座昇腾进行训练与推理。在这里可以看出，华为的角色是为TPT提供运行所需的算力与硬件.华为并没有参与到TPT的研发过程。 但二者确实联合打…",
+      "key_points": [
+        "华为和中石化、中石化等企业也是提供类似服务和合作，但他们和TPT之AI生态平台不一样的，他们做的东西不是通用生态平台，是一个一个去解决具体痛点场景的AGENT.…",
+        "但二者确实联合打造了解决多个行业的工业AI场景方案。中控的行业Know-how+TPT+UCS与华为的通用ICT技术的深度融合，可以快速打通流程工业诸多痛点，这…",
+        "中控技术累计部署了10万套控制系统、沉淀1亿I/O点数海量工业数据的基础上。这些是 “带行业标签、与物理化学规律强关联” 的高质量时序数据，是经过长期工业实践“…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "如何与优秀公司长期同行？以瑞普生物为例讲讲我的筛股标准",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6288415644/374595752",
+      "published": "Tue, 03 Feb 2026 11:01:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IPO",
+        "mRNA",
+        "AI",
+        "PE",
+        "SEG",
+        "DNA"
+      ],
+      "summary": "最近读了一篇华鑫证券的专题报告《我们想投什么样的企业》，感慨良多。参考这篇报告，我以瑞普生物为例子，尝试回到一个问题：当我们努力筛选一支可以未来多年长期持有的股票的时候，大概有如什么样的标准？ 1， 该目标公司所处行业是否依然处于成长的早或中期而非已高度成熟，未来结构红利还在不在？ 其实核心就是行业还能否继续增长，增长来自哪里？是渗透率提升，还是国产替代，还是集中度提升，亦或是技术的升级切换？ 就瑞普所在的动保行业而言，纯国内的经济类动保其实已经在充分竞争中慢慢触及行业天花板，但是依然还有巨大增量蛋糕，只是需要行业…",
+      "key_points": [
+        "最近读了一篇华鑫证券的专题报告《我们想投什么样的企业》，感慨良多。参考这篇报告，我以瑞普生物为例子，尝试回到一个问题：当我们努力筛选一支可以未来多年长期持有的股…",
+        "小结 简而言之，就是守正出奇，如同瑞普这种可以靠经济动物业务稳定现金流并确立80亿安全边际，又可以靠宠物生态布局与合成生物期权博取150-200亿上行空间的股，…",
+        "瑞普自己有很多社交账号会不断发布公司新闻和视频，天津保税区也时常报道瑞普的宠物业务和合成生物业务的动向"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "股市巨震！是时候理解现金的巨大作用了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/374517810",
+      "published": "Tue, 03 Feb 2026 11:01:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "PE",
+        "ROE",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在牛市里，大家都不愿意保留现金仓位，都希望把钱的效率放到最大。 但实际上结果比较有意思。 那些总是忍不住满仓的人，最终的收益率都不高，甚至亏损的比例更高。 有很多事，欲速则不达， 你越想赚钱，反而越赚不到钱。 那些欲望比较低的人，却往往能赚到更多的钱。股市就是这么奇怪。 熊市才需要减少现金仓位，而在牛市里反而需要保留适当的现金仓位。 千万不要把事情做反了。 一 、没有现金，就没有安全感 前些年，楼市走牛时，很多人把身上的现金都花光了，还加上杠杆买房。 每个月的按揭也会消耗掉一半的收入，一年下来几乎就存不到钱。 很多…",
+      "key_points": [
+        "二、现金也是一张股票 假设现金的回报率是2%，它就等同于一个ROE为2%、PB为1倍、PE为50倍、分红率为100%、股息率为2%、同时每年利润不增长也不下跌的…",
+        "三、有现金才能抓住机会 市场中随时都有可能冒出一些机会。但问题时，很多时候， 当机会出现时，人们手里没现金了",
+        "你可以定下一个原则，在市场处于高估的时候，现金仓位无论如何不能低于50%，不跌到估值中位数以下绝不补仓"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI Agent：将掀起第四次“科技革命”？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337354.html",
+      "published": "Tue, 03 Feb 2026 09:34:11 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "agent",
+        "xx",
+        "API",
+        "App"
+      ],
+      "summary": "AI Agent 技术正在重塑本地生活服务的竞争逻辑，从简单的智能问答升级为自主规划执行的数字管家。本文深入探讨了AI Agent如何跨越传统平台的数据壁垒，在个性化导购、跨服务闭环、无障碍交互和可信决策四大场景中重构用户体验，并为产品经理提供了从场景选择到架构演进的四步实战指南。在技术爆发的拐点上，这场关于用户信任与体验架构的竞赛已经悄然开始。 在开始正文之前允许我聊一聊最近在抖音上沸沸扬扬的agent智能普及下，大量行业都将有大变局，前后端除必要情况下不再分离等等，在这种声音下产生了一个很火的观点，说AI ag…",
+      "key_points": [
+        "在开始正文之前允许我聊一聊最近在抖音上沸沸扬扬的agent智能普及下，大量行业都将有大变局，前后端除必要情况下不再分离等等，在这种声音下产生了一个很火的观点，说…",
+        "第四步：指标重塑——超越准确率的新KPI 忘掉单纯的“回答准确率”。Agent的成功需要一套新指标： 核心指标：任务完成率 （用户是否通过Agent一步到位解决…",
+        "二、落地实战：AI Agent重构本地生活的四大场景 理论很宏大，但价值必须落在具体的场景里。以下四个场景，或许是AI Agent最能展现其革命性的战场： 场景…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "在中文互联网过年，三体人来了也得发红包",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337865.html",
+      "published": "Tue, 03 Feb 2026 09:00:31 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "DAU",
+        "APP",
+        "BATB",
+        "BAT",
+        "QuestMobile"
+      ],
+      "summary": "AI时代的春节红包大战正在改写大厂竞争逻辑。腾讯元宝借助微信社交裂变狂撒10亿现金，阿里千问携30亿免单方案绑定交易生态，百度文心以5亿红包拉动产品矩阵。这场看似撒钱的商战背后，实则是BATB对下一代流量中心的争夺。本文深度解析各家的产品策略与资源投入，看AI产品如何用'古法增长'争夺用户心智。 给用户发红包，能让元宝千问们过个好年吗？ 高端的商战，往往只需要一张朴素的海报。这不是在玩烂梗，而是2026年春节红包大战的真实写照。 2月2日上午，在腾讯元宝的红包链接占领微信群聊24小时后，老对手阿里巴巴迅速发布一张红…",
+      "key_points": [
+        "任由元宝大发红包，使用社交关系反复导流，也一度招致不少批评的声音。毕竟微信曾被一代产品经理视作互联网耶路撒冷，谈起微信，紧接着出现的关键词就是打磨、古典、用户体…",
+        "不足以让各家公司掏出自己压箱底的资源，但一个新的流量中心绝对值得。如果非要在中国互联网史里找一个类似的案例，值得参考的或许是当年的短视频",
+        "搭上最核心的资源 一个小迷思是，在春节发钱之前，国产AI助手们率先对齐了取名规则。甭管以前叫什么，年底前，大家都统一把户口本上的名字改成了两个字。豆包、元宝、千…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "腾讯想复刻2015，阿里想超跃它",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337847.html",
+      "published": "Tue, 03 Feb 2026 08:49:39 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "APP",
+        "AI+",
+        "All",
+        "amp"
+      ],
+      "summary": "当腾讯试图复刻2015年微信红包的辉煌时，千问选择直接跳过发钱阶段，用全生态服务重塑AI时代的消费起点。从外卖、电影票到机票酒店，这不仅是流量争夺，更是对用户默认行为的重新定义——让'有事找AI'成为新的生活入口。本文深度解析千问如何通过生态整合与场景重构，开启AI智能体时代的真正较量。 上周元宝春节分10亿现金，我说2026年的春节档，注定是中国互联网有史以来竞争最激烈的一次。今天，阿里旗下千问APP宣布推出“春节请客计划”，将投入30亿元用于免单消费，主打“吃喝玩乐 免单不停”。 表面上看，这不过是又一场春节红…",
+      "key_points": [
+        "并不是对立，而是时间轴上的错位： 腾讯想复刻2015，阿里想跳过它",
+        "马化腾罕见地公开评价了千问的策略：“阿里的方法体现了他们很努力在做这个事情，结合自己的特点，内部生态的联动，我觉得值得赞赏。”但他也指出了弊端：“用户不一定喜欢…",
+        "当腾讯试图复刻2015年微信红包的辉煌时，千问选择直接跳过发钱阶段，用全生态服务重塑AI时代的消费起点。从外卖、电影票到机票酒店，这不仅是流量争夺，更是对用户默…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GUI Agent 不是最优解，但很可能是最先可用的解",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337785.html",
+      "published": "Tue, 03 Feb 2026 08:09:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GUI",
+        "AI",
+        "Agent",
+        "API",
+        "App",
+        "A."
+      ],
+      "summary": "AI助手的下一站不是更聪明的对话，而是直接帮你干活的GUI Agent。从自动填表到跨应用操作，这类产品正在突破API限制，用‘模拟人类操作’的方式兑现生产力承诺。本文将深入解析GUI Agent如何打破生态壁垒，以及在信任与可控性上的关键设计原则。 AI 真正开始干活的拐点，可能是 GUI Agent 从 2025 年到 2026 年初，我们越来越频繁地看到一类“看似不相干”的 AI 产品被放进同一个篮子里讨论：有的在浏览器里替你跑网页流程，有的在手机上跨 App 操作，有的强调本地运行——像一个住在电脑里的助手…",
+      "key_points": [
+        "8 条“可用性标准”：判断 GUI Agent 值不值得上 基于上面的分析，我们可以用这张清单做评估，同时也能反过来指导产品设计： 关键动作必须二次确认 （提交…",
+        "而是“把活干了”的同事 用户想外包给 AI 的任务，通常长这样： 订票改签、填报销、选座、要发票 把一堆散落在微信/邮件/文档里的信息整理成可提交的表格 登录网…",
+        "可能是 GUI Agent 从 2025 年到 2026 年初，我们越来越频繁地看到一类“看似不相干”的 AI 产品被放进同一个篮子里讨论：有的在浏览器里替你跑…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI医疗，会让未来更好吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6337777.html",
+      "published": "Tue, 03 Feb 2026 07:34:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "App",
+        "CEO",
+        "WEEKLY",
+        "Agent"
+      ],
+      "summary": "AI医疗正在成为巨头争夺的下一个战略高地。从蚂蚁阿福的迅猛增长到OpenAI的医疗收购，技术杠杆正在放大优质医疗资源。但AI幻觉与商业化难题依然存在，这场关乎健康入口的话语权之争，将如何重塑医疗服务的未来格局？ 去年此时，好大夫在线被蚂蚁集团收入囊中，引发了不小的讨论。 前者是互联网医疗的一股清流，在只有卖药能赚钱的行业，好大夫在线却坚持不卖药、不自建线下医院、不做医疗广告，单纯依靠医疗服务付费。因此，彼时大家关注的是，被收购的好大夫未来会更好吗？ 一年以后，这个问题有了初步的答案。 12月15日，蚂蚁健康宣布旗下…",
+      "key_points": [
+        "在只有卖药能赚钱的行业，好大夫在线却坚持不卖药、不自建线下医院、不做医疗广告，单纯依靠医疗服务付费。因此，彼时大家关注的是，被收购的好大夫未来会更好吗",
+        "AI医疗正在成为巨头争夺的下一个战略高地。从蚂蚁阿福的迅猛增长到OpenAI的医疗收购，技术杠杆正在放大优质医疗资源。但AI幻觉与商业化难题依然存在，这场关乎健…",
+        "2、晚点LatePost：独家专访蚂蚁 CEO 韩歆毅：我们已重回战场，阿福是下一个十年 3、财经天下WEEKLY：坚持不卖药的好大夫，还是卖身给蚂蚁了 4、新…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "《西游记》中的神仙也讲“人情世故”？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E3%80%8A%E8%A5%BF%E6%B8%B8%E8%AE%B0%E3%80%8B%E4%B8%AD%E7%9A%84%E7%A5%9E%E4%BB%99%E4%B9%9F%E8%AE%B2%E2%80%9C%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85%E2%80%9D%EF%BC%9F",
+      "published": "Tue, 03 Feb 2026 17:03:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "大家是不是都看过？ 图源/网络 说到童年回忆，总少不了 《西游记》 。它可能是暑假电视里反复播放的电视剧，是翻得起毛边的连环画，或是爷爷奶奶摇着蒲扇讲起的故事片段。而孙悟空，更是许多人心里抹不去的角色。 但你知道吗？我们今天熟悉的这位“齐天大圣”，可不是一开始就长这样。他就像会“七十二变”一样，在不同时代的故事里，悄悄换过好几副面孔。 大家最为熟悉的86版《西游记》孙悟空形象 图源/网络 把时间倒回几百年前，你会发现一个不太一样的孙悟空。在宋代《大唐三藏取经诗话》里，他竟是一位文雅的“ 白衣秀才 ”。 榆林窟第3窟…",
+      "key_points": [
+        "文史作家刘勃 在《小话西游》中的解读或许能给我们启发。他认为，这部小说“处处体现着民间文学的特色”，其价值观是朴素的“市井中人的价值观”。换句话说，书里的神仙世…",
+        "中国国家地理大讲堂——《小话西游》 ，我们特邀文史作家刘勃，带领大家一同探秘《西游记》的B面，看看“神仙打架”背后的玄机，做个洞悉世情的“吃瓜”凡人",
+        "金陵世德堂本《西游记》插图中的白骨精故事 图源/网络 孙悟空为何能如此鲜活生动，让人感觉他仿佛就活在身边"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国这几处地方，太惬意了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%BF%99%E5%87%A0%E5%A4%84%E5%9C%B0%E6%96%B9%EF%BC%8C%E5%A4%AA%E6%83%AC%E6%84%8F%E4%BA%86%EF%BC%81",
+      "published": "Tue, 03 Feb 2026 17:03:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "中国文化不仅与土地具有最紧密的联系 并且带有更加浓重的自然关系的烙印 中国人往往更喜欢也更倾向于 居住在有山有水 或者山水环绕的地区 对于偌大的中国版图 今天和地理君一起 探索藏在这个版图里的山水环绕之地 皖南古村落 新安江、青弋江、黄山、牯牛降... 走进安徽南部，可以看到，一座座秀美的小村落在群山秀水中星罗棋布。 这些村落例如徽州村落大都依新安江水系而建，从某种意义上来说，新安江是徽州村落的符号。 安徽歙县石潭村 这里是古代歙县南乡及绩溪 旌德两县徽商从水路经新安江 前往苏杭的必经之地 古徽州是一个 群山环绕、…",
+      "key_points": [
+        "云和梯田 浙西南丘陵是梯田的世界 有泥土的地方就有梯田 冬季的早晨，水面雾气升腾、晨光熹微，远观如云蒸霞蔚。阳光的照射下，雾霭中透出丝丝金光。微风拂来，云雾缓缓…",
+        "云雾漓江 桂林虽然不是我国云雾最多的地方 但也位居前列 因此云雾也是桂林山水的又一重要角色 幸运的是，桂林盆地东有 海洋山 、西有 驾桥岭 、北有 越城岭 ，这…",
+        "既有山又有水的地方是理想中隐世避扰、祥和安宁、山川秀美、水丰土沃的宜居之所，皖南正是这样一方自然造化的天赐之地"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "讲礼貌，树新风",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AE%B2%E7%A4%BC%E8%B2%8C%EF%BC%8C%E6%A0%91%E6%96%B0%E9%A3%8E",
+      "published": "Tue, 03 Feb 2026 11:35:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ar",
+        "Bitsea",
+        "cute",
+        "fist-and-palm",
+        "kitten"
+      ],
+      "summary": "*应脱不花之约而作 几年前，我曾经是中国农业大学动物医院的常客。医院位于北京西北角的马连洼，周围都是居民区，门口只有一条很窄的路，路的一侧停满了车。每次去那里，最让我头疼脱发的就是停车。 除了疫情期间，那里无论几点去都停满了车，一层叠一层，每个保安都是指挥调度车辆的高手。为此，我专门去买了一个汽车小摆件放在车窗下，它可以显示我的手机号，这样如果谁要我挪车的话，可以打这个电话。 我打过许多次电话，请别人把车挪开；也接过很多次电话，去把自己的车挪开。 所以在挪车这件事上，我应该算是一名专家。 作为专家，我总结了请人挪车…",
+      "key_points": [
+        "感觉是在讨论一套话术，讨论某种表演，甚至是特定的姿态。但我认为礼貌是一个内心的外显，你怎么理解生活，你怎么看待他人，你遇见人遇见事有怎样的心态，然后它们会外显出…",
+        "以为所有人都和我一样。但现实情况不是如此，我就有一位读者用「 你的车挡住我的车了 」开头，然后就和对方车主立即发生冲突，理由是这么说话没礼貌"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "从治霾到取暖账：农村“煤改气”如何破局？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E6%B2%BB%E9%9C%BE%E5%88%B0%E5%8F%96%E6%9A%96%E8%B4%A6%EF%BC%9A%E5%86%9C%E6%9D%91%E2%80%9C%E7%85%A4%E6%94%B9%E6%B0%94%E2%80%9D%E5%A6%82%E4%BD%95%E7%A0%B4%E5%B1%80%EF%BC%9F",
+      "published": "Mon, 02 Feb 2026 08:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "http",
+        "PM2.5",
+        "www.mee.gov.cn",
+        "www.scio.gov.cn",
+        "xxgk"
+      ],
+      "summary": "2.2 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Ben McLeod 撰 文 | 戴晶晶 ● ● ● 据《人民日报》1月19日报道，在山西、河南、山东等推进“煤改气”的地区，有村民反映天然气取暖价格高。 [1] 不久前，河北农村取暖费用也引发关注，《新华视评》针对华北部分农村地区“煤改气”采暖成本问题提出，农村采暖既要算“环保账”，更要守住“温暖线”。 [2] “煤改气”即用天然气壁挂炉替换煤炭供暖设备，消耗天然气供暖。过去，北方农村地区的居民在冬季往往燃烧煤炭，通过…",
+      "key_points": [
+        "在农村“煤改气”工程中，涉及到的农村家庭虽然在政策实施初期得到一些设备补助和燃气补助，但是后期因为能耗技术的限制和补贴减少的原因，仍然面临着要么在保持原有取暖效…",
+        "[2] “煤改气”即用天然气壁挂炉替换煤炭供暖设备，消耗天然气供暖。过去，北方农村地区的居民在冬季往往燃烧煤炭，通过烤火炉或采暖炉进行取暖。截至2016年底，中…",
+        "河北农村取暖费用也引发关注，《新华视评》针对华北部分农村地区“煤改气”采暖成本问题提出，农村采暖既要算“环保账”，更要守住“温暖线”"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "你对枕边人了解几分？ | 经济学人文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BD%A0%E5%AF%B9%E6%9E%95%E8%BE%B9%E4%BA%BA%E4%BA%86%E8%A7%A3%E5%87%A0%E5%88%86%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96",
+      "published": "Sat, 31 Jan 2026 16:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "in",
+        "of",
+        "her",
+        "is",
+        "Burden"
+      ],
+      "summary": "1 写在前面 休息一下...... 2 精读|翻译|词组 Culture | Untying the knot 文化｜解 缡 英文部分选自经济学人20261117期文化板块 Culture | Untying the knot 文化｜解 缡 How well do you know the person lying next to you in bed? 你对枕边人了解 几分 ？ “Strangers”, a new memoir, taps into a trend of documenting worst-ca…",
+      "key_points": [
+        "2 精读|翻译|词组 Culture | Untying the knot 文化｜解 缡 英文部分选自经济学人20261117期文化板块 Culture | U…",
+        "伯顿发表离婚短文， 作为《 纽约时报 》 “现代 爱情 ”专栏的一部分 。文章爆火，来信纷至沓来，分享相似婚变遭遇，令她应接不暇。《陌生人》和众多电视节目证明，…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "中欧电动车贸易新规出台，中国车企将加速在欧生产布局",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E4%B8%AD%E6%AC%A7%E7%94%B5%E5%8A%A8%E8%BD%A6%E8%B4%B8%E6%98%93%E6%96%B0%E8%A7%84%E5%87%BA%E5%8F%B0%EF%BC%8C%E4%B8%AD%E5%9B%BD%E8%BD%A6%E4%BC%81%E5%B0%86%E5%8A%A0%E9%80%9F%E5%9C%A8%E6%AC%A7%E7%94%9F%E4%BA%A7%E5%B8%83%E5%B1%80",
+      "published": "Tue, 13 Jan 2026 16:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EIU",
+        "TISZA",
+        "Ana",
+        "Arushi",
+        "asia",
+        "eiu.com"
+      ],
+      "summary": "欧盟委员会正式发布针对中国产电动汽车进口商的指导文件，规定进口商需满足最低价格和相关条件，可避免2024年10月起加征的关税。 此举意味着中欧贸易紧张局势有所缓和，但将继续制约中国纯电动汽车对欧出口规模。 欧盟明确表达了吸引中国投资的意愿 。 尽管如此，中国车企仍将持续面临非关税壁垒的挑战，且这类障碍未来可能进一步增多。在法国、英国等重点市场，政府对新能源汽车的补贴政策正逐步与车辆全生命周期的碳排放水平挂钩，这使采用更清洁能源生产汽车的国家获得相对优势。与此同时，欧盟可能将关税措施适用范围延伸至中国车企从泰国等第三…",
+      "key_points": [
+        "中国车企仍将持续面临非关税壁垒的挑战，且这类障碍未来可能进一步增多。在法国、英国等重点市场，政府对新能源汽车的补贴政策正逐步与车辆全生命周期的碳排放水平挂钩，这…",
+        "( 本文 观点与数据基于经济学人智库研究 ) 汽车产业 展望2026 全球汽车产业在压力中步入2026年。贸易紧张局势、关税政策变动与监管不确定性，正加剧行业向…",
+        "目前比亚迪在塞格德（匈牙利）工厂的单车生产成本比中国高出80%以上，这使得该工厂在短期内的盈利能力甚至低于从中国进口的含关税车辆。不过高盛预计，随着供应链成熟，…"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "KuiTest：基于大模型通识的 UI 交互遍历测试",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/01/13/kuitest-ui.html",
+      "published": "Tue, 13 Jan 2026 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "KuiTest",
+        "UI",
+        "Oracle",
+        "Test"
+      ],
+      "summary": "美团质效技术部联合复旦大学周扬帆教授团队推出 KuiTest——零规则 UI 功能性异常测试工具。KuiTest 通过将“人类预期”直接用作 Test Oracle，解决了长期以来 UI 测试 Oracle 泛化性差的自动化痛点。实验表明，KuiTest 异常召回率达 86%，误报率仅 1.2%，已在执行 21 万+测试用例，发现百余例有效缺陷，大幅降低人工成本并提升测试覆盖率。",
+      "key_points": [
+        "美团质效技术部联合复旦大学周扬帆教授团队推出 KuiTest——零规则 UI 功能性异常测试工具。KuiTest 通过将“人类预期”直接用作 Test Orac…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "海豹为什么拍肚皮?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787178",
+      "published": "Sat, 31 Jan 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Body",
+        "display",
+        "seals",
+        "slap",
+        "aggressive",
+        "An"
+      ],
+      "summary": "剁椒鹿， 全网同名，有公号更新精选内容（私信都会看，已婚已育老太婆） 查看知乎原文 噗，刷到这个有趣的问题，没想到还挺多人关注，可能因为海豹、海狮等有种神奇的魔力，刚开始看见觉得很丑，看久了就顺眼了： 海豹喜欢拍 豹腹 是因为想要 暴富 吗？（bushi） 主要原因是为了表示威慑。 喜欢看动物世界的朋友会发现海豹好像很喜欢拍自己的肚子。 而海象，海狮等动物则喜欢拍手： 拍手或者拍肚皮的本能都是为了发出声音，有人接近领地的时候就可以大声威胁。 越大越健壮的海豹拍肚皮的速度越快，越响，所以能展示自己的核心优势，用来吓退…",
+      "key_points": [
+        "战斗还会升级： 科学家研究发现，除了拍肚皮外，海豹还会用一种叫做“Body slap”的方式发出声响： 也就是说，如果单纯的拍肚皮不管用的话，它们还会用身体拍打…",
+        "海狮等动物则喜欢拍手： 拍手或者拍肚皮的本能都是为了发出声音，有人接近领地的时候就可以大声威胁",
+        "如果你看见海獭在拍肚子，那是它拿着贝壳往自己肚子上的石头上砸开，准备吃饭呢： 其实不止鳍足类的动物，其他海洋动物也有拍打水面发出声响展示威胁的： 比如鲸类动物就…"
+      ]
+    }
+  ]
+}
