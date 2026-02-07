@@ -1,0 +1,925 @@
+{
+  "date": "2026-02-07",
+  "generated_at": "2026-02-07T01:00:04.412959+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 249,
+    "fresh_candidates": 64,
+    "backfill_candidates": 185,
+    "items_published": 28,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-07",
+      "fetched_at": "2026-02-07T01:00:04.101076+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4065.58,
+          "change": -10.34,
+          "change_pct": -0.25,
+          "volume": 556709801.0,
+          "amount": 89865503.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4959.54,
+          "change": 185.0600000000004,
+          "change_pct": 3.88,
+          "prev_close": 4774.48,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-07 05:45:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1105.7254048579741,
+          "change": 41.25897632099304,
+          "change_pct": 3.876024195305061,
+          "prev_close": 1064.466428536981,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-07 05:45:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "什么食物是「因制作失误才被发明出来的」？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787425",
+      "published": "Thu, 05 Feb 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kyoho",
+        "Wine",
+        "Japanese",
+        "Best",
+        "Campbell",
+        "Early"
+      ],
+      "summary": "看星空的仓鼠， 代文曲星品酒 / 商业合作请私信 or 微信咨询 查看知乎原文 周末的晚上，鼠跑来悄悄聊点儿冷门的「食物」—— 大家最喜欢的水果之一，葡萄。 有请「巨峰葡萄」，这款在几十个夏天到初秋的时间段里，让各位朋友留下香甜水果记忆的主角。 巨峰葡萄也算是东亚地区的现代水果传奇代表了 它诞生之后的小小坎坷，倒也是见证了一群人的坚持。 在上世纪 30 年代，在日本静冈县的葡萄园里，农学家大井上康（Yasushi Ohinoue）一直琢磨着能不能利用本国的「舶来品种」葡萄，打造一款兼有水果葡萄特性（口感好、长得快、…",
+      "key_points": [
+        "代文曲星品酒 / 商业合作请私信 or 微信咨询 周末的晚上，鼠跑来悄悄聊点儿冷门的「食物」—— 大家最喜欢的水果之一，葡萄",
+        "且说大井上康的杂交试验在几年后取得了不错的成果，一种前所未见的早熟葡萄被他培育了出来"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787273",
+      "published": "Wed, 04 Feb 2026 22:59:59 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ChatGPT",
+        "possible"
+      ],
+      "summary": "瞎扯 · 你都见过哪些不动声色的善良？ 知乎日报 查看知乎原文 Q： 你都见过哪些不动声色的善良？ @类目册山 ：因为打游戏素质太低，我妈放了尊菩萨在电脑后面试图感化暴躁的我。。。 确实有点效果，但骂完人跟菩萨对视蛮尴尬的。。。 Q： 天津市民有多搞笑? @悟同而栖 ：星巴克买咖啡自带杯能省四块钱，我用这杯不尴尬，星巴克小妹也没觉得有什么不对。 Q： 如何用一句话证明你是 ChatGPT？ @极萨学院冷哲 ： Q： 一个身体强壮的壮汉拿着长矛，打赢成年老虎的可能性有多大？ @咣咣 ：我曾单手控住东北虎，只将它玩弄于…",
+      "key_points": [
+        "瞎扯 · 你都见过哪些不动声色的善良"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么现在几乎不提臭氧层空洞了，是误解还是地球臭氧已修复？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787438",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hadley",
+        "cm",
+        "D.U.",
+        "jet",
+        "O2",
+        "polar"
+      ],
+      "summary": "张武昌， 主要研究海洋浮游砂壳纤毛虫生态学 查看知乎原文 臭氧空洞的总体发展趋势是正在缩小，会逐渐恢复正常。可以说地球臭氧正在恢复。 臭氧层 空气中氧气占 20%。氧在大气中有三种存在形式，氧原子 O,氧分子 O2, 臭氧 O3。其中 O2 是主要的成分，臭氧在大气中属微量气体，全球大气中臭氧总量约有 30 亿吨，只占大气的百万分之 0.4。臭氧的浓度表示除了常见的 ppb、μg/m3 外还有一个柱浓度。柱浓度用来表示大气臭氧总量的分布，大气中臭氧总量是指某地区单位面积上空整层大气柱中所含的臭氧总量。这个臭氧总量通…",
+      "key_points": [
+        "主要研究海洋浮游砂壳纤毛虫生态学 臭氧空洞的总体发展趋势是正在缩小，会逐渐恢复正常。可以说地球臭氧正在恢复",
+        "沿西经 8 度线南半球（赤道 - 南极 - 赤道）臭氧层分布 2023 年 12 月 30 日 南极的臭氧层高度较低 臭氧是引起气候变化的重要因子。臭氧吸收了太…",
+        "臭氧空洞的未来 臭氧空洞的三个条件（极地涡旋、紫外线照射和破坏臭氧层物质）中，前两个是人类无法改变的。为了消灭臭氧空洞，人类只有停止排放破坏臭氧层物质。为此目的…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "银行理财到期后怎么投？一个自建多元资产配置实例",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%93%B6%E8%A1%8C%E7%90%86%E8%B4%A2%E5%88%B0%E6%9C%9F%E5%90%8E%E6%80%8E%E4%B9%88%E6%8A%95%EF%BC%9F%E4%B8%80%E4%B8%AA%E8%87%AA%E5%BB%BA%E5%A4%9A%E5%85%83%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE%E5%AE%9E%E4%BE%8B",
+      "published": "Fri, 06 Feb 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "QDII",
+        "ETF",
+        "Alpha",
+        "Factor",
+        "FCF",
+        "Quality"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：摩根在野 来源：雪球 我的一位老友L先生。元旦刚过，他手头有一笔50万的理财资金到期，恰逢A股17连涨，还没等他想好怎么打理，银行客户经理就热情推荐一只购买费率高达1.5%且没有任何折扣的基金 。 后来L先生约我出来详谈。在了解他的资金用途、期限和风险偏好后，我给他做了一套配置方案，目前正在定投中，计划在2-3个月之内完成全部资金的投资。 恰好有读者看到我之前的文章，私信问我如何做的配置…",
+      "key_points": [
+        "红利防守组（各5%）： 1、招商红利量化选股混合 ： 中证红利指数收益率×90%+中证港股通高股息投资指数收益率×5%+中国人民银行人民币活期存款利率（税后）×…",
+        "也可以像文中提到的L先生一样使用三分法创建一个属于自己的定制化方案 ，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风…",
+        "摩根在野 来源：雪球 我的一位老友L先生。元旦刚过，他手头有一笔50万的理财资金到期，恰逢A股17连涨，还没等他想好怎么打理，银行客户经理就热情推荐一只购买费率…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "光伏扼住了银、铝、铜的命门",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3081204011/374937497",
+      "published": "Fri, 06 Feb 2026 10:01:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GW",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "2025年及2026年初，银、铜、铝的价值持续大涨，为什么呢？这个有一个苦孩子居功至伟。这个苦孩子就是光伏，吃的是奶，挤的是草。 光伏是银的第一需求大户，占全球银消费量的25%； 1GW光伏用铝1.9万吨，初步估计，2025年全球光伏装机约600GW，总耗铝1140万吨，2025年，预计电解铝消费量为7800万吨，光伏用铝占比为14.6%； 1GW光伏用铜约0.35-0.5万吨，我们取0.425万吨这个均值来分析。2025年，全球光伏用铜255万吨。占全球铜消费量的约10%。 2025年，中国光伏新增光伏装机为31…",
+      "key_points": [
+        "占全球银消费量的25%； 1GW光伏用铝1.9万吨，初步估计，2025年全球光伏装机约600GW，总耗铝1140万吨，2025年，预计电解铝消费量为7800万吨…",
+        "中国的风光总计装机容量为435GW（4.35亿千瓦），而国家未来10年风光电力的规划为200GW，即平均下来每年2亿千瓦。如果说，未来每年2亿的风光装机容量在政…",
+        "这个数字对比2025年属于脚踝斩。2026年，别说中国光伏装机容量只有100GW，哪怕是下降到200GW，银、铜、铝的供需平衡都将降直接被逆转"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美股为什么大而不能倒",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6451611049/375139625",
+      "published": "Fri, 06 Feb 2026 10:00:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Meta",
+        "QE",
+        "AI",
+        "GDP",
+        "http",
+        "QT"
+      ],
+      "summary": "备注： 我太太写得文章，细心的人会感觉我们文风得不同 美国作为全球经融强国，美股的地位不仅仅是资本市场，而是关系到美国经济运行、金融霸权、社会稳定和国际战略的核心支柱。以纽交所与纳斯达克为主要市场，截至目前总市值约70 万亿美元，占全球主要股市总市值 40% 以上。但是他的分布及其不均衡，当前美股市值高度集中于美股七姐妹，贡献了2023–2025年美股全部涨幅的70%以上。 举个例子，腾讯是目前中国股市市值第一，约为 5万亿，仅英伟达一家就相当于 11个腾讯，美股七姐妹合计市值相当于 48个腾讯。 英伟达 5.04…",
+      "key_points": [
+        "英伟达 5.04万亿≈10.9个腾讯 苹果 3.98万亿≈8.6个腾讯 微软 3.84万亿≈8.3个腾讯 谷歌 3.43万亿≈7.4个腾讯 亚马逊 2.72万亿…",
+        "提高美债无风险收益率，全球新兴经济体美元涌入美国寻求套利，目前的降息和接下来的降息，导致全球进入美国的套利美元逃离美国，回流新兴市场，这个过程中引发美元流动性紧…",
+        "现金流不成问题，如果降息+缩表，对他们的影响可以忽略。然而，缩表对七姐妹的影响，不是经营问题，而是估值重构的危机。受美债影响，贴现率上行之后，所有高估值股票价格…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "油价为什么中长期会上涨，不涨会发生什么事？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6308001210/375137652",
+      "published": "Fri, 06 Feb 2026 10:00:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "1960年，大庆油田正式开始采油，1962年公布探明地质储量22.7亿吨，按采收率30% －35%估计，可采储量约7亿多吨，合50亿桶左右。截止目前，大应油田累计产油25.9亿吨左右（1962年后不断发现新储量），目前整体采收率已达到约60%左右，且还在大量产油（2025年大庆油田年原油产量2900万吨，排全国第二，仅次于排第一名的渤海油田，大庆油田的原油产量目前依然在国内陆上油田中排第一名）。 1965年，大庆油田桶油完全成本约2.1美元，对应当时阿拉伯轻质原油均价1.8美元每桶，美国国内原油均价2.86美元每桶…",
+      "key_points": [
+        "油价中长期缓慢上涨使全球原油产量稳定增长，老油田采收率大幅提升，油企获得了额外自由现金流和企业内在价值",
+        "通过油价不断上涨，全球大量像大庆油田这样的老油田才能维持产量稳定并不断产油，为油企不断地提供额外超预期的自由现金流，同时保证了全球原油供应稳定增长。美国页岩油也…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI算力的春乏",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/375245019",
+      "published": "Fri, 06 Feb 2026 10:00:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Capex",
+        "CPO",
+        "NPO",
+        "PCB",
+        "http"
+      ],
+      "summary": "最近几周，AI算力赛道告别此前的狂飙模式，龙头们集体“犯困”，股价剧烈波动、回调显著，一场名副其实的“春乏”悄然来袭，曾经的香饽饽为何突然失宠？ 首先是情绪层面的焦虑在纳斯达克蔓延，市场开始犯嘀咕：AI算力狂飙之下，会不会反过来 干掉传统软件和互联网服务的饭碗 ？这种不确定性像一层薄雾，让资金不敢贸然冲锋，间接拖累了整个科技板块的整体走势。 更关键的是华尔街突然“变脸”， 改写定价规则 。此前被奉为圭臬的Capex驱动定价逻辑，近期被直接推翻 —— 谷歌、亚马逊的Capex翻倍增长，按理说算力需求该同步爆发，但两家…",
+      "key_points": [
+        "AI算力赛道告别此前的狂飙模式，龙头们集体“犯困”，股价剧烈波动、回调显著，一场名副其实的“春乏”悄然来袭，曾经的香饽饽为何突然失宠",
+        "告别“春困”颓势，AI算力的艳阳天又将如期而至，开启新一轮上行周期",
+        "本质是前期涨幅过高后的情绪降温与逻辑再梳理的叠加，并非行业基本面反转。短期来看，回调压力仍在，无论是技术路线的明朗化，还是龙头公司的基本面兑现，都需要时间消化。…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 384 期）：为什么软件股下跌",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/02/weekly-issue-384.html",
+      "published": "2026-02-06T19:10:09Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 384 期）：为什么软件股下跌"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "春节红包大战背后，真正的AI社交终于开始了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339563.html",
+      "published": "Fri, 06 Feb 2026 10:18:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Character.AI",
+        "ChatGPT",
+        "LaMDA",
+        "Agent",
+        "Google"
+      ],
+      "summary": "春节红包大战背后，大厂AI竞速正悄然转向社交关系重构。从腾讯元宝派的社交裂变、Character.AI的情感陪伴，到ChatGPT的协作工具化，三种截然不同的AI社交路径正在重塑人机交互边界。本文深度拆解AI作为社交搭子、协作助手和群成员的三重角色演化，揭示大厂如何在这场关乎未来的社交实验中进行战略卡位。 春节红包大战，将大厂的AI竞速推向“白热化”。 继腾讯、百度分别要发10亿、5亿现金红包后，阿里千问30亿“春节请客计划”也在今天（6日）正式启动。豆包也将在一周后的央视春晚上，和火山引擎绑定出现。 最先被用户看…",
+      "key_points": [
+        "继腾讯、百度分别要发10亿、5亿现金红包后，阿里千问30亿“春节请客计划”也在今天（6日）正式启动。豆包也将在一周后的央视春晚上，和火山引擎绑定出现",
+        "大厂密集推出 AI 社交功能，更像是一场集体性的前沿试探。它未必立刻分出胜负，却已经指向一个清晰趋势：AI的竞速开始转向人与人的关系",
+        "大厂AI竞速正悄然转向社交关系重构。从腾讯元宝派的社交裂变、Character.AI的情感陪伴，到ChatGPT的协作工具化，三种截然不同的AI社交路径正在重塑…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI能帮你点奶茶了，但真正改变的不是技术进步",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339519.html",
+      "published": "Fri, 06 Feb 2026 08:14:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "APP",
+        "AI+",
+        "CC0",
+        "GPT-5.2",
+        "MVP"
+      ],
+      "summary": "AI点奶茶的背后，是一场关于互联网入口逻辑的深刻变革。当大厂将AI从聊天工具升级为交易入口，用户只需一句话就能完成下单支付，这不仅是技术展示，更是对“AI办事”能力的实战演练。本文从产品设计视角切入，解析低风险场景的选择逻辑，并指出未来竞争的关键不在模型本身，而在于谁能将AI嵌入真实业务闭环。 今天上午凑了个热闹，花了一分钱，在某问AI APP点了一杯奶茶。当我下完单片刻后，APP就因为崩溃无法进入，但是也没有影响我正常收到奶茶。 哎呀，真香。 这是国内某大厂的AI应用春节搞活动，用户可以在APP里对AI说一句话，…",
+      "key_points": [
+        "09 写在最后：普通人的机会其实更大了 我一直觉得，技术进步真正改变世界的方式，并不是让强者更强，而是让很多原本没有机会的人突然拥有了“杠杆”",
+        "可能不是开发一个 APP，而是提供一种服务：“你把需求发给我，我用 AI+流程帮你搞定。” 这就叫“AI代理人”。它的核心不是技术，而是你能否建立一套稳定交付的…",
+        "如果让我用一句话总结这次AI应用点奶茶带来的启发，我会说： AI时代的关键不是学会更多工具，而是学会把工具变成流程，把流程变成闭环"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "登顶AppStore榜首，千问不“送钱”只“请客”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339517.html",
+      "published": "Fri, 06 Feb 2026 08:09:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "APP",
+        "AppStore",
+        "a16z",
+        "Agent"
+      ],
+      "summary": "春节AI红包大战正酣，千问以30亿“请客”计划独辟蹊径。不同于传统红包补贴，千问通过吃喝玩乐免单切入真实消费场景，让AI直接参与用户决策与履约。上线5小时即促成超500万奶茶订单，登顶AppStore的背后，是AI从“聊天工具”向“生活助手”的关键跃迁。本文深度解析千问如何借生态优势打造下一代超级入口。 最近一周，中国AI最破圈的话题不是OpenClaw和Moltbook，而是春节档各家AI大厂掀起的红包之战。 这几天，由AI引发的一轮覆盖全行业的红包大战正式开启。腾讯元宝此前推出总额约10亿元现金红包及新互动玩法…",
+      "key_points": [
+        "千问不是简单“送钱”，而是“请客”。结合千问和阿里的生态融合优势，瞄准AI时代的生活日常和支付，有意识地让“AI帮你办事”进入用户真实的消费场景和物理世界",
+        "千问以30亿“请客”计划独辟蹊径。不同于传统红包补贴，千问通过吃喝玩乐免单切入真实消费场景，让AI直接参与用户决策与履约。上线5小时即促成超500万奶茶订单，登…",
+        "千问App宣布发起“春节请客计划”，斥资30亿元在春节期间以“吃喝玩乐免单+大额现金红包”等形式请全国用户体验AI时代的生活服务。就在今天，“春节30亿大免单”…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "PM 做对这5件事，从被研发吐槽到被认可",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6339141.html",
+      "published": "Fri, 06 Feb 2026 07:46:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PRD",
+        "Bug",
+        "CC0",
+        "Checklist",
+        "deadline",
+        "PM"
+      ],
+      "summary": "产品经理与研发团队的协作困境往往源于基础品质的缺失。本文从研发视角出发，提炼出五项能让技术团队真心认可的靠谱特质：需求质量把控、沟通效率提升、变更管理专业度、共赢思维建立以及项目平衡能力。文章更附上可直接落地的实用模板，助你打破产研对抗的恶性循环。 曾经历过一次印象深刻的产研项目复盘，会议接近尾声时研发负责人突然说到：其实我们对产品经理要求不高，就是把需求讲清楚，别让我们猜。这句话没有指责，却藏着深深的无奈。 产品经理和研发之间似乎存在着天然对抗：需求变更频繁、信息不透明、沟通成本高昂等等。打破这种恶性循环，往往不…",
+      "key_points": [
+        "产品经理和研发之间似乎存在着天然对抗：需求变更频繁、信息不透明、沟通成本高昂等等。打破这种恶性循环，往往不靠过人的天赋，而需要一些基础且重要的品质，归纳成关键词…",
+        "产品经理与研发团队的协作困境往往源于基础品质的缺失。本文从研发视角出发，提炼出五项能让技术团队真心认可的靠谱特质：需求质量把控、沟通效率提升、变更管理专业度、共…",
+        "是一系列可训练的行为习惯。需求多想一层，文档写细一点，变更提前说，压力多自己扛。这些动作做久了，会发现研发团队对你的态度从被动接需求变成主动参与，从防备质疑变成…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "4年经验面腾讯产品岗，一面暴露野路子硬伤",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/class/6339297.html",
+      "published": "Fri, 06 Feb 2026 03:43:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "amp",
+        "offer",
+        "v1",
+        "gt",
+        "UI"
+      ],
+      "summary": "数字经济的快速发展，AI的出现迎来智能化时代，也诞生了新的岗位和业务需求，越来越多人选择转行做产品经理/AI产品经理，进入产品+AI的智能/智慧产品领域，紧跟时代发展。过程中的挑战要如何应对呢？ 转型规划第一步就是行业选择，目前市场强劲的这9个行业方向都是产品经理可以优先选择的职业方向。 其次就是做一个合格的产品经理。但做好产品经理并没有形象中那么容易，也让不少半路入行的小伙伴苦不堪言： 传统ToB企业工作3年， 网上自学B端产品却无法落实到工作里 ，感觉自己像个“野路子” 211本二野路子B端产品经理，只有2段不…",
+      "key_points": [
+        "一面被打击到怀疑人生 ，感觉“野路子”出身的自己啥也不是 由于产品岗位细分，一些产品行业属性重、业务逻辑复杂、学习资料稀缺等，导致很多从事 产品新人在职场道路上…",
+        "可扫码添加这个顾问老师 帮你理清提升思路 1次系统学习&gt;1年盲目摸索 ↓↓↓ 如果你苦恼0经验转岗产品/AI产品求职难？野路子没人带，成长慢？推荐你来参加…",
+        "1 被野路子困住的产品人 小南-小公司-2年产品经验 在一个不到50人的小公司，做了2年B端产品，主要从事医疗和支付方面的产品设计，均是从0到1搭建的，但是基本…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "叫声像婴儿哭声，长着九条尾巴，这种妖怪遇见千万别心软……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%AB%E5%A3%B0%E5%83%8F%E5%A9%B4%E5%84%BF%E5%93%AD%E5%A3%B0%EF%BC%8C%E9%95%BF%E7%9D%80%E4%B9%9D%E6%9D%A1%E5%B0%BE%E5%B7%B4%EF%BC%8C%E8%BF%99%E7%A7%8D%E5%A6%96%E6%80%AA%E9%81%87%E8%A7%81%E5%8D%83%E4%B8%87%E5%88%AB%E5%BF%83%E8%BD%AF%E2%80%A6%E2%80%A6",
+      "published": "Fri, 06 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "ID",
+        "SELFtalks"
+      ],
+      "summary": "古人记录妖怪， 最重要的是表达他们的价值观。 陈连山 · 北京大学中文系教授 格致论道第71期| 2021年8月28 日 北京 大家好，我是北京大学中文系教授陈连山。大家可能听说过《山海经》，知道这本书里的妖怪和神兽很多。那么《山海经》究竟是什么书？是专门记录妖怪的 志怪小说 ？还是 地理志 ？ 其实地理志和志怪小说这两个概念是矛盾的。地理志要求真实，志怪小说则是想象的，专门记录妖怪。接下来，请听我慢慢道来《山海经》的故事。 天书的诞生 《山海经》有18卷，分成 《山经》《海经》和《荒经以下》 三大部分。 《山经》…",
+      "key_points": [
+        "为什么要记录这个妖怪呢？因为其音如婴儿，它的叫声像婴儿的哭声，人们听到就会有同情心，想要去照顾孩子。但一去就坏了，会被九尾狐吃掉。它发出声音是为了骗人然后把人吃…",
+        "古人价值观的表达 我再举一些《山海经》里真妖怪的例子。青丘之山上有一种怪兽，“其状如狐而九尾”，形状像狐狸，长了九条尾巴。这肯定不是描述错误，而是故意的",
+        "这种妖怪有什么好处？据说是“佩之不畏”，佩戴上它的皮毛或者角，人就会变得毫不畏惧，英勇无畏，这能提高人的勇气"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "过年堵亲戚的嘴，除了给他们吃干噎酸奶，还可以准备这些……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%87%E5%B9%B4%E5%A0%B5%E4%BA%B2%E6%88%9A%E7%9A%84%E5%98%B4%EF%BC%8C%E9%99%A4%E4%BA%86%E7%BB%99%E4%BB%96%E4%BB%AC%E5%90%83%E5%B9%B2%E5%99%8E%E9%85%B8%E5%A5%B6%EF%BC%8C%E8%BF%98%E5%8F%AF%E4%BB%A5%E5%87%86%E5%A4%87%E8%BF%99%E4%BA%9B%E2%80%A6%E2%80%A6",
+      "published": "Fri, 06 Feb 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "des",
+        "Jahres",
+        "SDJ",
+        "Spiel"
+      ],
+      "summary": "大家感慨没年味了，除了看电视、刷手机，也不知道还能做点什么。 怎么能把大家从线上拽回真实世界，桌游就是很好的选择。叽叽喳喳，斗智斗勇，气氛立刻从 各玩各的 变成了 谁都不想走 。 精心筹备的 新春桌游专场直播 来了，帮你把过年的快乐备足！ 预约直播，过年一起和家人朋友，感受面对面围在一起玩桌游的乐趣吧~ 这几款是我们给大家推荐的桌游新年套装， 春节必备 ！ 来直播间，我们还会抽出“向日葵与猫拼图冰箱贴”， 下单更是有礼品相赠，都是在直播间才有的，纯纯福利！ 快来预约直播吧~ 马年新春限定——欢乐全家桶 新春礼包已经…",
+      "key_points": [
+        "过年一起和家人朋友，感受面对面围在一起玩桌游的乐趣吧~ 这几款是我们给大家推荐的桌游新年套装， 春节必备",
+        "还是走亲戚送礼，都贼有面儿， 直播间不到半价拿下",
+        "除了看电视、刷手机，也不知道还能做点什么"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "今年集五福的“隐藏款”——蚂蚁阿福，究竟怎么用？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8A%E5%B9%B4%E9%9B%86%E4%BA%94%E7%A6%8F%E7%9A%84%E2%80%9C%E9%9A%90%E8%97%8F%E6%AC%BE%E2%80%9D%E2%80%94%E2%80%94%E8%9A%82%E8%9A%81%E9%98%BF%E7%A6%8F%EF%BC%8C%E7%A9%B6%E7%AB%9F%E6%80%8E%E4%B9%88%E7%94%A8%EF%BC%9F",
+      "published": "Fri, 06 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ALT",
+        "App",
+        "AST"
+      ],
+      "summary": "春节“全家健康”的愿望 如何实现？ 今年春节，支付宝的“集五福”里悄悄多了一张新卡——“ 健康福 ”。 我以为我妈又给我发表情包了 不少人只是为了集五福，顺手下载了一个叫“ 蚂蚁阿福 ”的应用。结果点进去才发现，这次看似走流程的操作，反倒打开了一个有点意外的用法：原来，手机摄像头除了扫码、拍照，还能顺手把健康问题“拍明白”。 这件事放在春节，其实并不突兀。 年夜饭桌上，长辈眯着眼研究 药盒 上几乎看不清的服用说明； 家庭群里突然甩出一张 体检报告截图 ，满屏“↑↓”，配一句“这个要不要紧”； 小孙子孙女脸上起了红疹…",
+      "key_points": [
+        "我以为我妈又给我发表情包了 不少人只是为了集五福，顺手下载了一个叫“ 蚂蚁阿福 ”的应用。结果点进去才发现，这次看似走流程的操作，反倒打开了一个有点意外的用法：…",
+        "是它的 “师出名门”。蚂蚁阿福的“大脑”并非凭空生成，而是由全国200余家医院、超过500名临床医生（其中包括6位院士）参与共同训练和校准的",
+        "场景二：拍报告——体检报告的“翻译官” 前不久，我收到了自己的年度体检报告——整整八页纸，布满了我似懂非懂的医学术语和令人不安的箭头符号。要搁以前，全家都得对着…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "论文致谢写错导师名字，导师批注亮了：别改，就这么发！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%AE%BA%E6%96%87%E8%87%B4%E8%B0%A2%E5%86%99%E9%94%99%E5%AF%BC%E5%B8%88%E5%90%8D%E5%AD%97%EF%BC%8C%E5%AF%BC%E5%B8%88%E6%89%B9%E6%B3%A8%E4%BA%AE%E4%BA%86%EF%BC%9A%E5%88%AB%E6%94%B9%EF%BC%8C%E5%B0%B1%E8%BF%99%E4%B9%88%E5%8F%91%EF%BC%81",
+      "published": "Fri, 06 Feb 2026 16:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ID",
+        "rapper",
+        "ShengWuXueBa"
+      ],
+      "summary": "又到了毕业季，各位被论文支配的硕博们，还好吗？ 查重刚闯过一关，导师的修改意见又成了新的拦路虎。 对着屏幕上红彤彤的批注，有人愁到痛哭流泪，有人懵到满头问号，还有人被离谱评语逗得又气又笑。 那些藏在论文页边的批注，藏着导师的无奈、调侃与严格，既离谱好笑，又扎心治愈。今天，我们就来轻松盘点一波，这些 让人印象深刻的毕业论文导师修改意见。 把论文当小说写 老师批注：了不起，真的了不起，读到这里，是我见到的第 5 个新词，教材里都不敢这么写。 【神评】你是学派开山鼻祖 老师批注：这节整体阅读下来，应该是小说体裁。 【神评…",
+      "key_points": [
+        "网友：论如何把导师从致谢名单里“开除” 老师批注：别提我名字，你这不是致谢，是诬陷 【神评】怎么致谢的，发我学习一下 网友：这致谢写得太惨烈了，感觉再多两句，导…",
+        "很美好的想象，但你这种情况可能不止四年 【神评】四年都不够你写 老师批注：还好你把我名字写错了，别改，就这么写 【神评】导师：与我无关与我无关与我无关",
+        "老师批注：企业会找你（文中语境：学生论文里写得像给企业判死刑） 老师：“冷静点，再写要被告上法庭了。” 【神评】法务在来的路上了 谁教你这么致谢的"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "薄如纱，润如玉，中国奢侈品能有多会骗人？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%96%84%E5%A6%82%E7%BA%B1%EF%BC%8C%E6%B6%A6%E5%A6%82%E7%8E%89%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%A5%A2%E4%BE%88%E5%93%81%E8%83%BD%E6%9C%89%E5%A4%9A%E4%BC%9A%E9%AA%97%E4%BA%BA%EF%BC%9F",
+      "published": "Fri, 06 Feb 2026 12:14:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "Austin",
+        "David",
+        "dc_ps",
+        "detail",
+        "End"
+      ],
+      "summary": "情人节、春节终于要来了 ，当代青年需要的就是 “节日仪式感” 来犒劳辛苦工作一年的自己。 买一束美丽好看的鲜花，简直是让心情变好充满幸福感的“法宝”。 “人生有四季、四季有繁花”。 “爱花”，自古就是刻在国人基因里的 “风月雅事” ，从先秦对草木的自然崇拜、盛唐牡丹、雅宋莲花、明清茉莉、再到现在的绣球月季……岁月中想要定格的美好，有太多太多。 可惜花朵再美，却终有一日要凋零。 情人节买一束花要二、三百元 ，但也逃不过“开到荼蘼花事了”的遗憾， 大几百元=几天的花期 ，实在是太肉疼了。 爱花的朋友们相信你一定想过：…",
+      "key_points": [
+        "爱花的朋友们相信你一定想过： 能不能有一种方法， 让花朵能永远定格在绚烂绽放的永恒 ，还有清雅的花香时时盈室"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "科考旅行 | 中国国家地理号加拉帕戈斯群岛生态考察报名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%A7%91%E8%80%83%E6%97%85%E8%A1%8C+%7C+%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%E5%8F%B7%E5%8A%A0%E6%8B%89%E5%B8%95%E6%88%88%E6%96%AF%E7%BE%A4%E5%B2%9B%E7%94%9F%E6%80%81%E8%80%83%E5%AF%9F%E6%8A%A5%E5%90%8D",
+      "published": "Fri, 06 Feb 2026 17:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Island",
+        "Beagle",
+        "birds",
+        "Cruz",
+        "Day1",
+        "Day10"
+      ],
+      "summary": "▲点击上方海报即可报名 作为一片长时间远离人类干扰的世外桃源 加拉帕戈斯群岛 就像一个演化试验场 孕育了自己独一无二的自然世界 正是在这里 达尔文与上帝分手告别 使得智人这个物种 放下了身段 来审视包括自己在内的 一切生命的真理 自然选择 《物种起源》的问世 第一次把生物学建立在完全科学的基础上 深刻改变了人类对其在生物界中的地位和看法 而对这一进程作出特殊贡献的 正是来自于这片南太平洋上的小岛 加拉帕戈斯群岛 《物种起源》 查尔斯·达尔文画像 “小猎犬”号 遥远的加拉帕戈斯群岛（Galapagos）位于南美大陆以…",
+      "key_points": [
+        "邮轮外观 本次中国国家地理号所选游轮拥有舒适的船舱、宽敞的活动区域，大观景窗以及完善的舱内服务。无论在甲板、舱内还是房间都可以随时随地欣赏加拉帕戈斯绝美的风景",
+        "弱翅鸬鹚 加拉帕戈斯象龟 陆鬣蜥 正在求偶的雄性华丽军舰鸟 拉维达岛上的加拉帕戈斯海狮 随队专家 孙忻 中国科学院动物研究所·国家动物博物馆首席科普专家、原国家…",
+        "· 航行线路图： 活动详情 · 活动时间： 2027年1月12日—24日（13天） · 活动地点： 厄瓜多尔 · 活动费用： 豪华双人间：126800元/人 奢…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "就在明天！米兰是一座怎样的城市？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%B0%B1%E5%9C%A8%E6%98%8E%E5%A4%A9%EF%BC%81%E7%B1%B3%E5%85%B0%E6%98%AF%E4%B8%80%E5%BA%A7%E6%80%8E%E6%A0%B7%E7%9A%84%E5%9F%8E%E5%B8%82%EF%BC%9F",
+      "published": "Fri, 06 Feb 2026 17:15:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AC",
+        "Milan",
+        "mm",
+        "artplanet.2016",
+        "Inter",
+        "IT"
+      ],
+      "summary": "北京时间明天（2月7日）凌晨3点 米兰当地时间2月6日20时 第25届冬季奥林匹克运动会即将开幕 这让意大利 米兰、科尔蒂纳丹佩佐 两座城市成为了 全国乃至全球人民关注的焦点 但是，比赛之外 和地理君一起来了解一下 这两座意大利北部的城市 没错， 又要开冬奥会了！ “融合式”气候 翻开欧洲地图，米兰的位置堪称造物主的精心布局—— 北依阿尔卑斯山脉，南接波河平原 ，处于欧洲南北气候与文化的过渡带上。 这座城市的命运，与其说由人创造，不如说由地理塑造。 米兰和科尔蒂纳丹佩佐区位 图自：国家地理信息公共服务平台 米兰 的…",
+      "key_points": [
+        "北京时间明天（2月7日）凌晨3点 米兰当地时间2月6日20时 第25届冬季奥林匹克运动会即将开幕 这让意大利 米兰、科尔蒂纳丹佩佐 两座城市成为了 全国乃至全球…",
+        "米兰也是该时期重要的城市 。达芬奇在这里生活工作，在这里留下了众多手稿和杰作《最后的晚餐》",
+        "维罗纳古竞技场 维罗纳古竞技场 本届冬奥会闭幕式场地 建于公元前1世纪的古罗马建筑 比著名的古罗马斗兽场还要早170余年 维罗纳古城，意大利民间故事 《罗密欧与…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "放到过去十年，都算神作了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%94%BE%E5%88%B0%E8%BF%87%E5%8E%BB%E5%8D%81%E5%B9%B4%EF%BC%8C%E9%83%BD%E7%AE%97%E7%A5%9E%E4%BD%9C%E4%BA%86",
+      "published": "Fri, 06 Feb 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Inviolata",
+        "Eli",
+        "Ag",
+        "Age",
+        "casta",
+        "Coming"
+      ],
+      "summary": "文 Ag 「拉扎罗？」「拉扎罗？」「拉扎罗？」「拉扎罗？」「拉扎罗？」 呼唤声在烟叶收割的田野里此起彼伏——拉扎罗，一个被呼唤、被需求的声音形象，与他独自守夜游荡的视觉形象首先就形成了一组非常重要的对位。 这段呼唤声，甚至带我回到了费里尼时代的风与气声回旋的推进之中。 拉扎罗的脸有着伊特鲁里亚人典型的古典曲线，棕色蜷发，明亮的眼眸，永远着同一身旧衣，动作和表情鲜有变化。 与此同时，另一个更古老、更神秘的形象与银幕上的拉扎罗重合，他们有着同一个名字，便是《圣经》中那位死而复生的拉撒路。 对天主教意识形态的当代重述，在…",
+      "key_points": [
+        "「微笑着的好人？」 「对。」 「有着蓝色的眼眸，随时准备拥抱你？恰恰相反，他生气、愤怒，他独自一人，从一处去到另一处，哪里有人寻求他的治愈和奇迹，他就奔向哪里。…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这十部电影给PTA的影响巨大",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E5%8D%81%E9%83%A8%E7%94%B5%E5%BD%B1%E7%BB%99PTA%E7%9A%84%E5%BD%B1%E5%93%8D%E5%B7%A8%E5%A4%A7",
+      "published": "Fri, 06 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Magazine",
+        "Neon",
+        "PTA"
+      ],
+      "summary": "译者： Issac 校对： 朱溥仪 来源： 《Neon Magazine》 1998年8月刊 《帕特尼·斯沃普》 罗伯特·唐尼，1969 我十五岁的时候在一家音像店无意中发现了这部影片。我在一些影片中看过小罗伯特·唐尼的表演，所以罗伯特·唐尼这个名字还挺吸引我的。在那个阶段，我对黑人文化挺感兴趣的，片子看上去也很酷。 当我 真正开始看的时候才意识到，你可以在电影里很朋克很摇滚，你可以在电影里做任何事情，不需要是什么有意义的事情。只要它有趣，或者说对拍电影的人来说有趣就行，这事儿就能让人激动。我想在那个时候，罗伯特·…",
+      "key_points": [
+        "1975 其实我有一个这片的拷贝，准备今晚就放，因为今天是我生日，生日这天就要看《纳什维尔》。这部电影太棒了，简直完美。这片是西尼玛斯科普格式的，我的爱，它也极…",
+        "我很想穿片子里面的西装！我希望自己就是这部电影里的角色！片中的人物不是典型意义上的帅哥，但是他们又性感又酷",
+        "1949 这种电影我称之为「流行歌曲」片。它太简单了，你能一句话概括剧情：新手警察丢了枪，是不是难以置信地简单。砰地一声响，影片开始了，我喜欢这个开头。第一个镜…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "承诺过给大家拍个视频",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%89%BF%E8%AF%BA%E8%BF%87%E7%BB%99%E5%A4%A7%E5%AE%B6%E6%8B%8D%E4%B8%AA%E8%A7%86%E9%A2%91",
+      "published": "Fri, 06 Feb 2026 15:05:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp"
+      ],
+      "summary": "&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;",
+      "key_points": [
+        "&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "算法真的让我们更愤怒了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%AE%97%E6%B3%95%E7%9C%9F%E7%9A%84%E8%AE%A9%E6%88%91%E4%BB%AC%E6%9B%B4%E6%84%A4%E6%80%92%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Fri, 06 Feb 2026 08:08:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Arlie",
+        "Bait",
+        "END",
+        "get",
+        "Gisaro",
+        "Grandstanding"
+      ],
+      "summary": "2.6 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰文｜ 张榆泽 ● ● ● 当牛津大学出版社将“愤怒诱饵” （Rage Bait） 选为2025年的年度词汇时，一种集体性的受害者叙事正变得越来越广泛。 这个词所隐含的图景，是大众被描绘成一群在数字海洋中游弋的无辜鱼群，被某种看不见的险恶力量用精心设计的钩子钓起。媒体的解读大多遵循这一路径，将矛头指向平台的流量原罪。这种清晰划分善恶的方式让人感到舒适，好像我们都是清醒的，只是被技术蒙蔽了双眼。 如果剥离掉“诱饵”这个充满欺骗性…",
+      "key_points": [
+        "并不是算法导致了我们的愤怒，而是当下的生存环境让我们不得不主动简化自己的情感模式，让“愤怒”包裹着更多的情感需求，包括休闲娱乐、缓解孤独等。毕竟，在原子化的社会…",
+        "愤怒诱饵这个词所指摘的并不新鲜。早在19世纪末，普利策与赫斯特的报业大战中，夸张惊悚的标题、煽情的犯罪故事和骇人的配图，历史上的“黄色新闻”精准地撩拨着大众的神…",
+        "共同遏制“愤怒诱饵”，需要多方的合力。对于平台而言，需要持续优化算法模型，让制造对立的生意无利可图；对于监管方而言，重点应打击那些编造虚假剧情、操纵群体情绪的“…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "春节档AI三国杀，正式开战",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%98%A5%E8%8A%82%E6%A1%A3AI%E4%B8%89%E5%9B%BD%E6%9D%80%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%BC%80%E6%88%98",
+      "published": "Fri, 06 Feb 2026 10:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "Google",
+        "KPI",
+        "Anthropic",
+        "CEO"
+      ],
+      "summary": "文 ｜ 阑夕 今天，千问正式加入「红包大战」，30亿人民币的投入额度，是春节档迄今为止最大的数字。 这很符合阿里的作风，什么都好说，气势不能输，要么不参与，进场，那就必须是榜一大哥。 总体估算下来，阿里、字节、腾讯、百度、蚂蚁等大厂会在这个月烧掉超过50亿的预算，前所未有的热闹。 从元宝开始发红包，我就想说， 行业内的评价其实意义不大，用户并不在意产品以及运营的那些争议，有钱可领就是最高的动员令。 真正的考点在于，在如此密集的时间里，集中花掉这50亿，最后能够留下来什么？ 如果答案只有存在感，或是不想掉队，恐怕是交…",
+      "key_points": [
+        "千问正式加入「红包大战」，30亿人民币的投入额度，是春节档迄今为止最大的数字",
+        "除了听个响儿，还是在赌一个不可逆的趋势出现： 春节之后，将会开始有规模化的用户不再愿意忍受在十几个App之间跳转，千问将成为他们甘之如饴的一台「万物遥控器」",
+        "新一代千问正式推出至今也不到三个月，但它折腾出的动静，以及迭代的版本，是很多同行都望尘莫及的"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "从2025到2026：回顾亚洲科技变革高光时刻，邀您共赴新一程",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E4%BB%8E2025%E5%88%B02026%EF%BC%9A%E5%9B%9E%E9%A1%BE%E4%BA%9A%E6%B4%B2%E7%A7%91%E6%8A%80%E5%8F%98%E9%9D%A9%E9%AB%98%E5%85%89%E6%97%B6%E5%88%BB%EF%BC%8C%E9%82%80%E6%82%A8%E5%85%B1%E8%B5%B4%E6%96%B0%E4%B8%80%E7%A8%8B",
+      "published": "Fri, 06 Feb 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "Impact",
+        "Asia",
+        "Change",
+        "Technology",
+        "AI"
+      ],
+      "summary": "重温2025年 亚洲科技变革峰会（Technology for Change Asia） 的精彩现场与前沿观点。在为期两天的深度对话中，我们与来自公共部门和业界的 70余位领袖、600多名参会者 ，共同见证了 30多场专题讨论 。我们聚焦科技与创新，更探讨未来趋势如何以人为本，商业如何在变革中稳健前行。 核心洞察 科技，始终为人： 真正的创新始于理念变革。科技是人类通往更美好生活的桥梁，而非终点。 “信任经济”（Economy of Trust）时代已至： 在AI起飞与智慧城市演进的时代，建立深度同理心与协作，是实…",
+      "key_points": [
+        "重温2025年 亚洲科技变革峰会（Technology for Change Asia） 的精彩现场与前沿观点。在为期两天的深度对话中，我们与来自公共部门和业界…",
+        "展望未来：亚洲科技变革峰会2026 第六届亚洲科技变革峰会 （Technology for Change Asia 2026）将于 3月11日至12日 在香港举…",
+        "始终为人： 真正的创新始于理念变革。科技是人类通往更美好生活的桥梁，而非终点"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "非洲草原Safari巡游记",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E9%9D%9E%E6%B4%B2%E8%8D%89%E5%8E%9FSafari%E5%B7%A1%E6%B8%B8%E8%AE%B0",
+      "published": "Sat, 07 Feb 2026 00:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ndutu",
+        "lodge",
+        "safari",
+        "tented",
+        "moshi",
+        "Safari"
+      ],
+      "summary": "前文提到了乞力马扎罗登顶。那么本来计划的是6天的行程，我做了一个疯狂的决定，4天就撤下来了。所以多出两天，也没干啥，就在度假村里猫了两天，顺便去附近一个中餐厅吃了顿饭。 很神奇，度假村附近有个中餐厅，看地图只有700米，约着哥们走过去看看，结果越走越荒凉，连柏油路都没有了，全是土路，还经过了一套有点阴森的废宅。不过好在转过去不远看到一个小院，进去看环境还算不错，老板是本地人，据说以前在中国呆过几年，餐厅在当地应该算豪华的，谷歌评分不低，但没看到本地消费者，整个就餐时间只有我们一桌，有点不理解他们平时咋生存的。 点了…",
+      "key_points": [
+        "有棚子有桌子有厕所，很意外，人家非洲草原上的厕所很干净没有异味，比大部分中国景区厕所还好。不过密度没那么高，有时候可能距离较远。中途也会在野外找个地方方便，好在…",
+        "上一篇漏了视频 以及，这次巡游的照片合集 总算整理完了。虽然写游记访问量一直不高",
+        "一份烤猪排骨，一份四川混合蔬菜，一份中国混合炒饭，然后四小瓶当地啤酒，结账的时候我又要了一份冰淇淋，最后36美元左右，给了40美元说不用找了，这个价格放中国不算…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "中国模式正在加速改变全球生物医药的创新吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%9B%BD%E6%A8%A1%E5%BC%8F%E6%AD%A3%E5%9C%A8%E5%8A%A0%E9%80%9F%E6%94%B9%E5%8F%98%E5%85%A8%E7%90%83%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF%E7%9A%84%E5%88%9B%E6%96%B0%E5%90%97%EF%BC%9F",
+      "published": "Tue, 03 Feb 2026 08:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CGT",
+        "ALS",
+        "EVs",
+        "IIT",
+        "IITs"
+      ],
+      "summary": "2.3 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰文｜ 谭凌实 Ken Song 鲁白 翻译 | 梅宝 ● ● ● 随着全球药品定价压力持续增大以及研发成本持续上升，学术界和生物制药公司的临床医生和转化科学家正在重新评估何时、何地以及如何启动早期临床项目。这些最初的患者数据对于降低研发项目的风险至关重要，能使开发者将有限的时间和资源用于最有前景的药物。我们评估了药物研发领域的四个根本性转变，这些转变很可能对全球生物制药未来的成功至关重要：利用大规模高质量队列研究、企业驱动的…",
+      "key_points": [
+        "驱动本土企业不断突破极限，持续挑战既有的行业模式与实践。经年累月，这种内生动力连同政府的有力支持，共同塑造出深度聚焦、体系完备的垂直行业基础设施与生态，其根本逻…",
+        "中国已在嵌合抗原受体T细胞疗法 （chimeric antigen receptor -T cell，CAR-T） 和CGT的临床开发领域取得引领地位。这一转变…",
+        "中国已超越美国，成为全球临床试验的主要所在地，这主要归功于中国国家药品监督管理局进行的根本性监管改革。其最新一步是在2025年，将新药临床试验 （Investi…"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "AI 编程 2025 总结：国产模型“能力追平”，国产编程工具还在“情感陪伴”",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/ai-coding-2025-summary/",
+      "published": "Tue, 30 Dec 2025 08:25:12 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Coding"
+      ],
+      "summary": "前几天，我看到一篇国产 AI Coding 工具的案例文章，花了不少篇幅在讲一个“智能体的附加价值”——当你写代码写到崩溃时，它可以安慰你、鼓励你，让你感觉好受一点。",
+      "key_points": [
+        "我看到一篇国产 AI Coding 工具的案例文章，花了不少篇幅在讲一个“智能体的附加价值”——当你写代码写到崩溃时，它可以安慰你、鼓励你，让你感觉好受一点"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第251期 - 阳台的猫",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/251/",
+      "published": "Mon, 29 Dec 2025 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "App",
+        "iCloud",
+        "iPhone",
+        "Mac",
+        "MacCalendar"
+      ],
+      "summary": "封面图拍摄于周六早上睡到自然醒，太阳透过窗帘，看到汤圆猫在外面阳台猫爬架上面晒太阳的影子，很有感觉。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 分享稿：新一代工程师的破局与发展 https://tw93.fun/2025-12-22/engineer.html 上周在北京 AICon 上关于《新一代工程师的破局与发展-从岗位到能力的转型实践》的分享，把 PPT 转成文章放到于此，希望可以给新一代工程师们一些输入，也期待大伙一起交流。 Mole 居然…",
+      "key_points": [
+        "太阳透过窗帘，看到汤圆猫在外面阳台猫爬架上面晒太阳的影子，很有感觉"
+      ]
+    }
+  ]
+}
