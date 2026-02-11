@@ -1,0 +1,927 @@
+{
+  "date": "2026-02-11",
+  "generated_at": "2026-02-11T01:00:04.537147+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 228,
+    "fresh_candidates": 44,
+    "backfill_candidates": 184,
+    "items_published": 28,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-11",
+      "fetched_at": "2026-02-11T01:00:04.226062+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4128.37,
+          "change": 5.28,
+          "change_pct": 0.13,
+          "volume": 524620969.0,
+          "amount": 88220175.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5036.75,
+          "change": 12.779999999999745,
+          "change_pct": 0.25,
+          "prev_close": 5023.97,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-11 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1119.1500289356504,
+          "change": 2.8396758564149422,
+          "change_pct": 0.2543804998835644,
+          "prev_close": 1116.3103530792355,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-11 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "在家制作冰块为什么总有种「冰箱味」？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787515",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "QLL",
+        "Animalonearth",
+        "Layer",
+        "Psychrophiles",
+        "Quasi-Liquid",
+        "Si-O"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 在绝大多数家用冰箱里，根本不存在所谓的“独立空间”。 除非你斥巨资购买了双蒸发器或双压缩机的高端设备，否则你的冰箱和冷冻箱在呼吸着同一口空气 [1] 。 市面上普及的风冷冰箱（无霜冰箱）通常采用单蒸发器系统，风扇会将冷气在冷冻室和冷藏室之间循环吹送。 这意味着，你冷藏室里那半个切开的洋葱、昨晚剩下的红烧肉释放出的挥发性有机化合物（VOCs），会随着冷气流欢快地奔向冷冻室，并最终在温度最低的冰块表面“安家落户”。所以，哪怕你给冰块分了层…",
+      "key_points": [
+        "不要以为冷冻室是无菌的。2017 年的一项研究对不同来源的冰块进行了微生物检测，发现在家庭和商业制冰机中普遍存在大肠杆菌和假单胞菌 [10] 。结果显示， 6.…",
+        "这类细菌属于嗜冷菌（Psychrophiles），它们演化出了特殊的细胞膜结构，在低温下依然能保持代谢活性。下图为在 -15 °C 的北极冬季海冰中，通过显微镜…",
+        "当冰箱里循环的空气带着大蒜味或鱼腥味飘过时，它们并不会撞在坚硬的冰墙上反弹回去，而是直接溶解进了这层准液态层中。下图展示了这层准液态层转变为部分润湿状态的过程…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "鱼头被吃掉后竟能存活两周，这背后有哪些科学原理？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787526",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Animalonearth",
+        "CPG",
+        "Decerebrate",
+        "gibbiceps",
+        "Lateral",
+        "Line"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 金鱼的脑子结构不像人类那样抱成一团，而是像一串糖葫芦一样线性排列。 排在最前面负责嗅觉、社交和记忆的端脑（Telencephalon），以及负责视觉的中脑视顶盖，在这次事故中被物理切除了。 但对于一条鱼来说，只要这串糖葫芦最后面的那一颗，也就是延髓（Medulla Oblongata）还连在脊髓上，它就在生理层面上依然持有“活下去”的可能。 注意看视频中“断头”金鱼，我圈了个红的位置： 红圈内那个半透明、覆盖在侧面的“骨板”结构，就是…",
+      "key_points": [
+        "而是淡水。淡水鱼终其一生都在做一件事：对抗渗透压 [4] 。它们体内的盐分浓度高于外界水体，所以水会源源不断地渗入体内。健康的鱼靠皮肤和鳞片把水挡在外面，靠肾脏…",
+        "大脑会对脊髓施加抑制信号，就像一直踩着刹车，让鱼能停下来休息。而在切除了端脑的实验中，科学家早就发现 [1] [2] ，失去了高层管控的鱼反而会进入一种“不知疲…",
+        "新陈代谢极慢，哪怕两周不吃不喝也能靠燃烧自身的脂肪和肌肉储备撑着，但它的肾脏和离子泵无法长期对抗这种灾难性的稀释。最终，它死于严重的电解质失衡（低钠血症）导致的…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "既然月亮在远离地球，是不是地球也在远离太阳？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787522",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "七小七， 脚踏实地，仰望星空。心有猛喵，细嗅鱼干。 查看知乎原文 是的，地球确实在远离太阳。不过二者的主要原因并不一样，所以没有“既然...也...”这种递进关系。 月亮远离地球，主要是因为潮汐作用造成的轨道抬升。而地球远离太阳，主要是因为太阳在逐渐变轻，越来越“拉不住”地球了。 潮汐的魔力 潮汐力并不是真实存在的力，而是一种“假想力”，是由于 引力 场强度不同导致的。 简单来说，物体是有大小的，因此它的近端和远端受到的来自另一个物体的引力是不同的。靠近引力源的一侧比远离引力源的一侧会受到更大的引力。 这个引力的梯…",
+      "key_points": [
+        "地球确实在远离太阳。不过二者的主要原因并不一样，所以没有“既然...也...”这种递进关系",
+        "主要是因为潮汐作用造成的轨道抬升。而地球远离太阳，主要是因为太阳在逐渐变轻，越来越“拉不住”地球了",
+        "引力就会减小，那么地球自然就会慢慢远离太阳。目前，这个幅度大约是 6 厘米 / 年"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "多元资产配置里的债类资产，可以用「固收+基金」替代吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%A4%9A%E5%85%83%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE%E9%87%8C%E7%9A%84%E5%80%BA%E7%B1%BB%E8%B5%84%E4%BA%A7%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%94%A8%E3%80%8C%E5%9B%BA%E6%94%B6%2B%E5%9F%BA%E9%87%91%E3%80%8D%E6%9B%BF%E4%BB%A3%E5%90%97%EF%BC%9F",
+      "published": "Tue, 10 Feb 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "App"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 摩根在野 来源：雪球 上周的多元资产配置实例的文章中，债券类的资产是这么配置的： 有细心的读者发现，我配置的并不全是纯债基金：其中一只是偏债混合型，一只是灵活配置型。严格来说，这两只基金不是标准的债券类资产，而是大家经常提到的“固收+”基金。 如果用其他基金销售App来进行多元资产配置管理，会把上面两只类型归入混合型基金。但这里要表扬一下雪球的三分法，很好的识别出这两只基金的底层资产，…",
+      "key_points": [
+        "那么问题来了：多元资产配置里面的债券类资产，可以用固收+基金来替代吗？如果可以代替，在什么情况下可以？什么情况下又不行",
+        "三、固收+基金能不能替代多元资产配置中的债券类资产",
+        "摩根在野 来源：雪球 上周的多元资产配置实例的文章中，债券类的资产是这么配置的： 有细心的读者发现，我配置的并不全是纯债基金：其中一只是偏债混合型，一只是灵活配…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从BIAS看慢牛不易",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3559889031/375583845",
+      "published": "Tue, 10 Feb 2026 09:59:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BIAS",
+        "BIAS20",
+        "FOMO",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "之前写了篇《一个黄金短线逃顶指标》，其中一个核心指标就是乖离率 (BIAS)。 乖离率其实是一个很朴素的技术指标，就是 计算最新收盘价相对指定均线的偏离度 。常被用于作为超买超卖指标。 但在用 BIAS 做更多 “逃顶” 思路的研究时，发现这其实是一个很好的 “慢牛” 评估指标 。 A 股，相比许多成熟市场，不是一个赚钱特别容易的市场。相信许多老股民早就用亲身经历，验证了这一点。 为何？ 早在 2023 年中，我就写过一篇《A股的问题，不是熊市太惨，而是牛市太疯》，虽然当时的留言中骂声一片。但这两年，伴随 “9・2…",
+      "key_points": [
+        "沪深 300 被认为是 A 股大蓝筹的典范。但在 2016 年迄今的十多年间，很多次也是极为 “亢奋”。2019 年、2020 年两次都出现 10%+ 的乖离率…",
+        "纳斯达克 100 真是慢牛典范。下图的乖离率，我用红色虚线代表 10% 乖离率，绿色虚线代表 15% 的乖离率，可以看到从 2016 年迄今的十多年大牛市中，纳…",
+        "我就写过一篇《A股的问题，不是熊市太惨，而是牛市太疯》，虽然当时的留言中骂声一片。但这两年，伴随 “9・24” 行情绝地反弹，伴随牛市大家心态更好一些了，再加上…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "26年消费红利指数深度复盘与展望",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9600110938/375641219",
+      "published": "Tue, 10 Feb 2026 09:59:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt",
+        "choice",
+        "SmartBeta",
+        "PE",
+        "ROE",
+        "A500"
+      ],
+      "summary": "风险提示：本文仅是个人投资过程中的思考和阶段性梳理，本人只是一个普通小散，文章观点不一定正确，投资水平也很一般，文章中涉及的股票或者基金均可能有大幅下跌的风险，请保持独立思考，市场有风险，投资需谨慎，文章观点仅作交流之用，不构成任何投资建议，读者朋友请勿据此操作！ 这篇文章对消费红利指数的进行25年复盘分析与26年展望： 熟悉我的朋友都知道，在SmartBeta指数中我写消费红利指数的内容比较多，甚至很多朋友就是因为消费红利指数而关注我的，不过我平时精力也有限，目前定期会分析的就是每年一篇的年度复盘分析。 Part…",
+      "key_points": [
+        "这篇文章对消费红利指数的进行25年复盘分析与26年展望： 熟悉我的朋友都知道，在SmartBeta指数中我写消费红利指数的内容比较多，甚至很多朋友就是因为消费红…",
+        "Part3: 消费红利指数25年表现分析 接下来看下消费红利指数从20年3月26日成立以来到26年2月6日的指数表现情况： 注：图片内容来自韭圈儿 可以看到从基…",
+        "Part2: 消费红利指数成分股质地分析 成分股盘子分析： 消费红利在23年底调仓后市值小于100亿的成分股如下： 注：图片数据来自choice 消费红利在24…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想221 停不下来的AI军备竞赛",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/375592622",
+      "published": "Tue, 10 Feb 2026 09:59:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Alphabet",
+        "Meta",
+        "http",
+        "OpenAI",
+        "SH600176"
+      ],
+      "summary": "昨天到今天，谷歌母公司Alphabet计划发行的美元债券已经从150亿美元升至200亿美元；除了美元债券外，Alphabet还在考虑发行瑞士法郎和英镑债券，甚至可能包括一笔罕见的100年期债券；在刚刚过去的一周，甲骨文通过一笔债券发行筹资250亿美元。 数据显示，亚马逊、Alphabet（谷歌）、Meta、微软和甲骨文这五家公司在2025年发行了高达1210亿美元的公司债券，而此前五年（2020-2024年）的年均发行量仅为280亿美元。2026年，从现在的迹象来看，这一数字可能会更疯狂。 根据公开消息，这些债券募…",
+      "key_points": [
+        "所以对之前的疯狂没有感受；但从历史数据看，即便考虑上这么多年的通货膨胀，面对这新一轮的AI军备竞赛，只能默叹好家伙，钱如此不值钱么"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从现金流角度看增值税提高对三大运营商的影响",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1139309895/375549496",
+      "published": "Tue, 10 Feb 2026 09:59:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600941",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "目前增值税对电信运营商的具体影响无法准确计算，例如运营商可通过加速网络建设、设备采购与研发投入以提升进项税抵扣比例，或减少低价套餐、与部分企业协商调整含税价等方式，降低增值税带来的影响。因此，我们在此保守假设增值税率升高最终对中国移动、中国电信、中国联通的利润影响分别为100亿元、50亿元、40亿元。 一、中国移动 ①经营现金流显著高于归母净利润，占比达200%以上；②资本开支规模较高，占经营现金流的50%-60%；③资本开支已开始下降，预计2025年资本开支将低于1512亿元，较2024年减少128亿元；④受经营…",
+      "key_points": [
+        "虽然增值税增加对中国电信、中国联通利润的影响明显大于中国移动，但对三家运营商自由现金流的影响却相差不大。原因在于：①中国电信、中国联通的自由现金流本身远大于归母…",
+        "目前增值税对电信运营商的具体影响无法准确计算，例如运营商可通过加速网络建设、设备采购与研发投入以提升进项税抵扣比例，或减少低价套餐、与部分企业协商调整含税价等方…",
+        "注：①本文中增值税率升高最终对中国移动、中国电信、中国联通利润影响100亿元、50亿元、40亿元的假设较为粗略；②假设三家运营商2025年利润均增长5%；③运营…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "B端产品经理必备的接口鉴权知识手册",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6340011.html",
+      "published": "Mon, 09 Feb 2026 08:36:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Token",
+        "Session",
+        "Cookie",
+        "OAuth",
+        "when",
+        "Access"
+      ],
+      "summary": "在B端产品设计中，鉴权系统如同企业的数字门禁，决定着谁能进、能去哪、能做什么。本文用产品经理能听懂的语言，拆解Session、Token、Cookie三大主流方案的适用场景，揭秘如何在安全与体验间寻找平衡点，并附上OAuth集成与权限设计的实战指南。 作为B端产品经理，我们每天都在设计用户流程和权限体系。当开发同学提到“Session”、“Token”、“OAuth”这些词时，你是否曾感觉一头雾水，却又不好意思深问？——其实，鉴权根本不是技术同学的“黑话”，而是我们产品经理设计功能时必须掌握的底层业务逻辑 。今天，…",
+      "key_points": [
+        "我们每天都在设计用户流程和权限体系。当开发同学提到“Session”、“Token”、“OAuth”这些词时，你是否曾感觉一头雾水，却又不好意思深问？——其实，…",
+        "一、为什么产品经理必须懂鉴权",
+        "鉴权系统如同企业的数字门禁，决定着谁能进、能去哪、能做什么。本文用产品经理能听懂的语言，拆解Session、Token、Cookie三大主流方案的适用场景，揭秘…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2B产品设计之管理手势：将管理方式纳入需求设计",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6339971.html",
+      "published": "Mon, 09 Feb 2026 07:23:52 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "excel",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "PS",
+        "Unsplash"
+      ],
+      "summary": "当管理者购买2B产品后，如何确保团队真正用起来？本文揭示了产品设计中常被忽视的“管理手势”概念，通过酒店行业的鲜活案例，剖析了仅满足用户需求与赋能管理效能的本质差异。从进销存系统的落地困境到完整的解决方案设计，为你展现如何将管理方法论融入产品逻辑。 如果你一眼看到“管理手势”的反应是——这啥玩意儿？不用意外，不理解很正常，你只是遇到行业黑话了。 可以把“手势”这个词理解为 “打法”、“套路”、“标准化动作” 或 “操作方式”。管理手势=领导管理的固定套路，就是管理者习惯怎么给下边的人派活、怎么开会、怎么追进度。比如…",
+      "key_points": [
+        "如何确保团队真正用起来？本文揭示了产品设计中常被忽视的“管理手势”概念，通过酒店行业的鲜活案例，剖析了仅满足用户需求与赋能管理效能的本质差异。从进销存系统的落地…",
+        "公司内部已有管理手势，做产品设计的时候直接参考 不断优化迭代。找成熟的业务部门，或同行请教，梳理成一个标准的管理方式，将该管理方式和产品一同上线，和用户、管理者…",
+        "作为一家酒店管理系统的厂商，不仅仅是给酒店提供一个品牌流量支持，还要提供专业的管理方式帮助酒店经营，这就要求产品经理不能仅按照“收集需求→实现需求”来做产品，而…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "马斯克2026最新预言：36个月内，太空将成为AI最便宜的地方",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6339962.html",
+      "published": "Mon, 09 Feb 2026 06:13:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Tesla",
+        "xAI",
+        "SpaceX",
+        "TSMC",
+        "RL"
+      ],
+      "summary": "马斯克正在编织一张前所未有的星际工业网络——从地球能源困局到太空数据中心革命，从芯片制造瓶颈到数字人类模拟，这位科技狂人正将特斯拉、SpaceX和xAI的业务线收束成闭环生态。令人震惊的是，他预测36个月内太空将成为AI最经济的落脚点，并透露特斯拉已预订全球所有可用芯片产能。这篇深度访谈揭示了马斯克如何用物理学思维解构人类文明的未来挑战。 采访时间：2026年 | 采访者：Dwarkesh Patel｜被采访人：马斯克 这份访谈的信息量极其巨大，读完后的 第一个想法 是： 马斯克正在将他旗下所有公司的“故事线”强制…",
+      "key_points": [
+        "里面还有一句话令人回味： “In the absence of breakthrough innovations in the US, China will u…",
+        "“是因为你每年只需要超过数百亿美元吗？” “这就是你要上市的原因？” 马斯克很谨慎：“我必须小心谈论可能上市的公司。” “这对你来说从来不是问题，Elon。”…",
+        "马斯克正在编织一张前所未有的星际工业网络——从地球能源困局到太空数据中心革命，从芯片制造瓶颈到数字人类模拟，这位科技狂人正将特斯拉、SpaceX和xAI的业务线…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "千问的“奶茶局”：一场价值30亿的顶级流量焦虑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339866.html",
+      "published": "Mon, 09 Feb 2026 02:52:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CC0",
+        "DeepSeek",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "30亿奶茶补贴背后，是千问对用户认知的豪赌。当技术壁垒逐渐消失，国内AI战场转向场景渗透的残酷现实——从服务器崩溃到微信封禁，这场狂欢暴露的不仅是资本力量，更是整个行业在广告封锁与社交限制下的生存困境。本文将拆解这场补贴大战如何重塑用户对AI的底层认知。 就在昨天2月6日看到朋友圈一堆人在发千问奶茶的链接 于是我也忍不住试试点开千问，对着它说：”千问，帮我点杯奶茶” 结果就看着它一直转圈圈，最后还弹出一个红色感叹号 无论我点了多少次，得到的始终只是一个红色感叹号罢了 那一刻有种感觉不是卡在技术上，是卡在一种更隐蔽的…",
+      "key_points": [
+        "就在昨天2月6日看到朋友圈一堆人在发千问奶茶的链接 于是我也忍不住试试点开千问，对着它说：”千问，帮我点杯奶茶” 结果就看着它一直转圈圈，最后还弹出一个红色感叹…",
+        "由于参加人数远超预期，直接系统崩溃 红色感叹号，到处都是 奶茶店爆单，服务器扛不住 微信封禁了千问的分享链接 用户只能复制口令，跳转第三方浏览器 我看见有人说：…",
+        "千问赌的不是你今天用它点了几杯奶茶 赌的是你明天会不会继续用它当用户第一次对AI说”帮我点外卖” 并且真的收到了奶茶 这个动作，改变的不是消费习惯 改变的是认知…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "小白如何用AI做游戏？Trae实操经验分享",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339875.html",
+      "published": "Mon, 09 Feb 2026 01:55:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Trae",
+        "LoRA",
+        "Prompt",
+        "AIGC",
+        "cursor"
+      ],
+      "summary": "像素风游戏的素材生成远比想象中更具挑战性。本文作者亲身经历了从工具选择失误到最终建立高效流程的全过程，揭秘如何用平价AI工具解决角色一致性、风格稳定性等核心问题，分享了一套无需LoRA微调也能实现风格统一的实战方法论。 最近我做了一款情感剧情类的像素风小游戏。玩法上比较接近橙光游戏，玩家通过不断选择对话和行为，走向不同的结局，体验主角完整的一生。 项目本身并不复杂，但在素材制作阶段，我花了远超预期的时间。关键就在于我一开始对工具的能力边界判断得过于乐观。 这篇文章主要记录三个阶段：素材生成一开始为什么会失控，我中途…",
+      "key_points": [
+        "对想用 AIGC 做游戏的一点经验总结 如果你也在尝试用 AIGC 做情感剧情类游戏，下面这几点可能会帮你少走一些弯路： 不要指望一个工具解决所有问题 一个满意…",
+        "像素风游戏的素材生成远比想象中更具挑战性。本文作者亲身经历了从工具选择失误到最终建立高效流程的全过程，揭秘如何用平价AI工具解决角色一致性、风格稳定性等核心问题…",
+        "由AI生成的内容会得到爆发增长，不可避免的就是大量的低质量且同质化严重的内容。诚然AI可以编剧本、造角色、做游戏等等，但是还是建议尽可能让其中有某一环自己亲手来…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "因工业需求量大，中国培育宝石疯狂扩产，一不小心……击垮了全球顶奢珠宝价格",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9B%A0%E5%B7%A5%E4%B8%9A%E9%9C%80%E6%B1%82%E9%87%8F%E5%A4%A7%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%9F%B9%E8%82%B2%E5%AE%9D%E7%9F%B3%E7%96%AF%E7%8B%82%E6%89%A9%E4%BA%A7%EF%BC%8C%E4%B8%80%E4%B8%8D%E5%B0%8F%E5%BF%83%E2%80%A6%E2%80%A6%E5%87%BB%E5%9E%AE%E4%BA%86%E5%85%A8%E7%90%83%E9%A1%B6%E5%A5%A2%E7%8F%A0%E5%AE%9D%E4%BB%B7%E6%A0%BC",
+      "published": "Tue, 10 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "mp.weixin.qq.com",
+        "Africa",
+        "amp",
+        "red",
+        "S925"
+      ],
+      "summary": "当两个有着“顶奢级品质”的珠宝，放在你面前。 肉眼看长得一模一样，化学成分一模一样，重量、色泽、质感都一模一样。 一个卖你两三百，一个卖你七、八十万，你会买单哪个？ @果壳市集实拍 👇🏻人工培育的宝石，竟让某珠宝博主也一时分辨不出来…… 近两年，黄金价格不断飙升，而曾经产量少，卖到天价的彩色珠宝，持续阴跌、市场遇冷，很多人虽然很喜欢珠宝，却也只是一再观望…… 图片来源：新闻截图 而背后的原因，让很多珠宝从业者都心态崩塌—— 很大一部分是我国人工培育宝石技术重大突破、工业需求不再卡脖子的“副”作用。 图片来源：新闻截…",
+      "key_points": [
+        "竟让某珠宝博主也一时分辨不出来…… 近两年，黄金价格不断飙升，而曾经产量少，卖到天价的彩色珠宝，持续阴跌、市场遇冷，很多人虽然很喜欢珠宝，却也只是一再观望………",
+        "肉眼难分 天然宝石生长时间长，交易周期久，还要小心翼翼保养， 而且便宜价位的几千块宝石，内里包裹体往往太多，光下的宝石感并不好…… 而培育宝石 是通过模拟自然界…",
+        "参考文献 [1]一折实现“克拉自由”？培育宝石如何挑选？果壳种草笔记，https://mp.weixin.qq.com/s/XuliyALVVcirYsxGMI…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "独家对话极映科技高鑫：我们为什么要做一个比Sora难10倍的物理世界模型？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%8B%AC%E5%AE%B6%E5%AF%B9%E8%AF%9D%E6%9E%81%E6%98%A0%E7%A7%91%E6%8A%80%E9%AB%98%E9%91%AB%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%81%9A%E4%B8%80%E4%B8%AA%E6%AF%94Sora%E9%9A%BE10%E5%80%8D%E7%9A%84%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%EF%BC%9F",
+      "published": "Tue, 10 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GPT-3.5",
+        "FDA",
+        "Sora",
+        "gt",
+        "To"
+      ],
+      "summary": "如果底层范式不改变，工业仿真将成为工程创新的天花板。 作者｜周悦 编辑｜王博 2025年7月，硅谷完成了工业软件史上最昂贵的一笔交易：半导体设计软件龙头新思科技以350亿美元收购仿真巨头ANSYS。 几乎同期，PhysicsX、Neural Concept等AI工业软件公司相继完成1亿美元级融资。 这意味着资本正在达成共识：AI时代，预测物理世界的能力需要被重新定价。 在半导体、航空航天等领域， 物理仿真仍受困于传统范式。 一轮复杂计算往往耗时数日，工程师被困在网格划分与参数调试中。 正是这一长期低效，催生了物理世…",
+      "key_points": [
+        "催生了物理世界模型公司极映科技",
+        "这一选择带来了质变：相比传统仿真数值方法，极映的物理世界模型， 把反馈周期从“天”压缩至“秒”，响应速度百倍于传统仿真",
+        "极映选择了一条更窄、更硬的路径：跳出流体、结构、热学等物理场割裂体系，回归质量与能量守恒的底层定律，让AI直接学习偏微分方程的共性， 补上世界模型中缺失的物理内…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "中年人为啥这么爱盘这个土疙瘩？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%AD%E5%B9%B4%E4%BA%BA%E4%B8%BA%E5%95%A5%E8%BF%99%E4%B9%88%E7%88%B1%E7%9B%98%E8%BF%99%E4%B8%AA%E5%9C%9F%E7%96%99%E7%98%A9%EF%BC%9F",
+      "published": "Tue, 10 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "a30ajjwq7p0ol",
+        "dc_ps",
+        "detail",
+        "End",
+        "wscgoods"
+      ],
+      "summary": "紫禁文创非遗的匠人说： “一把好壶，一只杯器，急不得”。 紫砂茶器的泥料要在不见天日的地窖里，沉默地 陈腐3年、5年甚至更久。 而它 壶身的每一道线条，都需要匠人们全神贯注地拍一次又一次地打。 一毫米一毫米地塑形，一次不成，就重新再来。 然后放入窑中长达 7天7夜、超过1280度的烈火烧炼。 进窑前，谁也无法预料出窑的模样。 或许会开裂，或许会窑变出意想不到的纹理。 真金不怕火炼，好泥，也从不畏惧高温。 不知不觉，年末已近，一眨眼又要过年了。 这套 紫禁文创出品的——【五福临门紫砂礼盒】 献给辛苦了一整年的大家。…",
+      "key_points": [
+        "End 本期科学选品官｜ 阳阳/雅倩 策划编辑｜ 喵先森 内容审核｜ 果壳法务审核团 果壳市集 福利来袭 ⭐️ 长按识别下方二维码关注+进群，可领取多重福利 关…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一个意外，脑机接口试验让盲人恢复了视力",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E4%B8%AA%E6%84%8F%E5%A4%96%EF%BC%8C%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E8%AF%95%E9%AA%8C%E8%AE%A9%E7%9B%B2%E4%BA%BA%E6%81%A2%E5%A4%8D%E4%BA%86%E8%A7%86%E5%8A%9B",
+      "published": "Tue, 10 Feb 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "UMH",
+        "https",
+        "NAION",
+        "van",
+        "Alfaro"
+      ],
+      "summary": "一位失明超过3年的65岁盲人，参加脑机接口试验后能看见东西了，从此可以更稳地走路和拿住杯子。 然而，这完全是个意外，试验原本没有指望帮助盲人复明。 目前，研究人员还不明确他的视力是如何恢复的，也不知道复明能不能再次发生在其他人身上。 不过，这个案例带来了一线微光， 预示曾经被判定为永久失明或其他功能障碍的人们，也许存在恢复的可能。 脑机接口试验参与者 ｜ UMH 试验原本的目标，是让盲人用大脑直接“看”东西 这个意外，出现在一项开创性的临床试验中，相关发现于2026年2月3日发布在期刊《大脑通讯》（ Brain C…",
+      "key_points": [
+        "脑机接口试验参与者 ｜ UMH 试验原本的目标，是让盲人用大脑直接“看”东西 这个意外，出现在一项开创性的临床试验中，相关发现于2026年2月3日发布在期刊《大…",
+        "试验由西班牙的米格尔·埃尔南德斯·德埃尔切大学（Universidad Miguel Hernández de Elche, UMH）和 CIBER 生物工程、…",
+        "光与运动基础评估（Basic Assessment of Light and Motion, BaLM）中，A在辨别方向｜ 参考文献[1] A在训练中指认物体位…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "天天往耳朵里塞耳机？我“耳聋”之前最喜欢了......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A9%E5%A4%A9%E5%BE%80%E8%80%B3%E6%9C%B5%E9%87%8C%E5%A1%9E%E8%80%B3%E6%9C%BA%EF%BC%9F%E6%88%91%E2%80%9C%E8%80%B3%E8%81%8B%E2%80%9D%E4%B9%8B%E5%89%8D%E6%9C%80%E5%96%9C%E6%AC%A2%E4%BA%86......",
+      "published": "Tue, 10 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "S80",
+        "Mbps",
+        "Airpods",
+        "APP",
+        "dc_ps",
+        "detail"
+      ],
+      "summary": "“我宣布耳夹式耳机是这个世界伟大的发明之一！是小耳朵星人的福音！！” “耳夹式耳机好伟大！戴了一整天毫无感觉！ ” “我可以戴好几个小时没有感觉！” 上面这些不同时间、不同地点、不同用户， 水军一般的“真情流露” ， 全部是源自 业界大佬推出的这款1000+的耳夹耳机。 随便搜一下，就会发现这样的评价竟然有数万条。 自开售后，旗舰店一个链接月销 5 万单，加上其他渠道、线下至少有几十万单，非常火爆。 用数据证明了：天下苦“入耳式耳机”太久了！ 传统入耳式的耳机再舒服， 一旦戴久了或者忘记摘，就会突然给耳道一记重击…",
+      "key_points": [
+        "“我宣布耳夹式耳机是这个世界伟大的发明之一！是小耳朵星人的福音！！” “耳夹式耳机好伟大！戴了一整天毫无感觉",
+        "果壳实拍 ⭕️ 细节、做工拉满 千元级电镀工艺、定制耳机提示音 果壳实拍，肉眼可见的精致 大家关注的 佩戴舒适性、掉不掉、轻不轻 ，我们也全部都实测过了 👇 首…",
+        "而且漏音少，音质明显提升！（不用费力调角度，就能实现好的听音体验） 我司一位耳机发烧友在佩戴后给出了非常中肯的评价： 中高低频都非常稳定，和千元左右耳机几乎没差…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "在吉林，误入一场“童话世界”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E5%90%89%E6%9E%97%EF%BC%8C%E8%AF%AF%E5%85%A5%E4%B8%80%E5%9C%BA%E2%80%9C%E7%AB%A5%E8%AF%9D%E4%B8%96%E7%95%8C%E2%80%9D",
+      "published": "Tue, 10 Feb 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "吉林通化龙湾群国家森林公园内，寒冬为山林盖上了厚厚的雪被，万物似乎都停下了脚步，唯独吊水壶瀑布依旧欢快，在寂静山林中奏响清泠乐章。水雾的晶体凝结在枝头，化作琼枝玉叶的雾凇，造就一片玉树银花的秘境。 吊水壶瀑布的水源自长白山系龙岗山脉的响水河，是远古火山爆发后河床断裂留下的一道“伤口”，水流终年不冻，即便严冬也生机盎然。所谓“十丈悬流万堆雪”，大抵便是如此。冰与歌，静与动，在这里达成了奇妙的和谐，让人流连忘返。 #吊水壶瀑布 #吉林 #治愈系风景 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文",
+      "key_points": [
+        "#吊水壶瀑布 #吉林 #治愈系风景 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "这个春晚分会场，太意想不到了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%BF%99%E4%B8%AA%E6%98%A5%E6%99%9A%E5%88%86%E4%BC%9A%E5%9C%BA%EF%BC%8C%E5%A4%AA%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E4%BA%86",
+      "published": "Tue, 10 Feb 2026 17:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jubei",
+        "up"
+      ],
+      "summary": "全国 第一个 “县级市” 央视春晚分会场 是 浙江金华的 义乌 虽是 “县级市” 却足以改变 全世界 春节的节奏 而且，如果义乌是“分会场” 其所在的金华更可堪称人间“主会场” “金光闪闪”的金华 与“义想不到”的义乌 它们，凭什么？ 凭什么是义乌？ 浙江第一个央视春晚分会场， 竟然不是杭州 ，而是 义乌 ，凭什么？ 凭中国人乃至地球人需要什么，义乌就能给什么。 2018年，义乌商户在整理爆款圣诞帽 至2025年，义乌“接单”圣诞用品已占全球 80%！ 外国人“过年”都得看义乌 全世界都迫切需要的中国城市 义乌，因…",
+      "key_points": [
+        "全国 第一个 “县级市” 央视春晚分会场 是 浙江金华的 义乌 虽是 “县级市” 却足以改变 全世界 春节的节奏 而且，如果义乌是“分会场” 其所在的金华更可堪…",
+        "太有料了 这个春晚分会场，有点东西",
+        "外国人“过年”都得看义乌 全世界都迫切需要的中国城市 义乌，因奇迹般的成为马年央视春晚分会场之一，而受万众瞩目，几乎与此同时——近日，这里也因一匹爆款 “哭哭马…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "二十五年前，杜琪峰韦家辉说了什么",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BA%8C%E5%8D%81%E4%BA%94%E5%B9%B4%E5%89%8D%EF%BC%8C%E6%9D%9C%E7%90%AA%E5%B3%B0%E9%9F%A6%E5%AE%B6%E8%BE%89%E8%AF%B4%E4%BA%86%E4%BB%80%E4%B9%88",
+      "published": "Tue, 10 Feb 2026 20:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Cinema",
+        "hongmomgs",
+        "irisfilm",
+        "Kraicer",
+        "qq.com",
+        "sammi"
+      ],
+      "summary": "作者：Shelly Kraicer 译者：易二三 校对：奥涅金 来源：《电影感》 （2001年12月） 杜琪峰或许是香港电影业的生命线，也是目前香港电影业复兴的关键人物。 杜琪峰不仅在本土长期以其独特的多才多艺、票房号召力和兼任导演及制片人的艺术造诣而闻名，他还因《东方三侠》（1993）——一部以超级英雄三人组为主角的动作奇幻片，由梅艳芳、杨紫琼和张曼玉主演——等内行的经典作品而受到海外港片影迷的赞赏，后两位彼时在西方还未出名，以及时髦、冷酷的犯罪电影《枪火》（1999）。 《东方三侠》 西方电影界也终于注意到了这…",
+      "key_points": [
+        "杜琪峰 ：我很信任韦家辉的创造力：他的写作，他的想法，一切。这让我处理制作方面的问题更为容易。一开始，他掌控着一切。我只是把它放进电影里：他写的一切都变成了电影…",
+        "杜琪峰和韦家辉 该公司的电影反映了那个时代不安定的本土气氛，他们1998年上映的一系列电影基调阴郁，但在商业上不太成功，包括有着令人不安的暴力的《暗花》，《真心…",
+        "韦家辉 ：我对杜琪峰的执行力也充满信心。但我认为，就性格而言，我们工作的方式可以不恰当地类比为「阴阳」。杜琪峰咄咄逼人的时候，我会说「慢慢来」，因为如果我们都咄…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "没有他，哪来什么春节档？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B2%A1%E6%9C%89%E4%BB%96%EF%BC%8C%E5%93%AA%E6%9D%A5%E4%BB%80%E4%B9%88%E6%98%A5%E8%8A%82%E6%A1%A3%EF%BC%9F",
+      "published": "Tue, 10 Feb 2026 20:46:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com",
+        "Terr"
+      ],
+      "summary": "文 Terr 马上就是春节档了，还有一周吧。 突然想回顾一下，史上第一个真正的春节档。 可能和很多人印象有点不一样，第一个春节档其实不过是十几年前的 2013 年。过年看电影，并不是一个历史悠久的习俗，跟包饺砸远远不能比。 而这一切，几乎是被一部电影改变的，也就是周星驰的《西游 · 降魔篇》。 《西游 · 降魔篇》（2013） 那年春节档还有黄渤和林志玲的《 101 次结婚》，不过可以忽略不计了。 《西游 · 降魔篇》是周星驰导演生涯中一次具有强烈断代意义的转型，他从幕前彻底退居幕后，还不仅于此，他把《西游记》暗黑…",
+      "key_points": [
+        "春节档强大的吸金能力，吸引了资本层面对这个档期进行更长远、更精细的布局，使得春节档电影成为了中国电影探索新方向、挑战高难度工业标准的实验田",
+        "第一个春节档其实不过是十几年前的 2013 年。过年看电影，并不是一个历史悠久的习俗，跟包饺砸远远不能比",
+        "《西游 · 降魔篇》（2013） 那年春节档还有黄渤和林志玲的《 101 次结婚》，不过可以忽略不计了"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "换座位的「换」",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%8D%A2%E5%BA%A7%E4%BD%8D%E7%9A%84%E3%80%8C%E6%8D%A2%E3%80%8D",
+      "published": "Tue, 10 Feb 2026 14:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "今天的文章《 网上抽风，平民买单 》收到了很多留言，我注意到大家在讨论一个经常遇见的的问题：机上换座。作为前金孔雀乘务组主任乘务长，这里我用手机随手敲下我的个人想法：1、首先要明确，什么叫「换」，双方你情我愿，等价值交换，这叫换。不然的话，那叫做抢。2、事实上，机上的座位不等值，因为不同的人有不同的想法。有的人就觉得窗边位子能看风景，所以价值更高。有的人觉得靠走道的位子好，这样自己频繁去厕所或者起身活动很方便。3、既然不等值，你要和别人换，那么你就得主动做价值平衡，这一点都能接受吧？哪怕的确两个座位之间没有任何差别…",
+      "key_points": [
+        "平民买单 》收到了很多留言，我注意到大家在讨论一个经常遇见的的问题：机上换座。作为前金孔雀乘务组主任乘务长，这里我用手机随手敲下我的个人想法：1、首先要明确，什…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "年轻人的甲状腺癌为何越来越多？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C%E4%B8%BA%E4%BD%95%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%EF%BC%9F",
+      "published": "Tue, 10 Feb 2026 08:09:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "cancer",
+        "of",
+        "al.",
+        "et",
+        "H."
+      ],
+      "summary": "2.10 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源： pixabay 撰文｜ 张天祁 ● ● ● 近年来，甲状腺癌在全球年轻人群中的发病率迅速上升，中国尤为突出。1990年至2021年间，中国年轻人 （15-39岁） 的甲状腺癌年龄标化发病率增加了153% 一项由国际癌症研究机构 （IARC） 科学家牵头，并与意大利和中国研究人员合作、发表于《柳叶刀·内分泌与糖尿病》的研究也证实了这个趋势：大多数国家15-39岁的青少年和青年的甲状腺癌发病率迅速上升，2003-2017年间，2003年至20…",
+      "key_points": [
+        "过去难以被察觉的小体积、以乳头状癌为主的甲状腺肿瘤被越来越早地发现，并进入临床评估流程，从而推高了整体甲状腺癌的统计发病率。与此同时，这类肿瘤的实际死亡风险极低…",
+        "2.10 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源： pixabay 撰文｜ 张天祁 ● ● ● 近年来，甲状腺癌在全球年轻人群中的发病…",
+        "甲状腺癌发病率的上升在年轻和中年人群中尤为明显，尤其集中在女性身上。他认为最有可能的解释是，年轻成年女性在生育年龄阶段与医疗系统接触更为频繁，接受医学监测和影像…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "别再迷信国外设计了，这次是海友酒店教他们做事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%88%AB%E5%86%8D%E8%BF%B7%E4%BF%A1%E5%9B%BD%E5%A4%96%E8%AE%BE%E8%AE%A1%E4%BA%86%EF%BC%8C%E8%BF%99%E6%AC%A1%E6%98%AF%E6%B5%B7%E5%8F%8B%E9%85%92%E5%BA%97%E6%95%99%E4%BB%96%E4%BB%AC%E5%81%9A%E4%BA%8B",
+      "published": "Tue, 10 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ID",
+        "Design",
+        "Giants",
+        "Interior"
+      ],
+      "summary": "文 丨 阑夕 1851年，起源于英国的工业革命迅速席卷欧洲，为了彰显成果并促进贸易，在维多利亚女王的主张下，历史上首届世博会应运而生。 这届世博会的核心展馆，是位于伦敦、由大量钢铁和玻璃组装而成的水晶宫，无论水晶宫本身，还是摆放在内部的蒸汽机、铁路机车等琳琅满目的时代成果，毫无疑问都代表着当时工业制造的最高水准。 然而就在一片繁荣的画面里，著名艺术家约翰·拉斯金看到水晶宫中的展品后却大失所望，并给出了「功能和形势严重脱离」的尖锐评价。 此后几年，拉斯金一直在宣传「设计为大众服务」的观点，直接启蒙了设计民主化这一理念…",
+      "key_points": [
+        "甚至都不是海友的获奖之于行业有哪些深刻的影响，而是在把设计从豪华型普及到经济型、从少数人普及到多数人的过程里，它究竟做对了什么",
+        "海友在一众高端品牌的「围剿」下，斩获连锁酒店类年度最佳设计荣誉奖，成为历史上唯一获奖的经济型酒店，事情才有了转机",
+        "环保更像一种浑然天成的选择：不仅必要的房间配套悉数保留，自踏入酒店那一刻起，浅绿主色调、手绘插画风壁纸、独立包装的无纺布巾类，甚至于严丝合缝般的动线设计，没有一…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "为何越来越多的外国人选择来华就医 | 经济学人中国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%BA%E4%BD%95%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E7%9A%84%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%80%89%E6%8B%A9%E6%9D%A5%E5%8D%8E%E5%B0%B1%E5%8C%BB%C2%A0%C2%A0+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E4%B8%AD%E5%9B%BD",
+      "published": "Mon, 09 Feb 2026 22:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "China",
+        "in",
+        "of",
+        "Chinese",
+        "medical"
+      ],
+      "summary": "本文选自经济学人20260207期中国板块 China | Chinese check-ups 中国版块 | 来华体检 Why more foreigners are seeking health care in China 为 何越来越多的外国人选择来华就医 The growth of medical tourism is making locals uneasy 医疗旅游的兴起让当地民众感到担忧 Foreigners visiting China often gush over the country’s hi…",
+      "key_points": [
+        "本文选自经济学人20260207期中国板块 China | Chinese check-ups 中国版块 | 来华体检 Why more foreigners…",
+        "来访中国的外国人常对这里的高铁和璀璨的城市天际线赞不绝口，但其略显陈旧的医疗系统却鲜少获得好评。因此，当一位名叫艾米（ Amie ）的英国女士上个月发布了一段视…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/02/10/longcat-flash-lite.html",
+      "published": "Tue, 10 Feb 2026 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MoE",
+        "LongCat-Flash-Lite",
+        "N-gram"
+      ],
+      "summary": "LongCat-Flash-Lite是一款拥有 685 亿参数，每次推理仅激活 29 亿~ 45 亿参数的轻量化 MoE 模型。通过将超过 300 亿参数高效用于嵌入层，LongCat-Flash-Lite 不仅超越了参数量等效的 MoE 基线模型，还在与同规模现有模型的对比中展现出卓越的竞争力，尤其在智能体与代码领域表现突出。",
+      "key_points": [
+        "LongCat-Flash-Lite是一款拥有 685 亿参数，每次推理仅激活 29 亿~ 45 亿参数的轻量化 MoE 模型。通过将超过 300 亿参数高效用…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "A2A vs ACP 协议对比分析",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/a2a-vs-acp/",
+      "published": "Mon, 09 Feb 2026 03:02:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A2A",
+        "ACP",
+        "Protocol",
+        "Agent",
+        "Agent-to-Agent",
+        "Client"
+      ],
+      "summary": "本文档对比分析 A2A (Agent-to-Agent Protocol) 和 ACP (Agent Client Protocol) 两个协议的核心差异、设计理念和适用场景。",
+      "key_points": [
+        "本文档对比分析 A2A (Agent-to-Agent Protocol) 和 ACP (Agent Client Protocol) 两个协议的核心差异、设计…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-11",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "癌症的成因 | 经济学人科技",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%99%8C%E7%97%87%E7%9A%84%E6%88%90%E5%9B%A0+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A7%91%E6%8A%80",
+      "published": "Sat, 07 Feb 2026 15:47:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "in",
+        "cancers",
+        "to",
+        "by",
+        "have"
+      ],
+      "summary": "本文选自经济学人20260207期科技板块 Science &amp; technology | Causes of cancer 科技板块 ｜癌症的成因 More than a third of cancers arise from preventable risks 超过三分之一的癌症由可预防的风险因素引发 Smoking, infections and alcohol are the top causes 吸烟、感染和饮酒是三大主要致癌因素 SCIENTISTS HAVE long known that so…",
+      "key_points": [
+        "本文选自经济学人20260207期科技板块 Science &amp; technology | Causes of cancer 科技板块 ｜癌症的成因 Mo…",
+        "部分癌症的成因是可以预防的。但长期以来，关于此类癌症所占比例的可靠估算却极为稀缺",
+        "2 月 3 日发表于《自然 · 医学》 的一份报告中，由世界卫生组织下属国际癌症研究机构（ IARC ）研究人员领衔的团队，提供了迄今为止最全面的数据"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI出海，掘金一个时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6339697.html",
+      "published": "Sat, 07 Feb 2026 02:07:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "Mickey",
+        "CEO",
+        "Manus",
+        "OpenAI"
+      ],
+      "summary": "2025年成为中国AI出海的“大年”，从DeepSeek、千问等模型的技术输出，到Talkie、Mootion等应用的场景突破，中国AI创业者在全球市场开启了新一轮财富重构。本文从技术、商业、市场多维度，深度复盘AI出海的黄金一年，探索从“成本降低”到“需求创造”的全球化新路径。 2026一开年，AI就接连炸场： 先是Claude Code工具引爆生产力革命，让开发者不用写一行代码，就能完成全栈开发。社交媒体上“Claude-pilled”（Claude入坑）现象蔓延，开发者群体自发形成创作热潮，推动其从专业工具走…",
+      "key_points": [
+        "从DeepSeek、千问等模型的技术输出，到Talkie、Mootion等应用的场景突破，中国AI创业者在全球市场开启了新一轮财富重构。本文从技术、商业、市场多…",
+        "则取决于组织与人才的适配。根据CGL《2025求职报告》 的观察，当前AI出海企业对人才的争夺已进入“精准化”和“价值重估”阶段。报告显示，2025年，高达33…",
+        "Mickey还注意到AI出海的一个隐忧。这两年，一些中国AI企业在国内做出产品后出海，很受海外大厂认可，这种收购案例也越来越多。一个很重要的原因就是海外大厂的数…"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "比城市污水、垃圾处理还高的建筑碳排放，来自哪里？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%AF%94%E5%9F%8E%E5%B8%82%E6%B1%A1%E6%B0%B4%E3%80%81%E5%9E%83%E5%9C%BE%E5%A4%84%E7%90%86%E8%BF%98%E9%AB%98%E7%9A%84%E5%BB%BA%E7%AD%91%E7%A2%B3%E6%8E%92%E6%94%BE%EF%BC%8C%E6%9D%A5%E8%87%AA%E5%93%AA%E9%87%8C%EF%BC%9F",
+      "published": "Sat, 07 Feb 2026 08:09:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HFCs",
+        "R22",
+        "R410a",
+        "HFOs",
+        "CO",
+        "content"
+      ],
+      "summary": "2.7 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰文｜ 戴晶晶 ● ● ● 空调、冰箱这些电器能够工作，离不开在系统中吸收热量并转移热量的媒介物质，即制冷剂 （又称冷媒、致冷剂） 。 过去市场使用的氟利昂制冷剂，受紫外线分解出的氯自由基会消耗平流层臭氧，是导致“臭氧层空洞”的主要凶手。全球环境条约《蒙特利尔议定书》签订后，国际社会开始停用此类物质，并逐步用氢氟烃 （HFCs） 、氢氟烯烃 （HFOs） 等作为替代。 新型制冷剂虽然不再损害臭氧层，但以HFCs类为代表的产品却…",
+      "key_points": [
+        "全国住宅建筑设备的制冷剂温室气体排放，相比城市污水和垃圾处理净排放量更大。” 2月4日，中国建筑节能协会和重庆大学在北京联合发布《2025中国城乡建设领域碳排放…",
+        "2024年全国城镇污水处理和垃圾处理净排放合计7927.1万吨二氧化碳当量",
+        "《报告》同时测算并分析了2024年中国建筑与建造能耗与碳排放、城市市政设施运行的能耗与碳排放等数据"
+      ]
+    }
+  ]
+}
