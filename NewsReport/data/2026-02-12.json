@@ -1,0 +1,734 @@
+{
+  "date": "2026-02-12",
+  "generated_at": "2026-02-12T01:00:11.671098+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 10,
+    "items_collected": 209,
+    "fresh_candidates": 35,
+    "backfill_candidates": 174,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-12",
+      "fetched_at": "2026-02-12T01:00:11.358261+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4131.98,
+          "change": 3.62,
+          "change_pct": 0.09,
+          "volume": 500685278.0,
+          "amount": 82260755.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5062.86,
+          "change": -20.650000000000546,
+          "change_pct": -0.41,
+          "prev_close": 5083.51,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-12 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1124.8702016171812,
+          "change": -4.588033179545619,
+          "change_pct": -0.40621539054707456,
+          "prev_close": 1129.4582347967269,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-12 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "黄金高位震荡，多元配置策略还香吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%BB%84%E9%87%91%E9%AB%98%E4%BD%8D%E9%9C%87%E8%8D%A1%EF%BC%8C%E5%A4%9A%E5%85%83%E9%85%8D%E7%BD%AE%E7%AD%96%E7%95%A5%E8%BF%98%E9%A6%99%E5%90%97%EF%BC%9F",
+      "published": "Wed, 11 Feb 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "WIND"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 最近，黄金市场经历了一场罕见的“过山车”行情：1月29日，金价一度飙升突破5600美元/盎司的历史高点；但仅仅两个交易日后，2月2日便跌破4500美元，短短三个交易震荡幅度超过了20%；而截至2月10日，又强势反弹重回5000美元之上。 （数据来源：WIND） 如此剧烈的价格波动，不仅让短线交易者措手不及，也让许多持有黄金资产的多元配置型投资组合净值出现较大幅度震…",
+      "key_points": [
+        "多元配置策略从来不是、将来也不是“稳赚不赔”的策略，而是通过资产间的负相关性，平滑整体波动、守住长期复利。黄金的剧烈震荡，恰恰提醒我们：真正的多元化，不是追求每…",
+        "01 盈亏同源：拥抱黄金的“双面性” 投资世界有一个朴素却深刻的铁律：盈亏同源。在过去几年金价稳步上行时期，黄金为多元配置策略贡献了稳定的正收益，降低了整体组合…",
+        "但需调整心态与比例 那么，持有黄金的多元配置策略是否还“香”？答案是：依然香，但香味变了"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "“没货，不够卖！”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8106514687/375797641",
+      "published": "Wed, 11 Feb 2026 10:09:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600519",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "“没货，不够卖！”这基本是所有经销商和茅台销售渠道这几天的共同状态。马上春节，进入到节前最旺的阶段，茅台的批价波动较大，整体呈现供需两旺，价格稳步上涨的态势。 最近两周的价格走势：1600-1750-1680-1850-1750-1680-1720-1760，这种波动的价格体现了供给和需求之间的反复拉扯： 经销商的1-2月份配额早在1月底前售罄，并且清空了去年的库存，经销商已经申请的3月份配额，到货后几天内也基本售完；据我根据公开数据估算i茅台每天售罄超100吨；其他的电商、企业团购等渠道都在趁节前需求旺盛大量出货…",
+      "key_points": [
+        "不够卖！”这基本是所有经销商和茅台销售渠道这几天的共同状态。马上春节，进入到节前最旺的阶段，茅台的批价波动较大，整体呈现供需两旺，价格稳步上涨的态势"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "我的投资路线图",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/375762004",
+      "published": "Wed, 11 Feb 2026 10:08:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "单粮最初想着高抛低吸做差价，后来想着高端两万吨做成长，再后来想的是持股收息，现在是养鸡孵蛋。形式上我是一直在持有，但是内心波动经历了四个阶段过程。养鸡孵蛋打通了我的任督二脉，打消了我对持股收息最后的一丝不甘。没有人愿意慢慢变富，我也不例外，直到我认知到投资和投机的对立统一。 一直以来，长期持有给人的印象就是傻傻持有，来回坐电梯，这是对价值投资最大的误读。价值投资的核心精髓在于浮存金，用优质企业的股息分红进行资金配置，你可以用来投资，也可以用来投机。养鸡孵蛋，蛋可以是肉鸡，也可以是蛋鸡。所以我说养鸡孵蛋才是对巴菲特价…",
+      "key_points": [
+        "想长远，不想财富自由的投资者不是好投资者，不知道自己在干什么的投资者也不是好投资者。踏上取经路比抵达灵山重要，想都是困难，做都是办法。伟大从来不是突然降临的奇迹…",
+        "目标对应行动，去年我想清楚了自己的路线图。股息自由即投资自由，决定股息的因素有两个：持股数量和买入价格。根据我现在工作收入水平，确定了需要攒股的总量。那么对我来…",
+        "后来想着高端两万吨做成长，再后来想的是持股收息，现在是养鸡孵蛋。形式上我是一直在持有，但是内心波动经历了四个阶段过程。养鸡孵蛋打通了我的任督二脉，打消了我对持股…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于慢牛的六个风险",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/375742023",
+      "published": "Wed, 11 Feb 2026 10:08:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "一提到慢牛，大家会把它想象得很美好。 实际上并非如此。 我认为有必要带大家深入认识一下慢牛，提前有心理准备，否则遇到突发情况，一样会被吓得半死。 一、慢牛不代表没有熊市 咱们往往把美股当做慢牛的典型代表，但美股就没有熊市了吗？ 并非如此，美股的熊市一样很吓人。 咱们拉长时间看标普500的走势，觉得很完美，见下图。 然后你可能会想，只要拿住就肯定赚钱。 但走势图经不起放大，一旦放大，就会发现持股并不轻松。 比如，有1929年暴跌80%以上； 1937年到1942年暴跌60%，持续时间长达5年。 1946年到1949年…",
+      "key_points": [
+        "一、慢牛不代表没有熊市 咱们往往把美股当做慢牛的典型代表，但美股就没有熊市了吗",
+        "慢牛的回报不一定有疯牛高 沪深300从2005年到现在，涨幅是大于标普500的",
+        "大家要对慢牛有正确的认识， 即便是慢牛也不代表你可以很轻松的持有"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中芯国际2025Q4业绩快报简评——重点：毛利率、折旧与少数股东权益",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8537206007/375754020",
+      "published": "Wed, 11 Feb 2026 10:08:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "xj",
+        "costs",
+        "http",
+        "IFRS",
+        "Q4",
+        "SH688256"
+      ],
+      "summary": "快放假了，挑重点简评： 一、毛利率与折旧 对H，以美元计价：2025第三季度毛利率为22%，预计第四季度毛利率为19.2%。 对A，以人民币计价：2025第三季度毛利率为25.48%，预计第四季度毛利率为17.4%。 这里有两点问题： 问题1：季度毛利率下降——折旧飙升 国际准则下（美元计价），三季度折旧与摊销8.044亿美元，四季度是9.266亿美元，增加了1.222亿美元。但这个折旧摊销，总收入24.887亿，就可以降低毛利率4.9%。 问题2：在境内准则和国际准则下，第三季度毛利率与第四季度毛利率有差距？ 主…",
+      "key_points": [
+        "四、总结 大量折旧与摊销、新产线开办费，影响了毛利率。而由于新产线投产，少数股东权益减少，并不意味着xj产线出问题了。XJ产能今年猛干，老寒腿的69*正常生产，…",
+        "这里有两点问题： 问题1：季度毛利率下降——折旧飙升 国际准则下（美元计价），三季度折旧与摊销8.044亿美元，四季度是9.266亿美元，增加了1.222亿美元…",
+        "挑重点简评： 一、毛利率与折旧 对H，以美元计价：2025第三季度毛利率为22%，预计第四季度毛利率为19.2%"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "昆虫间「快乐传染」现象的发现，具有哪些科学意义？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787528",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Bombus",
+        "emmmm",
+        "https",
+        "R.I.P",
+        "terrestris",
+        "video"
+      ],
+      "summary": "斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 令人震惊 ——居然直到最近才证明这一点嘛。 要知道早在 2011 年，科学家就已经证实蜜蜂有情绪表现了，也早就知道蜜蜂和熊蜂可以通过观察同类学会新技能了——可以共情并不稀奇的嘛。 蜜蜂和熊蜂就是这样聪明。尤其是熊蜂，它们比蜜蜂属更机灵，活的也更洒脱。 欧洲熊蜂 Bombus terrestris，熊蜂认知实验的主角通常是它。 当然，严谨一点你可以认为这些算不上“情绪”，蜜蜂和熊蜂们不会说话，也没有表情。不好判断它到底开不开心。我们只是通过实验证实它们“…",
+      "key_points": [
+        "这个发现可能没有太多科学意义；蜜蜂和熊蜂出色的认知能力早就已经打碎了科学家们对昆虫的刻板偏见。昆虫并不是本能驱动的机器，而是有情绪、有智力的小动物",
+        "玩球的熊蜂。此等萌物…… https://www.zhihu.com/video/1997963710766007325 不过，熊蜂的作为真社会性昆虫的组织架构…",
+        "但不多 科学家在实验中训练蜜蜂，将气味和花朵的颜色联系起来，碰到红花奖励糖水，蜜蜂开心；黄花则提供高浓度的奎宁溶液，蜜蜂讨厌这种苦味，代表惩罚"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "翻车鱼为什么会进化成这样？难道真的只是为了搞笑嘛？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787542",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "km",
+        "capsule",
+        "lt",
+        "Mola",
+        "mola",
+        "Molidae"
+      ],
+      "summary": "祥昊， 让有趣先知楞起来。 查看知乎原文 恰恰相反， 翻车鱼是一种进化比较成功的生物。 网上关于翻车鱼的传言，多数都是为了吸引眼球杜撰的。 实际上的翻车鱼并没有这么逊， 不然你看这广泛的分布区域， 真是单靠能生就能解决的话，那可真了不得。 翻车鱼是鲀形目（Tetraodontiformes）的翻车鲀科（Molidae）的硬骨鱼，这一科共有三属，其中翻车鱼（ Mola mola ）有三个亚种。 [1] 长得非常有代表性，脊柱退化，尾鳍被一个宽阔僵硬的短鳍叶取代，叫舵鳍。 功能顾名思义，主要用于调整方向， 长成这德行指…",
+      "key_points": [
+        "自然界里有许多像翻车鱼这样有趣且独特的物种。， 然而一个很讽刺的现象， 看着很熟悉，我们对其了解却十分匮乏",
+        "翻车鱼那一身厚皮作用非常大，也不是单纯为了恶心其他动物",
+        "翻车鱼是一种进化比较成功的生物"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "海里的蟹会觉得在上面游来游去的鱼是会飞的吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787536",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "arcuata",
+        "Charybdis",
+        "Uca",
+        "Anomura",
+        "bimaculata",
+        "Brachyura"
+      ],
+      "summary": "祥昊， 让有趣先知楞起来。 查看知乎原文 要知道，世界上有许许多多各种各样的螃蟹。 有的螃蟹本来就相对比较擅长游泳， 比如菜市场最常见的梭子蟹科（Portunidae）， 代表生物就是沿海菜市场的头牌三疣梭子蟹（Portunus trituberculatus）， 虽然这蟹平时喜欢在沙里躲藏， 但是你看这桨状的第五步足，遇到危险的时候可以施展铁腿水上蹬技能快速逃离， 所以抓回来适合清蒸。 而他的同科兄弟看他走红，也纷纷过来认亲戚。 比如日本蟳（Charybdis japonica）俗称赤甲红，花盖， 论肉质，比梭子…",
+      "key_points": [
+        "上面游来来去的鱼简直就是天天带着黄金裸奔出门的憨批， 明明在沙里会更安全",
+        "以上这些游泳可能不大利索的底栖息螃蟹，确实会觉得鱼会飞",
+        "螃蟹觉得鱼会飞这点好像并不重要"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "载人登月火箭，海上软着陆成功！不是美国的SpaceX，是中国的长征十号",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BD%BD%E4%BA%BA%E7%99%BB%E6%9C%88%E7%81%AB%E7%AE%AD%EF%BC%8C%E6%B5%B7%E4%B8%8A%E8%BD%AF%E7%9D%80%E9%99%86%E6%88%90%E5%8A%9F%EF%BC%81%E4%B8%8D%E6%98%AF%E7%BE%8E%E5%9B%BD%E7%9A%84SpaceX%EF%BC%8C%E6%98%AF%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%95%BF%E5%BE%81%E5%8D%81%E5%8F%B7",
+      "published": "Wed, 11 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CMS",
+        "SpaceX",
+        "guokr.com",
+        "sns",
+        "Steed"
+      ],
+      "summary": "一枚火箭正顶着载人飞船，以超音速向天空冲刺，前方的空气像一堵无形的墙，挤压着飞船和箭体。此刻，如果火箭突然出现严重故障，飞船里的航天员能否安全脱险? 今天上午11点，在海南文昌航天发射场，中国的新一代载人飞船 “梦舟” 和新一代载人运载火箭 “神舟十号” ，交出了自己的答卷。 长征十号低空飞行验证起飞 | 央视新闻 这是一场专门设计来“找麻烦”的试验，让梦舟飞船 在火箭飞行最凶险的阶段实施紧急逃逸 ，考验它能否在最糟糕的情况下把航天员安全带回地面。 分秒必争的生死考验 上午11点整，长征十号初样火箭托举着梦舟飞船点…",
+      "key_points": [
+        "这是继长征十号运载火箭系留点火试验、梦舟载人飞船零高度逃逸飞行试验，以及揽月着陆器着陆起飞综合验证等多项关键试验之后， 我国载人登月工程开展的又一项关键飞行试验",
+        "长征十号起飞升空 | 我们的太空 陈肖 飞船的逃逸塔必须产生足够大的推力，在极短时间内把返回舱从火箭上拽走，还要保持正确姿态，避免在复杂气流中失控翻滚。随后，返…",
+        "长征十号运载火箭芯一级溅落在预定海域 | 新华网 不只是为了登月 梦舟飞船和长征十号火箭最引人注目的使命，当然是在 2030年前实现中国人登陆月球 。但它们的用…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "专哄南方小土豆的“雪地代写”业务，可能永远无法被AI取代",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%93%E5%93%84%E5%8D%97%E6%96%B9%E5%B0%8F%E5%9C%9F%E8%B1%86%E7%9A%84%E2%80%9C%E9%9B%AA%E5%9C%B0%E4%BB%A3%E5%86%99%E2%80%9D%E4%B8%9A%E5%8A%A1%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%B0%B8%E8%BF%9C%E6%97%A0%E6%B3%95%E8%A2%ABAI%E5%8F%96%E4%BB%A3",
+      "published": "Wed, 11 Feb 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "IP",
+        "ID",
+        "meerjump",
+        "tag"
+      ],
+      "summary": "本文转载自“跳海大院”（ID：meerjump），已获得转载授权 我一直坚信南方人对“雪”的情感热烈而真挚，让我一个内蒙人自愧不如。 不然的话，很难解释为什么每年12月一过，有的南方朋友就开始交雪税了。 说的就是你—— 雪地代写 。 所谓雪地代写，就是在雪地写下你的名字，高级点再加上祝福和吉祥话，写完之后拍照发给你。 这玩意一听，你就知道是特意为南方小土豆开辟的定制服务。一如往年，这个季节限定业务如今仍在火热开展。 不过，今年不同的是，雪地代写博主们开启了激烈的商战互撕。 从这大讨论中不难看出大家的统一认知——20…",
+      "key_points": [
+        "一个雪地代写博主发出视频，演示了某些大聪明同行如何用白沙替代白雪，足不出户坑遍南方小土豆",
+        "咱给介绍一下这个业务的大致现状： 在一片素净的白雪上，用Q萌字体写上对自己或朋友的祝福，高级点的上点“网感文案”，最后拍张照片——这就是现如今北方老铁兜售给南方…",
+        "你就知道是特意为南方小土豆开辟的定制服务。一如往年，这个季节限定业务如今仍在火热开展"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有没有看着很显贵，价格却贼便宜但又不敷衍的情人节礼物啊？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E6%B2%A1%E6%9C%89%E7%9C%8B%E7%9D%80%E5%BE%88%E6%98%BE%E8%B4%B5%EF%BC%8C%E4%BB%B7%E6%A0%BC%E5%8D%B4%E8%B4%BC%E4%BE%BF%E5%AE%9C%E4%BD%86%E5%8F%88%E4%B8%8D%E6%95%B7%E8%A1%8D%E7%9A%84%E6%83%85%E4%BA%BA%E8%8A%82%E7%A4%BC%E7%89%A9%E5%95%8A%EF%BC%9F",
+      "published": "Wed, 11 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "mm+",
+        "mm",
+        "https",
+        "mp.weixin.qq.com",
+        "dc_ps",
+        "Manreya"
+      ],
+      "summary": "在珠宝的世界里，有一种珠宝被誉为 “宝石皇后”。 它色泽温润，看似无宝石的华丽闪透，却有着低调洁莹的尊贵，是优雅与高位的象征，它就是—— 珍珠。 珍珠自古就深受世界各地的宠爱，戴安娜王妃曾经说： 如果一生只能拥有一件珠宝，那一定是珍珠。 珍珠能把人衬得优雅有气质，还能把简简单单的衣服衬得更矜贵，一买就会忍不住上瘾.......但是买到好的珍珠还真不容易！ 大溪地、真多麻、澳白、爱迪生、akoya， 我做了功课后，发现好品相的真不便宜。 价格参考日期：2025年4月7日 为了让大家都能有机会以划算的价格去挑选天然好品…",
+      "key_points": [
+        "珍珠大，价格不贵却看着贼显贵，很适合过年送给妈妈、送长辈",
+        "新年/情人节心动好礼 只要 79元起 任买两件立减20元 戳图👇购买 Manreya玛芮雅 淡水珍珠耳钉&amp;耳夹 一周珍珠耳钉礼盒系列 设计美丽、价格还划…",
+        "@果壳市集实拍 珍珠界有以 “八分为珠，九分为宝” 的说法，而11mm的爱迪生珍珠是妥妥是珠宝级别， 价格只要358元 ，远比同大小的澳白便宜两个零头"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么现在的年轻女生上班都不化妆了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%B9%B4%E8%BD%BB%E5%A5%B3%E7%94%9F%E4%B8%8A%E7%8F%AD%E9%83%BD%E4%B8%8D%E5%8C%96%E5%A6%86%E4%BA%86%EF%BC%9F",
+      "published": "Wed, 11 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml",
+        "ml+",
+        "get",
+        "or",
+        "PA+++",
+        "SGS"
+      ],
+      "summary": "姐妹们，这个人是不是你？ 每天早上被闹钟叫醒的那一刻， 身体就开始跟床进行“拔河比赛” ，每一寸起身的动作都充满了痛苦和不舍。 结果就是： 要么像“打仗”一样匆匆撸个妆，要么 根本没时间吃早饭， 又或者 慌乱中总会忘带点儿什么东西。 偷懒不化妆吧，满脸疲态很容易得到热心同事的友好关切。可化好的妆经过一路奔波和干燥冷空气的“袭击”，也会变得 斑驳、卡粉，心累就在一瞬间...... 有没有什么法子既能多睡半小时，还能美美的出门啊？ 当然！ 只需要一支带润色效果的防晒 。 首先，一年四季都得防晒的道理你们都懂吧？像秋冬臭…",
+      "key_points": [
+        "想找一支各方面都挑不出毛病的防晒 想每天多睡20分钟，不化妆也有好气色的 想丢掉瓶瓶罐罐， 3分钟get伪素颜妆的 和我一样想偷懒，还想拥有妈生好皮的 请你，不…",
+        "👇 戳图购买 👇 戳图即可购买 我愿称它为“懒人通勤天选搭子 ” ， 相当于把防晒和轻薄粉底液的效果合二为一了 ， 3分钟直接无痛get妈生伪素颜，美美出门~…",
+        "别犹豫，放心入手吧~ 通勤8小时不补涂，户外滑雪、登山露营、去海边度假都 扛得住，用一次就会爱上 👇 即使现在是 滑雪季的小尾巴依旧容易晒伤"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "冬奥选手给丁丁注射玻尿酸增加尺寸？裤裆大小真的会影响成绩！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%86%AC%E5%A5%A5%E9%80%89%E6%89%8B%E7%BB%99%E4%B8%81%E4%B8%81%E6%B3%A8%E5%B0%84%E7%8E%BB%E5%B0%BF%E9%85%B8%E5%A2%9E%E5%8A%A0%E5%B0%BA%E5%AF%B8%EF%BC%9F%E8%A3%A4%E8%A3%86%E5%A4%A7%E5%B0%8F%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%88%90%E7%BB%A9%EF%BC%81",
+      "published": "Wed, 11 Feb 2026 16:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "articles",
+        "FIS",
+        "AI",
+        "al.",
+        "et"
+      ],
+      "summary": "本届冬奥会才刚开始不久，但已经有了超级离谱的迷惑新闻： 一家名叫《图片报》的德国媒体声称，有些男性跳台滑雪运动员正在偷偷注射玻尿酸增大阴茎，只为改变比赛服尺寸，并在比赛中飞得更远 。 在中文网络上，这条消息也引起了关注 | 微博 国际滑雪和单板滑雪总会（FIS）随后否认了这种说法 。FIS发言人布鲁诺·萨西（Bruno Sassi）表示，这篇报道只是纯粹的道听途说，没有任何迹象或是证据表明确有此事 [1] 。 跳台滑雪｜豆包AI生成 虽然看起来只是证据不足的传闻，但这条太过有画面感的消息还是引发了围观群众的好奇心。…",
+      "key_points": [
+        "真实存在的滑雪服作弊 虽然丁丁注射玻尿酸只是传闻， 但比赛服尺寸违规确实是跳台滑雪的常见问题，故意修改衣服尺寸来作弊的行为也真实存在",
+        "但已经有了超级离谱的迷惑新闻： 一家名叫《图片报》的德国媒体声称，有些男性跳台滑雪运动员正在偷偷注射玻尿酸增大阴茎，只为改变比赛服尺寸，并在比赛中飞得更远",
+        "滑雪界还没有任何针对玻尿酸注射的明文规定"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "科考旅行 | 福建省海上丝绸之路人文历史考察报名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%A7%91%E8%80%83%E6%97%85%E8%A1%8C+%7C+%E7%A6%8F%E5%BB%BA%E7%9C%81%E6%B5%B7%E4%B8%8A%E4%B8%9D%E7%BB%B8%E4%B9%8B%E8%B7%AF%E4%BA%BA%E6%96%87%E5%8E%86%E5%8F%B2%E8%80%83%E5%AF%9F%E6%8A%A5%E5%90%8D",
+      "published": "Wed, 11 Feb 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "summary": "▲点击上方海报即可报名 蒙古铁骑一路南下，临安陷落，德祐帝降，南宋王朝眼见已至山穷水尽的绝境。彼时，南宋遗臣张世杰、陆秀夫、陈宜中等人，护送幼主景炎帝辗转至福建，希望获得泉州老大蒲寿庚的支持。与此同时，元军亦亟招降蒲寿庚。 泉州开元寺与西街。西街一带是泉州城现存最早的城市肌理。 蒲寿庚是来华阿拉伯海商的后裔，有着海獠的粗犷和狡黠。年少时，因击退海贼之功，被南宋朝廷擢为泉州提举市舶。三十年来，蒲寿庚独揽泉州海外贸易大权，培养私属海舶舰队，富甲一方，权势极盛。 泉州清净寺是国内现存有纪年的最古老的清真寺，建于北宋大中祥…",
+      "key_points": [
+        "泉州城内赵氏皇族惨遭屠戮，但泉州海外贸易并未受到影响，仍然蒸蒸日上。元初，马可·波罗自威尼斯来华时，泉州已是东方第一大港。南海诸国争相与元朝贸易，景德镇的青花瓷…",
+        "是四季不冻的天然良港，水道深，便于航运。我们将考察泉州作为中国传统城市和作为中国对外港口的两条发展脉络，了解泉州作为宋元时期海上丝绸之路南海航线起点和世界海洋贸…",
+        "行程介绍 D1 3月7日 周六 福州集合 - 欢迎晚宴，行前说明会 - 海上丝绸之路相关主题讲座 - 宿福州 D2 3月8日 周日 福州—霞浦 - 福州马尾港区…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "季节限定的大地五线谱，你见过了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%AD%A3%E8%8A%82%E9%99%90%E5%AE%9A%E7%9A%84%E5%A4%A7%E5%9C%B0%E4%BA%94%E7%BA%BF%E8%B0%B1%EF%BC%8C%E4%BD%A0%E8%A7%81%E8%BF%87%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Wed, 11 Feb 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "HdhBQb45mW",
+        "http",
+        "lt",
+        "www.jintiankansha.me"
+      ],
+      "summary": "在云南省红河哈尼族彝族自治州元阳县的哀牢山南部，哈尼族先民开垦出了大规模气势磅礴的梯田。从高空俯瞰，梯田层层叠叠随地形山势起伏，线条流畅舒展，尽显大地的韵律。 每年的11月至次年4月，是元阳梯田的灌水期，这期间梯田要蓄满水，进入静谧的休养阶段，以重新调整、恢复，充实内体，让这片千年梯田生生不息。灌水后的梯田如明镜倒映着日月霞光，澄澈得仿佛能看见山风的形状，也映出了大地最本真的模样。 #元阳梯田 #云南 #红河州 #治愈系风景 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 平台地址： http://www.…",
+      "key_points": [
+        "是元阳梯田的灌水期，这期间梯田要蓄满水，进入静谧的休养阶段，以重新调整、恢复，充实内体，让这片千年梯田生生不息。灌水后的梯田如明镜倒映着日月霞光，澄澈得仿佛能看…",
+        "在云南省红河哈尼族彝族自治州元阳县的哀牢山南部，哈尼族先民开垦出了大规模气势磅礴的梯田。从高空俯瞰，梯田层层叠叠随地形山势起伏，线条流畅舒展，尽显大地的韵律"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "大师为什么要翻拍自己的作品？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A4%A7%E5%B8%88%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E7%BF%BB%E6%8B%8D%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%9C%E5%93%81%EF%BC%9F",
+      "published": "Wed, 11 Feb 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Adam",
+        "Collider",
+        "Grinwald",
+        "HBO",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Adam Grinwald 译者：易二三 校对：鸢尾花 来源：Collider （2022年6月24日） 翻拍也分三六九等。纯粹主义者会说，经典电影没有必要被翻拍，因为以纯粹的逻辑而论，完美的东西无从改进。崇尚电影原创性的影迷们对续集、前传和翻拍的频频出现十分不满，因为这些作品往往会被拿来与原作进行比较。黑泽明的武士史诗《七武士》被约翰·斯特奇斯翻拍成《豪勇七蛟龙》（该片随后也被翻拍成一部同名电影），而黑泽明电影中的关键叙事元素可以在皮克斯的《虫虫危机》中也能看到。 《豪勇七蛟龙》（2016） 原因很简单：艺…",
+      "key_points": [
+        "《擒凶记》（1956） 对于希区柯克来说，一个版本的电影是否比另一个版本好并不那么重要。它们都很出色，而且两者之间在风格、技术和叙事方面的差异，恰恰突显了彼此的…",
+        "《葛洛莉亚·贝尔》（2018） 一方面，导演负责自己作品的翻拍，有助于确保最终的结果是对原始内容的充分翻译。但另一方面，这种翻译并不总是成功的，而且纵然在许多成…",
+        "《豪勇七蛟龙》（2016） 原因很简单：艺术家和讲故事的人往往喜欢改编或整合前人的作品。但是，当一个导演决定重拍自己的作品时，会发生什么呢——也许是为了把本土语…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "终于，2026年也有9分剧了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BB%88%E4%BA%8E%EF%BC%8C2026%E5%B9%B4%E4%B9%9F%E6%9C%899%E5%88%86%E5%89%A7%E4%BA%86",
+      "published": "Wed, 11 Feb 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HBO",
+        "hongmomgs",
+        "irisfilm",
+        "NBA",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 《七王国的骑士》来了！ 这是 HBO 继《权力的游戏》与《龙之家族》之后的第三部权游宇宙剧集。 剧情是改编自马丁的中篇小说集《邓肯与伊戈》中的首篇《雇佣骑士》，时间线设定在征服历 209 年左右。 在维斯特洛的历史长河中，这一年是一个不太起眼但很微妙的节点，距离《龙之家族》所描绘的毁灭性内战已过去约八十年，而距离《权力的游戏》正剧开场还有九十年。 从历史连续性来说，它填补了权游宇宙之前留下的一个关键空白。 当时，巨龙已经绝迹超过半个世纪，王朝的统治逻辑从毁灭性的武力威慑，转向了依靠传统封建盟约、政治…",
+      "key_points": [
+        "是因为他在这里终于正面肯定了平凡之善的力量。邓肯的伟大在于他承认自己只是一个凡人，但他依然认为自己值得追求一种更高尚的使命。这种平凡人的英雄主义，比起正剧中那些…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "舔狗的心情",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%88%94%E7%8B%97%E7%9A%84%E5%BF%83%E6%83%85",
+      "published": "Wed, 11 Feb 2026 20:36:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CT-9",
+        "D100",
+        "MU"
+      ],
+      "summary": "闲鱼上熟悉的卖家又上新了。这一次的先锋 CT-9 和索尼 MU D100，都很让我心动。尤其是 CT-9，当初我想买卡座录音机，就是因为它和它的外壳。可惜了我已经有两台了，实在是没有地方摆放，不过这么看看也很好。我算是理解了舔狗蹲在花坛后面，看着自己女神打扮漂亮出门和别人约会时候的心情。 文章原文",
+      "key_points": [
+        "闲鱼上熟悉的卖家又上新了。这一次的先锋 CT-9 和索尼 MU D100，都很让我心动。尤其是 CT-9，当初我想买卡座录音机，就是因为它和它的外壳。可惜了我已…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "对话清华刘子鸣：AI还没迎来自己的牛顿时代",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%AF%B9%E8%AF%9D%E6%B8%85%E5%8D%8E%E5%88%98%E5%AD%90%E9%B8%A3%EF%BC%9AAI%E8%BF%98%E6%B2%A1%E8%BF%8E%E6%9D%A5%E8%87%AA%E5%B7%B1%E7%9A%84%E7%89%9B%E9%A1%BF%E6%97%B6%E4%BB%A3",
+      "published": "Wed, 11 Feb 2026 08:52:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Physics",
+        "AGI",
+        "of",
+        "Scaling",
+        "Law"
+      ],
+      "summary": "2.11 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 编者按 去年年底，清华大学人工智能学院助理教授刘子鸣在个人博客上发文，直言 AI 研究尚未迎来属于自己的“牛顿时代”。他借用物理学史上“第谷—开普勒—牛顿”的演进路径作类比，形容今天的 AI 更像停留在观测和经验公式阶段。我们拥有大量数据和模型，却缺乏真正理解背后规律的科学语言。Scaling Law 虽然有效，却让研究者沉迷于规模扩张，而忽略了对机制的探索。 撰文 | 张天祁 ● ● ● 刘子鸣出身物理系，早期研究集中在“…",
+      "key_points": [
+        "2.11 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 编者按 去年年底，清华大学人工智能学院助理教授刘子鸣在个人博客上发文…",
+        "02 AI研究还没有迎来牛顿时代 《知识分子》：你曾用物理学史上的“第谷—开普勒—牛顿”来类比 AI 理论的发展阶段。能否具体解释一下，这三个阶段各自代表了什么…",
+        "刘子鸣 ： 我现在就是在自己的网站上持续更新博客。我觉得未来的学术交流的理想形式，可能会更接近 AI Safety 领域的一个社区网站，叫 LessWrong…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "春节大战，千问血赚",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%98%A5%E8%8A%82%E5%A4%A7%E6%88%98%EF%BC%8C%E5%8D%83%E9%97%AE%E8%A1%80%E8%B5%9A",
+      "published": "Wed, 11 Feb 2026 22:12:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Mobile",
+        "OpenAI",
+        "Quest",
+        "BAT",
+        "ChatBot"
+      ],
+      "summary": "最新战报，来自Quest Mobile的数据，千问DAU已经超过7300万，逼近豆包的7800万（数据来自Quest Mobile）。是的，肯定有人会说，这波免单过了之后，又会跌下去的，我觉得也没毛病。但是你们要知道，千问正式上线才过去3个月，在起跑线如此靠后的情况下，先在局部追平、再把留存做好，是很合理的选择。何况除了「BAT」以外的AI产品不这么做，是因为不想吗？是做不到而已。千问没有直接发现金红包，反而用免单的方式来拉新，我以为多了一步的效果会打折扣，但事实好像不是如此。因为投入成本是实打实的高，我身边就有人…",
+      "key_points": [
+        "来自Quest Mobile的数据，千问DAU已经超过7300万，逼近豆包的7800万（数据来自Quest Mobile）。是的，肯定有人会说，这波免单过了之后…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "日常锻炼的一些记录",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/02/physical_training.html",
+      "published": "2026-02-11T10:46:39Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "km"
+      ],
+      "summary": "我大概是去年 4 月左右开始跑步的。离上次的记录已过了半年。 最近坚持的还不错，每周可以保证至少 3 次跑步。现在的心肺能力明显好了很多。去年刚跑步时，每跑 5-10 分钟就需要步行几分钟缓缓，不然心率很容易超过 140 （我给自己定的心率上限）。现在差不多可以保持心率在 140 以下连续跑完 4 km 了。大约花费 30 分钟。这差不多是 8km/h 的平均速度，前半程会更快一点，后半程为了保持心率需要降一点速度。 我觉得另一方面的原因是在冬季，跑起来不那么热。现在会挑选中午有太阳的时候跑，晒晒太阳更舒适。跑完后…",
+      "key_points": [
+        "我大概是去年 4 月左右开始跑步的。离上次的记录已过了半年"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-12",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第250期 - 北京的冬",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/250/",
+      "published": "Mon, 22 Dec 2025 00:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "AI",
+        "AICon",
+        "Andrej",
+        "CLI",
+        "Coding"
+      ],
+      "summary": "封面图拍摄于北京的一棵树，好久没有没有去北京了，刚好这次受邀AICon分享周末过来了，北京冬天刮一点儿小风是真的冷，树木光秃秃的，和南方很不一样的感觉。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 妙言分栏模式终于发布了 🎄 https://github.com/tw93/MiaoYan 属于近两年下妙言最大的一个特性支持，欢迎大伙使用，也欢迎报 Bug，本次 2.3 版本更新如下，取名 Big change🎄,也祝你最近圣诞节快乐～ 1、新增「分栏预…",
+      "key_points": [
+        "好久没有没有去北京了，刚好这次受邀AICon分享周末过来了，北京冬天刮一点儿小风是真的冷，树木光秃秃的，和南方很不一样的感觉"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "大模型剪枝新范式：先浓缩，再剪枝——DenoiseRotator技术解读",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2025/12/19/longcat-interaction-denoiserotator.html",
+      "published": "Fri, 19 Dec 2025 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DenoiseRotator",
+        "Interaction",
+        "LongCat"
+      ],
+      "summary": "美团 LongCat Interaction 团队联合上海交通大学听觉认知与计算声学实验室，以及香港科技大学的研究者，共同完成了大模型剪枝方法的创新研究，提出了名为 DenoiseRotator 的新技术。通过首先对参数矩阵进行变换，“将知识和推理能力浓缩到由少量参数组成的子网络内”，“再裁剪掉子网络外的参数”，实现了大模型剪枝的新范式。",
+      "key_points": [
+        "美团 LongCat Interaction 团队联合上海交通大学听觉认知与计算声学实验室，以及香港科技大学的研究者，共同完成了大模型剪枝方法的创新研究，提出了…"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "AutoDev 3.0 → Xiuper：咻！全平台、全流程智能体编程平台",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/autodev-xiuper/",
+      "published": "Tue, 16 Dec 2025 14:18:04 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Xiuper",
+        "AI",
+        "AutoDev",
+        "super"
+      ],
+      "summary": "Xiuper 的后半部分来自 “super”，但它并不指向“更强的 AI”，而是指向一种 能力放大。在 Xiuper 中，AI 并不是一个只负责回答问题的助手，而是作为工程体系的一部分参与进来。它理解项目结构、理解设计决策、理解历史上下文，并在合适的阶段承担合适的角色。",
+      "key_points": [
+        "Xiuper 的后半部分来自 “super”，但它并不指向“更强的 AI”，而是指向一种 能力放大。在 Xiuper 中，AI 并不是一个只负责回答问题的助手，…"
+      ]
+    }
+  ]
+}
