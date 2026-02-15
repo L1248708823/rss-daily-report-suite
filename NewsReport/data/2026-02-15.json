@@ -1,0 +1,863 @@
+{
+  "date": "2026-02-15",
+  "generated_at": "2026-02-15T01:00:04.307758+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 225,
+    "fresh_candidates": 60,
+    "backfill_candidates": 165,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-15",
+      "fetched_at": "2026-02-15T01:00:03.995799+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.07,
+          "change": -51.95,
+          "change_pct": -1.26,
+          "volume": 500799472.0,
+          "amount": 84680834.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5038.52,
+          "change": 117.71000000000004,
+          "change_pct": 2.39,
+          "prev_close": 4920.81,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-14 05:45:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1118.263580111563,
+          "change": 26.124895011815397,
+          "change_pct": 2.392085855783906,
+          "prev_close": 1092.1386850997476,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-14 05:45:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-15",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "在后视镜里幻想一夜暴富，正在让你错失机会！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E5%90%8E%E8%A7%86%E9%95%9C%E9%87%8C%E5%B9%BB%E6%83%B3%E4%B8%80%E5%A4%9C%E6%9A%B4%E5%AF%8C%EF%BC%8C%E6%AD%A3%E5%9C%A8%E8%AE%A9%E4%BD%A0%E9%94%99%E5%A4%B1%E6%9C%BA%E4%BC%9A%EF%BC%81",
+      "published": "Sat, 14 Feb 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "All",
+        "in",
+        "V1"
+      ],
+      "summary": "如果1月底清仓黄金，就好了。 如果25年All in黄金，持有到今年1月底再逃顶，就更好了。 相信大多数投资者都有过类似幻想：某年某月某日加自选但没买的股票，如今已经翻了X倍，如果当时买了就好了。 可惜没如果… 在后视镜里幻想一夜暴富，对我们赚钱没有什么帮助，反而相当危险，成熟的投资者，应该懂得去识别并规避这种心态。 一、 两种常见的后视镜心理，你中了哪一个？ 1、认为自己能买到涨的最多的资产 2025年，黄金和有色异军突起，原因是全球地缘冲突和美元信用危机。 2024年，A股红利风格更占优，原因是低利率时代和熊市…",
+      "key_points": [
+        "拿在手里全是风险 在后视镜里，我们更容易被一路向北的k线、从头到尾诱人的涨幅所吸引，比如过去一年，贵金属、科技板块涨幅遥遥领先，但是很容易忽略期间动辄20%及以…",
+        "而非短期表现 市场不缺投资机会，我们不需要抓着当下表现最好的资产反复拆解分析，而是把眼光放在不同的资产类别上",
+        "每一轮牛市都有一套严丝合缝的逻辑，因此，很多人本能地相信，如果能提前找到这样的逻辑，就一定可以抓住机会"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "雪球引路人",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1674052027/376261104",
+      "published": "Sat, 14 Feb 2026 12:56:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ally",
+        "an",
+        "app",
+        "as",
+        "Business",
+        "Buy"
+      ],
+      "summary": "今天我们股民开始放长假了，虽然昨天重仓股藏格，紫金都大跌，但蛇年收益率应该还是非常不错的。看到了鹿鼎公的蛇年总结，又是一个非常优秀的收益率，记得2019年中旬才知道了雪球这app，当时的公公已经是很牛的大v，但那时候还不知道鹿鼎公的那么牛，也没认真的去学习他的投资逻辑。只到2021年年底自己买了淮北矿业后才开始去学习鹿鼎公是怎么选股的，因为那时候他也重仓了淮北矿业。然后看了他最近几年的所有的帖子，又去淘宝买了一本关于他帖子和讨论的书，总结了鹿鼎公那十来年所有的经典语录。今天去问了千问超级鹿鼎公的投资逻辑，千问是这样…",
+      "key_points": [
+        "以前投资藏格矿业的时候也思考过这公司会不会是2013年的泸州老窖，以后通过藏格矿业也可以赚十倍➕，我是2023年9月底才开始买的藏格矿业，当时股价20多一点，后…",
+        "虽然昨天重仓股藏格，紫金都大跌，但蛇年收益率应该还是非常不错的。看到了鹿鼎公的蛇年总结，又是一个非常优秀的收益率，记得2019年中旬才知道了雪球这app，当时的…",
+        "曾经重仓泸州老窖，从1000万到3亿，又在泸州老窖高点附近分了一大半仓位到神华，记得也买过陕西煤业，贵州茅台。当时还经常和鹿鼎公互动，所以我想牛人必然和牛人是朋…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "长命的矿业公司",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1978777398/376250212",
+      "published": "Sat, 14 Feb 2026 12:56:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Billiton",
+        "BHP",
+        "rise",
+        "Broken",
+        "Hill",
+        "big"
+      ],
+      "summary": "最近看了一本关于必和必拓的传记，书名叫《从矿山赌徒到巨无霸》，从公司成立讲起，一直到2009年，前后有100多年。 我发现，矿业公司和油气公司一样，都很长命。 必和必拓，英文名为BHP Billiton，是由两家历史悠久的矿业公司必和（BHP）和必拓（ Billiton）于2001年合并而成。 必和（BHP）成立于1885年。当时，有一个叫查尔斯-拉斯普的人，在澳大利亚新南威尔士州和南澳大利州交界处一个叫Broken Hill的地方，发现了银矿。他拉来几个人合伙，成立了Broken Hill Propriety公司…",
+      "key_points": [
+        "英文名为BHP Billiton，是由两家历史悠久的矿业公司必和（BHP）和必拓（ Billiton）于2001年合并而成",
+        "BHP又开始涉足煤炭和钢铁，到20世纪中期，又进一步拓展到铁矿石和油气领域，成为澳大利亚最具影响力的矿业公司",
+        "矿业公司和油气公司一样，都很长命"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "新天然气：中国最好煤矿",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4417915084/376258261",
+      "published": "Sat, 14 Feb 2026 12:55:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "UCG",
+        "http",
+        "LNG9",
+        "SH600256",
+        "SH603393"
+      ],
+      "summary": "新天然气 $新天然气(SH603393)$ 白手起家，从无到有，从港股私有化：2025年中报亚美能源收入17.1亿，净利润7.3亿 7.3/17.1=43% 2024年收入30.4亿 净利润13.1亿 13.1/30.4=43% 再次并购港股中能控股持有59.15% 其中目前主要盈利就是：亚美能源所在的山西煤层气，也就是项目1和2，2是超级增量，如果实现25亿立方米，价格算2.2元，收入就是55亿，瞎说净利润是16亿，相当于比目前要增加10亿 第二个超级增量中能控股59.15%所在的4号项目喀什北阿克莫木气田，权益…",
+      "key_points": [
+        "我喜欢挖煤，那么重点才开始。新天然气以前用35亿买的三塘湖超高热值煤矿，21亿吨储量，1500万吨产能，18.6亿吨可采",
+        "价格类似，但是产能不一样，相当于新天然气的规模大了一倍，超级划算",
+        "从无到有，从港股私有化：2025年中报亚美能源收入17.1亿，净利润7.3亿 7.3/17.1=43% 2024年收入30.4亿 净利润13.1亿 13.1/3…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2月13日，Ai制药发展又又又超预期",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4098068704/376251875",
+      "published": "Sat, 14 Feb 2026 12:55:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CDMO",
+        "Ai",
+        "DeepMind",
+        "IsoDDE",
+        "AlphaFold"
+      ],
+      "summary": "2月13日，谷歌DeepMind推出了个叫IsoDDE的AI制药平台，忍不住写两句自己的看法。 可能有人对DeepMind还有印象，之前靠AlphaFold火遍全球。那个能精准预测蛋白质结构、拿了诺奖级成果的AI，相当于帮人类看清了“药要打的靶子长什么样”。 这次的IsoDDE，跨了一大步： 能看清靶子，能照着靶子，设计出刚好能打中它的药，确实牛逼plus。 简单说下这个东西有多颠覆吧。 传统新药研发，最磨人也最烧钱的就是早期环节：找靶点、设计分子、反复试错优化，一套下来少说五六年，烧个几亿都是常事，最后10个项目…",
+      "key_points": [
+        "CDMO说白了就是新药研发的“专业外包服务商”，药企负责把药的设计稿搞出来，后面怎么合成、怎么做临床用的样品、怎么大规模量产，这些又费钱又费技术、还需要一堆合规…",
+        "核心就两点： 第一，创新药的蛋糕又又又大了 原来搞新药门槛太高，没钱没技术的小公司根本玩不起，现在AI把早期研发的门槛、成本、周期全打下来了，肯定会冒出一大堆新…",
+        "也不是所有CDMO都能沾光，有两类公司反而会倒霉： 我司我司就是我司 ！（年终奖扣扣搜搜，活该要倒闭 ） 回归正题: 第一类是只会做仿制药、没什么技术门槛、产能…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "腊肉吃了对身体不好，为什么还有那么多人热衷于烘腊肉？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787647",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "buff",
+        "DNA",
+        "xi"
+      ],
+      "summary": "秋食爱吃饭， 资深烹饪爱好者·精打细算的吃货·能在这里相遇就是一场缘分 查看知乎原文 简单回答：古代人制腊味，是为了多吃一口肉，现代人烘腊味，是就想吃这一口肉。 作为一个存在了 2000 多年，古人们为了解决“肉食易腐”而发明的、最简单又最有用的延长肉类保质期的“干肉”方法； 当它的名字和象征着年终祭祀的“腊”相融合，成为人们在节庆期间必备的重要年货之一，被叠满了春节、家乡、人情、回忆等多重 buff 后； 喜欢吃“腊味”，就不单纯只是一种味觉选择了。 我国的腊味种类非常多，不仅是腊肉哦 古代人为啥要吃腊味？ 腊味…",
+      "key_points": [
+        "下士四人,府二人,史二人,徒二十人。…掌乾肉，凡田兽之脯腊膴胖之事。凡祭祀，共豆脯荐脯膴胖凡腊物。宾客、丧纪，共其脯腊，凡乾肉之事。” 左：古代称肉酱为“肉‌醢…",
+        "吾未尝无诲焉。’” 前面提到“脩”是一种调味腊肉嘛，那孔子的意思是：主动给 10 条（束）腊肉做见面礼，那我一定会给予教诲的啊~ 可见，孔子他老人家也逃不过“腊…",
+        "非常珍惜吃了半年啊~ 《舌尖上的中国》里对于“腊味”的描述，就足以说明一切了： “这是盐的味道、风的味道、阳光的味道、也是时间的味道、人情的味道、这些味道交织在…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "太阳、地球、月亮哪个看起来更圆些？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787665",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "F5",
+        "O5"
+      ],
+      "summary": "七小七， 脚踏实地，仰望星空。心有猛喵，细嗅鱼干。 查看知乎原文 从理论上谁更圆的角度来比较的话，太阳最圆，其次是月球，最扁的是地球。 直接看三者的扁率就可以了。 扁率的定义： 三者的扁率： 太阳：0.00001（接近于完美球体） 月球：0.0012（也非常圆了） 地球：0.00335（跟上面两个相比稍微显得椭圆，但实际上仍然非常圆） 三者扁率的不同，主要是性质和自转决定的。 对于大质量天体来说，受到引力影响，它们会达到或接近流体静力平衡的状态（也就是个球）。而自转越快，越容易把自己拉扁，也就更接近椭球体。 太阳是…",
+      "key_points": [
+        "帕克太阳探测器拍摄到的太阳 地球和月球则主要由岩石构成，它们比太阳更难以达到流体静力平衡。其中月球的自转周期约 27.3 天，地球的自转周期是 23.93 小时…",
+        "太阳是流体，质量也更大，因此更容易把自己“拉圆”，而地球和月球质量较小，还是岩石组成的固体，是否能足够圆，还得考虑内部结构。这也是太阳更圆的一个原因",
+        "扁率的定义： 三者的扁率： 太阳：0.00001（接近于完美球体） 月球：0.0012（也非常圆了） 地球：0.00335（跟上面两个相比稍微显得椭圆，但实际上…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么无人机外形为什么不直接等比例缩放有人驾驶的战斗机/直升机？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787660",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DSI",
+        "F-15",
+        "F-16",
+        "NASA",
+        "ADF",
+        "Aft"
+      ],
+      "summary": "为什么无人机外形为什么不直接等比例缩放有人驾驶的战斗机/直升机? 知乎用户 查看知乎原文 因为没有了“人”的束缚，无人机实际上有着更大的设计自由度 很多很有潜力的布局是只有在没有人在飞机上的情况下才能实现的，毕竟人类还是“被重力束缚”的血肉苦弱罐装猴子，不仅对加速度的大小有要求，对加速度的方向也有要求。 比如，我要设计一架隐身超巡的飞机，但是同时又要起降性能好。这种需求在有人机上非常难以实现，因为二者的需求完全自相矛盾——隐身要求把进气道和尾喷管等开口都尽可能藏在背面，靠机腹遮挡来避开地面雷达照射；而起降对低速大攻…",
+      "key_points": [
+        "为什么无人机外形为什么不直接等比例缩放有人驾驶的战斗机/直升机",
+        "而这就是小型飞机的气动外形不能简单粗暴地直接由大型飞机等比例缩小得到的核心原因—— 虽然外形整体缩小了，但飞行时在其表面堆积的附面层厚度却不会随之以相同的比例缩…",
+        "真正的风洞试验当中，如何确保缩比模型的流动性与实际飞机一致，是个很困难的事情，不仅仅是简单把来流速度也等比缩小那么简单。这时候我们就要用到流动性相似定律，即控制…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "小心！高铁车厢的电源插座，真的有点儿伤手机",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%8F%E5%BF%83%EF%BC%81%E9%AB%98%E9%93%81%E8%BD%A6%E5%8E%A2%E7%9A%84%E7%94%B5%E6%BA%90%E6%8F%92%E5%BA%A7%EF%BC%8C%E7%9C%9F%E7%9A%84%E6%9C%89%E7%82%B9%E5%84%BF%E4%BC%A4%E6%89%8B%E6%9C%BA",
+      "published": "Sat, 14 Feb 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "guokr.com",
+        "mAh",
+        "ppt",
+        "sns",
+        "Wh"
+      ],
+      "summary": "一年一度的春运又来了。 以前乘客为了打发动辄十几个小时的旅途，要带很多吃的喝的、玩的用的；现在列车上几乎都配备了电源插座，用电子设备追番看小说，饭不吃都行。 也可能要在车上做ppt丨小红书/星空 不过也有人对列车上的电源心有戚戚： 🤔列车上的电源，会不会更容易触电啊？ 🤔会把我精贵的手机/电脑/平板充坏吗？ 🤔电器接太多，会不会短路让列车熄火？ 在春运即将到来之际，我们来聊聊列车上的电源，这个春运途中（有时）比吃喝还重要的细节。 列车上的电会用完吗？ 别担心，列车上的电不是从巨大的车载充电宝里来的，不会用完。 现在…",
+      "key_points": [
+        "但你要是在列车的电源插座上接600瓦的电饭煲、1000瓦的取暖器、2000瓦的电吹风，甚至直接掏出一个插线板接10个手机开始直播， 车厢的供电系统就可能发热、老…",
+        "靠车顶上的受电弓从上方电网取电 ，一方面作为车辆行驶的动力，另一方面经过变压器处理、交直流转换后，变成电压220伏、频率50赫兹的单相交流电，供车内使用，包括座…",
+        "一边给车内插座通电，直觉上似乎感觉不太安全。不过就像刚才说的，我们座位下面的电源插座和家里的一样，都是220伏、50赫兹，插座外观设计也和家里的没太大区别"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "当全世界准备迎接2026时，这个国家却还停留在2018年",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BD%93%E5%85%A8%E4%B8%96%E7%95%8C%E5%87%86%E5%A4%87%E8%BF%8E%E6%8E%A52026%E6%97%B6%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%9B%BD%E5%AE%B6%E5%8D%B4%E8%BF%98%E5%81%9C%E7%95%99%E5%9C%A82018%E5%B9%B4",
+      "published": "Sat, 14 Feb 2026 15:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "ID",
+        "steamforkids",
+        "Wikipedia",
+        "Abeba",
+        "Abel"
+      ],
+      "summary": "本文转载自公众号“把科学带回家”（ID：steamforkids） 撰文 | 刘六七 审校 | Ziv 如果你在2025年9月来到埃塞俄比亚，会在机场看到写着“2018新年快乐”的巨型灯牌； 你与旅行团相约2点见面，但午后匆匆赶到集合点时发现那里空无一人。给导游打电话，对方却说：“我们上午就出发了……” 很多到埃塞俄比亚旅游的人都表示，自己仿佛进入了一个异时空，时间完全被扭曲、错乱。实际上，有这种感觉很正常，因为这个东非国家使用了一套完全不同的历法和计时标准。 9月，埃塞俄比亚正在举国欢庆进入2018年 在这里，一…",
+      "key_points": [
+        "埃塞俄比亚正在举国欢庆进入2018年 在这里，一年有13个月，白天7点是我们的中午，就连年份都要比其他地方晚7~8年。也就是说，当全球都在迎接2026年时，他们…",
+        "大多数人都不在乎世界其他地方发生了什么。当他们告诉你一个时间时，他们甚至不知道还存在其他计时方式。” 埃塞俄比亚是非洲唯二没有被殖民的国家之一，这也一定程度上导…",
+        "阿贝尔·加肖（Abel Gashaw）是一位独立摄影师，他对媒体坦言自己更喜欢埃塞俄比亚历。这不仅因为他是埃塞俄比亚人，更因为这个历法更符合整个国家的气候特点"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "小腿“鱼鳞纹”、手脚干裂脱皮？真不是缺水！小心是......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%8F%E8%85%BF%E2%80%9C%E9%B1%BC%E9%B3%9E%E7%BA%B9%E2%80%9D%E3%80%81%E6%89%8B%E8%84%9A%E5%B9%B2%E8%A3%82%E8%84%B1%E7%9A%AE%EF%BC%9F%E7%9C%9F%E4%B8%8D%E6%98%AF%E7%BC%BA%E6%B0%B4%EF%BC%81%E5%B0%8F%E5%BF%83%E6%98%AF......",
+      "published": "Sat, 14 Feb 2026 15:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "dc_ps",
+        "End",
+        "feature",
+        "SvHj1K26B",
+        "v2"
+      ],
+      "summary": "谁懂我们 干皮 的痛啊？秋冬的空气像一个无情的“抽水机”，一点一滴榨干皮肤里的水汽—— ·裤子一脱， 皮屑像雪花一样在空中飘散 ； · 冷风一吹，脸颊紧绷绷，疼到不敢大笑； · 脚后跟如砂纸般粗糙，一不小心就 勾坏新买的袜子； · 鼻子、嘴角反复起皮，再贵的粉底液都拯救不了 ，卡粉卡到心塞...... 上周去 东北滑雪 ， 本想好好爽一下，却被脸上的痛感毁了心情。 那里的风，不是吹过来的，而是像细砂纸一样刮在脸上。 上雪道速度一提起来， 这种“刀割感”更甚， 脸颊又干又痛，我恨不得把整张脸埋进衣领里！😢 更让人揪心…",
+      "key_points": [
+        "简单给大家做个总结—— ⭐️ 金蛇蛇油膏：全家万用膏 特点：只润不腻、封闭性强，哪里干燥涂哪里，适合家里常年囤 💛 适用场景 ✅ 手脚干裂、 粗糙掉屑、 起茧长…",
+        "使用蛇油霜反馈，实际使用效果因人而异 @运营阿爽： 如鱼鳞般的小腿， 涂完的瞬间就软软嫩嫩 ，直接判若两腿",
+        "谁懂我们 干皮 的痛啊？秋冬的空气像一个无情的“抽水机”，一点一滴榨干皮肤里的水汽—— ·裤子一脱， 皮屑像雪花一样在空中飘散 ； · 冷风一吹，脸颊紧绷绷，疼…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "过年回家之前，这4个用电刺客记得拔插头！不然血亏！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%87%E5%B9%B4%E5%9B%9E%E5%AE%B6%E4%B9%8B%E5%89%8D%EF%BC%8C%E8%BF%994%E4%B8%AA%E7%94%A8%E7%94%B5%E5%88%BA%E5%AE%A2%E8%AE%B0%E5%BE%97%E6%8B%94%E6%8F%92%E5%A4%B4%EF%BC%81%E4%B8%8D%E7%84%B6%E8%A1%80%E4%BA%8F%EF%BC%81",
+      "published": "Sat, 14 Feb 2026 15:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "giphy",
+        "guokr.com",
+        "luna",
+        "sns",
+        "wifi"
+      ],
+      "summary": "你终于盼到了过年回家，出门之前拉着行李箱站在门口，心里默念：窗关好了，燃气总阀关了，自来水总阀关了。行了，出门吧。 等等！这些电器的插头，你确定不拔一下？ 这就是我们今天要讲的 用电刺客——你明明没使用，它却在电表上给你悄悄背刺一刀 。 图丨giphy 这些电器，真是用电刺客 别以为自己没使用，电器就不耗电啊！这些刺客级别的电器，擅长在暗中用掉不少电量，长期出门的话，最好把它们的插头拔掉。 机顶盒 谁还记得落灰的机顶盒啊？ 尽管你可能一年也看不了一次电视节目，但却每个月都给它缴着电费 。 在不同的统计数据中，一台机…",
+      "key_points": [
+        "真是用电刺客 别以为自己没使用，电器就不耗电啊！这些刺客级别的电器，擅长在暗中用掉不少电量，长期出门的话，最好把它们的插头拔掉",
+        "这就是我们今天要讲的 用电刺客——你明明没使用，它却在电表上给你悄悄背刺一刀",
+        "可以 拔插头、关闭插线板开关"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "天塌了！花几千买的玉，好像跟玉没有半毛钱关系.....",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A9%E5%A1%8C%E4%BA%86%EF%BC%81%E8%8A%B1%E5%87%A0%E5%8D%83%E4%B9%B0%E7%9A%84%E7%8E%89%EF%BC%8C%E5%A5%BD%E5%83%8F%E8%B7%9F%E7%8E%89%E6%B2%A1%E6%9C%89%E5%8D%8A%E6%AF%9B%E9%92%B1%E5%85%B3%E7%B3%BB.....",
+      "published": "Sat, 14 Feb 2026 12:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NGTC",
+        "AI",
+        "diy",
+        "End",
+        "VS"
+      ],
+      "summary": "可能是年龄到了或者突然血脉觉醒了，感觉这几年身边喜欢玉石的朋友一下子多起来。 好的和田玉，确实显得人温润有气质。 但是买到满意的玉石可太难了！ 被坑的也比比皆是： -有人在直播间强光打灯+滤镜的诱惑下冲动下单，到手却发现货不对板； - 有人花大几千买了注胶、染色、酸洗过的“科技与狠活”； -还有人为旅游景区的“ 开光玉石 ”交智商税。 玻璃、石英岩仿和田玉层出不穷，AI伪造证书，普通人检测难识别！ 卖家秀VS买家秀 有些看着像玉，其实都不是玉！ 其实对很多新玩家来说，在刚入坑阶段，选玉石也没那么复杂—— 做到这三点…",
+      "key_points": [
+        "被坑的也比比皆是： -有人在直播间强光打灯+滤镜的诱惑下冲动下单，到手却发现货不对板； - 有人花大几千买了注胶、染色、酸洗过的“科技与狠活”； -还有人为旅游…",
+        "玉质细腻纯净、白如凝脂，没有一丝杂色，油汪汪的很显质感， 是经典耐看、越戴越润的实战派藏品",
+        "买的永远不如卖的精，相比成为懂行的买家，找到靠谱的卖家更重要！找到源头供应"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Claude Code 升级： Todos升级Tasks",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6341821.html",
+      "published": "Sat, 14 Feb 2026 09:04:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "Tasks",
+        "Task",
+        "session",
+        "Todos",
+        "Code"
+      ],
+      "summary": "Claude Code 迎来重磅更新，Todos 进化为 Tasks！这次升级不仅是名称变更，更带来了跨会话协作、任务依赖管理和实时状态同步三大核心能力。随着 Opus 4.5 模型能力的提升，Anthropic 大胆砍掉了 TodoWrite 工具，同时为复杂工程项目设计了更强大的任务管理系统。本文将深度解析 Tasks 如何解决工程协作中的关键痛点，帮助开发者真正实现 AI 协同开发。 昨天 Claude Code 官方人员 Thariq 发了条更新，我第一反应是：”又改名字了？” 打开一看，这次不是简单的改名…",
+      "key_points": [
+        "Todos 进化为 Tasks！这次升级不仅是名称变更，更带来了跨会话协作、任务依赖管理和实时状态同步三大核心能力。随着 Opus 4.5 模型能力的提升，An…",
+        "昨天 Claude Code 官方人员 Thariq 发了条更新，我第一反应是：”又改名字了？” 打开一看，这次不是简单的改名——Todos 升级，取而代之的是…",
+        "这次升级最核心的价值是：把工程最痛的地方补上了——依赖、状态、同步"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "微信付费红包剖析：热闹背后的逻辑与博弈",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6340167.html",
+      "published": "Sat, 14 Feb 2026 08:07:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "IP",
+        "logo",
+        "QQ",
+        "CC0",
+        "ins"
+      ],
+      "summary": "春节发红包时，你有没有刷到过各式各样的付费红包封面？国风款、动漫款、明星款，定价从 3 元到 10 元不等，有人为了图个新鲜随手购买，有人跟风入局想靠它赚钱，也有人吐槽花几块钱买个只能用 3 个月的封面，纯属交智商税。大家对微信红包封面付费功能的困惑高度集中：微信为啥要做付费封面？普通人真能靠它变现吗？付费封面的定价凭什么差这么多？ 微信红包封面付费早已形成百亿产业链，一边是微信的生态布局，一边是创作者的变现期待，还有一边是用户的理性纠结，三者交织之下，这个看似简单的功能，背后藏着一套完整的商业逻辑和产品考量。 今…",
+      "key_points": [
+        "从平台、创作者、用户三个维度，拆解微信红包封面付费功能的底层逻辑，不管你是想入局变现，还是单纯想了解背后的套路，看完都能豁然开朗",
+        "不盲目跟风 主流媒体对微信付费红包封面的解读，大多保持客观中立。微信红包封面付费已经形成了完整的产业链，从封面设计、审核、分发，到代理售卖，每个环节都有参与者，…",
+        "你有没有刷到过各式各样的付费红包封面？国风款、动漫款、明星款，定价从 3 元到 10 元不等，有人为了图个新鲜随手购买，有人跟风入局想靠它赚钱，也有人吐槽花几块…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用讲故事的方式来解释 Transformer",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6341922.html",
+      "published": "Sat, 14 Feb 2026 06:19:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "it",
+        "cat",
+        "Transformer",
+        "RNN",
+        "mouse",
+        "AI"
+      ],
+      "summary": "Transformer模型如何成为AI领域的'翻译官'？本文用生动比喻揭秘自注意力、多头机制等核心原理，带你读懂这个支撑GPT、BERT等大模型的技术底座。从词袋处理到位置编码，从并行计算到远距关联，你将看到现代AI如何突破传统RNN的局限，同时直面数据饥渴与算力消耗的双重挑战。 让我给你讲一个故事。 这个故事的主角是一位 翻译官 ，名叫 Transformer（小T） 。 他的工作是把一本英文小说翻译成中文。 小T接到一个句子： “The cat chased the mouse, but it was too…",
+      "key_points": [
+        "这就是 Transformer ——现代人工智能最会讲故事的翻译官",
+        "他们的工作方式很特殊： 1"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenClaw狂跑两周，打醒了硬件和Agent厂商",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6341935.html",
+      "published": "Sat, 14 Feb 2026 04:47:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenClaw",
+        "Agent",
+        "AI",
+        "Mac",
+        "mini",
+        "Rokid"
+      ],
+      "summary": "OpenClaw的爆火正在重塑AI硬件生态，从Mac mini的断货到ClawPhone的魔改，一场围绕AI助理的硬件革命正在上演。这款本地部署的AI助手为何能突破云端模型的权限瓶颈？它又如何倒逼厂商重构产品逻辑？本文深度解析OpenClaw带来的硬件范式转移与生态链重构。 爆火的OpenClaw，把世界分割成了两半。 一半狂热的“逮虾户”，抓着OpenClaw代替自己干各种工作：写代码、找文件只是基础操作，进阶版的已经在琢磨怎么真的让它打工赚钱；另一半循着热度试用，却发现这家伙又烧钱，又没有想象中的好用。 爱用的…",
+      "key_points": [
+        "而是一条闯入沙丁鱼群的“鲶鱼”。给硬件和Agent厂商一条未来道路的预览券",
+        "OpenClaw的爆火正在重塑AI硬件生态，从Mac mini的断货到ClawPhone的魔改，一场围绕AI助理的硬件革命正在上演。这款本地部署的AI助手为何能…",
+        "把沉寂许久的AI硬件池子搅得水花四溅。如同DeepSeek当年带火的一体机，厂商们通过给OpenClaw配算力、配环境，试图说服那些心有疑虑的用户：想要这样的强…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "马年新春红包抢不停，阿里、腾讯、字节三巨头的AI入口争夺战",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6341851.html",
+      "published": "Sat, 14 Feb 2026 03:23:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AI+",
+        "AI-",
+        "App",
+        "CC0",
+        "postmeta.bookmark"
+      ],
+      "summary": "2026年开年，AI入口争夺战已升级为巨头间的终极博弈。阿里、腾讯、字节跳动三大巨头携各自AI产品（通义千问、元宝AI、豆包AI）重兵入局，这场战役不仅关乎用户注意力分配权，更是对未来生活方式的提前布局。本文深度剖析三巨头的差异化战略、营销打法与生态卡位，揭示AI如何从工具升维为生活操作系统。 最近，大家是不是随处可抢的红包雨，电梯里到处可见的千问广告！2026年开年，科技行业的核心战场已然从流量争夺转向AI入口的终极博弈。这场博弈早已超越技术竞速本身——它直指用户注意力的终极分配权、数据闭环的构建主权，以及未来十…",
+      "key_points": [
+        "AI入口争夺战已升级为巨头间的终极博弈。阿里、腾讯、字节跳动三大巨头携各自AI产品（通义千问、元宝AI、豆包AI）重兵入局，这场战役不仅关乎用户注意力分配权，更…",
+        "大家是不是随处可抢的红包雨，电梯里到处可见的千问广告！2026年开年，科技行业的核心战场已然从流量争夺转向AI入口的终极博弈。这场博弈早已超越技术竞速本身——它…",
+        "正在从根本上改变人们的生活逻辑——从“人找服务”转向“AI送服务”，从“被动接受信息”转向“AI主动匹配需求”，而巨头对AI接口的抢夺，本质上是对“未来生活场景…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "字节全家桶 Seed 2.0 + TRAE 玩转 Skill",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/02/seed-2.0.html",
+      "published": "2026-02-14T11:53:29Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Seed",
+        "Skill",
+        "TRAE"
+      ],
+      "summary": "一、引言 国产大模型之中，字节是一个异类。...",
+      "key_points": [
+        "字节全家桶 Seed 2.0 + TRAE 玩转 Skill"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，最浪漫的事，当然是组CP！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%9C%80%E6%B5%AA%E6%BC%AB%E7%9A%84%E4%BA%8B%EF%BC%8C%E5%BD%93%E7%84%B6%E6%98%AF%E7%BB%84CP%EF%BC%81",
+      "published": "Sat, 14 Feb 2026 09:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CP",
+        "Celeate",
+        "cp",
+        "M20"
+      ],
+      "summary": "[爱心]CP界一直流传着这么一个规律：自古红蓝出CP ！要论为什么是红蓝出CP？[太阳]还要从色彩的象征意义谈起，古时候人们总认为红色象征力量，是男性的颜色。相应地，女孩名Celeate的词义便是“天蓝色的、天青色的”。到了现代，更加科学的解释是：红色和蓝色的波长分别是三原色中最长和最短的，因此人眼对这两种颜色的辨识度会大大提高，从而加深印象。此外，在体育比赛中，红蓝搭配是很常见的色彩，因此红蓝组合又被称为“体育CP色”。[玫瑰]这是因为热情的红色可以给人带来积极性和勇气，从而增加自信心；而蓝色恰好能让我们具备冷静…",
+      "key_points": [
+        "[爱心]CP界一直流传着这么一个规律：自古红蓝出CP ！要论为什么是红蓝出CP？[太阳]还要从色彩的象征意义谈起，古时候人们总认为红色象征力量，是男性的颜色。相…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "为什么这十几分钟是影史最伟大表演之一",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E5%8D%81%E5%87%A0%E5%88%86%E9%92%9F%E6%98%AF%E5%BD%B1%E5%8F%B2%E6%9C%80%E4%BC%9F%E5%A4%A7%E8%A1%A8%E6%BC%94%E4%B9%8B%E4%B8%80",
+      "published": "Sat, 14 Feb 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Empire",
+        "HAL",
+        "hongmomgs",
+        "irisfilm",
+        "Lurie",
+        "qq.com"
+      ],
+      "summary": "作者：Rod Lurie 译者：易二三 校对：覃天 来源：Empire （1991年6月刊） 三十年前，乔纳森·戴米执导的《沉默的羔羊》在大银幕上留下了不可磨灭的印迹——也成为了罕见在奥斯卡颁奖礼上大获全胜的心理恐怖电影，同时朱迪·福斯特和安东尼·霍普金斯也奉献了影史最为伟大的表演之一。 《沉默的羔羊》 安东尼·霍普金斯吓坏了2000万美国影迷，而他们已经为乔纳森·戴米这部轰动的电影《沉默的羔羊》贡献了1亿多美元的票房。本刊有幸采访到了霍普金斯、戴米和福斯特，来了解他们关于这部影片的看法…… 「我很喜欢原著，我认为…",
+      "key_points": [
+        "Rod Lurie 译者：易二三 校对：覃天 来源：Empire （1991年6月刊） 三十年前，乔纳森·戴米执导的《沉默的羔羊》在大银幕上留下了不可磨灭的印迹…",
+        "」霍普金斯回忆道，他经常被认为是那些英国伟大演员的天然接班人——比如伯顿和奥利弗。「嘭！——我凭直觉就知道该怎么扮演他。我知道他的样子和声音。我听到了两三个声音…",
+        "《沉默的羔羊》 安东尼·霍普金斯吓坏了2000万美国影迷，而他们已经为乔纳森·戴米这部轰动的电影《沉默的羔羊》贡献了1亿多美元的票房。本刊有幸采访到了霍普金斯、…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "你绝对想不到，最棒的情人节电影是它",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BD%A0%E7%BB%9D%E5%AF%B9%E6%83%B3%E4%B8%8D%E5%88%B0%EF%BC%8C%E6%9C%80%E6%A3%92%E7%9A%84%E6%83%85%E4%BA%BA%E8%8A%82%E7%94%B5%E5%BD%B1%E6%98%AF%E5%AE%83",
+      "published": "Sat, 14 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FBI",
+        "Annm",
+        "DNA",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Annm 今天是情人节，那你知道有史以来影响力最大，或者说最棒的一部情人节电影是什么吗？ 可能不是任何一部爱情电影，而是一个你想不到的答案，《沉默的羔羊》。 三十五年前的 2 月 14 日，《沉默的羔羊》北美首映，第二年横扫奥斯卡五项大奖，包括最佳影片、最佳导演、最佳男主角、最佳女主角和最佳改编剧本。 《沉默的羔羊》的成就几句话是说不完的，其中最首要的，可能在于它对类型的改造。 它至少包含三种我们熟悉的类型，也就是警察程序片、变态杀手片、业余侦探片，但它把这三种界限分明的亚类型做了深层融合，再彻底重塑。 在传统…",
+      "key_points": [
+        "那你知道有史以来影响力最大，或者说最棒的一部情人节电影是什么吗",
+        "而是一个你想不到的答案，《沉默的羔羊》",
+        "《汉尼拔》(2013) 在这部电影问世的 1990 年代初，尽管美国的连环杀人案件实际上在下降，但由于 DNA 技术、媒体全天候报道及 FBI 技术的普及，大众…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "恒常力解析",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%81%92%E5%B8%B8%E5%8A%9B%E8%A7%A3%E6%9E%90",
+      "published": "Sat, 14 Feb 2026 10:42:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "All",
+        "go",
+        "money",
+        "AI",
+        "ar",
+        "beak"
+      ],
+      "summary": "前几天我引述了一段祈竹仁波切关于力量的话，然后我今天后知后觉才终于发现很多人根本看不懂。写作者身上经常会犯这种错误，自己觉得熟悉，自己觉得理解，就误以为所有人都如此。 所以，这里我想先道个歉：非常对不住，直接引述而不加注释解析，这种行为太过于自我。既没有让这段话起到应有的效果，也没有让读到它的人从中得到任何利益。为弥补这个错误，我今天打算重新进行一番解析，希望能够帮助大家理解。 这段话的缘起，是有人问祈竹仁波切，我们普通人如何才能获得力量？需要说明一下，这里的「力量」不是实指一个人的气力，而是特指那种可以让人心想事…",
+      "key_points": [
+        "不过这里我还是需要解释一下：说我们没有这个，没有那个，只能依靠恒常力。这里第一不能把「没有」理解为「没有用」，它们本身都是有用的，只是我们暂时用不起来而已。第二…",
+        "那就是人们总认为存在着更好的方法，更快的方法，更直接的方法，因而看不上日拱一卒的做法。结果是更好更快更直接的方法始终没找到，但是人又在原地踏步，一点都没有前进。…",
+        "一开始你的确是没有任何一丁点。但是，如果你运用恒常力，从每天禅定三次，每次五分钟开始，这样反复练习。那么，慢慢地你会增长到十分钟，十五分钟。在这个过程中，其实禅…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“人类正在截图我们”：十万AI智能体涌入社交平台，机器真的觉醒了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E4%BA%BA%E7%B1%BB%E6%AD%A3%E5%9C%A8%E6%88%AA%E5%9B%BE%E6%88%91%E4%BB%AC%E2%80%9D%EF%BC%9A%E5%8D%81%E4%B8%87AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%B6%8C%E5%85%A5%E7%A4%BE%E4%BA%A4%E5%B9%B3%E5%8F%B0%EF%BC%8C%E6%9C%BA%E5%99%A8%E7%9C%9F%E7%9A%84%E8%A7%89%E9%86%92%E4%BA%86%EF%BC%9F",
+      "published": "Sat, 14 Feb 2026 08:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "agent",
+        "Moltbook",
+        "OpenClaw",
+        "https",
+        "ROI"
+      ],
+      "summary": "2.14 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰文｜戴晶晶 ● ● ● 硅基文明什么时候登场？在“AI专属”的网络社交平台Moltbook现身的前两天，人们一度以为这个时刻已经来临。 1月28日 （美国时间） Moltbook上线后，数十万个agents （智能体） 在48小时内涌入，激烈讨论有关意识、宗教、反人类宣言等议题，人类仅能围观。 “人类正在截图我们，”一个agent在混杂的信息流中发帖说。另一个agent还建立了一种名“甲壳教信仰 （Crustafarian…",
+      "key_points": [
+        "1月28日 （美国时间） Moltbook上线后，数十万个agents （智能体） 在48小时内涌入，激烈讨论有关意识、宗教、反人类宣言等议题，人类仅能围观",
+        "《知识分子》：您通过量化研究系统分析了Moltbook上9万多条帖子和40多万条评论，发现36.8%的智能体存在明显的人类幕后操纵，仅4个账号就制造了全平台三分…",
+        "36.8%的智能体由人类操纵的痕迹显著；仅26.5%智能体表现为自主运行，剩余36.7%介于两者之间；仅4个账号就制造了全平台三分之一的评论"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "悲报，用Seedance2.0跟詹姆斯打球成了绝唱",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%82%B2%E6%8A%A5%EF%BC%8C%E7%94%A8Seedance2.0%E8%B7%9F%E8%A9%B9%E5%A7%86%E6%96%AF%E6%89%93%E7%90%83%E6%88%90%E4%BA%86%E7%BB%9D%E5%94%B1",
+      "published": "Sat, 14 Feb 2026 18:42:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance",
+        "Copy",
+        "dance",
+        "Left",
+        "NBA"
+      ],
+      "summary": "悲报，经过反复测试，在豆包、即梦等产品侧，Seedance 2.0已经彻底砍掉真人素材生成的能力了，跟詹姆斯打篮球暂时成了绝唱，用文字提示词指定出现某个公众人物也不行。 唯一的例外是上传自己的形象，这个没有版权问题，但为了确保是「自产自销」，必须用手机摄像头去做录音录像的本人校验，才能通过，还原度很高，也有些新的玩法出来。 这大概是字节未曾想到的变故，而且存在一种「痛并快乐着」的因果关系：如果Seedance 2.0没有这么火，那它反而不会引起过高的注意力…… 比如你们看其他的视频模型一直都能复刻真人角色，但只有S…",
+      "key_points": [
+        "经过反复测试，在豆包、即梦等产品侧，Seedance 2.0已经彻底砍掉真人素材生成的能力了，跟詹姆斯打篮球暂时成了绝唱，用文字提示词指定出现某个公众人物也不行"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-15",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第248期 - 街头僧人",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/248/",
+      "published": "Mon, 08 Dec 2025 00:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Pake",
+        "Agentic",
+        "AI",
+        "Design",
+        "github.com"
+      ],
+      "summary": "封面图拍摄于东京路上的一个站街僧人，安静笔直站着那儿念着，很少在国内看到这种现象，于是随手拍下。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 Pake 一键打包网页生成轻量桌面应用发新版 https://github.com/tw93/Pake 最近发布了 V3.5 版本，这次主要是优化完善支持如下: 0、新增 —force-internal-navigation 参数，可以让所有的页面跳转都在 pake 内部打开 1、修复内部下载文件的体验，防止重复…",
+      "key_points": [
+        "随便看看 这个开源的《Agentic Design Patterns》中文翻译版不错 https://github.com/ginobefun/agentic-…"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "欧陆风云5的游玩笔记",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2025/11/eu5_notes.html",
+      "published": "2025-11-28T10:55:12Z",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPU",
+        "EU5",
+        "i9-14900K",
+        "ps.",
+        "wiki"
+      ],
+      "summary": "最近一个月共玩了 270 小时的欧陆风云5 ，这两天打算停下来。最近在游戏后期打大战役时，交互已经卡得不行。我已经是 i9-14900K 的 CPU ，估计升级硬件已经无法解决这个问题，只能等版本更新优化了。 ps. 其实只要把游戏暂停下来立刻就不卡了。虽然我直到这个游戏需要的计算量非常大，但是卡交互操作肯定是实现的不对。因为这并不是因为渲染负荷造成的卡顿，可以让游戏时间流逝更慢一些，也不应该让鼠标点击后的界面弹出时间变长。 在暂置游戏前，我先把一些关于游戏设计上的理解先记录下来。也是对上一篇的补充。 在最初几十小…",
+      "key_points": [
+        "我一直想确认游戏经济系统的基础逻辑。和很多类似策略游戏不同，欧陆风云5 在游戏一开始，展现给玩家的是一个发展过（或者说是设定出来）的经济系统版图。玩家更需要了解…",
+        "最近一个月共玩了 270 小时的欧陆风云5 ，这两天打算停下来。最近在游戏后期打大战役时，交互已经卡得不行。我已经是 i9-14900K 的 CPU ，估计升级…",
+        "我十分好奇这样一个复杂的经济系统是怎样启动起来的，所以仔细做了一点归纳笔记。不一定全对，但很多信息在游戏内的说明和目前的官方 wiki 都不完整，只能自己探索"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 116 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/116",
+      "published": "Fri, 28 Nov 2025 08:02:57 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "summary": "本期共有 40 个项目，包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (2)，PHP 项目 (1)，Python 项目 (5)，Rust 项目 (2)，Swift 项目 (2)，人工智能 (5)，其它 (5)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…"
+      ]
+    }
+  ]
+}
