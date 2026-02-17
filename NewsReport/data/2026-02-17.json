@@ -1,0 +1,897 @@
+{
+  "date": "2026-02-17",
+  "generated_at": "2026-02-17T01:00:05.168319+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 217,
+    "fresh_candidates": 57,
+    "backfill_candidates": 160,
+    "items_published": 27,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-17",
+      "fetched_at": "2026-02-17T01:00:04.858445+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.07,
+          "change": -51.95,
+          "change_pct": -1.26,
+          "volume": 500799472.0,
+          "amount": 84680834.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4934.21,
+          "change": -58.72999999999956,
+          "change_pct": -1.18,
+          "prev_close": 4992.94,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-17 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1095.1127195331717,
+          "change": -13.034704647386661,
+          "change_pct": -1.1762608803630468,
+          "prev_close": 1108.1474241805583,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-17 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-17",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI模型谁最强？用我自己的数据来检测。",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9518372158/376301159",
+      "published": "Mon, 16 Feb 2026 13:10:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "gemini",
+        "AK112",
+        "BD",
+        "DS",
+        "http"
+      ],
+      "summary": "昨天我在雪球讨论，一个球友用AI总结我的发言来反驳我。我一看，什么情况，完全是胡说八道啊，AI幻觉极为严重。可以说里面甚至超过半数的内容都是编的，或者把其他人的回帖当成了我的言论。 今天我突然想到，等等我在雪球有这么多文字资料，这可以作为评价AI模型能力的一个检验啊。而且我最清楚正确答案是什么。 所以我就想好了下面3个提示词。 1：雪球网上张小丰对康方生物的看法，注意检查AI幻觉，不要混淆其他人的回帖。 2：雪球网上张小丰对信达生物的看法，注意检查AI幻觉，不要混淆其他人的回帖。 3：雪球网上张小丰对百济神州的看法…",
+      "key_points": [
+        "元宝使用DS模型“联网搜索”+“深度思考”，千问使用“qwen3-max-thinking”能力最强的推理模型并且开启“深度思考”",
+        "关于创新药公司&#34;老大老二&#34;的误区 ： 张小丰认为市场上对18A创新药的&#34;老大老二&#34;（应指康方生物和另一家创新药公司，可能是三生制…",
+        "这太弱了。。。在另外2家企业的总结中也抓不住重点漏掉大量信息。（我估计也是在我没明确给出公司名字的帖子，元宝无法识别判断） 千文推理模型：唯一一个出现幻觉的模型…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "长江电力成长性粗算",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6561443609/376313734",
+      "published": "Mon, 16 Feb 2026 13:10:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "1）长江电力成长性，大致粗分为三块，一块是电价上调，一块是折旧，另一块是新项目比如抽水蓄能+降低负债后减少财务成本+股权投资。 2）第一块暂时不考虑，毕竟这两年电价也低，长期来看，纸币时代电价是上升通道，和金价，油价，煤价等一个原理。 3）第二块折旧，大坝折旧还早，三峡大坝要二十多年之后，白鹤滩还要四十多年。机组折旧的话，未来六年内折旧到期后，可以增加净利润接近40亿，然后就要等乌东德的机组折旧到期了。 4）第三块的话，无论新项目，还是减少财务成本，或者是股权投资，其实都是结余的自由现金流产生的价值。 5）长江电力…",
+      "key_points": [
+        "市场利率维持现在，分红率小幅度上升，长江电力除权股价加几年分红，合计在42到44块。对应现在的股价，年化收益率均值超过9%。26块以内的股价是一个非常好的长期买…",
+        "6）结论是只要恢复到2025年的电价水平，来水正常，不乱投资，不被大薅羊毛，五年之后的2031年，长江电力净利润450亿是可以预期的"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "很幸运，3年前卖爆米花的老人今年还来",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1830902728/376300844",
+      "published": "Mon, 16 Feb 2026 13:09:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "MBA",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这篇文章写于腊月二十四日，家门口逢集并且晚上过小年放鞭炮的那天。 为什么我对腊月二十四印象这么深刻呢？因为我在2026年看到他在卖爆米花时的百感交集，他带给我的对认识事物的冲击，跟两年前的那个劲儿一模一样。 2024年2月3号我写过一篇这位老爷爷卖爆米花的文章。 2023年赶年集，这位老爷爷一边拉着风箱一边做爆米花，三块钱这么一大包。 2024年赶年集，他也在做爆米花，还是三块钱卖一大包。 2026年，这位老爷爷还在这里卖3块钱一包的老式爆米花，时间就像一个轮回，幸运的是看上去他的身体还康健。 #2026年春节见闻…",
+      "key_points": [
+        "卖爆米花靠自己劳动光明磊落赚钱的老人，卖了几十年锅碗瓢盆的老人，卖了几十年杂货给自己攒了养老金的老光棍，我现在对着相有了新的体会了",
+        "为什么我对腊月二十四印象这么深刻呢？因为我在2026年看到他在卖爆米花时的百感交集，他带给我的对认识事物的冲击，跟两年前的那个劲儿一模一样",
+        "这位老爷爷还在这里卖3块钱一包的老式爆米花，时间就像一个轮回，幸运的是看上去他的身体还康健"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "岁末年初话兴业",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5176441859/376296611",
+      "published": "Mon, 16 Feb 2026 13:09:13 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROE",
+        "http",
+        "PB",
+        "PE",
+        "SH600036",
+        "SH601166"
+      ],
+      "summary": "蛇年对兴业来说可谓跌宕起伏，从春节后的逐波上涨，连创新高，到下半年不断下跌，回吐涨幅，直至今年1月创一年新低，不动的人完完整整地坐了一趟来回电梯，股价回到了10年多前，应了兴业永远18的宿命。在即将过节的闲暇时间，来说说投资兴业的前世今生，未来期望。 我从第一次买入兴业已经有12年多了，作为第一重仓股也已经10年多了，我最早买的银行股是深发展，也是当时市场唯一的银行股，2007年随着兴业银行的上市，银行股越来越多，第二个买入的银行股是民生银行，当时民生银行虽然比招行小很多，但在银行股的行情中，却是领头羊，后面也清掉…",
+      "key_points": [
+        "作为第一重仓股也已经10年多了，我最早买的银行股是深发展，也是当时市场唯一的银行股，2007年随着兴业银行的上市，银行股越来越多，第二个买入的银行股是民生银行，…",
+        "经历了三个发展时期，第一个是2007-2014年，是兴业银行的快速发展期，业绩高速增长，股本急剧扩张，ROE维持在20%以上，买入的最佳时机是低位时，包括上市时…",
+        "兴业有望进入一个新的阶段，随着息差的企稳，兴业业绩有望摆脱过去三年的低迷，迎来较为高的增长，回到2015-2019年之间5%以上的增长。特别是系统性重要银行降组…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "除夕已至，马年启新程！雪球祝您新年顺意，所行皆稳，所愿皆达！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%99%A4%E5%A4%95%E5%B7%B2%E8%87%B3%EF%BC%8C%E9%A9%AC%E5%B9%B4%E5%90%AF%E6%96%B0%E7%A8%8B%EF%BC%81%E9%9B%AA%E7%90%83%E7%A5%9D%E6%82%A8%E6%96%B0%E5%B9%B4%E9%A1%BA%E6%84%8F%EF%BC%8C%E6%89%80%E8%A1%8C%E7%9A%86%E7%A8%B3%EF%BC%8C%E6%89%80%E6%84%BF%E7%9A%86%E8%BE%BE%EF%BC%81",
+      "published": "Mon, 16 Feb 2026 10:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp"
+      ],
+      "summary": "&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;",
+      "key_points": [
+        "&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "对于昆虫的变态发育，如何能证明它们的意识前后是统一的，保留了发育前的它，而不是被夺舍？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787636",
+      "published": "Mon, 16 Feb 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "article",
+        "https",
+        "id",
+        "journal.pone.0001736",
+        "journals.plos.org",
+        "Manduca"
+      ],
+      "summary": "斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 证明很简单啊，做个实验就行。 而且早就有科学家做过了。 2008 年对烟草天蛾 Manduca sexta， 的研究证实，全变态发育的昆虫，幼虫在实验中学会的回避行为， 会一直记忆到成年后 。 烟草天蛾是一种常见的实验动物。属于天蛾科天蛾亚科，和答主属于不同亚科，体型更大。幼虫是光滑无毛的肥硕毛虫。它的优点是可以用人工饲料很容易地养活。 用的 y 型管实验，很简单的原理：两条管气味或其它要素不同，实验动物自己选择往哪边走，如果它移动到了特定的一侧，就会…",
+      "key_points": [
+        "昆虫幼虫在变态发育过程中的确会经历很大程度的变化，许多组织分解消失，但不是全部。成虫盘也只是会成为成虫的一部分器官，而不是全部。其中，非常重要的系统，如神经系统…",
+        "全变态发育其实是 连贯的过程 。如果你饲养过蝴蝶蛾子，会发现它们在末龄时会变得僵硬，身体结构逐步过渡到蛹期，而不是等化蛹的那一个瞬间才开始发育的",
+        "2008 年对烟草天蛾 Manduca sexta， 的研究证实，全变态发育的昆虫，幼虫在实验中学会的回避行为， 会一直记忆到成年后"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "猪的尾巴为什么卷卷的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787678",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Brachyury",
+        "Wedge-shaped",
+        "Adam",
+        "Animalonearth",
+        "Biting",
+        "Ca4-Ca10"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 如果把时间倒推回大约 9000 年前，你会发现猪的祖先欧亚野猪（ Sus scrofa ）并不具备这种特征 [1] 。 野猪的尾巴是直的，这不仅符合空气动力学，还能在它们穿过灌木丛时充当某种信号旗，或者用来驱赶蚊虫。 那么家猪的卷尾巴是怎么来的？ 查尔斯·达尔文在 1868 年就注意到了这个问题，他发现被人类驯化的动物往往会出现一套相似的特征，比如耷拉的耳朵、变短的吻部、出现白斑以及卷曲的尾巴 。这种现象后来被称为驯化综合征 [2]…",
+      "key_points": [
+        "很多人误以为猪尾巴卷曲是因为肌肉在用力，就像人握紧拳头一样。如果这种逻辑成立，那么死猪的尾巴应该像绳子一样直。但事实并非如此，即便是在屠宰后，大多数家猪的尾巴依…",
+        "就像这样 [8] ： 农夫用手指沿着猪的脊背中线向后抚摸，猪的尾巴就会神奇地像卷尺一样慢慢伸直，几秒钟后又会自动卷回去",
+        "猪尾巴的姿态是其心理和生理状态的晴雨表。一条紧紧卷起的尾巴通常代表这只猪处于健康、兴奋或高唤醒度的状态 。相反，如果尾巴像被雨淋湿的绳子一样直直地垂在两腿之间，…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "现代医学能不能解释为何吃羊肉会让身体暖和?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787724",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "in",
+        "ATP",
+        "of",
+        "Alzheimer",
+        "Balanced",
+        "BAT"
+      ],
+      "summary": "剁椒鹿， 全网同名，有公号更新精选内容（私信都会看，已婚已育老太婆） 查看知乎原文 冬天， 来碗羊肉汤、温一壶酒、蘸点辣椒面 ，这几个吃法都能让你发热，但是它们让身体感觉热的原因一样吗？当然不一样，具体问题具体分析呗。 高赞则属于造谣式辟谣： 这是各种肉类里每 100g 胴体肉里色氨酸的含量： 可以看出虽然鹿肉、羊肉这种传统分类里归为“温热”的肉食确实色氨酸含量高，但是被分为“寒性”的兔肉色氨酸含量也并不低，并且羊肉、兔肉跟猪肉、牛肉的差别并不大，二两肉里色氨酸差别只有 0.03g 左右。 且最关键的是，猪肉的色氨…",
+      "key_points": [
+        "全网同名，有公号更新精选内容（私信都会看，已婚已育老太婆） 冬天， 来碗羊肉汤、温一壶酒、蘸点辣椒面 ，这几个吃法都能让你发热，但是它们让身体感觉热的原因一样吗…",
+        "咱们吃羊肉的时候有时候蘸一点辣椒油： 辣椒本身碳水化合物较少，蛋白质和脂肪含量都极低，而且一般人吃的量也比较少，所以食物热效应这方面可以忽略不计，但是辣椒有很强…",
+        "有另一组研究团队给小鼠喂食去掉脂肪的鸡肉看看食物热效应如何， 结果发现吃去脂鸡肉吃的食物热效应跟吃羊肉相当： 这张图里分别是控制组、纯鸡肉、鸡脂肪、去脂肪鸡肉、…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "像牛、像兔，就是不像马！今年的这些吉祥物错在哪儿？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%83%8F%E7%89%9B%E3%80%81%E5%83%8F%E5%85%94%EF%BC%8C%E5%B0%B1%E6%98%AF%E4%B8%8D%E5%83%8F%E9%A9%AC%EF%BC%81%E4%BB%8A%E5%B9%B4%E7%9A%84%E8%BF%99%E4%BA%9B%E5%90%89%E7%A5%A5%E7%89%A9%E9%94%99%E5%9C%A8%E5%93%AA%E5%84%BF%EF%BC%9F",
+      "published": "Mon, 16 Feb 2026 18:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Pixabay",
+        "Derby",
+        "Pretty",
+        "AI",
+        "bushi",
+        "Draw"
+      ],
+      "summary": "说时迟那时快，马年的春节在我拖稿的这段时间里已经来临！发稿的此刻是除夕， 祝大家新年快乐，吃好喝好～！ 既然今年是马年，就让我们来谈一些 Draw马 的吧！ 春晚吉祥物“骐骥驰骋”，虽然被说AI风格和丑，但至少能看出来是马 得益于我们有12生肖这种对设计师极其友好的设定，每年春节到来之前，各大商家只需要照着今年的天选动物去画一堆可爱（或可怕）的形象，就可以大卖一波。但是！从“固定剧目”吐槽春晚吉祥物开始， “年度吉祥物丑东西” 都是大家讨论的热点。 比如今年，我们就可以看到——像兔子、牛、驴甚至是蛇的马…… “一个…",
+      "key_points": [
+        "只有马的尾巴毛是从根部就开始发散的｜Pixabay 另外，马的 鼻唇部 皮肤有一层增厚的、毛发变得稀疏的组织，使它们嘴巴附近的颜色看起来与面部其他部分有些不同。…",
+        "虽然被说AI风格和丑，但至少能看出来是马 得益于我们有12生肖这种对设计师极其友好的设定，每年春节到来之前，各大商家只需要照着今年的天选动物去画一堆可爱（或可怕…",
+        "我们可以从罗德岛那边邀请来劳模阿米娅来做个错误示范： 游戏《明日方舟》中的角色阿米娅｜《明日方舟》 作为一只活蹦乱跳的小兔子，阿米娅的立绘中能一眼就被被捕捉到的…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "中国最豪横的过年宴席，不在广东，不在四川！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%AD%E5%9B%BD%E6%9C%80%E8%B1%AA%E6%A8%AA%E7%9A%84%E8%BF%87%E5%B9%B4%E5%AE%B4%E5%B8%AD%EF%BC%8C%E4%B8%8D%E5%9C%A8%E5%B9%BF%E4%B8%9C%EF%BC%8C%E4%B8%8D%E5%9C%A8%E5%9B%9B%E5%B7%9D%EF%BC%81",
+      "published": "Mon, 16 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "meishi388",
+        "didaofengwu",
+        "ID"
+      ],
+      "summary": "从腊八吃到正月十五， 肉山肉海“馍法”无边！ 中国风味最为闪耀的舞台，正是过年。川渝有刨猪盛宴，闽粤有生猛海鲜，齐鲁兼具山海之盛……风物璀璨，无分高下。而在三大自然区交汇的西北，如今的村镇乡野之间， 人们便已开始准备一桌桌最为融合且豪放的年味盛宴，坚守那一份“过了腊八就是年”的信念—— 西北年味，最美不过家宴，从腊八启程，绵延整个正月，亲朋互请“年酒”，不仅有变成油亮臊子与翻腾卤肉的年猪，还有鲜嫩肥美的“羊肉宇宙”，更藏着炕馍馍，架油锅，花馍大过年，馃馃按盆装的碳水江湖。冰箱里的沙葱、乌龙头等各色野菜从春天穿越而来…",
+      "key_points": [
+        "图1 供图/图虫创意 摄影/吕行 图2 摄影/严肃 图3 摄影/上海去哪吃（meishi388） 图4 供图/图虫创意 摄影/一心向往-美图摄影 过年办宴第一步…",
+        "过年前有好客的家主人淘得好羊，第一锅羊肉少不了邀请亲朋，共同品鉴，炫耀自己挑羊的眼光，兴奋之情，堪比夜钓丰收的钓鱼佬。肃北蒙古族的年宴上，最高贵的莫过于大盘羊肉…",
+        "正是过年。川渝有刨猪盛宴，闽粤有生猛海鲜，齐鲁兼具山海之盛……风物璀璨，无分高下。而在三大自然区交汇的西北，如今的村镇乡野之间， 人们便已开始准备一桌桌最为融合…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "火爆加场！这部让无数人哭崩的音乐剧，凭什么横扫101项国际大奖？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%81%AB%E7%88%86%E5%8A%A0%E5%9C%BA%EF%BC%81%E8%BF%99%E9%83%A8%E8%AE%A9%E6%97%A0%E6%95%B0%E4%BA%BA%E5%93%AD%E5%B4%A9%E7%9A%84%E9%9F%B3%E4%B9%90%E5%89%A7%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E6%A8%AA%E6%89%AB101%E9%A1%B9%E5%9B%BD%E9%99%85%E5%A4%A7%E5%A5%96%EF%BC%9F",
+      "published": "Mon, 16 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "it",
+        "you",
+        "RSC",
+        "always",
+        "bear",
+        "because"
+      ],
+      "summary": "你多久没有在人群中央内心涌动出暖意，嘴角忍不住上扬，眼泪却又不听话地止不住？ 当小小的玛蒂尔达用一种 “即使我渺小，但我的思想属于我” 的勇敢高声呐喊，当童声唱起反抗校园霸权的歌曲《淘气》时，整个剧场 的人都和我一样，震撼的同时，内心被复杂的情感占领。 也许是因为她打破世俗常规的勇气，也许是因为知识带给她的智慧，也许是那种团结反抗的力量所拥有的感染力...... 《玛蒂尔达》这部伦敦西区出品、在全球反复掀起热潮的经典音乐剧，值得每一个人走进剧院去感受一番！ 👇立即戳图享早鸟优惠，错过又要等几年 👇 它不止是一部音乐…",
+      "key_points": [
+        "原著作者得奖无数 🌟这部荣获7项奥利弗奖、5项托尼奖的国际经典音乐剧 🌟已在伦敦西区驻演12年，横扫101项国际大奖 🌟被《纽约时报》等媒体盛赞“无可比拟” 激…",
+        "我这个 成年人完全可以沉浸其中，娃看完还哼起了里边的音乐， 回到家蹦蹦跳跳学起了剧场的小演员，演得有模有样~ 这也是我今天想要分享这部音乐剧的原因，孩子沉浸式地…",
+        "是中国专业的音乐剧演出与制作品牌。截至2020年，七幕成功引进制作了包括 《我，堂吉诃德》《音乐之声》《玛蒂尔达》《近乎正常》《Q大道》《放牛班的春天》《灰姑娘…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "闻腻了烂俗街香？这盆宫里出来的“富贵花”，才是中式的治愈感！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%97%BB%E8%85%BB%E4%BA%86%E7%83%82%E4%BF%97%E8%A1%97%E9%A6%99%EF%BC%9F%E8%BF%99%E7%9B%86%E5%AE%AB%E9%87%8C%E5%87%BA%E6%9D%A5%E7%9A%84%E2%80%9C%E5%AF%8C%E8%B4%B5%E8%8A%B1%E2%80%9D%EF%BC%8C%E6%89%8D%E6%98%AF%E4%B8%AD%E5%BC%8F%E7%9A%84%E6%B2%BB%E6%84%88%E6%84%9F%EF%BC%81",
+      "published": "Mon, 16 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "blingbling",
+        "dc_ps",
+        "detail",
+        "End",
+        "enyh2ysjr1xgc7",
+        "wscgoods"
+      ],
+      "summary": "大家春节快乐呀！新的一年有没有想来点开心幸福的仪式感呢！是不是在发愁春节送礼买什么呢？ 想想大家平日工作，抬头是白墙低头是电脑，总觉得少了点生机和味道。 我们也曾试图 给生活添点色彩、加点香气。 可鲜切花没几天就蔫了，冬季鲜花绿植又十分昂贵，定期更换太费钱💰 。普通藤条香薰又太过单调，缺了那么点意思。 好在 【上新了故宫】 联手 江南香道品牌【苏叶堂】 ，请来世界陶瓷之都的非遗传承大师。 专门为我们现代人枯燥日常，定制了一份 “活的鲜花”礼物。 上 新了故宫·非遗瓷花卉盆景 桂花、桃花、粉玉兰 非遗纯手工陶瓷捏制…",
+      "key_points": [
+        "其“桂”字谐音“贵”，又称富贵花，象征着吉祥繁荣、“有贵气”",
+        "滴上特调的东方香氛 ，扑面而来的，不止是花香，更是故宫秋日的富庶、江南春日的生机、以及那份穿越时空的吉祥祝福",
+        "便是源自故宫的 富 “桂” 树 。将宫廷的富贵气韵与桂花的吉祥寓意精美融合"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "自从知道了这些，再也不去理发店染发了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%87%AA%E4%BB%8E%E7%9F%A5%E9%81%93%E4%BA%86%E8%BF%99%E4%BA%9B%EF%BC%8C%E5%86%8D%E4%B9%9F%E4%B8%8D%E5%8E%BB%E7%90%86%E5%8F%91%E5%BA%97%E6%9F%93%E5%8F%91%E4%BA%86%EF%BC%81",
+      "published": "Mon, 16 Feb 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "Ch",
+        "nes",
+        "DIY",
+        "diy",
+        "p.s."
+      ],
+      "summary": "新年好呀！有多少朋友准备在过年期间折腾一下自己，比如染头！ 就算平时轻易不染发，这个时候也需要 来点花里胡哨的东西来迎接新的一年！ 不过比起动不动就容易翻车的烫发，我更喜欢时不时换换头发颜色。 换种发色≈换种心情 ，还能借机尝试一些不同的风格~ 有没有像我一样一年四季都想染头的 看腻了原生发色就总想来点新鲜感~ 😇 那些年我染过的红黄绿紫头 每次去理发店染发，很容易就因为Tony们一套套话术冲动下单： “贵一点的染膏不伤头皮/味道小/染完头发不干/不容易掉色……” 于是听着这些天花乱坠的描述就一口气买了最贵的，实际…",
+      "key_points": [
+        "还能借机尝试一些不同的风格~ 有没有像我一样一年四季都想染头的 看腻了原生发色就总想来点新鲜感~ 😇 那些年我染过的红黄绿紫头 每次去理发店染发，很容易就因为T…",
+        "去理发店染一次头的钱能买好几盒染发剂了 多色可选 省钱&amp;又省时",
+        "觉得自己过得太好了的各位 建议都去理发店被背刺一下 不漂色的自然棕色也要小1000 自己的染发订单截图 越来越贵不说，在店里染个头，就算不需要漂浅， 也至少要3…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Seedance2.0：开启高质量AI视频创作的新时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342613.html",
+      "published": "Mon, 16 Feb 2026 10:16:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance2.0",
+        "IP",
+        "AIGC",
+        "CC0",
+        "cinematic"
+      ],
+      "summary": "Seedance2.0的诞生重新定义了AI视频创作的边界。这款工具凭借角色一致性保持、多镜头智能规划和多模态素材解析三大突破，将视频制作从繁琐的技术流程中解放出来。它不仅解决了角色漂移、物理失真等行业痛点，更通过『导演式』控制界面让创作者重掌创意主导权，推动AI视频从玩具时代正式迈入生产力时代。 在当今的影视、短剧、漫剧市场中，技术的变革正以前所未有的速度推动着行业的发展。Seedance2.0的横空出世，就像一颗重磅炸弹，彻底打破了原本的AI视频创作的格局，为行业带来了全新的机遇和挑战。 在Seedance2.0…",
+      "key_points": [
+        "Seedance2.0的诞生重新定义了AI视频创作的边界。这款工具凭借角色一致性保持、多镜头智能规划和多模态素材解析三大突破，将视频制作从繁琐的技术流程中解放出…",
+        "更像是一个有趣的玩具，能产出一些惊艳的、充满想象力的片段，但当你想把它作为一种可靠的生产力工具时，它那不稳定的质量、不可控的过程和对物理世界的无知，足以让任何一…",
+        "这一切都变了。它就像突然出现的自动割麦机，让传统的手工劳作瞬间变得过时。《黑神话：悟空》制作人冯骥的那句“欢迎来到AIGC的青年时代”，宣告了AI视频创作从“玩…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代人的不可替代性：共度有限",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342553.html",
+      "published": "Mon, 16 Feb 2026 09:27:35 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GPT-4",
+        "GPT-5",
+        "CC0",
+        "Example",
+        "KK"
+      ],
+      "summary": "AI可以精准分析恐惧与焦虑的哲学区别，却永远无法体会黑暗中被吞噬的原始战栗；它能瞬间切换‘智慧长者’人设，却无法理解失败如何在血肉中刻出真实的性格年轮。本文通过童年恐惧、演讲失败、家族菜谱等生命切片，揭示人类体验中那些无法被算法复制的温度：肉体感知的恐惧、创伤转化的同理心、记忆传承的情感纽带，以及面对死亡时的存在抗争。 初始：原始生理的恐惧 我依然记得童年时对黑暗的恐惧。那不是一种理性的认知，而是一种纯粹的、生理性的战栗。当父母关上房门，光线被门缝挤压成最后一条金线，最终彻底熄灭时，整个世界仿佛都溶解在黑暗之中。房…",
+      "key_points": [
+        "挚爱的亲人离世。在最初的剧痛和麻木过后，我开始做一件看似毫无意义的事：给他写信。我明知道这些信永远不会被读到，地址栏上只能填上一个虚无的“天堂”。我写的不是什么…",
+        "像一把刻刀，在我当时尚且光滑的自信上，刻下了一道深邃的疤痕。它让我痛苦，让我羞于见人。但在之后的岁月里，这道疤痕却慢慢长成了我性格的一部分。我开始去理解和接纳这…",
+        "初始：原始生理的恐惧 我依然记得童年时对黑暗的恐惧。那不是一种理性的认知，而是一种纯粹的、生理性的战栗。当父母关上房门，光线被门缝挤压成最后一条金线，最终彻底熄…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DeepSeek 又改了\"常识\"：这次他们教 AI 像人一样\"看书\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342551.html",
+      "published": "Mon, 16 Feb 2026 08:11:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "token",
+        "DeepSeek",
+        "AI",
+        "CLIP",
+        "DeepSeek-OCR",
+        "https"
+      ],
+      "summary": "DeepSeek最新论文《DeepSeek-OCR 2: Visual Causal Flow》颠覆了OCR领域十年的CLIP统治，提出了一种全新的视觉因果流处理机制。该技术不仅将阅读顺序准确率提升了33%，更揭示了通向原生多模态的未来路径——让AI学会像人类一样‘跳读’文档。 我们读文档的时候，眼睛根本不是从左上扫到右下的。 我个人阅读文档的时候，先是快速扫了一下标题和作者，知道这是篇什么主题的论文。然后看摘要，抓主要结论。发现有张图表，就直接跳到图表看关键数据。最后才回到正文，按自己的逻辑顺序补充细节。 这个过…",
+      "key_points": [
+        "DeepSeek最新论文《DeepSeek-OCR 2: Visual Causal Flow》颠覆了OCR领域十年的CLIP统治，提出了一种全新的视觉因果流处…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么对AI说话，比对任何人都坦诚",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342359.html",
+      "published": "Mon, 16 Feb 2026 07:26:50 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GBCE",
+        "Background",
+        "CC0",
+        "ChatGPT",
+        "Constraint"
+      ],
+      "summary": "面对AI和人沟通时的双重标准，你是否也在经历同样的心理挣扎？这篇文章揭示了职场沟通背后的心理机制，提出了「坦诚度=信任度×退出成本⁻¹」的核心公式，并给出了一套提升人机沟通效率的GBCE法则。从心理学视角到实用方法论，带你突破职场沟通的心理障碍。 上周三下午的需求评审会，我被技术总监问了一个问题。 “这个数据指标的计算逻辑是什么？” 我愣了三秒。 那三秒里，我脑子转了八百圈：直接说不知道会不会显得太蠢？说”我再确认一下”会不会被追问？承认是我漏掉了会不会影响下个月的绩效评估？ 最后我说：”这个点我和数据团队再对齐一…",
+      "key_points": [
+        "因为坦诚只是敲门砖。效率还取决于另外两件事： 清晰度 ：你能不能把脑子里的想法说清楚 完整度 ：你有没有给AI足够的背景信息 三个变量是乘法关系—— 任何一个是…",
+        "公式二：沟通效率 = 坦诚度 × 清晰度 × 完整度 我发现一个奇怪的现象： 明明对AI可以完全坦诚了，为什么有的人效率极高，有的人来回十几轮还在原地转",
+        "两个核心公式 我想搞清楚一个问题：为什么对AI，我可以不演了"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当界面退场，目标直达：AI时代产品形态演化与产品经理的生存跃迁",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342571.html",
+      "published": "Mon, 16 Feb 2026 06:35:38 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Skill",
+        "PRD",
+        "skills",
+        "App",
+        "AR"
+      ],
+      "summary": "AI技术的狂飙正在重塑产品形态与产品经理的角色边界。从固定界面到无界面交互的跃迁中，Skill体系与智能体的崛起正在解构传统产品逻辑。本文将深度剖析产品经理如何从界面设计者蜕变为人类目标翻译官，在这场人机协作的革命中守住核心价值阵地。 在AI技术飞速迭代、技能（Skill）体系日益完善的今天，产品形态正经历一场颠覆性的变革——从固定化的网页界面，到灵活的工作流、智能体，再到未来“无界面”的目标驱动式交互。这场演化不仅重构了产品的呈现方式，更深刻改变了产品经理的核心价值与生存逻辑。结合一线实践思考，我们可以清晰窥见这…",
+      "key_points": [
+        "在AI技术飞速迭代、技能（Skill）体系日益完善的今天，产品形态正经历一场颠覆性的变革——从固定化的网页界面，到灵活的工作流、智能体，再到未来“无界面”的目标…",
+        "AI技术的狂飙正在重塑产品形态与产品经理的角色边界。从固定界面到无界面交互的跃迁中，Skill体系与智能体的崛起正在解构传统产品逻辑。本文将深度剖析产品经理如何…",
+        "二、产品形态演化：从固定界面到无界面的终极跃迁 下一代交互范式的核心与演化逻辑 ：界面正在从“固定的按钮和表单”，进化为“以目标为中心的自然语言交互”"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "关于马的冷知识，你知道几个？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%85%B3%E4%BA%8E%E9%A9%AC%E7%9A%84%E5%86%B7%E7%9F%A5%E8%AF%86%EF%BC%8C%E4%BD%A0%E7%9F%A5%E9%81%93%E5%87%A0%E4%B8%AA%EF%BC%9F",
+      "published": "Mon, 16 Feb 2026 09:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "zh",
+        "Carol",
+        "Jubei"
+      ],
+      "summary": "今年马年 但你未必真懂马 我们赞颂它的奔腾， 却很少真正凝视它。 在成为坐骑、战友与图腾之前， 马首先是一个独立而完整的宇宙—— 有温度，有语言， 有我们不曾在奔跑中看清的沉静与灵性。 这些关于马的冷知识， 足以颠覆你的认知 。 马可以站着睡觉 马可以锁住它的膝关节和肘关节，使其在站立时不需要再依赖肌肉的支持。 此时由于马的肌腱钩住了骨头的顶端，使马腿上的肌肉得到放松，从而可以进入浅度睡眠状态。当一群马在一起时，大部分马会躺下，同时会有一两匹马站着 “放哨”。 马站着睡觉 给马钉脚掌，马真的不疼吗？ 虽然马蹄相当于…",
+      "key_points": [
+        "马对咸味的喜好也较为明显，因为适量的盐分有助于维持它们的身体机能。在某些马场，为了满足马的口味需求，会在饲料中添加少量的盐，一般每100千克饲料中添加约100克…",
+        "其实相当于人的“中指” 若想领悟马的“中指神功”，先要了解哺乳动物三种主要运动方式： 1、跖（zhí）行式，行走时全脚掌着地，比如人和熊，优点是四平八稳，但提速…",
+        "马嘴和胡须 鼻纹是马的“身份证” 马的鼻纹跟人的指纹一样，每一匹都独一无二，没有任何两匹马可复制，因此可以被作为马的“身份证”"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "陀螺的成就，还是被低估了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%99%80%E8%9E%BA%E7%9A%84%E6%88%90%E5%B0%B1%EF%BC%8C%E8%BF%98%E6%98%AF%E8%A2%AB%E4%BD%8E%E4%BC%B0%E4%BA%86",
+      "published": "Mon, 16 Feb 2026 20:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DNA",
+        "BFI",
+        "hongmomgs",
+        "irisfilm",
+        "Leigh",
+        "qq.com"
+      ],
+      "summary": "作者：Leigh Singer 译者：覃天 校对：易二三 来源：BFI（2022年1月24日） 魔法与神话，众神与野兽。如果你对超自然或奇异的事物不感兴趣，那么你很可能会忽视导演吉尔莫·德尔·托罗的电影成就。 「墨西哥电影三剑客」——亚历杭德罗·冈萨雷斯·伊纳里图、阿方索·卡隆和吉尔莫·德尔·托罗帮助拓展了21世纪美国电影的国际视野。（2013年至2018年，三人五夺奥斯卡最佳导演奖。）「三剑客」中，托罗的电影似乎最有辨识度。 吉尔莫·德尔·托罗 在其最新的黑色电影《玉面情魔》之前，他一直专注于某些类型片——科幻片…",
+      "key_points": [
+        "你能感受到他对电影艺术本身和奇幻事物的热爱——詹姆斯·惠尔、让·科克托、卡洛·科洛迪以及霍华德·菲利普斯·洛夫克拉夫特等人的影子贯穿于托罗的电影中。毋庸置疑，不…",
+        "Leigh Singer 译者：覃天 校对：易二三 来源：BFI（2022年1月24日） 魔法与神话，众神与野兽。如果你对超自然或奇异的事物不感兴趣，那么你很可…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "看到春晚，就想起这个舞台上的女王",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%9C%8B%E5%88%B0%E6%98%A5%E6%99%9A%EF%BC%8C%E5%B0%B1%E6%83%B3%E8%B5%B7%E8%BF%99%E4%B8%AA%E8%88%9E%E5%8F%B0%E4%B8%8A%E7%9A%84%E5%A5%B3%E7%8E%8B",
+      "published": "Mon, 16 Feb 2026 20:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Go",
+        "Heart",
+        "hongmomgs",
+        "irisfilm",
+        "line",
+        "My"
+      ],
+      "summary": "文 黄小米 央视春晚的小品演员可以粗略分为两类，一类演的是戏，另一类演的是「春晚小品」。 前者的作品去掉除夕夜欢腾的舞台背景来看，还是精彩的喜剧段子，后者则时刻准备取悦全国观众，生怕包袱抖不响的压力从电视屏幕传递出来，可谓力透纸背，只有放在春晚的背景里才可以原谅他们的尴尬表演，毕竟下一个节目大概会好点（或更糟）。 不用说，只有前者的小品才成了经典，让老观众无论何时回顾都还是会发笑。 这些我们牢记在心的春晚小品语录里一定包括了赵丽蓉那「伦敦郊区」英语、「其实就是二锅头兑点白开水」，「你瞧你那吃哟，把骨头渣都嚼了，气得…",
+      "key_points": [
+        "赵丽蓉在台上的动作之自如显然也出自多年的舞台训练",
+        "《花为媒》里阮妈去说媒也旁若无人地盘腿往太师椅上一坐，让老爷太太都看傻了眼；春晚小品《打工奇遇》里，赵丽蓉和巩汉林聊得开了心，又「噌」地上桌盘了腿，把巩汉林的角…",
+        "前者的作品去掉除夕夜欢腾的舞台背景来看，还是精彩的喜剧段子，后者则时刻准备取悦全国观众，生怕包袱抖不响的压力从电视屏幕传递出来，可谓力透纸背，只有放在春晚的背景…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "祝你龙马精神",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%A5%9D%E4%BD%A0%E9%BE%99%E9%A9%AC%E7%B2%BE%E7%A5%9E",
+      "published": "Mon, 16 Feb 2026 11:38:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Bitsea",
+        "Midjourney"
+      ],
+      "summary": "今天是除夕，农历蛇年蜿蜒而去，万马奔腾前来。不到七点我就起身，打扫卫生，更换花水，把一张「福」字端端正正贴在门上。现在是上午十点半，我从窗子看出去，街道上空空荡荡，并没有几辆车驶过，北京平日，昼夜不停的汹涌时光在这一刻突然安静下来，整座城仿佛都在屏息静气等待着什么。 人们喜欢农历新年，对马年的期待又要特别一些。因为马喜欢奔跑，马热爱自由，一旦想到马，人们就情不自禁地振奋起来。怀着这样的心情进入新的一年，也许会感受到更多的活力和生机，会更加期待变化到来。就算是我这样的懒人，也破天荒贴了福字。虽然我认为福气完全取决于个…",
+      "key_points": [
+        "我在这里预祝你新春快乐，龙马精神！也祝你有一颗善良宽厚温柔的心，为你的龙马一跃而起提供坚实的支持和不绝的动力",
+        "题图标题： 《龙马精神 》 创作者： 和菜头的小肉手 AI算法提供： Midjourney V 7.0 槽边往事 和菜头 出品 【微信号】 Bitsea 个人转…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "《知识分子》给大家拜年了！策马新岁，并肩守望",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E3%80%8A%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90%E3%80%8B%E7%BB%99%E5%A4%A7%E5%AE%B6%E6%8B%9C%E5%B9%B4%E4%BA%86%EF%BC%81%E7%AD%96%E9%A9%AC%E6%96%B0%E5%B2%81%EF%BC%8C%E5%B9%B6%E8%82%A9%E5%AE%88%E6%9C%9B",
+      "published": "Tue, 17 Feb 2026 00:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "各位《知识分子》的读者： 新春快乐！ 回望 2025 ，这并不是一个轻松的年份。我们一起在动荡中感知世界的复杂，在不确定性中寻找稀缺的共识。如果说这一年教会了我们什么，那便是： 外界的噪音愈发嘈杂，内心的秩序就愈显珍贵。 古人说路遥知马力。在经历了一年的起伏与波动后，我们或许更能理解，支撑我们走下去的，并非瞬间的爆发，而是长久的理性与耐力。 在这个岁序更新的时刻，愿大家继续保持独立思考的韧性，在复杂的现实中，依然保有感知真相与美好的能力。 感谢过去一年的并肩而行； 2026， 愿你身体康健，灵魂丰盈。 文章原文",
+      "key_points": [
+        "各位《知识分子》的读者： 新春快乐",
+        "愿大家继续保持独立思考的韧性，在复杂的现实中，依然保有感知真相与美好的能力"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "还有高手？千问新模型压轴亮相",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E8%BF%98%E6%9C%89%E9%AB%98%E6%89%8B%EF%BC%9F%E5%8D%83%E9%97%AE%E6%96%B0%E6%A8%A1%E5%9E%8B%E5%8E%8B%E8%BD%B4%E4%BA%AE%E7%9B%B8",
+      "published": "Mon, 16 Feb 2026 19:05:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gemini",
+        "Pro",
+        "Qwen3.5",
+        "Qwen3.5-Plus",
+        "AI",
+        "Qwen"
+      ],
+      "summary": "说是放假，更胜上班，敢在大年初一之前，阿里终于把新一代大模型千问3.5给发了出来⋯⋯阿里出新模型是这样的，在开源阵营里基本上「发布即登顶」，要是哪次没有摘得榜一，那才是大新闻。真正的看点早就已经是Qwen系列模型在架构上还有怎样的突破，在所有开源大模型里，它是前沿含量最高的一个，没有之一，历次更新都在推翻和重建。这其实也正是开源的价值，不要为了开源而开源，所有的折腾不休，都为行业的整体进步提供养分。这次的Qwen3.5-Plus也不例外，3970亿的总参数，相比上一代旗舰模型Qwen3-Max的万亿参数不增反降，这…",
+      "key_points": [
+        "更胜上班，敢在大年初一之前，阿里终于把新一代大模型千问3.5给发了出来⋯⋯阿里出新模型是这样的，在开源阵营里基本上「发布即登顶」，要是哪次没有摘得榜一，那才是大…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "中国新一代企业正在全球开疆拓土",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E4%B8%AD%E5%9B%BD%E6%96%B0%E4%B8%80%E4%BB%A3%E4%BC%81%E4%B8%9A%E6%AD%A3%E5%9C%A8%E5%85%A8%E7%90%83%E5%BC%80%E7%96%86%E6%8B%93%E5%9C%9F",
+      "published": "Mon, 16 Feb 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EIU",
+        "AI",
+        "TikTok",
+        "asia",
+        "Beauty",
+        "Denis"
+      ],
+      "summary": "几年前，很难想象中国品牌能在美国市场取得巨大成功。如今，漫步纽约曼哈顿，你不仅能走进中国服饰品牌Urban Revivo占地2800平方米的门店，选购其风靡TikTok（字节跳动旗下短视频平台）的潮流服饰；还能在去年登陆纽约的瑞幸咖啡点一杯拿铁，或是光顾新近入驻的蜜雪冰城，买一支冰淇淋。 从发达国家到新兴市场，从传统制造到高新技术领域，中国企业海外布局正逐年深化。2023年，中国电动汽车制造商比亚迪销量首度超越美国巨头特斯拉，其海外销量占比从前一年的10%跃升至20%以上。中国人工智能模型也在加速走向世界，不仅在全…",
+      "key_points": [
+        "新一轮出海浪潮尤为引人注目。2024年，中国上市公司海外销售额达15万亿元人民币（约2.1万亿美元），较2021年的11.6万亿元显著增长（见图一）。当前中国对…",
+        "中国企业正逐渐调整全球化战略。过去多数企业倾向于将核心运营环节留在国内。数据显示，截至2024年，中国对外直接投资存量仅占GDP的17%（华盛顿智库国际金融研究…",
+        "安邦、复星、海航等大型企业集团曾进行大规模海外收购，涉足银行、酒店等领域，但随着国际监管趋严及自身债务压力显现，此类扩张逐渐放缓。同一时期，国有企业在海外的表现…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "不被定义，才是自由",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E4%B8%8D%E8%A2%AB%E5%AE%9A%E4%B9%89%EF%BC%8C%E6%89%8D%E6%98%AF%E8%87%AA%E7%94%B1",
+      "published": "Mon, 16 Feb 2026 23:33:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "http",
+        "Nk5RhHpFkr",
+        "www.jintiankansha.me"
+      ],
+      "summary": "以前写过两篇关于财务自由的文章，这不又好几年过去了，总看到有读者提及财务自由的标准，闲着也闲着，忍不住再水一篇吧。 似乎总有人喜欢定义所谓的财务自由，你需要多少资产，然后住多大的房子，开多少钱的车，甚至每年要去什么地方度假，才叫财务自由。很多人也热衷于转发这样的文章或者图片，似乎他们所追求的美好人生，也需要别人先定义清楚。 我以前说过，很多国人似乎一直在追求一种所谓的确定性，连财务自由都必须是被定义好的，才会觉得安心。但被定义的还是自由么？在我眼里，不过是精致牢笼里的漂亮鸟罢了，为了让人羡慕一下而疯狂的展示自己。…",
+      "key_points": [
+        "很多国人似乎一直在追求一种所谓的确定性，连财务自由都必须是被定义好的，才会觉得安心。但被定义的还是自由么？在我眼里，不过是精致牢笼里的漂亮鸟罢了，为了让人羡慕一…",
+        "很多所谓的有钱人，大老板，根本不自由，就如同我前面的比喻，不过是昂贵鸟笼里的精致吉祥物。我很多年前讲过一句话，当时有些读者不理解，我说王健林是不自由的，王思聪是…",
+        "没有谁是绝对自由的，这个世界并不存在绝对的自由，因为物理法则，因为科技的制约，因为法律，以及社会秩序，都会制约，这是往大了说；往小了说，每个人也都必须承担一定的…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "用 AI 辅助读书",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/02/ai_reading.html",
+      "published": "2026-02-16T05:48:48Z",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Arcana",
+        "Res",
+        "Duo",
+        "Dark",
+        "Gemini"
+      ],
+      "summary": "最近一年闲下来，我重新挖掘了读书的乐趣，尤其是读小说。 读小说真的需要时间和心境，因为进入心流状态更慢。如果长时间无法进入状态，很容易就读不下去；但一旦读进去了，比玩游戏（互动形式）或看影视剧（多媒体形式）更让人沉浸和回味。你可以对精彩处反复斟酌体会其中的情感，也更容易停下来脑补作者在情节上的留白。阅读节奏完全由自己控制，可快可慢。鉴于制作成本，小说的多样性远超其它媒介，提供的选择就更为宽泛。 我最近尝试使用 AI 来提升我的阅读体验。首先发现的是 AI 非常适合荐书。我使用的主要是 Gemini ，免费的版本就足…",
+      "key_points": [
+        "我重新挖掘了读书的乐趣，尤其是读小说"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-17",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "小红书的年度诗篇，刷屏了好几天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%9A%84%E5%B9%B4%E5%BA%A6%E8%AF%97%E7%AF%87%EF%BC%8C%E5%88%B7%E5%B1%8F%E4%BA%86%E5%A5%BD%E5%87%A0%E5%A4%A9",
+      "published": "Fri, 13 Feb 2026 18:21:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "bug",
+        "AGI-Next",
+        "App",
+        "FOMO",
+        "get"
+      ],
+      "summary": "小红书的年度诗篇，刷屏了好几天。 玩法就是小红书自动结合你的搜索记录，生成一首全网独一无二的现代诗，帮你总结这一年的经历与成长。 乍看之下很像造句考试，把关键词串起来形成有效文本，但很多人——尤其是当事人自己——会觉得吐出来的诗篇很特别。 特别有温度，特别有个性，特别的⋯⋯懂自己。 我倒不认为这是AI立大功，首先可能还是因为当代年轻人的孤独存在，想不到一年到头，最关心他/她的，竟然是算法。 是小红书记住了连自己都忽略了的细小需求和情绪，然后定制了一首只有你才get到的小诗，这是何等的可爱。 我又想到清华大学举办的那…",
+      "key_points": [
+        "血肉尚未模糊的诗人也在吟唱：「姐姐，今夜我不关心人类，我只想你。」 #小红书年度诗篇 文章原文",
+        "是小红书记住了连自己都忽略了的细小需求和情绪，然后定制了一首只有你才get到的小诗，这是何等的可爱",
+        "既为那些强大的新模型扎堆大部感到兴奋，也从AI给自己写的一首诗篇里感知意义，这才是真实的生活"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "策引2025 实盘大考：当算法跑赢人性",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/money/myinvestpilot/2025_review/",
+      "published": "Thu, 27 Nov 2025 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "myInvestPilot"
+      ],
+      "summary": "2025 年，面对 A 股硬科技爆发与加密币机构消化期的冰火两重天，策引（myInvestPilot）的 24 个官方策略交出了怎样的答卷？本文深度复盘了双均线策略如何捕捉 +38.75% 的 A 股主升浪，动量策略为何提前满仓黄金，以及我们在加密币寒冬中的诚实反思。拒绝黑盒，不预测市场，只应对波动——这是一份关于算法、纪律与长期主义的实盘大考报告。",
+      "key_points": [
+        "面对 A 股硬科技爆发与加密币机构消化期的冰火两重天，策引（myInvestPilot）的 24 个官方策略交出了怎样的答卷？本文深度复盘了双均线策略如何捕捉…"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "AI 代码审查再进化：AutoDev 多智能体协作架构深度解析",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/autodev-multi-agents-code-review/",
+      "published": "Wed, 26 Nov 2025 09:19:56 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AutoDev",
+        "Code",
+        "Review"
+      ],
+      "summary": "在现代软件开发中，代码审查（Code Review）早已成为质量保障和团队协作的核心流程。但在实际工程环境里，审查往往陷入",
+      "key_points": [
+        "代码审查（Code Review）早已成为质量保障和团队协作的核心流程。但在实际工程环境里，审查往往陷入"
+      ]
+    }
+  ]
+}
