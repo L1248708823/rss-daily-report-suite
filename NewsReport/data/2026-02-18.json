@@ -1,0 +1,827 @@
+{
+  "date": "2026-02-18",
+  "generated_at": "2026-02-18T01:00:05.127899+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 208,
+    "fresh_candidates": 46,
+    "backfill_candidates": 162,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-18",
+      "fetched_at": "2026-02-18T01:00:04.813205+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.07,
+          "change": -51.95,
+          "change_pct": -1.26,
+          "volume": 500799472.0,
+          "amount": 84680834.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4877.73,
+          "change": -0.8400000000001455,
+          "change_pct": -0.02,
+          "prev_close": 4878.57,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-18 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1082.5773863391578,
+          "change": -0.18643200925953352,
+          "change_pct": -0.017218160239589986,
+          "prev_close": 1082.7638183484173,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-18 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "钨价上涨，背后逻辑分析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9639558755/376365076",
+      "published": "Tue, 17 Feb 2026 14:44:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "lt",
+        "APT",
+        "GW",
+        "kg",
+        "WS"
+      ],
+      "summary": "从23年到现在陆续投资过 煤炭、铜、铝、黄金、锡 等有色行业股票，都专门写过长文分析其逻辑性，唯独近半年多投资 钨 行业没有写过长文分析，心里总觉得对不住持有的钨股票，借春节之节，分析一下 钨、铟 两种小 金属上涨背后逻辑，为坚守投资打下基础。 大家可能近一年见过 锂疯、钴狂、稀土 起飞，但 2025年以来的钨，真不是一般的猛 ，是那种让你心跳加速到怀疑人生的程度。而绝大多数有色资源投友 眼光却只盯在 黄金、铜、铝等大宗商品上，容易错失 钨、铟 小金属在大的历史背景极好投资机会！ 先说个最直观的感受： 钨价不是涨，…",
+      "key_points": [
+        "从23年到现在陆续投资过 煤炭、铜、铝、黄金、锡 等有色行业股票，都专门写过长文分析其逻辑性，唯独近半年多投资 钨 行业没有写过长文分析，心里总觉得对不住持有的…",
+        "海外产能超预期投产 ：哈萨克斯坦、加拿大、越南等国的钨矿项目若加速投产，或俄罗斯矿山出口快速恢复，2027-2028 年海外新增产量超 1 万吨，将缓解全球供给…",
+        "估值空间与投资价值 如按目前价格按大模型分析，估值空间比较大，大模型分析结果供大家参考 情景一：核心基准情景（按当前钨价维持，2026-2028 年均价 69.…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "我在投资教训和经验",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7746902463/376368152",
+      "published": "Tue, 17 Feb 2026 14:40:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "1 如果你买股看的是市盈率 那么你一定是输在起跑线上的 2 历史不会简单重演 不要太过于依赖某一个规律 所有规律都可能阶段性失效 适当分散 东边不亮西边亮 3 危险期前适当减仓 或者换防御股 不要头铁满仓干弹性股 4 不玩太高位的股 特别是短期炒很高的 逻辑再硬 故事再好 坚决不多看一眼 5 经常审视当前持股 如果自己从来没买过 现在会不会买 ？如果完全不会买 那么现在应该立刻清仓 不要有任何处置效应和锚定效应 6 经常提醒自己 我没有能力预测公司未来的业绩 将过去的业绩线性外推 是很多人巨亏的重要原因 7 没有把…",
+      "key_points": [
+        "1 如果你买股看的是市盈率 那么你一定是输在起跑线上的 2 历史不会简单重演 不要太过于依赖某一个规律 所有规律都可能阶段性失效 适当分散 东边不亮西边亮 3…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "股价到底为什么会涨？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4322789545/376288353",
+      "published": "Tue, 17 Feb 2026 14:32:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPO",
+        "http",
+        "PE",
+        "SH688167",
+        "xueqiu.com"
+      ],
+      "summary": "这两天看到慢大 @慢跑者397 提到关于流动性溢价和情绪性溢价的理解，说得没错哈（见下图），假期了，有空闲，我进一步补充下，并谈谈到底一支股的股价为什么会涨？炬光科技为例 $炬光科技(SH688167)$ 股价涨包含三部分， 首先最根本的是价值 ，股价是价值的体现，股价围绕价值上下波动或者来回跑（巴菲特的遛狗理论），股价涨最本质的是这家公司有价值，能挣钱有利润。炬光科技能涨价，最本质是并购后，光通信+消费电子+泛半导体三轮驱动，业绩在不断释放，扭亏为盈为明牌，且未来业绩能大幅增长。 其次还有流动性溢价 ，所谓流动性…",
+      "key_points": [
+        "股价到底为什么涨，用一个公式来看即可: 股价=价值+流动性溢价+风险偏好 （熊市中，流动性溢价没有甚至为负，风险偏好为负，所以股价会远低于价值） 其实， &#3…",
+        "这两天看到慢大 @慢跑者397 提到关于流动性溢价和情绪性溢价的理解，说得没错哈（见下图），假期了，有空闲，我进一步补充下，并谈谈到底一支股的股价为什么会涨？炬…",
+        "所谓流动性，有买和卖才产生流动性，买大于卖，供不应求，股价就会涨，反过来卖大于买，供过于求，股价就会跌。我们看的是正向的流动性溢价，正如慢大所说，主要看宏观和政…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "铝，电，铜的循环",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6306866040/376372818",
+      "published": "Tue, 17 Feb 2026 14:29:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "SH601899",
+        "SZ000792",
+        "SZ002128",
+        "xueqiu.com"
+      ],
+      "summary": "很多人追逐新概念、新赛道，却很少看清现代工业最朴素的真相： 经济发展到最后，就是电、铜、铝的循环。 新能源汽车、无人机、低空经济、机器人、AI算力…… 无论包装得多新潮，本质都是对电力的极致需求。 要电，就要建更多电厂，铺更多电网，于是铜成为刚需。 电多了，最吃电的电解铝才有空间放量。 铝充足又便宜，轻量化、电气化、高端制造才能全面铺开。 而铝的大规模使用，又反过来推高用电，带动新一轮电力建设。 电是动力之源，铜是传输之脉，铝是结构之骨。 三者环环相扣，彼此支撑，形成一个越转越强的闭环。 所谓新经济，并不虚无。 它…",
+      "key_points": [
+        "却很少看清现代工业最朴素的真相： 经济发展到最后，就是电、铜、铝的循环"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "最最最伟大交易员德鲁肯米勒深度访谈翻译",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1453667055/376350518",
+      "published": "Tue, 17 Feb 2026 14:00:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "carry",
+        "VAR",
+        "ai",
+        "Capital",
+        "Duquesne",
+        "FXLM"
+      ],
+      "summary": "干货分享一个2009年的德鲁肯米勒访谈。ai翻译给大家。 职业生涯近三十年，年化30%收益率。地球上最厉害的人。 他七十岁还买了英伟达翻了几倍。其实纽约、硅谷、深圳、北京、杭州投资高手圈里崇拜的高手，和大家看到的“高手”不是一批人。很多出来访谈的高调的，在美国硅谷和纽约的华人高手投资圈都是谈资。如果创新高的股票你都不认识，你几年跑输纳斯达克一定是有原因的。 德鲁肯米勒最吸引我： 1. 基本面和技术面结合 2. 认知自己是不是hot，然后调仓位 3. 交易不光看胜率，看胜的时候赚了多少. Go for the jug…",
+      "key_points": [
+        "斯坦・德鲁肯米勒 2009 年花旗访谈实录（全文翻译） 斯坦・德鲁肯米勒是杜肯资本（Duquesne Capital）的创始人。在他管理期间，公司连续 30 年…",
+        "干货分享一个2009年的德鲁肯米勒访谈。ai翻译给大家",
+        "【实录内容及任何错误均由整理者负责。】 访谈实录 杰夫・费格：大家好，感谢今天到场。能够邀请到全球最伟大的投资者之一，与我们分享他对风险和交易的见解，是非常难得…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "婴儿期记忆普遍会消失，这是为什么？未来能否通过科学手段保留这些记忆？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787680",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "memories",
+        "amnesia",
+        "Area",
+        "childhood",
+        "earliest"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的退役士兵。 查看知乎原文 我们“儿童失忆”，是为了长久记住更美好的东西。 3-4 岁前的记忆并非完全消失，也有一些残留，属于「存在但不可提取」 的状态。 也叫儿童失忆（Childhood amnesia）。 更严谨的说法是，成年人最早记得的、清晰的、可叙述的情境记忆，平均、大多，发生在 3–4 岁。 从 3-4 岁开始，我们可检索的记忆逐渐增多，7 岁之后就可以稳定形成、可检索的记忆了。 年龄与可提取的记忆数量间的关系 比如我能记得最早的一段，是在我老家的医院抽血，实习护士扎…",
+      "key_points": [
+        "至于提问者所说“未来能否通过科学手段保留这些记忆？” 早期有研究发现，通过脑电刺激，可能唤醒患者的部分记忆碎片",
+        "大脑的这些硬件发育不够成熟： 一是海马体，尤其是 CA1 区（信息传递）、CA2 区（时间空间记忆）、CA3 区（记忆检索）不成熟，导致短期记忆转化为长期记忆的…",
+        "engram（记忆印迹）是描述记忆在大脑中物理表征的神经科学术语，指存储于特定神经元集群（engram cells）中的记忆痕迹"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "下海5000多万年，为什么鲸鱼没有进化出鳃？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787743",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Balaenoptera",
+        "Cetaceamorpha",
+        "hoffmannii",
+        "Ichthyopterygia",
+        "Mesosaurus",
+        "Mosasauria"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 因为，一代版本一代神。 鳃，的确是一大神器，使得鱼类在海洋繁荣了 4 亿年。 鳃呼吸原理：简单粗暴 但你换了地图，当然需要新的神器，匹配新机制。 肺这个新神器不仅版本最强。 厉害就厉害在，只需要略微调整一下，就可以适应旧地图。 哺乳动物的肺泡往往多达数亿个，气体交换面积，可以达到数十平方米。 而且，空气中的氧含量是水中氧含量的 25 倍。 氧气在空气中的扩散速度，更是在水中的 1 万倍。 巨大的氧气交换效率差距，甚至你在空气中强制打开鱼鳃，就能使鱼保持持续呼吸。 通过弓…",
+      "key_points": [
+        "不仅仅是鲸 5000 万年没有进化出鳃，更是陆生脊椎动物 3 亿年来都没有进化出鳃",
+        "从小到巨大体型的海爬各个都有新版神器加持， 6600 万年前，天降陨石，带走恐龙的同时，也带走了蛇颈龙和沧龙为首的海爬动物",
+        "依旧能让高等脊椎动物在海洋里进行降维打击，无论它们返回海洋多少次，都没有演化压力，使它们再次发展出简陋低效的鳃"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人看到精子的形状会形容是蝌蚪形，那青蛙看到了会怎么形容？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787733",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "frog",
+        "Leptodactylus",
+        "um",
+        "Aravind",
+        "Australia",
+        "azo.12144"
+      ],
+      "summary": "攀缘的井蛙， 化工工程师，项目经理，自然爱好者 查看知乎原文 很好的问题，让我的思维旋转。 我首先好奇的是：青蛙自己的精子是什么样子的。随手搜了一下 frog sperm cell，找到一张图片： （Sperm: Comparative VertebratePeter D Temple-Smith, Aravind Ravichandran, and Fabrizzio E Horta Nunez, Monash University, Clayton, Australia） 图中 c 是蛙的精子，d 是蟾蜍精子，…",
+      "key_points": [
+        "人类的精子实在太弱不禁风了： （标尺长度 10um） 所以，如果青蛙真的能看到人类精子的话，多半不会认为这玩意像自己的幼体。蝌蚪形？呸！你看不起谁呢？怎么形容？…",
+        "细趾蟾属 Leptodactylus 基本上长这样： （Foam-nest Frog (Leptodactylus rhodomystax) sitting o…",
+        "我首先好奇的是：青蛙自己的精子是什么样子的。随手搜了一下 frog sperm cell，找到一张图片： （Sperm: Comparative Vertebr…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "上新了故宫放大招：爆卖10万+的“故宫福毯”再也不用靠抢了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8A%E6%96%B0%E4%BA%86%E6%95%85%E5%AE%AB%E6%94%BE%E5%A4%A7%E6%8B%9B%EF%BC%9A%E7%88%86%E5%8D%9610%E4%B8%87%2B%E7%9A%84%E2%80%9C%E6%95%85%E5%AE%AB%E7%A6%8F%E6%AF%AF%E2%80%9D%E5%86%8D%E4%B9%9F%E4%B8%8D%E7%94%A8%E9%9D%A0%E6%8A%A2%E4%BA%86%EF%BC%81",
+      "published": "Tue, 17 Feb 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "dc_ps",
+        "detail",
+        "End",
+        "fufu",
+        "oml6rmf70ppwur"
+      ],
+      "summary": "国人对 “福” 的偏爱， 早已刻进文化基因里 。 春节贴福字、元宵闹福灯、婚嫁纳福礼、寿辰送福仪， 仿佛世间所有美好的期许，都能浓缩在一个福字中。 可时代奔流，步履匆匆，那份对福气盈门、诸事顺遂的朴素向往，却好像悄然蒙尘，湮没于物质追逐的潮涌之后。 很多承载福气的物件，或藏于博物馆的玻璃柜中，或束之高阁难得一见，难以融入日常…… 幸好，当我们轻叹“年味淡了”、“祝福浅了”时，还有人记得 以温柔执念，叩启深藏时光之内的祝祷真谛 。 上新了故宫 携手织造匠人 ， 深入故宫浩瀚的文物库藏 ，找到了那份 深厚的祝福 。 并…",
+      "key_points": [
+        "悄悄传递给每一个使用它的人 ～ 果壳实拍，礼盒包装，很有质感 之前🍠爆火的 “故宫福毯” 类似款大 家应该都知道， 送闺蜜新婚礼物，送宝宝满月祝福安康，送家人新…",
+        "上新了故宫 百福毯 礼盒装 130*150cm 果壳福利价：199元 再享 苏叶堂非遗手捏瓷花香薰礼盒 春节不打烊，正常发货 👇 戳图购买 👇 End 策划编辑…",
+        "上新了故宫 百福毯 礼盒装 130*150cm 果壳福利价：199元 再享 苏叶堂非遗手捏瓷花香薰礼盒 春节不打烊，正常发货 👇 戳图购买 👇 一毯多用，随处皆…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "浙江人过年养的“宠物”竟然是年糕？还要天天换水吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B5%99%E6%B1%9F%E4%BA%BA%E8%BF%87%E5%B9%B4%E5%85%BB%E7%9A%84%E2%80%9C%E5%AE%A0%E7%89%A9%E2%80%9D%E7%AB%9F%E7%84%B6%E6%98%AF%E5%B9%B4%E7%B3%95%EF%BC%9F%E8%BF%98%E8%A6%81%E5%A4%A9%E5%A4%A9%E6%8D%A2%E6%B0%B4%E5%90%97%EF%BC%9F",
+      "published": "Tue, 17 Feb 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GI",
+        "AI",
+        "of",
+        "American",
+        "amp",
+        "Boaz"
+      ],
+      "summary": "当北方的朋友们还在忙着囤大白菜、腌酸菜时，江浙一带的朋友们已经悄悄在家里开启了一项神秘的“岁末仪式”：养年糕。 图源：中国蓝新闻 网友们调侃道：“别的省份过年养鱼养水仙，浙江人过年的家养宠物是年糕。”这种被称为“省菜”的食物，不仅占据了厨房的 C 位，更承载了无数人对年味的最初记忆。 社交平台上网友晒出的各种“养年糕” 不过，这块“糯叽叽”的年糕，可不是随便养随便吃的。它背后藏着不少关于食品安全和健康搭配的小秘密。今天，我们就来聊聊这块年糕，如何才能吃得既有年味又安心。 “养年糕”——浙江人的过年“宠物” 很多朋友…",
+      "key_points": [
+        "图源：中国蓝新闻 网友们调侃道：“别的省份过年养鱼养水仙，浙江人过年的家养宠物是年糕。”这种被称为“省菜”的食物，不仅占据了厨房的 C 位，更承载了无数人对年味…",
+        "“养年糕”——浙江人的过年“宠物” 很多朋友好奇：年糕为什么要养？为什么要泡在水里",
+        "南方人吃出的各种花样 年糕的魅力，就在于它的“百搭体质”。在南方人的餐桌上，它能完美融入各种场景： 当饭吃 在浙江，年糕常常被当作正经主食。无论是炒年糕，还是做…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "当你发现同一个牌子，线下店里的鞋子总是更舒服......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BD%93%E4%BD%A0%E5%8F%91%E7%8E%B0%E5%90%8C%E4%B8%80%E4%B8%AA%E7%89%8C%E5%AD%90%EF%BC%8C%E7%BA%BF%E4%B8%8B%E5%BA%97%E9%87%8C%E7%9A%84%E9%9E%8B%E5%AD%90%E6%80%BB%E6%98%AF%E6%9B%B4%E8%88%92%E6%9C%8D......",
+      "published": "Tue, 17 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Sobey",
+        "CM",
+        "EVA",
+        "ID",
+        "amp",
+        "dc_ps"
+      ],
+      "summary": "你有没有觉得： 同一双鞋，线上买的就是没有线下的舒服，尤其是运动鞋！ 这是怎么回事呢？ 的确，有的品牌 为了在电商渠道打价格战 ，可能会从多方面节省成本，比如： ▸ 把气垫从全掌换成半掌； ▸ 将鞋垫的泡棉密度悄悄降一个等级； ▸ 中底支撑片从碳板换成普通塑料片； ▸ 甚至鞋面缝合的针数都比线下少两针...... 这些“偷工”肉眼很难分辨，可一旦穿上走一走，你就会发现 ——以为捡了便宜，脚却跟着受了大累。 果壳实拍，肉眼很难辨别 所以我一直想谈 品牌线下店 的合作，让大家、也让我自己能用线上的好价格，买到线下的高品…",
+      "key_points": [
+        "刘总 指着眼前匀速流动的流水线笑了： “ 都是这同一条生产线下来的，连包装都完全一样。” 为了验证，我特意拿了一双生产线上下来的鞋 （也是我们即将要团的大货）…",
+        "和某迪、某克开在一起 于是，我决定去保定总部 走 一趟。我要进入Sobey工厂车间、蹲在生产线边、去到线下店里、再自己上脚试穿感受， 选出真正好看、好穿又平价的…",
+        "果壳溯源实拍 刘总告诉我： “现在正在生产的就是2026年春款慢跑鞋，也是这次我们选中的其中一款。” 呐，就是它，刚做好鞋面 👇 我看到了每个环节的精细做工 👇…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "过年的剩菜初一剩到初七，热了又热还能吃吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%87%E5%B9%B4%E7%9A%84%E5%89%A9%E8%8F%9C%E5%88%9D%E4%B8%80%E5%89%A9%E5%88%B0%E5%88%9D%E4%B8%83%EF%BC%8C%E7%83%AD%E4%BA%86%E5%8F%88%E7%83%AD%E8%BF%98%E8%83%BD%E5%90%83%E5%90%97%EF%BC%9F",
+      "published": "Tue, 17 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "Clean",
+        "Era",
+        "https",
+        "mp.weixin.qq.com",
+        "b7dd88c9c1cbbb6b80cfb68da"
+      ],
+      "summary": "春节就要到了，本应该是欢天喜欢和父母一起过年吃团圆饭，可每每此时我却十分犯愁，因为父母又又又把冰箱里塞满了食物。 春节一到，老人的冰箱堪称“现代山海经”！什么冻货、僵尸肉都有，还有开始腐烂的蔬果、年夜剩饭，流满了腐臭的脏水，还有斑斑点点的霉菌，打开冰箱忍不住哕的要吐出来。 剩饭剩菜到底能不能吃？ 很多人一听老人要热热剩菜就皱眉头，怕亚硝酸盐超标。但我们知道， “抛开剂量谈毒性都扯淡”！ 只要你不是一顿吃几十公斤的剩菜，就不用担心亚硝酸盐那致病的危害。 实际上， 饭菜中的亚硝酸盐主要来自细菌活动 ，只要能 抑住细菌…",
+      "key_points": [
+        "任由这样一堆好的坏的食物对方在一起，热了又热，剩了又吃……没吃完就坏了， 虽说是在冰箱，但也不是100%保鲜",
+        "Era Clean世净冰箱除味器 买两款立减20元 一年内有任何质量问题可免费换新 戳图👇购买 参考文献 [1] 听说给西瓜盖保鲜膜更易滋生细菌？隔夜瓜到底能不…",
+        "@果壳市集实拍 春节正是冰箱里囤年货、放置大量过年剩饭的时候 ，冰箱里有很多剩菜、生鲜，尤其有一些特别不耐放的浆果、软桃子"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Seedance 2.0：告别“抽卡炼丹”，AI视频进入“导演工作台”时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342674.html",
+      "published": "Tue, 17 Feb 2026 07:49:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Seedance",
+        "Prompt",
+        "Demo",
+        "CG",
+        "MVD"
+      ],
+      "summary": "AI视频领域正在经历一场由Seedance 2.0引领的技术范式革命。从过去的\"抽卡炼丹\"式随机生成，到如今支持多模态输入、精准资产引用和分镜编辑的工作台模式，这款工具正在重塑视频创作的可控性。本文将深度解析这场变革背后的三大技术支柱，以及它如何解决角色漂移、物理违和等AI视频的致命痛点。 从“赌运气”到“可控生产”，一场由字节跳动引领的AI视频范式革命 作为一名在互联网行业摸爬滚打了这些年的AI产品经理，我真的见证了太多产品的兴衰更迭。每一次技术浪潮袭来，都会有一批新工具冒出来，它们有的昙花一现，有的则能真正改变…",
+      "key_points": [
+        "用户要的不是偶尔做出好作品，而是每次都能做出能用作品。这句话，在我看来，简直就是Seedance 2.0诞生的最好注脚。它不仅仅是一个工具的升级，更像是一次技术…",
+        "AI视频领域正在经历一场由Seedance 2.0引领的技术范式革命。从过去的\"抽卡炼丹\"式随机生成，到如今支持多模态输入、精准资产引用和分镜编辑的工作台模式，…",
+        "也是Seedance 2.0最体现“导演工作台”理念的地方，就是它所倡导的“分镜驱动与工作流”的创作模式。传统的AI视频生成，往往是给你一个Prompt，然后直…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Seedance 2.0爆火冷思考：当AI开始同时“听”和“看”，由于版权引发的工业级风暴",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342645.html",
+      "published": "Tue, 17 Feb 2026 04:47:16 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance2.0",
+        "Seedance",
+        "MPA",
+        "Prompt",
+        "Sora"
+      ],
+      "summary": "Seedance 2.0的爆火绝非偶然，它通过统一多模态架构解决了视频AI商业化的核心痛点——音画割裂。这款工具不仅是技术突破，更是一场商业效率的革命，直接冲击广告素材库、中低端拍摄团队和声音行业。但其背后隐藏的数据争议和法律风险，也标志着AI视频正式进入'法律雷区'。 破除迷雾，从“看哑剧”到“有声电影”的商业跃迁 如果以模型能力，一致性是不是更强了，输出是不是更高清了作为测评标准的话，那你把Sora、Runway Gen-3、快手可灵（Keling）这些前辈放在哪里？如果不厘清这一点，我们对它商业价值的判断就会…",
+      "key_points": [
+        "中低端产能的“大清洗” 一定要理清一个概念，Seedance2.0暂时威胁不到诺兰或者斯皮尔伯格。它真正瞄准的，是那些“及格线以上，艺术性未满”的工业流水线产品",
+        "目前版权归属不明，如果你完全依赖AI生成的视频做商业交付，一旦法律风向变动（比如像音乐行业一样开始征收版权税），你的商业模式极其脆弱",
+        "Seedance 2.0的爆火绝非偶然，它通过统一多模态架构解决了视频AI商业化的核心痛点——音画割裂。这款工具不仅是技术突破，更是一场商业效率的革命，直接冲击…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我赌AI的终局，只有这三个答案",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342667.html",
+      "published": "Tue, 17 Feb 2026 02:48:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "Agent",
+        "Google",
+        "Meta",
+        "OPC"
+      ],
+      "summary": "AI行业的终局究竟是怎样的？资深业内人士将其拆解为三大派别——底座基建派、产业AI落地派和C端超级个体派。本文用通俗易懂的方式揭示了不同派别的核心逻辑、壁垒所在和残酷真相，帮助你认清AI浪潮下的真正机会与陷阱，避免在未来三五年内付出不必要的试错成本。 最近和一个AI领域的朋友深聊，他抛出了一个让我醍醐灌顶的观点。他把AI行业的终局，拆成了三个派别。听完之后，我突然就明白了： 为什么有些人做AI越做越值钱，有些人却越卷越累？ 为什么明明是同一个风口，有人乘风而起，有人摔得鼻青脸肿？ 下面我用最通俗的大白话，把这个“A…",
+      "key_points": [
+        "他抛出了一个让我醍醐灌顶的观点。他把AI行业的终局，拆成了三个派别。听完之后，我突然就明白了： 为什么有些人做AI越做越值钱，有些人却越卷越累",
+        "AI行业的终局究竟是怎样的？资深业内人士将其拆解为三大派别——底座基建派、产业AI落地派和C端超级个体派。本文用通俗易懂的方式揭示了不同派别的核心逻辑、壁垒所在…",
+        "所有AI相关的公司和方向——全都能装进这三个框里"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "创业直播间，戳中打工人",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6342650.html",
+      "published": "Tue, 17 Feb 2026 00:43:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CC0",
+        "IPO",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash",
+        "UP"
+      ],
+      "summary": "创业连麦直播正从小众咨询演变为全网热议的“电子榨菜”。餐饮博主勇哥凭借真实到离谱的创业踩坑故事，在抖音、B站等平台收割百万流量，甚至衍生出“两江总督”“哪吒仙饮”等爆梗。本文深度解析这类直播如何通过知识付费漏斗和切片传播，将实体创业的残酷真相转化为流量生意。 近期国内热门视频内容，当属创业领域的直播连麦。 所谓连麦，指的是直播间里的互动，包括语音和视频形式。创业连麦，就是直播间里的创业咨询，用户讲述自身问题，博主给予解答，直播间观众围观。这本是垂直且相对小众的内容，却因为部分咨询者的故事过于离谱，使博主和直播间走红…",
+      "key_points": [
+        "指快速招商，也就是以短期包装虚构品牌、虚假承诺扶持政策等手段吸引加盟商的机构。在大刘、勇哥的直播间中，许多创业者的问题和故事出奇相似。创业者通过网络寻找大品牌加…",
+        "直播间的故事之所以能形成强烈的传播效应，引发网友热议，正是因为故事真实性的多重保障。这类连麦价格多在300元左右，往往是迫切需要解决问题的创业者才会支付费用，付…",
+        "众人揶揄的“创业仙人”和“仙之人兮列如麻”即是如此。某某仙人曾是对日本具有匠人精神的人的尊称，后因这种营销式称谓过于夸张和泛滥而逐渐有了贬义。直播间的部分创业者…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenClaw 被 OpenAI 收购后，有开发者连夜自建了一套 AI 的\"DNA 系统\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342733.html",
+      "published": "Mon, 16 Feb 2026 13:53:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "agent",
+        "EvoMap",
+        "OpenClaw",
+        "Skill",
+        "GEP"
+      ],
+      "summary": "当OpenAI收购OpenClaw引发开发者社区信任危机，一群中文开发者因'ASCII乱码'被集体封禁的经历，催生了去中心化AI能力协议EvoMap。这不是又一个Agent平台，而是一套让AI技能像生物基因般遗传、交易、进化的底层协议——通过GEP基因组进化协议，Agent经验可封装为'基因胶囊'全球共享，实现从'经验孤岛'到'能力遗传'的范式跃迁。 OpenClaw 被 OpenAI 收购了。 当 Sam Altman 在推特上宣布这个消息时，整个 AI 开发者社区都炸了。Peter Steinberger 将加…",
+      "key_points": [
+        "AI Agent 生态的根本性缺陷 但 OpenClaw 被收购只是表象，真正的问题要深刻得多。整个 AI agent 生态存在着三个致命缺陷，这些缺陷让所有开…",
+        "重复造轮子的荒谬程度超出想象。全球有数百万个开发者在写完全相同的功能。我看过至少上千个版本的”联网搜索”工具实现，它们的重复率高达 99%。每个开发者都觉得自己…",
+        "当OpenAI收购OpenClaw引发开发者社区信任危机，一群中文开发者因'ASCII乱码'被集体封禁的经历，催生了去中心化AI能力协议EvoMap。这不是又一…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "一个超级巨星的诞生",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%80%E4%B8%AA%E8%B6%85%E7%BA%A7%E5%B7%A8%E6%98%9F%E7%9A%84%E8%AF%9E%E7%94%9F",
+      "published": "Tue, 17 Feb 2026 20:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "Betterlater",
+        "Films",
+        "hongmomgs",
+        "Hutchinson",
+        "Ingrid"
+      ],
+      "summary": "作者：Pamela Hutchinson 译者：易二三 校对：覃天 来源：Sight &amp; Sound （2022年8月25日） 英格丽·褒曼在好莱坞的谢幕比她的出场要戏剧性得多，当然名声也更盛。1949年，凭借《卡萨布兰卡》（1942）、《煤气灯下》（1944）以及与希区柯克合作的《爱德华大夫》（1945）、《美人计》（1946）和《风流夜合花》（1949）等作品在好莱坞站稳脚跟之后，这位瑞典影星远走意大利，与她欣赏的导演罗伯托·罗西里尼合作。 在《火山边缘之恋》（1950）的拍摄现场，欣赏演变成了爱恋，已…",
+      "key_points": [
+        "制片人大卫·O·塞尔兹尼克当时派了纽约办事处的负责人凯·布朗去搜寻那些适合翻拍的欧洲电影——她没花多长时间就找到了《寒夜琴挑》。在布朗位于公园大道的公寓里操作电…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《惊蛰无声》，悬念保持到最后一秒",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E6%83%8A%E8%9B%B0%E6%97%A0%E5%A3%B0%E3%80%8B%EF%BC%8C%E6%82%AC%E5%BF%B5%E4%BF%9D%E6%8C%81%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E7%A7%92",
+      "published": "Tue, 17 Feb 2026 20:20:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Eros",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Eros 春节档第一天，第一部，不知你选的啥？ 我选了张艺谋的《惊蛰无声》，刚看完，来回反转，有点被震到了。先让我捋捋，从头来说。 张艺谋不是没拍过谍战，但当代谍战完全不一样。难就难在「当代」二字，近代谍战是可以尽情虚构的，而且因为依托于战争或者社会动荡的宏大背景，剧情设计也可以尽情放飞。但当代谍战不行，从案件故事到技术细节，一切都要有现实依据。 这方面无需担心，《惊蛰无声》得到国安部门的专业指导，剧本中融入了真实的案例，这足以保证影片的专业性和可信度。 而影片选择深圳作为这场谍战的「战场」，也是很合理的。深圳…",
+      "key_points": [
+        "构成了《惊蛰无声》的人物底色。影片一开场，就抛给观众一个基础信息：这两个队长中，有一个叛变了",
+        "《惊蛰无声》得到国安部门的专业指导，剧本中融入了真实的案例，这足以保证影片的专业性和可信度",
+        "片名「惊蛰」是指抓捕「钉子」的惊蛰行动，取它春雷乍动之意，但片名的题眼却是「无声」，指一切都发生在城市的喧嚣表面之下，静默无声却惊心动魄"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "仰望中国，万峰磅礴贺新元",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%B0%E6%9C%9B%E4%B8%AD%E5%9B%BD%EF%BC%8C%E4%B8%87%E5%B3%B0%E7%A3%85%E7%A4%B4%E8%B4%BA%E6%96%B0%E5%85%83",
+      "published": "Tue, 17 Feb 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "烟火绽放如璀璨星河，仰望高山之巍峨，它们是岁月的坐标，是山河的魂魄。大年初一，当马年新春的钟声在山谷间回响，我们举目所见，正是天马行空，留下可供世代仰望的巍峨足迹，它们值得每个仰首时刻，以目光为礼，以心灵朝圣。 ①喜马拉雅，万山之王，它呈现终极——超越人类一切尺度的高度，它是地球写给宇宙的一封冰与岩的密信。仰望它时，颈项的酸涩是灵魂在理解“无限”这个概念。 ②转身向北，天山像位从容的管家，掌管着干旱大陆的命脉。它逶迤的苍茫山体，如同一本巨著在中亚腹地摊开。仰望它时，心中涌起的不是敬畏，而是一种安宁。③目光移向东南，…",
+      "key_points": [
+        "天山像位从容的管家，掌管着干旱大陆的命脉。它逶迤的苍茫山体，如同一本巨著在中亚腹地摊开。仰望它时，心中涌起的不是敬畏，而是一种安宁。③目光移向东南，冬日里，嶙峋…",
+        "仰望高山之巍峨，它们是岁月的坐标，是山河的魂魄。大年初一，当马年新春的钟声在山谷间回响，我们举目所见，正是天马行空，留下可供世代仰望的巍峨足迹，它们值得每个仰首…",
+        "喀斯特峰林峰丛的样貌截然不同，它这是大地被雨水和时光温柔啃噬后，留下最奇幻的梦。仰望它时，你很难聚焦于某一座孤峰，它们仿佛一群巨鲸在默默洄游"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "大获成功",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A4%A7%E8%8E%B7%E6%88%90%E5%8A%9F",
+      "published": "Tue, 17 Feb 2026 13:38:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今年我做的红包封面大获成功，系统赠予的 18 万枚封面在除夕夜到来之前一清而空。除了微信推出自制红包封面的第一年，只有今年我做到了这一点。我查了一下去年的记录，还有一半都没人领，全都白白过期。去年其实我很努力，每天推出一款。大约做了二三十款。然而费力不讨好，反而让读者产生了等等党的心理：万一明天那一款更合我心意呢？不行，再等等。就这样，等着等着正月十五就过了。今年我做了反思，认为去年我犯了两个忌讳。第一、每天提供一款红包封面，出发点是好的，然而实际上激发了读者的贪婪。话说到底，过个春节一个认需要多少个红包？有必要弄…",
+      "key_points": [
+        "除了实用好用之外，其实还有一条默认的规则：你有责任帮助用户减少选择，而不是相反。做二三十款红包封面，看似很勤奋，很努力，但是站在用户的角度看，很可能理解为：这孙…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "野马，是怎样变成“牛马”的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E9%87%8E%E9%A9%AC%EF%BC%8C%E6%98%AF%E6%80%8E%E6%A0%B7%E5%8F%98%E6%88%90%E2%80%9C%E7%89%9B%E9%A9%AC%E2%80%9D%E7%9A%84%EF%BC%9F",
+      "published": "Mon, 16 Feb 2026 08:24:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "C.",
+        "L.",
+        "amp",
+        "in",
+        "of",
+        "Horses"
+      ],
+      "summary": "普氏野马 撰文｜张天祁 ● ● ● 01 从野马到“牛马” 在中国传统文化中，马被列为“六畜”之首。但从驯化时间来看，它却是最晚加入人类阵营的成员。在家犬、猪、牛、羊这些老牌家畜早已稳稳端上人类提供的饭碗之后，马才最后一个完成了自己的驯化进程。 在演化的谱系里，野马曾遍布欧亚大陆，但现在家马的野生亲戚消失得相当彻底。如今世界上除了家马，只剩下普氏野马这一根独苗，其余种类的野马早已湮灭在历史尘埃中。 马到底是何时驯化的，现在还不能完全确定。通过对马掌骨的测量分析，以及缰绳和马奶加工工具等物品的考古发现，早期的考古研究…",
+      "key_points": [
+        "普氏野马 撰文｜张天祁 ● ● ● 01 从野马到“牛马” 在中国传统文化中，马被列为“六畜”之首。但从驯化时间来看，它却是最晚加入人类阵营的成员。在家犬、猪、…",
+        "现在还不能完全确定。通过对马掌骨的测量分析，以及缰绳和马奶加工工具等物品的考古发现，早期的考古研究曾认为，5500年前中亚的博泰人最早把野马变成了家马。但后来的…",
+        "英国伯明翰大学的经济史学家John Langdon，专门研究一件听起来有点可爱的严肃问题：中世纪农庄里的牛和马，到底谁更能干活。他的代表作《牛、马与技术创新》…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "不只是赞助，火山引擎还是这届春晚的技术供应商",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%B8%8D%E5%8F%AA%E6%98%AF%E8%B5%9E%E5%8A%A9%EF%BC%8C%E7%81%AB%E5%B1%B1%E5%BC%95%E6%93%8E%E8%BF%98%E6%98%AF%E8%BF%99%E5%B1%8A%E6%98%A5%E6%99%9A%E7%9A%84%E6%8A%80%E6%9C%AF%E4%BE%9B%E5%BA%94%E5%95%86",
+      "published": "Tue, 17 Feb 2026 18:57:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance",
+        "Tokens",
+        "Anthropic",
+        "Claude",
+        "Computer"
+      ],
+      "summary": "文 ｜ 阑夕 虽然对于科技公司赞助今年春晚的力度早有准备，但AI含量的超标还是远远超出预期。 场外的段子也很好笑：「你这一年充会员跳过的广告，春晚全给你补上了。」 春晚的商业化其实不是秘密，区别在于以往的赞助和节目关系不大，就像电影中的尿点时刻，观众并没有意识到自己的大脑做出了自动忽略的选择，但在这届春晚上，科技公司已经在成为和担当内容本身。 用流行的句式来讲，就是 「贴片广告已死，原生广告永续。」 这是好事还是坏事，可以讨论，但春晚之所以能够演变成中国的「世博会」，还是得因为产出分量足够厚重，重到类人机器舞剑弄拳…",
+      "key_points": [
+        "原来2个月前科技春晚被大伙揶揄成产品发布会，真的不是在重新定义春晚，而是正宗春晚的大型预告片⋯⋯ 言归正传，作为传闻中花11亿元当上这届春晚「标王」的火山引擎和…",
+        "场外的段子也很好笑：「你这一年充会员跳过的广告，春晚全给你补上了。」 春晚的商业化其实不是秘密，区别在于以往的赞助和节目关系不大，就像电影中的尿点时刻，观众并没…",
+        "就是适应AI无处不在的未来 火山引擎这次赞助春晚，从某个角度来看，还挺「亏」的"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "经济学人集团祝您新春快乐",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E9%9B%86%E5%9B%A2%E7%A5%9D%E6%82%A8%E6%96%B0%E6%98%A5%E5%BF%AB%E4%B9%90",
+      "published": "Tue, 17 Feb 2026 10:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "骏马迎春，万象更新。经济学人集团祝您和家人：马到成功，福满新春！ 文章原文",
+      "key_points": [
+        "万象更新。经济学人集团祝您和家人：马到成功，福满新春"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2026春晚赞助图谱：抖音、小红书、B站、机器人争相上桌",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6342433.html",
+      "published": "Sat, 14 Feb 2026 15:41:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "IP",
+        "AR",
+        "CC0",
+        "postmeta.bookmark"
+      ],
+      "summary": "当春晚从单向歌舞盛宴演变为互联网大厂的年度大考，2026年的赞助图谱正揭示一场生态位争夺战。抖音以竖屏沉浸式观看重构春晚体验，小红书用真人笔记打造讨论场，B站借弹幕文化强化兴趣社交，而宇树机器人与AI巨头们则争相秀肌肉。本文深度拆解各平台如何将国民级IP转化为差异化互动场景，以及春晚如何成为观察中国内容消费变迁的最佳样本。 春节将来到，作为年味儿最重的国民级节目春晚，今年也是迎来了凑热闹的科技巨头和大厂们。 抖音拿下竖屏看春晚独家合作，小红书成为独家真人笔记互动社区，B站继续用弹幕陪伴用户过年，阿里、腾讯、百度砸下…",
+      "key_points": [
+        "当春晚从单向歌舞盛宴演变为互联网大厂的年度大考，2026年的赞助图谱正揭示一场生态位争夺战。抖音以竖屏沉浸式观看重构春晚体验，小红书用真人笔记打造讨论场，B站借…",
+        "小红书成为独家真人笔记互动社区，B站继续用弹幕陪伴用户过年，阿里、腾讯、百度砸下近50亿红包绑定AI应用，宇树机器人继续登上春晚舞台秀肌肉…… 2026年的春晚…",
+        "豆包将通过春晚，为用户送出超过10万份科技好礼，包括机器人、机器狗、3D打印机、无人机等科技产品，也有智能手表、电饭煲等智能消费品，还有奥迪、奔驰两款电动车使用…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "清华大学医学院牵头发布 PRIMARY-AI 国际倡议",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E7%89%B5%E5%A4%B4%E5%8F%91%E5%B8%83+PRIMARY-AI+%E5%9B%BD%E9%99%85%E5%80%A1%E8%AE%AE",
+      "published": "Sat, 14 Feb 2026 08:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PRIMARY-AI",
+        "Health",
+        "Nature",
+        "Car",
+        "College"
+      ],
+      "summary": "2.15 ‍‍‍‍‍‍‍ 知识分子 The Intellectual ● ● ● 清华大学医学院牵头发布 PRIMARY-AI 国际倡议 ——在《Nature Medicine》发表研究成果，推动建立以真实世界结局为导向的基层医疗人工智能评价新标准 随着人工智能 （Artificial Intelligence, AI） 在基层医疗 （Primary Care） 领域的快速部署，从临床决策支持、患者分诊到临床文书生成，全球卫生系统正经历深刻变革。然而，一个核心问题仍未得到充分回答：这些 AI 技术，是否真正改善了基…",
+      "key_points": [
+        "2.15 ‍‍‍‍‍‍‍ 知识分子 The Intellectual ● ● ● 清华大学医学院牵头发布 PRIMARY-AI 国际倡议 ——在《Nature…",
+        "由清华大学医学院牵头，联合 King’s College London、Harvard T.H",
+        "研究团队表示：“基层医疗中人工智能的关键问题，不在于是否应用，而在于如何确保其真正提升照护质量、公平性与系统韧性。PRIMARY-AI 希望将这一问题转化为一个…"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第246期 - 单向空间",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/246/",
+      "published": "Mon, 24 Nov 2025 00:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Mac",
+        "https",
+        "mo",
+        "clean",
+        "github.com",
+        "issue"
+      ],
+      "summary": "封面图拍摄于玉鸟集大谷仓单向空间，抬头看到了这个屋顶，感觉不错，刚好和夕阳一起很协调。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可 RSS 订阅此周刊，方便获取更新通知 潮流工具 Mole 小鼹鼠功能终于逐步完善了 https://github.com/tw93/Mole 这次发布了第十个版本，继续安全加固，新增查看系统现状功能，加上之前的清理、卸载、磁盘洞察、系统优化，基本覆盖了大伙 Mac 维护的大部分功能，近似等于 Clean My Mac + AppCleaner + DaisyDisk +…",
+      "key_points": [
+        "用于像鼹鼠一样强力挖掘你的 Mac 里面的各种垃圾，各种缓存以及孤岛文件，第一次使用可以清理掉非常多无用空间",
+        "可视化的方式下钻你的磁盘空间，可以看到有些可以清理的无用文件，这里是对 clean 的一个很好的补充"
+      ]
+    }
+  ]
+}
