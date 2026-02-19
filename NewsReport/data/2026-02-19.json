@@ -1,0 +1,842 @@
+{
+  "date": "2026-02-19",
+  "generated_at": "2026-02-19T01:00:04.913348+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 205,
+    "fresh_candidates": 40,
+    "backfill_candidates": 165,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-19",
+      "fetched_at": "2026-02-19T01:00:04.614531+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.07,
+          "change": -51.95,
+          "change_pct": -1.26,
+          "volume": 500799472.0,
+          "amount": 84680834.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4960.83,
+          "change": -15.260000000000218,
+          "change_pct": -0.31,
+          "prev_close": 4976.09,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-19 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1101.0208386837494,
+          "change": -3.3868481682127367,
+          "change_pct": -0.306666479103085,
+          "prev_close": 1104.4076868519621,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-19 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "终局思维，中国电力供给的天花板",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6306866040/376417360",
+      "published": "Wed, 18 Feb 2026 13:25:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600011",
+        "SH600027",
+        "SH601991",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "如果火电维持现状，30—40万亿度已是本土极限 中国电力需求正以每十年翻一番的速度持续增长，按照当前10万亿度的全社会用电量推算，20年后便将逼近40万亿度大关。很多人认为，依靠风光大基地、储能与绿氢，中国能源可以无限扩张，但从现实资源与技术约束来看，只要火电维持现有6万亿度规模不再新增，中国本土电力系统的最终天花板，就落在30—40万亿度之间。这不是规划目标，而是资源、调峰、安全共同划定的物理边界。 当前，我国火电年发电量长期稳定在6万亿度左右，作为电力系统最可靠的基荷与调峰电源，它在未来相当长时间内都难以大幅退…",
+      "key_points": [
+        "中国将无法依靠本土能源继续满足增长需求。唯一的出路，只能转向跨国电力联网、海外绿氢进口、工业能效提升，以及更远期的核聚变技术。而在这一切到来之前，30—40万亿…",
+        "30—40万亿度已是本土极限 中国电力需求正以每十年翻一番的速度持续增长，按照当前10万亿度的全社会用电量推算，20年后便将逼近40万亿度大关。很多人认为，依靠…",
+        "我国火电年发电量长期稳定在6万亿度左右，作为电力系统最可靠的基荷与调峰电源，它在未来相当长时间内都难以大幅退出，更不会被完全替代。火电的存在，决定了整个电网的稳…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "猪周期---20260218,2026 养猪能翻身吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9227257803/376414176",
+      "published": "Wed, 18 Feb 2026 13:25:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PSY",
+        "http",
+        "SZ000876",
+        "SZ002714",
+        "SZ300498",
+        "xueqiu.com"
+      ],
+      "summary": "说真的，盯着猪价看了这么多年，2025年是让我最难受的一年。 不是说跌得多惨，而是那种&#34;死又死不透，涨又涨不动&#34;的状态，最熬人。猪价确实反弹过，但就蹦跶了半年，波动区间窄得可怜。搁以前，猪周期是坐过山车，现在？顶多算在丘陵地带遛弯。 为啥？因为养猪这行，变天了。 现在不是散户说了算的年代了。牧原、温氏这帮头部大佬，市场份额越吃越大。他们啥特点？能扛。亏钱？亏呗，账上钱多，融资渠道广，不像以前散户亏三个月就撑不住杀母猪。这就导致一个结果：猪周期的&#34;振幅&#34;被这帮大佬硬生生熨平了。 所以你…",
+      "key_points": [
+        "现在不是散户说了算的年代了。牧原、温氏这帮头部大佬，市场份额越吃越大。他们啥特点？能扛。亏钱？亏呗，账上钱多，融资渠道广，不像以前散户亏三个月就撑不住杀母猪。这…",
+        "而是那种&#34;死又死不透，涨又涨不动&#34;的状态，最熬人。猪价确实反弹过，但就蹦跶了半年，波动区间窄得可怜。搁以前，猪周期是坐过山车，现在？顶多算在丘陵…",
+        "说2025年5月开始的去化，对应2026年下半年供应减少，有可能进入新一轮上行周期"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资破局：跳出四大认知误区",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1565084460/376406360",
+      "published": "Wed, 18 Feb 2026 13:25:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "PE",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "投资的胜负，从来不在技术，而在认知。 大多数人长期不赚钱，不是因为不够努力，而是被一些看似正确、实则致命的“常识”牢牢困住。 真正能穿越市场周期的人，无一不是先打破惯性思维，再紧紧围绕企业内在价值建立自己的投资体系。 别让直觉，拖垮你的投资 人类的直觉，在投资里几乎全是错的。 你觉得“等趋势走出来再进场更安全”，可趋势一旦都看得见，往往已是风险大于机会。 真正的超额收益，恰恰来自趋势未明、市场冷清、舆论悲观的时候。 你觉得“熊市可怕，大跌会亏光”，但真正的好资产，跌下去只是价格波动，不是价值毁灭。 熊市消灭的从来不…",
+      "key_points": [
+        "不被“共识”裹挟，不被涨跌绑架。穿越迷雾，跳出认知误区，看清 内在价值 这个投资本质，才能真正穿越牛熊…… 本话题在雪球有16条讨论，",
+        "永远和大众想象的不一样。本质上还是要看懂，而不是靠找一些蛛丝马迹就开始猜…… 投资最终拼的，不是速度，是认知；不是技巧，是定力",
+        "投资最反直觉的真相是： 让人亏钱的不是下跌，而是追高； 让人赚不到钱的不是波动，而是底部恐慌割肉"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "费雪的投资哲学",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8801393218/376413694",
+      "published": "Wed, 18 Feb 2026 13:24:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ESA",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "我从半个世纪的商业经验中逐步发展形成的投资哲学，其核心要点可总结为以下八点： 1、所投资的公司，必须有 明确的长期规划 ，能够实现盈余的大幅长期增长，且 具备独特的内在特质（护城河） ，使得新进入者难以分享其高成长红利。选择这类公司时，还需考虑诸多有利或不利的细节，显然无法在如此简短的篇幅中详尽说明。有兴趣的读者可参考《保守型投资人夜夜安枕》的前三章，我在其中以最简洁的文字阐述了这一主题。 2、 集中全部精力投资于那些 “失宠” 的公司 —— 即由于整体市场环境不佳，或金融圈误判了公司的真正价值，导致股价远低于其真…",
+      "key_points": [
+        "我从半个世纪的商业经验中逐步发展形成的投资哲学，其核心要点可总结为以下八点： 1、所投资的公司，必须有 明确的长期规划 ，能够实现盈余的大幅长期增长，且 具备独…",
+        "其股票往往难以以低廉价格买到。因此，当有利的价格出现时，应充分把握时机， 将资金集中投入到最具优势的投资机会中 。对于参与创业投资或投资小型公司（如年营业额低于…",
+        "犯下一些错误是不可避免的成本 —— 正如经营管理最出色、盈利能力最强的金融贷款机构，也无法完全避免坏账损失。关键在于尽快承认错误、分析错误成因，并学会避免重蹈覆…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "深V反转！美股科技上演午夜惊魂！从AI狂欢到AI恐慌，从担心投入不足到焦虑替代，今年的投资风向已悄然转变！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%B7%B1V%E5%8F%8D%E8%BD%AC%EF%BC%81%E7%BE%8E%E8%82%A1%E7%A7%91%E6%8A%80%E4%B8%8A%E6%BC%94%E5%8D%88%E5%A4%9C%E6%83%8A%E9%AD%82%EF%BC%81%E4%BB%8EAI%E7%8B%82%E6%AC%A2%E5%88%B0AI%E6%81%90%E6%85%8C%EF%BC%8C%E4%BB%8E%E6%8B%85%E5%BF%83%E6%8A%95%E5%85%A5%E4%B8%8D%E8%B6%B3%E5%88%B0%E7%84%A6%E8%99%91%E6%9B%BF%E4%BB%A3%EF%BC%8C%E4%BB%8A%E5%B9%B4%E7%9A%84%E6%8A%95%E8%B5%84%E9%A3%8E%E5%90%91%E5%B7%B2%E6%82%84%E7%84%B6%E8%BD%AC%E5%8F%98%EF%BC%81",
+      "published": "Wed, 18 Feb 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "Anthropic",
+        "Ap",
+        "CO",
+        "Cox"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 北京时间2月18日凌晨，美股周二小幅收高。道指报49533.19点，涨幅为0.07%；纳指报22578.38点，涨幅为0.14%；标普500指数报6843.22点，涨幅为0.10%。 热门中概股涨跌不一，纳斯达克中国金龙指数跌0.1%。台积电跌0.59%，阿里巴巴跌0.19%，拼多多涨1.55%，百度涨0.23%，携程涨3.10%，日月光半导体涨0.30%，京东涨0.70%，蔚来跌0.61%，富途控股涨1.51%，亚玛芬体育涨1.13%。 昨夜今晨，国际贵金属期货价格普遍下跌。…",
+      "key_points": [
+        "知名苹果爆料人马克·古尔曼发文表示，苹果正在加快开发三款全新的可穿戴设备，作为其向人工智能驱动硬件转型的一部分 02 AI投入不足 vs AI替代焦虑 过去两周…",
+        "美股大科技公司经历了深V反转的行情",
+        "他们认为抛售的第二个原因是，在公开市场上对人工智能进行估值变得越来越困难。这部分是由于人们担心仅仅是“科技七巨头”就占据了标普500指数30%的权重，但同时也存…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么有时候天空中的云朵会有比较清晰的边界？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787684",
+      "published": "Invalid Date",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Devymex",
+        "Wang"
+      ],
+      "summary": "Devymex Wang， 多看，多听，多说 查看知乎原文 答案可能会颠覆你的认知：大部分人都认为云朵是一团水汽，而周围无云的地方没有水汽，这其实是错误的。 为什么人们可以看到白色的云朵，或者说为什么天空中的一团水汽呈白色，通常的说法是「因为水汽浓度达到饱合蒸汽压时，气态的水就会凝结成液滴，而液滴聚集在一起就形成了可见的云雾」。 这个说法其实很不全面 ： 由于自由扩散作用的存在，在一定空间内水汽浓度的变化是相对平缓的。 水汽液滴总是处于不断凝聚和蒸发的动态变化过程中，这使得液滴的浓度的变化也是相对平缓的。 没有云的…",
+      "key_points": [
+        "上面的回答仅在解释为什么在水汽浓度变化相对平缓的前提下，云朵会有锐利的边缘， 并没有否认有云 / 雾的地方水汽(液滴)浓度比周围无云 / 雾的地方大，也不否认存…",
+        "或者说为什么天空中的一团水汽呈白色，通常的说法是「因为水汽浓度达到饱合蒸汽压时，气态的水就会凝结成液滴，而液滴聚集在一起就形成了可见的云雾」",
+        "另一个例子就是你可以非常缓慢的控制电灯的开关，但是灯亮或不亮总是瞬间切换的。同样的，液滴尺寸的变化也可以非常平缓，但白云(米氏散射)到蓝天(瑞丽散射)就可能是「…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "网传马桶因科氏力在南半球冲水方向相反，这是真的吗？其他旋转物体也会受到影响吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787845",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ro",
+        "km"
+      ],
+      "summary": "气象喵探员， 点开我的主页你会发现——这个喵纯纯气象迷，除了气象啥也不会~ 查看知乎原文 嗨嗨嗨，专业的来喽，这题我会。 这是一个相当典型的谣言，科氏力确实会影响旋转物体的旋转方向，但这也是有尺度限制的，并不是所有的物体都会受影响。 所以这个谣言混淆了尺度问题，真实情况是马桶冲水方向几乎不会受到科氏力的影响 ，因为其直径实在是太小了，不然按照他的意思，总不能南半球的人都不能逆时针转圈了吧。 科里奥利力究竟是什么？这可是气象学中最强大的力量之一 在地球科学特别是气象学领域，科氏力是一个我们无法回避的核心概念，其重要性…",
+      "key_points": [
+        "更何况如果科氏力都能让马桶的冲水旋转方向与北半球相反，那按理来说南半球的人都不能像我们北半球一样的人做逆时针旋转了，赤道正中心附近的人甚至连动都不能动了",
+        "真实情况是马桶冲水方向几乎不会受到科氏力的影响 ，因为其直径实在是太小了，不然按照他的意思，总不能南半球的人都不能逆时针转圈了吧",
+        "科氏力竟然也是有公式的而且相当简单，具体来说一个质量为 m、在地球表面以速度 v 相对运动的物体，所需要承受的科氏力为 ，其中 是地球自转角速度矢量，大小约为…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么橘子皮里有白色的丝？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787836",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bundles",
+        "vascular",
+        "Animalonearth",
+        "Citri-Fi",
+        "Citrus",
+        "Dorsal"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 橘子上这种黏连的白色丝状物，它们是维管束，也叫橘络，在橘子内部负责传输营养物质。 它将水分、矿物质和光合作用产物从根系和叶片输送到每一个汁胞中。为了满足这一需求，植物构建了一套复杂的维管网络。这套网络贯穿于中果皮之中，并延伸至每一个囊瓣的表面，形成所谓的“背维管束”（Dorsal vascular bundles）和“隔膜维管束”（Septal vascular bundles） [1] 。 随着果实成熟，植物会分泌酶来降解果皮细胞间…",
+      "key_points": [
+        "通俗地说，就是当橘子从树上掉落时，这层白色的网状物充当了安全气囊，通过自身的变形吸收冲击力，保护内部充满汁液的脆弱果肉不发生爆裂",
+        "自然科学/分享动物们的小秘密/Animalonearth 橘子上这种黏连的白色丝状物，它们是维管束，也叫橘络，在橘子内部负责传输营养物质",
+        "会发现这层被称为橘络的结构，实际上连接着橘子的外皮和内部的果肉。这是植物为了在复杂的自然环境中生存而进化出的复合材料"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "春节必读！如何优雅地怼回那句“你都这年纪了”？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%98%A5%E8%8A%82%E5%BF%85%E8%AF%BB%EF%BC%81%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%80%BC%E5%9B%9E%E9%82%A3%E5%8F%A5%E2%80%9C%E4%BD%A0%E9%83%BD%E8%BF%99%E5%B9%B4%E7%BA%AA%E4%BA%86%E2%80%9D%EF%BC%9F",
+      "published": "Wed, 18 Feb 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "giphy",
+        "in",
+        "Journal",
+        "pixabay",
+        "adult"
+      ],
+      "summary": "过年最烦人的，就是亲戚的“关心”：你弟30岁都带二胎了，你35岁怎么还不结婚？ 躲过亲戚“关心”，躲不过发小的“背刺”：说好一起单身一起养老的朋友决定闪婚，理由是“我马上要30了”。 giphy 这些和年龄绑定的任务清单，就像计时器的滴答声， 提醒着一生都是关键点的中国人什么年纪该做什么事 。 听了太多，我们也不禁自问：如果人生是闯关游戏，我在这个年龄关卡是不是已经失败了？ 催我们的到底是谁？ “什么年纪做什么事”涉及到 “社会时钟” 这个概念， 指社会规定个人做某事的最佳时机 。 社会时钟是谁上的发条？ 既然名字…",
+      "key_points": [
+        "“什么年纪做什么事”涉及到 “社会时钟” 这个概念， 指社会规定个人做某事的最佳时机",
+        "就像计时器的滴答声， 提醒着一生都是关键点的中国人什么年纪该做什么事"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "人类首次！5千米高空隔空输电，他们计划从太空发电送回地球",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BA%BA%E7%B1%BB%E9%A6%96%E6%AC%A1%EF%BC%815%E5%8D%83%E7%B1%B3%E9%AB%98%E7%A9%BA%E9%9A%94%E7%A9%BA%E8%BE%93%E7%94%B5%EF%BC%8C%E4%BB%96%E4%BB%AC%E8%AE%A1%E5%88%92%E4%BB%8E%E5%A4%AA%E7%A9%BA%E5%8F%91%E7%94%B5%E9%80%81%E5%9B%9E%E5%9C%B0%E7%90%83",
+      "published": "Wed, 18 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Overview",
+        "Energy",
+        "text",
+        "NASA",
+        "power"
+      ],
+      "summary": "本文转载自公众号 “环球科学”（id：huanqiukexue） Overview Engergy公司太空输电概念图（非本次实验）丨Overview Energy 比从太空传难。 撰文 | 冬鸢 审校 | 王昱 2025年11月晚，一架单引擎涡桨飞机飞翔在美国宾夕法尼亚 5000多米的高空 。飞机又小又慢，高空的风却很大，飞行得有些许勉强——但这正是把这架飞机送上天的人希望看到的。 实验所用飞机丨Overview Energy 这架飞机上装着激光器和一些光学器件，以及一块很大的电池以及配套的冷却系统。它正在执行一项…",
+      "key_points": [
+        "本文转载自公众号 “环球科学”（id：huanqiukexue） Overview Engergy公司太空输电概念图（非本次实验）丨Overview Energ…",
+        "这是有史以来首次在任何移动平台上演示高功率无线电力传输，来自能源公司Overview Energy。下一步， 他们便准备把飞机换成卫星，从太空中传输能量回地球了",
+        "但空间太阳能也面临巨大技术和成本挑战。因为要实现这一设想，需要构建十分庞大的结构。例如，CASSIOPeiA的设想中，需要宽约1.7千米的太阳能阵列。组装如此巨…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "咖啡是白天喝的，牙是夜里变黄的",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%92%96%E5%95%A1%E6%98%AF%E7%99%BD%E5%A4%A9%E5%96%9D%E7%9A%84%EF%BC%8C%E7%89%99%E6%98%AF%E5%A4%9C%E9%87%8C%E5%8F%98%E9%BB%84%E7%9A%84",
+      "published": "Wed, 18 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "or",
+        "PAC",
+        "Covasorb",
+        "dc_ps",
+        "detail",
+        "DROPS"
+      ],
+      "summary": "是谁，每天早上不灌一杯 冰美式 就睁不开眼，下午不点杯 奶茶 就感觉工作没有灵魂？ 日子一久，猛然发现——牙齿好像偷偷 “上了色”： 牙缝里藏着若隐若现的咖啡渍，门牙上蒙着一层淡淡的奶茶黄…… 图源：图虫创意 于是—— 别人大笑：哈哈哈哈哈哈哈哈😁 你大笑：慌忙捂嘴，生怕露出尴尬黄牙🤭 别人涂口红：唇红齿白，明艳动人 😬 你涂口红：显得牙更黄，气质也掉线😓 也曾心动想去做 冷光美白 ，一问价格——好家伙， 一次好几千 ，只能维持1-2年！关键 做完那叫一个酸爽 ，做过的朋友跟我说：吃饭痛、喝水 痛 、连呼吸都 痛…",
+      "key_points": [
+        "猛然发现——牙齿好像偷偷 “上了色”： 牙缝里藏着若隐若现的咖啡渍，门牙上蒙着一层淡淡的奶茶黄…… 图源：图虫创意 于是—— 别人大笑：哈哈哈哈哈哈哈哈😁 你大…",
+        "这是因为它把 RDA磨损值 调到了一个黄金值！既不会太高损伤牙齿，又不会太低没效果，所以用起来超舒服~ 难怪 3周就能白4个色度 ！讨厌的咖啡渍、浓茶渍、奶茶渍…",
+        "✅ 组合5： 小 蓝V*2支+蓝管*2支 ， 官方235元， 我们仅 178元！（性价比最高的一个组合） 爱喝咖啡、奶茶的，喜欢抽烟的，我建议你直接入手 4支组…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "天都塌了，托朋友从欧洲高价托运回来的暖气，竟然是老家产的……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A9%E9%83%BD%E5%A1%8C%E4%BA%86%EF%BC%8C%E6%89%98%E6%9C%8B%E5%8F%8B%E4%BB%8E%E6%AC%A7%E6%B4%B2%E9%AB%98%E4%BB%B7%E6%89%98%E8%BF%90%E5%9B%9E%E6%9D%A5%E7%9A%84%E6%9A%96%E6%B0%94%EF%BC%8C%E7%AB%9F%E7%84%B6%E6%98%AF%E8%80%81%E5%AE%B6%E4%BA%A7%E7%9A%84%E2%80%A6%E2%80%A6",
+      "published": "Wed, 18 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Radialight",
+        "NDLX",
+        "Wi-Fi",
+        "radialight",
+        "STC",
+        "APP"
+      ],
+      "summary": "都说 北方的冬天 是物理攻击，外出穿厚点就能抵御，毕竟屋里温暖如春。 而 南方的冬天 ，却是无处不在的魔法攻击，那种湿冷能穿透骨髓，让人无处可逃。 近年冬天受寒潮等因素影响，咱们的取暖设备在国外都卖爆了 ，年年订单收到手软！ 很多欧洲家庭用的取暖器其实就产自 中国 ！ 你花大价钱从国外代购的取暖器很有可能是国产的， 价格却是国内的好几倍....... 图片来源：新闻截屏 我们合作了好几年的老朋友，获得了超多好评——欧洲爆火的 Radialight电暖器就 是其中的佼佼者。 就像地暖一样好神！奇！暖得快还省电又 耐用…",
+      "key_points": [
+        "先给新朋友们介绍下 Radialight品牌—— 意大利米兰品牌 传承欧洲品质 Radialight来源于意大利 1930年成立于米兰的ERMETE GIYDI…",
+        "图片来源：新闻截屏 我们合作了好几年的老朋友，获得了超多好评——欧洲爆火的 Radialight电暖器就 是其中的佼佼者",
+        "还给咱们超优惠福利价！只想说：太给咱争光了！（清库存特惠，仅剩30台） 性价比大功率款：NDLX Wi-Fi款 2600W：899元（25 ㎡以上 大房间大客厅…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么今年是“AI物理化”元年，而非“AI普及化”？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342784.html",
+      "published": "Wed, 18 Feb 2026 07:53:59 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "VLA",
+        "Optimus",
+        "ADS",
+        "Agent",
+        "brake"
+      ],
+      "summary": "2026年，AI将告别虚拟大脑时代，正式迈入物理化元年。从VLA模型破解莫拉维克悖论，到特斯拉Optimus Gen3展现精妙握感，再到智能座舱完成'脊髓进化'，AI正在获得改变物理世界的真实力量。本文深度解析这场从'硅片'到'钢铁'的产业革命，揭秘AI如何通过触觉数据、端到端算法和数字孪生技术，实现从'会说'到'会做'的质变飞跃。 如果说 2024 年是“百模大战”的混乱期，2025 年是“应用落地”的试错期，那么 2026 年则是 AI 物理化（Physical AI） 的大成之年。 首先需要理解一个核心差异：…",
+      "key_points": [
+        "首先需要理解一个核心差异： “AI 普及化”是将 AI 塞进手机和电脑，而“AI 物理化”是将 AI 注入钢铁与电路，让它拥有改变物理世界的力量",
+        "AI将告别虚拟大脑时代，正式迈入物理化元年。从VLA模型破解莫拉维克悖论，到特斯拉Optimus Gen3展现精妙握感，再到智能座舱完成'脊髓进化'，AI正在获…",
+        "Sim-to-Real 2.0：虚拟世界的“一万年”与现实的“一分钟” 为什么 AI 物理化的速度如此之快？关键在于 数字孪生（Digital Twin） 技术…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GLM-5.0 不是“又一个更强模型”，而是中国大模型竞争范式的拐点",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342642.html",
+      "published": "Wed, 18 Feb 2026 03:53:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GLM-5",
+        "Agent",
+        "Agentic",
+        "Engineering",
+        "Bench",
+        "agent"
+      ],
+      "summary": "大模型行业正经历从参数竞赛到可交付智能的关键转折。GLM-5的推出不仅标志着开源模型的重大突破，更将竞争焦点从单纯的代码生成转向了完整的工程交付能力。本文将深度剖析行业面临的三大迁移趋势、当前卡脖子的交付难题，以及未来3-5年Agentic Engineering将如何重构企业生产力体系。 一、行业背景：从“参数竞赛”换挡到“可交付智能” 过去两年，我最直观的感受是：大模型行业的重心不止一次挪位，尤其有三次迁移非常清晰。 1）从通用对话到垂直落地： 企业越来越不为“会聊天”买单，而是为“能把任务做完”付费。 2）从…",
+      "key_points": [
+        "结语：我对 GLM-5 的独立观点 GLM-5 最值得关注的，不是“开源又追平了谁”，而是它把行业叙事从“聊天更像人”推进到“交付更像团队”。当模型把“写工程”…",
+        "3）第3阶段（3–5年）：基座模型趋于“半商品化”，差异化上移到“行业工作流 + 数据飞轮 + 组织适配” 如果开源模型持续逼近顶级闭源，企业最终会把基座当作可…",
+        "大模型竞争会从“模型战”变成“交付战” 结合 GLM-5 这类发布，我更愿意把接下来两年的变化概括成三条趋势"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI赋能传统年味：Seedance 2.0如何重塑2026央视春晚",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342818.html",
+      "published": "Wed, 18 Feb 2026 02:46:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance",
+        "IP",
+        "CC0",
+        "Ethan_AIPM",
+        "postmeta.bookmark"
+      ],
+      "summary": "Seedance 2.0在2026年春晚上的惊艳亮相，标志着AI技术与传统文化的深度碰撞。这款AI舞蹈生成平台不仅大幅提升编排效率，更以'动态语义理解'能力精准捕捉中国美学精髓，创造出'技术赋能文化'的全新范式。本文将深度解析这场科技与文化'双向奔赴'背后的产品逻辑与产业影响。 当2026年春晚的帷幕缓缓拉开，观众们惊讶地发现，这场承载了数亿人记忆的年度文化盛宴，正在被一种前所未有的数字力量重新定义。AI舞蹈生成平台Seedance 2.0，这个曾只在科技圈小众讨论的工具，竟成了春晚舞台上的”隐形导演”，为传统年味…",
+      "key_points": [
+        "从幕后到台前：一场技术与文化的”双向奔赴” 2026年春节，Seedance团队悄悄与央视春晚制作团队达成合作，将Seedance 2.0技术深度融入春晚舞蹈编…",
+        "观众们惊讶地发现，这场承载了数亿人记忆的年度文化盛宴，正在被一种前所未有的数字力量重新定义。AI舞蹈生成平台Seedance 2.0，这个曾只在科技圈小众讨论的…",
+        "正在为传统文化注入新的生命力。正如一位观众在社交媒体上分享：”当AI跳起《茉莉花》，我仿佛看到了祖辈在月光下舞动的影子——技术，原来也可以如此温暖。” 未来展望…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从春晚看2026：AI的6个确定性方向",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342734.html",
+      "published": "Wed, 18 Feb 2026 00:45:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AI+",
+        "Seedance",
+        "AGI",
+        "AR",
+        "HDR"
+      ],
+      "summary": "春晚不仅是文化盛宴，更是AI产业的风向标。从宇树机器人的武道芯法到Seedance的视觉特效，2026年AI发展的六大核心方向已清晰显现。这些技术迭代背后，藏着具身智能、生成式AI与工业级落地的真实逻辑，更揭示了企业破局与个人升级的关键赛道。 但作为常年关注AI和产品行业的人，我换了个视角——把这春晚当成AI产业发展的新闻联播 瞬间就发现。春晚舞台上的机器人、豆包生成的视频、字节Seedance的视觉特效，从来都不是单纯的“科技炫技”，而是官方和企业联手释放的2026年AI发展核心信号 去年宇树机器人还只会转二人转…",
+      "key_points": [
+        "方向1：具身智能——从「武道芯法」到「人情世故」，场景化、情感化是核心 2026年具身智能的核心发展方向，不是追求更复杂的机械动作，而是 从“身体感知”到“情感…",
+        "更是机会，未来的工作藏在“欲望”里 最后，再跟普通人聊几句心里话，很多人担心AI会替代自己的工作，每天焦虑不已，其实完全没必要。回顾人类的科技发展历史，从蒸汽机…",
+        "我换了个视角——把这春晚当成AI产业发展的新闻联播 瞬间就发现。春晚舞台上的机器人、豆包生成的视频、字节Seedance的视觉特效，从来都不是单纯的“科技炫技”…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "除夕夜炸场！阿里千问3.5开源，硬刚Gemini 3 Pro",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342820.html",
+      "published": "Tue, 17 Feb 2026 14:39:06 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gemini",
+        "Pro",
+        "Agent",
+        "HTML",
+        "AI",
+        "CDN"
+      ],
+      "summary": "从逆向魔方到行星发动机演示，从网页复刻到多语言写作，本文通过一手实测深度拆解这款\"源神\"如何在逻辑推理、视觉理解、前端设计等维度实现国产大模型的真正突破，以及它为何将竞争从\"跑分\"带入\"好用、实用、用得起\"的新阶段。 昨天除夕夜，咱们继续肝呀。 谁叫阿里又整了大活呢，刚刚他们开源了全新一代模型千问3.5（Qwen3.5-Plus），性能媲美Gemini 3 Pro、GPT-5.2等顶级闭源模型，登顶全球最强开源大模型。 这次，千问3.5带来了全新的架构，用上了他们自研的门控技术（在去年斩获了NeurIPS最佳论文）…",
+      "key_points": [
+        "现在千问3.5的指令遵循得分76.5刷新纪录。你说啥它懂啥，拒绝“人工智障”。✍️ 支持201种语言，跨境文案一键生成，小语种编码效率提升 60%，出海党狂喜！…",
+        "刚刚他们开源了全新一代模型千问3.5（Qwen3.5-Plus），性能媲美Gemini 3 Pro、GPT-5.2等顶级闭源模型，登顶全球最强开源大模型",
+        "在千问APP中已经可以免费体验。阿里云百炼，也上线了千问3.5的API服务"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "​《断背山》会让希斯·莱杰更好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E2%80%8B%E3%80%8A%E6%96%AD%E8%83%8C%E5%B1%B1%E3%80%8B%E4%BC%9A%E8%AE%A9%E5%B8%8C%E6%96%AF%C2%B7%E8%8E%B1%E6%9D%B0%E6%9B%B4%E5%A5%BD",
+      "published": "Wed, 18 Feb 2026 20:30:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Twist",
+        "Cinema",
+        "Dennis",
+        "Grunes",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Dennis Grunes 译者：易二三 校对：覃天 来源：Senses of Cinema（2006年5月） 1998年，美国发生了许多令人心碎的事件。夏天，在德克萨斯州贾斯珀，非裔美国人小詹姆斯·伯德被三个白人拴在一辆卡车的后面，沿着一条崎岖的道路被拖拽至死。秋天，在怀俄明州拉勒米，21岁的大学生马修·谢帕德被绑在田里的柱子上活活打死，仅仅因为他是同性恋者。 怀俄明州和德克萨斯州也正是《断背山》故事发生的主要背景所在地，而且这部电影似乎与我们关于1998年的记忆相交缠。它并不是一部完美无缺的电影，有着不必…",
+      "key_points": [
+        "《断背山》（2005） 故事开始于1963年，就在约翰·F·肯尼迪总统遇刺的几个月前。两个年纪二十岁上下的男孩，恩尼斯·德尔·玛（希斯·莱杰饰）和杰克·特威斯特…",
+        "达到其宣传的目的。无论如何，莱杰都很好地抹去了他空洞的花瓶形象，给我们带来了一个巨大的惊喜。我不知道是否是父亲的身份促使他的演技得到提升。不管怎样，这说明我们以…",
+        "《断背山》并没有妨碍我们对一个严肃问题进行严肃的思考。在台湾出生的李安，以往更关注女性在不同社会中受到的压迫；在这部影片中，他把注意力转向了另一个受压迫的群体。…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《飞驰人生3》，这次又上了一个层次",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E9%A3%9E%E9%A9%B0%E4%BA%BA%E7%94%9F3%E3%80%8B%EF%BC%8C%E8%BF%99%E6%AC%A1%E5%8F%88%E4%B8%8A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%B1%82%E6%AC%A1",
+      "published": "Wed, 18 Feb 2026 20:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Eros",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Eros 春节看《飞驰人生》已经成为一个习惯。第一部的时候，它就以极致的专业性突破了国产赛车电影的天花板，第二部则更上一层楼，从票房表现到口碑评价都是如此。 这个系列也一直在探索同一个核心命题，热爱赛车的人，究竟为何而战？ 如果说从第一部到第二部，电影讲的还是为比赛的输赢而战，进而讲到为人生的输赢而战，那么到了第三部，韩寒选择了一条更难的路，一个更难挑战的对象。 这一次，沈腾饰演的张驰，面对的已经不只是赛道上的对手，而是一个更庞大、更无形的敌人。在这部电影里，嘴上说着不再比赛的张驰，看到沐尘100拉力赛的广告，…",
+      "key_points": [
+        "依然是笨拙，而又动人的。如果说前两部《飞驰人生》，观众都见证了张驰的某种逆袭，那么这一次，本质上仍然是一次绝地逆袭，只不过并非观众过去熟悉的那种凭借主角光环加持…",
+        "让《飞驰人生3》也拥有了更复杂的思想深度。它不再满足于讲述一个沉浸于热爱的励志童话，它把张驰放到了比赛场更大的真实世界、真实社会中。观众和张驰一起发现，赛场上直…",
+        "文 Eros 春节看《飞驰人生》已经成为一个习惯。第一部的时候，它就以极致的专业性突破了国产赛车电影的天花板，第二部则更上一层楼，从票房表现到口碑评价都是如此"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，迎一场春雨，等一片花开",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E8%BF%8E%E4%B8%80%E5%9C%BA%E6%98%A5%E9%9B%A8%EF%BC%8C%E7%AD%89%E4%B8%80%E7%89%87%E8%8A%B1%E5%BC%80",
+      "published": "Wed, 18 Feb 2026 09:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "or"
+      ],
+      "summary": "2026年2月18日，23时52分，雨水节气 雨水是二十四节气中的第2个节气 也是春季的第2个节气 《月令七十二候集解》中说到： “雨水，正月中。天一生水 春始属木，然生木者必水也 故立春后继之雨水 且东风既解冻，则散而为雨矣”。 上海，雨中梅花 雨是水的一种重要变化形式 在我国之所以被冠于多个古老节气 如雨水、谷雨、大雪、小雪等 是因为水是万物生命之源 对我国古代农人来说 风调雨顺，才能五谷丰登 但水也有坏脾气，会给人类带来灾难 时刻关注其踪迹，记录规律 让它在可掌控的空间中为人类造福 是中国人和自然和谐相处的一…",
+      "key_points": [
+        "雨中梅花 雨是水的一种重要变化形式 在我国之所以被冠于多个古老节气 如雨水、谷雨、大雪、小雪等 是因为水是万物生命之源 对我国古代农人来说 风调雨顺，才能五谷丰…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一夜文艺评论家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E5%A4%9C%E6%96%87%E8%89%BA%E8%AF%84%E8%AE%BA%E5%AE%B6",
+      "published": "Wed, 18 Feb 2026 11:57:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Zazazsu",
+        "AI",
+        "ar",
+        "Bitsea",
+        "blue",
+        "clouds"
+      ],
+      "summary": "我可以装作没有打开今年春晚王菲的视频切片，我也可以装作没有看见她的妆容在奇怪的灯光下让眼角呈现出一个倒钩，我还可以装作没有摄影机冷酷地怼在她脸上去放大每一丝岁月的痕迹，我甚至可以装作没有发现她的气息和声线已经不如全盛时代一般充沛和空灵，以至于有些段落不得不去做补偿处理。 这些都没关系。因为我可能是错的，我太想看到她成功演绎 Zazazsu 的《 百年长河不过是你和我经历着的一刻》，因为这份期待过于强烈，所以我的眼睛和耳朵就会变得过于挑剔，以至于没有福德去欣赏那些原本美好的部分，而是聚焦在遗憾上。 老王本身不需要解释…",
+      "key_points": [
+        "当然，时间需要投入到更重要的事情上去。听音乐肯定不是，起码一年三百六十四天里不是。只能给一天，具体说是一晚，在这一晚大家听音乐，做文艺评论家，飞快地做出判断，打…",
+        "我不想也无法纠正谁，非要硬塞给他们一个观点。但我的确认为，一个人只有到了春晚才听歌，一个人只有到了春晚才变身为文艺评论家，这件事情哪里有些不对劲",
+        "我个人是觉得这件事蛮困难的。你去做一支独立乐队，多年没有一首传唱得起来的歌曲，那就是你没才华，没本事，你写的歌难听。你有一首歌终于万人传唱，响遍街头巷尾，那你就…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "大事正在发生，但大多数人还没有意识到",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A4%A7%E4%BA%8B%E6%AD%A3%E5%9C%A8%E5%8F%91%E7%94%9F%EF%BC%8C%E4%BD%86%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BA%BA%E8%BF%98%E6%B2%A1%E6%9C%89%E6%84%8F%E8%AF%86%E5%88%B0",
+      "published": "Wed, 18 Feb 2026 08:14:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Codex",
+        "GPT-5.3",
+        "Anthropic",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "summary": "2.18 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 来源｜ 不懂经 作者 | 不懂经也叔的Rust ● ● ● 01 2026年可能是最具决定性的一年 2026年2月11日，科技界正在发生一些奇怪的事。 Brian Norgard，硅谷连续创业者，发了一条推文：\"我认识的几乎所有在科技行业工作的聪明人，都感到极度焦虑。仿佛一切都即将彻底崩塌。\" 同一天，另一个叫 @barkmeta 的科技博主写道：\"我不知道为什么2026年会成为一个转折点，但我认识的几乎所有真正关注时事的人…",
+      "key_points": [
+        "硅谷连续创业者，发了一条推文：\"我认识的几乎所有在科技行业工作的聪明人，都感到极度焦虑。仿佛一切都即将彻底崩塌。\" 同一天，另一个叫 @barkmeta 的科技…",
+        "机会窗口正在关闭 2026年2月11日这一天，也许只是历史中普通的一天，但它是如此的情绪满满。一边是科技行业的人在发推文说\"所有聪明人都在经历存在危机\"，另一边…",
+        "今天，一篇雄文《大事正在发生》 （Something Big Is Happening） 刷爆了推特。不到24小时，阅读量超2000万。作者是一位深耕AI领域的…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "这个春节档，唤醒了人们对IMAX家庭影院的渴望",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E8%BF%99%E4%B8%AA%E6%98%A5%E8%8A%82%E6%A1%A3%EF%BC%8C%E5%94%A4%E9%86%92%E4%BA%86%E4%BA%BA%E4%BB%AC%E5%AF%B9IMAX%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2%E7%9A%84%E6%B8%B4%E6%9C%9B",
+      "published": "Wed, 18 Feb 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IMAX",
+        "Ultra",
+        "X1",
+        "Netflix",
+        "CES",
+        "DMD"
+      ],
+      "summary": "文 丨 阑夕 今年院线春节档，IMAX厅的排片不出意外又引起了广泛讨论。 之所以说不意外，是因为如今电影的制作规格越来越高，在大作集中上新的时候，观众们的口味各不相同，且人人都在追求更好的观影体验。 于是IMAX成了空前稀缺的资源，去年春节期间，很多城市热门电影的IMAX厅一票难求，单块IMAX银幕的日均票房就达到了50万元——5倍于普通影厅的收入——可以说重构了影院的投资回报模型。 到了今年，《飞驰人生3》《镖人：风起大漠》《惊蛰无声》三部影片同步上线IMAX，排片之争的激烈程度有增无减，甚至有愈演愈烈的趋势。…",
+      "key_points": [
+        "也就能理解海信激光电视多年来布局家庭影院的必要性： 观影软文化的发展，势必也要有科技硬实力来做承接，只有在降低门槛的同时，把整体体验做到next level，才…",
+        "主流居住形态决定了我们大概率无法像欧美一样普及出「影音室」这个概念，所有影音设备都要聚集在客厅的后果，就是家庭影院的门槛变得越来越高，以致于彻底成为了小众娱乐",
+        "中国家电弯道超车的历史故事我们都很熟悉了，不过与以往不同的是， 这很可能是中国电视第一次，有了对新一代家庭影院的定义权"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "警惕中国汽车市场的萎缩 | 经济学人商业",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%AD%A6%E6%83%95%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%B8%82%E5%9C%BA%E7%9A%84%E8%90%8E%E7%BC%A9+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+      "published": "Wed, 18 Feb 2026 10:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "in",
+        "to",
+        "China",
+        "will",
+        "carmakers"
+      ],
+      "summary": "本文选自经济学人20260217商业板块 Business | Downshift 商业版块 | 减速慢行 Beware China’s shrinking car market. The resulting flood of exports will be good news for consumers. Less so for the world’s carmakers. 警惕中国汽车市场的萎缩。这一波随之而来的出口浪潮对消费者而言是福音，但对全球车企来说却并非如此。 Back in 2018, when Do…",
+      "key_points": [
+        "警惕中国汽车市场的萎缩。这一波随之而来的出口浪潮对消费者而言是福音，但对全球车企来说却并非如此",
+        "当唐纳德 · 特朗普首次威胁要冲击全球贸易体系时，全球最大的汽车市场突然急转直下。在经历了数十年的持续增长后，随着经济增长乏力，中国的汽车销量开始下滑。当时占据…",
+        "咨询公司 Sino Auto Insights 的涂乐表示，对于中国以外的车企而言，不幸的是，中国国内市场的放缓将导致该国汽车出口量进一步攀升。随着中国车企在海…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "“村漂”的年轻人，利用自媒体悄悄赚钱",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6342617.html",
+      "published": "Sun, 15 Feb 2026 13:28:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ico",
+        "CC0",
+        "Papa",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "PUA"
+      ],
+      "summary": "当\"北漂\"\"沪漂\"成为过去式，一批年轻人正带着都市阅历与数字技能逆向流动，在田间地头开启\"村漂\"新生活。从伊春林场记录猫冬日常的谷子，到安吉打造宫崎骏式农场的00后Ico，他们不再逃离乡村，而是用短视频、直播与社交媒体让乡愁\"联网\"，将乡土资源转化为现代资产。本文深度拆解这场介于都市高压与纯粹乡愁之间的\"第三种活法\"，以及1300万乡村创业人员如何用科技重构人与土地的关系。 曾经，“北漂”、“沪漂”、“深漂”是无数年轻人挣脱原有生活轨道、向上谋生的身份标签；而如今，一股逆向流动的潮流正在新一代中悄然兴起。 他们大多…",
+      "key_points": [
+        "02 换一个地方发光 像谷子这样利用自媒体回乡创业的年轻人如今越来越多。这些年轻人大多曾在北上广深等一线城市生活过，见过都市的繁华，拥有更开阔的视野和时尚的认知",
+        "一批年轻人正带着都市阅历与数字技能逆向流动，在田间地头开启\"村漂\"新生活。从伊春林场记录猫冬日常的谷子，到安吉打造宫崎骏式农场的00后Ico，他们不再逃离乡村，…",
+        "一些有远见的年轻人将工作与生活一同迁回乡村。于是，一大批融合传统与现代的新业态如雨后春笋般涌现：窑火面包店、乡村咖啡馆、特色民宿、乡镇博物馆…… 在江浙沪等经济…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "别禁止青少年使用社交媒体，限制措施弊大于利 | 经济学人社论",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%88%AB%E7%A6%81%E6%AD%A2%E9%9D%92%E5%B0%91%E5%B9%B4%E4%BD%BF%E7%94%A8%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%EF%BC%8C%E9%99%90%E5%88%B6%E6%8E%AA%E6%96%BD%E5%BC%8A%E5%A4%A7%E4%BA%8E%E5%88%A9+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A4%BE%E8%AE%BA",
+      "published": "Sat, 14 Feb 2026 09:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "their",
+        "social",
+        "as",
+        "they"
+      ],
+      "summary": "本文选自经济学人20260214期社论板块 Leaders | Let them scroll 社论 | 让他们刷屏吧 Don’t ban teenagers from social media 别禁止青少年使用社交媒体 Restrictions would do more harm than good 限制措施弊大于利 People don’t agree on much these days. But one thing brings them together, whatever their politics…",
+      "key_points": [
+        "本文选自经济学人20260214期社论板块 Leaders | Let them scroll 社论 | 让他们刷屏吧 Don’t ban teenagers…",
+        "screens and memes 青少年、屏幕与网络迷因 Politicians say their social-media bans are the on…"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "嵌入主线程消息循环的任务调度器",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2025/11/task_schedule_in_eventloop.html",
+      "published": "2025-11-22T05:54:16Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Lua",
+        "soluna",
+        "coroutine",
+        "ltask",
+        "lua",
+        "port"
+      ],
+      "summary": "最近在网友协助下把 soluna port 到包括 wasm 在内的非 windows 平台。其间遇到很多难题，大多是多线程环境的问题。因为 soluna 的根基就是基于 ltask 的多线程调度器，如果用单线程实现它，整个项目的意义就几乎不存在，所以它是把项目维护下去必须解决的问题。 好在 lua 有优秀的 coroutine 支持，它可以把运行流程抽象成数据，而 Lua 本身并未限制数据的具体储存方式，所以完全可以存在于内存堆中，脱离于 C 栈存在，这为各种在 C 环境下的多线程难题开了后门。C 语言依赖栈运行…",
+      "key_points": [
+        "最近在网友协助下把 soluna port 到包括 wasm 在内的非 windows 平台。其间遇到很多难题，大多是多线程环境的问题。因为 soluna 的根…",
+        "好在 lua 有优秀的 coroutine 支持，它可以把运行流程抽象成数据，而 Lua 本身并未限制数据的具体储存方式，所以完全可以存在于内存堆中，脱离于 C…",
+        "上一次发现利用一些技巧就可以完成一些看似不可能却的确可行的调度方式是 多线程串行运行 Lua 虚拟机"
+      ]
+    }
+  ]
+}
