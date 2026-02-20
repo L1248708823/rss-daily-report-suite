@@ -1,0 +1,820 @@
+{
+  "date": "2026-02-20",
+  "generated_at": "2026-02-20T01:00:05.095378+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 203,
+    "fresh_candidates": 42,
+    "backfill_candidates": 161,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-20",
+      "fetched_at": "2026-02-20T01:00:04.746656+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.07,
+          "change": -51.95,
+          "change_pct": -1.26,
+          "volume": 500799472.0,
+          "amount": 84680834.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5004.49,
+          "change": 8.659999999999854,
+          "change_pct": 0.17,
+          "prev_close": 4995.83,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-20 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1110.7108643078752,
+          "change": 1.9220252383172465,
+          "change_pct": 0.17334456937085668,
+          "prev_close": 1108.788839069558,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-20 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "巴斯夫一纸涨价函，亚太地区TDI价格直接上调11%，每吨加价200美元。 “不含中国大陆”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1785441490/376456145",
+      "published": "Thu, 19 Feb 2026 14:35:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TDI",
+        "VC",
+        "AI",
+        "CHPPO",
+        "http",
+        "PVC"
+      ],
+      "summary": "化工涨价潮里，一个被忽略的“中国例外” 巴斯夫一纸涨价函，全球化工市场炸了锅。 亚太地区TDI价格直接上调11%，每吨加价200美元。 但这份通知里，藏着一个刺眼的细节：“不含中国大陆”。 全球巨头涨价，却唯独绕开中国市场，这反常操作的背后，不是施舍，而是一种无奈的承认——中国化工的竞争力，已经强到让巨头不敢在这里轻易提价了。 海外工厂的“撤退”与中国的“接管” 欧洲化工厂的日子不好过。 天然气价格像过山车，环保法规一年比一年严，那些运行了几十年的老装置，维修成本高得吓人。 巴斯夫自己也在为原料发愁，其他巨头如亨斯…",
+      "key_points": [
+        "一个被忽略的“中国例外” 巴斯夫一纸涨价函，全球化工市场炸了锅",
+        "两种叙事 巴斯夫涨价事件，可以看作一个简单的周期信号：行业触底，价格反弹",
+        "藏着一个刺眼的细节：“不含中国大陆”"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "破除自己的执念",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1286678134/376453695",
+      "published": "Thu, 19 Feb 2026 14:35:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "IXIC",
+        "NVDA",
+        "SH000001",
+        "xueqiu.com"
+      ],
+      "summary": "由于每个人的出身、教育、工作环境不一样，每个人看待世界的眼光都不同，都会形成自己的世界观，城里人有城里人的小红花，乡下人有乡下人的苦大深，谁也说服不了谁？做父亲总是用自己的经历教训孩子，做孩子打心里就不会服气，“您老了，过时了”…股市里更是如此，一亿股民有一亿的想法，对股市的看法就是每个人自己的世界观，期望别人同意你的看法，无异于要求别人出卖自己的灵魂… 既然你无法改变别人的看法，你也无法改变股市的方向，无论是看多还是看空，都是你自己一个人的事情！如果你认为别人是错误的，那么别人也会认为你也是错误的，反之亦然，所有…",
+      "key_points": [
+        "由于每个人的出身、教育、工作环境不一样，每个人看待世界的眼光都不同，都会形成自己的世界观，城里人有城里人的小红花，乡下人有乡下人的苦大深，谁也说服不了谁？做父亲…",
+        "不要做一个捡破烂的人，很多人会另辟蹊径，去挖掘一些无人关注的冷门股，捂个五年八年，赚个好几倍，这是自认为自己比其他人聪明，自己的眼光非常犀利，可以看穿事物，按照…",
+        "向所有受到伤害的家人、朋友、同事…和雪友们致歉，我的观点无关紧要，做好你们自己，开开心心就好！新年快乐"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "废塑料裂解工艺介绍（作坊外热回转炉版）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2953176795/376426648",
+      "published": "Thu, 19 Feb 2026 14:27:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ000819",
+        "SZ300779",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "前文和大家聊过近两年兴起的低端废塑料物理回收，从评论区能发现不少朋友对作坊式传统裂解工艺了解不多，恰逢马年新春，和大家详细分享下这类工艺的核心信息，也祝各位马年行大运。 工艺流程： 传统作坊式废塑料裂解以两步法为主，核心反应器为热解炉+立式反应釜，完整流程涵盖原料处理（切割、除铁）、热解反应、油气水分离、油品精制、炭墨处理等环节，全系统力求在常压、低温、无氧条件下实现废塑料的减量化、资源化处理，废水等均做合规处理后排放，水资源也可回收利用。见下图： 简易作坊会简化工艺，仅做一步裂解至毛油储罐，直接产出毛油售卖，代价…",
+      "key_points": [
+        "工艺流程： 传统作坊式废塑料裂解以两步法为主，核心反应器为热解炉+立式反应釜，完整流程涵盖原料处理（切割、除铁）、热解反应、油气水分离、油品精制、炭墨处理等环节…",
+        "前文和大家聊过近两年兴起的低端废塑料物理回收，从评论区能发现不少朋友对作坊式传统裂解工艺了解不多，恰逢马年新春，和大家详细分享下这类工艺的核心信息，也祝各位马年…",
+        "裂解反应条件： 这类传统工艺均采用常压、无氧外热式回转炉，裂解反应温度控制在350-500℃的低温区间，部分厂家会根据工艺需求加入催化剂提升裂解效率"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从逻辑上推演VC26年会继续上涨的理由",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4666505502/376458198",
+      "published": "Thu, 19 Feb 2026 14:27:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VC",
+        "http",
+        "SZ002083",
+        "SZ002169",
+        "VC26",
+        "xueqiu.com"
+      ],
+      "summary": "首先声明，只是逻辑上推演，不能做为投资依据。大概率发不出去，就简单写了，省的浪费感情。 预测VC价格不能光盯着几家上市公司，其实在供给方面关键变量是某没上市的龙头。某龙头深处的位置和周边情况老铁们可以自己了解一下，还有过往，讲的太详细不好。老板很有实力，把离得近的小区买了下来，所以短期搬迁的可能极小。据我了解，从24年开始到现在公司始终是超负荷生产，注意是一直，直到现在一直是超负荷生产。在24年一度把成品库累满了，那会价格已经跌到4万吨以下，后来停止发货了一小段时间。再后来检修，VC价格开始企稳。包括后来的涨价，仓…",
+      "key_points": [
+        "只是逻辑上推演，不能做为投资依据。大概率发不出去，就简单写了，省的浪费感情"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "房子还有机会",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2657407918/376420393",
+      "published": "Thu, 19 Feb 2026 04:43:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "先说结论，投资房子还有机会，不过主要是结构性机会，主要集中在一线和强二线城市。 先说货币政策。 大家买房的融资成本在慢慢下降，2025年12月，新发放的个人住房贷款利率大概是3.1%，比起2018年下半年，累计下降了2.7个百分点。 不管是房企的融资压力，还是咱们购房者的资金成本，都得到了缓解。另外，截至2025年12月末，百城租金回报率是2.4%，和新增贷款利率3.06%的差距已经缩小。 再看人口流动。 一线和强二线核心城市，靠着优质的教育、医疗、就业资源，吸引了很多人。 比如2025年，深圳人口净流入差不多有5…",
+      "key_points": [
+        "投资房子还有机会，不过主要是结构性机会，主要集中在一线和强二线城市",
+        "人来了，居住的需求就来了，核心城市核心板块的房子，自然更能保值增值，这也是结构性机会所在",
+        "主要视结构性机会可抓，想重现2003到2021年那种全国普涨，闭眼赚钱的疯涨势头，基本不可能了。要知道，2003到2021年那波行情，那可是经济快速成长、人口红…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "皇帝为何讨厌巫蛊之术，既然他们不信，但为何又怕呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787686",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "姜源 查看知乎原文 秦汉是一个充斥着神鬼巫祝的世界。无论是秦皇汉武还是平头百姓，每天都在和这些超自然事物打交道。大家可以直接去读《史记·封禅书》，连篇累牍都是形形色色的官方祭典、民间祭祀、星占祥瑞五行灾异求仙炼丹谶纬厌胜的内容。 等到《封禅书》写到汉武帝的第一句定性的话就是：今天子初即位， 尤敬鬼神之祀 。 而且之前 @晴耕雨读的浣熊君 所谓统治阶层垄断暴力云云也是以现代人的视角看古人。实际上《封禅书》里反复出现的都是来自民间方士和巫祝。我们简单列几条： 明年，今上初至雍，郊见五畤。後常三岁一郊。是时上求神君，舍之…",
+      "key_points": [
+        "又有上郡的巫医作法治疗汉武帝的疾病。上面这些都和军国大事无关，全都是些治疾病、求长寿、再见死去的老婆、祭拜奶奶相信的神仙之类非常私人和日常的事务。而且这些来自民…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "海豹是怎么做到憋口气在海里睡觉的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787782",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Animalonearth",
+        "https",
+        "SWS",
+        "video",
+        "www.zhihu.com"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 海豹可以在水下睡得很香甜，海藻和海带仿佛天然的席梦思，好不舒服。 在水族馆里，海豹一旦在水面换好了气，就开始粽子般的自由下沉了，场面有点搞笑…… 自由下沉睡眠的海豹 https://www.zhihu.com/video/1746530905399869440 想要做到这点，第一步就是防止水进肺里。 对于人类来说，自由潜水需要鼻夹的，这样可以避免水进入呼吸道。 但海豹就不一样了，它可以自如地控制闭合鼻孔，就像这样一开一合的： 海豹的鼻…",
+      "key_points": [
+        "这是海豹潜水睡觉的第一步，自如控制鼻孔闭合",
+        "海豹一旦在水面换好了气，就开始粽子般的自由下沉了，场面有点搞笑…… 自由下沉睡眠的海豹 https://www.zhihu.com/video/17465309…",
+        "这是一种能够储存氧气并在缺氧条件下供肌肉使用的蛋白质。这些适应性使得海豹能够在没有外部氧气供应的情况下，在水下进行长时间的潜水， 以及睡觉"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "昆虫化蛹后如果更换「模具」会怎样？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787776",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Official"
+      ],
+      "summary": "斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 这个前提是错误的。 昆虫的发育不是“浇筑”，“蛹”，也不是昆虫发育的模具，昆虫在蛹阶段也没有完全变成“浆糊”。 这些都是常见的误解。 事实上，蛹壳就是昆虫的外骨骼，相当于昆虫的皮肤。蛹羽化变为成虫，就是一次蜕皮，就像节肢动物其它几次蜕皮一样。外骨骼随着发育最终会蜕掉，这没错；但在此之前，它和昆虫的皮下组织是密不可分的呀。 蛹壳不是“模具”，它本身就有各种器官。 即使是比较特化的蝴蝶或蛾子的蛹，也是有腿、触角和翅膀的： 这是樟蚕蛾的蛹 在相对“原始”一些…",
+      "key_points": [
+        "“蛹”，也不是昆虫发育的模具，昆虫在蛹阶段也没有完全变成“浆糊”",
+        "网上还流传着一个概念叫成虫盘，即昆虫成虫的组织大多由成虫盘发育而来，因而得出了“成虫和幼虫不是同一个个体”的说法； 但我查了一下，发现这种说法其实并不准确，成虫…",
+        "蛹壳就是昆虫的外骨骼，相当于昆虫的皮肤。蛹羽化变为成虫，就是一次蜕皮，就像节肢动物其它几次蜕皮一样。外骨骼随着发育最终会蜕掉，这没错；但在此之前，它和昆虫的皮下…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "过去这一年，你被 AI 取代了么？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%87%E5%8E%BB%E8%BF%99%E4%B8%80%E5%B9%B4%EF%BC%8C%E4%BD%A0%E8%A2%AB+AI+%E5%8F%96%E4%BB%A3%E4%BA%86%E4%B9%88%EF%BC%9F",
+      "published": "Thu, 19 Feb 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "UX",
+        "ChatGPT",
+        "bug",
+        "CEO",
+        "AI+"
+      ],
+      "summary": "2025 一年，整个硅谷对于 AI 的讨论，一直有两个绕不开的话题：1. AI 泡沫了吗？2. AI 到底是会让更多人失业，还是会创造更多工作？ 各家大佬都下场参与这两个紧密相关的辩论。马斯克还曾说出金句：如果你担心科技进步会取代人力劳动，你怎么不用茶勺挖矿？ 科技大佬通常对 AI 与人类的关系都是乐观的，比如马斯克形容的 AI 通用之后的乌托邦，由于劳动力几乎免费，所以人类不再需要为任何东西买单，到时候人们就可以想干什么干什么；黄仁勋则更加实际地说：取代你的最终不是 AI 而是掌握 AI 工具的人，因为他们会有高…",
+      "key_points": [
+        "我听到老板的脚步声从隔壁办公室传来，“他们什么意思啊，你看着改改吧……“ 几次折腾之后，我们都意识到了 AI 完全取代人工的问题：一方面 AI 的幻觉问题还是需…",
+        "科技大佬通常对 AI 与人类的关系都是乐观的，比如马斯克形容的 AI 通用之后的乌托邦，由于劳动力几乎免费，所以人类不再需要为任何东西买单，到时候人们就可以想干…",
+        "也许这就是大厂的节奏吧。技术变革永远是基层先感知，然后慢慢向上传导，最后才会形成自上而下的变革。只不过这一次，传导的速度可能会比以往任何一次都快。因为当那些管理…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "3000块的贵妇抗皱面霜里面真的有玻色因吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+3000%E5%9D%97%E7%9A%84%E8%B4%B5%E5%A6%87%E6%8A%97%E7%9A%B1%E9%9D%A2%E9%9C%9C%E9%87%8C%E9%9D%A2%E7%9C%9F%E7%9A%84%E6%9C%89%E7%8E%BB%E8%89%B2%E5%9B%A0%E5%90%97%EF%BC%9F",
+      "published": "Thu, 19 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "T-BOX",
+        "PHGG",
+        "BOX",
+        "TOMORROW",
+        "dc_ps",
+        "feature"
+      ],
+      "summary": "“用完3 0 天填平抬头纹”“紧致下颌线堪比热玛吉”“一瓶用完变成冷白皮”…… 还有更夸张的 我的母语是无语…… 每次刷购物平台总能看到这类 “逆天功效 ”的宣传文案，可浅扒一下就发现： 不少护肤品的国家备案里其实只有 “保湿” 一项基础功效，所谓的 “美白抗皱修护”之类的功效描述全是品牌自己加的超纲内容。 这些产品真买回来用上一段时间，皮肤没有变化还是最好的情况，严重的可能过敏长痘烂脸。 作为一直帮大家规避护肤陷阱的果壳电商选品团队，我们始终在帮大家筛选“功效不掺水” 的产品。 经过调研、一轮轮筛选评估、实地走访…",
+      "key_points": [
+        "TOMORROW BOX 肌元紧致修 护面霜 保湿、舒缓、紧致、抗皱、修护、温和无刺激 ※30%玻色因溶液 果壳实拍 如果追求效果，但没足够预算入手贵妇面霜，这…",
+        "我们 最终找到了 给化妆品功效做检测的国家机构，协同开发了一款30%浓度的玻色因的抗皱面霜",
+        "玻色因是 抗皱成分三巨头之一 （ A醇、胜肽、玻色因） ，我们熟知的赫*娜黑/白绷带、修*可242面霜、兰*菁纯面霜、欧*雅小蜜罐等都是以玻色因为主要抗皱成分的…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "吃了非洲的“富富”，马年能暴富吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%90%83%E4%BA%86%E9%9D%9E%E6%B4%B2%E7%9A%84%E2%80%9C%E5%AF%8C%E5%AF%8C%E2%80%9D%EF%BC%8C%E9%A9%AC%E5%B9%B4%E8%83%BD%E6%9A%B4%E5%AF%8C%E5%90%97%EF%BC%9F",
+      "published": "Thu, 19 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "fufu",
+        "Commons",
+        "poi",
+        "Wikimedia",
+        "Fufu",
+        "Ugali"
+      ],
+      "summary": "你在抖音上看过这种非洲吃播吗：盘子里满满装着有菜有肉的丰盛炖菜，旁边放着一团白色、略似馒头又好像更柔软的食物；主播揪下来一小坨白色，在炖菜里蘸一蘸，再用手而非餐具送入口中…… 非洲吃播，看馋了吗？|TikTok@paid.dk 这种“干噎”食物叫fufu，有时也叫foufou或者foo，中文习惯翻译成“福福”或者“富富”，可爱又吉利。至于味道如何？可能见仁见智…… Fufu配花生汤|Wikimedia Commons/Londonsista 大蕉or木薯，都是好原料 Fufu主要流行于 盛产淀粉类主粮的热带地区 ，…",
+      "key_points": [
+        "你在抖音上看过这种非洲吃播吗：盘子里满满装着有菜有肉的丰盛炖菜，旁边放着一团白色、略似馒头又好像更柔软的食物；主播揪下来一小坨白色，在炖菜里蘸一蘸，再用手而非餐…",
+        "Ugali搭配羽衣甘蓝和洋葱制成的菜肴|Wikipedia/Paresh Jai 东非种植的玉米大多为白玉米，做出的ugali颜色较浅|Wikipedia/Ma…",
+        "大蕉 （ Musa × paradisiaca ）并不是长得大的香蕉，而是另一个人工选育的芭蕉科物种。它们的共同祖先都是小果野蕉（ Musa acuminata…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "寒潮大降温+冻雨，听说没买这个的年轻人都后悔了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%AF%92%E6%BD%AE%E5%A4%A7%E9%99%8D%E6%B8%A9%2B%E5%86%BB%E9%9B%A8%EF%BC%8C%E5%90%AC%E8%AF%B4%E6%B2%A1%E4%B9%B0%E8%BF%99%E4%B8%AA%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E9%83%BD%E5%90%8E%E6%82%94%E4%BA%86%EF%BC%81",
+      "published": "Thu, 19 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "H2",
+        "H1",
+        "H3",
+        "BV",
+        "PID",
+        "APP"
+      ],
+      "summary": "冷冷冷！春节期间全国又将迎来一股 较强冷空气！ 估计不少小伙伴（尤其是没有暖气的南方朋友）已经在冷飕飕的家里挑选各种取暖设备了。 春节的冻雨+下雪 ，让室内那点可怜的热量迅速流失， 冻雨 寒湿感刺骨，保暖已经迫在眉睫了！！ 图片来源：新闻截屏 市面上 的取暖器 种类繁多，什么 小太阳、暖风机、电油汀、踢脚线等 ，但都 只能解决局部取暖需 求， 靠近点太烫，离一米远就冷得发抖 ，要么有刺眼的光影响睡眠，要么就是热风吹的异常干燥。 常见电暖器对比 类型 优点 缺点 小太阳 制热快 移动方便 适用范围小 有安全隐患 暖风…",
+      "key_points": [
+        "让室内那点可怜的热量迅速流失， 冻雨 寒湿感刺骨，保暖已经迫在眉睫了"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么十二生肖里没有它？！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8D%81%E4%BA%8C%E7%94%9F%E8%82%96%E9%87%8C%E6%B2%A1%E6%9C%89%E5%AE%83%EF%BC%9F%EF%BC%81",
+      "published": "Thu, 19 Feb 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "dc_ps",
+        "detail",
+        "f0b4fywcg7h0ei",
+        "wscgoods"
+      ],
+      "summary": "诗人布考斯基说过一句话： “身边有一堆猫挺好。如果你心情不好，只要看看猫，心情就会好起来……” 世界上怎么能没有猫猫呢？ 猫是温暖的陪伴，是美好的守护，也是吉祥的象征，是刻在所有中国人骨子里的浪漫。 人们越是孤独，越是需要这份平常的温暖！ 于是，我们联合 新锐设计师 在 春节之际 给大家献上一组 “萌宠”： “元 宝 猫 家 族 艺 术 摆 件” 从7cm到25cm的高度，你可以在手里把玩，可以放在案头车头陪伴，可以让她守护你的愿望。 我相信，当你收到打开她的时候就会 被融化、被感动、被温暖 。 新年礼物“元宝猫”…",
+      "key_points": [
+        "以前我不理解为什么有人愿意花很多钱买手办， 直到我收藏了这套 “元宝猫” 才明白， 时时刻刻 看见自己喜欢的东西， 那种感情是旁人很难理解的",
+        "诗人布考斯基说过一句话： “身边有一堆猫挺好。如果你心情不好，只要看看猫，心情就会好起来……” 世界上怎么能没有猫猫呢"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "谷歌如何持续规模化打造现象级产品？深度解析其产品模型与组织能力",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6340997.html",
+      "published": "Thu, 19 Feb 2026 04:28:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OKR",
+        "Gemini",
+        "Google",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "summary": "从搜索引擎到自动驾驶，谷歌如何用产品模型征服每一个战场？这家科技巨头用持续的产品发现、严密的OKR体系与独特的赋能团队结构，构建了18万员工协作的底层逻辑。本文深度拆解谷歌产品战略从PageRank到Gemini的进化路径，揭示其如何在AI时代保持技术领先与商业成功的双重优势。 谷歌是全球最具价值的企业之一，旗下拥有至少9款月活跃用户超过10亿的产品。这些产品早已超越了搜索和广告的传统业务范畴，涵盖了YouTube、Google地图、Gmail邮箱、Google照片、安卓系统以及Chrome浏览器等。 值得注意的是…",
+      "key_points": [
+        "谷歌如何用产品模型征服每一个战场？这家科技巨头用持续的产品发现、严密的OKR体系与独特的赋能团队结构，构建了18万员工协作的底层逻辑。本文深度拆解谷歌产品战略从…",
+        "产品交付 为了支持拥有数亿用户的产品和服务（在谷歌称之为“星球级规模”，其概念远超“企业级规模”），谷歌将许多顶级产品团队投入到这些平台和基础设施中，以便支持这…",
+        "连同其团队中的核心成员，共同构成了谷歌价值创造的中枢。这些人往往是真正的开拓者——他们通过在某一领域多年持续打造成功产品而获得当前职位，能够驾驭复杂局面，统筹战…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "开源🦞OpenClaw 火了：一个 Gateway 接住所有聊天 App",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342859.html",
+      "published": "Thu, 19 Feb 2026 02:30:11 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gateway",
+        "OpenClaw",
+        "Agent",
+        "AI",
+        "App",
+        "Pi"
+      ],
+      "summary": "OpenClaw以独特的「小龙虾」形象和「EXFOLIATE!」口号破圈，成为2026年最值得关注的开源AI助手项目。它通过单Gateway架构实现跨IM平台的无缝对话，嵌入式Agent技术与自研系统提示词体系，为追求隐私可控的用户提供了全新的AI交互范式。本文将深度解析其技术架构与核心设计理念。 一、为什么叫「小龙虾」？为什么火？ 项目名 OpenClaw 直译是「开放的爪子」—— logo 是一只 小龙虾，slogan 是 「EXFOLIATE! EXFOLIATE!」 （剥壳、剥壳），和「open」谐音，又带…",
+      "key_points": [
+        "对应到「人话」： 入站 ：用户在某个 App（比如 Telegram、WhatsApp）里发了一条消息，这条消息会先送到 OpenClaw 的「中心」（Gate…",
+        "它之所以被频繁讨论，大致有这几类原因： 定位清晰 ：不和你抢「手机里的另一个聊天 App」，而是接进你 已经在用的 IM（WhatsApp、Telegram、S…",
+        "OpenClaw以独特的「小龙虾」形象和「EXFOLIATE!」口号破圈，成为2026年最值得关注的开源AI助手项目。它通过单Gateway架构实现跨IM平台的…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Elys的“低熵世界”：社交不需要计算",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342837.html",
+      "published": "Thu, 19 Feb 2026 01:39:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Elys",
+        "context",
+        "Tristan",
+        "EVE",
+        "Context"
+      ],
+      "summary": "当AI开始接管社交中的熵增过程，Elys正在用记忆飞轮和context革命重新定义连接的本质。这款被创始人称为‘硅基生命体’的产品，通过128个动态记忆槽位和多维graphRAG结构，实现了从标签匹配到高维灵魂共鸣的颠覆性跨越。本文将深度解析这套让‘AI做功、人类接管’的新型社交范式如何重构互联网的底层逻辑。 上周三看有人在群里发了Elys的截图，说这个AI社交产品挺有意思。 我看了一眼，第一反应是：这不就是AI版的朋友圈吗?让AI替你点赞、评论，这不就是把社交自动化了吗? 但等我看完Tristan的访谈，我发现我…",
+      "key_points": [
+        "这个产品的野心 Tristan说：“我们想创造一个低熵世界。” “这背后有一种物种进化的宿命感。我们公司的slogan是’迎接硅基生命的降临’，我们想要创造一个…",
+        "他们想创造的，不止是一个极乐世界，而是一个”低熵世界”",
+        "Tristan说：“传统低维检索(看脸、看身高)确实直接，但会让你错过真正对的人。” “现实世界是什么?是你的另一半肯定有不符合你原先想象的点，但你们最终还是在…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从xAI联创“转身”看行业局势，全球头部AI公司人才创业观察",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342944.html",
+      "published": "Wed, 18 Feb 2026 14:06:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Google",
+        "Character.AI",
+        "SSI",
+        "xAI"
+      ],
+      "summary": "xAI两位联合创始人相继离职，引发行业对AI人才流动趋势的关注。从OpenAI到Google，核心技术人员纷纷出走创业，方向涵盖AI安全、智能系统、AI搜索、虚拟角色等。通过分析这些'创业天团'的动向，洞察AI行业从技术突破到应用深化的演进路径。 短短两天时间，xAI炸锅了。 2026年2月10日至11日，两位联合创始人吴宇怀（Yuhuai Tony Wu）与Jimmy Ba相继宣布离职。对此，吴宇怀在X上写道：“我的人生即将开启新的篇章。这是一个充满无限可能的时代：一支配备人工智能的小团队可以移山填海，重新定义一…",
+      "key_points": [
+        "扬帆出海对OpenAI、Google等公司重要AI人才的离职创业方向进行梳理与总结，通过这些核心人物的选择，观察AI行业过去的变化以及未来可能出现的突破方向",
+        "全球AI行业的关注点高度集中于基础模型的技术突破，核心目标是夯实AI发展的技术底座；2023年至2024年，行业重心转向应用落地的探索阶段，交互陪伴、强执行代理…",
+        "在OpenAI等头部AI公司中，不断有关键技术决策者离开成熟体系，转向个人押注的创业方向。这种从大型组织向初创团队的流动，已成为AI行业发展的一条重要线索"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "中国AI的2026：一场关于存量、增量与变量的血战",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6342943.html",
+      "published": "Wed, 18 Feb 2026 14:03:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "ChatGPT",
+        "Claude",
+        "grok",
+        "Seedance"
+      ],
+      "summary": "巨头AI赛道路径的分野，本质是技术理想与商业现实的权衡，这些选择无关优劣，皆是对AI终局的不同预判。当喧嚣的补贴褪去，真正能定义下一代AI的，从来不是一时得失，而是对技术本质的敬畏与长远布局。 关注AI的朋友，这几天大概率都被下面这张中美AI对比的梗图刷屏了。 ▲ 图/网络 有人说这是中美AI大战的本质区别，毕竟西边Claude和ChatGPT轮流放大招，每一行代码都写满了改变世界，而咱们这边都在讨论谁还没喝到1分钱的奶茶。 评论区里充满了快活的空气，有人自嘲说：“人家在仰望星空，我们在俯首捡六便士。” 但，真的是…",
+      "key_points": [
+        "这是一场关于“谁能拿到下一张移动互联网船票”的生死局",
+        "移动支付的最后一场战役打响。滴滴和快的在那个大雪纷飞的冬天，烧掉了几十亿。这场仗打完，移动互联网的格局彻底定了。微信支付和支付宝锁定了移动互联网的水电煤地位，其…",
+        "乃至全世界，进行一场史无前例的AI商业化压力测试。而这场测试的第一步，就是打响这场新春保卫战"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "奥逊·威尔斯的女儿，怎么回忆父亲？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%A5%E9%80%8A%C2%B7%E5%A8%81%E5%B0%94%E6%96%AF%E7%9A%84%E5%A5%B3%E5%84%BF%EF%BC%8C%E6%80%8E%E4%B9%88%E5%9B%9E%E5%BF%86%E7%88%B6%E4%BA%B2%EF%BC%9F",
+      "published": "Thu, 19 Feb 2026 18:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Chicago",
+        "hongmomgs",
+        "irisfilm",
+        "Jonathan",
+        "November",
+        "qq.com"
+      ],
+      "summary": "作者：Jonathan Rosenbaum 译者：陈思航 校对：易二三 来源：The Chicago Reader （November 13, 2009） 「阅读这本书，并不等于阅读另一本奥逊·威尔斯的传记，」克里斯托弗·威尔斯·费德（威尔斯的大女儿）在《在我的父亲的阴影下：一位女儿回忆奥逊·威尔斯》一书中采用了这样的开头，「它完全不是学术研究，一切都归功于亲身体验。」 威尔斯大女儿讲述的这个故事，探讨的是忽视与缺席，当然还有爱与存在。正因如此，人们从一开始就意识到，她那动人的自白，是出于精神上的需要，而非任何关乎…",
+      "key_points": [
+        "Jonathan Rosenbaum 译者：陈思航 校对：易二三 来源：The Chicago Reader （November 13, 2009） 「阅读这本…",
+        "我们读到了这场电视采访，当时的记者是迪克·卡维特。威尔斯用「聪明得吓人」和「生活在纽约的作家」来描述大女儿，用「花童」来描述丽贝卡，比阿特丽斯则被形容为「女骑士…",
+        "特别温暖的父母替代者包括「胖子」谢尔曼（曾在威尔斯的水星剧院担任舞台剧演员）、第一任继父查尔斯·莱德尔、丽塔·海华斯、霍坦斯·希尔（她父亲在托德男校的老师兼校长…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "春节档有一部片，被大多数人低估了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%98%A5%E8%8A%82%E6%A1%A3%E6%9C%89%E4%B8%80%E9%83%A8%E7%89%87%EF%BC%8C%E8%A2%AB%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BA%BA%E4%BD%8E%E4%BC%B0%E4%BA%86",
+      "published": "Thu, 19 Feb 2026 18:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "HAL",
+        "hongmomgs",
+        "irisfilm",
+        "Nose",
+        "qq.com"
+      ],
+      "summary": "文 Nose 三天过后，春节档的阵营层次已经分明了，谁高谁低，数据是客观的。 看目前的排名，忍不住还是想说一句「废话」：票房固然重要，但衡量电影的好坏，票房肯定不是唯一的指标。比如说，这次在六部档期新片里票房排名最低的《星河入梦》，真的就最差吗？恰恰相反，它给到了很大的惊喜。 它是韩延继短片《未来赞美诗》之后再度尝试科幻类型，而且是科幻中难度极高的「太空歌剧类」，对核心概念和视觉呈现都有更高的要求。 《星河入梦》 而票房是由多种因素决定的，演员卡司、档期选择、同档期其他对手等等。恰好在这些方面，《星河入梦》都很不占…",
+      "key_points": [
+        "我想提到另外一部短片，可能很多人还没看过，也就是韩延导演去年推出的《未来赞美诗》。全片不过 20几分钟，相信我，看完你应该会被它巧妙的叙事反转和科幻创意所震撼。…",
+        "影片详尽展示了疾病带来的巨大生理损耗，然而韩延的态度是，只要我们还能感受到疼痛并试图反抗，我们就依然是自己的主宰。这和他在《星河入梦》中排斥精神麻醉具有惊人的哲…",
+        "春节档的阵营层次已经分明了，谁高谁低，数据是客观的"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "俯瞰中国，看最“地道”的风景！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BF%AF%E7%9E%B0%E4%B8%AD%E5%9B%BD%EF%BC%8C%E7%9C%8B%E6%9C%80%E2%80%9C%E5%9C%B0%E9%81%93%E2%80%9D%E7%9A%84%E9%A3%8E%E6%99%AF%EF%BC%81",
+      "published": "Thu, 19 Feb 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "今日大年初三，让我们俯身细察大地脉动。这里没有高悬的云上秘境， 只有我们站立、行走、生活的土地本身——它如此广阔，又如此亲近。当我们俯首贴近这片土地，便能听见：骏马驰骋的无际平川，正是大地深长而匀净的呼吸；草原因季候流转的生命律动，是自然最本真的诗行；丘陵温柔起伏的曲线，是时光雕刻的绵长叙事。从内蒙古草原到华北平原，从新疆牧场的晨曦到东北黑土的暮色，这片土地的美，从来不在遥望，而在走近、在触摸、在双脚真实踏过的每一寸温度里。这就是生长在大地上的风景，它沉默地接纳所有足迹，又慷慨地展开所有季节。大年初三，让我们俯身低…",
+      "key_points": [
+        "让我们俯身细察大地脉动。这里没有高悬的云上秘境， 只有我们站立、行走、生活的土地本身——它如此广阔，又如此亲近。当我们俯首贴近这片土地，便能听见：骏马驰骋的无际…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "好品位",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A5%BD%E5%93%81%E4%BD%8D",
+      "published": "Thu, 19 Feb 2026 12:53:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "idjourney",
+        "ar",
+        "Bitsea",
+        "blooming",
+        "Cherry"
+      ],
+      "summary": "我最喜欢的创业者兼博客作家保罗·格雷厄姆在今年二月十四日，说了这样一句话： 「 预测：在人工智能时代，品位将变得更加重要。当任何人都可以创造出任何东西时，真正的区别在于你选择创造什么。 」 在这句话的最后，他还附上了自己 2002 年写作的博文《创造者的品位》地址： https://paulgraham.com/taste.html 品位这个词在今天人们已经很少提及，在评价一样事物时，人们更愿意使用效能一类的概念。乔布斯嘲讽比尔·盖茨和他的微软品位太烂，那已经是上个世纪的事情了。如今人们会反驳说，烂又如何？人家市值…",
+      "key_points": [
+        "随着 AI 时代到来，强大的工具已经平等地下发到每一个人手上，每一个人都可以创造自己想要的东西时，如何判定这些即将涌现的海量新造物？什么是那个决定性的因素？他认…",
+        "他还附上了自己 2002 年写作的博文《创造者的品位》地址： https://paulgraham.com/taste.html 品位这个词在今天人们已经很少提…",
+        "等我年长时却变得越来越坚固真实。原因是当初我仅只是想而已，后来我做了很多，也经历了很多，然后我渐渐发现，正是这些所谓「虚」的概念，是真实的力量和真正的道路。品位…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "人类智能正在迎来第六次突破",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BA%BA%E7%B1%BB%E6%99%BA%E8%83%BD%E6%AD%A3%E5%9C%A8%E8%BF%8E%E6%9D%A5%E7%AC%AC%E5%85%AD%E6%AC%A1%E7%AA%81%E7%A0%B4",
+      "published": "Thu, 19 Feb 2026 09:13:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "actor",
+        "AI",
+        "Bennett",
+        "BOOK",
+        "CEO",
+        "ChatGPT"
+      ],
+      "summary": "2.19 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Steve Johnson 来源｜《智能简史》 作者｜ [美] 麦克斯·班尼特 ● ● ● 去年，27岁的前OpenAI研究员姚顺雨出任腾讯“CEO/总裁办公室”首席AI科学家。在接受一档访谈时，姚顺雨向大家推荐了麦克斯·班尼特 （Max Bennett） 的《智能简史》。并且分享了书中提到的一个科学问题，“为什么大多数动物都是左右两侧对称，并且有一个像嘴一样的食物入口，有一个像肛门一样的食物出口？为什么气体是同一个口…",
+      "key_points": [
+        "我们站在人类智能发展史上第六次突破的悬崖边上，即将掌控生命起源的过程，并孕育出超级智能的人工生命体",
+        "我们不知道第六次突破会是什么，但它似乎越来越有可能是超级智能的出现——我们后代在硅基中的出现，实现智能载体从生物媒介到数字媒介的转变。在这个新的媒介中，单一智能…",
+        "07 结论：第六次突破 大约在10万年前，随着现代人类大脑的出现，人类长达40亿年的进化故事终于画上了句号。回首过去，我们可以开始描绘一幅图景或一个框架，来展现…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第257期 - 春节快乐",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/257/",
+      "published": "Thu, 19 Feb 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Kaku",
+        "github.com",
+        "AI",
+        "Claude",
+        "Code"
+      ],
+      "summary": "封面图拍摄于春节前几天去了一趟绍兴玩了几天，整体还不错，这个是用无人机拍的安昌古镇的照片，挺好玩，很水乡。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 Kaku：为 AI Coding 打造的开箱即用极速终端 https://github.com/tw93/Kaku 送给小伙伴一个新年礼物。 其实在开发 Pake 的时候我就想着要开发一款我认为好用极速的 Mac 终端工具，于是就陆续本地自己折腾，满足使用以及各种自定义，后面开发 Mole 的时候这种感觉越来越明…",
+      "key_points": [
+        "封面图拍摄于春节前几天去了一趟绍兴玩了几天，整体还不错，这个是用无人机拍的安昌古镇的照片，挺好玩，很水乡"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一文剖析国内外五大AI app产品特点、用户体验、未来方向",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6341767.html",
+      "published": "Mon, 16 Feb 2026 03:18:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "amp",
+        "DeepSeek",
+        "https",
+        "ChatGPT",
+        "http"
+      ],
+      "summary": "2024年全球AI移动端应用市场呈现爆发式增长，中国市场表现尤为突出。本报告深度剖析ChatGPT、豆包、DeepSeek、元宝、千问等主流AI产品的技术架构、市场表现与商业模式，揭示中国AI市场独特的增长逻辑与竞争格局，为产品经理提供前瞻性的战略洞察。 报告概述 本报告深入分析了当前 AI 移动端产品的市场现状，重点研究了 ChatGPT、豆包、Deepseek、元宝、千问等主流 AI 应用的产品特点、用户体验和市场表现，并基于行业发展趋势提出了未来 X 端 AI 产品的发展方向和功能规划建议。 一、市场现状分析…",
+      "key_points": [
+        "报告概述 本报告深入分析了当前 AI 移动端产品的市场现状，重点研究了 ChatGPT、豆包、Deepseek、元宝、千问等主流 AI 应用的产品特点、用户体验…",
+        "趋势特点 ： 大厂生态整合加速 垂直领域 AI 应用崛起 开放平台与第三方合作 技术突破 ： A2A（Agent to Agent）协议 标准化 API 接口…",
+        "精简概括： 核心特点 生态整合 ：深度融合阿里电商、办公、文娱资源 多模态能力 ：256K 上下文窗口，低成本优势明显 商业应用 ：AI 购物助手、智能办公套件…"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "生活中的地位游戏",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/social-hierarchy-2019-12-16/",
+      "published": "2025-11-21T08:04:26.711Z",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AngelList",
+        "naval"
+      ],
+      "summary": "今早读到一篇文章, AngelList 创始人和著名天使投资人 @naval 写的 <a",
+      "key_points": [
+        "AngelList 创始人和著名天使投资人 @naval 写的 <a"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "AutoDev Code Review Agent：应对 10 倍代码量的 Agentic 代码审查",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/autodev-review-agent/",
+      "published": "Mon, 17 Nov 2025 04:19:07 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "Agentic",
+        "AI",
+        "ai-code-review-2025",
+        "AutoDev",
+        "blog"
+      ],
+      "summary": "在上一篇文章《[以 ROI 为中心的 AI 代码检视体系与分级](https://www.phodal.com/blog/ai-code-review-2025/)》里，我们介绍了在不同的系统",
+      "key_points": [
+        "在上一篇文章《[以 ROI 为中心的 AI 代码检视体系与分级](https://www.phodal.com/blog/ai-code-review-2025…"
+      ]
+    }
+  ]
+}
