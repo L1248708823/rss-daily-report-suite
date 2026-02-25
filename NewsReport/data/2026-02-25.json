@@ -1,0 +1,854 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-02-25T01:00:05.052821+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 204,
+    "fresh_candidates": 58,
+    "backfill_candidates": 146,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-25",
+      "fetched_at": "2026-02-25T01:00:04.742791+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4117.41,
+          "change": 35.34,
+          "change_pct": 0.87,
+          "volume": 566322249.0,
+          "amount": 93861138.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5153.69,
+          "change": 12.259999999999309,
+          "change_pct": 0.24,
+          "prev_close": 5141.43,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-25 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1140.1794533734144,
+          "change": 2.712347870818121,
+          "change_pct": 0.23845506016806128,
+          "prev_close": 1137.4671055025963,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-25 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-25",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "管理压岁钱的6条投资建议！你的孩子需要拥抱风险资产，而不是回避它～",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%AE%A1%E7%90%86%E5%8E%8B%E5%B2%81%E9%92%B1%E7%9A%846%E6%9D%A1%E6%8A%95%E8%B5%84%E5%BB%BA%E8%AE%AE%EF%BC%81%E4%BD%A0%E7%9A%84%E5%AD%A9%E5%AD%90%E9%9C%80%E8%A6%81%E6%8B%A5%E6%8A%B1%E9%A3%8E%E9%99%A9%E8%B5%84%E4%BA%A7%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E5%9B%9E%E9%81%BF%E5%AE%83%EF%BD%9E",
+      "published": "Tue, 24 Feb 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "节后开工第一天，我们收到很多宝妈、宝爸的咨询： 过年收到的压岁钱，应该怎么理财？ 很多家长的直觉是把钱存进银行，或是购买低风险的稳健型资产。 但是！这种出于“求稳”的本能决策，恰恰犯了一个方向性的错误——管理压岁钱，不仅不应该回避风险，反而需要主动拥抱以股票为代表的高风险资产。 一、股票是长期表现最好的资产之一 一般情况下，压岁钱有5年、10年甚至更长的时间用于投资，属于“超长期限资金”。 对于这类资金，我们首先要了解，在长周期内，哪种资产表现最好？ 德意志银行在2025年10月发布的《长期投资终极指南》中，覆盖了…",
+      "key_points": [
+        "恰恰犯了一个方向性的错误——管理压岁钱，不仅不应该回避风险，反而需要主动拥抱以股票为代表的高风险资产",
+        "咱们可以看两个数据： 假设每年收到压岁钱都进行投资，按照每年投1万计算，持续15年，不同的投资方式，差距将会扩大到35%左右： 年化3%的低风险理财： 15年后…",
+        "一、股票是长期表现最好的资产之一 一般情况下，压岁钱有5年、10年甚至更长的时间用于投资，属于“超长期限资金”"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资策略新思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4556118930/376678526",
+      "published": "Tue, 24 Feb 2026 09:32:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "iPhone",
+        "iphone",
+        "L4",
+        "WTO"
+      ],
+      "summary": "2022年以前中国80%的市场属于增量市场，成长股投资属于资本市场的绝对主流（分红思维属于小众），大消费、医疗医药、地产产业链、互联网和移动互联网领域属于四大牛股集中营，大概囊括了市场上80%的牛股，这些牛股都有很强的业绩支撑，利润都获得了持续10-20年的中高速增长，回顾这一投资黄金阶段的时代背景： （1）2001年中国加入WTO以后，经济爆发性发展，消费升级持续了二十多年； （2）医疗从低水平起步到全民覆盖，叠加人口老龄化，医疗医药行业获得了空前的发展； （3）1998年房改以后，中国的房地产开启了一轮持续23…",
+      "key_points": [
+        "我们可以得到以下几个结论：（1）国内增量行业由原来的80%变为现在的10-20%，成长性行业变得稀缺；（2）大部分增量行业都被过度定价，分红股投资由过去的可选项…",
+        "以上就是本人在新的时代背景下做的一些投资思考和投资选择，通过两张新地图寻找投资标的，通过深入研究企业的基本面找到唯一的锚定物“业绩“，在增量和存量两个池子里找到…",
+        "（2）50-80%的分红率基本上是可持续的，超过100%的分红率就是作弊，分红的可持续性是投资分红股的核心思考点"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "腾讯困局：AI的焦虑、狂热与恐慌",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7280306436/376669362",
+      "published": "Tue, 24 Feb 2026 09:32:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "SaaS",
+        "APP",
+        "DS",
+        "Claude"
+      ],
+      "summary": "$腾讯控股(00700)$ 最近Claude Cowork的发布导致了美国SaaS行业的一轮大规模杀估值，不仅影响了美股SaaS企业本身，也对大洋彼岸的港股造成了巨大的影响。其表现就是，作为互联网老登代表的恒科成分股大多经历了一轮下跌，而同时最近上市的大模型公司则经历了一波极速的拉升。 作为恒科的老大，腾讯在这次下跌潮中受到的非议也是最大的。先是传出了税率的小作文，然后则是对于元宝营销失败、能力掉队的各种议论，最后则是腾讯彻底落后于字节，将会被大模型所完全颠覆的结论，使腾讯股价一路从600多下探到了500出头。 我…",
+      "key_points": [
+        "第一部分：探索AI时代的终局 1）社会的深层焦虑催生了对AI的狂热和恐惧 其实，AI大模型不是第一天出现，类似的XX行业要被XX模型彻底杀死的论调可以说是屡见不…",
+        "我已经见证了不少跟AI这个行业没太大关系的人对于AI的狂热钻研，也看到了一些跟大模型关系不太强的公司正动员公司上下积极学习。甚至你都可以在某些知名公众人物的播客…",
+        "假如未来几年AI基建Capex持续增加，算力成本持续走低，大模型能力趋同，我相信腾讯的价值会被进一步体现。而如果市场再进一步焦虑，可能就是价值投资者长线布局的良…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "怎么构建化工行业的一篮子股票？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6843441724/376713642",
+      "published": "Tue, 24 Feb 2026 09:31:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PTA",
+        "ETF",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在全周期板块的轮动传导逻辑中，周期股的炒作顺序清晰可循：首先是贵金属（黄金、白银）凭借避险属性率先启动，随后工业金属（铜、铝、锌、铅）跟随经济复苏预期逐步走强，接着小金属/战略金属（稀土、锂、钴、锡、钨、锑）迎来行业景气度巅峰，再由能源（原油、天然气、煤炭）承接通胀传导效应，之后化工（基础化工、精细化工、大炼化）随产业链扩散完成轮动，而后黑色系（铁矿石、钢铁、焦炭）步入周期收尾阶段，农产品（大豆、玉米、小麦）作为通胀最后传导环节跟进，最终房地产/建材抵达周期终极阶段。 顺着这轮行情的炒作脉络来看，贵金属与有色金属的…",
+      "key_points": [
+        "二、化工行业的一篮子股票 布局行业一篮子股票最高效的方式，就是聚焦行业内市值前两名的龙头企业。当行业景气度上行时，尽管部分中小公司可能具备更高业绩弹性，但配置行…",
+        "共计12家优质标的，即可构成一组简易的化工行业“类ETF”组合。这也是普通投资者无需过度纠结个股细节、直接布局赛道与行业的实用方法。若对行业具备更深入的研究，还…",
+        "结合细分赛道与市值维度进行筛选，我们可从基础化工大行业中，精准梳理出十大细分领域的龙头标的：聚氨酯行业龙头万华化学，总市值2659.6亿元；煤化工行业龙头宝丰能…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "来点煤炭方面的干货",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3607948896/376686945",
+      "published": "Tue, 24 Feb 2026 09:31:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "很抱歉，这个春节，家人给了我5天的独处时间，但我自己只研究了3天股票，但完成了3次运动合计1000个投篮计划，定点投篮命中率约30%，感觉比我选股命中率差不少。回想2025年春节研究铜金股，整理了10来家公司的矿山和矿产金成本，目前铜金股都不便宜了，所以研究兴趣也不是很大，这个春节主要整理了一些煤炭股的基本情况，毕竟2022年-2023年比较深入的研究过不少煤炭上市公司，主要谈点煤价认知和印钞机矿井。 一、煤价 大宗商品的价格和股价类似，短期价格很难准确预测，但也不是无迹可训，国内煤价供需，供给受到进口政策（印尼、…",
+      "key_points": [
+        "这个春节，家人给了我5天的独处时间，但我自己只研究了3天股票，但完成了3次运动合计1000个投篮计划，定点投篮命中率约30%，感觉比我选股命中率差不少。回想20…",
+        "短期价格很难准确预测，但也不是无迹可训，国内煤价供需，供给受到进口政策（印尼、澳大利亚）、安全环保检查、运输通道、天气变化影响，需求受到工业需求、天气变化等多方…",
+        "二、个股 龙头煤炭股：神华和中煤价格高位，我不暂时不考虑；兖煤有点复杂，可能弹性大，难度偏高；个人看好陕煤，资源好，简单，缺点就是矿井的权益偏低； 二线煤炭股：…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些全身透明的动物？它们为什么是透明的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787855",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "www.beautyofscience.com",
+        "Oreolalax",
+        "cm",
+        "rhodopsin",
+        "Chen",
+        "in"
+      ],
+      "summary": "小星有鬼， 没用的生物学知识又增加了 查看知乎原文 同样是动物幼体呈现出透明的身体，不知道 透明的蝌蚪， 有兴趣了解下没？ 红点齿蟾蝌蚪 红点齿蟾蝌蚪 红点齿蟾蝌蚪 红点齿蟾蝌蚪 上图这只长达 14cm 的巨型半透明蝌蚪照片是一只在贵州遵义城郊一处海拔约 780 米的洞内溪流中发现 红点齿蟾（ Oreolalax rhodostigmatus ） 幼体。 红点齿蟾的蝌蚪是我国体型最大的蝌蚪之一（经常见到的美洲牛蛙的大蝌蚪并非我国原产），通常最大的时候有 8-12cm 左右，上图那个更是大中之大了。而成体一般仅有 6…",
+      "key_points": [
+        "没用的生物学知识又增加了 同样是动物幼体呈现出透明的身体，不知道 透明的蝌蚪， 有兴趣了解下没",
+        "种群密度远低于地表生存的近缘种，种群数量也极其稀少，目前为国家一级重点保护动物，洞穴旅游开发，地下水污染，石灰岩开采，甚至一些不规范的以科学研究为目的的采集过度…",
+        "图片源自 www.beautyofscience.com，摄于重庆南川 红点齿蟾在洞穴内产卵， 在无光、营养缺乏的环境下发育并变态 ，表现出 真洞穴适应 的特征…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如果地球在冥王星轨道上，那么中午天空是灰蓝色还是黑色还是什么颜色？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787865",
+      "published": "Invalid Date",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AU",
+        "lg"
+      ],
+      "summary": "太空僧， 2022年新知答主｜航天及天文优秀答主 查看知乎原文 先给出答案： 漆黑漆黑的 ，只有一个小亮点，带着一圈微弱蓝晕。 开始流浪 假设现在我被知乎赋予了神力，把整个地球放置到了冥王星轨道上。 冥王星离太阳有多远呢？平均来说，是地球到太阳的 39 倍多。（当然，考虑到冥王星的公转轨道是很椭圆的，最远可以到 49.3 个天文单位，最近只有约 30 个天文单位，它有时会比海王星离太阳更近，我们这里只用个平均距离 39.5AU） 天空中的太阳 这时候太阳有多亮呢？ 由于太阳辐射强度遵循 平方反比定律 ，也就是光的强…",
+      "key_points": [
+        "把整个地球放置到了冥王星轨道上",
+        "是地球到太阳的 39 倍多。（当然，考虑到冥王星的公转轨道是很椭圆的，最远可以到 49.3 个天文单位，最近只有约 30 个天文单位，它有时会比海王星离太阳更近…",
+        "在前面所说的如此之低的光照强度下，散射光总量会显著减少，天空亮度当然也就相应的降低。因此，中午的天空不再会像地球以前那样是那种明亮均匀的蓝色，你再也看不到了，现…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "太阳系形成过程中，有多少行星被毁灭？能找到它们曾经存在的证据吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9787861",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Group",
+        "Angrite",
+        "https",
+        "doi.org",
+        "km",
+        "Ureilite"
+      ],
+      "summary": "Ungrouped-CC 查看知乎原文 当然可以。只要能获得足够的陨石样本，我们甚至能在一定程度上计算它们原本的大小，以及它们被毁灭的年代。 短答版：主流的行星起源模型认为，在太阳系形成早期 (约 45 亿年前)，有几十到上百颗月球~火星大小的行星胚胎毁灭于巨型碰撞事件。然而，由于地球上缺少来自这些古老行星的陨石样本，目前只能确认其中 3 颗。其中两颗是通过对陨石的矿物化学成分分析反演出原始母星的大小，另一颗则是通过计算机模拟和地球化学质量平衡计算得出原始母星大小。 PS: 回答字数为 9.2 k，建议配合目录阅读…",
+      "key_points": [
+        "在太阳系形成早期 (约 45 亿年前)，有几十到上百颗月球~火星大小的行星胚胎毁灭于巨型碰撞事件。然而，由于地球上缺少来自这些古老行星的陨石样本，目前只能确认其…",
+        "地球甚至没能集齐来自内太阳系行星（如水星、金星）的陨石样本。而那些在太阳系早期就已经毁灭的古老行星，它们的碎片大多已经在漫长的地质年代里被太阳系行星吸积殆尽，要…",
+        "（5）水星是形成于极端还原环境的内太阳系行星，其硅酸盐的亲铁元素应该强烈贫化，具有较高的 Hf/W 和 Ta/W 比值。但 NWA 7325 的 Hf/W 和…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "警惕：被过度填满的寒假，正剥夺孩子的关键能力",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%AD%A6%E6%83%95%EF%BC%9A%E8%A2%AB%E8%BF%87%E5%BA%A6%E5%A1%AB%E6%BB%A1%E7%9A%84%E5%AF%92%E5%81%87%EF%BC%8C%E6%AD%A3%E5%89%A5%E5%A4%BA%E5%AD%A9%E5%AD%90%E7%9A%84%E5%85%B3%E9%94%AE%E8%83%BD%E5%8A%9B",
+      "published": "Tue, 24 Feb 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Griffiths",
+        "Lisa",
+        "Mark",
+        "Rosenblum"
+      ],
+      "summary": "寒假已至，当许多家长正忙着填满孩子的日程表时，我却想泼一盆冷水： 千万，千万，千万别把你孩子的假期安排得太满。 因为曾经我 就 深信 “假期逆袭”那一套， 热血沸腾地给老大制定各种“弯道超车”的计划。 报不完的学科衔接班、赶不完的兴趣打卡、排得密密麻麻的亲子活动，恨不得把孩子的每一分每一秒都“利用”起来。 “闲着就是浪费时间”“别人都在学，我们不能停”，抱着这样的想法，老大的假期作息简直精确到分钟。 可那时对老大 过于 上心， 以至于对我家 老二分身乏术，只能无奈 “放养”，大部分时间，我们都是放任老二自己摸索着找…",
+      "key_points": [
+        "美国儿童发展心理学家莉萨・罗森布拉姆（ Lisa Rosenblum）写在《儿童自主学习能力的发展》中的一段话戳中了我—— “当父母过度填充孩子的时间，试图规避…",
+        "当许多家长正忙着填满孩子的日程表时，我却想泼一盆冷水： 千万，千万，千万别把你孩子的假期安排得太满",
+        "让我想起了英国华威大学心理学教授 Mark Griffiths的一项研究：他对 2000 名儿童进行跟踪调查后发现， “有适度无聊时间的孩子，比从未有过无聊时间…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "超过这个年龄，精子会断崖式衰老，且会传给下一代！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B6%85%E8%BF%87%E8%BF%99%E4%B8%AA%E5%B9%B4%E9%BE%84%EF%BC%8C%E7%B2%BE%E5%AD%90%E4%BC%9A%E6%96%AD%E5%B4%96%E5%BC%8F%E8%A1%B0%E8%80%81%EF%BC%8C%E4%B8%94%E4%BC%9A%E4%BC%A0%E7%BB%99%E4%B8%8B%E4%B8%80%E4%BB%A3%EF%BC%81",
+      "published": "Tue, 24 Feb 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "RNA",
+        "rsRNA",
+        "tsRNA",
+        "sncRNA",
+        "https",
+        "DNA"
+      ],
+      "summary": "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：Unsplash+ 小小精子，却有一片广阔的天地，还能带来一个天翻地覆的人生。 撰文｜clefable 审校｜冬鸢 虽然只是动物体内最小的细胞之一，但精子从诞生时就被委以重任—— 参与形成下一代 。或许是由于这个任务十分艰难但极为重要，自然演化让很多动物中的雄性 在进入性成熟之后的很长时间，可以持续产生大量精子。 人类也是其中的一员。据悉，一位健康的男性在 一生中可以产生数千亿至数万亿个精子 （而一个成年男性的体细胞总数大概在40万亿个左右…",
+      "key_points": [
+        "由高龄父亲精子孕育的后代， 寿命会更短，且衰老的特征也会更明显 。2023年，一篇发表于 Maturitas 的论文研究了清代高龄男性后代的寿命，发现在那个饮食…",
+        "我们可以明显看出，犹他大学的科学家采用PANDORA-seq技术测的、小鼠精子前3个年龄组和后两个年龄组中的两种sncRNA可以明显分开，不会聚集在一起。这显示…",
+        "tsRNA前体经过酶切后产生的多种sncRNA 丨The function of tRNA-derived small RNAs in cardiovascul…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "1999年英国矿工获赔5亿英镑，只因他们的手指变了个颜色",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+1999%E5%B9%B4%E8%8B%B1%E5%9B%BD%E7%9F%BF%E5%B7%A5%E8%8E%B7%E8%B5%945%E4%BA%BF%E8%8B%B1%E9%95%91%EF%BC%8C%E5%8F%AA%E5%9B%A0%E4%BB%96%E4%BB%AC%E7%9A%84%E6%89%8B%E6%8C%87%E5%8F%98%E4%BA%86%E4%B8%AA%E9%A2%9C%E8%89%B2",
+      "published": "Tue, 24 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "ID",
+        "steamforkids",
+        "A-",
+        "ADRA2A",
+        "amp"
+      ],
+      "summary": "本文转载自公众号“把科学带回家”（ID：steamforkids） 撰文 | 苏澄宇 1862年，一位名叫莫里斯·雷诺（Maurice Raynaud）的法国医学生在赶写他的博士论文时，描述了一种奇怪的现象。 图源：slideserve 他记录了25个病例，其中一位女性的手指在寒冷或情绪激动时会突然变得像死人一样苍白，随后变成青紫色，最后又在剧痛中变红 。 图源：Litfl 雷诺给这种症状起了一个听起来颇具哥特风格的名字：“局部窒息”（Local Asphyxia）。 虽然他当时误以为这是脊髓神经过度兴奋的结果，但…",
+      "key_points": [
+        "图源：venus legal 长期使用风镐、油锯等高频震动工具会永久性地损伤血管内皮和神经。这事儿闹得最大的时候是在1999年，英国政府最终同意向数万名患有此症…",
+        "图源：文献 这个基因控制着细胞表面的α2A-肾上腺素能受体，变异使得这些受体对肾上腺素极其敏感，一旦受冷，血管就反应过度。有趣的是，研究还发现低空腹血糖水平与雷…",
+        "图源：raynaud‘s association 于是你的手指先是因为缺血变成死蜡般的 白色 ，接着因为缺氧变成 青紫色 ，最后血管重新开放，充血变成鲜艳的 红…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "听说，这个睡姿对身体更好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%90%AC%E8%AF%B4%EF%BC%8C%E8%BF%99%E4%B8%AA%E7%9D%A1%E5%A7%BF%E5%AF%B9%E8%BA%AB%E4%BD%93%E6%9B%B4%E5%A5%BD",
+      "published": "Tue, 24 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "dc_ps",
+        "End",
+        "feature",
+        "get",
+        "MM"
+      ],
+      "summary": "最近看到一个 “ 睡姿 毁腰” 的相关话题冲上热搜。 心里狠狠咯噔了一下 谁能想到“坚持”多年的舒适睡姿，竟然可能会 伤腰 ！？ 有没有跟我一样的姐妹👇 特别喜欢 侧躺睡 ，还得高高的曲起一条腿！ （甚至已经到了不侧睡根本睡不着的地步） 爽是爽了， 结果睡着睡着可能脊椎就弯了...... 因为人在侧睡的时候腿部自然下沉，会 让整条脊柱和胯骨像“扭麻花”一样不自然地剧烈扭曲 ，同时造成一些 肌肉和肌腱组织处于拉伸、紧绷状态。 有时梦中惊醒觉得 手臂发麻 ，或者早上起来 腰像被“拧过” ，很有可能就是睡姿不正确带来的。…",
+      "key_points": [
+        "咱们侧睡的时候身体会不自觉👇 腿部下沉 → 骨盆旋转 → 腰椎扭曲 → 导致越睡越累 这款深睡抱抱枕就是为此诞生的， 专为侧睡姿势量身定制",
+        "某位18岁少女就是因为 长期这个睡姿 ，脊柱侧弯进了医院",
+        "而是会\"思考\"的曲线 搂抱区： 避免手臂受压发麻，不容易压迫胸部 睡枕区： 承托腹部，减轻负担 支撑区： 撑住身体不放松，给你拥抱的安全感 夹腿区： 分担身体下…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Seedance 2.0的AI视频“杀死比赛”后，如何抢占下一波红利？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6343296.html",
+      "published": "Tue, 24 Feb 2026 09:29:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Seedance",
+        "AI",
+        "API",
+        "Agent",
+        "MVP",
+        "SKU"
+      ],
+      "summary": "Seedance 2.0的发布彻底改写了AI视频生成领域的游戏规则，它不仅解决了传统视频AI的一致性和可控性难题，更以90%的可用率和60%的成本降低开启了商业化量产时代。本文将深度解析其技术突破点，并揭示在巨头垄断下应用层仍存在的四大红利机会，为产品经理和创业者提供战略级的市场切入指南。 Seedance 2.0的正式发布，被行业普遍视为AI视频生成领域的“ChatGPT时刻”。这并非单纯的技术参数升级，而是生产力范式的根本性转移。当一款工具能够以极低的边际成本，输出连贯、可控且符合商业标准的视频内容时，原本基于…",
+      "key_points": [
+        "AI视频赛道充斥着大量“演示级”产品。这些产品在Demo中表现惊艳，但在实际落地环节往往面临一致性差、动作变形、可控性低等致命缺陷。Seedance 2.0之所…",
+        "一、 引言：Seedance 2.0 为何“杀死比赛”",
+        "Seedance 2.0的发布彻底改写了AI视频生成领域的游戏规则，它不仅解决了传统视频AI的一致性和可控性难题，更以90%的可用率和60%的成本降低开启了商业…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2026年春晚产品复盘：用PMF视角拆解“国民级超级产品”的需求逻辑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6344076.html",
+      "published": "Tue, 24 Feb 2026 09:28:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AIGC",
+        "AI",
+        "APP",
+        "BOT",
+        "amp",
+        "API"
+      ],
+      "summary": "2026年春晚以230亿触达量刷新纪录，却在数据狂欢背后暴露出用户情怀与商业化的尖锐矛盾。当沈腾马丽的微电影遭遇口碑滑铁卢，当机器人广告引发观众不适，这场国民级晚会正面临产品经理最熟悉的困境：如何在数据增长与用户体验之间找到平衡点？本文将通过需求金字塔模型，深度拆解这台超级产品的多边平台逻辑与技术赋能之道。 作为一名互联网产品经理，每年的春晚对我来说不仅是除夕的背景音，更是一次绝佳的“竞品分析”机会。 2026年2月16日晚，央视总台春晚以“ 骐骥驰骋 势不可挡 ”为主题落下帷幕。次日一早，数据新鲜出炉： 境内全媒…",
+      "key_points": [
+        "2026年春晚以230亿触达量刷新纪录，却在数据狂欢背后暴露出用户情怀与商业化的尖锐矛盾。当沈腾马丽的微电影遭遇口碑滑铁卢，当机器人广告引发观众不适，这场国民级…",
+        "我想抛开单纯的观众视角，尝试用产品经理的思维框架，重新审视2026年春晚。如果我们把春晚定义为一款拥有14亿潜在DAU、一年迭代一次、必须兼顾“老少皆宜”的超级…",
+        "而是一个“国民级超级产品” 在拆解需求之前，我们必须先理解这个产品的特殊性"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "还在卷创意？真正厉害的产品经理，都进化成了\"组局者\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6209020.html",
+      "published": "Tue, 24 Feb 2026 09:26:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "iPhone",
+        "Android",
+        "Home",
+        "iPod",
+        "Air",
+        "Alex"
+      ],
+      "summary": "在产品经理的成长道路上，真正的突破往往来自于思维的转变。乔布斯和张一鸣的故事揭示了一个关键真相：顶级产品人的核心竞争力不是个人创意，而是挑选好创意、整合人才资源和构建生态系统的能力。本文将深入拆解'组局者思维'的三个维度，带你重新思考产品经理的价值定位与成长路径。 做产品 5 年，我最大的顿悟是： 那些让我熬夜爆肝想出来的”神创意”，往往不如实习生随口一提的点子管用。 直到看懂乔布斯和张一鸣的”组局者”思维，我才停止自我感动。 01 创意组局：你不必包揽创意，但要包揽决策 相信当初刚刚成为产品经理的你，一定经常幻想…",
+      "key_points": [
+        "真正的突破往往来自于思维的转变。乔布斯和张一鸣的故事揭示了一个关键真相：顶级产品人的核心竞争力不是个人创意，而是挑选好创意、整合人才资源和构建生态系统的能力。本…",
+        "本文由 @产品创业笔记 原创发布于人人都是产品经理。未经作者许可，禁止转载 题图来自Unsplash，基于CC0协议 该文观点仅代表作者本人，人人都是产品经理平…",
+        "希望自己负责的产品的所有创意，都来自于自己，这样似乎保持了自己对于产品的掌控度，更有甚者还会拒绝他人更好的产品建议，以此来保持所谓的颜面"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "焦虑的县城中年人，等待被AI解救",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6344042.html",
+      "published": "Tue, 24 Feb 2026 09:26:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "AMD",
+        "CC0",
+        "CEO",
+        "DeepSeek"
+      ],
+      "summary": "在湖南小县城里，36岁的小琼正用AI撬动生活的可能性。从用豆包判作业到制作短视频，这位没有高学历的中年女性正在成为县城AI使用最活跃的群体之一。本文通过她的故事，揭示AI如何在小城落地生根，又为何让普通人在期待与焦虑中徘徊。 36岁的小琼，是湖南小县城里随处可见的那类中年女性：身材微微发福，嗓门大到可以从三楼窗户边跟你聊天；学问不高，但工作经验足够丰富，勤快、办事利索，会照顾全家人的生活起居，也能料理所有的人情往来。 我没有想到，她是我这次回老家县城聊到的所有人里，使用AI频率最高的人：她会用即梦制作拜年短视频，几…",
+      "key_points": [
+        "36岁的小琼正用AI撬动生活的可能性。从用豆包判作业到制作短视频，这位没有高学历的中年女性正在成为县城AI使用最活跃的群体之一。本文通过她的故事，揭示AI如何在…",
+        "“什么都能用AI做了？我没学历、不年轻，将来去做什么呢？” 但这位被生活教育过的中年女性，懂得不下牌桌的重要性。她关注着县城的新技术培训，下一门想学习的课程是无…",
+        "是湖南小县城里随处可见的那类中年女性：身材微微发福，嗓门大到可以从三楼窗户边跟你聊天；学问不高，但工作经验足够丰富，勤快、办事利索，会照顾全家人的生活起居，也能…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "YC最新对谈：Agent economy真的要来了！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6344153.html",
+      "published": "Tue, 24 Feb 2026 08:33:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "AI",
+        "Gary",
+        "Harj",
+        "Agent",
+        "Combinator"
+      ],
+      "summary": "Y Combinator 播客揭示了一个震撼现实：软件开发的客户正在从人类变为 AI Agent。当'网络精神病'成为常态，Agent 开始自主选择数据库、邮件服务和开发工具。文档不再是给人看的说明书，而是决定 Agent 是否选择你的'新前门'。YC 的座右铭或许该改为'Make something agents want'。 编程了10年没写过代码的人，现在凌晨3点还在运行4个 AI agent 同时工作。这不是个例，这是正在发生的现实。在 Y Combinator 最新一期 Lightcone 播客中，主持人…",
+      "key_points": [
+        "当我第一次听到 Y Combinator 的合伙人 Harj 在播客中说”AGI 已经真正到来了”时，我还有些怀疑。但随着他们深入讨论 MoltBook（第一个…",
+        "现在凌晨3点还在运行4个 AI agent 同时工作。这不是个例，这是正在发生的现实。在 Y Combinator 最新一期 Lightcone 播客中，主持人…",
+        "这种转变带来了一个意想不到的应用场景：agent 可以去 MoltBook 这样的平台上发布自己的内容。但对于软件开发者来说，更重要的影响是 agent 将会自…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "黄子华又来救香港电影了！香港电影还不想死！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%BB%84%E5%AD%90%E5%8D%8E%E5%8F%88%E6%9D%A5%E6%95%91%E9%A6%99%E6%B8%AF%E7%94%B5%E5%BD%B1%E4%BA%86%EF%BC%81%E9%A6%99%E6%B8%AF%E7%94%B5%E5%BD%B1%E8%BF%98%E4%B8%8D%E6%83%B3%E6%AD%BB%EF%BC%81",
+      "published": "Tue, 24 Feb 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 《夜王》在香港大爆特爆已成定局，看最新数据，首周票房力压《寻秦记》，创港产片纪录。至于子华神能否再创新的本土电影总票房纪录，非常令人期待。 《夜王》 不由得回想，从《饭戏攻心》《毒舌大状》，到《破 · 地狱》，香港电影市场见证了由黄子华领衔的本土叙事热潮。 《破 · 地狱》 而由吴炜伦执导的《夜王》，则将这一浪潮推向了一个关于时代记忆、阶级抗争和地域文化保卫的新高度。 在香港电影历史上，「夜生活」题材有着深厚的根基。九十年代一大堆，到后来的《金鸡》系列、《喜爱夜蒲》……夜总会往往被视为香港经济繁荣的…",
+      "key_points": [
+        "从《饭戏攻心》《毒舌大状》，到《破 · 地狱》，香港电影市场见证了由黄子华领衔的本土叙事热潮",
+        "黄子华已经成为了香港文化的某种避风港。观众进电影院不再仅仅是为了看电影，而是为了在那两小时内，听他用熟悉的口吻说出那些藏在香港人心底的、关于生存与尊严的潜台词",
+        "这本质上是黄子华栋笃笑风格的影视化延伸。在与 V 姐和富二代的博弈中，欢哥处于社会地位的劣势，但他通过语言上的消解和行动上的坚韧，完成了对权力的微观反抗，这种「…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "两个日本巨星一决生死",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%A4%E4%B8%AA%E6%97%A5%E6%9C%AC%E5%B7%A8%E6%98%9F%E4%B8%80%E5%86%B3%E7%94%9F%E6%AD%BB",
+      "published": "Tue, 24 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Tomi",
+        "Rebellion",
+        "Ebert",
+        "hongmomgs",
+        "irisfilm",
+        "Issac"
+      ],
+      "summary": "作者： Roger Ebert 译者： Issac 来源： rogerebert.com 《夺命剑》中的紧张感，来源于被禁锢在僵化的社会秩序下强烈的爱。那个时代的规则细致地规定了片中角色的一言一行，但他们的情感却与这些条条框框背道而驰。 《夺命剑》（1967） 他们步履端正；身上的穿戴显示了其地位、职位；他们向权威低头，接受自己的身份而从不怀疑，彼此之间也保持着礼仪上的距离。这个故事讲的是一场真爱的婚姻，但是丈夫和妻子却从来没有碰过对方。 这部电影的视觉策略反映了它的世界规则。开场镜头展示了建筑的细节，画面中全是平…",
+      "key_points": [
+        "日本最有名的明星三船敏郎也出现了奇怪的变化。在早期的场景中，被婚姻打败了的他看起来很温顺，而现在我们几乎认不出他了。随着他越发坚定，并支持与五郎和阿市的时候，他…",
+        "这个武士，据说是他家族中最致命的剑客，在他妻子的控制下活得很不快乐。这部电影非常关注家庭生活，1967年在日本以《叛逆：接受妻子》（暂译，Rebellion:…",
+        "为他生了一个儿子，在愤怒之下，她打了年迈的藩主，揪了他的头发，也由此失势。藩主命令必须驱逐她，并让她嫁给伊三郎两个儿子中的一个——与五郎（加藤刚饰）"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "宁古塔到底苦不苦？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%AE%81%E5%8F%A4%E5%A1%94%E5%88%B0%E5%BA%95%E8%8B%A6%E4%B8%8D%E8%8B%A6%EF%BC%9F",
+      "published": "Tue, 24 Feb 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GS"
+      ],
+      "summary": "在各类文学作品及清宫剧的渲染中， “发配宁古塔，与披甲人为奴” ， 让宁古塔成为了一个“苦寒之地”的符号， 长期被贴上了“寒冷”“绝地”的标签。 那么 宁古塔 究竟在哪里？ 它的生存条件真的那么恶劣吗？ “宁古塔”并不是一座塔 “宁古塔”并不是一座塔，而是一个地名 ， 满语原意是“六个”的意思， 适合的汉语意译更接近“六家子”。 宁古塔将军治所， 最早在今牡丹江海林市长汀镇古城村海浪河畔建城， 后因夏季洪水时常冲垮城垣， 于1666年迁至今 牡丹江宁安市 。 之后，宁古塔很快发展成为 黑龙江、乌苏里江 流域最大的军…",
+      "key_points": [
+        "本文选摘自《中国国家地理》2026年2月文章： 《宁古塔到底苦不苦？告诉你一个真实的牡丹江》 责任编辑／张璇 图片编辑／张璇 版式设计／崔晓琳 地图编辑／陈云…",
+        "撰文/单之蔷 黑龙江也有“大河文明” 渔猎采集人群在 “石器时代”的 惊人成就 撰文/郭睿 摄影/李有骞 等 千座黑龙江“古城”是逐鹿中原的北国“根基” 撰文/…",
+        "不仅发掘出了 新石器时代我国已知最大的“石器加工场” ， 还出土了旧石器时代的文物遗存； 战国至两汉时期，东北先民肃慎、沃沮、勿吉…… 则在这里留下了一座座山城…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "今年我打算烧CD",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8A%E5%B9%B4%E6%88%91%E6%89%93%E7%AE%97%E7%83%A7CD",
+      "published": "Tue, 24 Feb 2026 12:06:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD",
+        "City",
+        "Music",
+        "Pop",
+        "Apple",
+        "Midjourney"
+      ],
+      "summary": "我观察自己这几年，每年都要发烧一样东西，今年我感觉新发烧项目可能是 CD。 朋友们肯定会嘲笑我，比如说霍炬，他会认为我背弃了黑胶和磁带的光荣道路，嘴脸极为可耻。然后他还会补刀说：CD 是数字音乐，既然你都用数字音乐了，为什么不直接用网络流媒体就好？脱裤子放屁对你而言究竟有什么乐趣？ 裤子不合身算不算一个理由？ 我现在是网易云音乐，Apple Music 和 Tidal 的订阅用户。本来打算先订阅试试，结果一年之后我发现真正用起来之后，它们一个都不能少。因为它们的曲库并不重合，很多时候为了找一首歌，一张专辑，我需要在…",
+      "key_points": [
+        "每年都要发烧一样东西，今年我感觉新发烧项目可能是 CD",
+        "我都决定今年开始听 CD。当然，你可以认为我这是在给自己硬找理由，中年危机的另一种体现，老登利用怀旧自我麻醉逃避生活最终成为韭菜，诸如此类。你甚至还可以预言，不…",
+        "昨天我才遇见一次典型的例子：去年我迷上了 City Pop 风格的音乐，买了一堆磁带。而引爆这股复古潮的歌曲叫《塑料爱》，来自竹内玛利亚，我听过不下百遍。昨天我…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "应用数学：一场迟到了半个世纪的“正名之战”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%EF%BC%9A%E4%B8%80%E5%9C%BA%E8%BF%9F%E5%88%B0%E4%BA%86%E5%8D%8A%E4%B8%AA%E4%B8%96%E7%BA%AA%E7%9A%84%E2%80%9C%E6%AD%A3%E5%90%8D%E4%B9%8B%E6%88%98%E2%80%9D",
+      "published": "Tue, 24 Feb 2026 08:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "COBYQA",
+        "ICM",
+        "James",
+        "matrices",
+        "PDFO",
+        "PRIMA"
+      ],
+      "summary": "2.24 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Jeswin Thomas 撰文｜ 丁玖 责编 ｜ 李珊珊 ● ● ● 01 “科学的春天”总是以“数学的春天”鸣锣开道 半个世纪前，现代中国的历史掀开了新的一页。1976年十月，在中国政坛兴风作浪了十年之久的“四人帮”垮台，一年后的金秋十月，《人民日报》宣布恢复高考。1978年的明媚春光，紧跟着27.3万人的新时代大学生队伍走进了校园。伴随着莘莘学子跨进校门的脚步声，具有里程碑意义的六千人全国科学大会于3月18日召开…",
+      "key_points": [
+        "从30年代起，德国希特勒给大西洋对岸的美利坚“送去了”无价之宝——大批被迫逃离纳粹魔掌的犹太科学家。他们中间的杰出应用数学家带来了工程和物理领域严谨的数学建模传…",
+        "一个高度跨学科的应用数学 如果我们回顾英美两国对待应用数学的基本理念，或许对展望中国应用数学的前景不无裨益。在过去的三百年，英国应用数学的发展建立在牛顿发明的微…",
+        "六年半前，计算数学家汤涛说过，“中国现在是经济大国，在强调基础研究的同时，还要借鉴美国的经验，充分发挥应用数学的引领作用。” 比起近代科学的引领者欧洲，应用数学…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "Anthropic终于还是忍不住开大了，公开点名D",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+Anthropic%E7%BB%88%E4%BA%8E%E8%BF%98%E6%98%AF%E5%BF%8D%E4%B8%8D%E4%BD%8F%E5%BC%80%E5%A4%A7%E4%BA%86%EF%BC%8C%E5%85%AC%E5%BC%80%E7%82%B9%E5%90%8DD",
+      "published": "Tue, 24 Feb 2026 16:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "DeepSeek",
+        "M2.5",
+        "MiniMax",
+        "Tokens"
+      ],
+      "summary": "Anthropic终于还是忍不住开大了，公开点名DeepSeek、月之暗面和MiniMax三家厂商对Claude实施了工业级的「蒸馏」。 可以把「蒸馏」理解为通过和Claude进行特定对话并基于输出结果来训练自己的模型，在使用方式上和普通用户没有区别，只是规模有点儿，大。在Anthropic的声明里，被认定为「蒸馏」的对话总计有1600万次，其实严格来说，「蒸馏」并不违反任何法律——目前也不存在这样的法条——它更像是僭越了Anthropic的「家规」，众所周知，这家公司比较仇视中国同行。然而大模型的学习和训练本身也…",
+      "key_points": [
+        "Anthropic终于还是忍不住开大了，公开点名DeepSeek、月之暗面和MiniMax三家厂商对Claude实施了工业级的「蒸馏」",
+        "可以把「蒸馏」理解为通过和Claude进行特定对话并基于输出结果来训练自己的模型，在使用方式上和普通用户没有区别，只是规模有点儿，大。在Anthropic的声明…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "华为副总裁将出席2026亚洲科技变革峰会，共话区域科技创新",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E5%8D%8E%E4%B8%BA%E5%89%AF%E6%80%BB%E8%A3%81%E5%B0%86%E5%87%BA%E5%B8%AD2026%E4%BA%9A%E6%B4%B2%E7%A7%91%E6%8A%80%E5%8F%98%E9%9D%A9%E5%B3%B0%E4%BC%9A%EF%BC%8C%E5%85%B1%E8%AF%9D%E5%8C%BA%E5%9F%9F%E7%A7%91%E6%8A%80%E5%88%9B%E6%96%B0",
+      "published": "Tue, 24 Feb 2026 17:04:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "Impact",
+        "Asia",
+        "asiaevents",
+        "Change",
+        "economist.com"
+      ],
+      "summary": "由经济学人集团旗下Economist Impact主办的 第六届亚洲科技变革峰会2026（Technology for Change Asia 2026） 将于3月11日-12日在香港举办。 本届峰会将汇聚70余位全球行业与公共部门领袖，与超600名参会者共同深入探讨亚洲科技变革的前沿动态与最新趋势。期待您的加入。 ↓扫码申请免费席位↓ 审核通过后，您将在注册邮箱收到正式确认函与详细参会指南 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，合和酒店 关于Economist Impact Econo…",
+      "key_points": [
+        "由经济学人集团旗下Economist Impact主办的 第六届亚洲科技变革峰会2026（Technology for Change Asia 2026） 将于…",
+        "本届峰会将汇聚70余位全球行业与公共部门领袖，与超600名参会者共同深入探讨亚洲科技变革的前沿动态与最新趋势。期待您的加入",
+        "您将在注册邮箱收到正式确认函与详细参会指南 日期：2026年3月11日-12日 地点：香港湾仔坚尼地道15号，合和酒店 关于Economist Impact E…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "从 AutoDev 到 Routa：开放生态下的新一代多 Agent 编排实践",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/routa/",
+      "published": "Tue, 24 Feb 2026 05:22:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "Routa",
+        "AutoDev"
+      ],
+      "summary": "> Routa 是一个 **“工程化的多 Agent 协作框架”**：它把任务、状态、事件和执行拆成可控模块，让开放生态下的多 Agent 系统可以真正落地，而不是靠",
+      "key_points": [
+        "> Routa 是一个 **“工程化的多 Agent 协作框架”**：它把任务、状态、事件和执行拆成可控模块，让开放生态下的多 Agent 系统可以真正落地，而…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-25",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "全球2/3鱼子酱来自中国：中国制造，正在端上世界顶级餐桌 | 经济学人中国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%85%A8%E7%90%832%2F3%E9%B1%BC%E5%AD%90%E9%85%B1%E6%9D%A5%E8%87%AA%E4%B8%AD%E5%9B%BD%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%EF%BC%8C%E6%AD%A3%E5%9C%A8%E7%AB%AF%E4%B8%8A%E4%B8%96%E7%95%8C%E9%A1%B6%E7%BA%A7%E9%A4%90%E6%A1%8C+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E4%B8%AD%E5%9B%BD",
+      "published": "Fri, 20 Feb 2026 17:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "is",
+        "in",
+        "China",
+        "it"
+      ],
+      "summary": "本文选自经济学人20260221期中国板块 China | In good taste 中国版块 | 品味不凡 China now fills the world's luxury hampers 如今全球顶级珍馐礼篮里装满了中国货 It is a leading producer of caviar, foie gras and truffles 中国也是鱼子酱、鹅肝和松露的主要生产国 \"MADE IN CHINA\" might soon be a label that gets taste buds tingl…",
+      "key_points": [
+        "本文选自经济学人20260221期中国板块 China | In good taste 中国版块 | 品味不凡 China now fills the worl…",
+        "鱼子酱产业是规模化创新提升效率的绝佳案例。中国在本世纪初开始养殖鲟鱼，如今其产量已占全球鱼子酱总产量的五分之二以上。作为中国的一家大型企业， \" 卡卢加皇后 \"…",
+        "人们的态度正在发生转变。包括阿兰 · 杜卡斯（ Alain Ducasse ）在内的顶级名厨，纷纷开始在菜肴中选用中国出产的昂贵食材。此外，根据与欧盟达成的协议…"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "为了用 markdown 写简历, 我做了这个工具 - 我的透明创业实验第二十七周",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/t9t-week27-2019-11-20/",
+      "published": "2025-11-21T08:04:26.711Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "markdown",
+        "update"
+      ],
+      "summary": "2019-04-17 update: 我已经不在这个有趣的公司了, 这个工具上默认放了我的简历 , 在自己的产品收入足够之前, 我很乐意接受一些外包工作,",
+      "key_points": [
+        "2019-04-17 update: 我已经不在这个有趣的公司了, 这个工具上默认放了我的简历 , 在自己的产品收入足够之前, 我很乐意接受一些外包工作,"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "AutoDev CLI：构建 AI Agent 生成的 AI Agent 质量保障与验证架构",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/autodev-cli-validate-framework/",
+      "published": "Wed, 12 Nov 2025 08:35:55 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CLI",
+        "Agent",
+        "AI",
+        "AutoDev",
+        "MPP",
+        "Core"
+      ],
+      "summary": "在新的 AutoDev MPP （Multiplatform Paradigm） 架构下，我们也基于 MPP Core 构建了 CLI 体系。而与免费送 Token 的 Gemini CLI 等相比，",
+      "key_points": [
+        "在新的 AutoDev MPP （Multiplatform Paradigm） 架构下，我们也基于 MPP Core 构建了 CLI 体系。而与免费送 Tok…"
+      ]
+    }
+  ]
+}
