@@ -1,0 +1,779 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26T01:00:05.293283+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 205,
+    "fresh_candidates": 62,
+    "backfill_candidates": 143,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-02-26",
+      "fetched_at": "2026-02-26T01:00:04.855357+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4147.23,
+          "change": 29.82,
+          "change_pct": 0.72,
+          "volume": 724787214.0,
+          "amount": 108596956.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5188.1,
+          "change": 24.24000000000069,
+          "change_pct": 0.47,
+          "prev_close": 5163.86,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-02-26 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1144.122543122157,
+          "change": 5.345604449660186,
+          "change_pct": 0.4694162893649483,
+          "prev_close": 1138.7769386724967,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-02-26 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-02-26",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "投资，“懒人”往往赚得更多",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%8A%95%E8%B5%84%EF%BC%8C%E2%80%9C%E6%87%92%E4%BA%BA%E2%80%9D%E5%BE%80%E5%BE%80%E8%B5%9A%E5%BE%97%E6%9B%B4%E5%A4%9A",
+      "published": "Wed, 25 Feb 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 薛洪言 来源：雪球 在个人投资的众多选项中，共同基金（或称证券投资基金）一直被视为普通人的理想工具。它由专业团队管理，分散投资于数十甚至上百只股票，既能降低单一公司的风险，又能分享经济成长的成果。理论上，这应该是普通投资者实现财富增值的最便捷路径。 然而，现实中真正通过基金赚到可观收益的人，却远没有想象中那么多。问题出在哪里？其实不在基金本身，而在大多数投资者根本不知道该如何正确投资基…",
+      "key_points": [
+        "是用现在的购买力换取未来的购买力。对于大多数人而言，基金就是实现这一目标的最简单工具。但工具再好，也要会用。那种“买入并持有”的简单策略，看似笨拙，实则蕴含着最…",
+        "薛洪言 来源：雪球 在个人投资的众多选项中，共同基金（或称证券投资基金）一直被视为普通人的理想工具。它由专业团队管理，分散投资于数十甚至上百只股票，既能降低单一…",
+        "是相信时间和复利的力量。那些频繁进出的人，往往错过了涨幅最大的几个交易日；而一直持有的人，完整地享受了市场的长期回报。数据不会说谎，但即使没有具体数据，逻辑也足…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI是长期价值投资与成长股的终极噩梦",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9222280625/376764713",
+      "published": "Wed, 25 Feb 2026 09:52:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "API",
+        "OpenAI",
+        "Sora",
+        "Pro",
+        "Seedance"
+      ],
+      "summary": "写在最前面的： 这篇文章其实过节时就构思好了，但是其中很多观点挺扎心的，我一度犹豫要不要发出来，因为真话从来不怎么招人待见。 所以如果你只想听点顺耳好听的，现在关掉还来得及。但如果你跟我一样，觉得这种对投资不合时宜的清醒很有必要，读完请顺手点个赞。 ————————————————————————————————— 市场中一直有条鄙视链——做长期价值投资的，成长股投资的，永远看不起做波段和炒概念的。 过去几十年，巴老爷子致股东信中那句“时间是卓越企业的朋友，是平庸企业的敌。（ Time is the friend…",
+      "key_points": [
+        "真正残酷的真相是—— AI恰恰是长期价值投资与成长股的“终极噩梦”",
+        "————————————————————————————————— 市场中一直有条鄙视链——做长期价值投资的，成长股投资的，永远看不起做波段和炒概念的",
+        "Chegg市值高达147亿美元。投资人觉得它简直是太香了：数据是独家的，用户是长期刚需的（学生永远要写作业），且粘性极高。这在传统价投眼里，就是那种“可以拿着睡…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "有关腾讯的一些思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5059406928/376821576",
+      "published": "Wed, 25 Feb 2026 09:52:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Al",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "①凡是所有需要亲身体验的事情，像听音乐，看视频，玩游戏，亲密社交(比如对亲朋好友，亲属等)，看不到AI Agent 能替代的可能;金融支付涉及个人私产，而且腾讯拥有的是支付方式、支付渠道和支付网络，也看不到被AI替代的可能，Al最可能是直接调用它;云是AI的基础设施和载体，其业务也不可能被AI直接取代。而腾讯大部分的业务都在这些领域。 ②腾讯最具价值的是拥有14亿用户的社交关系链，它是腾讯最重要的资产，同时形成了网络效应，这个目前没有任何其他公司拥有。AI无法替代一项资产。 ③娱乐内容(视频、音乐)和游戏制作门槛降…",
+      "key_points": [
+        "④入口改变。我认为目前市场最担心的就是这个问题。这个也是AI最有可能威胁腾讯的地方。关于这个问题，我的看法是像手机智能助手这种前端入口确实可以截流用户需求，但未…",
+        "③娱乐内容(视频、音乐)和游戏制作门槛降低。AI确实可以让视频、音乐、动画、美术特效等跟技术相关的制作门槛大大降低，但视频、音乐、游戏中涉及到的创意、品味、审美…",
+        "像听音乐，看视频，玩游戏，亲密社交(比如对亲朋好友，亲属等)，看不到AI Agent 能替代的可能;金融支付涉及个人私产，而且腾讯拥有的是支付方式、支付渠道和支…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【保持开放的心，长远十分看好智谱等大模型公司】",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1818342785/376864239",
+      "published": "Wed, 25 Feb 2026 09:52:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ai",
+        "token",
+        "Deepseek",
+        "excel",
+        "http",
+        "Minimax"
+      ],
+      "summary": "虽然因为Deepseek 4快将推出，暂時观察为主，但是长远十分看好Ai大模型公司。 为了简单易明，应该没有人作过这种比喻，我会说旧式软件等同nokia诺基亚手机（例如美图，金谍，微x） 而Ai大模型如智谱，Minimax等同智能手机，加一个插件，可以化身秘书，可以帮我们收电邮，阅读内容，如果有水费电费的电邮自动缴费，甚至跟据电邮的内容自动回复客戶电邮。加另一个插件可以变成律师，加另一个插件，可以变身会计师，而且智商高很多，灵活多变，当然仍然有大量进步和改进空间 这对传统软件形成极大威胁，所以传统软件股票近来跌幅很…",
+      "key_points": [
+        "暂時观察为主，但是长远十分看好Ai大模型公司",
+        "总有旧势力的人反对，判断是炒作，不投资理解的，但是我们是投资者，保持开放的心 本话题在雪球有33条讨论，",
+        "应该没有人作过这种比喻，我会说旧式软件等同nokia诺基亚手机（例如美图，金谍，微x） 而Ai大模型如智谱，Minimax等同智能手机，加一个插件，可以化身秘书…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "你以为配的是科技，其实配的是正在被AI替代的那一批",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1193446197/376810948",
+      "published": "Wed, 25 Feb 2026 09:52:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Salesforce",
+        "Atlassian",
+        "ServiceNow",
+        "Anthropic",
+        "HK"
+      ],
+      "summary": "府库第1185期原创内容 一年跌掉七八成，AI正在重新定义&#34;好公司&#34; 最近翻海外持仓数据的时候，发现一个让我挺震惊的事。 有一批公司，两年前是市场上最受追捧的明星股。从2023年初到去年2月，它们的涨幅是这样的：ServiceNow涨了162%，Atlassian涨了148%，Salesforce涨了143%，monday.com涨了116%。 这些都是全球最顶级的软件企业。客户是大公司，订阅制收费，现金流稳定，增长确定性高——两年翻一倍多，放在任何一个投资组合里，这都是&#34;明星选手&#34;…",
+      "key_points": [
+        "做传统软件工具的在跌。你以为你配的是&#34;科技&#34;，但你配的可能是正在被替代的那一半",
+        "大部分人配海外资产用的是指数基金——标普500、纳斯达克100。以前没问题，买指数就能吃到科技板块的整体增长。但现在的情况是，AI行业真正的龙头——OpenAI…",
+        "可能正在被替代 你可能会说：我又不买个股，跟我有什么关系"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "《2028全球智能危机》：一篇雄文引发股市恐慌背后的十个逻辑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6344843.html",
+      "published": "Wed, 25 Feb 2026 12:05:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GDP",
+        "DoorDash",
+        "ARR",
+        "ServiceNow",
+        "TM"
+      ],
+      "summary": "一篇《2028全球智能危机》的思想实验竟引爆美股崩盘，揭示‘看多AI’或是最大熊市信号。当AI创造‘幽灵GDP’却绕过人类消费，当‘机器不花钱’导致消费主体萎缩，建立在‘人类智识稀缺’假设上的经济体系面临重构。核心警示：若你的收入仍依赖‘比机器贵但比机器好’，危机或许比想象更近。 昨天，2026年2月23日，周一，美股开盘。（你看，咱们这春节不开盘也有好处） 道琼斯跌了800多点，收在了日内最低点，全市场只有27%的股票收涨。 而触发这场抛售的，是一篇Substack上的一篇名为《2028全球智能危机》文章。 作者…",
+      "key_points": [
+        "一篇《2028全球智能危机》的思想实验竟引爆美股崩盘，揭示‘看多AI’或是最大熊市信号。当AI创造‘幽灵GDP’却绕过人类消费，当‘机器不花钱’导致消费主体萎缩…",
+        "是一篇Substack上的一篇名为《2028全球智能危机》文章",
+        "老外的文章通常都比较长，说实话多少有点啰嗦，直接翻译阅读体验其实很一般，读起来费劲。(在公众号“卫夕指北”回复“2028”获取原文地址。) 所以，看原文之前，可…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当所有人都在唱衰垂直软件时，为什么他却坚定看好！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6344800.html",
+      "published": "Wed, 25 Feb 2026 11:33:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "George",
+        "Hebbia",
+        "MD",
+        "Last",
+        "Mile"
+      ],
+      "summary": "当通用大模型试图‘蒸发’业务逻辑时，垂直SaaS的销量却创历史新高。Hebbia创始人指出，企业软件的核心价值并非代码，而是对特定团队工作流的‘流程工程’与‘社会契约’。在金融等高精度领域，90%的正确率等同于失败，唯有深入理解那10%的差异化偏好、构建模型无关的可靠编排层，才能形成真正的护城河。 你有没有想过这样一个问题：当 Anthropic、OpenAI 和 Google 正在投入数千亿美元打造世界上最强大的通用 AI 系统时，垂直软件还有存在的必要吗？这个问题最近几周在科技圈引发了激烈讨论。有人说护城河已死…",
+      "key_points": [
+        "你有没有想过这样一个问题：当 Anthropic、OpenAI 和 Google 正在投入数千亿美元打造世界上最强大的通用 AI 系统时，垂直软件还有存在的必要…",
+        "但市场数据却在讲一个完全不同的故事。最近的数据显示，上市的垂直 SaaS 公司销售表现异常强劲：销售配额完成率和入站潜在客户情绪都大幅改善，现在已经领先于所有其…",
+        "我最近读到 Hebbia 创始人兼 CEO George Sivulka 的一篇文章，让我对这个问题有了全新的思考。他提出的观点非常犀利：所有这些关于垂直软件将…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI赋能产科监护：从设备佩戴到数据洞察的产品设计思考",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6344746.html",
+      "published": "Wed, 25 Feb 2026 11:26:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "产科监护的复杂场景正迎来AI技术的颠覆性变革。从设备佩戴的精准指导到危急情况的智能预警，AI在交互、分析、自动化与创作四大维度展现出强大潜力。本文将深度剖析AI如何成为医护人员的智能助手，重构产房中的信息流转与决策逻辑，并揭示医疗场景下AI落地的三大关键法则。 产科监护的场景极其复杂：护士要帮产妇佩戴设备，医生要随时查看数据，产房里的警报声此起彼伏，交接班时病历信息要快速传递……每一个环节都可能有信息遗漏、判断延误。而AI的出现，给了我们全新的解题思路，下面是我结合 AI的四大核心能力：交互、分析总结、自动化、创作…",
+      "key_points": [
+        "产科监护的复杂场景正迎来AI技术的颠覆性变革。从设备佩戴的精准指导到危急情况的智能预警，AI在交互、分析、自动化与创作四大维度展现出强大潜力。本文将深度剖析AI…",
+        "产科监护的场景极其复杂：护士要帮产妇佩戴设备，医生要随时查看数据，产房里的警报声此起彼伏，交接班时病历信息要快速传递……每一个环节都可能有信息遗漏、判断延误。而…",
+        "一、设备佩戴：让AI成为“佩戴助手” 设备佩戴是监护的第一步，也是最容易被忽视的痛点。胎心探头位置偏了、宫缩压力探头松了，都会导致数据不准，而护士往往要反复调整"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "千问3.5是阿里AI的“大一统”时刻",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6344753.html",
+      "published": "Wed, 25 Feb 2026 09:50:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Qwen3.5",
+        "AI",
+        "Pro",
+        "API",
+        "Gemini",
+        "Qwen2.5"
+      ],
+      "summary": "2026年春节，阿里完成AI战略大统一：品牌归一为‘千问’，Qwen3.5模型以3970亿总参数（仅激活170亿）的极致稀疏架构，实现性能比肩GPT-5.2、成本仅为Gemini 3 Pro的1/18。这不仅是‘以小胜大’的技术胜利，更是阿里‘模型+芯片+云’全栈协同的战略成果。从开源生态到企业调用第一，千问正试图定义AI时代的基础设施。 2026年2月5日，春节前夕，阿里巴巴集团内部完成了一项看似低调却意义深远的调整：将旗下AI的总称和核心品牌统一为“千问”。 直到2月16日的大年三十，阿里发布了最新的开源模型千…",
+      "key_points": [
+        "阿里完成AI战略大统一：品牌归一为‘千问’，Qwen3.5模型以3970亿总参数（仅激活170亿）的极致稀疏架构，实现性能比肩GPT-5.2、成本仅为Gemin…",
+        "当“千问”成为一个贯穿技术、产品与商业的统一符号，当Qwen3.5用“一款模型打天下”的策略在春节档炸场，它不再只是又一次榜单刷新，而是阿里AI战略从分散走向协…",
+        "千问位居第一，并成为阿里云新增需求的主要驱动力，带动计算、存储及数据库等基础资源消耗的增长。根据Omdia数据，2025年上半年，中国AI云整体市场规模达223…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Seedance2.0引爆全网，AI 视频赛道战火升级",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6344710.html",
+      "published": "Wed, 25 Feb 2026 09:17:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Seedance2.0",
+        "AIGC",
+        "OpenStoryline",
+        "seedance2.0",
+        "App"
+      ],
+      "summary": "字节跳动发布Seedance 2.0，凭借突破性的运镜控制、音画同步与角色一致性，被冯骥誉为‘地表最强’，宣告AIGC童年时代结束。从AI短剧成本骤降60%到电商视频转化率提升28%，这场技术革命正重构内容产业链。面对快手可灵3.0与小红书OpenStoryline的围剿，谁能率先在版权合规与场景落地中找到平衡，谁将握住千亿级市场的时代红利？ 当AI视频生成从“勉强可用”迈入“电影级惊艳”，字节跳动终于亮出了王炸。 2月12日，字节跳动宣布正式发布新一代视频创作模型——Seedance2.0。 而早在几天前的内测阶…",
+      "key_points": [
+        "而快手、小红书的紧追不舍，也让AI视频赛道的竞争彻底进入白热化。从技术突破到场景落地，从C端普惠到B端赋能，AI视频正以肉眼可见的速度重构内容产业的生产逻辑。值…",
+        "Seedance2.0凭借突破行业痛点的技术实力、零门槛的操作体验，迅速刷屏创作者圈层，不仅收获影视、游戏领域大佬的盛赞，更直接点燃了AI视频赛道的白热化竞争",
+        "Seedance2.0已在整个内容行业掀起了地震，其带来的技术普惠不仅降低了创作门槛，更重新划分了AI视频赛道的红利版图"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我家WiFi名字后面有个“5G”，是不是网速会超快？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E5%AE%B6WiFi%E5%90%8D%E5%AD%97%E5%90%8E%E9%9D%A2%E6%9C%89%E4%B8%AA%E2%80%9C5G%E2%80%9D%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E7%BD%91%E9%80%9F%E4%BC%9A%E8%B6%85%E5%BF%AB%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "WiFi",
+        "GHz",
+        "generation",
+        "AI",
+        "cellular",
+        "fifth"
+      ],
+      "summary": "大家都听说过5G吧？至少大家都知道，它和手机有点关系，是个很时髦的科技名词。另外，不知道有没有人发现，我们在用手机和电脑连WiFi的时候，有时也能看到一些WiFi名字后面跟着一个“5G”。 举个例子 这个“5G”是平时说的那个5G吗？ 平时说的5G是什么 5G 是“the fifth generation technology standard for cellular networks”的缩写，即 第五代蜂窝网络技术标准 ，5G中的这G是英文generation的缩写。这个5G呢，简单来说就是会网速更快。 无线电…",
+      "key_points": [
+        "我们有时会看到同一个WiFi名字后面跟了“5G”“2.4G”。这应该是来自于路由器的不同信道，不同信道可以设置不同的密码，一般情况下密码倒是都相同的。因为我不记…",
+        "它和手机有点关系，是个很时髦的科技名词。另外，不知道有没有人发现，我们在用手机和电脑连WiFi的时候，有时也能看到一些WiFi名字后面跟着一个“5G”",
+        "平时说的5G是什么 5G 是“the fifth generation technology standard for cellular networks”的缩…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我有比“男妈妈”更离谱的Emoji，怎么让全世界用上？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E6%9C%89%E6%AF%94%E2%80%9C%E7%94%B7%E5%A6%88%E5%A6%88%E2%80%9D%E6%9B%B4%E7%A6%BB%E8%B0%B1%E7%9A%84Emoji%EF%BC%8C%E6%80%8E%E4%B9%88%E8%AE%A9%E5%85%A8%E4%B8%96%E7%95%8C%E7%94%A8%E4%B8%8A%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Emoji",
+        "Unicode",
+        "unicode.org",
+        "Emojipedia",
+        "https",
+        "L2"
+      ],
+      "summary": "2022年春天，苹果公司的新系统正式推出了 “怀孕的男人”表情。 苹果自带的朗读功能会告诉你，这三个Emoji分别是：孕妇、怀孕的男人、怀孕的非二元性别者丨Emojipedia 怎么会有这么离谱的表情啊！苹果这是在干什么？ 不少人都在猜测苹果公司的意图，但这个“男妈妈”表情的创始者，其实是另一个组织—— Unicode联盟 （统一字符集联盟）。这个组织才算是Emoji的“审批人”，而苹果只是更新适配上了新的Emoji。早在2019年，“腹部肿胀的男性”就出现在Unicode联盟的申请文档里。 这份申请是由Unico…",
+      "key_points": [
+        "丨Emojipedia 不论是国家部门、公司还是个人，Unicode都一视同仁。谁不想让全世界用上自己提交的Emoji啊！赶快整起来",
+        "这份申请是由Unicode官方的Emoji小组委员会（Emoji Subcommittee）及其牵头人詹妮弗·丹尼尔（Jennifer Daniel）提交的，他…",
+        "申请人除了个人之外，也有一些 “乱入”的组织 。芬兰外交部可能算得上最离谱的一个。当你使用“蒸桑拿”或“袜子”表情时，也许不会想到这是由芬兰外交部提交的。因为桑…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "明明喜欢得不行，为什么很多人却不敢买？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%98%8E%E6%98%8E%E5%96%9C%E6%AC%A2%E5%BE%97%E4%B8%8D%E8%A1%8C%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BE%88%E5%A4%9A%E4%BA%BA%E5%8D%B4%E4%B8%8D%E6%95%A2%E4%B9%B0%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 16:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NGTC",
+        "AI",
+        "diy",
+        "End",
+        "http",
+        "VS"
+      ],
+      "summary": "这次送给大家的礼物超级精致👇🏻预约直播，你也有机会拥有！ 可能是年龄到了或者突然血脉觉醒了，感觉这几年身边喜欢玉石的朋友一下子多起来。 好的和田玉，确实显得人温润有气质。 但是买到满意的玉石可太难了！ 被坑的也比比皆是： -有人在直播间强光打灯+滤镜的诱惑下冲动下单，到手却发现货不对板； - 有人花大几千买了注胶、染色、酸洗过的“科技与狠活”； -还有人为旅游景区的“ 开光玉石 ”交智商税。 玻璃、石英岩仿和田玉层出不穷，AI伪造证书，普通人检测难识别！ 卖家秀VS买家秀 有些看着像玉，其实都不是玉！ 其实对很多新…",
+      "key_points": [
+        "素心以安 。和田玉无事牌，取“无饰”谐音，寓意平安顺遂。深受很多人喜爱",
+        "还有超超超值福利： 精致的耳环、戒指等和田玉首饰 ，全都是零头价给大家秒杀， 款式不定，低至 129元起！还有免费好礼给的大家抽，喜欢的可以来直播间看看",
+        "却迟迟不敢下手的同学，这次可以来 直播现场挑一挑 ， 都是果壳选品团队亲测佩戴、层层甄选之后留下的心头好"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "牛的胆结石，为什么比黄金还贵？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%89%9B%E7%9A%84%E8%83%86%E7%BB%93%E7%9F%B3%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AF%94%E9%BB%84%E9%87%91%E8%BF%98%E8%B4%B5%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "bezoar",
+        "Ambroise",
+        "Chandelor",
+        "Commons",
+        "Lopus",
+        "Par"
+      ],
+      "summary": "当我使用网页翻译器浏览关于消化道疾病的文献时，一个叫“手术后胃石梗阻”的术语吸引了我——翻译器把它蹩脚地翻译成了“牛黄梗阻”。 这个怪异的单词是bezoar，有胃石、牛黄的意思。牛黄是牛的胆结石，胃石是人胃内形成的异物结石，都与消化道和结石相关。 究其词源就很有意思了。bezoar来源于波斯语pâd-zahr，字面意思是“解毒剂”（pâd-“保护” + zahr“毒药”）；由于语言的传播和化用，最后变成了英语里的bezoar。 但是，“解毒剂”怎么又跟牛黄扯上了关系？ 海德堡城堡德国药学博物馆（German Pha…",
+      "key_points": [
+        "海德堡城堡德国药学博物馆（German Pharmacy Museum in Heidelberg Castle）展出的牛黄。它们曾被视若珍宝，当成能解毒的万灵…",
+        "中药牛黄｜香港浸会大学中药材图像数据库 从现代科学的角度看，牛黄实际是牛科动物 家牛、黄牛或水牛的胆结石",
+        "有胃石、牛黄的意思。牛黄是牛的胆结石，胃石是人胃内形成的异物结石，都与消化道和结石相关"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一看就是大美女的人，都有什么特征?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%9C%8B%E5%B0%B1%E6%98%AF%E5%A4%A7%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BA%BA%EF%BC%8C%E9%83%BD%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E5%BE%81%3F",
+      "published": "Wed, 25 Feb 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml",
+        "AA2G",
+        "VC",
+        "feel",
+        "ml+",
+        "MSH"
+      ],
+      "summary": "真绝了，春节出门滑雪🏂🏻真小看这紫外线了，一天下来， 除了雪镜覆盖的地方，全部高原红，之后就逐渐黑黢黢...... 脸上更是旧斑未下，新斑又起！一照镜子就忍不住要“哇”地一声哭出来。😩 都说一白遮百丑，真的好羡慕大美女们白皙如雪的好皮肤！！ 那么问题来了：如何能快速白回来？ 要搞清楚这个问题，就要先弄明白👇 黑色素和斑形成的原因 当我们 接触到紫外线 或 受到自由基等外界刺激 时，皮肤为了保护内部组织的细胞免受伤害，就会生成 黑色素细胞 ，并通过生产、分泌、转运黑色素的方式，在皮肤表层建立防御矩阵，保护皮肤组织。…",
+      "key_points": [
+        "新斑又起！一照镜子就忍不住要“哇”地一声哭出来。😩 都说一白遮百丑，真的好羡慕大美女们白皙如雪的好皮肤",
+        "具体使用效果因人而异 减轻色斑，具体使用 效果因人而异 减轻痘痘痕迹， 具体使用 效果因人而异 像这样大厂出品的六边形“战士”，值得被更多需要的人看见",
+        "就相当于每条路上都有了守卫，不管是已生成的，还是想要冒头的，见一个干掉一个"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "曾是最强的导演兄弟，分道扬镳后怎样？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9B%BE%E6%98%AF%E6%9C%80%E5%BC%BA%E7%9A%84%E5%AF%BC%E6%BC%94%E5%85%84%E5%BC%9F%EF%BC%8C%E5%88%86%E9%81%93%E6%89%AC%E9%95%B3%E5%90%8E%E6%80%8E%E6%A0%B7%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A24",
+        "CBA",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "mm"
+      ],
+      "summary": "文 树宝 本世纪以来，美国独立电影最牛的年轻创作者，肯定是曾经的萨弗迪兄弟了。 在没分家之前， 他们的创作 被认为是 继承了约翰 ·卡萨维 蒂 式的新写实主义精神， 创造了一种独特的焦虑美学。 萨弗迪兄弟 然后，突然就分家了。 分家也许不是坏事，两个人各自独立闯荡，对美国独立电影来说，没准会多出一种甚至两种风格来。 这兄弟俩，是 叙利亚犹太裔 和 俄罗斯犹太裔的后代， 从小 在 一个非常 动荡的家庭环境中长大， 有很强 的文化身份焦虑 ，这种焦虑应该是 直接滋养了他们后来的 许多 创作母题。 乔什 ·萨弗迪的导演生…",
+      "key_points": [
+        "乔什 ·萨弗迪的导演生涯始于2008年的《被抢劫的 乐趣 》，这部作品 是他独自完成，弟弟并未参与。影片 原本只是为品牌拍摄的 一个 短片，却在乔什的坚持下 ，…",
+        "兄弟俩推出了 传记纪录片 《伦尼 ·库克》， 讲一个曾经比勒布朗 ·詹姆斯还厉害的篮球天才怎么沦为平庸。顺便说，CBA老球迷或许记得库克，他曾在 2003-04…",
+        "萨弗迪兄弟正式宣布停止作为导演组合的合作，官方说法是艺术创作的分歧 和追求各自的 发展，但据 今 年初的多份独家报道揭露，分家的核心起因源于 2017年《好时光…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "美国独立电影，被他们带入新阶段",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E7%94%B5%E5%BD%B1%EF%BC%8C%E8%A2%AB%E4%BB%96%E4%BB%AC%E5%B8%A6%E5%85%A5%E6%96%B0%E9%98%B6%E6%AE%B5",
+      "published": "Wed, 25 Feb 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "de",
+        "Guillermo",
+        "hongmomgs",
+        "irisfilm",
+        "Lies",
+        "Little"
+      ],
+      "summary": "作者：Guillermo de Querol 译者：易二三 校对：覃天 来源：Little White Lies（2022年8月16日） 萨弗迪兄弟对失意者情有独钟。从惯犯到瘾君子，再到颓废的赌徒，他们似乎偏爱那些不可自拔地沉迷于各种麻烦的人，那些一次次地被卷入自我毁灭的混乱漩涡的定时炸弹。 这对兄弟导演的杰作往往扣人心悬，而且可以说，两人或许乐于以上帝的身份操纵这些有缺陷的造物——每次都抛出曲线球，然后看着他们陷入两难的境地。 萨弗迪兄弟 在以大热作品《好时光》和《原钻》蜚声国际影坛之前，萨弗迪兄弟 2009年的…",
+      "key_points": [
+        "《去采些迷迭香》获得2010年独立精神奖的约翰·卡萨维蒂荣誉奖是恰如其分的，该奖项以美国独立电影的守护神命名，而且他的影响在这部电影中到处可见。在观察兰尼这个人…",
+        "萨弗迪兄弟 在以大热作品《好时光》和《原钻》蜚声国际影坛之前，萨弗迪兄弟 2009年的《去采些迷迭香》是独立电影制作的一次绝佳范本，作为一部所谓成型期的电影，它…",
+        "赛奇和弗雷可能习惯了母亲更加严厉和面面俱到的养育方式，因此最初对父亲的自由散漫、随心所欲表现得十分雀跃——把他们短暂的相聚当作了一种穿越纽约市混凝土丛林的疯狂冒…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "在昭苏，天马不再是天马行空",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%9C%A8%E6%98%AD%E8%8B%8F%EF%BC%8C%E5%A4%A9%E9%A9%AC%E4%B8%8D%E5%86%8D%E6%98%AF%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA",
+      "published": "Wed, 25 Feb 2026 18:33:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "昭苏县地处 新疆维吾尔自治区伊犁哈萨克自治州 ，这片被天山雪水滋养的广袤草原，素有“中国天马之乡”的美誉。 所谓天马，就是伊犁马，个头不低，四肢也很修长，毛色在阳光的照耀下很有光泽，看起来气势十足。 群骥奋蹄跃入特克斯河，溅起碎金似的水花，鬃毛在水汽与晨光中舒卷，挥洒出昂扬的意气。这片因“天马浴河 ”盛景声名远扬的土地，此刻以最磅礴的生命姿态，激荡起开年的万丈豪情。 愿您如这锦途之骏，一骑绝尘开新局，在崭新的征途上，前程似锦，万事大吉。 #天马浴河 #马年 #旅行 #地理君带你发现中国 &lt;&gt; 文章原文",
+      "key_points": [
+        "昭苏县地处 新疆维吾尔自治区伊犁哈萨克自治州 ，这片被天山雪水滋养的广袤草原，素有“中国天马之乡”的美誉",
+        "溅起碎金似的水花，鬃毛在水汽与晨光中舒卷，挥洒出昂扬的意气。这片因“天马浴河 ”盛景声名远扬的土地，此刻以最磅礴的生命姿态，激荡起开年的万丈豪情",
+        "#天马浴河 #马年 #旅行 #地理君带你发现中国 &lt;&gt; 文章原文"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "每个人都需要再多一只手",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E9%9C%80%E8%A6%81%E5%86%8D%E5%A4%9A%E4%B8%80%E5%8F%AA%E6%89%8B",
+      "published": "Wed, 25 Feb 2026 20:27:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "his",
+        "holding",
+        "Midjourney",
+        "ar",
+        "arm"
+      ],
+      "summary": "这两年总是在看 AI 和机器人的新闻，我感觉有些无聊。在这个农历新年，我决定在网上提交我个人的未来科技洞见：每个人都需要再多一只手。 这个看似荒谬的想法从何而来？ 和所有历史上所有伟大的洞见一样，它也是来自生活的某个挫败。春节期间，我准备搞一下音乐直播。就是直播我那些古董磁带卡座机播放音乐磁带专辑，相当于大家在线上一起听歌，还可以在弹幕里聊天。 不过我感觉用手举着手机直播一个小时有点非人，上网查了一下，发现早已经有了各种直播支架，可以移动转向，还可以任意调节高度角度。于是我就一掷伍拾圆，买了一支回来，准备正式开展我…",
+      "key_points": [
+        "我感觉有些无聊。在这个农历新年，我决定在网上提交我个人的未来科技洞见：每个人都需要再多一只手",
+        "因此我认为可以把 AI 和机器人暂时放在一边，立即投入研究民用机械臂。既然手机一定要占用一只手，那就不如提供一条机械臂给它专用好了。这样一来，我们还是可以用原装…",
+        "而且一直习惯于双手做事。现在手机永久性地占用了一只手，这其实给人的感觉有点怪，而且有点不方便。手机已经是我们身体的新器官，但是这个器官要占用一只手，这就不是很科…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "5万青少年显示数据：谁在家里做家务，会影响校园霸凌的发生？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+5%E4%B8%87%E9%9D%92%E5%B0%91%E5%B9%B4%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE%EF%BC%9A%E8%B0%81%E5%9C%A8%E5%AE%B6%E9%87%8C%E5%81%9A%E5%AE%B6%E5%8A%A1%EF%BC%8C%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%A0%A1%E5%9B%AD%E9%9C%B8%E5%87%8C%E7%9A%84%E5%8F%91%E7%94%9F%EF%BC%9F",
+      "published": "Wed, 25 Feb 2026 08:25:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Dweck",
+        "fixed",
+        "Gerson",
+        "in",
+        "mindset",
+        "of"
+      ],
+      "summary": "2.25 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / National Cancer Institute 撰文｜ 郑钧耀、杨帆 ● ● ● “我也上了一天班，凭什么回家还得我做饭带娃？” “你下班早，顺便接个孩子、买个菜怎么了？” ——关于“谁挣钱多、谁做家务多”的争论，似乎是每个家庭绕不开的话题。 但你可能没想到的是，父母在家里的分工方式，竟然会影响到孩子在学校是否会欺负同学。 最近，上海交通大学杨帆团队在国际权威期刊《Sex Roles》上发表了一项重磅研究。他们分析…",
+      "key_points": [
+        "这也为我们指明了校园霸凌干预的多个切入点： 在家庭层面，父母的家务分工方式是孩子观察的“第一课堂”。爸爸积极参与育儿和家务，是在给孩子做性别平等的示范。特别要警…",
+        "02 四种家庭模式的不同的影响 有意思的是，这次，研究者并没有进行预先分类干预，而已由算法根据数据中显示的家中父母在三个维度上的实际参与模式，自动把相关家庭分成…",
+        "寻找校园欺凌背后的家庭因素 青少年欺凌是个全球性问题。据联合国教科文组织统计，全球20-35%的青少年曾参与过欺凌行为，比如肢体攻击 （推搡、殴打） 、言语羞辱…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "劫富就能济贫？| 全球“抢人大战”背后的逻辑",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%8A%AB%E5%AF%8C%E5%B0%B1%E8%83%BD%E6%B5%8E%E8%B4%AB%EF%BC%9F%7C+%E5%85%A8%E7%90%83%E2%80%9C%E6%8A%A2%E4%BA%BA%E5%A4%A7%E6%88%98%E2%80%9D%E8%83%8C%E5%90%8E%E7%9A%84%E9%80%BB%E8%BE%91",
+      "published": "Tue, 24 Feb 2026 17:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cash",
+        "Cough",
+        "Lifeblood",
+        "One-off",
+        "Strapped",
+        "Trifling"
+      ],
+      "summary": "最近后台有小伙伴问，既然现在各国财政都这么紧，为什么不干脆多收点“富人税”？ 说实话，这种“打土豪分田地”的逻辑听起来确实解恨，但看门道的人盯着的是 经济系统的长远代价 。《经济学人》这篇封面文章《The Robin Hood state》，把这种“罗宾汉式”的财政思维拆解得很透：这种看似正义的“收割”，其实是一个危险的陷阱。 想要看清这场全球“抢人大战”背后的逻辑，你得读懂这五个关键词： ps：所谓的“抢人大战”其实是指各国政府针对 高净值人群（富人） 展开的一场 “财税围猎” 。 1. Cough up 现在全…",
+      "key_points": [
+        "想要看清这场全球“抢人大战”背后的逻辑，你得读懂这五个关键词： ps：所谓的“抢人大战”其实是指各国政府针对 高净值人群（富人） 展开的一场 “财税围猎”",
+        "这种“打土豪分田地”的逻辑听起来确实解恨，但看门道的人盯着的是 经济系统的长远代价 。《经济学人》这篇封面文章《The Robin Hood state》，把这…",
+        "Trifling sums 很多人以为割了富人的韭菜就能解决一切，但真相很残酷：这些税收往往只能带来 Trifling sums （微不足道的金额）。比如加州那…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "经济学人集团招聘 | 商务拓展经理（上海）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E9%9B%86%E5%9B%A2%E6%8B%9B%E8%81%98+%7C+%E5%95%86%E5%8A%A1%E6%8B%93%E5%B1%95%E7%BB%8F%E7%90%86%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89",
+      "published": "Wed, 25 Feb 2026 17:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EIU",
+        "EICN",
+        "AI",
+        "ECONOMIST",
+        "GROUP",
+        "Anywhere"
+      ],
+      "summary": "经济学人智库（EIU） 是经济学人集团旗下的研究与分析部门，致力于帮助企业领导者洞察先机，赋能战略决策。作为向公共和私营部门提供高质量、可执行情报的全球公认的权威机构，EIU持续研判影响全球200多个国家及地区市场的关键议题。 Economist Intelligence Corporate Network (EICN) 是EIU为高管打造的专属闭门交流与信息服务平台。通过加入会员制的高管社群，跨国企业能够深度把握其运营所在市场的政治、经济与商业动态，尤其聚焦宏观环境变化对企业经营与战略布局的深远影响。 EICN的…",
+      "key_points": [
+        "商务拓展经理 THE ECONOMIST GROUP 职位概述： 这是一个充满挑战与机遇的岗位。作为商务拓展经理，您将全面负责EICN在上海地区的新业务拓展，面…",
+        "核心职责： 与商业总监、网络总监及其他相关部门紧密协作，制定并亲自执行中国区新会员拓展计划； 达成并超越区域销售业绩与会员续约目标； 持续挖掘并维护高潜力的客户…",
+        "薪酬福利 THE ECONOMIST GROUP 我们提供具有市场竞争力的整体薪酬福利，全方位支持员工的身心健康、职业成长与工作生活平衡，包括： 具竞争力的养老…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-02-26",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "产品从 0 到 1 的法则 - 我的透明创业实验第二十六周",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/t9t-week26-2019-11-11/",
+      "published": "2025-11-21T08:04:26.711Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "wewe"
+      ],
+      "summary": "上周, 久未更新的 wewe 迎来了第一个除捐赠以外的客户(虽然收费渠道都还没建好). 截止目前, 我已经做了 5 个有人愿意为之付费的 <a",
+      "key_points": [
+        "久未更新的 wewe 迎来了第一个除捐赠以外的客户(虽然收费渠道都还没建好)"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "Vibe Coding 何必只在桌面 IDE，编码智能体协同的思考与设计",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/vibe-coding-for-autodev-server/",
+      "published": "Tue, 11 Nov 2025 03:57:16 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AutoDev",
+        "Coding",
+        "IDE",
+        "Server",
+        "Vibe"
+      ],
+      "summary": "依托于我们领先（于国内的）下一代开源的 AutoDev 架构，在最新发布的 AutoDev 多平台预览版（0.1.6）中，我们实现了 AutoDev Server 与",
+      "key_points": [
+        "依托于我们领先（于国内的）下一代开源的 AutoDev 架构，在最新发布的 AutoDev 多平台预览版（0.1.6）中，我们实现了 AutoDev Serve…"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "欧陆风云 5 的经济系统",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2025/11/eu5.html",
+      "published": "2025-11-09T06:16:51Z",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "很早从“舅舅”那里拿到了《欧陆风云 5》的试玩版。因为开发期的缘故，更新版本后需要重玩，所以一开始只是陆陆续续玩了十几个小时。前段时间从阳朔攀岩回来，据说已经是发售前最后一版了，便投入精力好好玩了 50 小时，感觉非常好。 我没有玩过这个系列的前作，但有 800 小时《群星》的经验，还有维多利亚 2/3 以及十字军之王 2/3 的近百小时游戏时间，对 P 社的大战略游戏的套路还是比较了解的。这一作中有很多似曾相识的机制，但玩进去又颇为新鲜，未曾在其它游戏中体验过。 我特别喜欢 P 社这种在微观上使用简洁公式，宏观展…",
+      "key_points": [
+        "我特别喜欢 P 社这种在微观上使用简洁公式，宏观展现出深度的游戏设计。我试着对游戏的一小部分设计作一些分析，记录一下它的经济系统是如何构建的",
+        "很早从“舅舅”那里拿到了《欧陆风云 5》的试玩版。因为开发期的缘故，更新版本后需要重玩，所以一开始只是陆陆续续玩了十几个小时。前段时间从阳朔攀岩回来，据说已经是…",
+        "但有 800 小时《群星》的经验，还有维多利亚 2/3 以及十字军之王 2/3 的近百小时游戏时间，对 P 社的大战略游戏的套路还是比较了解的。这一作中有很多似…"
+      ]
+    }
+  ]
+}
