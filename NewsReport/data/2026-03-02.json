@@ -1,0 +1,791 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-03-02T01:00:04.489729+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 191,
+    "fresh_candidates": 59,
+    "backfill_candidates": 132,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-02",
+      "fetched_at": "2026-03-02T01:00:04.195596+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4162.88,
+          "change": 16.25,
+          "change_pct": 0.39,
+          "volume": 682047646.0,
+          "amount": 107236783.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5352.44,
+          "change": 72.48999999999978,
+          "change_pct": 1.37,
+          "prev_close": 5279.95,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-02 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1180.5878637452374,
+          "change": 15.989121642258624,
+          "change_pct": 1.3729296678945577,
+          "prev_close": 1164.5987421029788,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-02 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随便聊点交易相关的话题",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2874741935/377430784",
+      "published": "Sun, 01 Mar 2026 13:34:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Dream",
+        "agentic",
+        "ai",
+        "Ai",
+        "http",
+        "infra"
+      ],
+      "summary": "周末比较忙，就不长篇大论更新产业趋势了～ 总之北美那边看好光通信升级，国内更看好国产算力链的突破（现在其实刚启动），另外openclaw的agentic ai infra的机会值得一直跟踪。电力也是，可能持续长度超预期。 内衣war这件事超过咱能力圈就不分析了，本来我也从来不交易宏观事件，而且什么黄金原油又没拿到先手。非要我判断的话这一次长度和烈度要低俄wu几个级别。 随便闲扯一下趋势成长股的交易策略： 预期和筹码 ～这两个是 对增速二介导敏感 ，二阶导是非常反人性的。 假设有个股票叫做“Dream”是一个赛道成长…",
+      "key_points": [
+        "内衣war这件事超过咱能力圈就不分析了，本来我也从来不交易宏观事件，而且什么黄金原油又没拿到先手。非要我判断的话这一次长度和烈度要低俄wu几个级别",
+        "随便闲扯一下趋势成长股的交易策略： 预期和筹码 ～这两个是 对增速二介导敏感 ，二阶导是非常反人性的",
+        "所以因为技术路线吵架在我看来是非常非常无聊的，咱都是来赚钱的又不是学派路线之争。你既不是相对论我也不是量子力学，咱们争论上帝掷不掷骰子不是很可笑？所以我肯定说大…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "春节回乡见闻",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1570039711/377403947",
+      "published": "Sun, 01 Mar 2026 13:33:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBA",
+        "DIY",
+        "http",
+        "MBA",
+        "WTO",
+        "xueqiu.com"
+      ],
+      "summary": "春节回家，坐标山东中部潍坊下面的一个五六线小县城。 年岁渐长，今年的春节除了感受了下经济的温度之外，更多了一些对传统商业理论的反思。 一、走高性价比的路，让别人无路可走 很长一段时间内，全社会对于利润率，是有很高的追求的。比如企业管理界有这么一句耳熟能详的话：“三流企业做产品，二流企业做品牌，一流企业做标准”。一个企业从做产品到形成品牌，再到制定标准，对应的盈利能力是越来越强，护城河自然也是水涨船高。 但是这句落在MBA教材上的经典论述，可能在很大程度上误导了整整一代企业家们。 加入WTO之后，中国代工厂的老板发现…",
+      "key_points": [
+        "#2026年春节见闻# @今日话题 本话题在雪球有9条讨论，",
+        "春节期间很多人都刷到了这么一段潮汕语录：“一定要好好读书，也要刻苦耐劳工作；男丁要以四海为家，以经商为目标。读书、做生意，就是最大的目标。实在没办法才去打工，打…",
+        "类似于万达这种大商业业态人气很足。一个商场自带吃喝玩乐四种功能，天然就成为家庭游玩的目的地。比如山东当地的商超全福元，有超市有商场，边上还有步行街，春节期间每天…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于心动25年报的一些提前更新",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1936609590/377445020",
+      "published": "Sun, 01 Mar 2026 13:32:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "tap",
+        "adn",
+        "Q4",
+        "http",
+        "RO2",
+        "xueqiu.com"
+      ],
+      "summary": "为什么要提前写这篇，经历过去年3月28日惨案： 25年初，2、3月因为盈喜给力、港股贝塔，同时当时初心服已经在东南亚有证明（港澳台还没上），叠加24年底的白皮书导致大家对24年下半年tap广告收入有较高预期（不少预期30%+），心动从20多到3月28号最高到39左右，财报中午发出来tap广告收入增速20%出头，被部分人认为大不及预期，叠加砸盘引发踩踏恐慌，当天最低跌到31块左右，收盘32左右（我那天35接到32，人都麻了） 也就是错误的预期叠加砸盘（图坏了会强化预期），加上大量不明真相的跟风群众，确实会引起踩踏的…",
+      "key_points": [
+        "经历过去年3月28日惨案： 25年初，2、3月因为盈喜给力、港股贝塔，同时当时初心服已经在东南亚有证明（港澳台还没上），叠加24年底的白皮书导致大家对24年下半…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "周末突发事件对各类资产的影响",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7516820417/377445885",
+      "published": "Sun, 01 Mar 2026 13:32:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OPEC",
+        "AI",
+        "http",
+        "SH601318",
+        "VLCC",
+        "xueqiu.com"
+      ],
+      "summary": "美军战机携带着精确制导炸弹划破了伊朗领空的寂静，以色列的导弹也同步呼啸而至。 德黑兰郊外的爆炸声，通过社交媒体瞬间传遍全球。 很多人早上醒来第一件事就是刷新闻，看看第三次世界大战是不是已经来了。 其实黄金和原油在过去的几天早就提前有了反应，期货市场上蹿下跳，资金像受惊的兔子一样四处乱蹿。 周五我刚好也提了一嘴，说看到了一些信号，感觉要开打，没想到真打起来了。 这就是我常说的，资本市场从来不等官宣，它会抢在所有新闻曝光之前，用K线告诉你发生了什么。 对于各类资产，简单聊几句。 （1）黄金。 肉眼可见的受益者，去年以来…",
+      "key_points": [
+        "军工、黄金、油运这些板块会有资金冲进去，但中期来看，这次冲突反而可能强化中国的大国地位和影响力，中美互动也在推进，风险偏好渐进抬升不是什么空话。当然，如果你手里…",
+        "去年以来地缘动荡+全球制造业扩张的逻辑一直在强化，黄金作为普通人能合法买到的对抗不确定性的资产，这次又有了新的叙事支撑，节奏上大概率要脉冲式上行"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "达利欧：经济看起来很复杂，但实际上它像一台简单的机器一样运转……6大章节看懂！如何在周期中不被淘汰？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BE%BE%E5%88%A9%E6%AC%A7%EF%BC%9A%E7%BB%8F%E6%B5%8E%E7%9C%8B%E8%B5%B7%E6%9D%A5%E5%BE%88%E5%A4%8D%E6%9D%82%EF%BC%8C%E4%BD%86%E5%AE%9E%E9%99%85%E4%B8%8A%E5%AE%83%E5%83%8F%E4%B8%80%E5%8F%B0%E7%AE%80%E5%8D%95%E7%9A%84%E6%9C%BA%E5%99%A8%E4%B8%80%E6%A0%B7%E8%BF%90%E8%BD%AC%E2%80%A6%E2%80%A66%E5%A4%A7%E7%AB%A0%E8%8A%82%E7%9C%8B%E6%87%82%EF%BC%81%E5%A6%82%E4%BD%95%E5%9C%A8%E5%91%A8%E6%9C%9F%E4%B8%AD%E4%B8%8D%E8%A2%AB%E6%B7%98%E6%B1%B0%EF%BC%9F",
+      "published": "Sun, 01 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "vs",
+        "Deleveraging",
+        "Recession",
+        "AI",
+        "Alpha",
+        "alpha"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：鑫鑫-投资 来源：雪球 第一章： 这台机器的零件，比你想的简单得多 大多数人觉得经济很复杂——GDP、利率、通胀、量化宽松、财政赤字……这些词汇像一团乱麻。 但达利欧说，如果你理解了 交易 这个最小单位，你就理解了整台机器。 一切的起点：一笔交易 你每天都在进行交易。早上买杯咖啡，你用钱（或白条）换取了一杯小黄油拿铁。这就是一笔交易。 交易的定义是买方用货币或信用，与卖方交换商品、服务或…",
+      "key_points": [
+        "鑫鑫-投资 来源：雪球 第一章： 这台机器的零件，比你想的简单得多 大多数人觉得经济很复杂——GDP、利率、通胀、量化宽松、财政赤字……这些词汇像一团乱麻",
+        "第三章： 去杠杆化 — 当整个系统陷入「还不起」的困境 当长期债务周期到达顶峰，经济进 入 去杠杆化阶段 。这是最痛苦、也是最容易误判的时期。大多数人以为这只是…",
+        "听起来像废话？但这意味着：当你借钱增加支出 → 你让别人的收入增加 → 他们看起来更有信用 → 银行更愿意借钱给他们 → 他们也增加支出 → 又让其他人收入增加…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Nano Banana 2 全网最全攻略",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6345935.html",
+      "published": "Sun, 01 Mar 2026 06:09:59 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Banana",
+        "Nano",
+        "Pro",
+        "Google",
+        "AI",
+        "amp"
+      ],
+      "summary": "Google的Nano Banana系列图像模型迎来重磅升级，Nano Banana 2以闪电般的速度和超高性价比刷新文生图体验。这款代号gemini-3.1-flash-image-preview的模型支持4K分辨率、极端宽高比和多轮对话式编辑，更拥有实时搜索、多图融合等独门绝技。本文将全面解析模型特性、使用技巧与API调用方案，助你在创作效率与质量间找到完美平衡点。 昨晚正在用 Nano Banana Pro 生成文章配图呢，突然Nano Banana2跟鬼一样就出现了，我以为网站卡了 刷新了下发现真的出了一个…",
+      "key_points": [
+        "食材层上方醒目地悬浮着一个奢华的标题标签。文字为“担担面 DAN DAN NOODLES”，采用富有表现力的手写毛笔字风格。字母呈现出厚重、三维雕刻的金色金属质…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当一个00后扎进传统行业做AI...",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6346374.html",
+      "published": "Sun, 01 Mar 2026 05:03:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "AI...",
+        "Alex",
+        "APP",
+        "CC0"
+      ],
+      "summary": "大家都在搞超级个体、一人公司，我选了另一条路——和房地产、旅游、证券、医疗、制造、政务的「老登们」一起，把AI带进传统行业。这条路很孤独，但我觉得是蓝海。 这不是我一个人的独白。 当我写下这些文字时，广东潮州的陶瓷工厂里，AI正在检测每一块瓷砖的瑕疵；佛山的酱油酿造车间，“数字徒弟”正在学习老师傅四百年的经验；深圳的机器人6S店里，00后们正在教传统企业主如何用AI提效降本。 这是一群年轻人的选择——在大家都往“一人公司”挤的时候，我们反向扎进了传统行业。 一、为什么我说这是蓝海？ 先看几组数据： 我国已建成3万余…",
+      "key_points": [
+        "正如海天味业那位副总裁说的：“变的是用科技为老手艺穿上了‘盔甲’，让它不再惧怕经验断层，让传统手艺得以延续。” 而我们这些扎进传统行业的年轻人，或许就是那层“盔…",
+        "我选了另一条路——和房地产、旅游、证券、医疗、制造、政务的「老登们」一起，把AI带进传统行业。这条路很孤独，但我觉得是蓝海",
+        "这是一群年轻人的选择——在大家都往“一人公司”挤的时候，我们反向扎进了传统行业"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "店铺管理：同一个小程序商城开3家店，系统怎么让它们各卖各的？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6346072.html",
+      "published": "Sun, 01 Mar 2026 04:16:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "store_id",
+        "Step",
+        "BRX-DF-001",
+        "BRX-OL-002",
+        "Banner",
+        "status"
+      ],
+      "summary": "当一家国产运动品牌决定在微信小程序同时运营三家店铺时，如何实现商品、价格、库存的独立管理？本文以真实案例为线索，从渠道与店铺的概念区分切入，逐层拆解多店体系背后的数据隔离逻辑与系统设计要点，揭示如何用store_id串联起商品圈选、价格策略、结算账户等关键环节，并直击库存混乱、价格失控等实战陷阱。 从一个真实决策开始 品牌X是一家国产运动品牌，今年决定把微信小程序商城做深。之前只有一个”品牌X官方商城”，现在要同时运营三家店： 旗舰店 （当季新品，标价899）、 折扣店 （过季尾货，一口价399）、 会员商城 （专…",
+      "key_points": [
+        "运营团队各就各位——但系统里怎么让它们”各卖各的”？答案是： 每家店独立绑定4层数据，每层都通过 store_id 隔离",
+        "回到品牌X的微信小程序商城也是一样的。在同一个微信渠道下，品牌X选择开3家店（旗舰、折扣、会员商城），每家店有独立的运营团队、选品策略、价格体系和KPI——这叫…",
+        "当一家国产运动品牌决定在微信小程序同时运营三家店铺时，如何实现商品、价格、库存的独立管理？本文以真实案例为线索，从渠道与店铺的概念区分切入，逐层拆解多店体系背后…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "别再问会不会被AI替代：真正值钱的，是你的“背锅能力”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6346279.html",
+      "published": "Sun, 01 Mar 2026 03:46:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CC0",
+        "CW3",
+        "HR",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "AI替代岗位的逻辑远比想象中复杂。一张拷问\"事情搞砸需要坐牢吗\"的图表，揭开了职场中最残酷的真相：人类的价值不在于效率，而在于承担后果的能力。本文通过三个真实案例，剖析AI时代下企业无法逃避的雇主责任、医疗诊断的签字权归属以及自动驾驶事故追责机制，揭示了\"责任工资\"才是职场人真正的护城河。 昨晚刷到一张图，我盯着看了很久。 图很简单，逻辑却精准得吓人。 标题是《工作岗位是否可以被 AI 代替自测表》，中间只有一个核心拷问： “事情搞砸了，需要坐牢吗？” 需要：不会被替代 不需要：会被替代 你可以骂它粗暴、刻薄、毒鸡…",
+      "key_points": [
+        "所以别再问“我会不会被AI替代”",
+        "AI替代岗位的逻辑远比想象中复杂。一张拷问\"事情搞砸需要坐牢吗\"的图表，揭开了职场中最残酷的真相：人类的价值不在于效率，而在于承担后果的能力。本文通过三个真实案…",
+        "只有这张图在聊“后果” 过去两年，职场人被一句话反复恐吓： “你不学AI，就会被AI淘汰。” 可现实是，AI淘汰你的速度，未必取决于它有多聪明，而取决于：它犯错…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "15厘米的“黑发”：一碗牛肉饭教会我做用户洞察",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/user-research/6345754.html",
+      "published": "Sun, 01 Mar 2026 03:05:55 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "AI",
+        "APP",
+        "ASMR",
+        "CC0",
+        "Keep"
+      ],
+      "summary": "一碗15厘米‘黑发’疯长的牛肉饭，为何让千万打工人集体破防？这不仅是荒诞现象，更是精准击中职场人焦虑的情绪产品。从心理账户理论到符号化传播，本文深度拆解‘霉菌狂欢’背后的产品逻辑，揭示情绪经济如何成就2万亿市场的商业密码。 大年初八，又到了打工人开工的日子。 安徽巢湖的尹先生回到了浙江宁波。当他推开办公室的门，一股异味扑面而来。循着气味，他看到了节前遗忘在角落的那碗牛肉饭——碗口之上，密密麻麻竖起了黑色菌丝，像头发一样，高达15厘米，宛如一碗微型的“黑色丛林”。 图：15cm 的黑发 这个画面被他拍下视频并上传网络…",
+      "key_points": [
+        "安徽巢湖的尹先生回到了浙江宁波。当他推开办公室的门，一股异味扑面而来。循着气味，他看到了节前遗忘在角落的那碗牛肉饭——碗口之上，密密麻麻竖起了黑色菌丝，像头发一…",
+        "为什么是它？因为这碗饭击中了三个“情绪痛点”，对应着产品设计中三类重要的 情感化需求 ： 第一，荒诞感：产品如何用“反常”降低用户防御 霉菌生长本是寻常事，但1…",
+        "图：15cm 的黑发 这个画面被他拍下视频并上传网络后，迅速引爆深交媒体，#牛肉饭长出15cm黑发#的话题下，一条评论获得了10万+点赞： “别人的头发在碗里疯…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "给莲藕打孔好累，给藕带打孔更累！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BB%99%E8%8E%B2%E8%97%95%E6%89%93%E5%AD%94%E5%A5%BD%E7%B4%AF%EF%BC%8C%E7%BB%99%E8%97%95%E5%B8%A6%E6%89%93%E5%AD%94%E6%9B%B4%E7%B4%AF%EF%BC%81",
+      "published": "Sun, 01 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AliExpress.com",
+        "Climate",
+        "ETT6GKzoKy",
+        "guokr.com",
+        "GuokrNature",
+        "http"
+      ],
+      "summary": "莲花 是高洁的象征，代表着出淤泥而不染的品格，在各个亚洲宗教中也有一定的地位。但是，提及莲，我们这些单纯的吃货只会想到 “全身都是宝” 。从它轻薄芬芳的花瓣，到亭亭如盖的荷叶，再到生长荷叶和花朵的、鲜嫩脆爽的藕带，甚至冬季用于存储养分过冬的莲藕，没有一样能够逃过中国人的餐桌。 出淤泥而不染的莲｜iWallHD 莲花的命运可谓 悲惨 ，却也使得它被培育出了无数品种，并且广泛地栽培在亚洲东部从南到北的田地、河流与湖泊中。 藕带与藕 作为我们最熟悉的植物之一，莲不仅是常见的食材，也是常用的观赏植物，在各个民族中也作为文化…",
+      "key_points": [
+        "穿越时空而来的莲 作为一种只能生长在水中的挺水植物，莲的每个器官都具有中空的结构——除了我们都见过的藕，藕带、藕鞭、叶柄甚至莲蓬中都是。莲藕、莲带和叶柄里的中空…",
+        "代表着出淤泥而不染的品格，在各个亚洲宗教中也有一定的地位。但是，提及莲，我们这些单纯的吃货只会想到 “全身都是宝” 。从它轻薄芬芳的花瓣，到亭亭如盖的荷叶，再到…",
+        "在南方不同的地区有不同的藕莲品种。粉色花的藕莲比较常见，而莲藕产量最大的湖北则以洪湖白莲为特色，这些藕莲的花大多是单瓣的。用于观花的 花莲 则有各式各样的颜色和…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“大夫，我的阴囊在吹口哨”——等等，你说啥？？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E5%A4%A7%E5%A4%AB%EF%BC%8C%E6%88%91%E7%9A%84%E9%98%B4%E5%9B%8A%E5%9C%A8%E5%90%B9%E5%8F%A3%E5%93%A8%E2%80%9D%E2%80%94%E2%80%94%E7%AD%89%E7%AD%89%EF%BC%8C%E4%BD%A0%E8%AF%B4%E5%95%A5%EF%BC%9F%EF%BC%9F",
+      "published": "Sun, 01 Mar 2026 16:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CT",
+        "abstract",
+        "American",
+        "amjcaserep.com",
+        "Case",
+        "Dayton"
+      ],
+      "summary": "在美国俄亥俄州代顿（Dayton）的一间急诊室里，一位患者向医生讲述了他的离奇症状： 他听到自己的阴囊在“吹哨” 。 会“吹哨”的阴囊，这或许是医生职业生涯中听到最离谱的患者主诉 阴囊会吹哨，那是什么离谱情况？确切地说，他指的是气体通过小孔时发出的那种嘶嘶声——在他的阴囊上，恰好有一个这样的开口。 一年多以来，这位72岁的男性患者一直受到反复发作的附睾炎困扰，经过几轮抗生素治疗依然不见好转。他在5个月前接受了左侧阴囊的切开引流术，然而手术后伤口却一直没能愈合。 看起来，大概是有积累的空气通过这个开放伤口排出体外，由…",
+      "key_points": [
+        "在美国俄亥俄州代顿（Dayton）的一间急诊室里，一位患者向医生讲述了他的离奇症状： 他听到自己的阴囊在“吹哨”",
+        "这或许是医生职业生涯中听到最离谱的患者主诉 阴囊会吹哨，那是什么离谱情况？确切地说，他指的是气体通过小孔时发出的那种嘶嘶声——在他的阴囊上，恰好有一个这样的开口",
+        "这位患者的气胸在住院3天后得到缓解。不过，积存在他大腿、会阴部与阴囊内的气肿则持续了“异常长的时间”。他再次接受阴囊手术，并最终切除了双侧睾丸。在最初就诊的近2…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "朋友看我脸又红又肿，问我是不是养猫了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%8B%E5%8F%8B%E7%9C%8B%E6%88%91%E8%84%B8%E5%8F%88%E7%BA%A2%E5%8F%88%E8%82%BF%EF%BC%8C%E9%97%AE%E6%88%91%E6%98%AF%E4%B8%8D%E6%98%AF%E5%85%BB%E7%8C%AB%E4%BA%86",
+      "published": "Sun, 01 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml",
+        "XMCPCH221",
+        "B5",
+        "get",
+        "APP",
+        "dc_ps"
+      ],
+      "summary": "不 知道有多少人和我一样，一到换季皮肤就不稳定。 脸上突然就 干痒紧绷，还会泛红，甚至偶尔还会脸颊刺痛。 这烦恼可不止我，身边很多朋友一到换季都变成了大花猫。 干燥脱皮，又红又难受，护肤品上脸也觉得脸蛋生疼 。特别是那些平时喜欢玩酸的朋友，屏障阴晴不定的，肌肤更容易出现问题…… 其实造成这种状况的原因有很多： 空气污染，花粉柳絮，用酸太多导致皮肤变脆…… 本就糟糕的皮肤状态，在挑选护肤品上更讲究技术。 想让皮肤回春的核心要点就要抓住—— 保持肌肤优良的保水力，重建健康屏障。 今天就给大家支支招，如何快速回春，一步回…",
+      "key_points": [
+        "又红又难受，护肤品上脸也觉得脸蛋生疼 。特别是那些平时喜欢玩酸的朋友，屏障阴晴不定的，肌肤更容易出现问题…… 其实造成这种状况的原因有很多： 空气污染，花粉柳絮…",
+        "身边很多朋友一到换季都变成了大花猫"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "花1/10的钱穿出老钱风的松弛感！这套平替哲学可太会了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8A%B11%2F10%E7%9A%84%E9%92%B1%E7%A9%BF%E5%87%BA%E8%80%81%E9%92%B1%E9%A3%8E%E7%9A%84%E6%9D%BE%E5%BC%9B%E6%84%9F%EF%BC%81%E8%BF%99%E5%A5%97%E5%B9%B3%E6%9B%BF%E5%93%B2%E5%AD%A6%E5%8F%AF%E5%A4%AA%E4%BC%9A%E4%BA%86",
+      "published": "Sun, 01 Mar 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "http",
+        "nhsukvuwavecv4",
+        "oversize"
+      ],
+      "summary": "有人懂吗？ 初春的社死现场：不是出门冷成狗，而是进了暖气房不敢脱外套。 不是不怕热， 而是一拉开衣服，多少有点 “见不得人”。 里面可能是一件早就 皱成了咸菜干 、还勒得肚子上的肉一层摞一层的打底衫。 也可能是一件不仅 起球，还肿得像充了气 的厚毛衣。 主打一个外面光鲜亮丽，里头穿搭车祸现场...... 毕竟咱早八人穿搭讲究一个 “方便且舒适”： 搞精致穿搭 =早起半小时 （对不起，起不来） 穿得轻盈美丽 =不太保暖防风 （不实用，达咩！） 那有没有既暖和、又体面，还能快速出门的解法？ 要说 能搞时尚、也能大方 见…",
+      "key_points": [
+        "这种 套装省时又省力 ，早上着急出门随手一套，整个人就透着一股 “我随便穿穿但就是很好看”的松弛感",
+        "不过分宽大显得拖沓，也不紧贴腿型暴露线条，就是那种利落又留有余地的松弛感",
+        "连我们部门那位超会穿搭的 同事路过都忍不住拉住我问： “你这身也太对味了吧！哪里买的？” 你们懂那种用 平价穿出贵牌 既视感的快乐吗？真的加倍快乐"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "哈梅内伊时代，存在这样一些伊朗电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%93%88%E6%A2%85%E5%86%85%E4%BC%8A%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%AD%98%E5%9C%A8%E8%BF%99%E6%A0%B7%E4%B8%80%E4%BA%9B%E4%BC%8A%E6%9C%97%E7%94%B5%E5%BD%B1",
+      "published": "Sun, 01 Mar 2026 14:07:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ershad",
+        "Annm",
+        "DVD",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Annm 今天应当谈谈伊朗电影，谈一种特殊的伊朗电影，也就是伊朗的异见电影。 众所周知，伊朗电影有严格的审查制度，具体来说，电影生产是 受到他们的文化与伊斯兰指导部，简称 Ershad的严密监管。 监管过程分剧本审批 和 放映许可 两个阶段，这很好理解。 在这种环境下，电影人经常面临 「 Siah-namayi 」 的指控， 意思是 「 抹黑 」 。这个词 由伊朗官方和保守派媒体发明，专门用于 攻击 那些揭示贫困、阶级矛盾、腐败 ，尤其是 体制暴力的现实主义作品。 伊朗的 官方逻辑认为， 这 类电影是为了博取西…",
+      "key_points": [
+        "《白奶牛之歌》（2020） 2022年玛莎·阿米尼之死引发的社会震荡， 又是近年一个新的重大转折点，它 彻底终结了伊朗电影人 和 审查机构之间维持数十年的协商传…",
+        "《 普通事故 》（2025） 无论如何，在今天的伊朗电影界，帕纳西已不再是孤军奋战的抗争英雄，一种越来越普遍的集体自觉性已经遍地开花",
+        "伊朗电影有严格的审查制度，具体来说，电影生产是 受到他们的文化与伊斯兰指导部，简称 Ershad的严密监管"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "科恩兄弟巅峰时期有多强",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%A7%91%E6%81%A9%E5%85%84%E5%BC%9F%E5%B7%85%E5%B3%B0%E6%97%B6%E6%9C%9F%E6%9C%89%E5%A4%9A%E5%BC%BA",
+      "published": "Sun, 01 Mar 2026 14:07:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DNA",
+        "E.",
+        "Glenn",
+        "Harvest",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Glenn Kenny 译者：Issac 校对：易二三 来源：《标准收藏》（2022年2月8日） 1990年9月，三部值得关注的美国黑帮电影上映了：马丁·斯科西斯震撼人心、水平高超、故事纵横几十年的犯罪影片《好家伙》；阿贝尔·费拉拉既火热又冰冷的当代毒枭道德寓言《纽约王》；还有乔尔·科恩和伊桑·科恩堪称禁酒时代开瓶器的大作《米勒的十字路口》。 这三部电影中，科恩兄弟的电影最为神秘又让人着迷。它取材于达希尔·哈米特的硬汉小说，是一部简洁而抒情的虚构故事，讲述了暴力、忠诚和存在的不安。 《米勒的十字路口》 上述品…",
+      "key_points": [
+        "这部电影的开场是对这些美国黑帮直率而有趣的典型刻画。此般刻画正如科恩兄弟的许多经典场景一样，利落又宏大。几块冰块落入威士忌杯，描绘了一种熟悉的圆滑社交模式；画外…",
+        "在被许多人称为「科恩宇宙」的众多作品中，科恩兄弟偶尔会慢慢地让这个角色意识到他曾经认为是家的地方或是离他而去，或是彻底毁灭：比如《醉乡民谣》（2013）里的勒维…",
+        "影片中他对汤姆说道：「你有没有注意过，一旦一个家伙把工作服弄脏了，一段愉快的对话就结束了？」（是哈米特的小说以及影片《马耳他之鹰》中一句经典台词「越低级的混混，…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "古人诚不我欺！原来山水画里的仙境真的存在",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%8F%A4%E4%BA%BA%E8%AF%9A%E4%B8%8D%E6%88%91%E6%AC%BA%EF%BC%81%E5%8E%9F%E6%9D%A5%E5%B1%B1%E6%B0%B4%E7%94%BB%E9%87%8C%E7%9A%84%E4%BB%99%E5%A2%83%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8",
+      "published": "Sun, 01 Mar 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "总以为山水画不过是古人的写意， 是夸张的浪漫。 直到走进华夏大地深处， 置身那些奇峰幽谷之间， 才恍然惊觉： 原来山水画，竟是古人的写实 。 不是画家想象力太丰富， 而是大自然的笔墨，本就如此惊艳！ 湖南·张家界 三千奇峰，这是中国山水画的教科书 张家界市位于湖南西北部， 其境内的武陵源风景名胜区 不仅是湖南省第一项世界遗产， 而且也是 中国第一批世界自然遗产 。 武陵源风景名胜区内 拥有 3100多根石英砂岩峰柱 ， 姿态万千，蔚为壮观。 秋季层林尽染的武陵源天子山， 根根峰林从地面拔地而起， 犹如插在笔筒中的笔…",
+      "key_points": [
+        "置身那些奇峰幽谷之间， 才恍然惊觉： 原来山水画，竟是古人的写实",
+        "纳灰坡立谷 图源：中国国家地理 2023年10期 摄影／黄驿伦 一篇微信文章的体量 无法将中国的“山水画卷”依次完整 介绍 如果你想深入、全面地了解 更多写实版…",
+        "这是中国山水画的教科书 张家界市位于湖南西北部， 其境内的武陵源风景名胜区 不仅是湖南省第一项世界遗产， 而且也是 中国第一批世界自然遗产"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一个公众号阅读小技巧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E4%B8%AA%E5%85%AC%E4%BC%97%E5%8F%B7%E9%98%85%E8%AF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7",
+      "published": "Sun, 01 Mar 2026 19:17:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ai",
+        "PDF",
+        "XX"
+      ],
+      "summary": "如果一篇公众号很火爆，看起来内容很硬核，但是各个段落的字体大大小小，那你就要留心。因为它就很可能是拷贝-粘贴的时候，把原网页和原 PDF 的格式一并拷贝了过来。而那么直接拷贝的人，一般都是在做拼贴剪切的工作，未必知道自己写了什么，所谓的「硬核」都是拿来唬人的。和担忧 Ai 相比，目前还是更应该担心人。人有欲望，Ai 没有，因此， Ai 只是有幻觉而已，但人却会主动杜撰和编造。 这时候，Ai其实很有帮助。当你看到一篇今天开头说到的那种唬人文章，觉得心里既震惊好奇，又有点吃不准，怀疑自己的知识储备不足以做判断。那么，你…",
+      "key_points": [
+        "Ai其实很有帮助。当你看到一篇今天开头说到的那种唬人文章，觉得心里既震惊好奇，又有点吃不准，怀疑自己的知识储备不足以做判断。那么，你大可以把整篇文章扔给 Ai，…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "女性科学家为何“不愿”向顶刊投稿？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A5%B3%E6%80%A7%E7%A7%91%E5%AD%A6%E5%AE%B6%E4%B8%BA%E4%BD%95%E2%80%9C%E4%B8%8D%E6%84%BF%E2%80%9D%E5%90%91%E9%A1%B6%E5%88%8A%E6%8A%95%E7%A8%BF%EF%BC%9F",
+      "published": "Sun, 01 Mar 2026 08:42:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI-IR",
+        "https",
+        "articles",
+        "com",
+        "IL-10+",
+        "pixabay"
+      ],
+      "summary": "3.1 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 女性科研工作者为何“不愿”向顶刊投稿？ 图片来源：pixabay .com 在高水平学术期刊上，女性作为论文主要作者 （通讯作者） 所发表的论文数量明显低于男性。针对这一现象的大量研究集中在同行评审的结果和过程上，但很少有人关注女性科研工作者在投稿时的想法。加拿大蒙特利尔大学Vincent Larivière团队通过对近5000名科研人员…",
+      "key_points": [
+        "3.1 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来…",
+        "图片来源：pixabay .com 在高水平学术期刊上，女性作为论文主要作者 （通讯作者） 所发表的论文数量明显低于男性。针对这一现象的大量研究集中在同行评审的…",
+        "图片来源： pixabay.com 在日常生活中，我们经常发现，女性痛觉的延缓和消失要比男性慢。近日，密歇根州立大学生理学系Geoffroy Laumet团队通…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "章泽天的原罪，是「不迎合」",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E7%AB%A0%E6%B3%BD%E5%A4%A9%E7%9A%84%E5%8E%9F%E7%BD%AA%EF%BC%8C%E6%98%AF%E3%80%8C%E4%B8%8D%E8%BF%8E%E5%90%88%E3%80%8D",
+      "published": "Sun, 01 Mar 2026 12:41:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "文 ｜ 阑夕 时隔45天，小天章上线了第二期，非但没有延续上一期的争议，反倒是好评肉眼可见地多了起来。 其中除了听感上的提升，人们同样讶异于章泽天看起来完全没有受到舆论太多影响，开始相信她是真的想把播客这件事长期做下去。 说实话，对这个结果我并没有感到很意外，但凡留心过第一期舆论起伏的人，就能看得出立靶意图是大于实际评价的： 在小红书上的第一期先导片里，由于只截了几十秒的切片，评论区的声音是「怎么都是章泽天在说，能不能让刘嘉玲多点发言」 然而到了正片上线，刘嘉玲的确主导了绝大多数谈话过程，评论区又转向了「章泽天存在…",
+      "key_points": [
+        "我甚至还联想到了她几年前与王屹芝在镜头前周旋的那条切片，当时人们的反应远不像今天这般拿着放大镜找靶心的苛责，彼时人们为了赞扬章泽天的高情商，用的形容词都是「滴水…",
+        "这些年里，章泽天的影响力越积越深，但标签也在越来越固化，于是播客上线之初，人们发现这根本不符合长久以来想象中的章泽天，于是产生了落差和愤怒",
+        "面对既是嘉宾、也是同好的极限攀登者曾燕红，章泽天的提问变得更密集，也能在小细节上适当做出补充，因为登山确实是她正频繁接触的领域"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "樊登老師新書《主角模式》| 臺北新書分享會",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%A8%8A%E7%99%BB%E8%80%81%E5%B8%AB%E6%96%B0%E6%9B%B8%E3%80%8A%E4%B8%BB%E8%A7%92%E6%A8%A1%E5%BC%8F%E3%80%8B%7C+%E8%87%BA%E5%8C%97%E6%96%B0%E6%9B%B8%E5%88%86%E4%BA%AB%E6%9C%83",
+      "published": "Sun, 01 Mar 2026 17:24:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "【本集重點】在這個焦慮的時代，如何找回人生的「主角模式」？ 你是否常覺得這輩子就這樣了？想改變卻怕失敗，想躺平又不甘心？本集《主角模式》新書論壇，集結了樊登、蔡康永、志祺七七、郝哥、文森等頂尖創作者，從腦科學、商業邏輯到人生哲學，帶你破解成長的迷局。 樊登老師一針見血指出：「千萬不要讓 AI 替你讀書！」「可替代性」。就像馬鈴薯雖然重要，但因為隨處可見所以便宜。 針對行動焦慮，郝哥送出最強金句：「不做，你會想一輩子；做了，你會講一輩子。」 而志祺七七則分享了陪伴阿滴走過憂鬱症的故事，告訴我們：「你現在經歷的痛苦，未…",
+      "key_points": [
+        "你是否常覺得這輩子就這樣了？想改變卻怕失敗，想躺平又不甘心？本集《主角模式》新書論壇，集結了樊登、蔡康永、志祺七七、郝哥、文森等頂尖創作者，從腦科學、商業邏輯到…",
+        "樊登老師一針見血指出：「千萬不要讓 AI 替你讀書！」「可替代性」。就像馬鈴薯雖然重要，但因為隨處可見所以便宜",
+        "如何找回人生的「主角模式」"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "Star Trek : Captain's Chair 初体验",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/03/star_trek_captains_chair.html",
+      "published": "2026-03-01T11:25:47Z",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "weight",
+        "Captain",
+        "Chair",
+        "Star",
+        "Trek",
+        "BGG"
+      ],
+      "summary": "今年过年，我沉迷于 Star Trek : Captain's Chair 这款 2025 年的桌游。暂时还没有中文版，如果直译的话，名为《星际迷航：船长之椅》。这是一款以卡牌构筑为核心玩法的桌游，在游戏过程中，不断完善自己的牌堆，构筑一个高效的得分引擎。如果能比对手获得更多的 VP 就可以获得游戏胜利，但也要避免突然死亡。这是一款新游戏，但作者 Nigel Buckle 和 David Turczi 之前已经用类似的系统出过 Imperium （帝国）三部曲。其中《帝国：经典版》和《帝国：传奇版》有中文版，在淘宝…",
+      "key_points": [
+        "我沉迷于 Star Trek : Captain's Chair 这款 2025 年的桌游。暂时还没有中文版，如果直译的话，名为《星际迷航：船长之椅》。这是一款…"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第258期 - 赛博充电",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/258/",
+      "published": "Mon, 02 Mar 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Kaku",
+        "AI",
+        "Cmd",
+        "Skills",
+        "Claude"
+      ],
+      "summary": "封面图拍摄于我家终于装好的赛博充电桩，非常酷好帅啊，1月多下单了，今天终于来安装了，特斯拉的服务一如既往的专业，特斯拉的东西一如既往的酷，继续持有特斯拉。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 Kaku，极速易用的 AI 友好终端发布了 0.5 版本，快去试试 https://github.com/tw93/Kaku 1、AI Shell 错误修复：命令失败时，Kaku 自动把命令发给 AI，直接在终端里展示修复建议，按 Cmd + Shift + E 一…",
+      "key_points": [
+        "PortKiller：跨平台端口管理工具，带原生 UI https://github.com/productdevbook/port-killer 在 GitH…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-02",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "keep on shipping, 你可能会发现用户可能喜欢什么 - 我的透明创业实验第二十二周",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/t9t-week22-2019-10-14/",
+      "published": "2025-11-21T08:04:26.711Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hello",
+        "keep",
+        "on",
+        "shipping",
+        "timqian",
+        "world"
+      ],
+      "summary": "Hello world, 我是 timqian , 正在进行为期一年的<a",
+      "key_points": [
+        "我是 timqian , 正在进行为期一年的<a"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "关于桌游设计大赛的介绍",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2025/10/boardgame_design_contest.html",
+      "published": "2025-10-12T10:06:30Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bgg",
+        "PnP",
+        "A4",
+        "boardgamegeek",
+        "Deep",
+        "Delve"
+      ],
+      "summary": "这一篇是前几个月研究桌游规则期间的另一篇小结。因为最近两个多月都在制作 Deep Future 的数字版，没空整理笔记。现在闲下来，汇总整理这么一篇记录。 今年夏天，我迷上了 DIY 类型的桌游。这类桌游最显设计灵感。商业桌游固然被打磨的更好，但设计/制作周期也更长。通常，规则也更复杂，游戏时间更长。我经常买到喜欢的游戏找不到人开。阅读和理解游戏规则也是颇花精力的事情。所以，我近年更倾向于有单人模式的游戏。这样至少学会了规则就能开始玩。但为单人游玩的商业桌游并不算多（不太好卖），而我对多年前玩过的几款 PnP （打…",
+      "key_points": [
+        "我了解到了 9 卡微型 PnP 游戏设计大赛。从 2008 年开始，在 bgg (boardgamegeek) 上每年都会举办",
+        "我迷上了 DIY 类型的桌游。这类桌游最显设计灵感。商业桌游固然被打磨的更好，但设计/制作周期也更长。通常，规则也更复杂，游戏时间更长。我经常买到喜欢的游戏找不…",
+        "这一篇是前几个月研究桌游规则期间的另一篇小结。因为最近两个多月都在制作 Deep Future 的数字版，没空整理笔记。现在闲下来，汇总整理这么一篇记录"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "三十五",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/self/35/",
+      "published": "Mon, 06 Oct 2025 00:00:00 +0000",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "以一个普通人十年的经历为案例，探讨如何在不确定的世界里，从“有限游戏”的困境中挣脱，转向构建属于自己的“无限游戏”。",
+      "key_points": [
+        "探讨如何在不确定的世界里，从“有限游戏”的困境中挣脱，转向构建属于自己的“无限游戏”"
+      ]
+    }
+  ]
+}
