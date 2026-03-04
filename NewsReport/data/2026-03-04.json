@@ -1,0 +1,794 @@
+{
+  "date": "2026-03-04",
+  "generated_at": "2026-03-04T01:00:07.222002+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 6,
+    "items_collected": 191,
+    "fresh_candidates": 64,
+    "backfill_candidates": 127,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-04",
+      "fetched_at": "2026-03-04T01:00:06.915169+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4122.68,
+          "change": -59.91,
+          "change_pct": -1.43,
+          "volume": 921139170.0,
+          "amount": 142579020.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5138.15,
+          "change": 49.98999999999978,
+          "change_pct": 0.98,
+          "prev_close": 5088.16,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-04 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1141.9946613725144,
+          "change": 11.11067468291344,
+          "change_pct": 0.9824769661331353,
+          "prev_close": 1130.883986689601,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-04 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-04",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "一份30年的报告告诉你：合理的投资预期长什么样",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%80%E4%BB%BD30%E5%B9%B4%E7%9A%84%E6%8A%A5%E5%91%8A%E5%91%8A%E8%AF%89%E4%BD%A0%EF%BC%9A%E5%90%88%E7%90%86%E7%9A%84%E6%8A%95%E8%B5%84%E9%A2%84%E6%9C%9F%E9%95%BF%E4%BB%80%E4%B9%88%E6%A0%B7",
+      "published": "Tue, 03 Mar 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "JP",
+        "Morgan",
+        "ACWI",
+        "AI",
+        "alpha",
+        "Assumptions"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 最近在翻一份报告的时候，我被一个数字卡住了。 JP Morgan刚发了最新一版《长期资本市场假设》（Long-Term Capital Market Assumptions）。这份报告每年出一次，今年是第30版——128页，100多位行业分析师和策略师，覆盖200多种资产、20种基础货币，基本上是全球资管行业里最大规模的一次\"未来十年能赚多少\"的集体推算。 结论是：一…",
+      "key_points": [
+        "有一个细节值得注意：过去一年全球股市大涨，估值明显抬升了，但这个数字跟去年的报告一模一样——还是6.4%。意思是，他们认为短期的涨跌不改变未来10到15年的大方…",
+        "我之前给自己的锚是GDP增长率——经济长期能增长多少，投资回报大致就在那个附近。但看到这份报告的时候，我意识到这个问题其实可以算得更细：不同的资产、不同的配置结…",
+        "我的组合大概是60%股票、20%债券、20%另类资产和另类投资策略。对照报告的数据，这个结构的合理预期大概在6.5%到7%之间"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想229 漫谈智算中心的冷却",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/377686383",
+      "published": "Tue, 03 Mar 2026 10:25:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPU",
+        "AI",
+        "CPU",
+        "kW",
+        "PUE",
+        "GPT"
+      ],
+      "summary": "用过电脑的朋友都知道，CPU会发热，一发热就有个小风扇呜呜呜地开始转，这就是过去冷却最主流的方式——风冷。风冷利用风扇和空调系统，通过空气循环带走热量，它的优点是技术成熟、成本低、部署和维护简便，缺点也很明显，散热能力有限、功耗高、噪音大。 而AI智算中心，特别是训练GPT这类大模型，本质上是在进行海量的矩阵运算，目前的主流方式是靠GPU来完成的，这带来两个结果： 一是单芯片功耗飙升，传统CPU的功耗通常在150W-300W。而一块顶级的AI GPU，如NVIDIA的H100，功耗可达700W。这相当于在指甲盖大小…",
+      "key_points": [
+        "为了组成强大的算力集群，智算中心会把成千上万的GPU密集地塞在一起。英伟达发布的NVL72机柜，单机柜功率就高达120kW，这相当于100多个三口之家的同时用电…",
+        "对于AI智算中心这样的能耗巨兽，5%到10%的能耗节省，乘以庞大的用电基数，就是一笔天文数字",
+        "CPU会发热，一发热就有个小风扇呜呜呜地开始转，这就是过去冷却最主流的方式——风冷。风冷利用风扇和空调系统，通过空气循环带走热量，它的优点是技术成熟、成本低、部…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "外资大动作，持续抛售一万亿",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/377676969",
+      "published": "Tue, 03 Mar 2026 10:25:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "switf",
+        "IPO",
+        "cips2024",
+        "EPFR",
+        "http",
+        "Swift"
+      ],
+      "summary": "自2024年924以来，外资抛售了一万亿国内债券。 抛售的进程从2025年4月加快，也就是关税战开打那会。 10年国债利率也是从那个时候开始上升的。 对应的，A股也是在那个时候开始了第二波上涨。 如果我们把外资持有的债券和股票的市值做一下对比，会发现两者正好此消彼长。持有的股票市值增加了1.2万亿。 这里面有什么玄机呢？外资在卖债买股吗？ 一、为什么外资要卖债？ 老读者应该知道，我在924那会就已经提到过， 外资会成为国内债券最大的空头。 原因是，美联储进入降息周期后，人民币的贬值压力将逐渐消失，甚至出现升值压力。…",
+      "key_points": [
+        "外资抛售了一万亿国内债券",
+        "如果我们把外资持有的债券和股票的市值做一下对比，会发现两者正好此消彼长。持有的股票市值增加了1.2万亿",
+        "当初外资买中债是因为央行为了缓解资金外流和保汇率，提供了较多的掉期点补贴，使得外资可以通过“ 做多国内债券+做空远期人民币 ”获得高于美元存款的利率"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "买贵了，终还是难有胜算的",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1379428214/377685255",
+      "published": "Tue, 03 Mar 2026 10:25:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "贵不代表着短期会跌，短期也有可能继续涨，但长期下来，风险太高，收益太低，不太合算，而且正常的情况下，热门的股票，短期上涨的概率要远大于下跌概率，但时间一长，买贵了，就会让人很头疼的，亏损就会非常历害。 那有网友问了，那我能不能专挑热门的买，然后小赚一点就跑，不要拿长久，不得可以了，这个也行不通，因为买贵了，只是大概率短期要继续上涨，不代表你买入后，一定是上涨的，这没有必然的关系，而且上涨的话，上涨的比较有限，下跌起来可能就会深不可涨，你即使对99次，赚的也是小钱，但你错一次亏的可是超级大钱，最终亏钱下来，还是以亏钱…",
+      "key_points": [
+        "那我能不能专挑热门的买，然后小赚一点就跑，不要拿长久，不得可以了，这个也行不通，因为买贵了，只是大概率短期要继续上涨，不代表你买入后，一定是上涨的，这没有必然的…",
+        "因为只要不断的买贵了，一直止损，这个止损成本会过高，不止损，下跌空间太大，损失也会很惨重，多遇到几个，总账户又是亏钱的，所以买贵了，无论是短线还是长线，只要长期…",
+        "短期也有可能继续涨，但长期下来，风险太高，收益太低，不太合算，而且正常的情况下，热门的股票，短期上涨的概率要远大于下跌概率，但时间一长，买贵了，就会让人很头疼的…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "手中有股，心中无股",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2426670165/377775100",
+      "published": "Tue, 03 Mar 2026 10:25:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "A股的护盘，往往只是先管住指数，无形之手尽量让指数稍微好看一点，这样的状况下，市场情绪很容易局部出现恐慌性杀跌。这属于机构的阳煤，护盘的品种，往往是市场最不待见，这样既可以交差，又能达到收集筹码效果。 大多主力资金会选择顺势而为，大盘下跌的时候，对倒砸盘相对容易很多，像今天盘中明显出现多次恐慌性杀跌。A股是个散户参与度较高的市场，好比是被狩猎的的对象，只有猎物发生恐慌，掠食动物才会发起攻击。这是个常态性特征，投资者要学会自我保护，掠食和被掠食的心态是完全不同，资本市场是弱肉强食，不是有怜悯心就会改变的。 手中有股，…",
+      "key_points": [
+        "心中无股。投资者在震荡中，体感很差，主要是波动之中不断算计损失，难免会情绪波动加大。实际上，如果没有准备卖出的策略，股价的波动只是长期过程的小浪花。往往最后的非…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "微信面对面红包改版：从用户体验视角，拆解一次彻底的设计失焦",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ucd/6347988.html",
+      "published": "Tue, 03 Mar 2026 09:24:48 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AB",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "微信8.0.69版本对“面对面红包”功能的改版引发了广泛吐槽，被指从“批量发利是”的神器退化为“逐一确认”的繁琐工具。本文从用户体验设计视角深度拆解此次“反向升级”：操作路径无意义复杂化、交互逻辑违背认知直觉、为追求技术架构统一而牺牲场景适配性。 开工首日，本想借着微信面对面红包给同事们发开工利是，点开熟悉的入口却彻底懵了：用了多年的“面对面发红包”成了“面对面收红包”，原本一个二维码就能搞定的批量发红包，如今要对着每个扫码的同事逐一操作发放，一番忙活下来，不仅没了发利是的轻松氛围，还满是操作的繁琐与尴尬。 搜索了…",
+      "key_points": [
+        "微信8.0.69版本对“面对面红包”功能的改版引发了广泛吐槽，被指从“批量发利是”的神器退化为“逐一确认”的繁琐工具。本文从用户体验设计视角深度拆解此次“反向升…",
+        "但问题在于：产品团队在追求技术逻辑统一的过程中，完全将用户体验置于次要位置，忽视了面对面红包作为资金交互功能，与文件传输功能的核心使用场景、用户诉求存在本质差异…",
+        "本想借着微信面对面红包给同事们发开工利是，点开熟悉的入口却彻底懵了：用了多年的“面对面发红包”成了“面对面收红包”，原本一个二维码就能搞定的批量发红包，如今要对…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "龙虾OpenClaw对普通人有什么机会？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/5758189.html",
+      "published": "Tue, 03 Mar 2026 09:15:38 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenClaw",
+        "AI",
+        "Telegram",
+        "API",
+        "Docker",
+        "GitHub"
+      ],
+      "summary": "OpenClaw以开源姿态席卷AI圈，两天狂揽10万+GitHub星标，成为2026年首个现象级AI项目。这款本地优先的多渠道AI网关不占手机空间，却能无缝接入微信、Telegram等常用工具，变身隐形数字助手。本文将拆解三类人群的变现路径：零基础者如何靠降门槛赚信息差，技能者怎样借工具放大优势，创业者又该如何布局生态红利，带你抓住AI平民化浪潮中的真实机会。 2026年初，一只小龙虾在AI圈悄然爆火的OpenClaw，这个以开放的爪子为寓意、带着EXFOLIATE!（剥壳）趣味口号的开源项目，上线2天就斩获10万…",
+      "key_points": [
+        "不是AI替代人，而是AI赋能人 。OpenClaw这只小龙虾，就像一个AI工具入口，它打开的，是普通人进入AI时代的一扇门，门后不是遥不可及的技术，而是触手可及…",
+        "四、普通人抓住机会的3个关键：清醒认知，拒绝踩坑 OpenClaw给普通人的机会是真实存在的，但它不是一夜暴富的捷径，也不是“零风险”的躺赚项目。要真正抓住这些…",
+        "靠降低门槛赚信息差钱 很多人看到开源项目、Gateway架构就望而却步，觉得OpenClaw是技术大佬的玩具，和自己无关。但恰恰是这种认知差，给零技术基础的普通…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 中的 ReAct：推理 + 行动的应用于AI医疗智能客服场景",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6347282.html",
+      "published": "Tue, 03 Mar 2026 09:15:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ReAct",
+        "AI",
+        "API",
+        "Observation",
+        "Action",
+        "LLM"
+      ],
+      "summary": "ReAct框架正在重塑LLM的交互逻辑，将单向问答升级为‘思考-行动-观察’的智能闭环。通过医疗客服与数学解题的实战案例，本文揭示这种框架如何实现信息准确性、过程透明性与自我修正能力的突破，为AI产品设计提供全新的方法论视角。 一、ReAct框架 ReAct 的本质是打破传统 LLM”输入问题→直接输出答案” 的单向模式，构建 “思考 – 行动 – 观察” (TAO) 的智能闭环，使模型从 “被动应答者” 升级为 “主动问题解决者”。 1、三步循环机制（TAO 闭环） 这个循环会迭代执行，直到任务完成或达到最大步数…",
+      "key_points": [
+        "2、关键优势 减少幻觉：通过工具调用获取真实数据，避免模型编造不存在的信息 可解释性：推理过程外显化，让 AI 的决策过程清晰可见 适应性强：能处理需要多步骤、…",
+        "实用建议： 明确边界 ：确定 AI 能调用哪些工具（如医疗知识库、预约系统、价格查询） 设计思考模板 ：为不同任务类型设计标准化的推理话术 限制循环次数 ：避免…",
+        "ReAct框架正在重塑LLM的交互逻辑，将单向问答升级为‘思考-行动-观察’的智能闭环。通过医疗客服与数学解题的实战案例，本文揭示这种框架如何实现信息准确性、过…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "老外集体“精中”：文化回流背后的出海新逻辑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6347537.html",
+      "published": "Tue, 03 Mar 2026 06:14:36 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Labubu",
+        "TikTok",
+        "Lisa",
+        "BLACKPINK",
+        "CC0",
+        "ceme_2"
+      ],
+      "summary": "从TikTok上爆火的'精神中国人'热潮，到Labubu玩偶、冰红茶、辣条在海外市场的意外走红，中国的生活方式与文化符号正在全球范围内掀起一场前所未有的'文化回流'。这场由拖鞋、热水、养生茶等日常细节引发的风潮，不仅改变了外界对中国的刻板认知，更揭示了中国品牌从功能输出转向体验输出的新机遇。本文将深度解析这场风潮背后的传播逻辑与商业启示，探讨中式生活如何自然融入全球消费者的日常。 “精神中国人”的风潮未过，最近，“到中国过年成热潮”的话题又登上社媒热搜。 从穿拖鞋、喝热水、煮养生茶，到如今越来越多的外国人体验中国年…",
+      "key_points": [
+        "从TikTok上爆火的'精神中国人'热潮，到Labubu玩偶、冰红茶、辣条在海外市场的意外走红，中国的生活方式与文化符号正在全球范围内掀起一场前所未有的'文化回…",
+        "所谓“文化回流”或者“精神中国人”等现象的产生，其核心不在于通过输出一套完整的价值体系，来改变某个群体的集体认知，而在于通过无数个像拖鞋、养生茶、Labubu、…",
+        "如西装、咖啡、圣诞节等均从外而来，慢慢融入国人的日常；如今，轮到我们的拖鞋、热水和养生茶，开始走进外国人的生活。这种“文化回流”，来得意味深长"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI产品经理操盘实录（四）：复盘与进化篇——构建企业级AI治理飞轮与防退化机制",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6346745.html",
+      "published": "Tue, 03 Mar 2026 06:11:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PM",
+        "Bad",
+        "Case",
+        "OOD",
+        "P0"
+      ],
+      "summary": "跨境电商AI商拍引擎SmartPhoto的全量上线只是战役的开始。面对每天十万级的真实并发，如何抵御模型熵增、构建工业化Bad Case治理飞轮？如何剥离“表功”叙事，沉淀组织级AI架构元规则？本文深度复盘AI产品经理在Day-2运营期的核心战役，揭秘高阶PM如何在大模型时代守住商业底线。 随着系统通过 Gate 2 全量门禁，“SmartPhoto”跨境电商 AI 商拍引擎在公司内部全面投产。当核心感知指标（L2可用率）稳定收敛于 75% 以上，单张算力摊销成本被死死压在 ¥0.5 以下时，项目的从 0 到 1…",
+      "key_points": [
+        "跨境电商AI商拍引擎SmartPhoto的全量上线只是战役的开始。面对每天十万级的真实并发，如何抵御模型熵增、构建工业化Bad Case治理飞轮？如何剥离“表功…",
+        "我将详细复盘高阶 AI 产品经理在 Day-2（上线后运营期）的两大核心战役： 如何构建抵御模型熵增的工业化 Bad Case（坏用例）治理飞轮？如何剥离“表功…",
+        "我牵头产研与业务部门，共同搭建了一套严密的“工业化 Bad Case 治理飞轮”： 切断主观情绪，重塑“商业与合规”定级标准 治理的第一步是“标准化输入”。我们…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "最贵的黄金往往藏在最丑的石头里，看完这篇文章你就可以出发了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%80%E8%B4%B5%E7%9A%84%E9%BB%84%E9%87%91%E5%BE%80%E5%BE%80%E8%97%8F%E5%9C%A8%E6%9C%80%E4%B8%91%E7%9A%84%E7%9F%B3%E5%A4%B4%E9%87%8C%EF%BC%8C%E7%9C%8B%E5%AE%8C%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E4%BD%A0%E5%B0%B1%E5%8F%AF%E4%BB%A5%E5%87%BA%E5%8F%91%E4%BA%86",
+      "published": "Tue, 03 Mar 2026 17:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ppm",
+        "al.",
+        "et",
+        "Ag3AuTe2",
+        "Alt",
+        "Au"
+      ],
+      "summary": "一盆冷水：你捡到的可能是“愚人金” 你是否曾在河边或山野间，瞥见一抹耀眼的金色，心跳加速，以为自己发现了宝藏？学了地质后，我偶尔也会收到朋友发来的“金光闪闪”的石头照片，让我帮他看看他在野外发现的一块金光闪闪的石头是不是金子？ 看到他眼中闪烁着比石头还亮的光芒，大多数时候，我也只能轻轻泼上一盆冷水：“这真不是金子，就是一块黄铁矿矿石（尽管有个和金沾边的名字“愚人金”）。 朋友不信：“这么金灿灿地！怎么可能不是？”我说那你用牙咬咬看，这玩意硬的能把你的牙硌掉，真金可是软的！再不济，你就拿“你手中的金子”在瓷砖背面狠狠…",
+      "key_points": [
+        "碲金银矿丨卢静文等《金属矿物显微镜鉴定手册》） 终极伪装： 最丑的石头，藏着最贵的金 讲到这里，你可能会觉得：只要有显微镜，是不是就没有找不到的金子了呢",
+        "但架不住“量大管饱”。卡林型金矿的矿体规模往往极其巨大，动辄绵延几公里。矿企通过大规模的露天开采和堆浸工艺，从这成千上万吨的“烂石头”里“榨”出来的黄金总量，往…",
+        "（1）“土豪金”黄油般的质感 还记得那个骗人的黄铁矿吗？在显微镜下，它终于原形毕露了——它的黄是苍白的、发浅的。而真正的自然金，在镜下会呈现出一种极具辨识度的“…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "就现在，抬头看，元宵月全食正在上演！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%B1%E7%8E%B0%E5%9C%A8%EF%BC%8C%E6%8A%AC%E5%A4%B4%E7%9C%8B%EF%BC%8C%E5%85%83%E5%AE%B5%E6%9C%88%E5%85%A8%E9%A3%9F%E6%AD%A3%E5%9C%A8%E4%B8%8A%E6%BC%94%EF%BC%81",
+      "published": "Tue, 03 Mar 2026 17:30:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EasyNight",
+        "amp",
+        "Leo",
+        "AI",
+        "guokr.com",
+        "http"
+      ],
+      "summary": "此时此刻，一场 月全食正在天空上演！ 如果你那里即将日落，那么请面向日落的方位，然后转身180度——就在 与日落相反的东南方向地平线上 ，随着太阳的落下， 月亮即将带食而出 。 2022年11月8日的月全食，这一幕即将上演 | Miller &amp; 夜空中国 对于中国人来说，这场月全食的发生时间还有一点特殊：正好是农历马年 正月十五元宵节 的傍晚。咱们可以一边吃团圆饭，一边欣赏带食月升。 如果此时你所在的地方看不到月亮，进直播间，我们全程为你直播这场奇景。 上一次元宵月全食还是19年前的2007年正月十五，但那…",
+      "key_points": [
+        "是让你看元宵月全食，没让你把元宵全食了 | EasyNight 万一你那里现在阴天下雨，或者看到本文时已经错过了时间的话，再想看月全食，就要继续等将近3年了。那…",
+        "一场 月全食正在天空上演",
+        "这一幕即将上演 | Miller &amp; 夜空中国 对于中国人来说，这场月全食的发生时间还有一点特殊：正好是农历马年 正月十五元宵节 的傍晚。咱们可以一边吃…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "春天来了，没想到“北京市服”的含金量还在上升......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%98%A5%E5%A4%A9%E6%9D%A5%E4%BA%86%EF%BC%8C%E6%B2%A1%E6%83%B3%E5%88%B0%E2%80%9C%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%8D%E2%80%9D%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F%E8%BF%98%E5%9C%A8%E4%B8%8A%E5%8D%87......",
+      "published": "Tue, 03 Mar 2026 15:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Burly",
+        "TNFFCK",
+        "XL",
+        "dc_ps",
+        "DWR",
+        "EPk2bVLCRB"
+      ],
+      "summary": "你的通勤 “ 战袍 ” 是什么？ 正值乍暖还寒的初春， 早晨起来上班，北京、上海、甚至各大城市的地铁公交站，仿佛都变成了冲锋衣展销会现场。 防风、防雨、轻薄但保 暖！ 靠着设计和功能的断层领先， 迅速统一了全国审美，被广大网友戏称为 “北京 市服 ” 。 图源社交平台 然而虽然都是【市服】，但一眼望去，等级森严，上身效果天差地别。 贵价防风衣一件卖到四五千甚至上万。 根据人体结构几十片裁片缝合，面料定织定染，修身显瘦，英姿飒爽。 工厂通版一两百一件，标着媲美大牌、完美平替。 但基本就是几片防水布缝在一起，套身上妥妥…",
+      "key_points": [
+        "迅速统一了全国审美，被广大网友戏称为 “北京 市服 ”",
+        "早晨起来上班，北京、上海、甚至各大城市的地铁公交站，仿佛都变成了冲锋衣展销会现场"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "是的，美国和伊朗的冲突让全世界的AI中断了。",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%98%AF%E7%9A%84%EF%BC%8C%E7%BE%8E%E5%9B%BD%E5%92%8C%E4%BC%8A%E6%9C%97%E7%9A%84%E5%86%B2%E7%AA%81%E8%AE%A9%E5%85%A8%E4%B8%96%E7%95%8C%E7%9A%84AI%E4%B8%AD%E6%96%AD%E4%BA%86%E3%80%82",
+      "published": "Tue, 03 Mar 2026 15:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Claude",
+        "AWS",
+        "Anthropic",
+        "API",
+        "Bug"
+      ],
+      "summary": "内容｜Max 编辑｜Max 北京时间2026年3月2日，周一，晚8点。 这本该是一个平淡无奇的夜晚。 在这个时间点，东八区的写字楼里灯火通明，正是程序员们处理工单的高峰期。 而在地球另一端的纽约和旧金山，晨起的开发者们刚刚泡好第一杯咖啡，准备开始一天的构建。 数以百万计的对话框正在全球各地的屏幕上闪烁。 有人在请求优化一段 Python 代码，有人在试图让 AI 润色一篇即将提交的学术论文，还有人在寻求情感上的慰藉。 在这个时代，AI 已经不仅仅是一个工具，它更像是数字工业的水和电，一种理所当然的存在。 然后，毫无…",
+      "key_points": [
+        "一枚造价可能只有几千美元的无人机坠落，它的冲击波不仅摧毁了当地的墙壁，也瞬间顺着海底光缆，爬到了你的桌面上，切断了你屏幕上的信号，蒸发了全球数亿美元的瞬时生产力",
+        "一枚物理世界的炸弹，穿越了数千公里的光纤，直接击穿了我们面前的显示器",
+        "这就是现代世界的超距作用"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "有一部电影，是元宵节必看",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%89%E4%B8%80%E9%83%A8%E7%94%B5%E5%BD%B1%EF%BC%8C%E6%98%AF%E5%85%83%E5%AE%B5%E8%8A%82%E5%BF%85%E7%9C%8B",
+      "published": "Tue, 03 Mar 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "hsiao",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 hsiao 今天是正月十五元宵节。元宵节在中国传统社会中有一个特殊性是，它几乎是唯一具有全民狂欢属性的节日。元宵节这一天意味着日常礼教秩序的暂时松动、男女社交限制的淡化，所以它在我们的古典文学和戏剧传统里，经常伴随着狂欢甚至胡闹的元素。 今天我们聊的这部电影，是 1960 年由长城电影制片有限公司出品、查良镛和胡小峰联合执导的越剧电影《王老虎抢亲》。影片中，元宵节不仅是故事展开的时间背景，更是推动错位喜剧冲突的一个核心驱动力。 《王 老虎抢亲》 对了，你肯定知道，查良镛就是金庸。 《王老虎抢亲》的故事蓝本，源自…",
+      "key_points": [
+        "这出戏的情节捕捉到了元宵节放灯期间那种社会阶层混杂、面具与真实并存的特质。而查良镛在执导该片时，也巧妙利用电影镜头语言，对戏曲舞台空间做了一番重构。众所周知，当…",
+        "文 hsiao 今天是正月十五元宵节。元宵节在中国传统社会中有一个特殊性是，它几乎是唯一具有全民狂欢属性的节日。元宵节这一天意味着日常礼教秩序的暂时松动、男女社…",
+        "是 1960 年由长城电影制片有限公司出品、查良镛和胡小峰联合执导的越剧电影《王老虎抢亲》。影片中，元宵节不仅是故事展开的时间背景，更是推动错位喜剧冲突的一个核…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "莱昂纳多和安德森谈《一战再战》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%8E%B1%E6%98%82%E7%BA%B3%E5%A4%9A%E5%92%8C%E5%AE%89%E5%BE%B7%E6%A3%AE%E8%B0%88%E3%80%8A%E4%B8%80%E6%88%98%E5%86%8D%E6%88%98%E3%80%8B",
+      "published": "Tue, 03 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD",
+        "Daily",
+        "F1",
+        "hongmomgs",
+        "irisfilm",
+        "Lockjaw"
+      ],
+      "summary": "作者： Mark Salisbury 译者： 覃天 校对：易二三 来源： Screen Daily （ 202 6 年 1 月 5 日 ） 保罗 · 托马斯 · 安德森和莱昂纳多 · 迪卡普里奥第一次见面是在 90年代末， 彼时 安德森正在为他的第二部长片《不羁夜》选角。两人并未合作，但一直保持 着联系 ，等待在合适的项目上携手 创作 。 《一战 再 战》讲述了帕特 · 卡尔霍恩（迪卡普里奥饰）的故事：他是地下革命组织 「 法兰西 75 」 的炸弹制造者。后来他改名为 鲍勃 · 弗格森 ，和女儿薇拉（蔡斯 · 英…",
+      "key_points": [
+        "Mark Salisbury 译者： 覃天 校对：易二三 来源： Screen Daily （ 202 6 年 1 月 5 日 ） 保罗 · 托马斯 · 安德森…",
+        "《一战 再 战》 《 一战再战 》 由华纳兄弟出品，并于 9月在全球范围上映，目前全球票房已超过2亿美元，成为安德森迄今为止票房最高的一部作品。影片在评论家选择…",
+        "（ 索姆纳担任《一战 再战 》的制片人；他于 2024 年 11月因癌症去世， 安德森在片尾字幕上写着将此片 献给索姆纳"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "3月最应该去哪儿玩！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+3%E6%9C%88%E6%9C%80%E5%BA%94%E8%AF%A5%E5%8E%BB%E5%93%AA%E5%84%BF%E7%8E%A9%EF%BC%81",
+      "published": "Tue, 03 Mar 2026 16:59:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "3月 是一年里 最富层次 的时段。 北方的雪还没彻底退场， 南方的花就已经迫不及待铺开山谷。 冷与暖在此交汇。 辽阔与绚烂同时展开。 它不是线性推进的春天， 而是一次季节的并置—— 同一个月份里， 既能踏雪，也能看花。 若问3月最应该去哪里？ 去那些能把反差拉满的地方！ 山海铺展： 一年中最壮观的花事 3月的花，不是点缀，而是成片出现。 高原峡谷里桃花与雪峰同框，丘陵草原上杏花漫坡而下，徽州梯田被油菜花填满，云贵高原的杜鹃铺出整条山岭。 这些地方的春天，不靠一两棵树，而是靠地形与气候，把花推成一片地貌。 新疆伊犁…",
+      "key_points": [
+        "【参考资料】 [1]《春到婺源 花海如画》新华网 2025年03月21日 [2]《江西婺源：油菜花开艳 诗情画意浓》光明日报 2024年03月31日 [3]《江…",
+        "这些城市，是3月最容易抵达的春天"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一起看月食",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E8%B5%B7%E7%9C%8B%E6%9C%88%E9%A3%9F",
+      "published": "Tue, 03 Mar 2026 22:02:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今天正月十五，整好遇见月全食。我在朋友家吃饭，拍下了一瞬间的月食景象。我想，如果你能在跟帖里留下今晚你拍下的月食照片，也许身在天涯海角各处的人，我们可以度过同一个元宵节。 文章原文",
+      "key_points": [
+        "整好遇见月全食。我在朋友家吃饭，拍下了一瞬间的月食景象。我想，如果你能在跟帖里留下今晚你拍下的月食照片，也许身在天涯海角各处的人，我们可以度过同一个元宵节"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "三年新院长，十万雪花文？北大研究追踪211高校院长的“学术收割”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%89%E5%B9%B4%E6%96%B0%E9%99%A2%E9%95%BF%EF%BC%8C%E5%8D%81%E4%B8%87%E9%9B%AA%E8%8A%B1%E6%96%87%EF%BC%9F%E5%8C%97%E5%A4%A7%E7%A0%94%E7%A9%B6%E8%BF%BD%E8%B8%AA211%E9%AB%98%E6%A0%A1%E9%99%A2%E9%95%BF%E7%9A%84%E2%80%9C%E5%AD%A6%E6%9C%AF%E6%94%B6%E5%89%B2%E2%80%9D",
+      "published": "Tue, 03 Mar 2026 08:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "STEM",
+        "abs",
+        "article",
+        "Dihub",
+        "END",
+        "get"
+      ],
+      "summary": "3.3 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 来源｜知社学术圈 ● ● ● 近来学术界反腐新闻频出，从经费挪用到科研诚信，种种乱象背后往往指向同一个核心问题：行政权力对学术资源的过度渗透。当原本负责服务的“官职”变身为掠夺成果的“收割机”，象牙塔内的创新生态正在悄然扭曲。然而，这种权力对学术的侵蚀，往往隐身于复杂的合作网络与繁荣的论文产出之后，长久以来难以被精准识别。 近日，由北京大学光华管理学院陈玉宇、暨南大学经济学院方铭、北京大学国家发展研究院王轩合作发表论文 [1]。该研究通过对211工…",
+      "key_points": [
+        "（3）外部竞争环境会对院长效应产生明显的制约作用。在985高校，或者同城市高校密集的地区，院长效应的强度会显著减弱，甚至可以忽略不计。研究人员分析：当一线科研人…",
+        "研究人员进一步追踪院长的这些合作者的独立研究成果 （即排除掉与院长挂名的专利） ，发现：虽然这些人的专利申请数量有所增加，但质量却毫无提升。令人警惕的是，当这些…",
+        "研究团队通过人工检索，从211工程高校STEM学院现任及前任院长的在线简历和履历中，收集了截至2019年7月的个人履历信息。这些收集到的院长履历包括就职日期、教…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "浏览器还值得再做一遍吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%98%E5%80%BC%E5%BE%97%E5%86%8D%E5%81%9A%E4%B8%80%E9%81%8D%E5%90%97%EF%BC%9F",
+      "published": "Tue, 03 Mar 2026 10:25:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Tabbit",
+        "Chrome",
+        "Native",
+        "Seedance",
+        "CLI"
+      ],
+      "summary": "文 ｜ 阑夕 所有的互联网产品都值得用AI重做一遍，这是很熟悉的一条共识。 但是浏览器算不算在内，答案就变得暧昧起来了。 因为显而易见的，这是一条完全属于大厂射程以内的赛道，如果Chrome下场摘桃子该怎么办——事实上Chrome已经在动手了——是一个对所有创业团队的天问。 知难而上的核心原因之一，莫过于浏览器仍然是PC以及生产力场景的第一大入口，具有不可忽略的死磕价值。 从全球视角着手，浏览器作为兵家必争之地，还在贡献着AI时代的一大变数： 当Google面临被司法部要求拆分的风险时，Perplexity曾经「碰…",
+      "key_points": [
+        "Tabbit浏览器是一场有预谋的演习，用来训练所有——而非只有下一代——用户重新学会上网冲浪这项基础技能，在最熟悉的产品里，构建新时代的交互和预期； 所以回到最…",
+        "浏览器作为兵家必争之地，还在贡献着AI时代的一大变数： 当Google面临被司法部要求拆分的风险时，Perplexity曾经「碰瓷」式的对Chrome开出345…",
+        "文 ｜ 阑夕 所有的互联网产品都值得用AI重做一遍，这是很熟悉的一条共识"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（最后一天）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%88%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9%EF%BC%89",
+      "published": "Sun, 01 Mar 2026 11:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和上班时间冲…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "【报告】经济学人智库全球展望 | 2026年3月",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E3%80%90%E6%8A%A5%E5%91%8A%E3%80%91%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93%E5%85%A8%E7%90%83%E5%B1%95%E6%9C%9B+%7C+2026%E5%B9%B43%E6%9C%88",
+      "published": "Tue, 03 Mar 2026 17:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "EIU",
+        "asia",
+        "eiu.com"
+      ],
+      "summary": "全球经济增长在动荡中保持稳定 尽管世界主要经济体和贸易集团持续面临不利因素，我们预计2026-2027年全球经济将保持韧性。 我们预计2026年全球增长率将仅小幅放缓至2.7%，并于2027年回升至2.8%，但认为基线预测面临的风险较之前更为平衡。 美国经济正在经受贸易和政策带来的影响， 与人工智能相关的投资周期将在2026年继续为美国经济增长提供动力，但推动力较2025年有所减弱。此外，较低的借贷利率和企业投资的税收优惠将支撑2026-2027年的经济增长。我们预计美国经济增速将从2025年的2.1%上升至202…",
+      "key_points": [
+        "↑扫码了解EIU商务解决方案↑ 关于经济学人智库 经济学人智库(EIU) 是经济学人集团旗下的经济预测和分析机构。80年来，我们帮助企 业、政府和国际组织了解世…",
+        "（预测截止日期：2026年2月25日） 欲了解更多关于全球经济、政策、行业前景的洞察，欢迎探索经济学人智库的商务解决方案",
+        "亚洲将是2026-2027年增长第二快的主要地区（仅次于非洲）， 但增速将从2025年的4.2%小幅放缓至2026-2027年的4%左右。鉴于亚洲在电子产品供应…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "2026 年，万物皆 Coding Agent 的平台工程（A2A / ACP / MCP / Skill）",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/coding-agent-platform-engineering/",
+      "published": "Tue, 03 Mar 2026 04:01:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A2A",
+        "ACP",
+        "Agent",
+        "Coding",
+        "MCP",
+        "PS"
+      ],
+      "summary": "PS：就着最近的研究，我想大概写一篇今年的趋势",
+      "key_points": [
+        "我想大概写一篇今年的趋势"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0302-0329）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880302-0329%EF%BC%89",
+      "published": "Sat, 28 Feb 2026 12:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和上班时间冲…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "我如何帮助 GPT-4 在 1 小时内自主解决 LeetCode 上 100 个编程问题",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/leetcode-gpt-4-2023-11-20/",
+      "published": "2025-11-21T08:04:26.707Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cheap",
+        "code",
+        "GPT-4",
+        "is",
+        "LeetCode",
+        "Talk"
+      ],
+      "summary": "Talk is cheap, 先上 code: <a",
+      "key_points": [
+        "我如何帮助 GPT-4 在 1 小时内自主解决 LeetCode 上 100 个编程问题"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "有惊无险的一次网站系统升级",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2025/09/update_blog_utf8.html",
+      "published": "2025-09-16T05:07:22Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PHP",
+        "php",
+        "RSS",
+        "UTF-8",
+        "blog",
+        "gbk"
+      ],
+      "summary": "好消息是：这个 blog 终于是 UTF-8 编码了。前些年老有人问我能不能把 RSS 输出改成 UTF-8 的，很多 RSS 阅读器不支持 gbk ，这次终于改过来了。 事情源于昨天下午的一次脑抽，我把网站机器的操作系统升级了。上次升级还是十多年前，真的是太老旧了。结果升完级一看，php 被强制升到了 7 ，我自己写的一些 php 程序（主要是留言板）坏掉了。 这些个程序是我在 2004 年重构 2002 年的代码完成的；而 2002 年是从网上随便找来的代码基础上改的。我正儿八经学习 PHP 是在 1997 年…",
+      "key_points": [
+        "我把网站机器的操作系统升级了。上次升级还是十多年前，真的是太老旧了。结果升完级一看，php 被强制升到了 7 ，我自己写的一些 php 程序（主要是留言板）坏掉…",
+        "这些个程序是我在 2004 年重构 2002 年的代码完成的；而 2002 年是从网上随便找来的代码基础上改的。我正儿八经学习 PHP 是在 1997 年，20…"
+      ]
+    }
+  ]
+}
