@@ -1,0 +1,846 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T01:00:04.306673+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 194,
+    "fresh_candidates": 63,
+    "backfill_candidates": 131,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-07",
+      "fetched_at": "2026-03-07T01:00:04.003672+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4124.19,
+          "change": 15.62,
+          "change_pct": 0.38,
+          "volume": 646765760.0,
+          "amount": 97880593.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5171.06,
+          "change": 90.18000000000029,
+          "change_pct": 1.77,
+          "prev_close": 5080.88,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-07 05:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1147.447133216519,
+          "change": 20.01074875817835,
+          "change_pct": 1.7748893892396602,
+          "prev_close": 1127.4363844583406,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-07 05:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-07",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "资产配置如何应对各种突发政治事件",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE%E5%A6%82%E4%BD%95%E5%BA%94%E5%AF%B9%E5%90%84%E7%A7%8D%E7%AA%81%E5%8F%91%E6%94%BF%E6%B2%BB%E4%BA%8B%E4%BB%B6",
+      "published": "Fri, 06 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OPEC",
+        "Tom"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： Tom 真不想你踩雷 来源：雪球 最近中东那边很热闹，我仅仅当看热闹没事瞅瞅发生了啥，资产配置一点都没动，纯看戏。 有个朋友提问美伊局势怎么看，各类资产怎么看。刚好公众号也闲了很久了，开个专题聊一聊，我们面对各种突发事件应该如何应对。 回答这个问题，应该从“摸口袋游戏”的规则讲起，这个规则是所有参与投资的人都应该了解的基础知识。 “摸口袋游戏”的规则 所有的大类资产长期收益率都是通胀和…",
+      "key_points": [
+        "我们的资产配置如何应对各种突发政治事件",
+        "各类资产怎么看。刚好公众号也闲了很久了，开个专题聊一聊，我们面对各种突发事件应该如何应对",
+        "雪球三分法是雪球基于“长期投资+资产配置”推出的基金配置理念，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风险分散化…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "此轮周期里，股价先反转？还是猪价先反转？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3893823522/378327692",
+      "published": "Fri, 06 Mar 2026 09:45:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "MSY",
+        "PSY",
+        "SZ002124",
+        "SZ002157",
+        "SZ002714"
+      ],
+      "summary": "今年一定要守住猪肉这个周期板块，在刚发布的工作报告中，相关部门已经把物价涨幅目标定在了2%左右，相对来说还算温和。生猪养殖行业是保证居民蛋白质摄入中最重要的板块之一，供应足量、价格稳定、绿色健康是要求之一，对于行业来说就必须要有那么几家养殖成本低廉可控、生猪质量好、防疫水平高的龙头企业，维持行业微利，弱化周期属性，这样才能达到保证居民的蛋白质稳定摄入的效果。 近十年来年PSY指标和MSY指标的上涨，出栏周期的缩短，成活率的提高，平均料肉比的变化，都充分反映了行业平均的养殖技术的进步。随着国家全面脱贫逐渐步入小康社会…",
+      "key_points": [
+        "带来了关于另外一个问题的思考。在过去的周期里，猪价和股价的上涨一定是不同步的，就像人遛狗，有时候狗走在前面有时候人走在前面，当市场对猪周期判断出现分歧时，往往就…",
+        "股价与猪价，到底哪个会先反转",
+        "巴菲特说市场先生只能反映情绪、与内在合理价值无关。巴老爷子说得很有道理，当大家都在唱空猪周期的时候，我们反而要认真思考，这有没有可能就是猪周期反转的起点。市场是…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "漫谈AI时代：教育、土地、前额叶、神秘主义",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9430706524/378208548",
+      "published": "Fri, 06 Mar 2026 09:45:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "be",
+        "adhd",
+        "Alpha",
+        "Diageo",
+        "disenchantment"
+      ],
+      "summary": "AI发展速度与社会影响力远超曾经被认为“激进”的预期，我觉得是时候写篇随笔谈谈自己的一些想法，包括人类作为碳基生物如何适应新的时代（现实意义与精神层面）、一些预测、以及开放性的灵感碎片。 一、AI所擅长的工作与对人类劳动力的替代 目前的AI极其擅长对于信息进行检索以及机械化加工，显著优势在于“重复性高”、“可预测性高”的传统脑力工作。比如缺乏实际意义的空话与中等质量文案、基础的编程、信息检索汇总等，这些传统白领脑力工作的特征在于极高的重复度与可预测性。AI可以大量学习历史数据并复制模仿流程，产生70分甚至80分的成…",
+      "key_points": [
+        "五、重新赋魅 Max Weber所说的祛魅disenchantment的底层是大量现代人接纳并投入经济生产活动的效率体系，而这种经济生产关系与体系的动摇必然带来…",
+        "在于Gen Alpha群体及其密切相关的教育界、心理咨询界等人士交流后，我发现全球性的前额叶退化正在发生。疫情的一次性冲击、经济不景气的压力、短视频的流行都在促…",
+        "这种情况在未来极大可能会因为教育体系的错配与改革进一步恶化。传统教育体系对于大量阅读、专注学习的诉求会在16-25岁大幅增强前额叶的发展，而这一点可能在未来越来…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "Micro LED 2026：从“实验室神话”到“产业化前夜”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8683375205/378199713",
+      "published": "Fri, 06 Mar 2026 09:43:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LED",
+        "Micro",
+        "OLED",
+        "AR",
+        "Omdia",
+        "PPI"
+      ],
+      "summary": "如果你关注显示技术，这两年一定听过Micro LED这个名字——它是行业公认的“下一代显示技术”，也被称为“终极显示技术”。但过去很长一段时间，它更像一个实验室里的神话： 性能炸裂，但量产遥遥无期。 2026年初，情况变了。 这不是一句口号，而是有数据、有技术突破、有产业资本进场支撑的实质性拐点。这篇文章，我们把这个概念拆透——它是什么、为什么是现在、2026年能看到什么、以及风险在哪。 一、Micro LED是什么？凭什么被称为“ 终极显示 ”？ Micro LED，全称微发光二极管，简单理解就是把LED灯珠微缩…",
+      "key_points": [
+        "这两年一定听过Micro LED这个名字——它是行业公认的“下一代显示技术”，也被称为“终极显示技术”。但过去很长一段时间，它更像一个实验室里的神话： 性能炸裂…",
+        "但基数仍小 Omdia《Micro LED显示器市场追踪报告》给出了最新的权威数据： · 2026年Micro LED显示器收入预计1.054亿美元，同比增长1…",
+        "Micro LED一直被困在“实验室到工厂”的路上。2024年甚至被称为行业的“至暗时刻”——苹果公司停止了Micro LED技术的内部研发努力，供应商AMS-…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "正经聊聊PCB — Q布",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/378020845",
+      "published": "Fri, 06 Mar 2026 09:42:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PCB",
+        "CTE",
+        "Df",
+        "Dk",
+        "Interposer",
+        "M9"
+      ],
+      "summary": "很多粉丝问我，聊 PCB 为啥很少聊上游？其实很简单：上游不少票位置已经很高了，我一般不聊高位票，免得有推荐嫌疑，也怕大家追高吃亏。 最近看到菲利华跌了不少，我就简单、客观聊一下 Q 布 —— 只讲逻辑，不聊股价。 PCB 从 M4 一路升级到 M9，核心就三件事： 导电要快（Dk）、损耗要小（Df）、热膨胀要稳（CTE）。 大家可以这么理解： 电子元器件就像一个人， 里面贴身的是 中介层（Interposer） 中间穿的是 封装基板（Substrate） 最外面穿的就是 PCB。 GPU 越高端，对这件 “外套”…",
+      "key_points": [
+        "你可以理解成：把 硅基 Interposer 那种材料，拉成极细的纤维，再织成布 。所以 Q 布天生就带上了硅基板的优点： Dk 低、Df 极低、CTE 极小"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "尸体埋在土里 20 厘米深能完全隔绝尸臭吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788045",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "kg",
+        "Calliphora",
+        "capensis",
+        "Chrysomya",
+        "cm-30cm"
+      ],
+      "summary": "祥昊， 让有趣先知楞起来。 查看知乎原文 这问题一看题主就有实操经验。 为啥咧，正常来说地表 20cm-30cm 左右为比较松软的表层土，好挖。 再往下土质会越来越密实，即使有趁手工具也得使劲挖上半天。 但是吧，土地松软也意味着透水透气更透味， 至于会发生什么，刚好有人在印度将一只死羊埋地里 9 英寸处（22.8cm 左右） [1] ， 山羊为 3 月龄幼年山羊，体重 8.6kg，从头到尾长 67.31cm。 掩埋时体温 27°C，属新鲜尸体，无腐败现象。 掩埋土壤为壤土，种植的植被有桑树、茄子、木瓜和芒果，年平均…",
+      "key_points": [
+        "即使是一个只 8.6kg 的幼年山羊， 浅埋也不能隔绝尸臭，很容易被周边的人发现",
+        "d 尸体肿胀阶段 e 尸体干瘪 f 尸体快速分解 第三周 此时尸体腹部塌陷，软组织进入快速分解期， 大量硫化氢、甲硫醇、腐胺、尸胺等腐败气体持续产生，同时腐败液…",
+        "土壤中发现的蛆虫 第四周 此时进入后期分解期，尸体大部分软组织已分解殆尽，腐败气体产生量锐减，气味也不再那么刺激，凑近后仅可闻到腐腥味"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "《百年孤独》究竟讲了些什么？为什么读起来如此晦涩？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788063",
+      "published": "Invalid Date",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "鞭临天下， 用爱发电，爱看不看，请勿关注，随时停更。 查看知乎原文 如果要硬给这本书下一个最简短的定义，我愿意这样说：百年孤独讲的是一个家族用一百年的时间，重复犯错、重复逃避、重复自以为在反抗，最终发现自己只是把羊皮卷上的命运剧本从头演到尾。而马尔克斯用这条家族史，把拉丁美洲的历史、现代世界的困境、人类对时间和孤独的全部想象，浓缩进了一个叫马孔多的小镇。 整本小说读完之后，你就会有一种奇怪的感觉：好像什么都看懂了，又好像什么都说不清，只能承认——人类是这样活着的。为什么会有这种感觉，我们就先要说它到底讲了一个怎样的…",
+      "key_points": [
+        "是在不放弃现代主义所启发的那种自我反思和结构复杂性的大前提之下，把小说重新拉回能讲故事的位置。他没有用意识流写作，也没有直接将语言变成主角，而是借用了另一种叙事…",
+        "百年孤独的结局看似宏大得惊人：小镇和家族在风暴中消失，羊皮卷最后化为齑粉，但这并不是一个爽快的毁灭，而更像对小说作为一种艺术形式的清醒认知。文字能保存多少？文学…",
+        "百年孤独之所以被不断地称为二十世纪小说的巅峰之一，不只是因为它好看、好读，而是因为它在一个极其难得的平衡点上站住了。它继承了现实主义的公共关怀，没有放弃对社会制…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「陛下」直意为「台阶之下」，那「陛下」这个词是如何变成对皇帝的敬称的呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788056",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "Brown",
+        "Levinson",
+        "Majesty"
+      ],
+      "summary": "司马懿， 三国英雄士，四朝经济臣 查看知乎原文 这其实是一个很有趣的全人类共有的问题，为什么对极其尊贵的身份要用第三人称？ 无论是中国的皇帝（唐朝以前）、土耳其的苏丹还是英国的国王，他们都有一个共同的特点，那就是其他人原则上禁止使用第二人称和他们说话。在伊斯坦布尔托普卡珀宫的时候，工作人员特意提到，当苏丹接见外来使者的时候，苏丹和使者都是始终对着苏丹身边的侍者来说话交流的。 中国皇帝所使用的「陛下」和英国国王的 Your Majesty 同理，其实可以都看做是一种「负礼貌」的策略。 Brown &amp; Levi…",
+      "key_points": [
+        "上面这些都是追根溯源，就这个行为本身原初的由来所提出的解释。现实中一旦形成了规定，那陛下也就仅仅是一个仪式感的称呼罢了。包拯扯着仁宗皇帝的袖子，唾沫喷了皇帝一脸…",
+        "陛是皇帝所在的丹陛，陛下就是丹陛之下的侍者，其实和苏丹的做法是类似的，相当于对着侍者说话，以卑达尊，而非直接和皇帝本人对话",
+        "他们的权力如此的大，地位如此的远，以至于任何提到其本人的行为，都无法通过礼貌来弥补。而这个时候需要交流，就需要「负礼貌」发挥到极致，让自己和对话者的距离拉的无穷…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI到岗我下岗：牛马贬值，血洗中层，应届生成了AI助手",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349543.html",
+      "published": "Fri, 06 Mar 2026 08:57:58 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Block",
+        "gt",
+        "HR",
+        "Bug",
+        "CC0"
+      ],
+      "summary": "当Block公司以'AI支撑更小团队完成更高产出'为由裁员40%、打破'公司赚钱就不裁员'的旧规矩，一个残酷的新逻辑正在确立：只要AI干得好，人就是成本。本文追踪四位被裁打工人的真实遭遇，揭示AI冲击波下中层加速贬值、经验快速折旧的深层焦虑。 2026年开年，是AI大年。它曾是PPT里的未来，是趋势，是风口，如今，却变成了打工人的威胁。 近日，美国金融科技公司Block宣布计划裁员约40%，超过4000名员工。讽刺又残酷的是，该公司业绩远超预期，裁员理由是“AI工具已支撑更小团队完成更高产出”。 这打破了过去“公司…",
+      "key_points": [
+        "当Block公司以'AI支撑更小团队完成更高产出'为由裁员40%、打破'公司赚钱就不裁员'的旧规矩，一个残酷的新逻辑正在确立：只要AI干得好，人就是成本。本文追…",
+        "AI拉高了管理者对“效率”的想象，老板对AI有种神话般的期待。“他认为每个镜头都能用AI一键生成，但AI常‘弱智’到让人无语：突然换人、人突然飞起、2D变3D……",
+        "不值钱了。”她冷静地剖析自己，“AI可以做得更好。” 她记得公司CTO在一次内部会议上勾勒未来图景：以后公司只留下两类人，一是能快速上手AI工具的初级员工；二是…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "互联网信贷运营方法论101",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6347374.html",
+      "published": "Fri, 06 Mar 2026 08:31:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Credit",
+        "LGD",
+        "LTV",
+        "gt",
+        "Operations",
+        "Revenue"
+      ],
+      "summary": "互联网的信贷与理财的用户运营有哪些差异？共性分别是什么？ 从用户需求商户供给出发，让你了解信贷领域下的核心运营策略，一篇文章告诉你~ 导读：信贷运营的本质 Credit Operations: The Essence 核心定义： 信贷用户是在资金缺口驱动下，通过跨时间借力来解决当下需求的群体。 理财用户追求的是”让钱增值”，信贷用户追求的是”让未来的钱现在可用”。运营的本质区别在于： 理财运营管理的是用户的贪婪，信贷运营管理的是用户的偿还能力 。 这不是一个简单的文字游戏。理财运营中，一个用户被”过度运营”的最坏结…",
+      "key_points": [
+        "总结： 两者共享同一套运营方法论的骨架 （人货场、用户分层、转化漏斗、AARRR、Fogg模型、LTV/CAC、数据闭环） 但信贷在每一层都多了一个 风险维度，…",
+        "理财骨架 + 信贷内核 + 风险维度 = 信贷运营方法论 一、人货场：信贷版 People, Products &amp; Scenarios for Cred…",
+        "八、信贷运营的独有命题 Unique Challenges in Credit Operations 以上7部分是从理财方法论迁移的框架，但信贷还有几个理财不存…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "硅谷VC怎么看2026年的AI+B2B机会？Y Combinator和a16z的5个判断",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349459.html",
+      "published": "Fri, 06 Mar 2026 08:14:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "B2B",
+        "a16z",
+        "Agentic",
+        "AI+B2B"
+      ],
+      "summary": "硅谷顶级风投YC和a16z的最新动向揭示了AI+B2B赛道的5个关键趋势：从泛娱乐转向垂直领域、AI Agent重构组织架构、垂直模型构筑护城河、OpenAI全力押注Agent落地。本文将深度解析2026年AI如何从技术炫技走向商业落地，以及B2B企业该如何抓住这场效率革命的红利。 2026年，全球AI投资进入新阶段。当所有人还在为”AI是否是泡沫”争论时，硅谷顶级风投已经给出了清晰的判断。 Y Combinator和a16z（Andreessen Horowitz）作为硅谷最具影响力的投资机构，他们的每一个判断都…",
+      "key_points": [
+        "Y Combinator和a16z（Andreessen Horowitz）作为硅谷最具影响力的投资机构，他们的每一个判断都代表着资本市场的风向标。那么，在20…",
+        "总结：2026年AI+B2B的5个判断 AI创业从“魔法”转向“务实”——泛娱乐AI退潮，B2B垂直AI崛起，做解决实际问题的产品，不要做概念型产品 AI不是泡…",
+        "判断4：垂直AI比通用AI更有机会 YC + a16z：行业专属模型的春天 在YC最新孵化的400家AI公司中，一个明显的趋势是：垂直领域的AI应用数量，远超通…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品狗的胡言乱语：AI与信息系统",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349473.html",
+      "published": "Fri, 06 Mar 2026 08:13:55 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "OpenClaw",
+        "APF",
+        "GUI",
+        "LLM"
+      ],
+      "summary": "从语言诞生到AI崛起，人类文明本质是场永不停息的信息革命。当下指数级增长的信息处理需求正催生AI从聊天工具进化为操作系统级Agent，而OpenClaw的出现标志着'数字员工'时代的真正来临。本文穿透技术表象，揭示AI如何重构信息交互范式，并首次提出APF模型指引产品人与这场范式革命共舞。 如果说23年的AI还是一个令人兴奋的玩具，那么26年的AI已经不可避免的并且注定长久的改变我们的工作和生活的方式。各种热点层出不穷，目不暇接，这种失控感让每一个行业内的人焦虑，而在这个时候，我们不妨再往前看一些，回答一个问题：为…",
+      "key_points": [
+        "信息交互方式的变更，无疑是对产品经理及设计师们最直接的冲击。未来信息系统真的还需要模态的GUI吗，自从年前的千问点奶茶的案例来看，这个答案是越来越清晰的了。从…",
+        "我们如何用AI改造我们现有的信息系统，但是目前我还没找到应用比较好的案例，不过我参考了PMF（Product-Market Fit）理论，期望提出一个APF（A…",
+        "就是几何倍数增长的信息与落后的信息处理的矛盾冲突的历史，人类对信息的有效利用代表了人类社会的文明程度。人猿相揖别，语言的出现代表了人类开始尝试进行信息的交换，文…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品经理拆解融资租赁：告别繁琐流程，数字化落地全面解析",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6349447.html",
+      "published": "Fri, 06 Mar 2026 08:06:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPS",
+        "APP",
+        "PC",
+        "VIN",
+        "AA",
+        "AI"
+      ],
+      "summary": "融资租赁管理系统正成为汽车行业的数字化新基建。面对人工操作低效、风控薄弱和数据孤岛三大核心痛点，一套设计精良的系统能实现从客户尽调到资产处置的全流程自动化。本文深度拆解系统架构与功能模块，结合新能源汽车行业真实案例，揭示如何用产品思维将金融逻辑落地为可执行解决方案。 最近汽车行业融资租赁业务比较爆火，可能有些同学就觉得奇怪，汽车行业一般不都是跟银行或消金对接，怎么会跟融资租赁扯上关系。具体原因这个观海就不展开，感兴趣的同学可以再网上搜搜原因，这个网络上有相关解读。 今天观海以前在金融科技产品设计方面所做的一些小的经…",
+      "key_points": [
+        "纯产品经理干货视角，拆解融资租赁管理系统的落地逻辑，结合2026年汽车行业各大新能源汽车厂家爆火的融资租赁（融资租赁最核心、最好懂的应用场景）的真实案例，告诉你…",
+        "核心离不开一套完善的融资租赁信息化系统——它就像我们产品经理的“神助攻”，把租前、租中、租后全流程的繁琐工作，全改成数字化、自动化，不用再靠人工堆活，这也是我们…",
+        "融资租赁管理系统正成为汽车行业的数字化新基建。面对人工操作低效、风控薄弱和数据孤岛三大核心痛点，一套设计精良的系统能实现从客户尽调到资产处置的全流程自动化。本文…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "鸟中顶流夜师傅，因为拉屎太多上了央视",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%B8%9F%E4%B8%AD%E9%A1%B6%E6%B5%81%E5%A4%9C%E5%B8%88%E5%82%85%EF%BC%8C%E5%9B%A0%E4%B8%BA%E6%8B%89%E5%B1%8E%E5%A4%AA%E5%A4%9A%E4%B8%8A%E4%BA%86%E5%A4%AE%E8%A7%86",
+      "published": "Fri, 06 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Commons",
+        "cosplay",
+        "Wikimedia",
+        "DinaKuzia",
+        "NUIST",
+        "Nycticorax"
+      ],
+      "summary": "2019年，在日本鹿儿岛市的平川动物公园企鹅馆， 一只缩起脖子的水鸟试图融入企鹅群 ，以骗取小鱼吃；被饲养员发现后也不走，继续把动物园当食堂。这鸟因鬼鬼祟祟的喜感而被网络疯转，从此一战成名。 施展脖子消失术，安能辨我是夜鹭？｜当年还叫推特的X 这是夜鹭，观鸟人尊称“夜师傅”。 随着近年国内观鸟爱好者群体的大幅增长，其“中华田园企鹅”的名头愈发响亮，连不观鸟的朋友都能在社交平台刷到夜师傅的倩影。夜鹭基本击败了珠颈斑鸠，成为当下中文互联网的鸟届顶流。 3秒找出夜鹭大挑战｜@KangSirMemes 鸟类千千万，怎么就夜…",
+      "key_points": [
+        "蓝背大蟑螂。夜师傅头上的长带状白色饰羽，像极了“广东双马尾”｜小红书@NUIST自然信箱 长时间伫立水边的夜鹭，有时还展现出了 诗人与哲学家的气质 。在浮躁的互…",
+        "夜师傅在猴岛偷吃不成反被打｜@深圳动物园 夜师傅也没浪费这高曝光率，它自带几项硬核技能—— 首先，夜鹭又名“ 鸟中生姜 ”，不仅能cosplay企鹅，还能化身多…",
+        "夜师傅缩脖子vs伸脖子｜DinaKuzia / Wiki media Commons &amp; arthurgrosset.com 大白鹭脖子弯曲时依然清晰｜…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苏炳添又发论文了，这次是顶刊！（的子刊）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%8F%E7%82%B3%E6%B7%BB%E5%8F%88%E5%8F%91%E8%AE%BA%E6%96%87%E4%BA%86%EF%BC%8C%E8%BF%99%E6%AC%A1%E6%98%AF%E9%A1%B6%E5%88%8A%EF%BC%81%EF%BC%88%E7%9A%84%E5%AD%90%E5%88%8A%EF%BC%89",
+      "published": "Fri, 06 Mar 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Cell",
+        "AI",
+        "anisotropic",
+        "hydrogels",
+        "Multidimensional",
+        "Physical"
+      ],
+      "summary": "2月18日，短跑名将苏炳添再次发表论文 ，发表期刊是顶级期刊《细胞》（Cell）的子刊《细胞报告物理科学》（Cell Reports Physical Science），影响因子7.3。 苏炳添以共同通讯作者身份，发表了这篇综述论文：Multidimensional Signal Decoding via Anisotropic Hydrogels for Motion Monitoring（通过各向异性水凝胶的多维信号解码实现运动监测）。 读下来，每个字都认识，但根本弄不懂什么意思 ？下面用论文里的10张图，带你…",
+      "key_points": [
+        "短跑名将苏炳添再次发表论文 ，发表期刊是顶级期刊《细胞》（Cell）的子刊《细胞报告物理科学》（Cell Reports Physical Science），影…",
+        "为什么“亚洲飞人”苏炳添跨界参与这项技术的研究呢？原因也许在于百米赛道上，胜负往往取决于肌肉发力、关节角度的微小方向差异，传统的摄像机和硬质传感器难以捕捉到这些…",
+        "新技术能干嘛？测肌电图、心电图、关节运动 有了方向感，这项技术具备了更多潜能。这张图片是整篇论文的“导航仪”，内层圆环表示电学与机械多性能协同；中间圆环是技术能…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "潜伏 11 年，那些被矿渣喂大的香蕉，终于开始向人类“复仇”了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%BD%9C%E4%BC%8F+11+%E5%B9%B4%EF%BC%8C%E9%82%A3%E4%BA%9B%E8%A2%AB%E7%9F%BF%E6%B8%A3%E5%96%82%E5%A4%A7%E7%9A%84%E9%A6%99%E8%95%89%EF%BC%8C%E7%BB%88%E4%BA%8E%E5%BC%80%E5%A7%8B%E5%90%91%E4%BA%BA%E7%B1%BB%E2%80%9C%E5%A4%8D%E4%BB%87%E2%80%9D%E4%BA%86",
+      "published": "Fri, 06 Mar 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Degredo",
+        "ID",
+        "steamforkids",
+        "agencia.fapesp.br",
+        "bd"
+      ],
+      "summary": "本文转载自公众号“把科学带回家”（ID：steamforkids） 撰文 | 苏澄宇 2015年11月，巴西马里亚纳的丰当尾矿坝发生溃坝，5000万立方米的铁矿废料倾泻而下，顺着多西河蔓延了600多公里，最终冲入大西洋。 2015 年丰当尾矿坝泄出的洪水中，充斥着采矿作业产生的有毒废料丨Leonardo Mercon 很多人以为，当泥石流的水分蒸发，地表重新长出杂草，这场夺走19条人命的灾难就结束了。但事实证明，灾难并没有消失，它只是换了一种方式潜伏了下来。 灾后的村庄丨文献 2025年10月发表的一份研究报告，揭…",
+      "key_points": [
+        "灾后的村庄丨文献 2025年10月发表的一份研究报告，揭开了这层遮羞布。圣保罗大学和圣埃斯皮里图联邦大学等机构的科学家们发现，那些在土壤里蛰伏了11年的重金属，…",
+        "仅仅食用当地产的香蕉，其总健康风险指数就已经大于1。铅元素长期低剂量摄入会影响儿童的脑部发育，同时长达几十年摄入含有这类重金属的食物，也会增加罹患中枢神经系统和…",
+        "潜在有毒元素（PTEs）从土壤进入食物链并产生健康风险的过程丨文献 然而由于土壤中元素浓度较高，铅和镉依然进入了香蕉果实。可可树的转运机制有所不同，它会将铜和铅…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我们扒了十几件所谓“冲锋衣”，最后留下的为什么是它？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E4%BB%AC%E6%89%92%E4%BA%86%E5%8D%81%E5%87%A0%E4%BB%B6%E6%89%80%E8%B0%93%E2%80%9C%E5%86%B2%E9%94%8B%E8%A1%A3%E2%80%9D%EF%BC%8C%E6%9C%80%E5%90%8E%E7%95%99%E4%B8%8B%E7%9A%84%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%83%EF%BC%9F",
+      "published": "Fri, 06 Mar 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Leaveland",
+        "FZ",
+        "GB",
+        "Antonio",
+        "Boletti",
+        "dc_ps"
+      ],
+      "summary": "春天，是一年里雨水很多的季节之一。 雨虽不大，却下得频繁；刚出门还是晴天，走到一半就开始飘雨，风一吹，湿冷感马上就上来了。 这种天气，外套选不好，真的很折磨。 普通外套不防雨，一淋就湿；厚一点的又闷，活动两步就不舒服。 所以这个季节，一件保暖挡雨的冲锋衣，几乎是刚需。 出门不用反复看天气预报，遇到小雨、中雨都能从容应对，风吹雨打也不慌。 不过冲锋衣这个单品，一旦选不好就会非常像别人家的工服…… 除了款式，还得考虑价格。 因为各种面料技术、品牌溢价等堆叠，作为“老大哥”鸟家、北家等冲锋衣 动辄就要上千。 所以我们没追…",
+      "key_points": [
+        "加绒软壳衣 保暖、防风、耐脏、透气性好 春秋冬三季无缝衔接 吊牌价格：599元 粉丝特惠价：129元 👇戳图抢👇 还有这款Leaveland三合一冲锋衣，当我们…",
+        "这也是很多“老大哥”户外品牌冲锋衣价格居高不下的重要原因之一",
+        "新国标三合一冲锋衣 防风、防雨、防污、透气性好 一件实现三穿，轻松应对环境改变 春秋冬三季无缝衔接 官网价格：399元 粉丝特惠价：229元 👇戳图抢👇 End…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "当下最强的导演和演员组合，合作第七次",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BD%93%E4%B8%8B%E6%9C%80%E5%BC%BA%E7%9A%84%E5%AF%BC%E6%BC%94%E5%92%8C%E6%BC%94%E5%91%98%E7%BB%84%E5%90%88%EF%BC%8C%E5%90%88%E4%BD%9C%E7%AC%AC%E4%B8%83%E6%AC%A1",
+      "published": "Fri, 06 Mar 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 最近总是刷到 《夜的真相》在布拉格开机 的新闻 ， 数下来这是斯科塞斯和迪卡普里奥第七次合作了。斯科塞斯和德尼罗合作次数是十次，很好奇能不能追上吧，有点难。 简单说说 《夜的真相》 这个项目，影片 改编自彼得 ·卡梅隆2020年同名小说，故事 发生在欧洲， 围绕一对 要去欧洲收养婴儿的美 国夫妇展开， 男女主角分别是莱昂纳多 · 迪卡普里奥 和 詹妮弗 ·劳伦斯。 据说影 片的核心场景位于一间庞大 的 几乎荒废的建筑中 ，有点让人想到 斯科塞斯 的那部 《禁闭岛》。在筹备期间，斯科塞斯要求 小李子反…",
+      "key_points": [
+        "文 ruike 最近总是刷到 《夜的真相》在布拉格开机 的新闻 ， 数下来这是斯科塞斯和迪卡普里奥第七次合作了。斯科塞斯和德尼罗合作次数是十次，很好奇能不能追上…",
+        "《花月杀手》 对于 斯科塞斯 为什么 选择 和小李长期合作 ， 外界经常从商业角度去解读。这确实没错。只要有小李在，单部影片的投资超过 1亿美元是很容易的，并且…",
+        "据说影 片的核心场景位于一间庞大 的 几乎荒废的建筑中 ，有点让人想到 斯科塞斯 的那部 《禁闭岛》。在筹备期间，斯科塞斯要求 小李子反 复研读希区柯克的《迷魂…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "90年代最佳电影之一",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+90%E5%B9%B4%E4%BB%A3%E6%9C%80%E4%BD%B3%E7%94%B5%E5%BD%B1%E4%B9%8B%E4%B8%80",
+      "published": "Fri, 06 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ebert",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "qq.com",
+        "Roger"
+      ],
+      "summary": "作者：Roger Ebert 译者：Issac 校对：易二三 来源：RogerEbert.com 这座城市几乎每天都在下雨。资深警探沙摩塞戴着帽子，穿着雨衣。年纪轻轻的米尔斯刚被调来这里，他头上什么也没戴，就走在雨中，好像自己能够永远年轻似的。 第一天，他们携手办案，调查一名肥胖男子的死因，尸体被发现时头部埋在意面里。再次回到现场的时候，两人用手电筒搜索着这间肮脏的公寓，发现柜子里摆着成排的金宝汤蕃茄酱罐头。就算是胖子也不会买这么多的蕃茄酱。 《七宗罪》 这起凶案奠定了大卫·芬奇的《七宗罪》的调性，这部电影是好莱坞…",
+      "key_points": [
+        "是米尔斯的妻子翠西（格温妮斯·帕特洛饰演）给电影带来了一丝人性；我们对她不甚了解，但我们知道她深爱自己的丈夫，非常担心他，她出于好意邀请一直单身的沙摩塞共进晚餐…",
+        "《七宗罪》 这起凶案奠定了大卫·芬奇的《七宗罪》的调性，这部电影是好莱坞主流电影中最黑暗、残酷的作品之一。影片中一直在下雨。主人公不断调查一桩又一桩的案子。犯罪…",
+        "这部电影的重点之一是沙摩塞这个角色非常神秘，这也是摩根·弗里曼最出色的表演之一。他自然而然地拥抱权威；我想不起他一直以来是否扮演过软弱的样子"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国带“马”字的城市，有你认识的吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%B8%A6%E2%80%9C%E9%A9%AC%E2%80%9D%E5%AD%97%E7%9A%84%E5%9F%8E%E5%B8%82%EF%BC%8C%E6%9C%89%E4%BD%A0%E8%AE%A4%E8%AF%86%E7%9A%84%E5%90%97%EF%BC%9F",
+      "published": "Fri, 06 Mar 2026 17:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "2026年是马年！ 马，在中国古代文化中被誉为“六畜之首” 有着幸福吉祥、昂扬奋进的美好寓意 在中国这片土地上 名字里带“马”字的城市都在哪儿？ 背后有什么故事？ 丙午马年 地理君找了许多这样的城市 （主要是区、县、地级市 至于乡镇和片区，名字里带“马”的就太多了） 有些也许你很熟悉 有些也许你也第一次听说 西藏·康马县 “康马” 地名的出现，距今已有上千年。 藏语意为 “红色殿堂” ，因历史上有一座规模较大的拉康玛波（意译为红色殿堂）而得名，随后由寺院名称逐步延伸，最终演变为现在的“康马县”。 康马，这个名字或许…",
+      "key_points": [
+        "安徽马鞍山 在城市西北角有一座名叫“马鞍山”的山 因形似马鞍而得名 除了上述地级市和区县级马字地名 全国带“马”字的乡镇地名百余个 比如马村镇、马鞍镇、马岭镇等…",
+        "在中国古代文化中被誉为“六畜之首” 有着幸福吉祥、昂扬奋进的美好寓意 在中国这片土地上 名字里带“马”字的城市都在哪儿",
+        "丙午马年 地理君找了许多这样的城市 （主要是区、县、地级市 至于乡镇和片区，名字里带“马”的就太多了） 有些也许你很熟悉 有些也许你也第一次听说 西藏·康马县…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我这里天晴得很好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E8%BF%99%E9%87%8C%E5%A4%A9%E6%99%B4%E5%BE%97%E5%BE%88%E5%A5%BD",
+      "published": "Fri, 06 Mar 2026 16:04:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "类似的日光和天空我只在拉萨和香格里拉见过，感觉今天不出去晒下大太阳都是犯罪。尤其是在此刻的澄澈天空下，回想昨天和前天的纷飞大雪，就像是一场遥远而模糊的梦，想要晒晒太阳醒一下。 文章原文",
+      "key_points": [
+        "类似的日光和天空我只在拉萨和香格里拉见过，感觉今天不出去晒下大太阳都是犯罪。尤其是在此刻的澄澈天空下，回想昨天和前天的纷飞大雪，就像是一场遥远而模糊的梦，想要晒…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "这对科学家夫妇，给世界贡献了一款原创新药",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%BF%99%E5%AF%B9%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%A4%AB%E5%A6%87%EF%BC%8C%E7%BB%99%E4%B8%96%E7%95%8C%E8%B4%A1%E7%8C%AE%E4%BA%86%E4%B8%80%E6%AC%BE%E5%8E%9F%E5%88%9B%E6%96%B0%E8%8D%AF",
+      "published": "Fri, 06 Mar 2026 08:50:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HH-003",
+        "CDE",
+        "HBV",
+        "HH-120",
+        "NTCP",
+        "HDV"
+      ],
+      "summary": "3.6 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 导读 2019年7月7日，北京。 肝病专家、北京友谊医院副院长尤红要参加一场临床研究会议。 “我今天上午要开的这个会，对中国的医药事业和全球的肝病患者来说都不寻常，”那天早上临出门时，她对爱人说，“我现在的心情，就像阿姆斯特朗即将跨出舱门、登上月球。” 让她如此激动的， 是前不久获批上市的首款丁肝单克隆抗体新药 —— 立贝韦塔单抗注射液，也是全球病毒性肝炎领域第一个获批的单抗药物。 这款药物的诞生，源自14年前的一项基础科学发现——2012年，北京…",
+      "key_points": [
+        "在应对疟疾的全球战役中，屠呦呦们贡献了独特的 “ 东方智慧 ” 。如今，在应对病毒性肝炎这一世界公共卫生挑战中，我们有理由相信，中国的新一代科学家们会交出无愧于…",
+        "就是病毒感染宿主细胞所要结合的细胞表面分子。和其他病毒一样，乙肝病毒 （HBV） 及“寄居”在其包膜蛋白内的卫星病毒——丁肝病毒 （HDV） ，必须首先与细胞表…",
+        "北生所所长、百济神州联合创始人王晓东认为，立贝韦塔是一款像青蒿素一样的原创新药"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "文娱行业变天，又有一家公司动起来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%96%87%E5%A8%B1%E8%A1%8C%E4%B8%9A%E5%8F%98%E5%A4%A9%EF%BC%8C%E5%8F%88%E6%9C%89%E4%B8%80%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%8A%A8%E8%B5%B7%E6%9D%A5%E4%BA%86",
+      "published": "Fri, 06 Mar 2026 10:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CTO",
+        "FOMO",
+        "Netflix",
+        "NotebookLM",
+        "OK"
+      ],
+      "summary": "这几天虎鲸文娱也迎来了组织升级，董事长樊路远发完内部信，敲定了新一波轮岗，主要还是要「拥抱AI」。对这事感兴趣，是因为同为影视娱乐赛道的短剧行业正在经历一场腥风血雨，流水连续两年超过电影票房的同时，好像谁都没挣到什么钱，于是要大洗牌，全面AI化，连演员成本都没了，总能盈利了吧？然后就看到了虎鲸文娱的CTO任命，「负责规划、实施集团AI技术发展战略。」果然⋯⋯就不可能还有风平浪静的地方。虎鲸文娱的资产主要有两个，一个是长视频平台优酷，另一个是负责买票和演出的大麦娱乐，这些业务在以前的认识里，争论的是内容为王，还是渠道…",
+      "key_points": [
+        "董事长樊路远发完内部信，敲定了新一波轮岗，主要还是要「拥抱AI」。对这事感兴趣，是因为同为影视娱乐赛道的短剧行业正在经历一场腥风血雨，流水连续两年超过电影票房的…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "蚂蚁国际杨江明：AI时代，支付如何成为企业的核心增长引擎",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E8%9A%82%E8%9A%81%E5%9B%BD%E9%99%85%E6%9D%A8%E6%B1%9F%E6%98%8E%EF%BC%9AAI%E6%97%B6%E4%BB%A3%EF%BC%8C%E6%94%AF%E4%BB%98%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E4%BC%81%E4%B8%9A%E7%9A%84%E6%A0%B8%E5%BF%83%E5%A2%9E%E9%95%BF%E5%BC%95%E6%93%8E",
+      "published": "Thu, 05 Mar 2026 19:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Economist",
+        "Impact",
+        "Agentic",
+        "asiaevents",
+        "economist.com"
+      ],
+      "summary": "在人工智能时代，支付已从后端工具跃升为企业增长的战略催化剂。面对全球化竞争，支付能力正成为决定企业战略优势的核心差异化因素。 在即将于3月11-12日举行的 第六届亚洲科技变革峰会 上， 蚂蚁国际首席创新官杨江明 将带来前瞻性的 案例分享，探讨企业如何把握这一变革。 核心分享内容 在《重塑：创新支付，解锁未来》的深度分享中，他将重点拆解决定未来商业竞争力的五大核心支付能力： 无缝 (Seamless) ： 打破系统边界，提供极致顺畅的用户体验。 极简 (Simplified)： 优化流程，显著降低交易与运营摩擦。…",
+      "key_points": [
+        "支付已从后端工具跃升为企业增长的战略催化剂。面对全球化竞争，支付能力正成为决定企业战略优势的核心差异化因素",
+        "在即将于3月11-12日举行的 第六届亚洲科技变革峰会 上， 蚂蚁国际首席创新官杨江明 将带来前瞻性的 案例分享，探讨企业如何把握这一变革",
+        "解锁未来》的深度分享中，他将重点拆解决定未来商业竞争力的五大核心支付能力： 无缝 (Seamless) ： 打破系统边界，提供极致顺畅的用户体验"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "Token出海，到底是什么",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+Token%E5%87%BA%E6%B5%B7%EF%BC%8C%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88",
+      "published": "Fri, 06 Mar 2026 10:54:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "token",
+        "router",
+        "open",
+        "API",
+        "deepseek"
+      ],
+      "summary": "最近有一个话题特别火，也特别正能量，就是token出海，估计有不少人刷到过类似的文章，中国的大模型走俏海外，在海外的open router平台的统计数据遥遥领先，然后再延展一下，是基础建设的胜利，电力资源的胜利，总之，就是又一次赢了。 当然，有的人很振奋，也会有人很疑惑，到底这里讲的是什么。 我没本事去追热点，还是老规矩，不吹不黑，做点科普，讲点逻辑，继续保持我的原则，经得起时间的检验。 1、所谓token，就是AI模型和应用者进行反馈的数据计量单位。这个是基本概念，token多少也就是对应的是AI的使用规模。 2…",
+      "key_points": [
+        "open router上中国AI token请求量高，不代表中国AI的产品使用率最高，这个是什么意思呢。诸如巨头自己的AI产品，是不会对接类似open rout…",
+        "我这是昨天晚上突然决定，说我的深度读者群扩个容吧，然后定了一个我以为巨高的门槛，我的星球续费6次及以上，这是什么意思呢，不算第一次付费，续费6次及以上，也就是付…",
+        "token出海和产品出海是两件事，中国的AI产品也会用海外的token，海外的AI产品也会用中国的token，海外的第三方开发者当然也愿意用中国的token。另…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-07",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "特朗普为何在伊朗问题上孤注一掷 | 经济学人社论",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%BA%E4%BD%95%E5%9C%A8%E4%BC%8A%E6%9C%97%E9%97%AE%E9%A2%98%E4%B8%8A%E5%AD%A4%E6%B3%A8%E4%B8%80%E6%8E%B7+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A4%BE%E8%AE%BA",
+      "published": "Mon, 02 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "to",
+        "of",
+        "Trump",
+        "is",
+        "Mr"
+      ],
+      "summary": "本文选自经济学人20260301社论板块 Leaders | War in the Middle East Why Donald Trump gambled in Iran The disruptor-in-chief wants to send a message to enemies everywhere by demonstrating the devastating nature of American power A LONG LIST of American presidents has come to…",
+      "key_points": [
+        "本文选自经济学人20260301社论板块 Leaders | War in the Middle East Why Donald Trump gambled i…"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "Feeds Pub 小范围发布半个月, 分享一些数据和感想",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/feeds-pub-2-2020-04-14/",
+      "published": "2025-11-21T08:04:26.707Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "china",
+        "cnodejs",
+        "Feeds",
+        "Pub",
+        "ruby",
+        "v2ex"
+      ],
+      "summary": "一些数据 半个月前, 我尝试在几个技术论坛 (v2ex, ruby china, cnodejs) 分享了 <a",
+      "key_points": [
+        "我尝试在几个技术论坛 (v2ex, ruby china, cnodejs) 分享了 <a"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "我的AI投资助手",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/self/my-invest-pilot/",
+      "published": "Wed, 10 Sep 2025 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "如何做出更好的投资决策？",
+      "key_points": [
+        "我的AI投资助手"
+      ]
+    }
+  ]
+}
