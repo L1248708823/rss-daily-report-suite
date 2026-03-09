@@ -1,0 +1,860 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-03-09T01:00:04.431617+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 180,
+    "fresh_candidates": 58,
+    "backfill_candidates": 122,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-09",
+      "fetched_at": "2026-03-09T01:00:04.109110+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4124.19,
+          "change": 15.62,
+          "change_pct": 0.38,
+          "volume": 646765760.0,
+          "amount": 97880593.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5047.32,
+          "change": -123.74000000000069,
+          "change_pct": -2.39,
+          "prev_close": 5171.06,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-09 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1119.9894923722409,
+          "change": -27.457640844278103,
+          "change_pct": -2.392932976991189,
+          "prev_close": 1147.447133216519,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-09 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂矿板块2026年预期差在哪？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/378481973",
+      "published": "Sun, 08 Mar 2026 13:18:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "jxw",
+        "GWh",
+        "greenbushes",
+        "by",
+        "http",
+        "LCE"
+      ],
+      "summary": "锂矿板块今年的预期差在哪？ 本质是市场一致预期的 “供需宽松 / 弱平衡” 叙事，与真实产业运行的 “供给刚性收缩、需求持续超预期、新技术重构锂需求天花板” 之间的根本性、三重维度的系统性错配。市场仍停留在 2024-2025 年锂价下跌形成的 “产能过剩” 惯性认知中，完全未对产业底层逻辑的剧变进行定价，而这正是板块最大的预期差来源。 这其中主要来至三个方面： a、供给普遍会低于所有卖方预期。 b、需求的持续性和增量会继续超所有卖方预期。 c、新技术迭代增加碳酸锂的用量：补锂剂（基本没有卖方提及这个玩意的增量）…",
+      "key_points": [
+        "锂矿板块今年的预期差在哪",
+        "7、最后： 2026 年锂矿板块的预期差，不是单一数据的边际修正，而是 从供给、需求到技术长期逻辑的三重系统性认知错配 。市场仍在用过去两年 “无序扩产 - 供…",
+        "本质是市场一致预期的 “供需宽松 / 弱平衡” 叙事，与真实产业运行的 “供给刚性收缩、需求持续超预期、新技术重构锂需求天花板” 之间的根本性、三重维度的系统性…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "伴随比亚迪颠覆性技术，新能源车行业高集中度终局开始浮现",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1281413694/378475084",
+      "published": "Sun, 08 Mar 2026 13:18:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "OV",
+        "PRIME",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "随着比亚迪开始利用独有技术（二代刀电池+闪充桩）快速自建补能网络，汽车行业的规模效应大幅增加，网络效应加强，规模优势的重要性开始远超一般的科技消费品， 市场份额落后的汽车企业想通过更好的产品和设计和比亚迪竞争，难度越来越大。 真正能追赶比亚迪闪充网络的是宁德时代 ，因为要想做到同样的成本和性能，需要动力电池和储能的自研自产，其他车企已经完全没有机会。 宁德时代在技术上会去追赶这条路线（技术路线不同，不能直接转叠片工艺），但是真正大规模铺充电站不一定很积极，因为这个战略的本质是要通过大规模的投入杀死汽车行业的无效竞争…",
+      "key_points": [
+        "未来新能源车的竞争终局大概率比现在的手机要集中度高 ，现在的智能手机行业各头部企业在战略资源和市场聚集度上差异很大，有很多错位竞争，苹果有生态和芯片，但是没有成…",
+        "随着比亚迪开始利用独有技术（二代刀电池+闪充桩）快速自建补能网络，汽车行业的规模效应大幅增加，网络效应加强，规模优势的重要性开始远超一般的科技消费品， 市场份额…",
+        "汽车行业目前比亚迪相对于其他汽车厂的优势，已经开始从技术和成本优势，慢慢转向基建网络优势，对外国同行更是全方位碾压，为远期持续提升市场份额，提高毛利率打开了空间"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "不聊技术只聊商业，探讨NPO和CPO的前景",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/378480588",
+      "published": "Sun, 08 Mar 2026 13:18:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPO",
+        "NPO",
+        "AI",
+        "TCO",
+        "GPU",
+        "GPU+"
+      ],
+      "summary": "先说结论 1、 CPO显著增加云厂家的TCO （普遍认知的降低成本逻辑完全相反）； 2、从商业逻辑看，scale-out场景下CPO很难推行，scale-up看谁的胳膊粗（技术并不是决定项，CPO和NPO都能搞定）。 正文 聊NPO和CPO的博弈，绕不开2024年那场AI光互联的“定价闹剧”——这不仅是一段行业往事，更是读懂当下英伟达强推CPO、云厂家力挺NPO的关键钥匙，背后藏着的全是商业利益的拉扯与产业链的博弈。 2024年，800G光模块刚迎来规模化上量的风口，AI算力爆发式增长让光互联成为刚需，而英伟达凭借…",
+      "key_points": [
+        "这段历史给了英伟达一个深刻的教训：单纯依靠“加价倒卖”的模式，根本无法长久吃到光通信的肥肉，一旦产业链成熟、替代方案出现，垄断优势便会瞬间崩塌。也正因为此，英伟…",
+        "先说结论 1、 CPO显著增加云厂家的TCO （普遍认知的降低成本逻辑完全相反）； 2、从商业逻辑看，scale-out场景下CPO很难推行，scale-up看…",
+        "Scale-up（纵向升级）场景，CPO和NPO技术上均可行，本质是一场商业博弈。这场博弈的核心，不是技术优劣，而是话语权的争夺"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "本周：观察",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2874741935/378480687",
+      "published": "Sun, 08 Mar 2026 13:18:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ai",
+        "cpo",
+        "Hock",
+        "Tan",
+        "vs",
+        "Asic"
+      ],
+      "summary": "历史性的地缘事件面前，观察为主，但也不会过于悲观～ 观察点一：战争究竟持续多久 美yi讨论度之高，以我上周在北京的观察，基本上只要有两名成年男性在场必然会是话题。我也阅读了很多文章和报告，直接说结论： 军事上基本上没悬念了，标志性事件就是b52都开进来清场了 。跟大家科普一下，b52是冷战时期准备地毯式轰炸苏联的。。。能载30吨铁炸药（巨便宜）的空中巨物，也就是说只要美军想，可以完全对YL进行去工业化，时间给够的话轰成印第安原始部落都可以，毕竟秘密武器可以藏在山洞里，但支撑武器系统的工业体系比如铁路、电网你总不可能…",
+      "key_points": [
+        "观察为主，但也不会过于悲观～ 观察点一：战争究竟持续多久 美yi讨论度之高，以我上周在北京的观察，基本上只要有两名成年男性在场必然会是话题。我也阅读了很多文章和…",
+        "观察点二：博通 vs 英伟达 其实Hock Tan对于cpo一直是那个口风从来没变过，去年12月也是这么讲的但也不妨碍cpo连涨2-3个月，本质原因还是涨多了需…",
+        "观察点三：Openclaw爆火和创业板消费板块开通 龙虾彻底出圈了，利好算力，AIDC、云计算、边缘端侧等等。而且Openclaw对于token的消耗跟之前所有…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "“在桥水25年，我拆解了全天候策略的底层逻辑”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E2%80%9C%E5%9C%A8%E6%A1%A5%E6%B0%B425%E5%B9%B4%EF%BC%8C%E6%88%91%E6%8B%86%E8%A7%A3%E4%BA%86%E5%85%A8%E5%A4%A9%E5%80%99%E7%AD%96%E7%95%A5%E7%9A%84%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91%E2%80%9D",
+      "published": "Sun, 08 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Alpha",
+        "Beta",
+        "All",
+        "Bridgewater",
+        "Buy",
+        "Cash"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：漫步投资 这是前桥水中国区总裁王沿在一次内部交流会上的演讲实录。作为在桥水工作25年的老将，也作为《原则》中文版的审校者，他用最朴实的语言，拆解了顶级对冲基金内部的底层逻辑。时隔多年重温，依然值得细读。 下文为演讲内容： 我在桥水（Bridgewater）工作了25年，参与了公司内部著名的小册子《原则》（Principles）中文版的审校工作。 借这个机会，我想和大家分享我们在投资中最核…",
+      "key_points": [
+        "漫步投资 这是前桥水中国区总裁王沿在一次内部交流会上的演讲实录。作为在桥水工作25年的老将，也作为《原则》中文版的审校者，他用最朴实的语言，拆解了顶级对冲基金内…",
+        "五 全天候策略与风险平价 基于上面这些逻辑，桥水在1996年推出了“全天候（All Weather）”策略，也带火了风险平价（Risk Parity）这个概念",
+        "也尝试把类似的思路简化为一个更容易执行的三分法配置，我们之前有发过一篇文章 很火的全天候策略，普通人如何复制 ：用股票资产承担长期增长，用债券资产稳定组合波动，…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "在猫咪眼中，人类的哪些行为，是它们认为「流氓」且没礼貌的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788070",
+      "published": "Sat, 07 Mar 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "rua"
+      ],
+      "summary": "王心远， 主张养宠的边界感，善于掰开揉碎讲透人宠之间的相处之道 查看知乎原文 记得在一本书里，一位日本动物医院的院长说过： “喵星人能屈尊跟人类一起生活，就是为了能在需要的时候被摸摸。” 我认为这是对猫咪与人类相处最恰当的形容。 在猫咪的眼中，铲屎官与它是非常 要好的朋友 ，而非从属，所以猫咪不愿被 “招之即来挥之即去” 。 有 「边界感」 的相处是它们最喜欢的交往方式。 图片源自网络 仔细观察猫咪会发现，它们几乎都是想黏人的时候黏人，不想黏人的时候怎么叫都叫不过来。 即使在社会化敏感时期训练得再好，也不是每时每刻…",
+      "key_points": [
+        "「边界感」 就是底线，那些 不尊重这份边界、强行打扰、不懂见好就收的行为 ，全是妥妥的 「流氓」 行为，还特别没礼貌",
+        "主张养宠的边界感，善于掰开揉碎讲透人宠之间的相处之道 记得在一本书里，一位日本动物医院的院长说过： “喵星人能屈尊跟人类一起生活，就是为了能在需要的时候被摸摸。…",
+        "图片源自网络 4.随意入侵猫咪的“专属空间”： 虽然和人类共生，但有些地方依然它的小世界，比如 猫窝、猫爬架顶层、窗台、沙发角落 等，如果在它需要时强行霸占，都…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么庞贝古城遇难者遗体会形成空腔？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788048",
+      "published": "Fri, 06 Mar 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Crassius",
+        "Fiorelli",
+        "Giuseppe",
+        "Lucius",
+        "Tertius"
+      ],
+      "summary": "湿漉漉的豌豆公主， 一世无双，踏着风混天绫响，红莲重生血脉相向 查看知乎原文 因为事实真相是不只有空腔留下来了，骨骼也留下来了，只不过藏在了空腔里。 下面这张图就很直观了。头部的上半部分不知道为什么没有形成空腔，所以灌注石膏的时候石膏没有流动到那里，在把石膏挖出来的时候，颅骨的上半部分就露出来了。 石膏灌注法是 Giuseppe Fiorelli 在 1870 年发明的，方法比较古老，新发掘的遗骸都不咋用这个方法了。例如在奥普隆提斯的 Lucius Crassius Tertius 别墅发掘出了一位女性遇难者，她的…",
+      "key_points": [
+        "下面这张图就很直观了。头部的上半部分不知道为什么没有形成空腔，所以灌注石膏的时候石膏没有流动到那里，在把石膏挖出来的时候，颅骨的上半部分就露出来了",
+        "石膏灌注法是 Giuseppe Fiorelli 在 1870 年发明的，方法比较古老，新发掘的遗骸都不咋用这个方法了。例如在奥普隆提斯的 Lucius Cra…",
+        "赫库兰尼姆的港口仓库中有大量遇难者遗骸，没有灌注石膏，直接发掘出了骸骨。但是在现在仓库遗址中摆放的只是复制模型，真正的遇难者骸骨已经在实验室仓库里了"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "没有冰箱的时候，居住在热带的人是不是从来没见过冰？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788140",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Tudor",
+        "Bhakdi",
+        "Bhirom",
+        "Phraya",
+        "Chom",
+        "Frederic"
+      ],
+      "summary": "Saechia， 长期往返泰国的躺平党 查看知乎原文 世界上最早的冰块跨国贸易，来自 1806 年的美国商人 Frederic Tudor。他出生在新英格兰一个富裕的家庭，他的父亲是一位知名律师，并且是乔治.华盛顿的第一位总检察长。 1805 年，Frederic Tudor 突发奇想决定通过向热带气候下的人们出售冰块来发家致富，当时大多数美国人都认为这位 23 岁的年轻人疯了。但 Frederic Tudor 认为自己家里拥有的豪华冰屋，让他在夏天体验了冷饮和冰淇淋的乐趣。他写道：“当一个人喝了一周的冷饮，再也不…",
+      "key_points": [
+        "冰比 Tudor 想象的更难销售，热带地区的人店里 / 家里不仅没有冰屋，还根本不知道如何来防止冰融化",
+        "但中南半岛上的人接触冷饮远早于此。一位名叫 Frederick Arthur Neale 的欧洲人，在 Rama3 世统治期间，于 1840 年前往暹罗旅行。圣…",
+        "Frederic Tudor 突发奇想决定通过向热带气候下的人们出售冰块来发家致富，当时大多数美国人都认为这位 23 岁的年轻人疯了。但 Frederic Tu…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拒绝“神话”：全网吹爆的OpenClaw，不过是大厂不敢玩的一场“权限裸奔”游戏",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349763.html",
+      "published": "Sun, 08 Mar 2026 06:01:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "OpenClaw",
+        "AGI",
+        "API",
+        "Desktop"
+      ],
+      "summary": "过去一个月，整个科技圈都在为一个叫 OpenClaw 的开源项目陷入癫狂。然而，撕开“AGI 已经到来”的神话滤镜，其底层不过是一场将系统最高控制权拱手相让的“俄罗斯轮盘赌”。为什么 OpenAI 和 Google 几百名顶尖天才做不出一个“龙虾”？不是不能，是不敢。在这场从“隐私换便利”向“安全换便利”的致命交易中，每一个欢呼雀跃的用户，都在成为这场大型社会实验的免费小白鼠。 一、当猴子拿到了上了膛的枪，我们却在为它的敏捷欢呼 想象这样一个场景： 你雇佣了一个智商极高、懂八国语言、熟背千万行代码的顶级助理。但这个…",
+      "key_points": [
+        "整个科技圈都在为一个叫 OpenClaw 的开源项目陷入癫狂。然而，撕开“AGI 已经到来”的神话滤镜，其底层不过是一场将系统最高控制权拱手相让的“俄罗斯轮盘赌…",
+        "你为了图省事，不仅把家里的钥匙交给了他，还把你的银行卡密码、公司核心数据库的 Root 权限，以及可以随意改写你人生档案的权力，全部打包塞进他手里，然后对他说：…",
+        "最终的产品形态就是 OpenClaw 这种“权限裸奔”的怪物。但优秀的商业产品，绝不能反人性地去赌博"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品设计的最高效率，是让每个功能只写一次",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6349768.html",
+      "published": "Sun, 08 Mar 2026 04:03:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PRD",
+        "AI",
+        "SaaS",
+        "check",
+        "ERP",
+        "OpenID"
+      ],
+      "summary": "从AI提示词到产品设计，底层逻辑惊人一致——真正的智慧在于抽象与复用。本文通过SaaS产品实战案例，揭示如何构建通用性、平台性和可复用性三大核心能力，带你跳出功能视野的桎梏，掌握从'做功能'到'建平台'的跃迁之道。那些合同引擎、工单系统中隐藏的设计哲学，正是破解技术债务的关键密码。 最近在给 AI 助手写提示词，写着写着突然愣住了。 我发现一件事： 写提示词和做产品设计，底层逻辑居然是一样的。 你不可能给每个场景写一套独立的提示词，就像你不应该给每个需求写一套独立的代码。 真正好的提示词，是抽象出通用规则，再通过参…",
+      "key_points": [
+        "最好的产品设计不是把每一个需求都做成独立功能，而是 抽象出通用能力，让业务自己去组合和配置",
+        "做产品的三层视野 我把产品设计的思维方式分成三层",
+        "底层逻辑惊人一致——真正的智慧在于抽象与复用。本文通过SaaS产品实战案例，揭示如何构建通用性、平台性和可复用性三大核心能力，带你跳出功能视野的桎梏，掌握从'做…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI Agent（智能体）产品经理深度学习指南",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6279185.html",
+      "published": "Sun, 08 Mar 2026 03:31:37 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "CoT",
+        "Prompt",
+        "PM",
+        "Action"
+      ],
+      "summary": "AI Agent 正从简单的对话接口进化为具备感知、决策与执行能力的智能实体。本文深度拆解其底层架构，从感知模块的多模态处理到大脑模块的复杂推理优化，再到行动模块的闭环执行，为产品经理提供商业化落地的关键思路与应用范式选择策略。 1. 引言：AI Agent 核心定义 在生成式 AI 的技术演进中，基于大语言模型（LLM）的智能体（AI Agent）已超越了单纯的“对话接口”范畴。智能体是一个具备**感知（Perception）、决策（Brain）与执行（Action）**完整闭环能力的计算实体。与传统程序预设的硬…",
+      "key_points": [
+        "AI Agent 正从简单的对话接口进化为具备感知、决策与执行能力的智能实体。本文深度拆解其底层架构，从感知模块的多模态处理到大脑模块的复杂推理优化，再到行动模…",
+        "本文由 @而立与拾遗 原创发布于人人都是产品经理。未经作者许可，禁止转载",
+        "人人都是产品经理平台仅提供信息存储空间服务"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代，只有两件事值得你操心",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349221.html",
+      "published": "Sun, 08 Mar 2026 01:30:21 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Token",
+        "OpenClaw",
+        "Alex",
+        "CC0",
+        "Claude"
+      ],
+      "summary": "AI技术正以惊人的速度重塑各行各业，从OpenClaw的部署到智能体的爆发，中国模型的调用量甚至首次超越美国。面对这场变革，关键不在于追逐每个技术热点，而在于分清哪些是AI必然进步的“常量”，哪些是真正由你掌控的“变量”。本文将带你解读AI发展的最新趋势，揭示如何在这场技术革命中找准自己的核心优势，成为驾驭AI而非被AI淘汰的赢家。 最近我的朋友圈画风变了。 有人分享OpenClaw的部署心得，群里讨论着Token消耗速度，一些从没写过代码的朋友，发来了自己用AI编程做的小工具。 与此同时，各大科技头条被这些消息刷…",
+      "key_points": [
+        "在AI时代： 常量 = AI本身的进步 GPT-5.4、Claude 4.6、千问、豆包——模型越来越强 全球大厂、开源社区、资本一起推着走 你控制不了，也不用…",
+        "三、再看“变量”：这才是你真正要操心的事 变量1：你对“自己行业/业务”的理解 AI不懂你的行业痛点。它不懂广告怎么投、金融怎么风控、电商怎么转化。这些，只有你…",
+        "它只能取代一部分通用需求。面对专业要求，必须是你告诉它该怎么干。最终，一切依然要回归到人的本质。” 中国人事科学研究院院长柳学智也指出：AI时代，劳动者要重塑综…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GPT-5.4：OpenAI做了个Kimi K2.5 +MiniMax M2.5？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6349676.html",
+      "published": "Sat, 07 Mar 2026 03:16:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GPT-5.4",
+        "OpenAI",
+        "ChatGPT",
+        "agent",
+        "Excel",
+        "Pro"
+      ],
+      "summary": "从直接操作 Excel 完成金融建模，到自主点击网页填报数据，GPT-5.4 不再满足于提供建议，而是开始接管执行。当开源模型的激进创新倒逼巨头重塑底座，这场关于“谁能更好干活”的较量，才刚刚拉开序幕。 为了更好的追赶Claude，OpenAI带来了能力“N合1”的统一模型GPT-5.4，而看完这个模型的各种介绍和能力展示，你会发现它满满都是Kimi K2.5 和MiniMax M2.5这两个在agent上卷到疯的开源模型的影子。 01 融合了多种agent能力的all in one模型 3 月 5 日，OpenA…",
+      "key_points": [
+        "官方案例：使用 GPT-5.4 根据一个略微指定的提示制作的主题公园模拟游戏，通过 Playwright Interactive 进行浏览器测试和图像生成来构建…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "23支液体、15个小时的连续输注，娃的情绪已经接近暴躁",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+23%E6%94%AF%E6%B6%B2%E4%BD%93%E3%80%8115%E4%B8%AA%E5%B0%8F%E6%97%B6%E7%9A%84%E8%BF%9E%E7%BB%AD%E8%BE%93%E6%B3%A8%EF%BC%8C%E5%A8%83%E7%9A%84%E6%83%85%E7%BB%AA%E5%B7%B2%E7%BB%8F%E6%8E%A5%E8%BF%91%E6%9A%B4%E8%BA%81",
+      "published": "Sun, 08 Mar 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CRP",
+        "mg",
+        "TA",
+        "guokr.com",
+        "health",
+        "health_guokr"
+      ],
+      "summary": "小铃铛是在一个周日的傍晚发起烧来的。当时爸爸还打趣说：“你这个时间可没选对，要是周五烧，病上两天好了，还不耽误下周上课。” 当晚吃完药，她很快退烧了。夜里没有烧，周一早晨精神状态也完全正常。我们以为这只是一次普通的发烧，便决定照常送她去上学，并计划中午带她去社区门诊看看。 规律地烧了三天，医生建议去大医院 社区门诊查了血，排除了甲流、乙流和支原体感染，检查嗓子和肺也没事， 但C反应蛋白（CRP，体内有炎症时会升高）很高 ，已经到了71mg/L，而正常在10mg/L以内。医生说可能是细菌感染，让吃抗生素。我看这个指标…",
+      "key_points": [
+        "我跟爸爸接力盯了一宿丨作者供图 输到最后两三支的时候，娃的情绪已经接近暴躁。高烧的炙烤，频繁的换液，少许跑液后肿起的手背，再加上输钾后疼痛的血管，都让她一次次大…",
+        "娃终于睡踏实了 医生进一步向我们解释， 川崎病的治疗方案已经很成熟，就是输丙种免疫球蛋白（简称“丙球”） 。这个名字对于我们很陌生，我和爸爸已经没啥分析能力了。…",
+        "娃的两只眼睛都开始出现充血丨作者供图 输完丙球的当天，娃体温降得不算多，维持在37.8℃左右。但能看出来，她已经没有之前那么难受了。虽然还是一整天地睡，但能感觉…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "去年没瘦下来的，别点 （怕你这次真的成功了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8E%BB%E5%B9%B4%E6%B2%A1%E7%98%A6%E4%B8%8B%E6%9D%A5%E7%9A%84%EF%BC%8C%E5%88%AB%E7%82%B9+%EF%BC%88%E6%80%95%E4%BD%A0%E8%BF%99%E6%AC%A1%E7%9C%9F%E7%9A%84%E6%88%90%E5%8A%9F%E4%BA%86",
+      "published": "Sun, 08 Mar 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "KEEP",
+        "AI",
+        "bra",
+        "flag"
+      ],
+      "summary": "来不及解释了，先↑抽奖！ 先问一个扎心的问题：上一次立的减肥flag，坚持了几天？ 是不是也像掌柜一样——不是动太猛无法坚持，就是吃太少饿到发慌？十天半月后草草收场，更气的是， 好不容易掉的那几斤，没过几天全都加倍胖回来了。 如果已经下定决心，要和囤了一整个冬天的脂肪正式说拜拜， 那千万别错过“果壳 x KEEP 春季减脂福利专场」” 我们帮你把“生活化减脂”必备的好物，一站配齐，咱们一起无痛运动、快乐减脂！ 马上预约，快乐运动 全场满259再送KEEP会员一个月 17000+海量精品课程 AI教练专业指导带你快乐…",
+      "key_points": [
+        "时间太少 手边常备运动小器具 达成进度90% 生活化减脂，最重要的就是方便！不用做心理建设复杂的准备，就能动起来，你就成功了90%了。我们专场中，为大家挑了几件…",
+        "全藏在面料里：羊毛、天丝羊毛、氨纶、锦纶、涤纶……光是名字就让人眼花。再加上不同的配比、不同的织法 ，排列组合下来，别说你懵，懂行的人也得拿着吊牌看半天",
+        "不臭不粘美美一整天 春天早晚温差大， 动起来一身汗，停下来风一吹，又冷又黏，还容易着凉。更别说那股捂了一天的汗味儿，挤地铁都不好意思抬手"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "路边的这种小黑果，最好别吃！它害我们扒了几个月的鸟屎……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B7%AF%E8%BE%B9%E7%9A%84%E8%BF%99%E7%A7%8D%E5%B0%8F%E9%BB%91%E6%9E%9C%EF%BC%8C%E6%9C%80%E5%A5%BD%E5%88%AB%E5%90%83%EF%BC%81%E5%AE%83%E5%AE%B3%E6%88%91%E4%BB%AC%E6%89%92%E4%BA%86%E5%87%A0%E4%B8%AA%E6%9C%88%E7%9A%84%E9%B8%9F%E5%B1%8E%E2%80%A6%E2%80%A6",
+      "published": "Sun, 08 Mar 2026 16:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "article",
+        "Chomicki",
+        "Dioscorea",
+        "https",
+        "John"
+      ],
+      "summary": "7年前的一天，当我的导师——中国科学院昆明植物研究所的陈高研究员——在植物园里散步时，他惊奇地发现， 自己被一种“果子”给骗了。 原来，路边的一株植物上结满了黝黑发亮的“浆果”。陈老师顺手摘下几颗捏开，却发现里面全是均匀的肉质组织。“种子去哪了呢？”他喃喃道。 陈老师遇见的“小黑果” 一般来说，我们日常食用的很多“果子”，比如说蓝莓、葡萄、桑葚，都属于植物的果实。 大多数植物会以果实为“报酬”，吸引动物取食，从而达到传播种子、繁衍后代的目的。 不过也有一些植物选择了一条与众不同的路径：它们演化出“拟态种子”，通过模…",
+      "key_points": [
+        "路边的一株植物上结满了黝黑发亮的“浆果”。陈老师顺手摘下几颗捏开，却发现里面全是均匀的肉质组织。“种子去哪了呢？”他喃喃道",
+        "但实际过程远非如此。鸟类并不喜欢吃珠芽，经常不配合取食；好不容易吃下去，有些珠芽在消化道内的滞留时间又比较长，最久甚至要等一个半小时才能拉出来。为了积累数据，整…",
+        "我们测量了黑色珠芽以及与其同域分布的浆果的尺寸、色彩等外形特征。结果表明， 珠芽的大小变化范围很广，能覆盖80%被测浆果的尺寸区间 ，能模仿多种浆果的尺寸，吸引…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "看鼻子大不大就知道男的行不行？相亲竟然败在鼻子上了……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%8B%E9%BC%BB%E5%AD%90%E5%A4%A7%E4%B8%8D%E5%A4%A7%E5%B0%B1%E7%9F%A5%E9%81%93%E7%94%B7%E7%9A%84%E8%A1%8C%E4%B8%8D%E8%A1%8C%EF%BC%9F%E7%9B%B8%E4%BA%B2%E7%AB%9F%E7%84%B6%E8%B4%A5%E5%9C%A8%E9%BC%BB%E5%AD%90%E4%B8%8A%E4%BA%86%E2%80%A6%E2%80%A6",
+      "published": "Sun, 08 Mar 2026 12:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "size",
+        "penis",
+        "among",
+        "body",
+        "height"
+      ],
+      "summary": "我是一名男科大夫。 万万没想到，有微博女粉丝让我帮忙给她男朋友看看面相，想知道他到底“行不行”。 事情是这样的。这几天有位女粉丝给我发微博私信，她说，也许、可能、大概以后就是他了！但由于他比较保守，想牵他的手过一辈子，姑娘又怕两个人为爱鼓掌的时候没办法很好地契合。听好多人说过“男性的鼻子越大，武器也越大，性能力也越强”，但她左看右看，中意的他似乎在鼻子上并没有什么卓尔不群的特质。 于是她来找我求证，想知道看过“百鸟图”的我，能不能从面相上帮她分析分析，男朋友到底行不行。 看了这位粉丝的描述，我大为震惊，真的有这种看…",
+      "key_points": [
+        "事情是这样的。这几天有位女粉丝给我发微博私信，她说，也许、可能、大概以后就是他了！但由于他比较保守，想牵他的手过一辈子，姑娘又怕两个人为爱鼓掌的时候没办法很好地…",
+        "想知道看过“百鸟图”的我，能不能从面相上帮她分析分析，男朋友到底行不行",
+        "有微博女粉丝让我帮忙给她男朋友看看面相，想知道他到底“行不行”"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "三八妇女节，推荐十部女性电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%89%E5%85%AB%E5%A6%87%E5%A5%B3%E8%8A%82%EF%BC%8C%E6%8E%A8%E8%8D%90%E5%8D%81%E9%83%A8%E5%A5%B3%E6%80%A7%E7%94%B5%E5%BD%B1",
+      "published": "Sun, 08 Mar 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "UNION",
+        "Gappa",
+        "Gol",
+        "hongmomgs",
+        "irisfilm",
+        "Liliane"
+      ],
+      "summary": "文 Liliane 今天是三八妇女节，我们选择了十部女性电影，深入谈一谈。 电影，在性别政治的博弈中，是重塑女性主体性、解构父权话语的一个关键场域。女性在银幕上的形象演变，也是完整地勾勒出了一部从被凝视的他者向行动的主体进发的奋斗史。 早期的电影史研究往往忽略了女性在创作端的贡献，但事实上，诸如阿莉丝 · 盖和洛伊斯 · 韦伯等先驱在 20 世纪初便已开始探索叙事电影的可能性，她们的作品触及了节育、劳工权利等具有先进意识的课题，为女性独立意识在银幕上的初次闪现奠定了基础。 阿莉丝 · 盖 然而，随着好莱坞工业体系的…",
+      "key_points": [
+        "我们选择了十部女性电影，深入谈一谈",
+        "《女王》的成功预示了宝莱坞新女性电影时代的到来，它证明了女性题材电影可以不再是关于生存，而是关于生活和选择。影片巧妙地平衡了全球化视野与印度本质，拉妮在获得独立…",
+        "交叉性视角的引入，使得女性电影不再局限于中产阶级女性的身份焦虑，而是开始广泛关注种族、阶级、文化背景和性别压迫的复杂交织"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "今天要看《阮玲玉》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%8A%E5%A4%A9%E8%A6%81%E7%9C%8B%E3%80%8A%E9%98%AE%E7%8E%B2%E7%8E%89%E3%80%8B",
+      "published": "Sun, 08 Mar 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Cinema",
+        "hongmomgs",
+        "irisfilm",
+        "of",
+        "qq.com",
+        "Senses"
+      ],
+      "summary": "作者：Tony Williams 译者：易二三 校对：覃天 来源：Senses of Cinema （2010年10月） 《阮玲玉》在海内外的电影节上获得了许多奖项，并且是香港大学出版社《香港新电影》丛书其中一部专著的主题，非常有资格被列为香港新浪潮的经典之作。 同时，关于该片对中国女演员阮玲玉（1910-1935）的明星形象的回望及其与当代批评问题的相关性的争论仍在继续，这些问题也反映了这部成就斐然的作品的原创性。 《阮玲玉》 英国电影研究学者朱利安·斯特林格认为这部电影深受布莱希特的影响，是对传记电影的批判性和…",
+      "key_points": [
+        "尽管1930年代上海的保守意识形态势力使人们难以做出其他选择，但关锦鹏确实通过提及以下内容表明，这种选择并非完全不可能：黛德丽强大的银幕形象；阮玲玉不幸未能发表…",
+        "当张曼玉饰演的阮玲玉在沙发上痛苦地哭泣——因为小报媒体将她打造为违反传统行为准则的牺牲品时——关锦鹏和张曼玉知道，在他们的时代，不可能有「流泪的时间」，尤其是那…",
+        "约特认为《阮玲玉》是一部批判性的遗产电影，而不是一部「怀旧作品」或宣扬不可能从过去学习经验的后现代主义文本。与此相一致的是，影片谴责了摧毁阮玲玉的流言蜚语。它还…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最完美山峰，以“她”命名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%AE%8C%E7%BE%8E%E5%B1%B1%E5%B3%B0%EF%BC%8C%E4%BB%A5%E2%80%9C%E5%A5%B9%E2%80%9D%E5%91%BD%E5%90%8D",
+      "published": "Sun, 08 Mar 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Jubei"
+      ],
+      "summary": "今天是3月8日，地理君带来 7种最值得仰望的 “山高她为峰” “她”们寓名于山 共同形成一组 堪称 完美的 “神山圣峰之巅” 此外，在那些举目仰止处 也看到 14种宝贵的 女性光辉 四姑娘山与幺妹峰 关键词：英勇与守护 为什么是“四姑娘”和“幺妹”？ 因为传说曾有魔王为祸人间， 有四位姐妹化作雪山镇压魔王、舍己救人 其中最小、最美丽的幺妹 化作其中 最高峰 ↓画面中央为幺妹峰 在四川成都龙泉驿区柏合街道遥望四姑娘山 图源：中国国家地理 2021年05期 摄影/嘉楠 四姑娘山距成都仅200余公里 天气晴好时于城市中举…",
+      "key_points": [
+        "有四位姐妹化作雪山镇压魔王、舍己救人 其中最小、最美丽的幺妹 化作其中 最高峰 ↓画面中央为幺妹峰 在四川成都龙泉驿区柏合街道遥望四姑娘山 图源：中国国家地理…",
+        "图源：《中国国家地理》凉山州特刊 摄影/叶昌云 梅里雪山的“神女峰” 关键词：灵动与深情 神女峰本是格宗奔松神山的女儿 名叫缅茨姆 （即缅茨姆峰） 她与英雄卡瓦…",
+        "地理君带来 7种最值得仰望的 “山高她为峰” “她”们寓名于山 共同形成一组 堪称 完美的 “神山圣峰之巅” 此外，在那些举目仰止处 也看到 14种宝贵的 女性…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "假装做实验",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%81%87%E8%A3%85%E5%81%9A%E5%AE%9E%E9%AA%8C",
+      "published": "Sun, 08 Mar 2026 11:34:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "ball",
+        "Bitsea",
+        "down"
+      ],
+      "summary": "每当我觉得看不清未来的时候，就会回想起中学时代的物理实验课。具体说来，就是研究平抛运动的那一堂。 实验内容相当无聊且枯燥，大体上就是在滑轨上方释放不锈钢小球，让它水平飞出落在蓝色复写纸上。复写纸下面垫了一张白纸，这样在落点处会形成一个蓝色的印子。不断调整滑轨的高度，然后通过落点反复记录小球水平方向飞行的距离。最后整理成一个表格，验证平抛运动的公式。 那天我走得很晚，因为数据偏离很大，我就不得不一次次重复，让小球落点逐渐收敛到一个肉眼可以分辨的小范围内。同学们走得早，因为他们很敏锐地发现了搞科研做实验的精髓，那就是先…",
+      "key_points": [
+        "最后我想跳开之前的内容多说一句：一个正确的、有效的答案，在正确、有效的同时也是一个巨大的限制。它不单限制了你的判断，甚至还限制了你如何去想。所以，你自己做实验，…",
+        "因为数据偏离很大，我就不得不一次次重复，让小球落点逐渐收敛到一个肉眼可以分辨的小范围内。同学们走得早，因为他们很敏锐地发现了搞科研做实验的精髓，那就是先算出具体…",
+        "从学习的角度考虑，我需要学习的是他们当初经历的这个过程，无论是从肉体和精神上，肉体上重复感知他们曾经的感知和劳累，精神上重复感知他们曾经的困惑和焦躁。这些经验是…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "从边缘人到诺奖得主，一位非主流女科学家的四十年",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E8%BE%B9%E7%BC%98%E4%BA%BA%E5%88%B0%E8%AF%BA%E5%A5%96%E5%BE%97%E4%B8%BB%EF%BC%8C%E4%B8%80%E4%BD%8D%E9%9D%9E%E4%B8%BB%E6%B5%81%E5%A5%B3%E7%A7%91%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%9B%9B%E5%8D%81%E5%B9%B4",
+      "published": "Sun, 08 Mar 2026 08:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "mRNA",
+        "Toll",
+        "BioNTech",
+        "Drew",
+        "RNA",
+        "an"
+      ],
+      "summary": "3.8 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 匈牙利裔美国生物化学家卡塔林·考里科（Katalin Karikó），2023年诺贝尔生理学或医学奖得主。图源：https://www.britannica.com/biography/Katalin-Kariko 导读 在科学史上，突破常被讲述为“天才的一瞬”，但卡塔琳·卡里科的故事提醒我们：许多改变世界的发现，并不是在掌声中诞生的，而是在被忽视、被低估、被排挤的岁月里，一点一点熬出来的。今天是三八妇女节，重读这位女科学家的经历，我们看到的不只是…",
+      "key_points": [
+        "卡里科却说“在我近40年的研究生涯中，我几乎没有获得任何奖项，然而只是继续做实验就让我很高兴了。” 当卡里科在林肯中心作为时代周刊年度接受致敬，当她获得诺奖后宾…",
+        "3.8 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 匈牙利裔美国生物化学家卡塔林·考里科（Katalin Karikó），2023年诺贝尔生理学…",
+        "撰文 ｜ 【美】卡塔林·卡里科 翻译 ｜李敬 梁贵柏 这是一个关于时间与执着的故事：一个移民女科学家在冷眼、挫败与边缘化中，用四十年孤独的坚持，铺就了mRNA疫…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "妇女节快乐(公众号75%是女性)",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%A6%87%E5%A5%B3%E8%8A%82%E5%BF%AB%E4%B9%90%28%E5%85%AC%E4%BC%97%E5%8F%B775%25%E6%98%AF%E5%A5%B3%E6%80%A7%29",
+      "published": "Sun, 08 Mar 2026 08:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "Definition",
+        "ceiling",
+        "Empowerment",
+        "glass"
+      ],
+      "summary": "每年3月8日，我们都在庆祝国际妇女节（International Women\\x26#39;s Day）。但除了节日的祝福，真正支撑起女性力量的是那些关于打破瓶颈、追求平等与自我赋权的行动。今天，我们分享三个高阶英文词汇，带你更深一层地理解这一天。01. Glass Ceiling (玻璃天花板)Definition: An unacknowledged barrier to advancement in a profession, especially affecting women.这个词最早出现在20世纪70…",
+      "key_points": [
+        "我们都在庆祝国际妇女节（International Women\\x26#39;s Day）。但除了节日的祝福，真正支撑起女性力量的是那些关于打破瓶颈、追求平等与…",
+        "Resilience (韧性)Definition: The capacity to withstand or to recover quickly from…",
+        "Glass Ceiling (玻璃天花板)Definition: An unacknowledged barrier to advancement in a p…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第259期 - 空中径山",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/259/",
+      "published": "Mon, 09 Mar 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "https",
+        "nanobot",
+        "github.com",
+        "App",
+        "Claude"
+      ],
+      "summary": "封面图拍摄于周末带着无人机去径山花海玩，当前只有油菜花，其他的花没有怎么开，拿着无人机飞到最高拍照玩，看到不少不错的景色。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 妙言最近也更新了，还有 CLI 了 https://github.com/tw93/miaoyan 1、支持 miao 的 cli，可以用命令行列出所有笔记、搜索、新建、cat 内容，非常实用 ai 使用 2、Apple 公证完成：终于不会出现 App 损坏提示以及不用再去系统设置里点”仍然打开”…",
+      "key_points": [
+        "封面图拍摄于周末带着无人机去径山花海玩，当前只有油菜花，其他的花没有怎么开，拿着无人机飞到最高拍照玩，看到不少不错的景色"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/03/09/longcat-openclaw.html",
+      "published": "Mon, 09 Mar 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LongCat",
+        "OpenClaw",
+        "API"
+      ],
+      "summary": "依赖第三方订阅进行非官方调用存在账号安全风险与服务不稳定性。为规避此类问题，LongCat 团队提供稳定合规的官方免费 API，开发者可通过官方渠道直接接入 OpenClaw，在确保账号安全的前提下构建自动化工作流。",
+      "key_points": [
+        "依赖第三方订阅进行非官方调用存在账号安全风险与服务不稳定性。为规避此类问题，LongCat 团队提供稳定合规的官方免费 API，开发者可通过官方渠道直接接入 O…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "伊朗最高领袖哈梅内伊 | 经济学人讣告",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%93%88%E6%A2%85%E5%86%85%E4%BC%8A+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%AE%A3%E5%91%8A",
+      "published": "Thu, 05 Mar 2026 11:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "he",
+        "of",
+        "to",
+        "was",
+        "his",
+        "in"
+      ],
+      "summary": "本文选自经济学人20260303讣告板块 Obituary | God’s dictator falls Ali Khamenei hoped his legacy might last for ever Iran’s Supreme Leader was killed on February 28th, aged 86 Across the decades, Ali Khamenei built up countless reasons for his hatred of the West. They began…",
+      "key_points": [
+        "本文选自经济学人20260303讣告板块 Obituary | God’s dictator falls Ali Khamenei hoped his lega…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "麒麟的生物原型可能是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788012",
+      "published": "Wed, 04 Mar 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "M.",
+        "kg",
+        "Muntiacus",
+        "reevesi",
+        "cephalophus",
+        "E."
+      ],
+      "summary": "Tim Ji 查看知乎原文 中国核心区主要鹿科成员（漏了一个水鹿），按鼻尖位置左起：1.獐，2.马鹿，3.小麂，4.狍，5.梅花鹿，6.麋鹿，7.黑麂，8.白唇鹿，9.毛冠鹿；推荐读者先对左 1 獐子（麕）的体型和样貌留下个印象 说实话，我是没想到这个问题下能开出这么多脑洞，连东亚灭绝超过两百万年的长颈鹿科都搬出来了 [1] ，而那个嫌疑最大的玩意反而一直没人提…… 先简单梳理下文献：甲金文中「麐」字均疑似用于人名先不论 [2] ，先秦至两汉关于动物「麐 / 麟」的外形描述，除了万恶之源《诗·周南·麟之趾》外，主要…",
+      "key_points": [
+        "以及皮肤表面的的黑斑 补充： 有不少人拿「戴两角而共觝」解释为“向前伸出一角”附会驯鹿，这是胡扯。关于这句话在上下文语境中的含义分析前文已论及，而更强的证据在于…",
+        "Tim Ji 中国核心区主要鹿科成员（漏了一个水鹿），按鼻尖位置左起：1.獐，2.马鹿，3.小麂，4.狍，5.梅花鹿，6.麋鹿，7.黑麂，8.白唇鹿，9.毛冠鹿…",
+        "阴影为现存越南大麂分布范围；右侧文字为出土记录，年代最晚为湖北地区 2800-1800bp 案例 麂族物种 “以长江流域为中心，沿华北平原边缘的山地林区分布”…"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "platform": "透明创业实验",
+      "source": "透明创业实验",
+      "source_url": "https://blog.t9t.io/atom.xml",
+      "title": "2019 年 t9t.io 赚了多少钱",
+      "title_zh": null,
+      "url": "https://blog.t9t.io/2019-2020-01-03/",
+      "published": "2025-11-21T08:04:26.707Z",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "t9t.io"
+      ],
+      "summary": "这两天看了很多年终总结, 回形针 的标题我最喜欢, 简单直接, 直入重点. 于是借鉴下标题, 也来随个大流做个简单的总结. t9t.io",
+      "key_points": [
+        "回形针 的标题我最喜欢, 简单直接, 直入重点"
+      ]
+    }
+  ]
+}
