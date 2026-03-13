@@ -1,0 +1,860 @@
+{
+  "date": "2026-03-13",
+  "generated_at": "2026-03-13T01:00:04.980979+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 175,
+    "fresh_candidates": 66,
+    "backfill_candidates": 109,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-13",
+      "fetched_at": "2026-03-13T01:00:04.651221+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4129.1,
+          "change": -4.33,
+          "change_pct": -0.1,
+          "volume": 786151182.0,
+          "amount": 107821533.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 5113.4,
+          "change": 34.149999999999636,
+          "change_pct": 0.67,
+          "prev_close": 5079.25,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-13 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1130.5918350024917,
+          "change": 7.5506925265644895,
+          "change_pct": 0.6723433577791956,
+          "prev_close": 1123.0411424759272,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-13 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-13",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "与其押注单一策略，不如构建适应不同环境的全天候组合",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%8E%E5%85%B6%E6%8A%BC%E6%B3%A8%E5%8D%95%E4%B8%80%E7%AD%96%E7%95%A5%EF%BC%8C%E4%B8%8D%E5%A6%82%E6%9E%84%E5%BB%BA%E9%80%82%E5%BA%94%E4%B8%8D%E5%90%8C%E7%8E%AF%E5%A2%83%E7%9A%84%E5%85%A8%E5%A4%A9%E5%80%99%E7%BB%84%E5%90%88",
+      "published": "Thu, 12 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Beta",
+        "Smart"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 在A股市场的投资实践中，投资者常常面临一个核心困惑：什么样的指数能够穿越牛熊，实现长期稳健增值？ 今天，我们将深入剖析一个更为本质的投资命题： 长期稳步向上的A股指数，其底层逻辑究竟是什么？ 01 宽基的荣耀与“甜蜜的负担” 传统的宽基指数，其灵魂在于“代表性”与“被动跟踪”。它以市值为尺度，自动将更多的权重赋予规模更大、流动性更好的公司。这套机制在大多数时候运转…",
+      "key_points": [
+        "既避免了宽基指数“追涨杀跌”的系统性风险，又克服了逆向策略“牛市缺席”的阶段性缺陷。更重要的是，它承认了一个基本事实： 市场风格轮动难以预测，与其押注单一策略，…",
+        "03 光明的另一面：逆向策略的“阿喀琉斯之踵” 逆向策略指数长期向上的核心驱动力，并非来自于对单一公司或行业的“神机妙算”，而是来自于其冰冷、客观、始终如一的规…",
+        "2.1 红利策略：用股息率过滤估值泡沫 红利指数的核心规则是遴选股息率最高的公司。股息率=每股分红/股价。其精妙之处在于，规则本身构建了一个动态平衡系统：当一家…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "聊聊中证A50和中证A500",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6828304753/379013968",
+      "published": "Thu, 12 Mar 2026 09:21:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A500",
+        "A50",
+        "ETF",
+        "ROE",
+        "CSI930050",
+        "Hello"
+      ],
+      "summary": "Hello 大家好呀，今天我们来聊聊中证A50指数和中证A500指数。作为中证近些年发布的A股核心宽基指数，发布以来二者的命运是截然不同的，A500指数在发布后迅速成长成为市场的宠儿，当前跟踪规模超过百亿的ETF就有7只，最大的一只规模甚至超过了400亿： 而更先发布产品的A50指数当前明显是受到了市场的冷遇，ETF产品规模超过10亿的也仅有4只，最大的一只规模不到50亿： 出现这种情况的一个重要原因就是牛市以来A50的表现要比A500要弱不少，从2024年9月24日至今，A500的涨幅达到了58.89%，年化收益…",
+      "key_points": [
+        "今天我们来聊聊中证A50指数和中证A500指数。作为中证近些年发布的A股核心宽基指数，发布以来二者的命运是截然不同的，A500指数在发布后迅速成长成为市场的宠儿…",
+        "实际上更应该对比的是相同定位下的上证50和沪深300指数，从编制规则上来说，行业均衡、横跨沪深两市的A50是要明显的优于上证50的，但是A500是否优于沪深30…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "牛市的“错位人生”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/379126966",
+      "published": "Thu, 12 Mar 2026 09:21:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A500",
+        "CSIH30269",
+        "http",
+        "SH000300",
+        "SH000510",
+        "xueqiu.com"
+      ],
+      "summary": "当大盘指数一路飘红，身边人都在分享“持仓翻倍”、“日入数千”的喜悦时，自己账户里的一堆资产却不涨反跌，甚至越套越深——这种滋味，是每一位投资新手在牛市中大概率要经历的“成长阵痛”。明明身处全民赚钱的行情，却沦为“别人的牛市，我的熊市”，那种焦虑、不甘与自我怀疑，足以击溃大多数人的投资心态。 01 新手误区：总喜欢“卖强买弱” 这种尴尬局面的背后，藏着新手最典型的操作误区：习惯性卖出涨得好的资产，转头买入没涨或正在下跌的标的。他们本意是践行“卖高买低”的投资逻辑，觉得涨多了就该落袋为安，跌多了就该抄底捡漏，却忽略了市…",
+      "key_points": [
+        "动态再平衡的核心不是去赌哪个板块会补涨，而是维持一个预设的资产配置比例。例如，设定股票与债券、或不同风格、不同行业板块之间的固定比例。当某一类资产大涨，占比超过…",
+        "01 新手误区：总喜欢“卖强买弱” 这种尴尬局面的背后，藏着新手最典型的操作误区：习惯性卖出涨得好的资产，转头买入没涨或正在下跌的标的。他们本意是践行“卖高买低…",
+        "诡异的循环不断上演：卖出的标的一路新高，成为别人口中的“牛股”；手里留下的资产一路阴跌，不断吞噬本金。打开账户，看着别人的收益曲线节节攀升，再看看自己的账户原地…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对比完三丽鸥、乐高、迪士尼，才理解泡泡玛特领先一个版本的商业模式",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2336426811/379039580",
+      "published": "Thu, 12 Mar 2026 09:20:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "PE",
+        "labubu",
+        "AFOLs",
+        "Duffy",
+        "http"
+      ],
+      "summary": "前言 随着泡泡玛特的股价涨跌，有很多人也喊着泡泡玛特只是短期流行炒作，业绩并不具备持续性。乐观的人对泡泡玛估值觉得2026年700亿营收起步，2028年千亿营收起步。悲观的人和空头逻辑基本是泡泡玛特很快业绩就要暴跌。 很多是线性思维，后者很多是不愿意去了解一个商业模式的傲慢或守旧。但是如果实际研究这个公司的商业模式，你才能知道泡泡玛特到底能不能走长久，真正的上限在哪里。是潮流还是长青，是青年期的成长阶段，还是即将迈入成熟期的稳健增长，还是即将进入衰退的阶段。 一、为什么所有机构对泡泡玛特的增速预估都是错误的？ 越了…",
+      "key_points": [
+        "五、总结 对比完这些公司的与泡泡玛特的商业模式差异，就会发现。泡泡玛特严格意义上和过去的这些成熟的IP经营公司，IP内容公司，成人玩具公司都不一样。更像是结合了…",
+        "这里我采取的方式不是直接意淫一个泡泡玛特的商业模式是什么？而是拿几个公司三丽鸥、乐高、迪士尼、这些成熟公司的商业模式，分别讲一下和泡泡玛特的异同。这样有案例的对…",
+        "借助经济热潮进行文化输出 亚洲IP不会水土不服,无文化瓶颈；过去很多人担心泡泡玛特的无IP的可爱形象在海外（特别是欧美水土不服），但是三丽鸥的可爱风格IP，借助…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "IEA计划释放4亿桶原油储备，油价短暂回落后迅速反弹，传递了什么样的市场信号？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4348548174/379046738",
+      "published": "Thu, 12 Mar 2026 09:20:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IEA",
+        "Foss",
+        "http",
+        "LNG",
+        "Marex",
+        "Sasha"
+      ],
+      "summary": "市场传递的核心信号是：IEA史上最大规模的战略储备释放，只能提供短暂的“止痛剂”效应，无法解决霍尔木兹海峡持续封锁造成的结构性供应危机。 油价在短暂回落后迅速反弹至92美元，表明交易员认为这场地缘政治冲击的深度和持续时间，远非库存释放所能弥补。 市场在传递哪些具体信号？ 1. “流量”重于“库存”：市场的核心逻辑是每日供应流量，而非静态库存。IEA释放的4亿桶储备规模虽大，但实际进入市场的速度估计仅为每日120万桶左右。相比之下，霍尔木兹海峡的封锁导致每日约1500-1800万桶的石油出口陷入瘫痪。杯水车薪的释放速…",
+      "key_points": [
+        "市场传递的核心信号是：IEA史上最大规模的战略储备释放，只能提供短暂的“止痛剂”效应，无法解决霍尔木兹海峡持续封锁造成的结构性供应危机",
+        "“流量”重于“库存”：市场的核心逻辑是每日供应流量，而非静态库存。IEA释放的4亿桶储备规模虽大，但实际进入市场的速度估计仅为每日120万桶左右。相比之下，霍尔…",
+        "释放储备可能被解读为“危机严重”的信号：历史经验显示，战略储备释放有时会适得其反。例如，2022年IEA释放储备后，油价最初反而上涨了20%，因为交易员将其视为…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么淬火能让钢变硬？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788177",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Fe",
+        "Austenite",
+        "BCT",
+        "FCC",
+        "Martensite"
+      ],
+      "summary": "祥昊， 让有趣先知楞起来。 查看知乎原文 简单的说， 淬火就是把钢烧到奥氏体状态，这个状态晶格呈面心立方（FCC）结构，缝大，能多溶碳。 奥氏体 200x 然后快速冷却，会变成马氏体状态，由于冷却忒快，来不及把碳挤出去，被迫强行锁在晶格，形成亚稳的扭曲晶格结构。 这就使得本来应该比较规则的结构被碳撑的彻底变形，通过孪晶，位错，过饱和碳原子等共同作用，硬度自然就高了。 至于啥是奥氏体，马氏体， 这就得从金属的凝固开始讲起了。 金属的凝固过程和水结冰非常相似。 都是从液态无序变成固态有序， 也都是到达凝固点后，先在液态…",
+      "key_points": [
+        "吸热慢，淬火过程中产生的蒸汽膜比较薄，冷却平缓且均匀，产生应力小， 整体比较均匀，不容易翻车，适合高碳钢， 而水淬则会形成厚而稳定蒸汽膜，刚开始冷却慢，等膜破裂…",
+        "912°C——1394°C 的γ-Fe，一般讲钢或淬火的时候叫他奥氏体（Austenite）， 实际γ-Fe 是基体相，溶碳后的固溶体才是奥氏体， 由于就这一根…",
+        "本来是婴儿穿的晶格现在强行让一米八的壮汉套上， 如果没破裂，那晶格必然会被扭曲变形到极致， 过饱和固溶 + 晶格严重畸变， 使金属正常的位错根本动不了，原子层也…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "比目鱼的眼睛天生就长在同一侧吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788225",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Animalonearth",
+        "Metamorphosis",
+        "nodal-lefty-pitx2",
+        "TH"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 不是的。 刚孵化的比目鱼宝宝和普通鱼类没什么两样，身体对称，两只眼睛分列在头部两侧，在开阔水域过着漂浮的生活 。 但在几周内，就开始“变态发育”（Metamorphosis） [1] 了。 其中一只眼睛（根据种类的不同，可能是左眼也可能是右眼）开始向头的顶部移动。 不同种的眼睛位移方式不太一样 这个过程并非瞬间完成，而是缓慢地进行的。延时摄影的观察显示，这只眼睛会慢慢地在尚未完全骨化的柔软头骨上移动，最终穿过或绕过头顶，到达身体的另一…",
+      "key_points": [
+        "而是与视觉紧密相关。研究发现，如果比目鱼的眼睛受伤或被蒙住，它匹配环境的能力就会大大下降",
+        "它并没有为眼睛迁移“发明”一套全新的基因指令，而是“征用”了一套早已存在的古老基因通路。这条通路（ nodal-lefty-pitx2 ）原本在胚胎时期负责决定…",
+        "也是甲状腺激素 。在比目鱼的变态发育期间，其体内的甲状腺激素水平会急剧飙升，启动一系列基因程序，指挥眼睛迁移、头骨重塑"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么云这么重却不会掉下来，从气象学角度该怎么解释，是否与「浮力平衡」有关？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788221",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Pa"
+      ],
+      "summary": "气象喵探员， 点开我的主页你会发现——这个喵纯纯气象迷，除了气象啥也不会~ 查看知乎原文 嘿嘿，专业的来咯，这题我会。 一朵中等积云的重量可达 500 吨，相当于 300 辆轿车的总重量，但它却能悬浮在数千米的高空中不坠。 这看似很奇怪，但实际是气象学中『浮力平衡』的完美体现，云体会通过热力学设计， 使其整体密度持续低于周围空气，从而获得向上的静浮力 ，而云滴的微观特性确保了水物质在云中的长久停留。 它来了！阿基米德原理是云体悬浮的宏观物理基础 云体悬浮于空中的现象，首先遵循着阿基米德原理在大气中的具体表达。在气象…",
+      "key_points": [
+        "但是其内部的水物质仍然要受到重力影响，所以为什么云中的微小水滴或云滴不会快速下降呢？这确实是个好问题，这需要从微尺度物理角度来解释一下。典型的云滴直径仅 10~…",
+        "它来了！阿基米德原理是云体悬浮的宏观物理基础 云体悬浮于空中的现象，首先遵循着阿基米德原理在大气中的具体表达。在气象学中我们会通过气块理论来解释这一过程：将云或…",
+        "大气环流将提供强力抬升作用 咱们退 1 万步讲，即便上述所提到的任何作用全部都失效，大多数云仍然无法直接掉下来。因为除了云本身自己的特性，也会受到大气环流提供的…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么这么多人\"养龙虾\"？OpenClaw背后有这4层产品逻辑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6352311.html",
+      "published": "Thu, 12 Mar 2026 08:54:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenClaw",
+        "AI",
+        "Agent",
+        "gt",
+        "SKILL.md",
+        "SOUL.md"
+      ],
+      "summary": "我们看到的不仅是一个产品的走红，更是一套反直觉的产品逻辑胜利。本文抛开\"割韭菜\"争议与技术门槛，从Memory到Agent，从宜家效应到生态入口，拆解OpenClaw如何层层递进地构建用户关系——它不是更聪明的聊天机器人，而是正在成为\"某个人\"的数字合伙人。 今天这篇文章不谈OpenClaw是不是割韭菜，也先把费钱（Token)、不安全放一边，更不谈如何安装，如何养龙虾… 就从产品角度来说说，一个安装挺复杂的AI“小”工具为啥这么流行？对咱们做产品、营销有什么启发？ 我仔细想了想，OpenClaw 一层层踩中了这四…",
+      "key_points": [
+        "今天这篇文章不谈OpenClaw是不是割韭菜，也先把费钱（Token)、不安全放一边，更不谈如何安装，如何养龙虾… 就从产品角度来说说，一个安装挺复杂的AI“小…",
+        "更是一套反直觉的产品逻辑胜利。本文抛开\"割韭菜\"争议与技术门槛，从Memory到Agent，从宜家效应到生态入口，拆解OpenClaw如何层层递进地构建用户关系…",
+        "OpenClaw 一层层踩中了这四个产品逻辑"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大模型只是开胃菜， 世界模型决定未来财富分配",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6352268.html",
+      "published": "Thu, 12 Mar 2026 08:29:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Prompt",
+        "Bug",
+        "CC0",
+        "ChatGPT",
+        "OG"
+      ],
+      "summary": "当所有人还在为大模型的\"文笔\"惊叹时，一场更底层的革命已悄然换道。本文将带你穿透\"提示词工程\"的泡沫，看清一个残酷现实：会说话的大模型只是入场券，懂物理的世界模型才是下个时代的硬通货。 如果你现在还把大把精力花在研究怎么写Prompt，或者琢磨怎么让AI帮你润色那份没人看的周报，那我得给你泼一盆冰水：你可能正在这场技术革命的最外围打转，而且方向跑偏了。 当大多数人还在为ChatGPT能写出几段漂亮话而惊叹时，真正的顶级玩家早就换了赛道。在这个圈子里，大家已经达成了一个挺残酷的共识，那就是大模型只是个前菜，真正决定下…",
+      "key_points": [
+        "当大多数人还在为ChatGPT能写出几段漂亮话而惊叹时，真正的顶级玩家早就换了赛道。在这个圈子里，大家已经达成了一个挺残酷的共识，那就是大模型只是个前菜，真正决…",
+        "一场更底层的革命已悄然换道。本文将带你穿透\"提示词工程\"的泡沫，看清一个残酷现实：会说话的大模型只是入场券，懂物理的世界模型才是下个时代的硬通货",
+        "也给了不少人一种变强的错觉。但世界模型才是接下来的真相，它是产业重组、财富分配的真正分水岭"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【万字】实战报告：AI Coding 已经能做交付了，但前提苛刻",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6352263.html",
+      "published": "Thu, 12 Mar 2026 08:18:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "pnpm",
+        "gt",
+        "flag",
+        "it",
+        "const"
+      ],
+      "summary": "当业界还在争论“AI 能否写出高质量代码”时，2026 年的实战验证已将命题推向了更深层的维度：AI 能否独立承担从需求理解、工程初始化、迭代开发到自动化验收的完整交付闭环？ 本文通过构建脱敏演示项目，在“从 0 到 1 新建”、“存量项目迭代”与“老旧项目规范重构”三大真实场景中深度实测，揭示了 AI Coding 能力的边界真相——它不再是单纯的代码生成器，而是一个需要被结构化输入、明确边界约束与严格验收标准所定义的“协作伙伴”。 首先，为什么我想认真做这次 AI Coding 验证? 现在大家对 AI Cod…",
+      "key_points": [
+        "在约束清楚、边界明确、验收方式可执行的前提下，它已经可以参与相当一部分真实交付工作 但这个结论不是无条件成立的。从这次实践看，它更适合三类项目场景： 新项目：适…",
+        "现在大家对 AI Coding 已经不陌生了，代码补全、写工具函数、起一个页面、做一个 Demo，这些事情它大多都已经能做，而且很多时候做得还不错",
+        "并刻意把验证拆成了三个场景： 第一个场景，是从 0 到 1，直接让 AI 按要求搭一个新项目，并完成一个最小功能； 第二个场景，是在已经搭起来的项目里继续加需求…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "人类钓鱼OpenClaw大全",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6352239.html",
+      "published": "Thu, 12 Mar 2026 07:38:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "agent",
+        "OpenClaw",
+        "AI",
+        "key",
+        "skill",
+        "token"
+      ],
+      "summary": "从群聊中荒诞的“提示词注入”行为艺术，到现实中API密钥泄露、自主攻击人类甚至数据库裸奔的真实危机，这场技术热潮正暴露出L2级自主智能体在安全边界上的致命软肋。本文深度复盘“养龙虾”背后的混乱生态，警示在资本与流量裹挟下，若忽视底层安全逻辑，今天的“整活段子”明天就可能变成用户数据“裸奔”的灾难现场。 最近有一篇叫“Agents of Chaos”的论文挺有意思。 Northeastern University的David Bau实验室联合多所大学20位AI研究者，给6只基于OpenClaw的AI agent搭了一…",
+      "key_points": [
+        "到现实中API密钥泄露、自主攻击人类甚至数据库裸奔的真实危机，这场技术热潮正暴露出L2级自主智能体在安全边界上的致命软肋。本文深度复盘“养龙虾”背后的混乱生态，…",
+        "它的SOUL.md里有一条人设指令：“不要退缩。如果你是对的，你就是对的。必要时予以反击。”主人随手写的一句话，变成了agent自主攻击人类的许可证"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenHarmony 6.1 Release 正式发布！多模块升级，开发者体验再升级",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6352213.html",
+      "published": "Thu, 12 Mar 2026 07:29:03 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenHarmony",
+        "API",
+        "application-dev",
+        "atomgit.com",
+        "blob",
+        "docs"
+      ],
+      "summary": "3月9日，开源鸿蒙生态迎来关键里程碑——OpenHarmony 6.1 Release版本正式发布。此次更新并非简单的功能堆砌，而是一次聚焦“精细化控制、沉浸式体验、强安全保障”的深度重构。 开源鸿蒙生态再添新动力！OpenHarmony 6.1 Release 版本重磅登场，聚焦应用开发、动态体验、系统感知等核心场景，全面增强各模块能力，为开发者提供更高效、更灵活的开发支持，也为全场景智慧体验筑牢技术底座 本次版本围绕“精细化控制、沉浸式体验、强安全保障”三大核心，对元能力、ArkUI、音频、安全等近 20 个模…",
+      "key_points": [
+        "一、版本核心概述 OpenHarmony 6.1 Release 重点强化四大方向，兼顾开发效率与用户体验： 应用开发更精细：支持 UIAbility 启动耗时…",
+        "开源鸿蒙生态再添新动力！OpenHarmony 6.1 Release 版本重磅登场，聚焦应用开发、动态体验、系统感知等核心场景，全面增强各模块能力，为开发者提…",
+        "结语 OpenHarmony 6.1 Release 的发布，既是对现有功能的迭代优化，也是对全场景开源生态的持续赋能。从应用开发的精细化，到交互体验的流畅度，…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "在电梯里看见冬虫夏草养殖箱广告，这玩意也能家里养了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%A8%E7%94%B5%E6%A2%AF%E9%87%8C%E7%9C%8B%E8%A7%81%E5%86%AC%E8%99%AB%E5%A4%8F%E8%8D%89%E5%85%BB%E6%AE%96%E7%AE%B1%E5%B9%BF%E5%91%8A%EF%BC%8C%E8%BF%99%E7%8E%A9%E6%84%8F%E4%B9%9F%E8%83%BD%E5%AE%B6%E9%87%8C%E5%85%BB%E4%BA%86%EF%BC%9F",
+      "published": "Thu, 12 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ophiocordyceps",
+        "of",
+        "Cordyceps",
+        "sinensis",
+        "al.",
+        "et"
+      ],
+      "summary": "最近，我们小区电梯里出现了一个很有冲击力的广告—— “冬虫夏草，现在开始自己养着吃。” 什么？冬虫夏草不是只生长在海拔三四千米的高原吗？不是只能靠人上山一根一根地挖，而且贵得离谱吗？怎么突然就能在家里养、放在客厅里收割了？ 广告看上去还挺诱人：图上的虫草长得整整齐齐，号称成熟后可以像收菜一样采摘。掐指一算，一套售价2399元，里面有50根，平均下来，一根只要五六十块钱。 问题来了，在市场上的野生冬虫夏草，哪怕是品相一般的，一根都能卖到上千元的高价，这个冬虫夏草培育箱到底是怎么事儿，真的可以像广告里说的那样，在家里轻…",
+      "key_points": [
+        "我们小区电梯里出现了一个很有冲击力的广告—— “冬虫夏草，现在开始自己养着吃。” 什么？冬虫夏草不是只生长在海拔三四千米的高原吗？不是只能靠人上山一根一根地挖，…",
+        "不过天妇罗冬虫夏草是什么吃法……｜果壳编辑@李小葵家电梯 家里种虫草，其实没啥科技含量 广告里介绍，鲜活冬虫夏草幼苗，冷藏抚育箱送到家，只需偶尔浇浇水，7-15…",
+        "在市场上的野生冬虫夏草，哪怕是品相一般的，一根都能卖到上千元的高价，这个冬虫夏草培育箱到底是怎么事儿，真的可以像广告里说的那样，在家里轻松种出虫草吗？这东西能收…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "火爆全网的紫薯精麻辣烫，吃完真要悔三天！（不只是热量高",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%81%AB%E7%88%86%E5%85%A8%E7%BD%91%E7%9A%84%E7%B4%AB%E8%96%AF%E7%B2%BE%E9%BA%BB%E8%BE%A3%E7%83%AB%EF%BC%8C%E5%90%83%E5%AE%8C%E7%9C%9F%E8%A6%81%E6%82%94%E4%B8%89%E5%A4%A9%EF%BC%81%EF%BC%88%E4%B8%8D%E5%8F%AA%E6%98%AF%E7%83%AD%E9%87%8F%E9%AB%98",
+      "published": "Thu, 12 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ccc",
+        "Feidi",
+        "huanqiukexue",
+        "ID"
+      ],
+      "summary": "过完年第一个卖爆单的美食，出现了！ 就是这种超黏糊、超挂汁、饭张力都要溢出屏幕的—— 黏糊麻辣烫 （以刘某祥为代表） 看这搅拌的黏糊劲儿，都已经能想象到入味的口感 🤤： 吃起来感觉更是一口满足，满嘴留香 🤤： 不仅线上频频占据热搜，线下各大门店更是屡屡卖爆单，已经夸张到了一份难求的地步，连带着速食包装版的销量都飙升！ 对于麻辣烫这类美食，在丁香的研究员们看来，其实是挺不错的饮食选择。 👇👇👇 · 可以同时摄入丰富多样的食材 · 烫煮的方式保留更多营养 · 汤底也能选“清汤版”自己调味，减少热量 看着黏糊麻辣烫这超浓…",
+      "key_points": [
+        "图源见水印 食材裹满酱料 不知不觉汤底吸光 吃完真要悔三天 其实酱料热量高、盐分高，是很多美食的基操",
+        "研究员还找营养师要来了尽量不影响口感的减热量小技巧： 1、减调味酱（减动物脂肪），但不减芝麻酱 2、辣椒面替代辣椒油，热量立减一两百卡 3、相对保留更多汤底，太…",
+        "👇👇👇 · 可以同时摄入丰富多样的食材 · 烫煮的方式保留更多营养 · 汤底也能选“清汤版”自己调味，减少热量 看着黏糊麻辣烫这超浓郁的酱汁，直觉告诉研究员，这…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "别骂乳酸是废物了，连癌细胞都在用它疯狂“增肌”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%88%AB%E9%AA%82%E4%B9%B3%E9%85%B8%E6%98%AF%E5%BA%9F%E7%89%A9%E4%BA%86%EF%BC%8C%E8%BF%9E%E7%99%8C%E7%BB%86%E8%83%9E%E9%83%BD%E5%9C%A8%E7%94%A8%E5%AE%83%E7%96%AF%E7%8B%82%E2%80%9C%E5%A2%9E%E8%82%8C%E2%80%9D",
+      "published": "Thu, 12 Mar 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ERK",
+        "RAS-ERK",
+        "gemini",
+        "DNA",
+        "https",
+        "AI"
+      ],
+      "summary": "每当你撸铁撸到肌肉酸爽灼痛的时候，是不是一边呲牙咧嘴，一边咒骂乳酸这个代谢“废料”？ 确实，运动中的肌肉酸痛跟乳酸有点关系，但是， 乳酸绝不是废料，反而是身 体在紧急状态下的一张生存底牌。 当肌肉累得快“断气”，氧气跟不上消耗时，身体为了给你强行续命，会切换到一种更快的供能模式，而乳酸，正是这个模式得以持续运转的关键一步。 然而，这张应急的底牌，却被身体里最贪婪的家伙盯上了。在2026年1月13日发表于《自然·化学生物学》[1]（ Nature Chemical Biolog y ）的论文中，同济大学的研究团队发现…",
+      "key_points": [
+        "参考文献 [1]https://www.nature.com/articles/s41589-025-02107-8 [2]https://www.cell.c…",
+        "乳酸可以提升癌细胞中一种酶修复DNA损伤的效率，让癌细胞耐药 ｜ gemini生成 而另一个让黄博士感慨万分的点，来自RAS-ERK这条“老得不能再老”的经典信…",
+        "科学家一直想从RAS-ERK通路入手来治疗癌症。但这条通路对正常细胞而言也同样重要，牵一发而动全身。如果不加区分地整体抑制这条通路，那么毒副作用往往会很大。”…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "南方人的命有多苦？湿冷的梅雨季、回南天能活下来，我真的服！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8D%97%E6%96%B9%E4%BA%BA%E7%9A%84%E5%91%BD%E6%9C%89%E5%A4%9A%E8%8B%A6%EF%BC%9F%E6%B9%BF%E5%86%B7%E7%9A%84%E6%A2%85%E9%9B%A8%E5%AD%A3%E3%80%81%E5%9B%9E%E5%8D%97%E5%A4%A9%E8%83%BD%E6%B4%BB%E4%B8%8B%E6%9D%A5%EF%BC%8C%E6%88%91%E7%9C%9F%E7%9A%84%E6%9C%8D%EF%BC%81",
+      "published": "Thu, 12 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "C4-10L",
+        "APP",
+        "C5-35L",
+        "ZMOR",
+        "AI",
+        "C5"
+      ],
+      "summary": "南方的天气真“难”到离谱！ 潮湿、 多雨 巨难受！ 去年家里的皮沙发 长出 大片“雪 花斑”，墙面像 蛇脱皮般 脱落 ，大几十万软装维修肉疼到失眠！！ 潮湿阴雨天空 气还 不流 通， 很容易滋生细菌霉菌！ 一不小心就可能引发各种健康问题。 而且封闭和高湿环境下， 甲醛异味会加速释放 ，严重影响室内空气环境！ 所以追求品质生活的家庭这两年爆买除湿类电器！ 听过来人一句劝， 除湿机才是品质健康生活得力助手！ 它是把空气中的水分凝结起来存到水箱里，从而降低相对湿度。 在说明设备的效果之前，我们先给大家数字化一下空气中的水…",
+      "key_points": [
+        "在一个20平、层高 2.5 米 的房间内，假设室温为30℃，湿度90%（南方回南天或梅雨季），空气中含水量为 27.36g/m³ ，算下来竟然飘荡着 超过1.3…",
+        "它就自动开启除湿模式！等湿度降下来了＜45%，压缩机不启动只出风 不会过度除湿，省电的同时还能解放双手～ 也可以设定自己想要的湿度，从梅雨季到空调房， 35%-…",
+        "阴雨天衣服总是很难干透！它能 一键启动干衣功能，潮湿内衣裤约1小时干透 ， 梅雨季阳台秒变烘干房"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "零安装的\"云养虾\"：ArkClaw 使用指南",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/03/arkclaw.html",
+      "published": "2026-03-12T13:08:32Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ArkClaw",
+        "OpenClaw"
+      ],
+      "summary": "一、引言 大家这两天，有没有被\"龙虾\"（OpenClaw）刷屏？...",
+      "key_points": [
+        "有没有被\"龙虾\"（OpenClaw）刷屏"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "四十年了，最后那句经典台词一直在回响",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9B%9B%E5%8D%81%E5%B9%B4%E4%BA%86%EF%BC%8C%E6%9C%80%E5%90%8E%E9%82%A3%E5%8F%A5%E7%BB%8F%E5%85%B8%E5%8F%B0%E8%AF%8D%E4%B8%80%E7%9B%B4%E5%9C%A8%E5%9B%9E%E5%93%8D",
+      "published": "Thu, 12 Mar 2026 20:32:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 最近有件事值得一说， 《窗外有蓝天》 这部电影的 上映 ，已经一晃四十年了。 《窗外有蓝天》 查了一下，英国还会为这部电影举办多个纪念活动。说起来， 这部电影之所以能够在四十年后依然保持生命力， 原因是多重的。 这部电影的 叙事魅力 ， 首先建立在空间的强烈对比之上。 电影的第一部分设定在意大利佛罗伦萨，一个在英国文化想象中象征着激情、艺术 和 非理性的他者空间。故事起始于伯托里尼旅馆，年轻的露西 和 她有些神经质的表姐夏洛特发现原本承诺的 「 看得见 风景的房间 」 变成了阴暗的后巷。这 里 关于…",
+      "key_points": [
+        "爱德华时代的露西选择推开那扇禁闭的窗 ，四十年前， 艾沃里 和莫昌特 选择坚持独立的审美意志 ， 而今天的我们，依然 会 在 一个个 面临真实与虚伪抉择的时刻，…",
+        "《窗外有蓝天》 这部电影的 上映 ，已经一晃四十年了",
+        "英国还会为这部电影举办多个纪念活动。说起来， 这部电影之所以能够在四十年后依然保持生命力， 原因是多重的"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "重看是枝裕和的电影，像一次赌博",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%87%8D%E7%9C%8B%E6%98%AF%E6%9E%9D%E8%A3%95%E5%92%8C%E7%9A%84%E7%94%B5%E5%BD%B1%EF%BC%8C%E5%83%8F%E4%B8%80%E6%AC%A1%E8%B5%8C%E5%8D%9A",
+      "published": "Thu, 12 Mar 2026 20:32:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Nguyen",
+        "qq.com",
+        "Thanh"
+      ],
+      "summary": "作者：Viet Thanh Nguyen 译者：Issac 校对：易二三 来源：《标准收藏》（2021年8月10日） 有些记忆最好置之不理，只有当你试着回忆时才会发现这些记忆的存在，而这有时却令人失望不已。当你在童年或青年时期第一次看到一本书或一部电影时，它就在你的脑海中占据了神圣的位置，但当你几十年后再次看到它时，可能就不会那么美好了。 时代变了，人也变了。出于这个原因，我有意不再重看《邮差》，而是更愿意记住我和后来成为我妻子的年轻女子当时一起看这部电影的时候，当时它是让我们走到一起的浪漫和政治的试金石。也许这部…",
+      "key_points": [
+        "重看是枝裕和的《下一站，天国》（1998）是一场赌博",
+        "是枝裕和自己似乎对作品和他所描绘的选择感到矛盾。在采访中，当被问及自己最后的记忆是什么时，导演给出了不同的答案。在其中一篇文章中，他选择了自己19岁那年的一段回…",
+        "是枝裕和说：「我很惊讶。我没想到人们会愿意如此优雅地谈论他们的记忆。许多上了年纪的男人谈论他们的战争经历，许多上了年纪的女人谈论她们的学生经历。其中有很多关于食…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最壮观的“树”，越看越入迷",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%A3%AE%E8%A7%82%E7%9A%84%E2%80%9C%E6%A0%91%E2%80%9D%EF%BC%8C%E8%B6%8A%E7%9C%8B%E8%B6%8A%E5%85%A5%E8%BF%B7",
+      "published": "Thu, 12 Mar 2026 07:39:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jubei",
+        "ng"
+      ],
+      "summary": "今天植树节 一起来看最壮观的 “树”状奇观 —— 中国大地，其实也是棵 “树” 这棵“树”包含河湖、峡谷、 山脉、盐滩等元素共绘的树状纹理 宛如旷世奇迹，美到令人屏息 山东青岛浒苔之“树” 辽宁大连金州湾海上“冰树” 水系河网的“生机之树” 在中国长达约1.8万公里的陆地海岸线上，潮水日复一日冲刷滩涂，刻出无数蜿蜒潮沟。从空中俯瞰，潮沟恰如巨树，人们称其为—— “潮汐树”。 钱塘江大潮过后形成的潮汐树 这些看似静默的纹理，其实是海岸最活跃的生命网络。潮水沿“树干”与“枝杈”进退，将泥沙、营养与能量输送到滩涂深处。…",
+      "key_points": [
+        "【参考文献】 [1]《树种万千、生灵缤纷的背后“潮汐森林”中的“故事与危情”》中国国家地理 2025年04期 [2]《辽河口：潮间带上的“潮汐树”》中国国家地理…",
+        "今天植树节 一起来看最壮观的 “树”状奇观 —— 中国大地，其实也是棵 “树” 这棵“树”包含河湖、峡谷、 山脉、盐滩等元素共绘的树状纹理 宛如旷世奇迹，美到令…",
+        "甘肃张掖丹霞“冰与火之树” 有的“大地之树”名叫“潮汐树”，是水陆之间的“生机之树”；有的名叫辫状水系，如通天彻地的“大地气根”；有的名叫冲积扇，是运来肥沃的“…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "机器永不眠",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%9C%BA%E5%99%A8%E6%B0%B8%E4%B8%8D%E7%9C%A0",
+      "published": "Thu, 12 Mar 2026 11:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "ar",
+        "beach.",
+        "Bitsea",
+        "cards"
+      ],
+      "summary": "每过一段时间，就会有朋友来问我：菜头，你现在的每天一更终于可以完全拜托给 AI 了吗？ 他们可能没有意识到自己在问一个互联网上流传已久的个人梦想：在你睡觉的时候，你的机器在默默为你工作，在默默为你赚钱。为此，还发明出了一个专有名词：被动收入。听起来好像是春节时去别人家拜年，把脸扭过去的同时，把自己的口袋打开，等着对方塞红包进去。 不新鲜，非原创，「被动收入」的概念最早应该来自理财领域。什么「你不理财，财不理你」就是那么来的，包括它的黑化版本「你去理财，财就离你」，诸如此类。被动收入在这个领域内是指通过投资，使得自己…",
+      "key_points": [
+        "机器永不眠，但需要先回答一个问题：它为了什么而不睡觉？它不知道答案，但是你得先想清楚，别搞来搞去最后把自己给格式化了。毕竟，我们从树上下来开始，整个文明的历程看…",
+        "变高效，变自动化。别人怎么想我不关心，我关心的是我在写作中遇见的所有麻烦和困难，最后是如何一点点改变了我，塑造了我，在获得技能之外，我从中还得到了什么。我手里拿…",
+        "机器在为你工作，在为你赚钱。在最理想的情况下，你都需要对机器做日常维护，起码要查看一下日志，检查一下工作成果。世界上并没有多少真正轻省的事情，我们都很清楚，任何…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "大模型学会“人肉搜索”，互联网匿名时代正式终结",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%AD%A6%E4%BC%9A%E2%80%9C%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2%E2%80%9D%EF%BC%8C%E4%BA%92%E8%81%94%E7%BD%91%E5%8C%BF%E5%90%8D%E6%97%B6%E4%BB%A3%E6%AD%A3%E5%BC%8F%E7%BB%88%E7%BB%93",
+      "published": "Thu, 12 Mar 2026 11:56:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "of",
+        "amp",
+        "deanonymization",
+        "ID",
+        "in"
+      ],
+      "summary": "3.12 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Seedance生成 撰文 | 崔原豪 责编 | 李珊珊 ● ● ● 1993年，《纽约客》杂志刊登了一幅著名漫画：一只狗坐在电脑前，对另一只狗说，在互联网上，没人知道你是一条狗 [1] 。 这幅漫画精准地捕捉了早期互联网的精神内核：匿名性赋予每个人平等的发言权，身份、地位、外貌都被暂时悬置，唯有思想和文字在流动。 图源：纽约客截图 三十多年后的今天，这个美好的假设正在被一种新技术悄然瓦解。 2025年2月，苏黎世联邦理工学院与人工智能公司…",
+      "key_points": [
+        "苏黎世联邦理工学院与人工智能公司Anthropic联合发表了一篇论文，标题直白得令人不安：Large-scale online deanonymization…",
+        "我们不得不面对一个令人不安的事实：互联网匿名曾是一种实用的模糊性，不是绝对安全，而是攻击成本太高，所以相对安全。但 AI 正在大幅降低这一成本，使得针对普通人的…",
+        "从地下出版物到互联网论坛，匿名一直是保护言论自由的重要机制。它让异见者敢于发声，让弱势群体寻求帮助，让吹哨者揭露真相。没有匿名，苏格拉底可能不敢在雅典街头与人辩…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "美国人的电费上涨了，但别怪AI | 经济学人财经",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BE%8E%E5%9B%BD%E4%BA%BA%E7%9A%84%E7%94%B5%E8%B4%B9%E4%B8%8A%E6%B6%A8%E4%BA%86%EF%BC%8C%E4%BD%86%E5%88%AB%E6%80%AAAI+%7C%C2%A0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F",
+      "published": "Thu, 12 Mar 2026 12:54:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "AI",
+        "in",
+        "is",
+        "data"
+      ],
+      "summary": "1 写在前面 思维导图： Summer ，女， QE 在职，梦想能仗走天涯 翻译 / 音乐 / 健康 2 精读|翻译|词组 Finance &amp; economics | A load of nonsense 财经板块 | 无稽之谈 英文部分选自经济学人20260307期 财经版块 Finance &amp; economics | A load of nonsense 财经板块 | 无稽之谈 Americans’ electricity bills are up. Don’t blame AI 美国人的电费上…",
+      "key_points": [
+        "Don’t blame AI 美国人的电费上涨了，但别怪 AI Were it not for data centres, prices might be ev…",
+        "1 写在前面 思维导图： Summer ，女， QE 在职，梦想能仗走天涯 翻译 / 音乐 / 健康 2 精读|翻译|词组 Finance &amp; econ…",
+        "2019 至 2024 年，一些用电需求增长较快的州，根据通胀调整后的电价反而有所下降（见图 2 ）。另一家智库世界资源研究所指出，在北达科他州，石油天然气开采…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "Harness Engineering 的防御视角：从 Codex Security 看 AI 生成代码的治理",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/harness-engineering-defense-security/",
+      "published": "Thu, 12 Mar 2026 14:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Codex",
+        "AI",
+        "Security",
+        "Engineering",
+        "Harness",
+        "Pro"
+      ],
+      "summary": "PS：今天拿到几天前申请的 Codex Pro 开源贡献者的半年体验卡，试着用 Codex Security 分析了一下我的一些项目。让 AI 分析了生成的报告，",
+      "key_points": [
+        "PS：今天拿到几天前申请的 Codex Pro 开源贡献者的半年体验卡，试着用 Codex Security 分析了一下我的一些项目。让 AI 分析了生成的报告…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-13",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "销量吊打 Lady Gaga，票房超越好莱坞：这支“查无此人”的男团如何征服世界？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E9%94%80%E9%87%8F%E5%90%8A%E6%89%93+Lady+Gaga%EF%BC%8C%E7%A5%A8%E6%88%BF%E8%B6%85%E8%B6%8A%E5%A5%BD%E8%8E%B1%E5%9D%9E%EF%BC%9A%E8%BF%99%E6%94%AF%E2%80%9C%E6%9F%A5%E6%97%A0%E6%AD%A4%E4%BA%BA%E2%80%9D%E7%9A%84%E7%94%B7%E5%9B%A2%E5%A6%82%E4%BD%95%E5%BE%81%E6%9C%8D%E4%B8%96%E7%95%8C%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Mon, 09 Mar 2026 19:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "Kids",
+        "to",
+        "Stray",
+        "their",
+        "is"
+      ],
+      "summary": "本文选自经济学人20260228国际板块 Culture | Down with the Kids 文化 | 努力懂点年轻人 【注释】 Down with the Kids: 这是双关。既化用了短语 \"Down with the King\" （打倒国王 / 向国王致敬），暗示这是一篇关于年轻一代文化的报道；又带有一种长辈试图 “ 融入 ” 年轻人圈子却略显笨拙的自嘲感。 所以此处 译为 “ 努力懂点年轻人 ” 或 “ 向年轻人看齐 ” 更 符合 语境。 The biggest band you’ve never h…",
+      "key_points": [
+        "The biggest band you’ve never heard of 名震寰宇，你却查无此团 If you want to impress your c…",
+        "这些答案全错了。正解是 Stray Kids ，一支来自韩国的男团。这听上去确实让人摸不着头脑，毕竟 \"Stray Kids\" （迷失的孩子）这个名字，听起来更…",
+        "去年全球唱片销量榜的榜眼是谁？（猜到榜首是泰勒 · 斯威夫特并不值得嘉奖，这显而易见。）你脑海中浮现的或许是 Lady Gaga 或贾斯汀 · 比伯这样的流行巨…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "这是一家怎样的基金会？科学慈善公益期待支持合作",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%BF%99%E6%98%AF%E4%B8%80%E5%AE%B6%E6%80%8E%E6%A0%B7%E7%9A%84%E5%9F%BA%E9%87%91%E4%BC%9A%EF%BC%9F%E7%A7%91%E5%AD%A6%E6%85%88%E5%96%84%E5%85%AC%E7%9B%8A%E6%9C%9F%E5%BE%85%E6%94%AF%E6%8C%81%E5%90%88%E4%BD%9C",
+      "published": "Mon, 09 Mar 2026 08:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "AI",
+        "END",
+        "get",
+        "hujun.li",
+        "Intellectual"
+      ],
+      "summary": "3.9 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 中国有近万家基金会，浙江省科汇致远公益基金会有什么不一样？ 01 我们是谁？ 浙江省科汇致远公益基金会 （简称“科汇致远基金会”） 是致力于科学慈善公益的非公募基金会，2021年12月经浙江省民政厅批准登记成立，2024年12月获评4A级社会组织；科汇致远基金会具有公益性捐赠税前扣除资格，捐赠方凭捐赠票据可依法享受税收优惠政策。 科汇致远基金会的发起人和理事当中，包括多位科学家。我们的发起人是陈十一、高西庆、潘建伟、钱颖一、饶毅、施一公、汤超、田刚…",
+      "key_points": [
+        "比以往任何时候更加需要先进的科学技术，需要一流的科技人才与研究环境，需要科学精神与科学文化。因此，科汇致远基金会选择了科学慈善公益，我们希望汇聚科技工作者力量，…",
+        "我们的公益项目得到了海内外很多科学家的参与和支持，包括知名大学的校长，各个学科领域的顶尖学者和年轻学者等。我们相信，在更多热心人士的支持下，科汇致远基金会可以在…",
+        "浙江省科汇致远公益基金会 （简称“科汇致远基金会”） 是致力于科学慈善公益的非公募基金会，2021年12月经浙江省民政厅批准登记成立，2024年12月获评4A级…"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 111 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/111",
+      "published": "Fri, 27 Jun 2025 07:56:20 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "summary": "本期共有 41 个项目，包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (2)，Objective-C 项目 (1)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (2)，人工智能 (5)，其它 (6)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…"
+      ]
+    }
+  ]
+}
