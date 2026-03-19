@@ -1,0 +1,698 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19T01:00:06.958278+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 1,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 6,
+    "items_collected": 163,
+    "fresh_candidates": 59,
+    "backfill_candidates": 104,
+    "items_published": 20,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-19",
+      "fetched_at": "2026-03-19T01:00:06.643439+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4062.98,
+          "change": 13.07,
+          "change_pct": 0.32,
+          "volume": 623873102.0,
+          "amount": 87632749.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4841.61,
+          "change": 22.779999999999745,
+          "change_pct": 0.47,
+          "prev_close": 4818.83,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-19 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1072.1480604112076,
+          "change": 5.0445064381819975,
+          "change_pct": 0.4727288574197283,
+          "prev_close": 1067.1035539730256,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-19 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-19",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "美国政界三大股神：特朗普画K线，佩洛西靠内幕，万斯直接躺平",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%BE%8E%E5%9B%BD%E6%94%BF%E7%95%8C%E4%B8%89%E5%A4%A7%E8%82%A1%E7%A5%9E%EF%BC%9A%E7%89%B9%E6%9C%97%E6%99%AE%E7%94%BBK%E7%BA%BF%EF%BC%8C%E4%BD%A9%E6%B4%9B%E8%A5%BF%E9%9D%A0%E5%86%85%E5%B9%95%EF%BC%8C%E4%B8%87%E6%96%AF%E7%9B%B4%E6%8E%A5%E8%BA%BA%E5%B9%B3",
+      "published": "Wed, 18 Mar 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "BUY",
+        "DJT",
+        "GREAT",
+        "IS",
+        "SPY"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 在华尔街，流传着这样一句话：“如果你想财富自由，要么去读沃伦·巴菲特的致股东信，要么去刷美国政客的资产披露报告”。 在美国政坛，不只有政治博弈，还有隐藏的大户室，这里坐着三位风格迥异、战绩彪悍的股神，分别代表三种投资境界。 今天，和大家分享一下他们的财富密码。 一、特朗普：用权力操纵市场的庄家，全球唯一的K线艺术家 当股民还在研究技术图形、宏观趋势、个股基本面时，特朗普只需要研究下一篇推文写什么。 毕竟，这位高龄交易员的投资方式非常简单粗暴——靠推文画K线。 比如25年4月，先…",
+      "key_points": [
+        "佩洛西不仅掌握法案的进度，更是法案内容的制定者之一，因此，很多美国人包括特朗普，都怀疑她是内幕交易，甚至催生了一部名为《佩洛西法》的立法提案，目标就是禁止国会议…",
+        "降维打击散户的国会山股神 美国前众议院议长佩洛西的投资战绩有多炸裂",
+        "佩洛西靠炒股赚了1.3亿美元，而在进入国会之前，她的股票资产只有70万美元左右，也就是说，如果佩洛西期间没有追加投资，那么投资回报率将高达16930%，是同期道…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "我为什么长期坚定看好茅台系列酒？一个茅台经销商视角看茅台系列酒",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8106514687/379977374",
+      "published": "Wed, 18 Mar 2026 11:24:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600519",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "前几天我在雪球上感慨，茅台的这几个月像过了几年。26年开始，茅台有了一系列的新举措，市场的关注度极高，声音也很多。前几天我有帖子说我看好系列酒，有球友留言或私信问“为什么”？ 今天就和大家聊聊茅台系列酒 首先，请大家问自己一个问题：同样或相似的价格，你会在这几个选项中选择谁：茅台系列酒、其他名酒厂酱香酒、茅台镇酱香酒？ 我的观点很明确：坚定看好，尤其是以茅台1935为代表的核心单品。我的逻辑并不复杂，从小到大，从“消费抉择”到“产品本身”，再到“宏观趋势”，这是一个相互印证的过程。 一、 消费抉择：300-800元…",
+      "key_points": [
+        "茅台系列酒有望稳步上行，我个人是坚定看好",
+        "茅台的这几个月像过了几年。26年开始，茅台有了一系列的新举措，市场的关注度极高，声音也很多。前几天我有帖子说我看好系列酒，有球友留言或私信问“为什么”",
+        "可能都会选择后者。因为在这个价格区间及以上的消费中，是有试错成本的，消费者会担心“开盲盒”。白酒香型众多、品质参差不齐，而茅台系列酒品牌背书强、价格带清晰。在同…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么说在比亚迪二代刀片电池和闪充系统组合面前，换电模式不堪一击？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7237935921/379869441",
+      "published": "Wed, 18 Mar 2026 09:50:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CTB",
+        "GT",
+        "http",
+        "iphone",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "为什么说在比亚迪二代刀片电池和闪充系统组合面前，换电模式不堪一击？ 3月5日晚，比亚迪颠覆性技术发布会在龙岗大运中心如期发布，树哥去了现场，看到标题有些不敢相信，二代刀片电池和闪充技术可以被冠以颠覆性技术，随着王传福总裁亲自上场，告别上物理课的方法开发布会，继而用用户可以听得懂的语言，“充电时长”，来解释二代刀片电池和闪充技术时，树哥当天就彻底明白了，这就是比亚迪憋了整整一年的大招，而且是对燃油车致命的一击，更是对增程式毁灭性的打击，更别说是对换电模式系统性的领先了！ 资本市场对此先是惊愕、继而醒悟、转而开始追捧，…",
+      "key_points": [
+        "为什么说在比亚迪二代刀片电池和闪充系统组合面前，换电模式不堪一击",
+        "比亚迪颠覆性技术发布会在龙岗大运中心如期发布，树哥去了现场，看到标题有些不敢相信，二代刀片电池和闪充技术可以被冠以颠覆性技术，随着王传福总裁亲自上场，告别上物理…",
+        "三、一个汽车设计工程的基本事实：车电分离（换电模式）对于汽车底盘的设计提出了更高的要求，更别说和车身一体化来进行强度对比了！更何况多了一层电池模组的顶板和电池模…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想240 碳纤维会完全取代玻璃纤维吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/379882571",
+      "published": "Wed, 18 Mar 2026 09:50:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "MPa",
+        "PAN",
+        "SYT80",
+        "T1200",
+        "xueqiu.com"
+      ],
+      "summary": "近期市场上耀眼的“星”里，有一批来自于碳纤维。 原因是2026年3月，我国成功实现了SYT80（T1200级）超高强度碳纤维的量产。其拉伸强度突破了 8000 MPa，是目前全球首款实现工程化量产的顶级产品。相关标的逆势上涨。 从性能上讲，碳纤维是全面碾压玻璃纤维的，它更轻，更强，刚性更高，寿命更长。之前碳纤维没有广泛使用的主要原因有三，成本高、生产效率低和回收难。 成本是从原料到成品全链条的贵，而且能耗巨大，品控较难，基本上一个温控点出问题，整披就不能用。 回收也是难点，因为使用了热固性树脂，成型之后没办法再熔化…",
+      "key_points": [
+        "碳纤维是全面碾压玻璃纤维的，它更轻，更强，刚性更高，寿命更长。之前碳纤维没有广泛使用的主要原因有三，成本高、生产效率低和回收难",
+        "随着风机越来越大，叶片也越来越长。若用全玻纤，叶片重量会因追求刚度而指数级增加，导致机舱载荷过载。使用碳纤维主梁可减轻叶片重量20-30%；但也不能完全使用碳纤…",
+        "我国成功实现了SYT80（T1200级）超高强度碳纤维的量产。其拉伸强度突破了 8000 MPa，是目前全球首款实现工程化量产的顶级产品。相关标的逆势上涨"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么石油上涨，中国不会发生滞胀？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/379869521",
+      "published": "Wed, 18 Mar 2026 09:50:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPI",
+        "GDP",
+        "PPI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "随着石油价格大涨，市场普遍在担忧滞胀。 有这种担心很正常，因为这让人联想到70年代。 不过，咱们也不要忽视了，虽然70年代，大部分国家都被滞胀笼罩，但 依然有少数国家没有发生滞胀。 那么这些国家都发生了什么？中国跟他们有什么相似点吗？ 我可以先上结论： 油价上涨反而有利于中国弯道超车。 一、高油价如何导致滞胀？ 我们首先要搞清楚高油价是如何引发滞胀的。 石油是一种刚需品，当刚需品涨价时，大家想想会发生什么？ 我们假设一个家庭的月均收入是1万元，每月花在柴米油盐上的支出是3000元。 那么这个家庭就有7000元的结余…",
+      "key_points": [
+        "没必要过度担心中国会发生滞胀",
+        "咱们也不要忽视了，虽然70年代，大部分国家都被滞胀笼罩，但 依然有少数国家没有发生滞胀",
+        "就会发现，中石油对油价的波动不如海外石油企业敏感，因为中石油作为国企， 需要保障国内民生，而不是一味的看重利润"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "1.2 万字拆解 NotebookLM：如何用 AI打造你的知识树？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6358211.html",
+      "published": "Wed, 18 Mar 2026 08:50:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "NotebookLM",
+        "AI",
+        "PPT",
+        "Google",
+        "PDF",
+        "YouTube"
+      ],
+      "summary": "Google的NotebookLM正在重新定义AI助手的边界。这款研究工具通过RAG技术构建专属知识库，不仅能将多模态资料转化为思维导图和PPT，还能一键生成播客级音频和结构化视频。从技术解析到场景应用，本文将带你深度体验这款AI搭档如何改变知识工作者的信息处理方式。 今天和大家分享的是我最近正在深度使用的产品——Google 旗下的 NotebookLM。希望你能从这篇产品体验分析中有所收获。如果你觉得这篇文章有价值，欢迎分享给你的朋友！ NotebookLM 产品简介 NotebookLM 是 Google 推…",
+      "key_points": [
+        "这也是我认为 NotebookLM 最有价值的地方： 它不是单纯帮你“更快读完资料”，而是在慢慢变成你的知识树。每一个笔记本都对应着一个你正在研究和学习的主题，…",
+        "NotebookLM 最大的价值，是帮助我们逐步建立起属于自己的 知识树 。为什么它会以“笔记本”的形式作为资料载体？因为一个笔记本本质上就代表着一个主题、一个…",
+        "AI 音频生成：让知识自动变成节目 NotebookLM 提供了一个我第一次使用就立即喜欢上了的功能—— 音频概览（Audio Overview） 。用户只需要…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "笑疯全网的AI短剧！雪山救狐狸后，结果酱板鸭来寻仇了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6358685.html",
+      "published": "Wed, 18 Mar 2026 07:45:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "IP",
+        "CC0",
+        "DNA",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "\"你可曾在雪山救过一只狐狸？\"\"你是那只狐狸？\"\"不，我是那只被你抛弃的酱板鸭。\"当这句台词血洗全网，没人想到一只\"复仇酱板鸭\"会成为2026年开年的流量核武器，更没人想到AI短剧正在重写品牌营销的底层逻辑。 家人们谁懂啊！ 最近，一只 “复仇酱板鸭” ，把网友都逼疯了！ “你可曾在雪山救过一只狐狸？” “你是那只狐狸？” “不，我是那只被你抛弃的酱板鸭。” 没有明星加持、没有专业宣发、没有制作团队操刀，一部AI生成的“邵氏武侠风”短剧《雪山救狐狸》，病毒式席卷抖音、B站、小红书…… 更离谱的是，@川娃酱板鸭 官方…",
+      "key_points": [
+        "“你可曾在雪山救过一只狐狸？” “你是那只狐狸？” “不，我是那只被你抛弃的酱板鸭。” 没有明星加持、没有专业宣发、没有制作团队操刀，一部AI生成的“邵氏武侠风…",
+        "\"你可曾在雪山救过一只狐狸？\"\"你是那只狐狸？\"\"不，我是那只被你抛弃的酱板鸭。\"当这句台词血洗全网，没人想到一只\"复仇酱板鸭\"会成为2026年开年的流量核武器…",
+        "观众满脑子都是狐狸变美女的期待。结果镜头一转，站在面前的竟是那只在雪山冻了一冬的酱板鸭！它成精了，它黑化了，它要复仇了"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "别追AGI了，这波AI浪潮的核心是流程革命",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6358682.html",
+      "published": "Wed, 18 Mar 2026 07:37:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AGI",
+        "Agent",
+        "GPT-4",
+        "ChatGPT",
+        "GPT-4o"
+      ],
+      "summary": "从福特流水线到电力自动化，再到互联网重构商业，人类每一次技术革命的本质都是流程革命。这轮AI浪潮的真正红利，不在遥不可及的通用人工智能，而在你我身边那些低效的、重复的、可以被重构的流程痛点里。 最近半年跑了十几场AI行业论坛，从北京的中关村到杭州的未来科技城，台上的嘉宾张口闭口都是AGI、超级智能、自主Agent，仿佛再过两年我们就要踏入科幻电影里的通用人工智能时代。 但转头我问身边真正在做业务、靠AI赚到钱的创业者和企业负责人：你们今年最有价值的AI落地项目，到底是什么？十有八九的答案，都和AGI没什么关系，甚至…",
+      "key_points": [
+        "从卷大模型参数到卷多模态能力，从卷通用Agent到卷具身智能，这轮AI浪潮真正能落地、能创造价值、能改变商业和个体命运的核心，并不是遥不可及的通用人工智能，而是…",
+        "再到互联网重构商业，人类每一次技术革命的本质都是流程革命。这轮AI浪潮的真正红利，不在遥不可及的通用人工智能，而在你我身边那些低效的、重复的、可以被重构的流程痛…",
+        "都是流程革命 其实不止是AI，人类历史上每一次真正改变世界的技术革命，本质上都是流程革命。技术本身只是工具，只有当它重构了整个行业的运行流程，才能真正释放出巨大…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "短剧行业洗牌：半个月写完剧本，3000元拍完",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6358681.html",
+      "published": "Wed, 18 Mar 2026 07:35:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Token",
+        "Unsplash"
+      ],
+      "summary": "2026年开春，头部平台暂停真人项目、取消保底分账，横店群演无戏可拍，30%中小作坊面临清退。然而AI短剧编剧却成香饽饽，半个月炮制一部剧本，3000元就能拍完一部短剧。短剧用2年走完长剧数十年路，却险些被AI更快取代——这场生死洗牌中，从业者正站在十字路口等待风暴过去。 你还看短剧吗？ 三月初，“红果短剧停了很多真人短剧项目”的话题登上一度登上热搜。据多方消息，暂停的项目多为真人微短剧，此外还取消对制作方的保底分账承诺，甚至一度暂停了剧本的接收。 随着AI技术提升，不少短剧平台也开始采用AI技术，用更低的成本获取…",
+      "key_points": [
+        "头部平台暂停真人项目、取消保底分账，横店群演无戏可拍，30%中小作坊面临清退。然而AI短剧编剧却成香饽饽，半个月炮制一部剧本，3000元就能拍完一部短剧。短剧用…",
+        "红果的调整早有信号：今年一月，剧本审核突然变慢、保底政策暂停时，他就隐约预感“行业要变天”。当平台正式开放AI伪真人剧剧本投稿通道后，他才更加确定——短剧行业的…",
+        "短剧行业高度依赖红果这类头部平台，生存模式简单而固定：平台提供剧本库，承制方投递拍摄方案、承接项目，平台支付保底补贴，而这笔保底补贴，正是众多中小承制公司的核心…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenClaw爆火背后：产品经理的工作方式正在被重新定义",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6358569.html",
+      "published": "Wed, 18 Mar 2026 07:10:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OpenClaw",
+        "Agent",
+        "PM",
+        "GitHub",
+        "AutoGPT"
+      ],
+      "summary": "OpenClaw的30.8万GitHub星标背后，是AI从“顾问”到“执行者”的革命性跨越。这款能直接操作电脑完成实际任务的AI工具，正在重新定义人机协作的边界。本文深度解析OpenClaw如何改变产品经理的工作范式，以及AI Agent时代即将引发的行业巨变。 2026年3月，一个开源项目在GitHub上收获了30.8万星标。这个数字意味着什么？意味着AI行业正在经历一场静悄悄的革命。 01 从”聊天”到”干活”：OpenClaw到底改变了什么？ 说实话，第一次看到OpenClaw的演示视频时，我的反应是：这不就…",
+      "key_points": [
+        "OpenClaw的30.8万GitHub星标背后，是AI从“顾问”到“执行者”的革命性跨越。这款能直接操作电脑完成实际任务的AI工具，正在重新定义人机协作的边界…",
+        "第一层变化：执行层工作的自动化 需求文档撰写、数据分析、竞品调研、原型绘制——这些曾经占据产品经理大量时间的”体力活”，正在被AI接管",
+        "03 产品经理的工作会被取代吗"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“日本最强AI”塌房了！扒开代码全是DeepSeek，日本网友集体破防",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E6%97%A5%E6%9C%AC%E6%9C%80%E5%BC%BAAI%E2%80%9D%E5%A1%8C%E6%88%BF%E4%BA%86%EF%BC%81%E6%89%92%E5%BC%80%E4%BB%A3%E7%A0%81%E5%85%A8%E6%98%AFDeepSeek%EF%BC%8C%E6%97%A5%E6%9C%AC%E7%BD%91%E5%8F%8B%E9%9B%86%E4%BD%93%E7%A0%B4%E9%98%B2",
+      "published": "Wed, 18 Mar 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DeepSeek",
+        "AI",
+        "Rakuten",
+        "Apache",
+        "ABEJA",
+        "Cai"
+      ],
+      "summary": "作者 | 明日产品的 来源 | APPSO（ID：appsolution） “终于到日本用中国 AI 来冒充日本产 AI 的时代了。” 最近这件事在日本的 X 讨论炸了，起因是昨天 日本一家科技公司乐天集团（Rakuten）在日本经济产业省（METI）的 GENIAC 项目（日本 AI 政府资助项目）支持下，高调发布了号称 “日本最大、性能最强” 的 7000 亿参数大模型 Rakuten AI 3.0。 但发布后不久， 开源社区就迅速扒出，该模型的底层架构实际上是来自我们的 DeepSeek-V3，乐天仅仅是做了…",
+      "key_points": [
+        "作者 | 明日产品的 来源 | APPSO（ID：appsolution） “终于到日本用中国 AI 来冒充日本产 AI 的时代了。” 最近这件事在日本的 X…",
+        "在 Hugging Face 上能看到项目文件的提交历史，显示修改 日本网友纷纷表示，“这让人无法接受”，拿着日本政府补贴，竟然只是微调了一波中国的 DeepS…",
+        "Ting Cai 这名字一听就不像是日本当地人，有日本网友在评论区说，用 DeepSeek 很过分，更过分的是，主导这个模型的大老板， 是个彻头彻尾的移民强硬派"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我身上有条竖向线的痛，三年来看遍心内科、呼吸科、骨科……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E8%BA%AB%E4%B8%8A%E6%9C%89%E6%9D%A1%E7%AB%96%E5%90%91%E7%BA%BF%E7%9A%84%E7%97%9B%EF%BC%8C%E4%B8%89%E5%B9%B4%E6%9D%A5%E7%9C%8B%E9%81%8D%E5%BF%83%E5%86%85%E7%A7%91%E3%80%81%E5%91%BC%E5%90%B8%E7%A7%91%E3%80%81%E9%AA%A8%E7%A7%91%E2%80%A6%E2%80%A6",
+      "published": "Wed, 18 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "mg",
+        "Adam",
+        "CT",
+        "mayoclinic.org"
+      ],
+      "summary": "我看过一张疼痛分级表，1～3级为轻度疼痛，4～6级为中度疼痛，7～10级为重度疼痛，描述疼痛性质的词语有酸痛、咬噬、麻刺痛、绞痛、刀割样痛、搏动性疼痛等等。 三年来我左胸附近位置疼痛，最严重时一晚疼醒好几次。 这种痛法，怎么都算得上中度以上了。 我去各个科室看医生，也跟AI深入交流，又上各种医疗App线上问询，人体结构获悉了不少，医学知识增加了许多，还学到了一个词——压榨痛。整个过程让我深深感受到职场“牛马”的苦楚，然后像福尔摩斯一样抽丝剥茧，探寻痛的根源，没想到最后是在一个医疗App上解决了大问题。 一条竖向线的…",
+      "key_points": [
+        "一条竖向线的痛 让我无数个夜晚被痛醒 看到以上这个拗口讲法，大家可能就会对我身上这种疼痛的细微偏执、难以捉摸、难以描述有个大概了解了",
+        "我担心是心脏病之类的问题，当这些症状发展到痛醒我的时候，我也去医院看过。在心内科检查，没给出具体诊断，只是排除了心脏方面的危险因素。去呼吸科检查，也排除了大问题…",
+        "一场与未来医生App的深度对话 让我看到希望 我在AI上查询自己的症状，聊了一个多小时。AI根据我的描述给出了一个提示，怀疑我这三年来的症状是因为胸椎问题，然后…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么懂穿搭的人，今年都盯上了这条“神裤”？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%87%82%E7%A9%BF%E6%90%AD%E7%9A%84%E4%BA%BA%EF%BC%8C%E4%BB%8A%E5%B9%B4%E9%83%BD%E7%9B%AF%E4%B8%8A%E4%BA%86%E8%BF%99%E6%9D%A1%E2%80%9C%E7%A5%9E%E8%A3%A4%E2%80%9D%EF%BC%9F",
+      "published": "Wed, 18 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Schenvega--",
+        "SCWJ",
+        "Schenvega",
+        "buff",
+        "dc_ps",
+        "End"
+      ],
+      "summary": "如果说有什么单品能在舒适与时尚之间平衡？那 工装裤一定榜上有名 ！ 从秀场到街头，从欧美酷飒风到韩系简约风~工装裤已经成为 时尚圈的标配单品 。 无论是明星、博主还是素人，都热衷于用它来凹造型。 松垮有个性、修饰全身比例 ，显高显瘦的同时，还能让你成为 行走的衣架子，气场全开 。 不仅好穿还特别实用好打理，不挑风格穿搭，随便套上就能出门。 这不，选品同事就搞来了这条 斯辰唯佳SCWJ男女款硬核工装裤 ，超神秘地表示这可是条“很厉害的神裤”。 👇戳图立马抢👇 既能， 防泼水！防风！防污！ 多项buff叠满！ 一年四季…",
+      "key_points": [
+        "选品同事就搞来了这条 斯辰唯佳SCWJ男女款硬核工装裤 ，超神秘地表示这可是条“很厉害的神裤”",
+        "不挑风格穿搭，随便套上就能出门"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "冻干草莓查出镉超标，到底有多可怕？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%86%BB%E5%B9%B2%E8%8D%89%E8%8E%93%E6%9F%A5%E5%87%BA%E9%95%89%E8%B6%85%E6%A0%87%EF%BC%8C%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E5%8F%AF%E6%80%95%EF%BC%9F",
+      "published": "Wed, 18 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "kg",
+        "mg",
+        "IARC",
+        "Cd",
+        "CO",
+        "GB"
+      ],
+      "summary": "太长不看 冻干草莓查出镉超标，到底有多可怕？ 图源：图虫创意 新京报曝光一批冻干草莓镉含量0.728mg/kg，按照失水率折算，原料草莓很可能镉超标了 镉是世卫组织认定的一类致癌物，半衰期长达10-30年，主要伤肾和骨骼 但偶尔吃几次问题不大，真正该担心的是长期、大量摄入 买冻干水果零食，有条件的选有机认证，选靠谱渠道 3月13日新京报发了一篇深度调查，福建漳州一家食品公司自检发现，自家的加糖冻干草莓重金属镉含量高达0.728mg/kg，同时还检出了20多种超范围使用的农药残留。公司负责人把上游供货商举报到市监局，…",
+      "key_points": [
+        "图源：图虫创意 新京报曝光一批冻干草莓镉含量0.728mg/kg，按照失水率折算，原料草莓很可能镉超标了 镉是世卫组织认定的一类致癌物，半衰期长达10-30年，…",
+        "我国现行的GB 2762-2022《食品中污染物限量》标准里，虽然没有明确给出水果干的镉限量，但给出了新鲜水果的镉限量为0.05mg/kg，并在“应用原则”中明…",
+        "如果按这批问题冻干草莓的0.728mg/kg来算，一个月要吃超过2公斤的这种冻干草莓才会达到耐受上限 图源：图虫创意 考虑到镉的半衰期极长，日常饮食中大米、蔬菜…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "20世纪的喜剧之王，我认为是他",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+20%E4%B8%96%E7%BA%AA%E7%9A%84%E5%96%9C%E5%89%A7%E4%B9%8B%E7%8E%8B%EF%BC%8C%E6%88%91%E8%AE%A4%E4%B8%BA%E6%98%AF%E4%BB%96",
+      "published": "Wed, 18 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Bellboy",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "RCA",
+        "ruike"
+      ],
+      "summary": "文 ruike 可能很多人不会留印，最近杰 里 ·刘易 斯迎来了他 的百岁诞辰 。 杰 里 ·刘易 斯 他是谁？美国的喜剧之王。 杰里 ·刘易斯 出生于 1926年3月16日，原名杰罗姆·莱维奇。他的父亲是一名歌舞杂耍演员，母亲则是电台钢琴师和音乐指导。这种背景使他从小就浸淫在波希带的犹太度假村喜剧文化中，这种文化强调与观众的直接互动、即兴的包袱以及高强度的体力表演。 在刘易斯正式成名之前，他最为著名的早期作品是所谓的记录表演或木偶表演。在这类表演中，他会播放当时流行的歌剧或流行歌星的录音，并配以极度夸张、扭曲的肢…",
+      "key_points": [
+        "杰 里 ·刘易 斯 他是谁？美国的喜剧之王",
+        "《喜剧之 王》 这个角色不仅是刘易斯真实生活境遇的缩影，更是他对自己职业生涯的一次深刻总结：一个在公众面前永远需要制造笑声的人，在私底下却是一个孤独、暴躁、无法…",
+        "刘易斯在马丁·斯科塞斯的《喜剧之王》中饰演了一个精疲力竭、被疯狂粉丝绑架的脱口秀主持人。这次表演一改他往常的夸张风格，展现了一种冰冷、严肃甚至有些残忍的真实感"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "青年创作者的关键通路，怎么打通？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%9D%92%E5%B9%B4%E5%88%9B%E4%BD%9C%E8%80%85%E7%9A%84%E5%85%B3%E9%94%AE%E9%80%9A%E8%B7%AF%EF%BC%8C%E6%80%8E%E4%B9%88%E6%89%93%E9%80%9A%EF%BC%9F",
+      "published": "Wed, 18 Mar 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "END",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "与山水邂逅 古往今来，三峡在无数文人墨客笔下，各有风姿。 江水蜿蜒，群山叠翠，万千气象，自成画卷。 - 而在我们看来，这样一片山水，不该只是被远眺的风景。 更应该是被讲述的故事发生地。 于是，有了 「三峡光合青年影像周」 。 三峡光合青年影像周主视觉 它源自 正午阳光的“光合”影视人才扶持计划 。两届期间，我们看着一批又一批年轻人在这里发芽——有人第一次被看见，有人第一次被需要，有人带着故事走向更远的地方。 今年，这颗光影种子将在宜昌落地生根，孕育更多新锐力量，让这座城市成为滋养青年创作者的沃土。 我们为这场相遇写…",
+      "key_points": [
+        "这颗光影种子将在宜昌落地生根，孕育更多新锐力量，让这座城市成为滋养青年创作者的沃土",
+        "缺少的是从「表达欲望」到「作品」、从「作品」到「市场」的关键通路",
+        "-在江边看一场露天电影- 和天南地北的创作者坐在一起，晚风吹过来，江水在身后响。那一刻你会明白，创作的意义不只是表达，是相遇"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国蘸料地理，谁才是真正的就菜神器？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%98%B8%E6%96%99%E5%9C%B0%E7%90%86%EF%BC%8C%E8%B0%81%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%B0%B1%E8%8F%9C%E7%A5%9E%E5%99%A8%EF%BC%9F",
+      "published": "Wed, 18 Mar 2026 17:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VS",
+        "Plus",
+        "xi-xia"
+      ],
+      "summary": "中国被认为是当今世界上为数不多、 拥有完整饮食体系与深厚文化底蕴的国度之一。 在独特自然与人文地理的共同作用下， 各地孕育出风格迥异的饮食风貌。 即便是 小小一碟蘸料 ， 也因南北风土之异， 演化出诸多“门派”： 各有配方，各具风味，各有拥趸。 今天，不妨就让我们循着蘸碟的香气， 去探访这片土地上那些藏在碗边的、地域之味。 北方麻酱 北方人对麻酱的痴迷，是外地人难以理解的。作家汪曾祺曾回忆，老舍先生当年提交过一份政协提案——为北京市民申请充足的芝麻酱供应。在很多北京人眼里，这一口，不可或缺。 这份执念，其实遍布整个…",
+      "key_points": [
+        "时间：2025-10-30 07:29 来源：河南日报 [8]中国蘸料分五派，你家乡里的是哪派？中国国家地理，2020.9.11",
+        "这里的人守着“鲜”的源头：太湖的三白、阳澄湖的蟹、东海来的鱼虾、滩涂上的贝类。面对这样的食材，任何浓烈的蘸料都是冒犯——清蒸、白灼才是最高礼遇，蘸料只需默默托底…",
+        "断然容不下“只剩麻酱味”的蘸碟。在他们看来，一碟麻酱只会掩盖食材本身的百般滋味。而真正的标配，是 油碟与干碟 ——一对分工明确的“黄金搭档”"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "貉假虎威",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%B2%89%E5%81%87%E8%99%8E%E5%A8%81",
+      "published": "Wed, 18 Mar 2026 12:46:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "beta",
+        "Midjourney",
+        "AI",
+        "ar",
+        "arms",
+        "Bitsea"
+      ],
+      "summary": "这是我今天看到的所有帖子中最喜欢的一条新闻（旧闻？），也许是 2026 年到现在我最喜欢的一条新闻： 上海一处小区有貉为患，居民苦不堪言。 貉，hé，一丘之貉的貉。据说这些年来，在长江中下游地区，貉发展得相当不错，大摇大摆进入居民小区是常见现象。居民求助专家，专家想出了一个绝妙且符合动保精神的方案--- 去动物园求取一些虎狼的尿液和粪便，倾倒在小区周围。原定计划是貉一旦嗅到猛兽的味道，生物本能就会让它们望风而逃，于是不战而屈人之兵，把小区标记为猛兽地盘，貉今后就不敢再次进犯。 新闻里说，人们观察到一只貉，它刚进入小…",
+      "key_points": [
+        "实在是太好的一件作品，每一个环节都充满了魔幻气息。首先是上海闹貉，单凭这一点，就让广州深圳的美洲大蠊黯然失色。然后是神秘的专家提出的解决方案，也不是一般人能想出…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“最重要的知识分子”去世了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90%E2%80%9D%E5%8E%BB%E4%B8%96%E4%BA%86",
+      "published": "Wed, 18 Mar 2026 10:40:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "be",
+        "to",
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "3.18 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 哈贝马斯在2014年的一次演讲中出示护照，以此证明自己是欧盟公民。 图源：Wikipedia 内容｜ 许纪霖 编辑｜李想俣 ‍ ● ● ● 哈贝马斯去世，最近这两天我也被连续刷屏。他是一个现象级的人物，在我看来，他的去世是当代世界思想界的一件大事。哈贝马斯在世时，可能是当时在世的最重要的公共知识分子之一，也是最重要的哲学家，影响巨大。他3月14号去世后，我看到无论是思想界还是主流媒体，都有报道。很多朋友也很关心，读过他的书，研究过他的思想。 01…",
+      "key_points": [
+        "图源：Wikipedia 内容｜ 许纪霖 编辑｜李想俣 ‍ ● ● ● 哈贝马斯去世，最近这两天我也被连续刷屏。他是一个现象级的人物，在我看来，他的去世是当代世…",
+        "哈贝马斯非常敏锐。我想这就和他做过记者有关。他对国际思想界，对国际大事，都有非常敏锐的判断，比如911事件。16日晚上上课时，我还提到哈贝马斯当时在法兰克福书展…",
+        "哈贝马斯一生最重要的使命，就是怎么来守护启蒙、发展启蒙。按照康德的说法，启蒙是有勇气公开运用自己的理性。但这个理性到了二战以后就受到了挑战，理性变成了所谓的神话…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "过年饭桌上总说「喝红酒软化血管」，这是真的吗？有科学依据吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788110",
+      "published": "Sun, 15 Mar 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "黄河边儿， 科学和教育领域答主 查看知乎原文 饭桌上不光会说「喝红酒软化血管」，还会听到「喝红酒帮助睡眠」。 不管是“喝红酒软化血管”还是喝红酒帮助睡眠，是非常片面的，把红酒严重美化的说法。 我们先看看美化红酒之软化血管功效。 先说这个所谓的“红酒软化血管”是怎么来的。 早期，有一些观察性研究，就是长期跟踪人群的生活方式和健康，然后发现， 适量饮用红酒，与较低的冠心病风险相关 ，于是就逐渐有了喝红酒保护心脏的说法。 后来，有一些小型试验发现，红酒中的多酚可以略微提高 高密度脂蛋白胆固醇 （ 好胆固醇） ，短期内改善…",
+      "key_points": [
+        "科学和教育领域答主 饭桌上不光会说「喝红酒软化血管」，还会听到「喝红酒帮助睡眠」",
+        "不管是“喝红酒软化血管”还是喝红酒帮助睡眠，是非常片面的，把红酒严重美化的说法",
+        "有一些小型试验发现，红酒中的多酚可以略微提高 高密度脂蛋白胆固醇 （ 好胆固醇） ，短期内改善血管内皮的舒张能力，看上去像是喝红酒在软化血管"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-19",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 106 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/106",
+      "published": "Mon, 27 Jan 2025 08:07:40 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "summary": "本期共有 42 个项目，包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (2)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (2)，人工智能 (4)，其它 (6)，开源书籍 (2)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "platform": "ezindie",
+      "source": "ezindie",
+      "source_url": "https://www.ezindie.com/feed/rss.xml",
+      "title": "独立开发变现周刊（第150期） : 通过4个SaaS赚取40万欧元",
+      "title_zh": null,
+      "url": "https://www.ezindie.com/weekly/issue-150",
+      "published": "Fri, 20 Sep 2024 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SaaS"
+      ],
+      "summary": "分享独立开发产品变现相关有价值的内容，每周五发布。通过4个SaaS赚取40万欧元",
+      "key_points": [
+        "每周五发布。通过4个SaaS赚取40万欧元"
+      ]
+    }
+  ]
+}
