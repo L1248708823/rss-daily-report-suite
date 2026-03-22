@@ -1,0 +1,859 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-03-22T01:00:05.177349+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 163,
+    "fresh_candidates": 61,
+    "backfill_candidates": 102,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-22",
+      "fetched_at": "2026-03-22T01:00:04.867974+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3957.05,
+          "change": -49.5,
+          "change_pct": -1.24,
+          "volume": 666798387.0,
+          "amount": 96486311.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4496.98,
+          "change": -153.35000000000036,
+          "change_pct": -3.3,
+          "prev_close": 4650.33,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-21 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 997.9136000128602,
+          "change": -34.02951548861063,
+          "change_pct": -3.297615438044184,
+          "prev_close": 1031.9431155014709,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-21 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-22",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "那些嘲笑慢慢变富的人，最终往往快速变穷",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%82%A3%E4%BA%9B%E5%98%B2%E7%AC%91%E6%85%A2%E6%85%A2%E5%8F%98%E5%AF%8C%E7%9A%84%E4%BA%BA%EF%BC%8C%E6%9C%80%E7%BB%88%E5%BE%80%E5%BE%80%E5%BF%AB%E9%80%9F%E5%8F%98%E7%A9%B7",
+      "published": "Sat, 21 Mar 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "P2P"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：懒人养基 来源：雪球 投资圈里有句老话：“慢慢变富”。这四个字听起来既不刺激也不性感，甚至带着几分“佛系”的消极意味。于是，总有人对此嗤之以鼻：年轻人不愿等，中年人嫌太慢，老年人觉得来不及。 他们追逐风口、渴望暴富、迷信捷径，却在一次次“快进”中，把本金亏成了学费。 01 “慢”是规律，“快”是妄念 财富积累的本质，是价值创造与时间复利的共振。巴菲特99%的财富是在50岁后赚到的，并非他…",
+      "key_points": [
+        "贫困是短视的代价 “快速变穷”与“慢慢变富”之间的差异，本质上是认知框架与时间观念的差异。财富不仅仅是银行账户上的数字，更是一个人认知能力、情绪管理和时间洞察力…",
+        "从炒鞋到元宇宙地产，股市中永远追逐最热门的个股或行业……每一轮“财富风口”都吸引了大批渴望快速致富的人。然而，多数参与者入场时已是热潮后期，最终成为“接盘侠”",
+        "懒人养基 来源：雪球 投资圈里有句老话：“慢慢变富”。这四个字听起来既不刺激也不性感，甚至带着几分“佛系”的消极意味。于是，总有人对此嗤之以鼻：年轻人不愿等，中…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "国内银行在加息周期下的不同处境",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7432188731/380484795",
+      "published": "Sat, 21 Mar 2026 13:08:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CASA",
+        "CBD",
+        "Core",
+        "EPV",
+        "http",
+        "lt"
+      ],
+      "summary": "本人账户持有 $招商银行(SH600036)$ ， $杭州银行(SH600926)$ ， $成都银行(SH601838)$ ，和苏州银行。首先我认为中国的银行普遍被低估，但具体落实到每家银行还是有很大的区别，因为每家的业务结构不一样。介于当前原油价格居高不下，美联储延缓降息，甚至未来可能会出现全球的加息周期，所以有必要研究下国内的银行在加息周期下的业务表现。 粗糙的卖方研报总是机械地外推：“加息 = 净息差扩大 = 银行躺赚”。这种线性思维简直是白给。加息对银行绝不是无脑利好，而是一场极其残酷的 资 产负债表底牌大…",
+      "key_points": [
+        "， ，和苏州银行。首先我认为中国的银行普遍被低估，但具体落实到每家银行还是有很大的区别，因为每家的业务结构不一样。介于当前原油价格居高不下，美联储延缓降息，甚至…",
+        "邮储银行 这种“低存贷比”结构在降息周期吃暗亏（同业资金收益率暴跌），但在加息周期就是王炸。加息一旦启动，同业和货币市场的利率会瞬间飙升，邮储资产端这部分庞大的…",
+        "债券浮亏会把表面的高ROE打回原形。反过来说，如果中国任然处于降息周期，杭州银行会继续受益于债券投资，并且不断的调低拨备率来释放利润"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "生猪产能调控力度加强",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/380486620",
+      "published": "Sat, 21 Mar 2026 13:07:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ002714",
+        "SZ300498",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今年“一号文件”首次提出生猪产能综合调控，进入3月，有关部门已经两次组织头部企业，推动生猪产能调控。总体来看，这两次会议都是对之前要求的强化和再要求，后期主要观察这些加强的措施能否落实。 一、3650万能繁母猪 自六部委2009年发布《防止生猪价格过度下跌调控预案（暂行）》，对我国生猪产能进行调控以来，能繁母猪一直是调控的核心指标。2009年《调控预案》规定了：能繁母猪存栏不低于4100万头。注意这里4100万是最低值不是合理值。 2012年，六部委发布了《缓解生猪市场价格周期性波动调控预案》，这份《调控预案》并没…",
+      "key_points": [
+        "今年“一号文件”首次提出生猪产能综合调控，进入3月，有关部门已经两次组织头部企业，推动生猪产能调控。总体来看，这两次会议都是对之前要求的强化和再要求，后期主要观…",
+        "农业农村部发布《生猪产能调控实施方案（2024年修订）》，对能繁母猪的要求是：能繁母猪正常保有量稳定在3900万头左右。这次则只规定了正常值，比2021年下降了…",
+        "农业农村部发布了《生猪产能调控实施方案（暂行）》，对能繁母猪的要求是：能繁母猪正常保有量稳定在4100万头左右，最低保有量不低于3700万头。其中最低保有量比2…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "最近下跌的思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1515879647/380479677",
+      "published": "Sat, 21 Mar 2026 13:06:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "etf",
+        "gdp",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "我上午一直在想我在股市能赚什么钱，这些钱是从哪里来的，这个钱是否是稳定的，有什么风险。 1.分红的钱，这个是实实在在的，持有的公司盈利了会分红，拿我持有的股票来说吧，分众欧派股息率在4-5%。还有红利etf也是直接分红的。另一部分是间接的，etf持有的公司分红，但是它并不分给etf持有人，分红会增加etf净值，大多数行业etf都不分红，这里面中概医疗持有公司股息率在1-1.5%，券商大概2-3%，基金虽然不分红，但是净值会跟随慢慢提高。这部分只要公司和行业的盈利根基没问题，虽然利润有波动，但是长期来说会有持续性。这…",
+      "key_points": [
+        "可以预期5-10%，经过这几年的检验，股价上涨非常困难，大部分持有公司股价都是原地踏步，甚至下跌，我买的公司利润也是原地踏步，这也是这轮牛市股价没涨的原因，买的…",
+        "真没想到，这几年完全靠网格赚钱，我以前预期这块盈利5-10%，这几年下来网格的贡献是大大超预期的，每年10%+，甚至抵消了股价腰斩下跌还略有盈利"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谈腾讯，海油，陕煤，青岛港",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7123126150/380472742",
+      "published": "Sat, 21 Mar 2026 13:05:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "一，腾讯 1，业务:仍然具备持续的核心竞争力。社交，游戏，支付领域的护城河没有被改变。云业务有改善。广告业务有看好也有隐忧。音视频领域因为更加趋向快餐娱乐文化，被侵袭。 2，估值:按照目前41000亿市值。 (1)保守情况下按照2248*16.7+3500=41000亿。3500亿是以公允价值计量且其变动计入其他全面收益的金融资产。2248亿是2025年归母净利润。16.7是市盈率。 (2)中性情况下按照 2500*15+3500=41000亿。因腾讯每个季度的营业收入有环比增速，所以2500亿更能准确反映未来盈利…",
+      "key_points": [
+        "青岛港 1，业务 (1)集装箱业务是中国港口的重要亮点，对于青岛港也是这样。集装箱分部业绩占比提升到40%左右。(2)液体散货大概率还会下滑一点，但很快将见底",
+        "估值 截至3月20日，青岛港港股估值非常低。52.7*5.6+120=415亿市值。52.7亿是2025年快报净利润。120亿是净现金",
+        "陕煤 1，产地（1）榆林（2）优质化工用途（3）动力煤块煤价格的上涨是长期趋势。主要原因是侏罗纪煤田中，最优质的民营产能在逐渐下降，即使煤矿和洗煤厂对于块煤的洗…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么蓝色和绿色会分辨不好？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788443",
+      "published": "Sat, 21 Mar 2026 23:01:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Blue",
+        "cyan",
+        "Tiffany",
+        "wadjet",
+        "CMYK",
+        "blue"
+      ],
+      "summary": "解磊， 格物当澄明似镜，处世可烂漫如诗 查看知乎原文 好问题！ 你问到了一个色彩心理学及语言学中一个非常重要的议题—— 「蓝绿的区分（Blue–green distinction in language）」 。 排除掉色盲、色弱、色觉异常等生理因素之后， 引起蓝绿混淆的最重要的原因，是我们的语言。 而区分蓝绿，对人类文明而言，是一个非常高阶的技能。 相信我，难以区分蓝绿的人绝不止你一个， 很多人其实一直都在混淆蓝绿，只是可能他们自己都不知道。 我举个例子哈，蒂芙尼这个品牌，大家都认识吧。 蒂芙尼蓝（Tiffany…",
+      "key_points": [
+        "斯拉夫语言是一种能将色彩区分的非常明确的语言，俄语中不仅能明确区分蓝色和绿色，甚至还有голубой（可视为浅蓝色）与синий（可视为深蓝色或纯蓝色）这样细致…",
+        "比如埃及，他们用「wadjet」一个词涵盖了蓝色、蓝绿色和绿色所有的颜色。这个「wadjet」同时也是埃及神话中一个女神的名字，它的形象是这样的",
+        "根据墓葬彩绘复原的 wadjet 形象 而希腊语更夸张，从古希腊语到现代希腊语过渡过程中，蓝色和绿色的指代整个发生了颠倒"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有的植物是不是命特别硬，比如牛油果的历任传播者都灭绝了？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788434",
+      "published": "Sat, 21 Mar 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "alligator",
+        "butter",
+        "fashion",
+        "midshipman",
+        "pear"
+      ],
+      "summary": "剁椒鹿， 全网同名，有公号更新精选内容（私信都会看，已婚已育老太婆） 查看知乎原文 你切开牛油果的时候有没有思考过这个问题： 这个巨大无比的核，难道不会把帮忙传播种子的动物噎死？ 或者说，它的传播者有个雷霆大口？ 比如，美洲“象”？（牛油果是一种原产于墨西哥和中美洲的水果。） 但是只听过非洲象，亚洲象，美洲哪来的象呢？其实是有类似的，猛犸象，乳齿象，都灭绝了。 确实，牛油果命很硬，迷信一点的话，你甚至可以说它是“大凶之兆”，因为它的历任动物传播者都灭绝了。 甚至其后的人类传播者：阿兹克特人都惨遭屠族。 甚至在现代还…",
+      "key_points": [
+        "牛油果命很硬，迷信一点的话，你甚至可以说它是“大凶之兆”，因为它的历任动物传播者都灭绝了",
+        "其他的包括当时的乳齿象（不是象科）、猛犸象、雕齿兽等等成吨的巨兽，都有可能是牛油果的传播者",
+        "或者你还可以叫它们：“ 进化幽灵 ” 比如美国皂荚奇大无比但是间隙很大的防御刺，根本防不了鹿，牛油果巨大的核，会噎死它原产地目前所有传播者"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "海豹、海狮、海狗、海象、海牛等海洋哺乳动物会喝海水补水么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788433",
+      "published": "Sat, 21 Mar 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CO",
+        "Cells",
+        "CH",
+        "Chloride",
+        "COOH",
+        "Countercurrent"
+      ],
+      "summary": "祥昊， 也许，我们需要的不是答案 查看知乎原文 曾经有一群走兽， 老祖宗跑到海里，成了海兽。 那么问题来了，海水的盐分浓度约为 3.5%， 像是人类排泄盐的浓度不超过 2% 按照这样换算， 每喝 100g 水， 就需要尿 175g 才能排出多余的盐分， 所以如果你贸然喝海水， 很容易越喝越渴，越渴越喝， 喝了再渴，渴了再喝。 最后肾废人亡，活活渴死。 一般哺乳动物是无法依靠直接喝海水为生的。 于是海兽们一合计，不中啊，这么下去光尿尿都能尿成虚脱。 淡水本身不好搞，那就只能在自身找办法。 直接喝尿不现实， 还好哺乳动…",
+      "key_points": [
+        "一般哺乳动物是无法依靠直接喝海水为生的",
+        "海兽们其实并不需要专门喝海水补充",
+        "还好哺乳动物的肾脏很强大"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "新手小白也能写出好用Skill，保姆级教程和SKill分享",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6360550.html",
+      "published": "Sat, 21 Mar 2026 09:15:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Skill",
+        "SKILL.md",
+        "AI",
+        "description",
+        "gt",
+        "XX"
+      ],
+      "summary": "在AI技能(Skill)泛滥的时代，盲目安装他人开发的技能不仅效率低下，更暗藏安全隐患。本文揭示了一个颠覆性的解决方案：通过访谈式交互自动生成定制化Skill。从精确描述到结构化骨架，从素材收集到输出验证，这套方法让小白也能轻松打造专属AI能力。更重磅的是，作者开源了能自动生成完整Skill包的访谈工具，彻底解决「需求说不清」的核心痛点。 我算是看明白了，不管是玩转 CC 还是龙虾，就目前来说，首先还是自己要有这个 Skill 输出的能力。不知道最近大家有没有化身囤囤鼠，在各个平台看博主的推荐，安装了非常多各种功能…",
+      "key_points": [
+        "今天这里不讲那些更深奥的进阶知识。只分享我自己的一个超级适合小白且好用的写出自己需要的 Skill 的方法",
+        "盲目安装他人开发的技能不仅效率低下，更暗藏安全隐患。本文揭示了一个颠覆性的解决方案：通过访谈式交互自动生成定制化Skill。从精确描述到结构化骨架，从素材收集到…",
+        "Claude Code、OpenAI Codex、OpenClaw 这几个体系里，一个可用 Skill 的最小结构通常都是： skill-name/ └── S…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "全网都在画偏心版十二生肖，这届网友太会“双标”！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6360502.html",
+      "published": "Sat, 21 Mar 2026 08:03:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "intentional",
+        "IP",
+        "BGM",
+        "BJM",
+        "CC0",
+        "MC"
+      ],
+      "summary": "\"鼠牛功夫高，虎兔胆气豪！\"——当这首《十二生肖闯江湖》BGM席卷抖音、小红书，一场\"偏心版十二生肖\"的全民创作狂欢正在上演。从拼豆新手\"技术流偏心\"到intentional设计的\"双标美学\"，网友们把本命属相画得细节拉满、C位坐镇，其他生肖却潦草得像简笔画速成班出品。这种\"演都不演了\"的明目张胆，看似不讲道理，实则是当代年轻人自我认同的直白宣言：在强调谦虚内敛的社会里，终于找到一个无需掩饰的出口，大大方方偏爱自己。 “鼠牛功夫高，虎兔胆气豪！” 你是不是也被这个BJM洗脑了！ 短短一个月，“偏心版十二生肖”横扫抖…",
+      "key_points": [
+        "虎兔胆气豪！\"——当这首《十二生肖闯江湖》BGM席卷抖音、小红书，一场\"偏心版十二生肖\"的全民创作狂欢正在上演。从拼豆新手\"技术流偏心\"到intentional…",
+        "“偏心版十二生肖”横扫抖音、小红书、B站等平台，相关话题播放量轻松破亿，无数网友跟风创作转发。从普通网友到网红博主，从手工达人到非遗匠人，所有人都在参与这场“偏…",
+        "怎么就能引爆全民狂欢？为什么看似双标、不讲理的内容，能成为顶级流量？快来跟随「克劳锐」的视角一起看看吧~ 十二生肖偏心图鉴，一眼看穿作者属相 “偏心版十二生肖”…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Coze（扣子）评测：字节跳动「职场AI」到底值不值得用？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6360488.html",
+      "published": "Sat, 21 Mar 2026 07:30:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Bot",
+        "PPT",
+        "Coze",
+        "Dify",
+        "FastGPT"
+      ],
+      "summary": "最近AI圈有个产品让我挺意外的就是Coze，中文名叫”扣子”。说实话，之前我对这类”零代码搭建AI应用”的平台是有点偏见的——总觉得门槛低的东西都不够专业。但扣子发布之后，我身边不少做运营、做销售、甚至做行政的朋友都在用，说是”零基础也能搭建专属AI助手”。这让我有点好奇：一个没有编程背景的人，真的能快速搭建出靠谱的AI应用吗？抱着这个疑问，我大概花了一周时间深度体验了一下扣子平台。今天就来聊聊这个产品，看看它到底灵不灵。 一、产品定位：不止是开发平台，更是「职场AI」入口 在聊具体功能之前，先说说我对扣子定位的理…",
+      "key_points": [
+        "扣子（Coze）是字节跳动推出的 一站式AI开发平台 ，但它和传统的”开发者工具”不太一样。扣子对自己的定位是” 职场AI “——不只是给程序员用的，更是给各行…",
+        "目前国内AI Agent开发平台竞争激烈，主流产品有： 平台 核心优势 适合场景 扣子（Coze） 零代码、10000+插件、字节内容生态 创意设计、内容创作、…",
+        "字节跳动没有试图在专业功能上与Dify、FastGPT正面竞争，而是在” 降低门槛 “这件事上下足了功夫。零代码、可视化、技能商店——每一个设计都在服务于”让更…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "代码小浣熊测评：商汤这款\"中文编程救星\"到底行不行？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6360482.html",
+      "published": "Sat, 21 Mar 2026 07:13:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Copilot",
+        "AI",
+        "GitHub",
+        "CodeBuddy",
+        "HumanEval",
+        "Java"
+      ],
+      "summary": "最近不少朋友问我，AI编程工具这么多，国内有没有好用的？特别是中文支持好的。之前我试过一些国外的工具，说真的，中文支持都比较一般。后来我发现了代码小浣熊这个产品——商汤出的，专门针对中文场景优化的。说实话，用了之后感觉还挺出乎意料的，特别是在中文注释理解这块儿，确实比那些国外的工具强不少。今天就和大家聊聊这个产品，看看它到底值不值得用。 一、代码小浣熊是什么？ 代码小浣熊是商汤科技基于自研”日日新 SensNova”大模型打造的智能编程助手，定位是开发者的”副驾驶”。它覆盖软件需求分析、架构设计、代码编写、软件测试…",
+      "key_points": [
+        "九、官网和下载地址 项目 链接/信息 官网 xiaohuanxiong.com 代码小浣熊 xiaohuanxiong.com/code IDE插件 支持VS…",
+        "商汤这个名字可能更多人知道的是计算机视觉，但现在他们在AI编程这个赛道也布局得挺深的。代码小浣熊的核心理念是”让中文开发者也能零门槛使用AI编程”",
+        "AI编程工具这么多，国内有没有好用的？特别是中文支持好的。之前我试过一些国外的工具，说真的，中文支持都比较一般。后来我发现了代码小浣熊这个产品——商汤出的，专门…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "ArkClaw 评测：字节跳动的「云养虾」，开箱即用的 AI Agent 体验如何？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6360476.html",
+      "published": "Sat, 21 Mar 2026 07:10:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ArkClaw",
+        "AI",
+        "OpenClaw",
+        "Agent",
+        "Skill",
+        "Coding"
+      ],
+      "summary": "最近AI编程圈有个词特别火——“养虾”。所谓”虾”就是OpenClaw，一个基于终端的AI Agent框架，能通过自然语言理解并执行代码任务。但说实话，原生OpenClaw的配置过程堪称”噩梦”——依赖Node.js、模型API密钥、服务器、Token消耗估算……光环境配置就能劝退一大部分人。就在这个时间点，字节跳动火山引擎推出了”方舟爪”——ArkClaw，一款开箱即用的云端SaaS版OpenClaw，主打”零门槛”和”7×24小时在线”。上线才一周多，已经有不少开发者在讨论区分享体验。今天我就来聊聊这个产品，看…",
+      "key_points": [
+        "最近AI编程圈有个词特别火——“养虾”。所谓”虾”就是OpenClaw，一个基于终端的AI Agent框架，能通过自然语言理解并执行代码任务。但说实话，原生Op…",
+        "解决 OpenClaw 三大痛点 ArkClaw是字节跳动旗下 火山引擎 于 2026年3月9日 正式推出的云端AI Agent服务，核心基于开源OpenCla…",
+        "国产OpenClaw变体如雨后春笋般涌现。目前主流产品有6款： 产品 出品方 核心优势 适合场景 ArkClaw 字节跳动（火山引擎） 豆包深度集成、飞书生态…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "再牛的博物学家，也不敢轻易踏入云南菜市场",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%86%8D%E7%89%9B%E7%9A%84%E5%8D%9A%E7%89%A9%E5%AD%A6%E5%AE%B6%EF%BC%8C%E4%B9%9F%E4%B8%8D%E6%95%A2%E8%BD%BB%E6%98%93%E8%B8%8F%E5%85%A5%E4%BA%91%E5%8D%97%E8%8F%9C%E5%B8%82%E5%9C%BA",
+      "published": "Sat, 21 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "wikimedia",
+        "Solanum",
+        "sp.",
+        "Dregea",
+        "flickr",
+        "Myrica"
+      ],
+      "summary": "民以食为天。任何时候，食物都是必需品，在果腹的同时还能给人们带来味蕾上的享受。万千食材经巧妙组合，再配以各种奇特的烹饪方式，最后形成人们舌尖上的一缕缕醉人芬芳。 食材的多样性最能体现在菜市场上。而提到菜市场，自然不能忽略多彩的云南。 云南果蔬市场上还算常规的种类。｜Daderot / wikimedia；Rod Waddington / flickr 野菜是云南春季菜市场的主力军。云南人喜食酸辣，一些拥有酸辣味的食物就非常受欢迎；与此同时，当地一些少数民族又尤其喜欢“苦味”，所以一些苦涩的食物也常见于云南菜场。 尽…",
+      "key_points": [
+        "云南果蔬市场上还算常规的种类。｜Daderot / wikimedia；Rod Waddington / flickr 野菜是云南春季菜市场的主力军。云南人喜食…",
+        "｜ 翦翳翎 独特的芽 云南菜市场上还会出现多种独特的“芽”。其中种类最多的当属榕树芽，有象耳菜（也叫“象蹄菜”，实为巨叶榕）和茶叶菜（榕属植物）这样带苦味的榕树…",
+        "云南木姜子 Litsea yunnanensis 。｜朱鑫鑫 / 中国植物图像库 腌制水果 云南菜市场上还会出现很多腌制的水果，味道多样，十分挑战味蕾"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "春天忽冷忽热最难穿？这件全能款，顶你衣柜一大半",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%98%A5%E5%A4%A9%E5%BF%BD%E5%86%B7%E5%BF%BD%E7%83%AD%E6%9C%80%E9%9A%BE%E7%A9%BF%EF%BC%9F%E8%BF%99%E4%BB%B6%E5%85%A8%E8%83%BD%E6%AC%BE%EF%BC%8C%E9%A1%B6%E4%BD%A0%E8%A1%A3%E6%9F%9C%E4%B8%80%E5%A4%A7%E5%8D%8A",
+      "published": "Sat, 21 Mar 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mm"
+      ],
+      "summary": "朋友们，春风一吹天儿越来越舒服，是不是总想出门踏青徒步、撒欢户外啦？春季户外新衣服也该安排上了！ 我们找到素湃，放出一波春季重磅新品福利！ （浅剧透：这次谈的活动力度超炸，让人根本没法拒绝 😂） 老朋友都知道，它家的 气凝胶防寒服、保暖内衣、护膝 等口碑巨好，因为够轻够暖够舒服，性价比也很在线！这次把卖爆的素湃软壳衣、韧壳裤，还有夏季新品防晒衣、速干裤、T恤…… 全安排上福利价。 预约直播 素湃春季户外装备福利炸场～ 01 素湃软壳系列 软壳衣+韧壳裤 户外环境复杂，温差大，只是防水防污还不够，素湃软壳系列还能做到…",
+      "key_points": [
+        "后腰松紧带设计 ，胖瘦一键适配~ 膝盖压褶扩容+裆部3D一片式裁剪， 大幅度动作也不会感到紧绷难受~ 抬腿、下蹲、爬坡 不卡档，不勒腿 ，动作超自如~ 03 防…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“不吃碳水就能瘦”？千万别信，后果比你想象的严重！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E4%B8%8D%E5%90%83%E7%A2%B3%E6%B0%B4%E5%B0%B1%E8%83%BD%E7%98%A6%E2%80%9D%EF%BC%9F%E5%8D%83%E4%B8%87%E5%88%AB%E4%BF%A1%EF%BC%8C%E5%90%8E%E6%9E%9C%E6%AF%94%E4%BD%A0%E6%83%B3%E8%B1%A1%E7%9A%84%E4%B8%A5%E9%87%8D%EF%BC%81",
+      "published": "Sat, 21 Mar 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GI",
+        "GL",
+        "B1",
+        "B2",
+        "glycemic",
+        "Glycemic"
+      ],
+      "summary": "又到了大家每天嚷嚷要减肥的日子，你饿了几天了？ 为了让大家吃得瘦、练得好，我们全网搜罗了 百余款健康又美味的好物 ——从优质主食到解馋零食，从快手代餐到营养补给， 一站配齐，省心省力 。 帮你搬走（一部分）减肥路上的绊脚石！ 周一果壳春季美食专场，马上预约，一起变瘦变美。 爆款好物剧透 宝藏“碳水”帮你抵抗长胖 但很多人都吃错了！ 一整年，被果壳粉丝吃掉 16000袋 的燕麦饭，直播 返场啦！ 日常价99一箱，直播间直降30 69/箱，128/2箱 很多人一提到碳水就“退退退”，甚至有人常年几乎不吃什么碳水，声称…",
+      "key_points": [
+        "直播间直降30 69/箱，128/2箱 很多人一提到碳水就“退退退”，甚至有人常年几乎不吃什么碳水，声称 为了“抗糖”“怕胖” ………但 一刀切拒绝所有主食 ，…",
+        "👆价格参考时间：2025.11.13 外面一碗尽是米饭只有少许燕麦的杂粮饭都得这个价了！建议大家直接囤2箱，更划算，囤一次全家人可以吃好久，千万别错过",
+        "我们不仅要吃碳水，更要有选择地吃“好碳水” ，也就是加工程度低、营养保留更完整的全谷物，少吃精加工后的“低质碳水”"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么酒店床上总放四个枕头？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E9%85%92%E5%BA%97%E5%BA%8A%E4%B8%8A%E6%80%BB%E6%94%BE%E5%9B%9B%E4%B8%AA%E6%9E%95%E5%A4%B4%EF%BC%9F",
+      "published": "Sat, 21 Mar 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hotel",
+        "pillows",
+        "Why",
+        "China.",
+        "do",
+        "four"
+      ],
+      "summary": "如果你经常住酒店，应该对酒店里床的常见配置并不陌生：白色床单拉得平整，床头靠板前整整齐齐摆着四个枕头，有的酒店会将枕头分为立放和横放，有的则直接上下叠放。 不过，两人睡的大床房，放两个枕头不就够了，为什么要放四个呢？而且，不只在国内是如此，有网友在海外住酒店，同样遇到了这一情况，并抱怨每次睡觉还要找个地方放用不上的枕头。 图源小红书@没得感情电钻哥，已获授权 但同时，也有人喜欢这样“一人多枕”的配置。不睡觉时两个枕头叠放当靠背，睡觉时则只枕一个枕头；也有人调侃称，枕头不一定非要给头用，用来垫腰、垫脚，也很舒服；还有…",
+      "key_points": [
+        "为什么酒店的床上大多是四个枕头",
+        "酒店床上的四个枕头并不是多此一举，而是行业在发展中形成的默认规则。它不能保证每个人都睡得完美，但至少尽可能减少了睡不好的概率。在强调效率和规模化的酒店业中，这样…",
+        "两人睡的大床房，放两个枕头不就够了，为什么要放四个呢？而且，不只在国内是如此，有网友在海外住酒店，同样遇到了这一情况，并抱怨每次睡觉还要找个地方放用不上的枕头"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "套壳中国大模型撑起500亿美元估值？扒一扒 Cursor 的\"套壳\"疑云",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/03/kimi-cursor.html",
+      "published": "2026-03-21T10:19:37Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Cursor"
+      ],
+      "summary": "1、 本周末，有一条最热闹的 AI 新闻，震动了太平洋两岸，连马斯克都关注了。...",
+      "key_points": [
+        "有一条最热闹的 AI 新闻，震动了太平洋两岸，连马斯克都关注了"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "最接近李小龙的武术巨星，去世了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%80%E6%8E%A5%E8%BF%91%E6%9D%8E%E5%B0%8F%E9%BE%99%E7%9A%84%E6%AD%A6%E6%9C%AF%E5%B7%A8%E6%98%9F%EF%BC%8C%E5%8E%BB%E4%B8%96%E4%BA%86",
+      "published": "Sat, 21 Mar 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CBS",
+        "hongmomgs",
+        "irisfilm",
+        "Kickstart",
+        "Kids",
+        "qq.com"
+      ],
+      "summary": "文 漠九 昨天传来的消息， 查克 ·诺里斯在夏威夷 突然去世了。 一时竟不敢相信，因为八十多岁的他一直在网络上挺活跃，看着硬朗得很。 86生日健身视频 很难定义诺里斯，他既不是演技派，也和一般的功夫巨星区别很大。 世界电影史上没有第二个人，居然可以把 东方武术 、 美国西部开拓精神、军事爱国主义 ，乃至今天 互联网时代的荒诞幽默结合 起来 ，开辟 出这么 一条绝无仅有的细分赛道。 诺里斯的传奇要先从他和东方武术的结缘说起。他的童年生活极度不幸，这里就不赘述了。他曾 在自传中 说 ，自己在学校时是个缺乏运动能力的边缘…",
+      "key_points": [
+        "查克 ·诺里斯对李小龙的武学演进 也 有实质性的贡献。尽管李小龙自幼修习咏春拳，但他最初并不看好高位踢腿，认为实战价值有限。然而，在见识了诺里斯极具杀伤力的跆拳…",
+        "作为少数几个能将亚洲武术 和 美国本土文化 ，比 如德州巡警、西部片精神无缝对接的人物，他并没有试图成为第二个李小龙，而是将东方的格斗逻辑内化为美式的英雄主义，…",
+        "查克 ·诺里斯对全球武术文化的贡献不仅在于表演，更在于他创立的武学体系和慈善事业。1990年，他正式宣布成立万国道，这是一种融合了他毕生所学的唐手道、巴西柔术、…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "日本电影史上最厉害的女演员和女导演",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%97%A5%E6%9C%AC%E7%94%B5%E5%BD%B1%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%8E%89%E5%AE%B3%E7%9A%84%E5%A5%B3%E6%BC%94%E5%91%98%E5%92%8C%E5%A5%B3%E5%AF%BC%E6%BC%94",
+      "published": "Sat, 21 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Comment",
+        "Film",
+        "Films",
+        "hongmomgs",
+        "Imogen",
+        "irisfilm"
+      ],
+      "summary": "作者：Imogen Sara Smith 译者：易二三 校对：覃天 来源：Film Comment （2022年3月21日） 田中绢代14岁时第一次站在了电影镜头前，而在接下来的半个世纪里，她出演了250多部电影，并且执导了6部电影。在解释为什么没有成为妻子或母亲时，她常常说自己「选择了嫁给电影。」当她躲到镜头后面时，田中绢代以现实主义的眼光看待妇女的生活，并热衷于寻找她们在令人窒息的境况中坚持自我的方法。 田中绢代 也许是因为她一生中大部分时间都与电影相伴，作为一名导演，田中绢代被日常空间和行为的内在电影性所吸引…",
+      "key_points": [
+        "田中迎来了一个转折点：她已经40多岁了，鉴于自己扮演的主角逐渐衰老，她急于尝试转型做导演，而当时的日本电影界还没有一个女导演。一些与她合作过的著名导演都给予了她…",
+        "《夜里的女人》 田中绢代执导的电影与她作为演员在银幕上呈现的一些特质是相同的：自然的温暖、真诚的情感，以及用最简单的手段让人心碎的能力——比如她那安抚人的明亮微…",
+        "在日本四大电影公司中历史最悠久的松竹映画，田中是20世纪20年代和30年代浪漫情节剧的常驻演员，极其受人喜爱，以至于她的名字有时被直接放进电影片名（《绢代的初恋…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "30条徒步路线，收藏一整年山野徒步目的地！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+30%E6%9D%A1%E5%BE%92%E6%AD%A5%E8%B7%AF%E7%BA%BF%EF%BC%8C%E6%94%B6%E8%97%8F%E4%B8%80%E6%95%B4%E5%B9%B4%E5%B1%B1%E9%87%8E%E5%BE%92%E6%AD%A5%E7%9B%AE%E7%9A%84%E5%9C%B0%EF%BC%81",
+      "published": "Sat, 21 Mar 2026 09:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Delta",
+        "PET",
+        "YangtzeRiver"
+      ],
+      "summary": "如果你厌倦了城市高楼间的狭窄天空与日程表的密集循环，是时候来接受一场山野的邀约了，那里蕴藏着身心最初的能量！ “医学之父”希波克拉底曾说：“行走是最好的良药。” 徒步不止是种运动，它是身心的深度觉醒，是与天地万物重建联结的仪式。 怀着对健康本质的深刻共识 中宏保险 在成立三十周年之际 携手 中国国家地理 共同发起 “乐活同行·山野里的健康”活动 甄选并发布囊括全国多个地理区域、 涵盖不同自然风貌 与文化肌理的30条徒步路线 带您亲身走进山野，重启健康连接 开启更向上、更丰盈、更蓬勃的乐活人生 长三角、环渤海、大东南…",
+      "key_points": [
+        "怀着对健康本质的深刻共识 中宏保险 在成立三十周年之际 携手 中国国家地理 共同发起 “乐活同行·山野里的健康”活动 甄选并发布囊括全国多个地理区域、 涵盖不同…",
+        "探访一片竹海 在此遇见一个超越想象的 深邃而鲜活的江南 04 花岗奇石“岩值”路 大罗山田螺背徒步路线 这是一条约6公里长的花岗岩探险之路。这条路线将引领您在嶙…",
+        "07 魔都一日郊野观察员 上海佘山国家森林公园观鸟之旅 在上海这座超级都市的西南隅，佘山国家森林公园如同一枚嵌入城市的“自然芯片”，为您提供一场无需远行的沉浸式…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "说话前先踩一脚刹车",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AF%B4%E8%AF%9D%E5%89%8D%E5%85%88%E8%B8%A9%E4%B8%80%E8%84%9A%E5%88%B9%E8%BD%A6",
+      "published": "Sat, 21 Mar 2026 12:38:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kevin",
+        "beta",
+        "Midjourney",
+        "after",
+        "AI",
+        "ar"
+      ],
+      "summary": "昨天读者 越过山丘 Kevin 在留言中分享了一段伤心往事： 「我小学时候养了一只水鸟两年，每天喂它小鱼，从羽翼未丰到盘旋会飞，有一天放学回家，我妈告诉我被对门邻居拿走杀了煲汤给他老婆催奶了，他是我班主任，我不敢说什么，但我现在偶尔回老家见到他，依然对他带着恨意。」 其他读者看后纷纷安慰，其中有一位 白小萌ᥫᩣ༠° 说： 「抱抱🤗其实你的鸟还是你的鸟，你永远会记得他，这世上不大会有这么幸运的鸟了。」 从这条留言开始，事情就开始起了变化。针对这条软萌的宽慰之语，很多读者发表了反对意见。 比如说有极为简单直接的一条：「…",
+      "key_points": [
+        "存在本身比意义珍贵，哪怕主人再怎么刻骨铭心的思念或者痛苦，也不如存在本身珍贵。这鸟明明不幸，这不幸也不是小小的主人带来的，用幸运来安慰他，是对小鸟的欺负 。」…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "你凭什么嘲笑做AI for Science的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BD%A0%E5%87%AD%E4%BB%80%E4%B9%88%E5%98%B2%E7%AC%91%E5%81%9AAI+for+Science%E7%9A%84%E4%BA%BA",
+      "published": "Sat, 21 Mar 2026 08:55:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Science",
+        "AI4S",
+        "AlphaFold",
+        "PPT",
+        "benchmark"
+      ],
+      "summary": "3.21 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Nguyen Dang Hoang Nhu 编者按： 我们昨日发布的《 警惕你身边做AI for Science的人 》引发了读者们的激烈讨论。有人认为，文章对AI for Science存在误读，了解不够深入；也有人认为，这样的提醒恰逢其时。伴随着整个社会对AI的狂热与期待，科学界同样正迎来一场AI for Science的浪潮——没有人能否认这一新范式的光明前景，然而，当一件事获得了整个体系最高规格的鼓励，最丰沛的…",
+      "key_points": [
+        "附上作者发来的一份声明，或可为此次讨论画上一个注脚—— \"首先感谢知识分子转载我的两篇‘自嘲’文章。自从我发送这篇推文以来，收到了很多批评和建议。看到AI4S社…",
+        "这正是我们决定发布昨日文章的主要原因。我们希望更为客观、理性地呈现来自各方的声音——也正因如此，我们决定在今天发布作者的另一篇文章：《你凭什么嘲笑做AI for…",
+        "3.21 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Nguyen Dang Hoang Nhu 编者按： 我们昨日…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "廉价能源是中国赢得人工智能主导地位的关键吗？| 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%BB%89%E4%BB%B7%E8%83%BD%E6%BA%90%E6%98%AF%E4%B8%AD%E5%9B%BD%E8%B5%A2%E5%BE%97%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%BB%E5%AF%BC%E5%9C%B0%E4%BD%8D%E7%9A%84%E5%85%B3%E9%94%AE%E5%90%97%EF%BC%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Thu, 19 Mar 2026 19:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "China",
+        "ai",
+        "is",
+        "in"
+      ],
+      "summary": "本文选自经济学人20260318中国板块 China | Cake, robots and electrons 中国 | 蛋糕、机器人与电子 Is cheap energy the key to China gaining AI supremacy? 廉价能源是中国赢得人工智能主导地位的关键吗？ It could be its biggest advantage over the West 这或许是其相较于西方世界的最大优势所在 Artificial intelligence is like a cake, say…",
+      "key_points": [
+        "廉价能源是中国赢得人工智能主导地位的关键吗",
+        "本文选自经济学人20260318中国板块 China | Cake, robots and electrons 中国 | 蛋糕、机器人与电子 Is cheap…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "顾家家居，坐与卧的智能重塑",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E9%A1%BE%E5%AE%B6%E5%AE%B6%E5%B1%85%EF%BC%8C%E5%9D%90%E4%B8%8E%E5%8D%A7%E7%9A%84%E6%99%BA%E8%83%BD%E9%87%8D%E5%A1%91",
+      "published": "Sat, 21 Mar 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Juicero",
+        "K-TRON",
+        "M8",
+        "S9",
+        "Space",
+        "Apple"
+      ],
+      "summary": "在大模型满天飞的时代，各行各业的焦虑也膨胀起来，好像不招个CIO进管理层、新品发布会上不说几个晦涩的算法名词，就成了落后企业。 如家居一样的传统行业也同样被卷入了这股狂热的暗流，从客厅到卧室，似乎只有连上了无线网络、装上了语音助手，才能拿到通往未来的船票。 在行业头部企业顾家家居最近的 智能旗舰新品春季发布会 上，也推出了不少智能化产品，但呈现出的是另一种更冷静、更接地气的智能化可能。 四款智能旗舰新品亮相 发布会上，顾家家居这样阐述产品设计理念： “关心你的分寸之间，学着读懂每一种体型和姿态，不是你去适应它，而是…",
+      "key_points": [
+        "顾家家居道出了一个经常被刻意忽略的商业常识：并非所有的行业都有着无限的智能化炫技空间，在广阔的消费品赛道里，智能化仅仅是通向彼岸的桥梁，消费市场里个体真实的感受…",
+        "在行业头部企业顾家家居最近的 智能旗舰新品春季发布会 上，也推出了不少智能化产品，但呈现出的是另一种更冷静、更接地气的智能化可能",
+        "顾家家居 青云座 智能单椅 这种从一寸坐深到一帕压力的精确计算，顾家的研发历程印证了一个真理： 在贴地飞行的实体商业里，再高深的代码与算法，也永远替代不了一次结…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-22",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "坐拥世界白银的大明朝为什么不把税银铸成银元，夺回铸币权与紧急财政，反而执行去市场化去货币化政策？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788382",
+      "published": "Wed, 18 Mar 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Historiam",
+        "Non",
+        "Sap",
+        "Veritas",
+        "Vitiari."
+      ],
+      "summary": "芮欣雨Sap， Historiam Veritas Non Vitiari. 查看知乎原文 先别谈“大明为什么不把税收受到的白银大规模铸造银元”了，明朝连“大规模铸造铜钱”都没有做到，整个明朝 276 年一共才铸造了大约 4000 万贯铜钱，甚至建文、洪熙、正统、景泰、天顺、成化、正德七朝是直接就没有官方铸币的。 选自《中英货币结构比较（1066-1911）》 这个数字是一个什么概念呢？在明朝之前，北宋 167 年总共大约铸造了两亿贯铜钱。 出自彭信威《中国货币史》 而在明朝之后，清朝仅从 1653 年到 1660…",
+      "key_points": [
+        "先别谈“大明为什么不把税收受到的白银大规模铸造银元”了，明朝连“大规模铸造铜钱”都没有做到，整个明朝 276 年一共才铸造了大约 4000 万贯铜钱，甚至建文、…",
+        "还有“大规模铸造银元”本身也是有一定技术门槛的，我们现在常说的“银元（大洋）”和“银角 / 银毫（小洋）”其实指的是近代的无孔机制银币，严格来说它是用机器冲压出…",
+        "可以看我之前的一篇回答 为什么墨西哥银元成为晚清民国时期中国的主要流通银元"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "AI有望消除消耗性工作，但背后或藏代价 | 经济学人商业",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+AI%E6%9C%89%E6%9C%9B%E6%B6%88%E9%99%A4%E6%B6%88%E8%80%97%E6%80%A7%E5%B7%A5%E4%BD%9C%EF%BC%8C%E4%BD%86%E8%83%8C%E5%90%8E%E6%88%96%E8%97%8F%E4%BB%A3%E4%BB%B7+%7C%C2%A0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+      "published": "Wed, 18 Mar 2026 12:32:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "AI",
+        "is",
+        "work",
+        "can"
+      ],
+      "summary": "1 写在前面 思维导图： Summer， 向着太阳笑吧 2 精读|翻译|词组 Business | Bartleby 商业｜巴托比 英文部分选自经济学人20260314期 商业版块 Business | Bartleby 商业｜巴托比 In praise of grunt work 歌颂 消耗性 工作 AI promises to eliminate drudgery. Careful what you wish for AI 有望消除 消耗性 工作，但背后或藏代价 The list of potential vi…",
+      "key_points": [
+        "Careful what you wish for AI 有望消除 消耗性 工作，但背后或藏代价 The list of potential victims o…",
+        "1 写在前面 思维导图： Summer， 向着太阳笑吧 2 精读|翻译|词组 Business | Bartleby 商业｜巴托比 英文部分选自经济学人2026…",
+        "” 这口号定能引发共鸣。然而凡事皆有代价：减少 消耗性 工作固然是崇高目标，但彻底消除却远非明智之举 One argument for drudge work…"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 103 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/103",
+      "published": "Mon, 28 Oct 2024 08:04:36 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "summary": "本期共有 43 个项目，包含 C 项目 (2)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (5)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (2)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (2)，人工智能 (4)，其它 (7)，开源书籍 (1)",
+      "key_points": [
+        "包含 C 项目 (2)，C# 项目 (2)，C++ 项目 (3)，Go 项目 (5)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…"
+      ]
+    }
+  ]
+}
