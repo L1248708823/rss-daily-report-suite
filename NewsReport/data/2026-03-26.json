@@ -1,0 +1,826 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-03-26T01:00:04.448160+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 156,
+    "fresh_candidates": 65,
+    "backfill_candidates": 91,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-26",
+      "fetched_at": "2026-03-26T01:00:04.150636+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3931.84,
+          "change": 50.56,
+          "change_pct": 1.3,
+          "volume": 688343626.0,
+          "amount": 96785426.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4534.35,
+          "change": 27.860000000000582,
+          "change_pct": 0.62,
+          "prev_close": 4506.49,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-26 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1005.9730311701256,
+          "change": 6.180909865449394,
+          "change_pct": 0.6182195012082743,
+          "prev_close": 999.7921213046762,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-26 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-26",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "全球资产同时下跌，20年只有64次，而且每次都涨回来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%85%A8%E7%90%83%E8%B5%84%E4%BA%A7%E5%90%8C%E6%97%B6%E4%B8%8B%E8%B7%8C%EF%BC%8C20%E5%B9%B4%E5%8F%AA%E6%9C%8964%E6%AC%A1%EF%BC%8C%E8%80%8C%E4%B8%94%E6%AF%8F%E6%AC%A1%E9%83%BD%E6%B6%A8%E5%9B%9E%E6%9D%A5%E4%BA%86",
+      "published": "Wed, 25 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DAX",
+        "QDII"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 今天做了一件事 ： 把2005年以来20年的全球大类资产数据翻了一遍 。 我想看看 ， \"什么都在跌\"这种事 ， 历史上到底出现过几次 。 答案是64次 。 但64次不是64个独立事件 。 我仔细归纳了一下 ， 发现它们集中在7个时间段 ， 每一段都有名字 ： 2008年金融危机 、 2010到2011年欧债危机 、 2015年A股股灾 、 2018年贸易战 、 20…",
+      "key_points": [
+        "全球资产平均跌了11.2% ， 是20年里最严重的一次",
+        "府库 来源：雪球 今天做了一件事 ： 把2005年以来20年的全球大类资产数据翻了一遍",
+        "然后半年内涨回来还超过了危机前的价格"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "津巴布韦禁止锂精矿出口政策思考和展望",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8222687488/380943443",
+      "published": "Wed, 25 Mar 2026 10:09:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LCE",
+        "Embassy",
+        "http",
+        "SH603799",
+        "SZ002460",
+        "SZ002738"
+      ],
+      "summary": "津巴布韦禁止锂精矿出口政策思考和展望 $赣锋锂业(SZ002460)$ $中矿资源(SZ002738)$ $华友钴业(SH603799)$ @今日话题 一、津巴布韦禁止锂精矿出口政策和其他国家类似政策的异同 1.津巴布韦锂资源量约占世界的2%左右，25年锂精矿产量折15万吨LCE，产量占比9%左右；不考虑禁止出口禁令的影响，预期26年产量折LCE产量21-22万吨。 2.刚果（金），钴储量全球占比55%，产量占比75%，2025年实施出口配额制，严控产量，使钴价格大幅提升，从政策前的16万元/吨到当前的43万元/吨…",
+      "key_points": [
+        "津巴布韦禁止锂精矿出口政策思考和展望 @今日话题 一、津巴布韦禁止锂精矿出口政策和其他国家类似政策的异同 1.津巴布韦锂资源量约占世界的2%左右，25年锂精矿产…",
+        "二、津巴布韦锂精矿出口禁令的影响 1.每月1.5-2万吨LCE的锂精矿，因无法出口，而不能向市场供给； 2.企业和津政府还有个博弈过程，所以持续实际还要观察；…",
+        "4.刚果（金）的钴出口配额限制和印尼的禁止镍原矿出口的政策，都是基于他们的资源和产量在全球的独占鳌头的优势地位，当前津巴布韦在锂资源储量和产量占比方面，均不具备…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒周期分析—当下行情认识与未来投资建议",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8778887955/381061598",
+      "published": "Wed, 25 Mar 2026 10:04:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "Q3",
+        "ROE+",
+        "Q2",
+        "GDP",
+        "http"
+      ],
+      "summary": "本篇是《 白酒行业四轮周期全览分析与详解（上） （下） 》篇的总结篇。 《白酒行业四轮周期全览分析与详解（上） （下） 》介绍了白酒行业历史上经历的四个周期，了解了白酒企业在不同周期中的应对策略和业绩表现，股价及估值变化情况，常说“读史而明今”，我们能从历史分析中得到很多有用的信息来更好的认识当下。 本篇就是我自己从白酒行业所经历的四次周期变化中总结出的我认为对认识当下的白酒，以及指导之后白酒投资有用的信息，分享出来，供大家讨论学习。 一、白酒四轮周期主要白酒企业及行业指数估值、股价涨跌区间(见下表) 结合上表来可…",
+      "key_points": [
+        "这是不是也是当前行情下对白酒投资者最好的心理按摩啊 。至此，白酒行业周期分析文章发布完毕",
+        "《白酒行业四轮周期全览分析与详解（上） （下） 》介绍了白酒行业历史上经历的四个周期，了解了白酒企业在不同周期中的应对策略和业绩表现，股价及估值变化情况，常说“…",
+        "本篇就是我自己从白酒行业所经历的四次周期变化中总结出的我认为对认识当下的白酒，以及指导之后白酒投资有用的信息，分享出来，供大家讨论学习"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "近二十年全球通胀累积涨幅巨大，但原油均价几乎没有上涨，原油为通胀背了多少锅？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4348548174/380989793",
+      "published": "Wed, 25 Mar 2026 09:36:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPI",
+        "GDP",
+        "IMF",
+        "BIS",
+        "IIF",
+        "BLS"
+      ],
+      "summary": "近二十年全球通胀累积涨幅巨大，但原油均价几乎没有上涨，原油为通胀背了多少锅？ 摘要 2006年至2025年的近二十年间，全球通胀呈现持续累积上涨态势，主要经济体CPI累计涨幅普遍超50%，房价、房租及各类民生与工业物价大幅攀升，然而作为全球核心能源品种的布伦特原油，其年度均价始终围绕65-70美元/桶波动，2006年均价约65.1美元，2025年预估均价仅68.2美元，名义价格近乎零增长。本文通过梳理近二十年全球通胀、原油价格、房价房租及各类物价数据，量化分析原油价格波动对全球通胀的实际贡献度，厘清油价与通胀的传导…",
+      "key_points": [
+        "但复盘2006-2025年近二十年的长周期数据，这一主流认知与现实存在根本性背离：全球通胀累计涨幅显著，居民生活成本与资产价格大幅攀升，而原油名义均价却始终维持…",
+        "摘要 2006年至2025年的近二十年间，全球通胀呈现持续累积上涨态势，主要经济体CPI累计涨幅普遍超50%，房价、房租及各类民生与工业物价大幅攀升，然而作为全…",
+        "全球通胀累计涨幅超60%，房价、房租及各类商品服务价格大幅攀升，而布伦特原油名义均价近乎零增长，经通胀调整后的实际价格更是大幅下跌，原油价格与全球通胀走势呈现根…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "历史油运价格周期的复盘",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5385800475/381020502",
+      "published": "Wed, 25 Mar 2026 09:36:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TCE",
+        "VLCC",
+        "OPEC",
+        "TD3C",
+        "TD3",
+        "Carrier"
+      ],
+      "summary": "油轮运价本质由行业供需格局决定， 上篇文章《油轮的供给影响因素分析：造船、二手船、拆船、环保》 重点解析了油运市场的供给侧逻辑：行业有效供给主要取决于船队规模与船速，新船交付会扩张整体运力；老旧船舶拆解则收缩运力，IMO环保新规带来的强制降速，也会进一步降低有效运力供给。 需求端则核心看运量与运距两大变量：运量受原油及成品油产量、全球经济增速、油价波动等因素驱动；运距则往往因地缘冲突、贸易流向重构而被动拉长，进而提升吨海里需求。 供需的变动是如何影响背后的运价周期，是本文的核心内容。 1、油运报价—TCE知多少 运…",
+      "key_points": [
+        "3、运价周期的原因分析 3.1、上行期2003-2008年：需求增加、运力更新 该时期的运费的强劲表现受到需求增加和运力更新的双重推动。中国加入WTO后经济快速…",
+        "由于霍尔木兹海峡占全球海运石油贸易30%-34%，也是沙特、伊拉克、阿联酋、科威特、伊朗等海湾产油国几乎唯一的海上原油出口通道，航道极窄，VLCC无法并行，也不…",
+        "3.2、下行期2010-2014年—需求承压、运力充足 金融危机后的全球石油需求承压，中东战乱和OPEC国家 减产保价使得油价持续高位，需求减少， 炼厂开启检修…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当Vibe Coding敲响程序员的丧钟，请看这篇全民开发时代的生存指南！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6362832.html",
+      "published": "Wed, 25 Mar 2026 09:13:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Coding",
+        "Vibe",
+        "Cursor",
+        "AB",
+        "add_beef"
+      ],
+      "summary": "Vibe Coding正在颠覆传统编程逻辑，只需用‘直觉描述’就能让AI自动生成完整代码，从辣味牛肉面到商业应用开发，这种‘氛围编程’正以指数级速度进化。本文深入剖析这场技术革命如何重构开发流程、淘汰单一技能岗位，并揭示未来职场‘编程+复合能力’的全新生存法则。 一、什么是 Vibe Coding？一个“点外卖”的比喻 想象一下，你想点一份“辣味牛肉面”，但你不会做饭，也不懂厨艺。于是你打开手机，对着语音助手说： “我想要一碗热乎乎的、汤底浓郁、牛肉软烂、带点香菜和辣椒油的面，不要太咸，配个溏心蛋。” 神奇的是，系…",
+      "key_points": [
+        "三、指数级狂奔：程序员的“末日时钟” Vibe Coding 并非横空出世，它的前身是 GitHub Copilot、Cursor、Codeium 等 AI 辅…",
+        "现在就开始学习 Vibe Coding，不是为了取代程序员，而是为了让自己成为“不可替代的综合型人才”",
+        "变则通：给自己加上“第二技能” 面对 AI 的冲击，程序员的出路不是“对抗”，而是“融合”"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 用户破 6 亿后，产品经理该停止“拉新叙事”了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6363186.html",
+      "published": "Wed, 25 Mar 2026 09:07:21 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AIGC",
+        "CC0",
+        "DAU",
+        "Pixabay",
+        "postmeta.bookmark"
+      ],
+      "summary": "6亿用户时代的AI产品竞争，正在经历从认知红利到留存挑战的深刻转变。当生成式AI普及率突破42.8%，产品经理面临的核心问题已不是如何吸引用户试用，而是如何让AI真正融入工作流。本文深入剖析AI产品必经的三个关键转折，揭示决定用户留存的三大要素，并给出从任务设计到垂直场景的实战策略。 第 57 次《中国互联网络发展状况统计报告》显示，截至 2025 年 12 月，我国生成式人工智能用户达到 6.02 亿，普及率达到 42.8%。这个数字当然足够大，但对产品经理来说，更重要的不是“AI 已经火了”，而是当用户规模已经…",
+      "key_points": [
+        "第 57 次《中国互联网络发展状况统计报告》显示，截至 2025 年 12 月，我国生成式人工智能用户达到 6.02 亿，普及率达到 42.8%。这个数字当然足…",
+        "正在经历从认知红利到留存挑战的深刻转变。当生成式AI普及率突破42.8%，产品经理面临的核心问题已不是如何吸引用户试用，而是如何让AI真正融入工作流。本文深入剖…",
+        "本文由 @AIGC土豆 原创发布于人人都是产品经理。未经作者许可，禁止转载 题图来自Pixabay，基于CC0协议 收藏 已收藏 {{ postmeta.boo…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI捅了自己一刀：Sora暴毙，资本不相信眼泪",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6363159.html",
+      "published": "Wed, 25 Mar 2026 08:42:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Sora",
+        "OpenAI",
+        "SeeDance",
+        "gt",
+        "AGI"
+      ],
+      "summary": "Sora的突然死亡让整个AI圈为之一震。这款曾被寄予厚望的视频生成神器，从惊艳亮相到黯然离场仅25个月，背后折射出AI行业从技术狂热向商业理性的残酷转型。当字节跳动SeeDance与抖音生态完美咬合时，OpenAI不得不面对一个冰冷事实：没有业务场景支撑的AI工具，再惊艳也难逃被资本清算的命运。 Sora猝死，我很感慨，虽是意料中，时间却很仓促，猝不及防。 毕竟Sora是含着金汤匙出生的，系出名门，OpenAI家大业大，是AI界的带头大哥，怎么会毫无征兆地拔掉Sora的氧气管？要知道，Sora横空出世时，可是号称要…",
+      "key_points": [
+        "给自己来一刀，那是壮士断腕，也是给股东交纳投名状",
+        "Sora的突然死亡让整个AI圈为之一震。这款曾被寄予厚望的视频生成神器，从惊艳亮相到黯然离场仅25个月，背后折射出AI行业从技术狂热向商业理性的残酷转型。当字节…",
+        "现在OpenAI正紧锣密鼓地折腾IPO，对于要去资本市场讲故事 的人来说，Sora现在不是资产，而是纯纯的负面累赘"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI 挥刀 Sora，不只是止损",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6363156.html",
+      "published": "Wed, 25 Mar 2026 08:42:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenAI",
+        "Sora",
+        "ChatGPT",
+        "AI",
+        "Agent",
+        "Codex"
+      ],
+      "summary": "OpenAI突然宣布关闭Sora应用，背后暗藏战略大转向。从视频生成到电商功能收缩，这家AI巨头正在重塑核心定位——聚焦ChatGPT主入口、强化生产力工具属性、构建代理能力生态。本文将深入拆解OpenAI这场战略收缩背后的商业逻辑与竞争格局变化。 OpenAI 计划关闭 Sora 应用，一个曾经代表 AI 视频想象力的项目，从横空出世到快速收场，留给外界的似乎只是唏嘘。 只看表面，这又是典型的”明星产品高开低走”的故事。但如果把这条新闻和 OpenAI 最近几天、几周发生的其他动作放在一起看，意义就完全不同了。…",
+      "key_points": [
+        "不只是”视频不行了”，而是 OpenAI 在收战线 媒体对 Sora 关停的报道有一个共同点： 它们普遍没有把这件事理解为”OpenAI 放弃视频”，而是理解为…",
+        "Sora 被关，并不只是产品判断，更像是一种财务语言",
+        "暴露出 OpenAI 一条更深的边界 如果只看 Sora，有人可能会说：那只是视频太难做。但如果再看 OpenAI 近期对 ChatGPT 购物能力的调整，这种…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 赋能药企营销：从人海战术到销售尖兵",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/5799750.html",
+      "published": "Wed, 25 Mar 2026 08:33:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Roleplay",
+        "CC0",
+        "CEO",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "医药行业的营销模式正在经历一场由AI驱动的革命。面对集采常态化、代表能力参差与合规风险高企的残酷现实，传统人海战术已失效。本文深度解析AI如何通过5大核心场景重塑药企营销——从AI对练缩短培训周期50%，到AI质检将合规违规率从8.5%降至1.2%，揭示AI如何为千名代表的药企创造超2.5亿年度综合收益。 当集采把利润压缩到个位数，当合规红线越来越紧，药企营销的战场已经从”人海战术”变成”AI 战术”。 一、为什么药企营销必须做 AI？三个残酷现实 因为传统营销模式已经走不通了。 先看三个现实： 集采常态化 ：9…",
+      "key_points": [
+        "医药行业的营销模式正在经历一场由AI驱动的革命。面对集采常态化、代表能力参差与合规风险高企的残酷现实，传统人海战术已失效。本文深度解析AI如何通过5大核心场景重…",
+        "当合规红线越来越紧，药企营销的战场已经从”人海战术”变成”AI 战术”",
+        "三、AI 如何赋能药企营销？5 个场景逐一拆解 说了这么多，AI 到底能在哪里发挥作用"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "最近一个被人类驯化的物种是什么?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788612",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Coturnix",
+        "coturnix",
+        "japonica"
+      ],
+      "summary": "奔奔马， 新疆兵团90后职工，淘宝搜“奔奔马90后养蜂人”自产蜂蜜和枣 查看知乎原文 有一种较为常见的家禽，其完全被驯化为家养动物的历史才 100 多年，已成为今天重要的蛋禽，全世界饲养数量超过 10 亿只，在国内已成为仅次于鸡、鸭的“ 第三重要家禽 ”。 这种家禽就是 鹌鹑 。 今天的 家养鹌鹑 是由 野生鹌鹑 驯化而来，野生鹌鹑分布广泛，整个欧亚大陆到非洲都有 鹌鹑属 的分布，全世界共有鹌鹑属 20 个野生种。东亚地区主要分为 普通鹌鹑 （ Coturnix coturnix ）和 日本鸣鹑（ Coturnix…",
+      "key_points": [
+        "今天的 家养鹌鹑 是由 野生鹌鹑 驯化而来，野生鹌鹑分布广泛，整个欧亚大陆到非洲都有 鹌鹑属 的分布，全世界共有鹌鹑属 20 个野生种。东亚地区主要分为 普通鹌…",
+        "但家养的鹌鹑，完全成为了产蛋工具，母鹌鹑对自己产的蛋完全失去了概念，根本不会孵蛋，更不会像农村土鸡那样带着小鹌鹑找吃的。鹌鹑只能靠人类的帮助才能繁殖后代，从这一…",
+        "鹌鹑 1000 多年前即已经开始进行饲养，在民间常用于观赏、娱乐（斗鹌鹑），但并未开展规模化的驯化、繁育"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有没有古人写诗时用了典故，结果诗传下来典故没传下来这种情况？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788659",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "知乎用户， 伪史壬一律拉黑 查看知乎原文 屈原的著名长诗《天问》素以难懂著称，因为里面提到了很多无法考证的上古典故，不仅今人执卷茫然，就是两千年前的汉人也昧然难知其义。 东汉王逸《天问后叙》云：“昔屈原所作，凡二十五篇，世相教传，而莫能说《天问》，以其文义不次，又多奇怪之事。自太史公口论道之，多所不逮。至于刘向、扬雄，援引传记以解说之，亦不能详悉。所阙者众，日无闻焉。既有解词，乃复多连蹇其文，蒙澒其说，故厥义不昭，微指不晢，自游览者，靡不苦之，而不能照也。” 比如这段：“该秉季德，厥父是臧。胡终弊于有扈，牧夫牛羊？…",
+      "key_points": [
+        "伪史壬一律拉黑 屈原的著名长诗《天问》素以难懂著称，因为里面提到了很多无法考证的上古典故，不仅今人执卷茫然，就是两千年前的汉人也昧然难知其义",
+        "历代《楚辞》注释家就是想破脑袋也想不到这个失传的典故"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么会有那么多人相信阿波罗登月造假？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788656",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Apollo",
+        "DOI",
+        "j.issn.1672-7673.2007.03.",
+        "NASA"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 你只需要给这群人，科普一个东西：月球激光反射器。 在缺乏对相关事实的了解，且美国近年再未载人登月的基础上，产生怀疑是情有可原的。 但如果他们听完这个，还坚信阿波罗登月造假，那就没有继续讨论的价值了。 这样的人很单纯，单纯地对国不对事。 前排叠甲：个人认为登月影像小部分存在补录嫌疑，但载人登月行为事实确实毋庸置疑。 1969 年 7 月 21 日，阿姆斯特朗和奥尔德林乘坐“阿波罗 11 号”登上月球之后，可不只是打了卡、拍了照。 他们还有很多工作要做。 比…",
+      "key_points": [
+        "还坚信阿波罗登月造假，那就没有继续讨论的价值了",
+        "月轨飞行器拍摄的六次登月遗迹： 阿波罗 14 号仪器现场： 阿波罗 17 号仪器现场： 如果了解了这些事，还坚信美国载人登月造假的",
+        "有着月球激光反射器这样的铁证，就不该有人质疑阿波罗登月"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "劝你别买贵的防晒衣，忽略这1点再贵也没用",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8A%9D%E4%BD%A0%E5%88%AB%E4%B9%B0%E8%B4%B5%E7%9A%84%E9%98%B2%E6%99%92%E8%A1%A3%EF%BC%8C%E5%BF%BD%E7%95%A5%E8%BF%991%E7%82%B9%E5%86%8D%E8%B4%B5%E4%B9%9F%E6%B2%A1%E7%94%A8",
+      "published": "Wed, 25 Mar 2026 20:02:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "http",
+        "Iw5vpu8nt",
+        "mm",
+        "PE",
+        "TiO2",
+        "TOP"
+      ],
+      "summary": "冬衣还没收起来，北京气温已经飙到20多度了。掌柜上周末出去钓了一天鱼，周一化妆一看—— 嚯！ 黑了一个色号！ 夏天说来就来，防晒今天必须给大家安排上！ 马上预约 3月26日（明早）7点防晒专场 ，跟大家唠唠防晒那些事儿，同时联合科技面料国货之光品——素湃， 给大家上架一些了不得的防晒好物、春夏功能服饰，这么说吧，掌柜试到样品就下单四五件！除了果壳，其他地方可不好找！ 👆🏻 马上预约 👆🏻 价格也香极了 全场29元起 还有各种福袋、秒杀好物 我办事，你放心 果壳溯源实拍现场 说起素湃果壳老粉一定不陌生，年年冬季 我们…",
+      "key_points": [
+        "素湃防晒衣的表现也很不错。以下是在强紫外线的照射下， “穿上”不同衣物后的防晒效果： 其他品牌防晒衣的模拟“皮肤”测试板 都有变色，全被紫外线晒伤， 只有素湃几…",
+        "02 户外系列 素湃全效防污裤 软壳衣 03 凉感系列 零爽T恤 冰壳裤 快来挑选你的春夏好搭子吧~ 👆🏻 马上预约 👆🏻 价格也香极了 全场29元起 还有各种…",
+        "我们的团队在认真挑选和测评夏季不同功能单品 先剧透一些一定会上架的好物，都是适合春夏日常通勤、户外活动的各种装备，想看更多就预约明天的直播吧： 01 防晒系列…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "阳痿，真的是中年男性的健康“斩杀线”吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%98%B3%E7%97%BF%EF%BC%8C%E7%9C%9F%E7%9A%84%E6%98%AF%E4%B8%AD%E5%B9%B4%E7%94%B7%E6%80%A7%E7%9A%84%E5%81%A5%E5%BA%B7%E2%80%9C%E6%96%A9%E6%9D%80%E7%BA%BF%E2%80%9D%E5%90%97%EF%BC%9F",
+      "published": "Wed, 25 Mar 2026 20:02:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "Erectile",
+        "Dysfunction",
+        "in",
+        "Journal",
+        "dysfunction"
+      ],
+      "summary": "今天这张图传遍全网： 猝死发生之前，身体可能已经发出了很多警告。 其中有一种预警发生得比较早，却因为隐私和面子，常被中年男性忽略，这就是——勃起功能障碍（阳痿） 。它不只是“床上那点事”，很多突发心梗的男性，早在两三年前就收到了这条预警。 无关个案，我们来看看这种预警是怎么回事。 “状态不好”，心肌梗死风险增加62% 大量研究支持，勃起功能障碍，常常是男性出现心血管问题的前兆。 一项包含近10万男性的分析发现， 有勃起功能障碍的人，未来发生心血管事件的风险增加44%，其中心肌梗死风险增加62% ，同时全因死亡风险增…",
+      "key_points": [
+        "最近“状态不好”， 男科或泌尿外科医生说是血管问题，那么最好也去看看心内科 。特别是同时还有这些情况时： 吸烟、高血压、糖尿病、血脂异常、肥胖或家族心脏病史 出…",
+        "却因为隐私和面子，常被中年男性忽略，这就是——勃起功能障碍（阳痿） 。它不只是“床上那点事”，很多突发心梗的男性，早在两三年前就收到了这条预警",
+        "除了血管之外，心理、内分泌和神经方面的问题都不少见。所以， 有勃起功能障碍的男性，也可能心血管很健康"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有啥以为天价高攀不起，实际上划算到令人震惊的首饰？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E5%95%A5%E4%BB%A5%E4%B8%BA%E5%A4%A9%E4%BB%B7%E9%AB%98%E6%94%80%E4%B8%8D%E8%B5%B7%EF%BC%8C%E5%AE%9E%E9%99%85%E4%B8%8A%E5%88%92%E7%AE%97%E5%88%B0%E4%BB%A4%E4%BA%BA%E9%9C%87%E6%83%8A%E7%9A%84%E9%A6%96%E9%A5%B0%EF%BC%9F",
+      "published": "Wed, 25 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "amp",
+        "mp.weixin.qq.com",
+        "article",
+        "biz",
+        "chksm"
+      ],
+      "summary": "无论哪个时代的女人，都无法抵挡诱惑珠宝的诱惑。尤其是—— 世界五大宝石中的： 红宝石 、 蓝宝石 、 祖母绿 。 它们是 奢品的第一梯队宝石 。圈中一直认为，如果你爱的明星在活动中佩戴了大品牌的第一梯队宝石，那就代表品牌对明星的认可和喜爱！ 镶有11颗哥伦比亚梨形祖母绿宝石王冠，创下了祖母绿王冠的拍卖记录丨thejewelleryeditor.com 大家喜爱的红、蓝宝石、祖母绿往往价值不菲， 一颗甚至贵到10万、20万+ ，喜欢是喜欢，但是根本高攀不起。 过于昂贵日常也舍不得戴，怕不小心有了磕碰，甚至遗失，使用率…",
+      "key_points": [
+        "创下了祖母绿王冠的拍卖记录丨thejewelleryeditor.com 大家喜爱的红、蓝宝石、祖母绿往往价值不菲， 一颗甚至贵到10万、20万+ ，喜欢是喜欢…",
+        "戳图👇购买 培育蓝宝石 · 浓郁的蓝丝绒 华贵的首饰 不仅是名望的象征，更承载了无数人的爱意与文化内含，无论是古代或是现代，我们对珠宝的喜爱都是如此浓烈",
+        "衬托出中间祖母绿的宝石质感，让人不禁能留意到你耳间的首饰，颇觉华丽"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "每天洗完脸后的那10分钟，你可能都浪费掉了......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AF%8F%E5%A4%A9%E6%B4%97%E5%AE%8C%E8%84%B8%E5%90%8E%E7%9A%84%E9%82%A310%E5%88%86%E9%92%9F%EF%BC%8C%E4%BD%A0%E5%8F%AF%E8%83%BD%E9%83%BD%E6%B5%AA%E8%B4%B9%E6%8E%89%E4%BA%86......",
+      "published": "Wed, 25 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LED",
+        "nm",
+        "nm+",
+        "CS-2023-060-1",
+        "NASA",
+        "nice"
+      ],
+      "summary": "你有没有这种感觉—— 过了30岁之后，不知道从哪天起，明显感觉自己好像老了。😞 以前熬夜通宵依然精神百倍，现在即使睡饱了觉， 脸还是 垮的、浮的、暗的。 出门前精心化了一小时妆，到下午照镜子—— 脸往下走了，妆也往下走了 。 更扎心的是： 翻出去年同期的照片一对比，真感觉岁月在脸上留下了痕迹。 皮肤随岁月逐渐衰老丨图虫 究其原因，和皮肤深处的胶原蛋白流失有关。 从20岁开始，皮肤里的胶原蛋白就以每年1%的速度递减 。 [1] 再加上各种压力、熬夜、不健康的饮食习惯，流失只会更快 。 久而久之，皮肤 组织就会坍塌，…",
+      "key_points": [
+        "30位25-55岁健康女性每天1次每次10分钟，连续使用7/28/56/84 天后的试验数据显示 👇 报告编号： CS-2023-060-1， 实际使用效果因人…",
+        "实际使用效果因人而异 如果你 ： 👉 觉得贵妇面霜效果不够，想来点厉害的辅助手段； 👉 怕做项目疼、怕恢复期、怕麻烦，又想全脸紧致、淡皱纹 ； 👉平时就喜欢做皮…",
+        "科施佳胶原小光盾 就是你一直在找的那个👇 官方88VIP活动价也要2599元 我们直接2299元 再享科施佳身体乳*1+清洁湿巾*2+耳机包*1+计数跳绳*1…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "他在俄罗斯偷偷拍了一部电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%96%E5%9C%A8%E4%BF%84%E7%BD%97%E6%96%AF%E5%81%B7%E5%81%B7%E6%8B%8D%E4%BA%86%E4%B8%80%E9%83%A8%E7%94%B5%E5%BD%B1",
+      "published": "Wed, 25 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BBC",
+        "Fest",
+        "Georg",
+        "Hollywood",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Georg Szalai/Stephen Saito 译者：覃天 校对：易二三 来源：The Hollywood Reporter/ The Moveable Fest （2026年3月5日） 帕维尔·塔兰金——大家都直接叫他帕夏——生活和工作在卡拉巴什，这是一座位于俄罗斯乌拉尔山区的小镇，却因被视为地球上污染最严重、毒害最深的地方之一而闻名。作为当地一所小学的活动协调员兼摄像师，他深受大家喜爱：既是学生们的引路人，他的办公室也是孩子们可以安心停留的避风港。 但当弗拉基米尔 · 普京针对乌克兰发动的战争蔓延进…",
+      "key_points": [
+        "帕夏 ： 反应有很多种。去年影片在圣丹斯 电影节 放映之后，俄罗斯联邦安全局 ——即克格勃的继承机构 —— 来到了卡拉巴什，把全城所有教育机构的负责人都召集到一…",
+        "原因其实很简单：我们根本不知道 这些素材 最 后的命运是什么 。帕夏在拍摄时，完全不知道这些影像 有没 有机会流出 海外 。我一边 构思 影片 结构 ，一边推进…",
+        "博伦斯坦： 我只是想把这部电影所传达的信息再往更普遍的层面推开一点：它讲述的不只是俄罗斯，也是在说，我们每个人都会面临道德选择。我们都可以从帕夏身上学到一些东西…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "它的三观比《疯狂动物城》更前卫",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%AE%83%E7%9A%84%E4%B8%89%E8%A7%82%E6%AF%94%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E%E3%80%8B%E6%9B%B4%E5%89%8D%E5%8D%AB",
+      "published": "Wed, 25 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Terr"
+      ],
+      "summary": "文 Terr 皮克斯新片《河狸变身计划》最近上了，还可以。 《河狸变身计划》（2026） 有人说这部电影喊环保口号，它是有。不过它难得的是，构建出了一个既包括生态系统关联性，又有意识形态冲突，甚至跨物种共情的复杂叙事网络。 从技巧性来说，它几乎不逊色于《疯狂动物城》和《头脑特工队》。 电影的核心冲突，是立足于比弗顿小镇的一片被称为格莱德的自然湿地，市长杰瑞试图将之改建为环城高速公路，而女主角梅宝则致力于保护这片栖息地。 接下来影片探讨了河狸作为关键物种的生态学地位，又展示了河狸如何通过修筑水坝改变水流，从而创造出为…",
+      "key_points": [
+        "这种没有完美结局的叙事让《河狸变身计划》具备了比《疯狂动物城》更强烈、更前卫的现实主义色彩",
+        "它几乎不逊色于《疯狂动物城》和《头脑特工队》",
+        "影片还描绘了河狸湿地在火灾中作为野生动物安全区的场景，强调自然手段在应对气候灾难中的潜力，并模拟河狸以小家庭为单位但又互相协作的社会结构，告诉观众关键物种在社区…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "人间仙境，缙云仙都！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BA%BA%E9%97%B4%E4%BB%99%E5%A2%83%EF%BC%8C%E7%BC%99%E4%BA%91%E4%BB%99%E9%83%BD%EF%BC%81",
+      "published": "Wed, 25 Mar 2026 17:22:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "原来仙侠剧里的场景真实存在！ 缙云仙都地处浙江丽水的缙云县，唐天宝年间，唐玄宗李隆基听闻此地祥云缭绕、仙乐轻扬，不禁感叹：“真乃仙人荟萃之都”，遂御笔亲题，改缙云山为仙都山，赐名沿用至今。 春日踏访，见“天下第一笋”鼎湖峰拔地擎天，九曲练溪蜿蜒流淌，十里画廊雾影朦胧，朱潭山晨雾漫桥。风拂草木含香，云绕峰岩生韵，一草一石皆藏古意，一步一景宛若春诗，不负千年盛名。 #缙云仙都 #丽水 #治愈系风景 #旅行 #地理君带你发现中国 &lt;&gt; 文章原文",
+      "key_points": [
+        "#缙云仙都 #丽水 #治愈系风景 #旅行 #地理君带你发现中国 &lt;&gt; 文章原文",
+        "唐天宝年间，唐玄宗李隆基听闻此地祥云缭绕、仙乐轻扬，不禁感叹：“真乃仙人荟萃之都”，遂御笔亲题，改缙云山为仙都山，赐名沿用至今"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "线性世界的崩坏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%BA%BF%E6%80%A7%E4%B8%96%E7%95%8C%E7%9A%84%E5%B4%A9%E5%9D%8F",
+      "published": "Wed, 25 Mar 2026 16:55:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "Prompt",
+        "A+",
+        "A++",
+        "A+++"
+      ],
+      "summary": "《线性世界的崩坏---写一篇没什么人看的文章》 我们早已经习惯了的那个线性世界并非从来如此，而且我的看法是它正在快速崩坏。 小时候我偶尔动过一个念头：为什么我们上学的时间刚好和父母上班的时间一样长呢？每日学校教育需要 8 个小时吗？现在我理解学校是一种人道的托儿所，把孩子限制在学校里 8 小时，这样方便父母可以不受打搅地工作 8 小时。在不人道的早期版本里，孩子们被送去工厂做童工和学徒，用自己的劳动挣回自己的保育费。 顺着这个思路想下去，学童每天在学校里待满 8 小时并不是一个必然选项，一定存在更高效的知识学习方式…",
+      "key_points": [
+        "《线性世界的崩坏---写一篇没什么人看的文章》 我们早已经习惯了的那个线性世界并非从来如此，而且我的看法是它正在快速崩坏",
+        "一个 AI 大模型，我认为线性世界还能维系很久。但现在明显不是，AI 不知道厌倦，玩 AI 的人也不知道厌倦，迟早会有足够多的人学习、接受 AI 的新玩法，并且…",
+        "首先我们不需要这么想，其次我们不需要这么做，最后我们不需要用到这么多人。在极限情况下，一个人借助合适的模型就可以独立完成，他真正有价值的地方在于知道怎么游荡，在…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "梅毒在中国的60年： 从\"基本消灭\"到年增64万例",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%A2%85%E6%AF%92%E5%9C%A8%E4%B8%AD%E5%9B%BD%E7%9A%8460%E5%B9%B4%EF%BC%9A+%E4%BB%8E%22%E5%9F%BA%E6%9C%AC%E6%B6%88%E7%81%AD%22%E5%88%B0%E5%B9%B4%E5%A2%9E64%E4%B8%87%E4%BE%8B",
+      "published": "Wed, 25 Mar 2026 08:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "articles",
+        "HIV",
+        "pmc.ncbi.nlm.nih.gov",
+        "CDC",
+        "pubmed.ncbi.nlm.nih.gov"
+      ],
+      "summary": "3.25 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / CDC 撰 文｜ 蛇杖观察家 责编 ｜ 李珊珊 ● ● ● 梅毒正在死灰复燃， 这 已经成了 一种 全球趋势。 据世界卫生组织（ WHO）估计 ， 2022年 ，全球 有 800万15至49岁 的成年人新发感染 梅毒 ， 有 70万例先天性梅毒病例和39万例不良妊娠结局。 而 作为对照，当年全球新增的 HIV感染者约为130万。 来自世界各地的数据，正使得 这种 几乎已经 被遗忘的传染病重新走进公众视野。 2026年春…",
+      "key_points": [
+        "时任北京医学院院长胡传揆在北京科学讨论会上宣布，中国已基本消灭梅毒，我国医院门诊已经见不到早期梅毒了。一些文献估计，此后中国经历了长达约20年的“无梅期”",
+        "19 6 0年代，中国曾经一度“基本消灭”梅毒",
+        "梅毒并不难治。在其他病原体纷纷发生复杂耐药的今天，梅毒螺旋体表现得相当之“懒”，依然保持着对青霉素的高度敏感。因此，这种细菌本身非常“好杀”，诞生于上个世纪中叶…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0330-0426）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880330-0426%EF%BC%89",
+      "published": "Mon, 23 Mar 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和上班时间冲…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "你在用AI写文章吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%BD%A0%E5%9C%A8%E7%94%A8AI%E5%86%99%E6%96%87%E7%AB%A0%E5%90%97%EF%BC%9F",
+      "published": "Wed, 25 Mar 2026 18:12:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Slop",
+        "Taste"
+      ],
+      "summary": "文 ｜ 阑夕 一个观察，不一定对： 我发现被AI驯化的人有个特点，看到稍微长一点的文本，就会怀疑这是不是AI写的，并本能地想让AI来做总结。 在我的社交媒体评论区里，新粉丝也多了起来，张口闭口就是「这是不是AI写的？」 Slop和Taste，是AI时代被频繁提及的两个概念。 翻译过来，就是泔水和品味，它们看似针锋相对，但很多时候其实是一体两面。 就像我经常看到，有人刚刚大赞Taste在AI时代有多重要，转头就把一条Slop搬到群里，浑然不觉其中矛盾。 在我看来， AI带来的最大错觉，是让没脑子的人，以为自己也有脑子…",
+      "key_points": [
+        "需要我帮你出一版更加犀利、简洁的文章吗",
+        "和菜头前段时间也写过一篇文章「机器永不眠」，意思是在写作上去和机器卷效率是毫无意义的，AI可以让写东西变得简单、高效和自动化，但真正让他感到愉悦的，是在写作中遇…",
+        "在很多人看来，写作是一件负担，是很辛苦的生产工作，因为自己自小如此，所以便不可能有人把写作视为乐趣，怎么可能会有人主动投入那么多的时间、写这么长的文章，要么是A…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么有些鱼类可以既有鳃又有肺，而海洋中的哺乳动物却进化不出来呢?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788604",
+      "published": "Sun, 22 Mar 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Law",
+        "mg",
+        "Ram",
+        "Ventilation",
+        "carpio",
+        "Cyprinus"
+      ],
+      "summary": "祥昊， 哎，本来我是来看段子的，现在好了，段子看我。 查看知乎原文 这个问题曾经有个鲸鱼问过我， 它说它厌倦了每天半夜起夜喘气的日子，想换个鳃。 我告诉他，你得相信科学，你得学数学。 它说我有病。 我说你连鳃怎么工作都不知道，就想着换这玩意，能换明白吗？ 它继续说我有病。 最后我还是给他讲了鱼鳃，打消了它的念头。 鱼鳃和肺的工作原理其实差不多。 核心都是气体跨膜交换，遵循菲克定律。 简单说就是浓度高的氧气 / 二氧化碳会优先往浓度低的自由扩散。 所以要想效率高，和水的接触面积就要大。 鱼鳃主要分三部分， 外侧鳃耙用…",
+      "key_points": [
+        "不少鱼类鳃小片与鳃丝发生融合。以满足高速游泳的氧气需求 而像鲸鲨（Rhincodon typus）， 则是采用了二者结合的方案， 既通过滤食降低能耗，又通过撞击…",
+        "我们可以通过缩放定律（Scaling Law）来简单估算下， 由于海洋哺乳动物比多数鱼大， 把鱼线性放大十倍，没问题吧",
+        "鳃确实是一个很不错的器官，为啥没有哺乳动物再进化出来呢"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "中国可能成为首个建成商业反应堆的国家 | 经济学人科技",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%AD%E5%9B%BD%E5%8F%AF%E8%83%BD%E6%88%90%E4%B8%BA%E9%A6%96%E4%B8%AA%E5%BB%BA%E6%88%90%E5%95%86%E4%B8%9A%E5%8F%8D%E5%BA%94%E5%A0%86%E7%9A%84%E5%9B%BD%E5%AE%B6+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A7%91%E6%8A%80",
+      "published": "Sun, 22 Mar 2026 16:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "is",
+        "in",
+        "fusion",
+        "China"
+      ],
+      "summary": "本文选自经济学人20260321期科技板块 Science &amp; technology | Chasing the sun 科技 | 逐日之旅 China is a serious contender in the race for fusion energy 中国是核聚变能源竞赛中的有力竞争者 Could it be the first to build a commercial reactor? 它会成为首个建成商业反应堆的国家吗？ THE STORY of Kuafu is a classic of C…",
+      "key_points": [
+        "它会成为首个建成商业反应堆的国家吗",
+        "本文选自经济学人20260321期科技板块 Science &amp; technology | Chasing the sun 科技 | 逐日之旅 China…",
+        "夸父逐日是中国神话中的经典传说。这位力大无穷的巨人，双臂缠绕巨蟒，翻山越岭、日夜不息地追逐那炙烤族人的太阳。如今，他的壮举已成为探索精神与无畏勇气的象征；中国已…"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "platform": "ezindie",
+      "source": "ezindie",
+      "source_url": "https://www.ezindie.com/feed/rss.xml",
+      "title": "独立开发变现周刊（第145期） : 世界上最好的简历生成器，年收入 250 万美元",
+      "title_zh": null,
+      "url": "https://www.ezindie.com/weekly/issue-145",
+      "published": "Fri, 16 Aug 2024 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "分享独立开发产品变现相关有价值的内容，每周五发布。世界上最好的简历生成器，年收入 250 万美元",
+      "key_points": [
+        "每周五发布。世界上最好的简历生成器，年收入 250 万美元"
+      ]
+    }
+  ]
+}
