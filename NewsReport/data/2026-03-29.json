@@ -1,0 +1,844 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-03-29T01:00:06.074490+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 140,
+    "fresh_candidates": 62,
+    "backfill_candidates": 78,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-03-29",
+      "fetched_at": "2026-03-29T01:00:05.735912+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3913.72,
+          "change": 24.64,
+          "change_pct": 0.63,
+          "volume": 561342963.0,
+          "amount": 79969643.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4495.17,
+          "change": 117.31999999999971,
+          "change_pct": 2.68,
+          "prev_close": 4377.85,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-03-28 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 998.5091558827784,
+          "change": 26.060214445319616,
+          "change_pct": 2.6798542663636216,
+          "prev_close": 972.4489414374588,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-03-28 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-03-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "生猪的机会",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2299425930/381612513",
+      "published": "Sat, 28 Mar 2026 15:00:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "put",
+        "put11500",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今年肯定是有机会的，短期只能小仓位跟踪，耐心等待更加极端的价格，远月升水2000-3000个点，本身就对多头很不利，我个人的判断是远月再跌1000个点可以重仓，再跌1500甚至2000个点也不是没有可能。 11和01合约如果能到12000甚至11000是最佳的进场时机，估计很多人都觉着到不了，不过市场往往会超出很多人的预期。当然能不能到，还要看政策因素和养殖场养殖户的亏损承受能力。 现在远月价格我觉着有点鸡肋，因为按照现在的去库情况看，远月我估摸着最高点可能在16000左右，现在才3000个点空间，而往下可以打到1…",
+      "key_points": [
+        "我印象里前段时间被炒的很高，最近也冷下来了，跟持续走低的猪价和快速上涨的饲料有关，很多人已经不敢补栏了，这是好事有利于母猪的快速去化。猪仔开始亏钱意味着二育减少…",
+        "羊肉牛肉鸡蛋等价格走低不利于生猪的需求，反过来绝对低的生猪价格又会刺激需求。烤肠烤肉香肠等肉制品在低价时需求会增加。冻品入库也是很好的参考点，各种成本按8%算，…",
+        "我不认为下半年会有太大的行情，高点16000就是我的目标了，所以才说现在有点鸡肋，当然如果远月跌到一万一二就是不错的机会了"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【2026.03.28-兴业银行年报解读(1)】",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3802738237/381613665",
+      "published": "Sat, 28 Mar 2026 15:00:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "APP",
+        "ETF",
+        "http",
+        "SH601166",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$兴业银行(SH601166)$ 作为一个持仓兴业银行长达3年的老股东，肯定是希望兴业银行能够保持并永久成为一家优秀的银行。爱之深才会责之切，然而希望一次次变成失望。这个失望在周四晚上没等到年报之后爆发，在次日听了几分钟无聊的业绩说明会之后达到顶点。周末心情平复下来，把财报也读得差不多了， 对其2025年财报的评分为70分，看在5.7%股息率的份上，打算继续持有 。今天的帖子换个方式来写，先把我认为财报中几个重要的点写出来，抛砖引玉，希望更多大V来帮我解惑。至于全面系统的分析今天我写不完，后面慢慢搞。 【1】投资收…",
+      "key_points": [
+        "肯定是希望兴业银行能够保持并永久成为一家优秀的银行。爱之深才会责之切，然而希望一次次变成失望。这个失望在周四晚上没等到年报之后爆发，在次日听了几分钟无聊的业绩说…",
+        "【1】投资收益的疑问 。2025年度兴业银行的投资收益最终定格在273.19亿，同比大幅降低88.83亿，降低24.5%。如果按单季度看，四季度简直惨不忍睹，详…",
+        "【4】股东人数 。2025年6月股价不断新高，股东人数19.13万人；25年三季度开始从高位回调，股东人数变成21.79万人；我前面写过帖子，25年三季度主力卖…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "记录下平安集团25年",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3552430478/381585190",
+      "published": "Sat, 28 Mar 2026 14:58:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CSM",
+        "gpu",
+        "http",
+        "ppt",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "1、挣钱方面，算个总账，营收万亿，营运利润/归母利润口径都是1300～1400亿的范围，分红2.7元/股*181亿股本=490亿，35%+的分红率； 2、家底方面，资产端，剔除银行后，公司可投资产6.5万亿，权益投资占比25%，本期股票和权益型基金持仓同比翻倍。净资产端，剔除银行后，为0.55万亿。公司撬动11+倍杠杆； 3、挣钱方式方面，公司总投资收益率毛估约4%+，负债端打平收益率2%，净赚2%+；6万亿*2%≈1200亿，再加上净资产部分的投资收益、银行的收益、一些亏损，再扣税，大致和1400多亿对得上账；…",
+      "key_points": [
+        "算个总账，营收万亿，营运利润/归母利润口径都是1300～1400亿的范围，分红2.7元/股*181亿股本=490亿，35%+的分红率； 2、家底方面，资产端，剔…",
+        "7、平安健康（平安好医生）的年报和业绩会俺也看了，辗转好几年，公司找到了清晰的战略方向（四个到，特别是到企业务），也开始释放利润了。何总说话挺接地气的"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "一次不足0.1倍PB的投资",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1340904670/381594554",
+      "published": "Sat, 28 Mar 2026 14:58:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "http",
+        "PE",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "陈嘉禾 九圜青泉科技首席投资官 这两天，我的好友许树泽找我聊天，问了我一个奇怪的问题：“如果一个股票没有利润、也没有股息，但是市净率很低，你会投资吗？” 我的回答直截了当、又带点开玩笑：“你得告诉我具体是哪个公司才行。你这么问，就好比告诉我一堆身高体重的数据，然后就问我会不会和一位女士谈恋爱，我没法回答你，一定得先看看是谁才行。” 玩笑归玩笑，由是想起来我在2024到2025年之间做的一次投资，的确属于这种“没有利润和股息、但是市净率特别低、买了一大堆不产生利润的资产”的情况。 由于所投资的标的完全没有利润，并不属…",
+      "key_points": [
+        "就是一次不足0.1倍PB的神奇投资经历。在这次投资中，我有过彷徨、有过犹豫、犯过错误（还不止一次犯错，0.09倍PB的时候下手太轻、后来又卖得太早）。当一切尘埃…",
+        "并不属于传统意义上“又好又便宜的公司”，因此那次投资给我带来的感觉非常特殊。今天，就让我来聊聊我在2024年到2025年之间做的这次特别的、估值不足0.1倍PB…",
+        "东风集团股份的私有化方案落实。当我在2025年8月8日、以0.25倍PB的价格卖出最后一笔持股以后，第二天公司股票停牌，随即宣布私有化方案。（我就是有这么倒霉，…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "市场又难了？不妨把波动视作长期路上的“压力测试”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B8%82%E5%9C%BA%E5%8F%88%E9%9A%BE%E4%BA%86%EF%BC%9F%E4%B8%8D%E5%A6%A8%E6%8A%8A%E6%B3%A2%E5%8A%A8%E8%A7%86%E4%BD%9C%E9%95%BF%E6%9C%9F%E8%B7%AF%E4%B8%8A%E7%9A%84%E2%80%9C%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95%E2%80%9D",
+      "published": "Sat, 28 Mar 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：六亿居士 来源：雪球 在牛市中 ， 受情绪放大影响 ， 市场的波动会更大 。 常言道 ： 牛市多暴跌 ， 便是这个根由 。 许多新人没有经历过大波动 ， 在市场情绪的驱动下 ， 容易出现追涨杀跌 。 最近又叠加外部干扰 ， 市场波动加大 ， 对新手并不算友好 。 有不少朋友在留言时表示 ： 太难了 ， 难道又要回到几年前的场景 ？ 前些年 ， 估值被崩到历史低位时 ， 物极必反出现了多次…",
+      "key_points": [
+        "雪球三分法是雪球基于“长期投资+资产配置”推出的基金配置理念，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风险分散化…",
+        "持有者 、 定投执行者一定是难熬的 ， 但如果标的优秀 、 风偏契合 ， 此时的波动是市场的厚赐 ， 因为通过大周期估值判断的增额收益也来源于此",
+        "01 预期内的波动是厚赐 有人的地方便是江湖 ， 尤其是利益为导向的资本市场 ， 这里面充斥着极为复杂的各种要素"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人类进化为什么不卵生？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788674",
+      "published": "Fri, 27 Mar 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dL",
+        "mg",
+        "acid",
+        "uric",
+        "uricase",
+        "allantoin"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 种了什么因，就收获什么果。 卵生的人类祖先都灭绝了。 灭绝的原因，和尿酸、尿素的代谢有关。 含氮物质的代谢，可以追溯到生命诞生之初。 在过去长达 30 亿年的时间，含氮物质的最终代谢产物变化不大。 生物内有多种含氮物质，主要来源于氨基酸和核酸（如 DNA）。 其中氨基酸的代谢是最为简单的，对于早期主要生活在水环境中的生物来说，只需要脱掉氨基，排出产生的氨气就可以了。 氨基酸→氨气。 其他含氮物质，大多也可以经过多个步骤转化成氨气排出。 其中来自核酸的嘌呤最为特殊。 它是…",
+      "key_points": [
+        "从某种意义上来说，不是人类不进化为卵生，而是卵生的人类远祖都灭绝了",
+        "人类祖先与食肉目（共属北方真兽高目）分野后，尿酸酶逐渐减弱，直到最终消失（灰色部分，类人猿几次关键突变） 由于这一时期的类人猿生活在果实丰富、低盐的环境中，高尿…",
+        "氨基酸 / 核酸（嘌呤）→氨气 除此之外，早期的多细胞动物进化出了肾管 / 肾脏为中心的泌尿系统，来调节体内离子平衡"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "是奴隶主养活了奴隶，还是奴隶养活了奴隶主？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788669",
+      "published": "Thu, 26 Mar 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "our",
+        "B.",
+        "black",
+        "family",
+        "in",
+        "Labor"
+      ],
+      "summary": "风雪之屋， 天下大势，浩浩汤汤 查看知乎原文 严格来说，内战前，南方大量奴隶主都持有此类观点。 黑奴最仁慈的父亲(大嘘) 在当时，奴隶主普遍形成了一种自我感动式父权制的道德逻辑： “我们身为奴隶主，对黑人的恩情是他们永远还不完的。” 这种观念在当时的南方精英中十分流行。比如，政治领袖约翰·卡尔霍恩就曾宣称，奴隶主对奴隶的照顾是一种“家长责任”，因为许多黑人“智力低下，无法像自由人一样自立”，因此需要白人主人的引导与庇护。南卡罗来纳的参议员詹姆斯·亨利·哈蒙德更是提出了所谓“社会泥底”论，公然声称：“任何社会都必须有…",
+      "key_points": [
+        "奴隶主普遍形成了一种自我感动式父权制的道德逻辑： “我们身为奴隶主，对黑人的恩情是他们永远还不完的。” 这种观念在当时的南方精英中十分流行。比如，政治领袖约翰·…",
+        "南方教会的神学家与牧师也为此构建了一套完整的“神学辩护”。他们反复引用《圣经》中的经文——从诺亚诅咒迦南为奴，到摩西律法允许购买外邦人为永久产业，再到新约中保罗…",
+        "奴隶主们不断强调： “如果不是我们把他们从贫穷野蛮的非洲带到富裕的美国，他们怎能听到福音、过上文明生活？他们在这里吃得比在非洲好得多，穿得暖、有保障，还有什么可…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "捏住老虎的后颈肉，它会像猫咪一样乖巧顺从吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788662",
+      "published": "Thu, 26 Mar 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PIBI",
+        "Cat",
+        "of",
+        "Pozza",
+        "Veterinary",
+        "AAFP"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 2008 年，俄亥俄州立大学兽医学院的学生梅根·波扎（Megan Pozza）从文具店买了一盒两英寸的长尾夹，带到了学校的兽医教学医院 [1] 。 她把这些办公用品夹在了猫的后脖子上。 波扎和她的导师注意到一个兽医们私下都知道、但从没被正式研究过的现象： 你捏住猫的后颈皮，它就不动了。很多兽医剪指甲、抽血的时候都靠这一手。 但这个技巧到底有多可靠，背后是什么机制，一直没有人认真测过。 于是波扎决定用最朴素的方式来做这个实验：文具店长尾…",
+      "key_points": [
+        "cats show signs of fear-anxiety during such interactions, which should be avoide…",
+        "一头 200 多公斤的老虎也不会因为你捏了它的后颈就变成一只大号布偶猫。它更可能的反应是回头看看你在干什么，然后做出它认为合理的回应…… 你懂的",
+        "波扎和她的导师注意到一个兽医们私下都知道、但从没被正式研究过的现象： 你捏住猫的后颈皮，它就不动了。很多兽医剪指甲、抽血的时候都靠这一手"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从成本中心到利润引擎：产品经理视角下的乳业AI+ISC全景方案",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6364914.html",
+      "published": "Sat, 28 Mar 2026 12:57:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ISC",
+        "AI+ISC",
+        "amp",
+        "KPI",
+        "OP"
+      ],
+      "summary": "乳制品行业正面临短保质期、长供应链、高需求波动三大核心挑战，传统供应链管理模式已无法应对千亿级企业的运营需求。本文深度解析AI如何赋能ISC集成供应链战略，通过智能预测、动态调拨和全链路协同，将供应链从成本中心转变为利润中心，为乳企提供可落地的转型升级方案。 在全球乳制品行业迈向规模化、数字化、品牌化的发展浪潮中，我国头部乳制品企业已迈入千亿营收规模，市场竞争从单一品牌、渠道、产品竞争，升级为全链路供应链能力的终极竞争。 乳制品行业具备 短保质期、长供应链、高需求波动 三大天然属性，传统分散式、分段式、经验驱动的供…",
+      "key_points": [
+        "二、ISC战略：从成本中心到利润中心的价值升维 2.1 产品经理视角的ISC核心定义 ISC集成供应链并非简单的流程优化或系统升级，而是 以用户终端需求为核心、…",
+        "唯有以 AI+ISC 集成供应链为核心引擎，才能真正实现供应链从成本中心到利润中心的转变，为企业高质量发展、全球化布局筑牢最坚实的底层支撑，在千亿赛道中行稳致远…",
+        "AI+ISC 是应对短保、长链、波动三大行业痛点的 唯一解决方案 ，AI实现的精准预判与智能决策，是传统人工模式无法企及的； 第二， AI+ISC 是实现从成本…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "钉钉Design CLI测评：钉钉小程序开发必备神器",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6365162.html",
+      "published": "Sat, 28 Mar 2026 11:23:24 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CLI",
+        "Design",
+        "ding",
+        "npm",
+        "API",
+        "CD"
+      ],
+      "summary": "最近一直在关注企业级开发工具的新动向，发现钉钉开放平台推出了一个叫 Design CLI 的命令行工具。说实话，刚开始我以为又是那种配置复杂、文档不全的”半成品”开源项目——毕竟大厂开源的工具，懂的都懂。结果试了一下发现，这玩意儿居然能让开发者 5 分钟搭起一个小程序开发环境，还支持热更新和真机调试。这个定位挺清晰的，明显是冲着”降低钉钉小程序开发门槛”去的。 一、钉钉 Design CLI 是什么？ 说实话，第一次听到 DingTalk Design CLI 这个名字，我还以为是设计师用的工具。结果一查发现是钉钉…",
+      "key_points": [
+        "评分（满分 5 星） 维度 评分 评价 易用性 ⭐⭐⭐⭐ 命令简洁，文档清晰，上手门槛低 功能性 ⭐⭐⭐⭐ 覆盖小程序/H5/组件三种类型，功能完整 稳定性 ⭐…",
+        "发现钉钉开放平台推出了一个叫 Design CLI 的命令行工具。说实话，刚开始我以为又是那种配置复杂、文档不全的”半成品”开源项目——毕竟大厂开源的工具，懂的…",
+        "用户类型 使用场景 价值点 钉钉小程序开发者 快速搭建开发环境、本地调试 标准化工具链，降低配置成本 企业 IT 开发人员 开发企业内部微应用 与钉钉生态深度集…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我把AI接进了自己做的产品——踩了四个坑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6364715.html",
+      "published": "Sat, 28 Mar 2026 09:16:04 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Key",
+        "Copilot",
+        "AI",
+        "API",
+        "CORS",
+        "env"
+      ],
+      "summary": "从技术小白到产品思考者，一次API对接的曲折历程揭示了产品开发的深层逻辑。本文通过四个真实踩坑案例，揭秘开发者面对API Key配置、前后端通信、CORS跨域和数据处理时遇到的技术障碍如何转化为产品设计洞察，展现从概念验证到MVP落地的关键跃迁。 我以为这很简单 大概半小时的事。 然后我花了一整天。 踩了四个坑，每一个坑在当时都觉得是末日，回头看每一个都是必修课。 第一个坑：API Key放哪里 调用AI的API，第一步是要有一个Key——相当于你的身份证，证明你有权限调用这个服务。 我拿到Key之后，第一个问题出…",
+      "key_points": [
+        "一次API对接的曲折历程揭示了产品开发的深层逻辑。本文通过四个真实踩坑案例，揭秘开发者面对API Key配置、前后端通信、CORS跨域和数据处理时遇到的技术障碍…",
+        "这件事让我意识到的第三个产品问题： CORS是一个纯粹的工程配置问题，但它暴露了一个更深层的产品问题：开发环境和生产环境的差异",
+        "第四个坑：返回的格式和前端对不上 后端返回数据了"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Lark CLI测评：让 AI 直接操作飞书的秘密武器",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6365150.html",
+      "published": "Sat, 28 Mar 2026 08:28:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CLI",
+        "Lark",
+        "Agent",
+        "API",
+        "Skill"
+      ],
+      "summary": "最近我一直在研究怎么让 AI Agent 真正能干实事，不只是聊聊天。然后发现了飞书刚开源的 Lark CLI，说实话一开始没抱太大期待——企业开源的工具嘛，你懂的，多半是那种文档不全、配置复杂的开发者玩具。结果试了一下，发现这玩意儿居然内置了 19 个 AI Skill，能让 AI 直接操作飞书发消息、建文档、查日程。这个定位挺有意思的，明显是冲着”AI 原生”去的。 一、Lark CLI 是什么？ 说实话，第一次听到 Lark CLI 这个名字，我还以为是某个开发者自己捣鼓的小工具。结果一查发现是字节跳动飞书团…",
+      "key_points": [
+        "最近我一直在研究怎么让 AI Agent 真正能干实事，不只是聊聊天。然后发现了飞书刚开源的 Lark CLI，说实话一开始没抱太大期待——企业开源的工具嘛，你…",
+        "✅ 需要让 AI 助手操作飞书的开发者 ✅ 需要自动化飞书操作的 DevOps 工程师 ✅ 需要批量处理飞书数据的企业 IT 管理员 ❌ 只是偶尔发消息的普通用…",
+        "AI Agent 原生支持（最大亮点） 内置 19 个结构化 Skill，AI 助手可以直接调用飞书的日历、消息、文档、表格、任务、会议等功能。这意味着你的 A…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "把市场的交给市场，外卖竞争不会停也不能停",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6364841.html",
+      "published": "Sat, 28 Mar 2026 08:16:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPI",
+        "App",
+        "B2B",
+        "CEO",
+        "Effect"
+      ],
+      "summary": "外卖大战引发的监管风暴与资本狂欢背后，隐藏着即时零售万亿赛道的战略升级。美团、京东、阿里三大平台从佣金战转向技术战，不仅重构了65:33:2的垄断格局，更通过AI调度系统与全品类扩展，将竞争维度提升至产业效率与生态协同层面。本文深度解析补贴大战如何意外激活8亿用户的即时消费潜力，并重塑餐饮、零售、物流的底层商业逻辑。 这两天，国家市场监督管理总局官网转发了一篇经济日报的评论文章《外卖大战该结束了》，引起广泛热议。 很快资本市场也做出了反应，3月25日美团涨幅最高超过20%，截至收盘美团大涨13.92%，京东上涨4.…",
+      "key_points": [
+        "“大战”听起来似乎带着些硝烟和牺牲，但竞争本身始终是推动行业进步的重要力量。监管和政策划出竞争的底线，把市场的问题交给市场去解决，外卖大战可以停，但竞争不会停",
+        "让监管的归监管 当然，我也很能理解经济日报《外卖大战该结束了》文章提到的核心忧虑，是担心补贴大战可能导致劣币驱逐良币、扰乱市场秩序。这个担忧不无道理，但解决方案…",
+        "不仅带来了增量增长和创新推动，也在一定程度上打破了行业长期以来的垄断格局，是零售电商行业正常的、常态化的良性市场竞争，不能以原文中提到的反映我国居民消费价格的C…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么中国人一年只擦一次窗",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%80%E5%B9%B4%E5%8F%AA%E6%93%A6%E4%B8%80%E6%AC%A1%E7%AA%97",
+      "published": "Sat, 28 Mar 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AWE"
+      ],
+      "summary": "来不及解释了，先抽奖！ 天街小雨润如酥，草色遥看近却无， 最是一年春好处……天气预报明明说今日春光明媚，怎么只有我家雾霾？！ 哦，原来是我家玻璃太脏了。 经历了前两天扬沙加春雨的洗礼， 雨痕、灰痕、泥点子再混合一些杨柳絮和疑似星星点点疑似鸟屎状物…… 窗外 好春光，透过窗就变成一片灰败惨淡。 这时候就有聪明的朋友要说了， 你不擦窗户，还怪天刮风下雨？ 是没错， 可擦窗户是个“力气活+技术活”，尤其是我家还住22楼！我妈想擦我也不敢让她擦啊！ 只有每年过年扫尘，才舍得请保洁来擦擦，一次小几百，春天一场雨就又脏了……为…",
+      "key_points": [
+        "才舍得请保洁来擦擦，一次小几百，春天一场雨就又脏了……为什么不经常擦擦，是我不想吗",
+        "草色遥看近却无， 最是一年春好处……天气预报明明说今日春光明媚，怎么只有我家雾霾",
+        "擦窗机一年就要卖几万台（想想俄罗斯那个恶劣的天气）"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "豆腐长白毛是地方小吃，长彩毛只会让你成为绝命毒师",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B1%86%E8%85%90%E9%95%BF%E7%99%BD%E6%AF%9B%E6%98%AF%E5%9C%B0%E6%96%B9%E5%B0%8F%E5%90%83%EF%BC%8C%E9%95%BF%E5%BD%A9%E6%AF%9B%E5%8F%AA%E4%BC%9A%E8%AE%A9%E4%BD%A0%E6%88%90%E4%B8%BA%E7%BB%9D%E5%91%BD%E6%AF%92%E5%B8%88",
+      "published": "Sat, 28 Mar 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DOI",
+        "Pixabay",
+        "DNA",
+        "guokr.com",
+        "GuokrNature",
+        "ID"
+      ],
+      "summary": "“诶诶诶阿姨，这个是我要卖的霉豆腐，不能捏的，你捏了我卖不了了哇。” “捏一下怎么了！那我买了嘛~” “刁蛮”的顾客，“无奈”的摊主，和上头的我。这些视频让我在不知道霉豆腐什么味儿的年纪，就熟练掌握贩卖霉豆腐的高级技巧。 但最近掀起的“霉豆腐自制大赛”，实在是让我有点害怕了。因为自制的画风已经逐渐跑偏，朝着“微生物鉴定大赛”和“养蛊手册”的方向发展了！ 自制霉豆腐失败案例大赏丨小红书 更有人晒出自制的花花绿绿的霉豆腐，还在卖！被网友称为“绝命毒师”。 网友晒出的自制霉豆腐丨抖音 这些豆腐真的还能吃吗？丨闪电新闻 一…",
+      "key_points": [
+        "自制霉豆腐失败案例大赏丨小红书 更有人晒出自制的花花绿绿的霉豆腐，还在卖！被网友称为“绝命毒师”",
+        "白毛其实是真菌的菌丝丨Pixabay 为什么有人的霉豆腐是白白的胖宝宝，有人的霉豆腐就是五颜六色的？想要搞清楚这个问题，首先得分辨这颜色究竟来自 真菌 ，还是来…",
+        "那些白毛可是活的微生物，操作时，不仅要注意别让环境中你不想要的菌污染你的豆腐，还要防止这些白毛从容器中越狱，在你的家中安营扎寨"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "外网2500万浏览的“容貌焦虑漫画”引发热议，我们该如何定义美？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%96%E7%BD%912500%E4%B8%87%E6%B5%8F%E8%A7%88%E7%9A%84%E2%80%9C%E5%AE%B9%E8%B2%8C%E7%84%A6%E8%99%91%E6%BC%AB%E7%94%BB%E2%80%9D%E5%BC%95%E5%8F%91%E7%83%AD%E8%AE%AE%EF%BC%8C%E6%88%91%E4%BB%AC%E8%AF%A5%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E7%BE%8E%EF%BC%9F",
+      "published": "Sat, 28 Mar 2026 16:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "tiktok",
+        "ACG",
+        "cosplay",
+        "ID",
+        "Skylla",
+        "wuhu"
+      ],
+      "summary": "文：山茶茶 在这个看脸的时代，容貌焦虑一直困扰着许多人。 而放在ACG圈子里，不止是cosplay爱好者们深受影响，就连声优、漫画作者、轻小说作者也愈发偶像化，有人不仅要求他们专业技能强大，长相也得好看。 比如曾有日本网友组织过一场相关投票，问人们是否对相貌平平的同人志画师抱有负面情绪。 最终总共3万多人参与了投票，其中30%，也就是将近1万人表示不喜欢。 这场投票活动发生在2017年，但几乎10年之后的现在，人们的容貌焦虑似乎没有得到太多缓解。 最近，在tiktok日语区，一种奇怪的漫画突然开始流行起来。 它们都…",
+      "key_points": [
+        "一些和“外貌讽刺漫画”中的角色有着相似脸型的女生因此遭到嘲讽，或者是在拍照时被半开玩笑地邀请站在最后排，导致原本并不讨厌自己长相的人患上了容貌焦虑",
+        "大家其实全都是平地起高楼，在容貌焦虑的影响下疯狂地相互攀比，你画浓妆我就画更浓的妆，你做手术我也做手术，最后在整形的道路上越走越远",
+        "但下面也有人替博主说话： ——被评价长得可爱的人难道就不能有自己的容貌焦虑么"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "笑不活了，天价的祖母绿，被中国人给打下来了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%AC%91%E4%B8%8D%E6%B4%BB%E4%BA%86%EF%BC%8C%E5%A4%A9%E4%BB%B7%E7%9A%84%E7%A5%96%E6%AF%8D%E7%BB%BF%EF%BC%8C%E8%A2%AB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%BB%99%E6%89%93%E4%B8%8B%E6%9D%A5%E4%BA%86%EF%BC%81",
+      "published": "Sat, 28 Mar 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "amp",
+        "mp.weixin.qq.com",
+        "Glory",
+        "article",
+        "biz"
+      ],
+      "summary": "无论哪个时代的女人，都无法抵挡诱惑珠宝的诱惑。尤其是—— 世界五大宝石中的： 红宝石 、 蓝宝石 、 祖母绿 。 它们是 奢品的第一梯队宝石 。圈中一直认为，如果你爱的明星在活动中佩戴了大品牌的第一梯队宝石，那就代表品牌对明星的认可和喜爱！ 镶有11颗哥伦比亚梨形祖母绿宝石王冠，创下了祖母绿王冠的拍卖记录丨thejewelleryeditor.com 大家喜爱的红、蓝宝石、祖母绿往往价值不菲， 一颗甚至贵到10万、20万+，喜欢是喜欢，但是根本高攀不起。 过于昂贵日常也舍不得戴，怕不小心有了磕碰，甚至遗失，使用率很…",
+      "key_points": [
+        "G·C Glory培育宝石系列 129元起 礼盒装带证书 戳图👇购买 培育祖母绿系列 一看到这么多的祖母绿大宝石首饰，女同事比我还激动，太大太壕奢了",
+        "森林之眼·项链 ： 399元（1.2克拉经典祖母绿） 主石采用 经典的祖母绿切割 ，尽大程度的把宝石光泽呈现",
+        "切割做工很干净透彻，培育宝石透光闪耀， 有 项链、耳钉、项链、戒指…… 满足你喜欢的祖母绿切风格"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "你可能也低估了斯科塞斯的这部作品",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B9%9F%E4%BD%8E%E4%BC%B0%E4%BA%86%E6%96%AF%E7%A7%91%E5%A1%9E%E6%96%AF%E7%9A%84%E8%BF%99%E9%83%A8%E4%BD%9C%E5%93%81",
+      "published": "Sat, 28 Mar 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "Hoberman",
+        "hongmomgs",
+        "irisfilm",
+        "J.",
+        "MTV"
+      ],
+      "summary": "作者：J. Hoberman 译者：易二三 校对：覃天 来源：Sight &amp; Sound（1992年2月刊） 年轻时候的让-吕克-戈达尔在谈到尼古拉斯·雷时说，如果电影不再存在，只有雷能够创造它——而且，更重要的是，他想要创造。纵观当前的美国导演，马丁·斯科塞斯大概也配得上这种盛赞。 史蒂文·斯皮尔伯格赚了更多的钱，伍迪·艾伦获得了更多的嘉奖，奥利弗·斯通（曾是斯科塞斯的学生）收获了更多的头条新闻——但都没有比他拍出更好的电影。斯科塞斯是好莱坞最有大师相的导演：是好莱坞最痴迷于电影胶片、最一心一意的电影人，…",
+      "key_points": [
+        "如果一位不知名的导演拍摄了这部《恐怖角》，它可能会被誉为一个令人印象深刻的新人佳作。(但斯科塞斯不是25岁的人了，他不可能重塑古老的类型，而且不止一个观察家将《…",
+        "拉弗蒂重提了对原作的评论——1962年在《纽约客》上的简短文字：「每个人都应该为自己感到羞愧，因为他们试图从笨拙地投身于性病理的过程中获取大量的金钱。」而钱已经…",
+        "《铁钩船长》（1991） 这种病理学剖析的缺失似乎让斯科塞斯感到内疚。「我觉得我拍的很多影片都挺好的，」他最近接受《首映》杂志的采访时说。「但它们不是《搜索者》…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "9.3分，难以超越的国产悬疑剧巅峰",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+9.3%E5%88%86%EF%BC%8C%E9%9A%BE%E4%BB%A5%E8%B6%85%E8%B6%8A%E7%9A%84%E5%9B%BD%E4%BA%A7%E6%82%AC%E7%96%91%E5%89%A7%E5%B7%85%E5%B3%B0",
+      "published": "Sat, 28 Mar 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "XX"
+      ],
+      "summary": "文 路西法尔 侦探是彻头彻尾的现代形象，在晚清开始大规模接触西洋文学之前，中国没有侦探小说只有公案小说，公案小说的主人公多是匡扶正义的清官侠客，至于调查真相则只不过走走过场。 如唐传奇中的《谢小娥传》，主人公得知真凶的名字无非是靠破解了梦中的字谜——这与讲求证据确凿、推理严密的侦探完全是南辕北辙。福尔摩斯的形象是建立在科学的意识形态已经胜利的基础上的。 民国之后，通俗文学中武侠仍然独树一帜，可见传统文化养成的兴趣口味很难改变，作为舶来品的侦探推理仍是边缘的边缘。直到21世纪初，原本处于强势的武侠文化开始走向没落，渐…",
+      "key_points": [
+        "维多利亚时代科学的突飞猛进有时反而带来了更多的罪恶与苦难：工厂获得了滚滚利润，女工却被化学原料毁容；机枪征服了庞大的殖民地，开枪的士兵却留下了难以治愈的创伤………",
+        "但我个人颇为偏爱的英剧——《开膛街》。同样是一部悬疑侦探剧，同样是一个新旧交替的时代，同样是低沉的基调，但在《开膛街》里并没有那种赤裸的技术崇拜，虽然主角里德探…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "开往春天的列车，太美了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%BC%80%E5%BE%80%E6%98%A5%E5%A4%A9%E7%9A%84%E5%88%97%E8%BD%A6%EF%BC%8C%E5%A4%AA%E7%BE%8E%E4%BA%86%EF%BC%81",
+      "published": "Sat, 28 Mar 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "fff",
+        "S2"
+      ],
+      "summary": "fff 当下正值三月末，京津冀等地已然入春，街头巷尾的玉兰悄然绽放，柳枝抽出嫩绿的新芽。广东、广西的部分地区，甚至已提前嗅到了初夏的气息。暖风拂面，阳光里有了几分热意。神州大地，春意正浓，繁花似锦。不如寻一列开往春天的火车，从北疆到南国，穿行于无边的花海之中——岭南的梅花如粉色的云霞，轻笼山野；异木棉开得热烈，绯红满枝，像燃烧的晚霞；云贵高原上的油菜花铺展成金色的海洋......这都是春天最明亮的模样。轻轨掠过城市，高铁飞驰田野，慢火车蜿蜒山间，速度不同，风景却同样动人。这一程，不只是风景，更是被花海簇拥的温柔时光…",
+      "key_points": [
+        "京津冀等地已然入春，街头巷尾的玉兰悄然绽放，柳枝抽出嫩绿的新芽。广东、广西的部分地区，甚至已提前嗅到了初夏的气息。暖风拂面，阳光里有了几分热意。神州大地，春意正…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "美味当前",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%BE%8E%E5%91%B3%E5%BD%93%E5%89%8D",
+      "published": "Sat, 28 Mar 2026 11:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "beta",
+        "Bitsea",
+        "child"
+      ],
+      "summary": "我对于青春的回忆只有一个字，那就是「饿」。为什么人总是在胃口最好的年纪，口袋里只有最少的钱，总是感觉太好吃，但总是感觉没吃够？ 曾经无数次心底里恶狠狠地对自己说：等有朝一日终于有钱，我要点这样的三桌，一定要吃到扶墙离开！ 然而一位哲人曾经说过一句流传千古的名言，「一个人不可能重温青春时代的滋味，同时还能拥有青春时代的胃口」。这句话是真的，而我正在经历这一切。 和中年旧友重聚，点上一桌曾经大家最爱的菜肴，快乐和满足只存在于点菜的那一小会儿。所有的回忆，所有的美好，都在菜单上闪闪发光，频频招手。然而，一旦菜肴上桌，大家…",
+      "key_points": [
+        "这是满足的一刻，然而这同时也是极为伤感的一刻。一群头发斑白，肚腩凸起，腮上的肉逐渐下坠的人，徒劳无益地想要通过面前昔日的美味，去满足记忆里那个青春时候的自己。最…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "多喝水就能预防肾结石复发吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A4%9A%E5%96%9D%E6%B0%B4%E5%B0%B1%E8%83%BD%E9%A2%84%E9%98%B2%E8%82%BE%E7%BB%93%E7%9F%B3%E5%A4%8D%E5%8F%91%E5%90%97%EF%BC%9F",
+      "published": "Sat, 28 Mar 2026 09:31:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "SnRK1",
+        "CDKN3",
+        "com",
+        "doi.org",
+        "pixabay"
+      ],
+      "summary": "fff 3.28 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 多喝水就能预防肾结石复发吗？ 图片来源：pixabay .com 肾结石患者从医生那里得到的最多的建议就是平日多喝水，多数人可能出了医院就忘了这条医嘱。近日，杜克大学医学院Charles D Scales团队完成了一项1658名有肾结石病史且全天尿量偏低的志愿者参与的临床试验。其中，826名志愿者按照要求加大饮水量，832名志愿…",
+      "key_points": [
+        "fff 3.28 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编…",
+        "图片来源：pixabay .com 肾结石患者从医生那里得到的最多的建议就是平日多喝水，多数人可能出了医院就忘了这条医嘱。近日，杜克大学医学院Charles D…",
+        "图片来源：pixabay .com 统计显示，与女性相比，男性患皮肤鳞状细胞癌 （squamous cell carcinoma，SCC） 的风险更高。近日，瑞…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "清迈遛娃记",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E6%B8%85%E8%BF%88%E9%81%9B%E5%A8%83%E8%AE%B0",
+      "published": "Sat, 28 Mar 2026 22:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "boring",
+        "bouncetopia",
+        "btw",
+        "eight",
+        "fff",
+        "grab"
+      ],
+      "summary": "fff 3月中是新加坡中小学春季短假期，一周时间，儿子一直闹新加坡so boring，时间也不长，也不想去太远；马来柔佛州去过好几次了，也没啥新鲜好玩的。和家中领导商议，好多年没去清迈了，上一次还是十来年前带闺女去，当时体验觉得不错，带娃去清迈，还能亲近自然。 定的新加坡酷航往返，清迈定了查亚度假村，主要是价格便宜，一个晚上才230，老婆，儿子，女佣，开了两间房，抠门精预算可控。 度假村地段不算特别好，但其实清迈不大，离古城不算远，离宁夏路不远，离机场也不远，我觉得蛮方便的，grab打车也不贵。价格便宜房间面积很大…",
+      "key_points": [
+        "领导说之前没逛，想要再去一次。这两个地方完成后，打车去清迈最大商场，尚泰购物中心，主要是那里有bouncetopia，很大的儿童城堡，女佣和孩子送进去，终于有空…",
+        "fff 3月中是新加坡中小学春季短假期，一周时间，儿子一直闹新加坡so boring，时间也不长，也不想去太远；马来柔佛州去过好几次了，也没啥新鲜好玩的。和家中…",
+        "但其实清迈不大，离古城不算远，离宁夏路不远，离机场也不远，我觉得蛮方便的，grab打车也不贵。价格便宜房间面积很大，还有泳池什么的。不过目前大门前院在装修，车刚…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "我是如何构建一个 AI 原生量化系统的",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/dev/ai-native-investment-system/",
+      "published": "Sat, 28 Mar 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "DSL",
+        "MyInvestPilot"
+      ],
+      "summary": "本文记录我构建策引（MyInvestPilot）的完整历程：一个从设计之初就为 AI 而生的量化系统，从 DSL 原语引擎到混合 Agent 架构的探索与取舍。",
+      "key_points": [
+        "本文记录我构建策引（MyInvestPilot）的完整历程：一个从设计之初就为 AI 而生的量化系统，从 DSL 原语引擎到混合 Agent 架构的探索与取舍"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "构建自己的信息简报 2.0",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/self/use-rss-email-read-v2/",
+      "published": "Sat, 28 Mar 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Discord",
+        "OpenClaw"
+      ],
+      "summary": "在 Agent 时代，用 OpenClaw 与 Discord 打造每日 AI 信息简报。",
+      "key_points": [
+        "用 OpenClaw 与 Discord 打造每日 AI 信息简报"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-03-29",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "不喜欢，但尊重",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%8D%E5%96%9C%E6%AC%A2%EF%BC%8C%E4%BD%86%E5%B0%8A%E9%87%8D",
+      "published": "Wed, 25 Mar 2026 11:24:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "beta",
+        "Bitsea",
+        "chinese"
+      ],
+      "summary": "张雪峰看起来是那种会一直生猛地跑下去的人，所以昨天突然听闻他猝然而逝的消息，让我很是震惊。 我并不喜欢他，具体说是不喜欢他的那一套观点，以及他在直播间和家长形成的共谋关系，三年前还为此专门写过一篇文章《 我不喜欢张雪峰，也不喜欢教授们 》。至于说他本人，我完全不了解，只知道他有个宝贝异常的女儿，还知道他公司的春假长到夸张，也就是一些社交媒体上的碎片而已。 相反，是在他过世之后，我才对他这个人多了一些了解。主要途径说起来很好笑，是来自网络上的吵架。有些人在严厉批评他，而有的人在为他做辩护，在争吵的过程中，他们各自甩出…",
+      "key_points": [
+        "尤其是他的捐款收据之后，我对这个人态度多了一份尊重。尽管我不赞同他的很多观点，也不喜欢他在直播间里的节目形态，但这个人在那么多年里的确一笔笔捐出了很多钱，为母校…",
+        "我想人生中也存在着一种可能性：你根本不喜欢一个人，你也不赞同他的很多观点和做法，但与此同时，你也会肯定和赞美他的另外一些行为，另外一些做法，因而对他产生敬意。不…",
+        "我是那么看的：只要一个人不是大奸大恶之辈，没有做过什么人神共愤的恶行，那么在他身后就没有必要再去大加鞭挞。不是体面与否的问题，也不是传统与否的问题，单纯是这个人…"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「法国梧桐」既不来自法国，又不是真的梧桐，为啥还会叫这个名字？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788646",
+      "published": "Tue, 24 Mar 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "B...."
+      ],
+      "summary": "祥昊， 哎，本来我是来看段子的，现在好了，段子看我。 查看知乎原文 这是一颗梧桐，路边很常见，我们叫他髪国梧桐。 其实这玩意不是梧桐，甚至和梧桐没一点关系， 因为它大名叫悬铃木。 不光和梧桐没啥关系，其实和法国也没啥关系， 因为它原来叫英国梧桐。 后面的事大家也应该猜到了， 不光跟法国没啥关系，其实跟英国也没啥关系， 反倒是和美国还有点关系。 最后仔细一查，这玩意压根没原产地，是个串儿。 欢迎大家收看走近不科学——梧桐在哪里。 要说这悬铃木家族，有点惨，虽说法国梧桐随地见，但整个悬铃木科就悬铃木属这一根独苗。 家族…",
+      "key_points": [
+        "东晋（公元 401 年）胡僧引进过，叶子密，长得高，得称雅号 祛汗树， 奈何后来法国人喜欢种，东部人民不认识，看这叶子像梧桐，得，就叫法国梧桐吧",
+        "来自美利坚，叶刃宽分裂少，上下只有一个蛋，树皮开裂掉小块。叫美国梧桐",
+        "有点惨，虽说法国梧桐随地见，但整个悬铃木科就悬铃木属这一根独苗"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "对交易的思考",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/self/thinking-in-trade/",
+      "published": "Thu, 16 May 2024 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [],
+      "summary": "投资交易已十年，分析我对交易的理解。",
+      "key_points": [
+        "对交易的思考"
+      ]
+    }
+  ]
+}
