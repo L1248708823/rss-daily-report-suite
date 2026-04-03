@@ -1,0 +1,827 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03T01:00:06.077330+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 136,
+    "fresh_candidates": 65,
+    "backfill_candidates": 71,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-03",
+      "fetched_at": "2026-04-03T01:00:05.761220+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3919.29,
+          "change": -29.26,
+          "change_pct": -0.74,
+          "volume": 544212835.0,
+          "amount": 81189657.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4675.99,
+          "change": -82.11000000000058,
+          "change_pct": -1.73,
+          "prev_close": 4758.1,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-03 04:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1034.6455665118074,
+          "change": -18.16829109264245,
+          "change_pct": -1.7256888253714848,
+          "prev_close": 1052.8138576044498,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-03 04:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-03",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "赚快钱是运气，赚稳钱是能力！不中断才是真正的复利壁垒...",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%B5%9A%E5%BF%AB%E9%92%B1%E6%98%AF%E8%BF%90%E6%B0%94%EF%BC%8C%E8%B5%9A%E7%A8%B3%E9%92%B1%E6%98%AF%E8%83%BD%E5%8A%9B%EF%BC%81%E4%B8%8D%E4%B8%AD%E6%96%AD%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%A4%8D%E5%88%A9%E5%A3%81%E5%9E%92...",
+      "published": "Thu, 02 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "KAIZEN"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： KAIZEN投资之道 来源：雪球 市场里待久了 ， 你会发现一个耐人寻味的现象 ： 那些急着想 “ 一把定输赢 ” 的人 ， 往往赢在了开头 ， 却输在了结尾 ； 而那些看起来慢吞吞 、 从不追求一夜暴富的人 ， 反而笑到了最后 。 这背后藏着一个朴素的真相 —— 赚快钱 ， 多半是运气给的临时奖赏 ； 赚稳钱 ， 才是能力筑起的长期护城河 。 运气这东西 ， 来的时候汹涌澎湃 ， 走…",
+      "key_points": [
+        "巴菲特的奇迹 ， 本质上是一个关于 “ 延迟满足 ” 的朴素真理 ： 慢就是快 ， 少即是多 ， 不中断才是真正的复利壁垒",
+        "这背后藏着一个朴素的真相 —— 赚快钱 ， 多半是运气给的临时奖赏 ； 赚稳钱 ， 才是能力筑起的长期护城河",
+        "最大的启示其实是 ： 不要把运气的馈赠当成能力的证明 ， 也不要因为赚过快钱就轻视稳钱的价值"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "并购人眼中的“贵”与“便宜”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5883590123/382373766",
+      "published": "Thu, 02 Apr 2026 09:36:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "PE",
+        "Adjusted",
+        "Assets",
+        "http",
+        "Net"
+      ],
+      "summary": "中午有个兄弟给我打电话，说有个壳资源，实控人最近出了点问题，准备转让，现在整体才20亿，“很便宜”，而且老板还不要控股权溢价。 很多人听到这里，第一反应是： 壳不贵、还不加溢价，这不是捡钱吗？ 我看完标的之后，判断依然只有两个字：太贵。 简单看一眼： 每股净资产1毛多 股价接近4块 没有利润 这件事其实很典型，也正好借这个机会，聊一聊—— 在并购人的视角里，到底什么叫贵，什么叫便宜。 一、并购不看PE，这是很多人最大的误区 很多二级市场投资者，习惯用PE来衡量贵不贵。 但在并购，尤其是壳交易里，这一套基本是失效的。…",
+      "key_points": [
+        "简单看一眼： 每股净资产1毛多 股价接近4块 没有利润 这件事其实很典型，也正好借这个机会，聊一聊—— 在并购人的视角里，到底什么叫贵，什么叫便宜",
+        "在并购人眼里，可能只值三毛、甚至一毛",
+        "只有“各取所需” 最后一句话总结： 并购世界里，没有“看起来很便宜”，只有“算得清楚的便宜”"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对造船周期的一点思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8031069841/382372809",
+      "published": "Thu, 02 Apr 2026 09:36:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A+B+C",
+        "czm1288",
+        "http",
+        "SH600150",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$中国船舶(SH600150)$ 造船行业过去几年是上行周期，但是中国船舶股价几年没涨了，其中各种原因都有。我们现在从周期的角度来剖析一下。 船舶主要分为集装箱船，油轮，散货船。假设A股有三家造船公司，A公司只造集装箱船，B公司只造油轮，C公司只造散货船。 这种情况下，我相信大家都知道集装箱船涨价的时候，A公司股价会涨。同理，油轮涨价，B公司股价会涨；散货船涨价，C公司股价上涨。 但是，A股上的造船公司并不是这样业务单一的造船公司。以中国船舶为例，中国船舶相当于A+B+C，是三者的复合体。 在2022-2024年，…",
+      "key_points": [
+        "中国重工市值最低在800亿左右。中国船舶在2022-2025年的集装箱船周期中，股价范围是14-45。四年来，股价的整体中位数是30.7，打八五折是26.1，乘…",
+        "集装箱船价格迎来了持续上涨，所以中国船舶股价持续上涨。之后我们最渴望看到的是油轮来接力，但是事实是2025年从订单量和价格上来看，油轮涨价周期没有实现无缝衔接。…",
+        "造船景气周期确实没结束，但是更准确的说是，集装箱船景气周期结束了，油轮景气周期正在进行，散货船景气周期还没来。如果这样来表达，相信大家对业绩的判断和股价的判断就…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【财报】美的集团2025年年报：稳定是一种幻觉",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5241127869/382236656",
+      "published": "Thu, 02 Apr 2026 09:36:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "To",
+        "Climate",
+        "ARBONIA",
+        "COLMO+",
+        "GWh",
+        "Clivet"
+      ],
+      "summary": "#美的集团# 美的集团年报显示， 2025年营收4564.52亿元，同比增长12.11%；归母净利润439.45亿元，同比增长14.03% 。单看第四季度，营收同比增长5.92%，归母净利润同比下滑11.35%。第四季度的业绩比我之前设想的要弱一些，之前三季报发布时，我觉得四季度能保持与三季度类似的收入正增长，但最终的成绩是负增长。不过，这份成绩单已经比市场这几天的悲观预期好太多了。 之所以这几天的市场感觉很悲观，从定性的角度看，是担心原材料价格上涨、国内补贴金额减少从供需两端压缩家电企业的盈利空间。而从同行业的报…",
+      "key_points": [
+        "其实就像我为美的集团财报分析拟定的副标题那样： 稳定是一种幻觉 。在不少投资者心里，美的集团是妥妥的白马股、蓝筹股，2017年打满了“白马蓝筹”大行情全场，20…",
+        "与2024年年报相比，2025年年报《致股东》信更强调 “自我颠覆” 。有一句话写的非常好，我还引用到了这篇年报分析的开头：繁荣的代价是永恒的不安，破坏才能增长…",
+        "如果美的集团在今年上半年出现业绩波动（要知道2025年第一季度的营收和利润基数非常高），这种“幻觉”是否能支撑自己做出的投资决策，自己是否能坚定持有美的集团的信…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "山东黄金2025年利润剖析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7448161277/382243825",
+      "published": "Thu, 02 Apr 2026 09:36:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600547",
+        "SZ000975",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "2025年山东黄金实现归母净利润47.39亿元，这一业绩表现低于市场多数投资者的预期。本文将对山东黄金2025年利润情况展开剖析，梳理导致盈利不及预期的各项因素。 一、山金国际评估增值的摊销 1、两家上市公司年报上的净利润数据差异 山金国际2025年报上的净利润为32.68亿元，而山东黄金2025年报上的山金国际净利润为18.67亿元，两项数据相差14.01亿元。 产生上述差异的原因是，因为山东黄金在编制合并报表时在合并层面上摊销了收购山金国际时发生的评估增值。 2、2025年摊销的山金国际评估增值数推算 山金国际…",
+      "key_points": [
+        "八、结语 1、年报点评文章的编写是一项体力活，虽然我目前不持有山东黄金，但我以前多次说过我会写山东黄金2025年利润剖析相关文章，因此我还是今天完成了本文。我估…",
+        "2025年山东黄金实现归母净利润47.39亿元，这一业绩表现低于市场多数投资者的预期。本文将对山东黄金2025年利润情况展开剖析，梳理导致盈利不及预期的各项因素",
+        "2、实际上对山东黄金2025年利润影响最大的，还是矿产金成本。假如山东黄金的自身矿产金单位销售成本从不含山金国际评估增值摊销的423.41元/g(自身2025年…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "什么东西早就应该发明出来，而现在却没有？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788535",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AN",
+        "EN"
+      ],
+      "summary": "文森特·凡喵， 人机交互博士在读 | 科技 设计 影像 查看知乎原文 这个问题是 2015 年提的，2026 年再次登上热榜，原因是大家发现很多十年前的「许愿」已经被实现了。 这种「梦想成真」的感觉让我想到了一套一百多年前的图集，叫「EN L'AN 2000」。 在 1899-1910 年期间，一群法国艺术家画下了他们对千禧年科技的想象，有些想法当时看起来天马行空，但如今都已经变成现实了。 比如下面这张，这是一百年前人们想象中的「扫地机器人」，用轮子和连杆机构实现电动清扫： 这是 2026 年的扫地机器人，虽然技术…",
+      "key_points": [
+        "清晰度和放大倍率都远超光学显微镜，能清楚地看到微生物的细节： 这是当时想象的自动孵蛋器，放进去的是鸡蛋，出来的是小鸡： 这是现在的自动孵化机，能精准控制温度和湿…",
+        "这是一百年前人们想象中的「扫地机器人」，用轮子和连杆机构实现电动清扫： 这是 2026 年的扫地机器人，虽然技术路径不同，但目的是一样的： 这是一百年前人们想象…",
+        "AI 可能会率先实现这个设想：机器帮人类「消化」知识、形成大模型和知识库，成为人类的「外部大脑」，这个过程已经在发生了，应该会比成熟的脑机接口方案更快落地"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "宋朝的夜市那么繁华，有哪些延续到今天的美食？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788545",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "鞭临天下， 用爱发电，爱看不看，请勿关注，随时停更。 查看知乎原文 高级的草本饮料。 古代有一种快乐肥宅水级别的饮料，叫做熟水。 在李时珍的本草纲目中。 也被叫做太和汤，是古人用天然中药、香草煎泡而成的日常饮料，别名也叫做饮子、香饮子或暑汤。 最早这种饮料出现在五代，据历史记载，南唐中主李璟曾经召集各个宗室大臣以斗香为乐，而其中就有人用天然香料，跟水一起加热煎制，作成饮料作为节目参赛，这是熟水的最早出处，但似乎在那时候还不是太流行，出现的频率不高。 熟水最早开始流行是在以精致著称的宋代。 元代出版的居家必用事类全集…",
+      "key_points": [
+        "它的作法是先在香炉上把一小块沉香烘焙得开始散发香气，同时，把一片干净的瓦片在灶中烧到微红。然后，将烧烫的瓦片放在平地上，将焙热的沉香块放上去。同时，拿个茶瓶倒过…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "请问这样的二维码可以修复吗？有没有高手试一下?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788541",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Block",
+        "SN",
+        "mode",
+        "QR",
+        "ASCII",
+        "Byte"
+      ],
+      "summary": "Reimu Hakurei， 维护人界与兽界的巫女 查看知乎原文 应当注意的是这个 QR 码的正确角度。 首先容易数出这个 QR 码的尺寸是 37×37，即 Version 5。 观察左上角特征，可以判定 Error Correction Level 为 M，Mask Pattern 为 2。 查阅 ISO/IEC 18004:2024 表 9 可知 Version 5 Level M 有两个 Block，其 (c, k, r) 如下： (67, 43, 12) (67, 43, 12) 这样便知道了整个 QR 码…",
+      "key_points": [
+        "查阅 ISO/IEC 18004:2024 表 9 可知 Version 5 Level M 有两个 Block，其 (c, k, r) 如下： (67, 43…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "播刻岛评测：这款AI播客工具到底值不值得用？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6369007.html",
+      "published": "Thu, 02 Apr 2026 11:24:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "VIP",
+        "Store",
+        "APP",
+        "Apple"
+      ],
+      "summary": "“想通过播客练英语，但每次听半小时的英文节目，真正记住的没几句？” 这是我最近被问最多的问题。问得多了，我索性研究了一圈，发现一款叫”播刻岛”的产品，专门解决这个痛点——用AI帮你做翻译、做总结、做时间轴文稿。今天就来聊聊它到底怎么样。 说实话，第一次打开播刻岛的时候，我的感受是”这界面还挺清爽的”。没有花里胡哨的配色，播放器的感觉很接近原生Apple Podcasts，但多了几个我没见过的按钮——AI总结、翻译、文稿。这几个功能引起了我的好奇，于是花了大约一周深度体验，今天来交个答卷。 一、播刻岛是什么？ 播刻岛…",
+      "key_points": [
+        "二、播刻岛的用户规模和营收情况 说实话，这类工具的用户数据不太好查，官方也没有大规模宣传。App Store显示评分4.9分（基于较少评价），内容库覆盖100K…",
+        "你以为播刻岛只是个播放器？那就错了。它真正厉害的是这几个AI功能： 🚀 AI智能总结 一键生成单集摘要和要点，把一小时的内容浓缩成几分钟的精华。对于想快速判断”…",
+        "用户群体 需求描述 适配度 外语学习者 边听播客边看双语字幕，查词方便 ⭐⭐⭐⭐⭐ 知识干货爱好者 想快速获取长播客的核心要点 ⭐⭐⭐⭐⭐ 播客创作者 需要参考…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "除了ChatGPT，所有消费AI都在陪跑？这份数据报告说出了真相",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6368945.html",
+      "published": "Thu, 02 Apr 2026 09:11:27 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ChatGPT",
+        "AI",
+        "Claude",
+        "Gemini",
+        "Character",
+        "WAU"
+      ],
+      "summary": "当一款应用的日均使用时长超越Gmail，当留存率攀升至66%，它就不再仅仅是生产力工具，而是吞噬用户时间的“黑洞”。本文深度复盘2026年消费级AI应用全景图，透过移动端数据的表象，剖析ChatGPT如何构建起断层式的护城河，并探讨在“时间即金钱”的公式下，AI应用究竟能触达怎样的商业天花板。 Altimeter 的 Apoorv Agrawal 花了三周时间，用 Sensortower 的数据把消费级 AI 应用的现状做了一次彻底的体检。三篇长文，覆盖使用量、留存和时长三个维度，用几十张图表讲了一个核心结论： C…",
+      "key_points": [
+        "这份报告看的是消费端移动 App 数据。在 B2B 侧和开发者生态里，格局可能完全不同——Anthropic 的 Claude 在 API 调用量和开发者工具（…",
+        "商业模式象限：订阅制 vs 广告制的对标消费公司 Apoorv 用一张表对比了最大的消费订阅公司和广告公司的 ARPU： 订阅制标杆：Amazon Prime…",
+        "总时间花费（”年/天”）：AI 应用总时间已接近 20,000 年/天，ChatGPT 独占大半 这张图的单位值得注意：”年/天”。是的，所有消费级 AI 应用…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "每周写汇报写到怀疑人生？手把手教你如何建立专属汇报 Skill",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6368867.html",
+      "published": "Thu, 02 Apr 2026 08:37:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Skill",
+        "Claude",
+        "AI",
+        "skill",
+        "Claude.ai",
+        "Customize"
+      ],
+      "summary": "打工人最头疼的周报、月报、季报，居然也能用AI轻松搞定？Claude的Skill功能让你告别反复修改的汇报噩梦，只需1小时定制专属助手，从此每周汇报只需5分钟。本文将手把手教你如何用五步法打造一个懂业务、知领导、会审稿的智能写作搭档，彻底解决职场人的汇报焦虑。 打工人有三怕：周一开会、季度述职、还有每周固定来一次的——写汇报。 不是不会写，是每次都要重新想：这周做了什么、哪些值得说、怎么说领导才满意。写完还不算，领导风格不同，有人要数据，有人要结论，有人要看你有没有自己的判断。你永远不知道这次交上去会不会被打回来再…",
+      "key_points": [
+        "居然也能用AI轻松搞定？Claude的Skill功能让你告别反复修改的汇报噩梦，只需1小时定制专属助手，从此每周汇报只需5分钟。本文将手把手教你如何用五步法打造…",
+        "用 Claude 的 Skill 功能，定制了一个专属汇报助手——它记住了我领导的审美、我们业务的背景、每种汇报该长什么样，还会在输出初稿后自动站在领导视角帮我…",
+        "打工人有三怕：周一开会、季度述职、还有每周固定来一次的——写汇报"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Mythos 泄露背后：AI coding 是一杯不得不服的毒药",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6368844.html",
+      "published": "Thu, 02 Apr 2026 08:33:52 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Claude",
+        "coding",
+        "Anthropic",
+        "Mythos",
+        "API"
+      ],
+      "summary": "Anthropic 内部模型 Mythos 的泄露揭示了 AI coding 的残酷现实：这杯效率毒药不喝就会被淘汰，喝了却会侵蚀团队的技术根基。当 Claude 的垄断地位让产研团队陷入对顶级模型的绝对依赖，开发者必须重新思考如何在人机协作中守住架构设计与工程直觉的最后防线。 AI 没有自我边界意识，你不设边界它就无限堆砌。 Anthropic 内部模型 Mythos 的泄露事件，在技术圈引起了一阵骚动。很多人在盯着泄露出来的信息，试图评估它比 Claude 4.6 Opus 到底聪明了多少。 但跑分是最不重要的…",
+      "key_points": [
+        "但跑分是最不重要的东西。Mythos 泄露真正释放的信号是：AI coding 正在加速成为所有产研团队不得不服的一杯毒药",
+        "先说为什么不得不服。在 Cursor 配合 Claude 已经能让一个产品经理在一个下午搓出一个可用 Demo 的今天，传统的敏捷开发节奏显得像上个世纪的产物。…",
+        "Anthropic 内部模型 Mythos 的泄露揭示了 AI coding 的残酷现实：这杯效率毒药不喝就会被淘汰，喝了却会侵蚀团队的技术根基。当 Claud…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "SkillHub测评：科大讯飞开源的企业级 AI 技能管理平台",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6368905.html",
+      "published": "Thu, 02 Apr 2026 08:31:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SkillHub",
+        "AI",
+        "API",
+        "https",
+        "iflytek",
+        "skillhub"
+      ],
+      "summary": "科大讯飞开源了 SkillHub，一个专门用来管理 AI 技能包的平台。说实话，刚开始我以为这又是个”玩具级”的开源项目，结果仔细研究了一下发现，这东西的工程完成度相当高，而且瞄准的是企业级场景。今天我就来和大家聊聊这个项目的真实体验，看看它到底能解决什么问题。 先给个总体印象：如果你所在的团队正在用 AI Agent，而且技能包数量超过 10 个，SkillHub 值得你认真考虑。它不是那种”能用就行”的工具，而是真正从企业治理角度设计的平台。 一、SkillHub 是什么？ SkillHub 是科大讯飞技术团队…",
+      "key_points": [
+        "SkillHub 是科大讯飞技术团队开源的 企业级智能体技能注册中心 ，简单来说，它就是一个”技能商店”，但和普通的技能商店不同，SkillHub 可以在你自己…",
+        "对比维度 SkillHub（科大讯飞） 腾讯 SkillHub CocoLoop 官方 ClawHub 部署方式 私有化自托管 云服务 云服务 云服务 数据主权…",
+        "SkillHub 是 完全开源免费 的项目，没有商业版本。你需要承担的成本主要是服务器资源： 成本项 说明 预估费用 服务器 部署 SkillHub 所需的云服…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "你走路慢点，速干裤吵得我听不见你说话了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BD%A0%E8%B5%B0%E8%B7%AF%E6%85%A2%E7%82%B9%EF%BC%8C%E9%80%9F%E5%B9%B2%E8%A3%A4%E5%90%B5%E5%BE%97%E6%88%91%E5%90%AC%E4%B8%8D%E8%A7%81%E4%BD%A0%E8%AF%B4%E8%AF%9D%E4%BA%86",
+      "published": "Thu, 02 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "on",
+        "al.",
+        "et",
+        "by",
+        "Coolmax"
+      ],
+      "summary": "冬去，脱下“夸差夸差”响了一个冬天的冲锋衣，耳朵终于清净了。春来，穿上帅气的速干裤，怎么还是“夸差夸差”作响？ 走路时速干裤摩擦的声音，向身边所有人宣告我的迟到、我的工作时间摸鱼、我的早退。 清爽的速干和行走的安静，不能在一条裤子上兼得吗？ 速干面料，噪音生产和运输的强者 先说一下，“速干裤”不是一个准确的称呼，但我们在网购平台用“速干裤”作为关键词搜索时，最容易出现这种吵闹的裤子。 速干面料一般是锦纶或涤纶材质的，清爽不存水，但事情的另一面就是难以避免的吵闹 。 首先， 速干裤材质，噪音产量就大 。 相较于棉麻，…",
+      "key_points": [
+        "可以看到经纬线交织的地方凹凸不平丨参考文献[4] 始祖鸟一条男子速干长裤的面料组成 | 电商截图 硬挺的纤维，加上粗糙的织法，走路时速干裤表面的纤维摩擦就像二胡…",
+        "具有“静音”性能的Dermizax面料丨dermizax.toray 最后，声音吵不吵、烦不烦，还是心态决定的。你穿着速干裤流连于山野乡间，只会觉得“夸差夸差”…",
+        "可以选购有涂层的速干裤，比如始祖鸟自研的Fortius面料、最早由杜邦公司研发的Cordura面料等，在外面涂一层纳米级的疏水膜，涂的一般是聚乙烯、聚四氟乙烯、…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "创造出“小狗蛇点点”的中国女大学生，开始在皮克斯硬控全世界了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%88%9B%E9%80%A0%E5%87%BA%E2%80%9C%E5%B0%8F%E7%8B%97%E8%9B%87%E7%82%B9%E7%82%B9%E2%80%9D%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%EF%BC%8C%E5%BC%80%E5%A7%8B%E5%9C%A8%E7%9A%AE%E5%85%8B%E6%96%AF%E7%A1%AC%E6%8E%A7%E5%85%A8%E4%B8%96%E7%95%8C%E4%BA%86",
+      "published": "Thu, 02 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Animation",
+        "Art",
+        "babblers",
+        "Chong",
+        "Collaborative",
+        "Daniel"
+      ],
+      "summary": "作者： 轻舟 排版 ：Rinz 继《头脑特工队2》《地球特派员》之后，皮克斯又一力作《河狸变身计划》3月20日已经登陆中国院线。 主角梅宝是一位热爱自然的女大学生，为了阻止人类破坏动物栖息地，她借助最新科技“魂穿”变成一只仿真河狸，解锁跟动物对话的能力，成功打入动物社群。 本片最大的看点之一，便是这群毛茸茸、圆滚滚、憨头憨脑的动物们。特别是梅宝，那大尾巴小短腿的可爱模样，谁看了不想抱进怀里狠狠挼一把！ 而设计出这些爆萌角色的人，正是来自中国的动画师、插画师 幺了个菁。 你或许不知道 ，刷屏无数的神烦鸟底迪酱、抽象又…",
+      "key_points": [
+        "“在皮克斯工作的体验就是：大家好像都很开心，好像以一种玩的状态在工作。”幺菁说，“当然也会有辛苦的部分，但至少看起来， 大家都很热爱这份工作 。” 《河狸变身计…",
+        "小狗蛇点点幺菁笔下最出名的幻想生物之一。它又像狗、又像蛇，有着蛇的身体，却长着两只小狗爪和一对小小的狗耳朵，性格也像小狗一样热情开朗。在故事设定中，它是一所蛇经…",
+        "刷屏无数的神烦鸟底迪酱、抽象又可爱的鲨猫、还有凭借一条动画吸粉无数的小狗蛇点点，也都是她的杰作"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一个疑惑：猫天天掉那么多毛，为什么还不秃？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E4%B8%AA%E7%96%91%E6%83%91%EF%BC%9A%E7%8C%AB%E5%A4%A9%E5%A4%A9%E6%8E%89%E9%82%A3%E4%B9%88%E5%A4%9A%E6%AF%9B%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E4%B8%8D%E7%A7%83%EF%BC%9F",
+      "published": "Thu, 02 Apr 2026 12:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Animal",
+        "cat-owners",
+        "cats",
+        "hair",
+        "in"
+      ],
+      "summary": "家里散落的毛发，一半是猫身上掉的，一半是人头上掉的。 实际上，家里掉落的猫毛还只占它总掉毛量的三分之一，其余的被它舔进了肚子里、最终出现在猫砂盆里。 所以，猫掉毛比人掉发还要厉害。 可为什么猫永远都是毛茸茸的，人的脑袋却随着掉发越来越秃？ 上年纪的猫也不会秃丨tenor 猫毛够多，掉毛不在怕的 猫总在掉毛也不秃，最大的原因就是猫毛比人头发多多了，底子在那儿呢 。 就说长毛的毛囊。人脑袋上的毛囊，一个毛囊里能长1到2根头发，少数人的少数毛囊才能一次长3到4根；而猫的一个毛囊里，包括了1个长粗硬毛（护毛）的初级毛囊，和…",
+      "key_points": [
+        "虎斑猫的绒毛（左）、芒毛（中）和护毛（右） | Wikipedia / JonRichfield 猫毛掉不尽，冬风吹又生 猫掉很多毛也不会秃的另一个原因，是它们…",
+        "这里是它们的气味腺，本身就不太长毛； 这里是气味腺，可以秃，也可以不秃丨作者供图 二是肚皮中央也会有块“斑秃”，这是猫猫的肚脐眼，不要再乱摸啦",
+        "上年纪的猫也不会秃丨tenor 猫毛够多，掉毛不在怕的 猫总在掉毛也不秃，最大的原因就是猫毛比人头发多多了，底子在那儿呢"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "南方人哭了：几十万软装修，顶不住回南天的潮湿、发霉、发臭……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8D%97%E6%96%B9%E4%BA%BA%E5%93%AD%E4%BA%86%EF%BC%9A%E5%87%A0%E5%8D%81%E4%B8%87%E8%BD%AF%E8%A3%85%E4%BF%AE%EF%BC%8C%E9%A1%B6%E4%B8%8D%E4%BD%8F%E5%9B%9E%E5%8D%97%E5%A4%A9%E7%9A%84%E6%BD%AE%E6%B9%BF%E3%80%81%E5%8F%91%E9%9C%89%E3%80%81%E5%8F%91%E8%87%AD%E2%80%A6%E2%80%A6",
+      "published": "Thu, 02 Apr 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "C4-10L",
+        "APP",
+        "C5-35L",
+        "ZMOR",
+        "AI",
+        "C5"
+      ],
+      "summary": "南方的天气真“难”到离谱！ 潮湿、 多雨 巨难受！ 去年家里的皮沙发 长出 大片“雪 花斑”，墙面像 蛇脱皮般 脱落 ，大几十万软装维修肉疼到失眠！！ 潮湿阴雨天空 气还 不流 通， 很容易滋生细菌霉菌！ 一不小心就可能引发各种健康问题。 而且封闭和高湿环境下， 甲醛异味会加速释放 ，严重影响室内空气环境！ 所以追求品质生活的家庭这两年爆买除湿类电器！ 听过来人一句劝， 除湿机才是品质健康生活得力助手！ 它是把空气中的水分凝结起来存到水箱里，从而降低相对湿度。 在说明设备的效果之前，我们先给大家数字化一下空气中的水…",
+      "key_points": [
+        "去年家里的皮沙发 长出 大片“雪 花斑”，墙面像 蛇脱皮般 脱落 ，大几十万软装维修肉疼到失眠",
+        "在一个20平、层高 2.5 米 的房间内，假设室温为30℃，湿度90%（南方回南天或梅雨季），空气中含水量为 27.36g/m³ ，算下来竟然飘荡着 超过1.3…",
+        "刚大扫除完的房间（拖地、擦洗后湿哒哒的）→ 地板肉眼可见的速干，墙 面水 珠直接消失，直接坐地板都没问题~ 👇戳图立马抢👇 湿度大或阴雨天关窗？痛苦太深刻了！屋…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "她最适合安东尼奥尼",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%B9%E6%9C%80%E9%80%82%E5%90%88%E5%AE%89%E4%B8%9C%E5%B0%BC%E5%A5%A5%E5%B0%BC",
+      "published": "Thu, 02 Apr 2026 21:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Criterion",
+        "Gilberto",
+        "hongmomgs",
+        "irisfilm",
+        "Perez",
+        "qq.com"
+      ],
+      "summary": "作者：Gilberto Perez 译者：易二三 校对：覃天 来源：Criterion （2014年6月9日） 在电影史上，有许多对男导演和女演员的搭档传为佳话。例如默片时代的D·W·格里菲斯和丽莲·吉许，1930年代初的约瑟夫·冯·斯登堡和玛琳·黛德丽，法国新浪潮时期的让-吕克·戈达尔和安娜·卡里娜。撇开「男性凝视」理论不谈，可以说，在这些情况下，女性是美的化身，是摄影机背后的男人的沉思对象。 戈达尔和卡里娜 这并不意味着她只是一个被动地接受摄影机的注视的客体。吉许是一位伟大的女演员，黛德丽和卡里娜与之或许略有逊…",
+      "key_points": [
+        "」安东尼奥尼曾说。「也许是因为我更了解她们？我出生于被女性围绕的环境，由表姊妹、姑姨等女性亲戚关爱长大。我非常了解女性。女人的心理往往能把一切看得更透彻。她们能…",
+        "《不戴茶花的茶花女》（1953） 《奇遇》（1960）是安东尼奥尼和维蒂合作的第一部电影。彼时，维蒂还是一个鲜为人知的女演员；虽然安东尼奥尼已经拍了几部不错的电…",
+        "这正是安东尼奥尼镜头的观察视点。在对市场的第二次更为长期的访问中，摄影机对准了内部人士股票经纪人皮耶罗（阿兰·德龙饰）——维托利亚与他开始了新的恋情，但同样，这…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "9.2分！每一季都领先观众的认知",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+9.2%E5%88%86%EF%BC%81%E6%AF%8F%E4%B8%80%E5%AD%A3%E9%83%BD%E9%A2%86%E5%85%88%E8%A7%82%E4%BC%97%E7%9A%84%E8%AE%A4%E7%9F%A5",
+      "published": "Thu, 02 Apr 2026 21:10:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 《真相捕捉》三四年才出一季，每一季都是 9 分级别，每一季都把真相这个主题贴着时代情绪和最新技术继续往前推进。 《真相捕捉》第三季 第三季还没播完，感觉已经超越了前两季，所以它的核心快感到底来自什么地方？ 来自于它推翻了大多数推理悬疑影视剧都遵循的基本情节模式，也就是怎么用足够多的碎片拼出一幅完整的图景，给观众一个可供还原的真相。 《真相捕捉》跳出了这个模式。它真正做的事情，远比影像可以造假复杂得多。它把 “ 影像不可信 ” 设定为这个世界的基础物理定律，于是这意味着这部剧不存在拨开迷雾见真相的时刻…",
+      "key_points": [
+        "观众会越来越倾向于悬置判断，对每一个显而易见的场景保持戒备。这种阅读状态，与置身在一个深度伪造泛滥的信息环境中所需要的认知姿态，在结构上是同构的",
+        "文 ruike 《真相捕捉》三四年才出一季，每一季都是 9 分级别，每一季都把真相这个主题贴着时代情绪和最新技术继续往前推进",
+        "这个结构并非偶然。它指向一个更深的问题，当我们建造技术系统来扩展我们的认知能力时，我们也在不自觉地建造新的权威来源，而这些权威一旦被操控，比任何个人的谎言都更难…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国自驾线路之王，辞职退休必去！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%87%AA%E9%A9%BE%E7%BA%BF%E8%B7%AF%E4%B9%8B%E7%8E%8B%EF%BC%8C%E8%BE%9E%E8%81%8C%E9%80%80%E4%BC%91%E5%BF%85%E5%8E%BB%EF%BC%81",
+      "published": "Thu, 02 Apr 2026 17:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "G219",
+        "G331",
+        "G228",
+        "GS",
+        "Jubei"
+      ],
+      "summary": "现在正值 “金三银四” 职场流动高峰期 无论你刚辞职、正待业或已退休 若想用一段难得的“自由时间” 去圆一个无数人的“终极梦想” 去脱离循规蹈矩的“生活半径” 那么中国，刚好有一个足够大的“圆” 它就是三线合一的 “超级大环线” 一： “国之大道” G219 二： “北境公路之王” G331 三： “最美沿海公路” G228 三者刚好相接 环行中国陆地全程逾 2.7万公里 堪称 “中国自驾线路之王” 走完这一圈，也算读懂了中国 环中国陆地的“超级大环线” 底图图源：标准地图服务 审图号：GS（2023）2767号…",
+      "key_points": [
+        "现在正值 “金三银四” 职场流动高峰期 无论你刚辞职、正待业或已退休 若想用一段难得的“自由时间” 去圆一个无数人的“终极梦想” 去脱离循规蹈矩的“生活半径”…",
+        "G331：北境公路之王的苏醒之旅 三条线路中的G331 ， 一路 视野最辽阔、最苍茫、体感最孤独",
+        "在G228上吹过福建厦门的黄昏海风 因此，这就是这条大环线适合辞职、待业或退休前往的主要原因—— 在 最需要重新出发的时候 ，这三条线适时出现， 从高度、长度、…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "看而不读",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%9C%8B%E8%80%8C%E4%B8%8D%E8%AF%BB",
+      "published": "Thu, 02 Apr 2026 11:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "ar",
+        "beta",
+        "Bitsea",
+        "Pan"
+      ],
+      "summary": "最近我通过观察留言区，发现人们的阅读理解能力又往下滑了一大截。也不是说以前就很好，以前也有很多言不及义、支离破碎的留言，但现在的新问题是很多人经常性地反向理解文意，感觉是大脑里接反了正负极。 我认为这些人应该是看了原文，但可能并没有真正去读，文字就像是水过鸭背，从大脑里一滑而过。这让我感觉很困惑，如果换成是我，即便我要主动去做到这个效果，估计也很难和大脑里的自动分析自动理解过程相抗衡，而他们是怎么做到的？ 分析原因，我认为很可能是因为整个中文互联网的文字结构有问题。在过去的十到十五年间，中文互联网的文章一直在追求「…",
+      "key_points": [
+        "阅读一整本书可能算是这个时代里最为护脑的方式，因为它会让读者不得不保持长时间的专注，而且在这个过程里一直开启理解模式。而不是像在互联网上那样，没有专注只有切换和…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "AI 正在毁掉下一个辛顿",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+AI+%E6%AD%A3%E5%9C%A8%E6%AF%81%E6%8E%89%E4%B8%8B%E4%B8%80%E4%B8%AA%E8%BE%9B%E9%A1%BF",
+      "published": "Thu, 02 Apr 2026 08:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Hinton",
+        "Nature",
+        "APPSO",
+        "AlphaFold",
+        "AlphaFold2"
+      ],
+      "summary": "4.2 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰 文｜发现明日产品的APPSO 来源 ｜ APPSO ● ● ● 多年以后，面对诺贝尔奖杯，Geoffrey Hinton 也许会回想起 1986 年那篇没什么人看好的论文，以及几个年轻人愿意陪他一起写代码跑实验的那个下午。 今天，这样的年轻人正在消失。 1986 年，Hinton 发表了反向传播算法的关键论文。当时他是一个年轻的认知科学研究者，做的方向没什么人看好，神经网络在学术界是边缘话题。他有的东西很少：一个职位不高的…",
+      "key_points": [
+        "03 AI 正在毁掉下一个 Hinton 那下一代还没进场的人呢",
+        "MIT 机械工程教授赵宣赫说得直白：「这甚至不是未来的事，是正在发生的事。」Stanford 计算生物学家 Brian Hie 更绝：实验室专门雇来写代码的研究…",
+        "1986 年的 Hinton 在做什么？写代码，跑实验，调参数。他做的每一件事，都是今天 Nature 调查中被列为「正在被替代」的任务。如果他生在今天，搞不好…"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "小语种天花板，强烈推荐",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%B0%8F%E8%AF%AD%E7%A7%8D%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%8C%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90",
+      "published": "Wed, 01 Apr 2026 12:14:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VIP",
+        "B2",
+        "foxwulihua4",
+        "xx",
+        "A1",
+        "C1"
+      ],
+      "summary": "fff 2 分钟了解全站卡👆 写在前面：水木外语是国内小语种顶流，小编和水木外语老板小崔已经是6年的朋友，当时因为xx英语结缘（当时他们正在收购xx，而我们在投诉xx抄袭我们的文章，之后一直保持联系），身边学小语种的一些朋友陆陆续续介绍学了他们的课程，反馈都很好，所以我这里也敢做个担保：大家无须担心课程的质量，上次双十一活动有几十位小伙伴购买后，反馈都很好，最近陆陆续续有小伙伴私信我有没有小语种课程介绍，刚好问了下小崔，上个月有6周年活动，虽然活动结束了，但是依然可以给我10个名额，按照6周年价格，有兴趣的小伙伴可…",
+      "key_points": [
+        "20门外语随心畅学 外研社、上海外语教育出版社 等 经典教材 官方授权， 引进60多门课程 ‍‍ 30位 高校教授 亲自授课 ， 600门课终身畅学 包含 英/…",
+        "fff 2 分钟了解全站卡👆 写在前面：水木外语是国内小语种顶流，小编和水木外语老板小崔已经是6年的朋友，当时因为xx英语结缘（当时他们正在收购xx，而我们在投…",
+        "大家想上什么课，也可以给我们留言，身边还是有很多非常优秀的老师开的课程！可以推荐给大家"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "模型三连发，阿里的ATH这么快就跑顺了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%A8%A1%E5%9E%8B%E4%B8%89%E8%BF%9E%E5%8F%91%EF%BC%8C%E9%98%BF%E9%87%8C%E7%9A%84ATH%E8%BF%99%E4%B9%88%E5%BF%AB%E5%B0%B1%E8%B7%91%E9%A1%BA%E4%BA%86%EF%BC%9F",
+      "published": "Thu, 02 Apr 2026 18:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Qwen3.6-Plus",
+        "AI",
+        "ATH",
+        "Qwen3.5-Omni",
+        "Gemini",
+        "Agent"
+      ],
+      "summary": "fff 这几天阿里模型三连发，Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus轮番登场，密集程度空前。要我不怀好意的揣测，这多少有些证明了「人员流动」并没有影响阿里的研发节奏，这几款新模型也都相当能打，分别达到了多模态、文生图和编程能力的顶配性能。你可以不喜欢阿里这家公司，但你不能否认它扑在AI上的勤奋和产出⋯⋯前几天看了一个博主让豆包和千问实时语音对话，双方需要违心辩论「对方比自己好用」，节目效果特别好，也表现出了千问在多模态方面足够上桌吃饭的资质。虽然Qwen3.6-Plus和Qwe…",
+      "key_points": [
+        "Qwen3.5-Omni、Wan2.7-Image、Qwen3.6-Plus轮番登场，密集程度空前。要我不怀好意的揣测，这多少有些证明了「人员流动」并没有影响阿…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么把鸭嘴兽作为哺乳动物而不是合弓纲的孑遗?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788464",
+      "published": "Sun, 29 Mar 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kemp",
+        "Mammal",
+        "Mammalia",
+        "Rowe",
+        "S.",
+        "Timothy"
+      ],
+      "summary": "知乎用户， 不做 点缀大时代波澜壮阔的泡沫 查看知乎原文 哺乳动物的定义本来就是有分歧的，但不论是广义的哺乳（像单孔目的鸭嘴兽那样，有原始的乳腺，但没有乳头），还是狭义的用乳头哺乳（就像兽亚纲的有袋类、胎盘类那样），都是哺乳动物进化到一定阶段的共有衍征，但一般不作为用来定义哺乳动物的共有衍征。 1988 年，德克萨斯大学的教授 Timothy Rowe 在一篇论文中 [1] ，把哺乳动物（Mammalia）按照系统发生学的角度，定义为广义哺乳动物（Mammal）的冠群。 这样一来，这种定义下的哺乳动物，指的是现存的…",
+      "key_points": [
+        "不做 点缀大时代波澜壮阔的泡沫 哺乳动物的定义本来就是有分歧的，但不论是广义的哺乳（像单孔目的鸭嘴兽那样，有原始的乳腺，但没有乳头），还是狭义的用乳头哺乳（就像…",
+        "这种定义下的哺乳动物，指的是现存的单孔目（鸭嘴兽和几种针鼹）、兽亚纲（有袋类和胎盘类）的最近共同祖先所在的进化支，该进化支中含有该祖先的全部后代",
+        "因为早期的合弓纲动物确实非常像爬行动物（准确来讲是和爬行动物一样，保留了不少爬行形类的祖征），并不符合人们眼中“哺乳动物”该有的形象"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "策引全球投资组合：A股全球",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/money/portfolios/myinvestpilot_cn_global/",
+      "published": "Fri, 26 Apr 2024 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "本文介绍策引全球投资组合A股全球的详细情况，包括交易策略、资金策略、标的池及历史回测表现等。",
+      "key_points": [
+        "本文介绍策引全球投资组合A股全球的详细情况，包括交易策略、资金策略、标的池及历史回测表现等"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 93 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/93",
+      "published": "Thu, 28 Dec 2023 08:05:01 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "summary": "本期共有 38 个项目，包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (2)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin 项目 (1)，PHP 项目 (1)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (1)，人工智能 (4)，其它 (5)，开源书籍 (2)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (2)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Kotlin…"
+      ]
+    }
+  ]
+}
