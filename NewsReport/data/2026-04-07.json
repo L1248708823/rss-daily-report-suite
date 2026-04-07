@@ -1,0 +1,843 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07T01:00:13.701631+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 12,
+    "items_collected": 118,
+    "fresh_candidates": 46,
+    "backfill_candidates": 72,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-07",
+      "fetched_at": "2026-04-07T01:00:13.385246+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3880.1,
+          "change": -39.19,
+          "change_pct": -1.0,
+          "volume": 492699082.0,
+          "amount": 71383033.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4655.28,
+          "change": 4.920000000000073,
+          "change_pct": 0.11,
+          "prev_close": 4650.36,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-07 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1030.3325194913757,
+          "change": 1.0889218255181277,
+          "change_pct": 0.10579826077982023,
+          "prev_close": 1029.2435976658576,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-07 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "泡泡玛特：从这次回撤中，能够学到什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4381703788/382730922",
+      "published": "Mon, 06 Apr 2026 14:45:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "Labubu",
+        "labubu",
+        "PE",
+        "b.",
+        "c."
+      ],
+      "summary": "祖师爷说过：股价短期是投票机，长期是称重器。有三个方面可以影响股价：基本面、 资金面、情绪面。股价长期是被基本面硬拱上去的，短期是被资金面和情绪面主导的。 这种定价分歧，在最近的泡泡身上体现得淋漓尽致。 价投要不要赚资金面和情绪面的钱另说，但认识到以下几点很重要： 1.投资者有很多类，价投是极少数的异类，满市场都是巴菲特、芒格的现象过去没有、未来也不会出现。 2.价投短期内无法决定股价，股价是由人数更多的其他类型的投资者决定的。 3.价投要想赚钱，要和好公司站一起，做时间的朋友。但过程可能会非常颠簸，有时会让人怀疑…",
+      "key_points": [
+        "来复盘一下泡泡的这笔投资，看看能够学到什么",
+        "任何一笔投资都是基于概率和赔率的。泡泡现价141.8港币，市值1672亿人民币，按照25年128亿归母利润，静态估值13PE。加上分红除权和回购注销，估值能够降…",
+        "这一轮当中也有做得好的地方。哪怕年初减仓其他股票后手握现金，也坚守住了自己单只股票仓位上限的纪律，让自己在回撤中伤得没那么重"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "有色金属之铜博士投资逻辑",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1674052027/382746697",
+      "published": "Mon, 06 Apr 2026 14:45:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CAGR",
+        "http",
+        "kg",
+        "PCB",
+        "SH601899",
+        "SH603993"
+      ],
+      "summary": "4月3号去成都参加了藏格矿业的股东大会，有一个股友问吴董事长怎么看待铜未来的价格，吴董在有色采矿业从事了30年，讲他未来对于铜是非常看好的，铜的导电性只是比银差一点，最近几十年铜矿石的品味越来越低，开采成本越来越高，发现的大型铜矿越来越少，但需求端还是稳中有升的。很多人会说铜是周期行业，应该在铜价高的时候卖掉，等铜矿价格低迷的时候再去重仓，对应现在业绩好的时候我们应该卖掉，那铜的周期性怎么样还是用数据说话。 我用豆包查了最近30年伦铜每年的均价，发现铜的均价虽然波动很大，但长期看均价一直在慢慢抬高。 伦铜 1995…",
+      "key_points": [
+        "如果投资铜相关的公司我会考虑投资哪些成本低，最好是露天矿，储量非常大，新矿，未来有增量，税收还比较低的公司，优先考虑国内的资源。投资股票最好是投资一些简单的公司…",
+        "#今日话题# #有色金属# 本话题在雪球有94条讨论，",
+        "1995–2025 全球精炼铜需求量总表 单位：万吨、% 2025为预测值 年份 需求量 同比(%) 5年复合增速(CAGR) 1995 1217 — — 19…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "最近的几个事件，对AI产业意味着什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1545503181/382740230",
+      "published": "Mon, 06 Apr 2026 14:45:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Ai",
+        "HBM",
+        "SK",
+        "DDR4",
+        "DDR5"
+      ],
+      "summary": "最近AI产业链接连发生了两件大事，看似互不相关，实则把AI产业当下的底层逻辑彻底剧透了。 一件是微软、谷歌抢着给全球存储大厂打预付款，签下行业史上从未有过的3年锁货合同；另一件是代工巨头鸿海精密（富士康）发布3月财报，营收直接创下同期历史新高，核心拉动力就是AI业务。 很多人没看懂，这两件事加在一起，其实已经宣告：AI产业彻底告别了“题材炒作”阶段，进入了全产业链落地、底层逻辑重构的全新周期。 先搞懂，最近到底发生了什么？ 用大白话把两件事说清楚，你就知道它们的分量有多重。 第一件事：云巨头疯抢存储芯片，行业第一次…",
+      "key_points": [
+        "也别再盯着短期的概念炒作、价格涨跌了。AI的投资，已经从“炒题材”，进入了“ 看基本面、看长期确定性 ”的阶段。真正有价值的，永远是那些能在AI产业链里，持续拿…",
+        "撕开了AI产业的3个核心真相 很多人看AI，只盯着大模型又更新了什么功能、哪家公司又发了新品，却忽略了产业链底层的这些变化。而这两件事，恰恰把AI产业最真实的现…",
+        "能锁定长期的需求，哪怕是过去的强周期品种，也能拿到成长股的估值。未来AI产业链的竞争，不再是短期的价格战、题材炒作，而是谁能锁定长期供应链、谁能吃到AI持续增长…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "火电未来的利润",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7103876041/382738241",
+      "published": "Mon, 06 Apr 2026 14:45:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "irr6.5",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这个事 实际很简单 为什么利润算不清 就是大家自己胡算 就是一条是核心 实际发电小时数乘以点火差 辅助服务 有几部分构成 ，启停 深调峰 调频等 启停和火电企业利润无关，默认收支平衡 为什么说 今年是元年 因为今年给的政策是革命性的，影响未来几十年 原来的方案是什么？ 深调峰服务费 梯度给，在 30-45%这个段只给一毛钱左右。 而电网又简单粗暴的拿起停代替了相当一部分深调峰。 今年要么给明确下限，要么市场化。 市场化结果，基本在0.25-0.3+。 那对火电的意义就是颠覆。 简单看就一个公式，（忽略调频） 煤机电…",
+      "key_points": [
+        "这个事 实际很简单 为什么利润算不清 就是大家自己胡算 就是一条是核心 实际发电小时数乘以点火差 辅助服务 有几部分构成 ，启停 深调峰 调频等 启停和火电企业…",
+        "那么未来利润就简单了 煤机利润=3000✖️（名义点火差➕容量电价）➕800✖️（深调峰服务费） 煤机利润=3000✖️（0.1左右➕0.11（330））➕80…",
+        "这就很容易得出未来火电度电利润稳步上升，甚至爆发式增长"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "同跌来袭，该如何应对黑天鹅事件？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%90%8C%E8%B7%8C%E6%9D%A5%E8%A2%AD%EF%BC%8C%E8%AF%A5%E5%A6%82%E4%BD%95%E5%BA%94%E5%AF%B9%E9%BB%91%E5%A4%A9%E9%B9%85%E4%BA%8B%E4%BB%B6%EF%BC%9F",
+      "published": "Mon, 06 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "QE",
+        "wind"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：中泰证券资管 唐军 来源：雪球 近期，在美以伊冲突后，中东原油供给面临冲击，全球资本市场和各类资产价格都受到明显影响。3月以来，除原油以外，全球股市、债市、黄金、有色金属等主要资产均出现较大跌幅。这也导致过去两年表现稳健且收益可观的多元配置型策略也出现了较大回撤。 不少投资者可能要问，多元配置不是分散风险了吗？不是“全天候”吗？多元配置策略是否失效了？要回答这些问题，可能要从多元配置降低…",
+      "key_points": [
+        "流动性冲击对各类投资策略可能都是“黑天鹅”般的考验，既不好提前预测，也不容易事后应对。多元配置也同样面临这样的难题。作为长期从事投资研究的一员，以下几点是我们的…",
+        "04 流动性冲击 多元配置该如何应对",
+        "从资产价格行为本身来观察流动性危机是否缓解， 而非紧盯事件本身满天飞的消息。这次的流动性冲击缘于美以对伊朗的军事行动，我们可以看到大量的财经媒体和投研机构紧密跟…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "Python 中的 range 函数为什么要设计成「左闭右开」的样子，这是有啥用意吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788744",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "range",
+        "Python",
+        "lt",
+        "data",
+        "Dijkstra",
+        "end"
+      ],
+      "summary": "AI解码师， w_ferrari787381610 查看知乎原文 刚学 Python 那会儿也觉得非常别扭。 range(1, 8) 居然不包含 8？写代码的时候老是要 +1-1 的，烦得要死。直到后来读到 Dijkstra 在 1982 年写的一份手稿，才彻底想明白。 Dijkstra 是谁就不用多介绍了吧，最短路径算法那个。他专门手写过一份备忘录，标题叫《Why numbering should start at zero》，里面用一种极其严谨的方式，把”区间到底该怎么表示”这个问题给彻底终结了。（看到也有其他…",
+      "key_points": [
+        "randint 的设计更多是出于对数学直觉的妥协——掷骰子嘛，你说”1 到 6 的随机数”，人的第一反应就是包含 6 的。但 Python 后来引入了 rand…",
+        "randint 是个”设计失误被兼容性锁死”的例子，反过来恰恰证明了 左闭右开才是这门语言真正推崇的约定",
+        "其实 左闭右开也不是只有 Python 有这样的设计"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "川西和瑞士的区别在哪里？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788758",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dust",
+        "Max",
+        "Nunatak",
+        "Pro"
+      ],
+      "summary": "dust 查看知乎原文 由于我之前说过瑞士雪山的接近性了，就先抛开接近性不谈。 如果在国内找相似的画风，在岩石骨架上最像瑞士的是玉龙雪山，而在植被皮相上最像瑞士的则是伊犁。 先说岩石 阿尔卑斯精华段景区的地质基底本质上是从深海中挤压并抬升而起的巨大石灰岩块体。你可以把它简单粗暴地理解为高度放大 10 倍的桂林山水 Pro Max 版 而玉龙雪山也是国内雪山里少见的，大部分山体由石灰岩构成的雪山。（ 只是石灰岩有共性。但是短距落差和雪线、接近性、植被都有差距）： 石灰岩很容易被水侵蚀。所以石灰岩的山较少有锋利的棱角，…",
+      "key_points": [
+        "针叶林再往上是密密麻麻的灌木丛 这就导致了两地视觉感受的巨大差异： 瑞士的草甸是纯粹单一的羊绒状草毯。而川西的草地总让人感觉不太干净，像是在毯子上长了一层暗色的…",
+        "瑞士让很多人印象最深刻的植被是什么？很多人马上会想到如天鹅绒一样丝滑嫩绿的草地。在视觉上，草地的嫩绿永远比森林的深绿更抢眼、更讨喜。这一点太占优势了。而在植被层…",
+        "降水相对瑞士的温带海洋性气候来说非常不均衡，植物为了抗旱变得更加矮小，叶片更窄且表面高度蜡质化，也比较稀疏（就像程序员为了抗压导致发量变少一样），观感自然就不如…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么墨子会觉得音乐是像精神鸦片一样的东西？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788752",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gpt",
+        "gpu",
+        "ai",
+        "generative.",
+        "livehouse",
+        "so"
+      ],
+      "summary": "狗子， 欲望即命运 查看知乎原文 都是从费钱的角度来分析的嘛…… 看来现代人都已经忘了，音乐的本质就是巫术啊。 什么是巫术，我的极简定义是，通过最原始的手段让你产生精神幻象的技术。 在你老祖还在非洲打猎时，人类就已经喜欢音乐了，尤其是对于规律节奏的痴迷，更是猩猩都喜欢。 而原始时代，大家生存都成问题，仍然要听音乐，创作音乐，那就只能说明，音乐绝对是那个时候的刚需，什么刚需，祭祀的刚需。 国之大事，在祀与戎。祭祀，不管是耶稣还是老祖宗，都有一个极其重要的作用：凝聚共识，让大家相信我们是一伙的。 《人类简史》里面也说了…",
+      "key_points": [
+        "没错，真正的音乐就是精神鸦片，但 so what?电脑游戏还是电子海洛因呢，没 gpu 你能研究出来 ai 吗你，知道 gpt 的 g 是啥不",
+        "古代的音乐要很多人一起演奏，劳神费力，所以是精神鸦片，这就纯纯属于皇帝的金锄头",
+        "别把艺术看得多么高大上，唱歌，音乐，画画，跳舞，这些东西是因为上限很高所以被称为艺术，但很多人都忽略了它的下限同样很低，低到原始人能在山洞里画，低到你家三岁孩子…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我在终端里装了一个桌面宠物，用了一周后，同事说我\"魔怔了\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6371371.html",
+      "published": "Mon, 06 Apr 2026 10:10:48 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Clawd",
+        "AI",
+        "CLI",
+        "Claude",
+        "Code",
+        "Desk"
+      ],
+      "summary": "说实话，桌面宠物这玩意儿，我向来是嗤之以鼻的。什么猫娘狗娘电子老婆，放在桌面上除了占地方就是碍眼。但今天要聊的这个Clawd on Desk，让我彻底改变了看法——它不是一个花瓶，而是一个真正能提升编程幸福感的工具。而且，最近它刚刚更新到v0.5.10，Star数已经到了776。让我意外的是，这个项目更新速度相当勤快，4月6日还有新版本发布。 如果你也是Claude Code或Cursor的用户，听我一句——可以试试。 一、Clawd on Desk是什么？ 这货本质上是一个Electron桌面应用，功能很简单：当…",
+      "key_points": [
+        "这类专门给AI编程助手做的桌面宠物，竞品不多。我找了一下： 产品 类型 特点 Clawd on Desk 编程助手专用 功能最全，更新最勤 clawd-tank…",
+        "桌面宠物这玩意儿，我向来是嗤之以鼻的。什么猫娘狗娘电子老婆，放在桌面上除了占地方就是碍眼。但今天要聊的这个Clawd on Desk，让我彻底改变了看法——它不…",
+        "桌面装饰 。说白了就是个会动的桌面宠物。像素风的Clawd设计得挺可爱的，放在屏幕上也不碍事，偶尔看一眼还能解解闷"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenClaw只是过渡，SaaS全家桶正在瓦解：AI如何暗中重写商业与社会的\"底层契约\"？​",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6371053.html",
+      "published": "Mon, 06 Apr 2026 06:15:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "AGI",
+        "OpenClaw",
+        "API",
+        "App"
+      ],
+      "summary": "OpenClaw的爆火只是AI时代的冰山一角，真正的革命在于软件服务的第一对象正从人转向Agent。从原生操作系统rOS的发布到SaaS全家桶的解构，再到情绪代币PNUT的疯狂崛起，这场变革正在撕碎我们熟悉的商业逻辑与权力结构。本文深度剖析Agent时代的产品设计范式转移，以及身处风暴中心的产品经理该如何重构自己的生存法则。 如果你今天依然坐在工位上，为了某个按钮零点几个百分点的点击率熬夜画Axure，为了下个月的DAU增长绞尽脑汁策划裂变活动——我不是要评判你，我只是想说：你可能正在一场巨变的边缘，背对着它。 一…",
+      "key_points": [
+        "OpenClaw的爆火只是AI时代的冰山一角，真正的革命在于软件服务的第一对象正从人转向Agent。从原生操作系统rOS的发布到SaaS全家桶的解构，再到情绪代…",
+        "这和OpenClaw干掉前端界面、Agent干掉SaaS全家桶的逻辑是一回事：人类正在失去对”中间过程”的耐心",
+        "为什么会是第一个似翘翘的 很多企业现在用飞书、钉钉、Google Workspace这类全家桶，核心原因不是因为它们好用，而是因为人类没有能力高效处理几十个互不…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenClaw 被Anthropic断供！这步棋，太狠了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6371003.html",
+      "published": "Mon, 06 Apr 2026 05:08:18 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenClaw",
+        "AI",
+        "Anthropic",
+        "Claude",
+        "Agent",
+        "OpenAI"
+      ],
+      "summary": "Anthropic突然切断Claude对OpenClaw的API访问，表面是成本问题，实则是商业边界重构的信号。这次事件揭示了AI生态从开放走向割据的必然趋势，也暴露出套壳式创新的致命缺陷——当巨头开始自建闭环，第三方应用将面临生死考验。本文深度剖析这一事件背后的三层逻辑，带你看清AI行业正在经历的范式转移。 今天上午，AI 圈其实发生了一件挺“反常”的事——Anthropic 突然关闭了 Claude 对 OpenClaw 的包月调用权限。 表面看，这是一次再正常不过的商业调整： 成本太高，扛不住了。 但有意思的…",
+      "key_points": [
+        "太“干脆”了——不是优化，不是限流，而是直接断供。但后来越想越不对，这背后其实不是一个“成本问题”，而是一个典型的商业边界被重新划定的过程",
+        "而是属于“提供核心能力的那一层”。你只是一个更好的分发界面，一旦底层断供，用户迁移成本远比你想象得低"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从“聊天”到“画布”：即梦如何用工具化设计，重新定义AI创作？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6370967.html",
+      "published": "Mon, 06 Apr 2026 03:04:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "Photoshop",
+        "S2.0",
+        "AGENT",
+        "Ai"
+      ],
+      "summary": "当ChatGPT式对话框统治AI交互时，即梦AI凭借工具化设计撕开新赛道。这款全栈创作平台以Photoshop式界面重构人机协作逻辑，通过无限画布与四维参考图系统实现定向生产，更用‘一键同款’和剪映生态构建增长飞轮。本文深度拆解它如何用工具思维突破对话范式，为AI产品开辟‘确定性生产’的新大陆。 在ChatGPT式的对话框席卷全球后，AI产品的交互似乎被框定在了一问一答的范式里。然而，一款名为“即梦”的AI创作工具，却率先跳出了这个舒适区，它没有选择做一个陪你聊天的“机器人”，而是选择成为你手中的“生产力工具”。…",
+      "key_points": [
+        "当ChatGPT式对话框统治AI交互时，即梦AI凭借工具化设计撕开新赛道。这款全栈创作平台以Photoshop式界面重构人机协作逻辑，通过无限画布与四维参考图系…",
+        "或许验证了一个趋势：当AI技术逐渐普及时，产品的竞争维度将从“模型有多强”上移至“交互有多高效”、“生态有多完整”。它用工具化的设计语言，重新定义了人机协作的界…",
+        "模拟真实工作流 即梦最颠覆性的设计，在于其交互界面。它彻底抛弃了聊天对话框，采用了类似Figma/Photoshop的 “左侧工具栏 + 中央无限画布” 布局"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "医疗AI中的交互体验",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6370968.html",
+      "published": "Mon, 06 Apr 2026 02:03:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Ai",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "当AI遇上医疗诊断，如何平衡效率与责任成为关键挑战。一位产品经理回顾了自己设计的医疗AI辅助系统，通过‘人造摩擦力’与数据可视化方案，巧妙解决了黑盒信任与权责划分问题。这个案例揭示了优秀交互设计的本质：不是追求炫技，而是构建多方共赢的服务闭环。 最近沉溺于工作无法自拔，工作内容逐渐偏向更底层与数据、安全、上链相关，好久没有动过我的脑子做设计相关的事情了，前两天面试的时候面试官提到了一个问题，关于我之前做的交互体验中我自己认为我做的比较优秀的交互有什么我是如何思考的？ 很可惜在我面试之前我没有想过这个问题，所以可想而…",
+      "key_points": [
+        "工作内容逐渐偏向更底层与数据、安全、上链相关，好久没有动过我的脑子做设计相关的事情了，前两天面试的时候面试官提到了一个问题，关于我之前做的交互体验中我自己认为我…",
+        "两个功能完成需求 AI辅诊/散点图配置 将患者数据导入软件之后AI会提供全部数据的预览针对问题数据进行标注，整合标注的数据将AI的诊断建议与AI标注的的数据片段…",
+        "所以可想而知这个问题我回答的非常的差劲，我是一个秩序性很强的人，所以对于这种好坏的问题我很需要明确的参考系，我才能确定什么样的设计是好的设计，直到过了两天我的医…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "得知某人的对象出轨了，要不要告诉ta呢？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BE%97%E7%9F%A5%E6%9F%90%E4%BA%BA%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%87%BA%E8%BD%A8%E4%BA%86%EF%BC%8C%E8%A6%81%E4%B8%8D%E8%A6%81%E5%91%8A%E8%AF%89ta%E5%91%A2%EF%BC%9F",
+      "published": "Mon, 06 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ta",
+        "of",
+        "ABC",
+        "AI",
+        "Archives",
+        "Behavior"
+      ],
+      "summary": "fff 这简直是个千古难题…… 那些劈腿者、出轨者，往往都会试着保密。然而世上没有不透风的墙，总会有人知道的。 ——假如刚好是你知道了呢？ 想象一下，你发现一个你认识的人出轨了，你会怎么做？默默压在心里，还是跟那个绿帽侠说起？ 这个问题或许永远不会有标准答案。但至少现在，我们有了一项研究，它能告诉我： 你最终采纳的做法，都受到了哪些因素的影响。 这项研究发表在Archives of Sexual Behavior上，487名本科生参与者（绝大多数为女性，平均年龄19岁）完成了在线调查，他们收到以下指示： “请想象一…",
+      "key_points": [
+        "或者自己曾经被背叛过 ，也会影响一个人的决定。还有，这项研究里把“出轨”限定为跟伴侣之外的人发生插入式性交，如果是接吻、手淫、口交……可能也会影响一些人决定要不…",
+        "这项研究发表在Archives of Sexual Behavior上，487名本科生参与者（绝大多数为女性，平均年龄19岁）完成了在线调查，他们收到以下指示：…",
+        "如果劈腿者B以前就出轨多次，或者对A很不好，你就很可能告诉A。如果是A以前曾出轨多次，或者对B很不好，那么你就更可能保持沉默"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "长期被冤枉的 6 个好东西！以为有害，其实大可以放心吃",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%95%BF%E6%9C%9F%E8%A2%AB%E5%86%A4%E6%9E%89%E7%9A%84+6+%E4%B8%AA%E5%A5%BD%E4%B8%9C%E8%A5%BF%EF%BC%81%E4%BB%A5%E4%B8%BA%E6%9C%89%E5%AE%B3%EF%BC%8C%E5%85%B6%E5%AE%9E%E5%A4%A7%E5%8F%AF%E4%BB%A5%E6%94%BE%E5%BF%83%E5%90%83",
+      "published": "Mon, 06 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "be",
+        "body",
+        "DOI",
+        "Fulgoni",
+        "like",
+        "adults."
+      ],
+      "summary": "fff 呔！ 多少美食被无知谣言打入冷宫？ 多少伪科学在民间兴风作浪？ 趁新年，本官就要为它们一一辨！忠！奸！ 被告 1 号：蛋黄 ❌ 罪名：蛋黄胆固醇过高，要少吃！ 所以很多人只吃蛋白，把蛋黄扔了…… 特此声明：这是对蛋黄的误解和浪费 本官先定个调—— 1. 目前没有证据表明多吃胆固醇会导致高血脂或心脏病； 2. 其次，健康的人一般不用特地去关注自己饮食中的胆固醇摄入量。 中国动脉粥样硬化性心血管病风险预测研究（China-PAR）通过对 15 个省份 10 万余人长期随访发现： 适量食用鸡蛋者的总死亡人数和患心…",
+      "key_points": [
+        "在美国成年人中： 全脂牛奶的摄入量与体重、BMI（身体质量指数）和肥胖风险呈负相关！[5] 被冤枉的全脂牛奶 be like 所以对绝大多数人来说，每天喝 1～…",
+        "被告 5 号：全脂牛奶 ❌ 罪名：全脂牛奶更容易长胖，用脱脂奶代替更好 其实，全脂牛奶和脱脂牛奶的热量真没差多少……请看图↓ 也就是说，一杯牛奶（200 g），…",
+        "确实会使用含有氧化铅的“松花泥”，用来促进蛋白凝固和形成更好的风味。长期食用确实可能导致铅中毒，影响神经系统发育。[2] 2014 年开始，国家出台了规定： 不…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "几十块的儿童防晒，凭什么让我把大几百海淘的全换了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%87%A0%E5%8D%81%E5%9D%97%E7%9A%84%E5%84%BF%E7%AB%A5%E9%98%B2%E6%99%92%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E8%AE%A9%E6%88%91%E6%8A%8A%E5%A4%A7%E5%87%A0%E7%99%BE%E6%B5%B7%E6%B7%98%E7%9A%84%E5%85%A8%E6%8D%A2%E4%BA%86%EF%BC%9F",
+      "published": "Mon, 06 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hold",
+        "SPF30",
+        "PA+++",
+        "PA++++",
+        "A2230352630101001C",
+        "dc_ps"
+      ],
+      "summary": "fff 说真的，每年一到春天，我就开始犯 “防晒焦虑” 。 不是怕晒黑——毕竟打工人大部分时间都泡在工位上，真正能晒到太阳的时间还没刷手机长。 而是看着什么SPF50+、30+，PA+++...... 防晒值到底选多少？物理还是化学？孩子能用吗？大人能用吗？敏感肌能碰吗？涂完要不要卸妆？ ......想到这些 我就一个头两个大。 更要命的是——好不容易选了一支，涂上脸要么 假白到像刷了腻子，要么油到同事以为你额头反光是在给他打信号，要么搓泥搓到怀疑人生 。 而且换季天气多变， 防晒只是第 1 步，面霜也得跟上 ：空…",
+      "key_points": [
+        "质地非常清透，几乎感觉不到油腻，孩子不抗拒 ——这对儿童防晒来说真的太重要了",
+        "规格：50g 粉丝特惠价：89元/2瓶 额外享同款15g小样 参与全场满减 👇戳图立马抢👇 专场里还有 其他戴可思口碑超好的面霜、洁面、洗护发套装、沐浴露、洗手…",
+        "👇戳图立马抢👇 专场里还有 其他戴可思口碑超好的面霜、洁面、洗护发套装、沐浴露、洗手液、唇膏 等都谈来了活动价，老朋友的品质你们用过的都懂，而且均价几十块就能入…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "辛苦考上幼师，幼儿园没了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BE%9B%E8%8B%A6%E8%80%83%E4%B8%8A%E5%B9%BC%E5%B8%88%EF%BC%8C%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%B2%A1%E4%BA%86",
+      "published": "Mon, 06 Apr 2026 16:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ID",
+        "SouthReviews",
+        "fff",
+        "live"
+      ],
+      "summary": "fff 本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：何国胜 编辑：向现 2025年11月底，七月工作了4年的幼儿园闭园了。 那天她站在幼儿园门口，看着原来贴招生宣传的地方，贴上了停办通知，心情复杂。从2000年入行以来，幼儿园占据了她大半人生，最后却因生源不足，她不得不退出。 去年11月初，园里就开了会，说租房合同马上到期，加上招生情况很不理想，决定闭园。七月记得，2021年她刚去这家幼儿园时，园里还有300多个学生，闭园的时候只有43个。 随着幼儿园关门，园里10位老师和几位后…",
+      "key_points": [
+        "很多网友给她支招，“从行政文员重新干起呗”。她回复说：“没有活啊，我倒是想干呢。” 王可介绍，她曾在的公办幼儿园也处在闭园的边缘，全园只剩下50余个孩子。因为生…",
+        "浙江一位因闭园失业的48岁幼师李晚对这点体会颇深。在近期投遍了可以投的各种岗位仍一无所获后，她告诉南风窗：“不知道自己还能干嘛，感觉就是废人一个。” “经历只有…",
+        "浙江失业幼师李晚早已过了她认为可以跳舞的年纪，她今年48岁，处境比王可更难。她曾是幼师，也是幼儿园的开办者。2023年，她自己在村里办了13年的幼儿园被关"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "亚洲电影走向世界，从它开始",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BA%9A%E6%B4%B2%E7%94%B5%E5%BD%B1%E8%B5%B0%E5%90%91%E4%B8%96%E7%95%8C%EF%BC%8C%E4%BB%8E%E5%AE%83%E5%BC%80%E5%A7%8B",
+      "published": "Mon, 06 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Achira",
+        "Akira",
+        "Curosawa",
+        "hongmomgs",
+        "irisfilm",
+        "Italia"
+      ],
+      "summary": "作者： Jasper Sharp 译者： 陈思航 校对： 易二三 来源： 《视与听》 在《罗生门》上映七十周年之际，你可能会想回顾一下这部电影史上的里程碑。 《罗生门》（1950） 你的原因可以有很多。正是因为这部电影，海外观众第一次知道了黑泽明的名字。他们还知道了日本电影黄金时代的三船敏郎、京町子和志村乔等明星。 1951年，它在威尼斯电影节上夺得了金狮奖，它也是电影史上的一个标志，意味着世界观众开始对日本电影感兴趣。此外，它还成为了第一部由北美主要制片厂发行的日本电影。 这是一种从东方兴起的、令人兴奋的新式电影…",
+      "key_points": [
+        "它在威尼斯电影节上夺得了金狮奖，它也是电影史上的一个标志，意味着世界观众开始对日本电影感兴趣。此外，它还成为了第一部由北美主要制片厂发行的日本电影",
+        "亨利·哈特在1952年1月的《电影评论》中写道，这部电影的突出之处在于「对人类内心的洞察。这足以让西方的心理分析感到羞耻。我们可以意识到，森林事件那不同版本的故…",
+        "西蒙·哈考特-史密斯在《视与听》的评论里，开篇就已经警告了读者：「这部电影代表着一种可能离我们的世界最遥远的传统与观点，而它直面着我们自己的传统与观点。」这位作…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "光看奖项，他是亚洲第一人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%85%89%E7%9C%8B%E5%A5%96%E9%A1%B9%EF%BC%8C%E4%BB%96%E6%98%AF%E4%BA%9A%E6%B4%B2%E7%AC%AC%E4%B8%80%E4%BA%BA",
+      "published": "Mon, 06 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CIE",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "TVB"
+      ],
+      "summary": "（本文曾发表于虹膜电子杂志。） 文 艾弗砷 不像另外几位五十年代末出道的著名导演，今村昌平电影中的作者性直到导演第四部电影（《猪与军舰》）时才彰显出来，这时候距他入行已经过了十年了，而他最好的作品都是在六十年代制片厂体系松动之后拍摄的。 《猪与军舰》（1961） 读今村的自传，看得出，五十年代这十年的制片厂生涯隐隐约约能用四个字概括——身不由己。这十年中，也许最值得谈谈的，是他做副导演的那几年。 今村昌平从小住在东京大塚车站旁，大塚站周边向来以混乱著称，各种营生野蛮生长，今村的父亲开一家耳鼻喉科门诊，时常有妓女光顾…",
+      "key_points": [
+        "就发生在这前后。《月升中天》中饰演节子的北原三枝，也是不久前从松竹调到日活的，未来五年里，她成了日活最炙手可热的女演员。当时的报纸上说，「在日活，这是第一次组成…",
+        "《晚春》（1949） 此时小津式美学已经臻至圆熟，开始以厚重的惯性，用一种最省力、最有延续性的方式创作和拍摄，小津导演组有高度的默契，很多事情约定俗成，心领神会…",
+        "小津在日记里写到，斋藤武市跟他谈要去日活的问题。小津听后说：「这一次我要拍《月升中天》，把今村也带过去吧。」 4月，小津在日记里写，今村过来拜访，「谈个人的事」…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最宜居的沿海小城，在哪？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%AE%9C%E5%B1%85%E7%9A%84%E6%B2%BF%E6%B5%B7%E5%B0%8F%E5%9F%8E%EF%BC%8C%E5%9C%A8%E5%93%AA%EF%BC%9F",
+      "published": "Mon, 06 Apr 2026 09:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "fff"
+      ],
+      "summary": "fff 在中国， 沿海大城市不少， 但有些名气不大的小城， 更惬意、更让人放松。 推开窗，海风拂面， 街巷里弥漫慢节奏的烟火气。 它们舒适、鲜活， 甚至想让人久居。 浙江宁波·象山 被海风包围的渔港生活 象山位于象山港与三门湾之间，三面环海、两港相拥，拥有近1000公里海岸线和500多座海岛。丰富的海域与岛屿，让这里自古就被称作“海山仙子国”。 象山滨海 象山松兰山滨海一带的海岸线绵延十余公里，沙滩与礁石交替出现，海风一吹，空气里都带着淡淡的咸味。 如果沿着海岸公路骑行，一边是层叠山岭，一边是开阔海面，日出与日落在…",
+      "key_points": [
+        "山东烟台·莱州 被低估的北方沿海小城 在渤海三大海湾之一的莱州湾南岸，有一座沿海小城——莱州。这里地处胶东半岛西北部，海岸线绵延约108公里，百里沙滩沿海铺展，…",
+        "河北·沧州 被低估的北方沿海小城 提起沧州，很多人的第一印象来自《水浒传》——林冲被发配至此，似乎是一座偏远荒凉的内陆城。但实际上，这座城市一直与海洋紧密相连",
+        "【参考资料】 [1]《“屿”见天海间 在我国四大海域，有哪些“最美海岛”的挑战者？》中国国家地理 2025年10月 [2]我国的五大海湾，你了解多少？@威海海洋…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我也照样记不住",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E4%B9%9F%E7%85%A7%E6%A0%B7%E8%AE%B0%E4%B8%8D%E4%BD%8F",
+      "published": "Mon, 06 Apr 2026 11:33:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "angry",
+        "ar",
+        "beta",
+        "Bitsea"
+      ],
+      "summary": "五年前，我向读者们推荐过一本科幻小说《 读后---可能是年度科幻小说 》。当时我不仅把它提名为 2021 年我的年度科幻作品，同时也很明确地写过：「 它更像是一部科幻大片，而不是一部小说。或者我可以这样说，这部小说就是奔着拍成电影而去，等的就是诺兰来当导演，主演还是马修·麦康纳 」。 在今年这个春天，这部小说改编的电影正式上映。 重点不在于预言成真，而是我看到有些影迷看完电影之后，出来大发感慨：当年我还在和菜头那里看过原著小说介绍，怎么现在我连一丁点情节都不记得了？这样的人为数不少，言语之间有怅恨自责之意。 难过什…",
+      "key_points": [
+        "难过什么呢？我也照样记不住",
+        "它是我的 2021 年度科幻小说；对，我完整阅读了小说还专门写了读后感。又能如何呢？五年过去，我照样记不住。重新翻看了当年的文章，我的记忆才一点点复苏。而且，复…",
+        "为什么我记不得看过的小说情节？以上就是我给出的解答。能够看到这篇文章的人都应该是成人，我想，作为成人不能再继续用学童的要求继续要求自己。在成人世界里，记忆力从来…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "\"前辈，请让道\"，强制教授退休能解决青年学者的就业难吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%22%E5%89%8D%E8%BE%88%EF%BC%8C%E8%AF%B7%E8%AE%A9%E9%81%93%22%EF%BC%8C%E5%BC%BA%E5%88%B6%E6%95%99%E6%8E%88%E9%80%80%E4%BC%91%E8%83%BD%E8%A7%A3%E5%86%B3%E9%9D%92%E5%B9%B4%E5%AD%A6%E8%80%85%E7%9A%84%E5%B0%B1%E4%B8%9A%E9%9A%BE%E5%90%97%EF%BC%9F",
+      "published": "Mon, 06 Apr 2026 09:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Linton",
+        "EJRA",
+        "Silver",
+        "Cambridge",
+        "Spergel",
+        "Age"
+      ],
+      "summary": "fff 4.6 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源： Unsplash 撰 文｜ Miryam Naddaf 来源｜自然系列 ● ● ● 部分高校正推行强制退休年龄制度。这么做能让青年学者获得终身教职吗？ 一些大学修改了退休政策，以便为青年学者腾出更多岗位。来源：Carl Court/Getty 在学术界立足越来越难了。 处于职业生涯早中期的研究人员为了争取稳定的学术岗位和科研经费，面临无比激烈的竞争—— 主要原因是每年授予的博士学位数量与面向他们的终身轨教职数量严重不匹配。 美国高校…",
+      "key_points": [
+        "学术界对于是否要延长退休年龄仍争论不休。纽约支持数学与基础科研的西蒙斯基金会的主席、天体物理学家David Spergel表示， 教授退休能给青年学者让出机会，…",
+        "一些学校引入了学术退休制度。“我们必须重新定义学术退休的概念，”英国剑桥大学社会科学家Thomas Roulet去年在领英 （LinkedIn） 上表示， “不…",
+        "fff 4.6 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源： Unsplash 撰 文｜ Miryam Naddaf 来源｜自然系列 ●…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第263期 - 硬件之美",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/263/",
+      "published": "Mon, 06 Apr 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "https",
+        "Claude",
+        "github.com",
+        "Waza",
+        "Markdown"
+      ],
+      "summary": "封面图用于记录我假期在家三天玩的硬件小玩具，从一堆材料中锡焊、点胶、调试，终于快到最后一步了，屏幕调试过程中烧屏了，只能等快递到了继续整，很好玩。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 新文章发布 你不知道的大模型训练：原理、路径与新实践 https://tw93.fun/2026-04-03/llm.html 至今写得耗时最长的一篇文章，好在搞懂了大模型训练皮毛，里面门道和我研究前相差太大了，非常建议从事 AI 应用或者对 AI 有兴趣的任何小伙伴阅读，应该能够让…",
+      "key_points": [
+        "封面图用于记录我假期在家三天玩的硬件小玩具，从一堆材料中锡焊、点胶、调试，终于快到最后一步了，屏幕调试过程中烧屏了，只能等快递到了继续整，很好玩"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "经济学人智库 | 2026中国对外直接投资趋势",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93+%7C+2026%E4%B8%AD%E5%9B%BD%E5%AF%B9%E5%A4%96%E7%9B%B4%E6%8E%A5%E6%8A%95%E8%B5%84%E8%B6%8B%E5%8A%BF",
+      "published": "Mon, 06 Apr 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "EIU",
+        "Enterprise",
+        "B2B",
+        "fff"
+      ],
+      "summary": "fff 相关阅读： 中国企业出海3.0时代：2026年对外直接投资的六大趋势 关于经济学人智库EIU Economist Enterprise 是经济学人集团旗下的B2B业务品牌。我们将宏观经济和地缘政治的复杂变化，转化为可决策的洞察、可信赖的沟通，以及在全球舞台上有价值的对话，帮助不同组织在不确定性中把握方向。 经济学人智库(EIU) 是隶属于Economist Enterprise的经济预测和分析机构。80年来，我们帮助企业、政府和国际组织了解世界变化，在不断发展的全球格局中把握机遇并应对风险。提供国别研究、金…",
+      "key_points": [
+        "fff 相关阅读： 中国企业出海3.0时代：2026年对外直接投资的六大趋势 关于经济学人智库EIU Economist Enterprise 是经济学人集团旗…",
+        "经济学人智库(EIU) 是隶属于Economist Enterprise的经济预测和分析机构。80年来，我们帮助企业、政府和国际组织了解世界变化，在不断发展的全…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-07",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "百亿自闭症产业真相：当孩子的治疗，成了资本的提款机 | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%99%BE%E4%BA%BF%E8%87%AA%E9%97%AD%E7%97%87%E4%BA%A7%E4%B8%9A%E7%9C%9F%E7%9B%B8%EF%BC%9A%E5%BD%93%E5%AD%A9%E5%AD%90%E7%9A%84%E6%B2%BB%E7%96%97%EF%BC%8C%E6%88%90%E4%BA%86%E8%B5%84%E6%9C%AC%E7%9A%84%E6%8F%90%E6%AC%BE%E6%9C%BA+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sat, 04 Apr 2026 07:49:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "is",
+        "in",
+        "ABA",
+        "autism"
+      ],
+      "summary": "fff 本文选自经济学人20260404美国板块 United States | The autism boom 美国 | 自闭症需求激增 注释： The autism boom ： 文中 指自闭症诊断数量和治疗需求的爆炸式增长，以及随之而来的相关产业的兴起。 Demand for autism care is soaring. The system is struggling to cope 自闭症护理需求急剧攀升，现有体系应对乏力。 注释： soaring ：猛增，剧增。 A surge in diagnose…",
+      "key_points": [
+        "自闭症护理已在美国发展成为一个价值数十亿美元的庞大产业。旺盛的治疗需求吸引了私募股权（ PE ）公司纷纷涌入这一领域（ Cortica 便获得了多家风险投资机构…",
+        "不断扩大的市场规模、稳定可预期的资金来源以及行业的高度分散化，吸引了大量私募股权公司涌入。据经济与政策研究中心统计， 2017 年至 2022 年间，私募股权公…",
+        "这在客观上形成了过度治疗的利益驱动。由于近年来自闭症诊断数量的激增主要源于轻症病例的增多，这些新增儿童理应接受较少时长的干预治疗。然而以科罗拉多州为例，每周接受…"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "男子养了只「双头小青龟」，两个头还会争抢食物，双头动物在生物学上是怎么形成的？到底哪个脑袋在做主？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788572",
+      "published": "Fri, 03 Apr 2026 23:00:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hensel",
+        "Theory",
+        "Abby",
+        "Brittany",
+        "Dicephalic",
+        "Dicephalism"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 人都有两头的，更不用说乌龟了。 现今还在世的，最著名“双头人”孪生姐妹是美国的阿比盖尔（Abby Hensel）和布列塔妮（Brittany Hensel）。 这对姐妹，出生于 1990 年 3 月 7 日，如今 36 岁了。 医生发现，她们属于典型的双头连体双胞胎（Dicephalic parapagus twins）。 嗯，这个英文词条，用谷歌图片检索会有惊喜。 准备去检索的朋友，请做好一切视觉、心理，以及灵魂冲击的准备。 这对姐妹有着两个头，两条脊柱、脊髓，在尾骨…",
+      "key_points": [
+        "双头乌龟互相争抢食物，是非常正常的",
+        "牛、羊、猪、猫、狗、鸟等双头动物，也偶有发现",
+        "与正常的单头动物相比，多头动物在野外很难生存"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "破解Claude Code的\"记忆宫殿\"：51万行代码揭示AI如何管理你的每一次对话",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6369815.html",
+      "published": "Fri, 03 Apr 2026 03:15:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "AI",
+        "Anthropic",
+        "Code",
+        "Markdown",
+        "CC0"
+      ],
+      "summary": "Claude的「聪明」并非偶然，其三层记忆系统设计暗藏玄机。从即时便签到长期归档，这套机制完美复刻人类记忆模式，让AI在复杂对话中始终保持逻辑连贯。最新泄露的51万行代码揭示了Anthropic如何将神经科学原理工程化，本文深度拆解这套让Claude越用越懂你的核心架构。 为什么Claude用起来”更聪明”？ 用过不少AI的朋友可能有这种感觉：Claude好像比其他AI”更聪明”一些。 你跟它聊一个复杂的项目，从需求分析到方案设计再到细节修改，前后几十轮对话下来，它依然能记住你最开始说的核心要求，不会前后矛盾，不会…",
+      "key_points": [
+        "Claude的设计团队把这个思路工程化了。泄露的代码显示，Claude用了一套”三层记忆”系统来管理你的每一次对话",
+        "其三层记忆系统设计暗藏玄机。从即时便签到长期归档，这套机制完美复刻人类记忆模式，让AI在复杂对话中始终保持逻辑连贯。最新泄露的51万行代码揭示了Anthropi…",
+        "上周Anthropic的Claude Code源码意外泄露，51万行代码被公开。在海量技术细节中，有一套设计让我眼前一亮： Claude管理”记忆”的方式，和我…"
+      ]
+    }
+  ]
+}
