@@ -1,0 +1,843 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T01:00:04.657784+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 130,
+    "fresh_candidates": 67,
+    "backfill_candidates": 63,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-10",
+      "fetched_at": "2026-04-10T01:00:04.339043+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3966.17,
+          "change": -28.83,
+          "change_pct": -0.72,
+          "volume": 541569801.0,
+          "amount": 90248184.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4760.33,
+          "change": -5.050000000000182,
+          "change_pct": -0.11,
+          "prev_close": 4765.38,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-10 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1045.3028716060894,
+          "change": -1.1089104120114825,
+          "change_pct": -0.10597266115188872,
+          "prev_close": 1046.411782018101,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-10 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-10",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "外围风高浪急，A股还能走慢牛吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%A4%96%E5%9B%B4%E9%A3%8E%E9%AB%98%E6%B5%AA%E6%80%A5%EF%BC%8CA%E8%82%A1%E8%BF%98%E8%83%BD%E8%B5%B0%E6%85%A2%E7%89%9B%E5%90%97%EF%BC%9F",
+      "published": "Thu, 09 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A500",
+        "PE",
+        "PMI",
+        "PPI",
+        "WIND"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 今年2月底开始的本轮美伊冲突的烈度 ， 远超以往 。 迄今为止 ， 虽有暂时达成停战协议可能 ， 但双方仍在 “ 以打促谈 ” 的博弈中试探底线 。 这种 “ 边打边谈 ” 的僵局 ， 让局势走向充满不确定性 。 对我国而言 ， 中东动荡意味着三重压力 ： 能源安全 ， 输入性通胀 （ 油价上涨推升国内物价 ） ， 以及全球供应链的潜在冲击 。 2026年的A股…",
+      "key_points": [
+        "外围风高浪急 ， A股依然有可能走慢牛 ， 但 “ 慢牛 ” 的内涵需要被重新定义",
+        "是 “ 慢牛 ” 的另一份底气 面对外部的惊涛骇浪 ， A股还有一个最大的特色 ， 就是有 “ 国家队 ” 护盘",
+        "我们期待的慢牛还能持续吗"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "股价与净利润和净利润增速的关系研究",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1634692981/383145084",
+      "published": "Thu, 09 Apr 2026 09:47:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q25",
+        "http",
+        "Q24",
+        "Q26",
+        "SH601857",
+        "SH601988"
+      ],
+      "summary": "分析年度为单位的产业趋势和股价，我信心还是很强的。今天试着分析一下季度的走势和业绩的关系，我觉得已经很吃力了。真不知道那些大神们，每天每周都要操作，都要吃干榨净，是怎么做到挣钱的，纯蒙么？如果日为单位操作能赢的话，为什么不去操作每分钟或者每秒的呢？哈哈哈。 其实复杂的研究，两幅图就说清楚了：股价会领先季度业绩反应，并且跟季度业绩同比增速的拟合优度更大，上下可以对着看。 因为4Q24是亏损的，所以4Q25 的增速没法看，1Q25有是个超级低基数，所以1Q26的同比会非常高。可见的未来4-8个季度的利润增速都是不断向好…",
+      "key_points": [
+        "所以4Q25 的增速没法看，1Q25有是个超级低基数，所以1Q26的同比会非常高。可见的未来4-8个季度的利润增速都是不断向好的，那么股价怎么走，大方向也就确定…",
+        "两幅图就说清楚了：股价会领先季度业绩反应，并且跟季度业绩同比增速的拟合优度更大，上下可以对着看",
+        "我信心还是很强的。今天试着分析一下季度的走势和业绩的关系，我觉得已经很吃力了。真不知道那些大神们，每天每周都要操作，都要吃干榨净，是怎么做到挣钱的，纯蒙么？如果…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于白酒26Q1业绩的分析与展望",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4036694201/383053515",
+      "published": "Thu, 09 Apr 2026 09:47:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q1",
+        "amp",
+        "http",
+        "in",
+        "price",
+        "Q4"
+      ],
+      "summary": "昨天发了招商的白酒26Q1业绩预测，基本和我预期差不多。很多人不太理解为什么和实际反馈不太相符，这里给大家简单分析下： 茅台 招商给的营收预测是5%，一季度主要还是分贡献项和拖累项两部分来看： 业绩拖累项： 主要是非标产品，因取消搭售和降价，传统渠道的非标销量大幅减少（-20~30%），对业绩是负贡献。 业绩增长项： 主要靠i茅台。基于i茅台的测算显示，一季度贡献约7800吨销量、超250亿元收入。叠加传统渠道（飞天发货进度约40%+）及其他产品，一季度总收入已超过去年同期，可以直接弥补非标产品传统渠道的缺口。 所…",
+      "key_points": [
+        "基本和我预期差不多。很多人不太理解为什么和实际反馈不太相符，这里给大家简单分析下： 茅台 招商给的营收预测是5%，一季度主要还是分贡献项和拖累项两部分来看： 业…",
+        "其他&amp;展望 1.预计大部分酒企都会做低25Q4业绩放到26Q1里，所以业绩要一起看",
+        "业绩增长项： 主要靠i茅台。基于i茅台的测算显示，一季度贡献约7800吨销量、超250亿元收入。叠加传统渠道（飞天发货进度约40%+）及其他产品，一季度总收入已…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "英伟达Vera Rubin NVL72服务器架构与供应链解析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5748226255/383055309",
+      "published": "Thu, 09 Apr 2026 09:46:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPU",
+        "AI",
+        "NVL72",
+        "Rubin",
+        "NVSwitch",
+        "Compute"
+      ],
+      "summary": "写在前面： 下午和朋友聊，英伟达的Vera Rubin进度可能超预期，会比分析师预计的上线时间要早，估计4月业绩报出完，5月开始相关公司的股价就会有表现了。说实话我本人是很烦蹭概念的杂毛股，正好在公众号 3C供应链 上看到一篇产业文章，简单发出来供大家参考，也算是正本清源了，毕竟正规价投，谁都不想买了杂毛被挂在天上。大伙儿凑合看，我纯转载，如果有不对的地方也欢迎指出。 以下是正文： 3月18日，在NVIDIA GTC2026大会上，英伟达创始人兼CEO黄仁勋正式展示了下一代AI数据中心平台NVIDIA Vera R…",
+      "key_points": [
+        "在NVIDIA GTC2026大会上，英伟达创始人兼CEO黄仁勋正式展示了下一代AI数据中心平台NVIDIA Vera Rubin Architecture，以…",
+        "GPU封装主要供应链包括： 封装厂：TSMC、ASE Technology、Amkor Technology GPU封装基板（ABF Substrate）供应商…",
+        "英伟达的Vera Rubin进度可能超预期，会比分析师预计的上线时间要早，估计4月业绩报出完，5月开始相关公司的股价就会有表现了。说实话我本人是很烦蹭概念的杂毛…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "牧原股份2026年3月月报简析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/383060008",
+      "published": "Thu, 09 Apr 2026 09:46:49 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ002714",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "一、出栏结构 商品猪675.1万头，销售收入86.1亿元，均价9.91元/公斤，均重128.64公斤。成本11.6元/公斤，亏损14.68亿元。 其中：淘汰母猪40万头，均价7元/公斤，均重175公斤，销售收入4.9亿元，账面成本1350元。 育肥猪635.1万头，销售收入81.16亿元，均价10.17元/公斤，均重125.71公斤。 屠宰业务头均经营性盈利25元，经营性盈利0.62亿元，扩张性亏损0.4亿元，整体盈利0.22亿元。 预计一季度商品猪亏损10.18亿元，屠宰业务盈利0.79亿元。商品猪业务与屠宰业务…",
+      "key_points": [
+        "体现的是出栏前190天的加权平均成本，因此冬季增加的防疫成本会体现在未来几个月中。预计3月成本下降至11.6元/公斤，未来会持续下降"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "火车走火车道，那开火车的人怎么知道该走哪条车道了？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788799",
+      "published": "Invalid Date",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "XXX"
+      ],
+      "summary": "傻瓜乐力， 知青 修过铁路 开过火车 ......早已退休。 查看知乎原文 学烧火第一天，师父就教诲： “你得先学认道儿啊，知道该在哪儿填煤，在哪儿拉水儿......” “火车各跑一段儿”，小烧 大烧 大车一点点熬，等到摸闸把子，拉汽门了，路况早就烂熟于心了。 站外运行,按规定速度开车就行,没有辨认走哪条道的问题。问题在进站和出站。 我干那时， 1/ 出站 ，发车根据路票，看信号灯 或信号旗（当时叫”扬旗“- 高高地立在铁路边适当位置）。 2/ 进站前 看信号灯 和 扬旗（早期铁路信号） ，停车或通过。 “火车各跑…",
+      "key_points": [
+        "师父就教诲： “你得先学认道儿啊，知道该在哪儿填煤，在哪儿拉水儿......” “火车各跑一段儿”，小烧 大烧 大车一点点熬，等到摸闸把子，拉汽门了，路况早就烂…",
+        "然而这次车过杨庄站却没在规定的车位停下来，而是以每小时 40 公里的速度继续前行 - 原来两个司机都睡着了！副司机阎景发已经睡熟了，正司机马相臣在接近兰考也睡了…",
+        "通常进站才出现弄明白进几道这种情况 - 一旦车出了车站，进入区间就一条道，沿着闭塞区间跑就行了，理论上不该走错路， 因为火车顺着铁道走，扳道员扳到哪邦道岔，车就…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "各位学界大佬是怎么发现新史料的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788811",
+      "published": "Invalid Date",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ivan",
+        "Mallara",
+        "of",
+        "Bug",
+        "examination",
+        "Galilei"
+      ],
+      "summary": "拉格朗日的忧郁， 凝聚态场论方向，在做post-doc 查看知乎原文 前段时间米兰大学的 Ivan Mallara 从犄角旮旯里找到了伽利略的亲笔文字，其过程之奇妙可以说是新史料发掘的一个典范案例。 先介绍一下 Ivan Mallara，他现在还在做博后，研究核心是伽利略和托勒密的继承关系（examination of Galileo Galilei’s reception of Ptolemy）。这位老哥的一大主要的工作方式就是去图书馆找各种奇奇怪怪的老书，特别是那些十五十六世纪留存下来的和托勒密相关的书籍。这种…",
+      "key_points": [
+        "这个问题本身我觉得是一个非常有意思的问题，新史料的发掘总是会让我们对历史有一些新的理解，然而可惜大多数回答都围绕着键政展开，实在无趣。故而写一个最近在 scie…",
+        "凝聚态场论方向，在做post-doc 前段时间米兰大学的 Ivan Mallara 从犄角旮旯里找到了伽利略的亲笔文字，其过程之奇妙可以说是新史料发掘的一个典范…",
+        "最终他们找到了一个收藏于图书馆的马利亚贝基亚诺藏书中的 1551 年巴塞尔版的至大论。在检查过程中，老哥发现，总共 13 卷的这部作品，其中前五卷有大量的旁注，…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古城为什么就要保留下来？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788802",
+      "published": "Invalid Date",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "游旭东， 写作者。合作约稿请私信 查看知乎原文 蔚县，河北省张家口市的一个普通县城，一般人不了解这个地方的人会读 wèi 县，对历史稍微熟悉一点的会读 yù县，但要是亲自去一趟，你就知道当地的称呼是 yǔ县。 蔚县街景，摄影：沈小毛 蔚县不算大，常住人口仅 40 万，但却是“中国国保第一县”。所谓国保，就是全国重点文物保护单位，是我国文物行政部门对不可移动文物所核定的最高保护级别。蔚县拥有 1610 多处文物遗存，22 处全国重点文物保护单位，是当之无愧的全国第一。 一个塞外小县，凭什么拥有全国数量第一的“国保”？…",
+      "key_points": [
+        "上方是城墙，摄影：游旭东 另一个 “神人共防”案例是位于蔚县古城南部的南安寺塔，南安寺的历史远早于蔚州城的建立，曾是香火鼎盛的辽代名刹。然而，明洪武初年，为了扩…",
+        "你总能在最北端的堡墙上看到一座高耸的庙宇，那通常是真武庙，供奉真武大帝。为什么是真武大帝？因为在五行学说中，北方属水，真武大帝是北方之神，也是威赫的武神，能镇火…",
+        "来自《蔚州志（崇祯）》 “墙”是这套防御体系的核心。古语云“铁打的蔚州”，指的便是蔚州这座固若金汤的城池。现存的城墙来自明代，洪武十年（1377），蔚州卫指挥使…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Transformer：让AI学会”一目十行”的神秘架构",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374269.html",
+      "published": "Thu, 09 Apr 2026 09:41:34 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Transformer",
+        "AI",
+        "Attention",
+        "Google",
+        "All",
+        "BERT"
+      ],
+      "summary": "你知道吗？ 2017年，Google发了一篇论文，名字叫《Attention is All You Need》。这篇论文的八位作者，后来走出了六家AI公司——OpenAI、Character AI、Cohere……整个大模型时代的半壁江山，都跟这篇论文有关。 而这篇论文的核心，就是 Transformer 。 一句话理解 Transformer = 让AI能够”同时看到”一句话里所有字之间关系的深度学习架构，它是GPT、Claude、Gemini等几乎所有主流AI的”大脑基础”。 它是怎么工作的 传统方法（像人读课…",
+      "key_points": [
+        "Transformer的方法（一目十行）： Transformer 做了一件很巧妙的事：它让每个字都同时”看到”这句话里的所有其他字",
+        "技术演进 时间 里程碑 2017年 Google发表《Attention is All You Need》，Transformer诞生 2018年 BERT（双…",
+        "有什么用 Transformer 出现之后，几乎所有NLP任务都有了质的飞跃： 机器翻译 ：同时理解整句，翻译更流畅 文本生成 ：GPT系列、Claude等，都…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "这两天，我突然意识到AI于我而言最大的BUG是什么？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374164.html",
+      "published": "Thu, 09 Apr 2026 08:10:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "MIT",
+        "Wharton",
+        "Carr",
+        "ChatGPT",
+        "Austin"
+      ],
+      "summary": "当AI成为思考的'外包商'，我们正在失去什么？从MIT的脑电实验到沃顿商学院的千人研究，数据揭示了一个令人不安的真相：AI辅助正在造成'认知债务'的累积。本文深度剖析了'系统0'现象如何重塑我们的思维模式，以及为什么那些被AI抹去的'思考摩擦'才是真正塑造专业能力的核心。作为AI产品设计者，作者更带来了行业视角的反思——效率与认知萎缩之间的微妙平衡，正在成为数字时代最隐秘的困境。 “ganga”两个字，天天打。 现在让你拿笔手写，你还能写对吗？ 试一下。先写”gan”——左边那个”九”，右边那个……等等，右边是什么…",
+      "key_points": [
+        "每天大量使用各种大模型。上周有个朋友当面问我对某个行业趋势的看法，我张嘴想说，突然发现——我脑子里冒出来的句子，特别像AI会说的话。什么”这是一个多维度的问题”…",
+        "AI给你的是”可接受的答案”，不一定是”最适合你的答案”。这两者之间的差距，你以前会通过思考来弥补。现在你不补了。甚至AI给你的答案是非常完美的，那我们和这个世…",
+        "AI已经把答案放在你面前了。你甚至没有意识到自己本来应该思考这件事"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Vibe coding 持续迭代完全指南",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374109.html",
+      "published": "Thu, 09 Apr 2026 08:09:02 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "demo",
+        "PRD",
+        "Plan",
+        "Step",
+        "changelog"
+      ],
+      "summary": "Vibecoding新手常陷入的困境：项目跑通后的小改动引发连锁崩溃，最终导致烂尾。本文揭示其核心原因——工具选择不当与迭代流程缺失，并给出IDE解决方案与大改四步法。从存档策略到PRD协作，再到Plan模式开发与changelog管理，这套方法论让你在不写代码的情况下实现稳健迭代。 故事是这样的。 你搓出一个小项目，第一版跑通的那个晚上，你很爽。对话框里一条条需求发出去，页面一点点出来，功能一个个实现。你觉得，这玩意真的可以。 然后过了几天，你回来想加一个功能。 改了半天，提示词来回换，AI要么说没问题然后悄悄改…",
+      "key_points": [
+        "持续加功能、修bug、迭代半年一年，它们就帮不了你了",
+        "Vibecoding新手常陷入的困境：项目跑通后的小改动引发连锁崩溃，最终导致烂尾。本文揭示其核心原因——工具选择不当与迭代流程缺失，并给出IDE解决方案与大改…",
+        "在这个文件夹里放两个文件： `迭代2.0.md`：把刚才写好的PRD粘进去 `2.0-demo.html`：把demo页面粘进去 然后，在对话窗口里把这个文件夹…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Meta的\"牌桌翻新术\"：Muse Spark凭什么让扎克伯格敢说\"个人超级智能\"？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374088.html",
+      "published": "Thu, 09 Apr 2026 07:43:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "Muse",
+        "Spark",
+        "Llama",
+        "Facebook"
+      ],
+      "summary": "Meta以143亿美元收购Scale AI后打造的首款AI产品Muse Spark，彻底颠覆了开源策略与产品定位。这款面向30亿终端用户的超级智能助手，不仅重构了AI技术栈，更通过社交生态的深度整合与独创的'思维压缩'技术，展现了清晰的商业闭环思维。本文将拆解Meta从'开源基座'到'闭源助手'的战略转向，以及它对AI产品设计的深刻启示。 写在前面：一场143亿美元的”自我救赎” 去年Llama 4发布时的盛况还历历在目——号称开源最强，结果被扒出跑分造假，社区口碑直接崩盘。那段时间，连Meta内部的工程师都在匿名…",
+      "key_points": [
+        "扎克伯格花了143亿美元收购Scale AI 49%的股权，把创始人Alexandr Wang挖来当Meta史上第一位首席AI官。然后成立了Meta超级智能实验…",
+        "面向开发者。Muse Spark的定位是”个人超级智能助手”，面向30亿终端用户",
+        "Meta以143亿美元收购Scale AI后打造的首款AI产品Muse Spark，彻底颠覆了开源策略与产品定位。这款面向30亿终端用户的超级智能助手，不仅重构…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当3000所高校开始“卷”招生：数字化宣传工具的价值重构与爆发前夜",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/evaluating/6374081.html",
+      "published": "Thu, 09 Apr 2026 07:42:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "SaaS",
+        "CC0",
+        "Excel+QQ",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "高校招生宣传SaaS赛道正迎来爆发前夜，AI技术的成熟与生源竞争的加剧推动行业进入高速成长期。本文深度拆解市场规模、竞争格局与客户价值逻辑，揭示民办高校与职业院校将成为付费主力军的市场真相，并给出差异化产品定位的实战策略。从政策红利到AI应用，从30亿全球市场到15%年增长率，带你看懂这场教育数字化的关键战役。 摘要 ：高校招生宣传SaaS正在从一个小众赛道走向爆发前夜。本文从市场环境、市场规模、竞争格局和客户价值四个维度，系统拆解了这一赛道的商业逻辑，最后给出了结论与产品策略建议。数据显示，全球招生管理软件市场已…",
+      "key_points": [
+        "摘要 ：高校招生宣传SaaS正在从一个小众赛道走向爆发前夜。本文从市场环境、市场规模、竞争格局和客户价值四个维度，系统拆解了这一赛道的商业逻辑，最后给出了结论与…",
+        "高校招生宣传SaaS市场预计将保持 15%—20% 的年复合增长率，驱动因素包括： 渗透率提升 ：目前高校招生信息化的渗透率仍处于较低水平，大量学校还在使用传统…",
+        "高校招生宣传SaaS赛道正迎来爆发前夜，AI技术的成熟与生源竞争的加剧推动行业进入高速成长期。本文深度拆解市场规模、竞争格局与客户价值逻辑，揭示民办高校与职业院…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一觉醒来，美国让全世界背上了十万亿美元债务",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%EF%BC%8C%E7%BE%8E%E5%9B%BD%E8%AE%A9%E5%85%A8%E4%B8%96%E7%95%8C%E8%83%8C%E4%B8%8A%E4%BA%86%E5%8D%81%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83%E5%80%BA%E5%8A%A1",
+      "published": "Thu, 09 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Unsplash",
+        "huanqiukexue",
+        "about-loss-and-damage",
+        "amp",
+        "Aramco"
+      ],
+      "summary": "以下文章来源于环球科学，作者环球科学 本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：Unsplash 撰文 | 二七 审校 | 王昱 想象一下，你突然收到了一条信用卡的逾期通知短信。经过反复核实，你终于发现，从1990年开始， 你的邻居一直在偷用你的信用卡订阅杂志。 他享受了阅读的乐趣，却没有为此付过一分钱。 直到这笔订阅费在30多年里疯狂增长。 更糟糕的是，这笔债务并不会在你发现的这一刻停止。即使你现在立刻冻结自己的信用卡，那些已经支付的订阅费依然会累计利息。如果这个问题不解决， 到…",
+      "key_points": [
+        "约 3万亿由美国本土承担 ，另外还有1.4万亿美元的损失发生在欧盟，但还有更多的经济损失影响着全球的发展中经济体",
+        "美国在此期间的二氧化碳排放量造成了最多的经济损失，到2020年累计达到10.2万亿美元 （以2%贴现率计算）",
+        "图片来源：Unsplash 巨额数字 这份计算框架带来了一些令人震撼的数字。研究者分别从个人、企业和国家层面计算了历史债务： 对一位 普通人 来说，2010-2…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "9.9元一条的3D打印龙是什么高级货，怎么就占领了古镇？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+9.9%E5%85%83%E4%B8%80%E6%9D%A1%E7%9A%843D%E6%89%93%E5%8D%B0%E9%BE%99%E6%98%AF%E4%BB%80%E4%B9%88%E9%AB%98%E7%BA%A7%E8%B4%A7%EF%BC%8C%E6%80%8E%E4%B9%88%E5%B0%B1%E5%8D%A0%E9%A2%86%E4%BA%86%E5%8F%A4%E9%95%87%EF%BC%9F",
+      "published": "Thu, 09 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Dprinting",
+        "Reddit",
+        "https",
+        "comments",
+        "dragons",
+        "these"
+      ],
+      "summary": "清明节假期，你肯定在各地的夜市地摊和古镇上看到了全国统一的3D打印龙。 这些龙非常炫彩，有的是中国风，有的是西方幻想风，大多数情况就是一条一条放着， 像卖带鱼一样 。贵的99，便宜的只要9块9，各种尺寸都有。 大连地摊上的 3D 打印龙｜小红书 当我说各地的夜市地摊，其中也包括美国。 过去的一年里，我在农贸市场、漫展游戏展、风景区、游乐场，都见过满坑满谷的同款炫彩龙，以及它们的变种亲戚（把头稍微改一下就变成了鳄鱼、海怪、蝾螈），只是价格是国内的十倍。 大的 40 美元，小的 25 美元，聪明的你知道该怎么赚钱了吧！…",
+      "key_points": [
+        "Kids are buying these.（是孩子。就是孩子在买。）说真的，我家大概有十几条不同尺寸不同颜色的。”另一位爸爸的故事更让人动容：“我儿子有唐氏综…",
+        "你肯定在各地的夜市地摊和古镇上看到了全国统一的3D打印龙",
+        "小的 25 美元，聪明的你知道该怎么赚钱了吧！｜Alaska State Fair 在Reddit论坛上也有美国人发出天问，“到处都是这种3D打印龙，长得差不多…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "龙虾养宠指南，六个字即可总结",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%BE%99%E8%99%BE%E5%85%BB%E5%AE%A0%E6%8C%87%E5%8D%97%EF%BC%8C%E5%85%AD%E4%B8%AA%E5%AD%97%E5%8D%B3%E5%8F%AF%E6%80%BB%E7%BB%93",
+      "published": "Thu, 09 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Assistant",
+        "Home",
+        "OpenClaw",
+        "AI",
+        "NAS",
+        "Token"
+      ],
+      "summary": "我将第一次“养龙虾”的经历贡献给了我家“三个主子”。 铲屎官们都懂吧，每天早晨伴着阳光醒来，准备大吸一口新鲜空气，结果一股接着一股臭烘烘的腥臊味直入鼻腔。 我顺着味道嗅去，毫不意外，猫又尿沙发了。独生子女家庭的话，现在可以直接抓起来揍了。 但我养了三只猫，奶牛、虎斑、德文，一只比一只“欠儿登”，冤枉了谁都不好。 之前为了解决猫乱尿沙发的问题，我买了一个专门“识别宠物”的摄像头。它只会机械式的判断，只要有猫跑进画面，就给我发送通知。猫有时一天在沙发上打打闹闹，我能收到上百条通知，根本来不及看。等回家发现作案现场，再回…",
+      "key_points": [
+        "我对于龙虾养宠的心得已经可以总结成六个字了：还是雇个人吧",
+        "但让我犯难的是选择模型这一步。早有耳闻“龙虾”是吞金大户。业内朋友劝我，可以选择国内的服务商，一是考虑到连接速度，选国内的服务商更靠谱；二是识别“猫”很简单，视…",
+        "养虾就要省着点 一开始我考虑在本地 NAS 养。一来，NAS 可以安装虚拟机，避免龙虾乱动我的自己电脑上重要数据；二来我可以限制 NAS 的外网访问，让所有数据…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "从娘娘们的“美容方”到被质疑无用，它凭什么又回来了?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E5%A8%98%E5%A8%98%E4%BB%AC%E7%9A%84%E2%80%9C%E7%BE%8E%E5%AE%B9%E6%96%B9%E2%80%9D%E5%88%B0%E8%A2%AB%E8%B4%A8%E7%96%91%E6%97%A0%E7%94%A8%EF%BC%8C%E5%AE%83%E5%87%AD%E4%BB%80%E4%B9%88%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%3F",
+      "published": "Thu, 09 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "c8pQ19a84B",
+        "dc_ps",
+        "End",
+        "feature",
+        "http",
+        "OK"
+      ],
+      "summary": "说起 “珍珠粉” ，你会想到什么？ · 是古代娘娘们用它美容敷面； · 是 奶奶辈梳妆台上的瓷罐子； · 是明星们的私密保养方子； · 是传承千年的护肤秘笈， 还是“早就过时的智商税”？ 今天，咱就来聊聊这个有意思的话题： 珍珠粉护肤，到底是延续千年的美丽误会，还是被蒙尘的真宝贝？ 图源：图虫创意 差点“被毁掉”的千年智慧 我们常说的珍珠粉，是天然珍珠经过严格的清洗、消毒、研磨后制成的粉末。 而 珍珠粉的核心价值，就藏在 “细、白、纯、真” 四个字里 。 果壳实拍，珍珠粉 从成分上看，珍珠粉 是一个 “营养宝库”…",
+      "key_points": [
+        "· 是古代娘娘们用它美容敷面； · 是 奶奶辈梳妆台上的瓷罐子； · 是明星们的私密保养方子； · 是传承千年的护肤秘笈， 还是“早就过时的智商税”",
+        "还要能抗皱、紧致 初步的成功并没有让他们的 科研野心止步于此。阮博士团队开始思考一个更深的问题： 珍珠护肤，能否触及现代人更焦虑的松、垮、垂和皱纹",
+        "果壳实拍 之前安利给大家后也陆续收到了很多朋友发来的好评反馈： 这次不仅带来了真正好的珍珠粉，还谈来了非常好的福利价—— 官方活动价151元/罐"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 392 期）：axios 投毒与好莱坞式骗术",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-392.html",
+      "published": "2026-04-09T23:19:01Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "axios"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 392 期）：axios 投毒与好莱坞式骗术"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "在我眼里， 他是香港永远的视帝",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%9C%A8%E6%88%91%E7%9C%BC%E9%87%8C%EF%BC%8C+%E4%BB%96%E6%98%AF%E9%A6%99%E6%B8%AF%E6%B0%B8%E8%BF%9C%E7%9A%84%E8%A7%86%E5%B8%9D",
+      "published": "Thu, 09 Apr 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "tvb"
+      ],
+      "summary": "文 独孤岛主 在1980年代-1990年代的两次金庸作品改编剧集潮流里，香港无线电视纠合台前幕后强大阵容，将金庸几乎所有长篇武侠小说都搬上了荧光屏，也因此成就了一大批堪称典范的角色。 因这些角色的广受欢迎，担纲演出的演员们也随之家传户晓，今日已经成为影视业神话的梁朝伟版韦小宝、黄日华版郭靖、古天乐版杨过以及吕颂贤版令狐冲等，甚至是金庸文学影视化脉络里最顶级的范本。 这其中，黄日华一人跨越两个时代的改编潮流，在电视荧幕上（也在电影银幕上）饰演金庸笔下主要角色达六次之多，在无线电视/邵氏电影的金庸作品序列中算得上绝无仅…",
+      "key_points": [
+        "正是香港影视业历经剧烈洗牌与全面转型阶段，无线电视以中篇长度剧集力捧新人演员的策略在「五虎将」等新晋小生演员身上表现明显，因此在80年代的这波改编潮流中，剧集主…",
+        "《雪山飞狐》（1999） 最终黄日华的金庸武侠形象定格在与他年龄气质依旧非常相符的中年正气大侠，是对其二十年来古装角色表演生涯的总结。如上所言，黄日华的表演并未…",
+        "文 独孤岛主 在1980年代-1990年代的两次金庸作品改编剧集潮流里，香港无线电视纠合台前幕后强大阵容，将金庸几乎所有长篇武侠小说都搬上了荧光屏，也因此成就了…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "施瓦辛格不算演员？你开玩笑吗",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%96%BD%E7%93%A6%E8%BE%9B%E6%A0%BC%E4%B8%8D%E7%AE%97%E6%BC%94%E5%91%98%EF%BC%9F%E4%BD%A0%E5%BC%80%E7%8E%A9%E7%AC%91%E5%90%97",
+      "published": "Thu, 09 Apr 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "T-1000",
+        "T-800",
+        "CGI",
+        "AV",
+        "Breihan",
+        "Club"
+      ],
+      "summary": "作者：Tom Breihan 译者：Issac 校对：易二三 来源：《AV Club》 对于一个在过去五十年里一直在电影圈工作的人来说，阿诺·施瓦辛格从来没有真正地当过演员。相反，他是某种存在——他一身横肉，肌肉轮廓若隐若现，愣头愣脑，这是如此的不真实，以至于将一切拽进了另一个世界。施瓦辛格没有在舞台角色或小角色上有过任何突破，尽管他饰演过一些小角色。相反，作为一名健美运动员，他激发了人们的想象力，将自己的体型塑造得尽可能的荒唐和夸张。 《施瓦辛格健美之路》这部纪录片上映时，施瓦辛格已经拍了几部电影了，但即便是在这…",
+      "key_points": [
+        "《全面回忆》（1990） 《终结者2》充分利用了施瓦辛格的名气，并以最好的方式利用了他的长处和不足。如果1984年的施瓦辛格是完美的不可阻挡的机械杀手，那199…",
+        "Tom Breihan 译者：Issac 校对：易二三 来源：《AV Club》 对于一个在过去五十年里一直在电影圈工作的人来说，阿诺·施瓦辛格从来没有真正地当…",
+        "施瓦辛格以他的存在为整个场面奠定了基调。他把他的死亡机器变成了一个想要保护孩子安全的无知、迷糊的笨蛋——一个真正的父亲。这仍然是这位非演员所做过的最好、最有效的…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "世界地图里的“天涯海角”，你知道多少?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%BE%E9%87%8C%E7%9A%84%E2%80%9C%E5%A4%A9%E6%B6%AF%E6%B5%B7%E8%A7%92%E2%80%9D%EF%BC%8C%E4%BD%A0%E7%9F%A5%E9%81%93%E5%A4%9A%E5%B0%91%3F",
+      "published": "Thu, 09 Apr 2026 17:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "stanely",
+        "Tarifa",
+        "uvirco.2025"
+      ],
+      "summary": "当你随意翻开一张世界地图，不少人曾以为非洲最南端是好望角，美洲最南端是乌斯怀亚。今天和地理君一同踏上这场奇妙之旅，去全球各地探寻这些端点究竟位于何方。 全球主要“天涯海角”位置图 未详细标明的“角”，下文中均有提到 图自：标准地图服务系统 亚洲 亚洲，全程亚细亚洲，“亚细亚”一词源自希腊，意为“东方日出之地”。 最东端·俄罗斯杰日尼奥夫角 亚洲最东端 是位于俄罗斯的 杰日尼奥夫角 ，北纬 66°05′、西经 169°40′，隶属于俄罗斯联邦楚科奇自治区管辖，是楚科奇半岛东北端的海岬。 这里与下文即将提到的威尔士王子…",
+      "key_points": [
+        "欢迎在评论区留言 参考资料： 1、非洲最南端：探索厄加勒斯角的辉煌.宇宙探索署 2、开普敦周围：非洲大陆最南端厄加勒斯角.stanely uvirco.2025…",
+        "它在世界各洲中拥有的岛屿数量最少，因此这里的“天涯海角”景观大都在陆地之上",
+        "塔里法岛 美洲 美洲分为北亚美利加洲（北美洲）和南亚美利加洲（南美洲），是唯一一个整体在西半球的大洲，并且北端和南端都深入极地地区，因此这里的“天涯海角”景观深…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "没有那么多必然",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B9%88%E5%A4%9A%E5%BF%85%E7%84%B6",
+      "published": "Thu, 09 Apr 2026 12:10:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "sci-fi",
+        "acrylic",
+        "AI",
+        "ar",
+        "battleship"
+      ],
+      "summary": "我很爱我的猫咪，我的猫咪喜欢吃猫条。但我的猫咪也知道，猫条并不是天天都有，这就是我们之间的相处之道。 以前有很长一段时间，我每天早上起来之后都要给猫咪喂一根猫条。结果是猫咪开始挑食，猫条要经常换，否则就会紧闭着嘴不碰。而且，猫咪吃完一整根猫条的情况越来越少。每天都有，猫咪的态度就会发生这样的改变。 现在猫条只会不定期出现，像是生活里的小惊喜。猫咪不知道什么时候会得到一根，而我自己也只有在拆开猫条的那一瞬间才能确定。猫条随机出现，猫咪对猫条的兴趣也就恢复了。 我尽可能为猫咪提供一个稳定的生活环境。她的任何东西我都不会…",
+      "key_points": [
+        "这是我个人的微小修正，去掉了它，我感觉自己观察生活的视角就变得更为客观一些，我对于生活中的诸多随机变化心态上也变得更为宽容一些。最重要的，是我感觉自身的压力因此…",
+        "否则的话她也许会问我，谁谁家和谁谁谁家的小猫咪每天都有猫条吃，为什么我们家没有？我的回答很早就已经准备好了：因为在这个世界上没有那么多必然，更多时候只有随机变化…",
+        "我个人感觉好多了。「其实也行」并不是大规模放弃或者退步，而是给「必须」松松土。松完了就会发觉，其实生活里没有那么多必须，换一种方式其实也行。只要你能沉浸在眼前的…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "经济学家蔡昉万字长谈：AI如何重塑劳动力市场",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E8%94%A1%E6%98%89%E4%B8%87%E5%AD%97%E9%95%BF%E8%B0%88%EF%BC%9AAI%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%B8%82%E5%9C%BA",
+      "published": "Thu, 09 Apr 2026 07:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GDP",
+        "UBI",
+        "ChatGPT",
+        "END",
+        "get"
+      ],
+      "summary": "4.7 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 经济学家蔡 昉，照片由受访者提供。 撰 文｜ 凉音、李珊珊 ● ● ● 在中国的经济学家中，蔡 昉 常常扮演一 个 温和 的预警者 —— 一直以来，他坚持不懈地 提醒 着 人们，繁荣的数字背后，还有另一道必须回答的问题：增长的果实， 如何 到 达 最需要的人手中？ 2003 年 3 月，北京，中南海。十六届中央政治局进行第三次集体学习，主题是 \" 世界就业发展趋势和我国就业政策研究 \" 。走上讲台的，是时年 46 岁的中国社会科学院人口与劳动经济研…",
+      "key_points": [
+        "《中国就业新趋势：人工智能如何重塑劳动力市场》 蔡昉 著 中信出版集团 2025年10月出版 《投资于人》 蔡昉 著 中信出版集团 2026年4月出版 亲爱的读…",
+        "蔡昉面对的历史语境，比以往任何时候都更为复杂。他的两本近作 —— 《中国就业新趋势：人工智能如何重塑劳动力市场》与《投资于人》，正是在这一背景下写就，构成一个相…",
+        "而患不均 ” 的转义借用 ， 是 在 他与《知识分子》的交流中最让人印象深刻的一句回答，他认为，仿拟 这 句古语尤其适用于 AI 时代的特质—— 未来 的 我们…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "字节流失的AI人才，有点多啊",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%AD%97%E8%8A%82%E6%B5%81%E5%A4%B1%E7%9A%84AI%E4%BA%BA%E6%89%8D%EF%BC%8C%E6%9C%89%E7%82%B9%E5%A4%9A%E5%95%8A",
+      "published": "Thu, 09 Apr 2026 21:07:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seed",
+        "Seedance",
+        "Anthropic",
+        "ArtArch",
+        "DeepSeek"
+      ],
+      "summary": "行业里流传着一张表格，记录字节前员工创办的AI公司和加入的AI大厂，几乎每个月都在更新。和把裁员解释成给社会输送人才不同的是，字节的这些离职员工基本上都是被挖走的，这才是真·输送人才，至少HR都明白，「字节系」是一块怎样的金字招牌。字节怎么看内部人才流失的问题尚不可知，但客观上，那些离开的员工，确实有不少是在打造字节的竞争对手。比如曾是字节视觉技术的负责人王长虎，创建了爱诗科技，核心产品是视频模型PixVerse，正在和Seedance抢市场。以及想用AI重新做一个剪映出来的一长串名字，包括黄严的ArtArch、陈…",
+      "key_points": [
+        "记录字节前员工创办的AI公司和加入的AI大厂，几乎每个月都在更新。和把裁员解释成给社会输送人才不同的是，字节的这些离职员工基本上都是被挖走的，这才是真·输送人才…"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "Gate First：为你的 Agent Team 构建 Harness 防御体系",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/harness-engineering-gate-first/",
+      "published": "Thu, 09 Apr 2026 09:41:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "Done",
+        "First",
+        "Gate",
+        "GATE-first",
+        "Harness"
+      ],
+      "summary": "今天下午，我在 Routa 的看板里点开一张已经进 Done 的卡：[Sub-issue] 为 GATE-first 专家提示注入单次 trace 状态摘要。",
+      "key_points": [
+        "我在 Routa 的看板里点开一张已经进 Done 的卡：[Sub-issue] 为 GATE-first 专家提示注入单次 trace 状态摘要"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-10",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "王羲之的书法到底牛在什么地方？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788724",
+      "published": "Sun, 05 Apr 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "vs"
+      ],
+      "summary": "黄佳智， 公众号：在练 查看知乎原文 南唐后主李煜在《评书》里说过一段很经典的话： 善法书者各得右军之一体，若虞世南得其美韵而失其俊迈，欧阳询得其力而失其温秀，褚遂良得其意而失其变化，薛稷得其清而失于拘窘，颜真卿得其筋而失于粗鲁，柳公权得其骨而失于生犷，徐浩得其肉而失于俗，李邕得其气而失于体格……。 说白了，后世这些赫赫有名的书法家，学的都是王羲之，但每个人在它那儿拿到的，只得到了他身上的一部分，终究没能达到他那种「中和」的境界。 我们不妨直接看图对比，会更直观。 王羲之 vs 虞世南 虞世南学到了王羲之的视觉美感…",
+      "key_points": [
+        "后世这些赫赫有名的书法家，学的都是王羲之，但每个人在它那儿拿到的，只得到了他身上的一部分，终究没能达到他那种「中和」的境界",
+        "王羲之「左」褚遂良「右」 王羲之 vs 薛稷 薛稷有王羲之的清雅、纯净、超逸，但为了追求瘦劲的风格，不得不把自己约束在一种固定的范式里，笔画偏于纤细。这就是「得…",
+        "虞世南「右」 王羲之 vs 欧阳询 欧阳询有王羲之的力感，笔力棱角都在，但缺少了王羲之行笔中的温和与秀美。这就是「得其力而失其温秀」"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "策引全球投资组合：美股3号",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/money/portfolios/myinvestpilot_us_3/",
+      "published": "Fri, 26 Apr 2024 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "本文介绍策引全球投资组合美股3号的详细情况，包括交易策略、资金策略、标的池及历史回测表现等。",
+      "key_points": [
+        "本文介绍策引全球投资组合美股3号的详细情况，包括交易策略、资金策略、标的池及历史回测表现等"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 91 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/91",
+      "published": "Fri, 27 Oct 2023 08:05:53 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "Java",
+        "JavaScript",
+        "Objective-C"
+      ],
+      "summary": "本期共有 42 个项目，包含 C 项目 (3)，C# 项目 (3)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Objective-C 项目 (1)，Python 项目 (5)，Rust 项目 (3)，Swift 项目 (1)，人工智能 (3)，其它 (6)，开源书籍 (2)",
+      "key_points": [
+        "包含 C 项目 (3)，C# 项目 (3)，C++ 项目 (4)，Go 项目 (4)，Java 项目 (2)，JavaScript 项目 (5)，Objecti…"
+      ]
+    }
+  ]
+}
