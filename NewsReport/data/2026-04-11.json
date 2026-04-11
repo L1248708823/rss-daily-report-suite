@@ -1,0 +1,743 @@
+{
+  "date": "2026-04-11",
+  "generated_at": "2026-04-11T01:00:04.686508+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 121,
+    "fresh_candidates": 58,
+    "backfill_candidates": 63,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-11",
+      "fetched_at": "2026-04-11T01:00:04.370530+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3986.22,
+          "change": 20.05,
+          "change_pct": 0.51,
+          "volume": 546415541.0,
+          "amount": 95566411.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4749.05,
+          "change": -16.329999999999927,
+          "change_pct": -0.34,
+          "prev_close": 4765.38,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-11 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1042.6121794974842,
+          "change": -3.585107946051039,
+          "change_pct": -0.34267991220007177,
+          "prev_close": 1046.1972874435353,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-11 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-11",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "顶级投资者的胜率也不过60%多，多元分散投资是一个必然的选择...",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%A1%B6%E7%BA%A7%E6%8A%95%E8%B5%84%E8%80%85%E7%9A%84%E8%83%9C%E7%8E%87%E4%B9%9F%E4%B8%8D%E8%BF%8760%25%E5%A4%9A%EF%BC%8C%E5%A4%9A%E5%85%83%E5%88%86%E6%95%A3%E6%8A%95%E8%B5%84%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BF%85%E7%84%B6%E7%9A%84%E9%80%89%E6%8B%A9...",
+      "published": "Fri, 10 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DeepSleeper11"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： DeepSleeper11 来源：雪球 芒格说投资应该做简单的事 ， 像桶里射鱼那么简单 。 桶里射鱼还不够简单 ， 把水倒干净 ， 然后用喷子对着鱼 ， 砰的一枪 ， 这才是芒格要的简单 。 是不是说找到有护城河的公司 ， 等好的价格买入持股不动 ？ 这不是一劳永逸的解决方案 ， 恰恰相反 ， 根据我观察到的情况 ， 这个观念害了很多人 。 张坤年报里说 ， “ 相信春天一定会到来…",
+      "key_points": [
+        "一个反直觉的数据 ： 顶级投资者的胜率也不过60%多 ， 比如林奇60% 、 胡猛65% ， 邓普顿一生50万个决策记录表明 ， “ 最优秀的投资者应该认识到…",
+        "分散投资就是一个自然的选择",
+        "每个决策都有很大可能犯错 ， 谦逊谨慎 ， 提高胜率 ， 分散投资 ， 在时间的累积下让概率规律发挥作用"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "清仓万科，我的反思和收获",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7579238876/383378969",
+      "published": "Fri, 10 Apr 2026 09:56:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROE",
+        "HKHSI",
+        "http",
+        "ICU",
+        "INX",
+        "SH000001"
+      ],
+      "summary": "我想在一开篇，就让读者们知道一点： 我持有万科差不多5年时间，如今以市价清仓，读者很容易以为这只是一篇巨额亏损后的悲情诉苦文章。 但如果你先入为主地这么认为、并且直接把文章关掉了，那你就错过了我用了5年、交了巨额学费（这个学费的绝对额，至少超过了90%以上股民的全部市值）得出的反思和收获。 我的所有交易和实盘，自2021年就全部发出来了（后面图中来源的后台回复交易或实盘就有，下同），事实上，我第一次发布的交易，就是买入万科，这些历史文章都在那里，没有任何的删减、美化，这么多年下来，我的实盘的真实性就摆在那里。 去年…",
+      "key_points": [
+        "我的交易文章开始收费，但考虑到万科是我投资近13年来，第一次卖出亏损，另外我从中的反思和收获价值巨大（至少对我是这样），我决定把这次的交易和思考，免费发出来，让…",
+        "但如果你先入为主地这么认为、并且直接把文章关掉了，那你就错过了我用了5年、交了巨额学费（这个学费的绝对额，至少超过了90%以上股民的全部市值）得出的反思和收获",
+        "这也就涉及到一个问题： 在前面讲了那么多我的反思、我犯过的一个又一个蠢货般的错误之后，在可能卖在历史大底的心理压力之下，我为什么不选择做一个鸵鸟呢？毕竟万科这笔…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "新疆的天润乳业已经走出新疆",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1830902728/383279044",
+      "published": "Fri, 10 Apr 2026 09:56:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600419",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "本文记录看天润乳业2025年年报时的想法。 一、重点关注疆外收入的增长情况 乍一看天润乳业2025年业绩可以说是平淡无奇，公司实现营收27.52亿元，但是净利润只有4148.28万元，净利率0.52%；也就是说，公司几乎是不赚钱的。 2023年公司还有1.4亿元的年净利润，净利率大约还能达到3%；因此，2025年公司虽然没有亏损，但这业绩确实不好。 但是再往下看，就会发现2025年公司也做过一些事情，在消费低迷、条件有限的情况下，发挥出了主观能动性。 首先是销量的增长。 2025年天润乳业生产量和销售量超过30万吨…",
+      "key_points": [
+        "这让我想起我原来愿意花更多的钱买天润牛奶背后的原因，其实图的就是它用的是新疆奶源，明知它一袋牛奶比当地生产的贵1块多，我也愿意买；但是天润乳业在齐河建工厂，用齐…",
+        "二、小而美敌不过大而强 天润乳业确实在新疆当地确实存在很多优势，比如位于北纬45黄金奶源带，比如公司在新疆拥有22个牛场，其中有9个学生饮用奶奶源基地，2个是有…",
+        "一、重点关注疆外收入的增长情况 乍一看天润乳业2025年业绩可以说是平淡无奇，公司实现营收27.52亿元，但是净利润只有4148.28万元，净利率0.52%；也…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "让你焦虑的中东新闻，正在暴露你的投资弱点",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/383301430",
+      "published": "Fri, 10 Apr 2026 09:56:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CSIH30269",
+        "HKHSTECH",
+        "http",
+        "SH000300",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "最近中东局势再度升温，美伊之间的紧张关系牵动着全球市场的神经。打开手机，各种推送铺天盖地；打开行情软件，黄金原油剧烈波动。 很多投资者陷入了一种矛盾的心理状态：不关注吧，怕错过重要信息；密切关注吧，又发现自己除了焦虑，什么也做不了。 那么，密切关注美伊中东冲突进展，对投资真的有用吗？ 01 天塌不下来 地缘政治博弈有其内在的理性逻辑 。无论是美国还是伊朗，其行动的根本出发点是国家利益。当冲突升级到双方都感觉无法承受更严重后果的临界点时，达成某种形式的停火或妥协协议是极大概率事件。 战争是政治的延续，而政治最终要服从…",
+      "key_points": [
+        "是仓位过重的警报 如果你因为中东的新闻而焦虑不已，严重影响日常生活，那么问题的根源很可能不在中东，而在你自己的账户里。这强烈暗示你的风险暴露（仓位）已经超过了自…",
+        "国家层面如何应对、外交如何斡旋、军事如何部署，这些都不是普通投资者需要考虑的事。我们有专门的智囊团队、专业的决策机构在运筹帷幄。普通投资者基于碎片化新闻所做的猜…",
+        "不如把注意力收回到能够掌控的领域——比如你的资产配置、你的风险承受能力、你的投资纪律"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒行业周期数据分析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/383273898",
+      "published": "Fri, 10 Apr 2026 09:56:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "白酒行业不是跟房地产完全耦合，而是跟国家经济完全耦合，只不过之前房地产是经济的总引擎，所以表象看起来是完全匹配的。经济数据你可以采用很多，但从我的角度，我只选择家里最赚钱的和实际用电情况，这两个数据不会说谎。 全国工业规模以上企业利润和社会用电量基本趋势一致，能反映出经济的实际状态，至少跟我们的体感是保持一致的，标黄的是每个周期的数据低点。CPI是基金公司入场的号角，连起来看就很清晰，因为数据还没起来，所以资金还在观望。 白酒行业有合同负债，就是经销商提前打款，动销越好打款越多，经营现金流越高，反之亦然，净利润反映…",
+      "key_points": [
+        "其他白酒大家可以自己按这个思路去整理。水井坊有点特殊，外资基本不调节财报，更真实。上一轮白酒行业周期，弱势企业2013年已经显出疲态，强势企业2014年才显露倦…",
+        "全国工业规模以上企业利润和社会用电量基本趋势一致，能反映出经济的实际状态，至少跟我们的体感是保持一致的，标黄的是每个周期的数据低点。CPI是基金公司入场的号角，…",
+        "从数据上很明显2020年受到影响，只不过通过经销商缓冲池可以对冲，到了2022年已经出现这轮周期拐点，因为2023年放开，经济活动开始活跃。汾酒和古井都是中端和…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古人每天的工作时间是不是都挺短的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788780",
+      "published": "Wed, 08 Apr 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "豆子， 人民艺术家 查看知乎原文 不是的。 没有说现代人工作不辛苦的意思，但是，多数时候，古人的工作比现代人更苦更长。 由于古代 8 成以上是农业人口，因此只讲农民。 农民起床，是以日光为准的，也就是所谓的“日出而作”，但究竟什么时间才算“日出”呢？ 是东方翻起鱼肚白的时候。 由于存在折射和反射的缘故，这个时间比日出时间还要早半个小时。 所以春三月，大略凌晨 5 点就要起。 到五月农忙，整个夏季，持续到秋天，多数时间 4:30 就要起来干活。 活一直要干到秋收以后，再播种上麦子，等腊月来了，就可以歇一歇了，这就是过…",
+      "key_points": [
+        "“古人每天工作时间是不是都挺短的？” 答案也是否定的",
+        "题目所谓“古人每天日出而作日落而息是不是很轻松自然”， 答案是否定的",
+        "“古人工作是不是比现代人轻松” 答案更是否定的"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788793",
+      "published": "Wed, 08 Apr 2026 22:59:58 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Caribbean",
+        "reddit",
+        "sword",
+        "whoever"
+      ],
+      "summary": "瞎扯 · 为什么现在的成年人都没有大人的感觉？ 知乎日报 查看知乎原文 Q： 为什么现在的成年人都没有大人的感觉？ @好大的sword ：哈基米如果从小开始养衣食无忧就会在成年后依然踩奶 喵喵叫等，这个叫做 幼态延续 人类同理 Q： 你看过哪些好看的旗帜？ @whoever ：reddit上给各国航天项目设计的旗帜 Q： 现在还可以派地下党员到台湾吗？ @米采昭阳 ：地下工作挺危险的，这位就差点暴露。 Q： 你在实验室最惊险的瞬间是什么？ @Caribbean生花 ：你的 离心机 配平了吗？ 什么叫配平？ Q： 你…",
+      "key_points": [
+        "瞎扯 · 为什么现在的成年人都没有大人的感觉"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Guardrails：AI生成内容”红线”的制定者",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374876.html",
+      "published": "Fri, 10 Apr 2026 09:24:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Guardrails",
+        "Safety",
+        "Anthropic",
+        "Azure",
+        "Bing"
+      ],
+      "summary": "一个反直觉的事实： AI公司花了几十亿美元训练模型，但最后控制AI行为的，可能是几行简单的代码。 这几行代码，就是 Guardrails（护栏技术） 。 一句话理解 Guardrails = 给AI划定”安全红线”的技术——告诉AI什么能答、什么不能答、答错了该怎么修正。它是AI最后一道防线，也是最容易被忽视的一道。 它是怎么工作的 Guardrails不是模型本身的一部分，而是挂在模型输出端的一道”安检门”。 工作流程： 用户输入 → AI模型生成回答 → Guardrails安检 → 最终输出 Guardrai…",
+      "key_points": [
+        "一句话总结 Guardrails是AI的”安全红线”——在AI生成回答之后、用户看到之前，对内容做检查和过滤，防止有害、错误、不当的内容输出。它是大模型商业化的…",
+        "工作流程： 用户输入 → AI模型生成回答 → Guardrails安检 → 最终输出 Guardrails在AI回答之后、用户看到之前，对内容做检查： 有害内…",
+        "有什么用 内容安全 ：防止AI生成有害、违法、侵权内容 合规要求 ：金融、医疗、法律等受监管行业，AI输出必须有据可查 品牌保护 ：企业不希望AI说竞争对手坏话…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么你的产品找不到差异化？90%的失败都卡在第一步上",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6374700.html",
+      "published": "Fri, 10 Apr 2026 08:26:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PK",
+        "App",
+        "gt",
+        "Unique",
+        "AI",
+        "APP"
+      ],
+      "summary": "当电动牙刷的超长续航遭遇市场冷遇，产品经理们需要重新思考：差异化究竟是功能列表的比拼，还是用户心智的争夺？本文深度拆解差异化战略的三个核心步骤，从竞品分类到价值判断，教你如何在红海市场中找到真正的突破口，打造让用户无法拒绝的独特价值主张。 经过研发部门3个月的疯狂加班、不间断熬夜努力后，老张公司的电动牙刷拥有了同类型产品中最强的续航能力。但是当产品上市后，市场反馈却是 ：“续航强弱无所谓，价格能低点吗？” 老张被迫卷入了疯狂的价格战中，利润被压榨得体无完肤。他痛苦地意识到，“功能强大” 如果不能转化为用户心中的“价…",
+      "key_points": [
+        "为了帮助你系统性地找到并建立强大的差异化壁垒，我把这个复杂的过程拆解成三个紧密相连的步骤： 第一步骤：差异化诊断（知己知彼，找到空隙） 第二步骤：差异化创造（将…",
+        "它决定了你的产品是否值得被记住、是否能逃离价格战的泥淖，以及是否拥有长期、可持续的竞争力。一个没有差异化的产品，就像是高速公路上一辆普通的白色车子，很容易就被淹…",
+        "你的聊天工具和微信都有“发语音”功能，但你的产品能提供“语音转文字并自动总结会议纪要”，这才是真正的价值差异点"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI产品经理实战篇：没写一行代码，我把脑子里的日式 AI 酒馆做上线了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374725.html",
+      "published": "Fri, 10 Apr 2026 08:26:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Code",
+        "Claude",
+        "BGM",
+        "PM",
+        "serverless"
+      ],
+      "summary": "一名零代码经验的AI产品经理，仅用4天时间打造出完整可用的付费产品AfterWork。这款像素风日式AI酒馆精准捕捉都市人的低压力伪社交需求，从商业模型设计到技术选型，全程采用Build First方法论与AI深度协作。文章揭秘如何用16个并行AI会话管理项目、绕过传统开发路径，以及那些差点让项目夭折的关键决策细节。 我是 AI 产品经理，工作经验里没有写过一行代码。4 天后，一个可以注册登录、真实对话、充值付费的完整产品在线上跑起来了。 这篇文章不讲 AI 有多神奇，也没有“普通人也能做产品”的鸡汤。 只讲一件事…",
+      "key_points": [
+        "PM 的具体工作是： 在 Chat 里做竞品分析、产品设计、脑暴出 PRD 把 PRD 转化成每个会话的「会话 intro」（任务范围、约束、不能动的文件） 给…",
+        "工作经验里没有写过一行代码。4 天后，一个可以注册登录、真实对话、充值付费的完整产品在线上跑起来了",
+        "做了就要沉淀：让 AI 输出说明文档 每做完一块，都会让 AI 帮我把这件事写成文档： 「解释一下这段代码为什么这样写，用人话」 「帮我写一份技术决策文档，说明…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "谷歌开源Gemma 4：一次迟到的反攻，还是开源AI的新拐点？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374718.html",
+      "published": "Fri, 10 Apr 2026 08:24:53 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gemma",
+        "AI",
+        "MoE",
+        "Apache",
+        "E2B",
+        "E4B"
+      ],
+      "summary": "谷歌Gemma 4的发布不仅是一次技术迭代，更是一场开源生态的战略布局。从Apache 2.0许可的彻底开放，到256K上下文的突破性支持，再到端侧部署的前瞻性押注，这款开源模型正在重塑AI开发者的工具链。尤其值得注意的是，其26B MoE架构以38亿激活参数实现260亿模型的性能，为产品经理提供了全新的成本效率权衡方案。当技术平权时代来临，我们该如何重新定义产品竞争力？ 谷歌开源Gemma 4：一次迟到的反攻，还是开源AI的新拐点？ 2026年4月2日，谷歌正式发布了Gemma 4系列开源模型。发布时间微妙——前…",
+      "key_points": [
+        "谷歌开源Gemma 4：一次迟到的反攻，还是开源AI的新拐点",
+        "谷歌Gemma 4的发布不仅是一次技术迭代，更是一场开源生态的战略布局。从Apache 2.0许可的彻底开放，到256K上下文的突破性支持，再到端侧部署的前瞻性…",
+        "却带来了史诗级的跨越 上一代Gemma 3是2025年3月发布的，到这次更新整整一年。在这一年里，国内几家开源模型已经迭代了好几轮，谷歌在开源赛道的存在感越来越…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当PM开始习惯让AI替他思考，我们产品真的会变蠢吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6374775.html",
+      "published": "Fri, 10 Apr 2026 08:22:54 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PM",
+        "PRD",
+        "CC0",
+        "Jira",
+        "postmeta.bookmark"
+      ],
+      "summary": "AI正在重塑产品经理的工作方式，从文档撰写到方案设计，思考过程正在被算法加速。但真正的危机并非效率提升本身，而是那些被跳过的思维训练——那些在碎片信息间建立连接、排除错误选项的宝贵经验。本文揭示了AI时代PM面临的认知陷阱：当工具开始替代思考，我们该如何守护专业判断力的生长土壤？ 三分钟后，文档出来了。格式工整，逻辑清晰，感觉效率真高。 但你有没有想过，那个”在脑子里反复咀嚼、直到想清楚”的过程，去哪了？ 写PRD如此，做竞品分析如此，想方案更是如此。 这不是一个关于”AI是好是坏”的问题。我更想追问的是： AI到…",
+      "key_points": [
+        "从文档撰写到方案设计，思考过程正在被算法加速。但真正的危机并非效率提升本身，而是那些被跳过的思维训练——那些在碎片信息间建立连接、排除错误选项的宝贵经验。本文揭…",
+        "是把自己当成一个需要AI喂养的”内容生产者”，还是把自己当成一个在AI时代依然保持独立思考能力的产品人",
+        "我们学会了”不查，问谷歌就行”。协作工具替代的是记忆和分发，我们习惯了”不记，Jira上有”。甚至连用户调研都有外包公司来做，”不访，听报告就行”"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "SBTI刷屏：这届网友也太喜欢挨骂了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+SBTI%E5%88%B7%E5%B1%8F%EF%BC%9A%E8%BF%99%E5%B1%8A%E7%BD%91%E5%8F%8B%E4%B9%9F%E5%A4%AA%E5%96%9C%E6%AC%A2%E6%8C%A8%E9%AA%82%E4%BA%86",
+      "published": "Fri, 10 Apr 2026 19:21:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "amp",
+        "B.",
+        "Journal",
+        "SBTI",
+        "tenor"
+      ],
+      "summary": "2026年了，朋友圈和社交平台还能被一个心理测试刷屏。 这次异军突起的测试，是来自B站up主@蛆肉儿串儿做的“SBTI”——从这个和“MBTI”相差一字的名称，已经能嗅到一丝乱来的气息。 这朴实无华的宣战 点开看测试题……这都什么玩意儿！以及为什么我竟然还在认真思考作答？ 大家刷屏的测试结果也没有太守公序良俗：测出来是性感尤物（SEXY）、傻乐者（HHHH）、僧人（MONK）这种略显平常的，也就淡淡地发出来；万一结果是自我攻击者（IMSB）、死者（DEAD）、伪人（FAKE），发的人只会越加兴奋。 你测出来是什么？…",
+      "key_points": [
+        "大家刷屏的测试结果也没有太守公序良俗：测出来是性感尤物（SEXY）、傻乐者（HHHH）、僧人（MONK）这种略显平常的，也就淡淡地发出来；万一结果是自我攻击者（…",
+        "😡我是个急性子 😏我是个大P人 😎我正是网友们口中的长发文艺男 图丨tenor 除了图省事，贴标签在一些特殊时期还有救苦救难救迷茫的作用",
+        "🤷‍♀️测试诊断出你是吗喽（MALO）——这也太好了，你本就该拿着香蕉在热带雨林里翻滚，在人类的办公室里摸鱼岂不是理直气壮"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "全球飞机掀起WiFi免费潮，中国为什么迟迟不跟？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%A8%E7%90%83%E9%A3%9E%E6%9C%BA%E6%8E%80%E8%B5%B7WiFi%E5%85%8D%E8%B4%B9%E6%BD%AE%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%9F%E8%BF%9F%E4%B8%8D%E8%B7%9F%EF%BC%9F",
+      "published": "Fri, 10 Apr 2026 16:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "WiFi",
+        "Mbps",
+        "WIFI",
+        "ID",
+        "tourismzonenews",
+        "CEO"
+      ],
+      "summary": "马斯克请全世界坐飞机免费上网背后。 首图：旅界实拍 领域：民航业 本文经授权转载自：旅界（ID：tourismzonenews） 最近，飞机燃油费暴涨，但对乘客提供免费WiFi的航司又多了一家。 近日，英国航空首架搭载星链WiFi的波音787-8从伦敦飞往休斯敦，正式投入商业运营，所有舱位旅客，从头等舱到经济舱最后一排，全程免费使用，网速最高超过500Mbps。 英航计划两年内给300多架飞机全部装上星链，CEO道霄安说这是个里程碑时刻。 但如果盘点过往，英航只是最新提供免费Wifi的航司之一，这场牌局早就开打了。…",
+      "key_points": [
+        "首图：旅界实拍 领域：民航业 本文经授权转载自：旅界（ID：tourismzonenews） 最近，飞机燃油费暴涨，但对乘客提供免费WiFi的航司又多了一家",
+        "免费WIFI也会给乘客提升极大的好感度，旅客在空中用了3小时200Mbps的WiFi，下飞机后的感受通常是下次订票，还选这家",
+        "上述航空公司机上WIFI几乎全部对乘客免费，但这场免费潮不是航司良心发现，而是SpaceX在商业合同里的一个关键条款"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "小时候电脑课穿鞋套的真相，看完我落泪了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%8F%E6%97%B6%E5%80%99%E7%94%B5%E8%84%91%E8%AF%BE%E7%A9%BF%E9%9E%8B%E5%A5%97%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%8C%E7%9C%8B%E5%AE%8C%E6%88%91%E8%90%BD%E6%B3%AA%E4%BA%86",
+      "published": "Fri, 10 Apr 2026 16:59:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "giphy",
+        "aliexpress.com",
+        "antala.uk",
+        "content",
+        "content_60684.htm",
+        "CS"
+      ],
+      "summary": "进电脑教室，第一步需要做什么？如果你的回答是“ 穿鞋套 ”，那么你和我一样，已经步入中年了。 图丨shop.puzzle.com.sa 想当年在一周一节的电脑课上，不管我们是在玩空当接龙，还是调试各种屏保画面，甚至偷偷联机打CS，脚上都一定套着蓝色的塑料鞋套——在没有鞋套的情况下，则是绑着俩唰唰作响的塑料袋。 玩出这个画面的时候，一定要请同学们前来膜拜丨giphy 人到中年，童年迷思就越来越多。所以当年进电脑教室的时候，我们为什么一定要穿鞋套呢？ 为了防尘吗？ 有一个说法，进电脑教室穿鞋套，是为了给电脑防尘。 其实…",
+      "key_points": [
+        "这都是在灰尘真的很大的情况下才会有的。要知道，我们小时候的电脑教室都还挺干净的，说不定比许多人家里都要干净， 鞋子上那点儿灰实在无足挂齿，穿鞋套对电脑教室防尘的…",
+        "还记得小时候精贵的电脑长什么样子吗？丨giphy 你就想想，现在几十台总价值数百万的电脑放在一个教室里，每天让几十个上房揭瓦的熊孩子用，你让不让他们穿鞋套",
+        "啥？你说小时候进网吧就不用穿鞋套？电脑教室那是免费用，进网吧一个小时收你5块钱好不好"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "太魔幻了！前年买大路灯的钱，今年能买一屋子？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%AA%E9%AD%94%E5%B9%BB%E4%BA%86%EF%BC%81%E5%89%8D%E5%B9%B4%E4%B9%B0%E5%A4%A7%E8%B7%AF%E7%81%AF%E7%9A%84%E9%92%B1%EF%BC%8C%E4%BB%8A%E5%B9%B4%E8%83%BD%E4%B9%B0%E4%B8%80%E5%B1%8B%E5%AD%90%EF%BC%9F",
+      "published": "Fri, 10 Apr 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AA",
+        "cm",
+        "RG0",
+        "MT-D02",
+        "gt",
+        "lux"
+      ],
+      "summary": "开春后，日照时间还是太短了，开启灯光的时间越来越长了。在咱们的日常生活中，灯光可不仅仅是为了照亮屋子， 它还关乎着我们全家人的健康，尤其是孩子的眼睛。 现在新学期这压力大啊， 孩子每天坐在书桌前的时间那是相当长，眼睛一直盯着书本、作业，再加上不合适的灯光，那可真是对眼睛的“折磨”。 要是眼睛出了问题，那可是一辈子的事儿，大家不信可以寒暑假去眼科看看，都是焦急的家长们！ 这几年有款爆火的叫 “大路灯” 的产品， 听说对眼睛好不易疲劳，能预防近视， 但价格大几千甚至上万元…… 价格参考日期：2025年10月6日 我壳办…",
+      "key_points": [
+        "在远离大路灯的位置书页然感觉清新明亮👇🏻 @果壳市集实拍 同事实测，从桌面的一侧到另一侧， 光源打在书本上的显示效果都很均匀 ，看不出衰减",
+        "各项参数和市面四位数级大路灯几乎没差 ，不仅能补灯光，还能把太阳搬进屋里。价格还只有大路灯的一个零头",
+        "👇🏻看下面的图 ： 打开大路灯后整个屋子都是亮的，没有强烈的“亮-暗“差异去刺激眼睛导致疲劳"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "戈达尔晚年电影真的难懂吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%88%88%E8%BE%BE%E5%B0%94%E6%99%9A%E5%B9%B4%E7%94%B5%E5%BD%B1%E7%9C%9F%E7%9A%84%E9%9A%BE%E6%87%82%E5%90%97%EF%BC%9F",
+      "published": "Fri, 10 Apr 2026 20:33:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "digital",
+        "manipulation",
+        "amp",
+        "Balsom",
+        "bres",
+        "cam"
+      ],
+      "summary": "作者： Erika Balsom 译者： 陈思航 校对：易二三 来源： Sight &amp; Sound 译者按：毋庸置疑，让-吕克·戈达尔是一个活生生的电影神话。从上世纪六十年代法国新浪潮时期的《精疲力尽》，到后来的一系列政治现代主义电影，再到那一组令人瞠目结舌的《电影史》，可以说，戈达尔自始自终一直在颠覆传统，推翻人们心目中对「电影」的定义。 2018年，戈达尔的《影像之书》更是赢得了戛纳电影节的「特别金棕榈奖」。它当然是特别的，我们很难将这部影片与获得其他金棕榈提名的影片并置而观。 《影像之书》 与所有的戈…",
+      "key_points": [
+        "这一切并没有抹去他对电影的热爱。戈达尔始终表现出对那些难忘影像的狂热，以及某种独特的信念。这种信念可以在影评人塞尔日·达内的论述中找到定义：「迷影并不是指人与电…",
+        "Erika Balsom 译者： 陈思航 校对：易二三 来源： Sight &amp; Sound 译者按：毋庸置疑，让-吕克·戈达尔是一个活生生的电影神话。从…",
+        "《影像之书》 戈达尔重新思考了他的早期创作，那时的「电影」，被理解成为一种建筑、一门技术或是一个实践的场所。如今，这种概念被新的「影像」理念所取代。影像被看做是…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "拒绝成功学，这部电影说出了时代最强音",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%8B%92%E7%BB%9D%E6%88%90%E5%8A%9F%E5%AD%A6%EF%BC%8C%E8%BF%99%E9%83%A8%E7%94%B5%E5%BD%B1%E8%AF%B4%E5%87%BA%E4%BA%86%E6%97%B6%E4%BB%A3%E6%9C%80%E5%BC%BA%E9%9F%B3",
+      "published": "Fri, 10 Apr 2026 20:33:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "T.Yerxaa"
+      ],
+      "summary": "文 T.Yerxaa 最近重看了一部老片，感受非常深。 在二十年前，它也算是一个现象级的独立电影。今天应该不会拍出来这样一部电影了，它的立场带有鲜明的 」 前政治正确时代 」 的烙印，但这部电影无比适合今天这个阶段的中国社会。 那是 2006 年，美国这个国家成功学意识形态浓度最高、同时裂缝也开始隐约显现的一年。 当时，托尼 · 罗宾斯的励志讲座塞满了一座座体育馆，特朗普在《学徒》每一集都要说的那句口头禅 」 你被解雇了 」 ，将商业竞争的淘汰逻辑变成了娱乐奇观。而在官方层面，小布什政府提出 」 不让一个孩子掉队…",
+      "key_points": [
+        "《阳光小美女》 这部电影于是从最源头处设置了它的批判目标 —— 理查德 · 胡佛。这是一个失败的励志演讲师，以宣传成功九步法为职业。理查德是那个时代精神气候最忠…",
+        "它也算是一个现象级的独立电影。今天应该不会拍出来这样一部电影了，它的立场带有鲜明的 」 前政治正确时代 」 的烙印，但这部电影无比适合今天这个阶段的中国社会",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 今天再看，这铁定是2010年代最好的剧之一 如果今年只看一部续集电影 影响《呼啸山庄》的七…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最神奇的洞穴在哪里？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%A5%9E%E5%A5%87%E7%9A%84%E6%B4%9E%E7%A9%B4%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F",
+      "published": "Fri, 10 Apr 2026 17:41:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "阳光穿过贵州安顺格凸河的岩洞，如神光倾泻而下，照亮幽深；村民栖居于云南文山峰岩洞内，屋舍俨然，烟火与自然共生。光从洞中穿过，惊艳了时光；人在洞中安居，温柔了岁月。 生活也常常这样。有时黑暗只是暂时，耐心向前，光便迎面而来；有时绝境只是错觉，换个方向，便见豁然开朗。愿你我在人生的幽谷里，总能与那束光不期而遇，在任何地方，都能活出自己的别致与开阔。 #喀斯特 #贵州 #治愈系风景 #旅行 #地理君带你发现中国 &lt;&gt; 文章原文",
+      "key_points": [
+        "耐心向前，光便迎面而来；有时绝境只是错觉，换个方向，便见豁然开朗。愿你我在人生的幽谷里，总能与那束光不期而遇，在任何地方，都能活出自己的别致与开阔"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "聊聊微信打击睡后收入",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%81%8A%E8%81%8A%E5%BE%AE%E4%BF%A1%E6%89%93%E5%87%BB%E7%9D%A1%E5%90%8E%E6%94%B6%E5%85%A5",
+      "published": "Fri, 10 Apr 2026 11:34:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "ar",
+        "beta",
+        "Bitsea",
+        "Chinese"
+      ],
+      "summary": "你如何理解事物，决定了你会采取怎样的行动。 比如我写公众号，我盲目地相信写作是一种表达，可以在我和读者之间建立起一种人际关系，最后形成一种网络上的共同生活。因此，我要每天写一篇，在这一篇文字里说点什么有意思或者有价值的事。我还要每天回复许多条读者留言，也要提防读者们相互争吵进入人身攻击。 总之，这是一场围绕人而进行的文字创作，也是一段穿越时间长流的漫长陪伴。 但也可以换一个角度：发了公众号就有人读，有人读就可以投放广告，有广告就会有收益，那么一切就是道数学题。可以直接写出解法--- 爆款文章可遇不可求，那么就退而求…",
+      "key_points": [
+        "但也可以换一个角度：发了公众号就有人读，有人读就可以投放广告，有广告就会有收益，那么一切就是道数学题。可以直接写出解法--- 爆款文章可遇不可求，那么就退而求其…",
+        "还记得吗？我说「 围绕人而进行的文字创作 」。这是我的理解，基于这种理解我采取了我的行动。这里的「围绕人」不是单向的，我围绕读者而写作，也包括读者围绕我这个人而…",
+        "微信最近开始打击利用 AI 批量自动生成、发布文章的公众号，手段是直接封禁。我觉得这是一个很好的例子，回答了「如果 AI 替代人类会发生什么」这种问题。答案是：…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "冰原上的棋局：格陵兰岛的前世今生与大国博弈",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%86%B0%E5%8E%9F%E4%B8%8A%E7%9A%84%E6%A3%8B%E5%B1%80%EF%BC%9A%E6%A0%BC%E9%99%B5%E5%85%B0%E5%B2%9B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E4%B8%8E%E5%A4%A7%E5%9B%BD%E5%8D%9A%E5%BC%88",
+      "published": "Fri, 10 Apr 2026 12:33:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A.",
+        "Chilly",
+        "END",
+        "field",
+        "Friday",
+        "get"
+      ],
+      "summary": "4.10 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Visit Greenland 撰 文 | 蔡天新 ● ● ● 01 我看见了格陵兰冰原 格陵兰岛是丹麦王国的属地。自从2025年以来，尤其是进入2026年以后，格陵兰岛因为美国总统特朗普的言论举世瞩目，这位特立独行的总统多次宣称，无论困难与否，美国都要得到格陵兰岛，甚至不惜利用金钱交易或动用武力。而新近美以对伊朗打击遇到抵抗后，他又威胁要退出北约，理由是他要的格陵兰岛得不到。 作为全世界最大的岛屿 （澳大利亚被地理学…",
+      "key_points": [
+        "作为全世界最大的岛屿 （澳大利亚被地理学家视为大陆） ，格陵兰的面积略大于沙特阿拉伯，人口却与法兰西与西班牙之间的袖珍小国安道尔相差无几。格陵兰的海岸线异常之曲…",
+        "4.10 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Visit Greenland 撰 文 | 蔡天新 ● ● ●…",
+        "离格陵兰最近的地方是加拿大的巴芬行政区，所属的埃尔斯米尔岛与之相距仅26公里。该岛居民点阿勒特位于北纬82.30度，是全世界最北的社区。而格陵兰人主要居住在沿岸…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么拉稀的时候放屁不会出来屎，人体（主要是肛门）是靠什么分辨屎和屁的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788954",
+      "published": "Tue, 07 Apr 2026 23:01:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bushi",
+        "cm",
+        "coli",
+        "Contractions",
+        "haustra",
+        "Haustral"
+      ],
+      "summary": "祥昊， 111 查看知乎原文 行了，别瞎琢磨了， 窜稀时放屁崩不出屎纯粹是因为这时直肠里没水货。 但凡有点稀汤带水的这问题就得变成为什么窜稀不能赌下一个屁。 那肯定就有人好奇了， 在腹泻间歇放屁，为啥带不出屎来呢？ 原因很简单， 直肠并不是长期储存粪便的区域，真实作用更像是传达室而非仓库。 平时里面基本没啥东西， 就算里面有粪便，由于大便是半固体，放屁打开的缝隙较小，且气体通过时间较快，一般不会漏出，漏了也可以假装没看见。 至于为啥直肠平时不咋存屎，这就得从大肠的工作方式讲起了。 大肠以结肠为主， 结肠壁的结构并不…",
+      "key_points": [
+        "肛管有两层括约肌阀门， 内括约肌是自动档，直肠壁被扩张后，会受肠神经反射被动松弛， [2] 外括约肌则能受大脑操控，必要的时候还能夹一夹",
+        "这被称为袋状运动（Haustral Contractions） 所以与其说大肠是根管子，倒更像个搓屎流水线， 除了上下搓屎，这个过程还会使内容物缓慢推进，不过这…",
+        "另一种则是集团蠕动（Mass Peristalsis）主要由进食后胃扩张诱发的胃结肠反射触发， [1] 会从横结肠开始（少数可从升结肠远端发起）产生单方向强力推…"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "不要在网上贴自己照片",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%8D%E8%A6%81%E5%9C%A8%E7%BD%91%E4%B8%8A%E8%B4%B4%E8%87%AA%E5%B7%B1%E7%85%A7%E7%89%87",
+      "published": "Tue, 07 Apr 2026 11:37:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "is",
+        "Midjourney",
+        "App",
+        "ar",
+        "beta"
+      ],
+      "summary": "春天到了，当我在网上发布一些春光景致的时候，在跟帖里发现了很多读者发布了自己的照片。 别这样。 我不是要禁止他人在网上做什么，而是认为这样的做法对于普通人而言，有百害而无一利，大家最好不要那么做。 当然，有人又要用「分享生活」来反驳我。那我这样说好了：网上的确有很多人在贴自己的照片，以「分享生活」的名义。而且，这早就已经成为了一种潮流，有些 App 就是靠这种分享起家的，直接变成了生活指南。但你是否承认一点？其中很大一部分人是靠这个吃饭。就是说，他们分享了某种生活，让观众想要得到这种生活，于是大家就去购买对应的商品…",
+      "key_points": [
+        "有人又要用「分享生活」来反驳我。那我这样说好了：网上的确有很多人在贴自己的照片，以「分享生活」的名义。而且，这早就已经成为了一种潮流，有些 App 就是靠这种分…",
+        "如果你一定要贴自己的照片，我认为发朋友圈就好，不需要发到公网上来，哪怕这么做保护意义其实并不大。不过，能够延迟自己的生物资料泄露的话，尽量延迟一下也是好事",
+        "当我在网上发布一些春光景致的时候，在跟帖里发现了很多读者发布了自己的照片"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "策引全球投资组合：美股4号",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/money/portfolios/myinvestpilot_us_4/",
+      "published": "Fri, 26 Apr 2024 00:00:00 +0000",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "本文介绍策引全球投资组合美股4号的详细情况，包括交易策略、资金策略、标的池及历史回测表现等。",
+      "key_points": [
+        "本文介绍策引全球投资组合美股4号的详细情况，包括交易策略、资金策略、标的池及历史回测表现等"
+      ]
+    }
+  ]
+}
