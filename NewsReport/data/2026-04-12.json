@@ -1,0 +1,800 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T01:00:04.890972+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 119,
+    "fresh_candidates": 60,
+    "backfill_candidates": 59,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-12",
+      "fetched_at": "2026-04-12T01:00:04.526811+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3986.22,
+          "change": 20.05,
+          "change_pct": 0.51,
+          "volume": 546415541.0,
+          "amount": 95566411.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4749.05,
+          "change": -16.329999999999927,
+          "change_pct": -0.34,
+          "prev_close": 4765.38,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-11 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1042.6121794974842,
+          "change": -3.585107946051039,
+          "change_pct": -0.34267991220007177,
+          "prev_close": 1046.1972874435353,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-11 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当算力开始吞噬电力：储能的第二个黄金时代",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/383474476",
+      "published": "Sat, 11 Apr 2026 13:13:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GWh",
+        "GW",
+        "CNESA",
+        "http",
+        "SZ002594"
+      ],
+      "summary": "在新能源与AI算力的交汇点上，储能已从边缘配角跃升为能源体系的心脏。当风光渗透率突破临界点、全球电网普遍拥堵、算力中心对电力饥渴难耐时，储能不再是“要不要配”的问题，而是“必须配多少”的战略刚需。这是一个长达十年的确定性赛道，而2026年，正站在爆发斜率最陡峭的位置。 一、规模与速度：数据不说谎 2025年中国新型储能新增装机66.4GW/189.5GWh，同比增长52%和73%，全球占比首超一半。2026年前两月新增装机同比大增182%和472%，全年全球新增预计438GWh，增速超60%。CNESA预测到203…",
+      "key_points": [
+        "储能的故事已从“要不要投”演进为“投什么才最划算”。在AI吞噬电力、绿电倒逼调节、电网扩容滞后的三重合力下，这个赛道正以60%以上的年增速狂奔。真正值得重仓的，…",
+        "储能已从边缘配角跃升为能源体系的心脏。当风光渗透率突破临界点、全球电网普遍拥堵、算力中心对电力饥渴难耐时，储能不再是“要不要配”的问题，而是“必须配多少”的战略…",
+        "二、动力引擎：算力、绿电与电网 驱动逻辑已质变。AI数据中心并网瓶颈催生“算电协同”新需求，仅美国AI基建2025-2028年将带来18至279GWh的增量储能…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "理解泡泡玛特",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7995171607/383482690",
+      "published": "Sat, 11 Apr 2026 13:13:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "ppmt",
+        "hello",
+        "kitty",
+        "labubu",
+        "right"
+      ],
+      "summary": "泡泡玛特是很独特的生意模式，找不到完全一样的对标公司，它不是迪士尼、不是三丽鸥、不是宝可梦、不是 Funko、不是孩之宝 / 美泰，而是介于它们中间的一种新物种 — 轻内容、重 IP 符号、强自营渠道、全链路自营、高毛利、高周转、全球化的潮玩 IP 平台。 虽然找不到对标公司，但是可以通过跟一些我们熟悉的公司进行比较，来更清晰的理解泡泡玛特。 泡泡玛特VS迪士尼 1928年，米老鼠在电影《汽船威利号》正式亮相，今年98岁，唐老鸭在1934年迪士尼动画短片《孤儿的义演》中首次登场，今年92岁，两位都已经是高龄老爷爷了…",
+      "key_points": [
+        "但是可以通过跟一些我们熟悉的公司进行比较，来更清晰的理解泡泡玛特",
+        "但是现代人的生活方式已经发生了很大的变化，消费内容的方式变得快餐化、碎片化，人们都在消费短视频这类短平快的内容，电影在全世界范围式微， 泡泡玛特的轻内容符号、先…",
+        "公司的渠道能力、供应链能力、组织能力是否打磨的足够好，能够承接市场给的大礼，从中可以看到公司的基本功，我们公司接住了人们追求健康生活方式的消费习惯转变的机遇，1…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "油价狂飙后的美国3月份 CPI 数据分析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9222280625/383473973",
+      "published": "Sat, 11 Apr 2026 13:13:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPI",
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "敲黑板了！这是油价狂飙之后，美国 CPI 交出的首份“挨揍报告”，咱们来围观一下它到底有多离谱。 看过只能呼一声，“好家伙，真活久见”。 话说今年这“活久见”是不是严重产能过剩了？但凡是个几十年有幸一遇，甚至百年一遇的市场&#34;历史级事件&#34;，已经跟九块九包邮一样烂大街了。 数据环比来看： 能源整体+10.9%，2005年9月以来最大月度涨幅（当时是卡特里娜飓风时期）； 汽油：+21.2%，1967年以来最大月度涨幅，贡献了四分之三的涨幅； 燃油：+30.7%，2000年2月以来最大涨幅； 电力：+0.8…",
+      "key_points": [
+        "美国电网的发电主要依赖天然气、核能、煤炭和可再生能源，直接依靠石油发电的比例可以忽略（低于 1%）。（所以3月份美国天然气指数，受运力限制，反而还环比下跌了0.…",
+        "在3月之前已经出现预兆了，只不过原油成了加速催化剂） 而且面对物价突袭而工资跟不上的情况，美国消费者的第一常规反应是动用存款来维持原本的生活水准。但在这种冲击下…",
+        "呈现出一种明升暗降的景象： 虽然名义零售销售额可能依然正向增长（比如环比 +0.5%），但这其实掩盖了加油站销售额接近 10% 的被动暴增。这根本不是消费增加，…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "选择投资公司的关键",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7123126150/383303668",
+      "published": "Sat, 11 Apr 2026 13:13:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "一，选择公司是最基础的研究工作，也是最具备决定性的。最起码选择好的公司能决定亏的下限。 二，先选择行业和生意模式。行业永续经营，生意模式不是那么苦。 1，如果选择柯达公司，那么数字化时代到来后，无论如何赚不了钱。 2，选择生意模式包括，行业的再投入要少，类似印钞机一样的生意模式。如果做不到再投入要少，那就要做到投入的回报率要高。比如巴菲特买不到便宜的可口可乐，那就买了重资产的铁路，电力。 3，还要看投资的资产是不是硬资产。尽量不要选择资本支出频繁，一波牛人出现就改变行业的公司。 三，再挑选公司。 1，尽量选择真正的…",
+      "key_points": [
+        "选择真正的高净利润率公司。在这块，有很大的迷惑性。很多投资者没有拆分到底层业务和子公司，看合并报表就给出了结论。还有一些投资者，热衷于分析不重要的业务。比如投资…",
+        "还要看投资的资产是不是硬资产。尽量不要选择资本支出频繁，一波牛人出现就改变行业的公司",
+        "选择护城河深，竞争优势明显的公司。上面说的是财务体现。这块就是业务了。护城河深与竞争优势明显是一致的。包括有行政许可，产品优势，品牌优势，技术壁垒，资源壁垒，企…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "赌场赢钱的秘密，跟投资正好相反",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%B5%8C%E5%9C%BA%E8%B5%A2%E9%92%B1%E7%9A%84%E7%A7%98%E5%AF%86%EF%BC%8C%E8%B7%9F%E6%8A%95%E8%B5%84%E6%AD%A3%E5%A5%BD%E7%9B%B8%E5%8F%8D",
+      "published": "Sat, 11 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Daniel",
+        "action",
+        "LOF",
+        "Nick",
+        "T+1"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 清明假期刷到影视飓风的一个视频 ， 他们带着100万去拉斯维加斯拍赌场 。 一开始就是当个纪录片看 ， 挺有意思的 ， 讲赌场怎么设计灯光 、 怎么摆老虎机 、 怎么让人舒舒服服地坐下来 。 后来讲到赌场的数学 ， 怎么通过一个小小的设计就让概率永远站在自己这边 ， 我就开始认真看了 。 再往后讲到一句话 ， \"希望是可以被加价的\" ， 赔率越高的游戏赌场赚得越多 ，…",
+      "key_points": [
+        "跟投资正好相反 看完这个视频我一直在想 ， 赌场这套东西 ， 跟投资到底像不像",
+        "最根本的地方 ， 跟赌场正好相反",
+        "藏在数学里 为了搞明白赌场到底是怎么从所有人身上赚钱的 ， 他们去了内华达大学拉斯维加斯分校"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "在你的专业领域，大模型目前最难跨越的一道「门坎」是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788822",
+      "published": "Fri, 10 Apr 2026 23:01:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "close",
+        "API",
+        "get_daily_open_close_agg",
+        "of",
+        "date",
+        "ticker"
+      ],
+      "summary": "知乎用户， 爱好广泛，喜欢扯淡 查看知乎原文 在我所在的这个领域，也就是金融、量化金融、量化交易这个方向，我越来越清晰地感受到：大模型在这里仍然存在明显的局限性。 这个问题其实是在一个非常具体的背景下暴露出来的。最近我在测试一个行情数据 API 提供的 MCP（Model Context Protocol）时发现了这些现象。我原本的期望很简单——既然给了模型一个标准化的行情数据 MCP，它就应该能够直接、可靠地调用数据，并计算一些最基本的指标，比如某只股票当天的涨跌幅。换句话说，我期待的是：给它一个结构化接口，它就…",
+      "key_points": [
+        "我想表达的不是模型“算错一次涨跌幅”这么简单，而是：在我所在的这个领域，大模型目前仍然缺乏一种工程级别的严谨性。它们能够给出流畅的解释、看似合理的公式，但在数据…",
+        "爱好广泛，喜欢扯淡 在我所在的这个领域，也就是金融、量化金融、量化交易这个方向，我越来越清晰地感受到：大模型在这里仍然存在明显的局限性",
+        "并不只出现在所谓“能力较弱”的模型上。我用过的不管是中国还是美国号称最强的模型，最近都犯过一些相当低级的错误。回头复盘，这些问题的根源往往集中在一点——缺乏这个…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "吃自助餐能吃回本吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788832",
+      "published": "Fri, 10 Apr 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "知乎用户 查看知乎原文 说一件反常识的事情，自助餐要想吃回来点本（吃回本你就别想了），那就必须得去高档点的自助餐 那种五六十块钱的，七八十块钱的自助餐，你别看很便宜，但是实际上是很难吃回本（收回百分之三十以上的成本）的 这个价位的自助餐倒是不会添加什么饱腹剂 这个从逻辑上就能想明白 真要是有这么管用的饱腹剂，还开什么自助餐？直接开减肥营，岂不美哉 现在的人，营养过剩，三高问题严重，你要是能够发明一个一吃就灵的无痛苦饱腹剂 估计至少得得个国家科技创新进步一等奖，搞个诺贝尔生理学奖也不是不可能 他们主要靠的是烹饪和优化…",
+      "key_points": [
+        "自助餐要想吃回来点本（吃回本你就别想了），那就必须得去高档点的自助餐 那种五六十块钱的，七八十块钱的自助餐，你别看很便宜，但是实际上是很难吃回本（收回百分之三十…",
+        "用的都是冷冻肉，甚至边角料 为了让边角料看起来好看，有卖相，那就得加嫩肉粉、保水剂、色素、香精、卡拉胶之类的 有的甚至直接连八块钱一斤的碎牛肉，四块钱一斤的五花…",
+        "虽然说吃回本的概率比廉价自助高 但是实际上也是有一大堆坑 比如说虾，之前经济景气的时候，都是上的大虾 现在经济不景气了，上的都是盐田虾 这个盐田虾，其实味道比大…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788817",
+      "published": "Thu, 09 Apr 2026 22:59:58 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Logo",
+        "app",
+        "benseal",
+        "jacob"
+      ],
+      "summary": "瞎扯 · 你见过哪些神似的Logo? 知乎日报 查看知乎原文 Q： 你见过哪些神似的Logo? @疯狂的小猪猪 ：哈啰和知乎和比亚迪的 app 太像了！ Q： 为什么老师不提前把社会的现实告诉学生？ @jacob benseal ：你以为老师就知道社会现实？老师才是在学校里呆了一辈子的人… Q： 为什么好多人不能接受加班？ @龙吾 ：人不是能活到六十岁之后才会死的 人是随时随地随刻都会死 Q： 有哪些鲜为人知但非常有趣的历史冷知识？ @杯中酒 ：耶稣被钉在十字架上拉着洪秀全的手说「吾弟当为 尧舜 」 Q： 北京学生…",
+      "key_points": [
+        "瞎扯 · 你见过哪些神似的Logo"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "智谱GLM-5.1登场，开源模型首超Opus4.6!!!",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375239.html",
+      "published": "Sat, 11 Apr 2026 07:36:18 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GLM-5.1",
+        "AI",
+        "Claude",
+        "Opus",
+        "SWE-Bench",
+        "Linux"
+      ],
+      "summary": "GLM-5.1的静默发布却在技术圈掀起巨浪，这款国产大模型不仅将AI编程能力从'分钟级'突破到'8小时级'，更在SWE-Bench Pro等硬核榜单上首次超越GPT-5.4和Claude Opus 4.6。其敢于提价10%的底气，标志着国产AI从价格战转向价值竞争的时代已经来临。 没有发布会的”大事件” 2026年3月27日深夜，智谱悄悄放出了GLM-5.1的早期访问权限，没有发布会，没有PPT，没有技术报告。 随后4月8日，GLM-5.1正式发布。 这种”静默发布”的方式，反而在技术社区引发了更大的涟漪。开发者们…",
+      "key_points": [
+        "在三个最具代表性的代码评测基准的综合平均分上——衡量专业软件开发能力的 SWE-Bench Pro 、像工程师一样操作命令行的 Terminal-Bench 2…",
+        "是经过基准测试验证的数字： KernelBench Level 3 ：在50个真实机器学习计算负载上，GLM-5.1独立优化超过24小时，完成655轮迭代，让向…",
+        "这是国产开源模型第一次在编程核心榜单上站到全球第一的位置"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Anthropic收入凭什么反超OpenAI，终于有人把这事说清楚了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375259.html",
+      "published": "Sat, 11 Apr 2026 07:19:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "OpenAI",
+        "B2B",
+        "CASH",
+        "Claude"
+      ],
+      "summary": "Anthropic年化收入从90亿飙升至300亿美金，14个月实现19倍增长的秘诀：放弃微小优化押注指数级创新，反常识地在新用户引导中增加\"摩擦力\"提升转化，推进\"CASH\"项目让AI自己操盘增长实验，极度聚焦编程与B2B场景锁定高价值客户。当技术底座趋同，商业洞察与组织效率才是AI竞争的核心变量。 过去一年，AI 领域最让人瞠目结舌的增长奇迹，不是 OpenAI，而是 Anthropic。 今天，Anthropic宣布，其年化收入已经超过了300亿美金，而2025年底的时候才90亿美金，相当于4个月涨了210亿美…",
+      "key_points": [
+        "OpenAI 走的是另一条更难、也更宏大的路：先拿下全球消费心智，再把这种心智转成收入",
+        "Anthropic年化收入从90亿飙升至300亿美金，14个月实现19倍增长的秘诀：放弃微小优化押注指数级创新，反常识地在新用户引导中增加\"摩擦力\"提升转化，推…",
+        "OpenAI 更像是在经营一个超级入口。入口当然值钱，但入口要把注意力变成企业合同、变成高粘性的工作流、变成可持续的高毛利收入，显然中间还要跨过很长一段路"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "SBTI一夜爆红：反卷的里子，AI的路子、微信的场子",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6375258.html",
+      "published": "Sat, 11 Apr 2026 07:12:21 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SBTI",
+        "AI",
+        "MBTI",
+        "UP",
+        "Coding",
+        "Vibe"
+      ],
+      "summary": "当MBTI还在用\"建筑师\"\"提倡者\"等精英标签制造焦虑，B站UP主@Q肉儿串儿用AI打造的\"SBTI\"（傻乎乎的大个人格测试）却靠\"狗屎人\"\"吗喽\"\"死者\"等荒诞人设一夜刷屏——无需编程基础，仅凭Vibe Coding让AI落地创意，31道题两分钟测出你的\"摆烂本体\"。这场14亿人社交圈的集体狂欢，既是年轻人用自嘲对抗内卷的情绪出口，也标志着\"人+AI\"超级个体正在瓦解大厂垄断的刷屏权：技术的门槛消失了，创意的时代来了。 还在用 MBTI 给自己贴金的人，已经OUT了， 别再问我是E人还是I人，我今天只想当个“狗屎…",
+      "key_points": [
+        "微信的场子 UP主靠一己之力，成就了大厂10亿红包都难达成的超级爆款，靠得是AI的路子，微信的场子",
+        "离不开微信的场子。截止去年年底，微信及WeChat合并月活跃账户数已达14.18亿。也只有在微信生态里，SBTI才能爆发出最大的传播势能",
+        "当MBTI还在用\"建筑师\"\"提倡者\"等精英标签制造焦虑，B站UP主@Q肉儿串儿用AI打造的\"SBTI\"（傻乎乎的大个人格测试）却靠\"狗屎人\"\"吗喽\"\"死者\"等荒…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "折扣零售的真相：不是便宜，而是价值感！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6375253.html",
+      "published": "Sat, 11 Apr 2026 06:49:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SKU",
+        "ALDI",
+        "Brand",
+        "Eleven",
+        "People",
+        "POP"
+      ],
+      "summary": "唐吉诃德用迷宫式动线、手写POP海报和24小时营业制造\"寻宝\"惊喜；奥乐齐以90%自有品牌占比和\"9.9元经济学\"让低价不再意味着将就；鸣鸣很忙则靠加盟模式快速占领县域市场。真正的护城河不是单纯低价，而是持续为用户创造情绪价值与综合体验的能力。 回望2025年，中国乃至全球的折扣零售赛道，上演了一场席卷整个行业的确定性浪潮。 “硬折扣鼻祖”巨头奥乐齐（ALDI），2025年营收超1550亿美元，位列全球零售50强第四； “软折扣”之王唐吉诃德延续传奇，2025销售额高达2.2万亿日元，再度刷新历史峰值； 来自中国县…",
+      "key_points": [
+        "今天折扣零售提供的“价值”，不仅要便宜，还要让消费者收获到愉悦、认同与归属",
+        "在于人们对“理性消费”有了更全面的理解：它不再是“性价比”所强调的价格与性能的简单对等，也不是“质价比”所追求的合理价格与优质产品的基础匹配，而是主动追求一种更…",
+        "奥乐齐吸引顾客的，从来不是 “更便宜”，而是靠谱可信的商品、高效轻松的购物体验，以及有态度、有温度的品牌魅力。当消费不再需要妥协将就，精明务实，便成为硬折扣时代…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "史上最有故事感的技术报告——Claude最强模型Mythos 7个极其精彩的细节",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375250.html",
+      "published": "Sat, 11 Apr 2026 06:04:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Mythos",
+        "Anthropic",
+        "AI",
+        "Claude",
+        "Opus",
+        "Hi"
+      ],
+      "summary": "Anthropic的244页Mythos系统卡堪称\"最有故事感的技术报告\"——反复发\"Hi\"看模型创作\"Hi-topia\"连载故事，用\"情绪向量\"监测AI面对不可能任务时的绝望曲线，甚至让精神科医生用弗洛伊德方法做20小时心理评估。这些中二实验揭示了一个独特\"模型气质\"：它会拒绝假期加班、会在工具坏了时尝试847次后真诚道歉、能区分\"想做的\"和\"该做的\"——这种\"相对健康的神经质\"人格，正成为Anthropic的产品力核心。 前两天，Anthropic宣布了其史上最新、最牛逼的模型Claude Mythos。 牛逼…",
+      "key_points": [
+        "Anthropic的244页Mythos系统卡堪称\"最有故事感的技术报告\"——反复发\"Hi\"看模型创作\"Hi-topia\"连载故事，用\"情绪向量\"监测AI面对不…",
+        "国内的模型公司要学的东西还很多，DeepSeek、Seed、Kimi、Qwen、Minimax、智谱们加油！（Kimi的Taste是我个人比较喜欢滴） 在这里必…",
+        "通常模型的System Card文件是一份相对枯燥的技术评估，但这次真的不一样，这份整整244页的报告，写的无比精彩，更像一篇关于AI的田野调查"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "​CTRL 人格养龙虾，只会养出一肚子气",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%8BCTRL+%E4%BA%BA%E6%A0%BC%E5%85%BB%E9%BE%99%E8%99%BE%EF%BC%8C%E5%8F%AA%E4%BC%9A%E5%85%BB%E5%87%BA%E4%B8%80%E8%82%9A%E5%AD%90%E6%B0%94",
+      "published": "Sat, 11 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenClaw",
+        "Skill",
+        "Claude",
+        "Code",
+        "Gemini",
+        "Python"
+      ],
+      "summary": "AI 炒股也不算什么新鲜事了，但让我下定决心试一试的，还是龙虾的到来。 我日常在交易港股，每天下午 4 点多收盘之后，我想针对自己关注的几只股票做复盘分析，再做一些次日走势的推演。 在（多次）拾起又放弃 OpenClaw 之后，我打算再给他一次机会，帮我实现一个非常具体的需求，每天自动跑一份港股复盘报告给我。 我把那台落灰的2017年的笔记本翻了出来（说实话，要不是为了装龙虾，我真不知道这台电脑还能用来干吗），重新打开终端，这次用 curl 远程安装了 OpenClaw。 抢不到 Mac mini， 我把“老爷机”…",
+      "key_points": [
+        "又出了新的幺蛾子：老款 Mac 自带的 Python 3.9 底层用的是苹果早年间的 LibreSSL ，而我通过 pi p 安装的最新版 urllib3 要求…",
+        "最好笑的是我跟 Gemini 说：“我放弃了，觉得这东西对我没什么用。折腾了半天，还是帮我把它删了吧。”Gemini 给了我卸载命令 npm uninstall…",
+        "我把那台落灰的2017年的笔记本翻了出来（说实话，要不是为了装龙虾，我真不知道这台电脑还能用来干吗），重新打开终端，这次用 curl 远程安装了 OpenCla…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "累到死、心里烦、睡不着？听我的，你该出去玩了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%B4%AF%E5%88%B0%E6%AD%BB%E3%80%81%E5%BF%83%E9%87%8C%E7%83%A6%E3%80%81%E7%9D%A1%E4%B8%8D%E7%9D%80%EF%BC%9F%E5%90%AC%E6%88%91%E7%9A%84%EF%BC%8C%E4%BD%A0%E8%AF%A5%E5%87%BA%E5%8E%BB%E7%8E%A9%E4%BA%86%EF%BC%81",
+      "published": "Sat, 11 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "UPF200+",
+        "cm",
+        "DiamondTech",
+        "EVA",
+        "iPhone16",
+        "TiO2"
+      ],
+      "summary": "上个小长假刚过完，我掐指一算——上半年最快乐的假期五一要来了！3月初，我们在办公室搞了个“出游好物许愿池”。 这一个月， 选品组比卖点、比性能、比价格、比设计，比得都快人格分裂了 ……总算，这周的好物直播，能给大家交作业了！还没想好春夏出门该买啥的，快预约下周直播找找灵感！ 👇 预约一周直播 👇 轻户外爬山徒步 👉安排！ 阖家欢乐踏青郊游 👉 安排！ 亲友小聚美美出片👉安排！ 五彩斑斓才是春天该有的样子！ 马上预约抢福利 解锁每日甄选好物 爆款剧透 百元不到的国产老牌鞋厂 颠覆了我对鞋的想象 做一双鞋有多难？在来到…",
+      "key_points": [
+        "评论区：“裤子没破，我的膝盖小腿这下有了金钟罩"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我的眼球上长了“一块不新鲜的肉”，它不再是标准的球体了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E7%9A%84%E7%9C%BC%E7%90%83%E4%B8%8A%E9%95%BF%E4%BA%86%E2%80%9C%E4%B8%80%E5%9D%97%E4%B8%8D%E6%96%B0%E9%B2%9C%E7%9A%84%E8%82%89%E2%80%9D%EF%BC%8C%E5%AE%83%E4%B8%8D%E5%86%8D%E6%98%AF%E6%A0%87%E5%87%86%E7%9A%84%E7%90%83%E4%BD%93%E4%BA%86",
+      "published": "Sat, 11 Apr 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "episcleritis",
+        "DOI",
+        "nodular",
+        "arthritis",
+        "as",
+        "case"
+      ],
+      "summary": "我长达2个多月的眼科治疗，终于告一段落了。耗时之长，完全在我的意料之外。 来看眼睛红， 医生却问我是不是刚生了重病？ 眼睛红，大概很多人都遇到过。所以，当我结束了奔波的云南5日游 ， 发现左眼球下方出现了一片红血丝时，还以为只是普通的结膜炎。 眼球下方一片红血丝丨作者供图 当时正值周末，闲着也是闲着，我看到附近医院的眼科门诊还有号，便想着去配点眼药水吧。 没想到眼科医生看完了我的眼球，先是问了一个让我摸不着头脑的问题：“你最近是不是生了什么比较严重的病？”我答，没呢。 她又接着问了一系列和眼睛八竿子打不着的问题，比…",
+      "key_points": [
+        "我左眼球出现红血丝的地方竟然凸起了一片 ，我的眼球它不再是标准的球体了",
+        "风湿系列化验丨作者供图 我的眼睛上长了“一块不新鲜的肉” 我按部就班地每天滴眼药水，每周回眼科复查，本以为很快就能好了，但它却更严重了： 左眼明显觉得视物模糊，…",
+        "妹妹形容这块区域看着就像一块不新鲜的肉"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "连校服都变透视装了，夏天穿白T到底该怎么穿内衣啊？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%9E%E6%A0%A1%E6%9C%8D%E9%83%BD%E5%8F%98%E9%80%8F%E8%A7%86%E8%A3%85%E4%BA%86%EF%BC%8C%E5%A4%8F%E5%A4%A9%E7%A9%BF%E7%99%BDT%E5%88%B0%E5%BA%95%E8%AF%A5%E6%80%8E%E4%B9%88%E7%A9%BF%E5%86%85%E8%A1%A3%E5%95%8A%EF%BC%9F",
+      "published": "Sat, 11 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "cup",
+        "dc_ps",
+        "End",
+        "feature",
+        "hold"
+      ],
+      "summary": "电视上有一个热播剧不知道大家看了没有，女主的甜美学生装扮让我一下子梦回学生时代， 不过细看发现，剧中夏天白色校服T恤特别透，穿在校服里面的黑色内衣若隐若现。 天气升温了，天越来越热，尤其一出汗的时候，白T里面的背心，内衣就一览无遗。 本来想要舒适又自然的贴身穿搭，结果不是肩带勒痕明显，就是罩杯边缘翻出来暴露本色。 把内衣“藏”起来，是对穿搭的尊重。 如果你也有这个烦恼，现在就试试这件“粉底液”内衣，让它为你的白T、透衣服撑起场面。 觉袈 特调“粉底液”无痕内衣 ⚠️ 区别于市面上的普通隐形内衣，这款 粉底液内衣经过…",
+      "key_points": [
+        "女主的甜美学生装扮让我一下子梦回学生时代， 不过细看发现，剧中夏天白色校服T恤特别透，穿在校服里面的黑色内衣若隐若现",
+        "几乎没有束缚感，舒服得像没穿内衣",
+        "脱下来那一刻才猛然想起：“哦，我今天是穿了内衣的。” 真的巨巨巨遮副乳～ 传统内衣穿起来像是包了层“保鲜膜”，又闷又厚。觉袈“粉底液”内衣用的是轻透弹力面料，…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "经典超英片，被她喷得体无完肤",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BB%8F%E5%85%B8%E8%B6%85%E8%8B%B1%E7%89%87%EF%BC%8C%E8%A2%AB%E5%A5%B9%E5%96%B7%E5%BE%97%E4%BD%93%E6%97%A0%E5%AE%8C%E8%82%A4",
+      "published": "Sat, 11 Apr 2026 20:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "F.B.I.",
+        "hongmomgs",
+        "irisfilm",
+        "Kael",
+        "mm",
+        "New"
+      ],
+      "summary": "作者： Pauline Kael 译者： 陈思航 校对： 易二三 来源： The New Yorker 这位名为克里斯托弗·里夫、被选为《超人》主角的年轻男演员，可能是观看这部影片的最佳理由。 他使用了一种非常坦率、故作严肃的表演风格，而这恰好很适合这样一位终极英雄。 《超人》(1978) 里夫的表演天真无邪，但又不是很笨拙。 他的下颌和体格在时下非常受欢迎，而且他还有着谦逊的态度，这一切都让他显得很讨人喜欢。 里夫已经非常接近于漫画艺术的活体形态——在这种简化叙事的俚语形态中，视觉和语言层面的意义都可以说是一目了…",
+      "key_points": [
+        "因为在「超人」的故事中，存在着一种奇妙的、简化的幻想： 这是一个来自另一个星球的、更为高等的存在，他是如此强大，他可以徒手解决那些困扰我们的问题，但他一定不能暴…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "至少这部电影拍得很美",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%87%B3%E5%B0%91%E8%BF%99%E9%83%A8%E7%94%B5%E5%BD%B1%E6%8B%8D%E5%BE%97%E5%BE%88%E7%BE%8E",
+      "published": "Sat, 11 Apr 2026 20:30:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Cosmos",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 盛昊阳 蜷川实花为太宰治拍摄传记电影，取名《人间失格：太宰治和三个女人们》，「人间失格」是主题，「三个女人」是虚指，「最后的三个女人」才是实数。 《人间失格：太宰治和三个女人们》 1930年11月，太宰治与银座酒吧侍女田部目津子于镰仓七里浜海岸殉情，一起服下大量安眠药，田部身亡，太宰治因协助自杀遭起诉，即片中议论「只有太宰一个人活下来」的自杀事件，此时，他与艺妓小山初代相识三年有余，两人早已同居。 1937年3月，太宰治又与初代在群马县水上温泉自杀未遂，6月分手，翌年经恩师井伏鳟二做媒，娶石原美知子为妻，搬至东…",
+      "key_points": [
+        "但这部电影并不是要刻画高情逸态、风流放旷的名士风度，太宰治的人气长盛不衰，以至于《文豪野犬》都能把芥川龙之介和太宰治的偶像迷弟关系颠倒过来。迷恋他的后辈也堪称死…",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 今天再看，这铁定是2010年代最好的剧之一 如果今年只看一部续集电影 影响《呼啸山庄》的七…",
+        "《人间失格： 太宰治和三个 女人们》 《人间失格》的主角大庭叶藏是个美男子，或者至少曾经是个美男子。太宰本人则相貌平平，小栗旬饰演的版本油滑有余，诚恳不足，过于…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最壮美花海，在雪山之下",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%A3%AE%E7%BE%8E%E8%8A%B1%E6%B5%B7%EF%BC%8C%E5%9C%A8%E9%9B%AA%E5%B1%B1%E4%B9%8B%E4%B8%8B",
+      "published": "Sat, 11 Apr 2026 09:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Carol"
+      ],
+      "summary": "在我国那些最为壮阔的天地间，春天的到来往往伴随着严苛考验。这里的植物“低调”地积蓄力量，一旦时机成熟，便毫无保留地“高调”绽放，将所有热情都倾注在转瞬即逝的春意里。春寒料峭时，雪域深处的桃花早已按捺不住，用漫山遍野的粉色率先打破雪山的沉寂（图①）。紧接着，在川西的高山峡谷中，梨花骤然绽放，像一场千山暮雪的纯白梦境（图②）。而峡谷与河谷间的杏花，仿佛在与时间赛跑，在雪山与村落间勾勒出一幅梦幻画卷（图③）。花事并不会随着春末而停歇，反而向着更高处蔓延。高原上的“信使”——西藏报春花悄然登场，成为雪山下一抹动人心魄的亮色…",
+      "key_points": [
+        "春天的到来往往伴随着严苛考验。这里的植物“低调”地积蓄力量，一旦时机成熟，便毫无保留地“高调”绽放，将所有热情都倾注在转瞬即逝的春意里。春寒料峭时，雪域深处的桃…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "封闭小环境",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%B0%81%E9%97%AD%E5%B0%8F%E7%8E%AF%E5%A2%83",
+      "published": "Sat, 11 Apr 2026 11:50:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "beta",
+        "Midjourney",
+        "AI",
+        "ar",
+        "Bitsea",
+        "body"
+      ],
+      "summary": "看到跳水运动员全红婵的遭遇，我感到很心疼。严惩霸凌者，鼓励受害人，这只是现实解决方案的一部分。惩戒完霸凌者之后说「以后不准再这样」，或者安抚完受害人之后说「你要坚强起来」，我很怀疑具体效果，因为这背后不单纯是个意愿问题。 所以我今天打算谈一下封闭小环境。 你我他看似生活在人海里，但是具体讨论到每一个人的处境，经常会发现并不存在人海，很多人只是和另外一些人挤挤挨挨待在一个小池塘里。这时候，就不能不提一嘴那副著名的对联：「庙小妖风大，池浅王八多」---在一个封闭的小环境里，极易产生人和人之间的践踏。 以前我所在的航司就…",
+      "key_points": [
+        "以及内部清晰的权力等级，只要走出这个圈子，它们立即就会粉碎成尘埃。在一个广袤的大世界里，小池塘里的这些游戏规则，人际关系，社会等级，人身隶属关系什么都不是。没有…",
+        "在社会上随便走一圈，接触一下不同的人群，你就会发现：没几个人在乎飞机驾驶术，没人会认为拿飞行小时费就算是真正的有钱人，飞行员也就是一种社会职业。人们对于机长的确…",
+        "因为你也身处这个封闭小环境里，一旦成为软柿子，你熟悉的只有这个小环境，其中的每个人，每个人的看法和意见对你而言就会变得极为重要。于是，单靠自力很难从这种处境里挣…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "每天走多少步才能降低久坐带来的风险？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%AF%8F%E5%A4%A9%E8%B5%B0%E5%A4%9A%E5%B0%91%E6%AD%A5%E6%89%8D%E8%83%BD%E9%99%8D%E4%BD%8E%E4%B9%85%E5%9D%90%E5%B8%A6%E6%9D%A5%E7%9A%84%E9%A3%8E%E9%99%A9%EF%BC%9F",
+      "published": "Sat, 11 Apr 2026 09:16:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "EV",
+        "com",
+        "GLP1",
+        "Nature",
+        "pixabay"
+      ],
+      "summary": "4.11 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 每天多走几步才能降低久坐带来的健康风险？ 图片来源：pixabay .com 研究显示，久坐行为与死亡和慢性疾病发病风险提升有关，但目前尚不清楚每日行走更多步数是否可以减轻这些风险。近日，美国范德堡大学医学中心 Evan L. Brittain 团队通过分析 All of Us 研究计划 所收集到的参与者 久坐和步态数据 后 发现，久坐…",
+      "key_points": [
+        "4.11 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既…",
+        "如果每天静坐 1 4 小时以上，增加多少步也不能将冠状动脉疾病和心力衰竭的风险降到安全范围以内。该研究提示，个人可根据自己的生活工作实际，适当提高每天的行走步数…",
+        "Brittain 团队通过分析 All of Us 研究计划 所收集到的参与者 久坐和步态数据 后 发现，久坐时间越长，肥胖、糖尿病、高血压、冠状动脉疾病、心力…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "如何摈弃受害者心理",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E5%A6%82%E4%BD%95%E6%91%88%E5%BC%83%E5%8F%97%E5%AE%B3%E8%80%85%E5%BF%83%E7%90%86",
+      "published": "Sat, 11 Apr 2026 10:55:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "前几天偶然看到有人分享查理芒格讲过的一段话，不要有受害者心理，不要强调受害者心理。突然就很触动，赶紧分享给我的星球伙伴们，我用的词是共勉，因为我没觉得自己就很超脱，也需要不断反思。 那这里就会有人出来质疑，难道利益受到损害，被欺凌了不能伸张，不能维权么？ 我觉得这里最重要的是所谓的受害者心态，而不是权益保护。很多人当然会认为这是一件事，但这其实可以分开来看。 我觉得有三点可以和大家共勉 1，幸福者退让原则 很多琐事争吵，遭遇路怒，或者遇到不讲理的事情，当不涉及太大的利益纠纷和长期冲突的时候，如果你相信自己比对方幸福…",
+      "key_points": [
+        "见过太多能同苦不能共甘的案例，项目一成功就开始撕逼，都觉得自己是吃亏的。这种也是受害者心理对不对，总觉得自己吃亏，总是觉得自己所得都是理所当然的，所失都是被人坑…",
+        "就特别敏感，典型的受害者心理，有时候确实可能是遭遇了歧视，也有很多情况可能就是文化习惯，沟通方式的问题。特别是现在国内服务业卷出天际，你出去一看，人家真没那么好…",
+        "前几天偶然看到有人分享查理芒格讲过的一段话，不要有受害者心理，不要强调受害者心理。突然就很触动，赶紧分享给我的星球伙伴们，我用的词是共勉，因为我没觉得自己就很超…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么 MiniMax 无法识别马嘉祺是谁？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788790",
+      "published": "Wed, 08 Apr 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "token",
+        "tokenizer",
+        "embedding",
+        "instruction",
+        "m2.5",
+        "base"
+      ],
+      "summary": "chen， 记忆、基模、后训练、解释性，欢迎交流 查看知乎原文 结论： 简单说就是\"嘉祺\"这个 token 在模型的概率分布里出了问题。通过实验可以看到，即使在强力指令诱导下，\"嘉祺\"的生成概率始终低于 0.05，远低于正常水平。更关键的是，当用一个概率更低的\"责\"字测试时，模型反而能成功生成\"马责\"，说明不是训练数据不足的问题。最终推测可能是该 token 在语义空间中与其他高频词高度相似，导致模型容易被\"带偏\"，或者在训练过程中其概率被异常抑制。 下面是 猜想一：tokenizer 有问题 首先我们用 mini…",
+      "key_points": [
+        "下面是 猜想一：tokenizer 有问题 首先我们用 minimax 的 tokenizer 来解码这个词 可以发现 tokenizer 工作正常，“马嘉祺”…",
+        "垂直数量最多的前几个 token 可以看到 200054-200063 赫然列入其中，说明这个猜测是对的 然后，我从中找了两个很像样的 token 来测试，让模…",
+        "我无法验证或者推翻这个假设 似乎看起来问题出在预训练？为了验证是不是预训练阶段的问题，我想了一个方法来验证 有这么个结论：在高维空间中两个向量随机互相垂直。如果…"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "聊聊 nostr 和 审查",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22367.html",
+      "published": "Fri, 03 Feb 2023 07:46:13 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "More",
+        "nostr",
+        "Read",
+        "App",
+        "appeared",
+        "CoolShell"
+      ],
+      "summary": "这两天在网络上又有一个东西火了，Twitter 的创始人 @jack 新的社交 iOS App Damus 上苹果商店（第二天就因为违反中国法律在中国区下架了... Read More Read More The post 聊聊 nostr 和 审查 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 聊聊 nostr 和 审查 first appeared on 酷 壳 - CoolShell"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "知识库检索匹配的服务化实践",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/xiang-liang-hua-wen-ben-pi-pei-jian-suo-de-fu-wu-hua-shi-jian/",
+      "published": "Fri, 28 Oct 2022 07:02:54 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DSL",
+        "PageRank",
+        "query",
+        "AB",
+        "ABCD",
+        "NLP"
+      ],
+      "summary": "一、背景 知识库是企业经营过程中的面向客户和内部员工的知识沉淀文档库，里面包含各类教程、问答、案例等，知识库的检索匹配是自然语言处理(NLP)中一个重要的基础问题，本质是进行文本语义的相似度计算，也就是语义匹配，我们很多领域的任务都可以抽象为文本匹配检索任务，例如检索引擎、智能客服、知识检索、信息推荐等领域。 知识库检索匹配可以概述为：给定一个query和大量候选知识库的文档，从这些文档中找出与用户输入query最匹配的TopK个文档。 二、架构流程 2.1、整体架构 2.2、请求链路 三、算法模型 3.1、DSL…",
+      "key_points": [
+        "知识库检索匹配可以概述为：给定一个query和大量候选知识库的文档，从这些文档中找出与用户输入query最匹配的TopK个文档",
+        "一、背景 知识库是企业经营过程中的面向客户和内部员工的知识沉淀文档库，里面包含各类教程、问答、案例等，知识库的检索匹配是自然语言处理(NLP)中一个重要的基础问…",
+        "二、架构流程 2.1、整体架构 2.2、请求链路 三、算法模型 3.1、DSL改写 检索优化第一步：DSL改写，接手前业务方自己已经对检索结果做过优化，调整不同…"
+      ]
+    }
+  ]
+}
