@@ -1,0 +1,803 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T01:00:04.901915+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 117,
+    "fresh_candidates": 57,
+    "backfill_candidates": 60,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-13",
+      "fetched_at": "2026-04-13T01:00:04.565926+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3986.22,
+          "change": 20.05,
+          "change_pct": 0.51,
+          "volume": 546415541.0,
+          "amount": 95566411.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4688.88,
+          "change": -60.17000000000007,
+          "change_pct": -1.27,
+          "prev_close": 4749.05,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-13 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1029.4023849406017,
+          "change": -13.20979455688257,
+          "change_pct": -1.2669902401532847,
+          "prev_close": 1042.6121794974842,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-13 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂电池本周行业更新4-11",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/383515036",
+      "published": "Sun, 12 Apr 2026 13:15:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "Q4",
+        "Q1",
+        "jxw",
+        "by",
+        "hcdx"
+      ],
+      "summary": "1、库存 本周库存端，周度社会库存环比增加1453吨至101802吨，其中下游库存环比下降224吨至45969吨，其他环节库存环比增加1170吨至37190吨，上游库存环比增加507吨至18643吨。 供给端，周度产量环比增加257吨至25627吨；4月碳酸锂产量环比增加4%至110950吨。 这个图算是很清晰。最近表需这块是有点走弱的，这个和排产和市场公布的信息是不匹配的。所以某第三方机构虚的东西搞多了，自然在大家心里的地位各自去评判了。 2、铁锂3月产能新高 贴几组数据，引用的则言。 3月份，铁锂产能超过去年1…",
+      "key_points": [
+        "目前是从去年Q4到今年Q4唯一一个全市场能做到同环比全增长的行业。这个难的就是今年的Q1还能环比去年Q4环比增长，我们从几个电池厂的1季度预告就可以看出来，毕竟…",
+        "d）摩根士丹利更新观点 2026年全球新增供应预期已从年初的约50万吨下调至约40万吨。津巴布韦出口限制导致的约2万至3万吨供应冲击，以及依然强劲的需求预期（特…",
+        "6、全年度供需平衡更新 另外3月份的动力电池和储能电池的数据也出来了，我们更新一下全年的推算数据： 推断的方式注意两个标颜色的地方，红色的基本是参考过去2年12…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "长江电力2026年经营形势预测",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6699030100/383536413",
+      "published": "Sun, 12 Apr 2026 13:15:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "目前市场电力不是热点，但追求稳定收益的投资群体还是大有人在，继续坚守在其中，长期关注长电人也不在少数。前几天长电发布了2026年一季度发电量，这个数据对年度业绩影响有限，现从更大视野对长电2026年的经营形势进行动态预测。 一、政策梳理 电价2026年的面临着高度的不确定性，我们只能按当前的政策变化和市场情况做出估算，虽然不能确保准确，但可以足以满足业绩估算要求。 政策上，最新更新一是《关于完善发电侧容量电价机制的通知》（发改价格〔2026〕114号），这是2026年以后影响电力市场的重要文件。 简单梳理文件的要点…",
+      "key_points": [
+        "但追求稳定收益的投资群体还是大有人在，继续坚守在其中，长期关注长电人也不在少数。前几天长电发布了2026年一季度发电量，这个数据对年度业绩影响有限，现从更大视野…",
+        "下面再看看长电的本身经营形势变化，或者说2026年有那些变数。先说财务费用： 长电财务费用压降空间是水电企业里最大的，一是三总在电站建设期进行了大量的长期高利息…",
+        "633号文件前的抽蓄仍按原来的机制执行，114号文件前的抽蓄按所在省统一定价，如果项目的资源和造价管理水平较好，可以享受633号文件的政策收益水平。这样的安排对…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "粮厂研究员Will | 一个普通人应该如何投资？（上）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7970049223/383485067",
+      "published": "Sun, 12 Apr 2026 13:14:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Beta",
+        "Alpha",
+        "Will",
+        "AI",
+        "Bloomberg",
+        "buy-side"
+      ],
+      "summary": "“粮厂点评”频道致力于点评粮厂的季度财报、产品发布会、市场表现或其他重大事件，不追求信息即时性和效率性，主要为读者提供粮厂研究员的观点。 $小米集团-W(01810)$ 2021年秋天的一个深夜，我下楼去取宵夜外卖，手机微信突然响了。 电话那头是一位小米粉丝，语气里带着掩饰不住的焦虑。他是长春一汽的一名普通职工，在上一轮小米股价上涨中小有盈余。 2021年3月小米宣布造车后，身处汽车行业的他对这个消息格外兴奋。他觉得自己比大多数人更懂汽车。在资本市场的热潮裹挟下，他把全部积蓄在30到35港币的价位投入了小米股票。不…",
+      "key_points": [
+        "我把这个系列分为上中下三篇： 上篇 我们讨论一个普通人投资的基本原则——这是所有后续讨论的基础； 中篇 我们讨论如何投资自己重仓的标的，我会以小米为例，但方法适…",
+        "我决定写这个系列，系统地和大家分享，一个普通人应当如何正确的投资",
+        "“粮厂点评”频道致力于点评粮厂的季度财报、产品发布会、市场表现或其他重大事件，不追求信息即时性和效率性，主要为读者提供粮厂研究员的观点"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美伊谈判失败了？并没有大超预期",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6087293231/383524296",
+      "published": "Sun, 12 Apr 2026 13:14:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600030",
+        "SH601899",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "美国副总统万斯在巴基斯坦伊斯兰堡正式宣布，美伊双方经过约21小时谈判， 未能达成任何协议 ，谈判宣告失败。万斯明确表示，谈判破裂的核心原因是伊朗未就放弃发展核武器作出明确承诺，美方提出的红线与条件未被伊朗接受。 一、本次谈判失败，核心焦点与难点是什么 1、 霍尔木兹海峡控制权之争 伊朗将海峡作为核心反制筹码，谋求主导权；美国要求海峡完全、立即、安全开放。当前海峡石油流量不足冲突前10%，双方分歧几乎没有调和空间。 2、 铀浓缩问题存在根本死结 伊朗坚持和平利用核能，拒绝放弃铀浓缩能力；美国要求伊朗全面禁止核研发，移…",
+      "key_points": [
+        "本次谈判失败符合偏低的市场预期，短期以地缘风险定价为主。高油价、加息预期、美元走强是各方都难以承受的结果，后续仍有重回谈判的可能。不用太悲观，谈判失败则以防御思…",
+        "二、市场对本次谈判成功的预期本就不高 市场对于此次谈判的态度一直极为谨慎，成功预期原本就偏低。伊朗学者判断，谈判直接达成结果的概率不足两成；即便预测市场显示4月…",
+        "三、谈判失败对市场的影响 在当前时间点，市场大概率会定价原油继续维持强势、通胀压力回升，全球股市短期整体承压，避险情绪阶段性升温，同时市场也会进入观望阶段，等待…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "地缘冲突+利率反复，市场更难做了，一个能穿越牛熊周期的懒人理财法",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%B0%E7%BC%98%E5%86%B2%E7%AA%81%2B%E5%88%A9%E7%8E%87%E5%8F%8D%E5%A4%8D%EF%BC%8C%E5%B8%82%E5%9C%BA%E6%9B%B4%E9%9A%BE%E5%81%9A%E4%BA%86%EF%BC%8C%E4%B8%80%E4%B8%AA%E8%83%BD%E7%A9%BF%E8%B6%8A%E7%89%9B%E7%86%8A%E5%91%A8%E6%9C%9F%E7%9A%84%E6%87%92%E4%BA%BA%E7%90%86%E8%B4%A2%E6%B3%95",
+      "published": "Sun, 12 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "REITs"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 慢融雪的财富笔记 来源：雪球 最近中东一乱，全球市场跟着上蹿下跳，我发现身边很多人都坐不住了。其实，大多数投资者焦虑的根源是：没有提前做好资产配置，应对不了投资的“黑天鹅”。 作为一名40岁的家庭主妇，去年帮家里理出20%收益。今天我就用一个图，四个步骤，分享一个年化10%+、波动却不大的投资策略。它就是桥水基金验证了几十年的财富密码——达利欧的“全天候策略”。 第一步：什么是全天候策…",
+      "key_points": [
+        "基金盈利11%，因为投资市场是复利，所以折算下来，年化1.05%。但是，它的最大回撤高达74.38%，四年了，数据还趴在地上。如果有人买在了山顶，从180%降下…",
+        "雪球三分法是雪球基于“长期投资+资产配置”推出的基金配置理念，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风险分散化…",
+        "慢融雪的财富笔记 来源：雪球 最近中东一乱，全球市场跟着上蹿下跳，我发现身边很多人都坐不住了。其实，大多数投资者焦虑的根源是：没有提前做好资产配置，应对不了投资…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有人说猫是地球上最能忍痛的动物之一，这是真的吗？为什么猫咪这么能忍？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788963",
+      "published": "Sun, 12 Apr 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "in",
+        "cats",
+        "FGS",
+        "of",
+        "pain",
+        "Pain"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 一只猫的关节已经在 X 光片上布满了退行性病变的痕迹，走路的时候每一步都在承受骨头磨骨头的摩擦，但它的主人什么都没察觉。 不是粗心，是真的看不出来。 2020 年，一个日本研究团队给 101 只猫做了全面的骨骼 X 光筛查，其中 75 只存在四肢关节退行性病变，41 只存在脊椎退行性病变。 四肢关节有问题的 75 只猫里，主人注意到跛行的只有 1 位；脊椎有问题的 41 只里，主人注意到步态异常的也只有 1 位。整个研究中，兽医触诊时…",
+      "key_points": [
+        "这也是为什么不能把人类的止痛研究成果直接套到猫身上。线路走法不同，同一种药在不同物种体内的效果可能完全不一样。这篇综述写作的动机之一，就是提醒兽医： 关于猫的疼…",
+        "发现晚意味着确诊时往往已经很重，而猫偏偏又是止痛药选择最受限的家养动物之一",
+        "宾州州立大学的 Hughes 和 Lang 在 Springer 出版的《Animal Pain》里写过一句话 [14] ：动物物种之间的疼痛阈值惊人地相似（r…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "士兵只携带 150 发子弹，战场上打光了怎么办？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788966",
+      "published": "Invalid Date",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ab",
+        "Ai",
+        "rpg"
+      ],
+      "summary": "逆水， 喜欢军事，哲学的不油腻大叔 查看知乎原文 感谢邀答，我以自己经历回答吧。 图为我在班用装甲车内 在当代战争中，子弹消耗的很快。我们出实战任务，并不是只带 150 发子弹。 一般单兵是携带 8-10 个弹夹，枪上一个满夹，六个弹夹袋，这是 7 个，还有 1 个是放在战术背包里面的。而担任突击手位置的士兵需要携带更多要携带 15-20 个弹夹，有的是放在背包里，有的是用胶带把弹夹正反粘起来。 战场上打光了，就去装甲车里拿。一个班用装甲车里，有 5000-10000 发子弹（步枪加机枪），4 枚单兵反坦克火箭筒，…",
+      "key_points": [
+        "150 发子弹，在实战中能够支持 3-5 分钟的作战时间。这还得是久经战场的老兵，才能在节省弹药的情况下还能够有效压制敌人。如果是新兵，150 发子弹可能 2…",
+        "大家会采取不同的射击方式，比如我双发点射，我旁边的战友就会采用双发短点或者 3 连发，这是为了不让敌人从枪声中判断出来我们具体人数，还能避免子弹同时打完给敌人留…",
+        "就去装甲车里拿。一个班用装甲车里，有 5000-10000 发子弹（步枪加机枪），4 枚单兵反坦克火箭筒，50 颗手榴弹，10 发枪榴弹。不要问我为何记得这么清…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "史书上「南方瘴气」是什么？现在还有吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788887",
+      "published": "Invalid Date",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "E116",
+        "N40",
+        "xi"
+      ],
+      "summary": "马前卒， 山楂糕、枣泥饼、酸奶冰棍 ——微信公众号【马前卒工作室】 查看知乎原文 前面的答案基本上就是高湿度空气和湿热病菌两种解释。我对生物和医学都不太熟，但我或许可以从地貌角度来谈谈两者的联系。 所谓流水不腐，流动的水一方面把氧气卷入水中，另一方面把下面含氧量低的水翻上来吸收氧气，所以有机质分解的快，不容易出现微生物集聚情况。而且流动的水会冲走虫卵，蚊虫难以滋生。所以，大江大河虽然水多，带来湿润空气，却未必会直接致病。古人说瘴气，一般说的也不是开阔谷地里的农业区，而是说周围的山区里有瘴气，可见瘴气不能简单地说成湿…",
+      "key_points": [
+        "为何“瘴气”慢慢的消失了呢？从江南退到华南，再从华南退到西南，最后连西南的山间盆地（坝子）里也找不到瘴气，倒是周围坡度更大，理论上更难存积水的山区还有“烟瘴之地…",
+        "尽管当地人对“瘴气”的概念模糊，但在生活实践中似乎也隐约察觉到，除了瘴气之外，令他们致病还与“水”有关。一些当地老人说：“以前我们从山上引水喝，山上有毒性的动物…",
+        "水利开发要消灭的封闭洼地 整修后的农业地区，不存在无开口的洼地 这说明农业开发意味着消灭“瘴气”的源头。在农民和蛮荒山区的对抗中，每一代农民都有大量的伤亡，但最…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2分钟 → 30秒，效率提升75%：B端产品经理如何用「规则枷锁」驯服AI幻觉？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375235.html",
+      "published": "Sun, 12 Apr 2026 09:07:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "RAG",
+        "Prompt",
+        "case",
+        "SOP",
+        "ASR"
+      ],
+      "summary": "AI在客服系统中常沦为华而不实的工具，但某头部电商平台却实现了日均8万工单的高效处理，将AI从「写话」机器变成了「产数据」引擎。这背后是四大强约束模块的精密设计：业务标签映射、关键实体提取、情绪标准化和行动指令化。本文深度拆解如何通过规则引擎驯服AI的幻觉，在B端场景中实现从30%幻觉率到0.8%的惊人突破，最终带来每月36万元的净收益与客户满意度8个百分点的提升。 AI在发布会上能写诗，到了客服系统里只会产出「优美但没用」的工单散文。 问题不在模型，在于你没给它装上规则引擎。 一个真实落地项目：某头部电商平台售后…",
+      "key_points": [
+        "但某头部电商平台却实现了日均8万工单的高效处理，将AI从「写话」机器变成了「产数据」引擎。这背后是四大强约束模块的精密设计：业务标签映射、关键实体提取、情绪标准…",
+        "不是更聪明，而是更可控。能驯服AI的产品经理，才是下一阶段真正稀缺的人",
+        "不测平均表现 常规测试集只能反映平均表现，但生产环境里的幻觉往往藏在边缘case里。我们专门构造了一套「刁难集」： 前后矛盾的对话（客户先说要退款，后说要换货）…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "蒸馏or被蒸馏",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375719.html",
+      "published": "Sun, 12 Apr 2026 06:42:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "skill",
+        "IT",
+        "AI",
+        "Skill",
+        "titanwings",
+        "Bug"
+      ],
+      "summary": "“万事皆可开发，凡事总能开源”，这句话既展现技术乐观主义，又兼顾协作共享精神，曾是我自鸣得意之作。然而清明期间，我默默将它改成了问句：“万事皆可蒸馏，凡事总能量化？”因为只有这么表述，才更能代表一周以来我的忧虑与惶惑。 3月30日在GitHub上线开源的“colleague-skill（同事.skill）”出人意料又毫无意外地出圈，随之而来的“前任.skill”“老板.skill”“女娲.skill”“马斯克.skill”们推波助澜，掀起“蒸馏.skill”甚至“反蒸馏.skill”风潮，让“同事.skill”在小…",
+      "key_points": [
+        "“机器擅长‘回归’，而人的价值在于提供‘异常值’”，这一洞见来自我激赏的科技思想家韦青，在他看来，哥白尼与爱因斯坦的伟大，正在于有意识地偏离了他们所处时代的常识…",
+        "另一位身在澳洲的华人saito（@SaitoWu）似乎提供了这波潮流的灵感来源，尽管只比titanwings的Repo（仓库）早了6天，但他这句意象暗黑的箴言注…",
+        "相信眼尖的读者早已发现本期《IT时报》呈现出新的样貌，版面、栏目、选题与视觉均同步焕新，这既是为了呼应技术的激变，更是为了承载好“人”的价值再发现——我们始终愿…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "\"假洋牌\"优思益翻车事件：网红集体致歉背后的品牌包装术与流量陷阱",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6375715.html",
+      "published": "Sun, 12 Apr 2026 06:36:32 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CC0",
+        "GMV",
+        "MCN",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "假洋品牌的三重炼金术（注册地漂移、奖项背书商品化、认知惯性套利）精准收割\"进口=可靠\"心理，而高佣金扭曲下的选品失灵、保健品效果不可证伪性、跨境取证监管盲区共同构成了这场流量盛宴的灰色土壤。 陈妍希、李若彤、章小蕙等演艺界人士，到多个平台头部带货主播，超过三十位公众人物在数日内接连发布致歉声明。 优思益背后到底藏着什么猫腻？能让带货届半壁江山都倒下了。 知名主播董宇辉因曾为该品牌创下单场上千万元的销售纪录，其粉丝群体反应激烈，相关话题阅读量迅速突破五亿次。 值得追问的是：涉事主播几乎均配备专业选品团队与法务审核流程…",
+      "key_points": [
+        "明星道歉、主播退款、品牌下架——这是每一次翻车事件的标准流程。但流程结束后，选品机制是否真的得到重建？利益分配结构是否发生实质性调整？消费者对“进口”的认知是否…",
+        "当优思益以80%的佣金率出现在选品会议上时，其“澳洲品牌”的身份叙事与其说是一个需要严格核验的疑问项，不如说是一个各方心照不宣的交易润滑剂。主播需要故事来支撑高…",
+        "这些“假洋鬼子”品牌身份怎么建构、利益分配机制如何、监管为什么存在灰色地带？这些问题值得深思 01 从本土注册到“海外血统”的品牌炼金术 假洋品牌的核心技术，并…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "0代码，一天时间我Vibe Coding了个网站",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375714.html",
+      "published": "Sun, 12 Apr 2026 06:33:01 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Claude",
+        "Step",
+        "GEO",
+        "GitHub",
+        "index.html"
+      ],
+      "summary": "作者用Vibe Coding（氛围编程）零代码搭建网站的全过程——从买域名到上线仅用半天，全程\"纯聊\"：向Claude提需求→AI写代码→截图提修改意见→AI更新，来回20余次迭代完成MVP。这场实验不仅验证了\"人+AI\"建站的可行性，更探索了GEO（生成式引擎优化）新命题：在大模型时代，如何让AI准确理解并推荐你的身份与内容。 以前搭建网站是个麻烦事。找外包沟通太费劲，自己套模版又嫌丑，花时间、花钱，效果常常不理想。 现在有了AI，我尝试没写一行代码，也没套模版上线了一个网站。 从买域名到发布，只花了半天时间！…",
+      "key_points": [
+        "二、0代码建网站 Step 1：让Claude写代码 可以按照下面这个提示词让Claude开始干活： 帮我生成一个网站的单页HTML文件",
+        "我尝试没写一行代码，也没套模版上线了一个网站",
+        "网站名称：[名称]/ 定位：[一句话]/ 导航：[板块1/2/3] 主标题：[英文]/ 副标题：[中文] 字体：DM Serif Display + Noto…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI日报：宇树机器人跑出10m/s刷新世界纪录",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375709.html",
+      "published": "Sun, 12 Apr 2026 06:23:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AR",
+        "Code",
+        "Token",
+        "GitHub",
+        "JSON"
+      ],
+      "summary": "想象一个画面 你跟AI说”帮我把这个代码项目分析一下”，它直接在本地给你生成一张知识图谱，所有函数调用关系一目了然。不需要联网，不需要云端，6GB内存的手机就能跑。 这不是科幻，这是Gemma 4发布时带给我的第一反应。 另外，CEAI 2026今天在合肥开幕了，具身智能那边继续热闹；奧特曼家被扔燃烧瓶，AI圈的”江湖恩怨”又多了几分；GitHub Trending上几个新工具也值得瞄一眼。往下看。 1. Q1 2026中国具身智能融资超200亿元 核心内容 ：据IT桔子、CENTI不完全统计，2026年第一季度国…",
+      "key_points": [
+        "13.宇树机器人跑出10m/s刷新世界纪录 核心內容：4月12日，宇树科技人形机器人创下10m/s的奔跑速度，逼近博尔特的人类极限。这是具身智能硬件能力的重大突…",
+        "2026年人形机器人五大独角兽横评 核心内容 ：IT之家发布2026年人形机器人深度横评，从大模型能力、硬件量产能力、商业化落地深度、团队基因、资本认可度五个维…",
+        "点评 ：平均每天超过5亿元砸向具身智能。资本疯狂归疯狂，但背后的逻辑不复杂——人形机器人量产在即，谁先跑通商业化谁就是下一个宁德时代"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "万能的AI啊，救救我们周董的新专辑吧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%87%E8%83%BD%E7%9A%84AI%E5%95%8A%EF%BC%8C%E6%95%91%E6%95%91%E6%88%91%E4%BB%AC%E5%91%A8%E8%91%A3%E7%9A%84%E6%96%B0%E4%B8%93%E8%BE%91%E5%90%A7",
+      "published": "Sun, 12 Apr 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Up",
+        "MAL",
+        "Then",
+        "HBO",
+        "UP"
+      ],
+      "summary": "当你满怀期待地点开周杰伦的新专辑《太阳之子》，前奏依然熟悉，但一开口，你就发现，他是真的老了。 我们到底在遗憾什么呢？《那天下雨了》，“你经过花就开，离开雨就来”，一听就是“周式纯爱”旋律。 不过声带老了，高音变窄了，气息变重了。以前那种轻轻一飘就上去的少年感，现在用力得让人有点心酸。明知自然规律不可违背，可心中总有遗憾。 听着周董的新专辑，勾起了我细腻脆弱的小心思：凡此种种，人这一生，到底要咽下多少“意难平”啊...... 苦等多年的小说被翻拍，导演偏偏选了一张让人一眼出戏的脸；追了几年的剧，大结局烂尾了，陪你出…",
+      "key_points": [
+        "当你满怀期待地点开周杰伦的新专辑《太阳之子》，前奏依然熟悉，但一开口，你就发现，他是真的老了",
+        "让 AI “吃透”了周杰伦在 2004 年前后那几张神仙专辑，分析出 25 岁的周杰伦独有的有点含糊，有点拽，唱到一半还会故意拖长尾音的特别音色。然后，把《太阳…",
+        "如今我们都是被 AI 武装起来的“超级个体”了，在不断的“意难平”里认命是不可能的"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "发量少也能拥有顺滑高颅顶的小秘密，我们帮你找到了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%91%E9%87%8F%E5%B0%91%E4%B9%9F%E8%83%BD%E6%8B%A5%E6%9C%89%E9%A1%BA%E6%BB%91%E9%AB%98%E9%A2%85%E9%A1%B6%E7%9A%84%E5%B0%8F%E7%A7%98%E5%AF%86%EF%BC%8C%E6%88%91%E4%BB%AC%E5%B8%AE%E4%BD%A0%E6%89%BE%E5%88%B0%E4%BA%86%EF%BC%81",
+      "published": "Sun, 12 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "G7",
+        "Radialight",
+        "radialight",
+        "dB",
+        "pro",
+        "RadialightG1pro"
+      ],
+      "summary": "一阵春风吹过，无奈的烦恼又增加了……北方春天风沙干燥， 南方回南天潮湿难耐 ，脆弱的皮肤和毛躁的头发都是重灾区！ 本周换季必备美护专场，我们给大家谈到了 性价比拉满的高速低温吹风机（普通版和自带精油蛋的升级版）、手残也能自己做出高颅顶造型的冷风梳、走到哪美到哪的光学美容仪 ，以及各种让你爱不释手的换季好物！ 👇 预约下周直播 👇 直播间专享福利 精油高速吹风机直降200 送2个磁吸造型风嘴+一个精油蛋 确认收货再送一个精油蛋 院线级光学美容仪直降300 加赠5件套礼包 各种美护好物低至9.9 爆款剧透 2分钟速干顺…",
+      "key_points": [
+        "我们给大家谈到了 性价比拉满的高速低温吹风机（普通版和自带精油蛋的升级版）、手残也能自己做出高颅顶造型的冷风梳、走到哪美到哪的光学美容仪 ，以及各种让你爱不释手…",
+        "（真人发束测试：产品使用后有顺滑头发、改善头发光泽度、改善毛躁和对发束毛鳞片有修护效果） 这款设置了 儿童专用模 式 ，温度会恒定在 39 度左右，吹出来的风不…",
+        "@果壳市集实拍 👇 预约下周直播 👇 直播间专享福利 RadialightG7吹风机·升级新款 快干、顺滑、不伤发、抚平毛躁 直播间福利：到手199 赠磁吸风嘴…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "只有蚁后的女儿国，巢穴是抢来的，育儿工作是外包的",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%AA%E6%9C%89%E8%9A%81%E5%90%8E%E7%9A%84%E5%A5%B3%E5%84%BF%E5%9B%BD%EF%BC%8C%E5%B7%A2%E7%A9%B4%E6%98%AF%E6%8A%A2%E6%9D%A5%E7%9A%84%EF%BC%8C%E8%82%B2%E5%84%BF%E5%B7%A5%E4%BD%9C%E6%98%AF%E5%A4%96%E5%8C%85%E7%9A%84",
+      "published": "Sun, 12 Apr 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "J.",
+        "amp",
+        "doi",
+        "of",
+        "C.",
+        "in"
+      ],
+      "summary": "温馨提醒：本文有大量蚂蚁图片 《西游记》里，唐僧师徒途经西梁女国，发现满城皆是女子，不见一个男人，女性通过饮用子母河水受孕繁衍后代。吴承恩大概没想到，四百多年后，科学家在日本的森林里真的找到了一个女儿国——只不过国民不是人，而是蚂蚁。 近期，《当代生物学》上报告了切胸蚁属名为 Temnothorax kinomurai 的物种 （它暂时没有正式的中文名，种加词致敬了一位日本的蚂蚁研究者，直译过来是木之村切胸蚁，下文中我们将暂时用这个直译的中文名） 。在它们的种群中，每一只个体都是蚁后，没有工蚁，没有雄蚁，依靠克隆自…",
+      "key_points": [
+        "《当代生物学》上报告了切胸蚁属名为 Temnothorax kinomurai 的物种 （它暂时没有正式的中文名，种加词致敬了一位日本的蚂蚁研究者，直译过来是木…",
+        "全克隆繁殖使其丧失应对环境变化的遗传储备 ，它们把所有鸡蛋都放进了一个篮子； 从生态学角度看，木之村切胸蚁的生存完全依赖宿主的持续存在——唇亡齿寒， 宿主一旦衰…",
+        "Polyergus lucidus （红色）与其宿主 Formica archboldi （黑色）共处一巢 | Wikimedia Commons / Adri…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我们嫌弃的“过时货”，成了如今受人追捧的护肤宝藏？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E4%BB%AC%E5%AB%8C%E5%BC%83%E7%9A%84%E2%80%9C%E8%BF%87%E6%97%B6%E8%B4%A7%E2%80%9D%EF%BC%8C%E6%88%90%E4%BA%86%E5%A6%82%E4%BB%8A%E5%8F%97%E4%BA%BA%E8%BF%BD%E6%8D%A7%E7%9A%84%E6%8A%A4%E8%82%A4%E5%AE%9D%E8%97%8F%EF%BC%9F",
+      "published": "Sun, 12 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "c8pQ19a84B",
+        "dc_ps",
+        "End",
+        "feature",
+        "http",
+        "OK"
+      ],
+      "summary": "说起 “珍珠粉” ，你会想到什么？ · 是古代娘娘们用它美容敷面； · 是 奶奶辈梳妆台上的瓷罐子； · 是明星们的私密保养方子； · 是传承千年的护肤秘笈， 还是“早就过时的智商税”？ 今天，咱就来聊聊这个有意思的话题： 珍珠粉护肤，到底是延续千年的美丽误会，还是被蒙尘的真宝贝？ 图源：图虫创意 差点“被毁掉”的千年智慧 我们常说的珍珠粉，是天然珍珠经过严格的清洗、消毒、研磨后制成的粉末。 而 珍珠粉的核心价值，就藏在 “细、白、纯、真” 四个字里 。 果壳实拍，珍珠粉 从成分上看，珍珠粉 是一个 “营养宝库”…",
+      "key_points": [
+        "· 是古代娘娘们用它美容敷面； · 是 奶奶辈梳妆台上的瓷罐子； · 是明星们的私密保养方子； · 是传承千年的护肤秘笈， 还是“早就过时的智商税”",
+        "看我们上脸的对比 果壳实拍 早起上班兵荒马乱，洗完脸我只涂个它就可以安心出门，保养护肤+美丽肤质，一罐搞定，轻轻松松多睡15分钟~ 而且晚上回家 不用卸妆 ，洗…",
+        "珍珠粉和面霜混合 很多明星也很爱用珍珠粉护肤~ 然而，随着珍珠粉的好处被更多人熟知，大量无良商家也涌入市场，并用 贝壳粉、蚌壳粉、甚至 掺入石灰的“假珍珠粉”…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "喜欢超长电影吗？推荐33部超过3小时的电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%96%9C%E6%AC%A2%E8%B6%85%E9%95%BF%E7%94%B5%E5%BD%B1%E5%90%97%EF%BC%9F%E6%8E%A8%E8%8D%9033%E9%83%A8%E8%B6%85%E8%BF%873%E5%B0%8F%E6%97%B6%E7%9A%84%E7%94%B5%E5%BD%B1",
+      "published": "Sun, 12 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "iTunes",
+        "Jada",
+        "Jones"
+      ],
+      "summary": "作者：Nate Jones、 Kevin Lincoln、 Jada Yuan 译者：Issac 校对：易二三 来源：《Vulture》 那些90分钟左右的电影是很有优势的，但是观看片长超过3个小时的电影也是一大乐趣——尤其是如果你碰巧在家长时间隔离的话。 这些时长很长的电影中，有些将人们熟悉的三幕结构推向了史诗级别，而另一些则利用它们额外的篇幅，将影片延伸到了意想不到的地方。我们并不是建议你一遍就把这些电影都看完，不过还是很值得计划着一次看一部的。 《乱世佳人》（1939） 在这部史诗般的爱情片中，你可能会为过时…",
+      "key_points": [
+        "Nate Jones、 Kevin Lincoln、 Jada Yuan 译者：Issac 校对：易二三 来源：《Vulture》 那些90分钟左右的电影是很有…",
+        "赛尔乔·莱昂内执导的黑帮片《美国往事》最初的欧洲版本时长229分钟——导演一开始希望将其分为各自3小时的上下集——然后，美国发行商将其缩短至139分钟，其效果可…",
+        "《浩劫》可能是这个榜单上最难看完的电影。克洛德·朗兹曼广受好评的纪录片包括对那些幸存的、生活在希特勒死亡集中营旁边的、或在那里工作的人的九个小时的采访——毫不留…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "她真是一部活的电影表演流变史啊",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%B9%E7%9C%9F%E6%98%AF%E4%B8%80%E9%83%A8%E6%B4%BB%E7%9A%84%E7%94%B5%E5%BD%B1%E8%A1%A8%E6%BC%94%E6%B5%81%E5%8F%98%E5%8F%B2%E5%95%8A",
+      "published": "Sun, 12 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ta"
+      ],
+      "summary": "文 树宝 最近《普拉达女王 2》要上映，梅姨梅丽尔·斯特里普到国内来宣传，状态极佳。 大家对梅姨的印象，除了演技派，还是演技派。 但我想用一句套路的话说，好莱坞演技派分两种，一种是梅姨，一种是其他。 我们可以把这个评价，放到一个历史语境下来讨论。换言之，斯特里普个人的职业生涯发展，和好莱坞表演范式的历史演变之间，究竟是一种什么关系。 以及，在她之后，是什么新的局面。 斯特里普 于 七十年代中期进入好莱坞， 当时的 美国表演界 ， 正处于 一场激烈的 范式争夺 大战的余波当中 。 在那之前的三四十年， 斯坦尼斯拉夫斯…",
+      "key_points": [
+        "或者放宽一点，西方电影的范畴内，并不存在像之前的方法派那么占据统治地位的表演流派，而是各种都有，多线并发，四散而去",
+        "当下电影中最有趣的表演，已经不再把角色的情感真实度作为评判标准。我们最关心的，也不再是演员表达出的内心世界，而是延伸到发生在身体表面的事件，或者关于摄影机和被拍…",
+        "米兰达独自坐在巴黎的房间里，妆卸了，头发散着，她跟安迪谈到自己的婚姻崩溃时，那种疲惫不 像 表演出来的软弱，而是一个在权力位置上独自承担一切代价的人，短暂露出她…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国五大淡水湖，谁才是真正的湖景天花板？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E4%BA%94%E5%A4%A7%E6%B7%A1%E6%B0%B4%E6%B9%96%EF%BC%8C%E8%B0%81%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%B9%96%E6%99%AF%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%9F",
+      "published": "Sun, 12 Apr 2026 09:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "五大淡水湖，各有风姿。 论浩荡，鄱阳、洞庭为先； 论秀美，太湖、洪泽称胜。 而巢湖，这座曾最“沉默”的湖泊， 正从八百里烟波中醒来。 悄然叩问： 谁才是真正的湖景天花板？ 鄱阳湖 中国第一大淡水湖 鄱阳湖， 中国最大的淡水湖 ， 是一个与长江连通的吞吐型湖泊。 盛夏季节， 碧波万顷、一望无涯， 水面如同汪洋大海。 然而， 这仅仅是它在洪水时节的短暂容颜。 秋冬，鄱阳湖水向北流入长江， 水域大幅萎缩， 大面积的碟形湖、广阔的浅水沼泽、 泥滩、草滩成为鄱阳湖的主体。 此湖的水位年内变幅可高达15米， 水面则在 数百至近…",
+      "key_points": [
+        "悄然叩问： 谁才是真正的湖景天花板",
+        "图源：中国国家地理 2024年02期 一篇微信文章的体量 无法将“中国五大淡水湖的景观”依次完整 介绍 如果你想深入、全面地了解 更多中国淡水湖以及背后的地理知…",
+        "无锡鼋头渚 图源：中国国家地理 2022年02期 摄影／王鹏飞 洪泽湖 中国第四大淡水湖 洪泽湖位于江苏省洪泽县西部， 为我国五大淡水湖中的第四大淡水湖"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "是怪物就去北京上海深圳",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%98%AF%E6%80%AA%E7%89%A9%E5%B0%B1%E5%8E%BB%E5%8C%97%E4%BA%AC%E4%B8%8A%E6%B5%B7%E6%B7%B1%E5%9C%B3",
+      "published": "Sun, 12 Apr 2026 11:32:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Amazonian",
+        "An",
+        "ar",
+        "Bitsea"
+      ],
+      "summary": "写在前面的话 昨天讨论《 封闭小环境 》时，有读者提起我曾经写过一篇《是怪物就去北京上海深圳》，但是我找了半天居然没有找到发表记录。后来才发现，原来它是我在《得到》的专栏文章，发布于 2016 年 9 月 26 日，曾经收录在我的文集《你不重要，你的喜欢很重要》里。 现在是 2026 年，十年过去了，无论是时代、环境、社会还是人们的心态都发生了很大的变化。我看到很多还在网上写作的同龄人已经在劝说后辈：不要投资，不要创业，不要裸辞，先拥有一份稳定的工作比什么都重要。 既然每个人都有自己的处境，都有自己的苦衷，也都有自…",
+      "key_points": [
+        "适合阅读这篇文章的读者，一百个人里也许只有一两个 。但我想，这一两个人也需要一篇写给自己的文章吧，就像是我这里也应该收录这篇文章一样： 《是怪物就去北京上海深圳…",
+        "写在前面的话 昨天讨论《 封闭小环境 》时，有读者提起我曾经写过一篇《是怪物就去北京上海深圳》，但是我找了半天居然没有找到发表记录。后来才发现，原来它是我在《得…",
+        "去往北京、上海、深圳，往往被视为个人发展的最高阶。因为在追求世俗意义的成功之路上，超级城市里的搏杀才是竞争的终极形态。人们通常认为唯有最强悍、最狡猾、最有野心和…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "为什么荷马史诗里青铜那么多，铁却那么少？ | 左图右史",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%8D%B7%E9%A9%AC%E5%8F%B2%E8%AF%97%E9%87%8C%E9%9D%92%E9%93%9C%E9%82%A3%E4%B9%88%E5%A4%9A%EF%BC%8C%E9%93%81%E5%8D%B4%E9%82%A3%E4%B9%88%E5%B0%91%EF%BC%9F+%7C+%E5%B7%A6%E5%9B%BE%E5%8F%B3%E5%8F%B2",
+      "published": "Sun, 12 Apr 2026 09:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BC",
+        "of",
+        "Apollonius",
+        "C.",
+        "c.490",
+        "Eleutherae"
+      ],
+      "summary": "4.12 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图1: 小伊拉斯谟·奎利努斯《伊阿宋攫取金羊毛》（1630）现藏马德里普拉多美术馆 撰 文 | 刘钝 ● ● ● 01 荷马史诗中的金属器物 一般人将《伊利亚特》和《奥德赛》这两部史诗归于荷马名下；不过也有人认为，它们是数个世纪以来民间艺人口头相传的故事结晶，荷马只是众多吟游诗人中的一个代表，或者一个文化符号而已。西方“历史学之父”希罗多德 （Herodotus, c. 484 BC-425 BC） 认为荷马 （Homer） 早出自己不到400年…",
+      "key_points": [
+        "与后来的历史不同，显著的区别是里面混进了大量的神话与传说。拟人化的众神有着人类一般的喜怒情仇，既有凡人的缺点与恶习，也有他们的智慧和勇气，更重要的是大大小小的神…",
+        "与荷马差不多同时 （或稍晚） 的赫西俄德 （Hesiod） ，在《工作与时日》中提到史诗时代之前有个“青铜种族”，“他们的盔甲兵器由青铜打造，房屋是青铜的，所用…",
+        "4.12 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图1: 小伊拉斯谟·奎利努斯《伊阿宋攫取金羊毛》（1630）现藏马德里普拉多美术馆 撰 文…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "除法的意义",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/04/division.html",
+      "published": "2026-04-12T12:56:06Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "blog"
+      ],
+      "summary": "可可已经在三年级下学期了，数学似乎还是有点问题。这个阶段考试成绩其实都不会太差，但一旦作业或考卷上的错题并非粗心大意就值得警惕。乘除法是二年级学的，三年级已经在学两位数除一位数的除法。但会计算并不难，计算只是一项机械性技能，难的是理解乘除法的意义。理解乘除比理解加减法困难的多。 我翻出几个月前的一篇 blog，发现过了 4 个月，她的问题依旧：乘除法作为一项计算技能和其背后的意义是割裂的。这导致了很多问题到底如何解决一筹莫展。固然多作练习就能开悟，毕竟几乎没有成人回头看小学数学会觉得难以理解的。但我还是想尽力搞清楚…",
+      "key_points": [
+        "数学似乎还是有点问题。这个阶段考试成绩其实都不会太差，但一旦作业或考卷上的错题并非粗心大意就值得警惕。乘除法是二年级学的，三年级已经在学两位数除一位数的除法。但…",
+        "发现过了 4 个月，她的问题依旧：乘除法作为一项计算技能和其背后的意义是割裂的。这导致了很多问题到底如何解决一筹莫展。固然多作练习就能开悟，毕竟几乎没有成人回头…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-13",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "甲骨文目前已知有大概四千多个，是否能证明商代之前必然有文字？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788791",
+      "published": "Wed, 08 Apr 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "III",
+        "IV",
+        "Neferhotep",
+        "Sap",
+        "U-j"
+      ],
+      "summary": "Neferhotep， 讨厌自作聪明的人，尤其是军事＆游戏迷 查看知乎原文 不能。 至少不可能仅凭这一点就认为之前必然存在文字。晚商以前的文字材料呈现断崖式下跌，从六位数暴跌到个位数！且大多数“文字”非常原始，以至于很难称为文字，唯一一块稍显复杂的 11 字刻字甲骨还脱层了，原物现在甚至找不到了。详情见这位的回答 @芮欣雨 Sap 甲骨文目前已知有大概四千多个，是否能证明商代之前必然有文字？ 埃及和美索不达米亚的早期文字在字符数量上呈现减少的趋势，而不是增加。由于早期文字的正字法不成熟，所以存在大量的异体书写，还有…",
+      "key_points": [
+        "至少不可能仅凭这一点就认为之前必然存在文字。晚商以前的文字材料呈现断崖式下跌，从六位数暴跌到个位数！且大多数“文字”非常原始，以至于很难称为文字，唯一一块稍显复…",
+        "美索不达米亚的情况也是如此。尽管在楔形文字之前，美索不达米亚有着丰富多样的记录手段，甚至可以梳理出这些前文字时代记录手段的发展历程——比如，简单陶筹发展为复杂陶…"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "感染新冠的经历",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22341.html",
+      "published": "Tue, 13 Dec 2022 07:39:39 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first",
+        "on"
+      ],
+      "summary": "写一篇与技术无关的文章，供大家参考。我住北京朝阳，从上周三开始我家一家三口陆续发烧生病，自测抗原后，都是阳性。好消息是，这个奥密克戎跟一般的病毒性感冒差不多，没... Read More Read More The post 感染新冠的经历 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 感染新冠的经历 first appeared on 酷 壳 - CoolShell"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "Spark App 血缘解析方案",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/spark-app-xie-yuan-jie-xi-fang-an/",
+      "published": "Fri, 16 Sep 2022 05:03:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Spark",
+        "App",
+        "Data",
+        "ANTLR",
+        "java",
+        "k8s"
+      ],
+      "summary": "一、背景 随着数据仓库的数据量的增长，数据血缘( Data Lineage or Data Provence ) 对于数据分析来说日益重要， 通过数据血缘可以追溯表-表，表-任务，任务-任务的上下游关系， 用来支撑问题数据溯源，孤岛数据下线的需求。 目前已经基于 ANTLR 语法解析支持了 SQL 任务的血缘解析， 而 Spark App 任务的血缘仍然是通过人工配置方式进行。 我们希望能够将 Spark App 任务的解析做个补充，完善血缘逻辑。 目前线上的 Spark App 任务支持 Spark 2.3、 S…",
+      "key_points": [
+        "目前已经基于 ANTLR 语法解析支持了 SQL 任务的血缘解析， 而 Spark App 任务的血缘仍然是通过人工配置方式进行",
+        "我们希望能够将 Spark App 任务的解析做个补充，完善血缘逻辑",
+        "数据血缘( Data Lineage or Data Provence ) 对于数据分析来说日益重要， 通过数据血缘可以追溯表-表，表-任务，任务-任务的上下游…"
+      ]
+    }
+  ]
+}
