@@ -1,0 +1,907 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T01:00:05.274800+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 127,
+    "fresh_candidates": 66,
+    "backfill_candidates": 61,
+    "items_published": 26,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-14",
+      "fetched_at": "2026-04-14T01:00:04.966887+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3988.56,
+          "change": 2.34,
+          "change_pct": 0.06,
+          "volume": 545781768.0,
+          "amount": 91943648.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4770.12,
+          "change": 29.970000000000255,
+          "change_pct": 0.63,
+          "prev_close": 4740.15,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-14 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1047.4679569823331,
+          "change": 6.581095375118593,
+          "change_pct": 0.6322584728331418,
+          "prev_close": 1040.8868616072145,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-14 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-14",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "从一位小米粉丝亏损说起， 普通人应该如何投资？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%BB%8E%E4%B8%80%E4%BD%8D%E5%B0%8F%E7%B1%B3%E7%B2%89%E4%B8%9D%E4%BA%8F%E6%8D%9F%E8%AF%B4%E8%B5%B7%EF%BC%8C+%E6%99%AE%E9%80%9A%E4%BA%BA%E5%BA%94%E8%AF%A5%E5%A6%82%E4%BD%95%E6%8A%95%E8%B5%84%EF%BC%9F",
+      "published": "Mon, 13 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Beta",
+        "Alpha",
+        "AI",
+        "Bloomberg",
+        "buy-side",
+        "Counterpoint"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 粮厂研究员Will 来源：雪球 2021年秋天的一个深夜 ， 我下楼去取宵夜外卖 ， 手机微信突然响了 。 电话那头是一位小米粉丝 ， 语气里带着掩饰不住的焦虑 。 他是长春一汽的一名普通职工 ， 在上一轮小米股价上涨中小有盈余 。 2021年3月小米宣布造车后 ， 身处汽车行业的他对这个消息格外兴奋 。 他觉得自己比大多数人更懂汽车 。 在资本市场的热潮裹挟下 ， 他把全部积蓄在30…",
+      "key_points": [
+        "我决定写这个系列 ， 系统地和大家分享 ， 一个普通人应当如何正确的投资",
+        "今天 我们讨论一个普通人投资的基本原则 —— 这是所有后续讨论的基础",
+        "有两点必须说明 ： 第一 ， 本文不构成任何投资建议 ， 完全是我个人的投资框架和思考方式 ， 供大家参考"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "第五次石油危机：高油价下哪些股更受益？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1264227287/383630285",
+      "published": "Mon, 13 Apr 2026 10:08:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Wind",
+        "Bloomberg",
+        "bp",
+        "EAF",
+        "IEA",
+        "OECD"
+      ],
+      "summary": "随着时间不断推移，如果市场意识到影响将从此前情绪和交易层面的“纸面担忧”逐渐变成对生产生活的“实际冲击”，那对经济的影响和盈利的拖累也将需要重新定价。 局势走向有两个关键点：一是4月， 是局势是否升级和预期自身的“分水岭”（图表1），也是油轮真正断供的起点（图表2）； 二是东南亚， 作为能源库存少且进口来源单一的“薄弱环节”、过去一两年是中国出口和全球贸易摩擦供应链重构的关键节点，其生产活动如果受影响下降甚至停滞，将对经济和市场情绪造成更大冲击（图表3）。 但是，高油价的影响显然不是“无差别”的， 差异主要体现在两…",
+      "key_points": [
+        "图表19：近年来自中东进口原油的比例在小幅下降，俄罗斯和欧亚国家占比在上升 资料来源：Wind 图表20：日本和韩国经由霍尔木兹海峡运输的比例分别为其原油总供给…",
+        "高油价的影响显然不是“无差别”的， 差异主要体现在两个维度： 1）有多元化的能源来源与替代方案，可以尽可能降低高油价的冲击， 如中国的多元能源来源渠道和美国本土…",
+        "图表1：博彩数据显示市场预期美以伊冲突在5月15日前结束的概率为28% 资料来源：Polymarket 图表2：按VLCC的常见航速估算，2月底伊朗局势爆发前通…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "牛奶打起了价格战，为啥牛奶价格越来越低了？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7290870926/383583558",
+      "published": "Mon, 13 Apr 2026 10:08:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600887",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$伊利股份(SH600887)$ 最近几年，各种价格战大家已经屡见不鲜，从咖啡到奶茶，从餐饮到服装，然而就在近期牛奶的价格战也来了，为啥高端奶的价格也越来越低了？ 一、牛奶打起了价格战？ 据界面新闻的报道，界面新闻走访北京丰台一家社区超市看到，特仑苏、伊利金典等常温牛奶正在进行39.9元的促销活动。而日常情况下，这些牛奶产品的零售价格通常在49.9元左右。 一名牛奶经销商告诉界面新闻，正常情况下，特仑苏、金典这类产品的出货价在32元左右，如果销量不佳，还会对下游客户进行搭赠甚至降价，根据他的经验，往年时高端产品走量…",
+      "key_points": [
+        "二、为啥牛奶价格越来越低了",
+        "各种价格战大家已经屡见不鲜，从咖啡到奶茶，从餐饮到服装，然而就在近期牛奶的价格战也来了，为啥高端奶的价格也越来越低了",
+        "面对越来越低的牛奶价格，我们不仅需要看到消费者眼前的实惠，更需要以经济学的冷静客观眼光，审视其背后的危机与转机。只有告别低维度的价格内卷，拥抱高维度的价值创造与…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美伊局势下市场趋势与配置策略分析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8231687980/383608112",
+      "published": "Mon, 13 Apr 2026 10:07:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Alpha",
+        "ETF",
+        "Beta",
+        "LSEG",
+        "PPI"
+      ],
+      "summary": "硝烟渐远，航道未通。美伊双方谈判诉求看似分歧尖锐，但核心诉求达成一致的概率并不低。战争尾部风险逐步消除，战争进程和谈判对市场的实际影响持续减弱，未来影响市场的关键变量已转向真实通航量。当前霍尔木兹海峡通航中断时间持续拉长，经济和流动性的不确定性仍在不断积累，在空头回补引发的普遍反弹之后，市场将进一步缩圈聚焦，而非扩散。缩圈的四个核心方向包括AI硬件、资源、周期涨价和红利，这四条仅存的仍在趋势之上的线索中，预期差主要集中在国产AI硬件和周期涨价环节。配置层面，建议围绕中国优势制造继续聚焦布局。 美伊双方谈判诉求看似分…",
+      "key_points": [
+        "航道未通。美伊双方谈判诉求看似分歧尖锐，但核心诉求达成一致的概率并不低。战争尾部风险逐步消除，战争进程和谈判对市场的实际影响持续减弱，未来影响市场的关键变量已转…",
+        "2）未来影响市场资金趋势的关键变量是实际通航量，而非谈判新闻 当前霍尔木兹海峡通航仍未恢复，伊方通过中间人制定了一套复杂的核查和收费机制，航运公司面临较大磨合成…",
+        "板块上或缩圈到AI硬件、资源、周期涨价和红利四条线索 A股市场中，具备基本面支撑、且经历3月调整后仍处于上升趋势的主线仅有四条：AI、资源、周期涨价和红利。我们…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "哪些行业对散户相对友好一些？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9371934674/383574770",
+      "published": "Mon, 13 Apr 2026 10:07:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "PE",
+        "ADC",
+        "CR3",
+        "diss",
+        "http"
+      ],
+      "summary": "我们之前撰写过两篇文章，对周期股（尤其是农业）和医药股进行了一些风险警示，主题分别是“普通周期股没有长期持有价值”“医药是较差的卫星资产”，尤其是后一篇，引来了非常多的质疑和批评，因为医药的粉丝实在是太多了。 尤记得21年年初到22年，民工diss恒科，属实是舍身炸坑，那时候读者还没现在一半多，但骂我的比现在多得多，还难听得多。 我懒得一一解释了，因为那帮人喷我的时候完全没有看完全文，人家一点不尊重你，还搞人身攻击，拉黑也是没关系的吧。 第一，我不是现在看空医药。医药估值和股价都在历史低位，我为啥要看空？可能后面有…",
+      "key_points": [
+        "那么哪些行业属于散户绿洲呢",
+        "其底层逻辑正是通过低波动和高分红现金流，将系统锁定在距离起点较近的区域。选择这些行业，本质上是利用了概率的力量，让你的资产在面对市场风浪时，总能以最轻盈的姿态完…",
+        "我不是现在看空医药。医药估值和股价都在历史低位，我为啥要看空？可能后面有机会还会买点。我想表达的是医药这个行业波动大，散户赚钱不易，你把握不住"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为何世界上缺少像生菜、高丽菜、白菜这类叶片比较大的叶类蔬菜？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788985",
+      "published": "Mon, 13 Apr 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Brassica",
+        "AA",
+        "AABB",
+        "BB",
+        "Brassicaceae",
+        "CC"
+      ],
+      "summary": "祥昊， 111 查看知乎原文 我先查下高丽菜是啥。 嗨，卷心菜，我当啥新奇玩意。 菜叶的大这事吧，还得感谢祖宗严选。 甭管是大白菜小白菜还是卷心菜， 都来自十字花科植物（Brassicaceae）的芸薹(苔)属（Brassica） 十字花科顾名思义，最大的特征就是花瓣四个呈十字排列， 花里雄蕊 6 枚，四长两短，江湖人称四强雄蕊。 典型的十字花科花结构 而芸薹属更是离谱，常见基本二倍体物种有仨， 第一大是芸薹（Brassica rapa） 基因组为 AA 型，有 20 条染色体（2n=20） 听着有点耳生是吧，给你…",
+      "key_points": [
+        "111 我先查下高丽菜是啥",
+        "都来自十字花科植物（Brassicaceae）的芸薹(苔)属（Brassica） 十字花科顾名思义，最大的特征就是花瓣四个呈十字排列， 花里雄蕊 6 枚，四长两…",
+        "茼蒿这几个菊科的少数派了， 哦，对，还有菠菜这个孤家寡人， 其实人类作为杂食动物， 本身能吃的范围也主要集中在菊科，十字花科，苋科等少数几科"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "据说，中国的页岩油储量世界排名前列，为何美国已经产业化经营，中国几乎无所作为？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788922",
+      "published": "Mon, 13 Apr 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Austin",
+        "chalk",
+        "Chalk",
+        "of",
+        "Texas",
+        "fluid"
+      ],
+      "summary": "踏浪放歌 查看知乎原文 不谢邀，因为我就是学这个的，来主动回答一下吧 首先，我们得知道页岩油是个什么东西。页岩油、页岩气是以吸附态、游离态等相态赋存在泥页岩等细粒沉积岩的非常规油气资源，具有源储一体的特征。好了，这个是比较官方的定义，那让我说一下尽量说一下白话来解释一下页岩油是个什么玩意。在此之前，我需要科普一下石油地质学的前置知识，这个对你们了解页岩油气会有一些帮助。经过无数地质学家的研究，地下的石油基本上是保存在地下有很多洞洞的石头里面的，这种有很多洞洞的石头叫做储层，目前绝大部分储层都是沉积岩，也就是砂岩、灰…",
+      "key_points": [
+        "这个放大倍率有点低，很多孔隙其实要继续放大了才能看得到 是，也不是。目前中国的页岩油地质资源总量大概是 318.99×108t，和美国差不太多，但是这玩意不是我…",
+        "我们知道了烃源岩、储层和盖层，那么接下来就要讲页岩油气了。以往的学术观点认为，烃源岩主要产生油气，然后油气跑到储层里面，然后被盖层挡住，就形成了油气田。一百多年…",
+        "美国的页岩油页岩气埋藏深度比较浅，还是海相页岩，压裂产生的裂缝轻轻松松就能达到一两百米，这些裂缝很可能就会和地下水沟通，什么压裂液，页岩气就会沿着裂缝转移到地下…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用小龙虾做竞品分析报告：从2天到20分钟，我是怎么做到的",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375654.html",
+      "published": "Mon, 13 Apr 2026 09:43:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "WorkBuddy",
+        "SWOT",
+        "caperszhang",
+        "clawhub.ai"
+      ],
+      "summary": "这篇文章会向你介绍：我基于\"小龙虾\"生态做了一款竞品分析技能，能让AI智能体帮我们高效、高质量地完成竞品分析报告。 01 如果你还不知道”小龙虾”，可能已经脱离AI圈三天了 2026年开年，一只”小龙虾”席卷了整个AI圈。 它不是用来吃的，而是叫 OpenClaw —— 一个图标形似龙虾的开源AI智能体框架。短短几个月，它在GitHub上的星标冲到了 33万+ ，创下开源软件历史上最快的星标增长纪录。 随后，腾讯推出了完全兼容OpenClaw的桌面智能体 WorkBuddy ，主打免部署、开箱即用。新用户注册还送5…",
+      "key_points": [
+        "这份报告最终输出了一个包含11个章节的完整HTML页面，涵盖了： 执行摘要（4条核心结论 + 市场格局总览） 分析目标与产品概况（6大关键问题确认） 竞品选择与…",
+        "所以我基于我之前出版的《有效竞品分析》书中介绍的方法论，用小龙虾做了一款专门的竞品分析技能 —— competitor-analysis 。这个技能把我的系统的…",
+        "这篇文章会向你介绍：我基于\"小龙虾\"生态做了一款竞品分析技能，能让AI智能体帮我们高效、高质量地完成竞品分析报告"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "木鸟、途家、美团对打，平台春天行动开“卷”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6376392.html",
+      "published": "Mon, 13 Apr 2026 08:22:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "APP",
+        "C2C",
+        "CC0",
+        "Pexels",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "民宿平台的春日经济大战正酣，木鸟、途家、美团三大玩家各出奇招。木鸟以三档主题活动领跑赛道，途家深耕家庭度假场景，美团聚焦大学生赏花需求。在这场围绕用户心智的争夺中，平台差异化竞争的背后，是供应链能力与长期运营的终极较量。本文将深度剖析三大平台的战略布局与市场机会。 “春日经济”近来讨论度居高不下，民宿平台的争夺再次加剧。木鸟、途家、美团纷纷瞄准春日出游刚需，以各具特色的春游活动布局，试图在这场春日博弈中抢占用户心智。 从木鸟民宿“春日山野”“樱花季”“趣野周边游”三个专题活动，到途家民宿的“出门找春天”，再到美团民…",
+      "key_points": [
+        "从木鸟民宿“春日山野”“樱花季”“趣野周边游”三个专题活动，到途家民宿的“出门找春天”，再到美团民宿的“赏花专题”，三大平台将用户的注意力焦点一次又一次拉回到春…",
+        "木鸟民宿一直以来都习惯于在房东优惠基础上提供平台优惠券，金额通常在百元以内。目前上线的三档活动也延续了这一习惯。活动均同步发放了5-35 元不等的满减券，累计可…",
+        "木鸟民宿“卷王”上线 木鸟民宿作为目前三大平台中活动最多的一家，有些全面开花的意味。在春游季这个节点，木鸟民宿显然更加积极。根据途家民宿、木鸟民宿、美团民宿三家…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "汤道生：人工智能正式进入 Harness 时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6376397.html",
+      "published": "Mon, 13 Apr 2026 08:07:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Harness",
+        "AI",
+        "Engineering",
+        "Agent",
+        "Skills",
+        "Anthropic"
+      ],
+      "summary": "AI行业正在经历一场从模型参数竞赛到Harness工程的范式转变。OpenClaw的突破不在于模型训练，而是为大模型构建了完整的工作环境，让AI从聊天机器人进化为持续工作的智能体。本文深度解析Harness如何成为驾驭AI力量的关键系统，以及为什么2026年将成为智能体时代的真正起点。 2026年春天，AI行业出现了一个值得关注的变化：大家不再只聊模型了。 过去三年，整个行业最热衷的话题是模型参数。1750亿、万亿、十万亿，数字越来越大，叙事越来越激进。每一次参数跃升，都伴随着一轮关于“涌现能力”的讨论。模型学会了…",
+      "key_points": [
+        "人工智能正式进入Harness时代。真正稀缺的能力，不在模型里面，在模型外面。驯服一匹野马，需要的不是更长的鞭子，而是一副趁手的缰绳，和一个知道目的地的骑手",
+        "AI行业正在经历一场从模型参数竞赛到Harness工程的范式转变。OpenClaw的突破不在于模型训练，而是为大模型构建了完整的工作环境，让AI从聊天机器人进化…",
+        "智能体正在成为AI时代的主要应用载体。智能体让模型从“回答”变成了“工作”。而工作，天然就需要工作环境，工具、文件系统、反馈循环、验收标准。这套东西，就是Har…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 会带来大规模失业吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6376370.html",
+      "published": "Mon, 13 Apr 2026 07:03:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ATM",
+        "https",
+        "ROI",
+        "AGI",
+        "amp"
+      ],
+      "summary": "AI技术正以前所未有的速度重塑就业市场，初级白领与中级程序员岗位首当其冲。本文深度剖析AI革命与历史技术变革的本质差异：从ATM与银行柜员的经典案例，到Jevons悖论揭示的经济规律，再到「就业极化」现象与未来AGI时代的极限推演，为焦虑中的职场人提供全新的认知框架与应对策略。 未来几年，我们可能会见到以前从未见过的世界。 Anthropic 的 CEO 说： 「约 50% 的初级白领岗位可能在未来 1–5 年内消失。」 扎克伯格也说： 「中级程序员很快将变得不必要。」此后，Meta 就裁员了 5%。 AI 越进步…",
+      "key_points": [
+        "每一轮技术革命几乎都会带来失业焦虑，但通常不会真的引发长期的大规模失业，反而会创造更多就业",
+        "即便 AI 真的发展到那一步，也不等于一定会出现大规模失业",
+        "这一波的影响范围，已与美国历史上最大规模的就业冲击相当：20 世纪初，美国约有 41% 的劳动力受到了农业机械化的影响"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "阿里HappyHorse，一场关于“Token经济”的阳谋",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6375427.html",
+      "published": "Mon, 13 Apr 2026 06:31:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Token",
+        "HappyHorse",
+        "HappyHorse-1.0",
+        "ATH",
+        "Seedance"
+      ],
+      "summary": "AI视频大模型赛道迎来一匹黑马——HappyHorse-1.0，在权威评测中力压字节Seedance和快手可灵，引发行业热议。阿里近日正式认领这匹\"快乐马\"，揭秘其采用150亿参数规模的纯自注意力架构，实现音视频原生同步生成的技术突破。本文深度解析HappyHorse如何成为阿里\"Token经济\"战略的关键棋子，以及这场技术阳谋背后的商业化野心。 阿里认领了“HappyHorse”。 这匹AI视频大模型“黑马”，前几天还身份成迷，在权威AI评测平台Artificial Analysis的榜单上，力压风头正盛的字节S…",
+      "key_points": [
+        "HappyHorse就是阿里一场关于“Token经济”的阳谋，其将阿里AI的实力和压力都搬到桌面，推动技术与实际场景的深度融合，释放阿里业务生态的协同效应，为增…",
+        "AI视频大模型赛道迎来一匹黑马——HappyHorse-1.0，在权威评测中力压字节Seedance和快手可灵，引发行业热议。阿里近日正式认领这匹\"快乐马\"，揭…",
+        "“Token经济”的变现窗口已到 在我看来，HappyHorse就是阿里AI的一次“效果涌现”。在此之前，业务侧，阿里AI在B端与C端同时发力。模型上，Qwen…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "现在，你可以帮鱼按门铃了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%8E%B0%E5%9C%A8%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%B8%AE%E9%B1%BC%E6%8C%89%E9%97%A8%E9%93%83%E4%BA%86",
+      "published": "Mon, 13 Apr 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Utrecht",
+        "Visdeurbel",
+        "visdeurbel.nl",
+        "about",
+        "Aleksandar"
+      ],
+      "summary": "鱼不需要自行车，但有时它们真的很需要一个门铃。现在，你甚至还可以帮它按。 在荷兰城市乌德勒支（Utrecht）有一个专门为鱼准备的门铃，它位于当地一条运河的船闸门前。 鱼儿自己并没有手，也不懂得如何按门铃。好在，世界各地有数以百万计的热心人类都愿意伸出援手，帮助它们按响门铃、打开闸门。 看起来是个暖心的故事——但首先，鱼为什么会需要门铃呢？ 是的，鱼真的需要一个门铃 | City of Utrecht 鱼为什么需要门铃？ 春季是许多鱼类洄游的季节。在冬天，这些鱼类生活在较深的水域，这里相对温暖而且更加安全。而当天气…",
+      "key_points": [
+        "今年的直播已经在“鱼门铃”官方网站（https://visdeurbel.nl/）上开始了。如果你恰好有闲，可以亲自体验一下帮鱼按门铃的乐趣",
+        "但有时它们真的很需要一个门铃。现在，你甚至还可以帮它按",
+        "也不懂得如何按门铃。好在，世界各地有数以百万计的热心人类都愿意伸出援手，帮助它们按响门铃、打开闸门"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "陈皮不就是晒干的橘子皮吗？为啥卖那么贵？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%99%88%E7%9A%AE%E4%B8%8D%E5%B0%B1%E6%98%AF%E6%99%92%E5%B9%B2%E7%9A%84%E6%A9%98%E5%AD%90%E7%9A%AE%E5%90%97%EF%BC%9F%E4%B8%BA%E5%95%A5%E5%8D%96%E9%82%A3%E4%B9%88%E8%B4%B5%EF%BC%9F",
+      "published": "Mon, 13 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "commons",
+        "wikimedia",
+        "Blanco",
+        "Citrus",
+        "ID",
+        "reticulata"
+      ],
+      "summary": "在很多中国人的日常里，一杯淡淡橘香的陈皮水，是再熟悉不过的存在。有人用它泡水解腻，有人把它丢进茶壶里慢慢煮，也有人在饭后来一杯，觉得清清爽爽、很舒服。 图源：图虫创意 但说到陈皮，很多人的第一印象都很简单：不就是把橘子皮晒干吗？甚至有人会在家里把吃完的橘子皮放在暖气上烘一烘，觉得“自己也能做陈皮”。 可一到市场上看价格，从每斤几十元到数千元不等，这让产地之外的人们产生了疑惑：这些用来泡水、入茶的陈皮，和自己晒干、烤干的橘子皮有什么区别？是用的橘子特殊，还是工艺特殊？ 陈皮的“皮”有讲究 你以为所有橘子皮都一样，其实…",
+      "key_points": [
+        "很多人的第一印象都很简单：不就是把橘子皮晒干吗？甚至有人会在家里把吃完的橘子皮放在暖气上烘一烘，觉得“自己也能做陈皮”",
+        "从每斤几十元到数千元不等，这让产地之外的人们产生了疑惑：这些用来泡水、入茶的陈皮，和自己晒干、烤干的橘子皮有什么区别？是用的橘子特殊，还是工艺特殊",
+        "晒干的陈皮丨wikimedia commons 今年一度登上平台热搜，在两会期间出圈的“化橘红”，也是产自广东的橘皮制品。它为什么叫这个名字，和陈皮有关系吗？“…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "把花生泡在可乐里吃，这届互联网又在抽什么风？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%8A%8A%E8%8A%B1%E7%94%9F%E6%B3%A1%E5%9C%A8%E5%8F%AF%E4%B9%90%E9%87%8C%E5%90%83%EF%BC%8C%E8%BF%99%E5%B1%8A%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%88%E5%9C%A8%E6%8A%BD%E4%BB%80%E4%B9%88%E9%A3%8E%EF%BC%9F",
+      "published": "Mon, 13 Apr 2026 16:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "articles",
+        "delicious.com.au",
+        "pmc.ncbi.nlm.nih.gov",
+        "Coke",
+        "coke-and-peanuts-a-food-h"
+      ],
+      "summary": "互联网上那些“吃商极高”的人们又开始整新活了，这一次的奇特搭配是 花生加可乐 。 一位日本网友晒出自己在可乐杯里洒满烤花生的照片，声称这是一种“美国流行吃法”。 他盛赞这种搭配美味到不行，达到了“从此再也不想喝其他可乐”的程度 。 乍一看还以为腊八蒜入侵饮料界了 | 猫山課長/X 这条帖子在X上获得了超过2千万次浏览，它很快引来了世界各地的模仿者，但人们对花生可乐的评价褒贬不一。有人喜欢花生可乐的味道，称赞它是“完美的甜咸组合”。也有人并不买账，表示二者叠加没有加分，又是被互联网欺骗的一天。 这种雷霆吃法到底源自何…",
+      "key_points": [
+        "甜咸配的魅力 把花生在可乐里泡一小会儿大概率不会带来非常神奇的变化，但它确实落入了一种相当受欢迎的食物搭配模式：甜咸配",
+        "乍一看还以为腊八蒜入侵饮料界了 | 猫山課長/X 这条帖子在X上获得了超过2千万次浏览，它很快引来了世界各地的模仿者，但人们对花生可乐的评价褒贬不一。有人喜欢花…",
+        "互联网上那些“吃商极高”的人们又开始整新活了，这一次的奇特搭配是 花生加可乐"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "北欧人30℃还穿羊毛，不是不怕热，而是太懂了......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8C%97%E6%AC%A7%E4%BA%BA30%E2%84%83%E8%BF%98%E7%A9%BF%E7%BE%8A%E6%AF%9B%EF%BC%8C%E4%B8%8D%E6%98%AF%E4%B8%8D%E6%80%95%E7%83%AD%EF%BC%8C%E8%80%8C%E6%98%AF%E5%A4%AA%E6%87%82%E4%BA%86......",
+      "published": "Mon, 13 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "JANUS",
+        "CP",
+        "dc_ps",
+        "End",
+        "feature",
+        "ml"
+      ],
+      "summary": "“高温天穿羊毛？你疯了吧！” 很多人一听到春夏穿羊毛，可能都是这个反应。但你知道吗？ 北欧人顶着30℃艳阳天，依然把轻薄羊毛衫当作“第②层皮肤”一样形影不离。 羊毛，是真的被误解很深的春夏宝藏！ 当你穿棉T恤爬山，后背湿透像糊了层纸，傍晚温度降下来又开始哆哆嗦嗦； 或者通勤上班一天回来，外套一脱，贴身化纤衣物的酸臭味直冲后脑勺...... 你就会发现，原来那个无论上班、居家、户外、运动、旅游、海边...... 每天都在贴身穿羊毛衣的人，才是真！正！的！快！乐！ 一件好的羊毛衣—— ✅ 比纯棉更懂“呼吸” ，出汗瞬间…",
+      "key_points": [
+        "一件好的羊毛衣—— ✅ 比纯棉更懂“呼吸” ，出汗瞬间被吸走，体感始终干爽； ✅ 户外运动防汗臭 ，汗渍分子留不住，异味离你远远的； ✅ 身披“恒温甲” ，忽冷…",
+        "JANUS 所有的面料都是在挪威织造 的，从羊毛、纱线的选取，到工厂的织造、染色、剪裁，再到缝制、北欧标准检验、成衣出货，每一个步骤都是保证一件羊毛衣细节的关键",
+        "多买两件不同颜色的，不光可以满足穿羊毛的舒适感，而且 搭配短裤、裙子、西装、牛仔，都能穿出不同的风格"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "理解帕索里尼，有一个关键方法",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%90%86%E8%A7%A3%E5%B8%95%E7%B4%A2%E9%87%8C%E5%B0%BC%EF%BC%8C%E6%9C%89%E4%B8%80%E4%B8%AA%E5%85%B3%E9%94%AE%E6%96%B9%E6%B3%95",
+      "published": "Mon, 13 Apr 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Criterion",
+        "Gary",
+        "hongmomgs",
+        "Indiana",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "作者：Gary Indiana 译者：覃天 校对：易二三 来源：Criterion （2004年6月21日） 他不知疲倦地拍摄，作品又具有独创性；他的电影容易让人恼怒，却又带着自恋的说教；狡猾地推销着自己，同时也充斥着卑鄙和不幸；既慷慨大度，也充满了剥削，他总是带着最诚挚的热情和迷惑的浪漫主义，专注于拍摄那些令人痛苦和难受的事物。 这些形容词都难以概括皮埃尔·保罗·帕索里尼，作为一个男性和艺术家，他个人以及他的作品都充满了矛盾。 皮埃尔·保罗·帕索里尼 帕索里尼对意大利战后的文化和政治局面的看法是十分独特的，独特在…",
+      "key_points": [
+        "在早些时候，她描述了自己十几岁时被迫与一名六十多岁的男子结婚的经历，这名男子的寿命比她的父母都要长。（他如今在哪里？罗马妈妈从未告诉过我们。）卡尔米内指责她在他…",
+        "即使是《罗马妈妈》中的明星——马尼亚尼和导演帕索里尼也在马尼亚尼的表演问题上互相攻击，双方都也是（错误地）出于不同的原因认为影片不太精彩，这部电影引起的暴风雨般…",
+        "这部电影公开的恋母情结是帕索里尼作品中熟悉的元素。奇怪的是，我们永远不知道卡尔米内是否真的是埃托雷的父亲（很多批评家假设他就是），因为卡尔米内从未自称是埃托雷的…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "重看国师被骂飞的这部电影，有些新感受",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%87%8D%E7%9C%8B%E5%9B%BD%E5%B8%88%E8%A2%AB%E9%AA%82%E9%A3%9E%E7%9A%84%E8%BF%99%E9%83%A8%E7%94%B5%E5%BD%B1%EF%BC%8C%E6%9C%89%E4%BA%9B%E6%96%B0%E6%84%9F%E5%8F%97",
+      "published": "Mon, 13 Apr 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "LOOK",
+        "qq.com"
+      ],
+      "summary": "文 LOOK 《满城尽带黄金甲》是张艺谋古装三部曲的最后一部，也许是前两部作品剧本方面遭受的负评意见过多，张艺谋这一次借用了《雷雨》的文本。 《满城尽带黄金甲》 （2006） 但事与愿违，影片上映后依然遭遇了几乎可以说是压倒性的负面评价。 如今回头来看，这些负面评价与当年制片人张伟平操盘的霸权营销模式自然脱不了干系。 贾樟柯当年甚至故意将自己刚获得金狮奖的影片《三峡好人》放在和《黄金甲》同一天上映，并且说出了略显自我悲情化的一番话语，「我就想看看，在这样一个崇拜『黄金』的时代，有谁还关心『好人』？ 」 《三峡好人》…",
+      "key_points": [
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 至少这部电影拍得很美 拒绝成功学，这部电影说出了时代最强音 影响《呼啸山庄》的七部电影 文…",
+        "如今重看这部争议之作，已完全可以抛开当年影片上映前后舆论导向的干扰，专注于感知、阅读影像自身的表达。《黄金甲》非但不是认同俗艳，不是崇拜黄金、崇拜权力，反而是对…",
+        "《菊豆》《大红灯笼高高挂》《秋菊打官司》中，张艺谋用了各种不同的叙事系统、影像质地，对传统中国的父权-儒家系统的吃人暴力作出了最激烈的批判。色彩、声音、造型都成…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最强“C”市，真正的“C位”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%BC%BA%E2%80%9CC%E2%80%9D%E5%B8%82%EF%BC%8C%E7%9C%9F%E6%AD%A3%E7%9A%84%E2%80%9CC%E4%BD%8D%E2%80%9D",
+      "published": "Mon, 13 Apr 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "center",
+        "Jubei"
+      ],
+      "summary": "在中国各省（区）的车牌字母中 “A”总是众星捧月的行政中心 “B”常为锋芒毕露的经济高地 “老大”与“老二”各有各的光彩夺目 但“老三”似乎一直很低调 殊不知，那些 挂着 “C” 牌的城市 往往才是 真正的 “隐藏C位” （※“C位”是“center”缩写， 意为中央、正中心） 豫C洛阳 真正的“C位”，最早的“中国” 洛阳应天门“豫豫生辉” 全国各“C市”中最当之无愧的“C位” ，以及 唯一 能与陕西西安竞争 “中国第一古都” 的存在，当属 河南洛阳 。 千年帝都、华夏圣城、文明之源、天下之中；丝路起点、运河中枢…",
+      "key_points": [
+        "在中国各省（区）的车牌字母中 “A”总是众星捧月的行政中心 “B”常为锋芒毕露的经济高地 “老大”与“老二”各有各的光彩夺目 但“老三”似乎一直很低调 殊不知，…",
+        "桂C桂林 “八桂大地”真正的“桂冠” 古代桂林府郡名叫“八桂”；而广西历代首府又常常设在桂林，“八桂大地”就成为广西别称",
+        "洛阳二里头遗址被誉为 “最早的中国” 图为该遗址出土的绿松石龙形器该遗址 这里既是中国最早青铜礼器诞生地 也是中国城市规划的雏形 摄影/罗广平 地理的偏爱： “…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我终于在北京学会了花粉过敏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E7%BB%88%E4%BA%8E%E5%9C%A8%E5%8C%97%E4%BA%AC%E5%AD%A6%E4%BC%9A%E4%BA%86%E8%8A%B1%E7%B2%89%E8%BF%87%E6%95%8F",
+      "published": "Mon, 13 Apr 2026 11:35:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "an",
+        "ar",
+        "Bitsea",
+        "cartoon"
+      ],
+      "summary": "我一直就有一个私人暴论：很多过敏并非先天如此，而是后天习得。 很多年前我就观察到，昆明一年四季花开不断，但是我屁事没有，然而与此同时，我在北京的很多朋友春天一到就开始犯鼻炎。还有一些朋友在国内的时候百毒不侵，搬去北美三五年之后，就开始和白人一样对很多东西过敏。而他们在那里生下的孩子，几乎出生就开始过敏。 当然，这是私人暴论。由于观察样本少，统计上个人偏好过强，所以并不算严谨。不过现在我可以再加上一个例子，也就是我自己---从 2008 年开始北漂，近 20 年之后的现在，我终于学会了花粉过敏。 原来我没这个毛病。在…",
+      "key_points": [
+        "这是私人暴论。由于观察样本少，统计上个人偏好过强，所以并不算严谨。不过现在我可以再加上一个例子，也就是我自己---从 2008 年开始北漂，近 20 年之后的现…",
+        "我终于学会了花粉过敏，而我的个人暴论也终于获得了一条证据",
+        "和因为花粉过敏带着严重鼻音的朋友坐在街边吃烤串。他说他必须坚持吃街边烤串，理由是一位北医的医生，一位医术精湛的老太太，就曾经那么干过。她老人家每个月都要出门一次…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "一群年轻人的“底刊”运动：在顶刊之外，重新理解科研",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%80%E7%BE%A4%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E2%80%9C%E5%BA%95%E5%88%8A%E2%80%9D%E8%BF%90%E5%8A%A8%EF%BC%9A%E5%9C%A8%E9%A1%B6%E5%88%8A%E4%B9%8B%E5%A4%96%EF%BC%8C%E9%87%8D%E6%96%B0%E7%90%86%E8%A7%A3%E7%A7%91%E7%A0%94",
+      "published": "Mon, 13 Apr 2026 08:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Rubbish",
+        "Jimmy",
+        "of",
+        "Silence",
+        "https",
+        "JOTE"
+      ],
+      "summary": "4.13 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：SHIT期刊官网 撰 文 | 戴晶晶 ● ● ● 如果课题无趣，不妨读读《擎天柱应投保车损险还是人身意外险：基于无法收敛的精算研究》；如果反复实验都是阴性结果，《我的 WB （ Western Blot ）结果像只熊猫》或许能给人一点安慰；如果博士读得精疲力尽，那么《高学历个体在低风险决策场景中的选择瘫痪：以 “ 晚餐吃什么 ” 为例的纵向行为研究》以及《从 “ 我能发顶刊 ” 到 “ 能毕业就行 ” ：博士生心态相变研究》，大概会让人会心…",
+      "key_points": [
+        "荒诞中却绽放出万花筒般的灵感。对于一些年轻科研人员来说，底刊的抽象可以被用来消解焦虑，轻盈的姿态也能抵抗无趣和僵硬的评价体系。更多的交流和反思在这个过程中发生了…",
+        "用年轻时候高质量的30分钟去换老年时候可能增加的20分钟，这笔交易究竟划不划算？” 02 思想松绑后，重新认识学术 在现行科研评价体系中，顶刊发表和高影响因子仍…",
+        "模仿论文格式，接收失败实验、日常困惑和荒诞灵感，也接住了许多年轻科研人的疲惫、焦虑与表达欲"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "当AI开始「开发」自己",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%BD%93AI%E5%BC%80%E5%A7%8B%E3%80%8C%E5%BC%80%E5%8F%91%E3%80%8D%E8%87%AA%E5%B7%B1",
+      "published": "Mon, 13 Apr 2026 19:56:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "SOLO",
+        "TRAE",
+        "App",
+        "Skill",
+        "CEO"
+      ],
+      "summary": "文 ｜ 阑夕 在OpenAI创始人那篇著名的博文「温和的奇点」里，他畅想了一个能由机器人制造更多机器人的未来，全球的生产力终将脱离人口上限，进入指数级的增长时代。 在物理层面，受制于材料、资源等因素，这种想象或许还是充满了科幻成分，但在软件层面，AI「复制」AI的行为，早已启动。 就在上个月，AI编程产品TRAE，把IDE内置的SOLO模式做成了独立的客户端，包括桌面和网页两大形态。 这么做的好处显而易见，摆脱了传统的IDE环境之后，那些非专业用户——产品、设计、运营、数据等从业者——都能在他们更熟悉的对话场景，「…",
+      "key_points": [
+        "在他的职业生涯里，从未像今天一样充满乐趣，脏活累活都可以甩手交给AI去干，自己只需要把时间投入在最值得创造的地方： 「我们也许在亲历一个时代的结束，工程师（En…",
+        "重点在于，这个SOLO独立端，基本上可以说是，SOLO自己开发的⋯⋯ 整体来看， AI始终是最核心的代码产出者，程序员们也是全程通过SOLO模式编写SOLO独立…",
+        "一年前的开发模式，或许是这样没错，但版本早就更新了⋯⋯ 根据我看到的， TRAE团队分享了他们的做法，是由功能负责人和SOLO协作，并不急着开始写代码，而是先让…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "The Dog Theory",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+The+Dog+Theory",
+      "published": "Sun, 12 Apr 2026 12:25:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "feel",
+        "Be",
+        "change",
+        "Dog",
+        "dog.Make",
+        "like"
+      ],
+      "summary": "Be more like the smiling dog.Make people feel seen.Make them feel welcome.You\\x26#39;ll change the room-and the relationship. 文章原文",
+      "key_points": [
+        "Be more like the smiling dog.Make people feel seen.Make them feel welcome.You\\x2…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "Harness Monitor：当多个 Agent 同时写代码时，如何看住质量",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/harness-engineering-monitor/",
+      "published": "Mon, 13 Apr 2026 03:24:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "github.com",
+        "Harness",
+        "https",
+        "Monitor",
+        "phodal",
+        "routa"
+      ],
+      "summary": "TL;DR：[https://github.com/phodal/routa](https://github.com/phodal/routa)，Harness Monitor 在 `crates/harness-monitor` 目录下。",
+      "key_points": [
+        "TL;DR：[https://github.com/phodal/routa](https://github.com/phodal/routa)，Harness…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第264期 - 终于完工",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/264/",
+      "published": "Sun, 12 Apr 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "App",
+        "Store",
+        "WiFi",
+        "AI",
+        "https",
+        "Ai"
+      ],
+      "summary": "封面图用于记录我的硬件小玩具终于完工的照片，很有意思，我想着把这个过程通过今天的周刊记录下来，希望有兴趣的小伙伴来看看。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 新文章发布 在 AI 时代，我是如何深入学习一个技术领域的 https://tw93.fun/2026-04-06/learn.html 把上次的学习总结，集合 Waza 里面的/learn 技能给大伙分享一下，关于上一篇大模型的文章我是如何写的过程，希望对你有用。 聊聊做小机器狗的过程 4 月 4 日，重学…",
+      "key_points": [
+        "封面图用于记录我的硬件小玩具终于完工的照片，很有意思，我想着把这个过程通过今天的周刊记录下来，希望有兴趣的小伙伴来看看",
+        "0.1.0 终于完成 🎉 把电池包封胶好了，还绑了几根带子防止散架，WiFi 和 Ai 对话模块也调试好了，使用 DeepSeek 模型稍微快一点，对话速度还可…",
+        "0.1.0-beta4 晚上下班后屏幕终于到了，一下子调试好屏幕、温度二氧化碳、红线外、灯光等传感器，WiFi 配网调试中，基本出现差不多了，剩下封胶和稳固"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "经济学人智库 | 2026年中国对外投资展望与区域破局",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93+%7C+2026%E5%B9%B4%E4%B8%AD%E5%9B%BD%E5%AF%B9%E5%A4%96%E6%8A%95%E8%B5%84%E5%B1%95%E6%9C%9B%E4%B8%8E%E5%8C%BA%E5%9F%9F%E7%A0%B4%E5%B1%80",
+      "published": "Mon, 13 Apr 2026 18:52:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "EIU",
+        "Enterprise",
+        "B2B",
+        "ODI"
+      ],
+      "summary": "在全球跨境投资整体放缓的背景下，中国企业正开启一场深度全球化变革。 经济学人智库（EIU）中国专家团队通过4月9日的深度研讨会，为您复盘全球核心区域的运营和战略布局逻辑。点击下方查看回放片段。 研讨会核心洞察 1 中东：从能源叙事到产业转型 中东投资正处于结构性观察期。尽管短期局势动荡阻碍了资本流动，但沙特、阿联酋等国从能源向绿色动力、制造业转型的叙事并未打破。中国企业需关注能源缓冲能力，寻找绿电需求再次爆发的契机。 2 拉美：在“红线”边缘寻找空间 随着“唐罗主义”的抬头，大基建与战略性港口正成为敏感地带。然而，…",
+      "key_points": [
+        "主讲嘉宾 苏月 - 中国首席经济学家 徐天辰 - 中国高级经济学家 李子谦 - 中国高级经济学家 2026年中国ODI趋势展望研讨会回放 （中文专场） ↑扫码观…",
+        "经济学人智库（EIU）中国专家团队通过4月9日的深度研讨会，为您复盘全球核心区域的运营和战略布局逻辑。点击下方查看回放片段",
+        "经济学人智库(EIU) 是隶属于Economist Enterprise的经济预测和分析机构。80年来，我们帮助企业、政府和国际组织了解世界变化，在不断发展的全…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-14",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "离婚：为什么我们赢了官司，却输了孩子？| 经济学人文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%A6%BB%E5%A9%9A%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E8%B5%A2%E4%BA%86%E5%AE%98%E5%8F%B8%EF%BC%8C%E5%8D%B4%E8%BE%93%E4%BA%86%E5%AD%A9%E5%AD%90%EF%BC%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96",
+      "published": "Fri, 10 Apr 2026 11:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "her",
+        "children",
+        "in",
+        "is"
+      ],
+      "summary": "1 写在前面 “夹在两败俱伤的父母中间，孩子是怎样的存在？不过是件用来伤害对方的武器罢了。” 我们熟知所罗门王“智断亲子案”的故事：为了辨别真假母亲，他假装要将婴儿劈成两半。但在现代社会的离婚法庭上，这种“劈开孩子”的悲剧正在以更隐蔽的方式上演。 从19世纪被剥夺抚养权的母亲，到布兰妮·斯皮尔斯的监护权风波，再到作者拉腊·费格尔自己输掉的那场官司…… 在这场以爱为名的战争中，谁才是那个被撕成两半的“婴儿”？ 本文带我们透过《监护权》一书，看清离婚法折射出的残酷社会史。 2 精读|翻译|词组 Culture | Th…",
+      "key_points": [
+        "2 精读|翻译|词组 Culture | The biggest loser 文化 | 谁是最大的受害者 英文部分选自经济学人20260328期文化板块 Cul…",
+        "(Everyone since King Solomon’s time knows no good mother should choose to split…",
+        "包括她自己。在疫情期间，费格尔想和孩子一起搬到英国乡下，由此引爆了她自己的监护权争夺战。朋友们苦口婆心地劝她别打官司，警告说这场折磨会把孩子撕成两半。（所罗门王…"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "eBPF 介绍",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22320.html",
+      "published": "Sat, 10 Dec 2022 02:38:51 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "eBPF",
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first"
+      ],
+      "summary": "很早前就想写一篇关于eBPF的文章，但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎... Read More Read More The post eBPF 介绍 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post eBPF 介绍 first appeared on 酷 壳 - CoolShell",
+        "但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "浅谈有赞搜索QP架构设计",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/11/",
+      "published": "Mon, 05 Sep 2022 05:27:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "emsp",
+        "QP",
+        "NLP",
+        "query",
+        "abtest",
+        "api"
+      ],
+      "summary": "一、有赞搜索平台整体设计 &emsp;&emsp;在介绍QP前先简单介绍一下搜索平台的整体结构，方便大家快速了解QP在搜索平台中的作用。下图简单展示了一个搜索请求开始到结束的全部流程。业务通过简洁的api接入los，管理员在搜索平台新建配置并下发，完成整个搜索接入，并通过abtest验证QP带来的优化效果。 二、QP的作用 &emsp;&emsp; 在NLP中，QP被称作Query理解（QueryParser），简单来说就是从词法、句法、语义三个层面对query进行结构化解析。这里query从广义上来说涉及的任务比…",
+      "key_points": [
+        "一、有赞搜索平台整体设计 &emsp;&emsp;在介绍QP前先简单介绍一下搜索平台的整体结构，方便大家快速了解QP在搜索平台中的作用。下图简单展示了一个搜索请…",
+        "二、QP的作用 &emsp;&emsp; 在NLP中，QP被称作Query理解（QueryParser），简单来说就是从词法、句法、语义三个层面对query进行…",
+        "&emsp;&emsp;以精选搜索为例，当用户输入衣服时用户往往想要搜的是衣服类商品，而不是衣服架，衣服配饰等衣服周边用品。通过将衣服类目进行加权，将衣服类的商…"
+      ]
+    }
+  ]
+}
