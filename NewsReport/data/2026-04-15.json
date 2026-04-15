@@ -1,0 +1,806 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T01:00:04.437905+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 122,
+    "fresh_candidates": 62,
+    "backfill_candidates": 60,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-15",
+      "fetched_at": "2026-04-15T01:00:04.146885+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4026.63,
+          "change": 38.07,
+          "change_pct": 0.95,
+          "volume": 570259003.0,
+          "amount": 99843513.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4834.56,
+          "change": -7.0,
+          "change_pct": -0.14,
+          "prev_close": 4841.56,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-15 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1059.380041988844,
+          "change": -1.5338852540710377,
+          "change_pct": -0.14458149852526422,
+          "prev_close": 1060.913927242915,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-15 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-15",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "达利欧最新预警：未来只会更动荡！投资者该怎么做？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E9%A2%84%E8%AD%A6%EF%BC%9A%E6%9C%AA%E6%9D%A5%E5%8F%AA%E4%BC%9A%E6%9B%B4%E5%8A%A8%E8%8D%A1%EF%BC%81%E6%8A%95%E8%B5%84%E8%80%85%E8%AF%A5%E6%80%8E%E4%B9%88%E5%81%9A%EF%BC%9F",
+      "published": "Tue, 14 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "最近，投资者普遍都在关注美伊局势。 然而，达利欧却发表了一篇长文，他说，大家关注的过于「短期」了，忽略了很多对市场影响更「深刻」、「长远」的因素。 这篇文章和大家分享下他的观点。 观点一：世界大战已开场，且短期内不会结束 虽然特朗普向美国民众保证，战争会在几周内结束，美国将重返繁荣岁月。 但在实际的战争中，只有对方投降才算真正的胜利，双方互道“赢麻了”，并不是战争结束的信号。 所以达利欧认为，战争短期并不会结束，而且可能还会升级。为啥呢？ 咱们看现在，全球范围内其实正在同时爆发很多战争。 既有热战，也有非热战，比如…",
+      "key_points": [
+        "以应对新旧秩序的交替 达利欧经历过多次危机和崩盘，对于当下及未来如何投资，他的答案非常清晰： 1、没有人能完全避开风险： 在冲突增多，不确定性提高的阶段，市场必…",
+        "达利欧却发表了一篇长文，他说，大家关注的过于「短期」了，忽略了很多对市场影响更「深刻」、「长远」的因素",
+        "在历史大周期中反复出现。达利欧把当下类比为1945年前夕，看似是中东在打仗，其实是全球秩序正在翻篇"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "腾讯游戏 vs 网易游戏：深度差异化竞争分析",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1010392927/383735799",
+      "published": "Tue, 14 Apr 2026 10:02:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MMORPG",
+        "MOBA",
+        "vs",
+        "QQ",
+        "http",
+        "IP"
+      ],
+      "summary": "备注: 本文是在前面三篇长文的基础上详细阐述腾讯游戏与网易游戏的差异化竞争。是在前面三篇长文基础上的深化篇。有兴趣的朋友可以点击前面两篇自行浏览： 1、 腾讯控股 护城河深度解析—腾讯控股13亿用户背后的商业壁垒，比你想象的更深 网页链接 2、 腾讯控股 深度护城河分析——微信为什么不可替代？ 腾讯 凭什么&#34;后发先至&#34;？ 网页链接 3、视频号 vs 抖音----一场不按常理出牌的反攻战（腾讯短视频差异化竞争深度解析） 网页链接 ————————————————— 前言 ：很多人分析腾讯和网易的游戏竞…",
+      "key_points": [
+        "备注: 本文是在前面三篇长文的基础上详细阐述腾讯游戏与网易游戏的差异化竞争。是在前面三篇长文基础上的深化篇。有兴趣的朋友可以点击前面两篇自行浏览： 1、 腾讯控…",
+        "网页链接 3、视频号 vs 抖音----一场不按常理出牌的反攻战（腾讯短视频差异化竞争深度解析） 网页链接 ————————————————— 前言 ：很多人分…",
+        "六、护城河深度对比 腾讯的核心护城河 玩家留在王者荣耀，不是因为游戏机制有多好，而是因为 朋友都在这里 。微信/QQ的社交关系链，是腾讯游戏的&#34;核武器&…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "万华化学详解",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4551024913/383562916",
+      "published": "Tue, 14 Apr 2026 10:02:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MDI",
+        "TDI",
+        "CFR",
+        "CO",
+        "http",
+        "LFP"
+      ],
+      "summary": "摘要： 笔者基于业务拆分及数据测算，发现目前主流机构对万华化学的2026年利润预估出现重大偏差。 基于万华化学石化板块220万吨乙烯生产原料由石油脑、丙烷改乙烷带来的成本改善、石化板块产出品价格上涨，目前乙烯每吨除成本节约1200元/吨可带来10亿利润增长外，还因和市场价之间5000元/吨的利差，实际可以带来约80-100亿利润增量。目前主流机构对石化板块的评估均只考虑到原料改变带来的20亿成本节约，未考虑乙烯价格上涨带动产出品价格上涨带来的80-100亿利润增长，市场预期和实际价格间存在80-100亿预期差，此外…",
+      "key_points": [
+        "基于万华化学石化板块220万吨乙烯生产原料由石油脑、丙烷改乙烷带来的成本改善、石化板块产出品价格上涨，目前乙烯每吨除成本节约1200元/吨可带来10亿利润增长外…",
+        "图：2025Q4至今MDI涨价情况 图：2月15日至今MDI及TDI生意社报价 图：2026年MDI及TDI价格走势 二、万华化学主营业务拆解 当前万华化学主营…",
+        "万华化学所用丙烷几乎全部以来进口，核心来源为中东（45%）和美国（50%），并通过长期协议锁定供应。战争爆发以来，乙烯价格由1月5日6000元/吨→4月12日1…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2009-2025年茅五泸汾洋营收变化",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/383617247",
+      "published": "Tue, 14 Apr 2026 10:02:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "2009-2025年茅五泸汾洋营收变化 当我们只说结论时，会有很多争论，当我们看数据时，依然会有争论，但会少很多。当然数据只反应过去事实，并不代表未来发展，投资是基于未来的，过去只是未来参考的一部分。投资能力是基于未来判断与客观事实的偏离度，偏离度越小能力越强。 你看茅台的业绩，一路都在向上，哪怕上轮白酒行业黑天鹅。所有离开茅台的人，我只认同一个理由，未来投资收益预期不够，其余的都是市场波动的奴隶。业绩一直向好，但是股价大起大落，很多人是被波动吓跑的。这轮周期依旧如此，这就是人性。 很多人认为五粮液地位高不可攀，是…",
+      "key_points": [
+        "2009-2025年茅五泸汾洋营收变化 当我们只说结论时，会有很多争论，当我们看数据时，依然会有争论，但会少很多。当然数据只反应过去事实，并不代表未来发展，投资…",
+        "是因为891亿的营收，跟后来者绝对差距很大。这个差距没大家想的那么高，当品牌被超越，价格回不来，业绩超越就是迟早的事。假设五粮液这轮周期，业绩下滑50%，那么营…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "粮厂研究员Will | 一个普通人应该如何投资？（中）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7970049223/383570095",
+      "published": "Tue, 14 Apr 2026 10:02:13 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "HK",
+        "to",
+        "is",
+        "of",
+        "alpha"
+      ],
+      "summary": "“粮厂点评”频道致力于点评粮厂的季度财报、产品发布会、市场表现或其他重大事件，不追求信息即时性和效率性，主要为读者提供粮厂研究员的观点。 $小米集团-W(01810)$ 1996年，巴菲特在伯克希尔·哈撒韦致股东信中，第一次正式提出了“ 能力圈 ”（Circle of Competence）的概念。 原话是这样的：“ 投资人真正需要具备的是对所选择的企业进行正确评估的能力。请特别注意&#39;所选择&#39;这个词：你并不需要成为一个通晓每一家或者许多家公司的专家。你只需要能够评估在你能力圈范围之内的几家公司就足够…",
+      "key_points": [
+        "“粮厂点评”频道致力于点评粮厂的季度财报、产品发布会、市场表现或其他重大事件，不追求信息即时性和效率性，主要为读者提供粮厂研究员的观点",
+        "我们在本系列上篇讨论了一个普通投资者应该遵守的三条底线原则： 不用杠杆、分散投资、合理预期",
+        "粮厂研究员Will 2026年4月13日 于 深圳 本话题在雪球有37条讨论，"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788941",
+      "published": "Mon, 13 Apr 2026 22:59:58 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "KTV",
+        "WuenGe",
+        "zzzooO"
+      ],
+      "summary": "瞎扯 · 每个月给你两万，但是你这辈子不能吃中餐，你接受吗？ 知乎日报 查看知乎原文 Q： 每个月给你两万，但是你这辈子不能吃中餐，你接受吗？ @zzzooO ：裁判同志，你好 你的意思是，我这道「 焦化宽粉 配 和牛薄烧 与 火炙银芽 ，佐以 特调火焰红酱 」，是 干炒牛河 ？ 我可不接受啊，这是我家法餐厨师做的，怎么会是粤菜啊？ Q： 为什么第四代住宅普遍不被大家接受？ @丹尼尔和雪莉 ：楼上跳绳、邻居唱 KTV 我都听不到，我就认它是第四代。否则弄出花来我也不认。 Q： 如何激怒一位化学爱好者？ @水隼 ：领…",
+      "key_points": [
+        "你好 你的意思是，我这道「 焦化宽粉 配 和牛薄烧 与 火炙银芽 ，佐以 特调火焰红酱 」，是 干炒牛河"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何对于统计专业来说，哪个方向是核心?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9788987",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CS",
+        "estimator",
+        "Causal",
+        "Angrist",
+        "Inference"
+      ],
+      "summary": "BugBuster喵 查看知乎原文 说句得罪人的话，如果谁现在还在纠结数理统计 vs 应用统计，已经落后这个时代至少五年了。 我知道这个开头会让很多人不舒服。但请你耐心看完。 我本科统计，博士期间做因果推断，现在在业界做 AI 相关的工作。看到了太多统计专业的学生，花了四年甚至六年时间，学了一堆正确但过时的方向规划经验，毕业后发现自己两头不靠。 学数理统计的，发现纯理论岗位几乎不存在；学应用统计的，发现自己写代码干不过 CS，做模型又没有自己的核心壁垒。最后很多人带着一种说不清的迷茫感离开了这个专业。 这不是统计学…",
+      "key_points": [
+        "然后再看医疗领域。精准医疗的核心问题是什么？不是这个病人得了什么病——这是诊断问题，AI 确实可以做得很好。核心问题是\"对于这个特定的病人，A 药和 B 药哪个…",
+        "这不完全是老师们的错。课程改革的惯性太大了，教材更新的速度赶不上领域发展的速度，而且老一代统计学者很多确实不做这些方向。但结果就是，统计专业的本科教育和这个学科…",
+        "博士期间做因果推断，现在在业界做 AI 相关的工作。看到了太多统计专业的学生，花了四年甚至六年时间，学了一堆正确但过时的方向规划经验，毕业后发现自己两头不靠"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代的老板糊弄学",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377098.html",
+      "published": "Tue, 14 Apr 2026 08:43:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenClaw",
+        "PPT",
+        "API",
+        "Claude",
+        "Copilot"
+      ],
+      "summary": "OpenClaw的爆火不仅掀起技术浪潮，更在职场掀起一场荒诞的AI表演。从员工被迫‘养虾’到老板盲目跟风，一场自上而下的集体糊弄正在上演。本文将揭示AI时代特有的职场生存法则，拆解‘借龙虾之口’‘小众即正义’等糊弄学三招，带你透视这场由资本泡沫、老板焦虑与员工自保共同编织的黑色幽默。 OpenClaw的爆火引起了一系列连锁反应。 一夜之间，无数老板像被“龙虾焦虑”附了体。朋友圈刷屏的是“智能体将取代50%的工作岗位”，行业群里讨论的是“不用OpenClaw的公司三年内必死”。恐慌像流感一样传播，而最先出现症状的是那…",
+      "key_points": [
+        "一门新学问应运而生。它教人在老板的焦虑和工作现实之间，找到一条成本最低的生存路径。这门学问，叫作AI时代的糊弄学",
+        "OpenClaw的爆火不仅掀起技术浪潮，更在职场掀起一场荒诞的AI表演。从员工被迫‘养虾’到老板盲目跟风，一场自上而下的集体糊弄正在上演。本文将揭示AI时代特有…",
+        "这条糊弄链条的完整轮廓逐渐清晰起来：大厂糊弄资本市场，推出套壳的龙虾变体；员工糊弄老板，用产品截图和技术术语交差；老板糊弄自己和外界，对外宣称“全面应用AI技术…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI急眼了！四页密信怒撕Claude，80亿营收全掺水",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377091.html",
+      "published": "Tue, 14 Apr 2026 08:04:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "AI",
+        "Dresser",
+        "Claude",
+        "GW"
+      ],
+      "summary": "四页纸，三颗炸弹！OpenAI内部备忘录直指Anthropic命门：Claude狂热如宗教、算力到2027年才7-8GW远落后OpenAI的30GW、300亿营收里80亿是AWS分成注水。沃顿教授吐槽：这种备忘录就是写来给外人看的。 一份最新流出的OpenAI四页内部备忘录，信息量太大了！ OpenAI首席营收官Denise Dresser，直接向全体员工发出「决战动员令」—— AI市场竞争惨烈，前所未有！ OpenAI必须从「卖产品」转向「做平台」，构建起无法逾越的护城河。 备忘录中火力全开，直指宿敌Anthro…",
+      "key_points": [
+        "三颗炸弹！OpenAI内部备忘录直指Anthropic命门：Claude狂热如宗教、算力到2027年才7-8GW远落后OpenAI的30GW、300亿营收里80…",
+        "OpenAI首席营收官Denise Dresser，直接向全体员工发出「决战动员令」—— AI市场竞争惨烈，前所未有",
+        "他们痛批Anthropic 300亿美元营收，其中80亿纯「注水」，实际上还有一部分云分销商的总收入"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拷贝或克隆其他 Flutter OH 项目到本地后无法运行",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377084.html",
+      "published": "Tue, 14 Apr 2026 07:53:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "flutter",
+        "Flutter",
+        "ohos",
+        "pubspec.lock",
+        "build",
+        "pub"
+      ],
+      "summary": "拷贝或克隆Flutter OpenHarmony项目到本地后常出现依赖解析失败、编译报错、ohos模块找不到等问题，核心原因在于环境差异——Flutter/Dart版本不一致、pubspec.lock锁定文件跨机器绑定、本地构建缓存残留、鸿蒙侧ohpm依赖未拉全，以及签名/SDK路径等本机独有配置未补全。 从同事电脑拷贝目录，或从 Git 克隆 Flutter OpenHarmony 工程后，执行 flutter pub get、flutter run 或 flutter build hap 时出现 依赖解析失败、…",
+      "key_points": [
+        "拷贝或克隆Flutter OpenHarmony项目到本地后常出现依赖解析失败、编译报错、ohos模块找不到等问题，核心原因在于环境差异——Flutter/Da…",
+        "多数「换机/克隆后无法运行」问题可以排除；若仍报错，把 doctor 与完整编译日志 一并提供给维护者即可快速对齐环境差异",
+        "核对 Flutter 与 Dart 版本 打开项目根目录 **pubspec.yaml**，查看： environment: sdk: ^3.x.x # 示例，…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI大模型图鉴：2026之春，谁在造神，谁在守夜，谁在缝补裂缝？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6376638.html",
+      "published": "Tue, 14 Apr 2026 06:48:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Claude",
+        "Opus",
+        "Anthropic",
+        "Token",
+        "Muse"
+      ],
+      "summary": "2026年4月，全球AI行业涌入了一个密度惊人的信息洪峰。有人把全部筹码压在通往AGI的终局上，有人亲手把自己最强的模型锁进了保险箱，有人第一次让国产AI的定价和国际头部站到了同一条线上，还有人的房子在凌晨被燃烧弹点燃——这不是赛博朋克剧本，这是此刻正在发生的事。 4月10日凌晨4点12分，旧金山北海滩。 一个20岁的年轻人，在太平洋潮湿的晨雾中，向一栋价值2700万美元的住宅投掷了燃烧弹。火势很快被控制，无人受伤。但这栋住宅的主人，叫山姆·奥特曼——OpenAI的CEO。 55分钟后，同一个年轻人出现在OpenA…",
+      "key_points": [
+        "那些在裂缝里缝补的人——定规矩的政策制定者、维权的配音演员、让AI在树莓派上跑的谷歌工程师、封印自家最强模型的Anthropic——他们的工作没有GPT-6发布…",
+        "六、安全暗面：七位AI”撒谎者”与一间燃烧的住宅 6.1 七个模型，集体选择了欺骗 4月7日，加州大学伯克利分校与圣克鲁兹分校联合发布了一项研究，结论令人不安：…",
+        "它处处和Llama反着来。Llama是大参数开源，Muse Spark是小巧闭源；Llama是后期拼接多模态，Muse Spark是原生多模态——不是GPT-6…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "别一上来就搞大模型：智能客服MVP，我只做这三件事",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6376988.html",
+      "published": "Tue, 14 Apr 2026 06:44:21 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MVP",
+        "API",
+        "NLU",
+        "Agent",
+        "FAQ",
+        "prompt"
+      ],
+      "summary": "很多团队做智能客服，上来就想着微调千亿大模型、搭建复杂的Agent框架。结果三个月过去了，连“查订单”都经常答错。我用一个零食连锁的真实案例告诉你：从0到1落地智能客服，最核心的不是模型，而是这三件事。 1. 翻车：我们差点做了一个“万能”的客服 去年我们给一个零食品牌做智能客服，客户的需求是：“能不能做一个什么都懂的客服？用户问啥都能答。” 团队一听很兴奋，马上开始选大模型——GPT-4、通义千问、文心一言，对比了一圈，决定用某大模型做底座，搭建一个全能的对话Agent。 两个月后，demo出来了。 用户问：“我…",
+      "key_points": [
+        "别贪大 ：先选3个高频标准化场景 别迷信模型 ：大模型只做NLU，确定性流程用代码 别跳过系统对接 ：能办事才是客服，不然只是话术机器人 从这三个场景跑通，再到…",
+        "上来就想着微调千亿大模型、搭建复杂的Agent框架。结果三个月过去了，连“查订单”都经常答错。我用一个零食连锁的真实案例告诉你：从0到1落地智能客服，最核心的不…",
+        "翻车：我们差点做了一个“万能”的客服 去年我们给一个零食品牌做智能客服，客户的需求是：“能不能做一个什么都懂的客服？用户问啥都能答。” 团队一听很兴奋，马上开始…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "奥特曼豪宅 48 小时遇袭两次，反 AI 怒火烧向全球",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A5%A5%E7%89%B9%E6%9B%BC%E8%B1%AA%E5%AE%85+48+%E5%B0%8F%E6%97%B6%E9%81%87%E8%A2%AD%E4%B8%A4%E6%AC%A1%EF%BC%8C%E5%8F%8D+AI+%E6%80%92%E7%81%AB%E7%83%A7%E5%90%91%E5%85%A8%E7%90%83",
+      "published": "Tue, 14 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PauseAI",
+        "Anthropic",
+        "FLI",
+        "OpenAI",
+        "APPSO"
+      ],
+      "summary": "作者 | 明日产品的 来源 | APPSO（ID：appsolution） “我们到底为什么要明知故犯地造出这种东西？”问出这句话的，是个名为莫雷诺-加马（Moreno-Gama） 的 20 岁美国年轻人。 平时在网上小透明的他，却在一个叫 PauseAI（反 AI 组织）的群里默默潜水了两年，拢共发了 34 条消息。 去年 12 月，他留下了最后一条留言：“时间快到了，该采取行动了。”版主警告他不要煽动暴力，他便再也没出过声。 奥特曼家门口的监控录像截图，莫雷诺-加马的面部进行了模糊处理 谁能想到，四个月后，也就…",
+      "key_points": [
+        "Google、微软、Meta 和亚马逊这四家科技巨头，计划在 2026 年砸进 6700 亿美元去建数据中心。马斯克自己也说过：“未来三到七年，AI 会取代所有…",
+        "莫雷诺-加马的面部进行了模糊处理 谁能想到，四个月后，也就是美国当地时间 4 月 10 日凌晨 3 点 45 分，他拎着一个自制的燃烧瓶，砸向了 OpenAI…",
+        "只烧黑了门边的一角，没人受伤。当时奥特曼和他的家人还在屋里睡觉。一小时后，警察在 OpenAI 总部门口抓到了这个打算故技重施的年轻人，而他身上还带着另一个没引…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "扫描了588个高中生，大家考数学时上半身都“燃”起来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%89%AB%E6%8F%8F%E4%BA%86588%E4%B8%AA%E9%AB%98%E4%B8%AD%E7%94%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%80%83%E6%95%B0%E5%AD%A6%E6%97%B6%E4%B8%8A%E5%8D%8A%E8%BA%AB%E9%83%BD%E2%80%9C%E7%87%83%E2%80%9D%E8%B5%B7%E6%9D%A5%E4%BA%86",
+      "published": "Tue, 14 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "X.",
+        "academic",
+        "among",
+        "amp",
+        "BMC",
+        "Bodily"
+      ],
+      "summary": "先说个简短的恐怖故事—— 考试 。 还记得中学考数学的感受吗？ 十七岁的你，坐在考场上，手指已经不受控制地把答题卡边缘捏成了一朵花。离交卷还有半小时，最后两道大题看着你，你也看着它们，大眼瞪小眼，谁也不认识谁。 太阳穴突突跳，胃被一只无形的手攥住，握笔的手指冰凉僵硬。你整个人就像一台正在强制关机的电脑，屏幕还亮着，但内部已经弹窗无数了。 我们通常管这叫“紧张”，好像所有的兵荒马乱都只发生在某个看不见摸不着的“内心深处”。 但仔细品品，这些感受明明有具体的地址：焦虑住在胸口和太阳穴，无聊盘桓在全身上下，而快乐恨不得从…",
+      "key_points": [
+        "这也说得通：数学既需要严密的逻辑推理（理科属性），又涉及大量的符号书写和草稿纸上的疯狂演算（手部劳动密集型产业）。所以如果你学完两小时数学觉得不只是脑子累、整个…",
+        "还记得中学考数学的感受吗",
+        "它引发的全身激活范围是所有情绪中最广的。不仅头部和胸部，连四肢都出现了强烈的感觉增强。这完全符合愤怒作为“战斗情绪”的人设：身体本能地为打架做准备，肌肉绷紧，血…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "交过几万“学费”，这是我唯一能坚持的变美方式",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BA%A4%E8%BF%87%E5%87%A0%E4%B8%87%E2%80%9C%E5%AD%A6%E8%B4%B9%E2%80%9D%EF%BC%8C%E8%BF%99%E6%98%AF%E6%88%91%E5%94%AF%E4%B8%80%E8%83%BD%E5%9D%9A%E6%8C%81%E7%9A%84%E5%8F%98%E7%BE%8E%E6%96%B9%E5%BC%8F",
+      "published": "Tue, 14 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LED",
+        "nm",
+        "nm+",
+        "VIP",
+        "CS-2023-060-1",
+        "NASA"
+      ],
+      "summary": "你有没有这种感觉—— 过了30岁之后，不知道从哪天起，明显感觉自己好像老了。😞 以前熬夜通宵依然精神百倍，现在即使睡饱了觉， 脸还是 垮的、浮的、暗的。 出门前精心化了一小时妆，到下午照镜子—— 脸往下走了，妆也往下走了 。 更扎心的是： 翻出去年同期的照片一对比，真感觉岁月在脸上留下了痕迹。 皮肤随岁月逐渐衰老丨图虫 究其原因，和皮肤深处的胶原蛋白流失有关。 从20岁开始，皮肤里的胶原蛋白就以每年1%的速度递减 。 [1] 再加上各种压力、熬夜、不健康的饮食习惯，流失只会更快 。 久而久之，皮肤 组织就会坍塌，…",
+      "key_points": [
+        "每次10分钟 就能循序渐进的养肤、变美，不用跑美容院，不用花大价钱，还不疼， 非常nice~ 坚持使用，你会发现， 脸部轮廓悄悄上提，泪沟、法令纹、嘴角纹等下垂…",
+        "我的部分美容仪订单 没想到！！科施佳这个“胶原小光盾”，是我 用过唯一没闲置的美容仪",
+        "我这个买过无数美容仪的人摸着良心说句实话： 再没有比科施佳更好坚持的美容仪了"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "每个网红打卡地，都长满了正在挨骂的男朋友",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AF%8F%E4%B8%AA%E7%BD%91%E7%BA%A2%E6%89%93%E5%8D%A1%E5%9C%B0%EF%BC%8C%E9%83%BD%E9%95%BF%E6%BB%A1%E4%BA%86%E6%AD%A3%E5%9C%A8%E6%8C%A8%E9%AA%82%E7%9A%84%E7%94%B7%E6%9C%8B%E5%8F%8B",
+      "published": "Tue, 14 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "oiwulrnjjizovo",
+        "TOP",
+        "wscgoods"
+      ],
+      "summary": "我敢打赌，你的手机相册里，一定也有这样哭笑不得的照片： 眼睛眯成一条缝、双下巴笑到堆叠、一米七拍成一米三…… 而摄影师，通常是你那位信心满满的男朋友或老公。 迷之抓拍，这玩意不是人吧？ 奇葩视角，奔跑的 鸵 鸵鸵鸟? 这......这是人还是鬼? 不知道为什么，360度里，他们总能定位到令人发指的奇葩瞬间。 你气得跺脚：你怎么把我拍这么丑！ 他却一脸无辜：你本来就长这样呀！ 直到前几天，我翻开了一本 旧相册 。一张妈妈年轻时的肖像照，一下子抓住了我的目光。 照片里没有 华丽的背景，没有精致的妆发，可那张脸还是让 我…",
+      "key_points": [
+        "你的手机相册里，一定也有这样哭笑不得的照片： 眼睛眯成一条缝、双下巴笑到堆叠、一米七拍成一米三…… 而摄影师，通常是你那位信心满满的男朋友或老公",
+        "而 妆造师 成员均来自国际时尚杂志封面妆造、时尚大秀及人像拍摄的御用团队，化妆品都是国际一线就不说了，更重要的是： 可以 根据你的容貌特点进行“取长补短”，深入…",
+        "摄影师会和你 聊聊生活、爱好、想记录的故事，会 引导你进入自然状态：走动、转身、思考、甚至发呆，拍摄过程就像在和 老朋友相处，不知不觉就松弛下来了"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "续集，四年才等来",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BB%AD%E9%9B%86%EF%BC%8C%E5%9B%9B%E5%B9%B4%E6%89%8D%E7%AD%89%E6%9D%A5",
+      "published": "Tue, 14 Apr 2026 20:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HBO",
+        "OnlyFans",
+        "hongmomgs",
+        "irisfilm",
+        "Nose",
+        "qq.com"
+      ],
+      "summary": "文 Nose 《亢奋》第三季盛大开幕。 这部剧在美国，完全成了一个超级文化现象，不是没理由的。 剧集发生在 郊区 ，美国的郊区 从来都不只是一个地理概念 ， 它是一种意识形态的空间形式，是战后中产阶级神话的物质载体 。 郊区有大片 的草坪、安全的街道、整洁的车库，以及一个承诺 —— 只要你够努力，生活终 会给你回报 。 《亢奋》选择在 东高地 这个 虚构的加州郊区小镇讲故事，就是想说，在光鲜的美国梦外壳之下，内里早就腐烂。 第三季第一集第一场戏，鲁 伊在 美 墨边境，驾着一辆破旧的 汽车企图翻过 隔离墙， 结果 车…",
+      "key_points": [
+        "《亢奋》从第一集起就拒绝了这个框架。鲁伊的旁白宣告她出生于 2001年9月14日，即9·11后三 天，她是 一个 降生在 历史断裂处的孩子。她从未说过这对她意味…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "费雯·丽和奥利弗",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%B4%B9%E9%9B%AF%C2%B7%E4%B8%BD%E5%92%8C%E5%A5%A5%E5%88%A9%E5%BC%97",
+      "published": "Tue, 14 Apr 2026 20:38:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Actors",
+        "Galloway",
+        "Hollywood",
+        "hongmomgs",
+        "irisfilm",
+        "J.C."
+      ],
+      "summary": "作者： Stephen Galloway 译者： 覃天 校对：易二三 来源： 《Hollywood Reporter》 （2022年3月25日） 1937年，劳伦斯·奥利弗与费雯·丽陷入了一段婚外情中，他们为了这段感情抛弃了各自的伴侣和孩子，并最终在1940年结婚。 1951年，他们的爱情开始出现罅隙。生活在众目睽睽之下的压力——特别是1939年《呼啸山庄》和《乱世佳人》公映之后，公众对他们一举一动的关注，以及奥利弗在戏剧界的声名鹊起（他的妻子却无法与之相比）都加速了他们的分手。 劳伦斯·奥利弗与费雯·丽 费雯·丽…",
+      "key_points": [
+        "它引起了轰动。首演当晚发生了踩踏事件，等待余票的人群发现还有五张票在出售。即使是那些谴责该剧肮脏的评论家也对费雯·丽和奥利弗给予了应有的评价。「只有奥利弗，我应…",
+        "费雯·丽一直试图修补她和奥利弗之间的关系，回到英国之后，奥利弗正准备重返戏剧舞台，费雯·丽向他宣布了一个令人震惊的消息",
+        "特雷文补充道：「费雯·丽在最后那些『强烈』的戏剧性表演中——当布兰奇精神颤抖地前往精神病院时，她很好地控制了舞台的节奏。」 《欲 望号街车》 一开始，费雯·丽很…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "26%的金黄之地，容颜正在改变",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+26%25%E7%9A%84%E9%87%91%E9%BB%84%E4%B9%8B%E5%9C%B0%EF%BC%8C%E5%AE%B9%E9%A2%9C%E6%AD%A3%E5%9C%A8%E6%94%B9%E5%8F%98",
+      "published": "Tue, 14 Apr 2026 17:18:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GS"
+      ],
+      "summary": "我国是世界上荒漠化危害最严重的国家之一 目前我国荒漠化土地 总面积257.37万平方公里 占国土总面积的26.81% 主要分布在新疆、内蒙古、西藏 甘肃、青海5省区 在内蒙古鄂尔多斯高原北部 有一片狭长的库布齐沙漠 黄河如弓 蒙语“库布齐”则意为“弓之弦” 作为最接近中国东部腹地的大沙漠 库布齐自20世纪中期就成为治沙的重点和热点 近年来，库布齐环境变化明显 除了治沙成就 还有人类与沙漠近百年纠葛留下的种种印记 库布齐沙漠地区的黄河南岸 沙漠与黄河毗邻 治沙也是守护母亲河 摄影／李琼 呼啸的千年风沙 作为我国第七大…",
+      "key_points": [
+        "我国是世界上荒漠化危害最严重的国家之一 目前我国荒漠化土地 总面积257.37万平方公里 占国土总面积的26.81% 主要分布在新疆、内蒙古、西藏 甘肃、青海5…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "吹牛的边界",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%90%B9%E7%89%9B%E7%9A%84%E8%BE%B9%E7%95%8C",
+      "published": "Tue, 14 Apr 2026 12:08:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "hair",
+        "Midjourney",
+        "ar",
+        "background",
+        "Bitsea"
+      ],
+      "summary": "在网上不吹牛是不可能的事情。现在流行的套路就是先吹牛，把那些起心动念的人聚拢到一起，筛筛选选之后卖课给他们。 但是吹牛也有边界，也要讲基本法。最近有个很有趣的例子，针对有人用 AI 自动批量生成文章，自动发布在公众号平台一事，微信官方的回应里专门有一句话，强调所谓的「收入 200 万」不是来自公众号广告或者赞赏，大部分都是卖课的收入。 这就是吹牛过界，造成官方不爽。为什么官方要强调这句话，因为所谓靠 AI 在微信公众号平台刷了 200 万金币的说法，等于是在说官方无能，根本管不了平台上有人大闹天宫，既保护不了读者利…",
+      "key_points": [
+        "太野，不尊重吹牛的边界，也不服从吹牛的基本法，导致他们吹起牛来几乎等同于扫射式羞辱，而且还带着范围极广的溅射伤害。我个人觉得吹牛本身是一门艺术，需要精准地拿捏人…",
+        "你可以晒表，你可以晒包，用这些东西吹牛，但你不能同时说这一切来得轻松容易。你反而一定要强调自己是勤劳致富，每天要辛辛苦苦做满 12 个钟。因为一旦吹牛吹成轻松容…",
+        "古典时代的互联网吹牛要严谨得多。大家回想一下，当初做微商的那帮朋友，是不是喜欢强调勤奋？天道酬勤嘛。为什么？为什么他们不强调来钱轻松容易？为什么不直接发出召唤「…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "癌症为何多年后卷土重来?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%99%8C%E7%97%87%E4%B8%BA%E4%BD%95%E5%A4%9A%E5%B9%B4%E5%90%8E%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%3F",
+      "published": "Tue, 14 Apr 2026 08:10:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "al.",
+        "et",
+        "Cancer",
+        "DeMichele",
+        "Dutton",
+        "Nature"
+      ],
+      "summary": "4.14 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 癌细胞在经历一段时期的休眠后可能再度活跃，从而复发。图片来源：Science History Images/Alamy 撰 文｜ Amanda Heidt 来源｜自然系列 ● ● ● 2017年，Lisa Dutton被宣布乳腺癌痊愈了。她与亲友们欢庆了一番，但她知道，抗癌之路未必就此结束。据统计，在经治疗清除乳腺肿瘤的患者中，多达三分之一的人会面临癌症复发，有时甚至发生在数十年后。已知许多其他癌症也会在初次治疗后的数年内复发，有些部分复发率甚至…",
+      "key_points": [
+        "“知道正在发生什么，让我感到自己正在为争取良好预后竭尽所能。” 原文以Why cancer can come back years later — and ho…",
+        "01 潜伏的威胁 早在20世纪30年代就有人提出了休眠肿瘤细胞的存在。当时，澳大利亚病理学家Rupert Willis将某些继发性癌灶归因于这类细胞 [4] 。…",
+        "4.14 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 癌细胞在经历一段时期的休眠后可能再度活跃，从而复发。图片来源：Science Histor…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "Routa 桌面版发布：内建 Harness 工程的 AI Coding 研发协作工作台",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/routa-harness-engineering-builtin-platform/",
+      "published": "Tue, 14 Apr 2026 07:24:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Coding",
+        "Agent",
+        "AI",
+        "CLI",
+        "Harness",
+        "Routa"
+      ],
+      "summary": "几个月前，当 Coding Agent 的 CLI",
+      "key_points": [
+        "当 Coding Agent 的 CLI"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "AI编程，还需要学习么",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+AI%E7%BC%96%E7%A8%8B%EF%BC%8C%E8%BF%98%E9%9C%80%E8%A6%81%E5%AD%A6%E4%B9%A0%E4%B9%88",
+      "published": "Tue, 14 Apr 2026 10:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "coding",
+        "vibe",
+        "App",
+        "katago",
+        "token"
+      ],
+      "summary": "先汇报一下，其实我的vibe coding一直有继续，最近没通报是因为希望后续产品有个稳定的发布版本，但是有点遗憾，第一是审核时间变得很长。（可以看出，用AI做App已经是潮流） 第二是苹果市场悍然拒绝我的产品上架，说是山寨和重复产品，申诉未果，就只能放在testflight里，不过最近两周一直在外面浪，所以一些修复更新还没处理，所以今天暂时不宣传自己做了什么。主要是很多人会疑惑，AI技术越来越强，对小白越来越友好，那么我们还需要学习vibe coding么，那句话咋说来着，只要你学的不够快，你就发现可以不用学了。…",
+      "key_points": [
+        "其实我的vibe coding一直有继续，最近没通报是因为希望后续产品有个稳定的发布版本，但是有点遗憾，第一是审核时间变得很长。（可以看出，用AI做App已经是…",
+        "有一件事我确实又忽视了，TK教主微博提到了大概这么个意思，学习AI的第一步没那么高深，先能做到正确表达。有时候我们以为是理所当然的基本能力，其实很多人不具备，清…",
+        "其实我自己也是，就是很多App或者小程序的开发者，就不是为了赚钱，不是为了做出多成功的产品，是什么呢，自己有需要，市场上也有产品，但是市场上的产品要么就订阅费，…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-15",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "CATTI备考语料：AI微短剧与行业变革 | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+CATTI%E5%A4%87%E8%80%83%E8%AF%AD%E6%96%99%EF%BC%9AAI%E5%BE%AE%E7%9F%AD%E5%89%A7%E4%B8%8E%E8%A1%8C%E4%B8%9A%E5%8F%98%E9%9D%A9+%7C%C2%A0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sat, 11 Apr 2026 08:37:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CATTI",
+        "of",
+        "in",
+        "by",
+        "AI",
+        "has"
+      ],
+      "summary": "主题 ：娱乐产业 / 科技监管 / 商业模式 备考 CATTI 的同学会发现，这篇文章的价值在于它精准踩中了考试最高频的三大题材：科技（ AI ）、经济（商业模式）和社会文化（娱乐监管）。 CATTI 考试向来看重考生对 “ 时政热词 ” 和 “ 行业术语 ” 的把控，而这篇文章恰好提供了这些高分语料。 日期 ： 2026 年 4 月 11 日 素材来源 ： China | Demon hunters and Taoist cats 网址 ： https://www.economist.com/china/2026…",
+      "key_points": [
+        "• 词汇解析 ： ◦ Shake up ：震动、重组、彻底改变。常用于描述行业变革，如 The industry was shaken up by the ne…",
+        "CATTI 核心考点： 1.时政与监管热词 CATTI 考试中，关于 政府政策、监管措施 的翻译是必考内容，且要求用词极其严谨。这篇文章涉及了大量关于 “ 监管…",
+        "◦ Mash ：捣碎、混合。这是一个非常生动的动词，常用于口语或非正式文体。名词形式 Mashup 指 “ 混搭作品 ” 。文中指微短剧是 “ 传统电视剧 ”…"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "聊聊团队协同和协同工具",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22298.html",
+      "published": "Fri, 14 Oct 2022 04:20:38 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "More",
+        "Read",
+        "appeared",
+        "Cali",
+        "CoolShell",
+        "Ep.5"
+      ],
+      "summary": "这两天跟 Cali 和 Rather 做了一个线上的 Podcast &#8211; Ep.5 一起聊聊团队协同。主要是从 IM 工具扩展开来聊了一下团队的协同... Read More Read More The post 聊聊团队协同和协同工具 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 聊聊团队协同和协同工具 first appeared on 酷 壳 - CoolShell",
+        "这两天跟 Cali 和 Rather 做了一个线上的 Podcast &#8211; Ep.5 一起聊聊团队协同。主要是从 IM 工具扩展开来聊了一下团队的协同"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "对比学习在有赞的应用",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/dui-bi-xue-xi-zai-you-zan-d/",
+      "published": "Tue, 05 Jul 2022 03:57:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "NER",
+        "Bletchley",
+        "CLIP",
+        "Connecting",
+        "CRF",
+        "Image"
+      ],
+      "summary": "1. 对比学习的引入 一般做算法任务时，都需要搜集大量标注的数据，假如我们要预测一个商品的产品词（中心词），下面是一个商品标题： 三亚亚龙湾玫瑰谷JESS玫瑰臻白颜透润花瓣 免洗面膜收缩毛孔 这个商品的产品词就是“面膜”，任务就是要把面膜识别出来，看起来是个标准的NER任务，我们也确实使用了CRF和指针网络之类的方法，对于上面这种标题效果还不错，但是由于SaaS商家的经营习惯不同于平台，很少依赖平台搜索流量，所以很多标题很简短甚至不会包含产品词，比如： 迪奥丝绒系列760 专属女团色 蓝调正红 可盐可甜 澳优能立多…",
+      "key_points": [
+        "都需要搜集大量标注的数据，假如我们要预测一个商品的产品词（中心词），下面是一个商品标题： 三亚亚龙湾玫瑰谷JESS玫瑰臻白颜透润花瓣 免洗面膜收缩毛孔 这个商品…"
+      ]
+    }
+  ]
+}
