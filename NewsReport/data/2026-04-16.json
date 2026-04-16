@@ -1,0 +1,813 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T01:00:09.645288+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 120,
+    "fresh_candidates": 62,
+    "backfill_candidates": 58,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-16",
+      "fetched_at": "2026-04-16T01:00:04.353920+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4027.21,
+          "change": 0.58,
+          "change_pct": 0.01,
+          "volume": 569458589.0,
+          "amount": 102885187.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4833.76,
+          "change": 43.25,
+          "change_pct": 0.9,
+          "prev_close": 4790.51,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-16 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1059.5932630089862,
+          "change": 9.48069590239038,
+          "change_pct": 0.9028266301500231,
+          "prev_close": 1050.1125671065959,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-16 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-16",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "今年各大资产竟然都是涨的！为什么这么多人都在亏钱？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%BB%8A%E5%B9%B4%E5%90%84%E5%A4%A7%E8%B5%84%E4%BA%A7%E7%AB%9F%E7%84%B6%E9%83%BD%E6%98%AF%E6%B6%A8%E7%9A%84%EF%BC%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E5%A4%9A%E4%BA%BA%E9%83%BD%E5%9C%A8%E4%BA%8F%E9%92%B1%EF%BC%9F",
+      "published": "Wed, 15 Apr 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "COMEX"
+      ],
+      "summary": "截至4月15日收盘，今年以来，各大资产都是上涨的： ● 股票：上证指数+1.47%，创业板指+9.73%，恒生指数+1.24%，标普500指数+1.78%。 ● 商品：COMEX黄金+11%，布伦特原油+56%。 ● 债券：中债新综合指数+1.26%。 虽然市场是涨的，但很多人因为没有扛住前两个月的波动，导致账户还是亏损的。 一、理解波动：波动是收益的来源，想赚钱首先要扛住波动 我们做投资的初衷很简单——工作赚了钱，这笔钱短期又用不到，与其放在银行卡里躺平，不如做点投资，让钱生钱。 这么平常的初心，就是波动的来源。…",
+      "key_points": [
+        "今年以来，各大资产都是上涨的： ● 股票：上证指数+1.47%，创业板指+9.73%，恒生指数+1.24%，标普500指数+1.78%",
+        "就像今年的市场，明明各个资产都是赚的，可很多人就是亏的，明明A股长期年化收益率和美股差不多，但大部分人就是赚不到钱",
+        "找到适配的投资方案 大多数人都低估了资产的波动，而高估了自己的承受能力，所以在波动来临时，容易乱了阵脚"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "上轮周期与这轮的区别",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3752098686/383962080",
+      "published": "Wed, 15 Apr 2026 09:53:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "JJL",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "上一轮白酒周期： 1，最主要的原因是取消三公消费，这个庞大的市场需求一夜消失，引发了供需关系的严重不平衡，这是最主要的原因。 2，是塑化剂事件，起到了推波助澜的作用。 这一轮白酒周期： 1，疫情三年白酒渠道压货是最主要的原因，这个原因类似当年的水煮驴皮。以豌豆发货为例，大致市场里多了将近一年的正常销售商品。 2， 去年的JJL造成了将近三个月的消费断层 ，使得去年的白酒销售与消费少了将近三个月，造成事实上2025年白酒的年报只有九个月 3， 部分白酒企业利用这个机会借机财务大洗澡 ，三个月的影响期冲抵了半年的业绩，…",
+      "key_points": [
+        "去年的JJL造成了将近三个月的消费断层 ，使得去年的白酒销售与消费少了将近三个月，造成事实上2025年白酒的年报只有九个月 3， 部分白酒企业利用这个机会借机财…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于恒科和中概互联的一些更新",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1936609590/383882494",
+      "published": "Wed, 15 Apr 2026 09:53:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "eps",
+        "ai",
+        "anthropic",
+        "Ds",
+        "ETF"
+      ],
+      "summary": "去年分别写了一篇文章介绍了恒科和中概互联，最近跌得比较惨，问的朋友也比较多，之前回复得比较少，最近也看到一些积极的因素，统一回复一下 25年恒科和中概互联的表现应该说有四个因素： 1、AI加持 指AI让不少公司重新看到增长点，拔了估值 2、流动性加持 去年港股和中概是内外合力的，港股通就南下1万亿+ 3、自身eps改善 外卖三家eps不行，但是腾讯等其它公司25年eps增长是不错的 4、监管正向 Ds爆火后接着民营企业家座谈会，很正面 但是去年后面确实是有一些问题的： 1、AI加持是确定的，但是AI对当下恒科或互联…",
+      "key_points": [
+        "去年分别写了一篇文章介绍了恒科和中概互联，最近跌得比较惨，问的朋友也比较多，之前回复得比较少，最近也看到一些积极的因素，统一回复一下 25年恒科和中概互联的表现…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "政策核弹落地：创新药迎来定价权回归，三大龙头谁主沉浮？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/383985323",
+      "published": "Wed, 15 Apr 2026 09:53:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CXO",
+        "BCL-2",
+        "http",
+        "non-IFRS",
+        "SH600276",
+        "SH603259"
+      ],
+      "summary": "2026年4月14日，国务院办公厅印发《关于健全药品价格形成机制的若干意见》，时隔11年再次以国办名义对药品价格作出顶层设计。这份文件的核心，是让创新药从“放量即降价”的困局中走出来，首次拥有了“价格稳定期”和自主定价空间。市场普遍认为，这将是医药行业从控费压价转向价值驱动的历史拐点。 一、政策核心：定价权回归市场 新政明确提出：对创新程度高、临床价值大的高水平创新药，支持上市初期制定与高投入、高风险相符的价格，并在一定时期内保持价格相对稳定。企业可依据临床价值、市场竞争、社会承受力等因素自主合理定价，接受社会监督…",
+      "key_points": [
+        "一、政策核心：定价权回归市场 新政明确提出：对创新程度高、临床价值大的高水平创新药，支持上市初期制定与高投入、高风险相符的价格，并在一定时期内保持价格相对稳定。…",
+        "文件首次将商业健康保险、公益慈善纳入支付体系，“基本医保+商保”的多层次支付模式正式确立。东吴证券解读认为，创新药定价权回归市场，国内商业天花板将显著提升",
+        "二、三大龙头的不同命运 恒瑞医药：转型纯创新的最大受益者 2025年公司营收316.29亿元，同比增长13.02%；归母净利润77.11亿元，同比增长21.69…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么普通投资者更适合指数基金",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4720136066/383963968",
+      "published": "Wed, 15 Apr 2026 09:53:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "INX",
+        "IPO",
+        "NDX",
+        "SH000300",
+        "xueqiu.com"
+      ],
+      "summary": "以下文字是一位普通投资者经历20年投资生涯后，对投资的一点点想法，也是我以后投资的行动纲领。 在大类投资品（如：股票、黄金、债券、房屋）中，股票毫无疑问是收益率最高的类别，也是普通投资者损失最大的类别。这是为什么呢？因为普通投资者把本该属于自己的利润交给了券商、基金经理、交易所、各种税费、高价IPO、大小非高位套现等等等等，如此这般后，真的所剩无几了。 我们既没有巴菲特的天赋又没有芒格的智慧，所以想靠主动型投资获取大规模利润的希望非常渺茫，除非功德圆满命运眷顾。我们也分辨不出下一个彼得林奇或西蒙斯，所以想靠投资公募…",
+      "key_points": [
+        "在大类投资品（如：股票、黄金、债券、房屋）中，股票毫无疑问是收益率最高的类别，也是普通投资者损失最大的类别。这是为什么呢？因为普通投资者把本该属于自己的利润交给…",
+        "要成为业内翘楚，都需要付出极大的努力，当然还需要极高的天赋。唯有最难的投资领域，要战胜专家，反而是最简单的。我们只需要两个最简单的动作：1、买入宽基指数；2、持…",
+        "以下文字是一位普通投资者经历20年投资生涯后，对投资的一点点想法，也是我以后投资的行动纲领"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些流传甚广的生物学「常识」其实是错误的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789015",
+      "published": "Invalid Date",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Picozoa",
+        "B.",
+        "Bartheletiomycetes",
+        "Basidiomycota",
+        "BPG",
+        "BV1zw41187Dn"
+      ],
+      "summary": "mekdull， chem is try！永远记得对化学和生物的热爱！ 查看知乎原文 当然是很多人口中“ 独占一个门 ”的物种—— 银杏 。 没错，这是一个流传甚广的 谣言 。事实上，在如今的分类系统中，银杏不但 不可能成为一个门 ，反倒 很有可能降级成一个目 ，自此泯然众人。所以，这究竟是为什么呢？ 秋天的银杏叶（图源：PWO） 简单来说，就是银杏虽然经常被称为 活化石 ，但相比于其他门级别的支系，它的 资历还是太浅了 。即使按照最激进的估计，银杏的分化时间也不会超过 四亿年 ；虽然听起来好像是非常古老，但这与分…",
+      "key_points": [
+        "这是一个流传甚广的 谣言 。事实上，在如今的分类系统中，银杏不但 不可能成为一个门 ，反倒 很有可能降级成一个目 ，自此泯然众人。所以，这究竟是为什么呢",
+        "皮胆虫门的潜在多样性是很高的，只不过目前确实只有一个物种被命名。在未来，皮胆虫门可能会随着更多新物种的发现而脱离单种门的队伍 不过，分子生物学明确表明，皮胆虫是…",
+        "植物界的系统发育树 植物界的系统发育树（个人整理）；图中显示的所有支系分化历史都超过六亿年，即分化在显生宙之前 从演化角度来说，这其实很好理解：多细胞的陆地植物…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "大熊猫吃那么多竹子不扎胃吗？不扎屁股吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789033",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DEE",
+        "GPa",
+        "HV",
+        "SEM-EDS",
+        "TAS1R1",
+        "Ailurarctos"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 古籍里有一种动物叫“貘”，黑白相间，“能舐食铜铁及竹骨” [1] 。 「似熊，小头庳脚，黑白驳，能舐食铜铁及竹骨。骨节强直，中实少髓，皮辟湿。或曰豹白色者别名貘。貘，音陌。」 语言学家王力考证，这个“貘”写的大概就是大熊猫。后来这个字被张冠李戴给了南美洲的 tapir，大熊猫反而丢了自己的古名，只留下一个外号： 食铁兽 。 “食铁兽”啃铁，现在看来大概率是缺钠。 野外大熊猫偶尔被拍到啃食羚牛骨头，2014 年 [2] 和 2021 年…",
+      "key_points": [
+        "上图为大熊猫每日能量消耗(DEE)：(A)与体重关系 (B)全年变化 (C)与温度关系 (D)与其他哺乳动物对比（红点为大熊猫，虚线=预期值 37%） 每天要吞…",
+        "排黏和竹食之间的关系很紧密：每年十月排黏频率出现显著高峰，这可能与大熊猫从竹茎转向竹叶的季节性食谱切换有关。反过来说，当大熊猫停止吃竹子后，肠道也会排出大量黏液…",
+        "大熊猫牙釉质微纳结构 ： 下图，牙釉质自修复机制，纳米压痕损伤区在一天水合处理后，羟基磷灰石纳米纤维的取向出现显著恢复： 牙齿搞定了入口。但竹子碎片还要走完整条…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "都说生物的基因像屎山代码，那在演化史上有没有屎山被推倒重构的案例？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789023",
+      "published": "Invalid Date",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DNA",
+        "DVNP",
+        "Gb",
+        "HLPs",
+        "sp.",
+        "Erythropsidinium"
+      ],
+      "summary": "mekdull， chem is try！永远记得对化学和生物的热爱！ 查看知乎原文 有倒是有，但所谓重构也不过是从一座屎山，奔向另一座 更大的屎山 。不过，对于本文的主角，真核生物中 最权威的屎山拥有者 —— 甲藻 （Dinophytes）来说，那是它生存的最终秘技。 先来直观地感受一下甲藻的基因组有多恐怖。现在正在看这篇文章的你，作为 智人 （ Homo sapiens ）中的一员，单倍体基因组约有 30 亿碱基对，也就是 3Gb ； 动物中最知名的屎山代码，非洲肺鱼属的 石花肺鱼 （ Protopterus…",
+      "key_points": [
+        "先来直观地感受一下甲藻的基因组有多恐怖。现在正在看这篇文章的你，作为 智人 （ Homo sapiens ）中的一员，单倍体基因组约有 30 亿碱基对，也就是…",
+        "B 型，Z 型） 所以，下次你再碰到有人说地球生物的 DNA 只有右旋， 没有左旋 时，就让他来看看甲藻。此时他就会知道，什么左旋镜像生命，那 都是自然界玩剩下…",
+        "组蛋白（中心部分）与缠绕在其上的 DNA 链 到了这一步，甲藻显然也 没有了回头的可能 ，只能仗着高压缩比腾出的空间收集各路基因，以期找到能够为自己提供生存优势…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "深度拆解Google AI逆风翻盘：打赢 ChatGPT 的，从来不是技术，而是组织与算力的残酷物语",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6377936.html",
+      "published": "Wed, 15 Apr 2026 09:27:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Google",
+        "AI",
+        "Gemini",
+        "TPU",
+        "DeepMind",
+        "Brain"
+      ],
+      "summary": "Gemini的逆袭不仅是一场技术突围，更揭示了AI时代产品竞争的全新逻辑。从Google内部的组织阵痛到自研TPU的算力突围，这场千日反击战重新定义了产品经理的思考维度——真正的竞争力往往藏在组织协同、战场选择和成本基建这些看不见的底层。 最近下班后去夜跑，耳机里一直循环播放着各种商业科技播客，脑子里却反反复复在推演 Google 靠 Gemini 绝地反击的这 1000 天。 这段时间，我一直在摸索如何深挖 AI 产品经理的行业深度。每天下班后，我都一头扎进暗黑模式的 IDE 里，尝试用 Windsurf搞”Vi…",
+      "key_points": [
+        "觉得 Google 技术不行了。但只要经历过大厂跨部门协作的人都懂，这根本不是技术断代，而是严重的内部组织损耗和山头林立造成的必然结果",
+        "Google 就是看准了这个体验盲区。哈萨比斯把公司最宝贵的算力资源没有全部去堆参数量，而是集中砸向了 超长文本（Long Context） 处理能力。这不是加…",
+        "觉得它其实揭示了一个挺残酷的道理—— 很多时候，阻碍产品体验提升的根本不是需求不清晰、也不是设计方案不够好，而是部门墙和技术债在暗中绞杀一切"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "在 AI 创业公司做产品负责人的一年",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6377784.html",
+      "published": "Wed, 15 Apr 2026 09:25:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PMO",
+        "agent",
+        "demo",
+        "AGI",
+        "ASR"
+      ],
+      "summary": "在AI创业浪潮中，产品经理的角色正在被重新定义。当技术幻觉与真实用户需求不断碰撞，一个资深产品人用一年时间验证了关键认知：AI产品的核心不是搬运模型能力，而是构建价值容器。从重构团队定位到定义数字主题世界，这篇文章揭示了AI产品经理如何在前沿技术与商业现实之间架起桥梁。 如果要我用一句话总结过去这一年，我会说： 我做的不是把技术变成功能，而是在反复区分两件事：什么是真实的用户需求，什么是技术给人制造的幻觉。 这句话几乎概括了我这一年最重要的工作：重建产品团队的位置，和算法团队协作与博弈，推动实验性方向从概念走向落地…",
+      "key_points": [
+        "而是 AI 产品负责人的核心能力 我后来越来越觉得，在 AI 创业公司里，PMO 不是辅助能力，而是产品负责人的核心能力之一",
+        "不是我做了多少功能，而是我越来越确认： 在 AI 创业公司里，产品负责人最重要的工作，不是追着模型能力跑，而是持续判断：什么东西现在只是技术幻觉，什么东西才真正…",
+        "产品负责人还要管理技术团队的预期 这一年最难的沟通，很多时候不是向老板要资源，而是向算法团队解释，为什么我们要在某些前沿方向上踩刹车"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "互联网养虾人尝到的甜头和苦头",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377963.html",
+      "published": "Wed, 15 Apr 2026 08:48:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Token",
+        "AI",
+        "OpenClaw",
+        "API",
+        "Claude",
+        "Sonnet"
+      ],
+      "summary": "当阿里云、百度智能云等算力涨价5%-30%，模型侧省下的钱正被算力侧收回，Token正成为继流量后的新基础支出。这场\"龙虾淘金热\"中，OpenClaw以20.3T tokens领跑应用榜却免费开源，真正的资金流向模型厂商和云基础设施商，而智谱、MiniMax等模型厂商仍在\"消耗涨、利润没跟上\"的困境中挣扎。 小鹿向新莓回忆起不久前的一场AI小事故，仍然心有余悸。 小鹿在北京一家媒体负责运营，一个人管理着三个账号。她对没有用上AI智能体之前的生活有一个精准的形容，「每一项工作都不难，但加在一起就是搞死人。」刷信息流找…",
+      "key_points": [
+        "其实都指向一个所有养虾人必须接受的现实，即养虾的前期成本，远不止金钱",
+        "Token调用量暴涨直接推高算力需求，多模态生成技术进一步加速了这一趋势。「以多模态生成为例，生成1分钟视频需消耗约10万亿Token，而国产视频模型的价格已低…",
+        "四种用法，但交给「虾」的活儿却高度一致，多为重复的、格式化的琐事。正如麦肯锡2025年全球AI调查显示，AI真正大规模渗透的场景，集中在流程清晰、标准化程度高、…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI视频三国杀：阿里逼宫，字节开放",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377935.html",
+      "published": "Wed, 15 Apr 2026 08:26:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "HappyHorse",
+        "Seedance2.0",
+        "Seedance",
+        "Sora",
+        "API"
+      ],
+      "summary": "阿里视频大模型HappyHorse以匿名身份空降Video Arena盲测榜单登顶，将Seedance 2.0甩出55分，三天后官方认领这匹\"千里马\"——字节随即全面开放Seedance 2.0 API并接入Claw生态。OpenAI关停Sora后，AI视频赛道进入\"三国杀\"：阿里凭单流Transformer架构和7种语言唇形同步剑指电商场景，字节以90%可用率和病毒式模板抢占C端，快手可灵ARR已破2.4亿美元。当技术差距缩小，价格战与生态协同将成为决胜关键。 4月14日，字节跳动旗下火山引擎正式上线Seedan…",
+      "key_points": [
+        "阿里视频大模型HappyHorse以匿名身份空降Video Arena盲测榜单登顶，将Seedance 2.0甩出55分，三天后官方认领这匹\"千里马\"——字节随…",
+        "OpenAI 宣布关停 Sora，所有人都以为，Seedance 2.0 要在AI视频生成模型领域一统天下，阿里却出其不意，截胡字节Seedance与快手可灵",
+        "“字节在年费之上推出vvip等升级服务，算是变相提价了，就是因为Seedance一家独大”， 有用户向《财经故事荟》吐槽，“现在HappyHorse上线，估计字…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "你的公司为什么还在用上世纪的组织架构做AI时代的生意？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6377933.html",
+      "published": "Wed, 15 Apr 2026 08:19:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PM",
+        "QA",
+        "Copilot",
+        "GTM",
+        "agent"
+      ],
+      "summary": "AI时代组织架构正经历范式重构——层级制度的核心功能\"信息路由\"被AI瓦解，翻译层（PM→设计→工程→QA→GTM）被压缩至接近零，串行交付转向3-5人精锐小队同步推进。Meta、微软、Apple等巨头正系统性压缩中层：Meta推50:1工程师-管理者比例，Apple将Siri并入软件工程组织，微软合并Copilot架构。护城河从执行速度迁移到学习速度——组织能多快围绕AI重构自身。真正的AI-native组织尚未诞生，但方向已清晰：个体长程化、组织短程化、能力原子化、信息路由自动化。 前几天在X上刷到Freda…",
+      "key_points": [
+        "给全员开了license，CTO在all-hands上说”我们要拥抱AI”。三个月后复盘——代码生成快了很多，文档写得顺了一点，会议纪要自动化了，但ROI并没有…",
+        "AI时代组织架构正经历范式重构——层级制度的核心功能\"信息路由\"被AI瓦解，翻译层（PM→设计→工程→QA→GTM）被压缩至接近零，串行交付转向3-5人精锐小队…",
+        "大厂：从没这么大/多变化；但还没AI原生 一个投资的”秘密/技巧”，一直以来都是选股这些正在经历组织重构的公司——大型reorg之后通常会有增速和margin的…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "全世界消耗Token最多的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%A8%E4%B8%96%E7%95%8C%E6%B6%88%E8%80%97Token%E6%9C%80%E5%A4%9A%E7%9A%84%E4%BA%BA",
+      "published": "Wed, 15 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Jin",
+        "Sigrid",
+        "Token",
+        "Code",
+        "Claude"
+      ],
+      "summary": "本文授权转载自微信公众号AI故事计划（ID: AIstory1） 2025年之前，想要证明自己混得好，大概得腕上戴块百达翡丽，车库里停辆库里南。但到了AI时代，硬通货变了：看你一年到底烧了多少Token。 一年烧掉250亿个Token，有位25岁的韩国小伙子，成了全世界最能烧的人。 2025年12月，首尔江南区一家中餐馆里，Anthropic（Claude系列大模型的开发公司）摆了一桌私宴。公司联合创始人Ben Mann带着几位高管，跟一群重度用户围坐一桌，畅谈怎么让AI代理系统跑得更稳、更靠谱。 席间最打眼的是一…",
+      "key_points": [
+        "这个“全世界烧Token最多的人”，终于成了真正握有AI掌控权的那一拨人",
+        "有位25岁的韩国小伙子，成了全世界最能烧的人",
+        "而当他把Claude Code的灵魂用免费的Claw Code还给全世界时，故事才真正收尾"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么刚刷完牙，过两小时一张嘴又臭了?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%9A%E5%88%B7%E5%AE%8C%E7%89%99%EF%BC%8C%E8%BF%87%E4%B8%A4%E5%B0%8F%E6%97%B6%E4%B8%80%E5%BC%A0%E5%98%B4%E5%8F%88%E8%87%AD%E4%BA%86%3F",
+      "published": "Wed, 15 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OXYD-8",
+        "ml",
+        "ADA",
+        "CPC",
+        "cpc",
+        "End"
+      ],
+      "summary": "口臭不是病，但尴尬起来是真要命。😷 尤其是当你不知道自己有口臭，却突然被旁边人“嫌弃”的时候—— 😓 开会时你慷慨陈词，同事却皱着眉默默把椅子往后挪了半米； 😓 和朋友凑近说悄悄话，意外发现他身体下意识往后缩了一下； 😓 亲密时刻想和对象亲亲，她问你要不要先来颗口香糖...... 但倘若你 知道自己有口臭 ， 心理包袱只会变更重 ，社交场合秒变内向I人，生怕一张嘴熏到别人...... 更要命的是，连吸猫都会遭到嫌弃😓。 \"滚啊，恶臭的人类！\" 在全世界，有超过 1/3 的人都被口臭这个烦恼困扰着 [1] 。 严重的…",
+      "key_points": [
+        "这就解释了部分朋友的困惑：为什么刚 刷完牙很清爽，过一会儿一张嘴还是臭",
+        "心理包袱只会变更重 ，社交场合秒变内向I人，生怕一张嘴熏到别人",
+        "中午吃完螺蛳粉用它漱口，到下午快下班开会时张嘴说话，旁边同事也没有下意识地捂鼻子~ 蓝色：双重薄荷 清新度🌿🌿🌿🌿 冰凉度🧊 🧊 🧊 🧊 这款比较适合 喜欢酷爽…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "东北人搬去海南，大脑会悄悄发生什么变化？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%9C%E5%8C%97%E4%BA%BA%E6%90%AC%E5%8E%BB%E6%B5%B7%E5%8D%97%EF%BC%8C%E5%A4%A7%E8%84%91%E4%BC%9A%E6%82%84%E6%82%84%E5%8F%91%E7%94%9F%E4%BB%80%E4%B9%88%E5%8F%98%E5%8C%96%EF%BC%9F",
+      "published": "Wed, 15 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "articles",
+        "www.nature.com",
+        "AqdYf9attnU",
+        "article",
+        "Banana"
+      ],
+      "summary": "当听到“玫瑰”这个词时，你首先感受到的是什么？ 是鲜艳的红色？还是摸上去微微发滑、又带点绒感的花瓣？又或者，你的第一反应其实不是玫瑰本身，而是“带刺的玫瑰”“铿锵玫瑰”等意象。 同一个词，能唤起人们不同的感受，这种差异在不同语言背景下更为显著。 当法国人听到“rose”时，或许更容易联想到浪漫。 你可能会说，这很正常。毕竟法国远隔重洋，我们的文化大相径庭，对玫瑰的理解当然不同。 不过，最近一项发表于《自然·通讯》（ Nature Communications ）的研究表明， 我们对概念的理解差异，不只来自文化差异、…",
+      "key_points": [
+        "气候对认知的影响很可能是一个动态的过程。虽然这项研究在分析时考虑的是受试者当时所处环境的气候条件，但在现实生活中，人们会移动、迁徙，会搬到不同地区工作和生活。毕…",
+        "它们最终都要经过大脑，才会形成你对这一概念的认知。大脑会调动不同的区域和网络，来处理不同类型的信息， 譬如感官层面的颜色、形状、味觉、嗅觉、声音、触觉和运动，当…",
+        "大脑是一个长期被忽视的环节丨GPT-Image-1.5 尽管这项研究旨在比较不同语言背后的共性与差异，但研究团队也研究了说着同一语言、但生活在不同气候条件下的受…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "每天一杯咖啡的注意了！牙黄居然跟这个有关……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%9D%AF%E5%92%96%E5%95%A1%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%86%EF%BC%81%E7%89%99%E9%BB%84%E5%B1%85%E7%84%B6%E8%B7%9F%E8%BF%99%E4%B8%AA%E6%9C%89%E5%85%B3%E2%80%A6%E2%80%A6",
+      "published": "Wed, 15 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "or",
+        "PAC",
+        "Covasorb",
+        "dc_ps",
+        "detail",
+        "DROPS"
+      ],
+      "summary": "是谁，每天早上不灌一杯 冰美式 就睁不开眼，下午不点杯 奶茶 就感觉工作没有灵魂？ 日子一久，猛然发现——牙齿好像偷偷 “上了色”： 牙缝里藏着若隐若现的咖啡渍，门牙上蒙着一层淡淡的奶茶黄…… 图源：图虫创意 于是—— 别人大笑：哈哈哈哈哈哈哈哈😁 你大笑：慌忙捂嘴，生怕露出尴尬黄牙🤭 别人涂口红：唇红齿白，明艳动人 😬 你涂口红：显得牙更黄，气质也掉线😓 也曾心动想去做 冷光美白 ，一问价格——好家伙， 一次好几千 ，只能维持1-2年！关键 做完那叫一个酸爽 ，做过的朋友跟我说：吃饭痛、喝水 痛 、连呼吸都 痛…",
+      "key_points": [
+        "咱直接上对比图来感受一波儿变化👇 ⭐️ 试用代表一： 日均2杯咖啡起步的运营同事，使用小蓝V牙膏",
+        "每天早上不灌一杯 冰美式 就睁不开眼，下午不点杯 奶茶 就感觉工作没有灵魂",
+        "猛然发现——牙齿好像偷偷 “上了色”： 牙缝里藏着若隐若现的咖啡渍，门牙上蒙着一层淡淡的奶茶黄…… 图源：图虫创意 于是—— 别人大笑：哈哈哈哈哈哈哈哈😁 你大…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "2026中国网络视听大会，抖音的动向值得关注",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+2026%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E8%A7%86%E5%90%AC%E5%A4%A7%E4%BC%9A%EF%BC%8C%E6%8A%96%E9%9F%B3%E7%9A%84%E5%8A%A8%E5%90%91%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8",
+      "published": "Wed, 15 Apr 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "4 月 15 日，在 2026 年第十三届中国网络视听大会上，抖音集团发布最新真人短剧扶持计划：平台将投入 5 亿元专项资金，持续扶持真人短剧内容创新与现实题材深耕；同步推出多层次激励政策与 「 短剧创作者中心 」 平台，推动分账透明化，帮助主创降低投资风险和创作门槛、提升作品影响力。 随着扶持政策落地，短剧市场活力进一步激活，更多项目开机与制作需求将持续释放，带动编剧、导演、演员、摄影、灯光、服化道、后期制作、宣发运营等岗位用工，助力短剧产业链上下游协同发展。 红果短剧总编辑乐力在现场发言中表示，真人短剧是行业高…",
+      "key_points": [
+        "在 2026 年第十三届中国网络视听大会上，抖音集团发布最新真人短剧扶持计划：平台将投入 5 亿元专项资金，持续扶持真人短剧内容创新与现实题材深耕；同步推出多层…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "最近重看一遍，我的评价更高了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%80%E8%BF%91%E9%87%8D%E7%9C%8B%E4%B8%80%E9%81%8D%EF%BC%8C%E6%88%91%E7%9A%84%E8%AF%84%E4%BB%B7%E6%9B%B4%E9%AB%98%E4%BA%86",
+      "published": "Wed, 15 Apr 2026 20:30:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ammn",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 ammn 维伦纽瓦的《降临》 十年前出来时，大家的评价都挺高。 最近又重看一遍，我对它的评价，比当年更高了。 《降临》(2016) 影片改编自 华裔科幻小说作家 姜峰楠的中篇小说《你一生的故事》，讲 一个 语言学家露易丝 ·班克斯被军方征召去破译外星生物七肢桶的语言，在这个过程中，她的意识经历了一场根本性的转变 ， 获得了同时感知过去、现在和未来的能力。 影片其实不是关于语言学的，它是一部标准的哲学电影。它的 全部哲学重量，是压在这样一个问题上—— 如果你预先知道了自己 的 一生，包括那些最深的丧失和痛苦，你是…",
+      "key_points": [
+        "我对它的评价，比当年更高了",
+        "文 ammn 维伦纽瓦的《降临》 十年前出来时，大家的评价都挺高",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 重看国师被骂飞的这部电影，有些新感受 喜欢超长电影吗？推荐33部超过3小时的电影 拒绝成功…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最美市花，一朵花读懂一座城",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%BE%8E%E5%B8%82%E8%8A%B1%EF%BC%8C%E4%B8%80%E6%9C%B5%E8%8A%B1%E8%AF%BB%E6%87%82%E4%B8%80%E5%BA%A7%E5%9F%8E",
+      "published": "Wed, 15 Apr 2026 17:02:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Carol",
+        "Song"
+      ],
+      "summary": "每一座城市， 都有属于自己的气质。 而市花，总能将一座城的品格 凝练于一瓣芬芳、一树繁花之中。 当我们读懂一朵花为何被一座城深爱， 便也读懂了这座城的 过往、当下与远方...... 广东广州 木棉，最是岭南春 在“四季不明”的广州，人们很难确切地说出春天何时到来，除非——枝头夺目的木棉花开了！ 木棉很早就与广州结下了缘分。唐宋时期，越秀山麓、甘溪两岸便已广植木棉，文人墨客以 “满城都是木棉花” 来描绘岭南春色。清代更是有 “羊城古木棉八景” ，其地点依次为：越王故台、南海神庙、光孝寺、净慧寺、五仙观、玉岩书院、十丈…",
+      "key_points": [
+        "[8] 一朵花读懂一座城｜济南市·荷花 映日荷花满城香",
+        "并非一种花 在高海拔地区，一朵花的绽放往往珍贵而又震撼。青藏高原的稀薄空气与强烈日照，让这里的每一株植物都必须具备超乎寻常的生命韧性。而格桑花，正是这份韧性的化…",
+        "古今顶流 在古都南京，有一朵花陪伴着这里度过了千年时光——梅花，用一身傲骨和暗香，把南京的历史过往、文人风骨、山水灵气，都藏进了一树树花影里"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "告别追剧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%91%8A%E5%88%AB%E8%BF%BD%E5%89%A7",
+      "published": "Wed, 15 Apr 2026 11:56:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "side",
+        "AI",
+        "ar",
+        "at",
+        "attire"
+      ],
+      "summary": "今天看到各家网盘封杀海外剧的消息，突然意识到自己已经很久没有追剧，距离上次追《幕府将军》已经过去了一年多时间。 曾几何时，我是个通宵追剧的人。《X 档案》《六尺风云》《白宫风云》《迷失》《波士顿律师》《反恐 24 小时》《豪斯医生》《绝命毒师》这些剧都是那么一集集追下来的，一边眼胀眼花眼发酸，太阳穴突突突地疼，一边手指又坚决地按向了「下一集」。 事情应该是在《风骚律师》的最后一集时发生的变化，男女主人公分别站在日光和阴影的交界线两边抽烟，宛若他们在多年前一样，我就觉得心里有什么东西突然结束掉了，降温了，退潮了，最后…",
+      "key_points": [
+        "要么是他可以轻易地把追剧的优先级置于其他事情之上；要么是他每晚的确有一段无所事事的时光需要打发。无论是哪一种，都和个人的时间安排有关。而我最近几年间生活慢慢地发…",
+        "也许这才是对于电视剧的致命一击。当初我为什么要追剧，简单说就是一个字：爽。追剧的时候，我整个人是沉浸在剧情里，跟随着人物的一举一动，一颗心上跳下窜，内心的各种欲…",
+        "有些效果显著，有些带来的改变则是潜移默化，最终导致追剧这件事情从我生活中无声无息地移除，仿佛从来没有存在过一样。说句实话，《幕府将军》的最后两集我到现在都还没看…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "斯坦福2026报告：中国AI模型追上美国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%96%AF%E5%9D%A6%E7%A6%8F2026%E6%8A%A5%E5%91%8A%EF%BC%9A%E4%B8%AD%E5%9B%BDAI%E6%A8%A1%E5%9E%8B%E8%BF%BD%E4%B8%8A%E7%BE%8E%E5%9B%BD",
+      "published": "Wed, 15 Apr 2026 08:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Arena",
+        "DeepSeek",
+        "Anthropic",
+        "Gemini",
+        "OpenAI"
+      ],
+      "summary": "4.15 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash 撰 文 | 张天祁 责编 | 李珊珊 ● ● ● 4月13日，斯坦福大学发布了《2026年AI指数报告》。这是一份业内人士翘首以待的AI领域重磅年度报告，报告以243页的篇幅、9个章节、数百张图表，记录了过去一年AI发展的真实面貌。 在这份报告中，AI的发展继续一路高歌猛进，大量原本预期可以维持数年的高难度基准测试，如今往往在几个月内便告破防。然而，在一些普通人类可以轻松完成的\"简单\"任务中，AI却依然屡屡碰壁。 AI持续…",
+      "key_points": [
+        "以下为报告中的重要数据与结论摘选： 01 顶级模型性能，中美只差2.7% 过去几年间，大家有一个普遍的印象：美国在大模型领域遥遥领先，中国在努力追赶但始终有差距…",
+        "4.15 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash 撰 文 | 张天祁 责编 | 李珊珊 ● ● ● 4月13日，斯坦…",
+        "美国产出了50个代表性模型，中国产出了30个。根据各个模型在Arena排行榜上的得分，截至2026年3月，Anthropic的顶级模型在Arena排行榜上以El…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "把200个开发者关48小时，小红书是怎么想的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%8A%8A200%E4%B8%AA%E5%BC%80%E5%8F%91%E8%80%85%E5%85%B348%E5%B0%8F%E6%97%B6%EF%BC%8C%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%98%AF%E6%80%8E%E4%B9%88%E6%83%B3%E7%9A%84%EF%BC%9F",
+      "published": "Wed, 15 Apr 2026 23:04:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Build",
+        "Public",
+        "In",
+        "Taste",
+        "UGC"
+      ],
+      "summary": "文 ｜ 阑夕 月初，小红书办了一场黑客松，包了张江科学会堂整个场馆，把200个开发者关在里面48小时，靠产品决出吃鸡选手。 如果还用旧的眼光看待小红书，这显然不是它该做的事情，但在相继举办了独立开发大赛、成为谷歌I/O大会首席内容合作平台之后，闯入黑客松这条赛道，几乎可以说是顺理成章。 和大多数社区产品会受困于基本盘而撞上发展瓶颈不同，小红书这些年来不断外延用户边界的实证，反而不太见得到先例可循，从二次元到游戏再到科技，所到之处，皆有城寨。 这就有点意思了。 加缪说过，了解一座城市的方法，就是看里头的人做什么，爱什…",
+      "key_points": [
+        "小红书办了一场黑客松，包了张江科学会堂整个场馆，把200个开发者关在里面48小时，靠产品决出吃鸡选手",
+        "开发者群体在小红书「遍地开花」的情景也是如此，要说必然，当然离不开小红书确实做了的主动行为，包括对科技品类的笔记进行扶持，但从结果来看，最后长出来的内容生态，其…",
+        "· · · 这些年轻人和小红书双向奔赴的原因也在于此，在其他老登味儿的开发者社区，他们多半只会得到「没啥技术含量」「已经有了」「我抄一个吧」的评价，但在小红书的…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-16",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "经济学人每日一词：Alienation",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%8D%EF%BC%9AAlienation",
+      "published": "Fri, 10 Apr 2026 11:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Alienation",
+        "of",
+        "alienation",
+        "is",
+        "parental",
+        "acid"
+      ],
+      "summary": "每日一词 ： Alienation 词性 ：名词 (n.) 发音： /ˌeɪ.li.əˈneɪ.ʃən/ 考试适用： GRE, GMAT, TOEFL, IELTS, CATTI, 考研英语 , 法律英语 含义解析： 从 “ 疏远 ” 到 “ 夺心 ”。这个词源于拉丁语 alienus （属于别人的），词根是 alius （其他的）。 它的含义可以分为三个层次： 日常含义：指人际关系上的 “ 疏远 ” 、 “ 离间 ” 。比如朋友反目，或者夫妻因误会而冷淡。 社会 / 哲学含义：指 “ 异化 ” 。这是社会学的高频…",
+      "key_points": [
+        "每日一词 ： Alienation 词性 ：名词 (n.) 发音： /ˌeɪ.li.əˈneɪ.ʃən/ 考试适用： GRE, GMAT, TOEFL, IEL…",
+        "（新的管理风格在员工中引起了一种疏离感。） ✨ 每日金句： “ Alienation is a form of living death",
+        "Economic alienation ：经济异化"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "从一次经历谈 TIME_WAIT 的那些事",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22263.html",
+      "published": "Tue, 19 Jul 2022 06:43:39 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TIME_WAIT",
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first"
+      ],
+      "summary": "今天来讲一讲TCP 的 TIME_WAIT 的问题。这个问题尽人皆知，不过，这次遇到的是不太一样的场景，前两天也解决了，正好写篇文章，顺便把 TIME_WAIT... Read More Read More The post 从一次经历谈 TIME_WAIT 的那些事 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 从一次经历谈 TIME_WAIT 的那些事 first appeared on 酷 壳 - CoolS…"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "有赞算法平台之模型部署演进",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/you-zan-suan-fa-ping-tai-zhi-mo-xing-bu-shu-yan-jin/",
+      "published": "Tue, 21 Jun 2022 03:35:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ABox",
+        "tensorflow",
+        "druid",
+        "kafka",
+        "Metric",
+        "Sunfish"
+      ],
+      "summary": "一、 前言 模型部署作为算法工程落地的最后一公里，其天然对算法团队而言具有较高的复杂性，不仅要考虑如何高效地部署、管理不同框架模型，还需要考虑分布式服务的负载均衡、故障容错、可扩展性、资源隔离、限流、核心指标监控等问题。 这些都极大的依赖于工程团队的能力，不是算法团队的强项，如何解决这最后一公里，让焦点聚焦在模型开发上，是模型部署服务模块需要解决的问题。 二、 原有架构 2.1 架构设计 在有赞算法平台Sunfish包含算法训练和模型部署两部分， 模型部署的模块称为ABox（小盒子）。 ABox 主要提供将模型部署…",
+      "key_points": [
+        "二、 原有架构 2.1 架构设计 在有赞算法平台Sunfish包含算法训练和模型部署两部分， 模型部署的模块称为ABox（小盒子）",
+        "一、 前言 模型部署作为算法工程落地的最后一公里，其天然对算法团队而言具有较高的复杂性，不仅要考虑如何高效地部署、管理不同框架模型，还需要考虑分布式服务的负载均…",
+        "不是算法团队的强项，如何解决这最后一公里，让焦点聚焦在模型开发上，是模型部署服务模块需要解决的问题"
+      ]
+    }
+  ]
+}
