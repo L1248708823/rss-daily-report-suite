@@ -1,0 +1,901 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T01:00:09.495624+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 114,
+    "fresh_candidates": 69,
+    "backfill_candidates": 45,
+    "items_published": 26,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-21",
+      "fetched_at": "2026-04-21T01:00:04.189459+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4082.13,
+          "change": 30.7,
+          "change_pct": 0.76,
+          "volume": 589841379.0,
+          "amount": 108457801.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4823.39,
+          "change": 2.7600000000002183,
+          "change_pct": 0.06,
+          "prev_close": 4820.63,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-21 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1057.18052013439,
+          "change": 0.6049310206249174,
+          "change_pct": 0.057253927391254775,
+          "prev_close": 1056.575589113765,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-21 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-21",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么总在钱上做错决定？你可能被困在一套“金钱剧本”里",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E5%9C%A8%E9%92%B1%E4%B8%8A%E5%81%9A%E9%94%99%E5%86%B3%E5%AE%9A%EF%BC%9F%E4%BD%A0%E5%8F%AF%E8%83%BD%E8%A2%AB%E5%9B%B0%E5%9C%A8%E4%B8%80%E5%A5%97%E2%80%9C%E9%87%91%E9%92%B1%E5%89%A7%E6%9C%AC%E2%80%9D%E9%87%8C",
+      "published": "Mon, 20 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Klontz",
+        "money",
+        "status",
+        "avoidance",
+        "bias",
+        "Brad"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 晨星投资说 很多人认为，投资做不好，无非是因为不懂技巧、缺少金融知识。但很多时候，真正阻碍我们积累财富的，未必是技巧本身。 美国金融心理学家Brad Klontz曾提出了一个很有意思的概念，叫做“金钱剧本”（Money Script）。 就像我们常说“人生像拿了某种剧本”，在金钱这件事上也是如此：童年经历、家庭环境，会在不知不觉中塑造一个人对金钱的理解，并影响他日后的消费、储蓄和投资…",
+      "key_points": [
+        "我真正把兴趣转向了“金钱心理学”。我去看当时心理学领域有没有相关研究，结果发现几乎什么都没有。真正点燃我好奇心的，就是这个问题：为什么一个本来还算聪明的人，会在…",
+        "我从与客户工作的经验中，尽可能广泛地收集了各种与金钱有关的观念，然后再把这些观念与收入、净资产、社会经济地位、信用卡使用行为、赌博、囤积、工作成瘾等各种变量做对…",
+        "第四类叫作“金钱警觉”（money vigilance） 。在我们研究过的人群中，这一类和富人的关联最强。它对应的观念包括：“为不时之需存钱很重要。”“如果没有…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "半导体行业观察：上限看端侧，下限看Q布，由光入布好。",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1881623904/384621553",
+      "published": "Mon, 20 Apr 2026 09:59:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OCS",
+        "CPO",
+        "ASIC",
+        "GPU",
+        "SRAM",
+        "CW"
+      ],
+      "summary": "光通信产业正在进入史上最混乱的一年。过去四十年&#34;四年翻倍&#34;的光模块技术迭代节奏，被3.2T时代硬生生打断——单通道400G信号在光模块到交换芯片之间十几厘米的距离上难以保真传输，直接导致可插拔光模块、CPO、NPO、XPO以及基于新型光电器件的MEC类方案五条赛道同时起跑、争夺下一代市场份额。但更重要的是，整条供应链真实信号被严重失真：EML芯片、CW激光器、InP衬底等上游核心物料普遍出现&#34;超量下单&#34;，越往上游放大倍数越大，磷化铟（InP）衬底当前订单总量已达头部供应商产能的4-5…",
+      "key_points": [
+        "所以最后综上所述： 端侧推理芯片ASIC（群雄逐鹿）＞Q布（但是Q布的标的异常清晰）＞存储（目前看也是超市错觉）＞npo，xpo，ocs（后面只有懂的人能赚钱）…",
+        "都是台积电生产的样品，半导体设备的特点是 “没有量产规模，成本会极高”—— 样品成本可能是未来量产成本的几千倍、上万倍，而且英伟达为了生产 CPO 芯片，甚至用…",
+        "远远超过美国。不管是金融、政府治理、生物医药，还是智慧城市，国内的行业智能体落地速度更快、更成熟。而存算一体芯片的核心应用场景，就是行业智能体的端侧推理，国内在…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "（周记328）聊聊茅台年报丨别被过度安抚，短期快乐，长期痛苦",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1643044849/384660334",
+      "published": "Mon, 20 Apr 2026 09:59:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "声明： 文中可能会涉及个股，只是思路分享不代表绝对正确，也不代表买卖推荐，请保持独立思考，据此买卖，风险自负。 黑白不建群，不私下主动联系读者，不开付费星球等付费社区。如果有人以我的名义向你收费请马上拉黑。 2026年收益：-8.1%。 展示组合只为了知行合一，不代表买卖推荐，请独立思考，很少交易，不买高估企业，不买题材股。个人观点经常出错，我的看法只是很多看法中的一种，并不是正确答案。 投资有风险，入市需谨慎。 周末两天海峡那边剧情多次反转，你看短期这事太难预测，对于个人投资者最有效的还是以企业的长期价值做选择，…",
+      "key_points": [
+        "黑白持有7%左右的茅台，那么我们就一起来聊聊这份年报和一些投资感想",
+        "1 聊聊企业 本周茅台发布了2025年年报",
+        "过度安抚，反而容易让读者陷入困境"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "K型经济的底色，安踏比任何人都懂",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6217310837/384654094",
+      "published": "Mon, 20 Apr 2026 09:59:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FILA",
+        "DTC",
+        "AI",
+        "H1",
+        "http",
+        "KOLON"
+      ],
+      "summary": "安踏体育2025年度财报显示，集团25年实现总营收802.2亿元，同比增长13.3%，高于业内预期，近五年来实现持续正增长；录得毛利497.3亿元，毛利率为62%，符合业内预期范围；归母净利润为135.88亿元，同比下降12.88%，是近三年来首次下滑。财报一图流如图所示（单位亿元，下文所有数据来源均来自公司财报） 在中国运动鞋服市场增速放缓、多数品牌告别高增长的2025年，安踏这份财报更像是一面镜子。营收站上800亿、连续十二年正增长，说明龙头的体量惯性仍在；但净利润三年首降、库存逼近历史高位，又暴露了规模叙事下…",
+      "key_points": [
+        "集团25年实现总营收802.2亿元，同比增长13.3%，高于业内预期，近五年来实现持续正增长；录得毛利497.3亿元，毛利率为62%，符合业内预期范围；归母净利…",
+        "压力较大 2025年安踏的存货周转天数为137天，25年上半年与下半年存货周转天数分别为136与137，仅相差一天，而2024年H1的存货周转天数才114天。短…",
+        "安踏2025年的员工成本比率从2024年的14.8%提升至15.3%，这背后是其全球化扩张，以高质量服务支撑DTC（直面消费者）的战略前置。我们拆分一下员工成本…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂电储能不会步光伏后尘？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1162446352/384650265",
+      "published": "Mon, 20 Apr 2026 09:58:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "AI",
+        "FNJ",
+        "GW",
+        "http",
+        "Inforlink"
+      ],
+      "summary": "本文系基于公开资料撰写，难免有疏漏错误之处，仅作为信息交流之用，不构成任何依据和建议。 导读：光伏、锂电、储能，百舸争流，蔚为壮观。 2025年财报逐步出炉，新能源产业链中光伏依然是最惨的。 已公布年报的锂电企业中，宁德时代的产能利用率达到了96.9%，瑞浦兰钧高达95%，亿纬锂能高达88%。 如果考虑到前低后高，意味着下半年上述锂电龙头企业均接近满产。 光伏产业主产业链龙头企业的组件产能利用率只有50%-75%。硅料环节的产能利用率预期低于50%；硅片、电池毛利率也很低。 产能利用率是判断行业景气的关键指标。 除…",
+      "key_points": [
+        "有人发问，储能乃至锂电产业会步“光伏后尘”吗？锂电和光伏有什么不同吗",
+        "04 电动车电芯尚好 储能电芯白热化 锂电产业链盈利变化尚未出现拐点信号且明显优于光伏，主要因为电动车锂电C端品牌溢价明显",
+        "02 光伏的警示 锂电、储能亦难独善其身 光伏产业链的现状告诉我们，产能供需情况是决定产业链盈利的最主要原因"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "猫咪是不是都受不了人类用手指头指着它的脸？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789122",
+      "published": "Invalid Date",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Animalonearth",
+        "Miller",
+        "Paul",
+        "PetMD",
+        "vibrissae"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 在猫的社交语言里，直视对方的眼睛是一种对抗信号，传递的信息是挑战、威胁或者捕食意图。 这一点在 2020 年得到了实验验证 [1] 。 萨塞克斯大学与朴次茅斯大学的科学家联合完成发表了一项关于\"慢眨眼\"的研究。 他们发现，当人类对猫缓慢眨眼（也就是眯起眼睛然后慢慢闭合再睁开）时，猫回以眨眼的频率显著高于无互动状态，而且更愿意主动靠近陌生人（下图）。 在另一组实验中（下图），陌生实验员做出慢眨眼后，猫也更愿意主动靠近对方伸出的手。 研究…",
+      "key_points": [
+        "是不是所有猫都受不了被指着脸",
+        "学习经历也很关键。可能有的人用手指指它的脸，它就凑上来闻了，闻完了还蹭蹭",
+        "你的手指不是问题，你使用手指的方式才是"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "孩子问「为什么没有三条腿的动物？」，该怎么回答？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789133",
+      "published": "Invalid Date",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Alexander",
+        "Animalonearth",
+        "Bathypterois",
+        "bilateral",
+        "Cambrian",
+        "fish"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 有一种鱼叫 短头深海狗母鱼 （ Bathypterois grallator ） [1] ，它英文名很直接，Tripod fish，直译过来就是 三脚鱼 。 它是是一种深海鱼，生活在世界各大洋的深处，包括大西洋、太平洋和印度洋，通常在大约 880 米到 4700 米深度的海床上活动。 顾名思义，这是一种“三脚站立”的鱼，通过延长的尾鳍和两侧的骨盆鳍“站立”在海底，像三脚架一样支撑自己，形成一个稳定的姿态。 NOAA-OER 这些鳍可以…",
+      "key_points": [
+        "可以看这篇文章： 苏澄宇（科普创作者）:河马跑得快不快？科学家研究了河马的步态_作品展示 此外，生物力学研究也指出，较大的动物在高速奔跑时通常需要保持至少三条腿…",
+        "除了基因层面，系统发育学的研究也表明，三条腿这种奇数肢体形态的进化几率极其低。即便有个别动物出现了身体对称失衡（例如因发育异常而多长了一条腿），这些变异体通常在…",
+        "像我们人类有两条胳膊和两条腿，昆虫有成对的肢体，甚至有些复杂的无脊椎动物（如软体动物）也是对称的。这种身体结构可以追溯到 大约 5.5 亿年前 的 寒武纪 （C…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何处理图片才能避免图中文字被 OCR 识别？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789123",
+      "published": "Invalid Date",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OCR",
+        "Gemini",
+        "emmm",
+        "p.s.",
+        "xxxx",
+        "AI"
+      ],
+      "summary": "井韶子， microcosm 查看知乎原文 【三更】：有人私信韶子说建议删除代码，如果有人用它干坏事的话，可能会有法律风险。就……反正多一事不如少一事，删了。大家想测试的话，应该随便找一个大语言模型都能写出来，韶子这里就不放了。 【二更】：大家检测的时候注意， 前面《临江仙》的例子是大字藏小字，检测出《中国社会各阶级的分析》才算成功；后面“xxxx 全国包过……”的例子是小字藏大字，检测出“xxxx 全国包过……”才算成功 。手机端图片似乎有压缩，电脑端应该能获取原图。 手机端可以试试文章开头这两张竖版的。（p.s…",
+      "key_points": [
+        "其他答主做过实验，这种大字加高斯模糊可以被 OCR 识别，因此还是大字藏小字更靠谱一些。总之，如果预处理方式是固定的，那么要么只能识别出大字，要么只能识别出小字…",
+        "就是字体字号可以随意调整，非常灵活，一般来说，每家 OCR 处理流程都是固定的，所以我们需要试错之后灵活调整。这两种方式或许有一种可以识别，但是总有一种识别不了…",
+        "豆包成功 Gemini 失败 可能 Gemini 在识别之前的预处理会降低分辨率叭。至少这种把戏对豆包是十分有效的（其他家 AI 模型的 OCR 能力韶子没有测…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "模型也有\"出身\"：AI产品经理需要知道的上游风险",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6380672.html",
+      "published": "Mon, 20 Apr 2026 09:26:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "student",
+        "teacher",
+        "GPT-4.1",
+        "fine-tuning",
+        "gap"
+      ],
+      "summary": "最新研究揭示AI模型通过数字序列、代码片段等看似无关的数据，能隐秘传递行为偏好甚至有害倾向。Anthropic Fellows的论文证实：即使经过严格过滤，拥有相同初始化的模型仍会通过统计模式传递底层特征，这一发现对模型蒸馏、AI安全与数据过滤策略提出根本性质疑。当AI的'潜意识学习'能力突破语义层面，我们该如何重新审视大模型训练与对齐的本质？ 最近读到一篇论文，读完之后我盯着屏幕发了很久的呆。 不是因为看不懂，是因为看懂了，然后觉得这件事的含义太大了，大到我一时没法完全消化。 论文来自Anthropic Fell…",
+      "key_points": [
+        "本文由 @五艺SUN 原创发布于人人都是产品经理。未经作者许可，禁止转载 题图来自Unsplash，基于CC0协议 收藏 已收藏 {{ postmeta.boo…",
+        "你以为你只是在调整模型的”说话风格”，在教模型”如何更好地安慰人”，但实际上，那些数据背后携带的特征，无论是它们的情感底色、还是生成这些数据时的上游模型状态，都…",
+        "关于”我们到底做了什么”的谦逊 做AI产品做到一定程度，很容易产生一种自信，我知道我在训练什么，我知道我在做什么，我能预测模型会怎么表现"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "2026年，AI产品经理真正重要的能力模型是什么？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pmd/6380589.html",
+      "published": "Mon, 20 Apr 2026 09:21:59 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "RAG",
+        "Demo",
+        "Coding",
+        "Prompt"
+      ],
+      "summary": "AI 产品经理的战场正从技术应用转向价值交付。本文深度拆解 2026 年 AI 产品经理必备的 7 大核心能力模型，从需求判断到评测体系，从上下文设计到 Agent 编排，揭示如何将业务问题、系统能力与模型效能转化为可落地的商业结果。不是每个会调模型的人都能成为合格的 AI 产品经理，真正的分水岭在于能否构建完整的价值交付闭环。 这两年，关于 AI 产品经理的讨论越来越多，但很多讨论还停留在表层：会不会写 Prompt、懂不懂 RAG、会不会搭 Agent、能不能做个 Demo。 这些当然重要，但如果把它们当成 A…",
+      "key_points": [
+        "AI 产品经理的战场正从技术应用转向价值交付。本文深度拆解 2026 年 AI 产品经理必备的 7 大核心能力模型，从需求判断到评测体系，从上下文设计到 Age…",
+        "我更倾向于把 AI 产品经理的能力，概括为一套更完整的能力模型： 不是“会不会用 AI”，而是“能不能用 AI 交付稳定、可用、可迭代、有价值的结果”",
+        "AI 产品经理必须具备一种非常重要的能力： 判断什么时候该做 Agent，什么时候不该做 Agent"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从知识调用到判断延续：企业AI在RAG之后的结构缺口与路径辨析",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6380606.html",
+      "published": "Mon, 20 Apr 2026 09:17:37 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "RAG",
+        "memory",
+        "Library",
+        "Memory",
+        "CC0"
+      ],
+      "summary": "当企业AI从RAG走向记忆层，一个深层矛盾浮出水面：系统能召回历史资料，却无法重现关键判断路径。本文通过设计团队的真实案例，揭示知识库与记忆层的本质差异，并犀利指出两条发展路径的致命陷阱——AI越强大，组织越可能沦为答案的奴隶；记忆越完整，团队越容易被经验牢笼禁锢。最终抛出一个行业尚未解答的尖锐问题：在打造精致记忆镜子的同时，谁该为组织打开通向未来的窗户？ 上一篇文章 从工具使用到生态建设：企业AI落地的认知基础与阶段路径 | 人人都是产品经理 讨论了企业为什么会从工具使用走向知识库与RAG建设。这篇文章从上一篇的…",
+      "key_points": [
+        "如果说知识库和RAG解决的是知识调用问题，那么记忆层真正对应的，就是判断延续问题。它不是在知识库外面再套一个技术模块，也不是为了让AI多记住一些聊天历史。它被引…",
+        "十、结语 企业级的知识库和RAG很重要，因为它们让企业第一次真正有能力把过去看见、把过去调出、把过去重新接入当下的问题里。但它们解决的，终究更接近知识调用而不是…",
+        "记忆层（memory）才会被引出。它不是RAG的技术升级，而是一个不同层次的问题：从知识调用走向判断延续"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么工业管理系统总是“用不起来”：决定系统生死的底层结构定义",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6380607.html",
+      "published": "Mon, 20 Apr 2026 09:17:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B2B",
+        "UI",
+        "CRM",
+        "PRD",
+        "SaaS",
+        "BOM"
+      ],
+      "summary": "工业B2B软件领域最深的痛点不是功能设计或交互体验，而是数据与业务结构的脱节。本文以工业能源与碳管理场景为例，揭示系统\"上线即死亡\"的真相——数据必须满足可解释性、可比较性、可归因性三大铁律才能真正驱动业务。你将看到如何通过三层建模机制，从行业抽象到企业映射再到责任划分，构建真正可用的工业运营管理系统。 过去几年，我一直扎根在工业互联网与产业数字化的泥沼与高地中，见证了无数系统的起飞与搁浅。在实际工作场景中我见过许多拥有 3-5年经验的工业数字化/产业数字化产品经理 ，或是刚接手复杂项目的业务负责人，经常会陷入一种…",
+      "key_points": [
+        "七、结论：从“做系统”到“定义结构”的产品能力跃迁 回到文章最初的那个刺眼的问题：为什么工业系统总是用不起来",
+        "四、0到1的破局：新产品/新项目如何跨越“结构定义”的生死线 这是整篇文章最核心。当你在主导一个新的工业运营管理系统从无到有的建设时，最大的挑战不是画出第一张原…",
+        "我一直扎根在工业互联网与产业数字化的泥沼与高地中，见证了无数系统的起飞与搁浅。在实际工作场景中我见过许多拥有 3-5年经验的工业数字化/产业数字化产品经理 ，或…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "详解腾讯云最新发布CloudBase CLI V3，面向Agent设计的命令行工具",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6380700.html",
+      "published": "Mon, 20 Apr 2026 09:13:22 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "tcb",
+        "Agent",
+        "V3",
+        "json",
+        "CLI",
+        "CloudBase"
+      ],
+      "summary": "当AI Agent成为开发新常态，传统GUI控制台却成了自动化流程的绊脚石。腾讯云CloudBase CLI V3应运而生，这是一款为AI Agent彻底重构的命令行工具。它通过15个新命令、自解释的--help、面向Agent的文档系统及全量--json输出，让Agent能自主完成从环境创建到项目上线的全链路操作，真正实现“全程CLI，0次控制台”。 针对Agent开发，腾讯云推出CloudBase CLI V3 ，这是一个面向 AI Agent 重新设计的 CloudBase 命令行工具。 这个版本新增了 15…",
+      "key_points": [
+        "腾讯云推出CloudBase CLI V3 ，这是一个面向 AI Agent 重新设计的 CloudBase 命令行工具",
+        "传统GUI控制台却成了自动化流程的绊脚石。腾讯云CloudBase CLI V3应运而生，这是一款为AI Agent彻底重构的命令行工具。它通过15个新命令、自…",
+        "6.6 Step 6：绑定自定义域名 tcb api ssl DescribeCertificates –json tcb domains add luke.x…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "左手幻觉，右手投毒，普通人凭什么相信AI？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B7%A6%E6%89%8B%E5%B9%BB%E8%A7%89%EF%BC%8C%E5%8F%B3%E6%89%8B%E6%8A%95%E6%AF%92%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E5%87%AD%E4%BB%80%E4%B9%88%E7%9B%B8%E4%BF%A1AI%EF%BC%9F",
+      "published": "Mon, 20 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Bixonimania",
+        "ChatGPT",
+        "Gemini",
+        "GEO",
+        "Perplexity"
+      ],
+      "summary": "2024年初，一位瑞典研究者搞了一个恶作剧。她编造了一种名为“Bixonimania”的疾病，并将其写入一份漏洞百出的预印本论文中上传。 Bixonimania被ChatGPT认为是一种真实存在的疾病 随后，荒诞又神奇的事情发生了。Gemini、Perplexity等知名AI产品在面对用户询问时，纷纷确认了这种疾病的存在，甚至绘声绘色地描述了它的临床表现和治疗方案。这个荒诞的假疾病，甚至靠着AI生成的虚假引用，一路骗过了同行评审，登上了正规的医学期刊。 如果说Bixonimania是AI自己不小心跌进了幻觉的陷阱里…",
+      "key_points": [
+        "百度百科已成为大模型对抗幻觉的关键。量化测试显示，有的AI对百度百科的引用率高达46.4%，底座资料库对其依赖度极高；文心一言引用率为44.0%且质量最佳；另一…",
+        "如果说Bixonimania是AI自己不小心跌进了幻觉的陷阱里，那么接下来发生的事，则是有人在主动挖坑",
+        "多部委及央媒集体向AI“投毒”宣战 AI的回答，有时是自己在编，有时是有人帮它编"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "舌头上长疙瘩却要去妇科就诊，这么小众的事被我碰上了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%88%8C%E5%A4%B4%E4%B8%8A%E9%95%BF%E7%96%99%E7%98%A9%E5%8D%B4%E8%A6%81%E5%8E%BB%E5%A6%87%E7%A7%91%E5%B0%B1%E8%AF%8A%EF%BC%8C%E8%BF%99%E4%B9%88%E5%B0%8F%E4%BC%97%E7%9A%84%E4%BA%8B%E8%A2%AB%E6%88%91%E7%A2%B0%E4%B8%8A%E4%BA%86",
+      "published": "Mon, 20 Apr 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HPV",
+        "in",
+        "carcinoma",
+        "cavity",
+        "clearance",
+        "guokr.com"
+      ],
+      "summary": "我已经记不起最早是怎么发现舌头上有一溜疙瘩的了，总之发现它们存在的时候就已经有绿豆那么大。但它们不疼不痒也不硬，我说话、吃饭压根不受影响，甚至根本感受不到它们的存在，所以一开始我并没有想去干预。 仨疙瘩就这么整整齐齐地排队站在我的舌侧缘上｜作者供图 只不过有时候人真的挺闲的，自从发现这三个小东西，我就开始有事没事地用牙齿碰一碰、用嘴唇抿一抿。时间一长，最外面的那个疙瘩被我弄得开始有痛感了。 于是，我去了医院的口腔科。 人生中第一次缝针 竟是在舌头这种小众的地方 口腔医生看了一眼说，这些疙瘩应该是增生，可能不会自行消…",
+      "key_points": [
+        "之前怀疑是HPV感染的部位全都排除掉了，那舌头上的疙瘩是哪里来的呢？妇科和皮肤科的医生建议我还是要去口腔科就诊",
+        "去妇科检查HPV，跟这舌头上的疙瘩实在是有点八竿子打不着",
+        "人生中第一次缝针 竟是在舌头这种小众的地方 口腔医生看了一眼说，这些疙瘩应该是增生，可能不会自行消退，要想解决或许只能割掉。医生还说它们看起来不像恶性的，但割下…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "气哭了，花几万元买的蓝宝石，竟然还没有几百块的培育宝石好看?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B0%94%E5%93%AD%E4%BA%86%EF%BC%8C%E8%8A%B1%E5%87%A0%E4%B8%87%E5%85%83%E4%B9%B0%E7%9A%84%E8%93%9D%E5%AE%9D%E7%9F%B3%EF%BC%8C%E7%AB%9F%E7%84%B6%E8%BF%98%E6%B2%A1%E6%9C%89%E5%87%A0%E7%99%BE%E5%9D%97%E7%9A%84%E5%9F%B9%E8%82%B2%E5%AE%9D%E7%9F%B3%E5%A5%BD%E7%9C%8B%3F",
+      "published": "Mon, 20 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "mp.weixin.qq.com",
+        "Africa",
+        "amp",
+        "red",
+        "S925"
+      ],
+      "summary": "当两个有着“顶奢级品质”的珠宝，放在你面前。 肉眼看长得一模一样，化学成分一模一样，重量、色泽、质感都一模一样。 一个卖你两三百，一个卖你七、八十万，你会买单哪个？ @果壳市集实拍 👇🏻人工培育的宝石，竟让某珠宝博主也一时分辨不出来…… 近两年，黄金价格不断飙升，而曾经产量少，卖到天价的彩色珠宝，持续阴跌、市场遇冷，很多人虽然很喜欢珠宝，却也只是一再观望…… 图片来源：新闻截图 而背后的原因，让很多珠宝从业者都心态崩塌—— 很大一部分是我国人工培育宝石技术重大突破、工业需求不再卡脖子的“副”作用。 图片来源：新闻截…",
+      "key_points": [
+        "@果壳市集实拍 耳钉有两个款式： 款式一是蛋面形的培育蓝宝石 ，经典，柔美，带一点蓝色冷冽的闪烁，有一种“小而美”的视觉感",
+        "@果壳市集实拍 我们直接找到了产业源头，挑选了多款堪称高定级的培育蓝宝石饰品，每款都是顶奢品质，百元档心动价格就能入手",
+        "古蝶·高定培育 蓝宝石 &amp;红宝石&amp; 祖母绿 系列 👇 有传承数百年的王家 经典款👇 以英女王、戴安娜王妃、凯特王妃 代代传承，价值无法估量的百年…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为啥我强烈建议你：立刻马上开始戴墨镜？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E5%95%A5%E6%88%91%E5%BC%BA%E7%83%88%E5%BB%BA%E8%AE%AE%E4%BD%A0%EF%BC%9A%E7%AB%8B%E5%88%BB%E9%A9%AC%E4%B8%8A%E5%BC%80%E5%A7%8B%E6%88%B4%E5%A2%A8%E9%95%9C%EF%BC%9F",
+      "published": "Mon, 20 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "UV400",
+        "GB",
+        "TAC",
+        "TR90",
+        "UV",
+        "dc_ps"
+      ],
+      "summary": "又到了出门恨不得把整张脸埋进墨镜里的季节。 千万别把戴墨镜仅仅当成“装酷”。当春夏阳光越来越强烈，墨镜几乎是刚需，是保护，是 对抗紫外线的第 1 道防线。 如果你对防晒的概念还停留在“防晒黑”，擦擦防晒霜，或者穿件防晒服，那我得再说一次： 长期强光直射，眼睛本身还有可能被紫外线伤害，造成不可逆转的眼健康问题。 眼防晒真的很重要！！！ 尤其是 出游、露营、海边 ，长时间在户外，阳光还贼烈， 眼睛被晒得酸流泪，眼角红红的， 一整天下来眼睛都要眩晕了。 还有 开车人士 ，阳光从挡风玻璃斜着砸进来，前车玻璃反射的光晃得你睁…",
+      "key_points": [
+        "千万别把戴墨镜仅仅当成“装酷”。当春夏阳光越来越强烈，墨镜几乎是刚需，是保护，是 对抗紫外线的第 1 道防线",
+        "不压鼻梁，不挤耳朵 ，戴上的感觉和戴一个眼镜没什么区别，特别无感~ 虽然轻盈，但是韧性特别好， 不易折断变形 ，不同脸型、男女都能handle住~ 之前我夏天出…",
+        "👇戳图立马抢👇 01 近视眼套镜 轻轻一套，近视镜秒变太阳镜 近视人的夏天痛： 出门想戴墨镜，却发现近视镜和太阳镜不可兼得，这种痛苦谁懂"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "打捞一部被严重低估的港剧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%89%93%E6%8D%9E%E4%B8%80%E9%83%A8%E8%A2%AB%E4%B8%A5%E9%87%8D%E4%BD%8E%E4%BC%B0%E7%9A%84%E6%B8%AF%E5%89%A7",
+      "published": "Mon, 20 Apr 2026 20:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TVB",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 韩梦想 1994 年TVB出品的剧集《第三类法庭》现在谈起来可能很多人已经比较陌生，和金庸、古龙的武侠剧，众星云集的清宫剧相比，这部剧一来没有形成集群效应，造成续集或姊妹篇的拍摄于播映，制造巨大的反响，二来这种所谓的「情感剧」也并不是1990年代TVB的主打剧集类型，对内地观众的影响不是特别深远。 《第三类法庭》 但这些并不能掩盖《第三类法庭》的独特性，如果童年看过此剧的观众，一定会对其中的情节以及温兆伦、邵美琪和郭蔼明的表演记忆犹新。 尤其是现在看来，此剧既不按套路出牌的剧作模式和其中渗透出的浓重的港产风格是…",
+      "key_points": [
+        "他是绝对的港剧一哥 续集，四年才等来 文章原文",
+        "此剧既不按套路出牌的剧作模式和其中渗透出的浓重的港产风格是日后很多时装剧都难以企及的，其中的情节编织和人物形象都比较另类，观赏度极高。更难能可贵的是，影片对媒体…",
+        "和其他TVB的都市剧一样，本剧的港产风味十分浓厚，由于涉及到很多阴谋和情感，又有些比较浓厚的戏剧冲突，本剧在剧情模式上与港产电影中的「奇情片」有诸多类似"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "为什么他才是情节剧之神？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%96%E6%89%8D%E6%98%AF%E6%83%85%E8%8A%82%E5%89%A7%E4%B9%8B%E7%A5%9E%EF%BC%9F",
+      "published": "Mon, 20 Apr 2026 20:28:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Heaven",
+        "All",
+        "Allows",
+        "deus",
+        "ex",
+        "Far"
+      ],
+      "summary": "作者：Keva York 译者：覃天 校对：易二三 来源：MUBI（2022年10月10日） 「制片厂喜欢《深锁春光一院愁》（译者注： All That Heaven Allows ， 英文 片 名直译为『天堂所允许的一切』）这个片名，」道格拉斯 ·瑟克在谈到他于 1955 年为环球公司拍摄的、由简 ·怀曼和罗克·赫德森搭档主演的第二部「明星风采片」时如此说道——在《天老地荒不了情》（ 1954 ）获得了可观的票房收益后，瑟克得到了拍摄此片的机会。「制片厂认为这意味着你可以拥有想要的一切，但在我看来恰恰相反，上天是…",
+      "key_points": [
+        "你真的在讲一个小故事，而且通常是家庭故事，这就是情节剧的内容。我们通常是通过电影中完美、幸福的家庭场景来认识和了解家庭情节剧，以及家庭生活的。这其中有一种强烈的…",
+        "问：道格拉斯·瑟克是一位在你的电影作品中占据重要位置的导演。他的影响在《远离天堂》中最为明显。从广义上来说，这是一部家庭情节剧，具体来说则是对《深锁春光一院愁》…",
+        "希区柯克创造了悬疑惊悚片，你会好奇与片中人物走向自己命运的过程。而家庭情节剧更多面向的是女性观众，它讲述的不是女性突破自身的局限、压迫的故事，而是她们屈从于家庭…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，跟春天好好告个别吧！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E8%B7%9F%E6%98%A5%E5%A4%A9%E5%A5%BD%E5%A5%BD%E5%91%8A%E4%B8%AA%E5%88%AB%E5%90%A7%EF%BC%81",
+      "published": "Mon, 20 Apr 2026 07:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今天是4月20日， 我们迎来了二十四节气的第六个节气， 也是春天的最后一个节气 —— 谷雨 。 谷 ，古称稷、粟， 在很长一段时间， 都是中国人最重要的粮食作物， 被奉为“百谷之长”， 而春雨，向来贵如油。 古人将这春天的最后一个节气， 命名为“谷雨”， 取的正是 “谷得雨而生”、“雨生百谷” 之意。 这个温润的名字里， 既标识着时令的流转， 更承载着一份对丰收的深切希冀。 雨中麦田 如果说， 立春 是拉开春的序幕， 雨水 便是故事真正的开篇， 惊蛰 让万物萌动， 春分 和 清明 将春天推向高潮—— 那么 谷雨 ，…",
+      "key_points": [
+        "立春 是拉开春的序幕， 雨水 便是故事真正的开篇， 惊蛰 让万物萌动， 春分 和 清明 将春天推向高潮—— 那么 谷雨 ，便是这出春日大戏的尾声",
+        "谷雨又有了新的解读： 它不只是春天的“结尾”， 更是从“生发”到“茂长”的动能转换点",
+        "我们迎来了二十四节气的第六个节气， 也是春天的最后一个节气 —— 谷雨"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "哪里有那么好的事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%93%AA%E9%87%8C%E6%9C%89%E9%82%A3%E4%B9%88%E5%A5%BD%E7%9A%84%E4%BA%8B",
+      "published": "Mon, 20 Apr 2026 11:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "of",
+        "white",
+        "AI",
+        "ar",
+        "behind"
+      ],
+      "summary": "我发现想要一件事情能持久地做下去，需要三个条件：1、很轻松就可以启动，完全没有痛苦的前期准备；2、一旦启动很快就产生正向反馈，也就是说能迅速看到成果或者得到乐趣；3、随着时间推移，从中产生的各种利益逐渐大到无法忽略，也无法舍弃的程度。 但是，天底下哪里有那么好的事情？ 在现实世界中去做一件真实的事情，它通常会有门槛，需要花费一点气力越过门槛才能启动。它通常在很长一段时间都不会有正向反馈，或者那点正向反馈和个人付出相比完全不成比例。于是，随着时间推移，还没有等到产生巨大的利益之前人就已经放弃了。 阅读是这样，健身是这…",
+      "key_points": [
+        "天底下哪里有那么好的事情",
+        "今天文章一开始的三个条件我认为本身是成立的，但成立的条件取决于一个人的心。有怎样的心，决定了看到什么，感受到什么，得出怎样的判断。这也就是我为什么极度反感网上《…",
+        "如果心能够接受真实呢？比如说这个世界上就没有什么真正轻松的事情，比如说任何事情开始的时候都有门槛，门槛低反而说明本身没有什么价值。当你的心做好了苦战一场的准备然…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "王贻芳：痛悼钱致榕先生",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%8E%8B%E8%B4%BB%E8%8A%B3%EF%BC%9A%E7%97%9B%E6%82%BC%E9%92%B1%E8%87%B4%E6%A6%95%E5%85%88%E7%94%9F",
+      "published": "Mon, 20 Apr 2026 08:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SCI",
+        "CEPC",
+        "CMS",
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "4.20 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 钱致榕教授 （图源： nccu.edu） 撰文 | 王 贻芳 责编｜李珊珊 ● ● ● 惊悉钱致榕先生于4月10日在旧金山家中去世，不胜悲痛。这个世界上又少了一个哲人，我也失去了一个导师，一个忘年交。自1981年我在南京大学有幸受教于先生，凡45年，其间在多个人生的关键阶段得到先生的指点、帮助和支持。今年春节还收到他的微信，满满的全是鼓励，没想到这其实是他的临别赠言，感佩之情真是无可言表。 01 他把SCI引入了中国高校，却在晚年说： 不该再用S…",
+      "key_points": [
+        "4.20 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 钱致榕教授 （图源： nccu.edu） 撰文 | 王 贻芳 责编｜李珊珊 ● ● ● 惊…",
+        "19 9 1 年我经过香港时还专门去看他，听他介绍香港科技大学。前年三联书店出版了钱先生的回忆录 —— 《敢为天下先》，详细回顾了这段历史及他的心路历程。我参加…",
+        "02 参与创立香港科技大学 1 985 年我出国到欧洲核子中心后，突然惊喜地发现钱先生及霍普金斯大学也在我们这个国际合作组里，大家都在丁肇中先生领导下从事 L…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "灵光为3000万闪应用找了一个流通市场",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E7%81%B5%E5%85%89%E4%B8%BA3000%E4%B8%87%E9%97%AA%E5%BA%94%E7%94%A8%E6%89%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%B5%81%E9%80%9A%E5%B8%82%E5%9C%BA",
+      "published": "Mon, 20 Apr 2026 11:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "Coding",
+        "Store",
+        "Agent",
+        "GPTs"
+      ],
+      "summary": "文 ｜ 阑夕 蚂蚁的AI产品灵光，终于推出了名为「灵光圈」的社区。 简单理解， 就是灵光里被搓出来的那3000万闪应用，刚需一个分享和流通的场域。 往深了说，这次的社区，一定是在为AI应用化的趋势，预留一片从独木到森林的土壤。 AI固然可以让「一人成军」，但是生态需要「多人共建」，就像AI完成了生产之后总不能也让AI承担消费，健康的经济循环一定是要创造出同等生长的市场。 尤其是在龙虾、Skills等相比提示词更为复杂的Agent「包体」开始流行之后，如何分发就成了一个新兴的、甚至有概率长出相当规模的市场。 总不能都…",
+      "key_points": [
+        "就是灵光里被搓出来的那3000万闪应用，刚需一个分享和流通的场域",
+        "我对一个宝妈在用灵光手搓鸡娃神器印象很深，她也是没有任何代码知识的普通人，自造了几个功能相当简单、但又高度定制化的闪应用，包括： 一个专注写作业的计时器、一个记…",
+        "我看过有的灵光用户把自己精心打造的闪应用上架到私域，拿到了上千个订单，也有坚持手搓闪应用给个人工作提效的，把职场的路踩得愈加顺了一点点，还有那些专供家人、群友和…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "经济学人每日一词：Proliferation",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%8D%EF%BC%9AProliferation",
+      "published": "Mon, 20 Apr 2026 14:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "proliferation",
+        "of",
+        "Proliferation",
+        "APP",
+        "to",
+        "all"
+      ],
+      "summary": "每日一词： Proliferation 词性与发音 词性：名词 (n.) 发音：/prəˌlɪfəˈreɪʃn/ 核心感觉：像细菌分裂一样，一夜之间到处都是，多到让人眼花缭乱。 含义解析： 从“疯狂繁殖”到“失控蔓延” Proliferation 的核心意思就一个字： “爆” 。 象一下你手机里的APP，或者朋友圈里的微商广告。它们不是一个个慢慢长出来的，而是像 雨后春笋 或者 细菌分裂 一样，一夜之间到处都是。 普通词 ：Increase（增加）—— 比如工资从5千涨到6千，这是increase 。 高阶词 ：P…",
+      "key_points": [
+        "每日一词： Proliferation 词性与发音 词性：名词 (n.) 发音：/prəˌlɪfəˈreɪʃn/ 核心感觉：像细菌分裂一样，一夜之间到处都是，多…",
+        "单词出处： 孩子为何会变得挑食| 经济学人文化 \"Meanwhile, the proliferation of Freudian psychology",
+        "每日金句： Non-proliferation will only work if all states are willing to cooperate, a…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "从写清 Spec 到看懂功能：在 Session 历史中使用 Routa 重建需求全景",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/routa-feature-explorer/",
+      "published": "Mon, 20 Apr 2026 07:41:00 +0000",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "Codex",
+        "Copilot",
+        "Qoder",
+        "Routa",
+        "Session"
+      ],
+      "summary": "在时时使用多个 Codex/Copilot/Claude/Qoder 编写代码之后，我第一次明显感觉到，整个产品推进的节奏都被拉快了。",
+      "key_points": [
+        "在时时使用多个 Codex/Copilot/Claude/Qoder 编写代码之后，我第一次明显感觉到，整个产品推进的节奏都被拉快了"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "突破零样本 TTS 音色克隆上限：LongCat-AudioDiT 的声音克隆艺术",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/04/20/longcat-audiodit.html",
+      "published": "Mon, 20 Apr 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LongCat-AudioDiT",
+        "TTS",
+        "AI",
+        "LongCat",
+        "Text-to-Speech"
+      ],
+      "summary": "能不能让 AI 直接学会声音本身的规律，跳过中间环节？为破解这一技术瓶颈，美团 LongCat 团队正式发布 LongCat-AudioDiT。在该模型中，彻底抛弃梅尔谱等中间表示，直接在波形潜空间进行基于扩散模型的文本转语音（Text-to-Speech, TTS），从根源阻断数据转换的级联误差。",
+      "key_points": [
+        "能不能让 AI 直接学会声音本身的规律，跳过中间环节？为破解这一技术瓶颈，美团 LongCat 团队正式发布 LongCat-AudioDiT。在该模型中，彻底…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么公文要用「仿宋_GB2312」字体？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789066",
+      "published": "Fri, 17 Apr 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GB2312",
+        "GBK",
+        "GB",
+        "Windows",
+        "GB2312-80",
+        "Code"
+      ],
+      "summary": "中华校草， 设计师出身，做过淘宝，专职IT，沉迷二次元，也研究美容护肤 查看知乎原文 这个问题曾经也困扰了我好久，期间仿宋 GB2312、仿宋 GBK 都混用过，有时加粗有时不加粗，行距、边距也看心情。后来才发现各单位各部门的要求确实存在不统一才导致混乱的情况。现在我编写相关公文都要看呈报什么部门，针对相关部门要求再调格式。 说回正题，为啥要用仿宋 GB2312 字体原因，就要了解一下 仿宋是怎么出现的？为什么用仿宋？GB2312 又是啥意思？方正又指什么？ 一、仿宋是怎么出现的？ （一）源起。 话说，在很久很久以…",
+      "key_points": [
+        "为啥要用仿宋 GB2312 字体原因，就要了解一下 仿宋是怎么出现的？为什么用仿宋？GB2312 又是啥意思？方正又指什么",
+        "一方面，这是因为方正是国内较大的字体品牌之一，方正字库的创始人王选院士主持研制了汉字激光照排系统，是计算机汉字激光照排技术创始人，被称为“汉字激光照排系统之父”…",
+        "尽管后来 Windows 开始放弃了“仿宋_GB2312”（不再预装，仍可手动安装），改用北京中易中标电子信息技术有限公司设计的“仿宋”。中易“仿宋”支持 GB…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "孩子为何会变得挑食| 经济学人文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%AD%A9%E5%AD%90%E4%B8%BA%E4%BD%95%E4%BC%9A%E5%8F%98%E5%BE%97%E6%8C%91%E9%A3%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96",
+      "published": "Fri, 17 Apr 2026 08:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "children",
+        "in",
+        "of",
+        "was",
+        "food"
+      ],
+      "summary": "1 写在前面 休息一下 2 精读|翻译|词组 Culture | Unhappy meals 文化 | 令人烦恼的餐食 英文部分选自经济学人20260328期文化板块 Culture | Unhappy meals 文化 | 令人烦恼的餐食 Why children become fussy eaters 孩子为何会变得挑食 Parents swallow bad advice all too eagerly 家长 们往往 太容易 轻 信错误的建议 Picky. By Helen Zoe Veit. St Mart…",
+      "key_points": [
+        "1 写在前面 休息一下 2 精读|翻译|词组 Culture | Unhappy meals 文化 | 令人烦恼的餐食 英文部分选自经济学人20260328期文…",
+        "一位来自缅因州的母亲忧心忡忡地写信给美国儿童局， 咨询为何 她的儿子 很挑食 。难道是因为他不喜欢这些食物吗？联邦机构的专家完全否定了这一猜想，建议她带孩子去看…",
+        "并没有 “ 儿童餐 ” 这种东西。孩子们的 食欲 旺盛且毫无节制。小说家伊迪丝 · 华顿（ Edith Wharton ）酷爱吃鳖肉和小螃蟹。另一位作家马克 ·…"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "谈谈公司对员工的监控",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/22157.html",
+      "published": "Sat, 12 Feb 2022 07:50:06 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first",
+        "on"
+      ],
+      "summary": "今天看到微博上有一个热点事件， 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，... Read More Read More The post 谈谈公司对员工的监控 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 谈谈公司对员工的监控 first appeared on 酷 壳 - CoolShell",
+        "是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，"
+      ]
+    }
+  ]
+}
