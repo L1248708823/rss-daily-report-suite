@@ -1,0 +1,800 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T01:00:04.930130+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 101,
+    "fresh_candidates": 60,
+    "backfill_candidates": 41,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-23",
+      "fetched_at": "2026-04-23T01:00:04.606131+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4106.26,
+          "change": 21.18,
+          "change_pct": 0.52,
+          "volume": 582466346.0,
+          "amount": 109362589.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4746.68,
+          "change": 6.630000000000109,
+          "change_pct": 0.14,
+          "prev_close": 4740.05,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-23 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1042.1376495892746,
+          "change": 1.4556221647080747,
+          "change_pct": 0.13987194227908245,
+          "prev_close": 1040.6820274245665,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-23 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "做“赚钱的笨蛋”的7个投资习惯",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%81%9A%E2%80%9C%E8%B5%9A%E9%92%B1%E7%9A%84%E7%AC%A8%E8%9B%8B%E2%80%9D%E7%9A%847%E4%B8%AA%E6%8A%95%E8%B5%84%E4%B9%A0%E6%83%AF",
+      "published": "Wed, 22 Apr 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 思想钢印9999 来源：雪球 1/7 不要前瞻性 很多年前，我喜欢评价别人的投资没有前瞻性，现在，很多人批评我没有前瞻性，对对对，我已经彻底基本不追求操作上的前瞻性，每一个人最后都会活成自己曾经鄙视的样子，我会思考前瞻的东西，但基本不会立刻在操作上反应出来。 同样，当一个人跟我说前瞻性的时候，我先要看看他是谁，只有极少数人有能力谈前瞻性，在我看到的案例中，因为前瞻性而亏损的人远远比因…",
+      "key_points": [
+        "本文就是谈谈如何做一个“赚钱的笨蛋”的七个习惯，第一条就是——不要谈前瞻性",
+        "只论盈亏，这是成为一个“赚钱的笨蛋”的第三个习惯",
+        "这是成为一个“赚钱的笨蛋”的第二个习惯"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "服务业大爆发，谁是赢家？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/385122401",
+      "published": "Wed, 22 Apr 2026 10:23:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GDP",
+        "G-A",
+        "http",
+        "IDC",
+        "SH688041"
+      ],
+      "summary": "2026年4月21日，国务院印发《关于推进服务业扩能提质的意见》，定下2030年服务业总规模迈上100万亿元台阶的硬目标，要求培育更多中国品牌，提升全球竞争力。从80万亿到100万亿，新增20万亿体量，钱往哪流、机会在哪，是投资者最该盯紧的问题。 一、家底与空间 2025年服务业增加值80.89万亿元，占GDP比重57.7%，对经济增长贡献率61.4%。今年一季度比重升至61.7%，贡献率提高到63.2%。但生产性服务业占GDP比重不到35%，对比美国47.7%、欧盟40%，追赶空间超15万亿元——这是政策发力的主…",
+      "key_points": [
+        "不是口号，而是有数据、有路径、有时间表的确定性蓝图。2025年80万亿的底子摆在那里，未来五年新增20万亿，年均增量约4万亿。这4万亿的增量，将沿着生产性服务业…",
+        "二、生产性服务业：科技与物流率先突围 （一）科技与信息服务 《意见》明确“人工智能+”行动、算力布局、5G-A与6G研发、卫星互联网应用。AI算力硬件和软件服务…",
+        "一、家底与空间 2025年服务业增加值80.89万亿元，占GDP比重57.7%，对经济增长贡献率61.4%。今年一季度比重升至61.7%，贡献率提高到63.2%…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "磷化铟衬底洞察：怎么算需求和缺口",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3576712780/385133648",
+      "published": "Wed, 22 Apr 2026 10:23:32 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CW",
+        "EML",
+        "INP",
+        "InP",
+        "CPO",
+        "AXT"
+      ],
+      "summary": "(ps部分数据有误，周末重新更正)之前在 磷化铟衬底学习笔记：可能是大家没有想象到的紧缺程度 里大概提过磷化铟的行业的缺口，不过之前我是根据实际出货推大概多少名义产能对应的光模块的需求，最近在调研的过程中，发现磷化铟衬底的数据是可以根据光模块数据往回推的（光模块出货量的数据整体更好跟踪，也更可靠），之前我朋友也因为推导的过程中少了一些数据，得出了不是很紧缺的结论 【现在海外研报有说已经有70%缺口的也有】 ，导致差不多不到10块就卖飞了 AXT，所以我觉得还是应该要再完善一下模型，也让大家对这个行业有更多的了解。…",
+      "key_points": [
+        "周末重新更正)之前在 磷化铟衬底学习笔记：可能是大家没有想象到的紧缺程度 里大概提过磷化铟的行业的缺口，不过之前我是根据实际出货推大概多少名义产能对应的光模块的…",
+        "这里BUG出现了,上面的产能，是名义最大产能，但是磷化铟这个行业之所以难，是因为加工的良率非常非常低，北京目前最好的通美，整体良率差不多是40%+，住友差不多是…",
+        "这里面是好片需要的量，实际上CW/EML制造的整体良率其实也就30%（行业平均水平），那2026年需要用的衬底数量是多少？38.16/0.3=127.2万片 2…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "油运的大逻辑",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1910783512/385094299",
+      "published": "Wed, 22 Apr 2026 10:23:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "对于油运，要看明白大逻辑。 现在封的越久，后面开放后，运价的高度会越高，高运价的持久性会越长。 股价的上行空间会越大。 不要以为，开放后，运价是一波到顶的。 封的越久，库存越低，后面抢船抢油，就会越激烈。 而船东也好，货主也罢，都没经历过这种场面， 开放后，运价肯定先是一波跳涨，然后震荡，彼此试探，适应，再跳涨。。。 而且开放也不会一开到底的，更大的可能是开一开，缓和一下，谈不拢，再关，反反复复，起起伏伏，这个过程中，运价会不断的去挑战货主的心理极限。 即便继续封，运价也不会完全没有机会。 库存终要见底的，如果临近…",
+      "key_points": [
+        "告诉市场，即便继续封，油运股的业绩底在何处"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "指数比较研究——中证红利&红利低波100（下篇）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6828304753/385045729",
+      "published": "Wed, 22 Apr 2026 10:22:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "T0",
+        "amp",
+        "A+",
+        "bps",
+        "CSI930955",
+        "ETF"
+      ],
+      "summary": "Hello 大家好呀，上篇我们从编制方法和风险收益特征两个方面对中证红利和红利低波100两只指数做了一个细致的比较，本篇我们将从两只指数的成分构成以及当前估值与投资展望这两个方面做一个详细的梳理。 一、指数十大权重股&amp;行业构成比较 一只指数的的内在特征，其实是由编制方式决定的，但是通常会在前十大权重股上突出地表现出来，我们先来看看两只指数前十大权重股的估值数据： 从估值数据上看，二者十大权重股的市净率数值非常接近，但是低波100的市盈率要远低于中证红利，这主要是因为低波100权重股的盈利能力更强导致的，不过…",
+      "key_points": [
+        "躺师傅给中证红利的定位是T0，给红利低波100的定位T0.5，两只指数比较简单的编制规则可以更好地适应市场的风格变迁，但是红利低波100的样本调整频率更高，之前…",
+        "以上就是今天的全部内容了，喜欢的话就转评赞支持一波吧~ 下期预告：《指数比较研究——红利低波&amp;红利低波100（上篇）》 风险提示： 本文所提到的观点和数…",
+        "二、指数当前估值与投资展望 从估值数据上看，二者的估值特点都比较接近，市盈率不到10倍、市净率小幅破净、股息率在5%附近是二者的共同特点，在十年期国债到期收益率…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789166",
+      "published": "Tue, 21 Apr 2026 22:59:58 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gun",
+        "hello",
+        "Machine"
+      ],
+      "summary": "瞎扯 · 你抓拍的小动物是什么样子的？ 知乎日报 查看知乎原文 Q： 你抓拍的小动物是什么样子的？ @黄巢 ：一个人去撸串，两只猫一左一右蹲在旁边，等着我投喂 Q： 用一句话证明你现在正在上大学? @hello ：请放置身份码，请放置包裹 出错了，请联系工作人员 出库成功 Q： 请发一张你最难绷的图片? @看客 ：网上一神人，非要卫生间地面倾斜15°。 Q： 如何评价大熊猫的颜值？ @烧饼馒头包子麻 ：热烈庆祝， 大熊猫已经不是濒危动物啦。。。 Q： 有哪些很好笑的采访？ @许广新 ：兰州拉面真正的老家 青海化隆…",
+      "key_points": [
+        "瞎扯 · 你抓拍的小动物是什么样子的"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "五一民宿争爆战：木鸟途家美团隔空对打",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6381559.html",
+      "published": "Wed, 22 Apr 2026 09:57:39 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "APP",
+        "C2C",
+        "CC0",
+        "citywalk",
+        "icon",
+        "Pexels"
+      ],
+      "summary": "五一民宿大战一触即发！木鸟、途家、美团三大平台各显神通，从网红特色到连住优惠，从价格战到本地生活整合，谁能在这场没有硝烟的战争中胜出？本文深度剖析三大平台的战略布局与用户争夺战，揭秘民宿行业背后的增长逻辑与未来趋势。 五一将至，近期各家发布都发布了相关数据报告。木鸟民宿热门低线城市订单同比翻倍增长，途家民宿大城市近郊民宿增长近两成。美团民宿连住7天及以上的民宿订单量同比增长超过40%。 作为三大小长假之一，五一档一直是各大平台布局的重点，随着三大民宿预订平台纷纷上线专题活动，五一档的竞争愈发激烈。民宿市场也迎来了新…",
+      "key_points": [
+        "木鸟途家美团祭出的“五一套餐”各有特色，只是相较之下，能够独立造血相对聚焦95后主流用户群的木鸟民宿稍强一筹，至于最后的赢家会花落谁手，还得节后见分晓",
+        "五一民宿大战一触即发！木鸟、途家、美团三大平台各显神通，从网红特色到连住优惠，从价格战到本地生活整合，谁能在这场没有硝烟的战争中胜出？本文深度剖析三大平台的战略…",
+        "根据第三方统计的APP store下载量来看，4.13-4.18，木鸟民宿和途家民宿均增长了130%，而美团民宿下载量则为负增长。过去，各大民宿平台在大档期均能…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "做AI系统别为了技术概念把架构做重",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6381893.html",
+      "published": "Wed, 22 Apr 2026 09:00:50 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "RAG",
+        "meta",
+        "Agent",
+        "CC0",
+        "embedding"
+      ],
+      "summary": "在AI系统设计中，简单往往比复杂更有效。本文通过多模态文件处理和短视频脚本优化两个实战案例，揭示了过度设计的陷阱——从图片解析的RAG化到脚本生成的架构膨胀，作者用亲身经历告诉你：满足核心需求的轻量方案，往往比追求技术概念的复杂系统更实用。 「本来我们想做的事情比较简单，对AI很友好，现在又好像变得很复杂。」 这是我最近在做AI Agent内容生产系统时的真实感受。 一开始想的很简单，做着做着就想加东西，然后发现架构越来越重。 今天聊聊怎么避免把简单的系统做复杂。 先说多模态文件处理这个问题。 我们在做的系统需要处…",
+      "key_points": [
+        "不要为了凑技术概念把架构做重",
+        "简单往往比复杂更有效。本文通过多模态文件处理和短视频脚本优化两个实战案例，揭示了过度设计的陷阱——从图片解析的RAG化到脚本生成的架构膨胀，作者用亲身经历告诉你…",
+        "对AI很友好，现在又好像变得很复杂。」 这是我最近在做AI Agent内容生产系统时的真实感受"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代，古典产品经理还有价值吗？应该如何转型？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pmd/6381935.html",
+      "published": "Wed, 22 Apr 2026 08:52:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PRD",
+        "Know-How",
+        "Python",
+        "case",
+        "Claude"
+      ],
+      "summary": "最近老有人问我，AI时代，古典产品经理还有价值吗？应该如何转型成为AI产品经理？ 说真的，这个话题我想了很久。 不是因为我是AI专家，恰恰相反，是因为我身边有太多古典产品经理了。有的是以前带过我的前辈，有的是认识多年的朋友，有的现在还在一线大厂做产品。这两年看着AI一步步把执行层的活抢走，他们普遍有一种怎么说呢，焦虑。 不是被替代的焦虑，是不知道该怎么动起来的焦虑。 所以这篇文章，不是来讲道理的，是我跟你们一起摸爬滚打总结出来的一点经验。也不成熟，你挑有用的看。 先说第一个问题：古典产品经理还有没有价值？ 我的观点…",
+      "key_points": [
+        "AI时代，古典产品经理还有价值吗？应该如何转型成为AI产品经理",
+        "先说第一个问题：古典产品经理还有没有价值",
+        "古典产品经理有没有价值？有。但那种只会写PRD、只会做项目管理、只会协调沟通的价值，在萎缩。而那种真正懂用户、懂场景、懂人性的价值，在增值"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "深度拆解：亚朵零售36亿GMV背后，如何突破当下增长瓶颈（上）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6381834.html",
+      "published": "Wed, 22 Apr 2026 08:05:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GMV",
+        "PRO",
+        "PRO3.0",
+        "CC0",
+        "CR5",
+        "EMBA"
+      ],
+      "summary": "亚朵酒店成功将“睡眠体验”转化为年GMV数十亿的零售业务，从卖枕头到打造独立品牌亚朵星球，实现了酒店行业的第二增长曲线。本文将从行业趋势、业务模式和用户体验三个维度，深度拆解亚朵如何通过场景化零售突围同质化竞争，并探讨当增长进入存量阶段后，其模式是否依然可持续。 你有没有想过，一家酒店靠卖枕头的收入，正在逼近甚至超过客房业务本身。 这不是个例，而是正在发生在亚朵身上的真实变化。 过去几年里，亚朵将“酒店体验”转化为可复购的零售产品，从最初住客询问“能不能把枕头买回家”，一路发展到年GMV数十亿的零售业务。 成为酒店…",
+      "key_points": [
+        "亚朵酒店成功将“睡眠体验”转化为年GMV数十亿的零售业务，从卖枕头到打造独立品牌亚朵星球，实现了酒店行业的第二增长曲线。本文将从行业趋势、业务模式和用户体验三个…",
+        "本文将从行业、业务、产品与用户体验几个维度，拆解亚朵零售的底层逻辑，并尝试回答一个更关键的问题：亚朵星球，下一步该往哪里走",
+        "02 核心业务 2.1 亚朵零售发展时间线 传统酒店业务增长放缓，亚朵需要寻找第二增长曲线"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代，真的就人人都是产品经理了？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6381813.html",
+      "published": "Wed, 22 Apr 2026 06:13:49 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Claude",
+        "ChatGPT",
+        "Diffusion",
+        "Gemini",
+        "Images"
+      ],
+      "summary": "昨天，OpenAI发布ChatGPT Images 2.0：AI图像生成进入”先思考再画”时代，今天到处可见它生成的图片，强大的飞起。我也尝试着先把今天要表达的内容做成了一张信息图，大家可以看看。当然，懒得看图片的，可以仔细阅读文字版的内容。 故事是这样的。 上周五晚上，我一个做会计的朋友给我发消息，说她用百度秒哒做了一个小工具，用来自动整理客户的发票报销。一开始我以为她就是用用提示词，结果她说，不，她让AI帮她写代码、帮她调试、帮她部署上线，现在那个工具在她公司内部已经有40多个人在用了。 我当时的反应就是。。。…",
+      "key_points": [
+        "不是程序员特有的，不是产品经理特有的，是任何一个对生活有观察、对需求有感知的人都能有的",
+        "以前产品经理的核心能力是什么？是“把想法落地成产品”的能力。这个能力拆开来看，包括了市场分析、需求挖掘、原型设计、项目管理、代码实现等等一系列子能力。这些子能力…",
+        "不是产品经理，甚至不是互联网从业者。但她做出了一样在“干活”的东西，还真的有人用"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "在香港迪士尼旁边，我们追踪了16000只飞越大海的蝴蝶",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%A8%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%97%81%E8%BE%B9%EF%BC%8C%E6%88%91%E4%BB%AC%E8%BF%BD%E8%B8%AA%E4%BA%8616000%E5%8F%AA%E9%A3%9E%E8%B6%8A%E5%A4%A7%E6%B5%B7%E7%9A%84%E8%9D%B4%E8%9D%B6",
+      "published": "Wed, 22 Apr 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "Conservation",
+        "Danaus",
+        "Fung",
+        "Hong",
+        "Jan."
+      ],
+      "summary": "在香港大屿山的北部，每天有成千上万的旅客到达这里，去探访现实中的童话世界——香港迪士尼乐园。而在烟火秀、 过山车的另一端——大屿山的南部，则是大片大片的郊野公园。在我心目中，它们就是童话本身。 那是我第一次见到这么多的蝴蝶。 在树上聚集的斑蝶 | Yuet Fung LING 在大屿山的一处谷地，它们成千上万地停歇在枝叶间，露出褐色的翅膀腹面。大部分是 蓝点紫斑蝶 （ Euploea midamus ）。我在阴天下午渐渐变暗的天空下仰头看着，头顶上仿佛有无数枯叶在簌簌颤动，然而周围的植物仍然绿意葱茏，密林中没有一丝…",
+      "key_points": [
+        "每天有成千上万的旅客到达这里，去探访现实中的童话世界——香港迪士尼乐园。而在烟火秀、 过山车的另一端——大屿山的南部，则是大片大片的郊野公园。在我心目中，它们就…",
+        "在这项研究中， 所有的蝴蝶在标放之后 均在香港被重新发现 ，暂时没有来自香港之外的目击报告",
+        "香港凤园蝴蝶保育区，以及深圳、广州的一些机构也在开展斑蝶标放研究与公众科普工作。只是，斑蝶标放需要大量的人力投入，公众科普也是一个漫长的过程。许多资料仍然在传播…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一件让性福体验噌噌提升的小事，很多人都不知道",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E4%BB%B6%E8%AE%A9%E6%80%A7%E7%A6%8F%E4%BD%93%E9%AA%8C%E5%99%8C%E5%99%8C%E6%8F%90%E5%8D%87%E7%9A%84%E5%B0%8F%E4%BA%8B%EF%BC%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E9%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93",
+      "published": "Wed, 22 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "otc"
+      ],
+      "summary": "很多人都以为，影响体验的关键，是“时间够不够长”。 于是各种讨论都会围绕一个问题展开：到底多久算正常？怎么才能更久一点？ 但光是关注时间长度本身，其实没那么有意义。更重要的是，我们得知道—— 为什么会这么快结束 ？ 问题在于刺激和信号 从生理上讲，这类反应经历的是一套刺激→神经信号→触发反应的过程。有时是大脑里触发反应的“刹车”不足，造成反应提前发生。有时是局部神经密集、敏感，在外界刺激下，神经传上去的信号更快累积，也就更容易提前触发后续反应。 也就是说，在一些情况下，并不是控制不住，而是上来就是高强度刺激，自然挺…",
+      "key_points": [
+        "来片喉糖可能会舒服很多。尤其是一些欧美otc类的喉糖，喉糖进嗓子没多久，疼痛感就开始指数级递减，直至彻底消失。此时，无论你是大口咽还是小口咽，那把藏在嗓子眼里的…",
+        "比如很多人都有过的“刀片嗓”——用力咽，是大刀剌嗓子；小口咽，是小刀剌嗓子",
+        "这一整套变化，其实都是在做同一件事—— 不是一味地追求更强，而是让体验变得更可控一点"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一辆车里有多少个“大脑”在吵架？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E8%BE%86%E8%BD%A6%E9%87%8C%E6%9C%89%E5%A4%9A%E5%B0%91%E4%B8%AA%E2%80%9C%E5%A4%A7%E8%84%91%E2%80%9D%E5%9C%A8%E5%90%B5%E6%9E%B6%EF%BC%9F",
+      "published": "Wed, 22 Apr 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "iPhone",
+        "TOPS",
+        "V9X",
+        "VLA",
+        "App"
+      ],
+      "summary": "过去三年，AI 重写了几乎所有你能想到的行业边界。 它重写了搜索，你不再需要从十条链接里自己筛答案；它重写了创作，从写作到绘画到编程，门槛以肉眼可见的速度在坍塌；它重写了手机，今天的旗舰机，本质上已经是一台以 AI 为核心调度系统的计算终端。 但现在，请你坐进一辆市面上号称 “智能” 的汽车。 你会发现什么？语音助手报天气、导航推路线、远程解锁车门。这些功能，五年前就有了。算力堆上去了，芯片换代了，屏幕更大了，但你和这辆车之间的 “智能感” ，并没有发生本质的跃迁，你会发现一种巨大的、拧巴的落差。 这不是因为硬件不…",
+      "key_points": [
+        "本质上是在一辆传统汽车的躯壳里，“塞”进了一颗 AI 大脑。座舱系统是一套，智驾系统是另一套，底盘和动力又是独立的控制逻辑。芯片算力再高，各系统之间仍然各说各话…",
+        "这就是 AI 汽车行业真正的核心矛盾：所有人都在卷参数，却没有人从根本上解决架构问题。AI 被“装”进了汽车，而不是从汽车里“长”出来。换句话说，AI 依然只是…",
+        "这套架构的逻辑是这样的：双 VLA 大模型构成整车大脑，其中驾辅左脑负责理性决策，搭载 Thor-U 辅助驾驶芯片，700TOPS 算力支撑车端实时驾驶决策闭环…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么买鞋之前，我建议你一定要先去线下店踩两脚？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B9%B0%E9%9E%8B%E4%B9%8B%E5%89%8D%EF%BC%8C%E6%88%91%E5%BB%BA%E8%AE%AE%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E5%85%88%E5%8E%BB%E7%BA%BF%E4%B8%8B%E5%BA%97%E8%B8%A9%E4%B8%A4%E8%84%9A%EF%BC%9F",
+      "published": "Wed, 22 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Sobey",
+        "amp",
+        "dc_ps",
+        "End",
+        "EVA",
+        "feature"
+      ],
+      "summary": "你有没有觉得： 同一双鞋，线上买的就是没有线下的舒服，尤其是运动鞋！ 这是怎么回事呢？ 的确，有的品牌 为了在电商渠道打价格战 ，可能会从多方面节省成本，比如： ▸ 把气垫从全掌换成半掌； ▸ 将鞋垫的泡棉密度悄悄降一个等级； ▸ 中底支撑片从碳板换成普通塑料片； ▸ 甚至鞋面缝合的针数都比线下少两针...... 这些“偷工”肉眼很难分辨，可一旦穿上走一走，你就会发现 ——以为捡了便宜，脚却跟着受了大累。 果壳实拍，肉眼很难辨别 所以我一直想谈 品牌线下店 的合作，让大家、也让我自己能用线上的好价格，买到线下的高品…",
+      "key_points": [
+        "可以自在逛街一整天不累，还可以稳稳增高，立显大长腿~ 果壳实拍 线下店169元1双 买2双平均下来还要144.5元/双 我们直接129元/双 👇 戳图购买 👇…",
+        "肉眼很难辨别 所以我一直想谈 品牌线下店 的合作，让大家、也让我自己能用线上的好价格，买到线下的高品质",
+        "走一天脚都不闷、不滑、不累。细节做工也非常好，就连鞋垫都是透气的~ 果壳实拍 ✅ 一双鞋搞定所有场景 早上赶地铁、中午去健身房、下班遛娃、周末逛公园它都能搞定，…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "好传奇的一部黑色电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%BD%E4%BC%A0%E5%A5%87%E7%9A%84%E4%B8%80%E9%83%A8%E9%BB%91%E8%89%B2%E7%94%B5%E5%BD%B1",
+      "published": "Wed, 22 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Black",
+        "Chris",
+        "Cinema",
+        "hongmomgs",
+        "irisfilm",
+        "Irish"
+      ],
+      "summary": "作者：Chris Justice 译者：易二三 校对：Issac 来源：Senses of Cinema（2005年7月） 奥森·威尔斯怪诞的黑色电影杰作《上海小姐》以对童话的明显暗示开始，以木板路上的欢乐屋结束。这并非巧合。这部电影取材于许多叙事惯例和形式，包括童话、寓言、噩梦、超现实、黑色电影和神话，影片的大部分场景都发生在水上或靠近水的地方，直接指向了其流动的、催眠的和梦幻般的气质。 《上海小姐》（1947） 关于影片的制作过程的故事也同样具有传奇色彩。这部电影还巧妙地融合了现实主义和超现实主义、艺术和现实、…",
+      "key_points": [
+        "奥哈拉发现艾尔莎在中央公园被三个暴徒袭击，于是出手相救。奥哈拉护送她回到车上后，她邀请他第二天和她一起坐船兜风。但是，与班尼斯特一家有关的两个人，以一种令人毛骨…",
+        "《上海小姐》（1947） 关于影片的制作过程的故事也同样具有传奇色彩。这部电影还巧妙地融合了现实主义和超现实主义、艺术和现实、梦想和意识等对立面的东西。这些元素…",
+        "比如《伟大的安巴逊》（后来，他另一部杰出的黑色电影《历劫佳人》也难逃一劫，只不过情况没那么糟糕）。不幸的是，《上海小姐》也不例外"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "第一季那么神，第二季为何仆街？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%AC%AC%E4%B8%80%E5%AD%A3%E9%82%A3%E4%B9%88%E7%A5%9E%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%AD%A3%E4%B8%BA%E4%BD%95%E4%BB%86%E8%A1%97%EF%BC%9F",
+      "published": "Wed, 22 Apr 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Wong",
+        "Yeun",
+        "Ali",
+        "Danny",
+        "Amy",
+        "Ashley"
+      ],
+      "summary": "文 MoFi 《怒呛人生》第二季 崩盘 ， 在意料中。 也许 这一季 根本就不该拍出来。 《怒呛人生》（2026） 主创 李成真 之前 在多个采访中提到过，他脑海里有 Danny和Amy后续两到三季的故事构想。也就是说，他原本设想的续集是延续Steven Yeun和Ali Wong的角色线。 但谁曾想， David Choe 塌房，导致续集必须全盘重构。 《怒呛人生》（2023） 我们看 第一季的叙事架构 ，它最大的优点是极致 简洁。两个主角，一次路怒事件作为引爆点，十集篇幅，所有情节围绕两人心理状态的螺旋式恶化层…",
+      "key_points": [
+        "问题在于第一季的类型转换服务于人物弧线的极端化，而第二季的类型转换是脱离人物弧线的 ， 它把观众的注意力 转移了",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 说这是本世纪影响力最大的日本电影，也不为过 打捞一部被严重低估的港剧 年度第一神剧，没那么…",
+        "但它要求的东西 ，比如 可复制性、品牌连续性 ， 恰恰是第一季成功的反面。第一季的成功建立在不可复制的东西之上 ，包括 亚裔美国人在后疫情时代的社会共鸣、 Ye…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "什么？我们居然在大自然里发现了它们......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%80%E4%B9%88%EF%BC%9F%E6%88%91%E4%BB%AC%E5%B1%85%E7%84%B6%E5%9C%A8%E5%A4%A7%E8%87%AA%E7%84%B6%E9%87%8C%E5%8F%91%E7%8E%B0%E4%BA%86%E5%AE%83%E4%BB%AC......",
+      "published": "Wed, 22 Apr 2026 18:03:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GUILD",
+        "Herkimer",
+        "BBC",
+        "Boucheron",
+        "Daniel",
+        "Dior"
+      ],
+      "summary": "你小时候是不是也捡过几块好看的石头？追过一只没头没脑乱撞的虫子？好奇过雨后冒出来的那朵蘑菇到底能不能吃？那些被我们匆匆忽略的角落，正藏着自然最精巧的造物，它们等待着被用心拾起、细细探寻。 4月26日 在 上海浦东图书馆1号厅， 中国国家地理大讲堂线下场 《收集自然》， 特邀三位嘉宾，他们将用不同的方式，把那些散落在脚边的、远方的自然，一件一件珍藏起来，与大家一同翻阅。 01 咫尺幻境 如果你愿意蹲下来，把视线放低到草叶背面，就会发现一个大多数人从未注意过的世界。昆虫的 形态、结构、色彩 复杂得令人惊叹，但它们实在太…",
+      "key_points": [
+        "来自云南的“永生毒蘑菇” 图源/罗宏 正是这些令人恐惧的毒素，除了给研究带来挑战，也藏着意想不到的价值。鹅膏毒肽能精准抑制真核生物RNA聚合酶Ⅱ的活性，这一特性…",
+        "最常见的做法是 标准正面俯视拍摄 。但王恒不满足于此。他希望在作品中展现昆虫鲜活的 生命力 ，甚至赋予它们个性。这意味着整姿时必须借鉴昆虫活着时的 真实姿态 。…",
+        "系统研究毒蘑菇20余年。发现了世界最毒蘑菇（鹅膏、盔孢伞、环柄菇）毒素的生源合成机制与进化历史，解析了毒蘑菇为什么毒不死自己的原因，发现了“见小人人”的见手青致…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "中年紫，老年金",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%AD%E5%B9%B4%E7%B4%AB%EF%BC%8C%E8%80%81%E5%B9%B4%E9%87%91",
+      "published": "Wed, 22 Apr 2026 11:33:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "golden",
+        "Midjourney",
+        "AI",
+        "ar",
+        "Beautiful",
+        "Bitsea"
+      ],
+      "summary": "昨天去朋友家赏牡丹，品单丛，我随手拍了 几张照片 发出来。然后从朋友圈到公众号，纷纷出现一条内容高度雷同的评论：看起来像是我老妈拍的照片。 重点完全搞错了好吗？重点是这些牡丹花都有碗口大小，说是需要三十年老根才能培育出这种效果。然后我还专门拍了一张双色牡丹，也是生活里少见的事物。但所有这一切都被「中老年审美」的讨论掩盖掉了，人们根本无心仔细体会。 想起我曾在青年时代读过一段作家林语堂晚年的逸事，说他越老越喜欢圣诞节。有一年，他已经老到无法行走，但依然请求人们把他的轮椅推到圣诞树前。然后他伸手出去，一把紧紧抓住树上闪…",
+      "key_points": [
+        "为什么人到中年会喜欢年轻人看来很艳俗的颜色？因为中年人活在一个一切逐渐暗淡，逐渐崩解，逐渐远离自己而去的世界里，看到饱和度极高的色彩，让人心里会有一种充实感。不…",
+        "年轻时恨不得要雅到性冷淡的程度，色切忌艳，形切忌满，香气切忌浓。到了中年，一切都反了过来，李宗盛话：男人久不见莲花，开始觉得牡丹美。这句词本身不好，孟德感极强，…",
+        "重点完全搞错了好吗？重点是这些牡丹花都有碗口大小，说是需要三十年老根才能培育出这种效果。然后我还专门拍了一张双色牡丹，也是生活里少见的事物。但所有这一切都被「中…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "一周三人获奖，时隔9年，北大数学“新黄金一代”闪亮登场！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%80%E5%91%A8%E4%B8%89%E4%BA%BA%E8%8E%B7%E5%A5%96%EF%BC%8C%E6%97%B6%E9%9A%949%E5%B9%B4%EF%BC%8C%E5%8C%97%E5%A4%A7%E6%95%B0%E5%AD%A6%E2%80%9C%E6%96%B0%E9%BB%84%E9%87%91%E4%B8%80%E4%BB%A3%E2%80%9D%E9%97%AA%E4%BA%AE%E7%99%BB%E5%9C%BA%EF%BC%81",
+      "published": "Wed, 22 Apr 2026 08:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "ICCM",
+        "Prize",
+        "Clay",
+        "Dimitrov",
+        "Hani"
+      ],
+      "summary": "4.22 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / ThisisEngineering 撰 文｜ 张天祁 责编｜李珊珊 ● ● ● 过去的一周成了中国青年数学家的收获季。 4月13日，克雷数学研究所 （Clay Mathematics Institute） 公布当年度克雷研究奖 （Clay Research Award） 得主。该奖分三项授予三组彼此独立的研究工作，其中有两位出身北大数学科学学院的中国数学家。 王虹与合作者巴勃罗·什默金 （Pablo Shmerkin）…",
+      "key_points": [
+        "01 从黄金一代到新黄金一代 中国数学界有一个广为人知的说法，叫“北大数学黄金一代”。那是2000年前后入学的一批人，恽之玮、张伟、许晨阳、朱歆文、袁新意，他们…",
+        "由谷歌创始人谢尔盖·布林等科技企业家资助，奖金高达三百万美元。数学新视野奖是科学突破奖专门面向年轻数学家的分支，奖金十万美元，长期被视为菲尔兹奖的风向标之一。在…",
+        "02 北大数学黄金一代 2000年前后，北京大学数学科学学院陆续进来了这样一批学生：1999级的许晨阳、刘若川，2000级的恽之玮、张伟、袁新意、朱歆文，200…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "「希音链」进化的一体两面：投资于物和投资于人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E3%80%8C%E5%B8%8C%E9%9F%B3%E9%93%BE%E3%80%8D%E8%BF%9B%E5%8C%96%E7%9A%84%E4%B8%80%E4%BD%93%E4%B8%A4%E9%9D%A2%EF%BC%9A%E6%8A%95%E8%B5%84%E4%BA%8E%E7%89%A9%E5%92%8C%E6%8A%95%E8%B5%84%E4%BA%8E%E4%BA%BA",
+      "published": "Wed, 22 Apr 2026 17:41:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "C2M",
+        "Eli",
+        "Freeman",
+        "SHEIN",
+        "Whitney"
+      ],
+      "summary": "文 丨 Freeman 发明了轧棉机的美国工程师Eli Whitney曾用这么一句话来描述生产力与工具之间的关系：「我不得不先造出制造工具的工具，再用这些工具去造其他的。」 某种程度上，在轧棉机面世近200年后的今天，全球纺织业仍然在面临类似的结构性困境。 众所周知，作为传统支柱型产业之一，纺织服装点亮科技树的进展一直算不上快，这倒不是说做衣服就没有技术可言了，而是产业链太长、参与者太分散，纱线、面料、成衣、包装，每个环节都散布着大量几十人到几百人规模的中小微工厂。 这意味着任何一项技术，规模化普及的难度都会指数级…",
+      "key_points": [
+        "投资于物只是硬币的一面，希音对于人的投资，或许会给传统产业变革带来更加深远的启发",
+        "到投资于宏观的人，随着希音频繁的动作浮上水面，一个层层递进的战略蓝图也愈发清晰了",
+        "爷叔第一次见到阿宝是这么告诫他的，「外贸的本质，是借别人的鸡生自己的蛋，所以你最先要解决的问题，是别人为什么要把鸡借给你。」 道理并不复杂，但终究知易行难，越是…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "任务自适应 Harness：从 Trace 到多 Coding Agent 的协作记忆",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/task-adaptive-harness/",
+      "published": "Wed, 22 Apr 2026 07:54:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Coding",
+        "Agent",
+        "AI",
+        "Claude",
+        "Harness",
+        "Inspire"
+      ],
+      "summary": "在 Thoughtworks（现 Inspire） 的最后一个月里，我一直在为“下一个项目”准备一套 AI Coding 的端到端方案。这个方案基于 Claude",
+      "key_points": [
+        "在 Thoughtworks（现 Inspire） 的最后一个月里，我一直在为“下一个项目”准备一套 AI Coding 的端到端方案。这个方案基于 Claud…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "研讨会｜高管视角：2026商业环境与战略选择",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%A0%94%E8%AE%A8%E4%BC%9A%EF%BD%9C%E9%AB%98%E7%AE%A1%E8%A7%86%E8%A7%92%EF%BC%9A2026%E5%95%86%E4%B8%9A%E7%8E%AF%E5%A2%83%E4%B8%8E%E6%88%98%E7%95%A5%E9%80%89%E6%8B%A9",
+      "published": "Wed, 22 Apr 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "Enterprise",
+        "Corporate",
+        "Network",
+        "B2B",
+        "Business"
+      ],
+      "summary": "（《Business Outlook Survey 2026》源自经济学人集团旗下Economist Enterprise Corporate Network的年度高管调查，汇集企业高层对市场环境、战略重点及未来一年的真实判断。） 关于Economist Enterprise Economist Enterprise 是经济学人集团旗下的B2B业务品牌。我们将宏观经济和地缘政治的复杂变化，转化为可决策的洞察、可信赖的沟通，以及在全球舞台上有价值的对话，帮助不同组织在不确定性中把握方向。 Economist Ente…",
+      "key_points": [
+        "（《Business Outlook Survey 2026》源自经济学人集团旗下Economist Enterprise Corporate Network的…",
+        "Economist Enterprise Corporate Network 是Economist Enterprise旗下专为全球商业领袖打造的高端专业交流平…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "木蜂躺着把花瓣揽在怀里引起热议，有人说这是临死的表现，是这样吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789091",
+      "published": "Sat, 18 Apr 2026 23:00:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "advances",
+        "Annual",
+        "Archives",
+        "as",
+        "bee"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 确实命悬一线了。 浪漫的表象，悲剧的内核。 单看视频，一只可爱的黄胸木蜂（ Xylocopa tranquebarica ）躺在地上，缓慢地往怀里拥揽花瓣，配上清新的音乐，惬意且浪漫： 但在我这个农大出身的人眼里，是另一番光景。 背腹翻转（躺在地上）+ 刻板行为（重复进行某个动作），都指向了一个非常典型的情况： 农药中毒。 这只可怜的木蜂，大抵是接触到了新烟碱类农药（如吡虫啉）或拟除虫菊酯类农药，神经中毒了。 前者会攻击昆虫的乙酰胆碱受体，后者则干扰神经…",
+      "key_points": [
+        "一只可爱的黄胸木蜂（ Xylocopa tranquebarica ）躺在地上，缓慢地往怀里拥揽花瓣，配上清新的音乐，惬意且浪漫： 但在我这个农大出身的人眼里，…",
+        "躺在地上、无法起身、慢慢往肚子塞花瓣这种无意义的动作，说明它的肢体协调能力已经严重受损",
+        "黄胸木蜂跟大家印象里的蜜蜂是不一样的"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "数据测试方法",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/shu-ju-ce-shi-fang-fa/",
+      "published": "Thu, 30 Dec 2021 11:53:40 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "有赞数据报表中心为商家提供了丰富的数据指标，包括30+页面，100+数据报表以及400+不同类型的数据指标，它们帮助商家更合理、科学地运营店铺，同时也直接提供分析决策方法供商家使用。并且，每天在跑的底层任务和涉及的数据表已经达到千级别。面对如此庞大的数据体系，作为测试如何制定质量保障策略呢？这篇文章将从：1、有赞数据链路 2、数据层测试 3、应用层测试 4、后续规划四个方面展开 一、有赞数据链路 1、数据链路介绍 首先介绍有赞的数据总体架构图： 自顶向下可以大致划分为应用服务层、数据网关层、应用存储层、数据仓库，并…",
+      "key_points": [
+        "有赞数据报表中心为商家提供了丰富的数据指标，包括30+页面，100+数据报表以及400+不同类型的数据指标，它们帮助商家更合理、科学地运营店铺，同时也直接提供分…"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "我做系统架构的一些原则",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/21672.html",
+      "published": "Tue, 21 Dec 2021 07:46:41 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first",
+        "on"
+      ],
+      "summary": "工作 20 多年了，这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比... Read More Read More The post 我做系统架构的一些原则 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 我做系统架构的一些原则 first appeared on 酷 壳 - CoolShell",
+        "这 20 来年看到了很多公司系统架构，也看到了很多问题，在跟这些公司进行交流和讨论的时候，包括进行实施和方案比较的时候，都有很多各种方案的比"
+      ]
+    }
+  ]
+}
