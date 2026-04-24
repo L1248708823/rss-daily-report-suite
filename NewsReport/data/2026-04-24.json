@@ -1,0 +1,772 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T01:00:09.341708+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 102,
+    "fresh_candidates": 68,
+    "backfill_candidates": 34,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-24",
+      "fetched_at": "2026-04-24T01:00:04.049595+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4093.25,
+          "change": -13.01,
+          "change_pct": -0.32,
+          "volume": 671166092.0,
+          "amount": 123439621.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4704.66,
+          "change": 10.590000000000146,
+          "change_pct": 0.23,
+          "prev_close": 4694.07,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-24 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1033.1692616586556,
+          "change": 2.325622357612474,
+          "change_pct": 0.225603793722717,
+          "prev_close": 1030.8436393010431,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-24 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-24",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "一个让90%散户亏钱的致命习惯：把顺序做反了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%80%E4%B8%AA%E8%AE%A990%25%E6%95%A3%E6%88%B7%E4%BA%8F%E9%92%B1%E7%9A%84%E8%87%B4%E5%91%BD%E4%B9%A0%E6%83%AF%EF%BC%9A%E6%8A%8A%E9%A1%BA%E5%BA%8F%E5%81%9A%E5%8F%8D%E4%BA%86",
+      "published": "Thu, 23 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 考场上的策略清晰而理性 ： 先完成送分题锁定基础分 ， 再攻克中等题巩固优势 ， 最后挑战压轴题冲击高分 。 这种 “ 先易后难 ” 的答题节奏 ， 是无数考试总结出的最优解 。 然而当考场切换为投资市场 ， 这套行之有效的战术却突然失效 —— 投资者们像被某种魔力驱使 ， 争先恐后地扑向波动最大 、 风险最高的 “ 高分题 ” ， 最终在剧烈震荡中败下阵来 。…",
+      "key_points": [
+        "单一行业主题不超过总资产的一定比例 ； 比如建立 “ 冷静期 ” 机制 ， 想买某只热门基金时 ， 强制自己等待一周 ； 比如定期复盘 ， 检视自己的 “ 答题…",
+        "03 重建投资的 “ 答题顺序 ” 克服这种非理性 ， 需要把考场智慧重新移植到投资中"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "有色学习笔记（一）：银、锡",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/385398134",
+      "published": "Thu, 23 Apr 2026 09:39:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CAGR",
+        "H1",
+        "CR6",
+        "FOMO",
+        "gt",
+        "H1-2015"
+      ],
+      "summary": "最近学习有色，自己整理了一些笔记，在此做个记录与大家分享。 一、矿业专业术语 研究之前，先和大家解释一下经常看到的那些核心术语： 原矿 与 品位 ：原矿就是矿山直接开采出来、未经任何加工处理的石头，这是所有生产的起点。品位是指石头里目标金属的含量，贵金属通常用 克/吨 表示，基本金属用 % 表示。 品位直接决定了矿山的盈利能力 选矿 与 精矿 ：挖出来的石头大部分是废石，需要通过物理或化学方法把有价值的金属分离富集，这个过程就是选矿。选矿后得到的富集产品叫精矿。 矿企通常卖的是精矿 ，而不是最终的金属锭，精矿会卖给…",
+      "key_points": [
+        "导致需求端不会因涨价而大幅萎缩。一旦供给端收缩，锡价向上阻力较小 以上是我本次学习做的一些笔记，很多想法并不成熟。雪球上有很多深耕有色行业的前辈，也请各位老师多…",
+        "历史上锡价出现过几轮较为明显的价格周期： 2009-2011H1： 锡矿供应大幅下降叠加半导体消费提升，缺口推动价格大涨 2011H1-2015： 缅甸矿放量，…",
+        "自己整理了一些笔记，在此做个记录与大家分享"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "赣锋锂业长协定价机制详解",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7474749183/385343944",
+      "published": "Thu, 23 Apr 2026 09:39:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q1",
+        "M-1",
+        "Q2",
+        "SZ002460",
+        "Cauchari-Olaroz",
+        "http"
+      ],
+      "summary": "长协定价（LTA）是 $赣锋锂业(SZ002460)$ 核心经营策略之一，也是理解其业绩波动、周期耐受度的关键，更是锂盐行业“上下游风险共担、削峰填谷”的通用玩法。 一、核心长协定价机制 赣锋锂业长协核心遵循“滞后定价+弹性联动”原则，并非简单“打折”，核心规则如下，同时结合2025年10月公告及最新执行情况补充说明： 1. 核心定价基准：M-1月度均价联动（滞后1个月） 这是赣锋及全行业长协的基础规则，即“发货月（M）的产品价格，按上月（M-1）市场现货均价结算”，避免短期现货价格剧烈波动对上下游造成冲击。 举例…",
+      "key_points": [
+        "一、核心长协定价机制 赣锋锂业长协核心遵循“滞后定价+弹性联动”原则，并非简单“打折”，核心规则如下，同时结合2025年10月公告及最新执行情况补充说明： 1",
+        "赣锋锂业长协核心：M-1月度均价联动+弹性系数（涨80%、跌70%），并非简单打折，仅对宁德时代有8折特殊约定，是深度战略绑定的结果； 2",
+        "兼顾双方利益 赣锋2026年长协引入“阶梯调价机制”，并非固定比例，而是根据锂价涨跌调整联动幅度，核心目的是平滑周期波动： 涨价时：现货每上涨1万元/吨，长协价…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "齐鲁、杭州银行2026年一季报点评：耐心比勤奋更重要",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1062170191/385354477",
+      "published": "Thu, 23 Apr 2026 09:39:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROE",
+        "PB",
+        "Q1",
+        "http",
+        "SH600926",
+        "SH601665"
+      ],
+      "summary": "分析齐鲁银行的一季报前，先对其披露的2025年正式年报数据进行复核，因为之前的测算都是基于2025年年度快报的数据，其中没有关于关注率、逾期率、逾期90天以上率等高阶数据。 在正式的年报中，齐鲁银行的关注率从2025年三季度的0.96%，下降到0.86%。逾期贷款率从2025年半年报的1.03%，下降为0.88%，逾期贷款规模也从2025年半年报的38.38亿，下降为2025年年报的33.82亿。 代表更容易成为真实不良的“逾期90天以上贷款”，2025年半年报绝对值为28.82亿，逾期90天以上贷款率为0.77%…",
+      "key_points": [
+        "杭州银行的报表ROE已经是上市银行中最高的那一档，对比齐鲁银行，2025年杭州报表ROE为14.65%，今年一季度为4.69%，这两个数据都要高于齐鲁（12.2…",
+        "测算两家银行的归母普通股东净利润，还原拨备变化并计算最终的真实ROE，得到2025年一季度的杭州银行真实ROE为4.8%，依然高于齐鲁银行的3.8%的水平",
+        "测算一季度齐鲁银行的“真实ROE”达到3.8%左右，略低于2025年一季度的4%，报表ROE和我们测算的真实ROE都比去年一季度低0.2%左右。这一点在意料之内…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "股息率40%的红利陷阱，红利指数能够避免吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6828304753/385276759",
+      "published": "Thu, 23 Apr 2026 09:39:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "bp",
+        "CSIH30269",
+        "http",
+        "ROA",
+        "ROE",
+        "ROE1.73"
+      ],
+      "summary": "3月末港股有一家城商行给出了一份极其“豪横”的分红预案，该行宣布每股将派发0.118元的分红，公告当日该行每股收于0.255元，以此为基础计算其股息率达到了惊人的46.27%，受分红预案影响，其股价第二日暴涨27.45%，当前收于每股0.330元，股息率仍然有35.76%，非常的惊人。 这也是该行2019年以来的第一次分红，合计17.78亿元的分红也达到了其2025年5.88亿净利润的3.02倍，那么本次分红是现金还是陷阱呢?躺师傅也抱着学习的态度也来简单的扫描一下该行的2025年年度报告： 1、基本业绩：营收54…",
+      "key_points": [
+        "2、恒生港股通高股息低波动指数 恒生系的红利指数也有连续三年分红及分红率小于100%的要求，而且对于股息率大于7%的样本还将被主动筛查并计算扣非分红后的股息率数…",
+        "躺师傅觉得有经验的投资者不太容易踩中这种类型的红利陷阱，大部分红利指数依靠对连续分红的要求以及对分红率的限制也基本不会纳入这类样本，这类样本也基本不会影响到红利…",
+        "这里我们分别选取三家指数公司的代表性港红利指数来做一个简单的解读，这三只指数分别是中证指数公司编制的中证港股通高股息指数、恒生指数公司编制的恒生港股通高股息低波…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么中国能实现蔬菜自由，欧洲却不行？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789194",
+      "published": "Thu, 23 Apr 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DNA"
+      ],
+      "summary": "擒贼先擒王先生， 十年中大型餐饮资深从业者，高层管理人员，三家自营餐饮店主。 查看知乎原文 我是擒贼先擒王先生，十年餐饮人。 我认为有以下几个因素。 1. 我们的供应链那是卷到姥姥家了 你去过白沙洲吗？做餐饮的应该都听过吧。 我开店这么多年，白沙洲真叫一个开眼： 云南的菜心、山东的蒜、海南的小米辣， 头天下午还在地里长着，第二天凌晨就能拉到武汉的批发市场， 我凌晨四点钟去挑货，新鲜得还挂着露水。 而且价格，说出来你不信，去年冬天白菜最便宜的时候，一毛钱一斤。 为啥这么便宜。 因为我们的供应链太卷了， 全国的高速网、…",
+      "key_points": [
+        "我们能实现蔬菜自由还要得益与国家的基础建设，水利工程，惠农政策等，这很重要",
+        "我们习以为常的蔬菜自由，原来已经是别人羡慕都羡慕不来的好事了",
+        "我们中国人是真的把吃菜刻进 DNA 了 这一点我感触最深，我开店这么多年，客人点个菜，哪怕是纯肉菜，都得配一堆蔬菜： 鱼香肉丝要配笋丝、胡萝卜丝、木耳，宫保鸡丁…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么有部分农村的学生上大学就「堕落」了？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789202",
+      "published": "Thu, 23 Apr 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPA",
+        "https",
+        "of",
+        "a482e63",
+        "a940",
+        "Harvard"
+      ],
+      "summary": "皮卡皮卡 查看知乎原文 建议大家去看看《上海交通大学生存手册》，讲得很好，说出了大学教育的本质。 不论你是 985、211 还是普通本科还是专科生，耐下心来看完，你一定会很有收获！ 《上海交通大学生存手册》原文 PDF 我放在下面链接了，快去观看吧！ 原文完整版 PDF ： https:// pan.quark.cn/s/7a482e63 a940 备用链接： https:// pan.xunlei.com/s/VNgU5o zS__XMvyg-kkPWuW_WA1?pwd=fh5a# 1 立志篇 1.1 欢迎来到…",
+      "key_points": [
+        "我们也必须加以进一步的分析和鉴别。的确，国外的学术水平高，这是毋庸置疑的，而且让我们感到欣慰的是，不懂事的拟出国人员们几乎不会怀疑这一点。而且若不是有国外先进的…",
+        "是中国大部分的大学生都是如此的平庸，以至于大部分人除了 GPA 什么都没有。于是对于国外的大学来说，也只能通过 GPA 这唯一的信息来衡量中国申请者的能力。GP…",
+        "我不知道各位交大学生是否考虑过高中毕业直接参加工作。没有？那么是什么让我们削尖了脑袋参加高考，挤进大学呢？我想“学习好”，或者“爱学习”并不是借口，因为我们当中…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "中文护城河塌了：GPT Image 2 一脚踢翻即梦、可灵、通义万相",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6382662.html",
+      "published": "Thu, 23 Apr 2026 10:35:07 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Image",
+        "GPT",
+        "OpenAI",
+        "AI",
+        "Seedream",
+        "prompt"
+      ],
+      "summary": "GPT Image 2的发布不仅打破了中文图像生成的护城河，更在审美、推理能力和场景理解上实现了质的飞跃。这款美国模型不仅能精准渲染中文文字，还能无缝融入电商详情页、招聘海报等复杂场景，甚至自动补全中国用户熟悉的细节。本文将深度解析国产模型如何从技术领先到被迫迎战，以及OpenAI如何用一次迭代改写行业格局。 2026 年 4 月 21 日，OpenAI 正式发布 GPT Image 2。发布当天深夜，中文互联网上一张图开始疯转。 那是一张 Mariah Carey 90 年代音乐生涯的中文信息长图。左边是她的侧面…",
+      "key_points": [
+        "中文市场所有的国产图像模型——快手的可灵 Kolors、字节的即梦 Seedream、阿里的通义万相 Qwen-Image——都在同一个叙事里活着：我们也许在某…",
+        "五、为什么”中文护城河”必然会失守 一个更冷静的判断： 中文作为国产大模型的护城河，从来不是技术壁垒，而是数据和注意力壁垒 。当一家公司愿意花钱补中文数据、愿意…",
+        "AI 图像生成这一轮也是一样。中文文字渲染、中文语义理解、亚洲人像审美——这些东西一旦 OpenAI/Google 决定要做，就能做到。而真正持久的护城河从来不…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI涌现能力的五个层级——AI训练师的亲笔记录",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6382687.html",
+      "published": "Thu, 23 Apr 2026 09:56:45 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "case",
+        "Agent",
+        "query",
+        "AI",
+        "badcase",
+        "API"
+      ],
+      "summary": "模型涌现现象远非表面那么简单，背后暗藏五层递进逻辑。从临界点亮的突变效应到组合能力的自发串联，从差异化策略的自我进化到意图识别的精准判断，直至反思能力的若隐若现——每个层级的涌现都对应着不同的训练策略与评测方法。本文将深入拆解这五个关键层级，为模型训练者提供可落地的评测框架与标注优化方案。 “涌现”这个词被用得太泛了。模型多做对了一道数学题叫涌现，突然能写诗了也叫涌现，好像只要出现一个训练目标里没显式定义的能力，就统统往这个筐里扔。 站在训练者的角度，这些现象之间的差异是巨大的。有些涌现你提前能感知到——数据到位了…",
+      "key_points": [
+        "背后暗藏五层递进逻辑。从临界点亮的突变效应到组合能力的自发串联，从差异化策略的自我进化到意图识别的精准判断，直至反思能力的若隐若现——每个层级的涌现都对应着不同…",
+        "但我觉得这恰恰是写这篇文章的意义——不是给出权威答案，而是提供一个一线视角的观察框架。如果你也在做模型评测或者标注相关的工作，你大概率见过类似的现象。你可以对照…",
+        "这些现象之间的差异是巨大的。有些涌现你提前能感知到——数据到位了，信号够了，能力迟早会出来，它只是在等一个临界点。有些涌现是真的意外——你翻遍训练数据也找不到它…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI竞品分析工具的“死磕”：为了 100% 稳定，我到底填了多少坑？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6382638.html",
+      "published": "Thu, 23 Apr 2026 09:43:34 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "JSON",
+        "Notion",
+        "RAG",
+        "Slack",
+        "URL"
+      ],
+      "summary": "AI竞品分析工具的稳定落地远比想象中艰难。从数据采集对齐、审查反馈结构化到系统级评测体系建设，作者通过数百次测试迭代揭示了自动化分析背后的技术深坑与产品哲学。本文将带你穿透VLM识别、多Agent协同等前沿技术，直击AI产品从能跑到稳跑的关键突破点。 根据之前对【 AI 竞品分析】 的复盘，我已经把AI 竞品分析基础版做出来了。 复盘文章链接： https://www.woshipm.com/ai/6375644.html AI 竞品分析基础版： 但是，能跑通是一回事，能“稳定地”跑通完全是另一回事。为了提高稳定性…",
+      "key_points": [
+        "AI竞品分析工具的稳定落地远比想象中艰难。从数据采集对齐、审查反馈结构化到系统级评测体系建设，作者通过数百次测试迭代揭示了自动化分析背后的技术深坑与产品哲学。本…",
+        "复盘文章链接： https://www.woshipm.com/ai/6375644.html AI 竞品分析基础版： 但是，能跑通是一回事，能“稳定地”跑通完…",
+        "二、细节里全是“坑” 为了让这条分析链路可以尽快稳定的产出质量过关的竞品分析报告，进行了小批量测试后，竟然查出了一堆设计上的低级问题"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI产品经理最核心的工作之一：AI Agent评估体系到底该怎么做？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6382624.html",
+      "published": "Thu, 23 Apr 2026 09:17:31 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "LLM",
+        "Prompt",
+        "Bad",
+        "Case"
+      ],
+      "summary": "AI Agent的成功不仅在于模型和Prompt的设计，更在于一套科学、闭环的评估体系。传统的软件评测方法在AI时代已显得力不从心，因为AI Agent的输出充满概率性和不稳定性。本文深度剖析如何构建覆盖数据评测集、量化指标、归因迭代的三层评估体系，揭示让AI产品真正持续进化的核心机制。 AI产品经理最核心的工作之一：AI Agent评估体系到底该怎么做？ 很多团队做AI Agent，大家往往会把大量精力放在：模型怎么选、Prompt怎么写、工作流怎么编排、工具怎么接。但真正决定一个Agent能不能持续做好、持续迭…",
+      "key_points": [
+        "AI产品经理最核心的工作之一：AI Agent评估体系到底该怎么做",
+        "正是AI产品经理最核心的工作之一",
+        "而是AI产品迭代的起点 对于AI产品经理来说，评估体系的意义，不是为了证明“这个Agent效果不错”。它真正的价值在于： 把主观感觉变成客观判断 把“出了问题”…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 演员，重塑娱乐圈？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6369959.html",
+      "published": "Thu, 23 Apr 2026 09:00:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "MV",
+        "Lil",
+        "Miquela",
+        "Particle6",
+        "YouTube"
+      ],
+      "summary": "AI演员正在以惊人的速度重塑内容产业的边界。从耀客传媒签约AI演员引发争议，到「雪山救狐狸」系列意外爆红，再到好莱坞虚拟演员蒂莉·诺伍德的舆论风波，这场由技术驱动的行业变革正在暴露一个核心矛盾：当表演成为可批量生产的能力，观众究竟是为「活人感」买单，还是为内容本身买单？本文深度剖析AI演员带来的生产效率革命与伦理困境。 年初，当行业还在争论“AI短剧会不会颠覆短剧行业”时，这个问题的关注点还停留在AI对于内容生产效率、成本和技术方式的推演。但短短几个月内，AI对内容行业的入侵已经越来越具象。 3月18日，曾出品《安…",
+      "key_points": [
+        "AI演员正在以惊人的速度重塑内容产业的边界。从耀客传媒签约AI演员引发争议，到「雪山救狐狸」系列意外爆红，再到好莱坞虚拟演员蒂莉·诺伍德的舆论风波，这场由技术驱…",
+        "英国制作公司Particle6集团旗下人工智能部门Xicoia推出了使用AI技术创造的虚拟演员蒂莉·诺伍德，并为其开通了个人社交媒体账号。2个月后的7月30日，…",
+        "推出这支MV的目的是探索AI技术的创新，而非用AI取代演员，“Tilly一直以来都是测试人工智能的创意能力和边界的工具，而不是抢走任何人的工作。” 可惜的是，公…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "18岁少年用命试药，4天全身肿胀逝世，基因治疗领域停摆二十年",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+18%E5%B2%81%E5%B0%91%E5%B9%B4%E7%94%A8%E5%91%BD%E8%AF%95%E8%8D%AF%EF%BC%8C4%E5%A4%A9%E5%85%A8%E8%BA%AB%E8%82%BF%E8%83%80%E9%80%9D%E4%B8%96%EF%BC%8C%E5%9F%BA%E5%9B%A0%E6%B2%BB%E7%96%97%E9%A2%86%E5%9F%9F%E5%81%9C%E6%91%86%E4%BA%8C%E5%8D%81%E5%B9%B4",
+      "published": "Thu, 23 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Jesse",
+        "Wilson",
+        "Paul",
+        "cen.acs.org",
+        "FDA",
+        "IHGT"
+      ],
+      "summary": "1999 年 6 月，Paul Gelsinge 全家一起到费城旅行。 这趟旅程是为了庆祝儿子 Jesse Gelsinge 的成人礼，但更重要的是，让 18 岁的 Jesse 到费城，亲手签下那张基因治疗的知情同意书。 旅途中， Jesse 在拳王洛基像前，留下一张高举双手，神采飞扬的照片，像是已经准备好以一个更健康的身体进入成年世界。 Jesse Gelsinge 在费城拍下的照片丨WHYY 美梦很快就破碎了。 Jesse 在接受基因治疗四天后，生命迅速走向垂危，那个喜欢骑机车、爱打拳击的男孩，毫无生气地躺在病…",
+      "key_points": [
+        "还有基因治疗领域“明日之星” James Wilson 的职业生涯，以及那个曾在世纪之交承载着无数医学幻想的技术方向",
+        "—— 自此基因治疗领域走入二十年寒冬",
+        "年仅 38 岁的 Wilson 被任命为费城基因治疗研究所（IHGT）的所长，那是当时全球规模最大的基因治疗研究机构之一： 每年拥有超过两千万美元经费、两百多名…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "建议所有人：夏天出门穿这个！（会回来感谢我的",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BB%BA%E8%AE%AE%E6%89%80%E6%9C%89%E4%BA%BA%EF%BC%9A%E5%A4%8F%E5%A4%A9%E5%87%BA%E9%97%A8%E7%A9%BF%E8%BF%99%E4%B8%AA%EF%BC%81%EF%BC%88%E4%BC%9A%E5%9B%9E%E6%9D%A5%E6%84%9F%E8%B0%A2%E6%88%91%E7%9A%84",
+      "published": "Thu, 23 Apr 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "又到一动一身汗的日子了。 春天早晚温差大， 动起来一身汗，停下来风一吹，又冷又黏，还容易着凉。更别说那股捂了一天的汗味儿，挤地铁都不好意思抬手。 市面上速干衣从几十到上千，价格差这么大，真不只是“品牌溢价”那么简单。 这里面的门道， 全藏在面料里：羊毛、天丝羊毛、氨纶、锦纶、涤纶……光是名字就让人眼花。再加上不同的配比、不同的织法， 排列组合下来，别说你懵，懂行的人也得拿着吊牌看半天。 我们做了两条视频，希望能给大家讲透，夏天运动到底该穿啥。 看了这么多，如果你想添几件适合夏天穿的速干面料好衣服， 快来预约明天的森…",
+      "key_points": [
+        "如果你想添几件适合夏天穿的速干面料好衣服， 快来预约明天的森林棠专场，全家的人衣服一站搞定",
+        "希望能给大家讲透，夏天运动到底该穿啥"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "商场2000多的皮肤衣到底是哪里值钱？我拆开看了看",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%95%86%E5%9C%BA2000%E5%A4%9A%E7%9A%84%E7%9A%AE%E8%82%A4%E8%A1%A3%E5%88%B0%E5%BA%95%E6%98%AF%E5%93%AA%E9%87%8C%E5%80%BC%E9%92%B1%EF%BC%9F%E6%88%91%E6%8B%86%E5%BC%80%E7%9C%8B%E4%BA%86%E7%9C%8B",
+      "published": "Thu, 23 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "UPF50+",
+        "Link",
+        "lt",
+        "Polaris",
+        "UVA",
+        "dc_ps"
+      ],
+      "summary": "今年春夏， 如果你 想 买一件： 穿3年、5年甚至10年 仍然好看好穿的防晒软壳 或者皮肤衣 PS：其实都是一类服装，只是不同品牌造的词不一样罢了 并且希望它—— · 不止能防晒，还能当日常外套穿3-5年； · 工艺、面料、版型都接近千元级水准； · 价格却只要专柜的十分之一...... 那么，请你花3分钟看完这篇，我们只想给你讲一个真实的故事 。 今天这款，就是打磨了一年多， 面料、工艺、版型、质感 各方面都精益求精的： LP全压胶微皱原纱防晒衣。 我不说它是“防晒衣天花板”，但我可以很有信心地说：它是我穿过的、…",
+      "key_points": [
+        "很多商场一线品牌的春夏防晒衣、皮肤衣、软壳，基本都是这一档面料",
+        "如果你 想 买一件： 穿3年、5年甚至10年 仍然好看好穿的防晒软壳 或者皮肤衣 PS：其实都是一类服装，只是不同品牌造的词不一样罢了 并且希望它—— · 不止…",
+        "路过一专柜，摸到一件皮肤衣——面料舒服，版型利落，做工精致，走线也很平整，确实方方面面都很不错"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "能劝一个是一个，夏天多穿这种T恤出门",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%83%BD%E5%8A%9D%E4%B8%80%E4%B8%AA%E6%98%AF%E4%B8%80%E4%B8%AA%EF%BC%8C%E5%A4%8F%E5%A4%A9%E5%A4%9A%E7%A9%BF%E8%BF%99%E7%A7%8DT%E6%81%A4%E5%87%BA%E9%97%A8",
+      "published": "Thu, 23 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FUSARO",
+        "Buff",
+        "dc_ps",
+        "detail",
+        "End",
+        "L-3XL"
+      ],
+      "summary": "天气一热，大家的T恤都从衣柜底下翻出来了吧？ 作为经典基础款单品，它舒适百搭，不用考虑搭配，随手捞一件就能出门。 不管男生女生，总会对一件T恤疯狂翻牌~ 但是你有没有同感，咱们普通身材穿上T恤瞬间就淹没在人群里！ 而且不但不松弛不时髦，反而暴露缺陷像是个土气壮汉...... 其实啊！ 越基础的单品，越考验版型面料： 就好比纯棉，先不说导湿性差 不容易干 ，穿上没一会儿就汗湿贴背，容易泛出异味了。 //翻翻帖子，多的是吐槽纯棉T在办公室/车里闻到汗臭苦不堪的发言： 我猜大家多少也经历过面料 领口变形、 发硬发黄，印痕…",
+      "key_points": [
+        "👇戳图立马抢👇 01 降温散热、透气速干、硬核防晒 这才是夏天该穿的T恤",
+        "对尺寸、比例、松紧度都是一轮一轮调试控制，只为包容各种体型",
+        "它舒适百搭，不用考虑搭配，随手捞一件就能出门"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这算诈骗营销的正面案例吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E7%AE%97%E8%AF%88%E9%AA%97%E8%90%A5%E9%94%80%E7%9A%84%E6%AD%A3%E9%9D%A2%E6%A1%88%E4%BE%8B%E5%90%97%EF%BC%9F",
+      "published": "Thu, 23 Apr 2026 21:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A24",
+        "hongmomgs",
+        "irisfilm",
+        "Nose",
+        "qq.com"
+      ],
+      "summary": "文 Nose 最近北美有一部电影火了，帕丁森和赞达亚主演的《爱情抓马》。火的原因，还跟它的「诈骗营销」有挺大关系。 《爱情抓马》的 情节核心驱动， 是一场婚前晚宴上的坦白游戏。 游戏规则是， 每个人说出自己做过的最坏的事。它的隐含前提是，如果两个人真的相爱，他们应该能够承受对方全部的黑暗。 真的如此吗？人性经得起试探吗？ 当 赞达亚演的 女主角说出她十五岁时曾计划在学校实施枪击时， 观众为影片预设的 类型 期待瞬间坍塌。原来这不是甜蜜爱情喜剧啊！ 观众此前被精心 诱 导相信自己正在观看一部婚礼电影， 此刻的 震惊…",
+      "key_points": [
+        "帕丁森和赞达亚主演的《爱情抓马》。火的原因，还跟它的「诈骗营销」有挺大关系",
+        "这场 「诈骗营销」 引发了截然对立的 两种 判断",
+        "因为 这场 「诈骗」 本身就是影片主题的延伸。影片讲的是一对伴侣在坦白的瞬间发现彼此并不像自己想象的那样了解对方 ， 而营销运动制造的，是观众与影片之间完全同构…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "哈内克作品完整大排名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%93%88%E5%86%85%E5%85%8B%E4%BD%9C%E5%93%81%E5%AE%8C%E6%95%B4%E5%A4%A7%E6%8E%92%E5%90%8D",
+      "published": "Thu, 23 Apr 2026 21:05:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BDSM",
+        "Bonehead",
+        "Bradshaw",
+        "Guardian",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Peter Bradshaw 译者：鸢尾花 校对：易二三 来源: The Guardian （2023年3月23日） 译者按 ： 《卫报》刊发此文时，正值奥地利电影导演迈克尔·哈内克的81岁生日。这份报纸投票选出了哈内克的作品中排名靠前的12部作品，撰稿人为该报的首席影评人、作家彼得·布拉德肖。 第12名 《机遇编年史的71块碎片》（1994） 这是哈内克早期的一部作品，体量相对较小，它展示了71个「片段」——或明显互不相关的场景和人物眼神的一瞥——以当今的维也纳为故事背景。这些片段涉及一个保安、一个有问题的…",
+      "key_points": [
+        "第10名 《快乐结局》（2017） 这是一部讽刺上层资产阶级繁荣噩梦的作品。电影以一个视频监控场景开始（这是哈内克作品中经常出现的元素），屏幕处于手机式的纵向模…",
+        "Peter Bradshaw 译者：鸢尾花 校对：易二三 来源: The Guardian （2023年3月23日） 译者按 ： 《卫报》刊发此文时，正值奥地利…",
+        "在结尾部分将谜底和盘托出，这部电影向我们展示了哈内克作品的核心主题：暴力的本质、城市异化、资本主义对同情心和社区的遗弃以及西方对世界其他地区的不公正和荒凉视而不…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "东太行：嶂石岩地貌的山水画卷",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%9C%E5%A4%AA%E8%A1%8C%EF%BC%9A%E5%B6%82%E7%9F%B3%E5%B2%A9%E5%9C%B0%E8%B2%8C%E7%9A%84%E5%B1%B1%E6%B0%B4%E7%94%BB%E5%8D%B7",
+      "published": "Thu, 23 Apr 2026 17:54:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "太行山地处黄土高原与华北平原的过渡地带，因其独特的地形地貌，被称作“天下之脊”。而地处河北邯郸的东太行，发育有气势磅礴、造型独特的红色嶂石岩地貌景观，更是这条山脉中浓墨重彩的部分。这里汇聚了太行山的雄、奇、险、峻，集巧石、云海、清幽、变幻于一体。无论是挺拔的雄峰，还是幽深的峡谷，都仿若一幅气势磅礴的中国画，令人沉醉。 龙头崖海拔1180米处，U型彩虹玻璃栈道悬于半空，脚下是绝壁天险、万丈深渊，行云缭绕间犹如踏云仙境；循着水声望去，京娘湖被青山环抱，船行其间，两岸赤壁缓缓移过，宋祖峰灵秀幽静，乘缆车登顶云中寺观景阁，…",
+      "key_points": [
+        "太行山地处黄土高原与华北平原的过渡地带，因其独特的地形地貌，被称作“天下之脊”。而地处河北邯郸的东太行，发育有气势磅礴、造型独特的红色嶂石岩地貌景观，更是这条山…",
+        "登临此处可尽览壮美山色，周边的丹崖、云海与变幻的风云尽收眼底；而那根高达百米的“太行一柱”，历经沧海桑田，风雨剥蚀，依旧傲然屹立于天地之间…… 这便是东太行，一…",
+        "#东太行风景画廊 #河北 #邯郸 #中国国家地理 #地理君带你发现中国 中国国家地理文旅系列： 中国国家地理·最美风景线 东太行风景画廊 总策划：才华烨 制片人…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "听音乐与分心",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%90%AC%E9%9F%B3%E4%B9%90%E4%B8%8E%E5%88%86%E5%BF%83",
+      "published": "Thu, 23 Apr 2026 21:16:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ADHD",
+        "Midjourney",
+        "AI",
+        "ar",
+        "Bitsea",
+        "blooming"
+      ],
+      "summary": "这篇文章本来可以明早再发布，但是我个人觉得这么做很不好。因为这篇文章的主题是我今天想到的，隔一夜之后可能味道就不对了。而且，一旦拥有这样一篇文章垫底，明早我就不能以手头一无所有，对写什么一无所知的状态开始新的一天。对于写作者而言，有存稿是一件危险的事，有所依仗会让人逐渐变钝。 （正文） 今天在留言区，我又看到了一个熟悉的观点：在工作或者学习的时候，听音乐只会让人分心。类似的观点我已经记不清听过多少次，事实上，我从小学、初中就已经和它们打过交道，最后靠自己的成绩赢得了写作业时听磁带的自由。 如果我现在做个调查，相信支…",
+      "key_points": [
+        "边听音乐边干活的能力是可以通过训练达成的。事实上，人人都可以边听音乐边干活，比如说开车、跑步、做家务的时候，人并不会担心自己分心。而去做那些需要大脑做大量运算的…",
+        "那些觉得听音乐会导致分心的读者无需感到遗憾，也许这正好说明你没有 ADHD 呢？你周围的人也因此过着稳定平静的生活呢？你每次听音乐都是在专注欣赏乐曲的美妙呢？天…",
+        "相信支持和反对「音乐让人分心」观点的人都不在少数。而且，各方都可以拿出自己的科学证据和亲身经历，证明自己的正确。我本来不打算挑起这样的争端，但是我今天和这个观点…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "什么样的社会，能让阅读成为日常？｜商周专栏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E7%A4%BE%E4%BC%9A%EF%BC%8C%E8%83%BD%E8%AE%A9%E9%98%85%E8%AF%BB%E6%88%90%E4%B8%BA%E6%97%A5%E5%B8%B8%EF%BC%9F%EF%BD%9C%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F",
+      "published": "Thu, 23 Apr 2026 08:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "markt-daten",
+        "marktforschung",
+        "www.boersenverein.de",
+        "Banks",
+        "Bibliotheken"
+      ],
+      "summary": "4.23 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Clay Banks 撰 文 | 商周 ● ● ● 复活节在柏林小住，周六上午步行前往位于动物园附近的古董旧货市场，途中经过一个公路桥下的涵洞。与外面明亮的阳光相比，涵洞中显得昏暗得很。走到里面，才注意到有一个在那里过夜的人。 他所带的物件很简单：铺在地上当床垫的是可以卷起来的泡沫板，陈旧的睡袋看上去有些臃肿；头这边是一把撑开的雨伞，勉强构成了一个相对私密的空间，脚那头有一个简单的拉杆箱，上面还放着一个白色的手提袋。…",
+      "key_points": [
+        "一个德国小镇街头的图书交换亭（摄影：商周） 从某种意义上说，这些免费或近乎免费的书籍构成了阅读的另一种入口，使不同处境的人都更容易获得，包括陷入困境的街头露宿者…",
+        "两国的出版行业都在主动进入数字化环境。有声书与订阅制平台不再被视为纸质书的替代品，而成为新的增长点，使阅读得以嵌入通勤、运动等碎片化时间之中。同时，实体书店也在…",
+        "为年满18岁的青年一次性发放现金补贴，专门用于购买书籍和文化票务。虽然每个人只有200欧元，但它的确在一定程度上将阅读引入青年人的日常生活。书籍类商品适用7%的…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "新疆跟团游记略",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E6%96%B0%E7%96%86%E8%B7%9F%E5%9B%A2%E6%B8%B8%E8%AE%B0%E7%95%A5",
+      "published": "Thu, 23 Apr 2026 11:45:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "du",
+        "qi",
+        "zh"
+      ],
+      "summary": "前些年解锁世界，但也意识到其实祖国河山我居然还有很多都没到访过，以前回国就是为了看看家人和拜访创业者，一般就是京津+东南沿海为主，最近两年开始逐渐解锁国内不同省市，诸如云南，黑龙江，辽宁，内蒙，山西，重庆其实都是最近两年才第一次去到访的。那么新疆也是长期存在心底的一个念想。 最近在欧洲，尼泊尔各种徒步，秀风景的时候，也总有评论说，你应该去看看新疆。几乎每篇游记都有这种评论，好了好了，咱听劝，确实该去看看。 去年其实已经做规划了，和户外俱乐部的客服咨询过，想报乌孙古道徒步，结果出事了，不让走了，然后想换夏塔北线，然后…",
+      "key_points": [
+        "懒得租车，那就跟团吧，网上看了看，你一搜各种平台就记得你，各种推送新疆跟团游的直播。2700 10天9晚含内地往返机票还高星酒店你敢信？天天直播间这玩意，反正我…",
+        "尼泊尔各种徒步，秀风景的时候，也总有评论说，你应该去看看新疆。几乎每篇游记都有这种评论，好了好了，咱听劝，确实该去看看",
+        "和户外俱乐部的客服咨询过，想报乌孙古道徒步，结果出事了，不让走了，然后想换夏塔北线，然后又出事了，不让走了。琢磨今年再说吧，结果你们大概看到新闻了，今年基本上都…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-24",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "从生物学或心理学角度，人类讨厌苍蝇的原因是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789076",
+      "published": "Fri, 17 Apr 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Bengalia",
+        "Milichiidae",
+        "yue"
+      ],
+      "summary": "斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 这个原因可就多了。 首先，即使是我这种昆虫爱好者，也得说就论 这个长相 ，苍蝇的长相是完美避开人类的审美喜好； 虽说人的审美是很自由的，但哪怕说人的喜好是一个很大的范围，苍蝇这个外表也属于长在特别靠边边位置的。 - 蝇是双翅目、短角亚目、环裂下目昆虫的统称，种类繁多，但有许多共性。 蝇的外观，体型粗壮，头大，复眼很大，但是无神，缺乏类似蜻蜓、螳螂那样的伪瞳孔。 然后，触角还短，具芒状，就像一撇小胡子，再带上一两根鼻毛。这面相，谁看了不迷糊 更要命的是，…",
+      "key_points": [
+        "虽说不一定是天生，但后天接触一下也会很快学会躲避这些污秽之物。这不怪人类，毕竟腐败物确实会滋生大量微生物，对大多数动物有害，不能吃还会污染水源，不宜靠近 但蝇类…",
+        "虽然我们不能要求自然界的生物按人类的道德观来生存，但像蝇类这样，完全以不道德的方式生存，坏事做尽的，还是不多见的，而且厚颜无耻。（ 苍蝇就像自然界中的天生反派役…",
+        "即使是我这种昆虫爱好者，也得说就论 这个长相 ，苍蝇的长相是完美避开人类的审美喜好； 虽说人的审美是很自由的，但哪怕说人的喜好是一个很大的范围，苍蝇这个外表也属…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "Redis源码解析",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/redisyuan-ma-jie-xi/",
+      "published": "Sun, 19 Dec 2021 08:13:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "redis",
+        "Java",
+        "pv",
+        "qps",
+        "Redis",
+        "strlen"
+      ],
+      "summary": "一、引言 作为后端开发，redis是工作中最绕不开的中间件之一，在工作中通常有以下几个常用用途 1.缓存，可以抗十万级别的qps 2.计数器，如点赞数，pv等 3.分布式锁 4.限流 另外丰富的redis数据类型支持了一些扩展功能，如排行榜，消息队列，布隆过滤器，位图等等。而redis的底层实现是十分简单的，核心源码也仅有几万行。本文就带大家来领略，小小的redis是如何实现这些复杂功能的~ *注:本文介绍的源码为redis 5.0.14版本 * 二、字符串 C语言存储字符串的问题 1.二进制安全 C语言中表示字符…",
+      "key_points": [
+        "redis是工作中最绕不开的中间件之一，在工作中通常有以下几个常用用途 1.缓存，可以抗十万级别的qps 2.计数器，如点赞数，pv等 3.分布式锁 4.限流…"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "源代码特洛伊木马攻击",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/21649.html",
+      "published": "Fri, 19 Nov 2021 09:02:46 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Github",
+        "More",
+        "Read",
+        "appeared",
+        "Code",
+        "contains..."
+      ],
+      "summary": "最近，我们在 Github 的 Code Review 中看到 Github 开始出现下面这个 Warning 信息—— “This file contains... Read More Read More The post 源代码特洛伊木马攻击 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 源代码特洛伊木马攻击 first appeared on 酷 壳 - CoolShell"
+      ]
+    }
+  ]
+}
