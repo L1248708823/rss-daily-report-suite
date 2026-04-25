@@ -1,0 +1,833 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T01:00:05.853387+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 101,
+    "fresh_candidates": 65,
+    "backfill_candidates": 36,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-25",
+      "fetched_at": "2026-04-25T01:00:05.519074+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4079.9,
+          "change": -13.35,
+          "change_pct": -0.33,
+          "volume": 605031798.0,
+          "amount": 114300020.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4708.05,
+          "change": 13.980000000000473,
+          "change_pct": 0.3,
+          "prev_close": 4694.07,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-25 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1034.034818107287,
+          "change": 3.0704446123429534,
+          "change_pct": 0.2978225718832767,
+          "prev_close": 1030.964373494944,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-25 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-25",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么买了多只基金，还是没能分散风险？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B9%B0%E4%BA%86%E5%A4%9A%E5%8F%AA%E5%9F%BA%E9%87%91%EF%BC%8C%E8%BF%98%E6%98%AF%E6%B2%A1%E8%83%BD%E5%88%86%E6%95%A3%E9%A3%8E%E9%99%A9%EF%BC%9F",
+      "published": "Fri, 24 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "QD",
+        "wind"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：交银施罗德基金 从一个真实的故事说起。 上个月，我遇到了两位老朋友。 第一位是小王，三十出头，在一家互联网公司上班。他兴冲冲地告诉我，自己去年抓住了AI行情，一只基金赚了40%。但说到整体收益时，他叹了口气：“算下来还是亏的，因为之前买的新能源和医药还套着呢。” 第二位是老李，五十多岁，是个中学老师。他的收益曲线正好相反——去年市场不错，但他没跑赢大盘；最近市场调整，他也没亏多少。三年…",
+      "key_points": [
+        "小王的问题很有代表性：他买了好几只基金，覆盖了新能源、医药、AI、消费，看起来挺分散的。但市场一调整，为什么全都绿了",
+        "这样的故事正在越来越多地发生在普通家庭的理财生活中。随着我国居民财富的持续增长，资本市场逐渐成为居民财富管理的重要渠道。越来越多投资者通过公募基金、指数基金等专…",
+        "不是看买了多少只基金，而是看这些基金所投资的资产类别是否足够不同"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "汾酒的天花板",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/385269907",
+      "published": "Fri, 24 Apr 2026 10:23:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "很多人看汾酒过于定性，甚至定性也有问题，因为清香唯一，因为中低端做大，所以理所当然。从来没有人认真分析过汾酒的未来增长还能持续多久，空间还有多大。 汾酒现在位置是白酒老三，行业规则看营收的，现在是坐三望二。很多人觉得没机会，我说过五粮液你看着营收很高，差距很大，业绩下滑50%，立马触手可及。我要是汾酒管理层，我也这么做搏一搏，哪怕只短暂成为第二一个季度。对品牌形象的提升都是巨大的。 大家感受到周围人喝汾酒多，感受到汾20应用场合多，这原本就是汾酒全国化坐到前三的结果。同价格带，老版汾100亿，低端销售第一，汾20有…",
+      "key_points": [
+        "甚至定性也有问题，因为清香唯一，因为中低端做大，所以理所当然。从来没有人认真分析过汾酒的未来增长还能持续多久，空间还有多大",
+        "真实动销到底几何，还需要时间验证。汾酒自营卖的比经销商拿货价便宜，类茅台文创酒出很多瓶子货铺市场，网上已经有这样的声音。网上同时流传汾酒是比茅台更当之无愧的老大…",
+        "不是产能不能更多，而是消费需求有上限。水晶剑的200亿常年稳定。靠现有的两大单品，汾酒再增加200亿就到成长上限了。汾酒唯二的机会在次高端汾30和出海国际化竞争…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI的闭环是靠应用商业化来完成",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2426670165/385614866",
+      "published": "Fri, 24 Apr 2026 10:21:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ETF",
+        "http",
+        "Token",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "现在A股的行情属于偷鸡摸狗，根本拿不出手。上涨品种得不到市场大多数资金认同，局部进入博傻阶段，而大多个股随波逐流，市场是个混沌的局面。 有理走遍天下。下面一句是无理寸步难行，A股目前就是名不正言不顺阶段。华尔街放个P，这里就会被N多洋买办无穷放大，完全缺乏自身定价逻辑。华尔街炒作硬件，因为定价权在英伟达等手上，夸大英伟达的作用，本质上就是奴役全球科技。而国内机构夸大硬件配套厂作用，则是无底线利益勾结。赢在中国可以预判，不用多少年，市场就会看到硬件配套厂的落幕，部分企业就算进入破产清算也是完全可能。在一个缺乏请假全行…",
+      "key_points": [
+        "AI的闭环是靠应用商业化来完成。从现有全球格局来看，美国科技巨头过度追逐算力投资，应用商业化则远远落后于中国企业，这个差距随着时间推移在不断扩大。从今年一季度数…",
+        "A股的科技股名不副实。寒武纪等空有科技股之名，技术门槛并不让人信服。这样的企业估值则已经提前反应预期，未来更多芯片企业出现，冲击也就在所难免。芯片等本质上属于周…",
+        "这个观点之所以成立，就是因为在一万点之前，无形之手大致是起到主导作用。只有大量AI应用企业做大做强，经济恢复增长速度，那么A股真正的市场化牛市才开始。而目前的A…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "如何看待能繁母猪效率",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/385587285",
+      "published": "Fri, 24 Apr 2026 10:21:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PSY",
+        "http",
+        "PSY28",
+        "SZ000876",
+        "SZ002714",
+        "SZ300498"
+      ],
+      "summary": "在现代生猪育种里，生殖效率、生长速度和瘦肉率确实互相矛盾、很难同时做到极致。 单纯只往一个方向猛选，比如一味追求瘦肉多、长得快，繁殖产仔就会变差；反过来拼命提高产仔数，又容易长得慢、肥肉多。 现在育种基本都是走平衡路线，用不同品系杂交搭配，再配合精准选育，三者能同时达到不错的水平，只是很难每项数据都达到行业顶级。 以全球知名的以生产效率著称的“丹育”为例，其PSY可达到36-37，为行业顶尖水平，其全程料肉比2.6-2.7也是优秀水平，但其瘦肉率只有60%左右，在中国市场很难被接受。 另一个全球最主流的三元体系中父…",
+      "key_points": [
+        "消费者对猪肉的消费偏好也不相同，不同的饲料原料和消费偏好也带来了不同的育种方向。北美地区饲料业玉米-豆粕体系为主，消费者偏好瘦肉率高、肉质鲜嫩的猪肉，因此育种以…",
+        "随着母猪产能的逐渐释放，仔猪价格快速下跌，但是行业断奶仔猪成本仍然较高，行业平均水平在600元/只左右。由于大量肥转母的存在，此时行业平均PSY只有16左右，此…",
+        "国内生猪产业遭受严重破坏，产能短缺，生猪价格保障，仔猪价格也水涨船高，一度超过2000元/头。此时母猪每多生一只仔猪就代表着2000元的收益，因此繁殖性能成为对…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "索尔思单波 200G InP PIC 的低成本可能路线",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8755156034/385208967",
+      "published": "Fri, 24 Apr 2026 10:21:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "InP",
+        "PIC",
+        "Coherent",
+        "IMDD",
+        "Lumentum",
+        "MZM"
+      ],
+      "summary": "上篇文章讲到索尔思的InP PIC 是OSFP LPO 的利器。本文通过公开资料，和个人的经验判断，推导了东山精密/索尔思在降低InP PIC成本方面可能使用的指标与工艺路径，以及可能达成的成本结果。 一、InP PIC 的成本组成分析 InP PIC 的单片成本由五个维度交织而成，其中良率是核心： 二、传统 InP PIC 成本高昂的根源：相干 vs. IMDD 传统 InP 相干PIC 多服务于长途通信，追求物理性能极限，一般传输都是要到几百甚至上千公里；Lumentum 和 Coherent 都是里面的资深玩…",
+      "key_points": [
+        "三 索尔思 InP MZM 降本可用方案总结 根据业界资料和我个人的经验，推导了索尔思 InP MZM 可用降本方案，下表汇总： 四、结论： 索尔思InP PI…",
+        "上篇文章讲到索尔思的InP PIC 是OSFP LPO 的利器。本文通过公开资料，和个人的经验判断，推导了东山精密/索尔思在降低InP PIC成本方面可能使用的…",
+        "索尔思InP PIC有希望在OSFP 500m规格上实现相对于EML DPO 80%的成本，40% 的功耗； 本话题在雪球有45条讨论，"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "媒体称每天做三顿饭，肺癌风险高 2.1 倍，真的是这样吗？油烟机怎样用能把风险降到最低？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789181",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EGFR",
+        "NO",
+        "PM2.5",
+        "KP",
+        "CT",
+        "GB"
+      ],
+      "summary": "注册营养师刘又姣， 2024全国营养师技能大赛一等奖，2025年湖北省科普大使 查看知乎原文 如果你去问一个欧美医生： “什么样的女性最容易得肺癌？” 他很可能会回答： “吸烟的女性。” 这没错。 美国 20-49 岁女性肺癌患者中，72%有吸烟史。 但问中国胸外科医生，他会给你不同的答案。 他会告诉你： 相当一部分肺癌患者，是从不吸烟的女性。 数据不会说谎。 中国女性的吸烟率只 有 2.1% [1] 。 《中国吸烟危害健康报告 2020》 但女性肺癌患者中， 从不吸烟 比例却高达 86% 。 这是一个典型的“中国…",
+      "key_points": [
+        "给出更精确的描述： 只有 成年时期和未成年时期都有厨房油烟暴露 的人，肺癌风险才会飙升至 3.45 倍",
+        "一项在云南宣威进行的调研表明： 使用烟煤的女性，终生肺癌风险要比使用无烟煤的女性高 99 倍",
+        "同济大学肿瘤研究所一项长达 5 年的流行病学调查就发现： 中青年女性长期接触厨房高温油烟，患肺癌的危险性会增加 2-3 倍"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人类基因是一套屎山代码吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789192",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DNA",
+        "Dunkirk",
+        "P53",
+        "RNA"
+      ],
+      "summary": "Dunkirk， 勇气与真意 查看知乎原文 人类基因组大约有 30 亿个碱基对，但真正用来编码蛋白质的部分只占不到 2%。剩下将近 98%，里面堆满了各种东西：失去功能的假基因，曾经能用，后来突变坏掉了，但就这么留着没被清除；转座子的残骸，一种会自我复制、到处乱插入的寄生序列，光这一类就占了将近一半的基因组；还有数不清的重复片段，有些短序列在基因组里重复出现几十万次，没有人知道为什么。 很长一段时间里，这些东西被统称为垃圾 DNA。这非常像一个几十年的老项目，里面全是注释掉的函数、废弃的模块、没人敢动的死代码，因为…",
+      "key_points": [
+        "DNA 修复机制也一样是屎山。基因组本身并不稳定，每天每个细胞的 DNA 都会发生数以万计的损伤，来自辐射、氧化压力、复制错误。为了应对这些损伤，细胞演化出了十…",
+        "然后是内含子。一个基因在被转录成 RNA 之后，里面大量的片段需要先被剪掉，剩下的部分拼接在一起，才能用来合成蛋白质。被剪掉的叫内含子，留下来的叫外显子。人类基…",
+        "基因组里还有一类叫内源性逆转录病毒的东西。人类基因组里大约 8%的序列来自古代逆转录病毒，它们在某个时间点感染了我们的祖先，把自己的基因组插进了宿主 DNA，然…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DeepSeek告别“孤胆英雄”时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6383412.html",
+      "published": "Fri, 24 Apr 2026 08:33:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DeepSeek",
+        "V4",
+        "AI",
+        "Agent",
+        "R1",
+        "V3"
+      ],
+      "summary": "DeepSeek V4的发布不仅标志着其在Agent能力和推理技术上的重大突破，更揭示了这家中国AI独角兽从研究团队向基础设施级玩家的战略转变。面对训练成本飙升、人才争夺战和生态布局需求，DeepSeek正在与腾讯、阿里展开18亿美元融资谈判，这场关乎中国大模型未来格局的资本博弈背后，隐藏着技术路线与商业逻辑的深层抉择。 DeepSeek V4发布是确定的，而融资仍属于媒体报道和交易传闻阶段。 DeepSeek官网已经显示“DeepSeek-V4 Preview”上线，并称其具备更强Agent能力和顶级推理能力，已…",
+      "key_points": [
+        "如果说V2证明了DeepSeek的效率，V3证明了DeepSeek的全球竞争力，R1证明了DeepSeek的破圈能力，那么V4和融资传闻共同说明的是： Deep…",
+        "所以DeepSeek后来反复强调的“低成本”“高效率”“MoE架构”“更低推理成本”，并不是突然想出来的营销标签，而是它从幻方时代就继承下来的工程基因",
+        "它一开始像是大模型时代的反叛者：不靠巨头，不靠VC，不靠铺天盖地的营销，而是靠模型本身把牌桌掀了一下"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DeepSeek V4的五个关键信号",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6383371.html",
+      "published": "Fri, 24 Apr 2026 07:42:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "V4",
+        "DeepSeek",
+        "token",
+        "Agent",
+        "V4-Flash",
+        "V4-Pro"
+      ],
+      "summary": "DeepSeek V4的发布掀起了开源与闭源大模型的定价风暴！1.6万亿参数的V4-Pro与284B参数的V4-Flash双双开源，百万token上下文成为标配，输出价格低至GPT-5.5的1/100。混合注意力架构与Muon优化器的突破，让长文本处理成本骤降70%以上。这场技术迭代背后，是国产AI在算力适配与Agent生态建设的系统性突围。 4月24日，备受关注的DeepSeek的V4模型预览版终于发布并同步开源了权重。 这次发布的两个版本，一个是总参数1.6万亿，激活49B的旗舰版V4 PRO，一个是经济型V4…",
+      "key_points": [
+        "四、方向：Agent底座 如果在V4的发布里只提炼一个关键标签，那么Agent比百万上下文或许更重要",
+        "这套机制从预训练阶段就改变了模型处理长序列的方式。根据技术报告，V4还引入了流形约束超连接（mHC），替代传统残差连接来增强深层网络信号传播的稳定性，并使用Mu…",
+        "缓存命中的折扣幅度同样值得关注。Flash的缓存命中价只有未命中价的五分之一，Pro是十二分之一"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "MVP是什么？如何快速设计MVP",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6382883.html",
+      "published": "Fri, 24 Apr 2026 07:32:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MVP",
+        "Dropbox",
+        "Zappos",
+        "Excel",
+        "API",
+        "H5"
+      ],
+      "summary": "MVP不是功能最少的版本，而是用最低成本验证核心假设的工具。本文通过Dropbox用一段视频获7.5万注册的经典案例、Zappos创始人亲自跑鞋店的”绿野仙踪”MVP，以及真实操盘的体育健身卡项目，系统拆解MVP的正确设计方法，帮助产品经理避开”假MVP”陷阱。 一个让你醍醐灌顶的故事 故事是这样的。 2007年，一个叫德鲁·休斯顿（Drew Houston）的年轻人，有一个痛点——他在通勤路上没法访问电脑里的文件。他想做一个云存储服务，让文件随时随地可访问。 按传统做法，他应该先组建团队、拉投资、开发完整的产品，…",
+      "key_points": [
+        "而是用最低成本验证核心假设的工具。本文通过Dropbox用一段视频获7.5万注册的经典案例、Zappos创始人亲自跑鞋店的”绿野仙踪”MVP，以及真实操盘的体育…",
+        "第二步：设计一个能验证这个假设的最小实验 不一定是做产品。可以是做视频（Dropbox），可以是人工操作（Zappos），可以是着陆页（Landing Page…",
+        "你的标准是什么？是注册转化率？是留存率？是付费转化率？先定义清楚，再做MVP"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "数字政府建设指南（经验篇·政策解读）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6383093.html",
+      "published": "Fri, 24 Apr 2026 07:12:31 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GPT",
+        "AI",
+        "gt",
+        "PM",
+        "lt",
+        "CC0"
+      ],
+      "summary": "数字政府建设中，政策解读是产品设计的基石。本文通过物业维修资金系统的实操案例，揭秘如何用GPT高效拆解政策条文：从关键内容抽取到业务语言转换，再到强制规则与边界条件的系统化梳理，AI工具正在重构G端产品的需求分析方法论。 一、背景 本指南，基于数字政府建设的要求和趋势，从多个角度阐述数字政府建设的行业经验和方式方法，包含涵义篇、体系篇、建设篇、经验篇等内容，供各位想从事了解或者已经从事政务行业的人士参考。 本篇为经验篇的其中一个章节，错误或不完善的地方，还请指正。俗话说（其实是笔者本人说）：政策先行。 也就是说：我…",
+      "key_points": [
+        "基于数字政府建设的要求和趋势，从多个角度阐述数字政府建设的行业经验和方式方法，包含涵义篇、体系篇、建设篇、经验篇等内容，供各位想从事了解或者已经从事政务行业的人…",
+        "笔者近期在了解物业维修资金系统的相关业务，在通过AI解读政策的时候，有一些经验和心得，总结如下： 二、政策解读（AI版本） 1",
+        "政策解读是产品设计的基石。本文通过物业维修资金系统的实操案例，揭秘如何用GPT高效拆解政策条文：从关键内容抽取到业务语言转换，再到强制规则与边界条件的系统化梳理…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当AI被解构成糊弄型人格，我怀念「百度一下」了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6383326.html",
+      "published": "Fri, 24 Apr 2026 07:02:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "GEO",
+        "ChatBot",
+        "DeepSeek",
+        "Google"
+      ],
+      "summary": "从豆包型人格到AI幻觉危机，普通用户对AI工具的信任正在崩塌。本文深度剖析AI搜索的先天缺陷——答案来源不透明、模型幻觉泛滥，以及GEO黑产如何利用这些漏洞。通过果壳实验和百度最新架构升级，揭示AI可信度重建的关键：权威信源接入与平台治理机制的双重突破。 普通用户凭什么相信AI？ 这两天新学到一个梗词——豆包型人格。网友给出的解释是：啥事都瞎糊弄，被发现就嬉皮笑脸道歉。还有人模仿它的交互风格，与家人逗乐。 刚看到这个梗时，你可能会觉得无厘头。若对照豆包、DeepSeek、元宝等AI应用的内容生成逻辑、聊天对话模式，…",
+      "key_points": [
+        "我已经把“百度一下”当成一把尺子，来测量生成式聊天AI助手的内容准确度。我的很多朋友，比如资深媒体人甘德霜，都敏锐地察觉到了这种风向的转变。他坦言：“我啥事儿都…",
+        "我们可以做一个预判：未来很长一段时间里，传统搜索将会与AI搜索、ChatBot共存。“百度一下”将不只是搜索指令，它还会成为AI信任重构的一把尺子",
+        "这两天新学到一个梗词——豆包型人格。网友给出的解释是：啥事都瞎糊弄，被发现就嬉皮笑脸道歉。还有人模仿它的交互风格，与家人逗乐"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "50万外国人的医疗数据，被中国科研人员挂在网上卖",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+50%E4%B8%87%E5%A4%96%E5%9B%BD%E4%BA%BA%E7%9A%84%E5%8C%BB%E7%96%97%E6%95%B0%E6%8D%AE%EF%BC%8C%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%A7%91%E7%A0%94%E4%BA%BA%E5%91%98%E6%8C%82%E5%9C%A8%E7%BD%91%E4%B8%8A%E5%8D%96",
+      "published": "Fri, 24 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Biobank",
+        "UK",
+        "AI",
+        "ukbiobank.ac.uk",
+        "Allen",
+        "April"
+      ],
+      "summary": "一场医疗数据泄露事件，让中国科研人员陷入了信任危机。 2026 年 4 月，有人在阿里巴巴平台上发现了有数据清单正在出售， 内容是英国生物样本库（UK Biobank）50 万名志愿者的医疗数据 ——性别、年龄、生活习惯、生物样本检测结果，明码标价，等待买家。相关报道中并未指明具体是阿里巴巴旗下哪个平台，但众多网友猜测其应为闲鱼。 疑似售卖页面 这不是黑客攻击的结果，也不是系统漏洞。 上传数据的，是中国三家获得合法授权的学术机构的研究人员。 在英国和中国政府的协调下，阿里巴巴迅速移除了这些清单。但这起事件暴露的问题…",
+      "key_points": [
+        "有人在阿里巴巴平台上发现了有数据清单正在出售， 内容是英国生物样本库（UK Biobank）50 万名志愿者的医疗数据 ——性别、年龄、生活习惯、生物样本检测结…",
+        "让中国科研人员陷入了信任危机",
+        "50 万名年龄在 40 到 69 岁之间的志愿者，同意将自己的健康数据贡献给科学研究 ：全身扫描、DNA 序列、血液和尿液样本、完整的医疗记录，甚至生活习惯的详…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "直播预约｜AI for Science的 ChatGPT 时刻何时到来？破局点在哪？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9B%B4%E6%92%AD%E9%A2%84%E7%BA%A6%EF%BD%9CAI+for+Science%E7%9A%84+ChatGPT+%E6%97%B6%E5%88%BB%E4%BD%95%E6%97%B6%E5%88%B0%E6%9D%A5%EF%BC%9F%E7%A0%B4%E5%B1%80%E7%82%B9%E5%9C%A8%E5%93%AA%EF%BC%9F",
+      "published": "Fri, 24 Apr 2026 16:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AI4S",
+        "Science",
+        "CEO",
+        "ChatGPT",
+        "BP"
+      ],
+      "summary": "当 AI 正在重构科学研究与产业研发的底层逻辑，AI for Science 早已跳脱出论文的边界，正在成为改写材料、生物、工程等关键领域生产力的核心生产力。 一边是学术前沿的持续突破，一边是产业落地的真实痛点；我们既期待着 AI4S 可能引爆的下一场科学革命，也不得不直面工程化鸿沟、商业化壁垒与赛道选择等一系列亟待解答的硬核命题。 为此， 未来光锥 携手 北京中关村学院AI商学院 ，共同推出「AI for Science 创变者说：学界×产业先锋对话系列沙龙」，首期活动将于 4 月28日（周二）晚19:3 0 举…",
+      "key_points": [
+        "我们邀你共同探讨： ①AI4S会出现自己的\"ChatGPT时刻\"，还是注定是一场静悄悄的革命",
+        "AI4S创业者的真正壁垒在哪里"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "医生把手指伸入病人“后门”检查直肠，意外捅好了病人的心脏病",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8C%BB%E7%94%9F%E6%8A%8A%E6%89%8B%E6%8C%87%E4%BC%B8%E5%85%A5%E7%97%85%E4%BA%BA%E2%80%9C%E5%90%8E%E9%97%A8%E2%80%9D%E6%A3%80%E6%9F%A5%E7%9B%B4%E8%82%A0%EF%BC%8C%E6%84%8F%E5%A4%96%E6%8D%85%E5%A5%BD%E4%BA%86%E7%97%85%E4%BA%BA%E7%9A%84%E5%BF%83%E8%84%8F%E7%97%85",
+      "published": "Fri, 24 Apr 2026 16:01:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "nervous",
+        "system",
+        "amp",
+        "Anatomy",
+        "body"
+      ],
+      "summary": "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：unsplash 请不要自己在家尝试。 撰文：冬鸢 审校：clefable 2009年的那一天，阮成怀（Cheng-Huai Ruan，音译）还只是医院的实习员工，他很紧张，他的病人也很紧张。 危险的房颤 那位29岁的男性患者此前一向很健康，体格很健壮，没有什么重大病史。那一天，他正在从商店步行回家， 突然感觉到心悸。 于是他到了医院急症科就诊，他对医生说，自己感觉心跳突然非常快然后又逐渐减慢，就这样持续了3个小时。 医生给他做了一系列检查…",
+      "key_points": [
+        "阮成怀将手指伸入病人的肛门，做直肠指检时，很有可能 意外刺激了遍布在直肠里的迷走神经的神经末梢 ，从而激活迷走神经，使其释放乙酰胆碱，而这会让患者的心跳趋于平缓…",
+        "还需对病人进行 直肠指检 ，也就是医务人员会带着手套， 将一根手指伸入病人的肛门，检查直肠中的粪便是否带有血液 ，以排除消化道出血的情况。因为假如患者有消化道出…",
+        "接下来发生了神奇的一幕。当阮成怀完成了直肠指检后，负责心电图的医生突然叫住了他，给他看了看病人的心电图。心电图上显示，病人的房颤突然消失， 转变成了正常 的窦性…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "不想穿内衣又怕凸点，我该怎么办？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E6%83%B3%E7%A9%BF%E5%86%85%E8%A1%A3%E5%8F%88%E6%80%95%E5%87%B8%E7%82%B9%EF%BC%8C%E6%88%91%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F",
+      "published": "Fri, 24 Apr 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FIZ",
+        "A-D",
+        "bHevea9CCy",
+        "But",
+        "dc_ps",
+        "feature"
+      ],
+      "summary": "天啊，一想到火辣辣的夏天马上就到了，真的是又爱又恨！ 我爱夏天的明媚灿烂☀️，但实在是遭不住高温的磨人🔥。 一到天热，谁不想穿各种小裙子小吊带啊！ 大露背大露胸，迷人又凉快。 这时候肯定有同学会问 “穿这些裙子要怎么穿内衣”？ 如果是普通内衣，多的布料无形增加了一层束缚， 露出的内衣边边从穿搭角度上来看也挺丑的…… 一个简单的办法就是， 用胸贴。 胸贴一来能解决激凸问题，还能切身感受身体解放的快乐～ 除了是外衣内搭， 平时在家穿着睡衣又得出门扔垃圾or拿快递，出门一贴，回家一撕，超方便。 穿太贴身显胸的家居服时也阔…",
+      "key_points": [
+        "这时候肯定有同学会问 “穿这些裙子要怎么穿内衣”",
+        "谁不想穿各种小裙子小吊带啊",
+        "FIZ 经典有胶款硅胶隐形胸贴 有胶款 适合新手用户 自然肤/白皙肤可选 🔥1对 29.9元 🔥2对 39.8元 👇 戳图购买 👇 FIZ 经典有胶款硅胶隐形胸…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 394 期）：第二次 API 开放浪潮",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-394.html",
+      "published": "2026-04-24T13:04:18Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "API"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五一假期，周刊休息。）...",
+      "key_points": [
+        "周五发布。（[通知] 下周五一假期，周刊休息。）"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "什么是政治正确，这是最犀利的一场戏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%80%E4%B9%88%E6%98%AF%E6%94%BF%E6%B2%BB%E6%AD%A3%E7%A1%AE%EF%BC%8C%E8%BF%99%E6%98%AF%E6%9C%80%E7%8A%80%E5%88%A9%E7%9A%84%E4%B8%80%E5%9C%BA%E6%88%8F",
+      "published": "Fri, 24 Apr 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A.O.",
+        "BIPOC",
+        "Cut",
+        "hongmomgs",
+        "irisfilm",
+        "New"
+      ],
+      "summary": "作者：A.O. Scott 译者：易二三 校对：鸢尾花 来源：The New York Times （2023年1月2日） 当莉迪亚·塔尔来到茱莉亚学院教授一堂指挥大师课时，我们和课堂上的学生一样了解她。在这部以她的名字命名的电影开场大约20分钟后，我们对她的名声和地位已经了然于胸。 当然，这是一个虚构的世界，作为世界知名的指挥家、作曲家，她也是所有学生的职业榜样。现在，他们终于有机会见到她本人了。但事情的进展并不顺利。 《塔尔》 茱莉亚学院的桥段是《塔尔》的第四场戏。与之前的场景一样，它在一个公共场合为我们展示了…",
+      "key_points": [
+        "莉迪亚·塔尔就像存在于那个世界的一张折叠页上，在那里，关于艺术和生活之间的区别这个常年被曲解的问题的正确答案，是用隐形墨水书写的。而她在其中是最真实的存在",
+        "《塔尔》 茱莉亚学院的桥段是《塔尔》的第四场戏。与之前的场景一样，它在一个公共场合为我们展示了著名的指挥家兼作曲家莉迪亚的部分形象。在随后的剧情中，我们将窥视她…",
+        "我们发现莉迪亚从另一个角度争论着这个问题。在柏林的一家餐厅吃午饭时，她提醒一位退休的艺术大师，哲学家叔本华曾经把一个女人推下楼梯。而这位比她年长得多的男同僚质疑…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "北影节瞬间秒空，它逼近了电影艺术的极限",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8C%97%E5%BD%B1%E8%8A%82%E7%9E%AC%E9%97%B4%E7%A7%92%E7%A9%BA%EF%BC%8C%E5%AE%83%E9%80%BC%E8%BF%91%E4%BA%86%E7%94%B5%E5%BD%B1%E8%89%BA%E6%9C%AF%E7%9A%84%E6%9E%81%E9%99%90",
+      "published": "Fri, 24 Apr 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kelemen",
+        "Fred",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 据说 贝拉 ·塔尔的《都灵之马》 是本届北京电影节抢票最快的电影之一，还挺意外。 关于这部电影的起源，我们知道是源于一个故事。 1889年1月3日，尼采在都灵目睹车夫鞭打一匹倔强的马， 他 扑上前抱住马颈哭泣 。这件事对尼采刺激极大，他 在母亲 和 姐姐照料下沉默疯癫 了 十一年，留下的最后一句话是 「妈妈 ，我愚蠢 」 。 电影并不是围绕尼采展开，而是话头一转 ： 「 至于这匹马，我们一无所知 。」 这是整部电影的概念起点。塔尔曾说，这个故事来自克拉斯纳霍尔卡伊 1985年在布达佩斯一次朗诵会上的…",
+      "key_points": [
+        "至于这匹马，我们一无所知 ， 观看了 146分钟之后，我们对这对父女也几近一无所知。塔尔对 传统电影所谓人物曲线 的拒绝在此达到极限： 所有的 他者 ，不论是…",
+        "《都灵之马》的分量不在于它是否最好的塔尔作品 ，因为 多数人认为是《撒旦探戈》，而在于它以完美的形式必然性 ， 终结了一条艺术电影的方法论",
+        "文 ruike 据说 贝拉 ·塔尔的《都灵之马》 是本届北京电影节抢票最快的电影之一，还挺意外"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "科考旅行 | 发现晋北古建营造之美",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%A7%91%E8%80%83%E6%97%85%E8%A1%8C+%7C+%E5%8F%91%E7%8E%B0%E6%99%8B%E5%8C%97%E5%8F%A4%E5%BB%BA%E8%90%A5%E9%80%A0%E4%B9%8B%E7%BE%8E",
+      "published": "Fri, 24 Apr 2026 17:08:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "summary": "▲点击上方海报即可进行报名 这里是中华文明要地 贯通南北，联结东西，王朝定鼎 这里是民族熔炉 从春秋汉魏到辽金明蒙 异域来风，佛法东渐 多元文化，碰撞与融汇并存 汾河谷地，长城内外 230处全国重点文物保护单位 异彩纷呈 中国国家地理旗下 《中华遗产》国宝山西专辑 曾对其进行详细的拍摄与报道 《中华遗产》国宝山西（上） 《中华遗产》国宝山西（下） 中国古建筑是文化瑰宝， 却因其多木结构而留存极少。但山西是一个奇迹——我国唐代建筑遗存都在山西，宋代之前的建筑仅存百余，有70%在山西。这里还有明清古建筑万余座，梁思成和…",
+      "key_points": [
+        "行程介绍 D1 5月16日 周六 太原集合 欢迎晚宴 + 行前说明会 D2 5月17日 周日 太原—忻州 晋祠、佛光寺、南禅寺 宿忻州 D3 5月18日 周一…",
+        "▲点击上方海报即可进行报名 这里是中华文明要地 贯通南北，联结东西，王朝定鼎 这里是民族熔炉 从春秋汉魏到辽金明蒙 异域来风，佛法东渐 多元文化，碰撞与融汇并存…",
+        "· 咨询电话： 中国国家地理科考旅行部 010-64865566-240 工作日9:30-12:00；13:00-18:00 添加下方官方客服了解更多 -END…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "周末的夜晚内心突然狠不平静",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%91%A8%E6%9C%AB%E7%9A%84%E5%A4%9C%E6%99%9A%E5%86%85%E5%BF%83%E7%AA%81%E7%84%B6%E7%8B%A0%E4%B8%8D%E5%B9%B3%E9%9D%99",
+      "published": "Fri, 24 Apr 2026 21:48:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "因为我看到了一张照片，内容是在野生环境下自然秃顶的雄狮......又一个幻想破灭了，我本以为秃顶只是人类的专利，生发的秘诀就隐藏在野生动物永远浓密的毛发深处。连雄狮都会秃头，地球真的是公平到我很想哭🥲🥲🥲 文章原文",
+      "key_points": [
+        "内容是在野生环境下自然秃顶的雄狮......又一个幻想破灭了，我本以为秃顶只是人类的专利，生发的秘诀就隐藏在野生动物永远浓密的毛发深处。连雄狮都会秃头，地球真的…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "诺奖委员会主席来清华：当诺奖标准遇上AI4S时代",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%AF%BA%E5%A5%96%E5%A7%94%E5%91%98%E4%BC%9A%E4%B8%BB%E5%B8%AD%E6%9D%A5%E6%B8%85%E5%8D%8E%EF%BC%9A%E5%BD%93%E8%AF%BA%E5%A5%96%E6%A0%87%E5%87%86%E9%81%87%E4%B8%8AAI4S%E6%97%B6%E4%BB%A3",
+      "published": "Fri, 24 Apr 2026 08:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI4S",
+        "Perlmann",
+        "discovery",
+        "Baker",
+        "Nobel",
+        "AI"
+      ],
+      "summary": "2026 年 4 月 13 日下午，清华主楼后厅。诺贝尔生理学或医学奖委员会秘书长 Thomas Perlmann 站在台上。这是他第一次来清华。 讲座进行到一半，他讲到了一个他常被问到的问题：有什么条件才能得到诺贝尔奖。 \"获奖者不需要是知名科学家。委员会看的是 discovery 本身。一份漂亮的 CV 不是必要条件。\" 我们被教导要\"经营\"自己的学术形象，要让 CV 看起来无懈可击。但 Perlmann 告诉我们：在诺奖委员会那里，这些东西全部归零。 我坐在下面，一边听，一边意识到： 我们这一代 AI4S 研…",
+      "key_points": [
+        "清华主楼后厅。诺贝尔生理学或医学奖委员会秘书长 Thomas Perlmann 站在台上。这是他第一次来清华",
+        "\"获奖者不需要是知名科学家。委员会看的是 discovery 本身。一份漂亮的 CV 不是必要条件。\" 我们被教导要\"经营\"自己的学术形象，要让 CV 看起来无…",
+        "诺奖委员会 刻意构建了一套抗\"学术市场信号\"的评价体系 。他们不看品牌、不看身份、不接受自荐，就是为了把噪音过滤掉，回到一个最原始的问题—— 这项发现本身，到底…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "西方男性远赴海外寻找“传统贤妻” | 经济学人文化（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%A5%BF%E6%96%B9%E7%94%B7%E6%80%A7%E8%BF%9C%E8%B5%B4%E6%B5%B7%E5%A4%96%E5%AF%BB%E6%89%BE%E2%80%9C%E4%BC%A0%E7%BB%9F%E8%B4%A4%E5%A6%BB%E2%80%9D+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 24 Apr 2026 15:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "women",
+        "in",
+        "men",
+        "more"
+      ],
+      "summary": "1 写在前面 文章概述：这篇文章探讨了当代西方男性因对本国约会环境不满，转而前往泰国、越南等国寻找 传统伴侣 的“护照欧巴”现象。随着 远程办公 的普及，这些男性利用经济优势在海外追求更具 依附性 的女性，试图复刻传统的家庭分工。这种行为反映了 性别权益意识 增强后，部分男性对保守价值观的回潮与怀念。文章同时指出，这种跨国关系背后往往隐藏着巨大的 经济差异 与权力不对等。此外，文中还通过社会学视角分析了当代 婚姻制度 与个人主义思潮之间的冲突，揭示了婚姻正从终身契约向灵活合约转变的现状。最终，专家警示这种基于财力落…",
+      "key_points": [
+        "#经济学人 #外刊精读 #英语阅读 #跨文化 #国际婚恋 #社会学 #留学生 #英语外刊 #英语专业 #文化观察 2 精读|翻译|词组 Culture | Ba…",
+        "迈克是日益壮大的 “ 护照 欧巴 ” 群体中的一员：这些年轻的西方男性 远赴海外， 寻找更好的恋爱 机会 。各种论坛、油管博主、还有海外抖音账号上， 他们 根据…",
+        "1 写在前面 文章概述：这篇文章探讨了当代西方男性因对本国约会环境不满，转而前往泰国、越南等国寻找 传统伴侣 的“护照欧巴”现象。随着 远程办公 的普及，这些男…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "AI时代，你的认知跟上了没？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+AI%E6%97%B6%E4%BB%A3%EF%BC%8C%E4%BD%A0%E7%9A%84%E8%AE%A4%E7%9F%A5%E8%B7%9F%E4%B8%8A%E4%BA%86%E6%B2%A1%EF%BC%9F",
+      "published": "Fri, 24 Apr 2026 11:30:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "qr1AaKNwe5",
+        "www.jintiankansha.me"
+      ],
+      "summary": "这是一篇付费文章，但内容可能更多是吐槽和自我吹捧，请谨慎付费，鉴于微信原则，概不退款。 相关内容会在一天后同步到我的知识星球，星球会员可以不用付费。 平台地址： http://www.jintiankansha.me/t/qr1AaKNwe5",
+      "key_points": [
+        "平台地址： http://www.jintiankansha.me/t/qr1AaKNwe5"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-25",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "经济学人每日一词：Abhor",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%AF%8F%E6%97%A5%E4%B8%80%E8%AF%8D%EF%BC%9AAbhor",
+      "published": "Tue, 21 Apr 2026 14:26:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Abhor",
+        "abhor",
+        "to",
+        "which",
+        "abhors",
+        "corruption"
+      ],
+      "summary": "🔍 每日一词： Abhor 词性 ：动词 (v.) 发音 ：/əbˈhɔːr/ 考试适用 ：GRE, IELTS, TOEFL, CATTI, 🧐 含义解析： 我们可以把“讨厌”分成三个等级，对比后，你就知道 Abhor 具体在哪里了： Dislike / Don't like 不喜欢。 例子：我不喜欢香菜。（个人口味，很温和） Hate：讨厌，恨。 例子：我讨厌早起。（情绪强烈，很常用） Abhor：深恶痛绝、视若敝履、极其反感 这不仅仅是情绪上的不喜欢，而是一种生理上的反胃或道德上的无法接受。当你用 abhor…",
+      "key_points": [
+        "🔍 每日一词： Abhor 词性 ：动词 (v.) 发音 ：/əbˈhɔːr/ 考试适用 ：GRE, IELTS, TOEFL, CATTI, 🧐 含义解析：…",
+        "📝 常用搭配 Abhor violence：痛恨暴力 Abhor corruption：痛恨腐败 Abhor the idea of...：对……的想法感到极度…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "有赞技术团队",
+      "source": "有赞技术团队",
+      "source_url": "https://tech.youzan.com/rss/",
+      "title": "Java锁与线程的那些事",
+      "title_zh": null,
+      "url": "https://tech.youzan.com/javasuo-yu-xian-cheng-de-na-xie-shi/",
+      "published": "Tue, 14 Dec 2021 06:33:41 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Java",
+        "Synchronized",
+        "xkgb",
+        "https",
+        "java",
+        "kcdXOMgtxjEWOecQzdXjOA"
+      ],
+      "summary": "pdf版本下载地址： https://pan.baidu.com/s/1kcdXOMgtxjEWOecQzdXjOA?pwd=xkgb 提取码: xkgb Java锁与线程的那些事 一.引言 引言 ：“操作系统的线程状态和java的线程状态有什么关系？”这是校招时被问到的一个问题。当时只顾着看博文、面经等零散的资料，没有形成系统的知识体系，一时语塞，答的不是很对。在网上也没找到足够细致的讲解博文，于是整理出了这篇内容。 Java的线程状态牵扯到了同步语义，要探讨Java的线程状态的，必不可免要回顾其锁机制。因此本文…",
+      "key_points": [
+        "pdf版本下载地址： https://pan.baidu.com/s/1kcdXOMgtxjEWOecQzdXjOA?pwd=xkgb 提取码: xkgb Ja…",
+        "要探讨Java的线程状态的，必不可免要回顾其锁机制。因此本文的主要分为两大块：一是Synchronized源码粗析，分析了各类锁的进入、释放、升级过程，并大致说…",
+        "Synchronized锁 Java采用synchronized关键字、以互斥同步的方式的解决线程安全问题，那么什么是线程安全呢？这里引用《Java并发编程实战…"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "Go编程模式 ： 泛型编程",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/21615.html",
+      "published": "Sat, 04 Sep 2021 05:44:02 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Go",
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "export"
+      ],
+      "summary": "Go语言的1.17版本发布了，其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于... Read More Read More The post Go编程模式 ： 泛型编程 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post Go编程模式 ： 泛型编程 first appeared on 酷 壳 - CoolShell",
+        "其中开始正式支持泛型了。虽然还有一些限制（比如，不能把泛型函数export），但是，可以体验了。我的这个《Go编程模式》的系列终于"
+      ]
+    }
+  ]
+}
