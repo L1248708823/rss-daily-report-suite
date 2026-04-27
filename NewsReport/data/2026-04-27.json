@@ -1,0 +1,779 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T01:00:05.687760+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 95,
+    "fresh_candidates": 59,
+    "backfill_candidates": 36,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-27",
+      "fetched_at": "2026-04-27T01:00:05.389103+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4079.9,
+          "change": -13.35,
+          "change_pct": -0.33,
+          "volume": 605031798.0,
+          "amount": 114300020.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4695.0,
+          "change": -13.050000000000182,
+          "change_pct": -0.28,
+          "prev_close": 4708.05,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-27 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1031.1686305399714,
+          "change": -2.866187567315592,
+          "change_pct": -0.2771848217414869,
+          "prev_close": 1034.034818107287,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-27 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-27",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "阶段性的风格轮动，不等于长期的分散投资",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%98%B6%E6%AE%B5%E6%80%A7%E7%9A%84%E9%A3%8E%E6%A0%BC%E8%BD%AE%E5%8A%A8%EF%BC%8C%E4%B8%8D%E7%AD%89%E4%BA%8E%E9%95%BF%E6%9C%9F%E7%9A%84%E5%88%86%E6%95%A3%E6%8A%95%E8%B5%84",
+      "published": "Sun, 26 Apr 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Russell",
+        "amp",
+        "ETF",
+        "Growth",
+        "IWM",
+        "SPY"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 最近有几位朋友提的问题比较犀利：红利算分散吗？自由现金流呢？在 A 股里多加几个风格指数，算不算做了分散？ 我想了一下，找了三个风格看上去最不一样的 A 股指数，代表小盘股的中证2000、代表成长风格的创业板、以及价值、高股息特征的中证红利，跟沪深300 放一起算日收益率的相关系数。时间从 2010 年 6 月创业板指基日到 2026 年 3 月，接近 16 年的时…",
+      "key_points": [
+        "我觉得这种阶段性的不同步，和风格轮动的关系更大",
+        "再看成长和价值。Russell 1000 Growth 和 Russell 1000 Value 是美股最经典的一对风格指数。1984 到 2024 这 41…",
+        "用市场环境来解释更合适：2021 年核心资产抱团瓦解，红利风格阶段性接住了避险资金；2022-2023 年核心资产企稳，相关性回升；2025 年又出现新一轮下降"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "和美国老友聊投资——从苹果、拼多多到泡泡玛特，我更确定什么才是好生意",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1574262287/385839597",
+      "published": "Sun, 26 Apr 2026 11:08:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Apple",
+        "Gregg",
+        "PDD",
+        "downtown",
+        "Store",
+        "broker"
+      ],
+      "summary": "$泡泡玛特(09992)$ $拼多多(PDD)$ $苹果(AAPL)$ 这几天，一位认识了20多年的美国老朋友 Gregg 来温哥华看我。 我们最早认识，是2000年代做生意的时候。那时候他是客户，我做出口，前前后后合作了三年。07年以后，双方业务慢慢淡了，但人一直没断联系。后来这些年，我们偶尔通电话，偶尔聊近况，也总想着有没有机会把业务再捡起来做一点。 可惜，时代变了，行业也早就变了。 他做成了一个很成功的制造业企业，自己投了工厂，全球一年上亿美金销售额，生意做得很稳。更难得的是，他两个儿子都已经成家，也都回到公…",
+      "key_points": [
+        "教你什么叫伟大； 有些公司像拼多多，教你什么叫低估； 有些公司像泡泡玛特，教你什么叫新消费的魔力",
+        "我的投资底层框架，本质上还是价值投资，只不过我更偏向： 在确定性中寻找成长，在成长中寻找估值修复",
+        "只是我更喜欢把它拆成三个更容易执行的维度： 确定性 成长性 戴维斯双击 Gregg 点点头，说这套逻辑很像“Buffett + Lynch”的混合体"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当我们在说一个AI好用/不好用的时候，在说什么",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6623660105/385851739",
+      "published": "Sun, 26 Apr 2026 10:48:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Coding",
+        "ChatBOT",
+        "Chapter",
+        "Opus"
+      ],
+      "summary": "Chapter 1、数据是基础 先从一个问题出发：人类为什么会撒谎。无外乎：不知道事实、搞错事实、遮掩事实、歪曲事实。 没有动机遮掩事实、歪曲事实的AI为什么会“撒谎”（即幻觉）？只有2个原因：没有数据、搞错数据。 在此前的科普文 网页链接 {什么是AI Agent} 中 曾经科普过，大模型本身是只是【缸中之脑】，它有的只是推理能力，其它的所有能力都是连接在这个【缸中之脑】上的。 模型训练的数据往往是一年前的，这就意味着（即使模型的训练数据全对的情况下），对于最近一年的事实，对于模型来说也是“没有数据”，写过Age…",
+      "key_points": [
+        "A家新出的Opus 4.7甚至对指挥的遵守程度强到“拉了坨大的”，彻底不干活了，直到我给它加了一句：“最高约束（必须遵守）：此项目是财报分析 Agent，不是恶…",
+        "回答文章标题的问题：当我们在说一个AI好用/不好用的时候，在说什么。说的是这个AI能“按图索骥”地读到低噪音无噪音的数据",
+        "回答文章标题的问题：当我们在说一个AI好用/不好用的时候，在说什么。说的是这个AI能读到低噪音无噪音的数据"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "硅光 vs EML＝铁锂 vs 三元锂；NPO vs CPO＝混动 vs 纯电",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/385840736",
+      "published": "Sun, 26 Apr 2026 10:48:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EML",
+        "CPO",
+        "lane",
+        "NPO",
+        "vs",
+        "AI"
+      ],
+      "summary": "AI 光模块的路线之争，从来不是 “谁颠覆谁”，而是 不同阶段、不同场景下的性价比选择题 。就像新能源车的电池路线： 磷酸铁锂稳、便宜、放量快；三元锂性能强、成本高、上限高 ，没有绝对的 “更好”，只有适配与否。 做个类比，光通信赛道， 硅光≈磷酸铁锂，EML≈三元锂 ，而 磷化铟（InP）是 400G/lane 时代的 “高镍三元” ，先发优势无可替代。而延伸到封装路线， NPO vs CPO = 混动 vs 纯电 ——前者兼顾补能现状，后者主打极致性能，同样无绝对优劣，只看需求匹配。 硅光 ≈ 磷酸铁锂：性价比…",
+      "key_points": [
+        "光通信赛道， 硅光≈磷酸铁锂，EML≈三元锂 ，而 磷化铟（InP）是 400G/lane 时代的 “高镍三元” ，先发优势无可替代。而延伸到封装路线， NPO…",
+        "NPO vs CPO = 混动 vs 纯电：封装路线的“兼容与极致” 如果说硅光与EML是“器件路线”的选择，那NPO与CPO就是“封装路线”的分化，类比新能源…",
+        "从来不是 “谁颠覆谁”，而是 不同阶段、不同场景下的性价比选择题 。就像新能源车的电池路线： 磷酸铁锂稳、便宜、放量快；三元锂性能强、成本高、上限高 ，没有绝对…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于异环的一些个人观点",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6108306252/385808189",
+      "published": "Sun, 26 Apr 2026 10:39:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ios",
+        "jojo",
+        "EVA",
+        "http",
+        "PC",
+        "xueqiu.com"
+      ],
+      "summary": "雪球的人，应该很少玩游戏。 有一部分人是玩游戏的，但不一定玩二游。 发帖的人里面，只有比较少的人，本身是二游玩家吧。 而我是死宅重度游戏玩家，而且很多类型的游戏都玩，二游都玩过好多年了，二游氪金也氪了n万。 说说异环吧。 其实异环就是长板特别长，但短板特别短的游戏。优点就不说了，说说几个大的缺点吧： 1、人物建模确实太普了，大部分人都说没有抽卡欲望。这个人物建模即使放在两三年前也不行，在今天几乎可以说是二游里垫底的，随便拉一款二游的人物都比异环好看。 2、主线一团糟，尤其是塔吉多，巨丑、油腻、还极其烦人，开发组不会…",
+      "key_points": [
+        "比如一开始就是照相馆任务，客观点说，这个任务场景很体现技术力，但玩家可不在乎你技术力什么的，在乎的是体验。这任务作为支线可以，作为主线，剧情上无聊，体验不好，也…",
+        "但短板特别短的游戏。优点就不说了，说说几个大的缺点吧： 1、人物建模确实太普了，大部分人都说没有抽卡欲望。这个人物建模即使放在两三年前也不行，在今天几乎可以说是…",
+        "抓紧优化掉问题，口碑回升，而且后续角色设计好看一点，那么流水走高也不是不可能，全球流水冲到40亿，甚至50亿，机会还是有的。毕竟异环的基本架构还是很不错的，有一…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "没有练过的普通人，怎样才能提高和别人对打的胜率？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789246",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Female",
+        "Fly",
+        "ko",
+        "Super",
+        "WBC-OPBF",
+        "Weight"
+      ],
+      "summary": "抱鹅的少年， 女孩儿，打拳的。 查看知乎原文 别的真不懂，教大家点拳击运动员会的吧。 将来赔钱的时候莫把为师供出去就好了…… 不是，朋友们，以下内容别真当正话听啊，求求了……真的自己手折是小事，一拳搞不好都是三五万打底的，别整…… 【不在意赔多少系列干货】 如果你不在意赔多少的话，请跟练以下几条： 1.平常多练练拳卧撑。 学会扣腕——也就是做拳卧撑时的那个手背和小臂角度。 2.平常多在脑海里模拟以下场景： 如果对方抡着无敌风火王八拳朝你冲过来，克制一下心情，不要紧张，不要躲闪不要后退，更不要试图也开始抡王八拳。 你…",
+      "key_points": [
+        "现在是建国前入党的最好时机了！（笑 接近十年的时间，经历过没有比赛、有比赛没有对手、有比赛有对手没有推广公司等一系列的煎熬，现在，我就要度过黎明前最后的一段黑暗…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "马的腿断了几乎必死，那么牛呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789254",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "加肥猫， 心宽体胖 查看知乎原文 牛，你跟马不一样。 很多人直觉上觉得，马腿断了之所以必死，是因为没人给治，或者因为马是干活的工具，不能干活了就被主人止损了。这逻辑放在古代成立，但放在现代那种身价几百万美金的赛马身上就解释不通了——人家主人不差钱，那是真想治，但往往也是真治不好。这里面藏着一个大自然最底层的逻辑：极致的特化，必然伴随着极致的脆弱。 咱们先说个反直觉的事实，给马接骨在外科技术上其实不难，难的是接上之后那段漫长的、如同地狱一样的恢复期。这就要聊到马这个物种在进化树上点出的那个极其奇葩的技能点：为了速度，…",
+      "key_points": [
+        "更要命的是马的体重。一匹成年马动不动就一千斤往上，这么大的分量，全压在四根细细的管子上。马腿断了一根，它就不敢着地，那一千斤的重量就得平摊给剩下三条腿。这下坏了…",
+        "马腿断了之所以必死，是因为没人给治，或者因为马是干活的工具，不能干活了就被主人止损了。这逻辑放在古代成立，但放在现代那种身价几百万美金的赛马身上就解释不通了——…",
+        "给马接骨在外科技术上其实不难，难的是接上之后那段漫长的、如同地狱一样的恢复期。这就要聊到马这个物种在进化树上点出的那个极其奇葩的技能点：为了速度，它几乎放弃了一…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI大事件：美团LongCat-2.0开放测试、黄仁勋要求员工使用OpenAI Codex、DeepSeek开启促销",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6384343.html",
+      "published": "Sun, 26 Apr 2026 03:12:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "DeepSeek",
+        "Sierra",
+        "CPU",
+        "GPU"
+      ],
+      "summary": "这周我试用了一个新出来的AI编程工具，复活了一个被弃置两年的开源项目——全程只用了三个小时。这个体验让我意识到，AI编程工具的能力边界，已经不是”辅助写代码”那么简单了。周末，AI圈有几个信号值得关注：美团的长文本模型LongCat-2.0挤进万亿俱乐部，地平线发布了被业内认为”打开舱驾融合新时代”的芯片”星空”，而全球AI编程工具正在加速替代传统IDE。更实际的一点是：CPU涨价了，而且可能还要继续涨。 1. Lambda Calculus Benchmark：AI模型纯代码能力的新试金石 核心内容 ：一个包含1…",
+      "key_points": [
+        "黄仁勋要求英伟达万名员工使用OpenAI Codex 核心内容 ：英伟达CEO黄仁勋向全体员工发送邮件，要求10000名员工（包括工程、产品、法务、市场营销、财…",
+        "点评 ：黄仁勋让英伟达员工用OpenAI的编程工具，这个画面本身就很有冲击力。英伟达和OpenAI是竞合关系，但黄仁勋依然要求员工用OpenAI的工具——这只能…",
+        "美团LongCat-2.0开放测试：万亿参数大模型俱乐部又添新成员 核心内容 ：美团新一代基础大模型LongCat-2.0-Preview正式开放测试，该模型总…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "做打车Agent半年我终于搞懂了置信度这个东西",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6384136.html",
+      "published": "Sun, 26 Apr 2026 02:45:33 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "confidence",
+        "T2",
+        "CC0",
+        "postmeta.bookmark"
+      ],
+      "summary": "AI打车Agent的「自作主张」正在引发用户投诉风暴。当系统自信满满地将用户送往错误机场时，背后暴露的是置信度机制的致命缺陷。本文揭秘如何通过四档分级策略，将投诉率从2.1%直降至0.4%，并深入解析3秒弱确认、历史偏好衰减等关键设计细节，展现AI产品在「自信」与「保守」间寻找平衡的艺术。 上个月，我朋友公司的打车 Agent 出了一个事故。 用户说了一句「帮我叫个车去机场」，Agent 很自信地叫了一辆去浦东机场的车。 结果用户要去的是虹桥机场。 用户投诉了。还发了微博。 这不是个例。我们统计了一下，类似的「AI…",
+      "key_points": [
+        "AI打车Agent的「自作主张」正在引发用户投诉风暴。当系统自信满满地将用户送往错误机场时，背后暴露的是置信度机制的致命缺陷。本文揭秘如何通过四档分级策略，将投…",
+        "重新设计了 Agent 的「置信度分级」机制。投诉率从 2.1% 降到了 0.4%",
+        "置信度很高，直接执行。结果执行错了"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "硝烟已起：从 Anthropic 的“降智”道歉信，看 AI 时代的话语权之争",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6384107.html",
+      "published": "Sun, 26 Apr 2026 02:39:45 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "Code",
+        "Bug",
+        "Coding"
+      ],
+      "summary": "Anthropic官方近期承认Claude Code存在性能下降问题，引发的不只是技术层面的讨论，更揭示了AI时代生产力工具的隐形控制权之争。从效率的呼吸机效应到平台级垄断的威胁，再到降智风险的蝴蝶效应，这场关于工具话语权的暗战正在深刻影响每一个从业者。本文将从产品逻辑与行业生态角度，剖析AI工具背后的权力博弈与生存策略。 4月24日凌晨，Anthropic 官方发布了一篇引起技术圈地震的帖子。他们公开承认，过去一个月里 Claude Code 确实出现了“性能变差”的问题。 虽然官方在道歉，但评论区依然充斥着对…",
+      "key_points": [
+        "Anthropic官方近期承认Claude Code存在性能下降问题，引发的不只是技术层面的讨论，更揭示了AI时代生产力工具的隐形控制权之争。从效率的呼吸机效应…",
+        "从代码到政治： 这种控制力可能不仅局限于商业领域。当一个平台掌握了全球大部分开发者的生产路径，它在某种程度上就掌握了定义“什么是正确”的话语权。这不仅是市场的竞…",
+        "当硝烟散去，只有那些不仅会用工具、还能理解风险的人，才能在这场话语权战争中幸存"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为电脑上的所有 Agent，统一一套 Skill 库",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6384088.html",
+      "published": "Sun, 26 Apr 2026 01:42:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Skill",
+        "Agent",
+        "AI",
+        "skills",
+        "SharedSkills",
+        "claude"
+      ],
+      "summary": "AI工具的繁荣带来了Skill管理的混乱噩梦——多Agent并存时，重复安装、版本漂移、资产黑盒化等问题层出不穷。本文提出革命性的「中央Skill」方案，通过软链接技术实现跨工具统一管理，不仅彻底解决同步难题，更揭示了Skill作为AI时代确定性资产的核心价值：它是沉淀工作方法的SOP，会随AI进化而增值而非贬值。 Skill 使用中易被忽视的割裂 电脑上的 AI 工具越来越多，有 Claude Code、OpenCode、Cursor、OpenClaw 小龙虾、Codex、Trae……由于不同的模型各有擅长，不同…",
+      "key_points": [
+        "因为~/.claude/skills/是软链接，除了直接把 Skill 丢进中央文件夹，依然可以让 Claude Code 帮忙安装任何新 Skill，新的 S…",
+        "Skill 使用中易被忽视的割裂 电脑上的 AI 工具越来越多，有 Claude Code、OpenCode、Cursor、OpenClaw 小龙虾、Codex…",
+        "第二步：清理 Agent 原有 skills 文件夹 右键点击在 Finder（访达）， 点击「前往文件夹」，输入 ~/ ，回车，进入用户目录； 此刻 Clau…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【官方推荐】uni-app接入HarmonyOS创新特性开发实践（含插件代码）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6384084.html",
+      "published": "Sat, 25 Apr 2026 07:56:51 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kit",
+        "UniApp",
+        "AI",
+        "HarmonyOS",
+        "IAP",
+        "Account"
+      ],
+      "summary": "本原创文章帖发布在 华为开发者联盟社区 ，欢迎开发者前往访问评论交流，更多与该内容相关讨论，请点击原帖查看： 【官方推荐】uni-app接入HarmonyOS创新特性开发实践（含插件&amp;代码） 在鸿蒙生态不断完善的过程中， 如何在 UniApp 中高效接入HarmonyOS 创新能力 ，一直是跨端开发者关注的重点。 本专题汇集了全栈开发者 Jack 在其商用项目《BabyOne》母婴育儿应用中的实战经验。这套方案不仅涵盖了 端侧 AI、交互感知、系统级协同 等技术深度，更进一步打通了 应用内支付、一键登录及桌…",
+      "key_points": [
+        "本原创文章帖发布在 华为开发者联盟社区 ，欢迎开发者前往访问评论交流，更多与该内容相关讨论，请点击原帖查看： 【官方推荐】uni-app接入HarmonyOS创…",
+        "8、[系统交互] 桌面卡片开发实战（Form Kit） 针对 UniApp 官方目前对 Form Kit 支持有限的现状，作者通过 UTS 插件 + ETS 代…",
+        "本专题汇集了全栈开发者 Jack 在其商用项目《BabyOne》母婴育儿应用中的实战经验。这套方案不仅涵盖了 端侧 AI、交互感知、系统级协同 等技术深度，更进…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "夏天厨房那股隐秘的臭味，究竟是从哪来的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%8F%E5%A4%A9%E5%8E%A8%E6%88%BF%E9%82%A3%E8%82%A1%E9%9A%90%E7%A7%98%E7%9A%84%E8%87%AD%E5%91%B3%EF%BC%8C%E7%A9%B6%E7%AB%9F%E6%98%AF%E4%BB%8E%E5%93%AA%E6%9D%A5%E7%9A%84%EF%BC%9F",
+      "published": "Sun, 26 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cs",
+        "CS",
+        "CDO",
+        "ka",
+        "SGS",
+        "xx"
+      ],
+      "summary": "一到夏天，做饭就变成了“地狱模式”。即使是平时热衷研究美食的掌柜，进入6月份，也不想踏入厨房一步， 厨房没有空调，一做饭真的热死！ 。 炒菜站旁边还得吸油烟，不仅会 吸入PM2.5，做完一顿饭整个人又油又臭，洗澡都洗不干净！ 再加上天气潮湿、爸妈辈的家长们总是舍不得换厨具，厨房的锅包浆发霉掉漆快赶上自己岁数大了。明明洗干净的菜板，放一天也晾不干，摸上去黏糊糊，碰不了一点。 年头久的厨具不光是不好用了， 涂层划坏会释放化学物质 ， 电饭煲漏电，高压锅爆炸有安全隐患 等各种新闻层出不穷，更是时时刻刻危害生命健康。 这次…",
+      "key_points": [
+        "上午场11:00直播 晚间场19:00直播 各种夏日厨房快捷、健康、抗菌 好物直接开到底价 安全压力锅+钛锅 夏天厨房最值得入手的 “省心+健康”组合 一口好锅…",
+        "上午场11:00直播 晚间场19:30直播 夏天厨房的“安全感” 自带抗菌体质，生冷水果直接上桌 选用 泰国黄金产区好品质相思木，木质细密坚硬，切菜不易掉渣，天…",
+        "CS鎏金系列16cm不锈钢水果刨削皮刀 1流型把手设计，握感舒适 2热纹刀片，快速去皮，持久锋利 3灵动刀头，旋转去皮，快速去皮 4防滑手柄，省力防滑，不易伤手…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "经常喊累，真不是懒！是大脑被这 3 件事耗空了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BB%8F%E5%B8%B8%E5%96%8A%E7%B4%AF%EF%BC%8C%E7%9C%9F%E4%B8%8D%E6%98%AF%E6%87%92%EF%BC%81%E6%98%AF%E5%A4%A7%E8%84%91%E8%A2%AB%E8%BF%99+3+%E4%BB%B6%E4%BA%8B%E8%80%97%E7%A9%BA%E4%BA%86",
+      "published": "Sun, 26 Apr 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "CPU",
+        "impairs",
+        "in",
+        "prefrontal",
+        "subsequent"
+      ],
+      "summary": "有多少人怀疑过自己年纪轻轻就废了，这身体不行，连脑子都赶不上爸妈了： 明明啥也没干，脑子变得迟钝，还总觉得好累。 注意力变得很难集中，话到嘴边经常卡壳 6 位数的验证码反复切换才能记住 动不动就觉得很累，回家只想躺平了歇着 有人觉得是大脑提前衰老，有人觉得是营养不够，但更常见的一个原因被忽视了： 我们的大脑被耗空 尤其是前额叶罢工了 前额叶是人类高级认知的核心，负责 决策计划，逻辑推理、情绪控制、自我监 控等一系列功能。 它占据人类大脑新皮层的 29%。而在猴子中，只有 11.5%。 这是个让人类脱颖而出站上顶端的…",
+      "key_points": [
+        "话到嘴边经常卡壳 6 位数的验证码反复切换才能记住 动不动就觉得很累，回家只想躺平了歇着 有人觉得是大脑提前衰老，有人觉得是营养不够，但更常见的一个原因被忽视了…",
+        "保护前额叶 先从这些小事做起 想让大脑不再经常宕机、卡壳，从无力里解脱出来，从尊重我们自己的前额叶开始： 第一，固定 80% 的生活习惯 生活中处处是选择，但我…",
+        "一次只做一件事，让大脑有更充分、集中的深度锻炼； 尝试把短视频时间切换回曾经的好好看一部电影、一本书，搭建一次乐高…… 我们的大脑，我们的前额叶会感谢我们的"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "9.9元玩一天，有商家爆卖上百万，“手搓经济”又出新爆款",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+9.9%E5%85%83%E7%8E%A9%E4%B8%80%E5%A4%A9%EF%BC%8C%E6%9C%89%E5%95%86%E5%AE%B6%E7%88%86%E5%8D%96%E4%B8%8A%E7%99%BE%E4%B8%87%EF%BC%8C%E2%80%9C%E6%89%8B%E6%90%93%E7%BB%8F%E6%B5%8E%E2%80%9D%E5%8F%88%E5%87%BA%E6%96%B0%E7%88%86%E6%AC%BE",
+      "published": "Sun, 26 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A4",
+        "AI",
+        "ASMR",
+        "aVsLIpAuY0",
+        "boss",
+        "DIY"
+      ],
+      "summary": "万物皆可拼贴，年轻人又一新型“社交货币”来了。 文：丁洁 这届年轻女孩们的“社交货币”又上新了，“造景贴纸”正以最快的速度抢占着10后、00后们的书桌和抽屉。 这个仅需花费9.9元就能消磨一整天的小玩意，正在抢占着“i人”们的碎片化时间。一张堆满各种瓶瓶罐罐的贴纸，一张底板，外加一把镊子，年轻人就能在这方寸间沉浸式当上一天的“码货员”。 社交媒体上，自称是“助眠、解压博主”的“甜崽小王”在今年1月发布了一条沉浸式“手搓贴纸”（指自己凭想象力将单个贴纸组合成画）的视频，收获了近90万的赞，评论区里更是写满了路人对博主…",
+      "key_points": [
+        "在抖音、B站和小红书，一类专门拍摄“造景过程”的博主迅速崛起。他们爆火的内容公式是：白噪音（撕纸声、镊子碰撞声）+延时摄影+治愈系文案=百万播放量。这些视频不仅…",
+        "自称是“助眠、解压博主”的“甜崽小王”在今年1月发布了一条沉浸式“手搓贴纸”（指自己凭想象力将单个贴纸组合成画）的视频，收获了近90万的赞，评论区里更是写满了路…",
+        "市面上较火的是单层房间的造景贴纸如小宠物房间，同质化现象较为严重。2024年底，语闲策划出“三层小楼”概念（如三层超市、火锅店），一定程度上通过上新拉开与竞品的…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "早起毁一上午，早起化个丑妆毁一天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%97%A9%E8%B5%B7%E6%AF%81%E4%B8%80%E4%B8%8A%E5%8D%88%EF%BC%8C%E6%97%A9%E8%B5%B7%E5%8C%96%E4%B8%AA%E4%B8%91%E5%A6%86%E6%AF%81%E4%B8%80%E5%A4%A9",
+      "published": "Sun, 26 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B10",
+        "cp",
+        "dc_ps",
+        "E7uep2WKa",
+        "feature",
+        "http"
+      ],
+      "summary": "一进入到四月底，明显感觉夏天的脚步越来越近了。 作为一个混油皮，周末出门玩儿的时候犯懒随手拿了一瓶秋冬滋润型粉底，结果脱妆脱得那叫一个惨不忍睹…… 一款难用的底妆 真的分分钟让你颜面尽失 这还不是最可怕的。 最吓人的是因为 被厚重的底妆闷出痘痘、闭口 ，于是就开始了： 用更厚重的粉底去盖住瑕疵→皮肤变更差 的恶性循环。 所以我瞬间意识到，是时候换底妆了 ！ 这个季节最适合的底妆，主要侧重 轻薄水润 ，但就像春夏的衣服一样，越薄越透气皮肤才不会有负担，而且能减少脱妆的机会。 对于很多起床困难户的通勤选手来说，最好还要…",
+      "key_points": [
+        "没有假面感~ 用它来定底妆，维持一天不成问题"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "电影人也喜欢奇奇怪怪的电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%94%B5%E5%BD%B1%E4%BA%BA%E4%B9%9F%E5%96%9C%E6%AC%A2%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E7%94%B5%E5%BD%B1",
+      "published": "Sun, 26 Apr 2026 16:13:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CGI",
+        "DVD",
+        "Flickor",
+        "Franska",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "来源：《卫报》 译者：Issac 校对：奥涅金 从最脏乱、破旧的电影院里让人顿悟的夜晚，到星光下令人着迷的放映，诸位电影人和影评人一同回忆起了去电影院看电影时那种共同的兴奋。 「你得坐在流浪汉没撒过尿的地方」 迈克·李 在我还是个穷孩子的时候，尤斯顿有一家托尔默电影院，这是伦敦最便宜的电影院，甚至比其他地方的电影院都要便宜——两先令一张票。这是一座经过改造的教堂，虽然脏乱差，倒也是不拘一格。这个电影院找得到什么电影，就会放映什么电影，无论新旧。 《豹》——原版影片，没有字幕；《地狱机械舞》；《罗生门》；《瑞典混蛋》…",
+      "key_points": [
+        "《卫报》 译者：Issac 校对：奥涅金 从最脏乱、破旧的电影院里让人顿悟的夜晚，到星光下令人着迷的放映，诸位电影人和影评人一同回忆起了去电影院看电影时那种共同…",
+        "「我根本没有准备好迎接完全浸入式的创伤」 安德鲁·普尔弗 （《卫报》副主编） 当你在一场接一场的放映中磕磕绊绊时，参加电影节可能是一件苦差事——但它们也可能让你…",
+        "「吸烟区和禁烟区都爆发出掌声」 瑞恩·吉尔贝 （《卫报》影评人） 当《夺宝奇兵》中的印第安纳·琼斯派缓缓一枪杀死剑客的时候，埃塞克斯哈洛·欧迪恩剧场的观众疯狂地…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "票房仅200万，却是梁朝伟近年最佳",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%A5%A8%E6%88%BF%E4%BB%85200%E4%B8%87%EF%BC%8C%E5%8D%B4%E6%98%AF%E6%A2%81%E6%9C%9D%E4%BC%9F%E8%BF%91%E5%B9%B4%E6%9C%80%E4%BD%B3",
+      "published": "Sun, 26 Apr 2026 16:13:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CoreSin",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 CoreSin 一棵树能否成为电影的主角？ 这个问题在伊尔蒂科 ·埃涅迪提出之前，几乎没有导演正面回答 过 。 让一棵树，凭借它 自身 的 感知维度， 以及 它的时间尺度 ， 注视着人类在它脚下上演的一幕幕悲喜。 《寂 静的朋友 》 电影提出了一个问题： 在人类的感知疆域之外，是否存在 其他 同样深邃的意识？ 埃涅迪选择了三联画的结构来承载这个追问。影片围绕德国马尔堡大学老植物园中的同一棵银杏树，编织了三个时代的故事。 1908年的段落用银灰色的35毫米黑白胶片拍摄，讲述第一位进入马尔堡大学植物学系的女学生格蕾…",
+      "key_points": [
+        "这种转变 无疑很 困难。梁朝伟此前从未拍过欧洲电影。他在片中用英语和蕾雅 ·赛杜饰演的法国植物学家通过视频通话交流，用粤语进行 个人 独白。他为这个角色进行了大…",
+        "梁朝伟自己谈到这次经历时说过一句耐人寻味的话：拍完这部电影之后，他每天在太平山顶跑步时经过那些树木，感觉变得不一样了，它们似乎有了某种生命力和觉知。当他看着它们…",
+        "当梁朝伟饰演的黄博士赤身站在暴雨中的银杏树下，达成了某种近乎宗教性的身体交流之后，镜头才第一次正面逼近树冠，而此时的画面已经不再是人在看树，变成某种更模糊、更对…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国四大盆地最美的一面，在这里",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%9B%86%E5%9C%B0%E6%9C%80%E7%BE%8E%E7%9A%84%E4%B8%80%E9%9D%A2%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C",
+      "published": "Sun, 26 Apr 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Jubei"
+      ],
+      "summary": "中国四大盆地 每个都堪称壮美绝伦的“聚宝盆” 它们不仅内含无数绝世珍宝 外表更是美出天际 下面就来看这 四“盆”盛景 最美好的一面 塔里木盆地 旱海“巨”宝盆 塔里木盆地 中国面积最大内陆盆地 整体约40多万平方公里 如果真把它看成“大盆子” 那么“盆沿”由天山、昆仑山、阿尔金山合围 “盆底”则异常干涸 那里既有 中国最大的塔克拉玛干沙漠 也有 亚洲“干极”罗布泊 塔里木盆地中心 是塔克拉玛干沙漠 如巨盆之中装满旱海 图源：中国国家地理 2023年06期 摄影/邓建中 该盆地边缘的山脉形成珍贵的冰雪融水 汇成了 中…",
+      "key_points": [
+        "中国四大盆地 每个都堪称壮美绝伦的“聚宝盆” 它们不仅内含无数绝世珍宝 外表更是美出天际 下面就来看这 四“盆”盛景 最美好的一面 塔里木盆地 旱海“巨”宝盆…",
+        "点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：Jubei 接下来的福建屏南，封神了"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "为什么我就是不肯直接给出有线耳机链接",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%82%AF%E7%9B%B4%E6%8E%A5%E7%BB%99%E5%87%BA%E6%9C%89%E7%BA%BF%E8%80%B3%E6%9C%BA%E9%93%BE%E6%8E%A5",
+      "published": "Sun, 26 Apr 2026 12:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "Bitsea",
+        "hd",
+        "headphone"
+      ],
+      "summary": "很多读者觉得奇怪，为什么我经常聊起有线耳机，但每次看到文章最后都没有发现任何购买链接，让人非常失望。 因为我不是生活博主，也不是耳机博主。 我具体是谁？我自己到现在也没弄清楚。但我很明白一件事，有线耳机平头塞、入耳式、头戴式等等产品形式，每个具体的读者适合哪一款，只有他们自己试过才知道。 从生理的角度看，每个人的耳朵形状、耳道大小，对耳机形状、材质的敏感程度彼此都不相同。如果我给出入耳式耳机的链接，读者买回家导致中耳炎怎么算？我自己买入耳式耳机，因为两个耳朵眼不一样大，使用相同尺寸的硅胶套，左耳的耳机就经常自动脱落…",
+      "key_points": [
+        "为什么我经常聊起有线耳机，但每次看到文章最后都没有发现任何购买链接，让人非常失望",
+        "而是直接高台跳水。之前用户上了多少智商税，脑子里有多少水，价格就能激起多大的水花。我之所以不推荐耳机，不直接给出链接，这是最为隐秘的原因",
+        "我自己也做过功课，所以我知道具体是怎么一回事。凡是贴身使用的物件，都需要每个人自己做研判，都需要每个人找到最适合自己的那一款。再进一步说，凡是需要满足个人体验的…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "过敏“大流行”：这200年来的持续恶化，可能只是个开始",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%BF%87%E6%95%8F%E2%80%9C%E5%A4%A7%E6%B5%81%E8%A1%8C%E2%80%9D%EF%BC%9A%E8%BF%99200%E5%B9%B4%E6%9D%A5%E7%9A%84%E6%8C%81%E7%BB%AD%E6%81%B6%E5%8C%96%EF%BC%8C%E5%8F%AF%E8%83%BD%E5%8F%AA%E6%98%AF%E4%B8%AA%E5%BC%80%E5%A7%8B",
+      "published": "Sun, 26 Apr 2026 08:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NO",
+        "CCAAPS",
+        "CO",
+        "CRF1",
+        "END",
+        "get"
+      ],
+      "summary": "4.26 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Myriam Zilles 编者按： 在过去的两个世纪里，人类文明经历了史无前例的飞跃，但我们的免疫系统似乎并未能同步进化，反而陷入了某种集体性的紊乱。特雷莎·麦克费尔在《过敏的真相》中披露的数据令人触目惊心：全球数以亿计的人正受困于哮喘、食物过敏及各种慢性炎症。过敏，已然从一种偶发的医学现象，演变为 21 世纪波及全球的慢性病。 作者认为，这种病症的激增并非由某种单一理论可以解释，而是人类整体生活环境与生活方式剧变的…",
+      "key_points": [
+        "我们看到早期暴露于最高水平空气污染中的孩子，更有可能在 7 岁时患上哮喘。有些孩子早期暴露于高水平的空气污染中，然后搬到了暴露程度较低的地区。我们看到的是，如果…",
+        "我们生活在一个充满压力的时代。这个年代以一场全球大流行和一些我们所见过的最严重的野火、干旱和洪水开始。全球经济仍在受到新冠疫情的影响，并显示出下滑的迹象。我们所…",
+        "尽管围绕过敏的定义和诊断存在着很多困惑和混乱，但我们知道有一件事是绝对确定的：各种过敏症，不管我们怎么称呼它们，也不管我们怎么定义它们，在过去的200年里一直在…"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "当 “美式霸权” 遇上 “没有膝盖的敌人” | 经济学人本周漫画解读",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%BD%93+%E2%80%9C%E7%BE%8E%E5%BC%8F%E9%9C%B8%E6%9D%83%E2%80%9D+%E9%81%87%E4%B8%8A+%E2%80%9C%E6%B2%A1%E6%9C%89%E8%86%9D%E7%9B%96%E7%9A%84%E6%95%8C%E4%BA%BA%E2%80%9D+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%9C%AC%E5%91%A8%E6%BC%AB%E7%94%BB%E8%A7%A3%E8%AF%BB",
+      "published": "Sun, 26 Apr 2026 08:35:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "KAL",
+        "Bring",
+        "knees",
+        "to",
+        "you",
+        "END"
+      ],
+      "summary": "本文作者：老谢，男，经济学人十年资深读者 深度解读：当“美式霸权”遇上“没有膝盖的敌人” 这幅出自《经济学人》御用画师 KAL 之手的漫画，简直是把美国在中东的尴尬处境给画活了。它不仅仅是一个关于鹰和蛇的故事，更是一场关于“降维打击”为何失效的黑色幽默。 #经济学人 #政治漫画 #国际局势 #美式霸权 #地缘政治 #军事讽刺 #中东局势 #深度解读 #非对称战争 #伊朗 1. 霸权的“肌肉”与对手的“软体” 你看这只老鹰，头戴“USA”棒球帽，最讽刺的是它的翅膀—— 完全由导弹和炸弹构成 。这太形象了：美国现在的威…",
+      "key_points": [
+        "男，经济学人十年资深读者 深度解读：当“美式霸权”遇上“没有膝盖的敌人” 这幅出自《经济学人》御用画师 KAL 之手的漫画，简直是把美国在中东的尴尬处境给画活了…",
+        "#经济学人 #政治漫画 #国际局势 #美式霸权 #地缘政治 #军事讽刺 #中东局势 #深度解读 #非对称战争 #伊朗 1",
+        "” 这简直是神来之笔。“Bring you to your knees”是西方政治里常用的狠话，意思是让人屈服。但问题是， 蛇是没有膝盖的"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-27",
+      "platform": "CoolShell",
+      "source": "酷 壳 – CoolShell",
+      "source_url": "http://coolshell.cn/feed",
+      "title": "如何做一个有质量的技术分享",
+      "title_zh": null,
+      "url": "https://coolshell.cn/articles/21589.html",
+      "published": "Tue, 13 Jul 2021 05:00:46 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "More",
+        "Read",
+        "appeared",
+        "CoolShell",
+        "first",
+        "on"
+      ],
+      "summary": "分享信息并不难，大多数人都能做到，就算是不善言谈性格内向的技术人员，通过博客或社交媒体，或是不正式的交流，他们都能或多或少的做到。但是如果你想要做一个有质量有高... Read More Read More The post 如何做一个有质量的技术分享 first appeared on 酷 壳 - CoolShell .",
+      "key_points": [
+        "Read More Read More The post 如何做一个有质量的技术分享 first appeared on 酷 壳 - CoolShell",
+        "大多数人都能做到，就算是不善言谈性格内向的技术人员，通过博客或社交媒体，或是不正式的交流，他们都能或多或少的做到。但是如果你想要做一个有质量有高"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "draveness.me",
+      "source": "draveness.me",
+      "source_url": "https://draveness.me/feed.xml",
+      "title": "如何提高缓存系统的内存利用率和可扩展性 · NSDI '21",
+      "title_zh": null,
+      "url": "https://draven.co//papers-segcache",
+      "published": "Mon, 12 Jul 2021 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "NSDI"
+      ],
+      "summary": "如何提高缓存系统的内存利用率和可扩展性 · NSDI '21",
+      "key_points": [
+        "如何提高缓存系统的内存利用率和可扩展性 · NSDI '21"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789258",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CFD",
+        "done1",
+        "EE",
+        "fluent",
+        "LMS",
+        "UDS"
+      ],
+      "summary": "瞎扯 · 年夜饭上常被念叨的「食物相克」，比如螃蟹和柿子、虾和维生素 C ，真的有科学依据吗？ 知乎日报 查看知乎原文 Q： 年夜饭上常被念叨的「食物相克」，比如螃蟹和柿子、虾和维生素 C ，真的有科学依据吗？ @美食答主王大厨 ：不止螃蟹和柿子，比如还有螃蟹和冰淇淋，羊肉和车厘子，等等，对我来说都克。 我只能吃一种，都吃的话，胃受不了，太撑。 Q： 你在清华上过最牛的课是什么？ @11done1 ：「 建筑风水学 」，建筑学院（巅峰时刻某年招进来全国 6 个省的高考理科状元）选修课，作为那个学期唯一选修此课程的…",
+      "key_points": [
+        "瞎扯 · 年夜饭上常被念叨的「食物相克」，比如螃蟹和柿子、虾和维生素 C ，真的有科学依据吗"
+      ]
+    }
+  ]
+}
