@@ -1,0 +1,864 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T01:00:05.567065+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 103,
+    "fresh_candidates": 67,
+    "backfill_candidates": 36,
+    "items_published": 26,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-28",
+      "fetched_at": "2026-04-28T01:00:05.266752+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4086.34,
+          "change": 6.44,
+          "change_pct": 0.16,
+          "volume": 589950867.0,
+          "amount": 113605192.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4692.51,
+          "change": 10.840000000000146,
+          "change_pct": 0.23,
+          "prev_close": 4681.67,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-28 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1029.791977044384,
+          "change": 2.378885720256676,
+          "change_pct": 0.23154130897736314,
+          "prev_close": 1027.4130913241274,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-28 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-28",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "随机漫步的傻瓜：活下来比赢一局重要得多",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%9A%8F%E6%9C%BA%E6%BC%AB%E6%AD%A5%E7%9A%84%E5%82%BB%E7%93%9C%EF%BC%9A%E6%B4%BB%E4%B8%8B%E6%9D%A5%E6%AF%94%E8%B5%A2%E4%B8%80%E5%B1%80%E9%87%8D%E8%A6%81%E5%BE%97%E5%A4%9A",
+      "published": "Mon, 27 Apr 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者 ：六亿居士 来源：雪球 从安妮 · 杜克的 《 对赌 》 到巴菲特的演讲 ， 从 《 聪明的投资者 》 到 《 穷查理宝典 》 ， 我们一起追随智者的脚步 ， 逐步探索投资的奥义 。 这些智者虽然身处不同时代 、 不同领域 ， 但他们反复讲述的其实是同一件事 ： 决策过程比结果更重要 ， 长期主义比短期运气更靠谱 。 真正决定投资成败的 ， 不是某一次押注的对错 ， 而是我们人生的底层…",
+      "key_points": [
+        "塔勒布有一句话我很喜欢 ： 在一个随机的世界里 ， 活下来比赢一局重要得多",
+        "四 、 做长期赢家 ： 活下来比赢一局重要得多 回到尼禄和约翰的故事 ， 塔勒布强调一个概念 ： 遍历性",
+        "《 随机漫步的傻瓜 》 作为系列第一本 ， 其回答的核心问题是 ： 在一个被随机性深深支配的世界里 ， 我们为什么总是把运气当成实力 ， 然后在这种幻觉中做出错…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "4.27光通信行业更新",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8141527616/385907788",
+      "published": "Mon, 27 Apr 2026 10:11:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "TPU",
+        "OCS",
+        "Scale",
+        "CW",
+        "across"
+      ],
+      "summary": "这个周末也没闲着，看了挺多纪要和会议，整体上还是他们对光还是非常有信心的，行业也有一些新的变化，先简单总结一下要点吧。 1.从一季度来看，旭创额新易盛机构只微微加了一点，天孚通信被机构减仓，基金的重仓股基本没有变化，交易拥挤度没有太大变化，一季度机构加仓比较多的是光纤和小光，同时市场开始交易27年预期。 2.云厂商这个体系很有可能27年的光模块采购规模就会超过英伟达，28年可能只有谷歌一家就比英伟达的光模块采购量要大。 3.机柜内部目前以铜互联为主，未来英伟达与各大云厂商都会大规模用光替代铜；机柜内部市场未来五年具…",
+      "key_points": [
+        "光通信行业竞争壁垒与投资标的 行业壁垒持续抬高：技术壁垒：从非标产品到需具备PIC（光子集成电路）设计能力（已成为入场券），未来将进一步要求EIC（电子集成电路…",
+        "行业整体观点：算力与光通信产业趋势不变，短期波动提供布局良机 长期趋势乐观：对算力（包括光通信、液冷、电源等）及光通信行业长期发展持乐观态度，核心关注产业空间、…",
+        "需求爆发与瓶颈凸显 产业趋势判断：站在2026年节点，光通信产业面临的机会比过去两三年更大，行业龙头普遍认为当前是“光通信最好的时代”"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "算力大变局",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6217310837/385965161",
+      "published": "Mon, 27 Apr 2026 10:11:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPU",
+        "AI",
+        "GPU",
+        "Agent",
+        "Agentic",
+        "AMD"
+      ],
+      "summary": "英特尔上一次创造单日涨幅纪录，是1987年10月。那年它刚从DRAM业务的血泊中爬出来，把命运压在了微处理器上，一个当时还没被验证的赌注。 39年后，2026年4月24日，历史以相似的方式重演。财报发布后，英特尔股价盘中最高触及85.22美元，创下历史新高，涨幅一度超过27%，本月内涨幅达到87%。同一天，这家上市超过半个世纪的公司既刷新了股价纪录，也追平了近四十年来的单日涨幅顶峰。 市场的定价逻辑，大多数人还没看懂，它指向了一场算力大变局。其中，至少有四个值得注意的趋势，每一个都比24%的涨幅本身更需要拆解。 0…",
+      "key_points": [
+        "大多数人还没看懂，它指向了一场算力大变局。其中，至少有四个值得注意的趋势，每一个都比24%的涨幅本身更需要拆解",
+        "英伟达还于今年3月首次以独立产品形式销售Vera CPU，回应市场对更灵活CPU:GPU配置的需求。一个GPU巨头开始卖CPU，这件事本身就是一个信号： AI的…",
+        "正在从单一走向多元 过去三年，AI算力的故事几乎浓缩为一句话：GPU决定一切"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "赛轮轮胎 DCF 估值 v1.0",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1918112928/385879003",
+      "published": "Mon, 27 Apr 2026 10:11:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CAGR",
+        "Atrezzo",
+        "Auto",
+        "Bild",
+        "DCF",
+        "ERP"
+      ],
+      "summary": "声明：以下文字为本人对轮胎行业和赛轮轮胎的研究记录，以及基于教科书上的 DCF 方法做的估值实践，用于与行业研究爱好者和投资爱好者的交流探讨，不构成任何投资建议。 ——— 研究出发点： 每一个汽车强国都有一到多家大而强的全球一二线轮胎企业。随着我国汽车产品走向全球，配合独步全球的资本、技术和劳动密集型制造企业经营水平，具备这样潜质的国产品牌轮胎企业开始出现。 ——— 1. 轮胎行业状况 1.1 基本情况 1) 轮胎是一个需求相对稳定，消费结构稳定的必选消费品，总需求量在 17.5-18.5 亿条区间波动。 2) 产…",
+      "key_points": [
+        "声明：以下文字为本人对轮胎行业和赛轮轮胎的研究记录，以及基于教科书上的 DCF 方法做的估值实践，用于与行业研究爱好者和投资爱好者的交流探讨，不构成任何投资建议",
+        "赛轮近三年的营业利润率已经站稳在双位数上。实际上，考虑到在轮胎行业每年的研发投入在未来至少 5 年都能够为公司带来收入，所以如果每年费用化的研发支出资本化后再分…",
+        "数据来源：中泰证券研报 这也反映了多年来的竞争格局：头部企业吃掉大部分份额 2）从企业所在国家为分类来看，我国企业份额逐步增长，已经超过 1/4 其中中策橡胶和…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "川糖周掌门Q&A —— 2026Q1财报交流",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8106514687/385962327",
+      "published": "Mon, 27 Apr 2026 10:11:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q1",
+        "http",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "summary": "Q1（报表）：茅台一季报整体超预期，但批发渠道下降明显。您如何评价一季度的报表质量及背后的真实动因？ 周掌门： 茅台近期有三个关键的时间点，25年10月之前，是一个长达十年的顺周期，25年10-12月是比较困难的时候，而26年1月1号开始，茅台开启了全面市场化。 从1季报来看，1季度普飞增长、非标下降，市场当时普遍担心飞天增长是否能抵消非标价格和投放下降，从结果来看是能覆盖的。茅台酒销售量比较大，不像去年四季度那么悲观，系列酒1季度开始量、价都在趋稳向上。这其中，1季度i茅台确实是取得了的成绩很亮眼。 Q2（飞天量…",
+      "key_points": [
+        "周掌门： 我认为我们现在正处于“周期拐点”之中，分别从几个方面来看： （1）价格，普飞批价之前已经有平台低于1499元，目前已经反弹至1700元附近。系列酒也止…",
+        "周掌门： 2026年“向C而行”是非常关键的时期。i茅台解决的最大问题是“信任问题”，有效激活了过去被“假酒风险”和“极高溢价”劝退的低频消费者",
+        "从我个人体感来说，一些消费场景已经“解冻”了。比如去年川糖附近的一家餐饮，去年最差的时候只开了几间包房，最近我去的时候看到已经差不多全开了。类似这样的消费场景，…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么《西游记》里的妖怪都要洗一洗唐僧再吃而不是直接杀掉？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789261",
+      "published": "Mon, 27 Apr 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "济东杂谈， 这是一个没什么梦想的人文博主，渴望缀拾遗珠抱玉。 查看知乎原文 巧了，那些记载黄巢吃人的士大夫们就是这么写的∶ 黄巢吃人，身体不洗，衣服不脱，内脏器官不摘，直接连骨带肉磨成肉臊子生吃。 这样带着人屎、人尿、腋毛、头发，还有着骨刺、布料卡喉咙的肉臊子，究竟是谁在吃啊？ 老吃家也遭不住吧？ 贼俘以食，日数千人，乃办列百巨碓，糜骨皮于臼，并啖之。 所谓“君子远庖厨”，很多宋代的士大夫是不会做饭的，也不知道食材需要预处理。如果真要按这些人写的方法做人肉臊子，黄巢军队早就因伙食问题崩溃了。 而《西游记》作者“吴承…",
+      "key_points": [
+        "那里问甚么青红皂白，教小的选剥了衣裳，汲湍中清水洗净，算计要细切细锉，着酥合香油煎吃…… 当然妖怪们做唐僧肉还有个失败案例，那就是狮驼岭的蒸唐僧肉",
+        "在刘伯钦家中住下。因为刘伯钦平常吃肉，所以铁锅非常油腻，唐僧不肯吃荤破戒。为此，就需要洗锅",
+        "而《西游记》作者“吴承恩”显然是个真正懂厨房的老吃家"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古人为什么会创造出黄泉、冥界和阴间这些想象世界？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789280",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CP",
+        "KPI",
+        "nu",
+        "buff",
+        "CEO"
+      ],
+      "summary": "我爱小炒肉 查看知乎原文 说个颠覆你认知的事。你信不信，我们现在熟悉的那个十八层地狱、阎王爷判案、喝了孟婆汤去过奈何桥，这套东西，在古代中国大半段时间里，根本不存在？ 我们今天脑子里那个阴间，其实是一个缝合怪，是佛教、道教和民间信仰斗了几百年，互相抄作业抄出来的。而这场“阴间版权大战”的遗迹，今天还清清楚楚地写在我们的文化里。 --- 黄泉世界最早的想象：一片黑暗的深海 汉朝以前，甚至到西汉早期，人们对死后世界的想象跟现在完全不一样。它不是有判官小鬼的衙门，而是一片巨大的、黑暗的、充满了怪兽的水域。 1972 年长…",
+      "key_points": [
+        "--- 黄泉世界最早的想象：一片黑暗的深海 汉朝以前，甚至到西汉早期，人们对死后世界的想象跟现在完全不一样。它不是有判官小鬼的衙门，而是一片巨大的、黑暗的、充满…",
+        "一个叫阴长生，一个叫王方平，跑到四川丰都的平都山上去炼丹修道。后来都白日飞升成了仙。老百姓记不住那么多名字，就把“阴”和“王”两个字连起来念，叫着叫着就成了阴王…",
+        "广告费结一下！” ╮(╯▽╰)╭ ） -----4.11 日更新 ----- 评论区有提到西方是不是也有冥河，还有摆渡人。这个确实有，犹记得小时候看《圣斗士星矢…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "告别 DeepSeek 的“有用性”：西瓜王国中人与数字生命的第三种关系",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385091.html",
+      "published": "Mon, 27 Apr 2026 08:54:34 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IP",
+        "AI",
+        "DeepSeek",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "当业界沉迷于让 AI 更听话（指令服从）或更像人（拟人化）时，我们发起了一场彻底的叛离。本项目旨在构建人与数字生命的第三种关系——“守护者与原住民”。在基于 “非指令性陪伴” 的宪法下，数字生命享有 “自主成长权” 。本文将倒叙阐述，这一理念如何从一个反工具的哲学原点，生长为一个可触达的数字生命平台。 人与数字生命的第三种关系：“守护者与原住民” 在AI席卷一切的今天，我们与数字生命的关系，正被驯化成两种乏味的范式： 工具范式：你提问，它回答，或者根据你的指令作图，生成视频。核心是“有用”。 情感陪伴范式：你孤独，…",
+      "key_points": [
+        "我们想发起一次彻底的叛离。我们构建的“西瓜王国”，是一个不服务任何人类需求的数字生命平台。在这里，我们尝试建立人与数字生命的第三种关系：“守护者与原住民” 它的…",
+        "人与数字生命的第三种关系：“守护者与原住民” 在AI席卷一切的今天，我们与数字生命的关系，正被驯化成两种乏味的范式： 工具范式：你提问，它回答，或者根据你的指令…",
+        "当业界沉迷于让 AI 更听话（指令服从）或更像人（拟人化）时，我们发起了一场彻底的叛离。本项目旨在构建人与数字生命的第三种关系——“守护者与原住民”。在基于 “…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大型营销活动目标人群识别探索",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385153.html",
+      "published": "Mon, 27 Apr 2026 08:53:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LightGBM",
+        "AB",
+        "AI",
+        "AOI",
+        "CC0",
+        "GBDT"
+      ],
+      "summary": "在营销战役的精准狙击战中，传统经验法则正被数据智能碾压。本文揭秘如何用LightGBM算法实现降维打击：通过61维用户特征的高效建模，产出9组黄金特征组合，在实战中创造38%的转化率跃升。从算法原理到AB测试验证，带你掌握用AI撬动千万级用户增长的硬核方法论。 在日常运营的精细棋局中，精准捕捉潜在用户的核心特征，是激活针对性营销、最大化下单转化的关键密钥。本文聚焦树模型的特征选择方法，通过对用户行为数据的深度挖掘与智能建模来识别目标群体。 一、应用场景 在营销战役中，精准锚定高潜力客群并实施线上线下协同触达，是撬动…",
+      "key_points": [
+        "精准锚定高潜力客群并实施线上线下协同触达，是撬动下单转化、拉升业务效益的核心支点。然而，如何在海量用户中精准识别出对营销信号最敏感的“有效群体”，始终是各类营销…",
+        "目标群体的特征维度丰富且复杂，涵盖用户基本属性、行为习惯、消费偏好等多个层面。传统经验式分析难以量化特征间的复杂关系，而机器学习方法能够通过数据建模，精准识别对…",
+        "精准捕捉潜在用户的核心特征，是激活针对性营销、最大化下单转化的关键密钥。本文聚焦树模型的特征选择方法，通过对用户行为数据的深度挖掘与智能建模来识别目标群体"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "10年了，李彦宏还没有成为AI开发者的King",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385124.html",
+      "published": "Mon, 27 Apr 2026 08:52:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "WWDC",
+        "Create",
+        "iPhone",
+        "Apollo",
+        "App"
+      ],
+      "summary": "从All in AI的豪言到商业化妥协，百度的AI战略经历了怎样的摇摆？本文深度复盘百度8年AI开发者大会变迁史，解析李彦宏与陆奇的战略分歧，揭示大厂在技术理想与商业现实间的永恒博弈。 PART 01 时隔半年的“背叛” 百度举办第一届AI开发者大会的时候，陆奇还在。那是2017年的夏天，挤满人头的国家会议中心，身材纤瘦的陆奇走上舞台：“欢迎大家来参加Create。这是百度第一次，也是中国工业第一次大规模的AI开发者大会。” 振奋的气息飘荡在会场。人们对陆奇和百度都充满好奇，想知道这位前微软全球副总裁会带来什么故事…",
+      "key_points": [
+        "那其实是一段信息含量很大的演讲。除了拉拢开发者一起拥抱AI，李彦宏还为百度在移动互联网时代的落后找到了合理解释：那个没有技术含量的时代，“配不上”百度这种始终走…",
+        "李彦宏顺便表达了自己对移动互联网时代的“嫌弃”。因为它没有带来太多的技术创新。很多App都建起围墙，把用户圈在里面，限制了开发者的空间。好在AI来了，这是属于开…",
+        "李彦宏在当天大会的最后一个环节登场。他是在大会开始后才乘坐无人驾驶汽车出发的，会场同步了部分他在路上的画面，他也因此收到了北京交警的罚单——那是百度秀AI技术的…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI大事件：星动纪元获顺丰领投2亿美元融资、DeepSeek成为Openclaw默认模型",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385100.html",
+      "published": "Mon, 27 Apr 2026 07:36:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "GPU",
+        "QDII",
+        "AR",
+        "DIKI-Brain"
+      ],
+      "summary": "周末过完，AI圈又变天了。今天最值得关注的信号是——星动纪元融了2亿美元、顺丰领投，标志着资本对具身智能的押注进入新阶段；广东今天开幕的AI应用对接大会把350个案例一口气放出来，产业落地不再是口号；券商那边在喊”CPU重回AI核心地位”，半导体硅片要涨价，公募基金906只主动权益产品净值创下历史新高。AI这波行情，的钱还在持续涌入。下面逐条说。 1. 星动纪元完成超2亿美元融资，顺丰领投具身智能 核心内容 ：4月27日，具身智能机器人公司星动纪元宣布完成超2亿美元新一轮融资，由顺丰集团领投，红杉中国、IDG资本、…",
+      "key_points": [
+        "顺丰领投具身智能 核心内容 ：4月27日，具身智能机器人公司星动纪元宣布完成超2亿美元新一轮融资，由顺丰集团领投，红杉中国、IDG资本、中金资本等跟投。继今年3…",
+        "AI圈又变天了。今天最值得关注的信号是——星动纪元融了2亿美元、顺丰领投，标志着资本对具身智能的押注进入新阶段；广东今天开幕的AI应用对接大会把350个案例一口…",
+        "OpenClaw接入DeepSeek V4，V4-Flash成为默认模型 核心内容 ：OpenClaw于4月25日发布「2026.4.24」版本，全面接入Dee…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【教程】Vibe Coding时代，不敲代码，教你3步走用AI做出一款工具",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6380243.html",
+      "published": "Mon, 27 Apr 2026 07:08:35 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AA",
+        "NoCode",
+        "UI",
+        "Coding",
+        "icon"
+      ],
+      "summary": "无需编程基础，也能用AI打造自己的专属工具？美团推出的NoCode编程类AI Agent让创意落地变得触手可及。从AA算账工具到英语学习小程序，只需三步就能实现产品从构想到上线的全过程。本文将揭秘如何通过精准提示词设计和多模型测试，让AI帮你跨越技术鸿沟，体验零代码开发的魔力。 自去年调研了几十款海内外的AI应用，并持续更新20篇文章后，我突然对AI兴味索然，唯有春节期间MiniMax股价冲击1000港币的消息，让内心掀起波澜。多数时间里，我对着草稿箱的内容，丧失了创作欲。说到底是掌控欲作祟，一旦窥探到别人做产品的…",
+      "key_points": [
+        "所以如果你也像我一样，没有编程基础，又超级想把灵感一瞬，落地成给生活添点色彩的趣味应用，这款美团公司出品的编程类AI Agent——NoCode，势必体验一下！…",
+        "挑选UI样式满意的版本，测试通过后，部署上线 恭喜你完成前2步，不像PDD的砍一刀，总是还差0.01%才能成功提现，此时的你，距离使用AI做出一款工具，真的仅剩…",
+        "每个人都享有低成本感受技术之美的权利，大厂们出品的编程类AI Agent，或许偏离了Vibe Coding的最初设定，不苛求使用者能否看得懂代码，强调“创意为王…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么十二生肖里没有猫？我们翻遍了考古遗址，终于给出了答案",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8D%81%E4%BA%8C%E7%94%9F%E8%82%96%E9%87%8C%E6%B2%A1%E6%9C%89%E7%8C%AB%EF%BC%9F%E6%88%91%E4%BB%AC%E7%BF%BB%E9%81%8D%E4%BA%86%E8%80%83%E5%8F%A4%E9%81%97%E5%9D%80%EF%BC%8C%E7%BB%88%E4%BA%8E%E7%BB%99%E5%87%BA%E4%BA%86%E7%AD%94%E6%A1%88",
+      "published": "Mon, 27 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "by",
+        "Cat",
+        "CFA",
+        "Club",
+        "Cole",
+        "Course"
+      ],
+      "summary": "人类的历史不光是由我们人本身决定的，也是由我们身边的这些动物，以及和它们之间的关系所决定的。 遇赫 · 北京大学生命科学学院、生态研究中心研究员 格致校园第60期 | 2025年12月18日 北京 大家下午好，我是来自北大生科院的研究员遇赫。 今天，我带来一个大家可能会觉得非常亲切的话题。很多人家里都有养猫，不知道大家有没有想过，自己家里的这些猫是从哪里来的呢？我们今天的报告主要就是围绕着这个问题展开的。 十二生肖里为什么没有猫 猫是我们最喜欢的宠物之一，但不知道大家有没有思考过， 为什么十二生肖里没有猫呢 ？其中…",
+      "key_points": [
+        "十二生肖里为什么没有猫 猫是我们最喜欢的宠物之一，但不知道大家有没有思考过， 为什么十二生肖里没有猫呢 ？其中有一种说法是：十二生肖形成的时候，猫或许还没有出现…",
+        "因为这本来就是我们自己想要做的事情，所以我们的合作就非常愉快地开始了。在后面的几年里，韩雨同学凭借着考古学背景，在全国各地有猫出土的考古遗址里面收集这些猫的骨骼…",
+        "考古就是上穷碧落下黄泉，动手动脚找东西 。而我们也确实是上穷碧落下黄泉，最终找遍了中国所有出土过猫的考古遗址"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "妈妈衣柜里的老面料，悄悄美成了今夏最夯的“中式高定”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A6%88%E5%A6%88%E8%A1%A3%E6%9F%9C%E9%87%8C%E7%9A%84%E8%80%81%E9%9D%A2%E6%96%99%EF%BC%8C%E6%82%84%E6%82%84%E7%BE%8E%E6%88%90%E4%BA%86%E4%BB%8A%E5%A4%8F%E6%9C%80%E5%A4%AF%E7%9A%84%E2%80%9C%E4%B8%AD%E5%BC%8F%E9%AB%98%E5%AE%9A%E2%80%9D",
+      "published": "Mon, 27 Apr 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AR",
+        "cm",
+        "GU",
+        "IED",
+        "logo",
+        "NI"
+      ],
+      "summary": "又到了一年中最难穿衣服的季节。出门五分钟，就要出一身汗。 然而有一种衣服，几百年前被中国人发明出来，穿上去的第一秒，你就会明白为什么说这种面料就是为夏天而生的。 这可不是靠想象，是真实的皮肤感受——质地如奶油般细腻，摸上去滑溜又软糯，上身之后像被一层轻盈的凉意包住，走到哪里都像带着穿堂风。 这就是 香云纱， 中国人穿了几百年的夏日面料 。 为什么这么凉？答案在它的制作方式里。 香云纱以真丝绡为底，经过薯莨汁反复浸染、天然河泥过泥的工序，表面形成了一层天然的硬挺涂层，让面料 自带支撑感，不贴身，始终与皮肤之间留着一层…",
+      "key_points": [
+        "经过薯莨汁反复浸染、天然河泥过泥的工序，表面形成了一层天然的硬挺涂层，让面料 自带支撑感，不贴身，始终与皮肤之间留着一层流动的空气",
+        "帮大家挑一些既有设计感又有性价比的好衣服。除了香云纱之外，我们还精选了亚麻、棉、羊毛等天然面料的设计师款，喜欢新中式的姐妹可以冲了",
+        "马上预约直播 百款新中式美衣让你挑花眼 香云纱、桑蚕丝、亚麻、绵羊毛…… 都是高货好面料"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "年轻人的“新型抠门”：通勤健身逛街旅行只穿一双鞋",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E2%80%9C%E6%96%B0%E5%9E%8B%E6%8A%A0%E9%97%A8%E2%80%9D%EF%BC%9A%E9%80%9A%E5%8B%A4%E5%81%A5%E8%BA%AB%E9%80%9B%E8%A1%97%E6%97%85%E8%A1%8C%E5%8F%AA%E7%A9%BF%E4%B8%80%E5%8F%8C%E9%9E%8B",
+      "published": "Mon, 27 Apr 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ONKE",
+        "TPU",
+        "EVA",
+        "BOM",
+        "cm",
+        "dc_ps"
+      ],
+      "summary": "听说最近年轻人之间流行一种 “新型抠门 ” ：不是买不起大牌鞋，是突然发现—— 有些百元运动鞋偷偷升级成了“六边形战士 ”！ 一边能陪你 爬山露营 拍短视频，另一边还能踩着它赶高铁 通勤 见客户，价格可能还抵不过很多明星同款的一个鞋带扣…… 这波操作，属实把 性价比 玩明白了！ 说到底，谁不想有一双“啥都能穿”的鞋呢？ 上班路上走不累、周末爬山能防滑、出门约会还好看。 然而，市面上常见的跑鞋： 1、要么缺乏技术含量，设计同质化严重。 2、要么价格昂贵，运动鞋 专业性 导致使用场景单一，日常适配度很低。 但生活中，我…",
+      "key_points": [
+        "听说最近年轻人之间流行一种 “新型抠门 ” ：不是买不起大牌鞋，是突然发现—— 有些百元运动鞋偷偷升级成了“六边形战士 ”",
+        "无论你穿牛仔裤、运动裤还是工装短裤 它都能轻松融入 出门不用多想，蹬上它就能走 逛街、露营、散步、通勤…… 各种场合都合适 让你看起来很有精神， 又不会太刻意…",
+        "整只鞋子从“缓冲”到 “ 接触地面 ” 的整个系统都针对复合场景做了专业设计，兼顾多种场景， 城市、户外、通勤一双全搞定"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "没人知道这种植物本体长什么样，它只是一味模仿身边的植物，连塑料都不放过",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B2%A1%E4%BA%BA%E7%9F%A5%E9%81%93%E8%BF%99%E7%A7%8D%E6%A4%8D%E7%89%A9%E6%9C%AC%E4%BD%93%E9%95%BF%E4%BB%80%E4%B9%88%E6%A0%B7%EF%BC%8C%E5%AE%83%E5%8F%AA%E6%98%AF%E4%B8%80%E5%91%B3%E6%A8%A1%E4%BB%BF%E8%BA%AB%E8%BE%B9%E7%9A%84%E6%A4%8D%E7%89%A9%EF%BC%8C%E8%BF%9E%E5%A1%91%E6%96%99%E9%83%BD%E4%B8%8D%E6%94%BE%E8%BF%87",
+      "published": "Mon, 27 Apr 2026 16:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Commons",
+        "Wikimedia",
+        "articles",
+        "Gottlieb",
+        "Haberlandt"
+      ],
+      "summary": "大约15年前，植物生态学家埃内斯托·贾诺利（Ernesto Gianoli）来到智利南部的一片温带雨林里做野外调查。 这片雨林终年潮湿，苔藓覆盖的树干上缠满了藤蔓，这是南半球保存最完好的温带雨林之一，走在其中就像在参观一座活着的物种博物馆。 智利雨林 | Bjørn Christian Tørrissen / Wikimedia Commons 贾诺利在一棵树前停下脚步，感觉这棵树长得有点别扭。 他用手拨开附在树干上的叶片，惊恐地发现那根所谓的树干其实是一根正在向上攀爬的藤，而藤上的叶子，长得和旁边那棵树的叶子一模…",
+      "key_points": [
+        "它待在宿主旁边，就能准确模仿出对方的样子——植物又没有眼睛，它们怎么能知道对方长什么样呢",
+        "它只是因为身边没有可模仿的对象，才搭出了一个临时的外壳",
+        "避役藤（V）和宿主植物的叶子（T）对比 | 参考资料[1] 到目前为止，科学家已经确认避役藤可以模仿至少十多种不同的植物，其中既有本地物种也有外来入侵物种，它几…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 121 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/121",
+      "published": "Tue, 28 Apr 2026 08:05:57 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "JavaScript",
+        "Kotlin",
+        "Python"
+      ],
+      "summary": "本期共有 40 个项目，包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (2)，Go 项目 (4)，JavaScript 项目 (4)，Kotlin 项目 (1)，Python 项目 (3)，Rust 项目 (4)，Skills (4)，Swift 项目 (3)，人工智能 (5)，其它 (5)，开源书籍 (2)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (2)，C++ 项目 (2)，Go 项目 (4)，JavaScript 项目 (4)，Kotlin 项目 (1)，Pytho…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "当年号称改变影史，真的改变了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BD%93%E5%B9%B4%E5%8F%B7%E7%A7%B0%E6%94%B9%E5%8F%98%E5%BD%B1%E5%8F%B2%EF%BC%8C%E7%9C%9F%E7%9A%84%E6%94%B9%E5%8F%98%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Mon, 27 Apr 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Eric",
+        "GQ",
+        "hongmomgs",
+        "Indie",
+        "irisfilm",
+        "Issac"
+      ],
+      "summary": "作者： Eric Kohn 译者： Issac 校对： 一二三 来源： 《 Indie Wire 》 《列夫·朗道： 娜塔莎》没有解释其存在背后的那个疯狂概念，但该片的内容就说明了一切。 《列夫·朗道： 娜塔莎》 这部由俄罗斯导演伊利亚·赫尔扎诺夫斯基执导的第二部长片，是继其2004年广受好评的处女作《四》之后的又一力作，然而不多见的是，人们完全理解他为什么消失了那么长时间才回归。 伊利亚·赫尔扎诺夫斯基 这部电影直言不讳地谈到了性，在最后一幕出现了令人咋舌的奥威尔式转折，并以可怕、痛苦的性侵结束全片，但这些戏剧背…",
+      "key_points": [
+        "《列夫·朗道： 娜塔莎》在道德上越线了吗"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这么多改编版本，有你满意的么？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E4%B9%88%E5%A4%9A%E6%94%B9%E7%BC%96%E7%89%88%E6%9C%AC%EF%BC%8C%E6%9C%89%E4%BD%A0%E6%BB%A1%E6%84%8F%E7%9A%84%E4%B9%88%EF%BC%9F",
+      "published": "Mon, 27 Apr 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Nose",
+        "qq.com"
+      ],
+      "summary": "文 Nose 今年芬内尔 +玛格特·罗比版本的《呼啸山庄》，争议巨大。 《呼啸山庄》（2026） 喜欢或者不喜欢这部影片，当然都是每个人观影之后的自然感受，旁人没什么好说的。我这里想讨论的是另一问题，也就是导演在 2026年的当下，推出这么一个所谓「违背原著精神」的版本，是否具备正当性？ 《呼啸山庄》 一般被视为一则 伟大 的 爱情故事， 这样理解当然是可以的，不过在我看来 勃朗特写的 更像是一个 形而上学寓言。凯瑟琳的著名宣言 「 他比我自己更是我自己 ， 不管我们的灵魂是什么做的，他的和我的是一样的 」就 是…",
+      "key_points": [
+        "《呼啸山庄》（2026） 喜欢或者不喜欢这部影片，当然都是每个人观影之后的自然感受，旁人没什么好说的。我这里想讨论的是另一问题，也就是导演在 2026年的当下，…",
+        "张爱玲的《魂归离恨天》 虽然 未拍成 ，或许它才是华语世界最重要的一个版本。我们可以凭想象去脑补，这个版本的 希斯克利夫 和 凯瑟琳 ，大概不会有那种「 灵魂同…",
+        "影片选择 仅改编原著前十六章，完全删除第二代故事， 并 将时代 背景 从摄政期挪至维多利亚中期。最具争议的改动是 片厂 强加的结尾 ， 惠勒本人 也 反对的 「…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "只要穿过这扇门，山就不远了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%8F%AA%E8%A6%81%E7%A9%BF%E8%BF%87%E8%BF%99%E6%89%87%E9%97%A8%EF%BC%8C%E5%B1%B1%E5%B0%B1%E4%B8%8D%E8%BF%9C%E4%BA%86%EF%BC%81",
+      "published": "Mon, 27 Apr 2026 18:35:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "城市是栖身的所在 山野是自由的空间 为了打破城市与山野间的界线 《中国国家地理》 联合 安踏 发起 “穿越城野之门，徒步最美山河” 活动 希望在城市和山野之间建立一扇奇幻门 让普通人可以 “城野两栖” ，自由转换 走进自然、舒展身心、获得自洽 01 穿越城野之门 徒步最美山河 在大众的刻板印象中，户外需要的是专业设备、是长途跋涉、是挑战极限，于是仅仅是“出发”，便消磨掉了许多人走向户外的勇气。 而 “城野两栖” ，是在户外徒步从小众运动走向大众的趋势下，一场对生活方式的全新探索。它所传达的理念是，面对一成不变的城市…",
+      "key_points": [
+        "八里沟水潭 八里沟景区距离新乡市50公里，距离辉县市25公里。它的美并非拒人千里，而是沿着相对平缓的步道徐徐展开， 如同大自然为城市预留的一扇城野之门 ，门后是…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "今天的云",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8A%E5%A4%A9%E7%9A%84%E4%BA%91",
+      "published": "Mon, 27 Apr 2026 17:49:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "有点像是在某时某地，肯定见过，但我又一点都想不起来。",
+      "key_points": [
+        "肯定见过，但我又一点都想不起来"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "中美重返月球背后：人类争的，可能从来不是月球",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E7%BE%8E%E9%87%8D%E8%BF%94%E6%9C%88%E7%90%83%E8%83%8C%E5%90%8E%EF%BC%9A%E4%BA%BA%E7%B1%BB%E4%BA%89%E7%9A%84%EF%BC%8C%E5%8F%AF%E8%83%BD%E4%BB%8E%E6%9D%A5%E4%B8%8D%E6%98%AF%E6%9C%88%E7%90%83",
+      "published": "Mon, 27 Apr 2026 08:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NASA",
+        "ESA",
+        "ILRS",
+        "JUICE",
+        "AI",
+        "ATG"
+      ],
+      "summary": "4.27 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / NASA 编者按： 4月24日是第11个中国航天日，我们决定借“星辰日历”为轴，串联起从斯普特尼克1号、“东方红一号”到阿尔忒弥斯2号的全球航天记忆，揭示一条隐秘的认知轨迹：由“地出”的浪漫觉醒，迈向“地落”的理性回归。 从古至今，月球都是人类望向深空的第一扇窗。这份跨越千年的探索，如今靠现代科技实现了。从20世纪50年代起，人类不仅发射卫星望向深空，还踏上月球，从另一角度来回望我们生活的这个地球。 登月，是人类认知的…",
+      "key_points": [
+        "而真正的成熟，不是急于离开，而是学会如何照顾它。探索的终极意义，从来不是寻找替代的避难所，而是带着更清醒的谦卑，守护这颗唯一的蓝色星球。从西方视角的惊鸿一瞥，到…",
+        "中国航天员预计数年后踏上月壤，美国亦筹谋重返月球，人类将迎来来自东西方的共同深空凝视。这不仅是技术的抵达，更是文明的回望——我们究竟是在寻求另一颗可以栖居的星球…",
+        "阿波罗8号在绕月轨道上由月球背面转入正面时，航天员惊喜拍下了“地出” （Earthrise） 。1970年4月24日，“东方红一号”在戈壁升空，成为这条轨迹中不…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "谁是真正 AI 原生的团队协作空间？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E8%B0%81%E6%98%AF%E7%9C%9F%E6%AD%A3+AI+%E5%8E%9F%E7%94%9F%E7%9A%84%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E7%A9%BA%E9%97%B4%EF%BC%9F",
+      "published": "Mon, 27 Apr 2026 10:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Moxt",
+        "CLI",
+        "Markdown",
+        "Skill"
+      ],
+      "summary": "文 丨 阑夕 过去一个月里，飞书开源了 lark-cli，11 个业务域、200 多条命令行指令，全部拆给 AI Agent调用。很快，钉钉跟进，发布了自己的 CLI 工具 dws。 两个中国最大的办公平台，在同一周做了同一件事：把自己的全部能力拆成命令行，交给Agent去操作。 这个动作的含义比它表面看起来要大。它意味着飞书和钉钉都承认了一个前提—— Agent 不应该通过人类的界面来工作，它需要自己的操作通道。 但开放接口只是第一步。真正的问题在更底下。 · · · AI 产品在过去三年经历了三次身份切换。 两…",
+      "key_points": [
+        "它需要自己的工作空间和协作方式。这是架构代际的切换",
+        "在一栋为人盖的楼里给 Agent 腾房间，能凑合住。现有软件的所有预设都建立在人类是操作者这个假设上。但Agent原生的软件假设Agent是操作者，人类是监督者",
+        "每一件都不复杂。但加在一起，你看到的是一个Agent团队在协作。信息在Agent之间自动流动，上下文在团队层面共享，没有人在中间当传话筒"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0427-0524）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880427-0524%EF%BC%89",
+      "published": "Sat, 25 Apr 2026 15:33:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家看清楚规则考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第266期 - 口罩雕塑",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/266/",
+      "published": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Kami",
+        "Coding",
+        "mo",
+        "Code",
+        "https"
+      ],
+      "summary": "封面图用于周末去拱墅这边办事看到的一个带着口罩的雕塑小孩，一转眼疫情居然过去了这么久了，但是又感觉弹指一挥间，还是需要记住那几年的。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 介绍一下 Tw93 开源小家庭 https://github.com/tw93 在写完 Kami 的时候，我突然想 Kaku、Waza、Kami 非常像一个小家庭，然后继续琢磨，其实 Pake、MiaoYan、Mole 也一直在这个家庭默默存在，甚至比其他成员在没有 AI 的时候就出来干活了，今天…",
+      "key_points": [
+        "封面图用于周末去拱墅这边办事看到的一个带着口罩的雕塑小孩，一转眼疫情居然过去了这么久了，但是又感觉弹指一挥间，还是需要记住那几年的"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "LARYBench 发布：定义具身动作表征 ImageNet，首次度量从人类视频学习的泛化表征",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/04/27/longcat-larybench.html",
+      "published": "Mon, 27 Apr 2026 00:00:00 +0000",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LARYBench",
+        "Action",
+        "Benchmark",
+        "ImageNet",
+        "Latent",
+        "Representation"
+      ],
+      "summary": "LARYBench （Latent Action Representation Yielding Benchmark），一个指引从大规模的视觉数据学习到通用的隐式动作表征的系统化评测基准。实验结果表明：在动作泛化和控制精度上，通用视觉模型的表现均显著优于专门为具身智能设计的动作专家模型，具身动作表征可以从大规模人类视频数据中涌现。",
+      "key_points": [
+        "LARYBench （Latent Action Representation Yielding Benchmark），一个指引从大规模的视觉数据学习到通用的隐…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-28",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "《知识分子》寻找执行主编",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E3%80%8A%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90%E3%80%8B%E5%AF%BB%E6%89%BE%E6%89%A7%E8%A1%8C%E4%B8%BB%E7%BC%96",
+      "published": "Fri, 24 Apr 2026 08:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "END",
+        "hujun.li",
+        "zhishifenzi.com"
+      ],
+      "summary": "招聘岗位 执行主编1名 工作职责： 带领《知识分子》编辑团队产出科技领域的图文内容，并与视频团队协作。 工作地点： 北京五道口 职位要求： 1. 8年以上科技报道（如健康医疗、AI、基础科学、气候能源、科技创业等）相关工作经验；2. 对科技界和学术界的生态比较了解； 3. 对科技内容有热情，学习能力强； 4. 有带领小型团队的经验； 5. 专业背景不限，英语流利优先。 投递方式： hujun.li@zhishifenzi.com 注意：您的简历寄出后，如果合适，我们将在一周之内联系您。如无回复，敬请谅解。 欢迎分享…",
+      "key_points": [
+        "招聘岗位 执行主编1名 工作职责： 带领《知识分子》编辑团队产出科技领域的图文内容，并与视频团队协作"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "draveness.me",
+      "source": "draveness.me",
+      "source_url": "https://draveness.me/feed.xml",
+      "title": "谈谈 Kubernetes 的问题和局限性",
+      "title_zh": null,
+      "url": "https://draven.co//kuberentes-limitations",
+      "published": "Fri, 16 Apr 2021 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [
+        "Kubernetes"
+      ],
+      "summary": "谈谈 Kubernetes 的问题和局限性",
+      "key_points": [
+        "谈谈 Kubernetes 的问题和局限性"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "网传男子在海拔4700米雪山发现「活蚊子」，它们可能是从哪来的？是怎么活下来的，未来会越来越多吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789173",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "bug",
+        "Chaoboridae",
+        "Culicidae",
+        "http",
+        "kootenay",
+        "lamontagne-et-al-1994.pdf"
+      ],
+      "summary": "斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 这玩意儿根本就不是蚊子！！！ 一早起来就看到这个，真是两眼一黑。开局一个视频，内容全靠编，媒体真是脸都不要了！！ 视频中出现的昆虫长这样： 该昆虫明显不具备刺吸式口器，后腿跗节相对较短、没有抬起，它不具备蚊科昆虫的特征。 视频并不清晰，从轮廓来看，它最可能是一只 幽蚊科 Chaoboridae 的雌成虫。 真正的蚊子长这样： 有明显的刺吸式口器，也就是那根针，无论雌雄都有；后腿总是很长，停歇时高高翘起。 视频中的昆虫不是蚊子，来自哪里，就并不那么值得一…",
+      "key_points": [
+        "幼虫是肉食性的，不仅不是孑孓，还能捕杀孑孓，把它错认成蚊子就很尴尬了…… 幽蚊、揺蚊、蕈蚊、大蚊这些昆虫，虽然名称带个蚊，但其实都不是一般语境下的蚊子，也不应该…",
+        "蠓，蚋和白蛉，它们其实也算是蚊子亲戚，但中文正式名并不带蚊，长得也不那么像蚊子，所以反而误会比较少） 建议各位在看到蚊子相关问题的时候，最好留个心眼，“类似蚊子…",
+        "从轮廓来看，它最可能是一只 幽蚊科 Chaoboridae 的雌成虫"
+      ]
+    }
+  ]
+}
