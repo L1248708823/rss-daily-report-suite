@@ -1,0 +1,739 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T01:00:10.283422+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 92,
+    "fresh_candidates": 58,
+    "backfill_candidates": 34,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-04-29",
+      "fetched_at": "2026-04-29T01:00:04.977769+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4078.64,
+          "change": -7.7,
+          "change_pct": -0.19,
+          "volume": 600507498.0,
+          "amount": 111395556.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4600.2,
+          "change": 3.1099999999996726,
+          "change_pct": 0.07,
+          "prev_close": 4597.09,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-04-29 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1011.1314585175301,
+          "change": 0.6835830694293463,
+          "change_pct": 0.06765149257463672,
+          "prev_close": 1010.4478754481007,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-04-29 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-04-29",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "光下没有新鲜事，别把投机当投资",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%85%89%E4%B8%8B%E6%B2%A1%E6%9C%89%E6%96%B0%E9%B2%9C%E4%BA%8B%EF%BC%8C%E5%88%AB%E6%8A%8A%E6%8A%95%E6%9C%BA%E5%BD%93%E6%8A%95%E8%B5%84",
+      "published": "Tue, 28 Apr 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CXO",
+        "V1"
+      ],
+      "summary": "最近，网红经济学家造的梗又出圈了 一、质疑光、认识光、相信光、成为光，最后全赔光？ 如果现在看光模块大涨，于是开始研究，找专家、大V分析解读，并决定买入，大概率不会获得好的收益。 因为这种行为的本质，是投机而非投资——你买入的初心，并非基于逻辑，而是对历史收益的贪婪，你找的所有支撑上涨的理由，不过是为自己的投机行为，寻找心理安慰。 大多数人做决策，都会被 行情牵着走： 熊市的时候，质疑光，涨起来后，相信光，创造涨幅神话后，决定成为光。 然而一旦把筹码押注在行情的狂热之上，那么任何一次正常的波动，都可能让你信仰崩塌，…",
+      "key_points": [
+        "是投机而非投资——你买入的初心，并非基于逻辑，而是对历史收益的贪婪，你找的所有支撑上涨的理由，不过是为自己的投机行为，寻找心理安慰",
+        "请投资人独立决策并承担风险。在做出投资决策前，请仔细阅读基金合同等相关法律文件，了解基金的风险收益特征，实际收益以产品投资运作结果为准。市场有风险，投资需谨慎",
+        "买入后，为您【免费】提供：再平衡、月报、资产诊断、小雪1V1投资陪伴等功能和服务"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "相比Waymo和特斯拉，曹操出行全要素闭环生态更接近Robotaxi终局",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4118099716/386161928",
+      "published": "Tue, 28 Apr 2026 09:25:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Robotaxi",
+        "Waymo",
+        "Cybercab",
+        "L4",
+        "TCO",
+        "Agent"
+      ],
+      "summary": "4月24日，北京车展上，中国首款原生开发Robotaxi——Eva Cab亮相了，曹操出行深度参与了该产品定义和研发，用CEO龚昕的话来说是“为运营而生”，2027年量产，2030年预计累计投放10万辆。 看了下这车的情况，每一个设计点都指向运营效率。 无方向盘、无副驾、支持自动换电和自动清洗，另外采用了高门大户式对开电滑门、对向式座舱，整车设计寿命达到普通乘用车的2到3倍。 要知道现在市面的Robotaxi通常是大众车辆的改装版，很大程度上就限制了内部优化和大规模成本控制。 就算与特斯拉Cybercab相比，曹操…",
+      "key_points": [
+        "曹操这套“运营驱动”，是一种更接近Robotaxi终局的系统能力。一端是原生定制车，把TCO和耐久性做到极致；一端是运营体系，把调度、补能、维保、资产周转全部打…",
+        "特斯拉 Cybercab仍保留了私家车的双座设计，车内也仅能容纳20寸小箱，空间局促，为了节省成本还上了塑料座椅，舒适度约等于无。而曹操出行的深度定制原生Rob…",
+        "曹操出行的中国模式 Waymo属于技术驱动的代表，特斯拉是端到端+整车驱动，把BOM压到极限。曹操出行的Robotaxi跟这两个都不一样，属于典型的运营驱动，从…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "未来三年赣锋锂业的矿端产能",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8732389555/386153312",
+      "published": "Tue, 28 Apr 2026 09:25:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LCE",
+        "lce",
+        "CO",
+        "Goulamina",
+        "http",
+        "Mariana"
+      ],
+      "summary": "最近市场一直在争论一个问题：为什么2026年Q1赣锋锂业净利润（约12.5-17.5亿）不如天齐锂业（约18-20亿），但市值却高出近50%（赣锋约1800亿 vs 天齐约1200亿）？ 很多人只看到了短期业绩的差距，却忽略了估值本质是对未来现金流的折现。今天我们就抛开情绪，用最硬核的产能数据，算一算赣锋锂业现在到底贵不贵，以及市场给它更高估值的真正原因。 一、已投产但未满产项目 二、建设中的项目 三、未来产能测算 2026年: 已建成项目达产 三个项目2026年满产，大概贡献2.1万吨权益lce。 2027年:…",
+      "key_points": [
+        "2027年: - 主要增量：塞拉利昂邦巴利锂矿投产，新增权益产能约3.29万吨LCE/年 - 全年合计新增权益产能：约3.29万吨LCE/年 2028年: 这是…",
+        "却忽略了估值本质是对未来现金流的折现。今天我们就抛开情绪，用最硬核的产能数据，算一算赣锋锂业现在到底贵不贵，以及市场给它更高估值的真正原因",
+        "最近市场一直在争论一个问题：为什么2026年Q1赣锋锂业净利润（约12.5-17.5亿）不如天齐锂业（约18-20亿），但市值却高出近50%（赣锋约1800亿…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "一季报冲击面临尾声",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2426670165/386254181",
+      "published": "Tue, 28 Apr 2026 09:25:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Manus",
+        "http",
+        "Meta",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "一季报冲击面临尾声。这几天A股跌停潮涌现，这是A股常态，主要是近几年实体经济不振，上市公司之中，大量公司滥竽充数，大多会在业绩披露期间形成冲击。由于是非市场化的市场，这类情绪容易来的很快。同样，情绪去得也快。资本市场是长跑，短期的情绪波动几乎对于长期无效。长期资本市场还是优胜劣汰为准则，优秀潜力公司，最终会跑赢市场。 禁止Meta收购Manus，是个标志性事件。说明中美在AI应用上的正面竞争，呈现白热化态势；对于潜在的AI应用战略资产，都不会轻易放手。Manus在国内连二流都称不上，国内依旧紧抓不放，已经到了寸土必…",
+      "key_points": [
+        "一季报冲击面临尾声。这几天A股跌停潮涌现，这是A股常态，主要是近几年实体经济不振，上市公司之中，大量公司滥竽充数，大多会在业绩披露期间形成冲击。由于是非市场化的…",
+        "也要面对骨感的现实。一季报冲击濒临尾声，情绪的宣泄也会逐步停歇。在股价震荡的时候，体感肯定没有上涨这么舒服，但投资者如果想长期获得超额收益，这样的寂寞就必须忍受"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "五粮液跌破百元有感",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1327911751/386207222",
+      "published": "Tue, 28 Apr 2026 09:25:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ000858",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "刚听朋友说五粮液跌破100元，随手打开账户一看，确实到了。但我心里一点波澜都没有，更不焦虑恐慌，一切都在我的预判和加仓预案里。 我做投资从来不靠感觉跟风，只守自己的铁律：看长坡赛道、看真实现金流、看稳定高分红、看永续底层生意，不被短期盘面情绪牵着走。现在市场集体悲观，人人都在担忧行情，反而越是这种时候，优质核心资产越容易给出实打实的低价机会。 我始终笃定自己对五粮液的底层理解，从来不会因为短期股价下跌就动摇。白酒不只是一款普通饮品，更是刻在骨子里的中华文化符号，代代传承、根深蒂固。同时自带温和社交属性、情绪愉悦属性…",
+      "key_points": [
+        "五粮液账上现金充沛，几乎没有有息负债，经营现金流常年稳稳当当，几十年深耕主业不瞎跨界、不盲目扩张。分红大方稳定，常年高比例分红，现在股息率已经远超我的3%建仓红…",
+        "不临时改策略、不临时慌手脚。跌到80元，我就把五粮液仓位正式打满；就算极端情况跌到70元，我也丝毫不害怕。下跌不是风险，反而能低成本多拿筹码、多囤分红份额，真正…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "捕蝇草怎么知道碰它的不是雨滴？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789294",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "JA-Ile",
+        "acid",
+        "ERROR",
+        "JA",
+        "jasmonic",
+        "Animalonearth"
+      ],
+      "summary": "苏澄宇， 自然科学/分享动物们的小秘密/Animalonearth 查看知乎原文 这个画面，就算没亲手做过，估计也看到很多捕蝇草的视频： 有人拿镊子夹一只蟋蟀放进去，叶片“啪”地合上；有人把手指轻轻搁在夹子里，也合上了；还有人往里塞蛞蝓、塞糖果、塞火腿肠，都能合。 看多了会觉得这东西挺蠢的，碰一下就关门，什么都往嘴里塞。 但捕蝇草在野外淋着雨的时候，不合。 1875 年，达尔文在《食虫植物》里就记过这个观察 [1] ： 后来有人在实验室里拿水滴和气流反复对着触发毛吹打（后面会说到），结论一样：正常的雨水和阵风不会触…",
+      "key_points": [
+        "研究者给它重新取了一个名字： DYSCALCULIA ，来自医学术语“计算障碍症”，是一种数学方面的特定学习障碍，和阅读障碍（dyslexia）同一个谱系。正常…",
+        "自然科学/分享动物们的小秘密/Animalonearth 这个画面，就算没亲手做过，估计也看到很多捕蝇草的视频： 有人拿镊子夹一只蟋蟀放进去，叶片“啪”地合上；…",
+        "干燥天气下，捕蝇草一半以上的闭合事件里面什么都没有，白浪费力气。下图中，一只大蜗牛把头探进夹子触发闭合，把头缩回后溜走；夹子在 15 小时内重开，30 小时完全…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "全球最大冰山 A23a 完成最后一次崩解「消失」，将带来哪些影响？其附近海面曾「变绿」这意味着什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789307",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A23a",
+        "AMOC"
+      ],
+      "summary": "气象喵探员， 点开我的主页你会发现——这个喵纯纯气象迷，除了气象啥也不会~ 查看知乎原文 没人能想到，南极巨型冰山之王 A23a，在历史罕见的暖春里彻底消失。 去年我写过一篇回答，指出这座冰山的寿命所剩无几，但真到了这一天，还是有些难以相信，曾经的地球冰山之王就这么走了。 但这早已是定局，随着全球变暖的进一步加剧，现在是一座 A23a 倒下，未来很可能就会有十座、百座乃至更多的类似于 A23a 的巨型冰山倒下，崩解过程只会更惨烈。 A23a 崩解消失前的遗像 四十年的海上冰山之王！初生时就注定是地球上最大的冰山 昨…",
+      "key_points": [
+        "A23a 崩解消失前的遗像 四十年的海上冰山之王！初生时就注定是地球上最大的冰山 昨日中国气象局发布了相关报告，指出代号为『A23a』的巨型冰山，已完成其生命史…",
+        "同时间段的卫星图像 （三）最后一次崩塌与正式销号 在经历两次重创之后，A23a 转向东方向移动，最终漂移到南纬 48.5 度、西经 30.5 度附近的海域，这里…",
+        "全球冰川融化情况 A23a 的最后一次崩解并走向灭亡虽然已经是注定的，但今天写这篇回答的时候仍感到很惋惜，压垮它的最后一根稻草正是今年史无前例的暖春"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代的产品经理应该是怎样的？聊聊我的新看法",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pmd/6385922.html",
+      "published": "Tue, 28 Apr 2026 12:12:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "A1",
+        "Agent",
+        "B1",
+        "degradation",
+        "graceful"
+      ],
+      "summary": "导读：AI时代的产品经理不是互联网产品经理的「AI升级版」，而是面对不确定性系统的全新物种。本文从意图模糊性处理、失败体验设计、预期管理三个维度，重新定义AI产品经理的核心能力，帮你理解从「流程设计师」到「边界管理者」的范式转变。 上周跟一个做SaaS的老哥聊天，他干了七年产品，从C端做到B端，履历挺漂亮。 聊到一半，他突然问我，你说我现在去面AI产品经理的岗位，胜算有多大？ 我反问了他一句，你觉得AI产品经理，跟你现在干的事，有什么区别？ 他想了想说，可能就是多懂点AI技术？知道大模型怎么用？ 我听完没说话，给他…",
+      "key_points": [
+        "导读：AI时代的产品经理不是互联网产品经理的「AI升级版」，而是面对不确定性系统的全新物种。本文从意图模糊性处理、失败体验设计、预期管理三个维度，重新定义AI产…",
+        "AI时代的产品经理，根本不是一个「多懂点技术」的升级版。这是两个完全不同的物种",
+        "传统优秀产品经理的标准是什么？逻辑清晰、表达能力强、对数据敏感、推动能力强。这些在AI时代依然重要，但有一种传统上不太被强调的特质，变得越来越关键"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 抢饭碗时代：像运营产品一样运营自己，从大学就赢在起点",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385746.html",
+      "published": "Tue, 28 Apr 2026 08:23:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "HR",
+        "CC0",
+        "MBTI",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "在AI与技术迭代加速的今天，运营岗位正面临前所未有的替代危机。本文从人力资源专家的视角出发，揭示职场人最核心的能力不是运营产品，而是运营自己的职业生涯。通过拆解大学阶段的三大关键时期——准备期、实践期与确定期，提供打破思维误区、实现职业跃迁的实战方法论，帮助每一位职场人在变革浪潮中找准自己的成长路径。 在互联网时代，“运营”早已不是陌生词。电商运营、数据运营、策略运营、社群运营…… 各类岗位层出不穷，本质都是围绕实体或虚拟产品，做增长、提留存。但技术浪潮汹涌，很多优秀运营人正面临被 AI 替代、被裁员的危机。 作为…",
+      "key_points": [
+        "还拿了不错的分数。可工作十余年后才幡然醒悟：当年对职业规划的认知，不足 1%！课本理论脱离现实，根本撑不起真实职场。从工作 3 年的 HR，到转型成为招聘平台人…",
+        "运营岗位正面临前所未有的替代危机。本文从人力资源专家的视角出发，揭示职场人最核心的能力不是运营产品，而是运营自己的职业生涯。通过拆解大学阶段的三大关键时期——准…",
+        "而是职业规划的起点。入职 1-3 年、3-5 年、10 年后，你还会面临无数次转型与跃升。AI 时代，岗位会变、行业会变、技术会变，但会规划自己、能迭代自己的人…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI创业时代，一人公司的七种打开方式",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385618.html",
+      "published": "Tue, 28 Apr 2026 08:23:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AIGC",
+        "Kingfisher",
+        "Yuri",
+        "Agent",
+        "App"
+      ],
+      "summary": "AI技术正以惊人的速度重塑创业形态，2026年兴起的『一人公司』模式彻底颠覆传统创业逻辑。从AI短剧工厂到虚拟偶像经纪，从音频定制到轻应用开发，创业者仅凭创意与AI工具即可实现『单人成军』。本文将深度解析7大AI赋能的一人公司案例，揭秘低成本、高效率的轻资产创业新范式如何改变行业格局。 2026年开年，“一人公司”（One Person Company，简称OPC）悄然兴起。只要一个创意、一项技术，再借力AI智能体，创业者便可独自运营一家公司，成为名副其实的“超级个体”。 这一全新创业形态的火速走红，彻底打破了大众…",
+      "key_points": [
+        "四、轻应用开发：想法＋AI=下一个爆款 回想上一次全民创业时代，应用开发是不少创业公司们的起点。而在一人公司的时代，应用开发的壁垒也早已被打破。如今，AI可直接…",
+        "AI技术的全面落地与各类智能工具的持续迭代，让轻资产、重创意的超级个体时代真正到来。一人公司的想象空间也仍在不断拓宽",
+        "2026年兴起的『一人公司』模式彻底颠覆传统创业逻辑。从AI短剧工厂到虚拟偶像经纪，从音频定制到轻应用开发，创业者仅凭创意与AI工具即可实现『单人成军』。本文将…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "人人都能用AI做设计，但做不出好看的东西，这才是设计师的机会",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385725.html",
+      "published": "Tue, 28 Apr 2026 08:18:27 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "px",
+        "vibecoding",
+        "image",
+        "Bolt",
+        "Cursor"
+      ],
+      "summary": "AI 能生图、出代码，但有一件事它做不了：判断哪个版本是好的。这恰恰是设计师每天在做的事。会用 AI 工具、有审美判断力、还能 vibecoding 的设计师，正在成为市场上最难被替代的人。设计师的时代，不是结束了，是真正开始了。 image 2.0 发布那天，我看到设计师群里的消息没断过。 有人发截图，说这下完了，AI 连产品海报都能生成了；有人发链接，某个博主的视频标题写着”2026，设计师失业潮来了”；还有人发了几张对比图，一张是 AI 秒出的落地页，一张是某设计师团队花了两周做的东西——乍一看还真差不多。…",
+      "key_points": [
+        "后来是 Photoshop，再后来是 Sketch，再后来是 Figma，还没停，Framer、Webflow 又来了。每隔几年，就有人说”这次设计师真的要完了…",
+        "说这下完了，AI 连产品海报都能生成了；有人发链接，某个博主的视频标题写着”2026，设计师失业潮来了”；还有人发了几张对比图，一张是 AI 秒出的落地页，一张…",
+        "但有一件事它做不了：判断哪个版本是好的。这恰恰是设计师每天在做的事。会用 AI 工具、有审美判断力、还能 vibecoding 的设计师，正在成为市场上最难被替…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "小红书AI治理的本质：不是“禁用”，而是“重划赛道”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6385726.html",
+      "published": "Tue, 28 Apr 2026 08:17:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AI+",
+        "CC0",
+        "Pexels",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "小红书的《AI治理主张》发布后，AI创作领域迎来重大转折。平台并非禁止AI，而是为AI使用划定清晰边界：鼓励透明标注的提效型应用，严打无人化运营和虚假内容。本文深度解析政策背后的四大利益方博弈逻辑，并提供6个合规提效的实操机会与4个必须避开的红线禁区，帮助品牌在AI浪潮中找准生存法则。 01 一个正在蔓延的焦虑 最近这段时间，我朋友圈里有一类内容明显变多了： “小红书开始封杀AI了？” “AI做号还有没有出路？” “刚用AI跑通的内容模型，现在要废了吗？” 这类焦虑，乍一看很有道理。毕竟官方昨天发了一个叫《AI治理…",
+      "key_points": [
+        "这并不意味着小红书不用AI工具。事实上，数据分析、选题挖掘、评论整理这些幕后环节，AI在小红书上同样有用武之地。但关键在于：在小红书上，AI应该待在幕后，而不是…",
+        "平台要的是生态的健康。什么叫健康的生态？就是用户愿意留下来刷内容、愿意相信内容、愿意因为内容而消费。如果AI生成的低质内容泛滥，用户刷着刷着发现全是模板、全是虚…",
+        "是“信任”。用户来小红书，不是来刷无脑短视频的，是来看“真实测评”、“真实分享”、“真实体验”的。这个价值的根基，就是“人味”。如果AI内容泛滥，用户觉得“这些…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "关于阴蒂，课本没告诉你的那些事：科学家首次绘制阴蒂完整神经网络",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%B3%E4%BA%8E%E9%98%B4%E8%92%82%EF%BC%8C%E8%AF%BE%E6%9C%AC%E6%B2%A1%E5%91%8A%E8%AF%89%E4%BD%A0%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%EF%BC%9A%E7%A7%91%E5%AD%A6%E5%AE%B6%E9%A6%96%E6%AC%A1%E7%BB%98%E5%88%B6%E9%98%B4%E8%92%82%E5%AE%8C%E6%95%B4%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C",
+      "published": "Tue, 28 Apr 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "of",
+        "Anatomy",
+        "Clitoris",
+        "clitoris",
+        "E."
+      ],
+      "summary": "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：原论文 撰文：w 审校：clefable 生物课或性教育课上的女性生殖器官图解通常有两个版本。第一种是所谓的“公羊头图”，即一个垂直剖面图，清晰地展示了阴道，常被用来讲解生育、月经以及性别相关知识，还有助于理解纳入阴茎的方式。但在这张强调“功能性”的图中，阴蒂完全消失了。 第二种则是“双腿分开的示意图”，常出现在分娩说明中。即便你足够幸运能在那堆表示阴阜（阴毛覆盖的脂肪区域）的隆起和阴唇的褶皱里找到阴蒂，它通常也只是尿道上方一个不起眼的小点…",
+      "key_points": [
+        "直到19世纪40年代，另一位科学家乔治·路德维希·科贝尔特（Georg Ludwig Kobelt）才终于把阴蒂标注在解剖学图谱上 。科贝尔特详细标出了阴蒂的构…",
+        "不仅从科学上终结了弗洛伊德时代关于“阴道 vs 阴蒂”性高潮优劣的陈旧争论，更是一场认知的解放。它告诉我们，性体验没有“标准模板”，女性不必再为追求所谓的“阴道…",
+        "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：原论文 撰文：w 审校：clefable 生物课或性教育课上的女性生殖器官图解通常有…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "她曾被嘲“低俗”，如今63岁仍强得可怕！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A5%B9%E6%9B%BE%E8%A2%AB%E5%98%B2%E2%80%9C%E4%BD%8E%E4%BF%97%E2%80%9D%EF%BC%8C%E5%A6%82%E4%BB%8A63%E5%B2%81%E4%BB%8D%E5%BC%BA%E5%BE%97%E5%8F%AF%E6%80%95%EF%BC%81",
+      "published": "Tue, 28 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "frkjr7e0wdpw6f",
+        "IP",
+        "wscgoods"
+      ],
+      "summary": "什么？《故事会》还活着？ 2026年春天，《故事会》团队悄悄发了一张战报， 瞬间点燃三代人的回忆！ 👆数据来源：品牌方后台数据 不到3小时， 就狂卖9000册 ！ 出版社连夜加印， 我们给大家锁住300套， 还是原来的 福利价，懂得赶紧入！ 👇 ▲开箱实拍动图，真的太惊艳！ 还记得吗？那个没有智能手机、没有短视频的年代。 夏天傍晚，大院楼下，一把蒲扇，一张躺椅，一本32开的小册子，就能打发一整天的暑气。 厕所的窗台上、父亲的枕头边、母亲的皮包里、班级的图书角，总有一本卷了角的《故事会》。 ▲ 1981年的《故事会》…",
+      "key_points": [
+        "而那些封底印着夸张广告、内容粗制滥造的，其实是 盗版 。《故事会》编辑部曾多次公开澄清：正版《故事会》从不刊登那些低俗广告，它是通俗，但不媚俗"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "时薪15美元的新工作：印度工人把相机绑在头上，替 AI 蒸馏自己",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%97%B6%E8%96%AA15%E7%BE%8E%E5%85%83%E7%9A%84%E6%96%B0%E5%B7%A5%E4%BD%9C%EF%BC%9A%E5%8D%B0%E5%BA%A6%E5%B7%A5%E4%BA%BA%E6%8A%8A%E7%9B%B8%E6%9C%BA%E7%BB%91%E5%9C%A8%E5%A4%B4%E4%B8%8A%EF%BC%8C%E6%9B%BF+AI+%E8%92%B8%E9%A6%8F%E8%87%AA%E5%B7%B1",
+      "published": "Tue, 28 Apr 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Micro1",
+        "https",
+        "Gray",
+        "APPSO",
+        "appsolution"
+      ],
+      "summary": "作者 | 明日产品的 来源 | APPSO（ID：appsolution） 你或许刷到了一段来自印度南部服装厂的视频。 工厂工人佩戴头戴摄像头，记录手部动作以训练人工智能系统。 这是因为随着特斯拉、Figure AI 等公司竞相开发人形机器人，训练它们所需的真实世界动作数据变得极为紧缺。 帕洛阿尔托的 Micro1 因此在全球 71 个国家招募了约 4000 名工人，每月收到超过 16 万小时的视频素材。每人每周至少提交 10 小时录像，交替完成不同类型的任务。 Scale AI 和 Encord 也在招募各自的数…",
+      "key_points": [
+        "美国家庭的视频比其他地区卖得更贵。数据标注公司 Objectways 的创始人 Ravi Rajalingam 解释说， 因为机器人公司预设了美国消费者会最先购…",
+        "这个问题现在还没有答案。但它已经在尼日利亚的公寓里、印度的厨房里、菲律宾的院子里，以每小时 15 美元的价格，被悄悄地问着",
+        "更值得注意的是信息上的不对等。Micro1 以保密为由，不向工人透露客户名单，工人们也不清楚自己的数据将如何被存储，会不会被转售给其他第三方。工人签了协议，收了…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《罗马》应该拿最佳影片",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E7%BD%97%E9%A9%AC%E3%80%8B%E5%BA%94%E8%AF%A5%E6%8B%BF%E6%9C%80%E4%BD%B3%E5%BD%B1%E7%89%87",
+      "published": "Tue, 28 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Netflix",
+        "Brent",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Lang"
+      ],
+      "summary": "作者： Brent Lang 译者： Issac 校对： 易 二三 来源： 《综艺》 卡隆对于奥斯卡小金人并不陌生，凭借2013年的太空史诗《地心引力》，他已经获得了最佳导演和最佳剪辑。 但这一次的胜利要更为私人化。《罗马》基于他在墨西哥的成长经历。这部黑白电影帮助他理解了自己父母的离异，也致敬了帮助缝合维系其家庭生活的保姆。 《罗马》 「我想要探索一些家庭创伤，」卡隆边说着，边往酒里切了一片鳄梨。 在处理自己童年创伤的时候，这位导演也创造了历史。他成为第一位获得奥斯卡最佳摄影的导演，也给墨西哥带来了第一座奥斯卡最…",
+      "key_points": [
+        "《罗马》输给《绿皮书》，没拿到最佳影片，是因为人们害怕Netflix会扰乱电影产业。你觉得有反对的声音吗",
+        "」迭戈·卢纳说道，他曾出演卡隆2001年的电影《你妈妈也一样》。「你可以讲述一则对你来说很重要的故事，一则私人化的故事，然后总会找到你的观众的。」 《罗马》背景…",
+        "这位导演也创造了历史。他成为第一位获得奥斯卡最佳摄影的导演，也给墨西哥带来了第一座奥斯卡最佳外语片奖杯。同时，在竞争激烈的颁奖季中，他也宣传了负责发行《罗马》的…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "粉饰太平的音乐传记片，你们还没看腻么？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%B2%89%E9%A5%B0%E5%A4%AA%E5%B9%B3%E7%9A%84%E9%9F%B3%E4%B9%90%E4%BC%A0%E8%AE%B0%E7%89%87%EF%BC%8C%E4%BD%A0%E4%BB%AC%E8%BF%98%E6%B2%A1%E7%9C%8B%E8%85%BB%E4%B9%88%EF%BC%9F",
+      "published": "Tue, 28 Apr 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Aid",
+        "Live",
+        "Bad",
+        "Bowie",
+        "CGI",
+        "Cr"
+      ],
+      "summary": "文 树宝 《迈克尔 · 杰克逊：巨星之路》最近上了，打破音乐传记片的各种纪录，在意料之中。因为这种纪录主要靠传主的名气和影响力，跟电影拍得有多好，关系不太大。 《迈克尔 · 杰克逊：巨星之路》 票房大热的同时，媒体评论对这部影片的反应是冷淡至极。这种分裂并非《迈克尔》独创，它从 1947 年的《一代歌王》一路延续至今。 《一代歌王》 理解其中的逻辑，也就理解了《迈克尔 · 杰克逊：巨星之路》为什么把围绕杰克逊最沉重的争议彻底从剧本中移除。 《迈克尔 · 杰克逊：巨星之路》这个项目从最开始启动，大家最关心的就不是它会…",
+      "key_points": [
+        "《与歌同行》 但这两部电影也催生了类型片史上最锋利的一次自我解剖。《与歌同行》上映两年后，约翰 ·C· 赖利主演的《永不止步》逐项嘲讽了所有套路：童年因意外伤害…",
+        "《波西米亚狂想曲》全球九亿美元、《火箭人》近两亿、《猫王》接近三亿、《冲出康普顿》两亿。数据分析显示，音乐传记片的投资回报率和恐怖片相当，这就解释了为什么成本两…",
+        "比例越来越重了。过去二十年间，颁奖季对音乐传记片表演的偏爱，形成了一个明显的模式：增重、减重、口音、假体、学习乐器、模仿原唱。表演在这个类型中逐渐成为一种体育项…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "夏天，去江西！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%A4%8F%E5%A4%A9%EF%BC%8C%E5%8E%BB%E6%B1%9F%E8%A5%BF%EF%BC%81",
+      "published": "Tue, 28 Apr 2026 17:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Carol",
+        "cooling",
+        "ETD"
+      ],
+      "summary": "从五月开始，夏天就正式到来了。 而 夏天的 江西，非去不可 。 因为这里的山水格局与人文积淀， 在夏季达成了一种近乎完美的同频—— “山、水、城、村、味” 的五维图景， 构成了江西夏季不可复制的 峰值体验 。 从千年名楼到云中草甸， 从瓷都窑火到云海日晕， 赣鄱之夏不是需要逃离的酷暑， 而是一场值得奔赴的邀约。 山 造化神秀，赣鄱风骨 夏天为什么要去江西？首先是因为天然的 避暑 优势。 江西 三面环山 ——东面的武夷山脉、西面的罗霄山脉、南面的南岭大庾岭与九连山， 唯独北面对着 鄱阳湖敞开。这样既挡住了热浪的正面冲…",
+      "key_points": [
+        "赣鄱风骨 夏天为什么要去江西？首先是因为天然的 避暑 优势",
+        "山河锦绣 更多精彩视频在这里 本文创作团队 编辑：Carol 设计：巍巍 图片：视觉中国、图虫 话题 你最想去江西哪里玩呢",
+        "远不止这三张面孔—— 九江 集“山江湖城”于一身，是江西通江达海的门户； 上饶 的世界遗产和世界地质公园密度在全国位居前列； 吉安 素有“文章节义之邦”的美誉；…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "今天的云也很漂亮",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8A%E5%A4%A9%E7%9A%84%E4%BA%91%E4%B9%9F%E5%BE%88%E6%BC%82%E4%BA%AE",
+      "published": "Tue, 28 Apr 2026 11:46:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "虽然昨天也发过云，但是今天的白云似乎又美过昨天。感觉不发一下真的不行。 文章原文",
+      "key_points": [
+        "但是今天的白云似乎又美过昨天。感觉不发一下真的不行"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "一个物理学家眼中的 AI for Science",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%80%E4%B8%AA%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%B6%E7%9C%BC%E4%B8%AD%E7%9A%84+AI+for+Science",
+      "published": "Tue, 28 Apr 2026 09:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "URL",
+        "al.",
+        "et",
+        "abs"
+      ],
+      "summary": "4.28 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Andres Siimon 摘要： 本文认为，人工智能革命，尤其是大语言模型的兴起，其最重要的意义并不只是自动化，而在于复杂信息以及人类 know-how 的承载、复制与共享方式发生了根本变化。从这个角度看，AI for Science 之所以尤其重要，是因为它改变的不仅可能是科研效率，还可能是科学协作、科学发现、科研出版与科研评价的整体结构。本文勾勒了 AI 从科研工具逐步走向科研合作者的路径，并讨论 AI 可能如何…",
+      "key_points": [
+        "是因为跨学科工作往往最容易带来重大突破，但同时也是人类协调最困难的地方。一个生物学家、一个物理学家和一个机器学习研究者，也许各自掌握着某项新发现所需知识的一部分…",
+        "需要新的评估框架： 当前的评估方法仍然大体建立在基准测试 （benchmark） 之上，而这种方式有两个重要局限。第一，现有基准测试往往侧重较广泛且相对主流的领…",
+        "大语言模型在科学研究中的应用已经开始展开，AI 智能体正在生物、数学、化学、理论物理和机器学习等领域辅助科研。虽然当前应用仍然处在探索阶段，但许多领域的研究者已…"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "和美国AI「御三家」聊DeepSeekV4和美团LongCat，有意外收获",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%92%8C%E7%BE%8E%E5%9B%BDAI%E3%80%8C%E5%BE%A1%E4%B8%89%E5%AE%B6%E3%80%8D%E8%81%8ADeepSeekV4%E5%92%8C%E7%BE%8E%E5%9B%A2LongCat%EF%BC%8C%E6%9C%89%E6%84%8F%E5%A4%96%E6%94%B6%E8%8E%B7",
+      "published": "Tue, 28 Apr 2026 17:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DeepSeek-V4",
+        "LongCat-2.0-Preview",
+        "AI",
+        "Anthropic",
+        "Claude",
+        "DeepSeek"
+      ],
+      "summary": "文 ｜ 阑夕 随着DeepSeek-V4的发布，我问了一下闭源大模型的「御三家」如何看待这个竞争对手，它们各自的表态很有意思： GPT-5.5比较「傲娇」，强调不是一次「终结比赛」的事件，但要「盯紧」这个对手，承认便宜的百万级上下文，会对整个行业都造成压力。 Gemini 3.1则是个「实诚人」，定性DeepSeek-V4属于「掀桌子」级别的危险竞品，当开源模型在自己的舒适区展现出巨大统治力时，「压迫感是极其真实的」。 Claude Opus 4.7显得最「从容」，表态「高兴对于不安」，甚至直言如果DeepSeek…",
+      "key_points": [
+        "文 ｜ 阑夕 随着DeepSeek-V4的发布，我问了一下闭源大模型的「御三家」如何看待这个竞争对手，它们各自的表态很有意思： GPT-5.5比较「傲娇」，强调…",
+        "· · · 算上DeepSeek-V4和美团LongCat-2.0-Preview，在全球范围内的万亿级参数模型数量上，中国也是第一次超过了美国，站在了「多数派…",
+        "同一天，美团也开放测试了新的万亿级参数大模型LongCat-2.0-Preview，在继续向「御三家」追问时，话题开始拐向对于国产算力集群的惊讶，这就更有看点了"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "我对《缺氧》的游戏理解",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/04/oxygen_not_included.html",
+      "published": "2026-04-28T14:28:27Z",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Factorio",
+        "ONI",
+        "Rimworld",
+        "btw",
+        "Included",
+        "Not"
+      ],
+      "summary": "最近一个月，我一直在玩《缺氧》(Oxygen Not Included) 。前几年玩过 100 多小时，算是比较熟悉了。但这个月又高强度的玩了 300 多小时，目前总游戏时长为 485 小时，感觉对这款游戏有了一些新的理解。 最初喜欢上这个游戏，是想找一个类似《异星工厂》的以自动化为核心玩法的基地建设类游戏。Factorio 是我最喜欢的游戏之一，游戏总时长达 2905 小时，是放置类游戏之外我花的时间最多的游戏。我很想看看类似游戏还能向什么不同方向发展。这两个游戏的目标都非常类似：在无人星球上殖民，建设一个基地发…",
+      "key_points": [
+        "是想找一个类似《异星工厂》的以自动化为核心玩法的基地建设类游戏。Factorio 是我最喜欢的游戏之一，游戏总时长达 2905 小时，是放置类游戏之外我花的时间…",
+        "我一直在玩《缺氧》(Oxygen Not Included) 。前几年玩过 100 多小时，算是比较熟悉了。但这个月又高强度的玩了 300 多小时，目前总游戏时…",
+        "ONI 初看的确像是 Factorio 和 Rimworld 的结合体（btw, Rimworld 我也有 123 小时的游戏时长，对它也有初步了解）。和 Fa…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-04-29",
+      "platform": "draveness.me",
+      "source": "draveness.me",
+      "source_url": "https://draveness.me/feed.xml",
+      "title": "为什么 Linux 和 macOS 不需要碎片整理",
+      "title_zh": null,
+      "url": "https://draven.co//whys-the-design-linux-macos-fragmentation",
+      "published": "Sat, 10 Apr 2021 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [
+        "Linux",
+        "macOS"
+      ],
+      "summary": "为什么 Linux 和 macOS 不需要碎片整理",
+      "key_points": [
+        "为什么 Linux 和 macOS 不需要碎片整理"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789309",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "瞎扯 · 反直觉的地理知识有哪些？ 知乎日报 查看知乎原文 Q： 反直觉的地理知识有哪些？ @赋之云尔 ：看北宋历史的时候总觉得宋太宗赵匡义北上攻辽大败，被迫驴车漂移应该是在长城之外的游牧大草原上。 某天路过三环突然意识到高粱河之战的主战场实际上是北京西直门外高梁桥至 紫竹院公园 一带。更确切地说是北京动物园北门至国家图书馆南侧的长河沿岸。 Q： 有没有什么好笑的地狱笑话？ @过敏者 ：张作霖坐火车被炸死后阴魂不散，经常伤害火车上的乘客。 因此车站广播才会反复强调：请注意站台间的 奉系 。 Q： 钓鱼佬最接受不了什…",
+      "key_points": [
+        "瞎扯 · 反直觉的地理知识有哪些"
+      ]
+    }
+  ]
+}
