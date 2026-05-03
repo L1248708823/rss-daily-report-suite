@@ -1,0 +1,774 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T01:00:04.546738+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 88,
+    "fresh_candidates": 59,
+    "backfill_candidates": 29,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-03",
+      "fetched_at": "2026-05-03T01:00:04.252828+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4112.16,
+          "change": 4.65,
+          "change_pct": 0.11,
+          "volume": 656912728.0,
+          "amount": 127619474.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4616.14,
+          "change": -5.469999999999345,
+          "change_pct": -0.12,
+          "prev_close": 4621.61,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-02 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1013.6555757390648,
+          "change": -1.2011542109406719,
+          "change_pct": -0.11835702276910001,
+          "prev_close": 1014.8567299500055,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-02 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "跨国资金出现重要拐点！对A股的影响很大",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/387024597",
+      "published": "Sat, 02 May 2026 13:09:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "MLF",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "老朋友应该都知道，本轮牛市的重要推手就是跨国资金回流。 没有资金流入，股市说破天也没法涨。 今天，咱们更进一步，了解一下跨国资金是如何回流的，以及如何作用到股市的。 我们从资金在银行间和央行的流动方式开始讲。 一、海外巨大的资金池 咱们都知道，最近十几年，我国长期贸易顺差，赚了很多外汇。 然而，外汇储备在2014年见顶后，就保持平稳了。 这就说明， 赚到大量的外汇并没有回国，而是停留在了海外。 原因有很多，比如，海外的利率高，在海外要投资，美股表现好，认为海外更安全等等。 但这就有一个问题，好比利润表上赚了100万…",
+      "key_points": [
+        "本轮牛市的重要推手就是跨国资金回流",
+        "四、央行的缓冲 银行代客结售汇差额从2024年8月（924之前）就开始企稳回升，意味着跨国资金在听到美联储即将降息后，就开始持续回流了",
+        "出口可能还能保持强势，而且跨国资金在特朗普的乱搞下，也不认为海外真的安全了"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "如何用简单的方法大致估算上市公司的估值？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7881199090/387026631",
+      "published": "Sat, 02 May 2026 13:08:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DCF",
+        "PB",
+        "PE",
+        "ROE",
+        "CPI",
+        "CAGR"
+      ],
+      "summary": "本文原创发表于2024年09月16日—喵会计说投资 真正看财报、搭模型、做DCF，预测上市公司业绩最准的价投博主 DCF模型 喵老师多次提到DCF模型是最公允可靠的企业估值模型，DCF模型不仅仅是喵老师推崇的，也是大家最崇拜的巴老爷子推崇的。 投资圈几乎所有人都是巴菲特的信徒，他投资的核心策略无非就是下面两句话：1）首先就是要确定公司价值，然后耐心等待市场价格比价值低，再大胆买入；2）企业的内在价值就是在他剩余存续期内可取现金的折现值（DCF）。 DCF模型的关键在于参数假设 很多人说DCF哪里哪里不好，仔细看都是…",
+      "key_points": [
+        "快速、简单的估值方法 有人问：“我们知道DCF好，但是DCF对于使用者的要求太高了，需要既了解企业业务，有能熟练使用各种Excel表格和工具，有没有简便易行、不…",
+        "本文原创发表于2024年09月16日—喵会计说投资 真正看财报、搭模型、做DCF，预测上市公司业绩最准的价投博主 DCF模型 喵老师多次提到DCF模型是最公允可…",
+        "我们只要问清楚自己一个问题：“中海油的一个B，比神华的一个B，长电的一个B，能赚的钱多还是少？油价不确定没关系，我就说未来十年布油都是60美元/桶好了。” 只要…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "银行的发展趋势与资产配置",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7297620365/387036907",
+      "published": "Sat, 02 May 2026 13:08:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600036",
+        "SH601166",
+        "SH601838",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "对行业的理解，站在局部的静态的角度是无法深入理解的。就像目前全世界几十亿人，一百多年后全部都会消亡，无一幸存，但这不妨碍人类社会的繁荣发展。 经济发展百业兴衰，以前钢铁煤炭不行，房地产很行；现在房地产不行，有色芯片光模块很行。未来还会有行业不行，也有行业会很行。 银行是百业之母，特别是我们这种以信贷融资为主的社会。百业兴衰，银行永恒。只要还没达到共产主义社会，还需要钱，银行就一直在。 悲观者满眼都是放大的局部问题，却看不到全局， 银行就是经营风险的，不良和坏账并不可怕，只要重复计提信用成本，平衡好风险和收益的关系就…",
+      "key_points": [
+        "要比财务指标更前瞻的揭示银行的发展趋势变化",
+        "这就决定了银行的主要服务对象是整体成绩比较好的那部分，它们的平均分会比社会整体平均分高，这本身就是金融资本优化社会资源配置的内在需求",
+        "一个银行本质上与其客户是一个紧密绑定的命运共同体。投资银行本质上就是投资银行的客户，它们才是你的源头金主，客户好银行才会真的好。投资城商行就是投资这个城市"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "再谈存储周期论：旧时代周期游戏的终结与AI时代产业格局的重塑",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3333339788/387031536",
+      "published": "Sat, 02 May 2026 13:08:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GB",
+        "TB",
+        "PC",
+        "DRAM",
+        "NAND"
+      ],
+      "summary": "序言： 对于存储的逻辑判断，酝酿了很久，趁假期闲暇系统整理下思路，以作记录和分享。存储自2025年下半年的走强，不能简单的看作是受传统消费电子需求限制的周期股的反弹，而是AI时代背景下需求逻辑的彻底重塑，存储在AI时代的需求是根本性的、长期性的、增长性的。 --- 一、过去三十年：存储周期的三个根源 存储行业过去三十年反复陷入周期泥潭，根源可归结为三条铁律。 第一，供给调节具有天然滞后性。 晶圆厂建设周期长达两年，产能一旦投放便难以收回。DRAM与NAND属于高度同质化的标准品，去库存的唯一手段就是杀价。三大原厂在…",
+      "key_points": [
+        "一个四年循环反复上演：扩产→过剩→杀价→亏损→减产→回暖。2022至2023年，全球存储器市场规模蒸发37%，五大原厂累计经营亏损达250亿美元。这就是存储的旧…",
+        "酝酿了很久，趁假期闲暇系统整理下思路，以作记录和分享。存储自2025年下半年的走强，不能简单的看作是受传统消费电子需求限制的周期股的反弹，而是AI时代背景下需求…",
+        "--- 四、结语：得存储者得AI天下 当前市场对存储的定价仍停留在传统周期股的框架内：业绩已大幅改善，股价却持续磨底。短线资金追逐短期订单催化与库存拐点博弈，而…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "达利欧最新发声，关于美股新高、地缘冲突、美联储及人工智能的影响",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%9C%80%E6%96%B0%E5%8F%91%E5%A3%B0%EF%BC%8C%E5%85%B3%E4%BA%8E%E7%BE%8E%E8%82%A1%E6%96%B0%E9%AB%98%E3%80%81%E5%9C%B0%E7%BC%98%E5%86%B2%E7%AA%81%E3%80%81%E7%BE%8E%E8%81%94%E5%82%A8%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D",
+      "published": "Sat, 02 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GDP",
+        "Kevin",
+        "Warsh",
+        "CNBC"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 聪明投资者 来源：雪球 最近一段时间 ， 桥水基金创始人瑞 · 达利欧有两篇文章在投资圈影响甚广 。 尤其是3月中旬他发文写道 ， 中东冲突最终胜负取决于谁控制霍尔木兹海峡 ， 这或是决定全球权力格局的 “ 终极决战 ” 。 在刚刚进行的CNBC对话中 ， 达利欧延续了这个判断 。 他说 ， 这场冲突最重要的变量 ， 是霍尔木兹海峡由谁控制 ， 伊朗核项目如何收场 ， 以及导弹问题能…",
+      "key_points": [
+        "当被问到潜在美联储主席继任人凯文 · 沃什 （ Kevin Warsh ） 是否应该降息时 ， 达利欧回答得非常明确 ， “ 现在降息会是错误 ”",
+        "他并没有把战争简单理解为一次地缘冲突 ， 而是把它放进自己长期研究的 “ 五大力量 ” 框架里 ： 债务与货币周期 、 国内政治秩序撕裂 、 大国秩序重组 、…",
+        "为什么战争仍在持续 、 油价大幅上涨 ， 美股却还能反弹时 ， 达利欧的回答是 “ 合理 ”"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "我为什么永远难以与祥林嫂共情？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789364",
+      "published": "Fri, 01 May 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "茶花路莫里亚蒂， 雪山千古冷，独照峨眉峰 查看知乎原文 很棒，当你觉察永远无法和祥林嫂共情时，你就着了鲁迅的道了，落入圈套。 这个和孔乙己有异曲同工之妙。 孔乙己也是个抽象人，捞的么淌口水，太捞了。 孔乙己身上最令人厌烦的地方，是他明明早已被现实彻底淘汰，却仍死死抱着读书人的空架子不放。 一边混迹于短衣帮之间，一边又时时摆出与众不同的姿态，卖弄之乎者也，用自欺欺人的方式维护自己那点可怜的体面。 迂腐，虚荣，懦弱，既没有真正面对命运的勇气，也没有彻底放下旧身份的清醒。只会在被人讥笑时，用可笑的辩解维持尊严，甚至连偷窃…",
+      "key_points": [
+        "雪山千古冷，独照峨眉峰 很棒，当你觉察永远无法和祥林嫂共情时，你就着了鲁迅的道了，落入圈套",
+        "祥林嫂会迫使读者陷入一个很不舒服的位置： 你明知道她惨，却还是会在某些时刻对她生出和鲁镇众人相似的恶心厌烦。甚至会觉得她的存在本身，已经成了一种压迫别人情绪的负…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "把一个 300 斤的胖子物理压缩成魔鬼身材会发生什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789335",
+      "published": "Thu, 30 Apr 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "GPa",
+        "gt",
+        "atm",
+        "C-C",
+        "C-H"
+      ],
+      "summary": "萧半杨， 开放量子系统中的一只Lindblad算子/胜寒的资深底层群众 查看知乎原文 地狱空荡荡，恶魔在知乎是吧..... 首先，一开始没看题主描述时，我以为是用液压机压缩......（这里带个货，我老爸制造 / 维修各类液压机械设备，提供成品制造和技术支持业务，有需求的朋友可以私信我） 家父若干年前的产品之一 后来发现题主发明这么一件“永不破裂”的衣服并且“立即”，问题变得更简单但是更残忍了 先说结论： 1、人体在微秒级时间内彻底死亡，所有细胞和生物大分子完全解体，不存在任何生命残留，大概率连完整的有机分子都无法…",
+      "key_points": [
+        "不会出现内脏挤出、组织撕裂，但会发生全尺度的结构崩溃。细胞膜磷脂双分子层在&gt;1GPa 压强下完全破裂，细胞渗透压平衡瞬间崩溃，所有细胞裂解，细胞器完全解体…",
+        "人体组织密度取公认值，那么脂肪质量 ，脂肪密度 ，去脂体重 ，去脂体重平均密度 初始总体积： 目标身材对应健康女性体重 53.5kg，人体平均密度 （与水接近）…",
+        "一开始没看题主描述时，我以为是用液压机压缩......（这里带个货，我老爸制造 / 维修各类液压机械设备，提供成品制造和技术支持业务，有需求的朋友可以私信我）…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我用AI做了第一个产品，聊聊全过程和踩过的坑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387543.html",
+      "published": "Sat, 02 May 2026 08:37:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Seedance",
+        "API",
+        "Cloudflare",
+        "Code",
+        "Fast"
+      ],
+      "summary": "从AI使用者到产品创造者的蜕变，一次完整的AI视频生成网站开发之旅。作者不仅成功对接Seedance系列API，实现文本/图片生视频的核心功能，更通过Cursor+Claude Code的AI组合拳完成全流程开发。本文将揭秘从开源模板改造到支付闭环搭建的全过程，分享如何用AI工具突破个人开发者的技术边界。 这段时间，我用AI编程工具，开发了一款视频生成网站，域名也申请了，并且可以进行访问了。 因为支付环节还没打通，无法进行闭环体验，所以就先不放链接了，等接通支付后再发出来。 今天主要分享一下网站主要功能，开发的完整…",
+      "key_points": [
+        "开发的完整过程，以及一些体会、踩过的坑",
+        "相当于一人扛起整个团队的工作，能够亲身验证单人独立开发AI产品的可行性，同时积累全过程的踩坑经验，打破传统协作模式的思维局限",
+        "一次完整的AI视频生成网站开发之旅。作者不仅成功对接Seedance系列API，实现文本/图片生视频的核心功能，更通过Cursor+Claude Code的AI…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从Chat到Agent：一份给所有人的AI范式跃迁实践指南 不是教你\"用\"，而是教你\"成为\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387601.html",
+      "published": "Sat, 02 May 2026 06:36:10 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "API",
+        "Claude",
+        "ChatGPT",
+        "Code"
+      ],
+      "summary": "当Claude Code的Opus模型让小米大模型团队负责人连续沉浸4小时时，一个AI Agent的新范式正在崛起。这不仅仅是一次工具升级，而是从被动响应到主动执行的思维革命。本文将揭示Agent框架如何让中等模型实现顶尖性能，分享小米团队从100轮对话实践到组织重构的实战经验，为产品经理、管理者和开发者提供从认知到落地的完整行动指南。 撰写来源：基于小米大模型团队负责人罗福莉访谈整理 2025年春节，小米大模型团队负责人罗福莉经历了一次让她至今难忘的技术体验。 她打开了接入了当时最强Opus模型的Claude C…",
+      "key_points": [
+        "当Claude Code的Opus模型让小米大模型团队负责人连续沉浸4小时时，一个AI Agent的新范式正在崛起。这不仅仅是一次工具升级，而是从被动响应到主动…",
+        "AI的进化也不会止步于2026年。但有一点是确定的：从”模型使用者”到”智能体构建者”的范式跃迁，正在重新定义价值创造的边界",
+        "而是手段。其本质是强制提升”实践密度”——即在单位时间内，与新范式进行真实碰撞的次数"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当大家都用AI获取信息，我开始担心小红书搜索",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387528.html",
+      "published": "Sat, 02 May 2026 05:34:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "ChatGPT",
+        "COO",
+        "IF",
+        "Pixabay"
+      ],
+      "summary": "AI正在悄然改变用户获取信息的路径，小红书搜索的入口价值面临前所未有的挑战。当用户更倾向于先向AI提问获取结构化答案，而非直接搜索真实笔记时，平台如何守住决策链条的关键位置？本文深度剖析AI如何『蒸馏』小红书的内容价值，以及平台必须面对的答案系统升级之战。 先讲一个我个人获取信息的例子。 前段时间我听说了豆包输入法，但我想先了解一下它是否支持跨设备复制粘贴，再决定是否下载，因为我现在使用微信输入法有这个功能，要是豆包没有，那费劲下它干嘛。 我去小红书搜了一圈笔记，翻了十来分钟，一条能给我准话的都没有，可能是这个问题…",
+      "key_points": [
+        "这就是我开始担心小红书搜索的原因",
+        "我从来不担心小红书的内容失去魅力，我担心的如果小红书搜索不主动 AI 化，它过去几年好不容易筑起的入口王座，反而会最先被时代悄无声息地搬走",
+        "小红书搜索的入口价值面临前所未有的挑战。当用户更倾向于先向AI提问获取结构化答案，而非直接搜索真实笔记时，平台如何守住决策链条的关键位置？本文深度剖析AI如何『…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "梁文锋不掀桌子，DeepSeek登上半山腰",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387519.html",
+      "published": "Sat, 02 May 2026 04:32:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DeepSeek",
+        "AI",
+        "V4",
+        "Pro",
+        "DeepSeek-V4",
+        "Flash"
+      ],
+      "summary": "DeepSeek-V4的发布不仅是一次技术迭代，更是国产AI生态的一次重要突破。Pro和Flash双版本精准覆盖从专业分析到日常办公的全场景需求，百万token超长上下文处理能力全版本标配，加之极致的成本控制和开源策略，正在重塑行业竞争格局。更值得关注的是，其与华为昇腾芯片的深度适配，标志着国产AI全栈自主化迈出关键一步。 梁文锋不是来掀桌子的。 4月24日，DeepSeek-V4（下称“V4”）低调上线。根据官方介绍，V4分为Pro和Flash两个版本，分别对应网页和App端的专家模式和快速模式。 其中，Pro是…",
+      "key_points": [
+        "是一种极度清醒的战略克制。梁文锋没有打算在“谁最强”上，与友商掰手腕。他也不是上来掀桌子，而是继续组牌局，并为DeepSeek选择了一条更难的路，即在英伟达CU…",
+        "DeepSeek正在向一家正规商业公司转型。它曾背靠幻方量化，不融资、不逐利，像践行理想主义的极客。但这个局面正在改变，梁文锋也开始考虑融资。阿里、腾讯等AI大…",
+        "梁文锋没有去自证，拿模型能力说话。他曾说，“我们不是有意成为一条鲶鱼，只是不小心成了一条鲶鱼。” 这种沉默，也一度被解读成掉队、跌落神坛"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大疆、特斯拉与人形机器人：产品经理如何理解\"新物种产品\"的诞生？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387399.html",
+      "published": "Sat, 02 May 2026 03:32:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Demo",
+        "Jibo",
+        "Google",
+        "App",
+        "Digit",
+        "Figure"
+      ],
+      "summary": "从大疆到特斯拉再到人形机器人，这些看似迥异的领域背后隐藏着共通的产品逻辑——真正的'新物种'不是技术的堆砌，而是体验的重构。本文深度剖析了硬科技产品从实验室走向市场的关键节点，揭示了如何将复杂技术转化为用户愿意买单的日常体验，以及为什么99%的酷炫Demo最终都倒在了产品化的门槛上。 大疆、特斯拉与人形机器人：产品经理如何理解”新物种产品”的诞生？ 真正的新产品，不是把新技术拿出来展示，而是把复杂技术转译成用户愿意使用的新体验。 大疆做到了。特斯拉做到了。人形机器人还在路上。 最近看了 WhynotTV Podca…",
+      "key_points": [
+        "大疆、特斯拉与人形机器人：产品经理如何理解”新物种产品”的诞生",
+        "是把未来变成日常 大疆、特斯拉和人形机器人，看起来是三个不同的故事，但背后的产品逻辑相通： 先有一群人相信某种未来，然后用工程能力把这个未来一点点做实，最后让用…",
+        "最近看了 WhynotTV Podcast 对机器人专家杨硕的访谈，他早期参与大疆飞控开发，后来加入 Tesla Optimus 团队，再到创立妙动科技。几乎踩…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么亲近之人的脚臭，闻起来没有那么恶心？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%B2%E8%BF%91%E4%B9%8B%E4%BA%BA%E7%9A%84%E8%84%9A%E8%87%AD%EF%BC%8C%E9%97%BB%E8%B5%B7%E6%9D%A5%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B9%88%E6%81%B6%E5%BF%83%EF%BC%9F",
+      "published": "Sat, 02 May 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Calo",
+        "core",
+        "desirability",
+        "disgust",
+        "Drury"
+      ],
+      "summary": "在生活中，你也许有过这样的体验：一碗别人吃剩下的面条摆在面前，你毫无胃口；衣服溅上了油兮兮的呕吐物，一股刺鼻的蒜味；回到家中，沙发上搭着一件沾满粪便的衣物，恶臭让你反胃……这些都是典型的 厌恶反应 ，达尔文将它定义为由恶心反感的气味诱发的情绪。 在受到令人不快的刺激时，我们会登时感觉“这不对头！”，露出典型的厌恶表情 | youtube.com 可是，如果冷汤是你的女朋友喝剩下的，溅在身上的呕吐物是自己在醉酒后不小心吐上的，而沙发上那件臭烘烘的衣物，是你尚在襁褓中的孩子刚换下的尿布，你还会感到同等程度的恶心吗？ 英…",
+      "key_points": [
+        "还是不放实物图了 为了能在研究中拿出足够恶心人的污染物，研究者选择了人为“腌制”臭T恤。在第一项实验中，一名研究助理将一件T恤连续穿了一周，无论是白天锻炼还是晚…",
+        "当T恤的主人的信息是宽泛的“同为学生”时，被试仅仅将其评价为中等恶心（3.26分），显著低于主人是陌生人（4.74分）或竞争院校学生（5.33分）的情况，这提示…",
+        "Sharken 编辑：Calo 一个AI 然而女朋友嫌弃你脚臭并不是她不拿你当自己人，而是你真的脚臭。请把它定义为“连自己人都无法忍受的臭”然后去洗脚"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "恳求各位外卖小哥，千万别在骑行头盔上装大耳朵大鹿角了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%81%B3%E6%B1%82%E5%90%84%E4%BD%8D%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%EF%BC%8C%E5%8D%83%E4%B8%87%E5%88%AB%E5%9C%A8%E9%AA%91%E8%A1%8C%E5%A4%B4%E7%9B%94%E4%B8%8A%E8%A3%85%E5%A4%A7%E8%80%B3%E6%9C%B5%E5%A4%A7%E9%B9%BF%E8%A7%92%E4%BA%86%EF%BC%81",
+      "published": "Sat, 02 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GB",
+        "A0AE78F",
+        "A60EC3D9A25D8B56E05397BE0",
+        "CE",
+        "CPSC",
+        "ECE"
+      ],
+      "summary": "骑摩托车要戴头盔吗？当然要啊！ 骑电瓶车呢？也得戴吧！ 那自行车呢？这个……好像只有越野或者比赛时候才戴？ 其实不然。 相较于“铁包肉”的汽车，“肉包铁”的自行车、摩托车、电瓶车在发生事故时，几乎无法为骑手提供任何保护 。 若是没有护具，千钧冲击将直接作用于人体； 若是佩戴不合适的护具，后果或许更甚：它徒增了骑手的胆量，却起不到相称的保护。 这是一篇能送你一条命的推送： 请在骑行时戴上头盔、戴合适的头盔。 戴一顶救命的自行车头盔 自行车部分作者：索菲亚 骑自行车很安全吗？ 城市骑行时，一般速度为每小时10到15公里…",
+      "key_points": [
+        "往往新手无知者无畏，越是老手越是对生命有敬畏之心。现在骑行时看到不戴头盔狂飙的骑手，我都会追上去告诉ta头盔的重要性",
+        "这是一篇能送你一条命的推送： 请在骑行时戴上头盔、戴合适的头盔",
+        "若摩托车在时速40公里时与前方障碍发生碰撞，将产生2000到6000公斤的冲击力——人体可以承受约100公斤，剩下的部分便需要头盔来承担、缓冲[2]；在骑手有头…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "今年我买过最后悔的几件东西……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8A%E5%B9%B4%E6%88%91%E4%B9%B0%E8%BF%87%E6%9C%80%E5%90%8E%E6%82%94%E7%9A%84%E5%87%A0%E4%BB%B6%E4%B8%9C%E8%A5%BF%E2%80%A6%E2%80%A6",
+      "published": "Sat, 02 May 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CS",
+        "cs",
+        "ka",
+        "AWE",
+        "Phutawan",
+        "UV"
+      ],
+      "summary": "后悔买晚了！ 去年年末，我们向读者征集了“果壳市集”年度幸福感好物。大家的分享让我们感叹： 你们实在太会买了！ 这份清单汇总了大家买到的“心头好”，许多价格不高，却能为家带来焕然一新的感觉，提升生活的小确幸。某种程度上，它们也代表了大家生活方式的改变。 马上焕新家居专场， 从9.9元的生活好物到四位数的清洁机器人，都已备好。五一假期，一起装饰温馨小窝吧！ 👇 马上预约 👇 5月6日18点 高性能擦窗机器人 智能家电、除螨清洁、高颜值厨具、精油香氛 广交会展出好物 全场9.9元起 爆款剧透 让你心情好一整年的小秘密…",
+      "key_points": [
+        "👇 马上预约 👇 5月6日18点 高性能擦窗机器人 智能家电、除螨清洁、高颜值厨具、精油香氛 广交会展出好物 全场9.9元起 爆款剧透 每一种味道背后 都是一段…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "马斯克法庭大战奥特曼：小学生吵架+索赔1500亿",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%A9%AC%E6%96%AF%E5%85%8B%E6%B3%95%E5%BA%AD%E5%A4%A7%E6%88%98%E5%A5%A5%E7%89%B9%E6%9B%BC%EF%BC%9A%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%90%B5%E6%9E%B6%2B%E7%B4%A2%E8%B5%941500%E4%BA%BF",
+      "published": "Sat, 02 May 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenAI",
+        "AI",
+        "Stripe",
+        "AGI",
+        "GPT-4",
+        "Greg"
+      ],
+      "summary": "过去这 72 小时，整个硅谷都在疯狂吃瓜。 世界首富埃隆·马斯克，与 OpenAI 掌门人山姆·奥特曼对簿公堂，两位站在科技巅峰的当事人，正试图争夺通用人工智能的定义权与分配权。 这桩“世纪诉讼”的恩怨，其实已经拉扯了快两年。 早在 2024 年初，马斯克就一纸诉状将 OpenAI 告上法庭，指控奥特曼和核心团队违背了当初“为全人类福祉开发开源 AGI”的非营利初心，私自将其变成了一个估值千亿、被微软牢牢把控的“闭源赚钱机器”，向 OpenAI 及其最大投资方微软公司索赔 1500 亿美元（约合 1.02 万亿元人…",
+      "key_points": [
+        "马斯克就一纸诉状将 OpenAI 告上法庭，指控奥特曼和核心团队违背了当初“为全人类福祉开发开源 AGI”的非营利初心，私自将其变成了一个估值千亿、被微软牢牢把…",
+        "他在法庭上反复强调自己付了房租、买了域名、面试了最初的科学家。这些都被奥特曼嘲讽成“点子大王”，但在很多创业者眼中，在那个 AGI 还是冷板凳的 2015 年，…",
+        "一上来就问：“这周过得咋样啊？”奥特曼笑得还有点儿如释重负，脱口而出：“So fun！” 图源：Stripe截图 接下来的一个小时，奥特曼展现了什么叫极其松弛的…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "奥斯卡，变天！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%A5%E6%96%AF%E5%8D%A1%EF%BC%8C%E5%8F%98%E5%A4%A9%EF%BC%81",
+      "published": "Sat, 02 May 2026 16:49:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "FIAPF",
+        "ta",
+        "ABCD",
+        "CoreSin",
+        "hongmomgs"
+      ],
+      "summary": "文 CoreSin 一早起来就被奥斯卡新规刷屏了。改变挺多，有些是细节，挑几条主要的聊一下。 一条是，新规规定，同一个演员可以在同一奖项中获得多个提名。这其实不是学院的新发明，因为奥斯卡早年就是这么规定的。从奥斯卡初创到 1940 年代初，就允许一个演员报多个提名。 比如说，第一届的时候，一个演员演了多部影片，会把所有影片合并考虑。评的是演员本人，不是 ta 演的某个角色。后几届仍然对应多部作品，但学院内部开始更加倾向于强调具体表演。之后更过渡到单一影片的表演，直到 1936 年引入提名制，每个提名精确对应一部电影…",
+      "key_points": [
+        "伊朗的奥外名额，是由该国的法拉比基金会决定。尽管美伊关系常年不佳，但伊朗从未停止选送，近年只有一次例外。因为他们觉得奥斯卡主办方并非美国官方，且常常对美国政府有…",
+        "FIAPF （国际电影制片人协会联合会）前不久刚刚废除了过去的 ABCD 电影节分类规则，重塑 A 级体系，将若干家较有声望的电影节评为 A 级，这里面有一些过…",
+        "《坠落的审判》 新规则允许戛纳、威尼斯、柏林、多伦多、圣丹斯、釜山这六大电影节的最高荣誉获得者直接获得提名资格，等于在官方选送体系之外建立了一条平行管道，让艺术…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "做到恐怖片的第一名，就很容易吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%81%9A%E5%88%B0%E6%81%90%E6%80%96%E7%89%87%E7%9A%84%E7%AC%AC%E4%B8%80%E5%90%8D%EF%BC%8C%E5%B0%B1%E5%BE%88%E5%AE%B9%E6%98%93%E5%90%97%EF%BC%9F",
+      "published": "Sat, 02 May 2026 16:49:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BBC",
+        "VS",
+        "Vulture",
+        "Abrams",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者： Simon Abrams 译者： Issac 校对： 朱溥仪 来源： 《Vulture》 作为英国标志性的电影制片厂，汉默电影制作公司一直是性与暴力的代名词。事实上，许多现代恐怖片影迷要么贬低汉默公司的电影，要么予以忽视，因为在他们看来，有很多更好的影片不像汉默公司的影片那样只是在展示血与皮肤。 但自20世纪50年代以来，凝血和裸体一直是汉默公司和影片广告的中心。 但按如今的标准，汉默公司流行的、成为现代标志的哥特式恐怖片——如时髦的《德古拉》（后来影响了著名的《惊情四百年》）《科学怪人》《木乃伊》和《狼人…",
+      "key_points": [
+        "尤其擅长被杰姆斯·卡雷拉斯称为「小希区柯克」式的类型，而赫恩则给了这种类型的电影一个恰当的描述：「此为悬疑恐怖片，往往将一头雾水又脆弱的女主角塑造为阴谋的受害人…",
+        "曼哈顿奎德影院开启了他们令人震惊的「汉默恐怖屋」计划，即调查32部汉默制片厂制作的电影。该计划是一个系列中（由两部分组成）的第一部分，重点关注汉默从1956年至…",
+        "汉默制片厂其它的吸血鬼影片——《魔鬼双胞胎》、《吸血鬼马戏团》（1971）和《吸血鬼猎人-Kronos队长》（1974）—— 是其迄今制作的最佳电影的一部分，这…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "它并无形状，却雕出最美的中国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%AE%83%E5%B9%B6%E6%97%A0%E5%BD%A2%E7%8A%B6%EF%BC%8C%E5%8D%B4%E9%9B%95%E5%87%BA%E6%9C%80%E7%BE%8E%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "published": "Sat, 02 May 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Jubei"
+      ],
+      "summary": "水，地球上最“温柔”的元素。可偏偏是它，把高原劈出峡谷，把岩石溶为峰林，把海岸啃成悬崖，甚至把大陆都刻满海洋来过的痕迹。一滴雨落下、冲刷，看似无声；亿万年的水同时落下、流淌，却足以重写山河。那些最震撼自然奇观背后的“首席发型总监”，往往不是火山喷发、大地摇撼，而是水。图①新疆和静·开都河——这是蛇曲典型代表，这里巴音布鲁克草原的“九曲十八弯”能反射出“九个太阳”。图②四川松潘·黄龙景区——虽与烧水壶里水垢的成因差别不大，地下水所富含的碳酸钙，沉积成了阶梯状的钙华梯池，宛如真正的“人间瑶池”。图③西藏林芝·雅鲁藏布大…",
+      "key_points": [
+        "地球上最“温柔”的元素。可偏偏是它，把高原劈出峡谷，把岩石溶为峰林，把海岸啃成悬崖，甚至把大陆都刻满海洋来过的痕迹。一滴雨落下、冲刷，看似无声；亿万年的水同时落…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "生命中的精灵",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%94%9F%E5%91%BD%E4%B8%AD%E7%9A%84%E7%B2%BE%E7%81%B5",
+      "published": "Sat, 02 May 2026 20:46:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD"
+      ],
+      "summary": "几天前，我在《 重听齐秦 》里提了一嘴李宗盛，以及他的早期作品《生命中的精灵》。我当年有过一盘磁带，今天我又买到了一张 CD。我说，《生命中的精灵》这一批早期作品，是我最喜欢的李宗盛个人创作作品，相当诚恳，相当用心，也相当有灵气。属于那种第一次听很可能根本听不下去，但是一旦你听进去一次之后，就会反复听的作品。相比较他中后期那些精致工整的作品，我更喜欢这些只有木吉他伴奏的早期歌曲。朴质简单，但是又有一些轻易打动人心，让人难忘的东西。就像是这次专辑封面上，李宗盛的锅盖头，大眼镜和宽阔的门齿中缝一样。如今的新世代大概就知…",
+      "key_points": [
+        "我在《 重听齐秦 》里提了一嘴李宗盛，以及他的早期作品《生命中的精灵》。我当年有过一盘磁带，今天我又买到了一张 CD。我说，《生命中的精灵》这一批早期作品，是我…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "心脏为什么不会得癌症？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%BF%83%E8%84%8F%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E4%BC%9A%E5%BE%97%E7%99%8C%E7%97%87%EF%BC%9F",
+      "published": "Sat, 02 May 2026 07:56:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "com",
+        "miR-TS",
+        "Pioneer",
+        "pixabay",
+        "Reti"
+      ],
+      "summary": "5.2 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 心脏为什么不会得癌症？ 图片来源：pixabay .com 心脏是一个很神奇的器官。心肌细胞会进行有节律的搏动，并在个体出生后停止增殖，因此，心脏没有再生能力。更有趣的是，心脏极少发生癌变，并且癌细胞转移也很少把心脏作为靶器官。这表明限制心脏再生的机制也可能对癌症有对抗作用。近日，意大利的里雅斯特大学医学院Serena Zacchigna…",
+      "key_points": [
+        "5.2 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来…",
+        "图片来源：pixabay .com 心脏是一个很神奇的器官。心肌细胞会进行有节律的搏动，并在个体出生后停止增殖，因此，心脏没有再生能力。更有趣的是，心脏极少发生…",
+        "►文章链接： https://www.science.org/doi/10.1126/science.ads9412 2 定向杀死癌细胞的微型机器人 图片来源：…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "库克的卸任信，让我想起全季",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%BA%93%E5%85%8B%E7%9A%84%E5%8D%B8%E4%BB%BB%E4%BF%A1%EF%BC%8C%E8%AE%A9%E6%88%91%E6%83%B3%E8%B5%B7%E5%85%A8%E5%AD%A3",
+      "published": "Sat, 02 May 2026 10:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "iPhone",
+        "IBM",
+        "AI",
+        "HTC",
+        "APP",
+        "App"
+      ],
+      "summary": "文 ｜ 阑夕 蒂姆·库克宣布了卸任苹果CEO的时间表，多少有些突然。 毕竟，虽然苹果永远在被诟病所谓「失去了乔布斯的灵魂」，不过从规模和市值来看，终究还是配得起蒸蒸日上这四个字。 苹果这些年来的稳定发挥，可能让人忽视了掌舵者已经66岁的事实，产品可以永远年轻，人类却无法拒绝老去，这是一个悲伤但冷酷的规律。 库克写了两封卸任信，对外的那封信比较四平八稳，充满了公关辞令，留给内部员工的「心里话」，更有看点。 在备忘录里，库克没有一个字是在谈论业绩，贯穿全文的，依然是价值观，他说崇尚简约、专注要事、追求卓越、让世界变得更…",
+      "key_points": [
+        "在苹果身上发生过的事，同样在全季上演。库克治下的苹果不再为iPhone配备充电头，这固然让一部分人不快，但充电头的过剩闲置是事实，苹果通过这种成本优化，换来了十…",
+        "文 ｜ 阑夕 蒂姆·库克宣布了卸任苹果CEO的时间表，多少有些突然",
+        "常住酒店的读者应该都能和我一样想起同一个名字，全季"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "《迈克尔》：一场精心策划的“造神”骗局，把娈童案拍成童话，简直令人作呕！| 经济学人文化（感想超赞）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E3%80%8A%E8%BF%88%E5%85%8B%E5%B0%94%E3%80%8B%EF%BC%9A%E4%B8%80%E5%9C%BA%E7%B2%BE%E5%BF%83%E7%AD%96%E5%88%92%E7%9A%84%E2%80%9C%E9%80%A0%E7%A5%9E%E2%80%9D%E9%AA%97%E5%B1%80%EF%BC%8C%E6%8A%8A%E5%A8%88%E7%AB%A5%E6%A1%88%E6%8B%8D%E6%88%90%E7%AB%A5%E8%AF%9D%EF%BC%8C%E7%AE%80%E7%9B%B4%E4%BB%A4%E4%BA%BA%E4%BD%9C%E5%91%95%EF%BC%81%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96%EF%BC%88%E6%84%9F%E6%83%B3%E8%B6%85%E8%B5%9E%EF%BC%89",
+      "published": "Sat, 02 May 2026 15:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Michael",
+        "of",
+        "is",
+        "to",
+        "his",
+        "Jackson"
+      ],
+      "summary": "1 写在前面 休息一下 2 精读|翻译|词组 Culture | Back Story 文化 | 幕后故事 英文部分选自经济学人20260425期文化板块 Culture | Back Story 文化 | 幕后故事 In a new biopic, Michael Jackson is an eccentric saint. Yuck 新传记片把迈克尔 · 杰克逊塑造成一位乖张的圣徒，简直令人作呕 The megastar’s uncancellable songs are his rightful memori…",
+      "key_points": [
+        "Yuck 新传记片把迈克尔 · 杰克逊塑造成一位乖张的圣徒，简直令人作呕 The megastar’s uncancellable songs are his…",
+        "迈克尔 · 杰克逊那超凡入圣的 艺术 魅力，在于他既能撩拨起危险的弦音，又将其温柔地抚平。他那模糊了性别界限的容貌和高亢空灵的嗓音，柔化了情歌中原本炽热的欲望；…",
+        "对于一部讲述与黑猩猩为友的怪诞巨星的电影而言，《迈克尔》的大部分内容出奇地沉闷乏味。男主角不断遭受父亲欺凌，只能从母亲（尼亚 · 朗饰 ) 那里寻求慰藉，与此同…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "网传库布齐沙漠 10 万黑猪让沙漠变绿洲，林草局回应全域禁牧，具体情况如何？「放猪治沙」的方式真的存在吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789321",
+      "published": "Wed, 29 Apr 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "in",
+        "boar",
+        "https",
+        "of",
+        "review",
+        "scrofa"
+      ],
+      "summary": "犬君拌汪酱， 生态狗、小说狗 名为人生的冒险仍在继续 查看知乎原文 你们知道“放牧 10 万黑猪让沙漠变绿洲”这说法有多离谱吗？ 往好了说，相当于“为了减肥我一天吃十顿，一顿吃三大碗饭，一个月后终于从两百斤瘦到了八十斤” 往坏了说，这相当于“战神归来，发现女儿竟被送到青楼，一声令下，十万将士归来为女儿冲业绩” 经常喂猪的小伙伴都知道，猪这玩意可能吃了 你们小时候割过猪草吗？给猪喂过地瓜叶吗？巧了，这些事情，我都没做过 不过虽然我没亲手喂过猪（舍友不算），但我看过农村如何喂猪——在农村，人们常见用红薯藤、南瓜叶、白菜…",
+      "key_points": [
+        "生态狗、小说狗 名为人生的冒险仍在继续 你们知道“放牧 10 万黑猪让沙漠变绿洲”这说法有多离谱吗",
+        "答： 各种植物的根茎叶、各种坚果和种子，以及能够捡到或逮到的各种小动物（昆虫、蜥蜴）和动物尸体 猪在野外的取食行为可以被粗略地分为四大类： 1.直接取食地面上的…"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "platform": "draveness.me",
+      "source": "draveness.me",
+      "source_url": "https://draveness.me/feed.xml",
+      "title": "为什么 Kubernetes 要替换 Docker",
+      "title_zh": null,
+      "url": "https://draven.co//whys-the-design-kubernetes-deprecate-docker",
+      "published": "Tue, 09 Mar 2021 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "summary": "为什么 Kubernetes 要替换 Docker",
+      "key_points": [
+        "为什么 Kubernetes 要替换 Docker"
+      ]
+    }
+  ]
+}
