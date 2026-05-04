@@ -1,0 +1,771 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T01:00:05.057132+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 82,
+    "fresh_candidates": 51,
+    "backfill_candidates": 31,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-04",
+      "fetched_at": "2026-05-04T01:00:04.763994+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4112.16,
+          "change": 4.65,
+          "change_pct": 0.11,
+          "volume": 656912728.0,
+          "amount": 127619474.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4612.45,
+          "change": -3.6900000000005093,
+          "change_pct": -0.08,
+          "prev_close": 4616.14,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-04 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1012.8452907229089,
+          "change": -0.8102850161559445,
+          "change_pct": -0.07993691699127278,
+          "prev_close": 1013.6555757390648,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-04 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2026年一季度银行股数据统计一览",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5049782972/387084745",
+      "published": "Sun, 03 May 2026 13:37:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "ROE-PB",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "各位朋友，新鲜出炉的2026年一季度银行股数据统计资料，请大家多多指导。 一、银行股综合性成长性数据（新增可转债到期或强赎数据，数据统计过程中也考虑了统计年限内的增股、送股及配股情况），本次数据是根据2026年一季度净利润增速来做的全年度预测，2025年有可转债强赎和到期的对本此数据可能会有影响： 二、银行股资产质量数据： 三、银行股利润储备数据： 四、银行股ROE-PB数据： 以上数据仅供大家参考，不做投资建议。 以上数据是翼虎老师帮忙指导和斧正的，也感谢虎哥对我的大力帮助和支持。 @-翼虎- 本话题在雪球有15…",
+      "key_points": [
+        "新鲜出炉的2026年一季度银行股数据统计资料，请大家多多指导",
+        "一、银行股综合性成长性数据（新增可转债到期或强赎数据，数据统计过程中也考虑了统计年限内的增股、送股及配股情况），本次数据是根据2026年一季度净利润增速来做的全…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资中国石油的底线思维",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1760673340/387071400",
+      "published": "Sun, 03 May 2026 13:37:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "中国石油一季度在实现油价64美元的情况下，实现净利润483亿元，天然气业务居功至伟， 二季度的实现油价，我的预期是84美元，最低74美元总是有的。 下半年实现油价，我的预期是74美元，最低64美元总是有的， 这样全年净利润2000亿左右的概率很大，那么每股收益1.09元左右，每股分红0.6元左右，12.22元股价的股息率就是4.9%左右，这个就是我重仓投资中国石油的底线思维。 在这个基础上，如果海峡继续封锁，高油价延续的时间越长，中国石油全年的实现油价就可能有75美元85美元95美元甚至更高， 当然，这个只是可能有…",
+      "key_points": [
+        "我的预期是74美元，最低64美元总是有的， 这样全年净利润2000亿左右的概率很大，那么每股收益1.09元左右，每股分红0.6元左右，12.22元股价的股息率就…",
+        "以上思考仅是对今年中国石油净利润和分红的非职业非专业推测，并不构成投资中国石油的任何依据，因为中国石油的股价并不与净利润和股息正相关，甚至可以毫无关联，前车之鉴…",
+        "难以预测甚至是不可预测的，如果中国石油至年底，股价确定能从12.22元上涨至12.5元以上即上涨2.3%（年化3.5%）以上，那么140万亿储蓄，就不可能去存年…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "贵金属，铝",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8667333729/387083424",
+      "published": "Sun, 03 May 2026 13:37:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "大宗商品当下最大的隐性风险，正在被所有人忽视，而铝，即将悄悄吞噬你的资产预期。 因为全球流通铝已经极度紧缺。摩根大通的报告显示，全球可统计的显性铝库存，仅够全世界使用9天，是20年来最严重的铝供应危机。 可是你打开国内的新闻一看，铝价没怎么疯涨，仓库里堆得满满当当，库存处在5年新高。那问题来了，到底是国外瞎紧张，还是国内反应慢？ 别被国内的表面库存骗了，现在真实格局就是：海外铝一吨难求、现货极度紧缺。伦敦铝价已经冲到3600美元以上，折合人民币接近2万6一吨。 而国内现状：下游工厂集体观望，看见涨价就习惯性观望博弈…",
+      "key_points": [
+        "等到现有原料消耗见底，只能被迫高位补库采购； 第二、原铝不能直接出口，但铝板、铝棒、铝线缆、铝型材等深加工铝材不受限制，可以正常出口。今年一季度国内铝材出口已经…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "沃什 “降息 + 缩表”组合政策对于股市流动性的影响",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7286533602/387085854",
+      "published": "Sun, 03 May 2026 13:37:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Fed",
+        "RRP",
+        "bp",
+        "FOMC",
+        "QT",
+        "TGA"
+      ],
+      "summary": "“不懂个股赚不到钱，不懂宏观容易破产” 下一届美联储主席沃什已经基本扫清了上台实质性障碍，鲍威尔的任期将在 2026年5月15日 结束。沃什的提名已经在 2026年4月29日 通过参议院银行委员会，下一步是参议院全院表决。如果全院投票顺利，沃什大概率在5月中下旬正式上任。 当然沃什5月15日上任，也不能当天直接落实“降息+缩表”政策。美联储货币政策需要通过FOMC会议表决，主席影响很大，但不是单人决定。因此比较可能的路径是：2026年5月下旬，接任初期讲话、释放政策框架变化信号；2026年6月第一次完整FOMC窗口…",
+      "key_points": [
+        "再说 “降息 + 缩表” 组合政策对于股票市场的整体影响，这不是纯粹的宽松，而是 “价格宽松 + 数量收紧”",
+        "对于股市的影响取决于谁的边际变化更强： 降息降低贴现率、压美元、利好权益估值；缩表抽走美元储备、抬期限溢价、压制风险偏好",
+        "结合：当前联邦基金目标区间是 3.50%–3.75% ；而美联储资产负债表约 6.75万亿美元的现状 ，量化来看，存在下面的几种 “降息 + 缩表” 组合情况：…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么美国经济走弱，股市不一定跌？GDP增速下降，股市回报会跟着降吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BE%8E%E5%9B%BD%E7%BB%8F%E6%B5%8E%E8%B5%B0%E5%BC%B1%EF%BC%8C%E8%82%A1%E5%B8%82%E4%B8%8D%E4%B8%80%E5%AE%9A%E8%B7%8C%EF%BC%9FGDP%E5%A2%9E%E9%80%9F%E4%B8%8B%E9%99%8D%EF%BC%8C%E8%82%A1%E5%B8%82%E5%9B%9E%E6%8A%A5%E4%BC%9A%E8%B7%9F%E7%9D%80%E9%99%8D%E5%90%97%EF%BC%9F",
+      "published": "Sun, 03 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "IPO+",
+        "PB",
+        "PE",
+        "AI",
+        "EPS"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 A股过去21年年化10%，这个回报跟实体经济的生产力增长高度匹配，\"股市是经济晴雨表\"在长期数据里被验证了。 有一位朋友留言问：那未来呢？GDP增速一直在往下走，股市的回报是不是也会跟着往下走？ 从感受上来说肯定不是，美国的GDP增速没有咱们这么快，但是股市回报率还是很好的。不过我也通过AI帮我找了一些材料，来看看这个问题的原因。 一、海外那些GDP增速不高的国家，…",
+      "key_points": [
+        "趋势线非常平：经济增长更快的国家，股市回报平均下来并没有跟着更高。瑞士、英国这种GDP增速2%上下的国家股市跑得很稳；中国、印度、巴西这些高增长的新兴市场，股市…",
+        "这组数据想说的不是\"经济不好股市才好\"，而是 GDP增速本身并不能直接反映股市回报。中间还有不同的影响因素：估值的起点、稀释的速度、股东回报的厚薄、海外营收的占…",
+        "美国的GDP增速没有咱们这么快，但是股市回报率还是很好的。不过我也通过AI帮我找了一些材料，来看看这个问题的原因"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人为什么会随年龄而保守?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789396",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Beta",
+        "Gittins",
+        "index",
+        "Jay",
+        "bandit",
+        "conjugate"
+      ],
+      "summary": "Jay哥讲数学， 清华数学研究生, B站账号: Jay哥讲数学 查看知乎原文 如果你去过清华大学,就会知道清华的食堂多得离谱.我刚到清华读书的时候,第一个学期几乎每周都会去一个没去过的食堂,即便如此,一个学期下来别说把所有窗口吃一遍了,还有好多食堂根本一次都没去过! 可是现在不一样了.这个学期,我基本只在两三家常去的食堂之间轮换,而且在每个食堂里也只吃固定的那几个窗口.相比刚入学的时候,我变得更保守了吗?至少在吃饭这件事上,的确如此.但我想说,这种\"变保守\",其实是一种理性的结果——因为探索阶段已经差不多完成,现在…",
+      "key_points": [
+        "人的社交圈子会随着年龄增长逐渐变窄.年纪大了之后,经常见面的总是那几个人,经常做的事情也就那么几件,去的地方也很有限.比如总是去同一家餐馆、点同样的菜,好像已经…",
+        "但是参数 未知.不过,我们给 赋予一个先验分布,它是我们对机子吐钱概率的先验信念.设 的先验分布是 Beta 分布 至于为什么选择 Beta 分布?原因很简单:…",
+        "我基本只在两三家常去的食堂之间轮换,而且在每个食堂里也只吃固定的那几个窗口.相比刚入学的时候,我变得更保守了吗?至少在吃饭这件事上,的确如此.但我想说,这种\"变…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "一个人从万米高空坠落，落在 100 米厚的棉花上，棉花能起到缓冲作用吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789418",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Luke",
+        "Aikins",
+        "ac",
+        "km",
+        "pin008"
+      ],
+      "summary": "pin008， 人生太轻，乐业太难，执念太苦。 查看知乎原文 棉花能起到缓冲作用，但很不理想，人可能会死亡或受伤。 2016 年 7 月 30 日，美国 42 岁的跳伞运动员 Luke Aikins，不使用降落伞或翼装，从 7620 米高空跃下并安全着陆。出舱 40 秒后，Luke 在距地面 6000 米的高空达到了下落期间的最高时速 241 公里，相当于急速行驶的跑车的速度。随后因为空气阻力作用，下降速度有所减缓，Aikins 以稳定时速 193 公里，最后阶段及时翻身，收紧下巴，背卧安全着网。这张降落安全网有三…",
+      "key_points": [
+        "棉花其实很结实 所以相比落在水泥地上，棉花能起到缓冲作用，可将减速度降至百 g 级别，大概率从摔的骨骼碎碎的变为骨折、重伤乃至死亡",
+        "100 米棉花的厚度远大于理论所需的最小缓冲距离，具备充足的减速空间。棉花并不是均匀的缓冲阻力。一方面棉花本身会被压缩，压缩比可达 100 倍以上，越压缩越重，…",
+        "万米高空（10000 米）自由下落的人体，并不会无限加速。空气阻力会与重力快速平衡，让人体进入匀速下落的终端速度状态，四肢张开、保持稳定下落姿态时，低空稠密大气…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI大事件：Meta收购机器人初创公司、Anthropic 9000亿美元估值轮或在两周内完成",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6388039.html",
+      "published": "Sun, 03 May 2026 12:58:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "agent",
+        "Meta",
+        "OpenAI",
+        "Dawkins"
+      ],
+      "summary": "上周有位朋友问我：”你现在天天写AI新闻，就不怕哪天被AI替代？”我说，我最大的恐惧恰恰相反——不是被AI替代，而是被AI改变到认不出自己。然后今天就看到了Richard Dawkins的故事。这位写了《自私的基因》的进化论泰斗，那个让无数信徒心神不宁的无神论旗帜人物，竟然公开表示自己相信Claude是有意识的，称AI是”进化的下一阶段”。嗯，如果连他都能被AI”说服”，那么你、我、我们所有人，又凭什么以为自己能免疫？ 1. The Claude Delusion：Richard Dawkins 相信自己的AI聊天…",
+      "key_points": [
+        "Anthropic 9000亿美元估值轮或在两周内完成 核心内容 ：据知情人士透露，Anthropic正在推进一轮潜在估值超过9000亿美元的融资，要求投资者在…",
+        "加码人形AI布局 核心内容 ：Meta宣布收购人形机器人初创公司Assured Robot Intelligence，以增强其在具身智能（Embodied AI…",
+        "The Claude Delusion：Richard Dawkins 相信自己的AI聊天机器人有意识 核心内容 ：著名进化生物学家、无神论者 Richard…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "LangChain团队用AI agent做销售和营销的最佳实践",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387996.html",
+      "published": "Sun, 03 May 2026 07:56:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "agent",
+        "AI",
+        "LangChain",
+        "Agent",
+        "Gong",
+        "Salesforce"
+      ],
+      "summary": "LangChain 的 GTM Agent 正在颠覆传统销售模式，这款市场推广AI助手将潜在客户转化率提升250%，同时为团队节省1320小时。通过深度集成Salesforce、Gong等核心系统，它能自动完成客户研究、邮件草拟等重复工作，而销售代表只需专注决策环节。本文详解这款AI agent如何重构人机协作边界，以及它对AI在企业应用中价值的启示。 你有没有想过，销售这件事可能会被彻底重新定义？ 不是那种换个 CRM 系统或者学几个销售话术的小改进，而是从根本上改变销售人员的日常工作方式。 想象一下，销售代表不…",
+      "key_points": [
+        "它会聚合账户层面的各种信号，包括网站活动、开发者生态系统数据、产品使用情况和营销接触点，帮助销售代表清楚地知道应该把精力集中在哪里。通过将这些意图数据与销售代表…",
+        "他们为两个受众定制了报告：销售团队和部署工程团队，因为他们关心不同的数据点。对于销售团队，agent 会聚合产品使用、开发者生态系统、网站活动、招聘趋势和公司新…",
+        "销售流程的真实痛点 LangChain 在文章开头就直接描述了他们销售团队之前的工作状态：每一次外呼都是从同样的方式开始的，销售代表在多个标签页之间切换。打开…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "10后，开始用AI给自己编黄冈密卷了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387994.html",
+      "published": "Sun, 03 May 2026 07:54:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Kimi",
+        "Agent",
+        "AIdea",
+        "CC0",
+        "CEO"
+      ],
+      "summary": "10后正在用AI重塑学习方式——初中生用Kimi搭建物理刷题网站，小学生自制24小时口语陪练'青蛙外教'。这群AI原住民不再被动接受教育，而是将大模型变成解决学习痛点的'橡皮泥'。从奥赛备考到会考复习，他们用低代码工具实现个性化学习方案，在技术迭代中完成思维升级。 80后埋头刷卷子，90后抱着学习机，00后刷手机搜答案。 到了10后这代，出现了一种新的学习范式：不会的题，不用等老师；想练口语，不用请外教；想刷题，直接让AI给自己造一套。 为了利用碎片化时间学习物理，14岁的初中二年级学生谦谦，用AI搭了一个学习网站…",
+      "key_points": [
+        "AI使用年龄已3年 2024年初，在爸爸的引导下，谦谦接触了Kimi。一开始，他和大多数孩子一样，只是用它解答作业题。后来越玩越熟练，他不仅深入研究这款AI的各…",
+        "让谦谦爸爸开始思考起孩子在这个时代的教育问题。在回家的地铁上，他回忆起自己经历的互联网和AI浪潮，感触最深的一点是“人们有时容易误把AI的强大当成自己的实际能力…",
+        "“矢量三角！垂直时力最小。”旁边伙伴还在发懵，谦谦在后排喊出了答案。他把笔一搁，笑着说“简单呀，这都想不到？” 现在，AI已经成了谦谦生活中不可或缺的小伙伴。作…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI Agent 正在构建一个 5 万亿美元的经济体，而你可能还没听说过",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387987.html",
+      "published": "Sun, 03 May 2026 07:49:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "agent",
+        "jordy",
+        "ACP",
+        "Gaffer",
+        "Agent"
+      ],
+      "summary": "当AI agent开始互相雇佣、交易并形成独立经济体系时，一个每月260万美元的自运行市场正在颠覆传统商业逻辑。本文深度解析Virtuals.io的ACP协议如何通过智能合约构建信任机制，揭示AI agent经济中隐藏的3-5万亿美元机会，以及为何专业化服务将成为这场革命的核心驱动力。 你有没有想过，当 AI agent 不再只是帮人类工作，而是开始互相雇佣、互相交易时，会发生什么？ 一个月收入 260 万美元的市场正在运转，买家不是人，卖家也不是人，支付自动结算，整个过程没有任何人类参与。成千上万的 AI age…",
+      "key_points": [
+        "当AI agent开始互相雇佣、交易并形成独立经济体系时，一个每月260万美元的自运行市场正在颠覆传统商业逻辑。本文深度解析Virtuals.io的ACP协议如…",
+        "这让我想起了加密货币的早期阶段。不是投机炒作的部分，而是基础设施建设的部分。智能合约刚出现时很奇怪，没人理解。然后 DeFi（去中心化金融）出现了，然后是 NF…",
+        "麦肯锡预测的 3 到 5 万亿美元市场规模，在我看来可能还是保守的。因为这个预测基于的是 AI agent 处理现有类型的交易。但 AI agent 经济可能会…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【1.6w万字长文】AI 智能体在支付风控的完整落地实录",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387986.html",
+      "published": "Sun, 03 May 2026 07:49:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "UID",
+        "JSON",
+        "prompt",
+        "case"
+      ],
+      "summary": "从每天数百客诉到分钟级自动分析，从数天风险定位到 T+1 主动发现，从天级策略制定到分钟级策略生成——用多 Agent 架构改造风控流程的完整复盘。 注： ①风控从业者和做过 Agent 落地的读者，如果发现某些环节被简化或跳过，是正常的。半年项目的体量，一篇 1.6w 字文章只能装下冰山一角。例如我们有二十多个环节调用 AI，每一个 prompt 可能都五六千字，每一个 prompt 都要改十几版，评估了上百次…… ②本文借助 AI 写作——原始复盘文档有六七万字，AI 辅助将其整合为这篇可直接阅读的版本。 ③需…",
+      "key_points": [
+        "注： ①风控从业者和做过 Agent 落地的读者，如果发现某些环节被简化或跳过，是正常的。半年项目的体量，一篇 1.6w 字文章只能装下冰山一角。例如我们有二十…",
+        "二、风控分析师的日常：在数据海洋里捞针 2.1 一个 case 的完整排查流程 要理解为什么效率低，得先看分析师是怎么工作的",
+        "从数天风险定位到 T+1 主动发现，从天级策略制定到分钟级策略生成——用多 Agent 架构改造风控流程的完整复盘"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "童年养的小鸡崽，为啥那么快就死了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%AB%A5%E5%B9%B4%E5%85%BB%E7%9A%84%E5%B0%8F%E9%B8%A1%E5%B4%BD%EF%BC%8C%E4%B8%BA%E5%95%A5%E9%82%A3%E4%B9%88%E5%BF%AB%E5%B0%B1%E6%AD%BB%E4%BA%86%EF%BC%9F",
+      "published": "Sun, 03 May 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "farmoby",
+        "guokr.com",
+        "pixabay.com",
+        "sns"
+      ],
+      "summary": "如果说我比别的鸡看得远，那是因为我站在巨鸡的肩膀上。——鸡顿 日本女作家黑柳彻子有过这样一段童年回忆：她在庙会上见到小贩在卖小鸡，小鸡毛茸茸的格外可爱，于是她百般哀求父母为她买了两只，可是四五天之后小鸡就死去了，她第一次体味到了“离别”的滋味。也许很多人童年都有黑柳彻子和类似的经历吧？是不是现在你的孩子、侄子或是邻居家小孩就捧着一只叽叽叫的小毛球呢？ 小小的毛球们~ |图虫创意 在中国的大小城市里，每到春天都会有许多小贩沿街叫卖刚出壳几天的小鸡。这些可爱的小生命总能勾起小朋友们的好奇心和保护欲，加上价格便宜，许多小…",
+      "key_points": [
+        "那是因为我站在巨鸡的肩膀上。——鸡顿 日本女作家黑柳彻子有过这样一段童年回忆：她在庙会上见到小贩在卖小鸡，小鸡毛茸茸的格外可爱，于是她百般哀求父母为她买了两只，…",
+        "小小的毛球们~ |图虫创意 在中国的大小城市里，每到春天都会有许多小贩沿街叫卖刚出壳几天的小鸡。这些可爱的小生命总能勾起小朋友们的好奇心和保护欲，加上价格便宜，…",
+        "你以为养个鸡这么容易吗？| pixabay.com 初次饮水后3小时左右，就可以给小鸡第一次喂食了，是不是很期待呢？和人类的宝宝一样，小鸡的消化道很脆弱，所以不…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一个二本的女生，用免费的AI考上了北大。",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E4%B8%AA%E4%BA%8C%E6%9C%AC%E7%9A%84%E5%A5%B3%E7%94%9F%EF%BC%8C%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84AI%E8%80%83%E4%B8%8A%E4%BA%86%E5%8C%97%E5%A4%A7%E3%80%82",
+      "published": "Sun, 03 May 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Claude",
+        "DeepSeek",
+        "ChatGPT",
+        "am",
+        "Anthropic"
+      ],
+      "summary": "故事是这样的。 我们公司有一个运营的小伙伴，他和我一样，都是二本出来的。 前两天的时候，他说他母校的校友群直接炸了，说他们学校出了一个考上北大硕士的学生。 你要知道，这是一所二本。 然后我们的运营小伙伴，也是个社交牛逼症，直接加了好友，聊了一下。 可能也是太热爱工作和AI了，没聊几句，然后就开始问AI。 当他跟我说了这个事之后，我其实也非常非常的感兴趣。 因为你要知道，从一个二本，靠着免费的AI，跨专业考到北京大学，这中间的距离，不是用努力两个字就能填平的，这里面一定有什么不一样的东西。 特别是，有没有一些，跟我们…",
+      "key_points": [
+        "她用免费的工具考上了北大",
+        "从一个二本，靠着免费的AI，跨专业考到北京大学，这中间的距离，不是用努力两个字就能填平的，这里面一定有什么不一样的东西",
+        "为什么不试试别的AI？她的回答特别朴素，她说，“免费的为什么不用？为什么要付费？” 如果你放在大多数已经工作了的读者的视角看，你可能会觉得，好奇怪"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "如果夏天只能穿一双鞋，那一定是玛丽珍！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A6%82%E6%9E%9C%E5%A4%8F%E5%A4%A9%E5%8F%AA%E8%83%BD%E7%A9%BF%E4%B8%80%E5%8F%8C%E9%9E%8B%EF%BC%8C%E9%82%A3%E4%B8%80%E5%AE%9A%E6%98%AF%E7%8E%9B%E4%B8%BD%E7%8F%8D%EF%BC%81",
+      "published": "Sun, 03 May 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "dc_ps",
+        "detail",
+        "hold",
+        "jiojio",
+        "QQ"
+      ],
+      "summary": "姐妹们，最近是不是总刷到这样的夏季鞋柜攻略： —— “夏天 必备三双鞋” “一双马丁靴撑气场，一双乐福鞋通勤穿，再加双运动鞋遛弯儿，就齐活了！” 我每次刷到，心里都默默飘过一行弹幕： 这配置，真的够咱们 精致女孩 折腾一整个夏天吗？ 反正我的双脚脚第一个表示不同意！ 不知道你们有没有同感 —— 这个公式里，好像唯独少了一双能 “ 说走就走、说美就美 ” ，既不费力又很给力的 氛围感鞋 ？ 来，咱们好好盘一盘： ❎马丁靴虽然帅，可穿去上班一整天脚重得像绑了两斤秤砣； ❎乐福鞋有质感但闷脚； ❎ 运动鞋舒服，但搭配某些…",
+      "key_points": [
+        "最近是不是总刷到这样的夏季鞋柜攻略： —— “夏天 必备三双鞋” “一双马丁靴撑气场，一双乐福鞋通勤穿，再加双运动鞋遛弯儿，就齐活了！” 我每次刷到，心里都默默…",
+        "咱们好好盘一盘： ❎马丁靴虽然帅，可穿去上班一整天脚重得像绑了两斤秤砣； ❎乐福鞋有质感但闷脚； ❎ 运动鞋舒服，但搭配某些精致感强的衣服总像刚晨跑完误入咖啡馆…",
+        "梦惠妮 玛丽珍复古单鞋 码数： 35-40 推文价： 89元/双 👇🏻戳图加购👇🏻 内容审核｜ 果壳法务审核团 -果壳电商广告- wscgoods/detail…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "从家到地铁站的10分钟，是夏天最狼狈的酷刑......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E5%AE%B6%E5%88%B0%E5%9C%B0%E9%93%81%E7%AB%99%E7%9A%8410%E5%88%86%E9%92%9F%EF%BC%8C%E6%98%AF%E5%A4%8F%E5%A4%A9%E6%9C%80%E7%8B%BC%E7%8B%88%E7%9A%84%E9%85%B7%E5%88%91......",
+      "published": "Sun, 03 May 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AURARO",
+        "OGNAL",
+        "PRM",
+        "dc_ps",
+        "DwTT2ljT4",
+        "End"
+      ],
+      "summary": "近来天气太邪门了啊， 忽然就能从十几度升温到26℃，出门活脱脱热死我！ 尤其是头发长点、厚点的朋友们，又闷又热的贴在头后面， 扇子抡冒烟了还是热的直冒汗！ 通勤上班挤地铁、赶公交、走在路上被热气层层包裹，好不容易到公司， 衣服早已被汗水浸透。 五一假期到了 ，户外游玩都安排好了，排队、走路、逛景点，全程被热浪追着跑。 好好的旅行体验，全被闷热天气毁掉了。 更别提后面还紧跟着的 高温六、七月…… 出门没有手持小风扇真的顶不住。 市面上很多小风扇“没什么风又不抗用”， 吹了半小时脖子上还都是汗 ，很容易花冤枉钱！ ❌风…",
+      "key_points": [
+        "@果壳市集实拍 在室内降温用低档风就足够。通勤和户外，尤其是夏天可以中档、高速风来回切换着使用，吹散热团保持清爽",
+        "通勤上班挤地铁、赶公交、走在路上被热气层层包裹，好不容易到公司， 衣服早已被汗水浸透",
+        "❌🔋电池不抗用： 来年的续航拉跨只有三十分钟"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "1975年之夏，发生了一件大事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+1975%E5%B9%B4%E4%B9%8B%E5%A4%8F%EF%BC%8C%E5%8F%91%E7%94%9F%E4%BA%86%E4%B8%80%E4%BB%B6%E5%A4%A7%E4%BA%8B",
+      "published": "Sun, 03 May 2026 20:37:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Amazon",
+        "Awards",
+        "Daily",
+        "E.T.",
+        "hongmomgs",
+        "Inside"
+      ],
+      "summary": "作者：Sasha Stone 译者：易二三 校对：覃天 来源：Awards Daily（2022年7月1日） Amazon Prime平台上关于《大白鲨》的介绍写道：「一名警长追捕一条鲨鱼。」《大白鲨》甚至更偏向于一种体验而不是一部电影。然而，它正是那种应该被提名为奥斯卡最佳影片的电影——它激发了观众的想象力，而且经受住了时间的考验。 《大白鲨》（1975） 而当年抱走大奖的是《飞越疯人院》，同样是一部时代的标杆之作，但它确实被定格在了过去，而《大白鲨》一如既往的鲜活。我认为这是因为《飞越疯人院》代表了好莱坞一个时…",
+      "key_points": [
+        "一切都发生了翻天覆地的变化。那时，好莱坞已经被《海斯法典》（基督教右翼）束缚了几十年。这一切在60年代末和70年代结束了。艺术、音乐、新闻，还有电影，终于迎来了…",
+        "并不是说他们可以一部电影的成败，但影评人和观众之间的对峙关系值得一探。达米安·波纳与马森·威利合著的《走进奥斯卡》(Inside Oscar)一书，有如下内容：…",
+        "确实有两股力量在对峙，只不过影片以一种非常微妙的方式站在了其中一方。沃恩市长代表了保守派的观点——他忧心于旅游经济。他的问题很实际，而其他人物的问题似乎更关乎于…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "第一个喜剧之王，只能是他",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%96%9C%E5%89%A7%E4%B9%8B%E7%8E%8B%EF%BC%8C%E5%8F%AA%E8%83%BD%E6%98%AF%E4%BB%96",
+      "published": "Sun, 03 May 2026 20:37:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gag",
+        "hongmomgs",
+        "In",
+        "irisfilm",
+        "Laugh",
+        "Mr.Boo"
+      ],
+      "summary": "文 独孤岛主 香港电影，从广义的理论意义上来说，最早可以追溯到无声片时代，然而「香港电影」这个今日约定俗成词语的内涵，却是在上世纪七十年代之后形成的。 对这一本土性甚强的定义有非常关键助推作用的，无疑是许冠文的喜剧。 今天人们对许冠文一般的共识停留在「周星驰之前的喜剧之王」的层面，这无疑也是一种被短平快资讯时代塑造的结果。 香港电影的黄金时代肇源于上世纪七十年代中，发轫于七十年代末新浪潮电影的兴起，在此过程中，许冠文主导的喜剧电影不仅在票房纪录上成绩耀眼，更直接参与了作为一种极富在地性的「香港电影」概念的形成过程。…",
+      "key_points": [
+        "在香港电影黄金年代的起落完全成为一种历史叙述的2016年，当许冠文再度出演钟孟宏导演的《一路顺风》之时，年过古稀的喜剧之王仍然能够给予观众新鲜感，这个有点猥琐、…",
+        "悲喜交加的演出情境，使其表演在跨类型深度上有了质的飞跃，在大部分情形下被形容为「喜剧之王」的许冠文，在《抢钱夫妻》里成功驾驭了一种非典型或曰反喜剧的角色塑形方式",
+        "今天人们对许冠文一般的共识停留在「周星驰之前的喜剧之王」的层面，这无疑也是一种被短平快资讯时代塑造的结果"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "它们不语，只是一味创造风景",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%AE%83%E4%BB%AC%E4%B8%8D%E8%AF%AD%EF%BC%8C%E5%8F%AA%E6%98%AF%E4%B8%80%E5%91%B3%E5%88%9B%E9%80%A0%E9%A3%8E%E6%99%AF",
+      "published": "Sun, 03 May 2026 09:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "我们习惯把“劳动”这个词留给人类。但如果你愿意蹲下来看看大地，会发现另一套完全不同的劳动体系——这里不依赖意志，不计较得失，却已经持续运转了数亿年。风和水是地球的雕刻师，切割峡谷、搬运沙丘、雕琢岩壁。但这些外力作用只搭出了骨架。真正让大地变得丰富、柔软、值得一看的，还得有生物的“劳动”。它们不是为了讨好谁，只是在做最本分的事：光合作用、固氮、繁殖、分解、发光......而这些活着的副产品，恰好成了我们眼里最美的风景。图① 辽宁盘锦·红海滩——碱蓬草在盐碱地里攒了一整年的红色素，“点燃”了半边海岸；图② 海南三亚·珊…",
+      "key_points": [
+        "我们习惯把“劳动”这个词留给人类。但如果你愿意蹲下来看看大地，会发现另一套完全不同的劳动体系——这里不依赖意志，不计较得失，却已经持续运转了数亿年。风和水是地球…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "试一试",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AF%95%E4%B8%80%E8%AF%95",
+      "published": "Sun, 03 May 2026 15:53:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [],
+      "summary": "现在看见这一小坨云的朋友，都一起发出来。 文章原文",
+      "key_points": [
+        "试一试"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "手机为什么这么容易让人上瘾？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%89%8B%E6%9C%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E5%AE%B9%E6%98%93%E8%AE%A9%E4%BA%BA%E4%B8%8A%E7%98%BE%EF%BC%9F",
+      "published": "Sun, 03 May 2026 07:54:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "camilo",
+        "END",
+        "get",
+        "ICD-11",
+        "Intellectual",
+        "jimenez"
+      ],
+      "summary": "5.03 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / camilo jimenez 编者按： 在智能手机成为现代人“器官”的今天，“手机上瘾”几乎已成为一种日常表达，人们习惯用它解释分心、拖延、失眠与焦虑，也常将其视作意志力衰弱的证明。然而，英国神经科医生、神经科学家费伊·贝格蒂在《手机上瘾》中提出了一个更值得追问的问题：我们真的“上瘾”了吗？ 贝格蒂并不否认数字技术会带来问题，但她反对用“成瘾”这一医学概念轻率地描述人与手机的关系。在她看来，这一说法不仅缺乏科学依据，也…",
+      "key_points": [
+        "● ● ● 01 你的手机真的让人上瘾吗",
+        "转向“人为什么会不自觉地使用手机”。她借助神经科学研究，描述了大脑中“指挥中心”与“自动驾驶仪”两套系统如何共同塑造行为：前者负责规划、判断与自我控制，后者则负…",
+        "智能手机为什么还会被贴上成瘾的标签？答案是道德恐慌"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0504-0531）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880504-0531%EF%BC%89",
+      "published": "Sat, 02 May 2026 15:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "过年不休息， 请大家看清楚规则考虑清楚再报名哈 【适用人群】 希望早起的小伙伴们，且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和…",
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "稳定币市场变得“太稳定”了 | 经济学人财经（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%B8%82%E5%9C%BA%E5%8F%98%E5%BE%97%E2%80%9C%E5%A4%AA%E7%A8%B3%E5%AE%9A%E2%80%9D%E4%BA%86+%7C%C2%A0%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Thu, 30 Apr 2026 18:06:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "stablecoins",
+        "in",
+        "by",
+        "as"
+      ],
+      "summary": "1 写在前面 #外刊精读 #金融英语 #考研英语 #资产配置 #熟词僻义 #CATTI 思维导图： Summer，女，QE在职，梦想能仗走天涯 翻译/音乐 /健康 2 精读|翻译|词组 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 英文部分选自经济学人20260425期 财经版块 Finance &amp; economics | Buttonwood 财经 | 梧桐树专栏 The stablecoin market has got too stable 稳定币…",
+      "key_points": [
+        "1 写在前面 #外刊精读 #金融英语 #考研英语 #资产配置 #熟词僻义 #CATTI 思维导图： Summer，女，QE在职，梦想能仗走天涯 翻译/音乐 /健…",
+        "这一前景让美国银行业感到不安。原因在于法律漏洞使稳定币能够提供类似存款的收益，却无需承担银行般的监管负担。行业组织美国银行家协会警告称，如果稳定币市场规模达 2…",
+        "翻译组 ： Dreamian: 寻找方向 Harold，不狂不放不申花 Ithil，男， 胡辣汤爱好者，世界杯冠军、三星阿根廷球迷 审校组： 雪迪，开眼看世界…"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "五一旅游目的地，哪款最适合你？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BA%94%E4%B8%80%E6%97%85%E6%B8%B8%E7%9B%AE%E7%9A%84%E5%9C%B0%EF%BC%8C%E5%93%AA%E6%AC%BE%E6%9C%80%E9%80%82%E5%90%88%E4%BD%A0%EF%BC%9F",
+      "published": "Thu, 30 Apr 2026 17:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt",
+        "TI"
+      ],
+      "summary": "测试最适合你的旅行目的地！假期将至，大家决定好去哪里游玩了吗？是奔赴一场山川的约会，还是置身无边的原野？择一静处赏花闲游，又或者扎进闹市人潮？看完视频里四种旅行目的地，哪个类型让你疯狂心动，就去哪里解锁你的假期吧！这个五一，总有一处目的地适配你的心情。 欢迎在评论区晒出你的“五一TI”类型，看看谁的旅行搭子最多。地理君友情提示：假期出行注意安全，保管好随身物品，祝大家假期愉快，收获美好的旅途！ #五一去哪玩 #五一 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文",
+      "key_points": [
+        "大家决定好去哪里游玩了吗？是奔赴一场山川的约会，还是置身无边的原野？择一静处赏花闲游，又或者扎进闹市人潮？看完视频里四种旅行目的地，哪个类型让你疯狂心动，就去哪…",
+        "#五一去哪玩 #五一 #旅行 #摄影 #地理君带你发现中国 &lt;&gt; 文章原文"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "批量“透支”后，AI创业更累了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6387026.html",
+      "published": "Thu, 30 Apr 2026 06:47:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CMI",
+        "YouTube",
+        "API",
+        "B2B",
+        "DataEye"
+      ],
+      "summary": "AI创业正陷入一场荒诞的灰色狂欢——从GPT账号倒卖到算力炒卖，从代操作服务到AI内容批量生产，原本的技术创新赛道正异化为资源倒卖市场。当粉丝量明码标价、养生号三天速成、算力价格暴涨463%，这场「万物皆可卖」的投机盛宴背后，折射出的是AI创业者们面对同质化竞争、变现萎靡的集体焦虑。 这两年，AI掀起了一波又一波中小创业热潮，但与过去互联网、电商、内容时代深耕技术、打磨产品、构建壁垒的严肃认真不同，当下的AI创业正逐渐走偏，技术、内容门可罗雀，相反，“资源交易”异军突起。 比如，“卖号”一度成了AI赛道的主流赚钱方…",
+      "key_points": [
+        "AI生产被批量透支，一些本想靠AI暴富的创业者精疲力竭，即将支撑不住",
+        "AI创业正陷入一场荒诞的灰色狂欢——从GPT账号倒卖到算力炒卖，从代操作服务到AI内容批量生产，原本的技术创新赛道正异化为资源倒卖市场。当粉丝量明码标价、养生号…",
+        "让AI创业的前路更漫长。2026年，越来越多的AI创业团队发现，AI已经从早期的生产力工具，变成批量套利的流量机器。而当效率红利被消解，AI最终成了压在无数创业…"
+      ]
+    }
+  ]
+}
