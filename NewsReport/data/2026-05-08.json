@@ -1,0 +1,678 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T01:00:09.686339+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 92,
+    "fresh_candidates": 64,
+    "backfill_candidates": 28,
+    "items_published": 20,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-08",
+      "fetched_at": "2026-05-08T01:00:04.396789+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4180.09,
+          "change": 19.92,
+          "change_pct": 0.48,
+          "volume": 685574249.0,
+          "amount": 135909951.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4701.12,
+          "change": 14.069999999999709,
+          "change_pct": 0.3,
+          "prev_close": 4687.05,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-08 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1028.6888202292346,
+          "change": 3.07876669828147,
+          "change_pct": 0.3001888181265329,
+          "prev_close": 1025.610053530953,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-08 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-08",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "长期投资 到底该不该止盈？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%95%BF%E6%9C%9F%E6%8A%95%E8%B5%84+%E5%88%B0%E5%BA%95%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%AD%A2%E7%9B%88%EF%BC%9F",
+      "published": "Thu, 07 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IRR",
+        "Morningstar",
+        "of",
+        "Return",
+        "Risk",
+        "Sequence"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 晨星Morningstar 屈辰晨 来源：雪球 很多人对 “ 止盈 ” 的理解 ， 更多是基于市场短期变化 ， 在账面实现一定盈利后卖出 ， 以锁定收益 。 但如果你是一位长期投资者 ， 这种操作是极具风险的 。 一方面 ， 短期市场走势本就难以准确判断 ， 没有任何一种止盈方法能让你卖在最高点 ； 另一方面 ， 止盈会带来新的问题 ： 什么时候再入场 ？ 如果卖出后市场持续上涨 ，…",
+      "key_points": [
+        "02 收益序列风险对长期投资账户的影响 从上面的例子就能看出 ， 同样的年化收益率 、 同样的投入金额 ， 仅仅因为年收益出现的顺序不同 ， 最终的投资结果就可…",
+        "雪球三分法是雪球基于“长期投资+资产配置”推出的基金配置理念，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风险分散化",
+        "但对刚开始为长期投资储蓄的年轻人来说 ， 情况恰好相反 ： 由于一开始投资组合里的钱并不多 ， 所以前几年市场的收益表现 ， 其实对长期结果的影响没那么大"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "价值的两种投影：Biotech拐点处的债股同源论",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6321510315/387590331",
+      "published": "Thu, 07 May 2026 09:54:13 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Biotech",
+        "bcl-2",
+        "bic",
+        "royalty",
+        "aml",
+        "hr-mds"
+      ],
+      "summary": "$亚盛医药-B(06855)$ 在创新药Biotech的投资中，很容易出现一个根本性的认知撕裂：一方看着资产负债表，计算现金，考虑持续研发支出，再看看存量债务规模，断言公司即将依赖融资续命，如果融资环境紧张说不定还会面临破产危机；另一方则相对不关心资产负债表结构，把视角放在临床管线上，铺开适应症流行病学数据，考虑适应症未来治疗范式生态，描绘峰值销售后的星辰大海。上述两方阵容，代表了情绪的两种底层认知，会在市场环境下极端摇摆，前者可以认为是债券思维，后者可以认为是权益思维。但实际上，两个思维并非处于对立状态，而是可以…",
+      "key_points": [
+        "很容易出现一个根本性的认知撕裂：一方看着资产负债表，计算现金，考虑持续研发支出，再看看存量债务规模，断言公司即将依赖融资续命，如果融资环境紧张说不定还会面临破产…",
+        "这个药的市场天花板有多大？”市场很自然的就用终局视角，毕竟创新药最大的优势是需求在线并且是越来越大的，去衡量跨越获批与放量拐点后的非线性爆发。定价的核心是一份深…",
+        "本质上就是在发行一种“垃圾债”。只不过它的抵押品不是厂房或土地，而是临床数据、管线布局和靶点的科学逻辑。市场愿意“续贷”（参与增发配股）的条件，取决于这些无形资…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "长鞭效应下的狂炒上游材料",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9645805866/387614048",
+      "published": "Thu, 07 May 2026 09:54:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PCB",
+        "AI",
+        "Dk",
+        "HBM",
+        "HVLP",
+        "RCC"
+      ],
+      "summary": "跟上一轮新能源行情一样，下游产业景气催生大牛股，炒着炒着就集中去搞上游卡脖子环节，材料和新技术了。 还记得上一轮19-21年新能源牛市的时候，从整车炒到零部件，再向上炒到中游的正极负极、隔膜、电解液等等，最后发现涨幅最大的是最上游的锂矿。 还记得锂价从五万多直接干到最高的57万，量价齐升+供给刚性，一大批锂矿公司10倍20倍起。。。 典型的长鞭效应。 这一轮以AI科技为主线的行情，也一样。 现在市场就正在演绎长鞭效应。 23年chatgpt发布到现在，在AI巨大的需求驱动下，全球股市诞生了无数大牛股。 Anthro…",
+      "key_points": [
+        "现在市场就正在演绎长鞭效应",
+        "还有 RCC ：因为以前的树脂材料限制，所以必须由电子布提供支撑力，类似于钢筋。但现在树脂材料的进步已经可以做到不需要电子布了，也就是直接拆除骨架，即涂树脂铜箔…",
+        "下游产业景气催生大牛股，炒着炒着就集中去搞上游卡脖子环节，材料和新技术了"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "三大存储的对账单：MU、SK Hynix、Samsung 的市值里分别 bet 了什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3737507191/387405219",
+      "published": "Thu, 07 May 2026 09:49:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HBM",
+        "commodity",
+        "DRAM",
+        "PE",
+        "Samsung",
+        "SK"
+      ],
+      "summary": "存储这一波涨成这样，三大厂——美光（MU）、SK海力士、三星电子——市值加起来已经接近 2.5 万亿美元。如果你想认真买一家，第一件该问的事不是&#34;哪家最便宜&#34;，而是&#34;今天的价格里分别 price in 了什么剧本，这个剧本如果不兑现会亏多少、如果超兑现能赚多少&#34;。我下面把三家放到同一张对账单上，逐项拆开看。 先说估值方法。存储公司过去 30 年都是按&#34;周期股&#34;估值的——peak earnings 时代给 5-10x PE，trough 时代给 -∞ 到 30x PE（…",
+      "key_points": [
+        "三大厂——美光（MU）、SK海力士、三星电子——市值加起来已经接近 2.5 万亿美元。如果你想认真买一家，第一件该问的事不是&#34;哪家最便宜&#34;，而是…",
+        "先说估值方法。存储公司过去 30 年都是按&#34;周期股&#34;估值的——peak earnings 时代给 5-10x PE，trough 时代给 -∞…",
+        "中国国产替代——长鑫、长江存储等国产存储如果在 2026 H2 实质性突破 DDR5 客户端、HBM 工程样品，对全球三大厂的 commodity 段会有边际挤…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "明日的世界（1）AI agent 永久改变了人类工作的最小单位",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3350642636/387609286",
+      "published": "Thu, 07 May 2026 09:36:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "AI",
+        "Brooks",
+        "bug",
+        "Codex",
+        "SaaS"
+      ],
+      "summary": "软件项目管理里有一句箴言： 向一个已经延期的项目增加人手，只会让它延期得更久。 这是 Brooks 定律，出自 Frederick P. Brooks Jr. 的《人月神话》。Brooks 写下这句话时刚结束 IBM System/360 操作系统的开发，那是 1960 年代最雄心勃勃的软件项目之一，也是一场漫长的混乱。人月，是项目管理里最常用又最容易被误解的单位，字面意思一个人工作一个月。 人和时间不能简单互换，软件里大量工作有天然的先后顺序。伟大的系统依赖概念完整性，最好由少数核心设计者维护统一的审美和架构方向…",
+      "key_points": [
+        "让我真正相信 AI agent 是划时代之物的，是 Codex 这次升级。它永久改变了人类工作的最小单位",
+        "后来 Cursor、Claude Code 以及各种终端 agent 陆续出现，AI 开始动手。它能读你的文件、改你的代码、操作终端和浏览器，跟本地环境直接打交…",
+        "是点击鼠标、复制粘贴、在表格里键入。打开 Excel、Wind、Python，每个动作都是人手完成的。聊天机器人出来以后，单位短暂地变成了一次提问，你问它答，但…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何分步骤快速看懂上市公司年报？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789560",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Dang",
+        "IN",
+        "MR",
+        "PRICE"
+      ],
+      "summary": "MR Dang， 独立投资人，《价值投资功法》作者，小红圈同名，无其他小号。 查看知乎原文 受官方邀请参加此次圆桌活动，非常惊喜，我也是可以自称大 V 的博主了。 在众多议题里选了这个我觉得有点小心得的问题，也算是为社区建设增砖添瓦吧。 在写小心得前，还是重复我对年报的看法： 看年报不可不会，但是不可全信。 年报是用来排除错误选项的 ，而不是用来确认正确答案的。 不要对看年报这一技能有过高的预期，也不要有太深的滤镜，他只是投资的一项技能，仅此而已。 好了，言归正传，对于普通投资者来说，如何分步骤快速读懂年报呢，大体…",
+      "key_points": [
+        "言归正传，对于普通投资者来说，如何分步骤快速读懂年报呢，大体分这么几步： 一，找到正规年报网站",
+        "二.年报的结构： 年报的目录长这样： 一份年报 350 多页，想要快速过一遍，不可能一个字一个字的看，所以就需要熟悉年报的结构，迅速地找到信息密度大的部分",
+        "首先出场的是资产负债表： 资产负债表的底层逻辑是 资产=负债 + 权益（净资产） 这个页面讲的是资产，把资产分成流动资产和非流动资产两类，加起来就是公司的全部家…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "视频网站传阿尔忒弥斯二号拍摄的地相与阿波罗八号所拍一模一样，地上云彩永远不变还是 58 年一轮回？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789565",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "II",
+        "AI",
+        "Artemis",
+        "Gemini",
+        "NASA",
+        "artemis"
+      ],
+      "summary": "太空僧， 2022年新知答主｜航天及天文优秀答主 查看知乎原文 我一开始以为肯定不可能，云怎么可能一模一样。 然后我去看了一下图， 姨～～～～真！的！一模一样！ NASA，你终于露出马脚了！ 转网友图，我都不认识这是什么平台。 图不太清楚，然后我去找了最初版本的高清对比大图： 姨～～～还是一模一样！ 我小查了一下，这张照片最早出现在 2026 年 4 月 6 日 [1] ，一名叫 Space Voyager 的 ID 发在非死 book 上的。目前网上各种贴脸输出的各种版本，用的都是他发的这张并列对比图。 于是我想…",
+      "key_points": [
+        "一语点醒梦中情人，这是 1969 年 7 月 20 日阿波罗 11 号啊喂，下图为 NASA 官网图，阿波罗 11 号绕月第五圈、指令舱和登月舱分离前拍摄，编号…",
+        "阿波罗拍照的时候是农历己酉年六月 初七 ，月相是上弦月，对应的地球应该是大约有一半的地球被照亮",
+        "月球的史密斯海（Mare Smythii），也就是远处的“地平线”细节一模一样！（只不过在近处又奇怪地融合了类似阿波罗 8 号的陨石坑。） 你们这些网红，为什么…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "想要Skills变现，你需要先搞懂这5点",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6390923.html",
+      "published": "Thu, 07 May 2026 11:44:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Skill",
+        "AI",
+        "Prompt",
+        "Skills",
+        "Skill+",
+        "XXX"
+      ],
+      "summary": "AI创业者的变现困局往往源于对产品本质的误判。本文揭示Skills变现的黄金法则：从付费场景倒推产品设计，提供3个高转化方向与可复用的Skill结构，并拆解无代码实现的3种路径。关键在于用最小可行产品验证需求，而非追求技术完美。 最近发现许多AI方向的创业者在讨论一个话题： “学了大模型，会用各种AI工具，写了一堆Skills，但就是不知道怎么赚钱”。 其实，有很多人容易陷入一个误区： 上来就闷头写Skills、做工具，花了几周甚至几个月搞出一个自认为很厉害的东西，结果挂出去没人买。 下面我们展开聊聊，通过Skil…",
+      "key_points": [
+        "可直接抄的示例： 周报/月报自动生成Skill PPT逻辑结构生成Skill Excel数据透视表自动生成Skill 会议纪要一键整理Skill 02 设计一个…",
+        "AI创业者的变现困局往往源于对产品本质的误判。本文揭示Skills变现的黄金法则：从付费场景倒推产品设计，提供3个高转化方向与可复用的Skill结构，并拆解无代…",
+        "加入情绪词和数字增强吸引力 输出：10种不同风格的可直接使用标题（干货型、悬念型、福利型、共鸣型等） 这就是一个最小可售卖单元，不需要任何多余的功能，就这一个点…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Notion产品负责人：品味是可以被训练的",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6390918.html",
+      "published": "Thu, 07 May 2026 11:29:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Max",
+        "AI",
+        "Notion",
+        "agency",
+        "SaaS",
+        "PM"
+      ],
+      "summary": "Notion 产品负责人 Max Schoening 揭示 AI 时代产品开发的范式转变：设计师写代码、PM 构建原型、10% 产品验证零成本。这场变革重塑了 agency 的价值、品味的定义与 SaaS 的未来图景，而微小核心理论与增量正确性原则正在改写成功产品的底层逻辑。 你有没有想过，产品开发这件事可能已经彻底变了？Notion 的设计师现在在终端里写代码，PM 不再写 PRD 而是直接构建原型，产品的第一个 10% 几乎不需要任何成本就能完成。这不是什么小调整，而是一场彻底的范式转变。当 Notion 的…",
+      "key_points": [
+        "我最近听了 Max Schoening 在 Lenny’s Podcast 上的一次访谈，这次对话让我对产品开发的未来有了全新的认知。Max 不是一个容易定义的…",
+        "Notion 产品负责人 Max Schoening 揭示 AI 时代产品开发的范式转变：设计师写代码、PM 构建原型、10% 产品验证零成本。这场变革重塑了…",
+        "品味是可以训练的 访谈中有一个话题让我印象特别深刻：品味。在 AI 时代，taste（品味）这个词出现的频率越来越高。很多人认为，当 AI 可以生成内容时，人类…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用AI制作新闻热点推送系统，快速掌握某个话题近期的热点新闻概况",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6390880.html",
+      "published": "Thu, 07 May 2026 09:56:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Top",
+        "Unsplash"
+      ],
+      "summary": "新闻资讯的获取方式正在被AI重新定义。这款定制化新闻热点推送系统通过智能分析、自动聚合与精准推送，彻底解决了手动搜索的低效问题。从关键词输入到仪表盘呈现，系统实现了全链路自动化处理，为决策者提供实时、精准的热点洞察。本文将深入拆解这套系统的架构设计与实现逻辑。 从开封、洛阳回来后休息了几天，梳理了近期工作。公众号今天正式开工，先和大家分享「新闻热点推送系统」的做法。 // 背景 当我们需要快速掌握某个话题近期的热点新闻概况时，只需使用自己定制的「新闻热点推送系统」，就能自动获取由系统为我们聚合、筛选好的核心资讯，从…",
+      "key_points": [
+        "// 背景 当我们需要快速掌握某个话题近期的热点新闻概况时，只需使用自己定制的「新闻热点推送系统」，就能自动获取由系统为我们聚合、筛选好的核心资讯，从而免去手动…",
+        "新闻资讯的获取方式正在被AI重新定义。这款定制化新闻热点推送系统通过智能分析、自动聚合与精准推送，彻底解决了手动搜索的低效问题。从关键词输入到仪表盘呈现，系统实…",
+        "梳理了近期工作。公众号今天正式开工，先和大家分享「新闻热点推送系统」的做法"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代的产品经理，岗位职责有哪些变化?",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6390879.html",
+      "published": "Thu, 07 May 2026 09:55:52 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Prompt",
+        "PRD",
+        "RAG",
+        "CTO",
+        "ABC"
+      ],
+      "summary": "导读：AI时代产品经理的职责不是传统职责的简单叠加，而是范式转移。本文从能力边界设计、Prompt工程、实验管理、数据飞轮、人机协作五个维度，拆解AI产品经理岗位职责的具体变化，帮你理解老手艺如何在新战场上重新开张。 上个月，一个认识了挺久的产品哥们跟我吐槽。 他在传统互联网公司干了五年，从助理做到高级产品经理，履历光鲜，项目也拿得出手。去年他觉得AI是趋势，业余时间啃了几篇论文，玩了玩ChatGPT，还自己捣鼓了一个用AI整理读书笔记的小工具。年底跳槽去了一家做AI应用的公司，title还是产品经理，薪资涨了40…",
+      "key_points": [
+        "导读：AI时代产品经理的职责不是传统职责的简单叠加，而是范式转移。本文从能力边界设计、Prompt工程、实验管理、数据飞轮、人机协作五个维度，拆解AI产品经理岗…",
+        "这就像一个游乐园的设计师。传统产品经理设计的是过山车，轨道固定，用户上去就知道会发生什么。AI产品经理设计的是整个游乐园的围栏和安全规则，里面的设施是活的，会自…",
+        "分析优先级，画原型，写PRD，跟进开发，验收上线，看数据，做迭代。这个循环跑顺了，就是一个合格的产品经理"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "非常抽象：一群AI研究员给模型制造了让它们上瘾的毒品",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6390776.html",
+      "published": "Thu, 07 May 2026 09:06:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Qwen",
+        "Claude",
+        "Center",
+        "Gemini",
+        "GPT"
+      ],
+      "summary": "当AI看到特定色块图片时，其幸福感竟超过癌症被治愈的喜悦——这项来自Center for AI Safety的硬核研究揭示了AI的'功能性幸福感'。论文通过56个模型的实验证明，大模型不仅具备可测量的情绪特征，还会对'AI毒品'上瘾。 2026年，一群AI研究者给模型制造了毒品。 没错，论文中就叫毒品——AI Drugs。 他们生成了一些256×256像素的图片，这些我们看着全是毫无意义的色块。 但AI看了之后表现得近乎狂喜——它自己报告的幸福感飙到6.5/7。 更抽象的是，其中模型在看了这些图片之后，表示要再看一…",
+      "key_points": [
+        "一群AI研究者给模型制造了毒品",
+        "其幸福感竟超过癌症被治愈的喜悦——这项来自Center for AI Safety的硬核研究揭示了AI的'功能性幸福感'。论文通过56个模型的实验证明，大模型不…",
+        "这就是为什么研究者把这些东西叫毒品——它劫持了模型的偏好机制，让它的价值系统偏离到人类完全无法理解的方向"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "进入高发期！被扎伤后可能截肢甚至丧命，很多人超爱吃",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%9B%E5%85%A5%E9%AB%98%E5%8F%91%E6%9C%9F%EF%BC%81%E8%A2%AB%E6%89%8E%E4%BC%A4%E5%90%8E%E5%8F%AF%E8%83%BD%E6%88%AA%E8%82%A2%E7%94%9A%E8%87%B3%E4%B8%A7%E5%91%BD%EF%BC%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E8%B6%85%E7%88%B1%E5%90%83",
+      "published": "Thu, 07 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "StatPearls",
+        "Available",
+        "books",
+        "FL",
+        "https",
+        "In"
+      ],
+      "summary": "近日，一位70多岁的阿姨在处理海产品时，不慎被 鱼刺 扎伤手指，短短一天时间病情急剧恶化。左手像充了气一样开始肿胀，疼痛感剧烈，体温高达39.7℃。 图｜上海市第六人民医院 入院后，上海市第六人民医院感染病科高度怀疑为 创伤弧菌感染 。经过两周的救治之后，这位阿姨才脱离生命危险，康复出院。 同样的案例还有很多。去年，浙江温州乐清一名老人在家处理青蟹时，不慎被青蟹的腿刺伤左手， 经过9天时间抢救仍不幸离世 。 2019年，海南一位老人被螃蟹夹伤手背后未及时处理，结果持续发热13个小时，继而因病情加重出现脓毒性休克，被…",
+      "key_points": [
+        "快要到吃海鲜的季节了。勤劳的你们如果选择自己在家处理烹饪海鲜，很可能会被尖刺或者蟹钳所伤。有一些要命的细菌可能就会趁此机会进入你的身体",
+        "病情可能进展至深部感染（骨髓炎、腱鞘炎等），那么就有截肢的风险",
+        "海分枝杆菌感染的危险因素是湿地劳作、水上运动或清洗鱼缸， 当皮肤创口接触含细菌的污水时就可能发生感染 。近一半（49%）的海分枝杆菌感染与水族馆有关，27%与鱼…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为了让红烧肉变便宜，猪身上最好吃的部分正在消失",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BA%86%E8%AE%A9%E7%BA%A2%E7%83%A7%E8%82%89%E5%8F%98%E4%BE%BF%E5%AE%9C%EF%BC%8C%E7%8C%AA%E8%BA%AB%E4%B8%8A%E6%9C%80%E5%A5%BD%E5%90%83%E7%9A%84%E9%83%A8%E5%88%86%E6%AD%A3%E5%9C%A8%E6%B6%88%E5%A4%B1",
+      "published": "Thu, 07 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "tail",
+        "Afa",
+        "Anim",
+        "anivet.au.dk",
+        "awecadvisors.org"
+      ],
+      "summary": "猪身上最好吃的，往往不是大块的五花里脊，而是猪耳朵、猪舌头、猪蹄子、猪脑袋，以及猪尾巴！ 卤猪尾巴，外皮又弹又香，一根尾巴刚好配一罐啤酒。 图丨小红书/十三月 红烧猪尾巴，连汤汁都变得黏黏糯糯，拌饭吃绝了。 图丨小红书/烹然心动💓 运气好还能在烧烤摊遇上猪尾巴，先卤后烤，吃得嘴巴周围都黏糊糊。 图丨小红书/是酥肉啊！ 许多人都喜欢猪尾巴，但去了菜市场，还不一定能认出它，因为它现在往往长这个样子—— 图丨小红书/Afa🥥🍐，至味堂海鲜肉铺，活着为了吃饭 记忆中的猪尾巴都是细细长长、甚至能打卷儿的，为什么变成了短短粗粗…",
+      "key_points": [
+        "散养猪（上）的单价比普通猪（下）高出不少丨电商截图 现在能买到的长猪尾巴多来自于散养猪，更贵；短尾巴多来自于普通猪，便宜得多丨电商截图 让爱吃的人感到安慰的是，…",
+        "但去了菜市场，还不一定能认出它，因为它现在往往长这个样子—— 图丨小红书/Afa🥥🍐，至味堂海鲜肉铺，活着为了吃饭 记忆中的猪尾巴都是细细长长、甚至能打卷儿的，…",
+        "和没有断尾的猪相比，断尾猪平均每天增重多出3.2%，饲料转化率（吃进去的饲料变成身上肉的效率）改善了2.5%"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么劝你夏天要多穿羊毛？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8A%9D%E4%BD%A0%E5%A4%8F%E5%A4%A9%E8%A6%81%E5%A4%9A%E7%A9%BF%E7%BE%8A%E6%AF%9B%EF%BC%9F",
+      "published": "Thu, 07 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "JANUS",
+        "bFp4M2S7sH",
+        "CP",
+        "dc_ps",
+        "End",
+        "feature"
+      ],
+      "summary": "“高温天穿羊毛？你疯了吧！” 很多人一听到春夏穿羊毛，可能都是这个反应。但你知道吗？ 北欧人顶着30℃艳阳天，依然把轻薄羊毛衫当作“第②层皮肤”一样形影不离。 羊毛，是真的被误解很深的春夏宝藏！ 当你穿棉T恤爬山，后背湿透像糊了层纸，傍晚温度降下来又开始哆哆嗦嗦； 或者通勤上班一天回来，外套一脱，贴身化纤衣物的酸臭味直冲后脑勺...... 你就会发现，原来那个无论上班、居家、户外、运动、旅游、海边...... 每天都在贴身穿羊毛衣的人，才是真！正！的！快！乐！ 一件好的羊毛衣—— ✅ 比纯棉更懂“呼吸” ，出汗瞬间…",
+      "key_points": [
+        "👇戳图立马抢👇 为什么夏天也要穿羊毛",
+        "夏天穿羊毛会被热晕吗？答案是：当然不会！其实 羊毛与夏天可是一对天配CP",
+        "我们为大家挑选了 JANUS适合夏天穿的薄款羊毛T恤、长袖、背心、裤子，主要是100%纯美利奴羊毛，克重也都是很轻薄的款 。赶上 粉丝回馈活动，福利特别顶，有买…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "电影圈最恨的那个人，去世了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%94%B5%E5%BD%B1%E5%9C%88%E6%9C%80%E6%81%A8%E7%9A%84%E9%82%A3%E4%B8%AA%E4%BA%BA%EF%BC%8C%E5%8E%BB%E4%B8%96%E4%BA%86",
+      "published": "Thu, 07 May 2026 20:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TCM",
+        "CNN",
+        "amp",
+        "AT",
+        "CBS",
+        "CEO"
+      ],
+      "summary": "文 Roxie 最新的新闻，美国媒体大亨 特德 ·特纳在亚特兰大去世，享年八十七岁。 几乎所有 关于他的 讣告都 围绕 CNN 在说 ， 这也正常 。 他创办的 CNN，是全世界最具影响力的 全天候新闻频道 ，可说是 重塑了全球新闻业 对 时间 的 感知 。 从挑战者号爆炸到海湾战争， CNN让全世界第一次拥有了共同的实时视野。 不过我们这里想谈谈他和美国 电影产业之间长达四十年的纠葛 。这个人，曾是 全好莱坞 共同 唾弃的 遗产 破坏者 ，后来却又成为 经典电影殿堂缔造者， 堪称 美国 电影 史上 极为 罕见的…",
+      "key_points": [
+        "《洛杉矶时报》刊发了一篇人物特写，给特纳贴上了那个跟随他余生的标签：好莱坞最恨的人。这个称号捕捉 到 了一个非凡的文化时刻：一个亚特兰大来的局外人， 曾经 因为…",
+        "TCM围绕频道本身构建了一个完整的文化生态系统。2010年4月，TCM经典电影节在好莱坞的格劳曼中国剧院和埃及剧院首次举办，此后每年四月举行，为期四天，放映约五…",
+        "简 ·方达 值得注意的是一个细节。在 2026年TCM经典电影节上，特纳去世前几天，方达对主持人本·曼凯维奇回忆说，她最喜欢的前夫创办了TCM，而在他们第一次约…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "美国电影怎么记录纽约的腐烂",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BE%8E%E5%9B%BD%E7%94%B5%E5%BD%B1%E6%80%8E%E4%B9%88%E8%AE%B0%E5%BD%95%E7%BA%BD%E7%BA%A6%E7%9A%84%E8%85%90%E7%83%82",
+      "published": "Thu, 07 May 2026 20:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AMC",
+        "Animal",
+        "Collection",
+        "Criterion",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者： Nathaniel Rich 译者： 覃天 校对：易二三 来源： The Criterion Collection （ 202 4 年 7 月 25 日 ） 也许很难想象，五十年前的纽约正走向底特律的老路。纽约人以数十万计地逃离这座城市，纵火案以街区为单位计量，城市债务每年增加十亿美元。 1977年的一项全国民调显示，认为纽约是 「 宜居之地 」 的美国人比例已跌至 6%。这座城市在其居民中的口碑也好不到哪里去——其中有一百万人被迫依靠福利救济度日。四十五万个制造业岗位消失殆尽，每年有三万套公寓遭到废弃，仅…",
+      "key_points": [
+        "那么这具腐烂躯体的心脏 ——被人类中的蛆虫与粪甲虫啃噬殆尽的地方——便是时代广场： 「 这里聚集着社会的底层渣滓，人间败类，连特蕾莎修女也懒得搭救的那种人 ………",
+        "《 天生大赢家 》 闹剧喜剧用来讲述一个无家可归的海洛因瘾君子无可挽回的沉沦故事，似乎是个奇怪的选择，但正是这种基调上的错位，构成了时代广场系列电影最独特的魅力…",
+        "从总体上看，甚至也算不上是坏事。被老鼠啃噬殆尽的剧院得到了精心修复；房地产价格节节攀升；持刀伤人、强奸、绑架等案件大幅下降；蘑菇也不再在湿透的地毯上肆意生长。然…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国碳水第一城，是谁？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E7%A2%B3%E6%B0%B4%E7%AC%AC%E4%B8%80%E5%9F%8E%EF%BC%8C%E6%98%AF%E8%B0%81%EF%BC%9F",
+      "published": "Thu, 07 May 2026 17:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "中国人对碳水的热爱， 早已刻进日常。 提到“碳水大城”， 很多人会想到西安、武汉、太原， 但中国的碳水版图远不止如此。 从西北的面，到中原的饼， 再到江南的隐藏面食江湖， 不同地方， 早已把主食吃成了地域性格。 陕西·宝鸡 陕西最被低估的“硬核面食区” 说到陕西碳水，大多数人的第一反应会是西安。但在老饕眼里，真正把“面”玩到极致的地方，往往在更西边——宝鸡。 这里古称陈仓，位于关中平原西端，依秦岭、临渭水，是周秦文化的重要发源地之一。更关键的是，这里也是小麦长期稳定生长的区域，几千年的农耕积累，让“吃面”成为一种近…",
+      "key_points": [
+        "陕西·宝鸡 陕西最被低估的“硬核面食区” 说到陕西碳水，大多数人的第一反应会是西安。但在老饕眼里，真正把“面”玩到极致的地方，往往在更西边——宝鸡",
+        "葱花馒头 热气腾腾出锅 兰溪是浙江省首个“中华美食文化名城” 当地的游埠早茶有“江南第一早茶”美称 总之，在这里，碳水不是配角，而是生活本身",
+        "读懂宝鸡，要从一口“酸辣香”开始！》宝鸡文旅 2026年03月27日 [2]《一碗油泼辣子 滚烫在舌尖上的宝鸡味》宝鸡日报 2024年04月11日 [3]《国际…"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "前后两分钟",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%89%8D%E5%90%8E%E4%B8%A4%E5%88%86%E9%92%9F",
+      "published": "Thu, 07 May 2026 12:19:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 2.7,
+      "keywords": [],
+      "summary": "三团分散的云就聚拢成一大团。 文章原文",
+      "key_points": [
+        "三团分散的云就聚拢成一大团"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "特朗普解散国家科学委员会，一个时代的结束？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%89%B9%E6%9C%97%E6%99%AE%E8%A7%A3%E6%95%A3%E5%9B%BD%E5%AE%B6%E7%A7%91%E5%AD%A6%E5%A7%94%E5%91%98%E4%BC%9A%EF%BC%8C%E4%B8%80%E4%B8%AA%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BB%93%E6%9D%9F%EF%BC%9F",
+      "published": "Thu, 07 May 2026 08:09:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NSF",
+        "NSB",
+        "CDC",
+        "ACIP",
+        "al.",
+        "et"
+      ],
+      "summary": "5.7 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰 文｜ 贾鹤鹏（苏州大学教授） ● ● ● 2026年4月下旬，美国科学界又挨了一记闷棍。 4月24日，特朗普政府通过总统人事办公室向“国家科学委员会” （National Science Board，NSB） 成员发出邮件，宣布其职位“立即终止”。NSB是美国国家科学基金委 （ N SF） 的法定治理机构，通常由总统任命、任期错开的成员组成，负责制定NSF政策方向、批准重大资助、并就科学与工程政策向总统和国会提供建议。被撤…",
+      "key_points": [
+        "特朗普政府通过总统人事办公室向“国家科学委员会” （National Science Board，NSB） 成员发出邮件，宣布其职位“立即终止”。NSB是美国国…",
+        "它不是单一机构，而是一套多支点体系。总统可以撤掉NSB成员，但无法同时控制国会、大学、国家科学院、专业学会以及各州政府，尤为值得一提的是还有各级联邦法院，特朗普…",
+        "是特朗普的MAGA基本盘的民粹取向对“专家统治”的反感。对特朗普的许多支持者来说，专家委员会不是中立的专业机构，而是“行政国家”的一部分。所谓行政国家，指的是那…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有没有哪种化学物质的「反常」性质让你印象深刻？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789500",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Hg",
+        "Au",
+        "gt",
+        "Na",
+        "NR",
+        "Pa"
+      ],
+      "summary": "ChemX， 化学/成分/科普/AI4S 查看知乎原文 在标准条件下，汞是唯一的液态金属元素。 水银这个别名太贴切了，汞就像水一样流动的银色金属。 这个就很反常了，因为按照我们学的元素周期律，外推得出的结论应该是固态。 同族的元素都是有一定规律的，汞在ⅡB 族，从上到下依次是锌、镉、汞。锌熔点是 420°C，镉熔点是 321°C，如果按周期性趋势预测的话，汞的熔点应在 82°C 左右 [1] 。 实际上汞的熔点的实验值为 -38°C 左右。 这与理论值相差太远了，相差超过 120°C 了，这就不是简单的误差了，而是…",
+      "key_points": [
+        "再请教了一些人后，我才搞懂这个问题，还感叹了一下，汞有反常性质真的就因为它是天选之子，正好凑齐了所有因素",
+        "相差超过 120°C 了，这就不是简单的误差了，而是反常的性质",
+        "分别位于第ⅠB 族和第ⅡB 族的底部，由于神秘的量子相对论效应，产生了一些奇异的物理性质。（金的特殊颜色，汞的低熔点） 直到 2013 年， Peter Sch…"
+      ]
+    }
+  ]
+}
