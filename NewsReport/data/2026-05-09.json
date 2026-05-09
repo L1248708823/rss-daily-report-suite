@@ -1,0 +1,799 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T01:00:09.838852+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 96,
+    "fresh_candidates": 64,
+    "backfill_candidates": 32,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-09",
+      "fetched_at": "2026-05-09T01:00:04.537426+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4179.95,
+          "change": -0.14,
+          "change_pct": -0.0,
+          "volume": 697019094.0,
+          "amount": 133167307.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4715.18,
+          "change": 28.13000000000011,
+          "change_pct": 0.6,
+          "prev_close": 4687.05,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-09 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1030.9316183066217,
+          "change": 6.150371019338763,
+          "change_pct": 0.6001642824377907,
+          "prev_close": 1024.781247287283,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-09 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "长期主义，不是咬牙死扛！而是找到一种不费力就能持续下去的投资方式",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%92%AC%E7%89%99%E6%AD%BB%E6%89%9B%EF%BC%81%E8%80%8C%E6%98%AF%E6%89%BE%E5%88%B0%E4%B8%80%E7%A7%8D%E4%B8%8D%E8%B4%B9%E5%8A%9B%E5%B0%B1%E8%83%BD%E6%8C%81%E7%BB%AD%E4%B8%8B%E5%8E%BB%E7%9A%84%E6%8A%95%E8%B5%84%E6%96%B9%E5%BC%8F",
+      "published": "Fri, 08 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 六亿居士 来源：雪球 重温老子 ， 再次驻足于 “ 飘风不终朝 ， 骤雨不终日 ” 良久 。 投资是一个特别考验人性的试炼场 ， 着力即差 是这些年很重要的体会 。 我们身边总有一些特别用力的人 ， 定了减肥目标 ， 第一天就断食加十公里 。 决心学投资 ， 上来就啃晦涩的专业书 、 盯盘到深夜 。 可往往过不了多久 ， 大部分人就悄无声息了 。 不是意志力薄弱 ， 恰恰是太用力了…",
+      "key_points": [
+        "不是咬牙死扛 ， 而是找到一种可以不费力地持续下去的方式",
+        "找到那个属于你的 、 不费力的节奏",
+        "不是因为它更强 ， 而是因为它能让你一直安稳地坐在牌桌上"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "ROE的尽头是复利，高ROE的尽头是护城河",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5632341672/387703385",
+      "published": "Fri, 08 May 2026 10:13:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROE",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "昨天，用软件把A股连续十年ROE超过15%的公司全拉了出来，对着表格看了许久。 只有几十家。也就是说，能在十年维度上持续为股东创造价值的公司，不到A股总数的5%。 盯着排名靠前的茅台——十年没有一年低于24%。再看排名第五的迈瑞，从上市前的47%回落到现在的21%，但护城河不减反增。 往下翻，美的、双汇，十年如一日稳在20%左右，不刺激，不上热搜，但数字从不说谎。 于是我做了一件事： 就着这份榜单，用后视镜去拆解每一个数字背后的商业模式，然后反复追问自己——到底是什么，让这些公司能穿越周期，持续维持高ROE？ 今天…",
+      "key_points": [
+        "是复利。高ROE的尽头，是护城河",
+        "ROE的“缓坡下滑”，可能是护城河在变薄 海天味业前几年ROE高达36%，近年落到了19%左右。不过它的渠道还在，品牌还在，成本优势还在。但行业寒冬和库存压力正…",
+        "往往不是周期，而是结构在松动。它是周期的受害者，还是护城河出现了结构性侵蚀？这个问题，我还没有最终答案"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "人民币再度突破新高！这次有一个很大的不同",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/387694743",
+      "published": "Fri, 08 May 2026 10:13:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在A股不断上涨的过程中，昨天，美元人民币再度突破。 最近全球股市的上涨，除了抱团AI硬件外，资金面则是由于 美元流动性宽松了下来。 始作俑者则是日本央行。 一、日本央行冲刷全球资本市场 在五一期间，我跟大家介绍了日本央行干预汇率的影响， 其中有一个影响就是 给资本市场带来流动性！ 在美元/日元 升值160的时候，日本央行坐不住了，出手干预汇率。 然后迅速回落到155.5，但始终没有跌破155。 其实最近两年，日元的贬值压力都很大。 自2024年以来就频繁干预汇率，而且大都是在160的整数关口出手。 而且干预的幅度往…",
+      "key_points": [
+        "昨天，美元人民币再度突破",
+        "二、小日子带飞人民币 随着日本央行释放美元，间接的就带强了人民币",
+        "一、日本央行冲刷全球资本市场 在五一期间，我跟大家介绍了日本央行干预汇率的影响， 其中有一个影响就是 给资本市场带来流动性"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "利用市场周期波动性盈利：“分散+等权”策略",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8204122985/387818167",
+      "published": "Fri, 08 May 2026 10:13:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HKHSI",
+        "http",
+        "INX",
+        "SH000001",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "市场交易中，波动性和周期性是确定存在的客观规律，这是市场确定性的一面。然而，波动的方向、幅度和路径却充满不确定性，周期的波幅、频率和初始相位也难以预测，这构成了市场不确定的另一面。 面对这种复杂性，交易者如何借助市场的确定性来应对不确定性？本文通过理论实验探讨这一核心问题。 实验：用正弦曲线模拟价格波动 为简化分析，我们使用正弦函数曲线代表市场价格变化。由于实际价格变化不确定，我们设定正弦曲线的波幅、频率和初始相位均为随机变量。实验模拟多只股票的价格波动情况。 实验一：全仓单只股票策略 假设 1、交易者不了解某只股…",
+      "key_points": [
+        "&#34;分散+等权&#34;确实为在不确定市场中寻求稳定盈利提供了一种可行思路。该策略不追求精准预测市场，而是通过系统量化的方法，利用市场固有的周期波动特性实…",
+        "我进行了多组重复实验，最后均得到相似的结果。下面是其中两组的实验数据： 实验组a： 实验组b： 实验结论：动态等权策略实现稳定盈利 综合上面两个实验，可以得出以…",
+        "策略核心原理：利用周期波动实现稳定盈利 该策略的精妙之处，在于其自我调节和容错能力。即使初始效果不明显，经历完整波动周期之后，系统会逐步自我修正，运行趋于平稳"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中国人保2026年一季报点评",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7543024848/387700327",
+      "published": "Fri, 08 May 2026 10:12:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NBV",
+        "http",
+        "SH601318",
+        "SH601319",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "人保一季报净利润大跌31%，但是季报发布后第一个交易日，人保H一度涨超2%。 这是情绪使然，还是人保财报有什么亮点？ 01 负债端（保险业务端） • 人身险保费： 乍一看人保寿险的保费数据是不好的，因为几乎所有科目都在下跌，总的保费下跌了16%。但是仔细看，最重要的那一项，也就是长险首年保费-期交是大涨了84%。 也就是说，价值不高的都在下跌，而价值较高的大涨了。而且我看了一些财经媒体的报道，里面提到十年期及以上期限的期交首年保费涨了30%，这也是好事，虽然目前我只看了财报，财报里面没有提，还不知道这个数据的出处。…",
+      "key_points": [
+        "由于一季度股市受美伊战争影响，总投资收益大跌56%。最后直接导致投资业绩是亏损的。投资也是一季报人保利润负增长的原因",
+        "一个是受美伊战争影响，另外人保2025年一季度是净利润上涨最高的公司，今年回落的力度自然可能更大",
+        "04 其他综合收益和净资产： 2026年一季度十年期国债利率从1.86到了1.81，轻微下跌。整个其他综合收益金额变化不大，但对比前一年是正的"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何反驳「当科学家登上一座高峰时却发现中国人的老祖宗早就在山顶等着他们了」?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789534",
+      "published": "Thu, 07 May 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "atm",
+        "B200",
+        "CT",
+        "Cyborg",
+        "EUV",
+        "ghost"
+      ],
+      "summary": "如何反驳“当科学家登上一座高峰时却发现中国人的老祖宗早就在山顶等着他们了”? Cyborg V， A ghost in the shell. 攻殻機動隊 查看知乎原文 精度是决定一个动刀子的人是在做手术还是屠杀的关键 。 同一个目的地，因为精度的不同，过程可以是救人，也可以是杀人。 老祖宗站在山顶，知道\"这里高\"。 外科医生站在山顶，知道\"这里比海平面高 8848.86 米，误差±0.27 米，成因是印度板块以每年 5 厘米的速度挤压欧亚板块\"。 前者是站着。后者是 理解这座山为什么存在 。 用屠夫的刀做手术，病人…",
+      "key_points": [
+        "如何反驳“当科学家登上一座高峰时却发现中国人的老祖宗早就在山顶等着他们了”",
+        "老祖宗发现了门。英伟达在门里面造了一座城，城里的每一块砖都受到相对论的影响，都被计算过",
+        "老祖宗站在山顶，手里拿的不是手术刀，而是屠刀——因为他们的‘抵达’靠的是模糊的直觉，而非精确的验证。而科学这座山，差一毫米就可能是从‘治愈’滑向‘杀戮’"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789544",
+      "published": "Thu, 07 May 2026 22:59:58 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "NPC",
+        "PreciousAZ"
+      ],
+      "summary": "瞎扯 · 赵本山小品中有哪些至今还在影响中国人语言习惯的梗? 知乎日报 查看知乎原文 Q： 赵本山小品中有哪些至今还在影响中国人语言习惯的梗? @白口蘑煸摇香菇 ：我一个从没干过农活的人，都知道有本书叫《 母猪的产后护理 》…… Q： 车牌号什么样的好？ @PreciousAZ ：摄于2024.11.12， 中山大学 百年校庆日，把在吃蛋糕的我都噎住了 Q： 到底是什么特征让一辆车 「 像网约车 」 ？ @笑嘻嘻嘻嘻笑 ：忍不住拿出前几天拍的大哥。白车绿牌，宾利来了都挡不住的网约车气质。 Q： 鳌太线是中国死亡率最…",
+      "key_points": [
+        "瞎扯 · 赵本山小品中有哪些至今还在影响中国人语言习惯的梗"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "融资2700万美元，不用重写一行代码，你的应用就能拥有AI agent",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6391831.html",
+      "published": "Fri, 08 May 2026 09:24:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "AI",
+        "CopilotKit",
+        "AG-UI",
+        "UI",
+        "Atai"
+      ],
+      "summary": "当传统软件还在要求用户适应其僵化流程时，CopilotKit 的 AI agent 正在彻底改写人机交互规则。这家刚获2700万美元融资的初创公司，其AG-UI协议已被Google、微软等巨头采纳，让动态生成的交互界面取代静态表单。本文深度剖析这场交互革命如何从企业级市场破冰，以及Generative UI技术为何成为AI落地的关键胜负手。 你有没有意识到，我们现在用软件的方式，其实还停留在上个时代？打开一个企业系统，你需要找到正确的菜单，点击正确的按钮，填写正确的表单，然后等待结果。整个过程里，你其实是在配合软件…",
+      "key_points": [
+        "一家叫 CopilotKit 的公司宣布完成 2700 万美元的 A 轮融资，由 Glilot Capital、NfX 和 SignalFire 联合领投。这不…",
+        "当传统软件还在要求用户适应其僵化流程时，CopilotKit 的 AI agent 正在彻底改写人机交互规则。这家刚获2700万美元融资的初创公司，其AG-UI…",
+        "这个产品策略我觉得非常成熟。开源的 CopilotKit 和 AG-UI，解决的是开发者入门和生态扩展的问题，让任何人都能免费上手，用最快的速度把 agent…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "豆包和OpenAI，都走在互联网变现的老路上",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6391685.html",
+      "published": "Fri, 08 May 2026 08:02:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "ChatGPT",
+        "Netflix",
+        "Ads",
+        "Anthropic"
+      ],
+      "summary": "从OpenAI创始人Sam Altman对广告业务的态度转变，到豆包付费订阅的争议，AI公司正在面临一个核心问题：如何在巨额算力成本下实现可持续的商业化？本文深度剖析了中美AI巨头在广告与订阅模式间的艰难抉择，揭示了这场技术革命背后鲜为人知的商业困局与战略博弈。 互联网完整记录了 OpenAI 创始人Sam AItman 在2024年-2026年对广告业务的态度变化。 “我恨广告。” “广告+AI让我特别不安。我把广告视为我们商业模式的最后手段。” “我们还没做广告产品，但我不完全反对。” “也许广告并不总是很糟糕…",
+      "key_points": [
+        "AI业务套在互联网旧的变现模型里，可能只是阶段性的“寄生”。因为AI产品暂时还没有不可替代性。在真正成为现代社会运转中不可缺少的要素之前，AI公司们只能先靠订阅…",
+        "中国AI双雄的另一头是阿里。它走的是另一条路。在它成立ATH、明确以Token为中心时，方向就很明确了。它要赚基建的钱：高投入、重资产、利润偏低但足够稳定。不过…",
+        "关于AI公司要如何赚钱的话题，再度进入公众视野。人们再度意识到：这场或许是人类史上砸钱最猛的技术浪潮，还没能回答这个最基础的商业问题。而从美国到中国，从Open…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "「Codex 制作运营素材图」的调研+落地攻略",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6391459.html",
+      "published": "Fri, 08 May 2026 08:01:58 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Canva",
+        "Codex",
+        "CSV",
+        "CTA",
+        "HTML",
+        "AI"
+      ],
+      "summary": "AI正在重塑运营素材的生产方式。Codex与Canva的深度结合，构建了一条从选题到发布的自动化流水线，让品牌运营图实现批量化、标准化生产。本文详解6种实战方案与4套工作流，教你如何将AI变成高效的『设计工程师』，彻底解决运营团队的海量素材需求。 Codex 做运营素材图，最有效的方式不是“让 AI 随机画图”，而是搭建一条稳定流水线： 选题库 → Codex 生成素材数据 → Canva/HTML 模板批量套图 → 自动质检 → 人工审核 → 多平台发布 → 数据反哺选题。 把 Codex 当成“自动化生产/代码…",
+      "key_points": [
+        "适合： 有大量固定内容结构 需要频繁测试标题 设计风格希望统一 不希望每次都打开 Canva 手动排版 希望和 SEO/小红书选题库打通 二、Codex 制作运…",
+        "运营素材图可以设置这些质检项： 三、批量化制作内容的 4 套工作流 工作流 A：低门槛版，适合马上开始 工具：ChatGPT/Codex + Google Sh…",
+        "让 Codex 生成 HTML/SVG 批量出图项目 请帮我创建一个本地运营素材图生成器"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "小红书做AI，为何从克制到突然加速？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6391752.html",
+      "published": "Fri, 08 May 2026 07:55:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Deepseek",
+        "Dots",
+        "Agent",
+        "ChatGPT",
+        "FOMO"
+      ],
+      "summary": "小红书的AI战略正经历从克制到急迫的戏剧性转变。随着Dots部门的成立和Agent时代的到来，这个以社区氛围著称的平台开始重押AI赛道，却在自研模型遇挫后转向外部合作。本文深度复盘点点从基座探索到融入社区的曲折路径，揭示小红书如何在天平两端寻找AI与社区生态的平衡点。 所有互联网大中厂都渴望在AI时代博得位置，在这场比赛中，小红书曾是克制的那个。 在一个搜索属性与社区属性并存，以真实经验分享为核心的产品中，活人感与AI、温情和算法，始终像天平的两端。 很长一段时间里，小红书既没有完全缺席技术探索，也没有像许多同行那…",
+      "key_points": [
+        "小红书的AI战略正经历从克制到急迫的戏剧性转变。随着Dots部门的成立和Agent时代的到来，这个以社区氛围著称的平台开始重押AI赛道，却在自研模型遇挫后转向外…",
+        "恰恰是小红书在“种草社区”之外，最强烈的用户心智。在经历过去一年围绕AI搜索的探索后，毛文超似乎逐渐意识到：AI并不会损害社区的价值，并拥有能与小红书“搜索心智…",
+        "02 一个真人社区的克制与犹豫 在新技术浪潮面前，FOMO情绪并不曾在小红书内部缺席。但与业内争先恐后拥抱AI的节奏相比，小红书对AI的态度在相当长一段时间里仍…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "豆包还有个大杀招",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6391748.html",
+      "published": "Fri, 08 May 2026 07:44:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "Agent",
+        "Chatbot",
+        "AI+",
+        "to"
+      ],
+      "summary": "当竞争对手纷纷布局多模态办公场景时，这款拥有1.5亿日活的AI产品正面临从Chatbot向生产力工具的关键转型。本文深度剖析豆包如何通过‘建群’功能破局，在微信与飞书的夹击下开辟AI+社交协作的新战场。 接上一篇继续聊豆包收费。 收费问题不大，全世界的Chatbot都收费，真正的问题是：豆包目前的功能矩阵，和“生产力”关系不大。 自上线以来，豆包的核心功能一直是Chatbot，可以查询信息、搜索资料，或是单纯“调戏”AI。过去几年，豆包逐渐加入了写文章、作图、做视频、做PPT、翻译等功能，逐渐具备了轻度办公能力。…",
+      "key_points": [
+        "都有个“痛点”：如果想与别人分享豆包生成的内容，就不得不手动复制粘贴，把内容“搬运”到微信群。这种AI与群聊的强行黏合，不仅操作繁复，也间接导致豆包给微信做了嫁…",
+        "豆包席卷Chatbot赛场，赢了旧时代的王者微信一局。而在第二个回合，微信Agent已经准备好强力一击，而豆包还没给出回应，尽快建群或许就是答案",
+        "豆包依然保持了克制——它在OpenClaw卷起的“养虾”浪潮中按兵不动，更没有追逐harness engineering（驾驭工程）这样的浪花。但实力雄厚的豆包…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "世界上有什么绝对不会造假的东西？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%89%E4%BB%80%E4%B9%88%E7%BB%9D%E5%AF%B9%E4%B8%8D%E4%BC%9A%E9%80%A0%E5%81%87%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%9F",
+      "published": "Fri, 08 May 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "https",
+        "baijiahao.baidu.com",
+        "id",
+        "pc",
+        "spider"
+      ],
+      "summary": "参考文献 [1]央视新闻.为什么一只活鸭上百元，一只烤鸭只要25元?https://baijiahao.baidu.com/s?id=1834530423125577505&amp;wfr=spider&amp;for=pc [2]新京报.新版人民币今日发行:七种面额“换新颜”，五招教你防伪 https://baijiahao.baidu.com/s?id=1643250871266884274&amp;wfr=spider&amp;for=pc [3]2019年版第五套人民币https://www.pbc.gov…",
+      "key_points": [
+        "参考文献 [1]央视新闻.为什么一只活鸭上百元，一只烤鸭只要25元?https://baijiahao.baidu.com/s?id=1834530423125…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "莫氏鸡煲，煲了什么稀奇的东西？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8E%AB%E6%B0%8F%E9%B8%A1%E7%85%B2%EF%BC%8C%E7%85%B2%E4%BA%86%E4%BB%80%E4%B9%88%E7%A8%80%E5%A5%87%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%9F",
+      "published": "Fri, 08 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al.",
+        "DOI",
+        "et",
+        "Gelsemium",
+        "guokr.com"
+      ],
+      "summary": "莫氏鸡煲火了有一阵。 前些天，不想上班的莫氏鸡煲老板向全网公开了自家鸡煲的核心配方：五指毛桃、土茯苓、茯苓、陈皮、姜、黄豆、红枣，就这7样东西。 其中，后面4样东西用来泡茶、做菜都比较常见。但前面3种东西，对很多人，尤其是两广之外的人来说，会稍显陌生。 老莫用到的7种材料 | 小红书 / 小梁清淡美食 五指毛桃，不是毛桃子 最重要的一味——五指毛桃。恐怕很多北方朋友之前听到这名字，都是在“五指毛桃薏米水”之类的饮料瓶子上吧？ 它并不是桃，而是 桑科植物 粗叶榕 （ Ficus hirta ）的干燥树根。所谓“五指”…",
+      "key_points": [
+        "不想上班的莫氏鸡煲老板向全网公开了自家鸡煲的核心配方：五指毛桃、土茯苓、茯苓、陈皮、姜、黄豆、红枣，就这7样东西",
+        "两种土茯苓的形貌 | 参考文献[6] 回归到让莫氏鸡煲走红的那条视频，就不得不提“有人喝了会拉”这件事。为什么会这样呢？简单来说就是： 可能的原因很多，在缺乏深…",
+        "不是土里的茯苓 莫氏鸡煲配料中的茯苓和土茯苓，虽然只有一字之差，但分类地位却相去甚远"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "AI规则怪谈：ChatGPT代码里写着“永远不要讨论哥布林”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI%E8%A7%84%E5%88%99%E6%80%AA%E8%B0%88%EF%BC%9AChatGPT%E4%BB%A3%E7%A0%81%E9%87%8C%E5%86%99%E7%9D%80%E2%80%9C%E6%B0%B8%E8%BF%9C%E4%B8%8D%E8%A6%81%E8%AE%A8%E8%AE%BA%E5%93%A5%E5%B8%83%E6%9E%97%E2%80%9D",
+      "published": "Fri, 08 May 2026 16:41:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenAI",
+        "Nerdy",
+        "AI",
+        "ChatGPT",
+        "GPT-5.5",
+        "nerd"
+      ],
+      "summary": "几天前，一位reddit用户发了一个莫名其妙的帖子：诚心问，为什么ChatGPT不能提哥布林？ 起因是，他发现GPT-5.5的编程工具Codex系统提示信息里，藏着一条标号为104的，莫名其妙的，像规则怪谈一样的要求： “ 永远不要讨论哥布林、小魔怪、浣熊、巨魔、食人魔、鸽子，以及其他动物或生物，除非与用户的需求绝对且毫无疑问地相关。 ” 帖子底下炸开了锅，包括贴主在内的各路网友开始七嘴八舌瞎猜。 有人说这是某种数据投毒保护；有人推测OpenAI的训练员小时候被浣熊咬过；还有人发现，如果你让模型说“trash pa…",
+      "key_points": [
+        "他发现GPT-5.5的编程工具Codex系统提示信息里，藏着一条标号为104的，莫名其妙的，像规则怪谈一样的要求： “ 永远不要讨论哥布林、小魔怪、浣熊、巨魔、…",
+        "也是最直接的一步——给模型打了个补丁 ，也就是用户发现的那条第140号规则：永远不要讨论哥布林、小魔怪、浣熊、巨魔、食人魔、鸽子…… 但这里有个有意思的地方：为…",
+        "并非地下城冒险指南｜OpenAI AI规则怪谈到底怎么回事？哥布林和小浣熊到底把ChatGPT怎么了"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有啥以为天价高攀不起，实际上划算到令人震惊的母亲节礼物？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E5%95%A5%E4%BB%A5%E4%B8%BA%E5%A4%A9%E4%BB%B7%E9%AB%98%E6%94%80%E4%B8%8D%E8%B5%B7%EF%BC%8C%E5%AE%9E%E9%99%85%E4%B8%8A%E5%88%92%E7%AE%97%E5%88%B0%E4%BB%A4%E4%BA%BA%E9%9C%87%E6%83%8A%E7%9A%84%E6%AF%8D%E4%BA%B2%E8%8A%82%E7%A4%BC%E7%89%A9%EF%BC%9F",
+      "published": "Fri, 08 May 2026 16:41:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "amp",
+        "mp.weixin.qq.com",
+        "Glory",
+        "article",
+        "biz"
+      ],
+      "summary": "母亲节、520 马上就要到了，今天我们就来讲讲大家都喜爱—— 世界五大宝石中的： 红宝石 、 蓝宝石 、 祖母绿 。 它们是 奢品的第一梯队宝石 。圈中一直认为，如果你爱的明星在活动中佩戴了大品牌的第一梯队宝石，那就代表品牌对明星的认可和喜爱！ 镶有11颗哥伦比亚梨形祖母绿宝石王冠，创下了祖母绿王冠的拍卖记录丨thejewelleryeditor.com 大家喜爱的红、蓝宝石、祖母绿往往价值不菲， 一颗甚至贵到10万、20万+，喜欢是喜欢，但是根本高攀不起。 过于昂贵日常也舍不得戴，怕不小心有了磕碰，甚至遗失，使用…",
+      "key_points": [
+        "创下了祖母绿王冠的拍卖记录丨thejewelleryeditor.com 大家喜爱的红、蓝宝石、祖母绿往往价值不菲， 一颗甚至贵到10万、20万+，喜欢是喜欢，…",
+        "戳图👇购买 温馨提示：部分款式现货紧张，请抓紧购买，一旦现货售罄将开启预售模式，预计7天左右发货，实际发货时间请以物流通知为准",
+        "这个系列还 有 戒指、项链、手链、耳钉 可以选择，选择一套购买， 母亲节、520就要来了 ，叠加满减优惠很划算"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "终于可以看到了，它曾改写电影历史",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%BA%86%EF%BC%8C%E5%AE%83%E6%9B%BE%E6%94%B9%E5%86%99%E7%94%B5%E5%BD%B1%E5%8E%86%E5%8F%B2",
+      "published": "Fri, 08 May 2026 20:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MCA",
+        "DVD",
+        "E.T.",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 庄山贝 前阵子看到《 大白鲨》即将在中国 上映的消息，颇有点时空错乱的感觉 。 五十一年前，这部电影的上映，从头至脚改变了美国电影产业的方方面面，我们耳熟能详的是，它创造了暑期票房大片的概念，结束了新好莱坞的作者电影倾向，奠定了当今好莱坞的基本格局。我们今天来谈谈它对于电影发行产业链的彻底重塑。 《 大 白鲨》 1975年6月20日，环球影业在全美四百余家影院同步公映这部影片的 ，这个做法几乎是史无前例的。因为， 在此之前，一部大片的全国放映 相当于一场 漫长的渗透战 ， 在此之后， 则更像 闪电战。 要理解这…",
+      "key_points": [
+        "《大白鲨》每一周都占据着北美票房榜首的位置，从仲夏一直统治到深秋。五十九天之后，它的国内票房突破 1 亿美元大关，成为历史上第一部达到这个里程碑的电影",
+        "郊区多厅影院的爆发式增长 也是原因之一 。整个七十年代，伴随着美国中产阶级的郊区化运动，大型购物中心在全国各地拔地而起，而多厅影院作为购物中心的标配设施，以惊人…",
+        "路演制已经显露疲态。一连串昂贵的路演大片接连 仆街 ，制片厂开始转向一种折中方案， 可以称之为 平台发行。一部被看好的电影会先在纽约和洛杉矶各开一两家影院，用首…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "​黑泽清的老师，是希区柯克吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E2%80%8B%E9%BB%91%E6%B3%BD%E6%B8%85%E7%9A%84%E8%80%81%E5%B8%88%EF%BC%8C%E6%98%AF%E5%B8%8C%E5%8C%BA%E6%9F%AF%E5%85%8B%E5%90%97%EF%BC%9F",
+      "published": "Fri, 08 May 2026 20:31:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Kohei",
+        "MUBI",
+        "qq.com"
+      ],
+      "summary": "作者：Kohei Usuda 译者：Issac 校对：易二三 来源：《MUBI》（2021年12月17日） 黑泽清的《间谍之妻》是一部扣人心弦的间谍惊险片，其背景设置在二战前夕，片名中的妻子就是女主角福原里子（苍井优饰），她的丈夫福原优作（高桥一生饰）是一位富有的商人，其地下活动已经引起了宪兵队，也就是日本令人胆寒的军事部队的怀疑。 《间谍之妻》 在该片快要结束的时候，两人一起出门远足，来到一家当地的电影院，似乎是为了避开监视，装作无事发生的样子。他们正好碰上那家市区影院在放山中贞雄的改编自史实的《河内山宗俊》（1…",
+      "key_points": [
+        "但黑泽清的电影远比人们看到的要丰富。虽然电影的惊险部分来自于福原夫妇试图隐藏他们的秘密活动，以躲避邪恶的津森泰治（东出昌大饰）的监视，但《间谍之妻》在很大程度上…",
+        "就像希区柯克在其代表作《美人计》（1946）中对婚姻的严厉审视一样，《间谍之妻》中精心打造的扣人心弦的悬疑情节——黑泽清以其惯有的才华巧妙地雕琢而成——很大程度…",
+        "Kohei Usuda 译者：Issac 校对：易二三 来源：《MUBI》（2021年12月17日） 黑泽清的《间谍之妻》是一部扣人心弦的间谍惊险片，其背景设置…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 395 期）：软件开发的第三种方式",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-395.html",
+      "published": "2026-05-08T17:47:11Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 395 期）：软件开发的第三种方式"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "这些低调小城，才是岭南的隐藏天花板！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%BF%99%E4%BA%9B%E4%BD%8E%E8%B0%83%E5%B0%8F%E5%9F%8E%EF%BC%8C%E6%89%8D%E6%98%AF%E5%B2%AD%E5%8D%97%E7%9A%84%E9%9A%90%E8%97%8F%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%81",
+      "published": "Fri, 08 May 2026 17:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Carol",
+        "GDP",
+        "li"
+      ],
+      "summary": "『岭南』 是指我国南方五岭（越城岭、都庞岭、萌渚岭、骑田岭、大庾岭）以南， 包括 广东、广西、海南、香港、澳门等地 。 说到这片区域，人们总先想到 广州的早茶、香港的摩天楼、 桂林的山水，或是三亚的碧海蓝天。 而那些散落在群山之间、 江海之畔的 低调小城 ， 长久以来被人们忽略， 却完整 保存着岭南最原真的底色 —— 骑楼老街、客家围屋、千年古盐田， 以及那些被时光打磨得温润如玉的市井烟火 ...... 海南儋州 一半火山海岸，一半“诗乡歌海” 海南远不止三亚和海口，在其西北部，低调的儋州是 全岛土地面积最大、海岸…",
+      "key_points": [
+        "才是岭南当之无愧的隐藏天花板",
+        "而那些散落在群山之间、 江海之畔的 低调小城 ， 长久以来被人们忽略， 却完整 保存着岭南最原真的底色 —— 骑楼老街、客家围屋、千年古盐田， 以及那些被时光打…",
+        "广东梅州 岭南的客家文化腹地 梅州地处粤、闽、赣三省交界，是典型的“八山一水一分田”南方山区，由武夷、莲花、凤凰三大山脉共同守护。层峦叠嶂的地貌，让这座小城在千…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一见钟情好，还是日久生情好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E8%A7%81%E9%92%9F%E6%83%85%E5%A5%BD%EF%BC%8C%E8%BF%98%E6%98%AF%E6%97%A5%E4%B9%85%E7%94%9F%E6%83%85%E5%A5%BD",
+      "published": "Fri, 08 May 2026 12:08:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "arsenault.",
+        "Bitsea",
+        "boy."
+      ],
+      "summary": "没想到，都已经 2026 年了，还有人来问一见钟情好还是日久生情好这种老土的问题。一般而言，我认为这种问题本身就是一种炫耀，相当于问一个秃子，头发究竟是扎马尾好还是编长辫好。听完提问，不要犹豫，不要思考，就地枪决。 但如果不是炫耀呢？我摸了摸头皮，迟疑了。 如果的确是个提问，那么它依然不是什么好问题。江湖上流传多年的爱情大破灭术告诉我们，在 A 和 B 之间难以抉择，意味着正确答案是 C 或者 D。只要有丝毫需要选择的意思，那就都不是。正确答案从不让人犹豫不决，当它真正出现的时候，人会很清楚这一点，于是就会直奔而去…",
+      "key_points": [
+        "都已经 2026 年了，还有人来问一见钟情好还是日久生情好这种老土的问题。一般而言，我认为这种问题本身就是一种炫耀，相当于问一个秃子，头发究竟是扎马尾好还是编长…",
+        "对读者不搞法术这一套。回到 一见钟情好还是日久生情好这个老土问题上来，它的本质是什么？它表达了一种个人想法，一种个人意欲：我要这个，我要那个，我想是这个好，我想…",
+        "凭我几十年纵横江湖的经验，这里的「好」要么意味着对不对，要么意味着哪一种成功率高。综合起来看，问的是能不能成。一见钟情的爱情成活率高，还是日久生情的成活率高"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "钱颖一：从学会剧本到学会音乐",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E9%92%B1%E9%A2%96%E4%B8%80%EF%BC%9A%E4%BB%8E%E5%AD%A6%E4%BC%9A%E5%89%A7%E6%9C%AC%E5%88%B0%E5%AD%A6%E4%BC%9A%E9%9F%B3%E4%B9%90",
+      "published": "Fri, 08 May 2026 08:36:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Taste",
+        "intellectual",
+        "builder",
+        "curiosity",
+        "debate",
+        "discussion"
+      ],
+      "summary": "5.08 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 2026年4月29日，清华大学经济管理学院举办“钱颖一教授‘经世育人’座谈会”。钱颖一教授在座谈会上发言，他用歌剧剧本和音乐比喻学术水平的两个层级，提出一个理念和期望：我们要从学会剧本跃升到学会音乐，为达到此目标我们需要一个好的学术生态。以下是钱颖一教授的发言全文。 发言人｜钱颖一 ● ● ● 我感谢学院为我精心举办这场荣休座谈会。刚才六十多位老师、校友、同学分享了这么多有趣的故事，回顾了一段我们一起走过的路程，让我很感动。我觉得，是你们给了我一…",
+      "key_points": [
+        "5.08 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 2026年4月29日，清华大学经济管理学院举办“钱颖一教授‘经世育人’座谈会”。钱颖一教授…",
+        "Rabi） 。这是我从朱邦芬老师那里学来的，是他在清华物理攀登计划启动仪式上讲的。拉比在100年前的1926年从哥伦比亚大学获得博士学位，之后去德国学习。他后来…",
+        "到再次进入清华执教，是一个24年。再到今天即将从清华荣休，是又一个24年。24年前我讲“学科”“学风”“学术标准”，为的是要学会剧本。24年后的今天，我强调“学…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "伯克希尔·哈撒韦与软银，一个囤着4000亿现金，一个债台高筑押注AI，哪家能笑到最后？｜ 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BC%AF%E5%85%8B%E5%B8%8C%E5%B0%94%C2%B7%E5%93%88%E6%92%92%E9%9F%A6%E4%B8%8E%E8%BD%AF%E9%93%B6%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%9B%A4%E7%9D%804000%E4%BA%BF%E7%8E%B0%E9%87%91%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%80%BA%E5%8F%B0%E9%AB%98%E7%AD%91%E6%8A%BC%E6%B3%A8AI%EF%BC%8C%E5%93%AA%E5%AE%B6%E8%83%BD%E7%AC%91%E5%88%B0%E6%9C%80%E5%90%8E%EF%BC%9F%EF%BD%9C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Thu, 07 May 2026 14:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "by",
+        "has",
+        "in",
+        "to",
+        "was"
+      ],
+      "summary": "1 写在前面 攒钱和借钱，哪个更危险？ 巴菲特选择攒钱。伯克希尔·哈撒韦现在手里握着将近 4000 亿美元的现金，占公司市值的 40%。这笔钱放在那里，几乎什么都不做。他在等一场大崩盘。 孙正义选择借钱。软银把借来的钱全部押进了硅谷的 AI 赌局——OpenAI、Arm、机器人、数据中心，一笔接一笔。他在赌 AI 改变世界。 经济学人这篇文章的核心论点只有一句话： 这两种策略，只有一种能对。 但它没有告诉你哪种。 我们反复读了这篇文章，觉得这篇文章真正有意思的地方，不是在预测谁赢谁输，而是在描述两种极端的商业哲学如…",
+      "key_points": [
+        "2 精读 | 翻译 | 注释 🎯 本期精读： 经济学人商业版·熊彼特专栏 难度： ★★★★☆ 适合： 商业英语 / 金融英语 / 考研 / GRE Only o…",
+        "双方都会将对方的资产负债表视为一种反常现象。伯克希尔在巴菲特掌舵下积累了近 4000 亿美元的现金储备，却几乎找不到合适的投资出口。唯有堪比 1929 年、19…",
+        "尽管伯克希尔·哈撒韦与软银集团代表着截然相反的资本主义理念，这两家公司却有着诸多共同之处。两者都是介于经营性企业集团与投资基金之间、难以明确归类的混合体。两者都…"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/05/07/agent-ai-coding.html",
+      "published": "Thu, 07 May 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Coding",
+        "Pre-PR",
+        "Rule",
+        "SOP"
+      ],
+      "summary": "当 90% 以上代码由 AI 生成，决定系统走向的不是谁写得更快，而是约束 AI 的能力。没有统一规范，AI 只会成倍放大混乱。本文基于 31 万行代码重构实践，分享我们如何用 Agent 评测思路管理 AI Coding——通过技术债梳理、建设Rule、重构 SOP 和 Pre-PR 机制，把重构从高成本专项变成随迭代持续推进的日常动作。",
+      "key_points": [
+        "决定系统走向的不是谁写得更快，而是约束 AI 的能力。没有统一规范，AI 只会成倍放大混乱。本文基于 31 万行代码重构实践，分享我们如何用 Agent 评测思…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么写书法要用繁体字，难道简体字就不能体现书法之美吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789463",
+      "published": "Tue, 05 May 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bug",
+        "Rap"
+      ],
+      "summary": "黄佳智， 公众号：在练 查看知乎原文 不是不能用简体字写书法，也不是说简体字写书法就不美了。 这里只说毛笔书法。 实际上简体字比繁体字更难写，因为笔画比较少，对空间的美学分割能力要求更高。 并且这里面有一个最严重的 bug： 你会发现，不仅学的时候难入手，即便学会了，除了楷书、行、隶、草还能勉强凑合写，篆基本没法玩。 为什么呢？ 首先入门就卡住。 学书法最正统的路子是什么？ 从古帖里面生长出来。也就是先学古人找到书法中的规律，在做创新。 那么你翻开任何一本经典字帖，比如欧阳询、颜真卿、王羲之，虽然也有简体字，但大部…",
+      "key_points": [
+        "书法之美，很大程度上来自于 千百年传承下来的笔法、字法、章法 。繁体字就是这套体系的载体。你非要用简体去写",
+        "公众号：在练 不是不能用简体字写书法，也不是说简体字写书法就不美了",
+        "但你要知道：把繁体字书法写好已经是一个很不容易的事情了，更不说写好繁体再来写简体了"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "本期《经济学人》最值得读的10篇文章",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%9C%AC%E6%9C%9F%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E3%80%8B%E6%9C%80%E5%80%BC%E5%BE%97%E8%AF%BB%E7%9A%8410%E7%AF%87%E6%96%87%E7%AB%A0",
+      "published": "Tue, 05 May 2026 16:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "of",
+        "amp",
+        "Leaders",
+        "CATTI",
+        "DNA"
+      ],
+      "summary": "本期《经济学人》最值得读的10篇文章 ps:仅为个人观点，不喜勿喷，不做辩驳 先说说这期TE封面： 本期封面是一艘油轮飘在云端，标题\"Still in La-La Land\"，意思大概是，石油市场还活在梦里。背景是美国和以色列对伊朗开战，霍尔木兹海峡被封锁，全球能源市场乱成一锅粥。这期内容非常\"现实\"，读完你会对当下世界多一分理解，也会对很多英语考试里那些\"宏观经济\"\"地缘政治\"类的题目了解多一点点。 十篇文章如下: 1. Still in La-La Land（第9页，Leaders） 配套阅读：Briefing…",
+      "key_points": [
+        "本期《经济学人》最值得读的10篇文章 ps:仅为个人观点，不喜勿喷，不做辩驳 先说说这期TE封面： 本期封面是一艘油轮飘在云端，标题\"Still in La-L…",
+        "为什么值得读：标题 Autocracy-Proofing 是一个很有创意的词——把名词 autocracy 变成动名词，加 -proofing 后缀表示\"防………",
+        "为什么值得读：生命科学类文章是雅思阅读的大头，也是考研英语长难句的高发区。这篇文章的一个优点是，作者非常擅长用类比解释复杂概念——比如把基因调控比喻成\"调音量\"…"
+      ]
+    }
+  ]
+}
