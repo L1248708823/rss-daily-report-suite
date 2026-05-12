@@ -1,0 +1,742 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T01:00:09.641957+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 94,
+    "fresh_candidates": 66,
+    "backfill_candidates": 28,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-12",
+      "fetched_at": "2026-05-12T01:00:04.349937+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4225.02,
+          "change": 45.07,
+          "change_pct": 1.08,
+          "volume": 762736287.0,
+          "amount": 158436675.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4749.63,
+          "change": 15.0,
+          "change_pct": 0.32,
+          "prev_close": 4734.63,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-12 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1037.5933873679812,
+          "change": 3.276865947562328,
+          "change_pct": 0.3168146190937986,
+          "prev_close": 1034.316521420419,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-12 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "买科技赚翻了，要不要退出？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B9%B0%E7%A7%91%E6%8A%80%E8%B5%9A%E7%BF%BB%E4%BA%86%EF%BC%8C%E8%A6%81%E4%B8%8D%E8%A6%81%E9%80%80%E5%87%BA%EF%BC%9F",
+      "published": "Mon, 11 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PE-TTM",
+        "WIND"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：懒人养基 来源：雪球 最近好几位朋友问我同一个问题 ： 科技成长基金赚了不少 ， 到底要不要止盈 ？ 首先要恭喜你们 。 不管是偶然踩中了风口 ， 还是长期坚守终于开花结果 ， 能赶上这一轮科技行情 ， 尤其是AI驱动的超级周期 ， 本身就是一种幸运 。 毕竟市场大部分时间都是平淡甚至煎熬的 ， 真正赚大钱的机会窗口并不多 。 但 “ 赚了钱 ” 和 “ 要不要卖 ” 之间 ， 隔着一…",
+      "key_points": [
+        "懒人养基 来源：雪球 最近好几位朋友问我同一个问题 ： 科技成长基金赚了不少 ， 到底要不要止盈",
+        "但 “ 赚了钱 ” 和 “ 要不要卖 ” 之间 ， 隔着一条很深的认知鸿沟",
+        "帮你找到自己的答案 与其问 “ 要不要止盈 ” ， 不如先问自己三个问题"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "短期思维、长期思维、永续思维",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8852403512/388125946",
+      "published": "Mon, 11 May 2026 10:14:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "SH600519",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "看一家公司，从时间维度有三种视角。 第一种看三五个月，是短期思维。短期思维在意的是高频数据，是短期事件驱动。比如泡泡玛特的月度销量，茅台的每日酒价，受地缘冲突影响的国际油价。 第二种看三五年，是长期思维。长期思维在意的是公司的战略发展方向、战术发展路径、产品的竞争力。比如腾讯对AI的投入计划，茅台的产能建设规划、销售渠道调整，泡泡玛特的集团化发展路线。 第三种看十年以上，是永续思维。十年是个概数，是很久的意思，或者说要看到公司的生命周期尽头，永续思维是终局思维，是想象这个生意最终会是什么样子。永续思维在意的是商业模…",
+      "key_points": [
+        "是近因效应，会本能地放大短期事件的影响。而人的能力也就够到长期思维，做到大致定量，能看三五年就不错了。永续思维，是不可能精确定量的",
+        "长期思维看的是半定量，那永续思维的主要作用是定性",
+        "是永续思维。十年是个概数，是很久的意思，或者说要看到公司的生命周期尽头，永续思维是终局思维，是想象这个生意最终会是什么样子。永续思维在意的是商业模式、企业文化、…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI后面怎么发展？三个阶段",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1175294405/388193919",
+      "published": "Mon, 11 May 2026 10:14:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AR",
+        "CDN",
+        "http",
+        "IDC",
+        "NQ839473"
+      ],
+      "summary": "沪指突破4200点，创近11年来新高！ 一、还是AI 2025年，全球人工智能企业拿走了2587亿美元风险投资，占全球风投总额的61%。美国在押注AI，视AI为国运。从企业到政府，从银行到私募，大部分钱都在AI里面。 《2026年美国风险投资年鉴》显示，去年美国创投基金3200亿美元，其中AI占交易金额的65.4%，高于2024年的50.9%。AI构成了具有统治力的财富主线。 所以，硬件起飞，韩国股指今年已经涨了75%，，飞的最高。 第一阶段，是大模型训练。从英伟达到博通，从三星、SK海力士到美光，国内资本市场如寒…",
+      "key_points": [
+        "是具身智能。在这个阶段，AI不只是做一个“超级大脑”，它还需要长出手和脚，要能感知环境，要能执行动作，要能在真实物理世界里完成任务，这就是具身智能。如果AI不能…",
+        "全球瞩目。大家关注的焦点，早已超越了访问本身，而是中美这两个全球最大的经济体，在经过多年的贸易战、科技战和激烈的战略博弈之后，能否达成一个阶段性的、可管理的共识…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "高盛近期唱空碳酸锂和锂电股研报解读",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6843441724/388062671",
+      "published": "Mon, 11 May 2026 10:14:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "近期高盛发布重磅锂矿行业研报，观点极具市场冲击力，维持天齐锂业、赣锋锂业“卖出”评级。研报预判，碳酸锂价格有望在2026年上半年冲高至2.1万美元/吨，折合人民币约16.4万元/吨，触及阶段高点后，将进入长达数年的下行周期。更令市场警惕的是，高盛测算2026年下半年全球锂矿供应过剩比例超20%，行业供需格局显著失衡。 研报出炉后迅速在资本市场引发连锁反应。5月7日至8日，锂矿板块应声集体回调，其中赣锋锂业两个交易日累计跌幅约7.3%，天齐锂业、湖南裕能等锂电产业链标的同步走弱，纷纷走出技术性走弱信号。 本文将结合这…",
+      "key_points": [
+        "观点极具市场冲击力，维持天齐锂业、赣锋锂业“卖出”评级。研报预判，碳酸锂价格有望在2026年上半年冲高至2.1万美元/吨，折合人民币约16.4万元/吨，触及阶段…",
+        "短期供需结构尚未发生实质性逆转；但一旦下游需求走弱、矿山复产落地，供需格局将快速转松，碳酸锂后期大幅回落的风险将显著加大。因此，以当前市场视角来看，多数投资者对…",
+        "二是原油危机大幅提振新能源车与储能需求。2026年初国际原油价格受中东局势动荡影响持续暴涨，燃油车使用成本显著攀升，新能源车的性价比优势快速凸显，全球购车需求加…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "聊聊物流行业",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1379428214/388061827",
+      "published": "Mon, 11 May 2026 10:14:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "P2",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今天我们来聊聊物流行业，总的观点我是认为，商业模式不好，有阶段性机会，做长期股东价值可能收益不高，但是行业中的特种物流就比较值得拥有。 物流行业商业模式不太好，物流行业是一个资本性开支极大的行业，收益率又极低，价格恶性竞争的行业，公司每日都要斤斤计较成本，小心翼翼的管理，利润比刀片还要薄，稍微大手大脚一点，公司就会从盈利变成亏损，盈利的时候没有赚多少利润，亏损的时候，一年能亏掉十年的利润。 资本开支也是极大的，物流行业，需要无限开网点，需要无限买车，雇佣司机，建快递站，请快递员，顺便还要买飞机，资本开支无限大，但是…",
+      "key_points": [
+        "头部几家公司都是好公司，但是在一个不好的赛道里，是很难出牛股的，更多的是出现阶段性热点暴涨，然后又尘归尘，土归土，从哪里开始涨，又跌回到哪里，这是一个大概率的行…",
+        "物流行业，需要无限开网点，需要无限买车，雇佣司机，建快递站，请快递员，顺便还要买飞机，资本开支无限大，但是巨大的资本开支却没有带来对应的收益增加，因为你买了车，…",
+        "持种危险品运输，它的商业模式是物流行业中最好的，因为它是特种危险品物流，需要拿特种物流牌照的，牌照不是很难拿，但很多人拿了牌照后，特种物流的订单不好找的，奥密克…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "生活中有什么常见，但是却有剧毒而不为人知的植物或其他东西？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789637",
+      "published": "Mon, 11 May 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mg",
+        "kg",
+        "P450"
+      ],
+      "summary": "仙人掌中宝， 娱乐。 查看知乎原文 毒性是氰化钾的 11 倍，3 克就能致人死亡。以一位成年人 60kg 计算，氰化钾的致死量约 50~100mg，而纯钩吻碱甲的致死量只要 9~18mg。 钩吻，民间俗称“断肠草”，它的根、茎、叶都有剧毒，具体毒素是钩吻碱甲、乙等 20 多种毒性生物碱。 为什么说钩吻是中国毒性最剧烈的植物之一？ 因为钩吻具有很强的脂溶性，一旦进入体内，毒素能迅速穿过血脑屏障，直接进入神经系统中，抑制呼吸中枢、血管运动中枢、迷走神经中枢等等。 中毒后，前 10 分钟会感觉恶心，接着头晕、视力下降，慢…",
+      "key_points": [
+        "民间俗称“断肠草”，它的根、茎、叶都有剧毒，具体毒素是钩吻碱甲、乙等 20 多种毒性生物碱",
+        "为什么说钩吻是中国毒性最剧烈的植物之一"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "你觉得哪位历史人物的一生跌宕起伏，下场让人唏嘘不已？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789648",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "宁南左侯， 太极生二姨 查看知乎原文 前段时间网上火了一组人物画像。 这是南京博物馆藏的《明人十二像册》，里头的十二张明后期人物画像以非常写实的风格让大家耳目一新，所以有人用 AI 跑了一遍，用画像复原人物，也算历史 + 科技了，挺好玩的。 其中有一位叫陶崇道的大帅哥，面容清秀，因此跑出来的 AI 复原像也是相当正派的： 但里头另一幅叫葛寅亮的画像就比较有趣了，眼睛一大一小，而且眼皮耷拉着，还露着一颗牙，形象可以说比较抱歉了，较之于陶崇道可以说差出去二里地。 看样子，总觉得这应该是那种一问三不知的老糊涂。 葛寅亮，…",
+      "key_points": [
+        "里头的十二张明后期人物画像以非常写实的风格让大家耳目一新，所以有人用 AI 跑了一遍，用画像复原人物，也算历史 + 科技了，挺好玩的",
+        "太极生二姨 前段时间网上火了一组人物画像",
+        "总觉得这应该是那种一问三不知的老糊涂"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "图解：资管行业「大模型」50个核心名词（首篇)",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6393240.html",
+      "published": "Mon, 11 May 2026 08:50:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Token",
+        "AI",
+        "Prompt",
+        "Embedding",
+        "Transformer",
+        "LLM"
+      ],
+      "summary": "大模型技术正深刻重塑资管行业的智能投研与合规生态。本文以10个核心概念为脉络，系统拆解LLM在金融领域的垂直应用——从Transformer架构的底层原理，到行业大模型的知识蒸馏；从Token计费机制的成本控制，到多模态处理的财报分析实战。这是一份面向金融科技从业者的AI认知升级指南。 烦请大家看一张：大模型技术发展历程图（如下图1） 图1：大模型技术发展历程，图源于智能投研技术联盟公众号 既然聊得是资管行业的大模型名词，那请看大家先看大模型工作流程图开始，搞清楚它是什么，为下面的学习作铺垫。 图2：LLM (大语…",
+      "key_points": [
+        "大模型技术正深刻重塑资管行业的智能投研与合规生态。本文以10个核心概念为脉络，系统拆解LLM在金融领域的垂直应用——从Transformer架构的底层原理，到行…",
+        "图28：资管行业宏观事件影响推理示意图 本质： 大模型在接收到输入后，通过其神经网络中复杂的非线性变换和注意力机制，激活并组合相关的知识片段，沿着隐式的逻辑路径…",
+        "原理：Prompt通过激活模型内部的特定知识通路，来左右下一个Token的预测。简单说，模型内部的知识图谱错综复杂，Prompt就是一束探照灯，只照亮你需要的那…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Airbnb创始人说：AI时代只有一种人能活下来",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6393237.html",
+      "published": "Mon, 11 May 2026 08:37:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Brian",
+        "Airbnb",
+        "CEO",
+        "Founder",
+        "Mode"
+      ],
+      "summary": "Airbnb创始人Brian Chesky的成长轨迹揭示了从设计师到CEO的蜕变密码。这位工业设计出身的创业者分享了如何用设计思维破解管理难题，为何在AI时代Founder Mode将更加强大，以及消费级AI为何即将迎来爆发。他关于11 Star体验、招聘哲学和艺术创作本质的思考，为创业者提供了颠覆性的认知升级。 你有没有想过，创始人和 CEO 其实是两种完全不同的物种？做创始人靠的是本能，但做 CEO 靠的是反本能。Brian Chesky 在一期播客里聊了这个问题，聊了将近两个小时，我一口气听完，觉得每隔几分钟…",
+      "key_points": [
+        "我自己做产品也有类似的体会。很多人把设计理解成”让界面好看”，但真正的设计是一种系统性思考——你必须同时对用户的情绪状态、操作习惯、认知负担、利益相关方的诉求有…",
+        "创始人和 CEO 其实是两种完全不同的物种？做创始人靠的是本能，但做 CEO 靠的是反本能。Brian Chesky 在一期播客里聊了这个问题，聊了将近两个小时…",
+        "Airbnb创始人Brian Chesky的成长轨迹揭示了从设计师到CEO的蜕变密码。这位工业设计出身的创业者分享了如何用设计思维破解管理难题，为何在AI时代F…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "加码AI，小红书为何态度大转变？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6393227.html",
+      "published": "Mon, 11 May 2026 08:00:35 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "APP",
+        "Dots",
+        "Insight",
+        "Agent",
+        "ChatGPT"
+      ],
+      "summary": "小红书在成立13年后终于将AI提升至战略核心，成立Dots一级部门构建全链路技术体系。这家以'活人感'著称的平台通过'问一问'功能验证了AI与社区生态的兼容性，用户留存率提升2%-3%。从内容治理到电商转化，小红书正在探索AI串联社区、电商、商业化三大业务的独特路径。 此前对AI较为克制的小红书，终于开始加速。 近日，小红书通过一封内部信，宣布了新一轮组织架构升级，公司将全面整合社区、电商、商业化三大业务及公司技术体系；同时成立AI一级部门Dots和企业智能部，从产品技术和组织两方面加大对AI的投入。 这场组织升级…",
+      "key_points": [
+        "对于AI的布局却还是采用着一贯的“慢慢来”风格，没有高举高打的加码投入、投放广告，也没有大范围的测评应用，现有的AI技术大多起到完善小红书APP功能的作用，在诸…",
+        "不管是在市场需求、商业化还是大环境上，小红书都不能再拖延加码AI的时间了",
+        "小红书对AI的使用主要是治理的态度"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "抖音和QQ抢“杀马特”？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6393213.html",
+      "published": "Mon, 11 May 2026 07:44:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "QQ",
+        "App",
+        "Facebook",
+        "CC0",
+        "DAU",
+        "Instagram"
+      ],
+      "summary": "抖音社交战略正经历关键转向——从对标微信到瞄准QQ年轻用户群体。最新上线的‘星光商城’通过售卖限时聊天气泡和魔性表情包，复刻QQ经典变现模式，试图在05后市场撕开突破口。配合虚拟宠物‘小火人’的养成玩法，抖音正在构建一套游戏化社交体系，这场代际社交争夺战或将重塑腾讯系产品的垄断格局。 抖音做社交多年，一直困扰于一个基本问题：到底做哪个人群的社交？ 以前，抖音试图和微信PK，做所有人的社交。但过去一段时间，抖音开始有了新的答案：抓住05后乃至10年后的年轻人，和QQ抢人。 这种新策略，体现在了最新的产品功能上。 近日…",
+      "key_points": [
+        "抖音给聊天场景增加“杀马特”表情包，摆明了自己不再以微信为对手，而是要把QQ作为新的挑战对象",
+        "01 把聊天气泡装扮成卡哇伊的猫猫狗狗，或是把黄豆表情打扮成黄毛小伙、粉毛小妹、五彩斑斓头发的杀马特，20岁以上人群恐怕都要当场尴尬症发作，脚趾抠出三室一厅",
+        "腾讯旗下的QQ就已经有了类似的玩法；五颜六色的聊天道具够不够新潮、有没有out，一度成为“杀马特”年轻人的比拼焦点"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AGI 之路，可能从一开始就走错了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6393201.html",
+      "published": "Mon, 11 May 2026 07:29:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AGI",
+        "OpenAI",
+        "UBI",
+        "Google",
+        "DeepMind"
+      ],
+      "summary": "AGI 军备竞赛正在引发全球性的社会反弹与能源危机。从OpenAI创始人遭遇袭击到发展中国家数据标注工厂的剥削，这场技术狂欢背后隐藏着被转嫁的代价。本文深度剖析大模型路线的结构性困境——当算力需求呈指数增长而能源供给只能线性跟进，人类是否正在攀登一座错误的技术高峰？ 从奥特曼家门口的燃烧瓶说起 2026 年 4 月 10 日凌晨，旧金山俄罗斯山，一个 年轻人在山姆·奥特曼家门口扔出了一枚燃烧瓶。两天后，另外几个年轻人驾车经过同一栋房子，朝屋内开枪。三天两起袭击——第一名袭击者随身带着一份”反 AI 宣言”，上面列着…",
+      "key_points": [
+        "这篇文章想把一个很多人隐约感觉到但没说透的判断讲出来：我们现在所走的这条所谓”通往 AGI”的大模型路线，极有可能从一开始就走错了。它不是科学选择，而是叙事选择…",
+        "他没有直接说”我们走错了”。他用了一个更科学家式的表达——“关键的能力可能不在这条路的延长线上”。翻译成直白的话就是：这条路走到头，也不是 AGI；我们在错误的…",
+        "还有一层更直接的关系——今天被转嫁到最弱势地区的代价，明天就会以新的形式转嫁过来。标注工人的低薪、被抽干的水资源、被过载的电网，这些不是”别人家的事”。它们是这…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "被快手砸了5.7亿的A站，成了沉默的“赛博坟场”。",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%A2%AB%E5%BF%AB%E6%89%8B%E7%A0%B8%E4%BA%865.7%E4%BA%BF%E7%9A%84A%E7%AB%99%EF%BC%8C%E6%88%90%E4%BA%86%E6%B2%89%E9%BB%98%E7%9A%84%E2%80%9C%E8%B5%9B%E5%8D%9A%E5%9D%9F%E5%9C%BA%E2%80%9D%E3%80%82",
+      "published": "Mon, 11 May 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "up",
+        "UP",
+        "project",
+        "AC",
+        "ID",
+        "ChinaJoy"
+      ],
+      "summary": "2020 年，在 ChinaJoy 热热闹闹之后，A 站在上海外滩华尔道夫办了一场年会。 “看着俊男美女齐聚一堂，当时的我，对 A 站的未来充满了信心。” ——A 站 up 主长安一条柴 当时的他并不会想到，那已经是 A 站最后的余热。 前段时间，差评君鬼使神差地点进了 A 站，对，就是 AcFun，那个国内弹幕网站的先河、二次元曾经（可能现在也是）的圣地，如今已经弥漫着一股， 我们打算叫它互联网坟场的气质。 啥叫互联网坟场气质，就这么说吧： 当我们误入 A 站的时候，整个直播频道，只有 19 个主播在直播，一段时…",
+      "key_points": [
+        "快手直接给 A 站投入 5.7 亿的真金白银等资源，推出超级 UP 主扶持计划，什么“A 等生计划”“UP 主激励榜单‘熋榜’”等等一系列，面向新人 UP 主和…",
+        "回顾过去 19 年里 A 站的起起伏伏（找爸爸史？），2018 年被快手收购，是一个非常关键的节点",
+        "差评君鬼使神差地点进了 A 站，对，就是 AcFun，那个国内弹幕网站的先河、二次元曾经（可能现在也是）的圣地，如今已经弥漫着一股， 我们打算叫它互联网坟场的气…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "极映创始人高鑫：用物理基模，补上 AGI 缺失的第三块地基",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9E%81%E6%98%A0%E5%88%9B%E5%A7%8B%E4%BA%BA%E9%AB%98%E9%91%AB%EF%BC%9A%E7%94%A8%E7%89%A9%E7%90%86%E5%9F%BA%E6%A8%A1%EF%BC%8C%E8%A1%A5%E4%B8%8A+AGI+%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%89%E5%9D%97%E5%9C%B0%E5%9F%BA",
+      "published": "Mon, 11 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Science",
+        "CEO",
+        "AGI",
+        "amp",
+        "BP"
+      ],
+      "summary": "编者按 当 AI 正在重构科研与产业的底层逻辑，AI for Science 早已不是纸上概念。4月28日，未来光锥联合北京中关村学院AI商学院，共同推出「AI for Science 创变者说：学界 × 产业先锋对话系列沙龙」。首期活动邀请了3 位一线嘉宾。极映科技创始人&amp;CEO高鑫完整拆解了 AI 驱动的下一代物理仿真的底层逻辑，分享了极映科技用通用物理基础模型，重构工业仿真、打开具身智能想象空间的实践与思考。 如果我们能在数字世界里，1:1 复刻整个真实物理世界的所有规律，重建一个完全贴合现实的数字孪…",
+      "key_points": [
+        "编者按 当 AI 正在重构科研与产业的底层逻辑，AI for Science 早已不是纸上概念。4月28日，未来光锥联合北京中关村学院AI商学院，共同推出「AI…",
+        "就是用物理基础模型补全这个缺失的维度：把视频里的视觉信息提取出来，输入到我们的基础模型中，就能直接输出对应的完整力学信息。这意味着，我们可以把互联网上海量的人类…",
+        "上海极映科技创始人兼 CEO，长期关注 AI for Science 与物理仿真基础模型。当前主要研究方向是将深度学习与多物理场仿真结合，构建能够从几何与工况直…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "野外徒步捡到这样的石头？别扔，可能是金子！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%87%8E%E5%A4%96%E5%BE%92%E6%AD%A5%E6%8D%A1%E5%88%B0%E8%BF%99%E6%A0%B7%E7%9A%84%E7%9F%B3%E5%A4%B4%EF%BC%9F%E5%88%AB%E6%89%94%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%98%AF%E9%87%91%E5%AD%90%EF%BC%81",
+      "published": "Mon, 11 May 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ng",
+        "ch",
+        "ID",
+        "rain",
+        "sstm01"
+      ],
+      "summary": "前段时间，“8岁男孩在野外意外发现金矿”的消息火遍全网，很多人一边羡慕这份好运气，一边忍不住好奇：金矿到底长什么样？普通人真能在户外找到金矿吗？ 金矿，与你想的不一样 很多人以为，金矿里面就是闪闪发光的大块金疙瘩，其实完全不是这样。 从地质科学角度来说， 金矿并不是纯金块，而是含有金元素、达到一定开采标准的岩石或砂矿。 自然界中的黄金主要分两种。一种是存在于岩石裂隙、断层中的含金矿脉，名为 脉金 ，最常见的是含金石英脉。 石英脉型金矿石，产于河南省灵宝市丨作者拍摄 矿脉是由水热溶液在岩石节理、裂隙和断层中沉积而成的…",
+      "key_points": [
+        "产于山西忻州繁峙县丨作者拍摄 观察植物，也可以帮助找到金矿 。地下的金矿石经过地下水的溶解、冲蚀和搬运，会让表层土壤富含微量金元素，这些金元素会变成能被植物吸收…",
+        "国外也有很多植物指示金矿的经典案例。2013年，澳大利亚科学家用X光成像技术，在桉树叶片中发现了微量黄金，这种桉树根系极深，能深入地下数十米，吸收地下的金元素并…",
+        "还是在自家的承包地里发现的，都不能私自占有或挖掘。绝不能抱有“捡到就是自己的”“偷偷挖没人知道”的侥幸心理，法律红线绝对不能触碰。私自挖掘、开采金矿，不仅是违法…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "怎么天一热斑就加深？很多女生都踩了同一个坑！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%80%8E%E4%B9%88%E5%A4%A9%E4%B8%80%E7%83%AD%E6%96%91%E5%B0%B1%E5%8A%A0%E6%B7%B1%EF%BC%9F%E5%BE%88%E5%A4%9A%E5%A5%B3%E7%94%9F%E9%83%BD%E8%B8%A9%E4%BA%86%E5%90%8C%E4%B8%80%E4%B8%AA%E5%9D%91%EF%BC%81",
+      "published": "Mon, 11 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ITA",
+        "MI",
+        "of",
+        "British",
+        "cutaneous",
+        "dc_ps"
+      ],
+      "summary": "每年天一热， 紫外线指数 蹭蹭 往上涨，我心里就咯噔一下。 倒不是怕晒黑，适度的小麦色，反而自带健康美！ 我更怕的是晒斑。 太阳一照，就像给脸上的斑“施了肥”， 新斑快速冒头，旧斑狠狠加深 。 粉底液遮不住，素颜又 显得人气色不好、没精神， 一照镜子就心塞😭。 面部色素沉淀、晒斑 ，图虫创意 但我发现一个很矛盾的现象：明明一到夏天，晒斑、黄气会疯狂加重，可大多数人，反而 主动停用所有美白类护肤品 。 背后无非是这几个担心😭： ① 怕美白成分感光，不严格防晒反而会反黑长斑； ② 夏天又热又爱出油，怕厚重黏腻，闷痘搓泥…",
+      "key_points": [
+        "需要的朋友千万别错过~ 👇🏻 戳图购买 👇🏻 01 4条路围剿 淡斑效率高、效果好 市面很多美白产品往往靠单一成分挑大梁，但总有其局限性。因为 皮肤变黑或者说长…",
+        "综合成分、肤感、温和度、实际淡斑效果 ，真正做到全维度在线、让我愿意长期回购的—— 就是这瓶 长生鸟清透美白霜 👇 👇 果壳实拍 ✅ 效果靠谱： 很多人长斑只知…",
+        "源头扼制黑色素，派出了✅α-熊果苷 α-熊果苷 可以 抑制酪氨酸酶活性，从源头掐断黑色素的生成信号，也就是说，把“长斑的开关”先关掉~ 果壳实拍 ② 其次，拦截…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "今年戛纳最重要的电影，不在主竞赛",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%8A%E5%B9%B4%E6%88%9B%E7%BA%B3%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E7%94%B5%E5%BD%B1%EF%BC%8C%E4%B8%8D%E5%9C%A8%E4%B8%BB%E7%AB%9E%E8%B5%9B",
+      "published": "Mon, 11 May 2026 20:50:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Clockwork",
+        "Neon",
+        "DVD",
+        "BBC",
+        "BFI",
+        "Features"
+      ],
+      "summary": "文 CoreSin 原谅我这么说，因为今年戛纳经典修复单元的片单，实在太耀眼。 吉尔莫 ·德尔·托罗亲自监修的《潘神的迷宫》4K版、黑泽明《 姿 三四郎》含新发现散佚片段的修复版、维斯康蒂遗作《无辜者》、奥逊 ·威尔斯《陌生人》 、华语经典《霸王别姬》 ……在这一众经典之中，还有一部是—— 《肯 ·拉塞尔的 〈 群魔 〉 》。 戛纳的官网上，特地把导演名字，加到了片名上。 它不是普通的《群魔》，这个名字意味着来自导演本人的认可——但导演本人其实已经去世了。 戛纳这样强调，当然有它的理由。 戛纳即将放映的这个版本，…",
+      "key_points": [
+        "因为今年戛纳经典修复单元的片单，实在太耀眼",
+        "格朗迪耶最终在公开审判后被处以火刑。阿尔多斯 ·赫胥黎1952年的非虚构著作《卢丹的群魔》对这一事件做了精细的历史还原，约翰·惠廷1960年将其改编为舞台剧，而…",
+        "英国 的 光明节运动将《群魔》作为攻击靶心，多个地方议会援引地方权力直接禁映这部已获全国分级证书的电影。意大利和芬兰直接全面禁映。芬兰的禁令持续到 2001年方…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "雷德利·斯科特吐槽戛纳",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%9B%B7%E5%BE%B7%E5%88%A9%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9%E5%90%90%E6%A7%BD%E6%88%9B%E7%BA%B3",
+      "published": "Mon, 11 May 2026 20:50:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Buchanan",
+        "hongmomgs",
+        "irisfilm",
+        "Kyle",
+        "New",
+        "qq.com"
+      ],
+      "summary": "作者：Kyle Buchanan 译者：易二三 校对：覃天 来源：The New York Times （2024年11月7日） 24年前，导演雷德利·斯科特执导了他职业生涯中最成功的电影之一《角斗士》，这部由罗素·克劳主演的史诗片还斩获了奥斯卡最佳影片奖。现年86岁的斯科特仍然保持着惊人的创作力，有时甚至会在同一年执导两部影片。 《角斗士》 他的最新作品是《角斗士2》，故事发生在克劳饰演的马克西蒙斯在角斗场上英勇牺牲20年之后。在此后的岁月里，马克西蒙斯的秘密儿子路奇乌斯（保罗·麦斯卡饰）被送到了北非，并且也渐渐…",
+      "key_points": [
+        "Kyle Buchanan 译者：易二三 校对：覃天 来源：The New York Times （2024年11月7日） 24年前，导演雷德利·斯科特执导了他…",
+        "斯科特：那以后我就再没去过戛纳。我（脏词）讨厌戛纳电影节",
+        "斯科特：第一部《角斗士》取得了越来越大的成功：上映之初，它的口碑就相当不错，但它越来越受到人们的喜爱，部分原因是流媒体平台的出现。我喜欢这些平台，因为它们让电影…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "一根超甜蕉的自然密码",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%80%E6%A0%B9%E8%B6%85%E7%94%9C%E8%95%89%E7%9A%84%E8%87%AA%E7%84%B6%E5%AF%86%E7%A0%81",
+      "published": "Mon, 11 May 2026 17:07:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "都乐超甜蕉为啥能成为香蕉中的软糯甜“ 芯 ”？它的甜蜜密码，藏在热带岛屿的丰饶土壤与充足阳光里。 都乐超甜蕉生长于菲律宾达沃地区肥沃的土壤之上，丰富的地热资源使得土壤轻盈透气，富含钙、钾、镁等化学元素。这里的气候常年恒温26-28℃，日照充足，雨水丰沛，极其利于自然糖分的积累，带来比人工糖分更健康、更易消化吸收的甜蜜能量。 一片风土，一味香甜。都乐超甜蕉的每一口绵密软糯的绝佳口感，不仅是味蕾的享受，更是一段关于自然与时间的深情故事。 &lt;&gt; 文章原文",
+      "key_points": [
+        "一味香甜。都乐超甜蕉的每一口绵密软糯的绝佳口感，不仅是味蕾的享受，更是一段关于自然与时间的深情故事",
+        "都乐超甜蕉生长于菲律宾达沃地区肥沃的土壤之上，丰富的地热资源使得土壤轻盈透气，富含钙、钾、镁等化学元素。这里的气候常年恒温26-28℃，日照充足，雨水丰沛，极其…",
+        "都乐超甜蕉为啥能成为香蕉中的软糯甜“ 芯 ”？它的甜蜜密码，藏在热带岛屿的丰饶土壤与充足阳光里"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "还有谁？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%BF%98%E6%9C%89%E8%B0%81%EF%BC%9F",
+      "published": "Mon, 11 May 2026 19:50:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PS."
+      ],
+      "summary": "能以 20% 的排片，贡献了接近一半的票房！PS.别问我为什么数据和你看到的不一样，我是专业版。为什么我用专业版？那是一个很长很长的故事，这里写不下。 文章原文",
+      "key_points": [
+        "贡献了接近一半的票房！PS.别问我为什么数据和你看到的不一样，我是专业版。为什么我用专业版？那是一个很长很长的故事，这里写不下"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "从物理学到社会学: 一位哈佛教授如何理解社会不平等",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E7%89%A9%E7%90%86%E5%AD%A6%E5%88%B0%E7%A4%BE%E4%BC%9A%E5%AD%A6%3A+%E4%B8%80%E4%BD%8D%E5%93%88%E4%BD%9B%E6%95%99%E6%8E%88%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E7%A4%BE%E4%BC%9A%E4%B8%8D%E5%B9%B3%E7%AD%89",
+      "published": "Mon, 11 May 2026 08:22:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Zhou",
+        "of",
+        "in",
+        "Xie",
+        "Xiang",
+        "Heckman"
+      ],
+      "summary": "5.11 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Unsplash / Zoshua Colah 编者按： 今天推荐一篇哈佛大学社会学教授周翔的自述。他本科毕业于清华大学基础科学班，主修数学与物理。原本，他感兴趣的是那些像牛顿力学一样“简洁而优美”的理论体系；但在旁听经济学课程、接触应用微观研究之后，他开始意识到：真实世界远比理论复杂，而真正有意思的问题，恰恰藏在理论与现实之间的缝隙里。 从那以后，他转向社会科学研究。从密歇根大学博士，到哈佛任教，再到获得终身教职，他的研究一路进入社会学、…",
+      "key_points": [
+        "方差函数回归是一种能够同时分析因变量均值和方差的回归模型。这一方法在收入不平等趋势研究中的应用，最初由Bruce Western和Deirdre Bloome于…",
+        "当时社会学系的系主任Jason Beckfield与政治学系的系主任Jeffry Frieden沟通，提出了让我“转系”的建议。Jeffry Frieden非常…",
+        "哈佛大学社会学教授，专注于经济不平等、教育、代际流动及其因果机制的研究, 其成果发表于《美国社会学评论》、《美国社会学杂志》、《社会力》、《政治经济学杂志》、《…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "一桩美妆行业的重磅并购能否挽救雅诗兰黛？ | 经济学人商业",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%80%E6%A1%A9%E7%BE%8E%E5%A6%86%E8%A1%8C%E4%B8%9A%E7%9A%84%E9%87%8D%E7%A3%85%E5%B9%B6%E8%B4%AD%E8%83%BD%E5%90%A6%E6%8C%BD%E6%95%91%E9%9B%85%E8%AF%97%E5%85%B0%E9%BB%9B%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+      "published": "Sat, 09 May 2026 21:13:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "of",
+        "to",
+        "Lauder",
+        "as",
+        "is"
+      ],
+      "summary": "Business | Vanity project 商业版块 | 面子工程 注：双关。Vanity 既有“虚荣”的意思，也常指化妆台；Vanity project 在这指“为了个人虚荣或满足感而进行的烧钱项目”，也就是我们常说的“面子工程”。 Can a beauty mega-deal save Estée Lauder? 一桩美妆行业的重磅并购能否挽救雅诗兰黛？ America’s cosmetics champion wants to buy its way back to better days 美国化妆品…",
+      "key_points": [
+        "一桩美妆行业的重磅并购能否挽救雅诗兰黛",
+        "雅诗兰黛却显得有些颓势尽显。这家美国公司的市值曾从 2010 年的 160 亿美元一路攀升至 2021 年的 1330 亿美元，如今却跌回 310 亿美元，仅相…",
+        "新战略已初见成效。5 月 1 日，雅诗兰黛公布第一季度营收同比增长 2%。然而，德拉法韦里似乎急于在与欧莱雅的竞争中重夺失地——欧莱雅近期刚以 40 亿欧元（约…"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第267期 - 西湖拍字",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/267/",
+      "published": "Mon, 11 May 2026 00:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Kaku",
+        "https",
+        "Kami",
+        "github.com",
+        "kaku"
+      ],
+      "summary": "封面图拍摄于上一个周末，为了给我的造字Luo找笔画的感觉，去西湖旁边的路上找这种石刻字，拍的图片。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 最新文字 你不知道的 GEO：AI 可见性的原理、实践与取舍 https://tw93.fun/2026-05-01/ai-visibility.html 这几天有好几个小伙伴@我说，我的开源工具在他们问 AI 的时候被主动推荐了，啥也没做居然可以被收录，想着要不花一个小时把内容结构化整一整，应该会更好，于是整好以后，快速发了一个…",
+      "key_points": [
+        "为了给我的造字Luo找笔画的感觉，去西湖旁边的路上找这种石刻字，拍的图片"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如果可以基因改良，你眼中的完美人类是什么样的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789577",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "KIFC1"
+      ],
+      "summary": "煌月千星， 生物 游戏 信息 科学 查看知乎原文 第一阶段：无罪者（先天补完） 总有些人，自出生以来就背负了不应背负的原罪——遗传病。 无罪者是修正了所有医学意义上已被证明为疾病的遗传病的人类。 包括红绿色盲、血友病、地中海贫血、镰刀型贫血症等在内的大量单基因遗传病被彻底剔除，同时，先天疾病筛查和胚胎基因治疗被广泛应用，先天疾病这一原罪被基本抹除。 虽然基因的多样性下降了，增加了传染病导致的灭绝风险，但人类的工业能力足以弥补这部分缺失，疫苗和抗生素以及物理隔离等医学手段，足以阻断所有传染病的传播。 无论是先天疾病还…",
+      "key_points": [
+        "但是他们仍在改造自己，层叠的碳化硅蛋白复合骨甲保护着人类的内脏，填充着氧化铝的表皮细胞让人类再无受伤可能，无线供能器官使得人类无需进食，导电高分子让神经反应速度…",
+        "第四阶段：超越者（英雄时代） 借助于人工智能，人类的基因已经被完全解明。然而，对其改造仍然面临牵一发而动全身的工程学问题。人类将会开始缩减和调整自己的基因组，使…",
+        "第三阶段：无瑕者（白银末裔） 永生的诱惑是如此强烈，然而，人类基因组过于混乱，尚不足以支持人类对自身快速便捷的设计。于是，人们转而向那些人类中的精英看齐，更健康…"
+      ]
+    }
+  ]
+}
