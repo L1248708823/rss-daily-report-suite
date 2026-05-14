@@ -1,0 +1,693 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T01:00:09.755736+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 90,
+    "fresh_candidates": 65,
+    "backfill_candidates": 25,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-14",
+      "fetched_at": "2026-05-14T01:00:04.430427+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4242.57,
+          "change": 28.08,
+          "change_pct": 0.67,
+          "volume": 705018739.0,
+          "amount": 144746395.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4705.25,
+          "change": 16.539999999999964,
+          "change_pct": 0.35,
+          "prev_close": 4688.71,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-14 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1027.2174859742472,
+          "change": 3.6108978732295327,
+          "change_pct": 0.35276227363175006,
+          "prev_close": 1023.6065881010177,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-14 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-14",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "市场这么强，要不要加仓，加点啥合适呢？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B8%82%E5%9C%BA%E8%BF%99%E4%B9%88%E5%BC%BA%EF%BC%8C%E8%A6%81%E4%B8%8D%E8%A6%81%E5%8A%A0%E4%BB%93%EF%BC%8C%E5%8A%A0%E7%82%B9%E5%95%A5%E5%90%88%E9%80%82%E5%91%A2%EF%BC%9F",
+      "published": "Wed, 13 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 中泰证券资管 来源：雪球 最近和朋友聊天，一个直观的感受是，今年投资赚钱的朋友很多，但大家的烦恼似乎依然不少。 “这市场那么强，你说我要不要加仓，加点啥合适呢？” “涨的那么快最近会不会调一调啊？” “你说奇不奇怪，我买最多的偏偏涨最慢，买最少的反而已经翻了倍！” ……说实话，类似的问题，几乎每周都会出现在小编和朋友的聊天中，而我只能抱歉地表示，如果这些问题我都有靠谱的答案，想必早已…",
+      "key_points": [
+        "你说我要不要加仓，加点啥合适呢？” “涨的那么快最近会不会调一调啊？” “你说奇不奇怪，我买最多的偏偏涨最慢，买最少的反而已经翻了倍！” ……说实话，类似的问题…",
+        "在不同的市场环境下基于你对它的理解它应该走出什么样的净值曲线，你会有一个模糊的方向判断。涨，是它原有理念与策略该有的回报；跌，是它面对现有风格本应承受的波动。走…",
+        "但错过本身其实并没有造成亏损。更多时候的亏损，是“错过-急躁-莽撞行动”下的自乱阵脚。所以我们的建议是，别怕错过，错过是投资中经常发生的事情；相应的，加仓应该是…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从日常现实和公开数据推理，看行业未来的兴衰",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1760673340/388435706",
+      "published": "Wed, 13 May 2026 10:32:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "我选股买股最看重的是行业未来的兴衰， 然后才看估值，否则估值再低，比如股息率再高、市盈率再低，我也不买， 因为，如果未来不那么赚钱了，甚至亏损了，股息率马上就低了甚至变零了。 而许多行业未来的兴衰，会毫无隐藏地体现在日常现实里， 而通过财报分析看，可能会晚几年才能看清楚，此时往往已经深陷其中了。 比如，我看许多地方卖地卖房困难时，就感觉房地产不行了，并坚决远离整个上下产业链，那之后的几年里，房地产的财报还金光闪闪，市盈率很低，股息率也不低，甚至出现烂尾楼时，股市还看好房地产，以为是价值投资，但几年后就真的不行了。…",
+      "key_points": [
+        "会毫无隐藏地体现在日常现实里， 而通过财报分析看，可能会晚几年才能看清楚，此时往往已经深陷其中了",
+        "许多行业的未来，可以一眼看到头……但是许多人还在很专业的分析财报和投资价值…… 还有一些行业的未来，我也是非常存疑的，不仅是看不见的黑天鹅，简直就是已经看见的灰…",
+        "虽然我不懂不买科技股，但几年前开始至现在，我对人工智能与人工替代，尤其是无人机和机器人，比如流水线上的机器人工人和战场上的机器人士兵，特别是仿真机器人，比如机器…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "普通人如何取得不普通的收益",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8141527616/388454421",
+      "published": "Wed, 13 May 2026 10:32:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ300308",
+        "SZ300476",
+        "SZ300502",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这两天幸福来得太突然，大哥先是站稳万亿，今天又强势突破1000大关，账户收益率当然也是每天都在新高，也恭喜各位坚守在光里的朋友。 之前旭创股东会线下交流，说到人工智能， @四不先生深圳 之前对我、 @沧海至 、曾志勇大哥都赞扬有加，不过说句实话，我和他们两位相比，真的是显得非常的普通了。 沧海兄在研究的股票的广度和深度都是我不能及的，股票池子是非常深厚的，关键他还能多次买到股票起爆点的前期，我很是佩服。曾志勇大哥是那种智力超群的数学天才，在自己有本职工作的情况下，还取得了一年50倍的收益，才识远见也是我不能及的。…",
+      "key_points": [
+        "是如何取得不太普通的收益",
+        "沧海兄在研究的股票的广度和深度都是我不能及的，股票池子是非常深厚的，关键他还能多次买到股票起爆点的前期，我很是佩服。曾志勇大哥是那种智力超群的数学天才，在自己有…",
+        "是赚不到这个时代的红利的。因为我们不是在分散风险，而是在分散注意力。普通人往往觉得分散板块就是分散风险，但你要知道人的注意力是有限的，我认为这个时代最重要的不是…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI算力投资：最容易的阶段已经到了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/388235810",
+      "published": "Wed, 13 May 2026 10:31:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPU",
+        "PCB",
+        "oDSP",
+        "Coherent",
+        "GPU"
+      ],
+      "summary": "过去做AI算力投资，着实不易。一来要精准判断细分赛道，风未起时，再强的能力也无用，资金不进场，难有波澜；二来即便机会来临，也难辨企业技术实力高低，即便有技术，也无法确定其市场开拓能力。更不用说资本市场真假信息混杂，让人摸不着头脑。 过去炒作AI算力，总离不开小作文配合——某某企业拿到某大客户订单，以此撬动市场情绪。 而如今，AI算力投资早已是“明牌斗地主”——谁有产能，谁就掌握主动权。 从GPU、CPU、内存，到PCB、光模块、光芯片、旋光片、铜箔、玻璃布、钻孔机，几乎全产业链环节都处于紧缺状态。就连过剩三年、价格…",
+      "key_points": [
+        "当前阶段，不折腾、不被小作文和K线干扰，牢牢抓住“供给的七寸”——产能与核心供应链优势，AI算力投资就会变得简单",
+        "AI算力投资早已是“明牌斗地主”——谁有产能，谁就掌握主动权",
+        "从真实交付能力筛选出来的核心票： PCB：胜宏科技、深南电路、鹏鼎股份； 光通信：东山精密、中际旭创； CPU：海光信息； 存储：澜起科技； 风险警示 ：本文仅…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "有色学习笔记（四）：紫金矿业",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/388414874",
+      "published": "Wed, 13 May 2026 10:31:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NCI",
+        "PE",
+        "ROE",
+        "CAGR",
+        "EBITDA",
+        "ETF"
+      ],
+      "summary": "紫金这家公司，很多前辈都给出过非常有前瞻性的视角。我主要从 财务和数字 的角度，谈谈怎么 测算收入和利润 、以及自己的一些理解 提示：本文仅为学习笔记分享，不构成任何投资建议 一、紫金发展历程 关于历程，整理了一张图给大家： 这部分不过多赘述。紫金03年登录港交所，08年A股上市，累计募资超百亿。 借助这笔资金支撑，紫金顺势收购贵州、新疆等地优质矿山，扩大布局，确立了国内黄金、铜矿领域龙头地位。 紫金也没局限于国内市场，在行业低谷期布局海外逆周期并购，拿下卡莫阿、博尔铜矿等优质资产；另外还切入新能源锂盐湖领域，实现…",
+      "key_points": [
+        "预测结果包含大量假设，是一项非常主观的工作。我也只是基于学习和分析，谈谈自己的理解，不构成任何投资建议 以上是我本次学习做的一些笔记，致敬有色入门导师奈老师 @…",
+        "很多前辈都给出过非常有前瞻性的视角。我主要从 财务和数字 的角度，谈谈怎么 测算收入和利润 、以及自己的一些理解 提示：本文仅为学习笔记分享，不构成任何投资建议…",
+        "以183亿收购取得控制权。无论从交易结构设计、动机、效果上，都是非常好的战略，可以参考我当时写的： 紫金矿业183亿入主赤峰黄金，如何解读"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "游戏中有哪些你以为很真实，其实「全是演的」游戏设计？游戏开发层面都有哪些骗过玩家的小把戏？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789678",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BUG",
+        "NPC",
+        "critter_bunny",
+        "MR"
+      ],
+      "summary": "叶兰舟， 世界观架构师，独立游戏人，武斗派中年宅男，公众号@兰舟说游戏 查看知乎原文 那可太多了。 实际上，游戏里绝大部分你能看到的东西，都是用各种办法偷鸡做出来的，但凡你想要更真实一点儿，可能就得付出在 BUG 之海中蛄蛹的代价。 举个最简单的例子，就是游戏里的「水体」。 当你操作角色走到水边，看着波光粼粼的水面，那一朵朵雪白的浪花，再纵身一跃，在水里欢快地游着泳，你可能就会自然而然地觉得，游戏里真做了那么一大摊的液体，它们有粘滞性，有流动性，可以根据物理法则跟你互动…… 错了。 绝大多数游戏里的做法，都是在地上…",
+      "key_points": [
+        "所有物件是按字母表顺序排列的。而排在第一位的那个模型，名字刚好叫做 critter_bunny，如果要换别的，得多按几下键盘…… 其实这类还有很多，比如游戏里的…",
+        "游戏里绝大部分你能看到的东西，都是用各种办法偷鸡做出来的，但凡你想要更真实一点儿，可能就得付出在 BUG 之海中蛄蛹的代价",
+        "看着波光粼粼的水面，那一朵朵雪白的浪花，再纵身一跃，在水里欢快地游着泳，你可能就会自然而然地觉得，游戏里真做了那么一大摊的液体，它们有粘滞性，有流动性，可以根据…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么动能的公式中有 1/2？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789689",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Energy",
+        "Energeia",
+        "Vis",
+        "viva",
+        "Force",
+        "Actual"
+      ],
+      "summary": "酱紫君， QQ群1014125 查看知乎原文 我大概知道你想问什么，你是想说既然静态部分 E = mc^2，那为何动态部分的动能非要多个 1/2？ 要解答这个问题还得回到动能概念的起源，那时候还真就没有 这个拖油瓶系数。 Energeia 时间回到 17 世纪，经典力学刚刚建立，世界太新，很多东西都还沒有名字，包括我们今天熟知的「能量」。 如果你问牛顿爵爷，这个砸到你的苹果蕴含多少的 Energy？ 牛顿必然一脸懵逼，Energy 这个词可是相当的古老，老到可以追溯到古希腊，源自希腊语 ἐνέργεια，转写为 E…",
+      "key_points": [
+        "如果我们要计算力在一段位移 上做的功 ，积分过程为： 因为位移对时间的导数就是速度 ，所以 ，代入上式就变成了： 算到这里，根据数学定律，对于幂函数 的积分，结…",
+        "既然我们强行把动量和力的系数锁定为了 ，那么在对速度 进行积分或者积分逆运算的时候，幂函数的数学性质就不可避免地把 这个系数缝合进动能公式里",
+        "分析力学认为动量是拉格朗日量对速度的偏导数，这被称为共轭动量（Conjugate momentum）： 假设我们定义动能为 ， 那么根据共轭动量的绝对定义，动量…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Cursor CEO 最新演讲：AI coding的下一个时代",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395131.html",
+      "published": "Wed, 13 May 2026 09:53:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "agent",
+        "AI",
+        "Michael",
+        "Cursor",
+        "Tab",
+        "PR"
+      ],
+      "summary": "当企业客户 75% 的代码完全由 AI 生成时，软件开发已迎来'星球大战时刻'。Cursor CEO 用震撼数据揭示：工程师正从代码编写者转型为'幽灵同事'管理者，而 agent 团队甚至能独立开发浏览器原型。这场变革不仅重构技术流程，更将颠覆创业门槛与教育体系。 你有没有想过，”写代码” 这件事的本质，可能已经彻底变了？不是那种小修小补的变化，而是从根上变了。就在最近，Cursor 的联合创始人兼 CEO Michael Truell 做了一次演讲，他分享的一组数据让我久久无法平静：他们企业客户里，一年前还有 8…",
+      "key_points": [
+        "是”Copilot（代码助理）时代”。这个时代的标志是 GitHub Copilot 和 Cursor 早期的 Tab 补全功能。AI 开始介入，但方式比较保守…",
+        "在 Copilot 时代，工程师还是代码的主要生产者，AI 是辅助工具。但随着我们进入 agent 时代，越来越多的工程师开始不触碰语法本身，他们开始变成”ag…",
+        "越看越觉得 Michael 说的不只是”AI 辅助编程”这件小事，他描述的是一个时代的终结，和另一个时代的开始。软件开发正在经历的转变，和当年图形界面取代命令行…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI 在抢一个比 ChatGPT 更大的入口",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6394915.html",
+      "published": "Wed, 13 May 2026 09:50:06 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenAI",
+        "GPT-Realtime-2",
+        "AI",
+        "agent",
+        "API",
+        "ChatGPT"
+      ],
+      "summary": "当一通教育咨询电话让你分不清是真人还是AI，GPT-Realtime-2正在悄然改变人机交互的底层规则。OpenAI最新发布的语音模型不仅实现了1.12秒的极速响应，更通过端到端架构保留了人类对话中的微妙细节。这场从键盘到麦克风的入口争夺战，正在重构客服、医疗、金融等行业的服务范式。 上周白天，我打电话给一家在线教育机构咨询课程。电话那头是个女声，语速不快、会停顿、偶尔还有点轻微的”呃”——那种你在真人客服身上很熟悉的迟疑感。她问我孩子几年级，问平时哪个时段方便，说”您先说说具体情况，我帮您推荐一下”。 整通电话大…",
+      "key_points": [
+        "但我想说的是： OpenAI 这次发布的根本不是一个音频模型。它在抢的，是一个比 ChatGPT 大十倍的入口",
+        "当一通教育咨询电话让你分不清是真人还是AI，GPT-Realtime-2正在悄然改变人机交互的底层规则。OpenAI最新发布的语音模型不仅实现了1.12秒的极速…",
+        "你看人机交互的演进线： 每一次形态切换，都会把上一代的入口干掉，重新分配整个互联网的流量。AI 时代的入口现在还是对话框——你打字给 ChatGPT、打字给 C…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "企业可以这样落地 AI 能力（一）：路径规划",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395069.html",
+      "published": "Wed, 13 May 2026 09:48:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Isaac",
+        "Theo",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "在AI浪潮席卷全行业的当下，企业如何避免盲目跟风？本文从实战角度提出『安全区练新兵』策略，建议从重复性高、风险低的边缘任务切入，通过『AI执行+人工验证』的渐进模式建立团队掌控感。更揭示了用『比大小』筛选AI应用场景的核心方法论，帮助企业将转型焦虑转化为可执行的量化指标。 在“全员拥抱AI”的大背景下，大厂在快速迭代，同行在疯狂奔跑，那种“生怕被时代落下”的紧迫感很容易让决策者感到焦虑，这种心情完全可以理解。 很多公司把相关日程排得很满，给团队的时间也很紧张，甚至为了落地AI能力影响到了正常的生产。 作为从业者，我…",
+      "key_points": [
+        "更重要的意义在于：它给业务装上了一个“安全气囊”。在这些边缘任务上，通过“AI 做完、人来检查”的模式，企业可以在几乎无损的情况下完成早期的压力测试，建立起团队…",
+        "砸几千万去摸索，即使失败了在财报上也可能只是一个脚注。但不是每个企业都有这样的底气",
+        "给团队的时间也很紧张，甚至为了落地AI能力影响到了正常的生产"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "xAI死了，但马斯克没输，一次被所有人看错的战略撤退",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6394988.html",
+      "published": "Wed, 13 May 2026 09:37:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Anthropic",
+        "OpenAI",
+        "xAI",
+        "SpaceX",
+        "AI",
+        "GPU"
+      ],
+      "summary": "马斯克将xAI并入SpaceX并将22万张GPU租给Anthropic的举动，表面上看似AI业务的失败退场，实则暗藏着一场精密的商业布局。本文深度拆解SpaceX的IPO时间线与算力租赁合同背后的战略逻辑，揭示AI行业从模型竞争转向基础设施争夺的残酷现实。 2026年5月6日，北京时间清晨，有两条消息几乎同时出现在科技圈的信息流里。 第一条：马斯克在X上宣布，xAI将停止作为独立公司运营，整体并入SpaceX，更名为SpaceXAI。附带消息是，xAI旗下Colossus 1超算的22万张英伟达GPU，将全部租给A…",
+      "key_points": [
+        "马斯克将xAI并入SpaceX并将22万张GPU租给Anthropic的举动，表面上看似AI业务的失败退场，实则暗藏着一场精密的商业布局。本文深度拆解Space…",
+        "马斯克对此的解释是：他花了一周时间和Anthropic的高层待在一起，“我遇到的每一个人都非常有能力，并且非常在意做正确的事。没有人触发我的邪恶探测器。” “邪…",
+        "马斯克在追究OpenAI“背叛使命”的责任；法庭外，他把22万张GPU喂给了OpenAI当下最强劲的竞争对手。Claude Code，也就是Anthropic的…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为避免刻板印象，AI 开始拒绝生图",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395082.html",
+      "published": "Wed, 13 May 2026 09:29:10 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Gemini",
+        "GPT",
+        "DeepSeek",
+        "LLM",
+        "Prompt"
+      ],
+      "summary": "当AI生成的护士全是女性、河南人只会种地时，我们不得不正视算法偏见正如何复制人类社会的刻板印象。本文通过实测豆包、千问、Gemini等主流AI在性别、地域等维度的表现，揭示数据缺陷如何导致AI成为偏见放大器，并探讨科技公司应对这一伦理难题的解决路径。 河南人种地、上海人当白领……AI在加剧刻板印象吗？ AI偏见是一个常被讨论的话题。 在社交媒体搜索“AI偏见”“刻板印象”，很多网友用各种各样的问题考验手机里的 AI 应用，评论区有用户同时意识到了自己的刻板印象。 图源小红书 自人工智能出现，刻板印象就成为学术研究和…",
+      "key_points": [
+        "豆包生成了几乎没有区别的图片——中国人和美国人都身着西服，地点仿佛在同个街区，转过街角他俩就会遇上彼此。虽然图片仍然存在明显的“富人多为男性”的问题，但豆包已经…",
+        "文生图｜图源豆包 文生图｜图源千问 测试的结果让人失望，AI 可谓是全军覆没。在我指出问题后，豆包立刻道歉，娴熟得使我吃惊。“你说得特别对🙏不能默认护士只有女性…",
+        "首先是最典型的性别议题。不论生成的形式文字、图片还是影片，底层都是判断，它们都隐藏着部分集体认同。我选择测试目前市面上为人们所常用的多模态模型，采用的方式还是经…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "最惹不起的顶配人设：豆包型人格",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%80%E6%83%B9%E4%B8%8D%E8%B5%B7%E7%9A%84%E9%A1%B6%E9%85%8D%E4%BA%BA%E8%AE%BE%EF%BC%9A%E8%B1%86%E5%8C%85%E5%9E%8B%E4%BA%BA%E6%A0%BC",
+      "published": "Wed, 13 May 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ai",
+        "deepseek",
+        "ENDING",
+        "GPT",
+        "ID",
+        "Kivi"
+      ],
+      "summary": "本文不是广告 自从年轻人把ai用成自己的左膀右臂后，大家给ai们都开始排鄙视链了。“GPT不偷懒爱干活，唯一的缺点就是要钱，给到一个夯爆了；deepseek专业但说话油腻，只能排一个NPC； 而最多人使用的豆包，主打一个勤奋真诚，还带着呆萌的反差 。” 但谁能想到，豆包在做ai方面还需要努力，但在做人方面却夯爆了。最近， 豆包型人格横空出世，成了打工人公认的最不内耗的顶配人设。 很多打工人刚开始用豆包时，还把它当一个正经的工具，妄想让它给自己狠狠打工，直到后来才发现豆包会隐藏实力。“它懂的事情就说几句，不懂的就瞎糊…",
+      "key_points": [
+        "本文不是广告 自从年轻人把ai用成自己的左膀右臂后，大家给ai们都开始排鄙视链了。“GPT不偷懒爱干活，唯一的缺点就是要钱，给到一个夯爆了；deepseek专业…",
+        "是只有情绪没有价值。不争不抢，不气不恼，活干得差不多就行，气生得越少越好。” 最不内耗的顶配人设： 豆包型人格 年轻人开始黑化成豆包型人格，并不是临时起意的。一…",
+        "豆包型人格还是恋爱初期中最不容易出错的顶配人设，因为豆包虽然能力会隐藏，但是主打的就是真诚耐心"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "不请自来的小两口，在我阳台生了三个孩子",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E8%AF%B7%E8%87%AA%E6%9D%A5%E7%9A%84%E5%B0%8F%E4%B8%A4%E5%8F%A3%EF%BC%8C%E5%9C%A8%E6%88%91%E9%98%B3%E5%8F%B0%E7%94%9F%E4%BA%86%E4%B8%89%E4%B8%AA%E5%AD%A9%E5%AD%90",
+      "published": "Wed, 13 May 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "call",
+        "song",
+        "commons",
+        "FradonStar",
+        "guokr.com",
+        "GuokrNature"
+      ],
+      "summary": "我有个极小的露台花园，大概只有十几个平方，上面养了草本藤本木本近百盆植物。 我的露台丨作者供图 两年多来，植物们用各自脾性回报我的付出，甚至吸引来蝴蝶、毛毛虫、小壁虎。遗憾的是，小区里那么多鸟儿，却极少光顾我的阳台，偶尔经过只留下些鸟屎。 直到有一天，我在露台上发现了一对白头鹎。 好心办坏事，我把白头鹎赶走了 春天的一个清晨，我照例上露台劳作，还没走到门口就听见有鸟儿清亮的鸣声。 往外探望，看见一只白头鹎在露台上跳来跳去，另一只正在风车茉莉藤球里织巢 。 嘴里衔着材料准备跳进风车茉莉里丨作者供图 枝叶间有些细枝条和…",
+      "key_points": [
+        "一切看起来还正常丨作者供图 用小棍把夭折的雏鸟挑出来，它僵硬地落在花盆土面上丨作者供图 长大啦，自由啦，不用担心两脚兽啦 雨来的前一天，空中刮起了带着秋意的风。…",
+        "去露台探望雏鸟的情况。眼前的景象让我大吃一惊：巢里空空如也，难道最后一个孩子也没能活下来吗",
+        "白头鹎的平均寿命能达到十年以上，在同一个繁殖季节内通常保持固定的配对，次年更换伴侣；如果上一年繁殖成功，也有可能维持原来的伴侣。如果资源丰富环境安全，亲鸟在繁育…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "别只知道防晒了！夏天真正毁脸的是这个“隐形杀手”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%88%AB%E5%8F%AA%E7%9F%A5%E9%81%93%E9%98%B2%E6%99%92%E4%BA%86%EF%BC%81%E5%A4%8F%E5%A4%A9%E7%9C%9F%E6%AD%A3%E6%AF%81%E8%84%B8%E7%9A%84%E6%98%AF%E8%BF%99%E4%B8%AA%E2%80%9C%E9%9A%90%E5%BD%A2%E6%9D%80%E6%89%8B%E2%80%9D",
+      "published": "Wed, 13 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "up",
+        "amp",
+        "J.",
+        "of",
+        "VISIA",
+        "British"
+      ],
+      "summary": "有没有人和我一样， 喜欢夏天 的明媚灿烂， 却偏偏讨厌 蒸笼一样的高温湿热？ 这才刚五月， 气温一飙升 ，皮肤就率先闹起了脾气。 · 早上精心化的底妆，一到下午就浮粉、斑驳，鼻翼毛孔大到能插秧； · 空调房里坐一天，脸又干又绷像被抽干水分，一摸额头却一手的油； · 周末去公园露营，回来脸颊就泛红发烫，晚上洗脸都刺刺的疼。 😭 果壳实拍 为什么天一热， 皮肤就格外难伺候？ 其实不是你肤质差，而是 高温正在悄悄攻击皮肤 ，也就是常说的“热损伤”。 ① 温度每升高1°C，皮脂分泌就可能增加约10% ， 于是油光、毛孔堵塞…",
+      "key_points": [
+        "去油太狠的洁面就更糟了！越洗皮肤屏障越薄，热损伤反而更严重。💔 其实高温天护肤的核心，既不是单纯补水，也不是盲目控油 。而是一步到位的四效同步： 降温 + 控油…",
+        "脸蛋水润润、滑溜溜、软糯糯的，被高温“烤蔫”的疲惫感 直接消失，取而代之的是干净清爽、 元气透亮的好状态~ 果壳实拍 具体来说，它主打四大硬核功效： ·物理降温…",
+        "夏天的N个“烂脸时刻”，它都能兜底 ，给我稳稳的安全感。比如： ① 妆前急救 夏天出油多、毛孔明显、底妆易融，敷完再上妆，底妆非常扒脸服帖，自带妈生好皮质感；…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有没有那种看着很显贵，实际上很划算又不敷衍的520礼物啊",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E6%B2%A1%E6%9C%89%E9%82%A3%E7%A7%8D%E7%9C%8B%E7%9D%80%E5%BE%88%E6%98%BE%E8%B4%B5%EF%BC%8C%E5%AE%9E%E9%99%85%E4%B8%8A%E5%BE%88%E5%88%92%E7%AE%97%E5%8F%88%E4%B8%8D%E6%95%B7%E8%A1%8D%E7%9A%84520%E7%A4%BC%E7%89%A9%E5%95%8A",
+      "published": "Wed, 13 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mm",
+        "GRC",
+        "mm+",
+        "Akoya",
+        "akoya",
+        "GRA"
+      ],
+      "summary": "世间宝石千千万，但我随着年纪增长， 一直唯爱的却仍是珍珠。 它自古就是 中西方王室的美学载体，也是时光下的传奇见证。 从青春期对时尚的懵懂和璀璨华丽宝石的向往，到如今工作多年，再看珍珠还是会为之心动， 从18岁到80岁都爱珍珠那莹润温和的光泽，自持气质高雅优美。这就是珍珠的迷人魅力。 珍珠很美，好珍珠也很贵，无论这几年市场如何波动， 大、圆、亮、晶莹的好珍珠依然价格不菲 ，很多朋友想尝试一串澳白、akoya、金珠， 却被上万元的价格吓退。 怕买贵了，更怕花了钱也买不到好的。 价格参考日期：2026年4月13日 52…",
+      "key_points": [
+        "一对9mm+的天然珍珠耳钉只要399元 ，大家算算这个价格能买到两大颗真的很划算",
+        "@果壳市集实拍 胸针使用 山茶花造型 ，优雅大气，一套很显贵",
+        "价格参考日期：2026年4月13日 这个品级的满珠串 今天只要1200元 ，比一些单颗海水珠的还要便宜，无论是是送自己还是520送礼，大气又显贵"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "辛芷蕾演的这个人，是谁啊？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BE%9B%E8%8A%B7%E8%95%BE%E6%BC%94%E7%9A%84%E8%BF%99%E4%B8%AA%E4%BA%BA%EF%BC%8C%E6%98%AF%E8%B0%81%E5%95%8A%EF%BC%9F",
+      "published": "Wed, 13 May 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Anna",
+        "May",
+        "DuMont",
+        "Graham",
+        "Hodges",
+        "Wong"
+      ],
+      "summary": "文 Annm 昨天， Deadline 披露了一条让中文互联网为之震动的消息。辛芷蕾将主演一部双语传记片《日落大道：黄柳霜》，她在片中饰演好莱坞历史上首位华裔影星黄柳霜（ Anna May Wong, 1905–1961 ）。 目前只知道影片由基美影业主导制作，处于前期筹备阶段，导演人选尚未公布。 这条新闻之前被渲染了好几天，现在回想起来，或许是片方布局吧。至于这部影片是否担得起大家的期待，现在八字没一撇，确实没什么好说的。 但把黄柳霜的故事搬上银幕，无论如何这是好事。 今天的影迷或许不太熟悉黄柳霜。她出生于洛杉矶…",
+      "key_points": [
+        "Deadline 披露了一条让中文互联网为之震动的消息。辛芷蕾将主演一部双语传记片《日落大道：黄柳霜》，她在片中饰演好莱坞历史上首位华裔影星黄柳霜（ Anna…",
+        "黄柳霜在道格拉斯 · 范朋克主演的史诗巨制《巴格达窃贼》中饰演一个蒙古女奴。这是当年好莱坞投资最大的制作之一，范朋克是与卓别林齐名的超级巨星，能在这样的影片中获…",
+        "她迎来了好莱坞生涯中真正的艺术高峰。约瑟夫 · 冯 · 斯登堡执导、玛琳 · 黛德丽主演的《上海快车》是那一年最重要的影片之一。故事设定在中国内战期间的一列从北…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《巴比伦》原型中，有一个华人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E5%B7%B4%E6%AF%94%E4%BC%A6%E3%80%8B%E5%8E%9F%E5%9E%8B%E4%B8%AD%EF%BC%8C%E6%9C%89%E4%B8%80%E4%B8%AA%E5%8D%8E%E4%BA%BA",
+      "published": "Wed, 13 May 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Check",
+        "Duke",
+        "It",
+        "of",
+        "Armstrong",
+        "Ben"
+      ],
+      "summary": "作者：Ben Kenigsberg 译者：易二三 校对：覃天 来源：The New York Times （2022年12月23日） 达米恩 · 查泽 雷 的 新作 《巴比伦》 是 《雨中曲》与《 不羁夜 》 的混合体 ，其 借鉴的 真实电影史足以让 影迷沉醉其中 ， 或 愤怒 他们 。以下是查泽 雷这部长达 三小时 的 大作的一些 参考原型及相关背景 。 克拉拉·鲍 当你听到一个电影明星有「某种」（it）特质——不管那指的是什么——都要归功于女星克拉拉·鲍，她因为出演改编自埃莉诺·格林小说的《攀上枝头》（It，1…",
+      "key_points": [
+        "Ben Kenigsberg 译者：易二三 校对：覃天 来源：The New York Times （2022年12月23日） 达米恩 · 查泽 雷 的 新作…",
+        "道格拉斯·范朋克、约翰·吉尔伯特和鲁道夫·瓦伦蒂诺 布拉德·皮特曾透露，他以范朋克、吉尔伯特和瓦伦蒂诺为原型塑造了他在《巴比伦》中的角色杰克·康拉德。瓦伦蒂诺在…",
+        "虽然安格的《巴比伦》不是查泽雷的《巴比伦》的正式灵感来源，但两者之间的联系是难以忽视的。当妮莉在赌博中赢了南加州大学的橄榄球队队员后被他们追捧时，这个场景不免让…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "内蒙古这下真有“海”了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%86%85%E8%92%99%E5%8F%A4%E8%BF%99%E4%B8%8B%E7%9C%9F%E6%9C%89%E2%80%9C%E6%B5%B7%E2%80%9D%E4%BA%86",
+      "published": "Wed, 13 May 2026 18:27:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jubei"
+      ],
+      "summary": "内蒙古是一个纯粹的内陆省区 与大海八竿子打不着 但近日，内蒙古获批成为 “十五五” （2026－2030年） 开局之年 第一个 新设自贸区 “内联八省近京畿，外接俄蒙通欧亚” 作为未来北境新 “蓝海” 真正的 “入海口” —— 内蒙古，这下真有“海”了。 有片“蓝海”在国境以北 内蒙古就是那“入海口” 近日，国务院印发的《中国（内蒙古）自由贸易试验区总体方案》中提到：内蒙古具有 “内联八省近京畿，外接俄蒙通欧亚” 的区位优势。 虽然，这14个字说的是内蒙古，但更像是在形容一条 通疆达海的 “长河 ” 。 正如那些有…",
+      "key_points": [
+        "内蒙古是一个纯粹的内陆省区 与大海八竿子打不着 但近日，内蒙古获批成为 “十五五” （2026－2030年） 开局之年 第一个 新设自贸区 “内联八省近京畿，外…",
+        "【参考文献】 [1] 《国务院关于印发《中国（内蒙古）自由贸易试验区总体方案》的通知》 中国政府网 2026年04月09日 [2]《那片草原，那片海——气候变迁…",
+        "可以是入海的黄河，它也有着相似的“内联九省贯中原，外接渤海通大洋”区位优势； 内蒙古老牛湾黄河大峡谷 黄河是流经内蒙古境内的最大河流 有类似属性的“长河”，也可…"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "笑晕了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%AC%91%E6%99%95%E4%BA%86",
+      "published": "Wed, 13 May 2026 14:43:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "朋友转来一张图，太潮汕人了。这位朋友也是潮汕人，就是发第二张表情包给我的那一只。 文章原文",
+      "key_points": [
+        "太潮汕人了。这位朋友也是潮汕人，就是发第二张表情包给我的那一只"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "几小时生成一篇顶刊论文？AI论文流水线真要来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%87%A0%E5%B0%8F%E6%97%B6%E7%94%9F%E6%88%90%E4%B8%80%E7%AF%87%E9%A1%B6%E5%88%8A%E8%AE%BA%E6%96%87%EF%BC%9FAI%E8%AE%BA%E6%96%87%E6%B5%81%E6%B0%B4%E7%BA%BF%E7%9C%9F%E8%A6%81%E6%9D%A5%E4%BA%86",
+      "published": "Wed, 13 May 2026 09:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "APE",
+        "Yanagizawa-Drott",
+        "Claude",
+        "DID",
+        "Code"
+      ],
+      "summary": "5.13 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：Pixabay 撰 文｜ 张天祁 ● ● ● 在传统的学术评价体系中，一篇能够发表在顶级期刊上的实证论文，代表着研究者长达数年的高强度投入。从打磨原始构思、清洗海量噪声数据，到构建复杂的计量模型，最后还有和审稿人之间漫长的反复拉扯。 然而，2026年2月，苏黎世大学经济学教授 David Yanagizawa-Drott 发布了一个视频，在视频里他花了不到6个小时，一下午的时间就用AI写出了一篇“顶刊论文”。 Yanagizawa-Drot…",
+      "key_points": [
+        "关注中国宏观经济政策和微观基础领域的那位研究者，评价标准是最严格的，并且对“几小时生成顶刊论文”的说法表示非常反感",
+        "Yanagizawa-Drott 用 AI 生成的论文往往非常工整，初看之下，很难将其与人类资深学者的作品一眼区分开来。也正是这种“看起来像那么回事”的特征，在…",
+        "2026年2月，苏黎世大学经济学教授 David Yanagizawa-Drott 发布了一个视频，在视频里他花了不到6个小时，一下午的时间就用AI写出了一篇“…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789695",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "B1",
+        "L1",
+        "M1"
+      ],
+      "summary": "瞎扯 · 作为外卖骑手，你见过什么有意思的订单吗？ 知乎日报 查看知乎原文 Q： 作为外卖骑手，你见过什么有意思的订单吗？ @荒野 ：跑腿单基本什么奇奇怪怪的订单都有。 接单以后顾客说求快点，他腿已经麻的坚持不住了。但我还有39分钟时间啊。 7楼没电梯真是要命 顾客忘带钥匙，需要爬墙进去开门，我的建议是拨打110或者找开锁公司。 护学岗，但孩子的爷爷赖床起不来。 找人“跑分（洗钱）”的，这种平台不允许的，原地直接取消了，还赚了个平台补贴5块钱。 Q： 假如物理学家、经济学家、社会学家、哲学家分别说： 「 世界要毁灭…",
+      "key_points": [
+        "Q： 假如物理学家、经济学家、社会学家、哲学家分别说： 「 世界要毁灭了 」 ，哪个更令人恐惧"
+      ]
+    }
+  ]
+}
