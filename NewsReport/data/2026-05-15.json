@@ -1,0 +1,752 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T01:00:09.522781+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 94,
+    "fresh_candidates": 68,
+    "backfill_candidates": 26,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-15",
+      "fetched_at": "2026-05-15T01:00:04.206830+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4177.92,
+          "change": -64.65,
+          "change_pct": -1.52,
+          "volume": 764235004.0,
+          "amount": 149811680.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4629.55,
+          "change": -22.720000000000255,
+          "change_pct": -0.49,
+          "prev_close": 4652.27,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-15 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1010.1404674715064,
+          "change": -4.957369813686569,
+          "change_pct": -0.48836374501050084,
+          "prev_close": 1015.097837285193,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-15 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-15",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "估值低就能买？投资中最危险的三个字：该涨了...",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%BC%B0%E5%80%BC%E4%BD%8E%E5%B0%B1%E8%83%BD%E4%B9%B0%EF%BC%9F%E6%8A%95%E8%B5%84%E4%B8%AD%E6%9C%80%E5%8D%B1%E9%99%A9%E7%9A%84%E4%B8%89%E4%B8%AA%E5%AD%97%EF%BC%9A%E8%AF%A5%E6%B6%A8%E4%BA%86...",
+      "published": "Thu, 14 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 在投资交流群里，有一个问题反复出现，像钟摆一样规律：\"白酒跌了这么多，是不是可以抄底了？\"\"医药板块估值这么低，该反弹了吧？\"\"这个行业趴在地板上两年了，总该轮动到了吧？\" 提问者的逻辑简单得令人担忧——没涨，或者便宜，所以\"该涨了\"。这三个字，可能是散户投资中最昂贵的幻觉。 01 便宜不是买入的充分理由 而是需要解释的市场现象 自2024年9月24日以来，A股…",
+      "key_points": [
+        "有一个问题反复出现，像钟摆一样规律：\"白酒跌了这么多，是不是可以抄底了？\"\"医药板块估值这么低，该反弹了吧？\"\"这个行业趴在地板上两年了，总该轮动到了吧？\" 提…",
+        "是价值投资中最常见的误解。真正的安全边际来自于企业内在价值与市场价格的差距，而不仅仅是历史估值百分位的低位。当行业的基本面趋势向下时，今天的\"便宜\"可能成为明天…",
+        "02 困境反转：投资中最难的命题 困境反转投资听起来很诱人——在行业最低谷时买入，等待基本面改善后享受戴维斯双击。但这可能是专业投资中最难的策略之一，需要同时具…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "提前释放的风险，是最好的礼物：站在AI浪潮之巅，只赚认知内的钱",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1545503181/388827046",
+      "published": "Thu, 14 May 2026 10:05:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Ai",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今日A股高开低走，放量跌破5日线，亏钱效应开始蔓延。很多人看着账户缩水，心里发慌，担心行情就此结束。但我想说， 今天的调整，不是洪水猛兽，而是市场送给我们的一份最好的礼物。 一、调整，本就是行情的一部分 昨天的大涨确实让人兴奋，但明眼人都能看出问题——缩量。没有增量资金进场，就像一辆没有加油的跑车，看起来跑得很快，其实随时可能熄火。没有承接力的上涨，获利盘一旦涌出，必然引发调整。 再加上监管的持续降温，以及热门个股接连出利空，调整其实早就该来了。我们原本预判明天会更凶险，现在风险提前释放，反而是好事。 让该跌的先跌…",
+      "key_points": [
+        "四、投资的终极智慧：只赚认知内的钱 我见过太多人，每天盯着盘面，被红绿数字牵着鼻子走。涨了就兴奋，跌了就焦虑，追涨杀跌，忙得不亦乐乎，最后却亏得一塌糊涂",
+        "放量跌破5日线，亏钱效应开始蔓延。很多人看着账户缩水，心里发慌，担心行情就此结束。但我想说， 今天的调整，不是洪水猛兽，而是市场送给我们的一份最好的礼物",
+        "以及热门个股接连出利空，调整其实早就该来了。我们原本预判明天会更凶险，现在风险提前释放，反而是好事"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从自证到自信，龙头气质彻底蜕变——牧原股份2025年年度股东大会见闻",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/388807974",
+      "published": "Thu, 14 May 2026 09:53:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "SZ000876",
+        "SZ002714",
+        "SZ300498",
+        "xueqiu.com"
+      ],
+      "summary": "今年参会股东不少，虽然比不上2020年，但也创下2021年以来新高了。 上午参观，有个三年前参观过的股东说这几年公司好像没啥变化。我说，外观上好像确实没啥变化，但是内涵和气质发生了很大的变化。 三年前，智能化设备就已经在公司普及，今年，我们能够看到的智能化设备好像没什么变化，但是看不见的人工智能已经有了多次迭代，从去年开始已经为生产带来了效率的大幅度提升。 三年前，屠宰肉食已经正常运营，我们今天看到的屠宰线没什么变化，但是附加值更好的分割品的占比已经大幅度提升，尤其是小包装品，意向订单长期超过目前产能十几倍，公司已…",
+      "key_points": [
+        "牧原对外交流时从来不会进行长期发展展望，更何况是在当前产能调控的风口浪尖上。关于长期发展，秦总在股东大会上强调会严格落实有关要求，执行调控政策",
+        "到实力坐实后无需自证。公司彻底告别规模扩张驱动，转向价值创造与稳态回报，龙头底气由内而生，发展逻辑实现历史性升级",
+        "有个三年前参观过的股东说这几年公司好像没啥变化。我说，外观上好像确实没啥变化，但是内涵和气质发生了很大的变化"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想272 存储类公司估值方法的范式转移",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/388754494",
+      "published": "Thu, 14 May 2026 09:52:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "AI",
+        "PE",
+        "http",
+        "SK",
+        "XL"
+      ],
+      "summary": "之前有聊过，过往存储是被当成周期品在给估值的，因其非常强的周期特征——产品同质化严重，价格是唯一竞争手段，供给端重资产（建一座晶圆厂投入通常是百亿级），需求端，技术迭代快。 存储公司的表现也非常符合这一判断，价格回暖 → 各大厂扩产 → 供给过剩 → 价格暴跌 → 行业亏损 → 减产/退出 → 供给短缺 → 价格回暖，形成周期循环。 因此，过往分析师习惯用PB来给估值，即以账面净值为锚、来规避存储类公司动荡的盈利周期。历史上看，存储厂商的毛利率增速在-40%到+80%之间剧烈摆动，PB估值恰恰是对这种波动性的应对。…",
+      "key_points": [
+        "韩国的分析师开始尝试用PE估值法替代PB来给存储类公司估值，其理由主要是：AI带来了对内存的需求结构变化，AI大客户的长协机制正在系统性地熨平存储的利润波动，行…",
+        "过往分析师习惯用PB来给估值，即以账面净值为锚、来规避存储类公司动荡的盈利周期。历史上看，存储厂商的毛利率增速在-40%到+80%之间剧烈摆动，PB估值恰恰是对…",
+        "韩国分析师认为，存储公司应该对标AI赛道内的主流企业如英伟达、台积电等，估值锚点的切换，直接打开了定价的上行空间，于是我们看到了美韩中三国存储类公司的“狂飙突进…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【随笔】泡泡玛特2026年一季度业绩及交流会思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5241127869/388875655",
+      "published": "Thu, 14 May 2026 09:52:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "Labubu",
+        "Hello",
+        "Kitty",
+        "LABUBU",
+        "CRYBABY"
+      ],
+      "summary": "#泡泡玛特# 一、季度业绩回顾 首先，在年报业绩交流会上，泡泡玛特表示为了更好地与大家沟通，要在5月和11月发布季度业务状况更新公告并进行交流。当时，我考虑到泡泡玛特季度业务更新在以前都是4月发布，再加上“为了更好地与大家沟通”，所以推测今年会发布更完整的季报。没想到，今年的季度业务更新公告还是以前的几个带范围的比例，只是多了季度业绩交流会。 坦诚说，这一点，比较失望 。完整的财务报表所涵盖的信息密度远超几个区间比例，看来对泡泡玛特的更深入分析要等到中报了。 从简单公告包含的业绩表现来看，泡泡今年第一季度的营收增速…",
+      "key_points": [
+        "融合一季度业绩交流会和股东会交流环节的内容，加深一下对泡泡玛特当前经营情况的理解与分析。大体上，我将我的思考分成了四个部分： 国内业务、海外业务 （尤其是西方国…",
+        "在年报业绩交流会上，泡泡玛特表示为了更好地与大家沟通，要在5月和11月发布季度业务状况更新公告并进行交流。当时，我考虑到泡泡玛特季度业务更新在以前都是4月发布，…",
+        "（2）亚太区的Labubu热潮高基数始于2024年年中，今年一季度继续稳健增长，已经充分证明 泡泡玛特在亚太区有穿越单一IP热度的能力"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "研究发现有史以来最大的章鱼，这一发现对海洋生物学有何意义？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789711",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "N.",
+        "haggarti",
+        "jeletzkyi",
+        "P.",
+        "pacifica",
+        "Stauroteuthis"
+      ],
+      "summary": "广町七深Official， 若我生性如蜂，谨防我尾后针。 查看知乎原文 只能说确实震撼。 图源网络 实际上，这章鱼并不是刚被发现；它们的化石最初由 田边一 成于 2008 年描述，推测来自晚白垩纪的森诺曼期至坎帕期。在当时，它们被归入了 Paleocirroteuthis 属下的 P. pacifica 和 P. haggarti 两个物种。这个属并不属于真正的章鱼（八腕目），而是它们的姊妹群——幽灵蛸目。唯一现存的幽灵蛸 Vampyroteuthis infernalis 生存在深海中，以碎屑和小动物为食，会喷出…",
+      "key_points": [
+        "北太平洋巨型章鱼 Enteroctopus dofleini，现存最大的章鱼之一。图源网络 当你再次见到来自深海的软萌面蛸时，会不会想起它们这些硕大无朋、在远洋…",
+        "两种巨型章鱼与其他中生代海洋顶级掠食者、以及大王乌贼的对比。图源网络 更奇妙的发现来自喙部本身。与捕食软质猎物的乌贼、鱿鱼不同，章鱼时常需要处理坚硬的猎物外壳，…",
+        "haggarti 的胴长为 1.58 米（基于 Cirroteuthis muelleri ）至 4.43 米（基于 Stauroteuthis syrtens…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何计算一只鸡的表面积？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789728",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kleiber",
+        "Re",
+        "Max",
+        "Rubner",
+        "WBE",
+        "West"
+      ],
+      "summary": "北冥有鱼， 北大理论物理博士，互联网从业 查看知乎原文 这个问题很好，真的有生物学家测量过动物的表面积，并且发现了一个深刻的数学规律：标度率，它定义出了所有生物体的物理边界。 方法其实很简单，给鸡均匀涂一层石蜡，称重前后差值除以涂层密度和厚度，反推面积——19 世纪末生物学家用得很多。再粗暴一点的是剥皮法，把皮剥下来铺平测量。现代当然有 3D 扫描，精度可以做到 1% 以内。 19 世纪的德国生理学家 Max Rubner 系统测量过狗的体表面积和代谢率。他发现一件惊人的事：单位体表面积的产热量，在不同体型的狗之间…",
+      "key_points": [
+        "为什么？因为热量从体表散失。一只动物产多少热，必须等于它能散多少热，否则不是冻死就是热死。而表面积按几何相似性应该正比于体重的 2/3 次方。所以—— 代谢率…",
+        "北大理论物理博士，互联网从业 这个问题很好，真的有生物学家测量过动物的表面积，并且发现了一个深刻的数学规律：标度率，它定义出了所有生物体的物理边界",
+        "一只鸡的回响 回到最初的问题"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "导演已死，从此只有抽卡师……吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395865.html",
+      "published": "Thu, 14 May 2026 08:36:03 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "AI导演正成为影视行业的新兴职业，但他们的工作更像是在‘抽卡’——输入提示词，等待AI随机生成画面。从传统导演到AI‘调教者’，职业角色的转变带来了创作逻辑的颠覆。本文将探讨AI如何重塑导演的职责，以及在这场技术变革中，创作的意义究竟何在。 2025年，影视行业流行起一个新词：抽卡。 它原本是手游术语，玩家花钱抽角色，结果随机，想要特定的东西就得反复试。现在，这个词被AI导演们用来描述自己的日常——输入提示词，点击生成，等待AI吐出画面。出来的东西对不对，全靠运气。不对就重来，继续抽。 《人物》今天的一篇报道《AI…",
+      "key_points": [
+        "《人物》报道里有一个细节很能说明问题。某公司一名学视觉传达的实习生，利用业余时间自学编导知识，扒各种剧，研究分镜。他告诉老板，这是因为不想沦为“抽素材的工具人”…",
+        "他们是“导演”。但很多公司对这个岗位的理解，停留在“抽卡师”的层面：给AI输入指令，筛选可用素材，按时交付。一部五六十集的项目，制作周期通常在15天，每人每天要…",
+        "大多数人来不及完成从抽卡师到创作者的跨越，就已经被下一波工具迭代淘汰，那这批AI导演的处境就不只是过渡，而是真正的耗材"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "到店战事静悄悄",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6395862.html",
+      "published": "Thu, 14 May 2026 08:31:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "POI",
+        "KA",
+        "APP",
+        "BD",
+        "CC0",
+        "CEO"
+      ],
+      "summary": "本地生活赛道正迎来新一轮洗牌，抖省省凭借抖音流量优势与拼多多式打法快速崛起，而高德则通过扫街榜重构流量结构强势入局。本文深度解析两大平台如何从供给侧改革、流量分配机制到竞争策略层面，对美团发起错位进攻，并探讨这场战役背后的商业逻辑与行业变局。 本地生活的战事正在从到家转移至到店。 此前，QuestMobile发布了一组数据，字节独立团购APP抖省省2月10日上线两个月后，月活一度2200万，日活一度突破1000万。 抖省省能够在极短的时间内高速成长，除了有来自抖音兴趣流量与抖省省货架流量的双重灌注之外，还离不开一套…",
+      "key_points": [
+        "本地生活的战事正在从到家转移至到店",
+        "吸引了一批区域连锁自助品牌的注意。抖省省一家标杆自助连锁负责人提到一条很值得玩味的观点：对于商家来说，抖省省最特别的点是，平台的流量不是来自竞对，而是新增。在新…",
+        "淘宝闪购曾在上海、深圳、嘉兴等地试点“到店团购”，试图趁着外卖大战的余温未散，乘胜追击。不过，由于缺少有效的场景与稳定的流量来源，测试结束后，团购便整体转入高德"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AtomGit 上最值得收藏的 OpenHarmony 全生态仓库清单（2026 最新）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395852.html",
+      "published": "Thu, 14 May 2026 08:26:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "atomgit.com",
+        "https",
+        "AI",
+        "OpenHarmony",
+        "Flutter",
+        "AtomGit"
+      ],
+      "summary": "OpenHarmony 正以惊人的速度构建全场景技术生态，而 AtomGit 已成为开发者进入鸿蒙世界的核心入口。本文精选主仓生态、跨平台开发、特色技术、应用生态四大板块的权威代码仓库，从系统内核到 AI 模型，从芯片适配到商用组件，为开发者提供一站式资源导航。无论你是想迁移现有应用，还是探索前沿技术，这些精选仓库都能让你快速上手。 OpenHarmony 作为开放原子开源基金会孵化毕业的全场景智能终端操作系统，正快速构建从系统内核、跨平台框架、三方生态、硬件适配到 AI 与行业场景的完整技术版图。AtomGit…",
+      "key_points": [
+        "本文按主仓生态、跨平台开发、特色技术方向、HarmonyOS 应用生态四大板块，整理出可直接收藏、即用即查的权威仓库清单，帮开发者快速定位资源、高效上手鸿蒙开发",
+        "四、HarmonyOS 应用生态仓库（商用开发必备） 面向商用应用开发，提供官方示例、教程、组件库、最佳实践，直接用于项目落地",
+        "OpenHarmony 正以惊人的速度构建全场景技术生态，而 AtomGit 已成为开发者进入鸿蒙世界的核心入口。本文精选主仓生态、跨平台开发、特色技术、应用生…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "两位硅谷顶级投资人最新判断：AI 正在重写早期投资规则",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6395835.html",
+      "published": "Thu, 14 May 2026 08:20:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Kevin",
+        "Bennett",
+        "seed",
+        "VC",
+        "Decagon"
+      ],
+      "summary": "AI正在彻底重构风险投资的底层逻辑。从年轻创始人涌现、大基金下沉seed阶段到估值体系全面上移，传统VC方法论遭遇空前挑战。本文通过A* Capital创始人的实战洞察，揭示AI时代早期投资的三大悖论与人才追踪新范式，拆解泡沫中的真实机会与致命陷阱。 你有没有想过，风险投资这件事本身，也正在被 AI 颠覆？不是说 VC 们开始用 AI 工具做尽调，而是整个投资逻辑、判断创始人的方式、看待市场的角度，都在发生根本性的变化。过去的 seed 投资，拼的是人脉、眼光和耐心。但现在，AI 让创业门槛大幅下降，年轻创始人涌现…",
+      "key_points": [
+        "主角是 A*（A Star Capital）的两位联合创始人 Kevin Hartz 和 Bennett Siegel。A* 是一家成立五年、管理规模达 10…",
+        "风险投资这件事本身，也正在被 AI 颠覆？不是说 VC 们开始用 AI 工具做尽调，而是整个投资逻辑、判断创始人的方式、看待市场的角度，都在发生根本性的变化。过…",
+        "AI正在彻底重构风险投资的底层逻辑。从年轻创始人涌现、大基金下沉seed阶段到估值体系全面上移，传统VC方法论遭遇空前挑战。本文通过A* Capital创始人的…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "播放超300亿，这届年轻人流行在抖音“摆摊儿”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6395831.html",
+      "published": "Thu, 14 May 2026 08:04:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "MCN",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "TopKlout",
+        "Unsplash"
+      ],
+      "summary": "抖音上#我的摆摊日记话题突破300亿播放，揭示年轻人用折叠桌支起的内容新生态。这些反精致的真实记录为何能引爆流量？从叙事弧完整性到情绪共鸣点，从平台分发机制到商业变现路径，本文将拆解这场烟火气内容革命的底层逻辑。 一张折叠桌、几盏暖光灯、一摊手工饰品或夜市小吃，这是无数年轻人摆摊的标配。 如今，他们还多了一个动作，就是架起手机，把整个“练摊儿”过程拍下来发到社交平台上。 图片源自抖音 打开抖音，#我的摆摊日记 话题播放量已突破300亿，从备货选品、出摊布置、与顾客讨价还价，到收摊盘账，这些充满生活的瞬间，总能戳中屏…",
+      "key_points": [
+        "抖音上#我的摆摊日记话题突破300亿播放，揭示年轻人用折叠桌支起的内容新生态。这些反精致的真实记录为何能引爆流量？从叙事弧完整性到情绪共鸣点，从平台分发机制到商…",
+        "图片源自抖音 这让视频天然具备一种“我也能做到”的感召力，很多年轻人刷到之后，点了关注，另一部分人已经开始搜“摆摊需要什么证件”了",
+        "图片源自抖音 年轻人们第一天出摊站在摊位前的局促，遇到难缠顾客时的纠结委屈，收摊数钱时那种“虽然不多但是我自己赚的”的踏实感…… 这些情绪，不需要任何技巧包装，…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一种威胁1.7亿女性的疾病，历经90年才终于获得了正确的名字",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%A7%8D%E5%A8%81%E8%83%811.7%E4%BA%BF%E5%A5%B3%E6%80%A7%E7%9A%84%E7%96%BE%E7%97%85%EF%BC%8C%E5%8E%86%E7%BB%8F90%E5%B9%B4%E6%89%8D%E7%BB%88%E4%BA%8E%E8%8E%B7%E5%BE%97%E4%BA%86%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%90%8D%E5%AD%97",
+      "published": "Thu, 14 May 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "PMOS",
+        "article",
+        "fulltext",
+        "Helena",
+        "Teede"
+      ],
+      "summary": "有一种疾病正在威胁全球超过1.7亿女性的健康，每8位女性中可能就有1人深受它的困扰。 这种疾病非常重要，但在很长时间里，它竟然连一个准确的名字都没有 。医学界一直在用错误的命名称呼它，这个名字容易造成误解，而且还完全搞错了重点。它不利于医疗和科研，还带来了偏见与污名化，导致患者背负沉重的心理压力。 这种疾病就是多囊卵巢综合征（PCOS）。现在，它终于要改名了 。 5月12日，这一更名决定在欧洲内分泌学大会与医学期刊《柳叶刀》上正式发布 [1] 。 现在，这种疾病的新名字是“多内分泌代谢性卵巢综合征”（ Polyen…",
+      "key_points": [
+        "一种影响众多女性的疾病终于获得了正确的名字 | jeanjarrettnaturopath.com.au 最受忽视的常见疾病 这种过去被称为“多囊卵巢综合征”的…",
+        "有一种疾病正在威胁全球超过1.7亿女性的健康，每8位女性中可能就有1人深受它的困扰",
+        "正确的命名将帮助人们重新认识这种备受忽视的疾病，正视它对女性健康产生的深远影响"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "智源深澜王承志：锚定 AI for Science 3.0 时代，让AI 自主跑通蛋白定向进化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%99%BA%E6%BA%90%E6%B7%B1%E6%BE%9C%E7%8E%8B%E6%89%BF%E5%BF%97%EF%BC%9A%E9%94%9A%E5%AE%9A+AI+for+Science+3.0+%E6%97%B6%E4%BB%A3%EF%BC%8C%E8%AE%A9AI+%E8%87%AA%E4%B8%BB%E8%B7%91%E9%80%9A%E8%9B%8B%E7%99%BD%E5%AE%9A%E5%90%91%E8%BF%9B%E5%8C%96",
+      "published": "Thu, 14 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AI4S",
+        "Science",
+        "Engineering",
+        "mRNA",
+        "Nature"
+      ],
+      "summary": "编者按 当 AI 正在重构科研与产业的底层逻辑，AI for Science 早已不是纸上概念。4月28日，未来光锥联合北京中关村学院AI商学院，共同推出「AI for Science 创变者说：学界 × 产业先锋对话系列沙龙」。首期活动邀请了3 位一线嘉宾。智源深澜创始人兼CEO王承志分享了团队在自动化蛋白质连续定向进化平台研发上的硬核实践和对AI4S现在和未来的思考。 AI正在改写科学研究的底层逻辑——从帮科学家分析数据的“辅助工具”，到能自主设计、执行、迭代实验的“科研智能体”，AI for Science的…",
+      "key_points": [
+        "编者按 当 AI 正在重构科研与产业的底层逻辑，AI for Science 早已不是纸上概念。4月28日，未来光锥联合北京中关村学院AI商学院，共同推出「AI…",
+        "智源深澜创始人兼CEO，曾任镁伽科技首席科学家，于2024年创立智源深澜，专注于数据驱动的生物分子设计与制造。公司打造了全球首个工业级、可编程的自动化蛋白质连续…",
+        "自主实验室实现从设计、执行到反馈的全流程 这套平台被《Nature Chemical Engineering》评价为令人震撼，不仅登上封面，还配发专题评论，定义…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "新疆，你怎么连雪糕都这么好吃！还这么便宜！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%96%B0%E7%96%86%EF%BC%8C%E4%BD%A0%E6%80%8E%E4%B9%88%E8%BF%9E%E9%9B%AA%E7%B3%95%E9%83%BD%E8%BF%99%E4%B9%88%E5%A5%BD%E5%90%83%EF%BC%81%E8%BF%98%E8%BF%99%E4%B9%88%E4%BE%BF%E5%AE%9C%EF%BC%81",
+      "published": "Thu, 14 May 2026 17:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "kcal",
+        "dc_ps",
+        "detail",
+        "End",
+        "oq9pi7apw8s41y",
+        "wscgoods"
+      ],
+      "summary": "最近这款新疆雪糕火了！ 一口下去…… 这支牛乳冰淇淋的口感，怎么和别的牛乳冰淇淋不一样呢 （太美味了吧） 浓郁，脑子里立马浮现出来的词语就是浓郁。 绵密扎实的膏体丝滑融化，浓如奶油的香气充斥口腔。 如果是拍广告的话，此时应该迎面吹来一阵风才能表达我此刻的感受～ 它豪横地 用了 60%以上新疆牛乳制成、不加一滴水、里面坚果、果干巨多的冰淇淋 （除了酸奶口味外）。 还没有试过的友友们，一定要尝一尝，相信我，你会爱上的！ 👇戳图立马抢👇 定睛一看包装： 非常新疆特色、复古、从出生就没变过的包装纸上，赫然印着 60%以上…",
+      "key_points": [
+        "好吃是一方面，这个冰淇淋还有一个让人难以拒绝的诱惑： 热量也不算高 黑加仑：182kcal 核桃：222kcal 酸奶：126kcal 鲜奶： 107kcal…",
+        "雪糕自由啦~~~ 【发货地】 廊坊，上海，青岛，广州，成都 【发货时效】 48小时内发货 【发货快递】 顺丰 【不发货区域】 西藏、青海、新疆、香港、澳门、台湾…",
+        "浓郁的坚果香让人瞬间上头，这口感，会颠覆你对雪糕的认知~ 🥛 经典酸奶（额外加赠）：西域风情，酸甜沁爽 酸奶口味因为本身的制作原因，是含水的，仅有的一款生牛乳含…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "面料选对了，夏天穿长裤比短裤还凉快",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%9D%A2%E6%96%99%E9%80%89%E5%AF%B9%E4%BA%86%EF%BC%8C%E5%A4%8F%E5%A4%A9%E7%A9%BF%E9%95%BF%E8%A3%A4%E6%AF%94%E7%9F%AD%E8%A3%A4%E8%BF%98%E5%87%89%E5%BF%AB",
+      "published": "Thu, 14 May 2026 17:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "gt",
+        "all",
+        "dc_ps",
+        "feature",
+        "in"
+      ],
+      "summary": "眼 下天 气越来越热，每次出门 稍微 走两步就大汗淋漓，裤子黏在腿上 那种感觉谁懂啊！ 尤其是运动、通勤，甚至只是逛街， 大腿根那儿又闷又黏，简直想当场把裤子脱了。 其实夏天选裤子，核心就三点： 上身够薄、摸着够凉、出汗能快速干透 。 最近！我就给大家挖到一条宝藏裤子—— 素湃轻凉速干自由裤 ！ 集云感轻量、吸湿速干、触肤凉感于一身，还耐磨抗皱、版型超百搭~ 老朋友素湃 不仅有你们喜欢的科技气质和 高性价比 ，而且还是经过我们实地溯源认证的，品质有保障！ 果壳溯源实拍 作为科技党的果壳，自然要去实验室、打样间、测试…",
+      "key_points": [
+        "●自由裤凉感系数0.27(J/(cm²·s)） ●标准值凉感系数≥0.15(J/(cm²·s)） 出汗后因为速干，所以凉感更持久，出汗后不易贴腿，一直凉爽～ 刚…",
+        "吹两下风，没几分钟就干爽如初，全程没有那种黏糊糊的闷热感， 夏天再也不需要多带一条备用裤子换，尤其适合那些稍微一动就大汗淋漓的人",
+        "四面高弹力 怎么动都能贴身 自由裤里还少不了一个成分—— 12.5%氨纶 ， 懂的人知道这是 弹性面料里的黄金比例"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "法国新浪潮，未必是最牛的那个新浪潮",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B3%95%E5%9B%BD%E6%96%B0%E6%B5%AA%E6%BD%AE%EF%BC%8C%E6%9C%AA%E5%BF%85%E6%98%AF%E6%9C%80%E7%89%9B%E7%9A%84%E9%82%A3%E4%B8%AA%E6%96%B0%E6%B5%AA%E6%BD%AE",
+      "published": "Thu, 14 May 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Fr",
+        "hongmomgs",
+        "irisfilm",
+        "Off",
+        "qq.com",
+        "ric"
+      ],
+      "summary": "作者：Frédéric St-Hilaire 译者：覃天 校对：易二三 来源：Off Screen （2015年9月刊） 日本新浪潮电影的兴起正值日本的多事之秋。 1960年，《美日安保条约》在华盛顿签署，经历过二战民族主义、被战后经济奇迹的财富浪潮和美国文化影响的日本年轻人掀起了抗议活动。1960年还涌现出了新一代大胆的年轻导演，他们拒绝日本制片厂自上而下的结构，创作出特立独行、具有社会意识和形式上大胆的作品，对日本社会的传统模式提出了挑战。这些艺术家实现这一目标的方法之一，就是重新定位「卧室」这一空间，将其变成…",
+      "key_points": [
+        "日本新浪潮电影的导演们并不是首次将卧室视为社会评论沃土的创作者。在小津安二郎和成濑巳喜男的作品中，他们都将卧室或卧室周边的空间作为家庭剧的核心，并巧妙地记录了战…",
+        "日本新浪潮的导演们利用卧室这一在日本语境中烙印着各种含义的空间来评论和颠覆日本社会的范式（尤其女性的地位和代际关系）。正如巴赞所说，他们还利用这一空间来吸引观众…",
+        "我们必须将卧室置于日本的社会语境中。在大多数国家的文化中，卧室是父母——家庭中最核心的承担者和守护者——交流和生活的空间。然而，在许多日本家庭中，卧室同时也是一…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "什么，这么经典的片才8.8分？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%80%E4%B9%88%EF%BC%8C%E8%BF%99%E4%B9%88%E7%BB%8F%E5%85%B8%E7%9A%84%E7%89%87%E6%89%8D8.8%E5%88%86%EF%BC%9F",
+      "published": "Thu, 14 May 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 梅雪风 一 讨好型人格，其实也就是没有自我的人格。 它所有的价值判断，全然来自于外界。它乐于成为别人的影子，成为别人的附庸。也只有成为别人的附庸，它才有一种稳定感和满足感。 这种稳定感，让它在这个世界上才不会恐惧。 《被嫌弃的松子的一生》（2006） 具有讨好型人格的人，往往是好的配偶，好的属下，因为他们天然地不具备攻击性，天然地随时准备向你投诚。 但他们不是真正好的交流对象。说到底，人的精神需求是分很多层次的。我们当然需要那种对你百依百顺的服从，这里面有一种高高在上的近乎奴隶主的快感。但我们也需要看到真正的不…",
+      "key_points": [
+        "妹妹境遇的凄惨在她眼里也就不再是凄惨，而是妹妹用来获得父亲专宠的工具。这种恨， 让松子丧失了主动去爱的能力，她也就不能真正体味去主动给予的乐趣。她被她的情感匮乏…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "UFO？不，是绝美火箭云！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+UFO%EF%BC%9F%E4%B8%8D%EF%BC%8C%E6%98%AF%E7%BB%9D%E7%BE%8E%E7%81%AB%E7%AE%AD%E4%BA%91%EF%BC%81",
+      "published": "Thu, 14 May 2026 17:40:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt",
+        "lt",
+        "UFO"
+      ],
+      "summary": "2026年5月12日19点59分，长征六号改运载火箭（又称长征六号甲）从太原卫星发射中心冲天而起，将千帆极轨09组卫星送入轨道。大约2000公里外的海南文昌，摄影师用镜头捕捉到了它造就的奇观——火箭云。 这是一种在火箭飞行过程中出现的人造天象，火箭尾气中的水蒸汽在高空遇冷凝为冰晶，被暮光余晖照亮，化作如梦似幻的夜光云。这条云带随着火箭的飞行轨迹被拉长、膨大，如利箭般刺破苍穹。随后，分离的火箭残骸在再入大气时燃烧解体，似人造流星般划过夜空。 火箭云转瞬即逝，从诞生到消失，不过数分钟。正因短暂，才无比珍贵。现在，就让我…",
+      "key_points": [
+        "长征六号改运载火箭（又称长征六号甲）从太原卫星发射中心冲天而起，将千帆极轨09组卫星送入轨道。大约2000公里外的海南文昌，摄影师用镜头捕捉到了它造就的奇观——…",
+        "#火箭云 #长征六号甲 #星空 #奇观 #地理君带你发现中国 &lt;&gt; 文章原文",
+        "这是一种在火箭飞行过程中出现的人造天象，火箭尾气中的水蒸汽在高空遇冷凝为冰晶，被暮光余晖照亮，化作如梦似幻的夜光云。这条云带随着火箭的飞行轨迹被拉长、膨大，如利…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "你要瓷杯",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BD%A0%E8%A6%81%E7%93%B7%E6%9D%AF",
+      "published": "Thu, 14 May 2026 18:36:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "JJ",
+        "threads"
+      ],
+      "summary": "先前我买过一个玻璃公道杯，人民币一百多。用下来觉得还行，就是容量小，价格高。我想，玻璃制品又能够精密繁杂到哪里去呢？于是在淘宝重新选中一款，仅售八元，造型一样，容量却更大。拿回家来，倒上茶水，发现个狗东西根本放不稳啊？什么情况？倒掉茶水，往桌上一放，我准备细细研究一番，工艺究竟差在哪里？结果只轻轻一放，杯底就裂开一条缝隙。我不信，拿起用手指再一弹，裂纹直接贯穿。我哭着说：古代的贤能之士曾经教导过我们，100 元一个公道杯固然昂贵，但 8 元一个公道杯却未必能够相信。这中间一定存在某一个点，在价格上足够便宜，在品质上…",
+      "key_points": [
+        "人民币一百多。用下来觉得还行，就是容量小，价格高。我想，玻璃制品又能够精密繁杂到哪里去呢？于是在淘宝重新选中一款，仅售八元，造型一样，容量却更大。拿回家来，倒上…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "宋平，我心中永远的忠厚长者",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%AE%8B%E5%B9%B3%EF%BC%8C%E6%88%91%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84%E5%BF%A0%E5%8E%9A%E9%95%BF%E8%80%85",
+      "published": "Thu, 14 May 2026 08:55:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CUSPEA",
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "5.14 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 宋平同志参观 高能物理研究所 撰 文｜ 柳怀祖 ● ● ● 01 从闻名到相识 我第一次听到宋平老先生的名字，是在20世纪70年代初的一天，我家好友孙新世 （孙维世的妹妹） 大姐拉我去看话剧《盛大的节日》。我问她，是啥内容？她不屑一笑地说：“上海‘一月风暴’，去看看吧。”那时除了八个“样板戏”没啥东西可看。话剧更少见了。同去的还有大姐的几位朋友。这话剧是宣扬所谓“一月风暴”即文革中上海“工人阶级”夺权的事，正面人物是“无产阶级革命造反派”，一看便…",
+      "key_points": [
+        "是为贺宋平老茶寿之年，祝愿他老人家向双甲子之年奋进。每当回忆起与他老人家一起的日子，都思绪万千，断断续续，写了改，改了写，总感不能表达对他的思念。不料，2026…",
+        "我只是接触和了解宋老九十年革命生涯的一个很短很短的时段，一个很小很小的侧面，但我总感觉他特像我们这代人非常崇敬的周恩来总理的人格，在他身上总能看到周恩来的身影。…",
+        "我去兰州开会时，与一位长期在甘肃兰州工作的中国科学院兰州近代物理所的一位老友，谈到宋平老时，他告诉我，1973 年宋平老接手甘肃省委书记后，甘肃正值连年大旱，灾…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "比尔·阿克曼能否拯救封闭式基金？|&nbsp;经济学人财经（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%AF%94%E5%B0%94%C2%B7%E9%98%BF%E5%85%8B%E6%9B%BC%E8%83%BD%E5%90%A6%E6%8B%AF%E6%95%91%E5%B0%81%E9%97%AD%E5%BC%8F%E5%9F%BA%E9%87%91%EF%BC%9F%7C%26nbsp%3B%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Thu, 14 May 2026 08:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "fund",
+        "is",
+        "Ackman",
+        "Pershing"
+      ],
+      "summary": "1 写在前面 休息一下 2 精读|翻译|词组 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 英文部分选自经济学人20260425期 财经版块 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 Can Bill Ackman save the closed-end fund? 比尔 · 阿克曼能否拯救封闭式基金？ 注释： 比尔 · 阿克曼（英语： Bill Ackman ，全名： William Albert Ac…",
+      "key_points": [
+        "比尔 · 阿克曼能否拯救封闭式基金",
+        "他想借此打造新时代的伯克希尔 · 哈撒韦公司，即传奇投资者沃伦 · 巴菲特的投资帝国。事实上，阿克曼的野心不止于此：他想要重振封闭式基金。这类产品具备显而易见的…",
+        "长期以来，封闭式基金的二级市场交易价格普遍相对净资产价值大幅折价，鲜有例外。据研究机构 CEF 顾问公司测算，过去 25 年，这类基金平均折价率约为 5% 。阿…"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "经济学人智库 | 伊朗战事对亚洲经济的传导（5月更新）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93+%7C+%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%8B%E5%AF%B9%E4%BA%9A%E6%B4%B2%E7%BB%8F%E6%B5%8E%E7%9A%84%E4%BC%A0%E5%AF%BC%EF%BC%885%E6%9C%88%E6%9B%B4%E6%96%B0%EF%BC%89",
+      "published": "Thu, 14 May 2026 17:09:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Economist",
+        "EIU",
+        "Enterprise",
+        "GDP",
+        "PMI",
+        "B2B"
+      ],
+      "summary": "GDP 我们建议谨慎解读第一季度GDP数据对伊朗冲突影响的衡量作用。这些数据具有滞后性，且主要反映2月底冲突爆发前的情况。另一个需要注意的因素是，率先公布数据的通常是发达经济体，而这些经济体受能源冲击的程度相对较低。菲律宾、泰国以及柬埔寨、斯里兰卡等国尚未公布的数据，可能会反映出较大的初期冲击。目前已公布的数据显示，危机爆发前经济动能非常强劲，且3月份的冲击似乎并未对经济造成太大影响。 消费者价格 4月初的数据并未改变3月以来的整体格局。从国内燃料成本来看，消费价格呈现分化态势：部分经济体通过政策对冲了全球能源价格…",
+      "key_points": [
+        "经济学人智库(EIU) 是 隶属于Economist Enterprise的经济预测和分析机构。80年来，我们帮助企 业、政府和国际组织了解世界变化，在不断发展…",
+        "↑扫码了解EIU商务解决方案↑ 关于经济学人智库 Economist Enterprise 是 经济学人集团 旗下的B2B业务品牌。我们将宏观经济和地缘政治的复…",
+        "（本文节选自经济学人智库报告。预测截止日期：2026年5月6日） 欲了解更多关于全球经济、政策、行业前景的洞察，欢迎了解经济学人智库的商务解决方案"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "既然历史上有气候更温暖、二氧化碳含量更高的时期，这是否意味着不用担心全球变暖？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789686",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ppm",
+        "AMOC",
+        "PETM"
+      ],
+      "summary": "气象喵探员， 点开我的主页你会发现——这个喵纯纯气象迷，除了气象啥也不会~ 查看知乎原文 正常变暖和现在的全球变暖，就像是下楼和跳楼的区别。 只谈变暖强度而不谈速率的，其实就是耍流氓，这跟只谈剂量不谈毒性是一样的，但总有人以此做文章并渲染变暖无害论。 当今全球变暖的独特性根本不在于升温有多强，而是在于升温速率异常快，历史上升温超 5℃的情况有的是，但没有任何一次过程的速率能超过现在。 有比现在更暖的时期吗？当然有！但这根本不重要 诚然，比当今更温暖的时期确实存在，但这代表不了什么，因为每个阶段的变暖都是有原因的，速…",
+      "key_points": [
+        "所以历史上有比现在更暖、二氧化碳浓度有比现在更高的时期，根本不能证明当今变暖就不危险，不代表我们可以不管它了",
+        "严重偏高的二氧化碳增加速率对应的是巨额的变暖速率，过去 50 年来全球地表平均温度的上升速率约为每十年的 0.2℃，并在 21 世纪初增加为每十年 0.3℃",
+        "工业化前大气二氧化碳浓度稳定在 280ppm 左右，始终没有出现过明显过高的情况， 但自工业革命开始，特别是 20 世纪 50 年代以来这一浓度直线飙升"
+      ]
+    }
+  ]
+}
