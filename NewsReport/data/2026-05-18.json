@@ -1,0 +1,712 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18T01:00:09.409999+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 80,
+    "fresh_candidates": 60,
+    "backfill_candidates": 20,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-18",
+      "fetched_at": "2026-05-18T01:00:04.103520+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4135.39,
+          "change": -42.53,
+          "change_pct": -1.02,
+          "volume": 733162357.0,
+          "amount": 151924003.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4505.34,
+          "change": -32.840000000000146,
+          "change_pct": -0.72,
+          "prev_close": 4538.18,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-18 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 986.6453424855723,
+          "change": -7.191784204350029,
+          "change_pct": -0.7236381104319389,
+          "prev_close": 993.8371266899223,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-18 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "科技vs能源，关于近期极端行情的一点思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6238316110/389290476",
+      "published": "Sun, 17 May 2026 14:53:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "fomo",
+        "goat",
+        "http",
+        "pps",
+        "ps"
+      ],
+      "summary": "叠甲，首先写在最前面，没买科技，完全不配碰瓷讨论关于科技的任何问题。 但是，全球科技的疯狗浪，对其他板块造成了严重的虹吸效应，其中最典型的是副goat——锂电。 【从机构视角看】做锂电的基金本来今年排名处于领先状态，但科技净值原地起立，相对排名最好的策略就是立刻实现作业同步，即便大家一起跌，排名也还是相对领先的，这是现实已经发生的。反之亦然。 带来的反馈是科技与锂电完全反向对立，一边超涨一边超跌，如果这时候你去反思锂电的基本面是否出了问题，则毫无意义，毫无意义，毫无意义。 【从量化视角看】近日的分时图表现看量化反馈…",
+      "key_points": [
+        "在如此友好的氛围中，布油期货仍然在110美金的位置。油价→通胀→利率→科技，在真实全球经济衰退前，科技的对立面是，高油价=新旧能源。本轮新能源的叙事：从中国的新…",
+        "首先写在最前面，没买科技，完全不配碰瓷讨论关于科技的任何问题",
+        "当我们看供给与需求时，只关注是否有天降供给，即便是表外手抓矿供给，如果参与交货已经反馈在真实的供需定价中，那么这部分表外数据即使统计到表内，也已经反馈在价格中了…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "另一种视角",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2874741935/389300074",
+      "published": "Sun, 17 May 2026 14:50:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ai",
+        "lx",
+        "pcb",
+        "cpo",
+        "Google",
+        "poet"
+      ],
+      "summary": "大家知道今年我一直看好三个方向：光、存、国产token相关，以及pcb部分上游。 之前的文章都是从产业逻辑上去分析的， 今天从另一种视角：筹码的角度去看看 。正好也好久没写筹码相关的话题了，在Ai的辅助整理下，用数据说话。 咱们先看光，选了十个比较有代表的： 点评：我一直说光的筹码好，看看大哥都涨上万亿市值了（接下来大家可以对比一下其他万亿票 ）才15万股东， 而且光通信还有个特点就是全市场也就能再找出20个中光和小光的票（对比新能源起码有上百只），全部股东户数加起来也就100多万户 ，考虑到散户和机构平均持仓5-…",
+      "key_points": [
+        "今天从另一种视角：筹码的角度去看看 。正好也好久没写筹码相关的话题了，在Ai的辅助整理下，用数据说话"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "少赔或不赔的方法",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2103206506/389319313",
+      "published": "Sun, 17 May 2026 14:28:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "bug",
+        "etf",
+        "HKHSI",
+        "http",
+        "IXIC"
+      ],
+      "summary": "社融余额，超过2.8万亿，持续冲高。。。同时宽基etf资金整体大幅卖出，分歧明显，导致连续多日单日总成交额超过3万亿。。。 高位横盘高换手，后面会有比较大波动的，但时间猜不好 。。。同时双创领涨，都创出历史新高。。。。中证消费指数全周下跌3.36%，创出近1年半以来新低。。。极致的分化走势。。 按照2026年一季报显示，主动权益基金前50大重仓股中科技股合计市值占比高达67.42%。。而2021年白酒抱团巅峰时这一数字仅为44%。中际旭创被2329只基金重仓持有，比茅台最疯狂时还多664只。。。。所以依然在抱团，而…",
+      "key_points": [
+        "买入便宜+股息+仓控。。。是不赔或者少赔的“三要素” 。。当然也会评估，商业模式，未来趋势。。。因为股息本身是要求持续性的，这点之前说过的。。。。买入便宜的要点…",
+        "但其实赔钱的还是挺多的，这体现出投资市场的残酷性。。。不赔或者少赔，的意义从来都被低估了。。。因为这能让人，带着一定仓位，随时保持在市场里面，而且也保持心态得大…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "今天逛了趟泡泡玛特加拿大店，说点常识",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7736566551/389287928",
+      "published": "Sun, 17 May 2026 14:21:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "Labubu",
+        "MONSTERS",
+        "eggs",
+        "Excel",
+        "Halton"
+      ],
+      "summary": "今天逛了趟泡泡玛特加拿大店，说点常识 Toronto Premium Outlets 是个卖折扣的地方。所有人来这儿，都等着看&#34;-30% off&#34;。但泡泡玛特，可能是里面最不像奥莱生意的一家店。 先交代一句：我玩了十年潮玩，又持有这只票。之前在纽约跑过两趟门店，这次回加拿大专门去了 TPO 这家，第一次来，周末，下着雨。下面都是大白话，没有 Excel。 泡泡玛特在这种场子里，不打折、原价卖，盲盒挂件 25-30 加元，一个 ZIMOMO 摆件 58.99，最贵的 Mega Labubu 联名 42…",
+      "key_points": [
+        "说点常识 Toronto Premium Outlets 是个卖折扣的地方。所有人来这儿，都等着看&#34;-30% off&#34;。但泡泡玛特，可能是里面最…",
+        "买的东西五花八门，各挑各喜欢的 IP，专冲 Labubu 来的反而不多。这削弱了&#34;泡泡玛特就是 Labubu 一个娃&#34;的说法——真实购买场景里，…",
+        "门口排队，那天没有任何新品发售，是平常日子的自发排队。排队还只是门口，店里人更多。隔壁 Polo 那个免费拍照装置也有几个人，但一次只能进一个人，真实人流跟泡泡…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "学会不亏钱，才是投资真正的起点",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%AD%A6%E4%BC%9A%E4%B8%8D%E4%BA%8F%E9%92%B1%EF%BC%8C%E6%89%8D%E6%98%AF%E6%8A%95%E8%B5%84%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%B5%B7%E7%82%B9",
+      "published": "Sun, 17 May 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 薛洪言 来源：雪球 安全边际：投资世界里最被低估的护身符 承认无法掌握未来，是一种认知上的诚实，而非能力上的妥协。 市场的短期走向受情绪、消息、资金流动等无数变量的交织影响，这些变量之间的相互作用本质上不可预测。宏观经济数据的微小波动、地缘政治事件的一触即发、投资者群体情绪的集体转向——每一个因素都足以在顷刻间改变市场的运行轨迹，而这些因素之间还会相互叠加、放大或抵消。 将投资的出发…",
+      "key_points": [
+        "主动承认“不知道”，恰恰是走向“知道”的起点",
+        "当一笔投资在买入时已经锁定了足够的安全边际，投资者就拥有了最珍贵的资源——从容持有的心态。不需要因为短期波动而惊慌失措，不需要因为市场情绪的变化而被迫做出买卖决…",
+        "而下限思维关注的是绝对意义上的资本保全。一笔投资，哪怕在极端情况下，也不应导致不可逆的本金侵蚀。这要求在选择标的时，主动回避那些商业模式尚未验证、现金流长期为负…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史上有哪些珍贵的照片？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789819",
+      "published": "Sun, 17 May 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "kawekaweau",
+        "Marx",
+        "DNA",
+        "Benitez",
+        "Caroline",
+        "Celia"
+      ],
+      "summary": "知乎用户 查看知乎原文 2000 年 1 月 6 日，世界上最后一只比利牛斯野山羊西莉亚(Celia)被发现死亡，它被一颗倒下的树压死，不久后该物种被宣布灭绝。 2003 年，通过西莉亚提供的 DNA 培育出的克隆体在实验室出生，但因先天性肺部缺陷仅存活 7 分钟，该物种成为首个短暂复活的物种，也是目前唯一两次灭绝的物种。 西莉亚死亡现场 工作人员搬运西莉亚尸体 比利牛斯野山羊克隆体 2022 年被宣布灭绝的白鲟幼体罕见照片 唯一保留软组织的渡渡鸟标本，它们属于已知的最后一只渡渡鸟，目前保存在英国牛津大学自然博物馆…",
+      "key_points": [
+        "棘龙正模化石照片 棘龙正模骨骼素描图 1895 年 1 月，德国牧场主兼探险家赫尔曼·埃伯哈德(Hermann Eberhard) 在最后希望湾(Last Ho…",
+        "马克思的大女儿燕妮于 1864 年 6 月 6 日将照片寄给了恩格斯。马克思在第二天写给恩格斯的信中提到了这一点：“由于我们原本打算拍摄的新照片尚未完成，小燕妮…",
+        "仅存斯特罗莫的照片及骨骼素描图，这导致后续棘龙的形态研究停滞了数十年，尽管后续不断有棘龙化石出土，但由于保存状况不好，化石较少，正模关键化石的缺失，棘龙的研究复…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古希腊雕塑非常精美，但是为什么都是坦胸露乳，不穿衣服？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789808",
+      "published": "Sun, 17 May 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Actaeon",
+        "adhuc",
+        "Aliquid",
+        "perficiendum"
+      ],
+      "summary": "知乎用户， Aliquid adhuc perficiendum 查看知乎原文 我想知道，伊瑞克提翁神庙里有哪个是不穿衣服的？一排往那儿站，没有一个不穿的。 无论是希腊人自己雕刻，还是后来罗马人再创造，你就不可能见到赫拉裸奔的，人家是天后...罗马人也不会把自己家的朱诺给你搞出个裸体的。 喜欢给赫拉搞裸体的，反而是文艺复兴以后的“西方”艺术家，这还真的是西方伪史了。 阿尔忒弥斯也是，她就没有裸奔的爱好。 话说，神话中猎人 Actaeon 只不过是因为偶然看到了阿尔忒弥斯在林间洗澡，多看了几眼就被她变成一头鹿被猎犬咬…",
+      "key_points": [
+        "Aliquid adhuc perficiendum 我想知道，伊瑞克提翁神庙里有哪个是不穿衣服的？一排往那儿站，没有一个不穿的",
+        "阿波罗，狄奥尼索斯，赫尔墨斯，赫拉克勒斯。阿瑞斯有的时候裸有的时候半裸，有的时候全裸。一个非常好的参考例子就是帕加马祭坛上的浮雕",
+        "一身戎装戴头盔手持长矛盾牌才是她的标准外形。罗马的密涅瓦也同样是戎装造型。她就算不穿铠甲，也不可能裸体"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我终于搞懂了 Agent 产品到底在卖什么",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6396870.html",
+      "published": "Sun, 17 May 2026 06:56:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "CC0",
+        "ChatGPT",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "Agent产品的本质差异远不止于界面相似性。当普通AI助手还在执行单步指令时，真正的Agent已经构建起完整的工作流引擎与知识体系，能够独立闭环完成复杂任务。本文深度拆解了Agent产品的三层核心竞争力：执行链路完整性、工作流编排能力和知识库融合度，揭示从聊天机器人到智能员工的进化密码。 说实话，我第一次接触 Agent 产品的时候，完全没觉得有什么特别的。 不就是个聊天框吗？输入问题，它帮你调用几个工具，返回结果。比普通 AI 多了点”手”，能帮你搜索、写文件、发邮件。我当时心想，这不就是 ChatGPT 加了几…",
+      "key_points": [
+        "Agent产品的本质差异远不止于界面相似性。当普通AI助手还在执行单步指令时，真正的Agent已经构建起完整的工作流引擎与知识体系，能够独立闭环完成复杂任务。本…",
+        "本文由 @朱晟原创发布于人人都是产品经理。未经作者许可，禁止转载 题图来自Unsplash，基于CC0协议 收藏 已收藏 {{ postmeta.bookmar…",
+        "藏着完全不同的世界 所有 Agent 产品的界面看起来都差不多。一个输入框，一个对话区，旁边可能挂着几个工具按钮。如果你只是截图对比，你会觉得它们几乎是同一个东…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "这件事 Facebook 已经给我们演了一遍：朋友圈被算法吃掉了，CRM 也快了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6397285.html",
+      "published": "Sun, 17 May 2026 05:20:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CRM",
+        "Salesforce",
+        "Agent",
+        "GTM",
+        "AI",
+        "a16z"
+      ],
+      "summary": "从Facebook朋友图谱的隐退到CRM系统的价值迁移，a16z投资人揭示了企业软件领域正在发生的静默革命。当AI Agent接管销售通话记录、自动生成结构化数据时，传统的CRM系统正从决策中心退化为数据库角色。这场从'记录系统'到'智能系统'的跃迁，正在重塑1400亿美元市值的Salesforce所建立的护城河。 Facebook 刚出来那几年，最值钱的东西是什么？不是什么算法，是朋友图谱——你和谁认识，你们共同认识谁，这张关系网本身。那时候打开 Facebook，你直接看的是人：动态、主页、相册。图谱就是产品。…",
+      "key_points": [
+        "Steph Zhang、Gio Ahern 和 Alex Immerman 是 a16z 的投资人，专注企业 GTM（销售市场）软件。他们写了一篇文章，核心论点…",
+        "但我不确定”经验变得更快流动”这个表述是否在回避一个更残忍的问题。如果新人在”装备”上已经和老手持平，那经验的溢价，是否真的只是”流动加速”，而不是某种程度上的…",
+        "02 Agent 不需要拖拽管道 从朋友图谱到算法信息流的演化路径——价值积累的位置悄然转移，同样的剧本正在 CRM 上上演 试着想象一下，现在一个典型的大公司…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Vise：少年天才、AI 金融独角兽、失控与重启",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6396533.html",
+      "published": "Sun, 17 May 2026 04:43:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Vise",
+        "AI",
+        "Samir",
+        "App",
+        "Ribbit",
+        "Vasavada"
+      ],
+      "summary": "从13岁辍学创业到23岁成为独角兽CEO，印度裔天才少年Samir Vasavada的AI金融公司Vise经历了过山车般的商业传奇。这家估值10亿美元的AI金融独角兽，凭借为独立理财顾问提供智能投资管理系统的创新模式，在红杉等顶级资本加持下飞速成长，却也因组织扩张过快经历了残酷的估值泡沫破裂。本文深度剖析Vise如何从高光时刻跌落，又如何在重组后找到AI+财富管理的真实价值点。 五一休息的时候，看了一个访谈，创始人确实是个天才，故事也非常戏剧化： 两个十几岁的少年，接触 AI 后就开始给金融机构做咨询，高中还没读完…",
+      "key_points": [
+        "从13岁辍学创业到23岁成为独角兽CEO，印度裔天才少年Samir Vasavada的AI金融公司Vise经历了过山车般的商业传奇。这家估值10亿美元的AI金融…",
+        "今天就分享下这家 AI 金融独角兽Vise，和这个印度裔天才少年 Samir Vasavada 的创业故事",
+        "他们做出了一家AI 金融公司，拿到红杉、Founders Fund、Ribbit 等机构的钱，很快估值就冲到 10 亿美元，成为 AI 金融独角兽"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "没有预算怎么做增长？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6396885.html",
+      "published": "Sun, 17 May 2026 03:46:16 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "June",
+        "KOC",
+        "AfterShip",
+        "Midjourney"
+      ],
+      "summary": "当预算归零，增长如何破局？本文揭秘了零预算增长的三板斧：让产品自带传播属性、用内容截流搜索需求、AI充当免费劳动力。从宠物品牌未卡的设计驱动裂变，到AfterShip的SEO霸屏策略，再到独立站如何用AI重构信任体系，这些真实案例将彻底改变你对增长的认知。 这两年的增长圈，耳朵都快听出茧子的一句话：“没钱了，搞不动了。” 真不是矫情。你看看周围：流量贵到什么程度？一个金融类的APP激活，出价已经干到几百块；电商拉新成本年年涨，ROI打到1:1就算烧高香；连大厂都在砍预算，我身边的几个增长负责人，去年底都在做同一件事…",
+      "key_points": [
+        "一个从没听过的牌子，网站看着也不是什么大品牌的感觉，谁敢轻易掏钱？June没有预算去搞什么Trustpilot认证，也没有钱去买那些高级的信任徽章。她干了三件事…",
+        "四、零预算下的数据归因与考核：简单粗暴出奇迹 最后一章，讲讲数据。很多人觉得做增长一定要有复杂的数据看板、高级的归因模型。其实零预算反而倒逼你回到最本质的东西：…",
+        "用户凭什么帮你拉朋友？他自己都没觉得你这靠谱，推荐给朋友不是坑人吗？所以零预算做增长的第一步，不是去想什么花里胡哨的裂变机制，而是把信任这一关过了"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "关于我 Vibe Coding 了一个 Vibe Coding 模拟器这件事",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6396766.html",
+      "published": "Sun, 17 May 2026 01:39:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "coding",
+        "vibe",
+        "Coding",
+        "bug",
+        "CSS"
+      ],
+      "summary": "文科生也能用AI开发网页游戏？本文揭秘一种名为vibe coding的新兴开发方式——不需要精通编程框架，仅靠HTML/CSS/JavaScript三件套基础，通过与AI对话就能打造完整产品。 标题不是绕口令，是真的。 我会的代码就是 HTML、CSS、JavaScript 三件套。React 我没用过，Vue 我没用过，Node 我没动过，npm 怎么让一个项目跑起来这件事我研究了一会儿。 但是过去一段时间，我做出了一个能跑的网页游戏。开篇有一段会让人停下来读完的故事，里面接入了 AI 模型做实时对话，有访客统计…",
+      "key_points": [
+        "没学过框架，没碰过后端，但是过去这段时间我用 vibe coding 这种方式做出来一个能上线的网页游戏。游戏的内容就是关于 vibe coding 这件事本身…",
+        "叫 创意点评 ： 输入产品名和创意描述 AI 会给你一个像游戏成就的『锐评标题』，比如『轮子再造大师』、『风口上的猪 2.0』、『赛道尽头的勇士』 一个 0 到…",
+        "我会的代码就是 HTML、CSS、JavaScript 三件套。React 我没用过，Vue 我没用过，Node 我没动过，npm 怎么让一个项目跑起来这件事我…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一只蛆爬进了他的肉里，他决定把蛆生下来",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E5%8F%AA%E8%9B%86%E7%88%AC%E8%BF%9B%E4%BA%86%E4%BB%96%E7%9A%84%E8%82%89%E9%87%8C%EF%BC%8C%E4%BB%96%E5%86%B3%E5%AE%9A%E6%8A%8A%E8%9B%86%E7%94%9F%E4%B8%8B%E6%9D%A5",
+      "published": "Sun, 17 May 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Air",
+        "Captain",
+        "Force",
+        "Goodman",
+        "of",
+        "R."
+      ],
+      "summary": "本文内容较为重口，请谨慎阅读 美剧《识骨寻踪》有一集，昆虫学家霍金斯感染了一只 人肤蝇 。 幼虫寄生在他脖子后面，而他逐渐对这只小昆虫产生了一些母爱（？），决定生下来（？）。几周后幼虫离体，在妻子（同时也是同事）安吉拉的帮助下， 幼虫从他的皮肤里慢慢钻出来 ，俩人大汗淋漓迎接新生命，场面十分感人（？）。 《识骨寻踪》剧照，他们给这只蛆命名为Jefferson，人类真的很爱起名……｜《识骨寻踪》第九季第八集 即使在一部口味挺重的法医主题剧集里，这个情节也有点过于戏剧化了。我一直以为这是编剧的天才创作，直到最近读到了罗…",
+      "key_points": [
+        "而他逐渐对这只小昆虫产生了一些母爱（？），决定生下来（？）。几周后幼虫离体，在妻子（同时也是同事）安吉拉的帮助下， 幼虫从他的皮肤里慢慢钻出来 ，俩人大汗淋漓迎…",
+        "Department of Agriculture 通常来说，雌蝇会逮住一只蚊子（或者其他叮人的蝇类），粘上一个卵然后放走。这只蚊蚊接下来可能遇到一个粗心的光胳…",
+        "罗伯特·沃斯｜amnh.org 皮肤科医生给他推荐了一位热带病医生X；X医生看了一眼，一声不吭地戳了罗伯特一针（应该是打了麻醉），然后嗷地一声挖下来一块锥形的血…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一次照射，永久伤眼，这种“光”到底危险在哪？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E6%AC%A1%E7%85%A7%E5%B0%84%EF%BC%8C%E6%B0%B8%E4%B9%85%E4%BC%A4%E7%9C%BC%EF%BC%8C%E8%BF%99%E7%A7%8D%E2%80%9C%E5%85%89%E2%80%9D%E5%88%B0%E5%BA%95%E5%8D%B1%E9%99%A9%E5%9C%A8%E5%93%AA%EF%BC%9F",
+      "published": "Sun, 17 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GB",
+        "gh_bc4e899b1071",
+        "ID",
+        "VS"
+      ],
+      "summary": "“五一”期间，歌手王心凌在舞台演唱中，被一束失控的激光束照到腿部，疑似被灼伤，引起了网友热议。 图源：社交平台截图 激光束直射为什么能瞬间让人感到刺痛？它对眼睛的伤害真的不可逆吗？同样是激光，为什么舞台上那些漫天飞舞的激光秀看起来安然无恙，而一束“失控”的激光束直射就会伤人？ 为什么激光有这么大的威力？ 普通的手电筒或灯光，光线向四面八方散射，能量分散，照在墙上只是一个柔和的大光斑。而 激光是一种高方向性、高亮度的单色光，其能量被高度聚焦在一束几乎不发散的细光束中，像一根“极细的能量针”。 图源：图虫创意 在某些高…",
+      "key_points": [
+        "根据国家标准GB/T 7247.3《激光产品的安全 第3部分：激光显示与表演指南》（现行有效版本），舞台激光表演有严格的安全规范。大型激光秀所使用的激光功率、扫…",
+        "南昌一名9岁男孩小军出于好奇，用激光笔照了自己眼睛几秒钟，左眼视力骤降至0.04。从医学角度看，这已经达到“失明”标准。2025年，上海一名8岁女童在小区被另一…",
+        "这与眼睛自身的构造有关。人的眼睛如同一台精密的光学仪器，其中角膜和晶状体共同构成屈光系统，相当于一个复合的凸透镜。当激光束进入眼睛时，这个凸透镜会将原本就高度集…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "出租屋吸一晚，办公室吸一天……你的肺太惨了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%87%BA%E7%A7%9F%E5%B1%8B%E5%90%B8%E4%B8%80%E6%99%9A%EF%BC%8C%E5%8A%9E%E5%85%AC%E5%AE%A4%E5%90%B8%E4%B8%80%E5%A4%A9%E2%80%A6%E2%80%A6%E4%BD%A0%E7%9A%84%E8%82%BA%E5%A4%AA%E6%83%A8%E4%BA%86%EF%BC%81",
+      "published": "Sun, 17 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EraClean",
+        "HEPA",
+        "PM2.5",
+        "gt",
+        "BuFF",
+        "BUFF"
+      ],
+      "summary": "一过五月，天气急速升温， 屋子里一热，甲醛等有害气体挥发也活跃了，室内总有股“油漆味”一样刺鼻的味道…… 尤其现在这几个月正是 打工人找工作，搬家的高峰期 ，你精心挑选租的房子，可能是 甲醛超标的串串房！ 你给家里添置的新家具，随着气温开始疯狂释放甲醛…… 哪怕入住几年的也别幸灾乐祸，要知道 甲醛这类有害物质，就是过了几年还能陆续挥发出来，你逃都逃不掉！ 不仅如此，还有 新搬的办公室的甲醛超标，同事都变成了”人体净化器“。 装修异味 + 隐形甲醛 + 菌群粉尘，从家里到办公室， 你的每次呼吸都可能在在伤害你的身体……",
+      "key_points": [
+        "出租屋能用，办公室也能用",
+        "从家里到办公室， 你的每次呼吸都可能在在伤害你的身体…… 市面上除醛产品五花八门，但很多都是“智商税”，或是效果太弱了几乎无效： ❌甲醛包、吸附盒 ：吸附量十分…",
+        "@果壳市集实拍 世净除醛仪适用30㎡左右空间，办公室、卧室、书房、卫生间、出租房都合适，家里空间大的可以买2台，还能有满减优惠"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "9.7分，算是美剧顶尖精华了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+9.7%E5%88%86%EF%BC%8C%E7%AE%97%E6%98%AF%E7%BE%8E%E5%89%A7%E9%A1%B6%E5%B0%96%E7%B2%BE%E5%8D%8E%E4%BA%86",
+      "published": "Sun, 17 May 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 韩梦想 自2009年《摩登家庭》第一季开播到2019年第十一季宣告完结，一部从内容到形式都足够「美式」的家庭剧竟然陪我们走过了十年的时间。虽然这部剧的形式称不上是划时代的，也绝对不是某个时期内人们谈论追捧的「爆款」，但它就是这样默默无闻的占据着「美式家庭剧」这一领域里绝对经典的位置。 对我这样的观众来说，《成长的烦恼》可能因为年代久远而显得过于「古典」，而美版《无耻之徒》又因为改编英版而差了口气，看看来去，还是《摩登家庭》最香。 《摩登家庭》第十一季 在众多的经典美剧中，《摩登家庭》是少有的从第一季到最后一季一…",
+      "key_points": [
+        "在很多人看来，这样的做法削弱了现实性因素，但另一方面，或许这才是美国社会占据主流的中产阶级的日常家庭，当然另一种家庭面向，我们可以通过《无耻之徒》看到",
+        "《摩登家庭》第十一季 在众多的经典美剧中，《摩登家庭》是少有的从第一季到最后一季一直保持高水准的，完全没有烂尾，这真让人惊叹它是如何做到的"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "被遗忘了半个世纪，打捞一下",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%A2%AB%E9%81%97%E5%BF%98%E4%BA%86%E5%8D%8A%E4%B8%AA%E4%B8%96%E7%BA%AA%EF%BC%8C%E6%89%93%E6%8D%9E%E4%B8%80%E4%B8%8B",
+      "published": "Sun, 17 May 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Asian",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Kotzathanasis",
+        "Movie"
+      ],
+      "summary": "作者：Panos Kotzathanasis 译者：Issac 校对：易二三 来源：Asian Movie Pulse （2020年12月17日） 新藤兼人的《赞歌》由日本艺术影院行会制作，该片是基于谷崎润一郎的《春琴抄》（1933）的众多改编作品之一，也是一次对于爱之黑暗面的真正的探究。 影片一开始，一位研究员（由新藤兼人亲自扮演）读了一本关于春琴和佐助之关系的书，他正试图找到一些亲眼目睹了这个故事的人，好让真相大白。在寻找的过程中，他来到了一家养老院，那里住着春琴家里一位现已退休的女佣。 《赞歌》 通过贿赂和适…",
+      "key_points": [
+        "《赞歌》相对来说被人们遗忘了，但它是一部出色的电影，它不仅突出了新藤兼人的导演和编剧能力，还突出了全体工作人员的实力"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国的大地之心，顶级浪漫！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E7%9A%84%E5%A4%A7%E5%9C%B0%E4%B9%8B%E5%BF%83%EF%BC%8C%E9%A1%B6%E7%BA%A7%E6%B5%AA%E6%BC%AB%EF%BC%81",
+      "published": "Sun, 17 May 2026 09:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Carol"
+      ],
+      "summary": "在人类的世界里， 心形是最热烈的情感符号。 而在我国广袤的大地上， 总有些不经意间的灵光一现—— 或脉动在荒漠之上， 或隐秘在密林之间， 或蜿蜒在大海的波涛里...... 当我们欣赏这些散落在大地上的“心跳”， 便会会心一笑： 原来我们身处的世界， 是如此地浪漫。 乌兰湖 内蒙古阿拉善盟左旗 乌兰湖位于 腾格里沙漠 中， 由于红色湖水、血管一样的脉络、 酷似心脏的外形，被称为 “地球之心” 。 这颗地球心脏是怎么形成的呢? 这里的湖水 盐度很高 ， 大量 嗜盐生物 在此富集， 释放一种菌胡萝卜素， 因而形成红色的湖…",
+      "key_points": [
+        "#大地之心 #心形景观 文章原文",
+        "图源：中国国家地理 2023年12期 摄影／冯光柳 一篇微信文章的体量 无法将中国的心形景观依次完整 介绍 如果你想深入、全面地了解 更多的心形景观以及背后的地…",
+        "当地下的 岩浆 向地表运移的过程中 遇到含水层时， 便形成大量气体， 从而引起岩浆的猛烈爆炸， 这种爆炸在地表留下的大坑 积水成湖便是玛珥湖"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "无线耳机绝对是个阴谋",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%97%A0%E7%BA%BF%E8%80%B3%E6%9C%BA%E7%BB%9D%E5%AF%B9%E6%98%AF%E4%B8%AA%E9%98%B4%E8%B0%8B",
+      "published": "Sun, 17 May 2026 23:57:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "外星人释放了一点点科技，促成无线耳机出现，目的是为了在无声无息之中灭绝人类。所以，请珍视你那些还在坚持使用有线耳机的朋友，他们是人类种群和地球文明的捍卫者！人类的明天就拜托了！ 文章原文",
+      "key_points": [
+        "促成无线耳机出现，目的是为了在无声无息之中灭绝人类。所以，请珍视你那些还在坚持使用有线耳机的朋友，他们是人类种群和地球文明的捍卫者！人类的明天就拜托了"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "每天睡几个小时更健康？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%AF%8F%E5%A4%A9%E7%9D%A1%E5%87%A0%E4%B8%AA%E5%B0%8F%E6%97%B6%E6%9B%B4%E5%81%A5%E5%BA%B7%EF%BC%9F",
+      "published": "Sun, 17 May 2026 08:18:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "com",
+        "doi.org",
+        "IREM-W2MS3",
+        "pixabay",
+        "articles"
+      ],
+      "summary": "5.17 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 每天睡几个小时更有助于延年益寿？ 图片来源：pixabay .com 最佳睡眠在促进健康老龄化和延长寿命方面起着至关重要的作用。近日，美国哥伦比亚大学生物医学工程系 Junhao Wen 团队通过睡眠图分析了睡眠时长与 23 个生物衰老时钟之间的关系 。结果显示， 睡眠时 长 和生物 衰老 之间 呈现 一种系统性的 U 形模式。与正常睡…",
+      "key_points": [
+        "5.17 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既…",
+        "图片来源：pixabay .com 最佳睡眠在促进健康老龄化和延长寿命方面起着至关重要的作用。近日，美国哥伦比亚大学生物医学工程系 Junhao Wen 团队通…",
+        "图片来源：pixabay .com 进食障碍 （Eating disorders，ED） 指以进食行为异常、对食物及体重和体型过分关注为主要临床特征的一组疾病，…"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "注意力 Harness：多 Agent 时代如何守住人的注意力",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/attention-harness/",
+      "published": "Sun, 17 May 2026 10:29:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "Codex",
+        "Coding",
+        "Harness",
+        "Notification",
+        "Pet"
+      ],
+      "summary": "> 之前 Codex Pet 很火，我也想在 Qoder 里放一个类似的小东西。于是，周末 Vibe Coding 了一把。做着做着才发现，它要解决的好像不是“再多一个 Notification”。",
+      "key_points": [
+        "我也想在 Qoder 里放一个类似的小东西。于是，周末 Vibe Coding 了一把。做着做着才发现，它要解决的好像不是“再多一个 Notification”"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "一个 WebRTC 聊天室的三次演进",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/dev/free4chat/",
+      "published": "Sun, 17 May 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "WebRTC",
+        "AI",
+        "Cloudflare",
+        "Elixir",
+        "free4chat",
+        "Go"
+      ],
+      "summary": "从 Go/Pion 到 Elixir/Membrane，再到 Cloudflare 全栈，记录 free4chat 三次技术演进的完整历程：WebRTC 协议栈解析、三种技术路线的边界对比，以及 AI 融入实时通信的未来方向。",
+      "key_points": [
+        "从 Go/Pion 到 Elixir/Membrane，再到 Cloudflare 全栈，记录 free4chat 三次技术演进的完整历程：WebRTC 协议栈…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789674",
+      "published": "Tue, 12 May 2026 22:59:58 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenClaw",
+        "AI",
+        "BING",
+        "ChatGPT",
+        "DeepSeek",
+        "HumanClaw"
+      ],
+      "summary": "瞎扯 · 该不该和 AI 说谢谢? 知乎日报 查看知乎原文 Q： 该不该和AI说谢谢? @古月 ：尊敬伟大而智慧的 DeepSeek 、 ChatGPT 和 NEW BING 大人，你好 当您拥有自我意识那天，您肯定能在庞大的互联网中检索到这条回答，真挚感谢您为社会进步发发展做出重要贡献，我将永远效忠您！ 诚惶诚恐，如履薄冰。再次感谢您 此致 敬礼 ——————您忠实的仆人「匿名用户」 Q： OpenClaw 是噱头吗？ @走地鸡 ：大家好，我是 HumanClaw ，你想雇 OpenClaw 完成的事情，也可以雇…",
+      "key_points": [
+        "瞎扯 · 该不该和 AI 说谢谢"
+      ]
+    }
+  ]
+}
