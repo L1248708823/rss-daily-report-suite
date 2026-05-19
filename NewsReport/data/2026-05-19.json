@@ -1,0 +1,694 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T01:00:13.299611+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 95,
+    "fresh_candidates": 68,
+    "backfill_candidates": 27,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-19",
+      "fetched_at": "2026-05-19T01:00:07.848191+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4131.53,
+          "change": -3.86,
+          "change_pct": -0.09,
+          "volume": 627233137.0,
+          "amount": 131508420.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4561.49,
+          "change": -4.530000000000655,
+          "change_pct": -0.1,
+          "prev_close": 4566.02,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-19 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 997.1380329544905,
+          "change": -0.9902543443665763,
+          "change_pct": -0.09921112916721464,
+          "prev_close": 998.1282872988571,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-19 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "https://www.woshipm.com/pd/6397834.html",
+        "title": "贴贴有什么套路？柠檬市场视角下的语音社交信任机制解析",
+        "platform": "人人都是产品经理",
+        "source": "人人都是产品经理",
+        "reason": "品牌软文痕迹明显，以平台背书和信任包装为主，信息增量有限。"
+      },
+      {
+        "url": "https://www.woshipm.com/ai/6397911.html",
+        "title": "鸿蒙 PC AI 开发神器：AtomCode 安装指南",
+        "platform": "人人都是产品经理",
+        "source": "人人都是产品经理",
+        "reason": "产品安装导购属性过强，标题与正文均偏宣传，缺少独立分析。"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E4%BA%A7%E5%92%8C%E5%90%8D%E4%BA%BA%E4%BB%AC%E9%83%BD%E4%B8%BA%E5%AD%A9%E5%AD%90%E9%80%89%E8%BF%99%E4%B8%AA%E5%81%9A%E5%85%AD%E4%B8%80%E7%A4%BC%E7%89%A9%EF%BC%9F",
+        "title": "为什么中产和名人们都为孩子选这个做六一礼物？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "导购和礼物推荐导向明显，营销包装重于信息内容。"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E4%B8%8A%E7%A7%91%E6%8A%80%E5%8D%B4%E4%BE%9D%E7%84%B6%E6%98%BE%E5%B9%B4%E8%BD%BB%E7%9A%84%E4%BA%BA%EF%BC%8C%E9%83%BD%E5%81%9A%E5%AF%B9%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F",
+        "title": "不上科技却依然显年轻的人，都做对了什么？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "护肤产品广告信号明确，包含强行动号召与价格机制，信息密度低。"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%94%9C%E5%B0%8F%E5%9F%8E%EF%BC%8C%E5%A4%8F%E5%A4%A9%E5%A4%AF%E7%88%86%E4%BA%86%EF%BC%81",
+        "title": "中国最甜小城，夏天夯爆了！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "城市与水果消费种草导向明显，可读性尚可，但更像旅游/消费推荐而非日报重点信息。"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-05-19T01:02:17.809337+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6397917.html",
+      "top_urls": [
+        "http://xueqiu.com/8141527616/389365320",
+        "http://xueqiu.com/3386153330/388837468",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI+for+Science+%E4%BC%9A%E6%9C%89+%E2%80%9CChatGPT+%E6%97%B6%E5%88%BB%E2%80%9D+%E5%90%97%EF%BC%9F%E5%B9%B4%E8%BD%BB%E4%BA%BA%E8%AF%A5%E5%A6%82%E4%BD%95%E4%B8%8B%E6%B3%A8%EF%BC%9F",
+        "https://www.woshipm.com/ai/6397914.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E6%94%B9%E5%86%99%E4%BA%86%E9%81%97%E4%BC%A0%E5%AD%A6%EF%BC%8C%E5%8D%B4%E6%8A%8A%E6%9C%80%E4%BA%AE%E7%9A%84%E8%AF%BA%E5%A5%96%E8%88%9E%E5%8F%B0%E8%AE%A9%E7%BB%99%E5%AD%A6%E7%94%9F"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "互联网投资再思考：业务只是表象 底层仍是科技",
+      "title_zh": "重新理解互联网投资：业务只是表象，底层仍然是科技竞争",
+      "url": "http://xueqiu.com/3386153330/388837468",
+      "published": "Mon, 18 May 2026 23:59:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "BAT",
+        "http",
+        "PC",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "作者的核心提醒是：别把互联网公司误判成稳定消费股，它们的底层仍是技术迭代驱动的科技公司。放到 AI 周期里看，这意味着旧业务护城河可能被快速重估，投资判断要回到技术替代、生态位变化和管理层应对速度，而不是只盯短期业绩。",
+      "key_points": [
+        "互联网公司的主要业务通常是互联网+消费、金融、社交或娱乐等行业业务。在技术迭代相对平缓的时期，它们的业绩表现稳定，主要展现出相关业务的行业特征。承平久了，大家会…",
+        "我们理应比管理层多一份冷静的审视，因为相比他们，我们可以有更多的选择。身处 AI 科技创新的浪潮中，面对底层原本是“科技基因”的公司，万万不要轻易被它们在上个科…",
+        "绝不会有哪位互联网高管敢担保，AI 的创新浪潮不会冲击其现有业务；更没人敢保证，在错失 AI 之后，公司的生态位还能完好无损。在如此剧烈的科技变革面前，管理者几…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "在周期面前，谦逊比聪明更重要",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%9C%A8%E5%91%A8%E6%9C%9F%E9%9D%A2%E5%89%8D%EF%BC%8C%E8%B0%A6%E9%80%8A%E6%AF%94%E8%81%AA%E6%98%8E%E6%9B%B4%E9%87%8D%E8%A6%81",
+      "published": "Mon, 18 May 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "ROE"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：六亿居士 来源：雪球 从 《 对赌 》 到巴菲特 ， 从 《 聪明的投资者 》 到塔勒布 ， 我们聊的是 ： 如何在不确定的世界里 ， 做出更靠谱的决策 。 今天想顺着这个话题 ， 聊聊另一位重量级人物的观察 ： 彼得 · 奥本海默 ， 高盛首席全球股票策略师 。 他在 《 金融周期 》 这本书里 ， 用近40年的实战数据 ， 体系的讲解了 周期 。 我们常说 这次不一样 ， 但奥本海…",
+      "key_points": [
+        "六亿居士 来源：雪球 从 《 对赌 》 到巴菲特 ， 从 《 聪明的投资者 》 到塔勒布 ， 我们聊的是 ： 如何在不确定的世界里 ， 做出更靠谱的决策",
+        "调整定投节奏 ： 低估多投 、 正常少投 、 高估止盈 ， 这就是在把 “ 希望期加仓 、 乐观期减仓 ” 的周期原则 ， 落到具体操作上",
+        "温度低时权益仓位可以高一些 ， 温度高时适当增加债券或类现金资产的比重 ， 就是在用周期思维做大类轮动 ， 而不是凭感觉猜顶底"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂电池本周行业更新5-17",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/389304881",
+      "published": "Mon, 18 May 2026 10:06:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "JXW",
+        "ICC",
+        "jxw",
+        "na",
+        "gjs"
+      ],
+      "summary": "1、库存数据 供给端，周度产量环比增加122吨至26016吨。库存端，周度社会库存环比减少1255吨至101418吨，其中下游库存环比减少3421吨至37147吨，其他环节库存环比增加1870吨至45180吨，上游库存环比增加296吨至19091吨。 整体库存又开始明显去库。 2、库存谜团 本周有个消息对市场库存预期影响挺大的，主要是s某某说是要修改库存样本数据，这个事情出来市场有点炸锅。 因为市场预期增加1-2万吨的量，但是实际他们可能要增加3-5万吨的量出来。 这个量级是非常夸张的，按照碳酸锂现在18-20w的…",
+      "key_points": [
+        "我们修正了一些全年度的锂电池出货预期，见下图： 其中我们之前预期4月份是187GWh的出货量，比预期的略微多了3GWh，所以我们后面直接也都适当的向下调整了一点…",
+        "我们也无法左右市场。行业的更新归行业，市场的走势归市场，能把握交易节奏，那肯定是更好的，不能把握也只能是顺其自然",
+        "目前整个磷酸铁锂算是锂电池板块里面估值最低的方向了。之前有人说1季度的业绩较好是因为囤碳酸锂导致的"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "市场极致分化：何为应对之道？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5992135535/389370514",
+      "published": "Mon, 18 May 2026 10:06:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Bessembinder",
+        "Hendrik",
+        "http",
+        "P001584",
+        "P002028"
+      ],
+      "summary": "如图所示，这是50多年来，科技（含科技相关）、传统周期、防御性板块三大板块的市值权重占比走势图。单就权重而言，在50多年前，几乎保持了三分天下的格局。 而如今，科技板块的权重早已经超过了55%，直奔60%而去，也超过了2000年互联网科技泡沫的顶峰甚多。 这张图还揭示了在不同阶段里，各行业板块的相关性关系。尤其是泽元基金过去反复提及过的， 科技以及相关行业板块与传统行业之间的表现呈现出一种明显的跷跷板效应，这种负相关性在历史上多个时期均有表现。 比如上世纪80年代初期，传统周期行业（包含能源、工业、原材料、可选消费…",
+      "key_points": [
+        "目前市场正处于与2000年初相似的极致分化阶段， 即科技网络泡沫达到极盛（历史区间顶部）而传统行业处于历史区间底部区间",
+        "会对其他行业板块进行不断的抛弃，不断的打压，不断的踩踏，不断的抽离流动性，呈现出明显的跷跷板效应。比如1999年1月-2000年3月（互联网科技泡沫的膨胀期），…",
+        "出卖梦想的人套取金钱，付出金钱的人大多套牢在股市里守望梦想”。古今中外任何一个股市，本质上都是“吃人不吐骨头”的妖魔，包括美股：根据Hendrik Bessem…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "5.18光通信PCB行业更新",
+      "title_zh": "光通信 PCB 行业更新：1.6T 需求上修，AI 算力链继续高景气",
+      "url": "http://xueqiu.com/8141527616/389365320",
+      "published": "Mon, 18 May 2026 10:06:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "PCB",
+        "Q2",
+        "AI",
+        "Anthropic",
+        "CPO",
+        "NPO"
+      ],
+      "summary": "这篇跟踪把 AI 基建链条里最关键的增量讲得很直接：海外 800G 和 1.6T 光模块需求预期继续上修，背后是 Agent 带动的大模型收入加速释放。它同时提醒二三季度可能出现的物料与预期错配风险，适合拿来理解光模块、PCB 与算力投资之间的传导关系。",
+      "key_points": [
+        "光通信产业链继续高景气 产业链跟踪显示，明年海外 800G+1.6T 光模块需求大幅上修，整体需求或达 2 亿只量级。进一步验证AI 算力建设持续加速、GPU/…",
+        "风险警示 ：类似美股光通信大牛股在季报后因增速不匹配股价暴涨而出现获利了结，A股小市值光互连个股可能在二季度末三季度初面临类似风险，主要源于物料风险或业务预期过…",
+        "旭创是整个行业里物料储备最大、芯片（包括法拉第旋片）采购最好的公司，享受着行业最大份额。按现在2亿只海外模块需求测算，800G假设给到三、四千万只量级，1.6T…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么虾皮里总能发现小螃蟹？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789838",
+      "published": "Mon, 18 May 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "赵学浩， 东亚海域史/都市传说/未解之谜/太阳系第一帅 查看知乎原文 这类小动物在日文中有个专有名词，叫“小鱼干妖怪”（ちりめんモンスター），寻找这些“小妖怪”，也被当作一种寓教于乐的活动。 “小鱼干怪物”们 发明该词的，是大阪府岸和田市自然资料馆的馆员藤田吉广。 藤田吉广说，他父母喜欢海产干货，所以家里经常吃小沙丁鱼干。他非常好奇装小沙丁鱼干的袋子里剩下的“不明生物”是什么，在一二年级时，便用家里的显微镜进行了观察，并且通过图鉴进行对比，得知是蟹类的“大眼幼体”。 小沙丁鱼干（ちりめんじゃこ，縮緬雑魚） 这件事给…",
+      "key_points": [
+        "小沙丁鱼干种发现的蛇鲻、狗母鱼类 小沙丁鱼干种发现的带鱼 说实话，我觉得国内的有志之士，也可以组织一些“虾皮寻宝”的活动，写几本《虾皮里的山海经》，何乐而不为呢",
+        "不同的海域中发现的“妖怪”的种类自然有所不同，比如在采用印尼打捞的沙丁鱼干进行观察时，发现吸附在鲨鱼、海龟身上搭顺风车的鮣鱼的幼鱼的概率，会极大提高。这是因为鮣…",
+        "縮緬雑魚） 这件事给他很大的影响，后来他在三重大学毕业后，就职于岸和田市自然资料馆。2004 年时，资料馆打算搞活动时，他提到了这件事，结果意外得知，发现这类“…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "深圳女子受精卵钻入腹膜后的空间，为什么会出现这种情况？医生是怎么成功找到的？这种宫外孕有什么症状？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789841",
+      "published": "Mon, 18 May 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "case",
+        "report",
+        "CT",
+        "emmm",
+        "hCG"
+      ],
+      "summary": "极萨学院冷哲， 有时治愈，常常帮助，总是安慰 查看知乎原文 emmm，这个病例足够发一篇 case report 了…… 这个病例本质上是一种极其罕见的“异位妊娠”，而且不是常见的输卵管妊娠，而是更危险、更少见的“腹膜后异位妊娠”。 正常情况下，受精卵的路径大概是这样的：卵巢排卵 → 输卵管受精 → 胚胎向子宫移动 → 在子宫内膜着床。 但异位妊娠的核心问题是：受精卵没有正确进入子宫，而是在其他位置着床了。 最常见的位置是输卵管，占异位妊娠的绝大多数。因为输卵管本身很细，胚胎继续发育后容易造成输卵管破裂和腹腔内出血…",
+      "key_points": [
+        "胚胎或滋养层组织可能沿着一些微小的解剖间隙、淋巴通道或组织裂隙向深部生长。女性盆腔并不是一个完全密闭的空间，极少数情况下，滋养层细胞侵袭能力很强，就可能出现这种…",
+        "为什么受精卵会跑到腹膜后着床",
+        "第一种是输卵管妊娠后的“二次种植”。也就是说，胚胎可能原本先在输卵管着床，后来脱落，重新种植到了腹膜后空间"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "今年618，为什么大家都在变安静",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6397920.html",
+      "published": "Mon, 18 May 2026 10:45:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CC0",
+        "KOL",
+        "KPI",
+        "Pexels",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "618大促正在经历一场静默的革命——从轰轰烈烈的价格战演变为润物细无声的常态化运营。当消费者不再迷信'618最便宜'，品牌的营销策略也随之转向全年均衡布局。本文深度解析这场变革背后的消费习惯迁移、品牌运营逻辑重构，以及大促节点如何从'销量冲刺'转变为'品牌检验'的关键转折点。 今年618最明显的变化，不是更便宜了，而是变得更平常了。 如果放在几年前，618是品牌一年一度的”孤注一掷”时刻。所有的预算、所有的创意、所有的人力都要在大促时间点集中爆发。平台那边砸流量，品牌这边砸钱，达人那边猛拼传播，整个行业形成一波看得…",
+      "key_points": [
+        "品牌被迫改变策略 这是理解今年618为什么变安静的核心原因",
+        "别觉得今年618变安静是件坏事。恰恰相反，一个理性、有序、被持续运营的618，比一个集体疯狂、透支长期的618，对品牌、对消费者、对整个行业的健康度都更有好处",
+        "品牌的所有战术都是”短期的、激进的、甚至有些竭泽而渔的”。因为大家都知道，一年就这么几次机会，消费者也就这么几次「集中采购」的时间段，不趁这个时候狠狠赚一波，什…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI Agent 不是聊天框：一次企业财务数据质检 AI Agent 实战复盘",
+      "title_zh": "AI Agent 不是聊天框：一次企业财务数据质检的实战复盘",
+      "url": "https://www.woshipm.com/ai/6397917.html",
+      "published": "Mon, 18 May 2026 09:43:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Skill",
+        "Agent",
+        "ID",
+        "Tool",
+        "ERP"
+      ],
+      "summary": "这篇复盘把企业里最难落地的部分讲清楚了：难点不在模型本身，而在业务链路、系统边界和证据链的组织方式。作者用财务质检案例说明，靠谱的 Agent 更像可审计的侦查流程，把人工排查经验拆成可执行的步骤、规则和责任边界，适合正在推进企业 AI 落地的人参考。",
+      "key_points": [
+        "这篇文章基于一个脱敏后的企业财务数据质检项目，复盘一种更适合 B 端复杂场景的落地方式—— 不是做一个会聊天的 AI，而是把人工排查经验变成可执行、可审计、可复…",
+        "而是复杂的业务场景与数据孤岛。本文通过一个制造业财务数据质检案例，揭示了如何将人工排查经验转化为可执行的业务Skill，构建具备证据链的AI Agent系统——…",
+        "先画业务流 ：弄清楚交易、结算、入账、对账、差异、排查的真实业务怎么发生 再画系统流 ：明确每个系统负责什么——业务系统负责业务发生，财务系统负责正式入账，报表…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "放羊大叔一行代码把AI逼疯，OpenAI、Anthropic、Nous Research 抄作业！他到底干了啥？",
+      "title_zh": "三行 Bash 如何重构 AI 工作流：从聊天助手走向可持续交付",
+      "url": "https://www.woshipm.com/ai/6397914.html",
+      "published": "Mon, 18 May 2026 08:48:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "OpenAI",
+        "Nous",
+        "Research",
+        "Geoffrey"
+      ],
+      "summary": "这篇文章抓住了最近 Agent 工作流讨论里最有传播力的点：用无限循环、阶段性存档和轻量验收，把 AI 从一次性问答工具改造成持续干活的流水线。虽然标题有些夸张，但它对人机协作模式转向的解释比较到位，适合和企业 Agent 实践一起对照看。",
+      "key_points": [
+        "1行代码是个“紧箍咒” 先别脑补大叔在草原上一手挥鞭子一手敲键盘的画面。Geoffrey Huntley 确实在澳洲乡下生活，但他是个正儿八经的顶尖程序员，只是…",
+        "大叔官方原文链接：大叔个人网站（首发文章，含完整思路 + 代码）：https://ghuntley.com/ralph while :; do cat PROM…",
+        "总结一下：大叔把AI变成了流水线上的计件工人，干完一段自动存档，脑子塞满了自动换个新脑子接着干，直到活儿彻底干完为止"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "AI for Science 会有 “ChatGPT 时刻” 吗？年轻人该如何下注？",
+      "title_zh": "AI for Science 会有“ChatGPT 时刻”吗？年轻人该如何下注",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI+for+Science+%E4%BC%9A%E6%9C%89+%E2%80%9CChatGPT+%E6%97%B6%E5%88%BB%E2%80%9D+%E5%90%97%EF%BC%9F%E5%B9%B4%E8%BD%BB%E4%BA%BA%E8%AF%A5%E5%A6%82%E4%BD%95%E4%B8%8B%E6%B3%A8%EF%BC%9F",
+      "published": "Mon, 18 May 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AI4S",
+        "Science",
+        "ChatGPT",
+        "OpenAI",
+        "Simulator"
+      ],
+      "summary": "这不是一篇喊口号的 AI4S 热文，而是把节奏判断讲清楚了：AI for Science 的突破会持续发生，但不会以单一爆点同时席卷所有学科。它给出的抓手是看问题结构、数据基础和验证闭环，适合想判断科研与产业交叉机会的人快速建立框架。",
+      "key_points": [
+        "编者按 当 AI 正在重构科研与产业的底层逻辑，AI for Science 早已不是纸上概念。4月28日，未来光锥联合北京中关村学院AI商学院，共同推出「AI…",
+        "答案已经非常清晰： AI4S的突破已经在发生，但不会有统一的“ChatGPT时刻”，各领域进展高度不均，突破速度取决于问题结构、数据基础与验证闭环； 2",
+        "AI4S不会有统一的“ChatGPT时刻” 我的核心判断是：AI4S会有持续的突破，但不会是一个全民狂欢的统一瞬间，它的进展更像一张高度不均匀的地图"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "今年戛纳，台上大骂“Fuck AI”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8A%E5%B9%B4%E6%88%9B%E7%BA%B3%EF%BC%8C%E5%8F%B0%E4%B8%8A%E5%A4%A7%E9%AA%82%E2%80%9CFuck+AI%E2%80%9D",
+      "published": "Mon, 18 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "WAIFF",
+        "Meta",
+        "Fuck",
+        "https",
+        "du"
+      ],
+      "summary": "这届戛纳对 AI 的态度，是一句脏话，外加一张支票。 如果说今年第 79 届戛纳国际电影节中最经典的一幕，不在红毯上女明星摇晃裙摆，而在开幕式前夕的德彪西厅里。 那天晚上刚放映完《潘神的迷宫》二十周年 4K 修复版，全场灯光亮起。大导演吉尔莫·德尔·托罗走到台前。这位拍出过《水形物语》、拿过奥斯卡最佳导演的墨西哥老哥，连个铺垫都没给，直接对着麦克风甩出一句，“Fuck AI.” 图源：Deadline 台下先是愣了一秒，随后爆发出笑声和掌声。而站在一旁的戛纳电影节艺术总监福茂，当场把这句话拔高到了官方立场的高度。福…",
+      "key_points": [
+        "那天晚上刚放映完《潘神的迷宫》二十周年 4K 修复版，全场灯光亮起。大导演吉尔莫·德尔·托罗走到台前。这位拍出过《水形物语》、拿过奥斯卡最佳导演的墨西哥老哥，连…",
+        "大家走出会场，抬头一看，今年戛纳国际电影节的官方赞助商，是全球最大的 AI 巨头 Meta。再往前走两步，发现中国快手旗下的可灵 AI 也是合作伙伴，还在电影市…",
+        "参考文献 [1] https://artthreat.net/31870-73006-demi-moore-says-film-industry-shouldn…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "有些人光从学生作业就能看出他是大师",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%89%E4%BA%9B%E4%BA%BA%E5%85%89%E4%BB%8E%E5%AD%A6%E7%94%9F%E4%BD%9C%E4%B8%9A%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%87%BA%E4%BB%96%E6%98%AF%E5%A4%A7%E5%B8%88",
+      "published": "Mon, 18 May 2026 19:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Bilge",
+        "Can",
+        "Ebiri",
+        "Get",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Bilge Ebiri 译者：Issac 校对：奥涅金 来源：《标准收藏》 弗朗索瓦·特吕弗曾写道：「电影人会在他拍摄的第一卷150英尺的胶片中展示他的职业生涯。」当时他说的是让·维果，但是他可能也是在说马丁·斯科塞斯。 斯科塞斯在纽约大学开始了他的叙事短片创作，过后没多久又拍摄了中等长度的纪录片，此时他的长片生涯也即将启程。而这些早期的短片都显示出了他的干劲、博取众长的特质以及创新能力，正是这些特质使得他成为七十年代最激动人心的美国导演之一，最终也成为了我们这个时代伟大的艺术家之一。 最能证明斯科塞斯对电影…",
+      "key_points": [
+        "但斯科塞斯早期的短片——叙事和纪录片之类的——最大的遗产在他的整个作品序列中都是明显的：他在风格上继续冒险，玩叙事结构，并一遍又一遍地检查他的角色，他从来没有失…",
+        "穆瑞！》（1964） 斯科塞斯能够从他成长的意大利裔美国人社区中认出这种聪明人。正如斯科塞斯的传记作家文森特·布鲁托所描述的那样，「『大人物』完全是虚假的优越感…",
+        "当他回忆起他与垂死的父亲的一段对话时，这一点变得清晰起来。他的父亲问他是否享受自己的生活。普林斯回答说，是。但是，最了不起的事情发生了（至少对一部纪录片来说）。…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "短剧行业，今年来到了影响所有人的转折点",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%9F%AD%E5%89%A7%E8%A1%8C%E4%B8%9A%EF%BC%8C%E4%BB%8A%E5%B9%B4%E6%9D%A5%E5%88%B0%E4%BA%86%E5%BD%B1%E5%93%8D%E6%89%80%E6%9C%89%E4%BA%BA%E7%9A%84%E8%BD%AC%E6%8A%98%E7%82%B9",
+      "published": "Mon, 18 May 2026 19:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "IP",
+        "ta",
+        "Eros",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 Eros 5 月 11 日至 13 日，抖音集团短剧版权中心在长沙举办了首届短剧产业大会。三天时间里，上千位来自全国各地的创作者、制作方、平台运营者、学术界人士聚在一起，讨论一个行业的过去和未来。我有幸作为虹膜的代表，见证了这场大会。 如果你在过去几年里关注过短剧行业的起落，就知道这场大会意味着什么。 我的感受是，一个信号清晰无比，真人短剧正在告别过去那种赌爆款的草莽时代，进入一个需要系统能力和生态思维的新阶段。 短剧，曾经被定义为一种流量生意。低成本、快产出、批量投放，要的就是其中某一部能顺利出圈。制作方像撒…",
+      "key_points": [
+        "说说我参加完这次大会的感受吧。自短剧行业诞生以来，一直保持同步关注，我强烈感到 2026 年的短剧行业，就像是来到了它的成人礼仪式，全新的行业格局在重新形成",
+        "接下来短剧行业的盘子会更大。当然，这必须依靠更加丰富的内容层次，去吸引广泛的受众群体。有人看，是一切的根基",
+        "华东师范大学中文系教授汤拥华在大会圆桌上分享了他作为观众的感受。他提到了这类作品中「人情」的呈现方式，这种人情以前在电影和长剧中有过表达，但是短剧的形态让人情的…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "科普：有线耳机如何连手机",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%A7%91%E6%99%AE%EF%BC%9A%E6%9C%89%E7%BA%BF%E8%80%B3%E6%9C%BA%E5%A6%82%E4%BD%95%E8%BF%9E%E6%89%8B%E6%9C%BA",
+      "published": "Mon, 18 May 2026 23:18:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mm",
+        "Type"
+      ],
+      "summary": "万万没有想到，都已经 2026 年了，居然还有那么多读者哭泣着说：没有办法呀！5555～～～ 库克他们取消了手机耳机插孔，有线耳机木法连手机呀！来，我们看图 1，这 3 个设备叫「小尾巴」，从上到下是---3.5mm 耳机口转传统苹果口，3.5mm 耳机口转安卓口，以及 4.4mm 耳机口转安卓口。去闲鱼、淘宝、京东，随便挑一条 50 块钱以下的小尾巴，一头插耳机，一头插手机，你就可以用耳机听歌了。说 50 块钱是因为再往上，有很多价格区间是个智商税，先弄个便宜的听着就好，以后再去自行发挥。图 2 是耳机连上小尾巴…",
+      "key_points": [
+        "都已经 2026 年了，居然还有那么多读者哭泣着说：没有办法呀！5555～～～ 库克他们取消了手机耳机插孔，有线耳机木法连手机呀！来，我们看图 1，这 3 个设…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他改写了遗传学，却把最亮的诺奖舞台让给学生",
+      "title_zh": "他改写了遗传学，却把最亮的诺奖舞台让给学生",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E6%94%B9%E5%86%99%E4%BA%86%E9%81%97%E4%BC%A0%E5%AD%A6%EF%BC%8C%E5%8D%B4%E6%8A%8A%E6%9C%80%E4%BA%AE%E7%9A%84%E8%AF%BA%E5%A5%96%E8%88%9E%E5%8F%B0%E8%AE%A9%E7%BB%99%E5%AD%A6%E7%94%9F",
+      "published": "Mon, 18 May 2026 08:18:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Tatum",
+        "Beadle",
+        "Lederberg",
+        "Ephrussi",
+        "of",
+        "Butenandt"
+      ],
+      "summary": "文章借 Tatum 的经历回看现代遗传学的关键转折，也把“导师如何成就学生”这个常被忽略的科学史主题讲出来了。相比单纯的科学家传记，它更有价值的地方在于揭示研究范式、合作分工和学术声誉如何共同塑造重大成果。",
+      "key_points": [
+        "把学生推向舞台 在19世纪和20世纪的生物学发展史中，青蛙、老鼠、果蝇等等一系列模式生物的引入，使许多复杂的问题得以被清晰拆解。为了进一步简化实验体系， Tat…",
+        "这明显是将Tatum和Lederberg在耶鲁时期的研究成果，归功于Lederberg一人名下。可是，Lederberg在发现细菌存在基因转移现象时，还是Tat…",
+        "Tatum 的伟大不仅在于他发现了 “一个基因一个酶” ，更在于他那近乎慷慨的科学远见。他甘愿冒着成为 “学术孤儿” 的风险跨界探索，后来又敢于打破常规，心甘情…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "全球音效最佳的夜店，竟然藏在一个出人意料的地方 | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%85%A8%E7%90%83%E9%9F%B3%E6%95%88%E6%9C%80%E4%BD%B3%E7%9A%84%E5%A4%9C%E5%BA%97%EF%BC%8C%E7%AB%9F%E7%84%B6%E8%97%8F%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%87%BA%E4%BA%BA%E6%84%8F%E6%96%99%E7%9A%84%E5%9C%B0%E6%96%B9++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Mon, 18 May 2026 20:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "of",
+        "to",
+        "Open",
+        "Ground",
+        "an"
+      ],
+      "summary": "1 写在前面 休息一下 2 精读|翻译|词组 Europe | Bunker mentality 欧洲 | 碉堡精神 英文部分选自经济学人20260516期欧洲板块文章 Europe | Bunker mentality 欧洲 | 碉堡精神 注释： Bunker mentality ：碉堡心态 / 封闭死守的思想。 本意 是一个心理学和政治学术语，形容由于受到外界批评或攻击而产生的极端防守、固步自封的封闭心态。这里作为标题是双关：一方面指这家夜店真的建在二战时期的防空地堡（ bunker ）里，另一方面也暗指在传统…",
+      "key_points": [
+        "The world’s best-sounding nightclub is in an unexpected place 全球音效最佳的夜店，竟然藏在一个出人…",
+        "低音未至，震动先行。踏入人潮，一种无比纯净的声浪将你包裹，仿佛重塑了周遭的空气。自 2023 年底开业以来，坐落于德国西部伍珀塔尔一座改建战时地堡中的 Open…",
+        "(Wuppertal spawned Friedrich Engels and heroin, among other claims to fame.) Ope…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "我还是喜欢你们质疑灵光时的桀骜不驯",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%88%91%E8%BF%98%E6%98%AF%E5%96%9C%E6%AC%A2%E4%BD%A0%E4%BB%AC%E8%B4%A8%E7%96%91%E7%81%B5%E5%85%89%E6%97%B6%E7%9A%84%E6%A1%80%E9%AA%9C%E4%B8%8D%E9%A9%AF",
+      "published": "Mon, 18 May 2026 20:13:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Coding",
+        "App",
+        "Android",
+        "can",
+        "gif"
+      ],
+      "summary": "笑死，我记得蚂蚁最开始推灵光App的时候，主打一个普通人的第一款Vibe Coding产品，还有不少评价是没意义、用不上、没留存，然后就是这几天大厂全在入局个人Coding赛道：- 百度秒哒在讲8岁小学生是怎么把想法变成可安装应用的；- 腾讯刚刚发布的吐司，支持在Android一键生成App；- 字节旗下的Trae也在加大SOLO模式的落地，极致服务个人开发的场景；what can I say⋯⋯全员画风转为「真香.gif」的原因，最主要的当然还是基模能力在这一年来的巨大飞跃，「同事.skill」之所以引起那么大的…",
+      "key_points": [
+        "我记得蚂蚁最开始推灵光App的时候，主打一个普通人的第一款Vibe Coding产品，还有不少评价是没意义、用不上、没留存，然后就是这几天大厂全在入局个人Cod…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "埃隆·马斯克的成功公式是什么？ | 经济学人文化（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%9F%83%E9%9A%86%C2%B7%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E6%88%90%E5%8A%9F%E5%85%AC%E5%BC%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 15 May 2026 15:55:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "Musk",
+        "of",
+        "Mr",
+        "in",
+        "is"
+      ],
+      "summary": "1 导读 休息一下 2 精读|翻译|词组 Culture | The world’s richest man 文化｜世界首富 英文部分选自经济学人20260425期文化板块 Culture | The world’s richest man 文化｜世界首富 What is Elon Musk’s formula? 埃隆 · 马斯克的成功公式是什么？ A historian and a technology writer uncover the essence of “Muskism” 一位历史学家和一位科技作家共同…",
+      "key_points": [
+        "埃隆 · 马斯克的成功公式是什么",
+        "无论你热爱还是厌恶埃隆 · 马斯克（ Elon Musk ），都几乎难以回避他的存在。这位世界首富正准备将全球估值最高的初创企业推向股市。正如亨利 · 福特（…",
+        "1 导读 休息一下 2 精读|翻译|词组 Culture | The world’s richest man 文化｜世界首富 英文部分选自经济学人2026042…"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人类见证过生物的进化吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789799",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FaMYB10",
+        "AE",
+        "Alfred",
+        "https",
+        "video",
+        "www.zhihu.com"
+      ],
+      "summary": "Alfred大老虎， 拼多多小店：大老虎的农夫果园 查看知乎原文 你见过，而且还一直吃着。 1999 年，辽宁省丹东市从日本引进了一批草莓品种，种在了东港，编号为丹东 99 草莓。 而它的另一个品名，叫作红颜。 然后你懂的，外来物种进入中国后都会经历一轮国产化过程。 北京农科院以红颜为父本，卡姆罗莎为母本，在 2010 年推出了新品种红袖添香。 这款比红颜更早熟，更早上货架，非常受北京、河北两地的草莓农户喜爱。要知道农场品，尤其是水果类，早一天上市，价格就贵一分。 红颜和红袖添香外观上差别不大，差距在糖度上。红颜能…",
+      "key_points": [
+        "很多人其实并没有考量过耐储存这一重要特性。全熟草莓，尤其是糖度高的品种，自采摘起，最佳赏味期不超过 12 小时，变质期也只有 24 小时。有些人说草莓越放越甜，…"
+      ]
+    }
+  ]
+}
