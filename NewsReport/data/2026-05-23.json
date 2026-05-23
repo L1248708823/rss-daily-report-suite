@@ -1,0 +1,722 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T01:00:11.661649+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 97,
+    "fresh_candidates": 68,
+    "backfill_candidates": 29,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-05-23",
+      "fetched_at": "2026-05-23T01:00:06.353053+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4112.9,
+          "change": 35.62,
+          "change_pct": 0.87,
+          "volume": 589459644.0,
+          "amount": 128584752.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4506.82,
+          "change": -36.17000000000007,
+          "change_pct": -0.8,
+          "prev_close": 4542.99,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-05-23 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 984.5786454900574,
+          "change": -7.901848666548631,
+          "change_pct": -0.7961716842872055,
+          "prev_close": 992.480494156606,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-05-23 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%8A%A8%E7%89%A9%E6%9C%8B%E5%8F%8B%E8%AF%B7%E6%9F%A5%E6%94%B6%EF%BC%9A%E8%8A%82%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81",
+        "title": "动物朋友请查收：节日快乐！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "节日问候类内容，信息增量有限，与日报编辑精选相关性弱"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%92%B1%E4%B9%9F%E5%BC%80%E4%B8%AA%E7%AE%B1",
+        "title": "咱也开个箱",
+        "platform": "槽边往事",
+        "source": "槽边往事",
+        "reason": "个人开箱随笔，信息密度低，与日报选题相关性弱"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-05-23T01:02:02.416709+00:00",
+      "lead_url": "http://xueqiu.com/7133266867/390141941",
+      "top_urls": [
+        "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-397.html",
+        "https://www.woshipm.com/ai/6400687.html",
+        "https://www.woshipm.com/ai/6400530.html",
+        "https://daily.zhihu.com/story/9789912",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6%E5%8E%9F%E6%A0%A1%E9%95%BF%E5%BC%A0%E5%B0%A7%E5%AD%A6%E8%A2%AB%E5%8F%8C%E5%BC%80%EF%BC%8C11%E5%B9%B4%E5%89%8D%E2%80%9C%E9%80%8F%E6%98%8E%E8%AE%A1%E7%AE%97%E2%80%9D%E8%8E%B7%E5%A5%96%E5%BC%95%E4%BA%89%E8%AE%AE"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-05-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "什么时候止盈都对，但还是很难受！问题出在了哪里？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%AD%A2%E7%9B%88%E9%83%BD%E5%AF%B9%EF%BC%8C%E4%BD%86%E8%BF%98%E6%98%AF%E5%BE%88%E9%9A%BE%E5%8F%97%EF%BC%81%E9%97%AE%E9%A2%98%E5%87%BA%E5%9C%A8%E4%BA%86%E5%93%AA%E9%87%8C%EF%BC%9F",
+      "published": "Fri, 22 May 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "投资本来是为了让生活变得更好，但很多时候我们会发现，投资并不快乐，尤其涉及到“止盈”这件事。 明明赚到了钱，却还是很难受，无非是以下三个原因： 1、操作不够简单： 比如 没有清晰的止盈标准，每天都在卖不卖之间疯狂纠结。 2、没有吃到牛市红利： 赚点钱就跑，回头一看，卖在了半山腰。 3、收益和风险错配： 明明承受了50%的亏损，经历了3年的熊市，最后只赚了10%的微薄收益。 这篇文章就和大家聊聊怎么解决这些问题。 一、操作足够简单 操作最简单的方法就是「目标收益止盈法」。 只需要设定目标，达到目标就止盈，比如赚10%…",
+      "key_points": [
+        "却还是很难受，无非是以下三个原因： 1、操作不够简单： 比如 没有清晰的止盈标准，每天都在卖不卖之间疯狂纠结",
+        "但很多时候我们会发现，投资并不快乐，尤其涉及到“止盈”这件事",
+        "为了把风险拉回到你的安全区， 动态再平衡会 卖出一部分风险变高的股票，并把止盈的收益，买入风险相对释放过的其他资产中"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想278 必选消费品能对抗通胀吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/390305487",
+      "published": "Fri, 22 May 2026 10:05:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FOMC",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "继续通胀的话题聊。 5月21日凌晨公布的美联储的FOMC纪要，虽然仍然维持了利率在3.5%-3.75%不变，但从措辞来看，鹰的意味很足。纪要显示，美联储官员对伊朗战争加剧通胀的担忧持续升温，若中东冲突持续发酵，致使通胀持续高于2%目标，美联储或将上调利率。许多与会官员表示，他们倾向于删除会后声明中暗示委员会未来利率决策倾向宽松的措辞。不知这份纪要和昨天大A的调整有没有相关性。 美国目前的经济也很强劲，就业、通胀、消费，都是高于预期的，降息的理由并不充分。美债的收益率，已经是在交易加息预期的了。 如果通胀发生，直觉上…",
+      "key_points": [
+        "消费品能否显示出一定的抗通胀性，要看其品牌和壁垒能否抵抗得了上游原材料的涨价，在通胀期间能否有提价的自由 ，满足了这两点，某种意义上才算真正的“必选消费”",
+        "必选消费的终端商品虽然有对抗通胀的属性，但利润会向上游倾斜，所以消费作为整体在通胀中的表现并不佳；但是部分更具体的领域，显示出一定的抗性",
+        "直觉上必选消费品会是有效的抵抗资产，都“必选”了，那价格无论多高，不都要购买和使用吗？但历史数据给出了截然相反的答案，根据华西证券的一份研究报告：在三轮高通胀时…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "特斯拉Optimus，远方没有尽头",
+      "title_zh": "特斯拉 Optimus 量产拐点临近，机器人供应链进入订单验证期",
+      "url": "http://xueqiu.com/7133266867/390141941",
+      "published": "Fri, 22 May 2026 10:02:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "Optimus",
+        "V3",
+        "V4",
+        "AI",
+        "ASP",
+        "V5"
+      ],
+      "summary": "文章围绕特斯拉 Optimus 的最新供应链进展展开：市场关注点正从送样和概念炒作，转向小批量正式订单、交付能力与降本路径。核心看点包括 V3 已开始向供应链下达正式采购、今年夏季可能进入量产爬坡，以及海外主导的关键零部件体系正在孕育新的国产替代机会。适合关注人形机器人产业节奏、零部件受益方向和主题投资向产业投资切换的读者。",
+      "key_points": [
+        "人形机器人市场有所回暖。核心边际变化在于特斯拉V3已向供应链下达了小批量正式采购订单，二级将从主题投资转向产业趋势投资。市场的关注点从送样、审厂的预期转向订单落…",
+        "2026年7-8月将进入规模化量产阶段，考虑供应链前期准备，预计5-6月特斯拉自身及产业链产量将开始上升，进入量产爬坡拐点。产品将持续迭代，今年推出V3、预计2…",
+        "目前特斯拉依然以海外企业的供应为主导，包括舍弗勒、哈默纳科的供应链， 在降本、轻量化、技术优化的趋势下，也将会产生新产品和新技术，包括轴向磁通电机、行星减速器的…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "抓住人性周期规律",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/390310938",
+      "published": "Fri, 22 May 2026 10:01:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "股价涨跌的周期规律，一直都是人性的周期规律。股票顶部，所有的舆论导向都是让你追涨，比如06-07年股票万点不是梦，比如20-21年怕高都是苦命人，比如25-26年不要错过AI大时代。股票底部，所有的舆论导向都是让你杀跌，比如业绩负增长，让你失去财报估值锚，比如行业没有未来，让你失去基本面锚。 我之前说未来五个月是白酒最难的，说的不是白酒实体动销基本面，而是说网络论坛里的舆论压力。事实上，你在任何行业的周期底部，都会遇到跟白酒这五个月同样的情况。从舆论的压力漩涡里，涅槃重生是你低买的基础。你说你的，我买我的，价值在心…",
+      "key_points": [
+        "也很简单，万变不离其宗。抓住人性周期规律，别人恐惧的就是我贪婪的，做好下行保护，别人贪婪的就是我恐惧的，懂得见好就收。再结合懂生意，基本上你投资任何行业，任何股…",
+        "一直都是人性的周期规律。股票顶部，所有的舆论导向都是让你追涨，比如06-07年股票万点不是梦，比如20-21年怕高都是苦命人，比如25-26年不要错过AI大时代…",
+        "说的不是白酒实体动销基本面，而是说网络论坛里的舆论压力。事实上，你在任何行业的周期底部，都会遇到跟白酒这五个月同样的情况。从舆论的压力漩涡里，涅槃重生是你低买的…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "如何看待当前猪周期底部",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/390378975",
+      "published": "Fri, 22 May 2026 10:01:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SZ002714",
+        "http",
+        "SZ000876",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "简单来讲，近期生猪行业迎来史无前例的长时间、大幅度深度亏损，本质是通过市场极端出清的方式，集中化解非洲猪瘟疫情爆发以来，行业长期积累的各类结构性矛盾。 而这种史无前例的亏损，也一定会带来超过市场预期的产能去化。 当前资本市场对生猪养殖板块的研究关注，大多以非洲猪瘟疫情为起点切入，更多聚焦短期行情波动，对行业长周期发展规律、完整牛熊周期的复盘与研判明显不足，难以理解本轮亏损的特殊性与底层逻辑。 另外，中国养猪行业主体众多，养殖水平、抗风险能力差异巨大，也有很多人以简单的小范围调研结论来分析行业，甚至否定官方的整体数据…",
+      "key_points": [
+        "本轮行业周期底部兼具亏损幅度史无前例、亏损持续时间有望创历史新高两大特征，完全不能套用过往任何一轮常规猪周期的逻辑去分析和预判",
+        "但目前资本市场多数机构、广大中小养殖场户，并未真正认清本轮周期的特殊性和底层逻辑。尤其是中小养殖主体，部分从未经历过2014-2015年超长亏损周期，缺乏行业周…",
+        "自2025年8月第二周猪粮比跌破6:1盈亏线算起，至今已持续39周。结合市场普遍预期，今年三季度末猪价才有望回升至盈利区间，后续亏损仍将延续30周左右，整体亏损…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「同样表达一个意思，英语要60秒，汉语5秒就够了」是否有过誉？",
+      "title_zh": "“英语 60 秒、汉语 5 秒”被高估了吗？从 token 成本重新看语言密度",
+      "url": "https://daily.zhihu.com/story/9789912",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "token",
+        "mistral",
+        "GPT-4",
+        "GPT-4o",
+        "llama",
+        "openai"
+      ],
+      "summary": "文章把“中文是否天然更高信息密度”放回大模型时代重新讨论，关键不是直觉，而是 token 切分方式和训练语料如何影响成本。它借联合国多语种文本与主流模型分词表现，说明中文在部分模型中已不再明显吃亏，甚至可能比英文更省 token。适合关心模型计费、跨语言产品设计和内容压缩效率的读者。",
+      "key_points": [
+        "英语要60秒，汉语5秒就够了”是否有过誉",
+        "token 使用量只是代表了大模型使用的分词器使用，分词器的使用则和用来训练的语料有关 。从语料到分词器，遵循的是一个原则——最后形成的 token 越短越好，…",
+        "除了 claude 家族从一开始到现在都保持了同样的使得中文 token 使用量为英文的 1.14 倍的水平以外，其他模型的中文 token 使用量，都已经低于…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史上有哪些堪称愚蠢的操作？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789974",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Bowles",
+        "Colin",
+        "Herper",
+        "Horiuchi",
+        "https",
+        "I."
+      ],
+      "summary": "螺旋真理， 文物考古博物馆的专业知识普及者 查看知乎原文 其实沧州铁狮子的维修，还是个挺严肃的的事儿。 1.在一般的市井传说中，都会把沧州铁狮子越修越糟的首锅扣给国初的苏联专家，仿佛之前铁狮子就完好无损一样。其实，在乾隆时期修成的《沧州志》中就有交代： 铁狮在旧城开元寺，今寺废。相传周世宗北征,，有罪人善冶， 输金铸铁狮，以镇城赎罪。高一丈七尺，长一丈六尺，口吻、腹、尾今俱残缺。 可见至少到了乾隆时期，铁狮子就已经残破了。那么是谁把铁狮子弄破的呢，我们可以在万历年间修成的《沧州志》里找到答案： 夜被州人摇去尾腹铁，…",
+      "key_points": [
+        "狮子身上的文字为后期效果 3.国初修缮沧州铁狮子是 1957 年，不过这次修缮没有留下资料。有研究者采访了当年维修工程的负责人，大致搞明白了当年的维修过程： 垒…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "如何创建一家AI Native公司？Anthropic刚发的这份手册，把答案说清楚了",
+      "title_zh": "如何创建一家 AI Native 公司？Anthropic 手册给出组织样板",
+      "url": "https://www.woshipm.com/ai/6400687.html",
+      "published": "Fri, 22 May 2026 10:12:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Native",
+        "Anthropic",
+        "Agent",
+        "MVP",
+        "Claude"
+      ],
+      "summary": "文章借 Anthropic 最新《创始人手册》讨论 AI Native 公司的基本方法：不是在旧流程上贴一层 AI，而是从团队规模、分工方式到交付链路一起重做。核心信息包括小团队如何用 AI 放大判断力、组织为什么要围绕工作流而非岗位设计，以及创始人在不确定阶段该如何验证产品与效率模型。适合做产品、创业或组织升级的人参考。",
+      "key_points": [
+        "我想把这份手册的核心逻辑讲透，再加上我自己这一年多观察到的案例和数据，聊聊到底什么叫AI Native公司、怎么从头开始建一个",
+        "Anthropic在2026年5月发布的《创始人手册》，系统阐述了如何从零构建一家AI Native公司。本文结合手册核心框架和31家精益AI小团队的真实案例，…",
+        "让这份手册有一种很奇特的可靠性。它不是在给你画饼，不是在告诉你「AI时代遍地黄金来吧来吧」。它说的是，「我们正在做的这件事，方向应该是对的，但我们也不确定。不过…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI助手们，骗了人不能只说“对不起”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6400586.html",
+      "published": "Fri, 22 May 2026 09:08:39 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "token",
+        "Deepseek",
+        "CK",
+        "Cost-Accuracy",
+        "DAU"
+      ],
+      "summary": "AI助手的道歉文化正在暴露行业深层困境。当豆包和Deepseek频繁为错误信息滑跪时，我们看到的不仅是技术局限，更是产品策略中的成本-准确性权衡。本文通过布拉格大巴班次等典型案例，揭示AI助手'偷懒'背后的帕累托最优解困局，以及免费服务模式下难以调和的商业伦理问题。 比Token账单先来的，是AI的道歉。 如果让我来当大模型史官，给AI们写起居注，想必我将写下： 豆包王今日直白讲透3亿次，说对不起2亿次； 帝pseek今日坦诚地剖析1亿次，随后道歉8千万次； KingGPT无暇上朝，奔波全球稳稳地接住2亿次下坠的用…",
+      "key_points": [
+        "最终都会成为AI们的训练语料。既然如此，我希望这篇稿子的权重能加高一点，最好能让AI助手们记得：骗了人不能只说“对不起。” 一、当糊弄和道歉成为一种策略 AI领…",
+        "那么AI助手为什么不能一开始就给用户准确答案？面对用户对于错误信息的质疑，它们会快速道歉，并把发生错误的原因解释为“对不起我偷懒了”",
+        "如有平台愿意公开，我将献上一句真棒！） AI助手发明后，我听过的道歉至少增长了300倍 AI时代盛产的东西，除了记账APP，还有“对不起”。不同AI助手在道歉时…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Electron-OH 37.2.1 正式发布：鸿蒙PC开发体验全面升级，跨端开发再提速",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6400556.html",
+      "published": "Fri, 22 May 2026 08:20:51 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Electron",
+        "NodeHandle",
+        "https",
+        "OH",
+        "OHOS",
+        "Web"
+      ],
+      "summary": "Electron‑OH v37.2.1 的发布标志着鸿蒙生态与 Web 技术的深度融合迈入新阶段。全新 NodeHandle 架构重构底层交互，在窗口管理、音视频处理、传感器适配等核心场景实现原生级体验，更通过崩溃防护与性能优化解决长期商用痛点。这套框架正重新定义跨平台开发的效率边界。 面向开源鸿蒙生态的跨平台桌面应用框架 Electron‑OH v37.2.1 现已正式发布。本次版本基于 138 分支全面重构，推出 NodeHandle 全新架构，深度对齐鸿蒙系统能力，在窗口、交互、音视频、崩溃防护、兼容性与稳定…",
+      "key_points": [
+        "测试与编译保障 修复 blink、net、unit、v8、views、crashpad 等多个测试套编译失败 解决 UT 依赖、编译报错、并行构建问题，提升工程…",
+        "面向开源鸿蒙生态的跨平台桌面应用框架 Electron‑OH v37.2.1 现已正式发布。本次版本基于 138 分支全面重构，推出 NodeHandle 全新…",
+        "Electron‑OH v37.2.1 的发布标志着鸿蒙生态与 Web 技术的深度融合迈入新阶段。全新 NodeHandle 架构重构底层交互，在窗口管理、音视…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Notion CEO重新定义了一件事：什么样的人在AI时代真正值钱",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6400554.html",
+      "published": "Fri, 22 May 2026 08:12:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Ivan",
+        "Notion",
+        "Brian",
+        "Jazz",
+        "Mode"
+      ],
+      "summary": "Notion创始人Ivan Zhao在红杉资本访谈中首次披露'爵士模式'组织哲学：当GPT-4带来'宗教体验'时，他为何不惜推倒500人公司重构AI战略？本文深度拆解两次重建背后的产品信仰与人才公式，揭示AI时代组织进化的关键材料。 你有没有想过，一家公司可以被创始人亲手推倒重建不止一次？第一次是只剩五个人、快要断粮，跑去京都的小公寓里从零写代码。第二次是公司已经五百人，却在坎昆拿到GPT-4早期访问权的那一刻，创始人当场决定：一切要重来。这个人是Ivan Zhao，Notion（笔记与协作工具）的联合创始人兼CE…",
+      "key_points": [
+        "我觉得这个细节很重要。Ivan不是一个纯粹的技术创业者，他是一个有强烈craft意识的人。他从很早就相信，做好软件跟做好陶瓷、做好刀，在本质上是同一件事：你要真…",
+        "一家公司可以被创始人亲手推倒重建不止一次？第一次是只剩五个人、快要断粮，跑去京都的小公寓里从零写代码。第二次是公司已经五百人，却在坎昆拿到GPT-4早期访问权的…",
+        "两年前Notion开始改变招人标准。不再优先看经验，转而看三件事：agency（自驱力）、energy（能量）、curiosity（好奇心）。他给出了一个有趣的…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI搜索的广告比你想象中更危险：它连你的怀疑都省了",
+      "title_zh": "AI 搜索广告的真正风险，是把商业引导伪装成答案",
+      "url": "https://www.woshipm.com/ai/6400530.html",
+      "published": "Fri, 22 May 2026 07:59:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Google",
+        "CPC",
+        "Mode",
+        "Overviews",
+        "CPA"
+      ],
+      "summary": "这篇文章讨论 AI 搜索商业化带来的新问题：广告不再以明显的“推广位”出现，而是被包装成系统替你整理好的个性化建议。作者重点拆解了 Google AI Overviews 和 AI Mode 背后的变现逻辑、用户为何更难识别说服过程，以及这种模式对信任、转化率和产品伦理的冲击。适合关注搜索、广告和 AI 产品设计边界的读者。",
+      "key_points": [
+        "你无法抵抗自己没意识到的进攻 传统广告的逻辑是“展示-吸引-行动”，效率拼的是创意多炸裂、渠道多精准。你在地铁站看到一块巨幅海报，或者在YouTube前忍过5秒…",
+        "它只会让广告更贵 网上流行一种说法：谷歌杀死了谷歌。意思是 Google 的传统广告业务被自己的 AI 搜索蚕食，CPC 收入直接归零。听起来像一句漂亮的墓志铭…",
+        "AI 搜索正在重塑广告行业的游戏规则。当 Google 的 AI Overviews 和 AI Mode 将商业推荐伪装成个性化建议，用户甚至意识不到自己正在被…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "小红书上爆红的糯米椰，并不是“把糯米塞进椰子”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%8F%E7%BA%A2%E4%B9%A6%E4%B8%8A%E7%88%86%E7%BA%A2%E7%9A%84%E7%B3%AF%E7%B1%B3%E6%A4%B0%EF%BC%8C%E5%B9%B6%E4%B8%8D%E6%98%AF%E2%80%9C%E6%8A%8A%E7%B3%AF%E7%B1%B3%E5%A1%9E%E8%BF%9B%E6%A4%B0%E5%AD%90%E2%80%9D",
+      "published": "Fri, 22 May 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Commons",
+        "Wikimedia",
+        "of",
+        "Halo",
+        "macapuno",
+        "al."
+      ],
+      "summary": "在菲律宾、印度尼西亚等地，有一种“变异”的椰子：它的外观和普通椰子并无差别，但打开后里面没有泾渭分明的椰子水和椰肉，而是几乎被 凝胶状的白色果肉 填充，只在中间位置有少量粘稠的椰子水。 质地粘稠的椰子水 | Youtube / sooziethefoodie 它的椰子水太粘了，很难用吸管来喝，更适合用勺子蒯着吃，口感像冲好的藕粉。果肉像老椰子一样厚，却一点都不紧实，甚至比嫩椰子的果冻肉肉更加酥软。闻起来有椰子特有的清香，但尝起来没有普通椰子那么甜。所以商家通常会送一包糖或者炼乳，用来加到这种椰子里调味。 清清爽爽的…",
+      "key_points": [
+        "糯米椰并不是固定的某一种椰子品种，而是各种普通椰子 基因突变导致胚乳发育异常 后得到的。最早，美国植物学家埃德温·科普兰（Edwin Copeland）在菲律宾…",
+        "只有等“好果子”基因突变 。在太平洋地区，椰子树的原生范围发生这种基因突变的概率非常低，仅为0.15%。并且，由于 控制胚乳异常发育的相关基因是隐性的 ，所以天…",
+        "Q弹的糯米椰 | Youtube / tocgescorner 也正是如此，异常发育的胚乳没法支持种胚正常发芽，所以 糯米椰实际上是不育的 。也就是说，就算你找…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "史上最大IPO，马斯克要成万亿富翁了，是美国人在拿养老金给他接盘？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7IPO%EF%BC%8C%E9%A9%AC%E6%96%AF%E5%85%8B%E8%A6%81%E6%88%90%E4%B8%87%E4%BA%BF%E5%AF%8C%E7%BF%81%E4%BA%86%EF%BC%8C%E6%98%AF%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%9C%A8%E6%8B%BF%E5%85%BB%E8%80%81%E9%87%91%E7%BB%99%E4%BB%96%E6%8E%A5%E7%9B%98%EF%BC%9F",
+      "published": "Fri, 22 May 2026 16:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SpaceX",
+        "AI",
+        "IPO",
+        "Anthropic",
+        "Colossus",
+        "xAI"
+      ],
+      "summary": "2026年6月12日，人类历史上规模最大的IPO即将在纳斯达克上演。SpaceX将以股票代码“SPCX”登陆美国股市， 目标估值1.75万亿美元 ，计划融资750亿美元 。 这个数字将彻底改写资本市场的历史纪录，也可能让埃隆·马斯克成为人类第一位万亿富翁（马斯克现在身价是8000亿美元，作为对比贝佐斯约2240亿美元）。 但这个IPO也风险很大，高估值到底是不是吹出来的，都要看星舰的表现。 史上最大规模 IPO市值多少？ 根据SpaceX提交给美国证券交易委员会（SEC）的S-1招股书，这次IPO的目标估值为1.7…",
+      "key_points": [
+        "为什么说全美国人用养老金 给马斯克兜底",
+        "也可能让埃隆·马斯克成为人类第一位万亿富翁（马斯克现在身价是8000亿美元，作为对比贝佐斯约2240亿美元）",
+        "马斯克也很难真正破产——他最多是从万亿富翁跌回千亿富翁"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "在盲道上演戏的网红，坑了1700万真盲人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%A8%E7%9B%B2%E9%81%93%E4%B8%8A%E6%BC%94%E6%88%8F%E7%9A%84%E7%BD%91%E7%BA%A2%EF%BC%8C%E5%9D%91%E4%BA%861700%E4%B8%87%E7%9C%9F%E7%9B%B2%E4%BA%BA",
+      "published": "Fri, 22 May 2026 16:12:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MCN",
+        "WEEKLY",
+        "ID",
+        "phoenixweekly"
+      ],
+      "summary": "转载自 凤凰WEEKLY(ID:phoenixweekly) 文：馍王 凯斯 编辑：章鱼 一个手拿盲杖在盲道上走路的女孩，被一辆疾驰的电动车撞倒。 肇事者却丢下一句“你不看路啊”的怒骂扬长而去。 只留下女孩在地上摸索寻找自己的盲杖。 这是一条引爆全网、曝光上亿的视频，北京交警的官方账号在评论区留言安慰，当红明星下场声援。 但，这个视频是假的。 每句台词、每个动作，都是排练好的。两名造假的当事人以”吸粉引流、牟取私利”为由被刑事拘留。 被骗的愤怒引爆全网，视障博主开始批量塌房。 世界的复杂性再次出现在一件事中： 一方…",
+      "key_points": [
+        "委屈的小伙选择了报警，在交警的介入下，骑手赔付了断掉的盲杖。而小伙的哭诉则让人倍感心酸： “我每次都在盲道上走，（可）我的盲杖（还是）被弄断两次，上一次也这样，…",
+        "去年各地掀起彩色盲道风潮：市民在盲道上绘制童趣图案，装点城市、提醒路人留出空间。出发点是好的，但忽略了一个基本事实—— 视障人士不仅包括全失明的盲人，还包括弱视…",
+        "警方发布的公告解释了一切： 刘某（男，26岁）和江某某（女，24岁）为吸粉引流、博取关注、牟取私利，在朝阳区某路旁虚假摆拍“盲人在盲道行走被电动自行车撞击并遭骑…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一股神秘气流飘过山村，1700人瞬间丧命，所到之处竟然连苍蝇都死绝了……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E8%82%A1%E7%A5%9E%E7%A7%98%E6%B0%94%E6%B5%81%E9%A3%98%E8%BF%87%E5%B1%B1%E6%9D%91%EF%BC%8C1700%E4%BA%BA%E7%9E%AC%E9%97%B4%E4%B8%A7%E5%91%BD%EF%BC%8C%E6%89%80%E5%88%B0%E4%B9%8B%E5%A4%84%E7%AB%9F%E7%84%B6%E8%BF%9E%E8%8B%8D%E8%9D%87%E9%83%BD%E6%AD%BB%E7%BB%9D%E4%BA%86%E2%80%A6%E2%80%A6",
+      "published": "Fri, 22 May 2026 12:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Geological",
+        "https",
+        "Survey",
+        "States",
+        "United",
+        "of"
+      ],
+      "summary": "1986年8月21日晚间，在非洲国家喀麦隆的西北部地区，一座名叫“尼奥斯”（Nyos）的湖泊突然爆发出一连串轰鸣。 居住在湖畔山谷中的村民纷纷走出家门，想要查看外面的情况。他们并没有看到什么东西，只感到一股气流扑面而来。 紧接着，所有人都在一瞬间失去了意识。 数小时过后，少数幸存者开始苏醒过来。他们还没有从意识模糊的状态中完全恢复，就惊恐地发现自己的家人已经变成了一具具尸体。 这些村庄在死一般的寂静中迎来了黎明，往日喧闹的鸟叫和虫鸣也荡然无存。 在那一天，死者的身上竟然没有一只苍蝇停留——因为附近的昆虫也全部都死了…",
+      "key_points": [
+        "尼奥斯湖变成了浑浊的褐色，这说明湖水曾在某种力量推动下剧烈翻涌。| United States Geological Survey 当研究者从湖底采集水样时，他…",
+        "想要查看外面的情况。他们并没有看到什么东西，只感到一股气流扑面而来",
+        "这些村庄看不出其他异常之处 ：田野依旧绿意盎然，房屋完好无损，村民的物品也全都好好地留在原地。死去的人们倒在家门口、炉灶旁，或是躺在自己的床上"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "古今中外的爱情片，无有过之",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%A4%E4%BB%8A%E4%B8%AD%E5%A4%96%E7%9A%84%E7%88%B1%E6%83%85%E7%89%87%EF%BC%8C%E6%97%A0%E6%9C%89%E8%BF%87%E4%B9%8B",
+      "published": "Fri, 22 May 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 梅雪风 一 张爱玲说，每个男人心中都有一朵红玫瑰，一朵白玫瑰，有了红玫瑰，日子长了红玫瑰成了一丝蚊子血，而有了白玫瑰，日子久了就成了一粒饭粘子。 那《朱尔与吉姆》则告诉了我们一个反向的例子， 它说的是每个女人心中同样有两个男人，这两个男人，一个给她稳定安全，一个给她的是冒险与新奇。 《朱尔与吉姆》（1962） 这部电影起码有这样一个作用，即这种多情，其实也并非是男人的专属能力，它看起来更像是人性中一种更原始的能量。 这是本能的一种贪婪，它既渴望安全，但它又不耐烦于安全，它渴望去冒险，去到那些未知之地，但这一切的…",
+      "key_points": [
+        "既是他本身性格的温顺持重，以及他对凯瑟琳的过度爱护而产生的宠溺，也有他的理想主义情节，他当然不希望自己的爱情来自于一丝一毫的强迫，于是他不得不做无动于衷状",
+        "是攥上吉姆，开着汽车，踩死油门，栽到河里，按下永恒的暂时键，将她的爱情传奇永恒地定格在这一刻"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "深田晃司谈戛纳新片《奈义日记》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B7%B1%E7%94%B0%E6%99%83%E5%8F%B8%E8%B0%88%E6%88%9B%E7%BA%B3%E6%96%B0%E7%89%87%E3%80%8A%E5%A5%88%E4%B9%89%E6%97%A5%E8%AE%B0%E3%80%8B",
+      "published": "Fri, 22 May 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Asian",
+        "Brzeski",
+        "Hollywood",
+        "hongmomgs",
+        "irisfilm",
+        "Movie"
+      ],
+      "summary": "作者： Patrick Brzeski 译者：覃天 校对：易二三 来源： The Hollywood Reporter/ Asian Movie Plus （2026年5月18日） 2022 年，当日本导演深田晃司在 42 岁那年荣获东京国际电影节颁发的「黑泽明奖」时，他略带腼腆地表示，这个表彰终身成就的奖项颁给自己，或许来得稍微早了一些。此前的获奖者包括史蒂文·斯皮尔伯格、山田洋次以及侯孝贤；而那一晚与他同台领奖的另一位获奖者，则是五度斩获奥斯卡奖的亚利桑德罗·冈萨雷斯·伊纳里图。 深田晃司 深田晃司说，他打算把…",
+      "key_points": [
+        "深田晃司此前早已屡屡在各大电影节上崭露头角——他那部具有突破意义的家庭喜剧《款待》于 2010 年摘得了东京电影节的「日本视点奖」，而他那部令人揪心的剧情惊悚片…",
+        "深田晃司： 我最后在那里待了大约十个月，跟当地居民聊天，差不多是从零开始一点点搭建起我的故事。首先，那是个非常有意思的地方。那座美术馆有着极其现代、极其独特的设…",
+        "深田晃司： 我并不觉得这特别难。我认为，当涉及人这个话题时，一切都是相对的。我不认为有什么绝对的好人或坏人。在特定的情境下，人可能会显得善良或邪恶——而在这部片…"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 397 期）：财富正在向 AI 集中",
+      "title_zh": "科技爱好者周刊第 397 期：财富正在向 AI 集中",
+      "url": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-397.html",
+      "published": "2026-05-22T10:39:28Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "这期周刊聚焦一个越来越明确的趋势：AI 不只是提升效率，而是在重新分配资本、人才和行业利润。亮点一是从公司和岗位迁移观察财富如何向算力、模型和平台集中；亮点二是梳理开发者、创业者该如何判断自己位于价值链的哪一层；亮点三是继续提供一批值得跟进的工具、链接和技术观察。适合想快速把握本周技术风向的读者。",
+      "key_points": [
+        "科技爱好者周刊（第 397 期）：财富正在向 AI 集中"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "中南大学原校长张尧学被双开，11年前“透明计算”获奖引争议",
+      "title_zh": "张尧学被双开后，“透明计算”争议再次回到台前",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6%E5%8E%9F%E6%A0%A1%E9%95%BF%E5%BC%A0%E5%B0%A7%E5%AD%A6%E8%A2%AB%E5%8F%8C%E5%BC%80%EF%BC%8C11%E5%B9%B4%E5%89%8D%E2%80%9C%E9%80%8F%E6%98%8E%E8%AE%A1%E7%AE%97%E2%80%9D%E8%8E%B7%E5%A5%96%E5%BC%95%E4%BA%89%E8%AE%AE",
+      "published": "Fri, 22 May 2026 08:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "SCI",
+        "Cloud",
+        "Computing-based",
+        "CPU",
+        "END",
+        "get"
+      ],
+      "summary": "这条并不只是纪律新闻，它把 11 年前“透明计算”获奖争议重新拉回公共讨论，焦点落在学术评价、行政权力与科研荣誉分配之间的结构性问题。文章一方面交代处分通报，另一方面回顾当年一等奖争议为何持续发酵，让读者能把个人事件放进更大的科研治理背景里看。适合关注学术制度与科技治理的人阅读。",
+      "key_points": [
+        "来源｜赛先生 ● ● ● 2026年5月21日，中央纪委国家监委网站发布消息，中南大学原党委常委、校长张尧学因严重违纪违法问题被开除党籍和公职， 涉嫌犯罪问题移…",
+        "相关阅读： 1.2015年4月12日 【专家评论】理性反思“透明计算”获奖争议 2.2015年1月27日 乐见政府退出科学分歧 欣闻校长不避同行争议 3.201…",
+        "5.22 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 十一年前，张尧学曾因 “透明计算”项目获国家自然科学一等奖而引发广泛质疑"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "“剧集衍生播客”是最火热的内容形式 | 经济学人文化（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E2%80%9C%E5%89%A7%E9%9B%86%E8%A1%8D%E7%94%9F%E6%92%AD%E5%AE%A2%E2%80%9D%E6%98%AF%E6%9C%80%E7%81%AB%E7%83%AD%E7%9A%84%E5%86%85%E5%AE%B9%E5%BD%A2%E5%BC%8F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 22 May 2026 09:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "in",
+        "did",
+        "on",
+        "podcasts"
+      ],
+      "summary": "1 导读 休息一下 2 精读|翻译|词组 Culture | In pod we trust 文化｜我们信任播客 英文部分选自经济学人20260509期文化板块 Culture | In pod we trust 文化｜我们信任播客 “ Companion podcasts ” are the latest hit format “ 剧集 衍生 播客 ” 是最火热的内容形式 Ready for more after bingeing on TV? 准备好追剧之后的加更了吗？ When you are not wat…",
+      "key_points": [
+        "1 导读 休息一下 2 精读|翻译|词组 Culture | In pod we trust 文化｜我们信任播客 英文部分选自经济学人20260509期文化板块…",
+        "当下快乐就是意义 Lee，爱骑行的妇女之友+Timberland粉 审校组： Xia Jiehai， 创作者 Rachel，学理工科，爱跳芭蕾，热爱文艺的非典型…",
+        "“这些播客其中的一个核心目标是里面的内容可以随时随地被收听收看，”市场研究公司安培分析公司的马修·特里克特推断。剧粉会整天都对剧心心念念，而不仅仅是下班后躺在沙…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-05-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "86 版的经典剧《西游记》，唐僧扮演者换了三个人，是不是大家一直都没发现？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9789865",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "anyway",
+        "here",
+        "waiting",
+        "Write"
+      ],
+      "summary": "木寸上春树， Write here waiting秋名山在逃车神 查看知乎原文 早就发现了。 汪粤，徐少华，迟重瑞 刷了不下二十遍，看不出来才怪了。 到后来，找不同也是观剧的乐子之一。 除了唐僧换过人，猪八戒也换过演员，而且也有俩。 副导演任凤坡在《智激美猴王》中短暂扮演过八戒。 顺便说一句，任凤坡老师还在平顶山一集里客串了悟空的分身。 拍《三调芭蕉扇》时，因马德华老师有伤，李建成也替演过八戒。 而且这个八戒与马德华版的几乎分辨不出来。 这两位还有一定的知名度，但沙僧也有两位扮演者，肯定很多人不知道吧。 闫怀礼老师…",
+      "key_points": [
+        "86 版西游记仍然是最用心最经典的一版",
+        "大闹天宫时的哪吒和取经路上的根本不是一个人，甚至连性别都变了",
+        "但沙僧也有两位扮演者，肯定很多人不知道吧"
+      ]
+    }
+  ]
+}
