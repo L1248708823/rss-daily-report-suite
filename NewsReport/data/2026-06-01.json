@@ -1,0 +1,812 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T01:00:11.141299+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 84,
+    "fresh_candidates": 58,
+    "backfill_candidates": 26,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-01",
+      "fetched_at": "2026-06-01T01:00:05.782746+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4068.57,
+          "change": -30.07,
+          "change_pct": -0.73,
+          "volume": 731597710.0,
+          "amount": 153206735.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4540.23,
+          "change": 0.4499999999998181,
+          "change_pct": 0.01,
+          "prev_close": 4539.78,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-01 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 987.6735488289099,
+          "change": 0.09789219862716436,
+          "change_pct": 0.009912374608461224,
+          "prev_close": 987.5756566302828,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-01 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-01",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "投资中最昂贵的隐性成本",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%8A%95%E8%B5%84%E4%B8%AD%E6%9C%80%E6%98%82%E8%B4%B5%E7%9A%84%E9%9A%90%E6%80%A7%E6%88%90%E6%9C%AC",
+      "published": "Mon, 01 Jun 2026 01:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FOMO",
+        "Fear",
+        "Missing",
+        "Of",
+        "Out"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 懒人养基 来源：雪球 大多数人打开账户时，目光总停留在显性的支出上：万分之三的佣金、每年1.5%的管理费、申购赎回的手续费。我们精打细算，为了省下几十块钱的费率在各平台间反复比对。然而，有一笔巨大的成本，从未出现在对账单上，却悄无声息地吞噬着我们的财富——那就是情绪成本。 投资圈里常有人说：“凭运气赚来的钱，最终都会凭实力亏回去。”这里的“运气”，往往对应着市场红利下的情绪高涨；而“…",
+      "key_points": [
+        "让时间真正站在复利的一边 降低预期，不是放弃收益，而是放弃那些让你睡不着觉的收益。当你不再被FOMO驱动，不再恐惧错过，你会发现，投资突然变得简单了——当你通过…",
+        "03 降低情绪成本的唯一方法：先管住预期 既然情绪是人性的一部分，我们就不可能完全消灭它。成熟的投资者不是没有情绪，而是不让情绪作决策",
+        "情绪成本之所以可怕，是因为它具有极强的隐蔽性和欺骗性"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒是好生意吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8094080648/391994420",
+      "published": "Sun, 31 May 2026 14:30:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "从整个白酒行业来看，几十年来一直都是那些个老玩家在里面，说明这个行业具有很强的壁垒，这比很多行业要强。一块土地，并不贫瘠，还没有外敌入侵，并不容易。反观那些没有壁垒的行业，都杀成什么样了？ 这也让白酒行业里几乎所有的上市公司，在大部分时候都是赚钱的，行情好的时候还挺滋润。行情不好的时候，少卖一点，产品存着也不会坏。反观没有壁垒的行业，大部分从业者都只有微薄的利润甚至亏损，在白刃战里面杀出重围获得冠军的头部公司，其盈利能力也不一定赶得上一家二线的白酒上市公司。 白酒行业虽然鲜有外敌，但内部的竞争是非常激烈的，这是一个…",
+      "key_points": [
+        "白酒是好生意吗？我想起了刘晓庆说的一句话“男人只有个体，没有群体”。其实白酒也一样，只有个体，没有群体",
+        "并不是一个靠吃老本就能一直赚钱的生意，在某个阶段，你落后了，再想爬起来是不容易的。你看西凤酒，曾经可是四大名酒之一。白酒行业内部竞争非常激烈，几百元价位的强势品…",
+        "财务数据是由其背后的商业实质决定的。由于没有外敌入侵，普通的白酒公司比很多其他行业的普通公司是更好的生意。白酒公司大部分时间是能够赚一些钱的，但由于内部的激烈竞…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "押注老登股牛市补涨：茅台老窖美的格力招行农行伊利腾讯估值几何？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9363345092/392004162",
+      "published": "Sun, 31 May 2026 14:30:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PR",
+        "AH",
+        "ROE",
+        "PE",
+        "TTM",
+        "F10"
+      ],
+      "summary": "最近发文，点赞越来越少。今天决定写一篇纯纯干货，如果市赚率对您有用，希望能够多多点赞。 本周五，老登股大涨，双创指数大跌，似乎要有风格切换的苗头。如果想要押注老登股牛市补涨，不妨看看贵州茅台、泸州老窖、美的集团、格力电器、招商银行、农业银行、伊利股份、腾讯控股这些传统老登股，目前的估值几何？ 计算内在价值：我用自己发明的市赚率！ 为了学习巴菲特，我发明了市赚率。其公式为：市赚率=市盈率/净资产收益率（PR=PE/ROE/100）。上世纪80年代，巴菲特两次建仓可口可乐。两年平均下来，市赚率刚好就是0.4PR。从那时…",
+      "key_points": [
+        "老登股大涨，双创指数大跌，似乎要有风格切换的苗头。如果想要押注老登股牛市补涨，不妨看看贵州茅台、泸州老窖、美的集团、格力电器、招商银行、农业银行、伊利股份、腾讯…",
+        "10年期国债收益率已经从前期高点的1.93大幅走低至1.73，如果能够继续走低至前期低点的1.63。那么老登股牛市补涨，也并非没有可能",
+        "贵州茅台的估值为0.62PR。此前跌得更惨的泸州老窖，估值却是更贵的0.66PR。这也是行业下行期，行业龙头的优势所在。至于山西汾酒，目前的估值则为0.49PR…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂电池本周行业更新5-30",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/391968380",
+      "published": "Sun, 31 May 2026 14:30:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GWh",
+        "jxw",
+        "by",
+        "holland",
+        "http"
+      ],
+      "summary": "1、库存数据 库存端，本周最新库存数据显示小样本去库1247吨，大样本去库1617吨 整个5月份： 需求端，5月三元材料产量预计环比增加9%至87920吨、磷酸铁锂产量预计环比增加8%至503700吨、钴酸锂产量预计环比增加23%至9480吨、锰酸锂产量预计环比增加7%至13000吨； 供给端，5月碳酸锂产量预计环比增加3.4%至113780吨；据海关数据，4月中国进口碳酸锂32650吨，环比增加9%，同比增加15%。 按照5月整体情况来看，大库存去库了不到8000吨，整体需求按照正极材料的用量来看，应该是增加了1…",
+      "key_points": [
+        "这一轮周期可能营收要超过上一轮的一倍或者更多。从宁德就能看出来，上一轮周期锂电池价格的顶点2022年宁德年收入才3200E，而后几年进入了营收下降的尴尬境地，市…",
+        "他应该是周期价格叠加行业增速的双击，所以估值肯定是不能完全按照有色等纯粹的周期估值去估值，应该是要算上周期和成长的两类估值。所以如果按照周期股估值10-15倍，…",
+        "看每个地方的产能利用率，如果产能利用率超过80%以上的企业，可以申报继续扩产，产能利用率不够基本是无了，所以对头部企业是大利好，可以更加的集中头部企业的份额，淘…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "买量化股多，大盘点位高低真的很重要吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B9%B0%E9%87%8F%E5%8C%96%E8%82%A1%E5%A4%9A%EF%BC%8C%E5%A4%A7%E7%9B%98%E7%82%B9%E4%BD%8D%E9%AB%98%E4%BD%8E%E7%9C%9F%E7%9A%84%E5%BE%88%E9%87%8D%E8%A6%81%E5%90%97%EF%BC%9F",
+      "published": "Sun, 31 May 2026 13:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Alpha",
+        "Beta"
+      ],
+      "summary": "最近市场又热闹起来，后台又有朋友私信问，现在上证都4000多点了，还能上车量化股多吗？ 这类问题，几乎任何时间都会被问到。 但对于量化股多策略来说，大盘点位多少到底重不重要？ 实际上，其重要性可能并没有我们想象的那么高。 点位是3800还是4000，这中间差几个点，短期看可能确实比较重要。但如果稍微拉长时间，其就没有那么重要了。 为什么？ 因为长期看，量化股多的收益来源更依赖超额的持续积累，而这部分并不关心点位到底是多少。 我们都知道，量化股多赚的钱，可以简单分为两块。 一块是Beta，这部分是被动的，跟着大盘随波…",
+      "key_points": [
+        "买量化股多不需要特别关注大盘点位，也是因为择时太难，而且性价比很低",
+        "当然这不仅是说明买量化股多不需要过分纠结点位到底是多少，更重要是证明了，量化股多更适合作为长期配置的工具",
+        "世事无绝对。如果持有的量化股多本身过度依赖某一类因子或某一种风格，那就需要去关注下点位情况"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "看完 今年谷歌I/O 大会才看明白：谷歌的护城河从来不是模型",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6405442.html",
+      "published": "Sun, 31 May 2026 06:30:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Gemini",
+        "AI",
+        "Agent",
+        "Flash",
+        "App",
+        "Pro"
+      ],
+      "summary": "Gemini正在重塑AI产品竞争格局。从模型货架到操作系统级Agent，谷歌通过Antigravity开发平台、Managed Agents沙箱环境和TPU架构革新，构建了完整的Agent生态链。9亿月活背后，是搜索分发与AI Overviews形成的护城河。本文将深入解析这次战略重组对AI产品经理的启示与挑战。 这届 I/O 2026 的主 keynote 看完，谷歌当天博客的题目只有一句话——”Welcome to the agentic Gemini era”。 Gemini 月活 9 亿，比一年前的 4 亿…",
+      "key_points": [
+        "搜索的几个数字： AI Overviews：月活 2.5 亿 AI Mode：上线 12 个月做到 10 亿 Gemini 月活：9 亿（一年前 4 亿） 日请…",
+        "Gemini正在重塑AI产品竞争格局。从模型货架到操作系统级Agent，谷歌通过Antigravity开发平台、Managed Agents沙箱环境和TPU架构…",
+        "我盯着的是这几个被低估的细节 我盯着的不是”哪个模型最强”。是这几个不那么显眼的钩子： Gemini Spark 是 24/7 的 personal agent…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "无技术背景人员分享一次 Vibe Coding实践",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6405335.html",
+      "published": "Sun, 31 May 2026 06:14:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Vibe",
+        "Coding",
+        "PRD",
+        "prd",
+        "UI"
+      ],
+      "summary": "AI正在彻底改变编程的底层逻辑。Vibe Coding让产品创造者从写代码转向定义意图，这种范式迁移正在重塑无技术背景人群的创造路径。本文深度拆解AI编程的6大认知变革，从意图工程到模块化搭建，并通过真实案例揭示如何在14小时内从0到1上线完整产品。 案例过程写在最后。 一、先说结论 AI重新分配了编程工作的价值。Vibe Coding让产品创造者写代码转变为 定义意图 ——专注于 创意与产品价值 ，而非技术实现。 对无技术背景的人而言，核心转变在于： 编程不再是先学会写代码，而是“ 先把目标、逻辑和系统讲清楚，再…",
+      "key_points": [
+        "三、一个对无技术背景实用的 AI 编程流程 如果让我总结一个更适合非技术背景人员的 AI 编程流程，我会建议按下面这 6 步来（适当裁剪和调整，主要是最适合自己…",
+        "这次「享受人格测试」的实践，本质上是一个微观的范式验证：当产品定义清晰（意图工程），当上下文传递精确（PRD作为共识和约束文档），当模块边界划分清楚（分模块生成…",
+        "AI正在彻底改变编程的底层逻辑。Vibe Coding让产品创造者从写代码转向定义意图，这种范式迁移正在重塑无技术背景人群的创造路径。本文深度拆解AI编程的6大…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【支付】银行发薪补充，第三方平台供应商发薪充值、余额管控、自动核销方案",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6405193.html",
+      "published": "Sun, 31 May 2026 03:53:50 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "lt",
+        "Pexels",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "QK-YYYY-MMDD-NNN"
+      ],
+      "summary": "传统薪酬系统在第三方平台发薪场景下暴露出的资金流黑箱、余额校验缺失等致命痛点，正在被一套完整的解决方案颠覆。从协议配置到资金闭环，本文深度拆解如何通过四层架构设计与十大步骤流程，实现支付宝/微信发薪与原有系统的无缝整合，彻底解决企业资金追踪与风控难题。 业务痛点 企业薪酬发放场景中，很多系统只支持”银行代发”和”现金发放”两种传统途径。当客户提出”希望通过支付宝、微信支付等第三方平台发薪”时，系统层面完全无法支持——这意味着客户需要自行将资金转入第三方平台、自行发起发放、自行记账，整个流程脱离了薪酬管理系统的监控。…",
+      "key_points": [
+        "协议配置 协议配置是第三方平台发薪的”总开关”。产品设计上需注意：每个客户同一时间只能配置一种发放途径，新配置自动覆盖旧配置。协议配置页面包含三个核心设置项：发…",
+        "当第三方供应商余额 &lt; 实发金额合计时，显示错误提示、展示余额缺口金额（差额=实发合计-第三方余额），引导用户先进行请款充值。这个设计把资金风险拦截在了提…",
+        "业务流程设计 整体业务流程从客户来款出发，经过六个核心阶段，最终完成打款闭环。以下按实际操作顺序展开： 步骤1：协议配置。主办会计登录系统，进入协议配置页面，将…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Claude Opus 4.8发布了，人的幻觉愈发严重",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6405548.html",
+      "published": "Sun, 31 May 2026 02:17:26 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CEO",
+        "Opus",
+        "Mythos",
+        "Claude",
+        "claude"
+      ],
+      "summary": "Claude Opus 4.8 的发布带来了三个关键变化：学会说「我不确定」的动态工作流、可调节的思考强度档位，以及预告中的 Mythos 模型。这些更新不仅提升了模型的可靠性，更展现了 AI 在代码迁移等复杂任务中的潜力。然而，文章犀利指出当前企业应用 AI 时普遍存在的三种幻觉，揭示了理想与现实之间的巨大鸿沟。 昨天晚上claude Opus 4.8发布了，不得不感慨，模型迭代的速度太快了。 这次最大的变化，说出来你可能觉得好笑 claude学会说「我不确定」了。 以前的版本有个毛病，遇到不懂的东西它会硬着头皮…",
+      "key_points": [
+        "Claude Opus 4.8 的发布带来了三个关键变化：学会说「我不确定」的动态工作流、可调节的思考强度档位，以及预告中的 Mythos 模型。这些更新不仅提…",
+        "昨天晚上claude Opus 4.8发布了，不得不感慨，模型迭代的速度太快了",
+        "你会发现这三种幻觉有一个共同点。都不是AI出了问题，是使用AI的那个人，在用一个完全脱离现实的认知去指挥一个他完全不理解的东西"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "企业 Agent 的上限，不在模型参数里，在公司的知识管理能力里",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6405264.html",
+      "published": "Sun, 31 May 2026 02:16:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "L1",
+        "Token",
+        "Prompt",
+        "PDF"
+      ],
+      "summary": "企业级Agent为何难以稳定落地？模型参数的不断升级并未解决根本问题，真正瓶颈在于企业的知识管理能力。本文深度剖析Agent在实际应用中的三大阶段演进，揭示隐性知识显性化的关键路径，以及如何将组织记忆转化为AI可执行的智能资产。 前阵子跟几个同行聊天，大家聊来聊去都绕不开一个话题——为什么明明现在模型都这么强了，各家Agent框架也层出不穷，但真正能跑到生产环境、稳定干活的企业级Agent，少得可怜？ 我见过不少公司，活儿干得挺热闹，Demo搞得也挺炫，一上线就原形毕露。那个Agent吧，你说它笨吧，它有时候回答得…",
+      "key_points": [
+        "企业Agent的上限，不在模型参数里，而在公司的知识管理能力里",
+        "企业级Agent为何难以稳定落地？模型参数的不断升级并未解决根本问题，真正瓶颈在于企业的知识管理能力。本文深度剖析Agent在实际应用中的三大阶段演进，揭示隐性…",
+        "如果你问我，做AI应该从哪里开始？我的建议是：别追模型参数了，先把你公司的知识管好。把那些散落在文档里、邮件里、专家脑子里的知识，一点点提炼出来、结构化、产品化…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "白馍夹肉为啥叫「肉夹馍」而不叫「馍夹肉」？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790102",
+      "published": "Sat, 30 May 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "or"
+      ],
+      "summary": "当你吃着白馍夹着满满的肉时，是否会好奇为啥叫「肉夹馍」而不叫「馍夹肉」？为啥会有这种不合逻辑的说法？ 看星空的仓鼠， 代文曲星品酒 / 商业合作请私信 or 微信咨询 查看知乎原文 感谢邀请。 真是个好问题，从 40 年前就有陕西报纸界的大讨论，但至今也没分出个高下。 鼠能做的，就是搜查网络、钻故纸堆，勉强挖掘出来几个方向。 其中一个，来自掀垫子可基大学人文学院的邹贺副教授，鼠翻阅几种古籍以对照，窃以为比较能解释「肉夹馍」这不合逻辑之名里潜藏的「逻辑」。 风格偏老的一种肉夹馍，肉含量高，白饼煎烤得油脆动人，鼠更喜欢…",
+      "key_points": [
+        "是否会好奇为啥叫「肉夹馍」而不叫「馍夹肉」？为啥会有这种不合逻辑的说法",
+        "鼠不学音韵，所知全是翻古书、听粗通音韵学的朋友所言，外加吸收邹教授的主要观点而自行发酵，各位如有疑惑之处，还请自行评注（逃……） 延伸阅读 荤素从食店 - 梦粱…",
+        "这种用早期胡饼（芝麻烤面饼）、早期馒头（带馅儿的，没馅儿是炊饼 / 蒸饼）填上各色肉馅儿的小食，名为「夹子」或「夹儿」者多，经常会在「夹子」开头加上馅儿主料，以…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "世界各地语言有哪些匪夷所思的同源词？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790104",
+      "published": "Sat, 30 May 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ja",
+        "kja",
+        "graa",
+        "kara",
+        "kra",
+        "ha5"
+      ],
+      "summary": "錬金術師 查看知乎原文 我提一个字【夏】，上古汉语拟音【*graa】或者【*graːʔ】，这个汉字本来是中原地区讲汉藏语的华夏人的民族自称延续至今，同时该字因汉人历史上巨大的影响力被周边非汉藏系民族借用，本文会详细阐述。 【夏 /*graa 或 /*graːʔ】不仅是汉语，同时也是汉藏语系的同源词汇，该词在古藏语中构拟为【*rɡʲa】；在原始藏缅语中构拟为【*r-gya】，核心词义均为【广大、宽阔、疆域、宏大】；引申义为：【远方地域、外族】 下表是该词在 46 种汉藏语（含方言）中的表现形式以及所在语支的原始拟构汇…",
+      "key_points": [
+        "由此衍生出以下各语言中的同源词汇（汉藏系）及借词（非汉藏系）： 1.朝鲜语（韩语）里的【韩】，上古音【*gar】 2.古汉语里常用来表记北方草原民族的【胡】，上…",
+        "【夏 /*graa 或 /*graːʔ】不仅是汉语，同时也是汉藏语系的同源词汇，该词在古藏语中构拟为【*rɡʲa】；在原始藏缅语中构拟为【*r-gya】，核心词…",
+        "语系语族 语支 语言 / 方言 方言音标 标准转写 语支原始拟构 核心词义 来源引用 传统文字对照 汉藏语系汉语族 汉语支 上古汉语·夏 — 无 *ɡraːʔ…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "发现酱牛肉切开是彩虹色的，千万别立刻吃！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%91%E7%8E%B0%E9%85%B1%E7%89%9B%E8%82%89%E5%88%87%E5%BC%80%E6%98%AF%E5%BD%A9%E8%99%B9%E8%89%B2%E7%9A%84%EF%BC%8C%E5%8D%83%E4%B8%87%E5%88%AB%E7%AB%8B%E5%88%BB%E5%90%83%EF%BC%81",
+      "published": "Sun, 31 May 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "jio",
+        "Kci14NTI",
+        "Luna",
+        "www.jintiankansha.me"
+      ],
+      "summary": "你会错过拍照发朋友圈的机会！夹起一片🐮牛肉，发现上面竟然泛着亮闪闪的渐变色金属光泽，这肉还能吃吗？ 这种现象是肉片上的虹彩🌈，在垂直于纹理切开的生肉或者烹调、腌制肉食中都可能观察到。 这是一种结构色，也就是说它纯粹是肉片上的物理结构与光发生相互作用的产物。因为不涉及化学物质的改变，所以虹彩与变质和污染都没有关系。只要没有其他异常，虹彩肉片就可以安全食用[色]。如果还不放心，可以在💡光源下变换不同角度来观察，这样可以区分虹彩与色素染色。虹彩结构色会随着观察角度的不同而变化，化学色素造成的颜色则不会改变。关于肉片虹彩出…",
+      "key_points": [
+        "你会错过拍照发朋友圈的机会！夹起一片🐮牛肉，发现上面竟然泛着亮闪闪的渐变色金属光泽，这肉还能吃吗",
+        "如果下次再发现虹彩肉片，只要拍张照留念📷，然后安心吃掉它就可以了。作者：窗敲雨编辑：Luna作图：黑jio妹妹 文章原文 平台地址： http://www.ji…",
+        "在垂直于纹理切开的生肉或者烹调、腌制肉食中都可能观察到"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "当你凝视千奇百怪的眼睛，神秘的眼睛也在凝视你",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BD%93%E4%BD%A0%E5%87%9D%E8%A7%86%E5%8D%83%E5%A5%87%E7%99%BE%E6%80%AA%E7%9A%84%E7%9C%BC%E7%9D%9B%EF%BC%8C%E7%A5%9E%E7%A7%98%E7%9A%84%E7%9C%BC%E7%9D%9B%E4%B9%9F%E5%9C%A8%E5%87%9D%E8%A7%86%E4%BD%A0",
+      "published": "Sun, 31 May 2026 16:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Commons",
+        "Wikimedia",
+        "of",
+        "in",
+        "their",
+        "can"
+      ],
+      "summary": "在自然界中，眼睛从来不曾千篇一律。 千奇百怪的动物们，用着自己千奇百怪的眼睛注视着这个世界，目的只有一个：在这个竞争激烈的世界活下去。 海洋之中：看得见，就是生存的底气 海洋，尤其是幽暗的深海，是光线的禁区。红光、橙光等长波光通常在水下10米左右就会被海水基本吸收，即使是穿透力强的蓝光和紫光，在穿越约200米后也基本消散殆尽。 因此在海洋之中，能否捕捉到微弱的光信号，直接决定着生命的存续。 大眼，不是为了萌 最简单粗暴的办法，就是 把眼睛造得很大 。这就如同天文望远镜，当口径越大时，聚光效果也越强。许多深海鱼类和头…",
+      "key_points": [
+        "用着自己千奇百怪的眼睛注视着这个世界，目的只有一个：在这个竞争激烈的世界活下去",
+        "蛙形镜眼虫的复眼。三叶虫是最早出现眼睛的生物类型之一 | Wikimedia Commons / Tomleetaiwan 眼睛毫无疑问是动物体内最精巧、最复杂…",
+        "狮子的瞳孔是圆形的 | Wikimedia Commons / Thomas Fuhrmann 猎物：尽快知道天敌来了没 如果说捕食者的核心视觉需求是看清猎物在…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "日行两万步后，我换掉了鞋柜里所有的鞋",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%97%A5%E8%A1%8C%E4%B8%A4%E4%B8%87%E6%AD%A5%E5%90%8E%EF%BC%8C%E6%88%91%E6%8D%A2%E6%8E%89%E4%BA%86%E9%9E%8B%E6%9F%9C%E9%87%8C%E6%89%80%E6%9C%89%E7%9A%84%E9%9E%8B",
+      "published": "Sun, 31 May 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EVA+",
+        "Bell",
+        "dc_ps",
+        "End",
+        "feature",
+        "http"
+      ],
+      "summary": "好看的鞋不少，能搭配的鞋也很多。 可每天出门前还是不知道穿啥鞋，因为能做到 走路不累、久 站 舒服、穿一整天也轻松 的鞋，太少了。 千里之行，始于足下 很多时候，体态不好不只是站姿问题 更多可能是因为你没有选好鞋子 很多人总以为，鞋子舒服不舒服，顶多就是脚底软不软。 但其实，真正影响走路的，从来不只是踩着软，而是这双鞋 能不能把脚稳稳托住 。 尤其是 足弓 。 它就像脚底的“承重梁”，平时走路、站立、上下楼梯，身体的压力都要靠它来分担。 一旦鞋子没有足够支撑，脚底受力就容易塌陷 。 时间久了，不只是脚容易酸、容易累…",
+      "key_points": [
+        "比如今天给大家带来的 这几款 盼喜家适合 春夏的鞋 ， 就是我们精挑细选后，各方面都很nice的~ 果壳实拍 盼喜鞋，其实是一个做了60多年的老品牌",
+        "也是这个时候我才开始留意到： 原来爸妈很多腿脚酸痛、走一会儿就累、站久了难受、容易摔倒的问题，不一定只是年纪原因，也可能和每天穿的鞋子有很大关系",
+        "鞋是服务我们的，无论是通勤赶路、逛街旅行， 只有真正让脚底放松的鞋才值得我们选择"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么不建议你在家用空气炸锅烤水果干？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%BD%A0%E5%9C%A8%E5%AE%B6%E7%94%A8%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%83%A4%E6%B0%B4%E6%9E%9C%E5%B9%B2%EF%BC%9F",
+      "published": "Sun, 31 May 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A81fNQ3Wha",
+        "cm",
+        "dc_ps",
+        "detail",
+        "End",
+        "http"
+      ],
+      "summary": "你有没有发现一件事，天一热，人就进入了一种奇怪的 “半饿不饿”状态。 正经吃饭吧， 没胃口。 一碗米饭摆在面前，筷子戳两下就放下了。但你要说完全不吃吧， 嘴又闲得慌。 下午三点，你盯着屏幕上那份改了八遍的PPT，手指开始不受控制地往抽屉方向伸——里面是你上周囤的半包薯片、两块巧克力...... 你看着薯片包装袋背密密麻麻的配料表，想到卡路里，心情复杂得像谈了一场不该谈的恋爱。 真相是， 你其实没那么饿，只是嘴巴寂寞。 想要自己跟风博主烤个水果干？酸酸甜甜，解馋又有满足感。但现实会狠狠拍打你。 首先 成本很高 ，几十…",
+      "key_points": [
+        "一包配料表干净的果干，就是你在这个夏天体面的选择",
+        "我们在选品会上吃空了好几袋（是认真在干活），结果留下了这几款，它们有几个共同的标准： ✅ 配料表只有水果 ——不加糖、不加油、不加防腐剂，没有其他你念不出名字的…",
+        "109元任选5袋 👇戳图立马抢👇 04 逢食·干净芒果干 我们测评芒果干的时候有个“灵魂三问”：加糖了吗？❌ 打白霜了吗？❌ 用的是边角料吗？❌ 逢食这款芒果干…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "印度电影看印度历史",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8D%B0%E5%BA%A6%E7%94%B5%E5%BD%B1%E7%9C%8B%E5%8D%B0%E5%BA%A6%E5%8E%86%E5%8F%B2",
+      "published": "Sun, 31 May 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Hotstar",
+        "Of",
+        "YouTube",
+        "Ki",
+        "In",
+        "Netflix"
+      ],
+      "summary": "作者： Uday Bhatia/JaiArjun Singh 译者： 易二三 校对： Issac 来源： 《livemint》 译者按： 说到印度电影，大多数人第一时间联想到的大概是载歌载舞的宝莱坞。但作为一个多种族、多语言、拥有着丰富历史文化背景的国家，印度的电影也是非常多元化的。从「印度新浪潮」到后来的「平行电影」运动，这些区别于主流的「另类电影」一直在印度电影里占有一席之地。 印度新闻网站livemint的这篇长文着重追溯影响了印度电影近50年的「平行电影」运动。「平行电影」多以写实和自然风格拍摄, 着眼讨论…",
+      "key_points": [
+        "Uday Bhatia/JaiArjun Singh 译者： 易二三 校对： Issac 来源： 《livemint》 译者按： 说到印度电影，大多数人第一时间…",
+        "这部充满魔力的电影很多年间都没有登陆院线，但有一小撮狂热的粉丝一直在谈论它的精彩，《欧姆》也终于在2014年迎来了小规模的放映。（观看渠道：Hotstar） 更…",
+        "影片的演员阵容十分华丽——索妮·拉兹丹、纳萨鲁丁·沙、欧姆·普瑞、维拉杰什·希杰——罗珊·塞斯饰演的主角古斯塔德·诺伯令人心碎，他的家庭破碎反映了整个时代的分裂…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这两天，电影界痛失一个最深刻的思想家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E4%B8%A4%E5%A4%A9%EF%BC%8C%E7%94%B5%E5%BD%B1%E7%95%8C%E7%97%9B%E5%A4%B1%E4%B8%80%E4%B8%AA%E6%9C%80%E6%B7%B1%E5%88%BB%E7%9A%84%E6%80%9D%E6%83%B3%E5%AE%B6",
+      "published": "Sun, 31 May 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "direct",
+        "Ammn",
+        "cinema",
+        "hongmomgs",
+        "irisfilm",
+        "Kino-Pravda"
+      ],
+      "summary": "文 Ammn 埃德加 · 莫兰前两天在巴黎去世了，距离他的 105 岁生日还有一个月左右。 埃德加 · 莫兰 人们更多将莫兰定位成哲学家和社会学家，但在他长达七十余年的生涯中，电影并不仅仅是一段学术插曲，公允地说，电影是贯穿他思想体系的一条主干。 1956 年的《电影或想象的人》， 1957 年的《明星》， 1961 年与让 · 鲁什合作完成的《夏日纪事》，以及 1962 年的《时代精神》，构成了他的一个完整研究序列。 这个序列从电影本体延伸至明星制度，再从理论思辨进入纪录片实践，最终通向对整个现代大众文化的诊断。…",
+      "key_points": [
+        "莫兰在电影理论史中的位置长期未获充分评估，这有几个原因。其一，他的电影著作集中在五十年代末至六十年代初，而国际电影理论的体制化主要发生在七十年代以后。其二，莫兰…",
+        "电影正是一种典型的复杂对象。它同时是技术装置和艺术形式，同时是工业生产和个体经验，同时是客观影像和主观幻觉，同时是个人观看和集体仪式。任何试图把电影还原为其中某…",
+        "二十世纪五十年代的法国电影思想正处于一个关键的爆发期。一方面，安德烈 · 巴赞围绕《电影手册》展开关于摄影本体论、长镜头和现实主义的论述；另一方面，吉尔贝 ·…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国国家地理x最鲜城市，虎啸奖夺金！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86x%E6%9C%80%E9%B2%9C%E5%9F%8E%E5%B8%82%EF%BC%8C%E8%99%8E%E5%95%B8%E5%A5%96%E5%A4%BA%E9%87%91%EF%BC%81",
+      "published": "Sun, 31 May 2026 09:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PART",
+        "AI"
+      ],
+      "summary": "2026年5月29日，备受瞩目的第十七届虎啸奖榜单重磅揭晓。由中国国家地理打造的“最鲜城市 启东”文旅品牌营销项目，以科学内容为内核、艺术表达为载体的模式实现了城市文旅的破圈，从近4000件参赛作品中脱颖而出，摘得金奖。 PART 01 鲜耀山海，中国国家地理夺金虎啸 第十七届虎啸奖以“建设商业文明共同体”为主题，聚焦数字时代下品牌、城市与公众之间更真实、更长期的价值连接。 作为品牌营销数字化领域具有专业影响力的综合性奖项，虎啸奖以严苛评审、坚守实效著称。奖项拥有超过千位行业知名实战专家组成的评审体系，经由线上评审…",
+      "key_points": [
+        "人们习惯把启东当作长三角的一座沿海城市； 今天，越来越多启东人开始自豪地说： “欢迎来我的家乡，最鲜城市启东。” 出品：中国国家地理自然教育中心 总策划：宋静茹…",
+        "备受瞩目的第十七届虎啸奖榜单重磅揭晓。由中国国家地理打造的“最鲜城市 启东”文旅品牌营销项目，以科学内容为内核、艺术表达为载体的模式实现了城市文旅的破圈，从近4…",
+        "中国国家地理夺金虎啸 第十七届虎啸奖以“建设商业文明共同体”为主题，聚焦数字时代下品牌、城市与公众之间更真实、更长期的价值连接"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "试一下海淘新碟",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AF%95%E4%B8%80%E4%B8%8B%E6%B5%B7%E6%B7%98%E6%96%B0%E7%A2%9F",
+      "published": "Sun, 31 May 2026 19:39:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD",
+        "CDJapan",
+        "EMS",
+        "mm"
+      ],
+      "summary": "海淘二手碟之后，我又试了一下海淘新碟，直接从 CDJapan 购买市售 CD 专辑。速度很好，用 EMS 一周时间就到了。价格很好，因为是直购没有手续费，加上运费也比国内电商平台上的售价便宜。音质说实话，我听不出来和流媒体平台上的同专辑有多么大的差异，但是要比刻录碟和翻录碟明显好一点，直观感受是细节多一些，声音也更大一些。质量上我就有点困惑，用这些新碟和我先前买的二手旧碟比较，感觉新碟太轻太薄，从 CD 盒到碟片都是如此。我用游标卡尺量了一下，旧碟的盒子要厚 1.5mm。不过看上去闪闪发光，塑料盒透亮干净，簇新 C…",
+      "key_points": [
+        "我又试了一下海淘新碟，直接从 CDJapan 购买市售 CD 专辑。速度很好，用 EMS 一周时间就到了。价格很好，因为是直购没有手续费，加上运费也比国内电商平…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "学术打假风暴继续：南开大学1人、中山大学两人被免职",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%AD%A6%E6%9C%AF%E6%89%93%E5%81%87%E9%A3%8E%E6%9A%B4%E7%BB%A7%E7%BB%AD%EF%BC%9A%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A61%E4%BA%BA%E3%80%81%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E4%B8%A4%E4%BA%BA%E8%A2%AB%E5%85%8D%E8%81%8C",
+      "published": "Sun, 31 May 2026 08:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Nature",
+        "Cancer",
+        "Ageing",
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "5.31 ‍‍‍‍‍‍‍ 知识分子 The Intellectual ● ● ● 视频科普博主 “ 耿同学讲故事”掀起的学术打假风暴 ，又有了新的篇章。 5月30日周六，南开大学和中山大学均选在这一天公布被耿同学质疑的论文调查及相关人员处理结果。 其中，南开大学免去了生命科学学院院长陈佺的职务；中山大学免去了华南恶性肿瘤防治全国重点实验室副主任、肿瘤防治中心实验研究部副主任康铁邦，以及生命科学学院副院长邝栋明的职务。值得一提的是，三人都是国家杰出青年科学基金获得者，康铁邦还是国家科技进步二等奖得主。 01 从同济，…",
+      "key_points": [
+        "也得到了来自新华社的肯定。5月26日、27日，新华社微信公号先后发表题为《“耿同学”打假，值得深思的是什么》和《“耿同学”讲故事，为什么惊动全网？》的文章。耿同…",
+        "耿同学举报南开大学生命科学学院院长陈佺的《自然·癌症》 （Nature Cancer） 论文中，补充材料里64组数据在小数点后两位完全一致，而且有数据重复和小数…",
+        "南开大学免去了生命科学学院院长陈佺的职务；中山大学免去了华南恶性肿瘤防治全国重点实验室副主任、肿瘤防治中心实验研究部副主任康铁邦，以及生命科学学院副院长邝栋明的…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "奥斯维辛的芭蕾舞者走了：曾被迫为“死亡天使”跳舞，她用一生教会我们如何自由 | 经济学人讣告 （双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%A5%A5%E6%96%AF%E7%BB%B4%E8%BE%9B%E7%9A%84%E8%8A%AD%E8%95%BE%E8%88%9E%E8%80%85%E8%B5%B0%E4%BA%86%EF%BC%9A%E6%9B%BE%E8%A2%AB%E8%BF%AB%E4%B8%BA%E2%80%9C%E6%AD%BB%E4%BA%A1%E5%A4%A9%E4%BD%BF%E2%80%9D%E8%B7%B3%E8%88%9E%EF%BC%8C%E5%A5%B9%E7%94%A8%E4%B8%80%E7%94%9F%E6%95%99%E4%BC%9A%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E8%87%AA%E7%94%B1++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%AE%A3%E5%91%8A+%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 29 May 2026 08:21:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "she",
+        "her",
+        "to",
+        "was",
+        "She",
+        "of"
+      ],
+      "summary": "1 写在前面 4月27日，被誉为“奥斯维辛芭蕾舞女演员”的伊迪丝·埃格尔平静离世，享年98岁。从16岁时被剥夺奥运资格，到在集中营里被迫为“死亡天使”门格勒跳舞，再到战后饱受创伤后应激障碍折磨，她的人生经历了常人难以想象的至暗时刻。然而，这位心理学家用余生向世界证明：我们无法改变过去，但永远拥有选择如何看待它的自由。正如她所言：“你可以选择幸福，选择爱，选择起舞。 2 精读|翻译|词组 Obituary | The ballerina of Auschwitz 讣告 | 奥斯维辛芭蕾舞女演员 英文部分选自经济学人2…",
+      "key_points": [
+        "被誉为“奥斯维辛芭蕾舞女演员”的伊迪丝·埃格尔平静离世，享年98岁。从16岁时被剥夺奥运资格，到在集中营里被迫为“死亡天使”门格勒跳舞，再到战后饱受创伤后应激障…",
+        "2 精读|翻译|词组 Obituary | The ballerina of Auschwitz 讣告 | 奥斯维辛芭蕾舞女演员 英文部分选自经济学人20260…",
+        "” 他对她说。那是她在奥斯维辛集中营度过的第一个夜晚。伊迪丝 · 埃格尔当然会跳舞：她从五岁开始学芭蕾。穿上紧身衣和连裤袜练拉伸。俯身下去：脊背挺直，小腹收紧，…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "恶臭的赢学",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E6%81%B6%E8%87%AD%E7%9A%84%E8%B5%A2%E5%AD%A6",
+      "published": "Sun, 31 May 2026 23:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "deepseek",
+        "AI",
+        "high",
+        "B200",
+        "B300",
+        "H100"
+      ],
+      "summary": "我知道这篇文章可能又会刺激到不少小可爱，不过已经憋了好久了，还是忍不住。 中文自媒体上一直有个现象，就是很多本来挺好的，挺值得鼓励和赞许的事情，非要过度拔高，过度神话，抬到原本达不到的高度来吹捧，这叫啥，这叫捧杀。直到整出来的讨论散发出恶臭的味道，就是各种无脑贬低对手，嘲讽别人来彰显所谓优越感。 但事实不支持你这么拔高啊，事实也不是你想象的啊，然后坐等事实再打脸，恶心不恶心。 首先是 deepseek，是不是好产品，是好产品，说句国运产品不为过。去年我文章提过，拉动了国产芯片AI推理的市场，基于事实，值得赞许。但去…",
+      "key_points": [
+        "以上案例的主角们目前都还很清醒，没有被赢学裹挟，知道自己的位置就好。恶臭的不是他们",
+        "五个分站冠军，成绩相当好，逆袭的励志故事，也很棒。带领中国品牌杀入世界一线市场，这个本身绝对是好事，我也很欣赏他。（当然，也许应该换个谦逊的表达方式，很崇拜什么…",
+        "就是很多本来挺好的，挺值得鼓励和赞许的事情，非要过度拔高，过度神话，抬到原本达不到的高度来吹捧，这叫啥，这叫捧杀。直到整出来的讨论散发出恶臭的味道，就是各种无脑…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "长程验证：AI Agent 长任务的收敛机制",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/long-running-agent-verification/",
+      "published": "Sun, 31 May 2026 07:49:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Claude",
+        "Code",
+        "Codex",
+        "goal"
+      ],
+      "summary": "周末，我使用 Claude Code 的 `/workflows` 做了两个实验，结合我使用 Codex `/goal` 做的一系列实验，把两个能力放在一起看，",
+      "key_points": [
+        "我使用 Claude Code 的 `/workflows` 做了两个实验，结合我使用 Codex `/goal` 做的一系列实验，把两个能力放在一起看，"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-01",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "投资者担忧通胀再度飙升 | 经济学人财经（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%8A%95%E8%B5%84%E8%80%85%E6%8B%85%E5%BF%A7%E9%80%9A%E8%83%80%E5%86%8D%E5%BA%A6%E9%A3%99%E5%8D%87+++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Thu, 28 May 2026 12:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "in",
+        "of",
+        "is",
+        "it",
+        "you"
+      ],
+      "summary": "1 写在前面 思维导图作者： Summer，女，QE在职，梦想能仗走天涯 翻译/音乐 /健康 2 精读|翻译|词组 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 英文部分选自经济学人20260516期 财经版块 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 Investors fear another surge in inflation 投资者担忧通胀再度飙升 So why aren’t more buyi…",
+      "key_points": [
+        "1 写在前面 思维导图作者： Summer，女，QE在职，梦想能仗走天涯 翻译/音乐 /健康 2 精读|翻译|词组 Finance &amp; economic…",
+        "个中原因不难理解。多年来投资者一直担忧通货膨胀和政府赤字扩张问题，而中东战争让这两个问题同时恶化。根据 美国银行 对全球基金经理进行的最新月度调查， 40% 的…",
+        "不狂不放不申花 vivifang，女，本人丰富，日新月异，无法简介 Humi，女，学习财经的金融小白，不负韶华，平视世界 审校组： 风筝，热爱生活 热爱翻译 热…"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么压力单位这么混乱？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790028",
+      "published": "Tue, 26 May 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Pa",
+        "atm",
+        "bar",
+        "cm",
+        "kgf",
+        "psi"
+      ],
+      "summary": "宋宁世， 同意，到奥运会去偷！ 查看知乎原文 关键的原因是： “压强”这个物理量的内涵不只是“力 / 面积”。 课本选取“力 / 面积”来定义“压强”，但这个定义在物理课本这套基本基于质点模型的体系中很少会真正派上用场，反而更像是为了引出热学部分的流体压强而定制的入门知识点。 而“压强”的真正本质是什么？我们做个这样的变形，也就一目了然了： 这个结果中的“J/m³”是什么—— 能量 / 体积 ，换句话说，表达的是“ 物质在单位空间中的做功潜能 ”，或者简单理解成“ 能量密度 ”。 如果物质处于 固态 ，比如一个理想…",
+      "key_points": [
+        "我们回到初始的问题：为什么压强的单位这么混乱（从本质角度，说“压强”比“压力”更准确）？很显然， 因为压强的本质就是“能量密度”，而“能量”本身的表现形式又是无…",
+        "这还包括了另一个值得思考的问题：为什么 Pa 这个单位这么小？从“能量密度”的角度看，“能量”和“空间”都是在尺度上变化极为剧烈的物理量，而人类的感官系统，恰恰…",
+        "今天的胎压计一般会标准一个英制 psi（数字几十），数字在个位数的一开始是 kgf/cm²，后来也有标成 bar 的 到了 19 世纪后期，随着《米制公约》和世…"
+      ]
+    }
+  ]
+}
