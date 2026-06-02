@@ -1,0 +1,672 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T01:00:11.371543+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 90,
+    "fresh_candidates": 64,
+    "backfill_candidates": 26,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-02",
+      "fetched_at": "2026-06-02T01:00:06.048269+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4057.74,
+          "change": -10.83,
+          "change_pct": -0.27,
+          "volume": 676025806.0,
+          "amount": 131980191.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4481.66,
+          "change": -2.9899999999997817,
+          "change_pct": -0.07,
+          "prev_close": 4484.65,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-02 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 974.9899707749931,
+          "change": -0.6504777275869174,
+          "change_pct": -0.06667186959963327,
+          "prev_close": 975.64044850258,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-02 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+6%E6%9C%88%E6%9C%80%E5%BA%94%E8%AF%A5%E5%8E%BB%E5%93%AA%E9%87%8C%E6%97%85%E8%A1%8C%EF%BC%9F",
+        "title": "6月最应该去哪里旅行？",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "旅行目的地推荐/出游导流为主，实用信息分散，非当日高信息密度内容"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E7%9A%84%E5%85%AD%E4%B8%80%E8%8A%82%E7%A4%BC%E7%89%A9",
+        "title": "我的六一节礼物",
+        "platform": "槽边往事",
+        "source": "槽边往事",
+        "reason": "个人生活随笔为主，信息密度低，不适合作为日报条目保留"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-02T01:02:11.732276+00:00",
+      "lead_url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E9%A6%96%E4%B8%AA%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E6%B8%B8%E6%88%8F%E2%80%9D%EF%BC%8C%E5%99%B1%E5%A4%B4%E5%A4%A7%E8%BF%98%E6%98%AF%E7%9C%9F%E5%8E%89%E5%AE%B3%EF%BC%9F%E6%88%91%E4%BB%AC%E7%8E%A9%E4%BA%86%E4%B8%80%E6%8A%8A",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6405401.html",
+        "https://www.woshipm.com/ai/6405654.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%94%BE%E5%BC%83UCSF%E8%AE%B2%E5%B8%AD%E6%95%99%E6%8E%88%E4%BB%BB%E5%91%BD%E2%80%9C%E5%9B%9E%E5%BD%92%E2%80%9D%E5%A4%8D%E6%97%A6%EF%BC%8C%E8%88%92%E6%A0%A1%E5%9D%A4%E6%83%B3%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%90%86%E6%83%B3%E7%9A%84%E7%A0%94%E7%A9%B6%E6%89%80",
+        "https://daily.zhihu.com/story/9790140",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E8%BD%A6%E4%BC%81%E5%88%B0%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%EF%BC%9A%E6%AF%94%E4%BA%9A%E8%BF%AA%E7%9A%84%E8%BE%B9%E7%95%8C%E7%AA%81%E5%9B%B4%E6%88%98"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-02",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么长期主义知易行难？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E6%9C%9F%E4%B8%BB%E4%B9%89%E7%9F%A5%E6%98%93%E8%A1%8C%E9%9A%BE%EF%BC%9F",
+      "published": "Mon, 01 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 六亿居士 来源：雪球 结合中概互联最近的走势 ， 才能对 “ 长期主义 ” 有一种难以言喻的感觉 。 今天 ， 61借助哈佛商学院伊凡希娜和勒纳的合著 《 耐心的资本 》 ， 一起聊一聊 长期主义的困境 。 他们研究的核心问题不是怎么选股 、 怎么择时 ， 而是一个更根本的常见困惑 ： 我们都知道长期投资能赚钱 ， 为什么一到实操就变成了追涨杀跌 ？ 巴菲特说 ， 不打算持有一只股票…",
+      "key_points": [
+        "六亿居士 来源：雪球 结合中概互联最近的走势 ， 才能对 “ 长期主义 ” 有一种难以言喻的感觉",
+        "61借助哈佛商学院伊凡希娜和勒纳的合著 《 耐心的资本 》 ， 一起聊一聊 长期主义的困境",
+        "他们研究的核心问题不是怎么选股 、 怎么择时 ， 而是一个更根本的常见困惑 ： 我们都知道长期投资能赚钱 ， 为什么一到实操就变成了追涨杀跌"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "知道ASCO的第一个单词，就能理解LBA4和LBA5的待遇差别",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2441863604/392023920",
+      "published": "Mon, 01 Jun 2026 09:42:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ASCO",
+        "CSCO",
+        "LBA4",
+        "Daraxonrasib",
+        "H6",
+        "HR"
+      ],
+      "summary": "$康方生物(09926)$ $Summit Therapeutics(SMMT)$ 知道ASCO的全称是什么吗？很多人都忘了ASCO名字里的第一个单词是American，它从根上就是美国临床肿瘤学会，是美国医药工业的主场和话语权中心。 一、先搞懂ASCO的本质：它不是&#34;世界肿瘤大会&#34;，是&#34;美国肿瘤年会&#34; • 它的董事会90%是美国人，核心评审团95%是欧美专家 • 它的议程设置、奖项评选、报告排序，本质上服务于美国医药工业的利益 • 过去62年，ASCO的最高舞台，从来都是给美国药企…",
+      "key_points": [
+        "知道ASCO的全称是什么吗？很多人都忘了ASCO名字里的第一个单词是American，它从根上就是美国临床肿瘤学会，是美国医药工业的主场和话语权中心",
+        "接下来看看LBA4和LBA5的待遇差别： • 美国Mirati的Daraxonrasib公布KRAS G12C数据，全场起立鼓掌 • 中国康方的依沃西公布全球首…",
+        "它只是康方为AK112设计的全球战略第一步，是整个系列实验的马前卒。AK112也从来不是康方的全部，它只是康方多管线梯队的第一个排头兵"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "这个对了87年的估值指标，却让一代价值投资者永久退出市场",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3559889031/392023436",
+      "published": "Mon, 01 Jun 2026 09:42:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "Gap",
+        "Reverse",
+        "Yield",
+        "Common",
+        "CRSP"
+      ],
+      "summary": "毫无疑问，过去一个多月的A股行情，让价值投资者非常难受。 下图是截至5月28日中证800成长和中证800价值指数全收益口径下的今年迄今走势对比，一个是依然下跌超过5%，一个是上涨逼近30%，一来一去35个百分点以上的差异。尤其是考虑到四月初这两者表现还是相若，一个多月就出现如此巨大的差异，的确是让不少人抓狂的。 总算5月最后一个交易日的跷跷板，让成长稍稍回撤，让价值小小复苏。但仍不足以改变上面巨大的喇叭口。 如果是“正信”价值投资、红利策略之类的，或许还会淡定，牛市跑输甚至严重跑输，本就是深度价值的宿命。 但怕就怕…",
+      "key_points": [
+        "终于可以切回本文标题要聊的事情—— 一个对了至少87年的股市估值指标，最终却让一代价值投资者近乎永久退出了市场",
+        "但它至少不会让你因为”对了87年的判断“而永久退出市场",
+        "那些在1958年离场的价值投资者，他们错了吗？严格来说，没有。他们使用的指标，已经被验证了87年——比大多数人的寿命还长。他们的分析框架是自洽的，数据是扎实的，…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "来了，伊利股息又来了。",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1929796343/392044539",
+      "published": "Mon, 01 Jun 2026 09:42:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "http",
+        "SH600036",
+        "SH600887",
+        "SZ000858",
+        "xueqiu.com"
+      ],
+      "summary": "在股票投资的世界里时间似乎总是过得很快，去年6.1儿童节收到伊利的分红依旧历历在目，一转眼又到了收分红的季节了，你知道，价值投资最开心的事情就是收到他的股息，回首伊利的分红，巴哥已经是连续第9年时间了。 5月28号收盘，伊利发布公告，定于6月4号派发现金红利，你永远可以相信那些优秀的企业办事效率，他们从不拖泥带水，在分红效率方面，伊利遥遥领先A股其它企业。每股派发0.9元，合计派发57亿的大礼包，各位持有伊利的股东，我想此刻你们内心都是喜悦的，大家都应该一如既往多支持伊利产品，多消费就是支持经济复苏。 伊利作为巴哥…",
+      "key_points": [
+        "关于伊利股息使用安排 巴哥是一名全职投资者，那么这笔分红自然拿出来贴补家用，差不多又增加了4个月的粮草，这只是末期分红，2026年12月份还会有一次中期分红，2…",
+        "过去9年伊利的总派息553亿，每股大致9元左右，我8万股伊利，总计分到股息72万左右，这就是巴哥敢于全职投资的底气，未来10年伊利每股能到多少，保守估计每股会1…",
+        "意味着明年巴哥又稳了，未来10年伊利的盈利都会非常稳定，随着时间推移，复利会起到绝对作用，你只会赚到越来越多的钱，兄弟们，要有慢慢变富的心态，虽然当前白马股不受…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当硫磺的库存防线被击穿之后",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7305934056/392038656",
+      "published": "Mon, 01 Jun 2026 09:41:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600096",
+        "SZ002895",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$川恒股份(SZ002895)$ $云天化(SH600096)$ 下面列举了三张磷酸与硫磺的走势图，第一张是20年以来的价格走势。第二张是上一轮周期20年-21年间硫磷酸与硫磺的走势图，第三张是24年至今磷酸与硫磺的走势图 仔细看下面 两次周期 中磷酸与硫磺的走势图，是不是有一定的相似之处： （1）硫磺价格启动要比磷酸价格早 （2）硫磺价格启动初期，磷酸价格波动非常小 （3）当硫磺价格上涨一段时间之后，磷酸价格开始启动了，并且开始加速上涨 （20年6月-21年6月硫磺涨了一年，磷酸开始启动；24年3月-26年3月，…",
+      "key_points": [
+        "硫磺的库存防线如果被击穿，那么就很容易迎来磷酸价格的暴涨，这种是报复式的上涨",
+        "磷酸过去几个月从7000的单价涨到了10000， 上周磷化工头部企业单周涨价1000元/吨，才是真正体现了硫磺防线被击穿后磷酸应有的趋势， 如果硫磺防线被击穿，…",
+        "第一张是20年以来的价格走势。第二张是上一轮周期20年-21年间硫磷酸与硫磺的走势图，第三张是24年至今磷酸与硫磺的走势图 仔细看下面 两次周期 中磷酸与硫磺的…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "这一次，天涯能重启吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6406340.html",
+      "published": "Mon, 01 Jun 2026 11:03:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Tech",
+        "AI",
+        "BBS",
+        "IDC",
+        "Costco",
+        "DNS"
+      ],
+      "summary": "沉寂三年的天涯社区在儿童节这天按下重启键，新域名的启用引发了老用户的集体怀旧。这场承载着中文互联网记忆的回归，究竟是资本运作下的长远布局，还是又一次贩卖情怀的短暂狂欢？从服务器宕机到账号密码遗忘，首日暴露的种种问题，让这场'复古复兴'充满未知与挑战。 6月1日凌晨0点，沉寂了整整三年的天涯社区，终于在儿童节这天打响了“老朋友们回家”的发令枪。 用户对天涯的回归，充满期待。在社交平台，与#天涯回归 相关的话题，持续占据热搜榜。 图：社交平台关于“天涯”的热搜 来源：微博 《听筒Tech》截图 这个曾被誉为“中文网络第…",
+      "key_points": [
+        "这一次的重启背后显然有资本运作的逻辑。为了填补拖欠电信费用带来的资金缺口，新天涯联合工作组在重启前推出了“新天涯创世成员产品服务包”，全球限量发行9999份，单…",
+        "沉寂三年的天涯社区在儿童节这天按下重启键，新域名的启用引发了老用户的集体怀旧。这场承载着中文互联网记忆的回归，究竟是资本运作下的长远布局，还是又一次贩卖情怀的短…",
+        "天涯的老玩家们终于又等来了这一天。6月1日0点，天涯社区正式按下重启键"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "鸿蒙开发：json转对象插件回来了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6406236.html",
+      "published": "Mon, 01 Jun 2026 10:04:38 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "json",
+        "DevEco",
+        "Studio",
+        "IDE",
+        "abnerming888.github.io",
+        "jetbrains"
+      ],
+      "summary": "前言 插件已适配 DevEco Studio 5.0.5 Release 一年前，开发了一个json转对象的插件，如果不是今日用到，真的差点就把它给遗忘了，在用的时候，却发现，插件的版本已不兼容当前的DevEco Studio，查看以往的文章评论，这个问题却早已出现，由于自身工作繁忙，竟然拖到了现在，实在有愧！还请各位老板多包容，毕竟自己维护着太多的组件和插件，个人精力确实有限，但接下来的时间，我就要开始着手维护了。 首先，我重新编译了插件，进行了上传，大家可以下载最新的安装包进行体验了，还是和以前一样，提供了在线…",
+      "key_points": [
+        "前言 插件已适配 DevEco Studio 5.0.5 Release 一年前，开发了一个json转对象的插件，如果不是今日用到，真的差点就把它给遗忘了，在用…",
+        "工具使用 在线版地址： abnerming888.github.io/vip/json/js… 如果您不想下载插件，在浏览器中输入以上的地址，便可以直达json…",
+        "我重新编译了插件，进行了上传，大家可以下载最新的安装包进行体验了，还是和以前一样，提供了在线版和IDE插件版，两个选择，最新的版本，除了升级了版本，兼容了最新的…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "小红书要再造一个足球“社区”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6406277.html",
+      "published": "Mon, 01 Jun 2026 09:26:31 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FIFA",
+        "UGC",
+        "App",
+        "BBS",
+        "CC0",
+        "ESPN"
+      ],
+      "summary": "小红书拿下美加墨世界杯转播权的战略意图远不止于赛事直播。作为国民级话题入口，世界杯将带动平台UGC生态爆发式增长，助力其突破男性用户增长瓶颈，并构建足球垂类社区。本文深度解析这场价值数十亿的版权博弈背后，内容平台如何重构体育赛事商业化路径。 短短半个月，美加墨世界杯在中国的命运，峰回路转。 5月15日，中央广播电视总台（以下简称“总台”）宣布拿下美加墨世界杯在中国大陆的独家全媒体权利。5月27日，小红书、咪咕宣布成为本届世界杯持权转播商。 其中小红书“出人意料”的加入尤为具有反差。官宣前一周，已经拿到消息的媒体人发…",
+      "key_points": [
+        "更深一层的阳谋是：小红书可以借助杯赛的汹涌流量，把用户引导、沉淀到自家平台上，通过世界杯相关的UGC内容和社交生态持续激活，催生个足球“小社区”，并最终巩固自己…",
+        "小红书显然不会打造一个传统的足球论坛。它真正的目标，是构筑一个“社区的社区”。也就是在整个大社区的基础上，融入进去千百个小社区",
+        "小红书拿下美加墨世界杯转播权的战略意图远不止于赛事直播。作为国民级话题入口，世界杯将带动平台UGC生态爆发式增长，助力其突破男性用户增长瓶颈，并构建足球垂类社区…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "借助飞书CLI用自然语言操作飞书创建云文档",
+      "title_zh": "借助飞书 CLI，用自然语言直接操作知识库与云文档",
+      "url": "https://www.woshipm.com/ai/6405401.html",
+      "published": "Mon, 01 Jun 2026 08:54:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Codex",
+        "CLI",
+        "gt",
+        "Markdown",
+        "Agent"
+      ],
+      "summary": "文章把飞书 CLI 的价值讲得比较清楚：它不是单纯的命令行封装，而是把飞书文档、搜索和批量更新能力暴露给 AI Agent 使用。作者用 5 步串起安装、授权和自然语言调用流程，核心意义在于把协作工具从“人工点击界面”变成“可被智能体驱动的工作系统”。对正在搭建内部知识流转、自动化写作或 Agent 办公流的人，这篇有直接参考价值。",
+      "key_points": [
+        "以下内容以借助飞书CLI用自然语言操作飞书创建文档为例",
+        "之后就可以直接用自然语言操作飞书。例如： 帮我在飞书知识库中创建一篇文章，标题叫《AI 产品机会判断方法》，放到社区知识库/AI产品经理-看这里",
+        "见下图： 四、第一次使用：官方推荐的 5 步流程 第一次使用时，需要先把 Codex 和飞书 CLI 接起来。这部分只需要做一次。整体流程是： 安装 CLI -…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "如果你只把 Codex 当编程工具，可能看错了",
+      "title_zh": "别把 Codex 只当编程工具，它更像一个 Agent 工作台",
+      "url": "https://www.woshipm.com/ai/6405654.html",
+      "published": "Mon, 01 Jun 2026 08:53:51 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "Codex",
+        "PRD",
+        "AI",
+        "PM",
+        "Skill"
+      ],
+      "summary": "这篇并不是泛泛夸 AI，而是围绕一个 PRD 生成案例解释 Codex 如何承担需求澄清、边界纠偏和文档产出。作者提出的重点判断是：真正的变化不在“代码生成更快”，而在用户开始把整段工作流交给 Agent 承接。文章还给出一套评审 Agent 产品的五问框架，适合产品、研发和工具团队用来判断一个 Agent 是“功能堆砌”还是“能接住任务”。",
+      "key_points": [
+        "是这套 Agent 产品设计方法 如果你不是做开发工具，这篇文章依然有价值",
+        "一张 Agent 产品设计检查表： 如果你要设计或评审一个 Agent 产品，可以直接用下面这张表： 这张表也可以反过来用在 PRD 里：每设计一个 Agent…",
+        "这对其他 AI 产品也有启发：如果你的产品里有复杂后台、复杂配置、复杂表格、复杂命令，不一定要把所有复杂度都可视化出来。你也可以让 Agent 吸收一部分执行复…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "全球升温已连续三年超过1.5℃，这意味着什么？这一临界点失守是否会导致变暖迎来质变？",
+      "title_zh": "全球升温连续三年超过 1.5℃，这意味着什么？",
+      "url": "https://daily.zhihu.com/story/9790140",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "ppm",
+        "AMOC"
+      ],
+      "summary": "这条问答的价值在于把“突破 1.5℃”从抽象口号翻译成现实风险。作者指出，过去三年的滑动平均升温已经短暂越过《巴黎协定》的关键门槛，这说明气候系统的底座正在整体抬升；更值得警惕的是，这并不等于世界立刻发生断崖式变化，而是多个临界点被逐步逼近，极端天气、海温异常和系统性风险会更频繁地叠加出现。适合作为理解当前气候形势的入门读物。",
+      "key_points": [
+        "而全球海洋平均气温在部分阶段甚至达到历史新高，这意味着快速升温根本不是个例，而是气候系统基础状态的改变",
+        "过去三年气温偏高滑动平均值确实已经突破 1.5℃，这意味着巴黎协定中的第一条红线被短暂突破，可以说变暖达到了新高度",
+        "不同升温情景下全球各系统可能面临的气候影响 现在全球变暖到底怎样了？已达前所未有之水平 现在全球气候系统正经历着多维度的加速变暖，其中 23 年、24 年和 2…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些超出一般认知的极端物质？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790154",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Cl",
+        "C.",
+        "Tantardini",
+        "chem",
+        "Davy",
+        "Dulong"
+      ],
+      "summary": "mekdull， chem is try！永远记得对化学和生物的热爱！ 查看知乎原文 看了一圈发现居然没什么人提到 三氯化氮 （ ），那就不得不来写一篇了。如果你了解这种物质，那你现在或许已经感到害怕或者激动了，因为这货身上的几乎所有性质，都指向了那个化学的 究极奥义 —— 爆炸 。 三氯化氮实物（底部的黄色油状液体） 为了介绍这种物质，我们需要把时间往回拉一拉。1811 年，在巴黎的一间实验室内，年轻的法国化学家 皮埃尔·杜隆 （P. Dulong）正饶有兴趣地制备着新的物质。当他把 氯气 （ ）通入 氯化铵 （…",
+      "key_points": [
+        "我只能说，和三氯化氮 几乎是一个德性 ，甚至是 更不稳定 。纯净的 三溴化氮 （ ）直到 1975 年才被制得，而且据说在 -100℃就爆炸了；纯净的 三碘化氮…",
+        "这只是玩笑话，因为法拉第本人也因为三氯化氮 吃了不少苦 。据他自己的回忆：“我逃脱了四次爆炸，其中最可怕的一次是用食指和中指捏住了一个装有微量三氯化氮的试管。爆…",
+        "大剂量三氯化氮在阳光下爆炸（动图） 三氯化氮当然不会让戴维失望。反应生成的产物直接把他的整个实验装置 炸上了天 ，如果不是因为戴维在爆炸前的 最后一刻成功逃走…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“首个量子计算游戏”，噱头大还是真厉害？我们玩了一把",
+      "title_zh": "“首个量子计算游戏”到底是真突破还是概念包装？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E9%A6%96%E4%B8%AA%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E6%B8%B8%E6%88%8F%E2%80%9D%EF%BC%8C%E5%99%B1%E5%A4%B4%E5%A4%A7%E8%BF%98%E6%98%AF%E7%9C%9F%E5%8E%89%E5%AE%B3%EF%BC%9F%E6%88%91%E4%BB%AC%E7%8E%A9%E4%BA%86%E4%B8%80%E6%8A%8A",
+      "published": "Mon, 01 Jun 2026 22:17:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "app",
+        "san",
+        "amp",
+        "ChatGPT",
+        "cm",
+        "Fangorn"
+      ],
+      "summary": "这篇文章把刷屏的《量子后室》拆成两个层面来看：一层是市场宣传里的“量子计算首个消费级产品”叙事，另一层是游戏机制里到底有没有真实调用量子计算资源。亮点在于，它没有停留在概念科普，而是顺着量子比特规模、默认地图设计和“量子霸权”争议去核查产品含量，最后给出一个更冷静的判断：量子元素并非纯噱头，但距离大众想象中的量子游戏革命也还很远。适合想快速理解量子计算商业化叙事与真实技术边界的人。",
+      "key_points": [
+        "量子计算领域多年来被一个叫“量子霸权”的概念困扰： 如 果有一天量子计算机解决某些问题的速度远超经典计算机，并且是真的因为量子厉害而不是偶然，那么就可以说量子计…",
+        "6*6的地图 这种情况就该用到36个量子比特了，然而全游戏没有36个量子比特的选项——这大概意味着，默认的游戏模式并没有使用量子计算",
+        "有些经典手段算起来很难很慢的问题，使用量子比特算起来应该很快。现实中呢，找到这样的问题非常困难。大部分问题量子计算算下来反而更慢，少数量子算起来更快的问题好像也…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "等红灯时全程踩着刹车，不累吗？老司机一句话，把我点醒了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%AD%89%E7%BA%A2%E7%81%AF%E6%97%B6%E5%85%A8%E7%A8%8B%E8%B8%A9%E7%9D%80%E5%88%B9%E8%BD%A6%EF%BC%8C%E4%B8%8D%E7%B4%AF%E5%90%97%EF%BC%9F%E8%80%81%E5%8F%B8%E6%9C%BA%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E6%8A%8A%E6%88%91%E7%82%B9%E9%86%92%E4%BA%86",
+      "published": "Mon, 01 Jun 2026 22:17:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Auto",
+        "Hold",
+        "ID",
+        "qcsyzs"
+      ],
+      "summary": "作者 | 轮谷 来源 | 公众号【汽车实用知识】 你有没有发现一个很有意思的现象： 现在很多人开自动挡车，等红灯时,明明还有60秒，脚却像“焊死”在刹车踏板上一样，一动不动。 尤其晚高峰。前面一排红灯，后面一排尾灯。车里的人一边听歌，一边发呆，一边默默练“脚部耐力”。 今天咱们就来聊聊：为 什么那么多人等红灯时全程踩刹车？这样到底累不累？对车有没有影响？ 希望对你有所帮助。 先上结论： ✅ 很多人等红灯时一直踩着刹车，其实主要是因为“省事”和习惯了。自动挡车挂着D挡时，只要踩住刹车，绿灯一亮松脚就能直接走，不用来回…",
+      "key_points": [
+        "所以老司机基本都知道一句话：“等红灯别乱挂P挡。” 结语： 在文章最后，轮谷给大家 总结一下等红灯时正确的操作： 红灯短，D挡踩刹车； 红灯长，N挡拉手刹； 有…",
+        "今天咱们就来聊聊：为 什么那么多人等红灯时全程踩刹车？这样到底累不累？对车有没有影响",
+        "先上结论： ✅ 很多人等红灯时一直踩着刹车，其实主要是因为“省事”和习惯了。自动挡车挂着D挡时，只要踩住刹车，绿灯一亮松脚就能直接走，不用来回换挡，这对不少朋友…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "从车企到科技巨头：比亚迪的边界突围战",
+      "title_zh": "从车企到科技巨头：比亚迪的边界突围战",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E8%BD%A6%E4%BC%81%E5%88%B0%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%EF%BC%9A%E6%AF%94%E4%BA%9A%E8%BF%AA%E7%9A%84%E8%BE%B9%E7%95%8C%E7%AA%81%E5%9B%B4%E6%88%98",
+      "published": "Mon, 01 Jun 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "A3",
+        "nm",
+        "IC",
+        "OTA"
+      ],
+      "summary": "文章把比亚迪最近的智能化动作放在一个更完整的技术栈里看，而不只是发布会上的“新车参数”。一条线是城市领航安全兜底，回应用户敢不敢用智驾；另一条线是自研 4nm 智驾芯片璇玑 A3，说明比亚迪试图把芯片、算法、整车和制造整合成闭环系统。它值得读的地方在于，这不是单点功能升级，而是在讨论中国车企怎样从制造公司跨到平台型科技公司。",
+      "key_points": [
+        "比亚迪的芯片能力并不只停留在“提出需求”这一层。比亚迪在芯片制造流程上覆盖产品定义、架构设计、电路设计、版图设计、晶圆制造、封装、测试等环节，并拥有芯片研发团队…",
+        "比亚迪的科技属性 不是突然冒出来的 如果只看璇玑A3，很容易以为比亚迪是突然开始“造芯”。但事实上，比亚迪的芯片能力不是从这颗4nm智驾芯片才开始的",
+        "只靠承诺还不够。车企还需要持续提升系统能力，把感知、算法、算力和整车控制进一步打通。这也就引出了比亚迪在同一场发布会上亮出的另一张牌：璇玑A3"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "用微波炉热了辣椒，整栋公寓楼都被疏散了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%94%A8%E5%BE%AE%E6%B3%A2%E7%82%89%E7%83%AD%E4%BA%86%E8%BE%A3%E6%A4%92%EF%BC%8C%E6%95%B4%E6%A0%8B%E5%85%AC%E5%AF%93%E6%A5%BC%E9%83%BD%E8%A2%AB%E7%96%8F%E6%95%A3%E4%BA%86",
+      "published": "Mon, 01 Jun 2026 18:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "youtube",
+        "Ashley",
+        "blingbling",
+        "Doerzbacher",
+        "falling",
+        "giphy"
+      ],
+      "summary": "微波炉好啊，几乎热啥都可以。 但我特别不建议你直接热一根生辣椒，否则你会收获一枚燃烧弹加一瓶防狼喷雾，攻击对象是你和你的微波炉。 一定会有人想去试，这边的建议是没有必要！我们看看其他人的经历就可以了！ 辣椒为什么会成为燃烧弹？ 先来看看辣椒燃烧的情况。 辣椒很快膨胀、变瘪、燃烧丨youtube/MICROWAVECHANNEL 电光火石间，拍摄者一个趔趄丨youtube/StormChasingVideo 本来想用微波炉收获一盘虎皮青椒，没想到燃起来了？ 可能有2个原因。 第一个原因， 加热时间过长 。 加热时间太…",
+      "key_points": [
+        "发现事件起因，是一名住户用微波炉加热了辣椒。在打开微波炉之后，居民感到呼吸困难",
+        "微波炉辣椒雾弥漫开来，多名住户开始难受，消防队不得不疏散了整栋楼的居民",
+        "被雾化都很可怕”，一名消防员说，“你只要不小心把辣椒弄到眼睛过，就知道那是什么滋味了。” 当事公寓楼丨twitter/ Ashley Doerzbacher 当…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "电影太小，容不下她",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%94%B5%E5%BD%B1%E5%A4%AA%E5%B0%8F%EF%BC%8C%E5%AE%B9%E4%B8%8D%E4%B8%8B%E5%A5%B9",
+      "published": "Mon, 01 Jun 2026 20:47:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Authentic",
+        "Brands",
+        "Gala",
+        "Group",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 Roxie 今天是 玛丽莲 ·梦露诞辰一百周年。 一个已经死去 半个多世纪 的女人，面孔至今仍是这个星球上辨识度最高的视觉符号之一。 当我们在 2026年纪念梦露的时候，我们纪念的究竟是哪一个梦露？ 这个问题之所以成立，是因为梦露从来不是一个人。她至少是两个 。 一个叫诺玛 ·珍·莫滕森的洛杉矶孤女，和一个叫玛丽莲·梦露的二十世纪神话。 围绕她的全部争论，归根到底都是关于这两者之间那条裂缝的争论。 关于梦露最持久的偏见，是认为她的银幕魅力是一种天然的、近乎生理性的发光，与表演技艺无关。这个判断既傲慢又懒惰 ，因…",
+      "key_points": [
+        "二十世纪福斯最卖座的影片《绅士爱美人》为公司带来了巨额利润。梦露在影片中的报酬是她合约规定的周薪 1500 美元左右，整部电影下来不到 2 万美元；而她的搭档简…",
+        "2026年的百年诞辰催生了一系列全球性的纪念活动。洛杉矶的学院博物馆、巴黎的法国电影资料馆、伦敦的国家肖像画廊 、 英国电影协会南岸影院几乎同时推出了各自的大型…",
+        "合作邮箱：irisfilm@qq.com 微信： hongmomgs 这两天，电影界痛失一个最深刻的思想家 看了这片你就明白为什么她红遍世界 当年，她是顶流中的…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "她的传记片。和她无关",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%B9%E7%9A%84%E4%BC%A0%E8%AE%B0%E7%89%87%E3%80%82%E5%92%8C%E5%A5%B9%E6%97%A0%E5%85%B3",
+      "published": "Mon, 01 Jun 2026 20:47:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Blonde",
+        "Comment",
+        "Film",
+        "fuck",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者： Jessica Kiang 译者：Issac 校对：易二三 来源：Film Comment （2022年9月26日） 无论安德鲁·多米尼克被大肆宣传的《金发梦露》有多么精彩，都与真正的玛丽莲·梦露没有多大关系。 它与诺玛·简（梦露的本名），或是影片及其所改编的原著中梦露的形象更没什么关系。 《金发梦露》 乔伊斯·卡罗尔·欧茨撰写的原著洋洋洒洒、感人至深，它和影片都将梦露描述为一个饱受折磨、充满悲剧倾向的有血有肉的标志性人物。 影片中所展示的技巧都来自于多米尼克，此外，通过安娜·德·阿玛斯非凡的模仿（她的声音…",
+      "key_points": [
+        "在前面提到的梦露/米勒/栅栏的那场戏里，或是开衫/海滩的那场戏里，或是重现玛丽莲和她的前任丈夫乔·狄马乔（由选角失误的鲍比·坎纳瓦尔饰演）坐在窗边的一个镜头里，…",
+        "此外，通过安娜·德·阿玛斯非凡的模仿（她的声音模仿尤其不可思议），影片对现实世界里玛丽莲形象的细致再现有时令人惊叹。考虑到欧茨和多米尼克都坚持必须把他们的《金发…",
+        "总会有人坚持说他/她的动机是为了矫正。在那片好莱坞苍穹中留给最悲剧的明星的遥远境地里，她经历了几十年光辉灿烂却又遭到了孤独的放逐，而我们想要在此之后，将她那焦躁…"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "放弃UCSF讲席教授任命“回归”复旦，舒校坤想建一个理想的研究所",
+      "title_zh": "放弃 UCSF 讲席教授留任，舒校坤回复旦筹建理想研究所",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%94%BE%E5%BC%83UCSF%E8%AE%B2%E5%B8%AD%E6%95%99%E6%8E%88%E4%BB%BB%E5%91%BD%E2%80%9C%E5%9B%9E%E5%BD%92%E2%80%9D%E5%A4%8D%E6%97%A6%EF%BC%8C%E8%88%92%E6%A0%A1%E5%9D%A4%E6%83%B3%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%90%86%E6%83%B3%E7%9A%84%E7%A0%94%E7%A9%B6%E6%89%80",
+      "published": "Mon, 01 Jun 2026 08:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "UCSF",
+        "FRET",
+        "PI",
+        "new",
+        "GFP"
+      ],
+      "summary": "这不是简单的“海归人物志”，而是借舒校坤回国这件事展开讨论：顶尖科学家为什么愿意离开美国成熟体系，在国内重新搭建研究平台。文章有两个看点，一是纠正了外界对 UCSF 讲席教授任命与离职关系的误读，二是把 iCOBRA 研究所的设想落到跨学科组织、智能化生命科学和长期科研环境建设上。它让“人才流动”从新闻事件变成了科研制度与平台竞争的问题。",
+      "key_points": [
+        "6.1 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 舒校坤 编者按： 3月22日，复旦大学化学系官网更新显示，舒校坤已全职加盟复旦大学。根据其…",
+        "舒校坤： 我稍微纠正一下这个说法。事情是这样的，我准备回国，按规定要提前向学校提出辞职。学校得知后想挽留我，就准备了一个留用方案，其中一项是提供讲席教授的任命。…",
+        "从美国加州大学旧金山分校 （University of California, San Francisco，简称UCSF） 终身教授的位置离开，回到复旦大学组建…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-02",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "明代河西走廊、辽东、宁夏这种纯军事地区是不是缺乏文教？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790117",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "楠贝， 一位默默无闻的历史作者 查看知乎原文 这里谈谈辽东吧。 第一点，因为辽东都司特殊的历史沿革，其下卫所在绝大多数时间里均为实土卫所，发挥了州县的部分职能，并不会因为只有卫所没有州县就无法开展文化教育事业 洪武四年（1371 年）六月，朱元璋收到纳哈出将要进犯辽东南部地区的消息。朱元璋一开始还是决定先尝试招抚，他再度派出了与纳哈出有渊源的黄俦持书至金山宣谕纳哈出，希望纳哈出能够投降。这次纳哈出显得非常强硬，他不仅拒绝投降，还扣留了黄俦。朱元璋此时无疑意识到了纳哈出不会轻易投降，明廷必须诉诸武力了，他立即派遣马云…",
+      "key_points": [
+        "中原的儒学文化、宗教文化、服饰文化都大规模传入辽东，对当地造成了深远的影响。事实上，题主的想法多少有些过虑，明朝在统治区内相当重视移风易俗，动荡如交阯，只要局势…",
+        "除了儒学外，还包括武学、医学、阴阳学、乐学等，当然，主要还是以五经、四书为主的儒学内容。至于老师，则主要是由谪戍东北的有文化的“流人”担任，甚至形成了特色的“流…",
+        "因为辽东都司特殊的历史沿革，其下卫所在绝大多数时间里均为实土卫所，发挥了州县的部分职能，并不会因为只有卫所没有州县就无法开展文化教育事业 洪武四年（1371 年…"
+      ]
+    }
+  ]
+}
