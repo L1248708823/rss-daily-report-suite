@@ -1,0 +1,732 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T01:00:11.569053+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 97,
+    "fresh_candidates": 68,
+    "backfill_candidates": 29,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-07",
+      "fetched_at": "2026-06-07T01:00:06.276255+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4027.74,
+          "change": -30.04,
+          "change_pct": -0.74,
+          "volume": 662918577.0,
+          "amount": 136388787.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4327.46,
+          "change": -147.72000000000025,
+          "change_pct": -3.3,
+          "prev_close": 4475.18,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-06 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 944.3931708007137,
+          "change": -32.23733071840786,
+          "change_pct": -3.3008728140544035,
+          "prev_close": 976.6305015191216,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-06 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%AE%E4%BA%86%E8%85%8B%E6%AF%9B%E5%8F%8D%E8%80%8C%E5%91%B3%E9%81%93%E6%9B%B4%E5%A4%A7%E4%BA%86%EF%BC%9F",
+        "title": "为什么刮了腋毛反而味道更大了？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/止汗产品软广导向明显，营销信息多于知识信息。"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-07T01:01:21.031518+00:00",
+      "lead_url": "https://tech.meituan.com/2026/05/07/Agent-AI-Coding.html",
+      "top_urls": [
+        "https://daily.zhihu.com/story/9790283",
+        "https://www.woshipm.com/ai/6409017.html",
+        "https://www.woshipm.com/ai/6409011.html",
+        "https://www.woshipm.com/ai/6394902.html",
+        "http://xueqiu.com/6087293231/393249006"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "产业基础设施不该有灵魂，它应该有规则——致心动公司管理层",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1710524900/392960687",
+      "published": "Sat, 06 Jun 2026 13:08:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Maker",
+        "taptap",
+        "maker",
+        "TapTap",
+        "agent"
+      ],
+      "summary": "$心动公司(02400)$ 今天针对taptap maker做了一番的激情评论，Maker的负责人天一反驳说他不是为了对线，他只在表达他的主张。他说他们思考这个问题的出发点： 以玩家视角出发，要避免将很多低质的游戏推给玩家。 但我不一样，我确实是在对线，而且是作为小股东，对公司管理层的业务决策提出重大关切和建言。所以我评论没发在taptap，而是发在雪球，我认为这不是开发者or玩家的视角问题，这场争议的本质是taptap maker的战略定位问题，是「平台策展权」与「市场自治权」的边界之争： 其一、定位之争：Mak…",
+      "key_points": [
+        "平台公告的最后一句说：「有特色、有自己表达、有自己灵魂的作品」。这句话作为文化口号没问题，但作为产业基础设施的筛选标准，它是致命的。因为 产业基础设施不应该有灵…",
+        "如果 Maker 只是在为第一方游戏开发团队筛选「符合公司调性的制作人」，那这笔账完全算不过来。免费 token 投入是巨大的成本，你把这笔成本花在一场内部招聘…",
+        "我确实是在对线，而且是作为小股东，对公司管理层的业务决策提出重大关切和建言。所以我评论没发在taptap，而是发在雪球，我认为这不是开发者or玩家的视角问题，这…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "要做一个理性的投资者",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1674052027/393260187",
+      "published": "Sat, 06 Jun 2026 13:07:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "http",
+        "Q1",
+        "SH601088",
+        "SH601899",
+        "SZ000408"
+      ],
+      "summary": "最近我的重仓股紫金，藏格一直下跌，很多人开始恐慌，讲黄金暴跌了，铜也暴跌了，锂也跌下来了不少等等。然后一些科技公司最近一直暴涨，但估值非常高，也可能是我看不懂为什么会那么高的估值还会涨那么多，不可否认这些公司股价高了，公司可以增发股份获得更多资本投资科技，投资人工智能，也会有更多的资本去投入科技。这可以让我们国家对于这块的竞争不会落后美国太多，刷抖音看到一个采访，那人是人工智能里面的专家年薪几百万美金那种，讲如果美国的人工智能有90分，中国可能有85分，落后美国6到12个月，其它国家这方面可能只有三四十分了。最近也…",
+      "key_points": [
+        "今年我关注的行业涨幅比较好的还有曾经重仓的煤炭股，神华，陕西煤业，兖州煤业，淮北矿业等等，中海油也不错，就连以前3.5买过的内蒙华电今年既然可以涨到最高价8元。…",
+        "我们几个藏格群的战友又聚一起了，有个战友讲是不是我们的投资逻辑跟不上时代了，最近紫金，藏格一直跌，科技股都涨天上了。有些人还是比较厉害，总是在风口，比如但总，2…",
+        "也去参观了紫金山铜金矿，紫金确实是很不错的公司。管理层都比较专业，回答问题都会说到点子上，中途休息的时候有个股东问董秘怎么看待股价一直下跌，董秘讲股票短期波动我…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "一半苍茫，一半向往！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5068022281/393222796",
+      "published": "Sat, 06 Jun 2026 13:07:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600887",
+        "SH601318",
+        "XD",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这张照片一直很喜欢，2019年在帕劳旅游无人岛拍的，枯木的苍茫，大海的向往！ 看到昨晚美股纳指跳水4.18%，昨天科创50也跳了，对我的科技三叉戟感到了一丝悲凉，但是对硬科技崩盘转向资金轮动到红利和软科技（三叉戟）又产生了希望。 市场永远都是既有希望，也有遗憾。 其实作为散户投资者，能做的事情并不多，但是很多人以为自己可以做的事情很多。在每一个浪潮的开始进入，在每一个浪潮的结束离开。 当潮水退去，才知道谁在裸泳。 我觉得在三叉戟上面的操作，局部是成功的，获得了大量的利差，但是仍然是要受到股价震荡的影响。导致今年回撤…",
+      "key_points": [
+        "而且股息的流动性收益足以支撑我今年的生活，所以潜伏等待机会吧 哲学角度，任何时候都是，一半苍茫，一半向往",
+        "其他股票的回调都在预计范围以内。不得不承认，小米的股价跌的有点超过我的预设区间。但是小米的股价波动历来就是，超高波动幅度，习惯了就好。不然从10元涨到62，也不…",
+        "2019年在帕劳旅游无人岛拍的，枯木的苍茫，大海的向往"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "非农把金银砸懵了，接下来怎么看、怎么动？",
+      "title_zh": "非农超预期后，黄金白银与美债收益率为何一起剧烈重定价",
+      "url": "http://xueqiu.com/6087293231/393249006",
+      "published": "Sat, 06 Jun 2026 13:07:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "BP",
+        "CME",
+        "http",
+        "SH600489",
+        "SH600547"
+      ],
+      "summary": "文章围绕美国 5 月非农超预期后的市场连锁反应展开，梳理了美债收益率、美元、黄金、白银和原油之间的传导链条。虽然是市场评论稿，但比情绪化唱多唱空更有价值的地方在于，它试图解释这轮资产共振背后的宏观定价逻辑，以及“数据强于预期”如何快速改写降息预期。",
+      "key_points": [
+        "美元指数突破 100 点位：到重要的心理阈值 从数据细节拆解来看，本轮市场下跌其实存在明显的情绪过度解读。美国 5 月非农新增就业 17.2 万人，大幅高于市场…",
+        "美联储 12 月议息加息概率走势图：加息概率70% 在这种极端鹰派的利率预期下，对利率高度敏感的黄金、白银短期出现剧烈承压，其实完全符合市场定价逻辑。实际上从…",
+        "纳指单日暴跌超 4%，白银崩盘大跌 8%，黄金同步回落超 3%，就连 WTI 原油，昨日也大幅回撤近 3%。宏观预期的剧烈变化，再度成为当下全球市场的主要矛盾。…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "当所有人都在讨论AI泡沫时，真正的风险在哪里？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%BD%93%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E8%AE%A8%E8%AE%BAAI%E6%B3%A1%E6%B2%AB%E6%97%B6%EF%BC%8C%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%A3%8E%E9%99%A9%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F",
+      "published": "Sat, 06 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Buffett",
+        "Green",
+        "Hetty",
+        "Higgins",
+        "Howard"
+      ],
+      "summary": "↑点击上面图片 创建你的三分法方案 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 晨星Morningstar 屈辰晨 来源：雪球 今年以来，在AI的助推下，A股走出了一轮亮眼行情，科技“含量”较高的创业板也在上个月创下历史新高。 但随着近期科技板块波动加剧，市场分歧也迅速放大——有人开始担心估值已经脱离基本面，泡沫正在形成；也有人坚信，这场由新技术驱动的重估，才刚刚开始。 在投资语境里，所谓泡沫，是指资产价格在短期内大幅攀升、并明显高于其内在价值的现象。泡沫膨胀时…",
+      "key_points": [
+        "识别泡沫这件事真正的风险在于：你相信自己真能做到，并且能在破灭前全身而退。于是，有的人会把油门踩到底，把仓位一路加满；另一些人则因为害怕风险，干脆把股票全部卖掉",
+        "泡沫是金融市场里永远不会消失的一种特征。对投资者而言，最危险的从来不是上涨本身，而是当所有人都开始相信\"这次不一样\"的时候，丢掉了对风险的敬畏",
+        "泡沫是否能事前被识别？普通投资者又该如何应对它的风险"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "高考那三天，1290万考生不知道的事：六大AI平台悄悄给自己装了个开关",
+      "title_zh": "高考期间 AI 平台统一上锁拍题功能，暴露出治理与误伤难题",
+      "url": "https://www.woshipm.com/ai/6394902.html",
+      "published": "Sat, 06 Jun 2026 03:59:40 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "Kimi",
+        "CC0",
+        "gt",
+        "LBS"
+      ],
+      "summary": "这篇文章抓住了一个很具体的行业动作：多家国内 AI 平台在高考时段同步限制拍题、搜题和作文生成功能。它真正有价值的部分，不是“平台做了限制”这件事本身，而是进一步拆出了功能级风控、误伤普通用户、以及 AI 作为基础设施时该如何设边界这几个治理问题。",
+      "key_points": [
+        "这就是经典的误伤困局。你的目标用户（1290万高考生中的潜在作弊者）和被波及用户（几千万大学生+成人学习者）共享同一个产品入口，同一套功能，但你没有足够的信号来…",
+        "这些AI产品给自己装了一个定时开关",
+        "国内六大AI平台在高考期间同步锁定拍题、搜题等功能，这场精准的\"功能管制\"背后暗藏怎样的技术实现与社会博弈？从三层技术栈的拦截逻辑到数百万大学生的\"误伤\"困境，…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "公司上了94个“数字员工”，干了545个人的活，还没一个真人贵",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6409027.html",
+      "published": "Sat, 06 Jun 2026 03:29:24 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "RPA",
+        "AI+RPA",
+        "PDCA",
+        "amp",
+        "Banana"
+      ],
+      "summary": "当AI应用陷入‘点状困境’，森马集团用‘AI+RPA’组合拳给出破局答案。从数字人直播到供应链自动化，400多个场景实现7×24小时运转，年降本超千万的同时，更重塑了组织流程与业务闭环。本文深度拆解巴拉巴拉如何让AI从工具升级为‘数字员工’，揭示企业AI化的核心并非技术，而是业务洞察与闭环设计。 当下，几乎每家企业都在谈AI应用，但普遍陷入两种困境： 要么，斥巨资引入尖端技术，却只用在零散的“点”上，效果如隔靴搔痒，ROI算不过来； 要么，担心AI替代人力，引发组织抵触，在“要不要用”“怎么用”的纠结中错失时机。…",
+      "key_points": [
+        "也就是说从那边到这边是一个整个的售后的自动化的工作流。通过数字员工，自动化7×24小时（人类员工5×8小时）干活，没有一个真人贵",
+        "森马集团用‘AI+RPA’组合拳给出破局答案。从数字人直播到供应链自动化，400多个场景实现7×24小时运转，年降本超千万的同时，更重塑了组织流程与业务闭环。本…",
+        "他们的负责人渊虹在分享中揭示：技术从来不是核心障碍，能否洞察业务场景、重塑组织流程、并让AI像“数字员工”一样融入业务闭环，才是成败的关键"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "15句话，总结姚顺雨第一次肉身亮相",
+      "title_zh": "腾讯谈 AI 下半场：竞争焦点从模型刷榜转向 Agent 工程化",
+      "url": "https://www.woshipm.com/ai/6409017.html",
+      "published": "Sat, 06 Jun 2026 03:21:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Coding",
+        "Co-Design",
+        "context",
+        "token"
+      ],
+      "summary": "这篇对腾讯云大会的梳理，重点不在“又发布了什么”，而在大厂如何重新定义 AI 竞争。文中把 AI 下半场概括为三件事：模型能力继续打底，产品与模型协同设计成为主线，组织资源开始向真实业务场景和 Agent 工程化倾斜。它提供的是产业判断，而不是单点功能点评。",
+      "key_points": [
+        "如果认为下半场刚刚开始，可能确实不是完了。过去模型、产品做了很多探索，走很多弯路，姚顺雨觉得这是正常的，如果没有做过一个事情，第一次做肯定有曲折。但可能更重要的…",
+        "要构建一个非常均衡的、像三角形一样的组织。对于做foundation来说，第一最重要的是有充足资源，第二就是需要正确的做事的方式。对于产品来说，有好的产品的se…",
+        "但姚顺雨认为一切的前提依然是模型 谈到腾讯内部高频提到的Co-Design，姚顺雨认为，第一前提是模型本身要做得扎实。预训练是相对product-agnosti…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用AI给自己搭一个AI导师专家",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6409014.html",
+      "published": "Sat, 06 Jun 2026 03:19:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "API",
+        "CC0",
+        "ChatGPT",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "碎片化学习AI正在制造虚假的进步感。本文揭秘如何用大模型搭建私人学习系统：通过结构化提示词明确现状、目标和时间投入，让AI担任路径规划师、资料库、测评官和项目导师四重角色。这套方法将帮你绕过知识迷宫，直击核心能力建设。 很多人学AI的方式，是追着热点走的。 今天刷到一篇讲prompt的文章，存起来。 明天看到谁推了一个新工具，下载了放在那里。 后天某个课程在限时打折，买了之后大概率吃灰。 三个月后，回头看，脑子里一堆零散的知识点，但你很难说清楚自己究竟会了什么。 这个问题不是你不努力。是因为你根本没有系统。 碎片化…",
+      "key_points": [
+        "01 自己搭一个AI导师专家 不是去找什么付费课程，也不是靠别人给你划重点。你自己用大模型，给自己搭一个私人的学习系统",
+        "不知道自己不知道什么。这就是问题所在。你不是专家，所以你不知道从入门到你那个目标，中间到底需要走哪些路",
+        "你要写的是：我想成为一个能独立用AI做用户研究的产品经理； 我想系统学习AI知识可以作为一个外脑顾问或者中等企业的AI咨询专家（你最好找一些外部公开的咨询案例给…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从腾讯文档升级看腾讯在Agent赛道上的节奏",
+      "title_zh": "从腾讯文档升级看 Agent 办公：AI 开始进入多人协作主流程",
+      "url": "https://www.woshipm.com/ai/6409011.html",
+      "published": "Sat, 06 Jun 2026 03:14:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "WorkBuddy",
+        "PPT",
+        "Copilot",
+        "MCP"
+      ],
+      "summary": "文章借腾讯文档与 WorkBuddy 的整合，讨论 AI 办公从聊天问答走向协作生产。亮点在于“人机双写”模式、统一 Agent 内核，以及从网盘检索到文档生成的一体化流程，说明办公 Agent 的竞争点已经从单次回答质量，转向对企业知识和协作链路的接管能力。",
+      "key_points": [
+        "先看东西—— 我打开升级后和WorkBuddy合体后的腾讯文档，给它布置了一个任务： 帮我写一份Claude Code和Codex的发展对比分析报告",
+        "WorkBuddy直接从腾讯网盘调取文件，它知道你的文件在哪、什么内容，然后在腾讯文档里创建一份新文档，开始写报告",
+        "腾讯在AI办公这个战场上，确实在找到自己的节奏"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "普通人参观博物馆意义是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790259",
+      "published": "Sat, 06 Jun 2026 23:01:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B.C.",
+        "deadline",
+        "Default",
+        "KPI",
+        "Mode",
+        "Network"
+      ],
+      "summary": "解磊， 格物当澄明似镜，处世可烂漫如诗 查看知乎原文 你看这个东西。 挺好看的吧。 这是去年浦美「图案的奇迹: 卢浮宫印度、伊朗与奥斯曼的艺术杰作」展中，一个算不上 C 位的展品。 这个展品的铭牌上只写了简短的几行字： 匕首 印度，17 世纪 水晶、金、银、红宝石、祖母绿 没别的了。 你站在这件匕首前面，你的大脑被迫开始处理这些信息： 这得是怎样的工艺，才能用水晶做出如此精美的匕首呢？ 这把匕首，真的是武器吗？还是只是一件单纯的艺术品呢？ 这把匕首的拥有者，和你一样有血有肉，他活在一个没有 Wifi，没有抗生素的世…",
+      "key_points": [
+        "我觉得这些就是我们普通人逛博物馆最现实的意义了",
+        "你不太可能记住博物馆里那成千上万展品的历史背景，甚至就连那些所谓的「镇馆之宝」，你看过后能记住的，很可能也只是一些支离破碎的故事碎片",
+        "你再看这件东西： 这是苏州博物馆中一件良渚文化的彩绘陶罐"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "Skill 不就是 prompt 吗？为啥被吹成这样？",
+      "title_zh": "Skill 不只是 Prompt：为什么它会被当成 Agent 工程能力放大器",
+      "url": "https://daily.zhihu.com/story/9790283",
+      "published": "Sat, 06 Jun 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "Skill",
+        "prompt",
+        "Claude",
+        "token",
+        "Anthropic",
+        "Code"
+      ],
+      "summary": "文章把“Skill 是不是只是 prompt 文件”这个常见误解拆开了讲。核心观点是：Skill 的价值不在文字表面，而在它把提示词、工具约束、上下文装配和复用机制产品化，让一次性的提问技巧变成可复用的 Agent 能力模块。适合把大模型从试玩推进到工程化的人读。",
+      "key_points": [
+        "我不打算嘲笑。你打开一个 SKILL.md ，看到的就是一个带 YAML 头的 Markdown 文件，正文全是大白话，跟我们平时写 prompt 长得几乎一模…",
+        "所以\"Skill 不就是 prompt 吗\"这个判断，直觉没错，层级看错了。Skill 表面是 Markdown，内核是把 prompt 当代码管、把 agen…",
+        "下次再有人在评论区甩\"不就是 prompt 吗\"，你可以反问一句：那 Docker 不就是 chroot 吗，npm 不就是把文件夹拷来拷去吗。技术的质变从来不…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我的儿子死于1994，但他的心脏停在2017，还改变了一个国家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E7%9A%84%E5%84%BF%E5%AD%90%E6%AD%BB%E4%BA%8E1994%EF%BC%8C%E4%BD%86%E4%BB%96%E7%9A%84%E5%BF%83%E8%84%8F%E5%81%9C%E5%9C%A82017%EF%BC%8C%E8%BF%98%E6%94%B9%E5%8F%98%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9B%BD%E5%AE%B6",
+      "published": "Sat, 06 Jun 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Nicholas",
+        "Green",
+        "Reg",
+        "Maria",
+        "Andrea",
+        "Eleanor"
+      ],
+      "summary": "这是一个男孩和他的父亲改变了一个国家的故事。 一场惊心动魄的枪击案 1994年9月29日深夜，南意大利。 Green一家正在公路上惬意地行驶，Reg Green和Maggie Green两口子坐在前面，他俩的一双儿女Nicholas和Eleanor正在后座平静地沉睡。 这是一次普通而愉快的家庭度假，他们疲惫又放松。 莫名的，Reg感受到了一种压迫感，他看向后视镜，发现有一辆黑色的车一直跟着他们。突然，那辆黑色的车选择加速，“可能是要超车？”Reg放松下来。没想到，那辆车并没有超车，而是驶到了他们的身边开始并行，Re…",
+      "key_points": [
+        "这是一个男孩和他的父亲改变了一个国家的故事",
+        "以噩梦结束。几天后，Nicholas昏迷着在医院离世。在他去世之前，他的父母做了一个决定，这个决定改变了意大利7个家庭的命运",
+        "这个原本在欧洲的器官捐献数量是垫底的国家，一下子跃到了顶端 ，没有其他任何一个国家，器官捐献量能够翻三倍。他们把这些现象都称之为‘Nicholas效应’。” 在…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么只有人类害怕同类尸体，其他动物却不怕？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AA%E6%9C%89%E4%BA%BA%E7%B1%BB%E5%AE%B3%E6%80%95%E5%90%8C%E7%B1%BB%E5%B0%B8%E4%BD%93%EF%BC%8C%E5%85%B6%E4%BB%96%E5%8A%A8%E7%89%A9%E5%8D%B4%E4%B8%8D%E6%80%95%EF%BC%9F",
+      "published": "Sat, 06 Jun 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ID",
+        "xinji656"
+      ],
+      "summary": "本文来源于微信公众号： 较高端人类（ID：xinji656） 【写在最后】 乌鸦和大象都会悼念离世同伴，对至亲与交好同类的离世更为动容，还会用草木遮盖遗体，做出类似简易葬礼的举动。 人类凭借思维串联古今、推演未来，面对逝者思绪更为繁杂。人类本无同类相食的本能，可在极端生存困境中依旧会出现此类现象，明末《菜人哀》中便有相关记载。 参考文献 [1] 杜严勇.恐怖谷效应探析[J].云南社会科学,2020:9. [2] 胡登宇,刘芳芳,陈旭.杏仁核在恐惧识别与恐惧体验中特异性作用的分离[J].中国临床心理学杂志,2018:…",
+      "key_points": [
+        "本文来源于微信公众号： 较高端人类（ID：xinji656） 【写在最后】 乌鸦和大象都会悼念离世同伴，对至亲与交好同类的离世更为动容，还会用草木遮盖遗体，做出…",
+        "面对逝者思绪更为繁杂。人类本无同类相食的本能，可在极端生存困境中依旧会出现此类现象，明末《菜人哀》中便有相关记载",
+        "本文经授权转载自 较高端人类（ID：xinji656） ，如需二次转载请联系原作者。欢迎转发到朋友圈"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "2008，台湾电影转折点",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+2008%EF%BC%8C%E5%8F%B0%E6%B9%BE%E7%94%B5%E5%BD%B1%E8%BD%AC%E6%8A%98%E7%82%B9",
+      "published": "Sat, 06 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IPO",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 严芳芳 本文曾发表于《虹膜》电子杂志。 80年代初期，一批台湾电影人以高度的文化自觉和新的艺术创作去开掘商业电影之外的「另一种电影」的生存空间，由此而来的电影实践被称为「台湾新电影运动」。 回顾台湾新电影走过的路，可以说这是台湾电影人第一次有意识地建立严肃的电影文化，台湾新电影时期的台湾影坛呈现出了一批有高度自觉意识的电影艺术创作。 在历史与文化意义上，台湾新电影重新书写了或者说是试图反观战后台湾的历史经验。无疑台湾新电影是台湾电影有过的短暂的辉煌，之后的官方电影机构停顿、影院调整、产业不景气，台湾电影的低谷期…",
+      "key_points": [
+        "成了一个相当容易就使政治思考泛化的地方。1995年的《好男好女》《去年冬天》《超级大国民》，1996年《南国再见，南国！》不无巧合地都在表现理想的衰落，如果对它…",
+        "《海角七号》塑造角色的成功为之后如《鸡排英雄》《阵头》《总铺师》等台湾电影树立了「在地」标准，代班邮差阿嘉、小米酒业务员马拉桑、机车行鼓手水蛙、原住民警察劳马、…",
+        "那迷人的景况，或许在你我心里是难以被超越的《牯岭街》和《恋恋风尘》，那是一代电影人艰苦卓绝造梦的理想之器，传统之碑；而三十年之后的当下新时代台湾电影在接续传统的…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "希区柯克《迷魂记》过誉了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%B8%8C%E5%8C%BA%E6%9F%AF%E5%85%8B%E3%80%8A%E8%BF%B7%E9%AD%82%E8%AE%B0%E3%80%8B%E8%BF%87%E8%AA%89%E4%BA%86%EF%BC%9F",
+      "published": "Sat, 06 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Daseler",
+        "DVD",
+        "Exakta",
+        "Graham",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者： Graham Daseler 译者： 覃天 校对： 易二三 来源： Off Screen （2019年2月刊） 人们究竟是如何辨认出一部伟大的电影的？我指的不是一部好电影，甚至也不是一部非常出色的电影。我指的是一部伟大的电影，一部经典之作——那种会被人著书立说去研究、被电影学院的学生逐帧加以剖析的电影。 人们要如何识别出这样的电影，把它与那些虽然可敬、却平淡寻常的同类区分开来呢？有些电影一问世便直接被请进了电影圣殿。《卡萨布兰卡》（迈克尔·柯蒂斯， 1943 ）、《教父》（弗朗西斯·福特·科波拉， 1972…",
+      "key_points": [
+        "《时代》周刊则讥讽道：「又是一部希区柯克式的扯淡故事，里面的悬念与其说是『凶手是』，不如说是『谁还会在乎呢』」。《综艺》杂志抱怨说：「明摆着的事实是，影片的前半…",
+        "有些人会认为这类批评未免过于吹毛求疵。但考虑到《迷魂记》如今光辉灿烂的声誉，这样的审视似乎也只是公允之举。除了「杰作」之外，这部影片的拥护者在描述它时最常使用的…",
+        "它所要求于人的，都远不止一份仰慕之情——它要求的是一种发自肺腑的回应……《迷魂记》对我而言同样举足轻重——说它是不可或缺的，恐怕更为贴切。」——导演马丁·斯科塞…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最“开眼”的风景，终于找到了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E2%80%9C%E5%BC%80%E7%9C%BC%E2%80%9D%E7%9A%84%E9%A3%8E%E6%99%AF%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%89%BE%E5%88%B0%E4%BA%86",
+      "published": "Sat, 06 Jun 2026 09:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jubei"
+      ],
+      "summary": "👀 “6.6”数字组合像一双明亮可爱的眼睛而今天6月6日，正是“全国爱眼日”为了今天，地理君踏遍山河湖海找到中国大地最奇幻的10种“眼睛”愿此时此刻，每个人都能被这世上最美好的——这世界本身，温柔注视也希望，通过这些“自然之眼”高原能传你力量、戈壁也传你力量、草甸也传你力量、飞瀑也传你力量、森林也传你力量、沙漠也传你力量、海岛也传你力量、雪山也传你力量、大湖也传你力量、高山也传你力量……地理君找齐10张图希望把十全十美的、最纯粹力量全借给你愿全力以赴的你，考出人生好成绩！①内蒙古腾格里沙漠龙眼翡翠湖：“沙漠之眼”黄…",
+      "key_points": [
+        "👀 “6.6”数字组合像一双明亮可爱的眼睛而今天6月6日，正是“全国爱眼日”为了今天，地理君踏遍山河湖海找到中国大地最奇幻的10种“眼睛”愿此时此刻，每个人都能…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "明天就要高考了，我说几句吧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%98%8E%E5%A4%A9%E5%B0%B1%E8%A6%81%E9%AB%98%E8%80%83%E4%BA%86%EF%BC%8C%E6%88%91%E8%AF%B4%E5%87%A0%E5%8F%A5%E5%90%A7",
+      "published": "Sat, 06 Jun 2026 20:10:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "我想说「高考顺利」，但是，高考难道不应该是顺利的吗？有人会问：你这么说是什么意思？那我想说「高考快乐」，但是，高考不是很一件严肃的事情吗？有人会问：你这么说是什么动机？我又想说「高考成功」，但是，没考上的人难道就是失败者吗？有人会问：你为什么要伤害他们？我再想了一下说「高考好运」，但是人人都好运，这试还怎么考？有人会问：你为什么阴阳怪气地说反话？我只好说「高考稳定发挥」，但是，超常发挥就不可以吗？为什么一定要稳定？有人会问：你为什么要限制孩子们？你有什么不可告人的目的？想了又想，我决定说一个稳妥的祝福：「希望大家考…",
+      "key_points": [
+        "但是，高考难道不应该是顺利的吗？有人会问：你这么说是什么意思？那我想说「高考快乐」，但是，高考不是很一件严肃的事情吗？有人会问：你这么说是什么动机？我又想说「高…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "不吃夜宵不加餐，益寿又延年",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%8D%E5%90%83%E5%A4%9C%E5%AE%B5%E4%B8%8D%E5%8A%A0%E9%A4%90%EF%BC%8C%E7%9B%8A%E5%AF%BF%E5%8F%88%E5%BB%B6%E5%B9%B4",
+      "published": "Sat, 06 Jun 2026 07:59:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Nature",
+        "RHR",
+        "com",
+        "doi.org",
+        "PHRM"
+      ],
+      "summary": "6.6 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来知 ● ● ● 1 不吃夜宵不加餐，益寿又延年 图片来源：pixabay .com 日出而作，日入而息。不管是细胞水平还是器官层面，生物体都具有明显的昼夜节律。研究显示，与生物节律相一致的饮食模式可以改善机体健康。近日，德克萨斯大学西南医学中心神经科学系Joseph S. Takahashi团队又为限时进食促进健康提供了新证据。该团队用普通食物饲喂小鼠，但在…",
+      "key_points": [
+        "6.6 ‍‍‍ 知识分子 The Intellectual 跟踪前沿进展，掌握最新动态 一手掌握一周重大科技新闻 撰文 | 姚湧 小学森 庐州月 责编 | 既来…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "别被忽悠了！现在的欧美年轻人，骨子里其实全是“利己主义” | 经济学人社论",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%88%AB%E8%A2%AB%E5%BF%BD%E6%82%A0%E4%BA%86%EF%BC%81%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%AC%A7%E7%BE%8E%E5%B9%B4%E8%BD%BB%E4%BA%BA%EF%BC%8C%E9%AA%A8%E5%AD%90%E9%87%8C%E5%85%B6%E5%AE%9E%E5%85%A8%E6%98%AF%E2%80%9C%E5%88%A9%E5%B7%B1%E4%B8%BB%E4%B9%89%E2%80%9D+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A4%BE%E8%AE%BA",
+      "published": "Sat, 06 Jun 2026 09:26:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "is",
+        "to",
+        "Gen-Z",
+        "in",
+        "by"
+      ],
+      "summary": "1 导读 为什么越来越多的欧美年轻人开始拥抱“社会主义”？答案不在书本里，而在他们付不起的房租和随时可能被AI取代的焦虑中。然而，《经济学人》警告称，这种被称为“Gen-Z socialism”的新思潮，正在陷入一种危险的“零和博弈”思维。他们抛弃了创造财富的信仰，转而迷信价格管控和高额财富税。当“只要别人买单，我就能享受福利”成为政治正确，这种看似诱人的口号，为何会成为扼杀创新、反噬社会繁荣的隐形杀手？面对这场席卷年轻一代的意识形态风暴，自由市场又该如何打赢这场舆论战？ 2 精读|翻译|词组 How to fig…",
+      "key_points": [
+        "1 导读 为什么越来越多的欧美年轻人开始拥抱“社会主义”？答案不在书本里，而在他们付不起的房租和随时可能被AI取代的焦虑中。然而，《经济学人》警告称，这种被称为…",
+        "2 精读|翻译|词组 How to fight back against Gen-Z socialism 如何应对 Z 世代的社会主义浪潮 英文部分选自经济学人…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践",
+      "title_zh": "用 Agent 评测体系管理 AI Coding：美团 31 万行代码重构复盘",
+      "url": "https://tech.meituan.com/2026/05/07/Agent-AI-Coding.html",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Coding",
+        "Pre-PR",
+        "Rule",
+        "SOP"
+      ],
+      "summary": "这篇文章把 AI 编程从“生成代码”拉回到“治理代码”。作者基于 31 万行代码重构经验，总结出一套围绕 Rule、重构 SOP 和 Pre-PR 机制的 Agent 评测框架：先识别技术债和高风险区域，再把规范前置给模型，最后把评测嵌进日常提交流程。对正在把 AI 引入工程体系的团队，这是一份很具体的落地样板。",
+      "key_points": [
+        "决定系统走向的不是谁写得更快，而是约束 AI 的能力。没有统一规范，AI 只会成倍放大混乱。本文基于 31 万行代码重构实践，分享我们如何用 Agent 评测思…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-07",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "美团发布原生多模态 LongCat-Next：当视觉和语音成为AI的母语",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/04/02/LongCat-Next.html",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "LongCat-Next"
+      ],
+      "summary": "LongCat-Next 是我们在通往物理世界 AI 道路上的一次探索。今天，我们把研究思路的核心——LongCat-Next 模型和它的离散分词器全部开源，希望更多开发者能基于它，构建真正能感知、理解并作用于真实世界的 AI。",
+      "key_points": [
+        "LongCat-Next 是我们在通往物理世界 AI 道路上的一次探索。今天，我们把研究思路的核心——LongCat-Next 模型和它的离散分词器全部开源，希…"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "怎么评价《杀死一只知更鸟》?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790239",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "杪秋， 首先你要快乐，其次都是其次。 查看知乎原文 这本书的开头，如果你现在再回去翻，你会发现它慢得要命：一个小女孩，说她哥哥的胳膊怎么摔断的，然后开始扯她们家祖先怎么来的这个镇子，扯了好远。 你要是没耐心，你在这里就放弃了。 但这整本书的节奏就是这样，它如同夏天午后的蝉鸣，一声一声，不快——但是你听着听着，就被它带进去了。 你不只是在看书，更是坐在她们家门廊的秋千上，跟斯库特一起看这条街。 这个镇子叫梅科姆。 书里写的梅科姆，又闷又热，女人穿束腰裙汗透，男人把领带拉到最松。 街坊邻居都认识，谁家几点起床，谁家中午…",
+      "key_points": [
+        "用她爸教给她的那个道理：你不能杀死一只知更鸟",
+        "阿蒂克斯——这样就像杀死一只知更鸟，不是吗",
+        "这就是《杀死一只知更鸟》"
+      ]
+    }
+  ]
+}
