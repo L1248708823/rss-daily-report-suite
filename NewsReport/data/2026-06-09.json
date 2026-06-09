@@ -1,0 +1,865 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T01:00:12.392861+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 93,
+    "fresh_candidates": 66,
+    "backfill_candidates": 27,
+    "items_published": 26,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-09",
+      "fetched_at": "2026-06-09T01:00:07.084051+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3959.34,
+          "change": -68.4,
+          "change_pct": -1.7,
+          "volume": 659293555.0,
+          "amount": 126727724.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4319.9,
+          "change": -9.770000000000437,
+          "change_pct": -0.23,
+          "prev_close": 4329.67,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-09 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 942.0072258749015,
+          "change": -2.1304684360281954,
+          "change_pct": -0.22565230144561682,
+          "prev_close": 944.1376943109296,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-09 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [],
+    "editor_picks": {
+      "generated_at": "2026-06-09T09:20:00+08:00",
+      "lead_url": "https://www.woshipm.com/ai/6409775.html",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6409853.html",
+        "http://xueqiu.com/1010392927/393369390",
+        "https://tech.meituan.com/2026/06/05/ACL-2026.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%93%E8%AE%BF%E9%A9%AC%E9%AA%81%EF%BC%9A%E5%BD%93AI%E4%BA%A4%E6%8D%A280%E5%B9%B4%E7%BB%8F%E5%85%B8%E6%95%B0%E5%AD%A6%E7%8C%9C%E6%83%B3%EF%BC%8C%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3%E8%BF%98%E8%83%BD%E5%AD%98%E5%9C%A8%E5%A4%9A%E4%B9%85%EF%BC%9F",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%A4%8D%E7%9B%98%E5%8D%B3%E6%97%B6%E9%9B%B6%E5%94%AE%E5%A4%A7%E6%88%98%EF%BC%9A400%E5%A4%A9%E7%BC%A0%E6%96%97%EF%BC%8C1700%E4%BA%BF%E6%8A%95%E5%85%A5%EF%BC%8C%E4%B8%87%E4%BA%BF%E7%BA%A7%E6%96%B0%E5%B8%82%E5%9C%BA"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "黄仁勋、达利欧打嘴仗，费雪笑而不语",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%BB%84%E4%BB%81%E5%8B%8B%E3%80%81%E8%BE%BE%E5%88%A9%E6%AC%A7%E6%89%93%E5%98%B4%E4%BB%97%EF%BC%8C%E8%B4%B9%E9%9B%AA%E7%AC%91%E8%80%8C%E4%B8%8D%E8%AF%AD",
+      "published": "Mon, 08 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "OpenAI",
+        "SpaceX"
+      ],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 六亿居士 来源：雪球 上周五美股出现剧烈震荡 ， 纳斯达克100指数重挫-4.77% ， 创今年最大跌幅 ， 科技股领跌 ， 比特币 、 黄金等资产也同步走低 。 科技股估值处于历史高位 ， 而非农数据超预期让市场对降息的预期迅速降温 ， 甚至开始定价潜在的加息风险 。 当流动性收紧的阴影浮现 ， 高估值资产往往首当其冲 。 现在SpaceX 、 OpenAI 、 Anthropic等…",
+      "key_points": [
+        "作为AI的领军人物黄仁勋与注重价值的达利欧互怼 ， 前一个号称科技没有泡沫 ， 达利欧则认为泡沫严重",
+        "2 、 治本的核心是央行主动调控货币 费雪认为 ， 央行的核心任务不是死守金本位 ， 而是像空调恒温器一样 ， 不让经济太热或太冷 ， 让货币这把尺子保持刻度不…",
+        "二 、 打断债务与通缩的恶性循环 梳理完这九个环节 ， 费雪得出了一个核心结论 ： 萧条的本质不只是债务多 ， 而是 “ 债务+通货紧缩 ” 的组合拳"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "每次牛市破灭后，总有一批蓝筹悄悄创新高",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/393467116",
+      "published": "Mon, 08 Jun 2026 09:46:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DCF",
+        "ETF",
+        "http",
+        "SH515080",
+        "SH601088",
+        "SH601288"
+      ],
+      "summary": "投资这行有个让人后背发凉的规律： 牛市造神，熊市杀神。 每一轮狂欢散场，满地看着像打折货的股票，可真敢弯腰去捡的人，往往捡起来的不是金子，是刀子。我入市21年，亲历了三轮完整的超级牛熊，最大的长进不是会预测，而是终于看明白了一件事： 每次废墟里，总有一批业务朴素、愿意分红的蓝筹，不声不响地爬起来，最后悄悄创出新高。 我是2005年开的户，那一年上证指数最低砸到过998点，我揣着工作攒下的几万块钱进了场。这二十一年里，我见过6124点的癫狂，扛过1664点的冰窖，也熬过5178点熔断的绝望，最近一次，是2021年核心…",
+      "key_points": [
+        "满地看着像打折货的股票，可真敢弯腰去捡的人，往往捡起来的不是金子，是刀子。我入市21年，亲历了三轮完整的超级牛熊，最大的长进不是会预测，而是终于看明白了一件事：…",
+        "我低头只捡这三样东西 我从不空仓。牛市盛宴散席的时候，我强迫自己站起来，把该装进口袋的装好，撤出来的钱，是为了在别人最恐慌的时候，能弯腰去捡那批注定会悄悄创新高…",
+        "核心资产泡沫破裂，我抱紧“土味蓝筹” 2021年春节，茅指数冲上顶点，海天味业市盈率干到100多倍，宁德时代逼近700元。2022年潮水一退，大量赛道股直接腰斩…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "26年5月 ai梳理展望",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9348683276/393293530",
+      "published": "Mon, 08 Jun 2026 09:46:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ai",
+        "token",
+        "coding",
+        "a.",
+        "asop",
+        "arr"
+      ],
+      "summary": "1. 从22年底开始，以llm为基础的这波范式革命与94年开始的互联网相似度低： -a. 前者产生的闭环影响主要体现在供给/生产端，后者是需求和渠道端 -b. 后者边际成本接近0 与电力革命相似度高 / 2. 26 capex到800b, 27 1200b+, 而最下游需求端只能看到coding是闭环的，其他一些如chatbot-广告，游戏/短剧漫-广告/订阅营收规模还太小。26年由ai（辅助）生成的代码量占新增代码量50%+（只高不低），新增代码数今年仅后几年会翻倍增长，因为自然语言生成后门槛骤降，满足了很多人重…",
+      "key_points": [
+        "想要这些capex保本出只靠coding行业肯定不够，目前看到的可展望点 -a"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "伊利股息复投回报率测算",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1929796343/393399665",
+      "published": "Mon, 08 Jun 2026 09:46:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "roe",
+        "SH600036",
+        "SH600887",
+        "SZ000858",
+        "xueqiu.com"
+      ],
+      "summary": "6月4号晚上伊利股息终于如期到账了，伊利股息历年都是A股最早派发的，优秀企业办事效率就是高啊。现在A股市场两级分化严重，市场极度扭曲，一方面科技股抽血式上涨，而白马股股价持续下跌，这让很多兄弟都非常难熬，所以，在当下这种市场环境中，我们应该如何生存下去，我谈几点看法吧，一会巴哥还会就伊利股息的复投给一些建议。 当下市场我们的应对策略 现在市场极度扭曲，科技股疯狂飙升，有点类似美股2000年科技泡沫了，巴哥最近把A股主流的科技股都看了一下，嗯，我不认为我错过了什么，这些企业商业模式都很一般，派息很低，毛利率不高，竞争…",
+      "key_points": [
+        "伊利股息复投回报率测算 股息复投有2条标准。1、复投的企业有价值。2、复投的企业价格合理。如果发现复投的企业市场价格太贵，那么兄弟们可以选择等等，或者把钱拿出来…",
+        "很多小伙伴会选择复投伊利，我相信你们肯定关心复投回报率大致几何，这是一个关于内在价值的问题，从未来10年来看，这个位置复投伊利，赚钱是大概率，巴哥预计复投回报率…",
+        "伊利股息历年都是A股最早派发的，优秀企业办事效率就是高啊。现在A股市场两级分化严重，市场极度扭曲，一方面科技股抽血式上涨，而白马股股价持续下跌，这让很多兄弟都非…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "腾讯双管齐下的AI战术：守得住，也打得开",
+      "title_zh": "腾讯 AI 双线打法：加深微信护城河，同时做大云端工具",
+      "url": "http://xueqiu.com/1010392927/393369390",
+      "published": "Mon, 08 Jun 2026 09:45:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Token",
+        "workbuddy",
+        "GPU",
+        "PIPL"
+      ],
+      "summary": "这篇分析把腾讯的 AI 路线拆成两条并行主线：一条是把 AI 渗进微信与协同产品，强化既有流量和关系网络；另一条是借腾讯云把智能工具做成新增量业务。它的价值不在模型参数，而在解释大厂如何把 AI 同时用来守核心入口、试新收入曲线。",
+      "key_points": [
+        "是腾讯把AI放在了两个完全不同的方向上同时推进：一边是用AI把微信这道护城河挖得更深更宽，另一边是用腾讯云把智能工具做成一块新的增长业务。两件事同时做，逻辑完全…",
+        "逻辑互补 把这两件事放在一起看，腾讯的AI战术其实很清晰",
+        "就一直在试用腾讯各种智能工具，也见证了workbuddy的成长，从开始的问题很多，逐步进化到越来越好用。特别是这次会上推出的腾讯文档与workbuddy开展的人…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Distribution Engineer：市场人的新身份，是从\"做\"到\"搭\"",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6409855.html",
+      "published": "Mon, 08 Jun 2026 09:32:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DE",
+        "AI",
+        "To",
+        "Claude",
+        "Distribution",
+        "Engineer"
+      ],
+      "summary": "a16z开始招聘Distribution Engineer（DE）这一现象，标志着市场与工程的交叉领域正在崛起。DE并非简单的技术型市场人，而是具备工程思维的新物种，能将获客流程拆解为AI可执行的模块。本文深入解析DE的核心能力、工程思维的五大具体表现，以及To B市场人转型DE的三条路径，助你把握未来市场工作的关键趋势。 最近一个很值得注意的信号： a16z自己开始招Distribution Engineer了。 a16z是谁不用介绍，他们投的公司覆盖了全球最头部的SaaS、AI、开发者工具。 当一家投出几百家科…",
+      "key_points": [
+        "最后说句大实话： DE 这个新身份对 To B 市场人来说是机会，但也是噪音",
+        "a16z开始招聘Distribution Engineer（DE）这一现象，标志着市场与工程的交叉领域正在崛起。DE并非简单的技术型市场人，而是具备工程思维的新…",
+        "但先说它不是什么 Distribution Engineer（DE）这个概念，严格来说不是”市场人升级版”，是”市场+工程”交叉出来的新物种"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "【万字长文】扒了 50 份 JD 后，我把\"FDE前沿部署工程师\"拆成了一套识别框架",
+      "title_zh": "拆解 FDE：AI 前沿部署工程师到底在解决什么问题",
+      "url": "https://www.woshipm.com/ai/6409853.html",
+      "published": "Mon, 08 Jun 2026 09:30:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "FDE",
+        "AI",
+        "JD",
+        "Palantir",
+        "OpenAI",
+        "Delta"
+      ],
+      "summary": "文章把 FDE 定位为 AI 落地里的关键接口人：既要写代码交付方案，也要贴着客户场景反哺产品。它给出岗位识别框架、能力模型和转型路径，补上了“模型可用但业务落不了地”这一层常被忽视的执行缺口。对做 AI 产品、解决方案和企业交付的人尤其有参考价值。",
+      "key_points": [
+        "资料来源（均为公开可查） 麻省理工 NANDA 团队，《The GenAI Divide: State of AI in Business 2025》（”95%…",
+        "而且不只是个概念。2025 年 11 月 29 日，上海办了国内第一期 FDE 专题培训班（由上海市委组织部、市经信委、上海创智学院等联合主办，主讲人是上海创智…",
+        "隐藏着一个年薪60万美元的神秘岗位——前沿部署工程师(FDE)。这个既写代码又跑客户、既交付项目又反哺产品的复合型角色，正在成为企业AI转型的关键枢纽。本文深度…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拿“ Codex”当馅儿，豆包才值钱",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6409857.html",
+      "published": "Mon, 08 Jun 2026 09:12:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "Codex",
+        "OpenAI",
+        "Trae",
+        "Agent"
+      ],
+      "summary": "当豆包宣布推出付费专业版时，行业目光聚焦在它如何跨越从免费助手到生产力工具的鸿沟。面对软件开发、金融分析等专业场景的高容错要求，这款国民级AI产品必须证明自己能像ChatGPT整合Codex那样，将字节生态中的Trae、扣子等工具无缝衔接成真正的执行网络。本文剖析了商业化转型中的关键挑战与OpenAI提供的战略样本。 OpenAI刚刚给字节上了一课。 据《金融时报》披露，OpenAI正准备对ChatGPT进行自2022年推出以来规模最大的改版。新版ChatGPT会把Codex、外部合作伙伴应用和 Agent能力更深…",
+      "key_points": [
+        "据全球人工智能市场追踪机构Aicpb.com发布的数据显示，在豆包预告专业版之后，豆包App 5月月活减少约610万，环比下降1.81%。这组数据后来被放进“豆…",
+        "但Trae和扣子还没有走到这一步。Trae是字节在AI Coding上的重要产品，但在开发者心智里，它还没有像Claude Code、Codex那样成为明确的生…",
+        "还有5月中旬的“豆包机票退款”事件。一名用户称，自己向豆包咨询机票退票手续费，豆包给出“仅收5%手续费”的明确回复，但实际退票时被扣除40%手续费，损失600元…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用 MiniMax 把 M3 跑了几天，我对国产开源模型的判断",
+      "title_zh": "实测 MiniMax M3 几天后，对国产开源模型的一次重估",
+      "url": "https://www.woshipm.com/ai/6409775.html",
+      "published": "Mon, 08 Jun 2026 07:50:52 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "M3",
+        "Opus",
+        "MiniMax",
+        "Pro",
+        "Agent",
+        "AI"
+      ],
+      "summary": "这篇文章把 MiniMax M3 放进真实工作流里连续试跑，核心判断是国产开源模型开始从“单点能力追赶”走向“整条产线可用”。亮点在于它把长上下文、Agentic Coding 和原生多模态焊进同一模型，并用更低成本支撑复杂评审与开发流程。适合关注模型选型、成本结构和落地效率的团队阅读。",
+      "key_points": [
+        "MiniMax M3的发布不仅刷新了国产开源模型的性能上限，更关键的是它首次将长上下文、Agentic Coding和原生多模态三大核心能力整合在单一模型中，彻…",
+        "我用 API 和 MiniMax Code 把它接进了团队几条线上跑的流程，跑了几天之后，我承认我的判断慢了",
+        "它确实是国产开源模型这几年最有分量的一次发布——把过去要拼三家模型才能做完的事，焊成了一条产线"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI+硬件+软件+内容的全链路协作指南",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6409648.html",
+      "published": "Mon, 08 Jun 2026 07:48:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI+",
+        "BOM",
+        "OTA",
+        "APP",
+        "CC0",
+        "PCB"
+      ],
+      "summary": "智能硬件的开发是一场涉及多领域、多部门的复杂交响曲。本文通过一个矩阵式协作框架，清晰呈现工业设计、电子电路、算法等8大职能如何贯穿项目评审、设计、整机联调、成熟度验证4个阶段，实现AI+硬件+软件的全链路高效协作。这套流程不仅优化了跨团队协同效率，更为复杂硬件产品开发提供了标准化解决方案。 AI+硬件+软件全链路协作图解 智能硬件开发是一个高度复杂的系统工程，经常是跨部门、跨企业合作，涉及工业设计、电子电路、嵌入式软件、算法、后端服务、前端应用、交互设计、内容研发等多个专业领域。笔者采用矩阵式跨岗位协作流程形式表述…",
+      "key_points": [
+        "AI+硬件+软件全链路协作图解 智能硬件开发是一个高度复杂的系统工程，经常是跨部门、跨企业合作，涉及工业设计、电子电路、嵌入式软件、算法、后端服务、前端应用、交…",
+        "智能硬件的开发是一场涉及多领域、多部门的复杂交响曲。本文通过一个矩阵式协作框架，清晰呈现工业设计、电子电路、算法等8大职能如何贯穿项目评审、设计、整机联调、成熟…",
+        "流程核心价值 本矩阵式协作流程通过 标准化阶段输出 、 强制化评审机制 和 显性化协同接口 ，将智能硬件开发的复杂多线程工作系统化。它不仅提升了跨团队协作效率，…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么说「香蕉是浆果，草莓不是浆果」？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790284",
+      "published": "Sun, 07 Jun 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Cashew",
+        "fruit",
+        "Anacardium",
+        "Ananas",
+        "Apple",
+        "Berry"
+      ],
+      "summary": "祥昊， 我可是个正经人啊 查看知乎原文 啧，你是不知道植物界那群植物，果实这玩意简直就是瞎长啊。 举个例子， 花生，皮硬壳脆油脂多，是坚果吧？ 不，人家是荚果。 茄子，皮薄肉多中间有籽，应该和黄瓜差不多吧？ 不，茄子是浆果。而黄瓜是瓠果，和西瓜一家。 桑葚，皮薄肉嫩汁水多，总是浆果吧？ 不，人家是聚花果。 辣椒，有皮没瓤没有水儿，总不能是浆果吧？ 还真别说，人家就是浆果。 松子，横看竖看都是坚果，总没错吧？ 不不不，松树是裸子植物，压根就不长果。那就纯是个种子。 更别提还有像椰子这种外面有壳，里面有水，唯独没核的奇…",
+      "key_points": [
+        "咱再去看肉果， 那就更简单了， 中内果皮是肉质的就是浆果（Berry）， 也就是说，虽然名字带浆，但不一定非得有水",
+        "中果层是皮上那层辣椒肉，所以即使没水儿，也是浆果",
+        "而果肉是中果皮和内果皮长的，所以说是浆果"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人类真的想象不出从来没见过的东西吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790290",
+      "published": "Sun, 07 Jun 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "奔奔马， 新疆兵团90后职工，淘宝搜“奔奔马90后养蜂人”自产蜂蜜和枣 查看知乎原文 去年 5 月份，有个上海的买家，买了一块我店铺里的蜂蜡，说是要用蜂蜡做润唇膏。可收到货以后，非要说我的蜂蜡“有问题”。她还给出了两点理由： 1.她说“收到的蜂蜡有一股塑料味”，怀疑是用塑料冒充的，或者掺了塑料的； 2.蜂蜡太干净、颜色也太艳了，真正的蜂蜡根本不该是这个样子！ 这一堆错乱的理由直接把我问懵了，我一时都不知道怎么回复她。 第一个理由根本就站不住脚，她没见过蜂蜡，更没闻过蜂蜡，别说觉得像塑料味，就是觉得像香蕉味也正常呀！…",
+      "key_points": [
+        "她就说“她朋友家里养过几箱蜂，前段时间也送给她一块蜂蜡，长这个样子”—— 买家展示她朋友送的蜂蜡，还说这是“真正蜂蜡该有的样子” 接着，她又把从我店里买到的蜂蜡…",
+        "她没见过蜂蜡，更没闻过蜂蜡，别说觉得像塑料味，就是觉得像香蕉味也正常呀！况且塑料和蜂蜡根本就不是一类物质，也不可能掺到蜂蜡里，二者压根就不会相溶",
+        "确实很难想象蜂巢经过熬煮和过滤，居然就可以这么惊艳"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一只鼠的克隆的克隆的克隆的克隆，第58代，全死了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E5%8F%AA%E9%BC%A0%E7%9A%84%E5%85%8B%E9%9A%86%E7%9A%84%E5%85%8B%E9%9A%86%E7%9A%84%E5%85%8B%E9%9A%86%E7%9A%84%E5%85%8B%E9%9A%86%EF%BC%8C%E7%AC%AC58%E4%BB%A3%EF%BC%8C%E5%85%A8%E6%AD%BB%E4%BA%86",
+      "published": "Mon, 08 Jun 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al.",
+        "et",
+        "Nature",
+        "cloned",
+        "cloning"
+      ],
+      "summary": "2026年3月，日本山梨大学的一间实验室里，几只刚出生的小鼠在笼子里躺了不到一天，全部死了。 外表完全正常。没有畸形，没有明显的病变。研究人员也说不清死因是什么。 这些小鼠是第58代克隆鼠。 从同一只供体小鼠出发，克隆出来的再克隆，克隆出来的再克隆，一代接一代，连续复制了58次。 干这件事的科学家是若山照彦和若山清香夫妇，山梨大学。 从2005年开始，花了20年，做了30947次核移植操作，就为了回答一个问题： 克隆能不能一直克隆下去？ 答案现在有了，不能。 可为什么？ 故事得从1996年讲起。 那一年，一只叫多莉…",
+      "key_points": [
+        "一只克隆鼠的基因组里累计了大约30个直接让基因报废的突变，另外还有大约50个让基因虽然还在工作但产物已经变形的突变。其中一个基因，被两段紧挨着的缺失前后夹击，彻…",
+        "那只供体小鼠已经被连续克隆了25代，总共生出581只健康的克隆鼠。每一只都能正常生育，寿命大约两年，跟普通实验室小鼠没有区别",
+        "克隆鼠的基因组里就多出大约70个新的单碱基变异。正常有性繁殖的小鼠，每代大约22个。克隆的突变速率，大约是自然繁殖的3倍"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "高考报志愿的注意了：这个专业的人在电影里每三个就得死一个",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%AB%98%E8%80%83%E6%8A%A5%E5%BF%97%E6%84%BF%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%86%EF%BC%9A%E8%BF%99%E4%B8%AA%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%BA%E5%9C%A8%E7%94%B5%E5%BD%B1%E9%87%8C%E6%AF%8F%E4%B8%89%E4%B8%AA%E5%B0%B1%E5%BE%97%E6%AD%BB%E4%B8%80%E4%B8%AA",
+      "published": "Mon, 08 Jun 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IMDb",
+        "Sturkell",
+        "al.",
+        "et",
+        "AI",
+        "Bj"
+      ],
+      "summary": "高考结束，该报志愿了！ 你有没有考虑过当一名地质学家？ 除了需要背着几十斤的石头和设备爬山、一年里可以出差200天、附赠免费的天然日光美黑等数不完的好处，地质学专业还有个意想不到的优势—— 假如你是生活在一部电影里的地质学家，你极可能是个好人，概率大约是85% 。与此同时，你还有43%的概率会加入主角团。 好消息说完，还有个小小的坏消息： 你有34.2%的概率会挂掉，略高于三分之一 。 伯特：还好《生活大爆炸》是电视剧，不是电影，我安全了！| IMDb 嗯，优势和劣势都很明显，的确不容易抉择。 但这听上去有些无厘头…",
+      "key_points": [
+        "这个角色点燃了汽车 | IMDb 电影里的设定是，他患有间歇性精神病。但埃里克敏锐地注意到了一个细节：这位地质学家在电影开场研究了地质图，还读了《构造地质学：几…",
+        "除了需要背着几十斤的石头和设备爬山、一年里可以出差200天、附赠免费的天然日光美黑等数不完的好处，地质学专业还有个意想不到的优势—— 假如你是生活在一部电影里的…",
+        "其中23个都没能活到片尾，死亡率高达77%。编剧们的态度很明确：在电影里当坏人，报应来得又快又准"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "月之暗面寻求新一轮融资；OpenAI 将改版；枪击幸存者起诉 AI 枪检公司",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2%E5%AF%BB%E6%B1%82%E6%96%B0%E4%B8%80%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%9BOpenAI+%E5%B0%86%E6%94%B9%E7%89%88%EF%BC%9B%E6%9E%AA%E5%87%BB%E5%B9%B8%E5%AD%98%E8%80%85%E8%B5%B7%E8%AF%89+AI+%E6%9E%AA%E6%A3%80%E5%85%AC%E5%8F%B8",
+      "published": "Mon, 08 Jun 2026 17:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Cloudflare",
+        "APP",
+        "VoidZero",
+        "ADA"
+      ],
+      "summary": "果壳带你了解今天值得关注的科技资讯： 校园枪击案幸存者起诉 AI 枪检公司：系统未识别持枪者 2023 年密歇根州立大学枪击事件幸存者，起诉人工智能武器检测公司 Evolv Technology，指控其系统未能识别枪手携带的枪支。Evolv 回应称事件仍在调查，且其技术只是多层安防中的一环。（Ars Technica） 苹果 WWDC 前召开秘密会议，AI 战略“终于认真” 苹果 WWDC 2026主题演讲定档 6 月 9 日。在库比蒂诺召开的高度保密内部会议后有消息流出，称其正力图扭转外界对其 AI 战略滞后的批…",
+      "key_points": [
+        "果壳带你了解今天值得关注的科技资讯： 校园枪击案幸存者起诉 AI 枪检公司：系统未识别持枪者 2023 年密歇根州立大学枪击事件幸存者，起诉人工智能武器检测公司…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "孩子学习跟不上，真不是他笨！是这4件事，从来没人告诉你",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%AD%A9%E5%AD%90%E5%AD%A6%E4%B9%A0%E8%B7%9F%E4%B8%8D%E4%B8%8A%EF%BC%8C%E7%9C%9F%E4%B8%8D%E6%98%AF%E4%BB%96%E7%AC%A8%EF%BC%81%E6%98%AF%E8%BF%994%E4%BB%B6%E4%BA%8B%EF%BC%8C%E4%BB%8E%E6%9D%A5%E6%B2%A1%E4%BA%BA%E5%91%8A%E8%AF%89%E4%BD%A0",
+      "published": "Mon, 08 Jun 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Power",
+        "THiNK",
+        "APP",
+        "Up",
+        "UP1"
+      ],
+      "summary": "你有没有发现： 有的孩子学英语像喝水一样简单自然，而有的孩子费了很大劲儿，却一直在做无用功？ 而且大概率，不是孩子不聪明、不肯学， 是没有踩准英语学习的自然节奏。 👉🏻 顺着节奏走，孩子不费劲，家长不焦虑；逆着来，全家内耗，越学越累。 那这个节奏到底是什么？大多数家庭又被卡在哪儿？ 下面 这 4个真相 ，是我踩过的坑、验证过的答案。不管你家孩子几岁，避开一个，都能少走大半年弯路。 起点错配 你以为的开始，根本不是零起点 很多家长以为：既然学校开设英语课， 自然会从ABC教起，不必着急抢进度。 但你翻开现在的教材就会…",
+      "key_points": [
+        "果壳实拍 ✅ 如果你的孩子也怕开口、没兴趣、零基础、跟不上节奏； ✅ 如果你不想让 孩子痛苦硬学、 死记硬背、见到英语就发怵； ✅ 如果你希望找对体系、找对方法…",
+        "Power UP1学习主题 比如，在 Power UP1 《Happy birthday》 这个主题里，通过送礼物串联起各种玩具、颜色等表达 ，孩子学到的不只是…",
+        "主讲老师必须满足其中一项▼ 更难得的是： 一个孩子配备三师服务 ，除了主讲老师，还有规划师、助教辅导老师全程跟进孩子学习"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "1998年，两个好莱坞",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+1998%E5%B9%B4%EF%BC%8C%E4%B8%A4%E4%B8%AA%E5%A5%BD%E8%8E%B1%E5%9D%9E",
+      "published": "Mon, 08 Jun 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AV",
+        "Breihan",
+        "CK",
+        "Club",
+        "hongmomgs",
+        "IP"
+      ],
+      "summary": "作者：Tom Breihan 译者：Issac 校对：易二三 来源：AV Club （2020年10月30日） 1997年11月，汤姆·汉克斯和本·阿弗莱克一起登上了《纽约时报》杂志。在封面上，他们俩对着对方怒吼，假装彼此是敌人。林恩·赫施伯格写的简介标题是《两个好莱坞》。这两个好莱坞指的是旧的制片厂体系的主流，以及独立电影的兴起潮流。在那本杂志的封面上，本·阿弗莱克被认为是独立电影的代表。 在那个时候，汉克斯轻而易举地成为了世界上最大牌的电影明星。他刚刚完成了《西雅图夜未眠》《费城故事》《阿甘正传》《阿波罗13号…",
+      "key_points": [
+        "Tom Breihan 译者：Issac 校对：易二三 来源：AV Club （2020年10月30日） 1997年11月，汤姆·汉克斯和本·阿弗莱克一起登上了…",
+        "本·阿弗莱克和马特·达蒙 1998年7月，汉克斯和阿弗莱克各自主演的电影的上映时间相隔几周，在当年的票房冠军争夺战中相互竞争，这与当时《纽约时报》杂志的封面有些…",
+        "你就不能再谈论这两个好莱坞了。过去曾有一个好莱坞，它朝着一个特定的方向前进。本·阿弗莱克上了船，像他那一代许多有前途的年轻演员一样，飞往那颗小行星。汉克斯，上帝…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这种战争片，我们都是第一次见",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E7%A7%8D%E6%88%98%E4%BA%89%E7%89%87%EF%BC%8C%E6%88%91%E4%BB%AC%E9%83%BD%E6%98%AF%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81",
+      "published": "Mon, 08 Jun 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HBO",
+        "MIT",
+        "amp",
+        "ECMWF",
+        "ERA5",
+        "hongmomgs"
+      ],
+      "summary": "文 kakaka 最近有一部不算十分引人注意的院线电影，《诺曼底 72 小时》，但对气象学和二战史的爱好者来说，这部电影堪称双厨狂喜。 《诺曼底 72 小时》(2026) 电影是关于诺曼底登陆，的确不新鲜。 这大概是历史上被搬上银幕次数最多的战役。从 1962 年的《最长的一日》到 1998 年的《拯救大兵瑞恩》，从 HBO 的《兄弟连》到 2004 年 A&amp;E 频道的电视电影《诺曼底大风暴》，八十多年来，无数影像作品围绕着 1944 年 6 月 6 日这一天反复书写。 《最长的一日》(1962) 但又很新…",
+      "key_points": [
+        "开场二十多分钟的奥马哈海滩登陆段落在当时改写了战争片的影像标准。手持摄影、降饱和的色调、 45 度摄影机快门角度，让银幕上的战场第一次逼近了幸存老兵记忆中的恐怖…",
+        "克里克的类比法则是一条经验主义的捷径。它不需要理解大气过程的物理机制，只需要找到相似的历史模式然后做外推。这种方法在天气模式比较规律的地区有时能给出不错的结果，…",
+        "《最长的一日》(1962) 它把 D 日理解为一个需要完整再现的宏大事件，需要多国视角并置，需要把战争的规模感传达给和平年代的观众。片中也出现了艾森豪威尔犹豫是…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国这些城市，天“上”无敌了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%BF%99%E4%BA%9B%E5%9F%8E%E5%B8%82%EF%BC%8C%E5%A4%A9%E2%80%9C%E4%B8%8A%E2%80%9D%E6%97%A0%E6%95%8C%E4%BA%86",
+      "published": "Mon, 08 Jun 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FAST",
+        "Jubei",
+        "ng"
+      ],
+      "summary": "不久前“鸢都”的奇特风筝再次上天 网友赞叹： “天上乱不乱，潍坊说了算” 但另一些城市随即笑了： 如果比谁会“上天” 我们才是 “天空之王” 所以，对比如下中国城市 谁才是真正 “天上无敌” ？ 你的家乡又是哪种“天空之王”呢？ 山东潍坊 “天上乱不乱，潍坊说了算” ※“天空之王”称号： 美梦满天 只要给潍坊人一根线，就能把整个世界放上天—— 图源：山东卫视 在一年一度的潍坊风筝盛会上，潍坊的天空化身为奇幻“梦剧场”。 航天器能与火箭同时硬核升空；地上跑的骏马、骆驼能与汽车一同在空中竞速。 潍坊人放飞的远不止风筝，…",
+      "key_points": [
+        "不久前“鸢都”的奇特风筝再次上天 网友赞叹： “天上乱不乱，潍坊说了算” 但另一些城市随即笑了： 如果比谁会“上天” 我们才是 “天空之王” 所以，对比如下中国…",
+        "深圳低空经济“振翅腾飞” 从低空放风筝到太空放火箭，从低空打飞的到深空找外星人……论“上天”这件事，中国这些“天空之王”是真的能处，有事它们真上",
+        "水草丰茂的“东风航天城” （酒泉卫星发射中心） 该中心始建于1958年，当时各国卫星发射场命名均避开真实地址；外加其最近城市是古往今来赫赫有名的甘肃酒泉，因此得…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一种快手菜食材介绍",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E7%A7%8D%E5%BF%AB%E6%89%8B%E8%8F%9C%E9%A3%9F%E6%9D%90%E4%BB%8B%E7%BB%8D",
+      "published": "Mon, 08 Jun 2026 14:58:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Beretta"
+      ],
+      "summary": "最近三个月我每周都使用同一种食材给自己做饭，它就是百瑞（Beretta）意式烟熏腊五花肉丁，200 克装。我为什么会频繁用到它呢？首先是因为快。我每次把炒锅烧热，放一点油，切小火，然后倒入四分之一或者五分之一袋肉丁，用小火慢慢煸，一直煸到肉丁出油变成酥黄色，就可以直接放蔬菜进去翻炒，加开水炖煮，大概 10 分钟就能到一份鲜美的汤。然后是味道好。我摄取精致碳水极少，日常吃饭是从盒马买一份春笋咸肉煨柴锅豆腐（折后 20.6 元）或者腌笃鲜（折后 30.9，但没有老豆腐，只在周末放纵时才吃），加上一公斤两种以上颜色的蔬菜…",
+      "key_points": [
+        "最近三个月我每周都使用同一种食材给自己做饭，它就是百瑞（Beretta）意式烟熏腊五花肉丁，200 克装。我为什么会频繁用到它呢？首先是因为快。我每次把炒锅烧热…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "专访马骁：当AI交换80年经典数学猜想，数学家的护城河还能存在多久？",
+      "title_zh": "AI 触碰 80 年数学猜想后，数学研究的护城河会怎样变化",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%93%E8%AE%BF%E9%A9%AC%E9%AA%81%EF%BC%9A%E5%BD%93AI%E4%BA%A4%E6%8D%A280%E5%B9%B4%E7%BB%8F%E5%85%B8%E6%95%B0%E5%AD%A6%E7%8C%9C%E6%83%B3%EF%BC%8C%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%8A%A4%E5%9F%8E%E6%B2%B3%E8%BF%98%E8%83%BD%E5%AD%98%E5%9C%A8%E5%A4%9A%E4%B9%85%EF%BC%9F",
+      "published": "Mon, 08 Jun 2026 12:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Erd",
+        "IMO",
+        "GPT",
+        "GPT-5.5"
+      ],
+      "summary": "文章围绕一篇由 AI 参与推动的数学结果展开，把焦点放在“AI 能否进入高门槛研究前沿”这个更大的问题上。它既讨论模型构造反例和辅助验证的能力，也提醒读者，真正的门槛正在从机械推导转向提出问题、组织证明与交叉校验。适合把它当作 AI 进入科研工作的前沿样本来读。",
+      "key_points": [
+        "单位距离猜想的推翻结果意味着什么？AI会给数学研究带来什么？数学家们的护城河还能存在多久？围绕这些问题，《知识分子》专访了马骁",
+        "OpenAI 的内部模型通过构造反例，解决了 Erdős 平面单位距离猜想。密歇根大学博士后、即将入职中国科学技术大学的数学研究者马骁，随后借助 GPT-5.5…",
+        "“ 新的对话框或者在已有对话框里专门要求验证的，一般都是对的，验证能力也很强，但是 AI 还不能完全自主地同时做到证明强和验证强。” 06 数学家还能安心多久…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "本周经济学人封面解读",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%9C%AC%E5%91%A8%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%B0%81%E9%9D%A2%E8%A7%A3%E8%AF%BB",
+      "published": "Mon, 08 Jun 2026 09:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "was",
+        "in",
+        "we",
+        "on"
+      ],
+      "summary": "The rise of Gen-Z socialism Z 世代社会主义思潮的兴起 We had two covers this week. In the Americas, Britain and Europe we looked at the rise of a new brand of leftism, which we christened “Gen-Z socialism”. In the rest of the world, we focused on India’s startling fall in…",
+      "key_points": [
+        "本周我们推出了两个封面。在美洲、英国和欧洲版本中，我们聚焦于一种新型左翼思潮的崛起，并将其命名为 \"Z 世代社会主义 \" 。在其他地区的版本中，我们则将目光投向…",
+        "这便是最终封面的创作基础"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "ACL 2026美团论文精选：从能力评测到推理优化，构建生成新范式",
+      "title_zh": "ACL 2026 美团论文精选：从评测到推理优化的六个切面",
+      "url": "https://tech.meituan.com/2026/06/05/ACL-2026.html",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "ACL",
+        "NLP"
+      ],
+      "summary": "这是一组面向生成式 AI 研发的论文导读，主题横跨模型评测、复杂流程推理、数学思维优化、强化学习和生成式推荐。亮点不只是“中了 ACL”，而是能看见工业团队当前把精力集中在哪些瓶颈：如何更稳地评、如何更长链地推、如何把研究能力转成可复用的系统收益。适合关注大模型工程化的人快速把握研究趋势。",
+      "key_points": [
+        "ACL是计算语言学和自然语言处理（NLP）领域的国际顶级学术会议，本文解读了被 ACL 顶会收录的其中 6 篇论文，技术方向覆盖大模型评测、复杂流程推理、竞赛级…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "全球增长放缓，中东冲突走向何方？三大结局与美国关税新变化深度解读",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E5%85%A8%E7%90%83%E5%A2%9E%E9%95%BF%E6%94%BE%E7%BC%93%EF%BC%8C%E4%B8%AD%E4%B8%9C%E5%86%B2%E7%AA%81%E8%B5%B0%E5%90%91%E4%BD%95%E6%96%B9%EF%BC%9F%E4%B8%89%E5%A4%A7%E7%BB%93%E5%B1%80%E4%B8%8E%E7%BE%8E%E5%9B%BD%E5%85%B3%E7%A8%8E%E6%96%B0%E5%8F%98%E5%8C%96%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BB",
+      "published": "Mon, 08 Jun 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EIU",
+        "Economist",
+        "Enterprise",
+        "AI",
+        "B2B",
+        "Q4"
+      ],
+      "summary": "经济学人智库（EIU）最新预测显示，2026年全球经济增速将放缓至2.4%。中东冲突带来的能源价格波动和霍尔木兹海峡通航风险，正在成为影响全球经济的关键变量。与此同时，美国正重构关税体系，贸易政策不确定性依然存在。 本期视频中，EIU中国首席经济学家苏月和高级经济学家徐天辰将解读全球各区域增长前景、中东局势三种可能演变路径，以及美国贸易政策最新动态。 核心洞察 1 霍尔木兹海峡何时恢复通航，将决定全球经济面临放缓还是衰退 霍尔木兹海峡承担全球20%的原油和液化天然气运输。EIU认为，目前最大的冲击并非冲突本身，而是…",
+      "key_points": [
+        "2026年全球经济增速将放缓至2.4%。中东冲突带来的能源价格波动和霍尔木兹海峡通航风险，正在成为影响全球经济的关键变量。与此同时，美国正重构关税体系，贸易政策…",
+        "三大情景推演： 基准情景（数月内复航）： 布伦特原油价格将在2026年二季度达到约116美元/桶的峰值，全年均价约100美元/桶，全球增长放缓但仍保持韧性",
+        "EIU中国首席经济学家苏月和高级经济学家徐天辰将解读全球各区域增长前景、中东局势三种可能演变路径，以及美国贸易政策最新动态"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "复盘即时零售大战：400天缠斗，1700亿投入，万亿级新市场",
+      "title_zh": "即时零售大战复盘：400 天缠斗背后，平台在争什么",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%A4%8D%E7%9B%98%E5%8D%B3%E6%97%B6%E9%9B%B6%E5%94%AE%E5%A4%A7%E6%88%98%EF%BC%9A400%E5%A4%A9%E7%BC%A0%E6%96%97%EF%BC%8C1700%E4%BA%BF%E6%8A%95%E5%85%A5%EF%BC%8C%E4%B8%87%E4%BA%BF%E7%BA%A7%E6%96%B0%E5%B8%82%E5%9C%BA",
+      "published": "Mon, 08 Jun 2026 20:51:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "GMV",
+        "UE",
+        "Meituan",
+        "AI",
+        "Alibaba",
+        "CEO"
+      ],
+      "summary": "这篇复盘把即时零售从单店模型、履约网络到平台估值逻辑串了起来，重点不是“谁又补贴了多少”，而是巨头为何愿意为一个万亿级高频市场持续烧钱。它给出几个关键抓手：供给密度、履约半径、SKU 深度和平台心智，帮助读者理解这场竞争为什么会长期化。",
+      "key_points": [
+        "烧了 70 个亿； 2014 年网约车大战，烧了 500 个亿； 2016 年共享单车大战，烧了 300 个亿； 2020 年社区团购大战，烧了 800 个亿…",
+        "一旦美团在即时零售领域打通，市场会对这块新业务单独估值：假设美团能把 70% 的外卖份额延续到即时零售市场，同时市场整体 GMV 达到 1 ～ 2 万亿，那资本…",
+        "即时零售大战又带来了新变化，交易似乎又重新回到了地方"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "对话翟东升：站在世界经济秩序新十字路口",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%AF%B9%E8%AF%9D%E7%BF%9F%E4%B8%9C%E5%8D%87%EF%BC%9A%E7%AB%99%E5%9C%A8%E4%B8%96%E7%95%8C%E7%BB%8F%E6%B5%8E%E7%A7%A9%E5%BA%8F%E6%96%B0%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3",
+      "published": "Mon, 08 Jun 2026 20:51:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AIPAC",
+        "GDP",
+        "nice",
+        "OECD",
+        "TISA"
+      ],
+      "summary": "中国人民大学的翟东升教授是笔者的老朋友，我们俩在去年年底和今年5月做了两次视频播客访谈，但由于平台审核的原因，迟迟未能发出。今天特意整理出一部分访谈内容，发表在公号上，以飨读者。 翟老师擅长做前瞻判断，在2014年就预测了后来的中美战略博弈，他的新书 《缠斗：中美经贸重构与全球经济新秩序》 近期也 付梓出版，特此推荐。 我们将在评论区筛选出30位读者，送出《缠斗》一书，欢迎留言交流。 以下是访谈全文： 站在世界经济秩序的新十字路口上 戴老板 ： 您的新书为什么叫《缠斗》？这个词看起来好像两边在斗争，但是又脱离不开的…",
+      "key_points": [
+        "以下是访谈全文： 站在世界经济秩序的新十字路口上 戴老板 ： 您的新书为什么叫《缠斗》？这个词看起来好像两边在斗争，但是又脱离不开的感觉",
+        "翟东升 ： 我认为现在整个世界站在十字路口上，但关键选择不在美国、俄罗斯或欧洲，而在中国",
+        "伊朗就可能封锁霍尔木兹海峡，中东的石油运不出来，整个世界经济就会失血。要维持世界经济正常运行，又给打伊朗争取时间，就需要提前准备一个巨大的石油“血包”。放眼全球…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如果东北虎变成 5 克，它能猎杀螳螂吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790229",
+      "published": "Thu, 04 Jun 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "豆子， 人民艺术家 查看知乎原文 崔文子到泰山采药，在泉边取水，听见“唧唧”的惨叫。 抬起头寻找，赫然发现五步远的石头上，一只玉色的螳螂正用前臂死死锁着一只小老鼠。凑近看，又不像老鼠，更像猫。黄质黑章，獠牙粗壮，躯干不过拇指长。螳螂已经咬开了它的头皮，鲜血从额头流进眼窝，又流到石面，足下的血迹约有一寸。 崔文子于心不忍，想要解救这猫，于是去揪螳螂的前臂。那臂铁一般坚硬，锯齿扎得他手疼。不管怎么掰，就是掰不开。崔文子生气地指着螳螂说：“再不撒手，就把你的胳膊拧下来。”那螳螂并不撒手，只把明珠似的双眼，从猫头上挪开，眼…",
+      "key_points": [
+        "崔文子骂道：“倘使让老虎变成老鼠一样大，那么老虎也只好像老鼠一样苟活。倘使让老鼠变成老虎一样大，老鼠也就不用东躲西藏了。天地间的定数，又岂是知友能安排的呢？我看…",
+        "想要解救这猫，于是去揪螳螂的前臂。那臂铁一般坚硬，锯齿扎得他手疼。不管怎么掰，就是掰不开。崔文子生气地指着螳螂说：“再不撒手，就把你的胳膊拧下来。”那螳螂并不撒…",
+        "赫然发现五步远的石头上，一只玉色的螳螂正用前臂死死锁着一只小老鼠。凑近看，又不像老鼠，更像猫。黄质黑章，獠牙粗壮，躯干不过拇指长。螳螂已经咬开了它的头皮，鲜血从…"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "LARYBench 发布：定义具身动作表征 ImageNet，首次度量从人类视频学习的泛化表征",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/04/27/LongCat-LARYBench.html",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LARYBench",
+        "Action",
+        "Benchmark",
+        "ImageNet",
+        "Latent",
+        "Representation"
+      ],
+      "summary": "LARYBench （Latent Action Representation Yielding Benchmark），一个指引从大规模的视觉数据学习到通用的隐式动作表征的系统化评测基准。实验结果表明：在动作泛化和控制精度上，通用视觉模型的表现均显著优于专门为具身智能设计的动作专家模型，具身动作表征可以从大规模人类视频数据中涌现。",
+      "key_points": [
+        "LARYBench （Latent Action Representation Yielding Benchmark），一个指引从大规模的视觉数据学习到通用的隐…"
+      ]
+    }
+  ]
+}
