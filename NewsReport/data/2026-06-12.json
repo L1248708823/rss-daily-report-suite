@@ -1,0 +1,747 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T01:00:11.672079+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 68,
+    "backfill_candidates": 25,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-12",
+      "fetched_at": "2026-06-12T01:00:06.355614+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3987.01,
+          "change": -6.22,
+          "change_pct": -0.16,
+          "volume": 568545244.0,
+          "amount": 118555461.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4202.21,
+          "change": -8.36999999999989,
+          "change_pct": -0.2,
+          "prev_close": 4210.58,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-12 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 914.9248836947611,
+          "change": -1.822355683444016,
+          "change_pct": -0.1987849654916933,
+          "prev_close": 916.7472393782051,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-12 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "https://www.woshipm.com/ai/6412016.html",
+        "title": "产品经理必装的10个Skills：从需求到落地的全链路AI武装",
+        "platform": "人人都是产品经理",
+        "source": "人人都是产品经理",
+        "reason": "产品生态导流与工具安利为主，营销色彩重，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%A3%8E%E9%9D%A1%E4%B8%AD%E5%9B%BD%E5%AE%B6%E5%BA%AD%E5%87%A0%E5%8D%81%E5%B9%B4%E7%9A%84%E2%80%9C%E7%AB%B9%E5%87%89%E5%B8%AD%E2%80%9D%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E9%94%80%E5%A3%B0%E5%8C%BF%E8%BF%B9%E4%BA%86%28%E4%B8%8D%E6%98%AF%E9%9A%BE%E7%9D%A1%E8%80%8C%E6%98%AF......",
+        "title": "风靡中国家庭几十年的“竹凉席”，为什么销声匿迹了(不是难睡而是......",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购型软广，购买引导与材质卖点为主，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E6%89%80%E6%9C%89%E7%BF%BB%E8%BF%87%E7%9A%84%E5%B1%B1%EF%BC%8C%E9%83%BD%E4%BC%9A%E7%AE%97%E6%95%B0",
+        "title": "所有翻过的山，都会算数",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "直播预告/文旅导流内容为主，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93%E7%A0%94%E8%AE%A8%E4%BC%9A+%7C+%E5%85%A8%E7%90%83%E5%AE%9C%E5%B1%85%E5%9F%8E%E5%B8%82%E6%8C%87%E6%95%B02026",
+        "title": "经济学人智库研讨会 | 全球宜居城市指数2026",
+        "platform": "经济学人",
+        "source": "经济学人",
+        "reason": "研讨会活动预告与机构宣传为主，非内容型信息"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-12T01:01:49.182090+00:00",
+      "lead_url": "https://blog.codingnow.com/2026/06/powersort.html",
+      "top_urls": [
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%9B%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF%E7%9A%84%E2%80%9C%E5%B9%B3%E8%A1%8C%E7%BA%BF%E2%80%9D%E5%9B%B0%E5%B1%80%EF%BC%8C%E4%B8%80%E5%AE%B6%E6%96%B0%E5%9E%8B%E7%A0%94%E7%A9%B6%E6%9C%BA%E6%9E%84%E7%9A%84%E2%80%9C%E7%A0%B4%E5%A3%81%E5%AE%9E%E9%AA%8C%E2%80%9D",
+        "http://xueqiu.com/1438190065/394092218",
+        "http://xueqiu.com/9222280625/394211894",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%B9%85%E8%85%BF%E9%98%BF%E5%A7%A8%E8%A2%AB%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%EF%BC%9B%E4%B9%8C%E5%85%8B%E5%85%B0AI%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%8F%AF%E8%83%BD%E5%B7%B2%E7%BB%8F%E8%87%AA%E4%B8%BB%E6%9D%80%E4%BA%BA%EF%BC%9B%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8F%91%E7%8E%B0%E6%9C%80%E5%A4%A7%E6%B7%B1%E6%B5%B7%E9%B2%B8%E7%B1%BB%E5%9D%9F%E5%9C%BA",
+        "https://www.woshipm.com/ai/6412005.html"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "长期盈利的本质：少犯不可逆的错误",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%95%BF%E6%9C%9F%E7%9B%88%E5%88%A9%E7%9A%84%E6%9C%AC%E8%B4%A8%EF%BC%9A%E5%B0%91%E7%8A%AF%E4%B8%8D%E5%8F%AF%E9%80%86%E7%9A%84%E9%94%99%E8%AF%AF",
+      "published": "Thu, 11 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "↑点击上面图片 加雪球核心交流群 ↑ 风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 薛洪言 来源：雪球 在股市里待得越久 ， 越能体会到一个朴素却容易被忽视的道理 ： 决定长期收益的 ， 往往不是你做对了多少事 ， 而是你避开了多少重大错误 。 市场里到处是对 “ 正确 ” 的追逐 。 人们热衷于寻找下一个牛股 ， 预判下一波风口 ， 精准踩准每一次轮动 。 似乎只要足够聪明 、 足够勤奋 ， 就能持续做对 ， 然后走向财富自由 。 但现实是 ， 大多数抱着这种想法的…",
+      "key_points": [
+        "薛洪言 来源：雪球 在股市里待得越久 ， 越能体会到一个朴素却容易被忽视的道理 ： 决定长期收益的 ， 往往不是你做对了多少事 ， 而是你避开了多少重大错误",
+        "雪球三分法是雪球基于“长期投资+资产配置”推出的基金配置理念，通过资产分散、市场分散、时机分散这三大分散进行基金长期投资，从而实现投资收益来源多元化和风险分散化…",
+        "一个年均收益15%但最大回撤控制在20%的组合 ， 长期跑赢年均收益25%但动辄腰斩的组合 ， 不是偶然 ， 而是数学上的必然"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "牧原近期热点：成本优势",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/394121986",
+      "published": "Thu, 11 Jun 2026 10:15:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "SZ002714",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在生猪养殖行业深度调整、猪价持续低位运行的周期里，成本已成为决定企业生死与长期竞争力的核心变量。作为行业龙头，牧原股份近年虽与行业成本同步下行，表面看成本差距未明显扩大，但底层逻辑已发生质变——AI技术与一体化模式正形成不可逆的壁垒，未来将持续拉大与同行的成本差距，构筑难以复制的竞争护城河。 一、表面差距未扩，实则优势被阶段性掩盖 过去几年，牧原与行业平均成本差距看似持平，未进一步拉开，核心是行业阶段性因素掩盖了牧原的真实进步。 代养费下行拉低行业成本，周期上行必反转 行业“公司+农户”模式成本下降，主要来自代养费…",
+      "key_points": [
+        "售价优势反向扩大利润 牧原断奶仔猪成本稳定在250元左右，领先优势从2024年的百元左右收窄至当前的50元，对应成本优势缩窄约0.4元/公斤。但通过育种改良提升…",
+        "长期价值仍存 行业疫情损失减少，并非防疫能力提升，而是病毒浓度与毒性阶段性下降。牧原高投入的生物安全体系，在低疫情环境下折旧成为短期成本负担，但中国生猪疫病复杂…",
+        "随着AI降本效应逐步释放、猪周期上行、疫情反复，牧原的成本优势将从“隐性”转为“显性”，与同行差距持续拉大。在养殖行业从规模扩张转向效率竞争的新时代，成本为王的…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "反常识的观察：美股加速的 AI 泡沫，压住了油价？",
+      "title_zh": "AI 泡沫在抑制油价？一篇把算力狂热与宏观需求放在一起的观察",
+      "url": "http://xueqiu.com/9222280625/394211894",
+      "published": "Thu, 11 Jun 2026 10:15:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPI",
+        "COMEX",
+        "GPU",
+        "http",
+        "ON"
+      ],
+      "summary": "作者提出一个反常识判断：当前美股 AI 投资热正在改变资金与需求预期，某种程度上压住了油价弹性。核心不是简单喊“AI 万能”，而是把地缘冲突、美国消费走弱、降息预期和算力资本开支并列起来，解释为什么能源叙事没有按传统通胀剧本发散。",
+      "key_points": [
+        "一个非常反常识的观察： 目前美股加速的 AI 泡沫，一定程度上压住了原油价格",
+        "你应该明白为什么开头说 &#34;目前美股加速的 AI 泡沫，一定程度上压住了原油价格&#34;",
+        "因为降息会进一步降低 AI 的融资成本，刺激那些美股企业加杠杆搞资本开支，那么反而会加速“买卡裁人”，最终导致 &#34;越降息，算力越通胀，劳动越通缩&#34…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想292 AI叙事进入新阶段",
+      "title_zh": "AI 叙事进入新阶段：市场开始从想象力转向盈利能力",
+      "url": "http://xueqiu.com/1438190065/394092218",
+      "published": "Thu, 11 Jun 2026 10:15:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPI",
+        "Siri",
+        "Anthropic",
+        "Deepseek",
+        "Fable"
+      ],
+      "summary": "这篇文章把近期 AI 相关资产波动放回宏观环境里看：通胀、利率、中东扰动仍然重要，但市场的注意力已经从“谁能讲出更大故事”逐步切向“资本开支是否过量、商业回报能否兑现”。腾讯、苹果、Anthropic、甲骨文等案例，被放在同一条估值逻辑线上审视。",
+      "key_points": [
+        "到担心开支、到关注盈利模式，AI叙事进入新的阶段。腾讯推出的微信 AI、苹果推出的Siri AI，两大生态巨头，分别立足于自己的体系，打开自己最核心的王牌产品（…",
+        "Anthropic交出了它的“神话”模型Fable 5，看了下各家的评测，强是真的强，但贵也是真的贵，又要考验B端的承受能力了；起码在openrouter的统计…",
+        "是AI的叙事有出现变化的迹象。甲骨文报表靓丽，但是盘后跌超10%，市场开始担忧其资本开支，我看了下，全年预期是500亿美元，甲骨文超了57亿美元，也就是10%的…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "更新下主流红利类指数当前的估值数据",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6828304753/394049094",
+      "published": "Thu, 11 Jun 2026 10:15:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "ROE",
+        "CSIH30269",
+        "http",
+        "LV",
+        "SH000015"
+      ],
+      "summary": "近期按照中证的口径手动测算了更多指数的实时估值数据，现将部分数据与大家做一个分享： 以上数据是根据样本近十二个月的滚动数据计算的，部分官网不披露样本具体权重数据的指数躺师傅根据相关跟踪基金的申赎清单做了一个权重数据推算，数据是直接抓取的，无法确保每一份数据都是真实可靠，大家做一个简单的参考就行。 下面来简单聊几个大家感兴趣的问题： 1、本次新增了指数的加权市值数据 这个数据躺师傅简单地用样本权重*样本总市值求和计算，一个有让人有些意外的数据就是智选高股息指数的加权数据居然不到600亿，甚至不到300红利LV这种大盘…",
+      "key_points": [
+        "2、国证价值100和国信价值100的对比 最近这两只价值类指数大家讨论得比较多，躺师傅也仅根据表格中的数据片面的聊聊个人的一些看法。首先要明确的是这两只指数是风…",
+        "下面来简单聊几个大家感兴趣的问题： 1、本次新增了指数的加权市值数据 这个数据躺师傅简单地用样本权重*样本总市值求和计算，一个有让人有些意外的数据就是智选高股息…",
+        "近期按照中证的口径手动测算了更多指数的实时估值数据，现将部分数据与大家做一个分享： 以上数据是根据样本近十二个月的滚动数据计算的，部分官网不披露样本具体权重数据…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品经理用AI，最不该干的活就是写PRD",
+      "title_zh": "产品经理用 AI，最危险的不是效率低，而是把思考外包给 PRD",
+      "url": "https://www.woshipm.com/ai/6412005.html",
+      "published": "Thu, 11 Jun 2026 12:18:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PRD",
+        "PM",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "SLA"
+      ],
+      "summary": "文章反对把大模型当成 PRD 自动生成器，理由不是“AI 不会写文档”，而是它会制造一种虚假的清晰感。真正应该被 AI 接管的是资料整理、方案试探和问题拆解，而不是需求尚未澄清时就输出一份看起来完整的文档。",
+      "key_points": [
+        "我亲身经历过一个案例：团队里有个产品经理，用AI生成了一份新功能的PRD，文档写得很漂亮——用户场景、交互流程、异常处理面面俱到。开发看完觉得”需求很清晰”，直…",
+        "我见过不少产品经理开始用AI生成PRD。需求往对话框一扔，几十秒出来一份结构完整、格式规范、甚至带流程图描述的文档。看着挺像那么回事，对吧",
+        "而是”虚假精确” 原文提到一个核心观点：写PRD只占产品经理工作的10%，前面90%的混乱和不确定才需要被解决。这点我完全认同"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "离职前，老板告诉我的三条职场真相，看清AI时代普通人生存活路",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/zhichang/6411903.html",
+      "published": "Thu, 11 Jun 2026 11:28:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "BUG",
+        "CC0",
+        "MVP",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "一次离职前的深度谈话，意外揭开职场生存的底层逻辑与AI时代的生存法则。从「草台班子」的真相到如何应对职场「坏人」，从管理层的平衡艺术到AI冲击下的5条生存路径，这篇文章用犀利洞察与实战案例，帮你重新校准职业发展坐标系。 决定离职那天，原以为找领导走个常规流程很快就结束对话，没想到领导特意留我深聊一个多小时。这次深度谈话，让我收益匪浅，不仅帮我重新梳理了职场生存、相处、团队管理的思路，还结合当下行业就业趋势，剖析了在AI 冲击下不同人群的生存与发展方向。我结合自身产品从业经验，整理了分享给大家。 一、复杂职场下的简单…",
+      "key_points": [
+        "意外揭开职场生存的底层逻辑与AI时代的生存法则。从「草台班子」的真相到如何应对职场「坏人」，从管理层的平衡艺术到AI冲击下的5条生存路径，这篇文章用犀利洞察与实…",
+        "普通人的 5 条真实生存路径 当下AI飞速发展，各行业就业震动巨变，未来AI不会彻底取代人类，但不会用 AI、缺乏不可替代能力，只会做标准化、重复工作的人，会越…",
+        "5.大多数普通人：学一门难被 AI 替代的手艺 对大多数普通人最友好的建议：有一门稳吃饭保生存的手艺"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用 AI 干掉一个真实业务痛点：从 Excel 排期到自动试算工具",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6411808.html",
+      "published": "Thu, 11 Jun 2026 08:11:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PM",
+        "Excel",
+        "TAPD",
+        "demo",
+        "CodeBuddy"
+      ],
+      "summary": "游戏研发PM如何用AI工具重构排期流程？这篇文章揭秘了一个从Excel手动排期到AI自动化工具的蜕变过程。作者将痛点拆解为规则逻辑，通过CodeBuddy实现了甘特图自动生成，试排效率提升20倍，更将PM从重复劳动中解放出来聚焦团队协调。文中不仅展示了工具原型设计思路，更分享了AI时代产品经理如何精准定义边界、拒绝功能蔓延的实战经验。 我用 AI 做了一个排期计算工具。这篇文章不是分享 AI 工具教程，是我作为游戏研发 PM，把一个真实排期痛点拆成规则、做成工具、再验证边界的过程记录。 真正磨人的不是排期结果 如果…",
+      "key_points": [
+        "我用 AI 做了一个排期计算工具。这篇文章不是分享 AI 工具教程，是我作为游戏研发 PM，把一个真实排期痛点拆成规则、做成工具、再验证边界的过程记录",
+        "游戏研发PM如何用AI工具重构排期流程？这篇文章揭秘了一个从Excel手动排期到AI自动化工具的蜕变过程。作者将痛点拆解为规则逻辑，通过CodeBuddy实现了…",
+        "PM 做完排期方案后还有一步是风险识别，排期结果只是其中一部分，比如压缩了验收测试时间，可能就会有质量风险等等，这些目前还是 PM 人工分析，这个工具暂时做不到…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "时隔八年，再谈人机交互设计",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ucd/6403865.html",
+      "published": "Thu, 11 Jun 2026 08:10:50 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "App",
+        "AI",
+        "iOS",
+        "CC0",
+        "ChatGPT",
+        "DeepSeek"
+      ],
+      "summary": "从命令行到自然语言交互，人机交互设计正经历革命性跃迁。本文系统梳理交互设计六大核心维度——可用性、易用性、耐用性、艺术性、体验与场景，揭示AI时代下错误预防机制、多模态融合、健康设计等前沿趋势，并附赠完整技术路径思维导图，为产品人提供下一代交互设计的完整方法论框架。 八年前写过一篇，主要内容是从命令行、图形界面演进到自然语言对话时代。 走出八年，再谈人机交互设计原则，从 可用性、易用性、耐用性、艺术性、体验、场景 六个维度上展开，并且附赠人机交互的常见技术路径思维导图。 人机交互设计原则概览 一、可用性：准确、有效…",
+      "key_points": [
+        "再谈人机交互设计原则，从 可用性、易用性、耐用性、艺术性、体验、场景 六个维度上展开，并且附赠人机交互的常见技术路径思维导图",
+        "人机交互设计正经历革命性跃迁。本文系统梳理交互设计六大核心维度——可用性、易用性、耐用性、艺术性、体验与场景，揭示AI时代下错误预防机制、多模态融合、健康设计等…",
+        "人机交互设计原则概览 一、可用性：准确、有效、安全 可用性是交互设计的底线，没有可用性，其他一切归零"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些看完后惊呼「卧槽」的历史真实事件或冷知识？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790355",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "assumes.",
+        "Baccalaurei",
+        "consenties",
+        "Henrici",
+        "Henry",
+        "in"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 牛津大学曾有一条很奇怪的规定，从 13 世纪到 1827 年的 550 多年时间里，牛津大学的硕士生必须宣誓永不承认与 亨利·西蒙尼斯（Henry Symeonis） 的和解。 [1] 硕士！你要发誓你永远不会承认与亨利·西蒙尼斯的和解，也不会再重新恢复学士的身份。 Magister, tu jurabis quod nunquam consenties in reconciliationem Henrici Simeonis, nec statum Bacca…",
+      "key_points": [
+        "至少是在 1608 年之前，亨利·西蒙尼斯的真实身份信息早已湮灭了",
+        "当时的大学记录寥寥无几，事件真相扑朔迷离，各种猜测彼此说法不一",
+        "双方由来已久的积怨再次爆发，引发了暴力事件"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「几星」瓢虫是益虫？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790372",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Coccinella",
+        "Adalia",
+        "decempunctata",
+        "Diekeana",
+        "Harmonia",
+        "Henosepilachna"
+      ],
+      "summary": "“几星”瓢虫是益虫？ 斜绿天蛾， 点进主页你会发现，这人真就只在乎虫子 查看知乎原文 又到了我喜欢的瓢虫时间～ 瓢虫这个类群还是很有意思的。作为一类颜色艳丽辨识度高，加行动较慢容易观察，加无杀伤能力的昆虫，可以说是人类最熟悉的昆虫类群之一 而且通常是纯正面形象。 不过，人们的认知还是产生了一些偏差……其中，这个“七星瓢虫，或特定星数瓢虫是益虫，其它是有害的”，是最著名的错误模因之一 七星瓢虫本身没做错啥，不过它这个名称可能带来了某种误会。搞得人以为瓢虫都有星，或者名字都是按星数分的…… 不过其实呢，现实中，并不是这…",
+      "key_points": [
+        "人们的认知还是产生了一些偏差……其中，这个“七星瓢虫，或特定星数瓢虫是益虫，其它是有害的”，是最著名的错误模因之一 七星瓢虫本身没做错啥，不过它这个名称可能带来…",
+        "某些中文信息会提到“十星瓢虫是害虫”，这是错的，是把瓢虫和 叶甲科的 十星瓢萤叶甲 Oides decempunctata 混淆的结果。这种甲虫取食葡萄科植物",
+        "以上提到的所有瓢虫都是肉食性的，捕杀蚜虫、介壳虫或叶螨这样的小动物，在大多数情境下，你可以视为“益虫”"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为了研究蚊子的飞行轨迹，他与100只饥肠辘辘的蚊子共处了4分钟……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BA%86%E7%A0%94%E7%A9%B6%E8%9A%8A%E5%AD%90%E7%9A%84%E9%A3%9E%E8%A1%8C%E8%BD%A8%E8%BF%B9%EF%BC%8C%E4%BB%96%E4%B8%8E100%E5%8F%AA%E9%A5%A5%E8%82%A0%E8%BE%98%E8%BE%98%E7%9A%84%E8%9A%8A%E5%AD%90%E5%85%B1%E5%A4%84%E4%BA%864%E5%88%86%E9%92%9F%E2%80%A6%E2%80%A6",
+      "published": "Thu, 11 Jun 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Card",
+        "CDC",
+        "Christopher",
+        "David",
+        "deadly",
+        "figure"
+      ],
+      "summary": "我亲爱的朋友，你们可曾有过这样的疑问。 蚊子比苍蝇迟钝那么多，一个是随便一巴掌就能拍死的，另一个则必须靠专业苍蝇拍打击； 瘦小那么多，十只蚊子的体重才顶一只苍蝇； 挑食那么多，一个几乎只吸血液，另一个进垃圾桶胡吃海塞。 但是蚊子活得不比苍蝇差，打扰人类生活的频率比苍蝇只高不低。从直觉来看，这种对比好像很反直觉。 为何一种看起来如此缺乏生存能力的动物，可以在被人类厌恶、传播多类严重疾病的情况下，活到现在蚊丁兴旺、仍绕着人类嗡嗡作响？ 华裔科学家胡立德(David L. Hu)对蚊子的飞行方式充满兴趣。据他所说，目前科…",
+      "key_points": [
+        "100只蚊子在克里斯身边飞行10分钟。视频展示了其中一小部分的飞行轨迹 在麻省理工学院的数学合作者们指出，克里斯的人体几何结构太过复杂，不利于研究蚊子反应。数学…",
+        "采集飞行轨迹数据 研究蚊子飞行的难点在于，它们的大部分行为都是高度随机、毫无意义的噪音。在空房间内飞来飞去的蚊子，其飞行速度与方向大多随机变化。只有掌握大量飞行…",
+        "蚊子的飞行模式因目标类型不同而异 建立函数，运用模型。数学工具助我们挖掘出海量飞行轨迹里的规律。我们发现，蚊子呈现的飞行模式因目标类型不同而异。面对视觉目标，蚊…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "治不了的癌症，终于有新招了，顶刊发文，用\"基因粉碎机\"干掉不可成药癌细胞",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B2%BB%E4%B8%8D%E4%BA%86%E7%9A%84%E7%99%8C%E7%97%87%EF%BC%8C%E7%BB%88%E4%BA%8E%E6%9C%89%E6%96%B0%E6%8B%9B%E4%BA%86%EF%BC%8C%E9%A1%B6%E5%88%8A%E5%8F%91%E6%96%87%EF%BC%8C%E7%94%A8%22%E5%9F%BA%E5%9B%A0%E7%B2%89%E7%A2%8E%E6%9C%BA%22%E5%B9%B2%E6%8E%89%E4%B8%8D%E5%8F%AF%E6%88%90%E8%8D%AF%E7%99%8C%E7%BB%86%E8%83%9E",
+      "published": "Thu, 11 Jun 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "p53",
+        "Nature",
+        "Chromatin",
+        "CRISPR",
+        "Shredding",
+        "articles"
+      ],
+      "summary": "你是想活得更久？还是想活得更健康？我们希望的是，可以活的更久，并同时能保持健康、活力和高质量的生活。 而实现这一目标的前提，是理解疾病与衰老背后的底层生物学机制。 过去几十年里，科学家们一直在探索一个关键问题：当细胞发生异常时，我们能否更早地发现它、更精准地识别它，并最终有效地干预它？ 近日，国际顶级学术期刊《 Nature 》发表了一项突破性研究《 Targeting Cancer-Specific Mutations with RNA-Triggered Chromatin Shredding 》。 无尽方舟联…",
+      "key_points": [
+        "是人体最重要的抑癌基因之一。研究显示，超过40%的癌症都与p53突变相关",
+        "这项研究聚焦于长期困扰医学界的“不可成药癌症”问题，并提出了一种全新的解决思路：当无法修复异常细胞时，是否能够精准识别并选择性清除它们",
+        "一个困扰医学界数十年的难题 在癌症研究领域，有一个广为人知的词汇： Undruggable Targets（不可成药靶点）"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "鹅腿阿姨被官方通报；乌克兰AI无人机可能已经自主杀人；中国科学家发现最大深海鲸类坟场",
+      "title_zh": "今日科技与科学速览：AI 无人机、OpenAI 定价与深海鲸落",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%B9%85%E8%85%BF%E9%98%BF%E5%A7%A8%E8%A2%AB%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%EF%BC%9B%E4%B9%8C%E5%85%8B%E5%85%B0AI%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%8F%AF%E8%83%BD%E5%B7%B2%E7%BB%8F%E8%87%AA%E4%B8%BB%E6%9D%80%E4%BA%BA%EF%BC%9B%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8F%91%E7%8E%B0%E6%9C%80%E5%A4%A7%E6%B7%B1%E6%B5%B7%E9%B2%B8%E7%B1%BB%E5%9D%9F%E5%9C%BA",
+      "published": "Thu, 11 Jun 2026 18:04:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "JUNO",
+        "API",
+        "espresso",
+        "Luna",
+        "OpenAI"
+      ],
+      "summary": "这是一条高时效资讯合集，主线集中在三件事：AI 军事化边界继续前移，OpenAI 价格战传闻正在影响开发者工具市场，以及中国团队在深海鲸落研究上的新发现。它适合用来快速把握今天科技新闻的方向感，而不是逐条追完所有原始报道。",
+      "key_points": [
+        "重点新闻速览 中国科学团队发现迄今为止最大、最深的鲸类坟场，包括5个“活”鲸落 传 OpenAI 将大幅下调 API 价格 乌克兰AI无人机可能首次完成自主击杀…",
+        "微博上出现高热度讨论话题“豆包付费版被吐槽与免费版差异不大”。（IT之家） 乌克兰AI无人机可能首次自主击杀了敌方士兵 乌克兰无人机制造商 Alexander…",
+        "钉钉前产品经理 7.5 万字离职长文《置身钉内》在内外网刷屏，复盘 AI 产品 ONE 从日活冲高到拆分落幕的全过程；前钉钉副总裁马锐拉又发布《置身钉外》。阿里…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "他是有史以来进戛纳最多的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%96%E6%98%AF%E6%9C%89%E5%8F%B2%E4%BB%A5%E6%9D%A5%E8%BF%9B%E6%88%9B%E7%BA%B3%E6%9C%80%E5%A4%9A%E7%9A%84%E4%BA%BA",
+      "published": "Thu, 11 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TJ",
+        "Comment",
+        "File",
+        "Film",
+        "hongmomgs",
+        "Inney"
+      ],
+      "summary": "作者：Inney Prakash 译者：易二三 校对：覃天 来源：Film Comment （2023年6月20日） 当我在戛纳电影宫的露台上见到导演肯·洛奇和他的编剧搭档保罗·拉弗蒂——两人一起参加了11次戛纳电影节，并两度问鼎金棕榈奖——他们告诉我，在大约150名试图就他们的新片《老橡树酒馆》进行采访的记者中，我是第一个来自美国的。 考虑到这是他们连续第三部以英格兰北部为背景的电影（继《我是布莱克》和《对不起，我们错过了你》之后），外界认为他们的全新项目又只是一部本土化的作品似乎无可厚非，尽管这完全忽略了他们所…",
+      "key_points": [
+        "而在酒吧发生的下一个场景中，男人们开始谈论罢工，他们为记忆而争吵。一个人开始说，「不要再讲关于矿工的那些老掉牙的故事了」，然后另一个人把他叫了出去。然后另一个更…",
+        "《老橡树酒馆》剧组在戛纳 在精诚合作的十几部电影中，这对老搭档探讨了爱尔兰独立运动（《风吹麦浪》）、洛杉矶建筑清洁工的工会化（《面包与玫瑰》）以及对足球的热爱（…",
+        "洛奇： 我并不热衷于所谓的「主义」。我们的出发点是：以一种共通的人性的方式讲故事——如果我们和这些人物共处一室，会对他们产生共鸣。我们会理解为什么这些人以他们的…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "另一个电影传奇，也落幕了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%94%B5%E5%BD%B1%E4%BC%A0%E5%A5%87%EF%BC%8C%E4%B9%9F%E8%90%BD%E5%B9%95%E4%BA%86",
+      "published": "Thu, 11 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBC",
+        "hongmomgs",
+        "hsiao",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 hsiao 前些日子谈过伊斯特伍德退休的新闻，不由得想到，在和他相对的政治光谱的另一端，有一位导演也退休了。 肯 · 洛奇，下周将满九十岁。 2023 年《老橡树酒馆》是他明确说过的最后一部作品，从此不再拍。 肯 · 洛奇 就像我们之前说的，像伊斯特伍德那样的保守主义导演从此绝迹，洛奇的退休，也代表了一段漫长的左翼政治史的闭合。 从 1960 年代中期的 BBC ，到 2023 年的杜伦郡矿村，洛奇几乎不间断地拍了将近六十年，而且始终拍同一类人，站在同一个位置上。 世界电影史上左翼导演不少，但像他这样把一种政治…",
+      "key_points": [
+        "洛奇以 15 部主竞赛入围作品保持着这个电影节的纪录，超过任何一位导演，包括另一组左翼导演达内兄弟，而两座金棕榈让他跻身至今不足十人的双金棕榈俱乐部",
+        "《我是布莱克》(2016) 但如果只把洛奇理解为悲悯穷人的人道主义者，就错过了他左翼路线真正独特的地方。英国左翼电影传统里悲悯从不稀缺，从格里尔逊的纪录片运动到…",
+        "一个英国导演的电影参与撬动了另一个国家的历史记忆，这件事预示了洛奇晚年和欧洲大陆之间那种特殊关系"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "看看句点云平复一下心情",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%9C%8B%E7%9C%8B%E5%8F%A5%E7%82%B9%E4%BA%91%E5%B9%B3%E5%A4%8D%E4%B8%80%E4%B8%8B%E5%BF%83%E6%83%85",
+      "published": "Thu, 11 Jun 2026 15:14:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CD"
+      ],
+      "summary": "虽然 CD 买贵了，但那是之前。此刻的天气还是很不错的，可以看到光明灿烂的虚空。 文章原文",
+      "key_points": [
+        "但那是之前。此刻的天气还是很不错的，可以看到光明灿烂的虚空"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "中国生物医药的“平行线”困局，一家新型研究机构的“破壁实验”",
+      "title_zh": "中国生物医药的“平行线”困局，与一种破壁式研发组织实验",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%9B%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E8%8D%AF%E7%9A%84%E2%80%9C%E5%B9%B3%E8%A1%8C%E7%BA%BF%E2%80%9D%E5%9B%B0%E5%B1%80%EF%BC%8C%E4%B8%80%E5%AE%B6%E6%96%B0%E5%9E%8B%E7%A0%94%E7%A9%B6%E6%9C%BA%E6%9E%84%E7%9A%84%E2%80%9C%E7%A0%B4%E5%A3%81%E5%AE%9E%E9%AA%8C%E2%80%9D",
+      "published": "Thu, 11 Jun 2026 08:03:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "PD-1",
+        "Concept",
+        "derisk",
+        "fast",
+        "Prototype",
+        "AI"
+      ],
+      "summary": "文章指出中国生物医药长期存在“基础研究强、产业转化快，但两端像平行线一样脱节”的结构性问题。它把视角放到一种新型研究机构上，讨论如何把科学发现、早期验证和产业化需求串成连续链路，这比单纯谈论文或融资更有解释力。",
+      "key_points": [
+        "港股 18A 政策落地 ， 一级市场热钱涌入 ， 从 me-too 到 fast follower ， 中国生物医药迎来五年爆发期。新冠疫情更是将生物医药推上…",
+        "6.11 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 图片由AI生成 撰文｜李珊珊 ‍ ● ● ● 如果用一个词来概括中国生物医药领域过去十多…",
+        "主要依赖于工程能力、技术迭代、商业模式创新，但生物医药的动力往往直接来自生物学基础研究。在生物医药领域，一项源头突破可以 短时间 内直接催生出全球级的产业巨头"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "想知道未来吗？别迷信股市 | 经济学人财经（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%83%B3%E7%9F%A5%E9%81%93%E6%9C%AA%E6%9D%A5%E5%90%97%EF%BC%9F%E5%88%AB%E8%BF%B7%E4%BF%A1%E8%82%A1%E5%B8%82+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Thu, 11 Jun 2026 13:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "in",
+        "who",
+        "prices",
+        "by"
+      ],
+      "summary": "1 写在前面 思维导图作者： May Li，男，我要去追逐心中的太阳，还要继续努力的亚古兽 2 精读|翻译|词组 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 英文部分选自经济学人20260606期 财经版块 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 Want to know the future? Don’t trust the stockmarket 想知道未来吗？别迷信股市 Share prices…",
+      "key_points": [
+        "Don’t trust the stockmarket 想知道未来吗？别迷信股市 Share prices are buffeted by far more t…",
+        "1 写在前面 思维导图作者： May Li，男，我要去追逐心中的太阳，还要继续努力的亚古兽 2 精读|翻译|词组 Finance &amp; economics…",
+        "女，本人丰富，日新月异，无法简介 Ithil，男， 胡辣汤爱好者，世界杯冠军、三星阿根廷球迷 Cleo，男，学习不停，思考不止，努力成为审慎却乐观的深入思考者…"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "P5撸掉了P11，钉钉冤吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+P5%E6%92%B8%E6%8E%89%E4%BA%86P11%EF%BC%8C%E9%92%89%E9%92%89%E5%86%A4%E5%90%97%EF%BC%9F",
+      "published": "Thu, 11 Jun 2026 17:52:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "P11",
+        "P5",
+        "AI",
+        "BU",
+        "CEO",
+        "http"
+      ],
+      "summary": "昨天阿里关于钉钉管理文化的通稿刚发出来，老阿里人立刻就闻到味儿了，说这是不准备保无招了。果不其然，今天就把无招的CEO给拿掉了，公式做题就是快。无招确实是严格意义上的钉钉创始人，算是阿里内部比较少有的能从马老师那里赢得第二次信任的人，顶着屡败屡战的压力做出钉钉，属于实打实的战功。因为「云钉一体」的架构调整离职、时隔多年之后又被连带着创业公司被打包收购、重新被委以钉钉最高负责人的重任，这个叙事就很乔布斯，如果一切顺利的话。然而没有这种如果。钉钉内部对于无招第二次走人是比较开心的，工作强度实在太大了，更重要的是压力没有…",
+      "key_points": [
+        "昨天阿里关于钉钉管理文化的通稿刚发出来，老阿里人立刻就闻到味儿了，说这是不准备保无招了。果不其然，今天就把无招的CEO给拿掉了，公式做题就是快。无招确实是严格意…",
+        "最后撸掉了一个P11，这在阿里史上也还是头一回"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "对基本有序的序列排序算法",
+      "title_zh": "PowerSort 视角下的近有序序列排序设计",
+      "url": "https://blog.codingnow.com/2026/06/powersort.html",
+      "published": "2026-06-11T10:52:20Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "key",
+        "log",
+        "qsort",
+        "quicksort",
+        "n...",
+        "stable"
+      ],
+      "summary": "文章从稳定排序的实际需求出发，讨论为什么“近乎有序”的输入值得单独优化。重点不是再讲一遍复杂度公式，而是比较不同算法在真实数据分布、稳定性要求和常数开销下的表现，最后引出更适合这类场景的排序思路。",
+      "key_points": [
+        "我们希望排序是稳定 stable 的。因为元素的 key 相同，但元素本身可以不相同。这些有着相同 key 的元素一开始以某种次序放入序列，我们不希望对 key…",
+        "quicksort 是基于比较的排序中表现最好的算法，它在大多数情况下都能接近时间复杂度 O(n log n) ，所以 qsort() 也是 C 标准库中排序的…",
+        "光看大 O 时间复杂度是不够的。在 n 很小的时候，对实际开销影响更大的并非算法复杂度。因为复杂度是基于执行算法中每个单步操作的数量估算的，忽略了操作本身的时间…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "欧美有哪些传统食物可以反映历史上人民生活的艰难时期？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790333",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Castillo",
+        "de",
+        "Mar",
+        "Monlora",
+        "Sancho"
+      ],
+      "summary": "永乐通宝， 白河夜船 查看知乎原文 西班牙内战时发明出的——无土豆无鸡蛋版的西班牙土豆煎蛋卷（下附食谱）。 土豆煎蛋卷本来是西班牙的一道传统国民美食，但在共和军和国民军激烈鏖战那几年，西班牙变得物质极大不丰富，别说鸡蛋，连土豆都成了抢手的紧俏货。 正版西班牙土豆煎蛋卷 每一块面包都变得如此神圣，几乎要被饥饿的西班牙人供奉在祭坛。弗大帅为了打击共和军士气，经常派飞机往共和军控制的城市投下大量 100 克的“面包炸弹”，面包的包装纸上写着“家家有灯火，户户有面包”以及“统一、伟大、自由”的标语。 尽管缺少土豆煎蛋卷最主…",
+      "key_points": [
+        "土豆煎蛋卷本来是西班牙的一道传统国民美食，但在共和军和国民军激烈鏖战那几年，西班牙变得物质极大不丰富，别说鸡蛋，连土豆都成了抢手的紧俏货",
+        "睿智的西班牙人民，还是想出了替代食谱——用橙子皮代替土豆，用打成糊糊的面粉液代替鸡蛋液",
+        "便经常出现在平民餐桌的两样传统美食——“封锁期羊肉”和“屋顶野兔肉”自然必不可少"
+      ]
+    }
+  ]
+}
