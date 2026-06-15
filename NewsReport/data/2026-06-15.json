@@ -1,0 +1,780 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T01:00:10.900151+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 88,
+    "fresh_candidates": 57,
+    "backfill_candidates": 31,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-15",
+      "fetched_at": "2026-06-15T01:00:05.593733+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4031.51,
+          "change": 44.5,
+          "change_pct": 1.12,
+          "volume": 743131092.0,
+          "amount": 153740152.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4292.34,
+          "change": 75.51000000000022,
+          "change_pct": 1.79,
+          "prev_close": 4216.83,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-15 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 933.0993910653142,
+          "change": 16.414900734644107,
+          "change_pct": 1.7906816257710283,
+          "prev_close": 916.6844903306701,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-15 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%8F%E5%A4%A9%E5%A4%A7%E5%AE%B6%E9%83%BD%E4%B8%8D%E7%88%B1%E7%A9%BF%E5%87%89%E9%9E%8B%E4%BA%86%EF%BC%9F",
+        "title": "为什么夏天大家都不爱穿凉鞋了？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购软文，购买转化与产品卖点为主，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9B%AD%E6%9E%97%EF%BC%8C%E7%9C%9F%E6%AD%A3%E7%9A%84%E4%B8%AD%E5%BC%8F%E7%BE%8E%E5%AD%A6%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%81",
+        "title": "中国园林，真正的中式美学天花板！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "文旅直播预告导流明显，行动号召强于内容信息"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-15T01:01:44.201814+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6413312.html",
+      "top_urls": [
+        "http://www.phodal.com/blog/verify-engineering/",
+        "https://www.woshipm.com/ai/6413060.html",
+        "https://www.woshipm.com/ai/6413258.html",
+        "https://www.woshipm.com/pd/6413200.html",
+        "http://xueqiu.com/6600079272/394645223"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI泡沫的两种结局：软着陆再平衡还是硬着陆整体下行",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1710524900/394644220",
+      "published": "Sun, 14 Jun 2026 14:24:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Capex",
+        "PMI",
+        "Q1",
+        "PCB",
+        "CMC"
+      ],
+      "summary": "本文承接《 AH市场「冲击-传导」模型 》系列，聚焦一个核心判断：当前AI上游的拥挤和泡沫，最终会走向产业链内部的再平衡，还是触发整体叙事坍塌？港科网在这一过程中的角色，到底是再平衡的目的地，还是硬着陆的被动拖累方？当然，你也可以理解成，我这是写给科网股投资者的心理按摩指南。 核心结论 ： 当前AI上游的拥挤和泡沫，大概率走向产业链内部的再平衡（55%概率），而非整体叙事坍塌。 光模块的价格战和产能过剩是结构性问题，不是系统性问题——半导体、PCB、铜铝的基本面仍然扎实。港科网（腾讯、阿里）作为&#34;持续产生现…",
+      "key_points": [
+        "四、两条路径：软着陆（内部再平衡）vs 硬着陆（整体下行） 基于冲击-传导框架，AI上游泡沫的后续演绎可以归纳为两条路径。它们的分野不在于光模块自身的问题有多严…",
+        "概率分布如下： 基准情景（55%概率）：软着陆/内部再平衡 风险情景（35%概率）：硬着陆/整体下行 黑天鹅情景（10%概率）：ADR强制退市/地缘全面战争 概…",
+        "本文承接《 AH市场「冲击-传导」模型 》系列，聚焦一个核心判断：当前AI上游的拥挤和泡沫，最终会走向产业链内部的再平衡，还是触发整体叙事坍塌？港科网在这一过程…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "身处底部不知底",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/394642856",
+      "published": "Sun, 14 Jun 2026 14:21:20 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "持股收息，低估分散，手搓量化，这是三条被证明适合普通人的赚钱策略。只不过现在有了文峰后，手搓量化赚钱难度几何级增加。有现成的大道可以走，就没必要非要独辟蹊径。 有段时间，论坛里特别流行满仓单吊，个股轮动。因为看对了赚钱效率特别高。这个策略容错度很低，并不适合普通人。像东博在吉艾科技滑铁卢之前，也是百战百胜的将军。 人什么时候会愿意做长线，做短线感到倦怠的时候。这个时候做投资的减法，就是必要且适宜，事实证明，这样做反而能提升投资收益。人最难的是克制自己总想做点啥的冲动。 很多人只知道白酒行业整体萎缩，他们不知道的是，…",
+      "key_points": [
+        "刘淼说最难的时候已经过去，飞天在淡季市场价并不淡。相互印证下，我们可以说白酒最难的时候已经过去。当我们身处最底部时候，并不能意识到",
+        "他们不知道的是，在某些白酒细分领域，这些年消费量是一直增长的。比如保健酒，年份酒，低度酒和光瓶酒，高端酒天花板也依旧没有触达"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "我给大家分析这张价值亿万的藏宝图",
+      "title_zh": "一张产业链图，揭开台积电 CoPoS 封装机会",
+      "url": "http://xueqiu.com/6600079272/394645223",
+      "published": "Sun, 14 Jun 2026 14:21:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "TGV",
+        "CoPoS",
+        "AI",
+        "CMP",
+        "Core",
+        "CoWoS"
+      ],
+      "summary": "文章围绕台积电 CoPoS 供应链图谱，讨论后 CoWoS 时代先进封装的新增环节，以及大陆产业链可能切入的设备、材料和封测机会。虽然是投资视角写法，但信息抓手清晰，能帮助快速理解 AI 硬件下一轮基础设施迁移。",
+      "key_points": [
+        "━━━━━━━━━━━━━━━━ 三、逐层映射:对着这张图,A股能站哪几格 按图的结构,从上往下—— 第一格,玻璃基板与TGV(对应图里的Interposer与…",
+        "台积电CoPoS:CoWoS之后的下一场封装革命——这张全台系的图里,A股第一次站上了同一条起跑线 有人发来一张TrendForce的图:台积电CoPoS,以及…",
+        "是不是说这条线投资价值不大"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "医药牛股长啥样？（下）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3770558188/394640615",
+      "published": "Sun, 14 Jun 2026 14:20:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "biotech",
+        "GLP1Ra",
+        "V0",
+        "Va",
+        "Vs",
+        "ADC"
+      ],
+      "summary": "在看过部分代表性美股及A股医药“牛股长啥样”之后，接下来再往前多走一步，试着回答一下 “医药牛股有何共性特征” 的问题。 对于这个问题，不同的投资人从不同视角去看，会得出不同的结论。而我们的观点，则可以概况为4个关键词： 模式 、 时代 、 稀缺 、 进取 。 ——————————————— 一、模式好：在富矿区挖到金子的概率，会远超贫矿区 商业的世界里，并不是简单的事在人为。在有些细分领域里，优势公司就算再努力也无法推动行业有效集中，无法回避业绩的高波动，很难做到长期15%以上的稳态ROE；而另一些细分领域里，优…",
+      "key_points": [
+        "在看过部分代表性美股及A股医药“牛股长啥样”之后，接下来再往前多走一步，试着回答一下 “医药牛股有何共性特征” 的问题",
+        "我们认为：中国医药资产很可能会从不是太遥远的未来某个时间点，开启令人振奋的“黄金新10年”。当前市场的加速回调及未来一段时间内可能存在的相对低迷，是我们重新梳理…",
+        "顺流则速，逆流则难 一家医药公司，不仅在发展空间上会深受商业模式的制约，而且在发展速度上也会深受时代力量的牵绊。一家企业若踩中了时代风口，它的业务可以快速甚至极…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "我也成了老登的受害者，面对极致分化行情，该怎么办？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%88%91%E4%B9%9F%E6%88%90%E4%BA%86%E8%80%81%E7%99%BB%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%EF%BC%8C%E9%9D%A2%E5%AF%B9%E6%9E%81%E8%87%B4%E5%88%86%E5%8C%96%E8%A1%8C%E6%83%85%EF%BC%8C%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F",
+      "published": "Sun, 14 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "byebye",
+        "DCF",
+        "emo",
+        "http",
+        "say"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 大马哈投资 来源：雪球 不出意外 ， 还是出意外了 。 曾记得 ， 在2024年6月26日以及2024年8月25日 ， 我各写了一篇文章 （ 成长风格基金经理被逼到了墙角和红利行情到头了吗 ？ ） 表达对成长风格的看好以及对红利风格未来表现的谨慎态度 。 事后来看 ， 当时我写的这两篇文章应该说预判是相当准确的 。 可是 ， 我更想说的是可是 ， 我在执行层面着实是一塌糊涂 。 先说当年的9月24日前 ， 因为当时自己想着…",
+      "key_points": [
+        "近期极致分化的结构性行情直叫那些持有或者看好市场老登的投资者们破防",
+        "我也想表达自己的一点个人想法 ， 那就是希望那些聚焦于老登资产的基金产品别在此时选择投降",
+        "我想更多投资者关心的是 ， 接下来该怎么办"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Agent想花我的钱，要先过信任这一关",
+      "title_zh": "AI Agent 想替你花钱，先得解决信任问题",
+      "url": "https://www.woshipm.com/ai/6413312.html",
+      "published": "Sun, 14 Jun 2026 08:23:03 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "A2P2",
+        "A2A",
+        "ClawTip",
+        "L0"
+      ],
+      "summary": "AI 支付开始从演示走向真实交易，核心瓶颈不再是模型能力，而是授权、扣款、追责这些信任基础设施。文章把支付宝、京东等方案放在一起比较，指出 Agent 支付真正要补的是用户掌控权、交易确认和异常兜底机制，适合关注 AI 商业化落地与支付产品设计的人。",
+      "key_points": [
+        "这也是在回答C端用户的疑虑：我的钱包能交给AI么？我的支付密码能告诉Agent么",
+        "蚂蚁集团 AI支付总经理朱林就曾坦言：“今天真正的矛盾不是缺流量，也不是技术不够强，而是交易信任问题没有被解决。” 信任，也正成为产业标准建设的关键。或者说，只…",
+        "从支付宝到京东，各大平台纷纷推出智能体支付解决方案。但当AI开始替你花钱，信任问题成为最大障碍——如何确保扣款安全？交易出错谁来负责？本文将深度解析支付宝的「用…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我要定义一个新的概念：业务原生",
+      "title_zh": "业务原生：让业务人员像做 PPT 一样搭系统",
+      "url": "https://www.woshipm.com/ai/6413258.html",
+      "published": "Sun, 14 Jun 2026 07:17:48 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "PPT",
+        "AI",
+        "Serverless",
+        "CC0",
+        "IT",
+        "postmeta.bookmark"
+      ],
+      "summary": "这篇文章尝试把低代码、AI 编程和 Serverless 收束成“业务原生”概念，核心判断是企业软件的瓶颈不只在开发效率，更在业务表达能否直接变成系统能力。概念还偏早期，但对企业应用形态的讨论有启发。",
+      "key_points": [
+        "今天我就尝试正式定义一下业务原生这个概念！也希望更多的人可以看到，理解它、讨论它、批评它",
+        "为何企业数字化建设总是如此低效？本文首次完整定义「业务原生」概念，揭秘如何让业务人员像制作PPT一样轻松构建业务系统。通过拆解低代码与AI编程的革命性结合，以及…",
+        "我就想定义业务原生这个概念。当时只是想出了这个词，但具体怎么定义还没有想清楚"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "如果用户相信系统，为什么还要对账？",
+      "title_zh": "为什么用户明明相信系统，还是要反复对账？",
+      "url": "https://www.woshipm.com/pd/6413200.html",
+      "published": "Sun, 14 Jun 2026 04:43:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "文章把 B 端对账解释为一种“解释重建”过程：用户不是单纯怀疑系统，而是在确认结果是否符合自己的业务理解。这个视角对做资金、结算、账务后台的人很重要，因为真正要优化的往往不是计算，而是可解释性和差异定位路径。",
+      "key_points": [
+        "对账会自然结束 回到最初的问题： 用户相信系统，但仍在确认一件事： 结果是否与自己的理解一致",
+        "但在用户调研中却经常听到商家的另一种表达： “我们相信系统计算，但还是会仔细核对。” 这句话很关键，但它表达的重点并不在“信不信系统”",
+        "用户感知到一个差异： 实际到账与预期不一致 然后进入系统： 对比昨日数据 定位金额变化 查找订单/退款/服务费 追溯结算规则 最后尝试建立一个解释： 这个差异是…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "StudyFetch：一个 AI 学习工具，怎么靠短视频做到 700 万用户",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6412529.html",
+      "published": "Sun, 14 Jun 2026 03:26:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "StudyFetch",
+        "AI",
+        "TikTok",
+        "Kiran",
+        "Instagram",
+        "Reels"
+      ],
+      "summary": "StudyFetch 用两年半俘获700万学生用户的秘诀，竟藏在短视频的「惊讶点」里。这个AI学习工具不仅将课堂笔记自动生成玩出新高度，更通过精准的创作者策略撬动TikTok流量池，让医学生和学霸成为自发传播节点。从第一条300万浏览的爆款视频到每月五位数的博主合作，揭秘教育类产品如何把「可拍摄性」变为增长引擎。 今天分享的是：StudyFetch，https://www.studyfetch.com/ StudyFetch 是一个面向学生的 AI 学习平台。 用户可以上传课件、教材、课堂笔记、视频或讲义，系统会把…",
+      "key_points": [
+        "StudyFetch 用两年半俘获700万学生用户的秘诀，竟藏在短视频的「惊讶点」里。这个AI学习工具不仅将课堂笔记自动生成玩出新高度，更通过精准的创作者策略撬…",
+        "用户可以上传课件、教材、课堂笔记、视频或讲义，系统会把这些材料变成学习计划、测验、闪卡、课堂笔记，还配有一个叫 Spark.E 的 AI 导师",
+        "StudyFetch 不是靠学校采购起步，也不是靠传统广告砸出来，而是靠短视频、创作者和非常具体的产品演示，在学生群体里快速扩散"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Fable 5 上线三天就被按停：AI 模型开始有“国界”了",
+      "title_zh": "Fable 5 上线三天即被按停，AI 模型开始出现“国界”",
+      "url": "https://www.woshipm.com/ai/6413060.html",
+      "published": "Sun, 14 Jun 2026 02:28:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Fable",
+        "Mythos",
+        "Claude",
+        "agent"
+      ],
+      "summary": "文章借 Anthropic 新模型被出口管制事件，讨论 AI 模型从产品能力转向战略资源后的新约束。重点不是单一公司受挫，而是模型、算力、云服务开始一起进入地缘规则体系，中国团队需要正视“模型断供”这类系统性风险。",
+      "key_points": [
+        "Anthropic 刚上线三天的两个旗舰模型 Claude Fable 5 和 Claude Mythos 5，被美国政府一纸出口管制指令按停了。不是宕机，也不…",
+        "六、真正的变化：AI 模型开始变成“战略资源” 这次事件还有一个更大的信号：AI 模型开始有“国界”了",
+        "关心的是好不好用、贵不贵、快不快、体验顺不顺。可当模型强到能参与一条完整的复杂行动链时，它就不只是产品了，而开始像算力、芯片、云服务一样变成战略资源。这次按停，…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些事是你当了领导才知道的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790443",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Fab",
+        "PIE",
+        "IGBT",
+        "MOSFET",
+        "PCB"
+      ],
+      "summary": "晏北， 公众号: 晏小北 ☞ 理解芯片，理解经济 查看知乎原文 我以前常常纳闷， 那些领导，今年管领域 A，明年管领域 B，咋做到的 ？ 比如芯片领域，功率芯片和射频芯片，原理完全不同， 俺一个资深功率芯片研发人员，和做射频的同学聊起技术，两人大眼瞪小眼，鸡同鸭讲。 那， 总经理这一级别的人物，凭什么隔几年就换个领域，在不同分公司之间来去自如？ 他真的懂这么多不同领域的东西？难道他真是天才？ 图片来源：网络 后来才明白，令我困惑的这一现象背后， 藏着一个制度设计的秘密——上位者心照不宣，却又永远不会告诉下位者的秘密…",
+      "key_points": [
+        "后者完胜， 但斯密没有提到的是， 从个体的角度，前者能够更加便利地窥见制针的全流程 ， 他清楚地知道每道工序的意义是什么，最终产品的应用场景是什么， 而后者，…",
+        "公众号: 晏小北 ☞ 理解芯片，理解经济 我以前常常纳闷， 那些领导，今年管领域 A，明年管领域 B，咋做到的",
+        "为什么高层领导可以管理不同领域"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "普通人如何拥有一颗星星（来自宇宙，能许愿那种",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%99%AE%E9%80%9A%E4%BA%BA%E5%A6%82%E4%BD%95%E6%8B%A5%E6%9C%89%E4%B8%80%E9%A2%97%E6%98%9F%E6%98%9F%EF%BC%88%E6%9D%A5%E8%87%AA%E5%AE%87%E5%AE%99%EF%BC%8C%E8%83%BD%E8%AE%B8%E6%84%BF%E9%82%A3%E7%A7%8D",
+      "published": "Sun, 14 Jun 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Muonionalusta",
+        "Wikipedia",
+        "Meteoritical",
+        "Society",
+        "Aerolite",
+        "Brocken"
+      ],
+      "summary": "夏天的首饰翻来覆去就是那几样——珍珠温润，玉石清冷，金银又撞款撞到尴尬……翻遍首饰盒，没有一件能让你在人群中多那么一点点不一样。 戴一颗星星在身上怎么样？ 它不是地球上的任何一块石头。 从宇宙深处坠落，穿过大气层，带着燃烧的纹理来到你面前——每一道维斯台登纹，都是星辰的指纹。 那么问题来了，普通人如何拥一颗星星呢？ 方法一：去当“陨石猎人”！发一笔“天降横财” 要知道，陨石可是跟黄金一样论“克”售卖的。 就拿这颗去年5月刷爆朋友圈的 广东茂名巨型火流星来说， 伴随着一声巨响，这颗穿透乌云瞬间亮如白昼的火流星。这颗陨…",
+      "key_points": [
+        "果壳首发“命运”西北非陨石镶嵌设计吊坠 于是，他们斥巨资用925厚银开模做了 驰龙 的爪子，手握的是三种不同“星星”或者星星的伴生产物。这一只 握住的不是一块普…",
+        "别错过 👇 点击预约 👇 最后咱们再欣赏一下，当星星落入凡尘，依然有他独有美貌。偏振光显微镜下石陨石的球粒结构： 摄影师：芮博超 韩越扬 铁陨石上的魏德曼花纹：…",
+        "劳斯莱斯旋钮上的陨石 根据旋钮下方特意铭刻的经纬度，在The Meteoritical Society官网搜索可知，这块天铁正是来自瑞典的“星空遗产”——Muo…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "自然界进化不出剑？进化出轮子的次数都比剑更多！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%87%AA%E7%84%B6%E7%95%8C%E8%BF%9B%E5%8C%96%E4%B8%8D%E5%87%BA%E5%89%91%EF%BC%9F%E8%BF%9B%E5%8C%96%E5%87%BA%E8%BD%AE%E5%AD%90%E7%9A%84%E6%AC%A1%E6%95%B0%E9%83%BD%E6%AF%94%E5%89%91%E6%9B%B4%E5%A4%9A%EF%BC%81",
+      "published": "Sun, 14 Jun 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "https",
+        "al.",
+        "et",
+        "article",
+        "materials"
+      ],
+      "summary": "前段时间重温《鬼灭之刃》，里面有个小孩设定是野兽养大的，他不能理解刀这种武器，只能把刀刃敲成牙齿状使用。 于是我想到一个问题：几乎没有ACG作品能抑制在动物（或拟人动物）身上添加“剑”或“武士刀”的诱——不管是牙、爪、角还是捕捉足，都会被设定成大杀四方的神兵利器。但实际上， 真正的“剑”在自然界极为稀少 。 大自然不喜欢斩击？ 我们这里把“剑”或者“斩击”，定义为使用一个锋利的刃，通过劈砍来造成大的切割伤。根据这个定义你会发现， 所有以“剑”或者“刀”命名的动物，几乎都跟“斩击”没有关系 ： 刃齿虎的上犬齿用来刺穿…",
+      "key_points": [
+        "甚至滚动结构在进化的出现次数，可能都比剑的次数多。滚动因为旋转会把组织“拧”在一起，参考从中间拧断的火腿肠，所以在动物身上出现滚动结构是很困难的。然而，至少有一…",
+        "即便动物有合适的材料形成类似长刀大剑的组织，它们不具备相应的本能和身体结构，也无法支持它们有效完成一套挥击的动作。任何生物特征要进化并稳定下来，都要在自然选择中…",
+        "挥打和投掷都是人类独有的本能动作 。对挥打的研究很少，对投掷我们了解得更多一些，其他灵长类扔东西只会用到胳膊，所以即使它们力气再大，还是扔得不远也不准。这套动作…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "被神化的外国食材，中国都在量产了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%A2%AB%E7%A5%9E%E5%8C%96%E7%9A%84%E5%A4%96%E5%9B%BD%E9%A3%9F%E6%9D%90%EF%BC%8C%E4%B8%AD%E5%9B%BD%E9%83%BD%E5%9C%A8%E9%87%8F%E4%BA%A7%E4%BA%86",
+      "published": "Sun, 14 Jun 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ID",
+        "SouthReviews",
+        "CCTV-17",
+        "FAO"
+      ],
+      "summary": "本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：赵靖含 编辑：谢奕秋 20世纪90年代，美国学者莱斯特·布朗抛出了一个令世界瞩目的问题：谁来养活中国？ 彼时，中国人口刚刚突破12亿，而耕地面积正因工业化进程而不断缩减。一升一降之间，“粮食危机”的阴云开始在国际舆论场上聚集。 当然，布朗命题提出后不久，答案很快显现，中国用不到世界9%的耕地养活了近20%的人口。到“十四五”末，中国谷物自给率稳定在95%以上，口粮绝对安全。 但是，解决了“吃得饱”之后，中国并未止步，而是进一步向本土化、…",
+      "key_points": [
+        "但切蛋糕的规则，农民说了不算。他建议借鉴一些已经验证的制度安排，比如陕西袁家村的“你中有我、我中有你”的股份制，广东南海模式的“人人入股”，华为的员工持股。“让…",
+        "中国正快速进军鹅肝、橄榄油、抹茶及精品葡萄酒领域丨图虫创意 这些原本有着明显西方文化烙印的“高端食材”，如今在中国完成了规模化的“异地繁殖”，并反向输出至全球市…",
+        "很大程度上来自原产地叙事、贵族历史加持和西方餐饮体系的背书。中国大规模量产之后，更多消费者尝到了“曾经高高在上”的食材，打破了稀缺性带来的神秘感。消费者开始追问…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "今年的神级女性演出，一定会横扫所有奖项",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%8A%E5%B9%B4%E7%9A%84%E7%A5%9E%E7%BA%A7%E5%A5%B3%E6%80%A7%E6%BC%94%E5%87%BA%EF%BC%8C%E4%B8%80%E5%AE%9A%E4%BC%9A%E6%A8%AA%E6%89%AB%E6%89%80%E6%9C%89%E5%A5%96%E9%A1%B9",
+      "published": "Sun, 14 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Mubi",
+        "Nose",
+        "qq.com"
+      ],
+      "summary": "文 Nose 今年柏林电影节出了一部爆款电影，获得最佳主演奖的《罗斯》，之后一路爆到各个电影节，很可能年底还要冲冲奥斯卡影后。 《罗斯》（2026） 黑白，片长不到 94 分钟，故事非常简单，讲一个发生在德国 —— 这样说不严谨，当时还没有德国，准确说是神圣罗马帝国境内的某德意志邦国的农村，时间大概在 17 世纪的三十年战争前后。 桑德拉 · 惠勒饰演的女主角罗斯，以男性老兵的身份出现在一座偏远的新教村庄，声称自己是一处荒废多年的农场的继承人，拿出了一份文书作为证据。她在村庄里艰难地争取到了一席之地，甚至与邻居农民…",
+      "key_points": [
+        "在于它有意识地拒绝了以上所有模板。罗斯不是一个被压迫的女性试图在男权世界中找回真实自我的故事。她没有一个需要被发现或被承认的真实自我。她的男性伪装不是对内在认同…",
+        "但惠勒今年的情况有点特殊。她 2026 年同时有四部重要作品面世。除了《罗斯》之外，她在《挽救计划》《挖掘者》中同样有出演，还有一部是帕夫利科夫斯基的《故土》，…",
+        "这些外部的奖项都只是锦上添花，《罗斯》的真正价值，是它在全球女性电影高度繁荣的此刻，提出了一个不那么受欢迎但极其重要的命题"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "伍迪·艾伦算顶级导演吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BC%8D%E8%BF%AA%C2%B7%E8%89%BE%E4%BC%A6%E7%AE%97%E9%A1%B6%E7%BA%A7%E5%AF%BC%E6%BC%94%E5%90%97%EF%BC%9F",
+      "published": "Sun, 14 Jun 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A.O.",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "qq.com",
+        "Scott"
+      ],
+      "summary": "作者：A.O. Scott 译者：陈思航 校对：Issac 来源：《纽约时报》 我不敢确定，但我第一次听到西格蒙德·弗洛伊德的名字，可能是在《安妮·霍尔》的一段独白中，当时我差不多十一岁。在影片中，艾维·辛格引用了弗洛伊德的《智慧及其与潜意识的关系》，他认为这是某个笑话的来源，通常来说，人们会将源头归到格劳乔·马克斯的身上。这种指涉可以看作是一个元笑话，它是对于影响的宣示。马克斯和弗洛伊德！如果没有他们的话，二十世纪会是什么样子？或者说，如果没有艾维·辛格的创造者伍迪·艾伦，一切又会如何呢？ 《安妮·霍尔》（197…",
+      "key_points": [
+        "我们为什么不争论一下呢？伍迪·艾伦究竟是不是伟大的电影导演呢？有没有证据可以证明这一结论呢？此前的批评意见是很有帮助的，部分原因在于，它向我们表明，伍迪·艾伦的…",
+        "Scott 译者：陈思航 校对：Issac 来源：《纽约时报》 我不敢确定，但我第一次听到西格蒙德·弗洛伊德的名字，可能是在《安妮·霍尔》的一段独白中，当时我差…",
+        "《另一个女人》（1988） 在那些岁月里，伍迪·艾伦的想象力自由地跨越了过去的流行文化，充满了魅力与气魄。这往往得益于法罗女士那种喜剧性的镇定，以及情感层面的优…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我最喜欢他的《秋天 1944》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E4%BB%96%E7%9A%84%E3%80%8A%E7%A7%8B%E5%A4%A9+1944%E3%80%8B",
+      "published": "Sun, 14 Jun 2026 16:32:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "R.I.P."
+      ],
+      "summary": "而不是《你把我灌醉》。R.I.P. 文章原文",
+      "key_points": [
+        "而不是《你把我灌醉》。R.I.P"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "这批数学古籍，“学术价值和版本价值”为何弥足珍贵？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%BF%99%E6%89%B9%E6%95%B0%E5%AD%A6%E5%8F%A4%E7%B1%8D%EF%BC%8C%E2%80%9C%E5%AD%A6%E6%9C%AF%E4%BB%B7%E5%80%BC%E5%92%8C%E7%89%88%E6%9C%AC%E4%BB%B7%E5%80%BC%E2%80%9D%E4%B8%BA%E4%BD%95%E5%BC%A5%E8%B6%B3%E7%8F%8D%E8%B4%B5%EF%BC%9F",
+      "published": "Sun, 14 Jun 2026 08:01:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mm",
+        "of",
+        "Alexander",
+        "ab",
+        "abx2dx",
+        "Analyti"
+      ],
+      "summary": "6.14 ‍‍‍‍‍‍‍ 知识分子 The Intellectual 撰文： 刘洁民 北京师范大学数学科学学院 丁小浩 大湾区大学人文社科中心 ● ● ● 2025年6月，大湾区大学图书馆入藏了一批珍贵的数学古籍，包括清初历算大家梅文鼎的《梅定九书》 （清康熙年间刊本，含梅文鼎著作8种，李光地著作1种，共9册） ，清道光年间数学家罗士琳研究元代数学家朱世杰数学名著《四元玉鉴》的著作《四元玉鉴细草》 （道光十九年（1839）刊本，10册） ，清代后期数学家李善兰与英国传教士伟烈亚力 （Alexander Wylie）…",
+      "key_points": [
+        "经过初步了解，认定它们作为古代数学著作的学术价值和版本价值都弥足珍贵，随后通过文本研读、版本考据、研究现状调查等工作对它们做了初步研究。在这些工作的基础上，本文…",
+        "书影（包括批注照片） 从最初对上述几套数学古籍的考察到本文的写作，我们多次咨询了中国数学史领域著名学者、天津师范大学李兆华教授。李教授对朱世杰、梅文鼎和李善兰的…",
+        "这批数学古籍是何书元先生捐赠给大湾区大学的。何先生1984年及1992年在北京大学分别获得硕士学位和博士学位，并先后担任北京大学数学学院教授和首都师范大学数学学…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "从“男性成人礼”到外国游客狂欢：日本性交易灰色产业链正面临怎样的风暴？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BB%8E%E2%80%9C%E7%94%B7%E6%80%A7%E6%88%90%E4%BA%BA%E7%A4%BC%E2%80%9D%E5%88%B0%E5%A4%96%E5%9B%BD%E6%B8%B8%E5%AE%A2%E7%8B%82%E6%AC%A2%EF%BC%9A%E6%97%A5%E6%9C%AC%E6%80%A7%E4%BA%A4%E6%98%93%E7%81%B0%E8%89%B2%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%AD%A3%E9%9D%A2%E4%B8%B4%E6%80%8E%E6%A0%B7%E7%9A%84%E9%A3%8E%E6%9A%B4%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sat, 13 Jun 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "in",
+        "sex",
+        "is",
+        "women"
+      ],
+      "summary": "1 导读 本文是近段时间经济学人阅读人数最多的文章。文章探讨了日本性产业面临的治理困境与舆论争议。受日元贬值影响，外国游客涌入加剧了街头拉客等乱象，引发社会不满。尽管警方开始打击MY者，但“只罚卖方、不罚买方”的法律漏洞及执法不公遭到女权组织批评。围绕是否引入惩罚买方的“北欧模式”或全面合法化，日本社会分歧严重。然而，面对庞大的室内灰色产业链，政府目前仅聚焦于解决街头问题以维护表面秩序，短期内难以进行彻底的法律改革，具体可以仔细阅读原文。 2 阅读 Asia | Anything goes Sex tourists…",
+      "key_points": [
+        "1 导读 本文是近段时间经济学人阅读人数最多的文章。文章探讨了日本性产业面临的治理困境与舆论争议。受日元贬值影响，外国游客涌入加剧了街头拉客等乱象，引发社会不满…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "久旱逢甘露，平价 AI 视频模型终于来了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%B9%85%E6%97%B1%E9%80%A2%E7%94%98%E9%9C%B2%EF%BC%8C%E5%B9%B3%E4%BB%B7+AI+%E8%A7%86%E9%A2%91%E6%A8%A1%E5%9E%8B%E7%BB%88%E4%BA%8E%E6%9D%A5%E4%BA%86%EF%BC%81",
+      "published": "Sun, 14 Jun 2026 10:50:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Seedance2.0",
+        "mini",
+        "AI",
+        "Fast",
+        "All",
+        "http"
+      ],
+      "summary": "久旱逢甘露，哪哪都好、就是小贵的Seedance2.0视频模型终于要上史低价，而且会在第一时间接入剪映，大家的钱包终于有救了。已知的信息是，新的模型版本是Seedance2.0 mini，定价会有「大幅降低」，预期能够满足成本敏感的抽卡用户。在算力紧缺的情况下，单独训练一个小尺寸模型，去覆盖要求没有那么高的使用场景，是行业里的惯例了，比如已经烂大街了的翻译插件，内置的模型不是mini就是lite⋯⋯目前，Seedance2.0分为Fast、Standard两个型号，其中Fast就是主打性价比需求的，走的是低价路线，…",
+      "key_points": [
+        "哪哪都好、就是小贵的Seedance2.0视频模型终于要上史低价，而且会在第一时间接入剪映，大家的钱包终于有救了。已知的信息是，新的模型版本是Seedance2…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "验证工程：从 Vibe 硬件编程 Loop 到自迭代验证",
+      "title_zh": "验证工程：从 Vibe 式硬件编程到自迭代验证",
+      "url": "http://www.phodal.com/blog/verify-engineering/",
+      "published": "Sun, 14 Jun 2026 07:23:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Loop",
+        "Vibe"
+      ],
+      "summary": "作者把 AI 参与硬件开发的问题，从“生成代码”推进到“生成后如何持续验证”。重点不在炫技，而在搭出一个能自检、自纠偏的验证闭环，这对物联网、嵌入式和传统行业软件改造都更有迁移价值。",
+      "key_points": [
+        "想探索一下之前的一个想法：AI 时代能不能加速传统行业的一些软件开发的范式？作为一个写过物联网书籍的“资深”硬件专家，"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第270期 - 喜欢乔村",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/270/",
+      "published": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Kami",
+        "Mole",
+        "Pake",
+        "https",
+        "Kaku"
+      ],
+      "summary": "封面图拍摄于周末去乔村吃饭，随手拍的一张照片，他们家好吃的，牛油果三文鱼好好吃，假如有朋友来杭州，我一般会带着去吃这个或者张公馆。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 最新推荐 假如你的朋友最近需要更新简历，一定要把 Kami 推荐给他 https://github.com/tw93/Kami 假如你的朋友最近需要更新简历，一定要把 Kami 推荐给他，我单独细致优化了一个版本，单独让 Kami 写简历变得非常好用好看清晰，让他把他的原生素材 md 准备好，然后对…",
+      "key_points": [
+        "首先我不是网红、也不是自媒体、也不是 KOL，啥也不是，就是一个普通的写点儿兴趣代码的工程师。推特对我来说，就是把我做的开源产品更新日志同步给大伙，然后分享一些…",
+        "不过已经很久不接了。之前记得有机构联系我，说广告主不喜欢我这种账号，喜欢那种经常发 AI 热点的账号，我一听，反而很高兴，哈哈，我的账号没有变成人家眼中的高质量…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-15",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "马斯克的“提款机”SpaceX来了！华尔街大佬们集体“卑躬屈膝” | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E2%80%9C%E6%8F%90%E6%AC%BE%E6%9C%BA%E2%80%9DSpaceX%E6%9D%A5%E4%BA%86%EF%BC%81%E5%8D%8E%E5%B0%94%E8%A1%97%E5%A4%A7%E4%BD%AC%E4%BB%AC%E9%9B%86%E4%BD%93%E2%80%9C%E5%8D%91%E8%BA%AC%E5%B1%88%E8%86%9D%E2%80%9D+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Thu, 11 Jun 2026 14:22:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SpaceX",
+        "to",
+        "of",
+        "IPO",
+        "finance",
+        "high"
+      ],
+      "summary": "1 导读 明天（6月12日），全球资本市场将迎来史诗级时刻——SpaceX正式IPO，估值直逼1.8万亿美元。然而，在这光鲜亮丽的“万亿盛宴”背后，华尔街却上演了一出极其“不体面”的谄媚大戏。为了争夺这笔巨额承销费，高盛、摩根士丹利等昔日“宇宙主宰”竟集体放下身段：不仅将散户门槛从10万美元狂降至2000美元，甚至不惜把费率压低至0.75%，只为博得马斯克一笑。更讽刺的是，SpaceX还预留30%份额给散户，并实行“一口价”策略，将投行从“权力掮客”彻底贬为“打工仔”。面对这种“既要给钱又要受气”的局面，华尔街只能…",
+      "key_points": [
+        "全球资本市场将迎来史诗级时刻——SpaceX正式IPO，估值直逼1.8万亿美元。然而，在这光鲜亮丽的“万亿盛宴”背后，华尔街却上演了一出极其“不体面”的谄媚大戏…",
+        "2 精读|翻译|词组 Finance &amp; economics | Buttonwood 金融版块 | 梧桐树专栏 英文部分选自经济学人202600606…",
+        "“ 恶心感 ” 这一词汇由 Z 世代在约会文化中兴起，用来形容对心仪对象产生好感后，因其某个微不足道却令人难堪的举动而突然失去兴趣的感受。如今，美国高端金融界的…"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么编程语言里的乘法符号是 * 而不是 × ，后者不应该更符合主流吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790302",
+      "published": "Mon, 08 Jun 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FORTRAN",
+        "BCD",
+        "Heinrich",
+        "Rahn",
+        "addition",
+        "characters"
+      ],
+      "summary": "为什么编程语言里的乘法符号是“*”而不是“×”，后者不应该更符合主流吗？ icon-meh， 小厂程序员，PM，私信请说\"嗨，美女\"，别总问\"在吗，大哥\" 查看知乎原文 如果只是考古编程的话，我能找到的最早的相关文献是这个： 这是 FORTRAN 语言最初的设计报告封面，字迹有些模糊，报告的日期是 1954 年 11 月 10 日。 在下面这个章节： 你可以看到初稿中使用的是 × 而不是 *，并且明确标注了这个符号代表 Multiply。 我认为这就是计算机大佬们最初的想法，即使用贴近数学习惯的符号 ×。 但到了下…",
+      "key_points": [
+        "为什么编程语言里的乘法符号是“*”而不是“×”，后者不应该更符合主流吗",
+        "早期计算机明明主要用来做数值计算，为什么字符集里却没有乘法符号嘞",
+        "Johann Heinrich Rahn，1659 年 （不懂德语，机翻的）乘法的主要符号是 *，意为“乘以”"
+      ]
+    }
+  ]
+}
