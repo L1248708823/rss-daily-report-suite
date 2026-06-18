@@ -1,0 +1,729 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T01:00:12.419608+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 89,
+    "fresh_candidates": 62,
+    "backfill_candidates": 27,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-18",
+      "fetched_at": "2026-06-18T01:00:07.107439+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4108.08,
+          "change": 16.19,
+          "change_pct": 0.4,
+          "volume": 608077413.0,
+          "amount": 140314591.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4309.46,
+          "change": 51.85999999999967,
+          "change_pct": 1.22,
+          "prev_close": 4257.6,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-18 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 936.627085247641,
+          "change": 11.27136129374503,
+          "change_pct": 1.2180571213829336,
+          "prev_close": 925.355723953896,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-18 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "https://www.woshipm.com/class/6414387.html",
+        "title": "2026想转型AI产品经理？这些AI实践你需要先了解！",
+        "platform": "人人都是产品经理",
+        "source": "人人都是产品经理",
+        "reason": "课程导流与现场报名动员为主，知识信息密度不足，不适合作为日报条目"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E5%A5%BD%EF%BC%81%E6%9C%80%E6%AD%B9%E6%AF%92%E5%8F%88%E5%81%A5%E5%BA%B7%E7%9A%84%E9%82%AA%E6%81%B6%E9%9B%B6%E9%A3%9F%E5%87%BA%E7%8E%B0%E4%BA%86%E2%80%A6%E2%80%A6",
+        "title": "不好！最歹毒又健康的邪恶零食出现了……",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "带货推广与购买引导为主，营销属性强，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-18T01:03:05.678032+00:00",
+      "lead_url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E9%98%BF%E7%A6%8F%E7%9C%8B%E7%97%85%EF%BC%8C%E5%8C%BB%E7%94%9F%E7%AD%BE%E5%AD%97",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6415188.html",
+        "https://www.woshipm.com/ai/6415145.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+SpaceX%E6%94%B6%E8%B4%ADCursor%EF%BC%8CDeepSeek%E5%AE%8C%E6%88%90%E7%BA%A6510%E4%BA%BF%E5%85%83%E9%A6%96%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8COpenAI%E8%B4%A2%E6%8A%A5%E6%98%BE%E7%A4%BA2025%E5%B9%B4%E4%BA%8F%E6%8D%9F385%E4%BA%BF%E7%BE%8E%E5%85%83",
+        "http://xueqiu.com/1701766657/395187909",
+        "https://daily.zhihu.com/story/9790493"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-18",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "看业绩排行榜买基金，能赚到钱吗？数据告诉你真相！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%9C%8B%E4%B8%9A%E7%BB%A9%E6%8E%92%E8%A1%8C%E6%A6%9C%E4%B9%B0%E5%9F%BA%E9%87%91%EF%BC%8C%E8%83%BD%E8%B5%9A%E5%88%B0%E9%92%B1%E5%90%97%EF%BC%9F%E6%95%B0%E6%8D%AE%E5%91%8A%E8%AF%89%E4%BD%A0%E7%9C%9F%E7%9B%B8%EF%BC%81",
+      "published": "Wed, 17 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 晨星投资说 屈辰晨 在看基金业绩排行榜时，我们很容易被那些短期涨幅靠前的产品吸引。这些基金往往也有一个共同特点：涨的时候猛，跌起来也猛。 从直觉上看，高波动似乎意味着更大的收益空间。毕竟，在投资中我们经常听说“风险与收益相匹配”这句话——想要获得更高回报，往往需要承担更高风险。 从大类资产的角度看，这句话是成立的。比如从长期来看，股票的预期收益确实比波动更低的债券、现金类资产要高。但如果我们比较的是同一类资产，或者同一种投…",
+      "key_points": [
+        "晨星投资说 屈辰晨 在看基金业绩排行榜时，我们很容易被那些短期涨幅靠前的产品吸引。这些基金往往也有一个共同特点：涨的时候猛，跌起来也猛",
+        "这组数据也意味着，波动更高的基金往往交易得更频繁，进而产生更高的交易成本，推高投资者持有这只基金的整体费用。但结合前面对风险收益的分析可以看到，这些高波动基金更…",
+        "晨星基金综合费率反映的是投资者持有一只基金实际承担的投资成本。从这一数据来看，在同类基金中，波动水平越高的产品，综合费率往往也越高"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美伊14点备忘录：油价的利空，油运的起点",
+      "title_zh": "美伊 14 点备忘录，为什么更利空油价而利好油运",
+      "url": "http://xueqiu.com/1701766657/395187909",
+      "published": "Wed, 17 Jun 2026 09:21:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "VLCC",
+        "AIS",
+        "http",
+        "SH600026",
+        "SH601872",
+        "SH601975"
+      ],
+      "summary": "文章把市场焦点从“地缘冲突是否缓和”进一步推到“霍尔木兹海峡与原油出口链条会不会恢复”。如果伊朗原油、保险和运输服务重新接回全球体系，油价风险溢价会被压缩，但海运与油运需求可能因此受益，适合关注能源贸易链条而不只盯商品价格的读者。",
+      "key_points": [
+        "市场传出美国和伊朗已经达成一份14点谅解备忘录。虽然目前这份内容还没有得到美伊官方证实，但从条款结构看，它已经足够值得市场认真研究",
+        "这份14点备忘录可以分三层看",
+        "这对油价是供给增加的利空"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资与投机之间，隔着一整个认知阶层的距离",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/395216891",
+      "published": "Wed, 17 Jun 2026 09:21:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "ROE",
+        "AI",
+        "http",
+        "ROE+",
+        "SH515080"
+      ],
+      "summary": "昨晚和相识多年的老友小聚闲谈，他问了我一个散户比较困惑的问题： “你在A股深耕二十一年，从几万本金做到稳步盈利，投资和投机最本质的区别到底是什么？” 结合这些年看过无数散户盈亏起落，我给出了最直白的答案： 二者从不是交易快慢、复盘勤懒的差别，投资和投机，隔着一整个认知阶层。你的炒股认知层级，决定了你能赚到哪一层的钱，眼光不同，收益天差地别。 不讲空洞大道理，用真实推演数据说话。我选取2023年1月3日至2026年6月16日，共计1289天完整行情，沿用行情软件前复权股价、上市公司官方分红数据，无任何数据美化，设置两…",
+      "key_points": [
+        "他问了我一个散户比较困惑的问题： “你在A股深耕二十一年，从几万本金做到稳步盈利，投资和投机最本质的区别到底是什么？” 结合这些年看过无数散户盈亏起落，我给出了…",
+        "一秒区分投资与投机 每次想要下单，尤其是做短线博弈前，自问一句： 如果个股突然停牌三年，无法卖出，我还敢安心持有吗",
+        "本次操作就是投机；笃定企业经营稳定、分红不间断，持股毫无压力，才是真正价值投资"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "比亚迪真正的护城河，根本不是造车",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6600079272/395116333",
+      "published": "Wed, 17 Jun 2026 09:21:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IGBT",
+        "http",
+        "SH603986",
+        "SZ002594",
+        "SZ300475",
+        "xueqiu.com"
+      ],
+      "summary": "$比亚迪(SZ002594)$ $兆易创新(SH603986)$ $香农芯创(SZ300475)$ 刷到一篇拆比亚迪护城河的文章，标题很大，但看完发现核心框架确实说到了点子上。 很多人买比亚迪，只看销量、看股价、看短期利润。但比亚迪真正值钱的，从来不是造车这个动作本身，而是它做了一件全球车企很少有人做到的事—— 从上游材料到整车，尽可能全产业链自己干。 今天不聊它的股价，聊聊这套“全链自控”的框架，以及它对我们看科技制造的启发。 ━━━━━━━━━━━━━━ 一、什么叫真正的护城河 可以浓缩成三句话：垂直整合压成本…",
+      "key_points": [
+        "只看销量、看股价、看短期利润。但比亚迪真正值钱的，从来不是造车这个动作本身，而是它做了一件全球车企很少有人做到的事—— 从上游材料到整车，尽可能全产业链自己干",
+        "不是“比亚迪该不该买”，而是一把尺子：看一家制造业公司有没有长期护城河，就看它对产业链关键环节的掌控力有多深。这把尺子，量比亚迪适用，量国产存储、量半导体设备，…",
+        "━━━━━━━━━━━━━━ 一、什么叫真正的护城河 可以浓缩成三句话：垂直整合压成本，规模扩张摊费用，海外溢价赚利润"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "生猪市场追踪：仔猪价格（2026年6月17日）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/395127256",
+      "published": "Wed, 17 Jun 2026 09:21:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ000876",
+        "SZ002714",
+        "SZ300498",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今年春节后，仔猪价格虽然也持续低位运行，但是相比于商品猪的深度亏损，直至六月上旬，大部分集团企业的仔猪报价始终在成本线附近，直至近期集团企业的仔猪报价才有所松动。 前期有很多对市场一知半解的自媒体和分析师在用仔猪价格没有深度亏损来证明行业产能未能去化，是对仔猪市场的了解不够清楚和深入。 一、集团企业仔猪报价的局限性 单个集团企业的仔猪供应量确实很大，但能够大规模供应仔猪的集团企业数量有限，行业仔猪供应的主力仍然是非集团的规模养殖场，包括自育肥和外销仔猪兼营的规模场，以及专业母猪饲养场。在正常年份里，集团企业的仔猪报…",
+      "key_points": [
+        "前期有很多对市场一知半解的自媒体和分析师在用仔猪价格没有深度亏损来证明行业产能未能去化，是对仔猪市场的了解不够清楚和深入",
+        "2022年和2023上半年行业亏损，2025年上半年行业盈亏基本平衡，但这三年的上半年仔猪价格都较为坚挺，而除了2022年极其超预期的上涨外，其余年份下半年生猪…",
+        "三、为什么没有极端低的仔猪价格 往年市场低迷时，市场上往往会出现大规模的低于100元/头的仔猪，今年到目前为止还未出现。一方面是仔猪需求的季节性，这个后面会讲到…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从修驴蹄到砍树：解压短视频的心理学拆解",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6415293.html",
+      "published": "Wed, 17 Jun 2026 10:02:18 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "TopKlout",
+        "Unsplash"
+      ],
+      "summary": "从修驴蹄到砍树，解压视频正经历一场野蛮生长。抖音上的伐木师傅们用油锯轰鸣和树干轰然倒塌的原始张力，精准击中当代人的情绪开关——既有高空作业的视觉刺激，又有物理学般的精密计算，更藏着都市人向往的山野呼吸。本文将拆解这类内容为何让人欲罢不能，以及它如何成为快节奏生活中的另类慢解压。 “伐树界的天之骄子，农村最强伐树工的逆袭之路，重生之我在农村做伐树！” 打开抖音，搜索“砍树”，你大概率会进入一个肾上腺素飙升的平行宇宙。 一个伐木工，腰间挂着绳索，爬上十几米高的树，油锯轰鸣，树枝开始颤抖，然后“咔嚓”一声，碗口粗的树枝应…",
+      "key_points": [
+        "解压视频正经历一场野蛮生长。抖音上的伐木师傅们用油锯轰鸣和树干轰然倒塌的原始张力，精准击中当代人的情绪开关——既有高空作业的视觉刺激，又有物理学般的精密计算，更…",
+        "无论是修驴蹄时污垢被彻底刮净的“整洁救赎”，还是砍树时巨木轰然倒塌的“野性释放”，都在用一种简单粗暴的方式，给予观众强烈的视觉与心理反馈",
+        "01 上一个让全网上瘾的是修驴蹄子 要搞懂砍树为什么能火，得先回头看看它那些“前任”是怎么拿捏网友的"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "SpaceX 600亿美元收购Cursor：AI时代的软件生产入口意味着什么？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6415241.html",
+      "published": "Wed, 17 Jun 2026 09:05:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Cursor",
+        "SpaceX",
+        "bug",
+        "coding",
+        "agent"
+      ],
+      "summary": "当一家造火箭的公司豪掷600亿美元收购一个代码编辑器，这背后远不止是马斯克的疯狂故事。Cursor的深层价值在于它卡住了AI时代的软件生产入口——它不再只是工具，而是深度嵌入开发者日常工作的核心流程。从需求拆解到代码提交，这款产品正在重新定义AI如何真正改变工作方式，而不仅仅是在旁边添加一个聊天框。 一家造火箭的公司，突然要花 600 亿美元买一个写代码工具，很多人的第一反应大概是：马斯克又讲了一个硅谷式的疯狂故事？ 我倒觉得，价格本身没那么值得惊讶。更值得警惕的是，我们很容易把 Cursor 看浅。 很多人提到…",
+      "key_points": [
+        "当一家造火箭的公司豪掷600亿美元收购一个代码编辑器，这背后远不止是马斯克的疯狂故事。Cursor的深层价值在于它卡住了AI时代的软件生产入口——它不再只是工具…",
+        "未必只是一个编辑器，更像是 AI 时代的软件生产入口",
+        "但不能只从“代码编辑器”的角度问。把 Cursor 当成工具看，600 亿美元确实夸张；把它看成 AI 进入软件生产现场的入口，价格背后的逻辑就顺了很多"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI模型“断供”风险真实存在？企业应如何构建多模型架构",
+      "title_zh": "AI 模型断供风险，企业该怎么做多模型架构",
+      "url": "https://www.woshipm.com/ai/6415188.html",
+      "published": "Wed, 17 Jun 2026 08:12:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "token",
+        "Fable",
+        "API",
+        "Mythos"
+      ],
+      "summary": "这篇文章把“模型可用性”从采购问题拉回到架构问题：一旦外部模型因政策、价格或服务调整突然失效，业务层要有可切换的接口、路由和降级方案。它的价值不在制造恐慌，而是在提醒团队把模型解耦、成本治理和组织应急一起设计。",
+      "key_points": [
+        "Anthropic旗舰模型Fable 5与Mythos 5的突然关停，揭开了AI行业供应链安全危机的序幕。这场国家级管制事件不仅重创依赖海外模型的企业，更暴露出…",
+        "多模型兼容、自主可控的架构设计，不仅是风险防控的手段，也是长期降本增效的基础。企业可以根据不同场景选择最优的模型方案，灵活应对技术迭代和市场变化，在 AI 产业…",
+        "两者的区别只在于影响路径。芯片断供影响的是硬件生产，传导周期相对较长，企业还有库存缓冲的空间。模型断供影响的是业务运营，今天还能正常调用的接口，明天就可能返回错…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "把产品直觉驯化成 AI 的“操作系统”：B 端 PM 的 Vibe Coding Skill 培育手记",
+      "title_zh": "把产品直觉驯化成 AI 协作系统",
+      "url": "https://www.woshipm.com/ai/6415145.html",
+      "published": "Wed, 17 Jun 2026 08:09:04 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "skill",
+        "AI",
+        "Skill",
+        "prompt",
+        "coding",
+        "Ant"
+      ],
+      "summary": "文章讨论的不是“会不会写 prompt”，而是怎样把产品判断标准沉淀成可复用的 skill、规则和评审流程。亮点包括把隐性的审美与业务约束显性化、让 AI 输出更稳定，以及把个人经验转成团队可复用资产。对做 B 端产品、设计系统和 AI 协作流程的人尤其有参考价值。",
+      "key_points": [
+        "skill 不是指传统意义上的个人能力，而是指 一套被编码进 prompt 或工具配置里的、可复用的协作规则 。它的载体可以是一个 Cursor Rules 文…",
+        "也更被低估。培育 skill 的过程，是在反向逼迫你把那些飘在脑子里、只能意会的“产品感觉”显性化、结构化。你觉得某个界面“不好”，以前你最多说一句“不够专业”…",
+        "通常会自然演化成这个样子： 角色定义 ：AI 在这个协作场景下扮演什么角色。（比如：严苛的 B 端产品搭档，不为我的需求一味叫好，而是帮我发现逻辑漏洞。） 核心…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "角速度为什么是个矢量？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790490",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "x-y",
+        "xz",
+        "yz",
+        "x-w",
+        "x-z",
+        "xy"
+      ],
+      "summary": "太空僧， 2022年新知答主｜航天及天文优秀答主 查看知乎原文 这是高中物理老师都要刻意回避的问题。 当年我就问过我的物理老师，角速度不是角度除以时间么，这两个标量相除，怎么得到了一个矢量？如果角速度是矢量的话，那角位移是不是矢量？ 物理老师就回答：“先记住，别问为什么。” 高中课本对“角速度方向”的处理非常谨慎，大部分老师只会作定性介绍，我记得有个词儿叫“高中阶段不作要求”。 我去翻了一下人教版的物理书必修二，上面是这么写的： 角速度是矢量。在匀速圆周运动中，角速度的大小不变，方向可以用右手螺旋定则来判断：右手握…",
+      "key_points": [
+        "角速度不是角度除以时间么，这两个标量相除，怎么得到了一个矢量？如果角速度是矢量的话，那角位移是不是矢量",
+        "这里 无穷小角位移 在一阶下是一个矢量，除以无穷小时间这个标量，得到的角速度自然继承了微角位移的矢量性",
+        "上面是这么写的： 角速度是矢量。在匀速圆周运动中，角速度的大小不变，方向可以用右手螺旋定则来判断：右手握住转动轴，使四指弯曲的方向与转动方向一致，则拇指所指的方…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "Token 是否具有边际成本趋零的特征？",
+      "title_zh": "Token 的边际成本并没有趋近于零",
+      "url": "https://daily.zhihu.com/story/9790493",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "HBM",
+        "GPU",
+        "Google",
+        "DDR",
+        "ASIC"
+      ],
+      "summary": "这篇长文试图反驳“AI 服务像互联网产品一样越卖越便宜”的想象，强调云端模型背后仍然是重资产、重能耗、重供应链的制造业逻辑。即便观点带有鲜明立场，它仍提供了一个值得产品和投资人重视的视角：算力、带宽和硬件折旧会持续塑造 AI 商业模式。",
+      "key_points": [
+        "地产从业狗，经济学民科，摄影爱好者，公众号：夫斯基话你知 完全不具备边际成本趋向于 0 的特征 。云端集中式 AI 的商业模式在互联网架构的精美包装之下，实际上…",
+        "云端集中化 AI 是彻头彻尾的传统制造业，不是互联网行业——边际成本结构决定一切 没错，AI 看上去非常的高大上，非常的互联网，非常的未来，但是仅仅是看上去而已…",
+        "读到这里可能你已经力竭了，那么我们现在用结构化的写作方式，再次压缩一下前文，提取一下关键词。集中注意力，把自己想象成一个 AI，或者你可以把它当作是一个诡异的规…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "如果大家在野外看到这样一个一个的小土丘，那就要小心了......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A6%82%E6%9E%9C%E5%A4%A7%E5%AE%B6%E5%9C%A8%E9%87%8E%E5%A4%96%E7%9C%8B%E5%88%B0%E8%BF%99%E6%A0%B7%E4%B8%80%E4%B8%AA%E4%B8%80%E4%B8%AA%E7%9A%84%E5%B0%8F%E5%9C%9F%E4%B8%98%EF%BC%8C%E9%82%A3%E5%B0%B1%E8%A6%81%E5%B0%8F%E5%BF%83%E4%BA%86......",
+      "published": "Wed, 17 Jun 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "al.",
+        "et",
+        "http",
+        "i2e0tiK7qn",
+        "ID",
+        "SELFtalks"
+      ],
+      "summary": "我们研究红火蚁的行为也是非常有用的，特别是对监测和防治红火蚁来说很有用。 文超 · 北京林业大学青年教师 格致校园第48期 | 2024年 北京 大家好，我是来自北京林业大学的文超。我主要研究社会性昆虫包括蚂蚁、蜜蜂、熊蜂等等，今天就给大家分享一下我们的一些研究和研究中发生的有趣故事。 前几天我刚看到过一则新闻，说红火蚁已经入侵到我们国家12个省份了， 目前已经有超过600多个区县被红火蚁入侵。 大家可不要小瞧这个蚂蚁。被红火蚁叮咬之后，轻则会像图片这样形成一个脓疱，严重的话会导致休克甚至死亡。所以红火蚁也被列入了…",
+      "key_points": [
+        "如果你们在野外看到这样一个一个的小土丘，那么就要小心了，这很有可能是红火蚁的蚁巢。发现蚁巢之后，我们就会使用铁锹把红火蚁的蚁巢给一锅端掉，包括它周围的土壤，把红…",
+        "也就是一块双面胶中间放一个火腿肠，然后把它放到野外。如果我们在野外发现了这种搬运颗粒的行为，那说明这个地方很有可能就有红火蚁，因为这种行为具有相对的专一性",
+        "大家可不要小瞧这个蚂蚁。被红火蚁叮咬之后，轻则会像图片这样形成一个脓疱，严重的话会导致休克甚至死亡。所以红火蚁也被列入了全世界最危险的100种生物之一"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "现在的路边摊是越来越贵了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%8E%B0%E5%9C%A8%E7%9A%84%E8%B7%AF%E8%BE%B9%E6%91%8A%E6%98%AF%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%B4%B5%E4%BA%86",
+      "published": "Wed, 17 Jun 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "in",
+        "MCN",
+        "CCFA",
+        "China",
+        "Economy"
+      ],
+      "summary": "本文授权转载自浪潮工作室（ID：WelleStudio163），未经授权禁止转载 有网友发帖问：“现在有什么东西贵到不值得买了？” 众多留言里的高赞之一，是路边摊。 我挺同意的，我想起上次在夜市散步，路过的一家手打柠檬茶闻着很香，我点了一杯，到手大概500ml，18元，半杯的冰，就价格而言，它的口感实在很一般。然后，我开始后悔，后悔在这个餐饮卷上天的时代，我为什么要喝一杯手锤两下就18元的柠檬茶，毕竟，蜜雪冰城的冰鲜柠檬水也不过4元。 月薪一万，不敢轻易尝试路边摊 很多人都觉得城市里的路边摊变了。 过去的路边摊是野…",
+      "key_points": [
+        "越来越多的路边摊也转向经营起了“网红小吃”，原本很多非常普通的街头小吃，经过网红化的包装和营销后，价格直线飙高： 一根红薯裹上麻薯和芋圆变成了“爱马仕烤薯”，售…",
+        "[10]餐企老板内参.(2025).路边摊咋越来越贵了",
+        "[12]红餐网.(2025).动辄三四十元为何路边摊越来越贵 成本与溢价共驱"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "SpaceX收购Cursor，DeepSeek完成约510亿元首轮融资，OpenAI财报显示2025年亏损385亿美元",
+      "title_zh": "科技快讯：Cursor 并购、DeepSeek 融资与 OpenAI 亏损同时出现",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+SpaceX%E6%94%B6%E8%B4%ADCursor%EF%BC%8CDeepSeek%E5%AE%8C%E6%88%90%E7%BA%A6510%E4%BA%BF%E5%85%83%E9%A6%96%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8COpenAI%E8%B4%A2%E6%8A%A5%E6%98%BE%E7%A4%BA2025%E5%B9%B4%E4%BA%8F%E6%8D%9F385%E4%BA%BF%E7%BE%8E%E5%85%83",
+      "published": "Wed, 17 Jun 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "SpaceX",
+        "OpenAI",
+        "RNA",
+        "Cursor",
+        "DeepSeek"
+      ],
+      "summary": "这是一篇高密度的产业快讯，主线集中在 AI 资本与商业化压力：一边是编程工具入口被高价并购，另一边是国内大模型公司拿到超大额融资，同时头部厂商仍在承受巨额亏损。适合用一篇文章快速把握当天 AI 赛道的并购、融资和财务信号。",
+      "key_points": [
+        "重点新闻速览 1.SpaceX 600亿美元全股票收购Cursor母公司 2.DeepSeek完成约510亿元首轮融资 3.字节跳动豆包日亏千万，战略重心转向S…",
+        "Cursor的代码模型将与其Colossus超算集群协同，帮助Grok团队补齐编程能力短板。（Reuters / SpaceX SEC 8-K） 图丨reute…",
+        "本轮投资方包括创始人梁文锋个人出资约200亿元、腾讯约100亿元、宁德时代体系约50亿元，以及网易、京东、IDG资本、国家人工智能产业投资基金等。融资采用维持创…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "伟大的电影，伟大的诗人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BC%9F%E5%A4%A7%E7%9A%84%E7%94%B5%E5%BD%B1%EF%BC%8C%E4%BC%9F%E5%A4%A7%E7%9A%84%E8%AF%97%E4%BA%BA",
+      "published": "Wed, 17 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "mv",
+        "Cuts",
+        "hongmomgs",
+        "irisfilm",
+        "is",
+        "just"
+      ],
+      "summary": "文 黄小米 分别热爱诗歌和电影的人，很可能至为讨厌讲诗人的电影。诗歌被视为语言的精华，电影却硬要把一切都视觉化，窄化文字的可能性，和诗歌的审美模式的确是相违背的。而一厢情愿要在电影里的诗人身上表现诗意，似乎天真了点，有诗意的电影和主人公是不是诗人毫无关系。 更重要的分歧在于语言，诗歌历来被认为是最不可译的文学类型，电影则因其大众化的出身，显然期待跨语言认同。在无法转译另一种语言精华的情况下，诗人电影很可能是看个热闹拍个热闹。 讲诗人的电影当然不能算一种严肃的分类，其中不大认真的电影不过是大路货人物传记片罢了，但有那…",
+      "key_points": [
+        "《追捕聂鲁达》（2016） 文学爱好者当中，爱诗或经常读诗的也算少数，而电影已死的说法我们已经听得耳朵出茧了。关于诗人的电影不可谓不是一种挑战。《明亮的星》导演…",
+        "很可能至为讨厌讲诗人的电影。诗歌被视为语言的精华，电影却硬要把一切都视觉化，窄化文字的可能性，和诗歌的审美模式的确是相违背的。而一厢情愿要在电影里的诗人身上表现…",
+        "其中不大认真的电影不过是大路货人物传记片罢了，但有那么几部电影的确在传达诗意方面做出了有益的尝试，将诗人的心像世界呈现在了银幕上。容许我们窥看一眼神秘的诗歌生产…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "为什么中国导演一共分成六代",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E5%9B%BD%E5%AF%BC%E6%BC%94%E4%B8%80%E5%85%B1%E5%88%86%E6%88%90%E5%85%AD%E4%BB%A3",
+      "published": "Wed, 17 Jun 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Admin",
+        "AGA",
+        "CD",
+        "Doraiswamy",
+        "DVD",
+        "First"
+      ],
+      "summary": "作者：Rashmi Doraiswamy 译者：覃天 校对：易二三 来源：AGA Admin （2019年7月28日） 译者按： 谢飞导演是令人尊敬的中国电影人，他最被观众熟知的作品有《湘女萧萧》（1986）《本命年》（获1990年柏林电影节杰出艺术成就奖）《香魂女》（获1993年柏林电影节金熊奖）。在2019年7月于哈萨克斯坦努尔苏丹举办的第15届欧亚国际电影节上，印度影评家拉什米·杜斯瓦米采访了谢飞导演，后者正担任亚洲电影促进联盟奖的评审团主席。 问：为什么中国电影史的划分方式常常是以「第几代影人」而不是「时期…",
+      "key_points": [
+        "中国还没有电影学院。第三代导演在戏剧院校学习。北京电影学院成立于1956年，它的前身是成立于1953年的「北京电影学校」。我们曾经邀请许多专家，例如苏联格拉西莫…",
+        "比如王小帅（1966年生）、张元（1963年生）、贾樟柯（1970年生），基本上没有受到十年动乱的冲击。他们在运动后接受了电影教育，并且在改革开放之后，在市场制…",
+        "问：为什么中国电影史的划分方式常常是以「第几代影人」而不是「时期」来划分的"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国地理“地标”景观，你知道多少？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86%E2%80%9C%E5%9C%B0%E6%A0%87%E2%80%9D%E6%99%AF%E8%A7%82%EF%BC%8C%E4%BD%A0%E7%9F%A5%E9%81%93%E5%A4%9A%E5%B0%91%EF%BC%9F",
+      "published": "Wed, 17 Jun 2026 17:27:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "中国版图幅员辽阔 山脉为骨架 河湖贯穿其中 在这些自然景观中 总有一些“独具一格”的地标景观 今天和地理君一起看看中国地理地标 （自然篇） 纬线标志点 北回归线地标 北回归线是太阳直射点的最北端，每年夏至日(6月22日左右)，太阳直射北回归线，这一天是北半球昼最长夜最短的一天，越往北昼越长，北极圈内会出现极昼，南半球刚好相反，此时北半球进入盛夏，所以 北回归线又名夏至线 。 台湾省花莲县静浦村的 北回归线标志塔 北回归线在我国自西向东穿过了云南、广西、广东、福建、台湾五省区。从 云南墨江、广西桂平、广东从化、汕头到…",
+      "key_points": [
+        "中国版图幅员辽阔 山脉为骨架 河湖贯穿其中 在这些自然景观中 总有一些“独具一格”的地标景观 今天和地理君一起看看中国地理地标 （自然篇） 纬线标志点 北回归线…",
+        "参考资料： 1、 从探险秘境到发现热土 .中国国家地理.2014.10期 2、珠江居然还有这么多冷知识，广东人：学不完学不完，不愧是你！广州日报.2024.10…",
+        "历史上淮安就是“运河之都” 借由水运的便利 这里发展了繁荣兴盛的运河文化 山峰海拔地标 我国是一个多山的国家，各类山峰的海拔地理标志点自然不计其数"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "出去晃了一天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%87%BA%E5%8E%BB%E6%99%83%E4%BA%86%E4%B8%80%E5%A4%A9",
+      "published": "Wed, 17 Jun 2026 18:31:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD"
+      ],
+      "summary": "傍晚回到家，刚好把 CD 凑齐。在新时代里，坚持用尼龙弦弹奏的吉它大师，顽固得就像是这夏日天空里的一抹蓝色。 文章原文",
+      "key_points": [
+        "刚好把 CD 凑齐。在新时代里，坚持用尼龙弦弹奏的吉它大师，顽固得就像是这夏日天空里的一抹蓝色"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "浙大登顶，哈佛跌落，自然指数10年榜首首次易主",
+      "title_zh": "浙大登顶自然指数，十年榜首第一次换人",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%B5%99%E5%A4%A7%E7%99%BB%E9%A1%B6%EF%BC%8C%E5%93%88%E4%BD%9B%E8%B7%8C%E8%90%BD%EF%BC%8C%E8%87%AA%E7%84%B6%E6%8C%87%E6%95%B010%E5%B9%B4%E6%A6%9C%E9%A6%96%E9%A6%96%E6%AC%A1%E6%98%93%E4%B8%BB",
+      "published": "Wed, 17 Jun 2026 07:58:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Nature",
+        "Index.",
+        "Nature.",
+        "Springer",
+        "Index",
+        "Leaders"
+      ],
+      "summary": "文章围绕 2026 年自然指数榜单的首次换榜首，讨论的不只是高校排名变化，更是中国科研产出、评价体系和全球学术格局的再平衡。它适合和纯快讯区分开来看：重点不在“谁赢了”，而在这个指标变化意味着怎样的科研组织能力转移。",
+      "key_points": [
+        "主要是论文数量。浙大首次超越哈佛登顶自然指数，或许还有着另外一层含义： 中国学术界，真的不需要在乎论文发表数量了",
+        "6.17 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 来源：Nature Index, 2026 Research Leaders: Lead…",
+        "这是哈佛自 2015 年自然指数设立以来首次失去这一位置。若将政府科研机构和医疗机构一并纳入综合排名，哈佛仅仅排名第三，位于中国科学院和浙江大学之后。在前十名中…"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "孩子不是不爱读书，而是这个时代太会让人分心 | Aeon",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%98%AF%E4%B8%8D%E7%88%B1%E8%AF%BB%E4%B9%A6%EF%BC%8C%E8%80%8C%E6%98%AF%E8%BF%99%E4%B8%AA%E6%97%B6%E4%BB%A3%E5%A4%AA%E4%BC%9A%E8%AE%A9%E4%BA%BA%E5%88%86%E5%BF%83+%7C+Aeon",
+      "published": "Tue, 16 Jun 2026 09:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "in",
+        "is",
+        "as",
+        "where"
+      ],
+      "summary": "1 导读 很多人不是不想读书。 书买了。 文章收藏了。 单词也划了。 但真正坐下来读的时候，常常是另一回事。 刚读两页，手机亮了。 刚进入状态，消息来了。 刚想查一个词，顺手点开另一个页面，半小时就过去了。 最后我们很容易得出一个结论： 是不是我自制力太差？ 是不是现在的孩子真的不爱读书了？ 是不是屏幕把阅读毁掉了？ Aeon 最近有一篇文章，标题叫 Books and screens 。 它给出的答案，比简单批判手机和短视频更有意思。 作者 Carlo Iacono 认为，注意力无法集中，不一定是个人失败。 它更…",
+      "key_points": [
+        "是不是现在的孩子真的不爱读书了",
+        "1 导读 很多人不是不想读书",
+        "可以译成： 这并不是因为屏幕天生就会摧毁注意力，而是因为主流平台被有意设计成切碎注意力的机器，以服务于广告收入"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "阿福看病，医生签字",
+      "title_zh": "AI 看病走到责任签字这一步了吗？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E9%98%BF%E7%A6%8F%E7%9C%8B%E7%97%85%EF%BC%8C%E5%8C%BB%E7%94%9F%E7%AD%BE%E5%AD%97",
+      "published": "Wed, 17 Jun 2026 20:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "AI+",
+        "Nelson",
+        "OpenAI",
+        "Sam",
+        "C0PyWfTmTB"
+      ],
+      "summary": "文章借一起 ChatGPT 用药建议致死诉讼，讨论 AI 医疗从“回答问题”走向“承担责任”时会撞上的边界。核心看点是把分诊、医生复核和平台责任拆开来看：AI 可以先接住高频初筛，但高风险决策仍需要真人签字与兜底。适合关注 AI 医疗落地、合规和产品责任链的人。",
+      "key_points": [
+        "我在参加一期讨论AI健康主题的播客时，就聊到了互联网医疗那波热潮过后的理想与现实： 那些在线问诊平台的初衷，通常都是想让三甲医院的医生在闲时也能线上看病，由此来…",
+        "有点像是给目前的AI看病配置了一种「分诊制」，先接住海量需求，并以性价比最优的资源占用率，去做出准确的反馈。如果用户觉得需要医生再确认一遍，由用户发起之后，真人…",
+        "给你们感受一下这个过程： 在拍了疹子给阿福观察之后，它先是追问了一些细节情况，也给出了诊断建议，到此为止都还很正常，直到最后弹出邀请三甲医院医生确认分析结果的卡…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-18",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "输出 Token 的费率普遍比输入 Token 贵，背后的经济与技术逻辑是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790484",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "token",
+        "GPU",
+        "agent",
+        "KV",
+        "Token",
+        "Transformer"
+      ],
+      "summary": "司马懿， 三国英雄士，四朝经济臣 查看知乎原文 大模型是 Transformer 的堆叠。Transformer 推理的两个阶段是结构性不对称的。输入侧叫预填充，输出侧叫解码，两个阶段在硬件上消耗的资源完全不同，单位 token 的边际成本相差接近一个数量级。 假设一次请求输入有 个 token，输出有 个 token，模型维度记为 。 输入侧的 个 token 是被一次性塞进模型做一次前向传播的。这一次前向传播是一个巨大的矩阵乘矩阵运算，所有 个 token 在硬件上是并行处理掉的。从浮点运算量看大概是 ，平摊到…",
+      "key_points": [
+        "三国英雄士，四朝经济臣 大模型是 Transformer 的堆叠。Transformer 推理的两个阶段是结构性不对称的。输入侧叫预填充，输出侧叫解码，两个阶段…",
+        "Claude Opus 输入 15 美元 / 百万 token，输出 75 美元 / 百万，比例 5 倍；Gemini 2.5 Pro 大约 8 倍；GPT-5…",
+        "换算到跑出一个 token 所占用的 GPU·秒，解码侧的成本比预填充侧高出 5 到 10 倍。这是定价里输出 / 输入价比 3 到 5 倍的物理来源"
+      ]
+    }
+  ]
+}
