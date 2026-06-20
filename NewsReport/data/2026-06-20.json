@@ -1,0 +1,678 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T01:00:11.416531+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 87,
+    "fresh_candidates": 59,
+    "backfill_candidates": 28,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-20",
+      "fetched_at": "2026-06-20T01:00:06.110551+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4090.48,
+          "change": -17.6,
+          "change_pct": -0.43,
+          "volume": 658116068.0,
+          "amount": 156047397.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4155.44,
+          "change": -53.48000000000047,
+          "change_pct": -1.27,
+          "prev_close": 4208.92,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-20 01:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 904.4746989888596,
+          "change": -11.640477759737792,
+          "change_pct": -1.2706347471560555,
+          "prev_close": 916.1151767485974,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-20 01:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%84%9F%E8%B0%A2%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%81%E6%8A%8A%E6%88%91%E4%BB%8E60%E2%84%83%E7%9A%84%E5%8E%A8%E6%88%BF%E6%8D%9E%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81",
+        "title": "感谢这个小东西！把我从60℃的厨房捞出来了！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "消费种草/产品推荐为主，带明显营销话术，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%AB%AF%E5%8D%88%E8%8A%82%E5%BF%AB%E4%B9%90%EF%BC%882026%EF%BC%89",
+        "title": "端午节快乐（2026）",
+        "platform": "槽边往事",
+        "source": "槽边往事",
+        "reason": "节日问候随笔为主，缺少可迁移信息，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-20T01:02:00.942924+00:00",
+      "lead_url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A6%82%E6%9E%9C%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%BB%E8%A6%81%E8%AF%BB%E8%80%85%E4%B8%8D%E5%86%8D%E6%98%AF%E4%BA%BA",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6416141.html",
+        "https://www.woshipm.com/ai/6416153.html",
+        "https://www.woshipm.com/ai/6416113.html",
+        "http://xueqiu.com/8498172218/395660223",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%9C%8D%E5%8D%8E%E5%BE%B7%C2%B7%E9%A9%AC%E5%85%8B%E6%96%AF%EF%BC%9A%E6%AF%94%E8%B5%B7%E5%A4%A7%E8%83%86%E5%87%BA%E5%87%BB%E5%AF%BB%E6%89%BE%E8%B5%A2%E5%AE%B6%EF%BC%8C%E6%88%91%E4%BB%AC%E6%9B%B4%E5%BA%94%E5%B0%86%E6%B3%A8%E6%84%8F%E5%8A%9B%E9%9B%86%E4%B8%AD%E5%9C%A8%E9%81%BF%E5%85%8D%E6%88%90%E4%B8%BA%E8%BE%93%E5%AE%B6%E4%B8%8A"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当核心资源不再在酒桌上，白酒会发生什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5770461469/395653795",
+      "published": "Fri, 19 Jun 2026 14:17:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600519",
+        "SZ000858",
+        "xueqiu.com",
+        "xz",
+        "zf"
+      ],
+      "summary": "很多人认为白酒不行了，是因为年轻人不喝酒了。我觉得这可能不是最核心的原因。白酒最大的变化，不在消费端，而在中国经济底层运行逻辑的变化。 过去二十多年，中国经济最重要的增长动力是房地产。而房地产最核心的资源是土地。土地掌握在谁手里？掌握在zf手里。企业想要快速发展，就需要拿地、拿项目、拿资源。 于是，大量商务活动围绕着资源配置展开。在那个阶段，高端白酒的价值早已超出了饮料本身。酒桌上喝的不是酒，而是一种建立信任和交换资源的方式。很多人喝酒不是因为喜欢喝，而是因为不得不喝。因为核心资源就在那个场景里。 所以回头看，茅台…",
+      "key_points": [
+        "大量商务活动围绕着资源配置展开。在那个阶段，高端白酒的价值早已超出了饮料本身。酒桌上喝的不是酒，而是一种建立信任和交换资源的方式。很多人喝酒不是因为喜欢喝，而是…",
+        "科技企业最重要的资源是什么？是工程师。是研发能力。是技术突破。这些东西不会因为多参加几场饭局就产生。前几天听一位企业老板开会时说，不要让研发人员参加太多应酬，把…",
+        "那么再好的公司，也很难重复过去的增长速度.所以我觉得： 白酒最大的风险，不是年轻人不喝酒。而是中国获取核心资源的方式变了"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资者对创新药行业的六大认知偏差",
+      "title_zh": "投资者对创新药行业的六大认知偏差",
+      "url": "http://xueqiu.com/8498172218/395660223",
+      "published": "Fri, 19 Jun 2026 14:16:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "BD",
+        "MNC",
+        "RC148",
+        "BK2526",
+        "http",
+        "III"
+      ],
+      "summary": "文章围绕创新药投资常见误判做了一次集中拆解，包括“创新药会被集采压垮”“国内市场撑不起估值”“内卷必然压缩利润”等看法。虽然立场偏鲜明，但信息抓手比较清楚，适合作为理解医药投资叙事分歧的一篇观点整理。",
+      "key_points": [
+        "这周港股荣昌生物跌得我不想说话。我不想再反复谈它的价值，因为价值就在那里，懂得都懂。作为一个创新药投资小白，我努力从荣昌生物这口&#34;井&#34;里仰望整个…",
+        "人类对病理机制的认知依然极为有限。全球每年因癌症死亡接近千万人，这意味着创新药行业的逻辑是 供给决定需求 ——谁能研发出有效的药物，市场就在那里。这一逻辑不受地…",
+        "创新药内卷太严重 看到&#34;内卷&#34;两个字，很多投资者会条件反射地联想到国内消费的内卷——价格战、利润归零"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "在撕裂中坚守投资的常识，告全体老登书！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5742821612/395673143",
+      "published": "Fri, 19 Jun 2026 14:15:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IPO",
+        "FOMO",
+        "AI",
+        "SK",
+        "PCB",
+        "ADR"
+      ],
+      "summary": "资产的价值，说到底是未来现金流的折现。这是投资最朴素的常识，任你叙事再怎么花哨，终究都要回到这里接受检验。 当下A股的撕裂，已经达到了一个很罕见的程度。 整个上半年，以半导体、光模块、存储芯片及其延伸概念——玻璃基板、印制电路板、AI算力——为核心的科技板块持续暴涨。 市场流行着短期缺芯，中期缺光，长期缺存储的说法。 讽刺的是，大量仅在业务边缘与这些概念沾一点边的公司也跟着“鸡犬升天”了，管他三七二十一我写个十五，一顿猛涨，以至于监管不得不出来说话，一夜之间，上百家企业纷纷公告自己压根没有参与或拥有某某科技产品。但…",
+      "key_points": [
+        "当看到某些没有基本面的“伪科技”翻倍时，我们必须清醒认识到，那是风险补偿机制极度扭曲下的博弈红利，是流动性催生的幻梦，绝非企业为股东创造的真实财富。参与这种博弈…",
+        "FOMO不再只是个人的心理弱点，它已演变成一种具有强制性的集体涌现。坚守白马蓝筹的投资者面临相对收益落后，这批&#34;老登&#34;的信心动摇与割肉追涨，恰好…",
+        "面对科技股暴涨，老登们要问自己的 真正的问题不是要不要坚守价值投资，应该问自己当前价值股的安全边际和赔率是否已经足够补偿等待的成本"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "恭喜小登的勇敢，也聊聊老登为何固执",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1643044849/395635467",
+      "published": "Fri, 19 Jun 2026 14:12:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ai",
+        "Ai",
+        "AI.",
+        "http",
+        "xueqiu.com"
+      ],
+      "summary": "先说下定投账户，去年上涨期间定投账户减仓了部分持仓，定投也暂停了，本周逐步开始新定投。本周分别买入食品饮料，中概互联、恒生科技。 昨天小号发通知的时候有读者问，怎么还买传统行业。 确实，老登股必须死，传统行业毫无价值，这类发言是现在的主流。 当下除了AI，好像任何行业都毫无价值。 但是你稍微稳定一下情绪，显然这不符合逻辑。 除非认为未来十年人类消失，否则传统行业仍然是需要的。 在绝大部分领域，AI是让现有的工作更有效率，并不会取代现有的行业。 AI可以让空调更有效的工作，可以供电更稳定，但不可能代替空调给你制冷，你…",
+      "key_points": [
+        "就像我这个固执的老登为自己的选择负责",
+        "3 聊聊最后 当下对于很多价值投资者来说，可能比熊市还难熬，不仅自己痛，还要看着题材股上涨",
+        "虽然已经有了一些征兆，比如资金都被吸到科技行业，老登红利已经开始加速下跌"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "霍华德·马克斯：比起大胆出击寻找赢家，我们更应将注意力集中在避免成为输家上",
+      "title_zh": "霍华德·马克斯：与其追逐赢家，不如先避免成为输家",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%9C%8D%E5%8D%8E%E5%BE%B7%C2%B7%E9%A9%AC%E5%85%8B%E6%96%AF%EF%BC%9A%E6%AF%94%E8%B5%B7%E5%A4%A7%E8%83%86%E5%87%BA%E5%87%BB%E5%AF%BB%E6%89%BE%E8%B5%A2%E5%AE%B6%EF%BC%8C%E6%88%91%E4%BB%AC%E6%9B%B4%E5%BA%94%E5%B0%86%E6%B3%A8%E6%84%8F%E5%8A%9B%E9%9B%86%E4%B8%AD%E5%9C%A8%E9%81%BF%E5%85%8D%E6%88%90%E4%B8%BA%E8%BE%93%E5%AE%B6%E4%B8%8A",
+      "published": "Fri, 19 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Brands",
+        "Claude",
+        "CPI",
+        "END"
+      ],
+      "summary": "这篇访谈整理聚焦高估值、关税冲击、私募信贷和 AI 热潮下的市场温度判断。核心不是给出单一押注方向，而是提醒投资者在叙事过热时先看下行风险、仓位纪律和估值回撤空间。",
+      "key_points": [
+        "盖齐 那么我们现在是否应该听从第一篇备忘录的建议，将注意力集中在避免成为输家上？还是应该大胆出击去寻找赢家？请回到\"测量温度\"的核心问题——当下市场真正处于什么…",
+        "橡树资本联合创始人霍华德·马克斯没有试图给出一个简单答案。他更关心的是：市场现在到底有多热？投资者是在理性定价，还是又一次被乐观情绪推着往前走",
+        "我们现在究竟是处于一个应该大胆出击、拉长战线的世界？还是应该回归绝对防御、思考通过不亏钱来赚取确定性收益的环境"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从Prompt到World Model：大厂RL后训练工程师眼中的AI工程六层演化",
+      "title_zh": "从 Prompt 到 World Model：AI 工程六层演化",
+      "url": "https://www.woshipm.com/ai/6416141.html",
+      "published": "Fri, 19 Jun 2026 07:27:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Engineering",
+        "AI",
+        "RL",
+        "Model",
+        "World",
+        "Prompt"
+      ],
+      "summary": "这篇文章把 AI 工程拆成从 Prompt、Workflow 到 Agent、Environment、World Model 的六层演化路径。重点不在岗位包装，而在训练目标已经从“生成答案”转向“设计环境、反馈和决策闭环”，适合想理解后训练与 agent 工程边界的人。",
+      "key_points": [
+        "把 AI Engineering 从 Prompt Engineering 一路讲到 World Model Engineering。很多人看到它，第一反应可能…",
+        "AI工程正经历从Prompt Engineering到World Model Engineering的深刻变革。本文通过大厂RL后训练的视角，揭示AI训练范式如…",
+        "从 Prompt 到 World Model，AI 工程真正完成的不仅是一次岗位升级，也是一次训练范式的迁移： 我们不再只是教模型回答问题。我们是在设计一个让模…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "人员数据导入的工程化设计：模板、校验与外部数据源",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6416175.html",
+      "published": "Fri, 19 Jun 2026 06:30:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Excel",
+        "HCM",
+        "HR",
+        "CC0",
+        "csv",
+        "ID"
+      ],
+      "summary": "人员数据管理的Excel噩梦如何终结？从模板混乱到字段冲突，传统手工处理方式让HR陷入无尽返工循环。本文深度解析一套完整的导入批次管理体系，揭秘如何通过异步任务机制与异常回退路径设计，解决5000+条数据导入时的性能瓶颈问题。 业务痛点 人员数据管理是日常运营的基础工作，新员工入职导入、社保公积金基数调整、产品方案变更、离职减员。每次变更可能涉及几百到上千条数据，这些数据往往来自客户方提供的Excel表格，格式千差万别。 客户提供的Excel格式不统一，字段名五花八门，每次都需要人工处理或映射，录入完成后缺乏自动校…",
+      "key_points": [
+        "人员批量处理与外部数据导入是HR系统中”承上启下”的关键模块（向上承接客户的原始数据，向下为合同、社保公积金、商保年金、薪资费用、订单结算等下游模块提供干净的人…",
+        "业务流程设计 整个业务流程覆盖从模板下载到结果确认的完整闭环，共8个关键步骤： 经办人（客服专员/人事运营）下载标准导入模板或选择已配置的外部数据源，确定导入的…",
+        "导入批次管理列表页是批量处理的核心入口。页面顶部展示4个统计卡片：今日导入批次、待确认批次、导入成功人数、导入失败人数，让运营人员一眼掌握当日数据动态。筛选栏支…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI商业化的终局：健身房、云服务还是结果收费？",
+      "title_zh": "AI 商业化的终局：订阅、云服务还是按结果收费？",
+      "url": "https://www.woshipm.com/ai/6416153.html",
+      "published": "Fri, 19 Jun 2026 05:29:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "token",
+        "GPU",
+        "Agent",
+        "Copilot",
+        "DAU"
+      ],
+      "summary": "文章从豆包等案例切入，讨论 AI 产品为什么会出现“用户涨得快、收入跟不上、成本却飙升”的结构性矛盾。它把主流商业模式归纳为 C 端订阅、B 端云服务和按结果收费三类，并指出真正关键不是卖 token，而是能否把模型能力包装成用户愿意持续付费的结果。",
+      "key_points": [
+        "用订阅、额度和沉没成本管理用户；B端像云服务，用token、调用量、年框合同和企业锁定收费；高阶应用像SaaS和外包服务的结合，用AI完成具体任务，再按结果收钱",
+        "但AI又比传统云更复杂。云服务卖的是资源，AI最好卖的是结果",
+        "AI商业化的关键不是C端还是B端，而是有没有明确的付费理由"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大模型标注平台产品设计：那些容易忽略的细节（并发、快捷键、AI打分）",
+      "title_zh": "大模型标注平台设计：并发、快捷键与 AI 打分细节",
+      "url": "https://www.woshipm.com/ai/6416113.html",
+      "published": "Fri, 19 Jun 2026 03:24:54 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "excle",
+        "enter",
+        "langfuse",
+        "bad"
+      ],
+      "summary": "文章总结了一个内部大模型标注平台的设计细节，包括提示词版本管理、批量并发标注、快捷键操作和 AI 自动评分。价值在于它没有停留在概念层，而是把评测平台真正卡人的效率瓶颈拆成可落地的产品与流程问题。",
+      "key_points": [
+        "手动调整提示词与模型测评的效率瓶颈日益凸显。本文揭秘一套自研大模型标注平台的实战经验，从动态提示词管理到AI自动测评，深度解析如何通过快捷键标注、多版本对比等创…",
+        "调整提示词与模型测评，每次都需要线下脚本跑，非常的繁琐，所以最近忙里抽空，做了大模型标注平台，用于提升项目组的生成效率。系统最近刚上线，跟大家分享下经验以及产品…",
+        "基本就够用了，但是从整个标注平台产品设计中，还有一些其他的功能需要进一步迭代"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "手把手教你给AI写需求文档——从spec到skill，一次跑通，终身复用",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6415463.html",
+      "published": "Fri, 19 Jun 2026 03:03:36 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "spec",
+        "skill",
+        "PRD",
+        "prompt",
+        "case"
+      ],
+      "summary": "当AI输出的竞品分析报告满是排比句和功能罗列时，问题可能不在AI本身——而是你缺少一份精准的spec任务说明书。本文以竞品功能对比为实战案例，手把手教你构建包含上下文、任务、要求、结果呈现四段式骨架的AI指令书，将模糊指令转化为可落地的标准输出，并进一步将其固化为可复用的工作技能。掌握这套方法，你的AI协作效率将从'勉强能看'跃升到'开箱即用'。 AI火了一年了，你大概率已经用过它。比如让AI帮你分析竞品： “帮我分析一下竞品1和竞品2的供应商管理功能。” 回车。出来的东西呢——排比句扎堆、功能罗列、没有一个能直接…",
+      "key_points": [
+        "当AI输出的竞品分析报告满是排比句和功能罗列时，问题可能不在AI本身——而是你缺少一份精准的spec任务说明书。本文以竞品功能对比为实战案例，手把手教你构建包含…",
+        "skill能用到你退休。你工作里不止这两个场景——需求文档、用户故事、数据分析、周报总结……任何一个你做熟了的工作流，先用四段骨架写成spec，跑通之后提炼成s…",
+        "你需要做什么 打开你最近反复做的一项任务——什么都行。竞品分析、需求文档、评审准备、用户故事"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "两个孩子的家庭真的会做到一碗水端平吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790523",
+      "published": "Thu, 18 Jun 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "林为珮， 可否阻你十八秒钟看看信 查看知乎原文 我发现很多多子女家庭的家长都有一个误区，那就是孩子需要的是公平、需要的是端水。然后就发现，自己越是想做的公平，孩子对公平的要求就越高，计较的就越多。然而事实上， 孩子需要的从来都不是公平，而是偏爱。 被偏爱的小孩是真的不会计较事事都绝对公平的，反而是不被偏爱的小孩，最大的诉求就是公平。而父母越是刻意地展示公平，其实是向两个孩子同时展示，他们自己不是被偏爱的那个。 所以，很多自以为很公平的家长会觉得很委屈，明明对两个孩子都非常公平，为什么两个孩子都会不满。 希望被偏爱从…",
+      "key_points": [
+        "很多自以为很公平的家长会觉得很委屈，明明对两个孩子都非常公平，为什么两个孩子都会不满",
+        "多子女家庭是可以同时偏爱每个孩子的",
+        "其实对于很多人而言最简单的做法可能是，“生一个不就好了”，这确实也能解决大部分多子女家庭的所谓的偏心带来的问题。但并不能解决多子女家庭想要真正做到公正对待子女的…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如果大航海时代有位海盗船长是女的，她也会严格要求船上没有女人吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790491",
+      "published": "Wed, 17 Jun 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Malley",
+        "Grace",
+        "Mhaol",
+        "Moytura",
+        "ps"
+      ],
+      "summary": "求生之路， 游公子第四个账号 查看知乎原文 为什么要假设，历史上东西方都有女性海盗船长啊。 东方最有名的是郑一嫂（石香姑，1775–1844）。 中国清朝时期的“红旗帮”海盗首领，堪称东亚史上最强大的女海盗。她原本是广东沿海的妓女，后被海盗郑一掳走并成为其妻子。 郑一死后，她凭借过人的领导力整合了海盗联盟，巅峰时期掌控数千艘船只、数万名海盗，势力覆盖南海，甚至多次击败清政府水师和英国、葡萄牙舰队。 郑一嫂制定了严格的海盗纪律（如禁止劫掠渔民、私藏财物者处死、奸淫妇女也处死），管理极具章法。 1810 年，她接受清政…",
+      "key_points": [
+        "作为 16 世纪爱尔兰最强大的海盗船长，格蕾丝以“秃头格蕾丝”闻名，其船队中女性角色远超同时代欧洲海盗，例如，她曾派女性使者与西班牙舰队秘密谈判合作抗英，利用性…",
+        "游公子第四个账号 为什么要假设，历史上东西方都有女性海盗船长啊",
+        "郑一嫂制定了严格的海盗纪律（如禁止劫掠渔民、私藏财物者处死、奸淫妇女也处死），管理极具章法"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "祖宗的端午习俗：不能啪啪，不能盖房，不建议升官",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%A5%96%E5%AE%97%E7%9A%84%E7%AB%AF%E5%8D%88%E4%B9%A0%E4%BF%97%EF%BC%9A%E4%B8%8D%E8%83%BD%E5%95%AA%E5%95%AA%EF%BC%8C%E4%B8%8D%E8%83%BD%E7%9B%96%E6%88%BF%EF%BC%8C%E4%B8%8D%E5%BB%BA%E8%AE%AE%E5%8D%87%E5%AE%98",
+      "published": "Fri, 19 Jun 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "commons",
+        "wikimedia",
+        "guokr.com",
+        "Huangdan2060",
+        "Mk2010",
+        "sns"
+      ],
+      "summary": "问：端午节的由来是什么？ 基础版回答：纪念屈原。 进阶版回答：纪念包括屈原在内的很多名人。 究极版回答：辟邪。 端午是个筐，纪念谁都往里装 端午曾经身负纪念许多历史名人的重任。 纪念屈原？ 端午纪念屈原的说法，最早见于南朝吴均的《续齐谐记》：“ 屈原 五月五日投汨罗而死，楚人哀之。每至此日，竹筒贮米，投水祭之。” 纪念伍子胥？勾践？ 然而在隋代，一位学者杜公瞻表达了质疑：“东汉的《曹娥碑》提到五月初五祭祀 伍子胥 ，不关屈原的事。《越地传》又说是起源于 越王勾践 ，看来这事是搞不清楚了。” 此外，《越地传》说“起于…",
+      "key_points": [
+        "这些禁忌包括但不限于： 五月不能啪啪啪（《四民月令》）； 五月不能晒席子（《荆楚岁时记》）； 五月上任的官员不会升迁（《风俗通》）； “五月盖屋，令人头秃”（《…",
+        "端午时节，我们还能看到诸如系五色丝线、饮雄黄酒、悬挂艾草或菖蒲等 “辟邪”主题的习俗 。从古籍记载来看， 端午节的习俗中涉及到“辟邪”的数量也远大于“祭祀屈原”",
+        "饮银醪一杯，俗谓辟邪。” 湖北《黄岗县志》：“端午团风巴河镇迎会，傩人花冠文身，鸣金逐疫。” 广东《从化县志》：“五月初五至午，烧符水洗手眼，弃于道上，谓之送灾…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "大厂争抢，这么快，文科生的春天又回来了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A7%E5%8E%82%E4%BA%89%E6%8A%A2%EF%BC%8C%E8%BF%99%E4%B9%88%E5%BF%AB%EF%BC%8C%E6%96%87%E7%A7%91%E7%94%9F%E7%9A%84%E6%98%A5%E5%A4%A9%E5%8F%88%E5%9B%9E%E6%9D%A5%E4%BA%86%EF%BC%9F",
+      "published": "Fri, 19 Jun 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "coding",
+        "ID",
+        "SouthReviews",
+        "audience",
+        "boss"
+      ],
+      "summary": "本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：金蒲桃 编辑：吴擎 今年以来，关于AI加速重构文科生就业市场的声音一直在舆论中间弥漫。 不久前，“AI大厂月薪3万疯抢文科生”的话题登上微博热搜。据报道，部分头部AI企业文科岗位占比从约5%提升至20%-30%，涌现出“AI叙事设计师”“大模型人文训练师”“AI伦理研究员”等岗位，月薪起步普遍在2万-4万元。 英伟达CEO黄仁勋在2026年3月的一次硅谷播客访谈中谈到：“语言就是AI的终极编程语言。所以，英语专业的学生可能会是最成功的那…",
+      "key_points": [
+        "有一些不同的产品线。她负责市场和用户运营方向的工作，有时需要为产品制作一些网页。在传统的工作流程里，她需要把页面的素材、文字、内容等等，都复述给前端工程师和设计…",
+        "猎聘大数据研究院发布的近一年传统与新型文科友好岗位对比 “AI时代是文科生的春天”，类似的说法并不少见。不过，在这些机会背后，人们不仅关心这股春风能吹到多少文科…",
+        "并不能因此否认AI带来的其他机会。张书乐表示，AI行业的底层（即代码环节）是理工科的专场，但在人机交互的界面上，则是文科生的主场。“AI最终是要和人类亲密接触和…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "10岁开始抗衰老，美国小孩已经被流量逼疯了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+10%E5%B2%81%E5%BC%80%E5%A7%8B%E6%8A%97%E8%A1%B0%E8%80%81%EF%BC%8C%E7%BE%8E%E5%9B%BD%E5%B0%8F%E5%AD%A9%E5%B7%B2%E7%BB%8F%E8%A2%AB%E6%B5%81%E9%87%8F%E9%80%BC%E7%96%AF%E4%BA%86",
+      "published": "Fri, 19 Jun 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Gala",
+        "Met",
+        "Alpha",
+        "Blue",
+        "Nepo",
+        "baby"
+      ],
+      "summary": "出品：虎嗅青年文化组 作者：阿珂可 编辑 ：渣渣郡 本文首发于虎嗅年轻内容公众号“那個NG”（ID：huxiu4youth）。在这里，我们呈现当下年轻人的面貌、故事和态度。 现在连小孩都要服美役了。 在流量的世界中，容貌与身材焦虑正在无视年龄，对所有人进行全方位打击。 当中国的年轻人在清水液断和辟谷的时候，紧张感也裹挟着外国小孩。 她们蜂拥进丝芙兰，扫荡着一切不属于这个年龄段的美护产品，只为了提前表演一个成功的大人。 10岁的衰老焦虑 如果你在美妆专柜前看到一个不到10岁的小孩在精挑细选，可能会觉得这个孩子很早熟，…",
+      "key_points": [
+        "一位在丝芙兰工作的柜姐说：“一些还没上小学的孩子们会举着手机进来，手里拿着几乎和他们一样大的星巴克咖啡杯，嘴里说着‘我年纪到了，要开始抗老了。’” 根据家长和店…",
+        "现在的小孩已经察觉到有钱人的长相和偏好，也清晰地知道什么是富有的生活。但她们又无法真正跨越这些差距，于是只能从消费和外貌开始模仿，缓解心里的焦虑",
+        "很多8～12岁女孩已经开始使用视黄醇、A醇、酸类以及抗老面霜和精华"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "大师导演也会喜欢俗片",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A4%A7%E5%B8%88%E5%AF%BC%E6%BC%94%E4%B9%9F%E4%BC%9A%E5%96%9C%E6%AC%A2%E4%BF%97%E7%89%87",
+      "published": "Fri, 19 Jun 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Afrika",
+        "amp",
+        "Bambaataa",
+        "Cheech",
+        "Chong",
+        "Comment"
+      ],
+      "summary": "作者：约阿希姆·提尔 译者：易二三 校对：覃天 来源：Film Comment （2022年1月31日） 首先，我想谈谈「负罪快感」（guilty pleasure）这个词。什么样的作品会带来「负罪快感」？当然不仅仅是那些不受影评人待见的作品——这么说可能会引发很多争议——《迷魂记》或《生活多美好》在当时的评价并不高，不过如今它们都已经被奉为了经典。 《迷魂记》 那么，这种感觉关乎的是性吗？我回顾了自己非常喜爱的罗杰·瓦迪姆的艳俗电影，以及大量的B级片和70年代那些情欲外露、怪诞且迷人的血腥电影。不过总的来说，它们…",
+      "key_points": [
+        "我想致敬的另一位电影导演是哈莫尼·科林，他在欧洲有很多粉丝。我想生活在他的电影里。《海滩流浪汉》（2019）是一个充满乐趣的故事，马修·麦康纳的表演也很精彩。开…",
+        "有很多70年代从《周六夜现场》走出来的喜剧演员和影视演员对我来说非常重要——例如丹·艾克罗伊德、约翰·贝鲁西和切维·切斯。史蒂夫·马丁和比尔·默瑞后来拍了一些被…",
+        "《双面博士》 《美食、祈祷和恋爱》（2010）是一部成功的电影，朱莉娅·罗伯茨也是一位大明星。我喜欢她的好几部电影：《诺丁山》是经典之作；我认为《风月俏佳人》是…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "每年端午，我都要重温这部cult神片",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%AF%8F%E5%B9%B4%E7%AB%AF%E5%8D%88%EF%BC%8C%E6%88%91%E9%83%BD%E8%A6%81%E9%87%8D%E6%B8%A9%E8%BF%99%E9%83%A8cult%E7%A5%9E%E7%89%87",
+      "published": "Fri, 19 Jun 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cult",
+        "Ag",
+        "Ananta",
+        "Avalokitesvara",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "今天是端午节。 每年的端午，我都要看一部电影，徐克的《青蛇》。这部电影在徐克的作品中，可能不算最受推崇的，不过它问世二十多年来，也有了一批cult追随者。 文 Ag 一部有趣的作品，你在不同情境中观看，好比碰见每次化身为不同形象的说法者，变化万千，却生动如一。 《青蛇》对小时候的我产生的是一种非常混沌的浪漫主义的吸引力，它所糅杂的元素有着丰富的面向：群众喜闻乐见的怪力乱神、七情六欲、武侠打斗、漂亮的女明星、诗情画意的东方风格、广为流传的配乐…… 每一次重看，既是轻松的体验，又有犹在镜中的观照与感悟，那些新的发现，同…",
+      "key_points": [
+        "我都要看一部电影，徐克的《青蛇》。这部电影在徐克的作品中，可能不算最受推崇的，不过它问世二十多年来，也有了一批cult追随者",
+        "王玥波的《观音断指化白蛇》把这件事说得很清楚：吕洞宾这人很好色，除了调戏牡丹仙子，还喜欢到处拈花惹草，端午节趁着酒兴跑下凡，看见一条大河，离岸边不远有一条彩莲船…",
+        "这个维度对《青蛇》来说举足轻重，可以说是徐克真正想强调的核心，而且有意思的是，这部电影本身具有的多层次形态集合，也特别像佛教在中国的发展形态"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "端午，被“误解”最深的节日！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%AB%AF%E5%8D%88%EF%BC%8C%E8%A2%AB%E2%80%9C%E8%AF%AF%E8%A7%A3%E2%80%9D%E6%9C%80%E6%B7%B1%E7%9A%84%E8%8A%82%E6%97%A5%EF%BC%81",
+      "published": "Fri, 19 Jun 2026 08:55:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今天是农历五月初五——端午节，是我国四大传统节日之一，还是中国首个入选世界级非物质文化遗产的节日。吃粽子、赛龙舟、系彩绳、挂艾草……这些熟悉的仪式背后，其实藏着许多被误解的真相。①端午，不止纪念屈原提起端午，人们首先想到屈原。但在历史上，介子推、伍子胥、曹娥等人物，也都曾与端午联系在一起。直到唐宋时期，官方祭祀逐渐强化屈原叙事，端午才与“纪念屈原”深度绑定。②端午，抢了夏至风头。端午并非因屈原而生，其源头可能更接近夏至。古人把夏至视为重要节令，许多端午习俗最早也与夏至有关。汉代以后，随着端午影响力不断扩大，两个相近…",
+      "key_points": [
+        "是我国四大传统节日之一，还是中国首个入选世界级非物质文化遗产的节日。吃粽子、赛龙舟、系彩绳、挂艾草……这些熟悉的仪式背后，其实藏着许多被误解的真相。①端午，不止…"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "如果论文的主要读者不再是人",
+      "title_zh": "如果论文的主要读者不再是人",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%A6%82%E6%9E%9C%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%BB%E8%A6%81%E8%AF%BB%E8%80%85%E4%B8%8D%E5%86%8D%E6%98%AF%E4%BA%BA",
+      "published": "Fri, 19 Jun 2026 08:11:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "https",
+        "agent",
+        "Nature",
+        "amp",
+        "Scholze"
+      ],
+      "summary": "文章讨论 AI 逐步进入论文写作、阅读、检索和引用链条后，学术影响力会如何改写。核心判断是：未来被机器高效读取、调用和复用的内容，可能比单纯“写给同行读”的论文更有传播力；代码、形式化证明和可调用工具也会成为新的学术载体。",
+      "key_points": [
+        "最初是写作端。AI 帮你润色英文、整理参考文献、画图表，省掉一些机械劳动，但核心的智力工作还是人在做。接下来是阅读端。AI 帮你总结一篇长论文、提取关键结论、在…",
+        "数学论文的产出速度会远超任何人的阅读能力。在许多快速增长的方向里，单靠个人阅读已经越来越难追踪领域进展，研究者不得不借助搜索、推荐、形式化库和 AI agent…",
+        "还意味着影响力不再只通过正式论文这一种载体显现。一段写在 GitHub 上的代码、一条写入形式化数学库的引理、一个可被 AI agent 调用的工具，从未以论文…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「陛下」直意为「台阶之下」，那「陛下」这个词是如何变成对皇帝的敬称的呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790472",
+      "published": "Tue, 16 Jun 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "grace",
+        "holy",
+        "majesty",
+        "see",
+        "Holiness",
+        "holiness"
+      ],
+      "summary": "“陛下”直意为“台阶之下”，那“陛下”这个词是如何变成对皇帝的敬称的呢？ 杨逸 查看知乎原文 说起这个，延伸出一个滥用笑话。 就是网络小说喜欢用的，称呼教皇为冕下。 其实，陛下，殿下，阁下，座下，足下。 都是一个意思， 意为不敢直视尊贵之人的脸，不敢直接和尊贵之人对话 。 所以低头看向尊贵之人的陛阶，殿门，阁门，座位，脚下土地，或者下首的侍者。 但教皇的这个冕下就很好笑，冕是教皇的帽子。比如教皇的皇冠的正式名称—— 三重冕 。 你不敢直视教皇的威严，所以就低头直视教皇三重冕下的………脸！！ 也不知道是哪个没文化的人…",
+      "key_points": [
+        "那“陛下”这个词是如何变成对皇帝的敬称的呢",
+        "＿＿＿＿＿＿＿＿＿＿＿＿ 英语汉语尊称对照关系 your holiness 圣座 ，教皇限定尊称 your eminence 猊下 / 法座 高级神职，枢机主教…",
+        "意为不敢直视教皇，就低头看着教皇的座位，这是梵蒂冈根据汉语意境做出的官方翻译。对应的英语单词是 your Holiness —————————— 关于教皇的尊称…"
+      ]
+    }
+  ]
+}
