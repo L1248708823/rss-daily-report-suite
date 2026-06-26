@@ -1,0 +1,741 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T01:00:11.561586+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 90,
+    "fresh_candidates": 63,
+    "backfill_candidates": 27,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-26",
+      "fetched_at": "2026-06-26T01:00:06.244044+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4120.28,
+          "change": 9.47,
+          "change_pct": 0.23,
+          "volume": 670459917.0,
+          "amount": 161899656.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4020.75,
+          "change": -5.760000000000218,
+          "change_pct": -0.14,
+          "prev_close": 4026.51,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-26 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 878.5190412654524,
+          "change": -1.2585387496584417,
+          "change_pct": -0.14305192337781844,
+          "prev_close": 879.7775800151109,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-26 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+100%E5%9D%97%E5%92%8C100%E4%B8%87%E7%9A%84%E6%B2%89%E9%A6%99%EF%BC%8C%E5%88%B0%E5%BA%95%E6%9C%89%E5%95%A5%E5%8C%BA%E5%88%AB%EF%BC%9F",
+        "title": "100块和100万的沉香，到底有啥区别？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/价格对比导向明显，带货信息密度高于知识信息"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E4%B8%B2%E8%BD%BB%E9%A3%98%E9%A3%98%E7%9A%84%E2%80%9C%E7%83%82%E6%9C%A8%E5%A4%B4%E4%B8%B2%E2%80%9D%EF%BC%8C%E5%87%AD%E5%95%A5%E8%A2%AB%E6%98%8E%E6%98%9F%E5%A4%A7%E4%BD%AC%E4%BB%AC%E4%BA%89%E4%BD%9C%E4%B8%AD%E5%BC%8F%E7%BE%8E%E5%AD%A6%E5%B7%85%E5%B3%B0%EF%BC%9F",
+        "title": "一串轻飘飘的“烂木头串”，凭啥被明星大佬们争作中式美学巅峰？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品种草与购买说服为主，属于低价值营销内容"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+3500%E5%85%AC%E9%87%8C%EF%BC%8C%E5%8F%88%E4%B8%80%E6%9D%A1%E5%AE%9D%E8%97%8F%E7%BA%A7%E7%BE%8E%E6%99%AF%E5%A4%A7%E9%81%93%EF%BC%81",
+        "title": "3500公里，又一条宝藏级美景大道！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "文旅种草/路线导流为主，信息密度低于日报编辑标准"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E9%81%9B%E5%A8%83%E5%BD%92%E6%9D%A5",
+        "title": "遛娃归来",
+        "platform": "caoz的梦呓",
+        "source": "caoz的梦呓",
+        "reason": "作者近况汇报为主，缺少可迁移信息与公共价值"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-26T01:02:16.576652+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6420097.html",
+      "top_urls": [
+        "http://xueqiu.com/3350642636/396465563",
+        "https://www.woshipm.com/ai/6420089.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%8F%B2%E4%B8%8A%E6%9C%80%E4%B8%A5%E5%B3%BB%E8%83%BD%E6%BA%90%E5%8D%B1%E6%9C%BA%E4%B9%8B%E4%B8%8B%EF%BC%8C3.4%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83%E5%9C%A8%E6%8A%95%E5%90%91%E6%80%8E%E6%A0%B7%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9F",
+        "http://xueqiu.com/1701766657/396637663",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E8%A7%86%E9%A2%91%E6%92%AD%E5%AE%A2%E6%80%8E%E4%B9%88%E5%B0%B1%E6%88%90%E9%A6%99%E9%A5%BD%E9%A5%BD%E4%BA%86%EF%BC%9F"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-26",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "买了价值风格的基金，很憋屈！该怎么办？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B9%B0%E4%BA%86%E4%BB%B7%E5%80%BC%E9%A3%8E%E6%A0%BC%E7%9A%84%E5%9F%BA%E9%87%91%EF%BC%8C%E5%BE%88%E6%86%8B%E5%B1%88%EF%BC%81%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F",
+      "published": "Thu, 25 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "H00300",
+        "H00852",
+        "H00905",
+        "H00922",
+        "Wind"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 中泰证券资管 来源：雪球 今年的行情 ， 偏好红利风格的投资者大多比较憋屈 。 怎么个憋屈法 ？ 财经媒体上 ， 今年以来的 “ 翻倍基 ” 已经数出了一长串 ； 然而打开账户看看自己持有的红利基金 ， 年初以来的收益 ， 呃 …… 不提也罢 。 可是 ， 红利基金本就不是那种擅长冲刺或者进攻的选手 。 就好像如果参加世界杯的某支球队 ， 在比赛中选择的阵型是541 ， 那么从教练到球员再到球迷 ， 大概都不会指望球队会在…",
+      "key_points": [
+        "中泰证券资管 来源：雪球 今年的行情 ， 偏好红利风格的投资者大多比较憋屈",
+        "今年以来的 “ 翻倍基 ” 已经数出了一长串 ； 然而打开账户看看自己持有的红利基金 ， 年初以来的收益 ， 呃 …… 不提也罢",
+        "如果我们把视角从 “ 单场胜负 ” 切换到 “ 积分 ” ， 这种先不败再求胜的价值或许会更清晰"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谈谈现在的轮胎行业",
+      "title_zh": "谈谈现在的轮胎行业：出海、关税与成本挤压下的慢变量生意",
+      "url": "http://xueqiu.com/1701766657/396637663",
+      "published": "Thu, 25 Jun 2026 10:22:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "ANRPC",
+        "http",
+        "SH601058",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这篇把轮胎行业从“景气幻想”拉回到更真实的产业分析：增长更多来自中国制造出海与全球份额重分配，而不是供给缺口驱动的暴利周期。文章抓住三点关键变量：海外产能的战略价值、欧美关税与反倾销约束、以及天然橡胶等原材料涨价对利润率的侵蚀，信息密度明显高于泛情绪化点评。适合关心制造业出海和周期行业定价逻辑的读者。",
+      "key_points": [
+        "现在的轮胎行业 不是油运那种供给缺口驱动的暴利周期，而是“中国制造业出海 + 全球份额重分配 + 成本与关税反复挤压”的慢变量行业",
+        "我觉得轮胎行业最值得看的是 头部企业海外产能的战略价值 。美国对中国乘用车和轻卡胎的反倾销、反补贴税令在2026年6月23日的日落复审中被维持，说明中国本土直接…",
+        "轮胎行业成本端不能忽视。轮胎原材料占生产成本超过70%，天然橡胶、合成橡胶、炭黑合计超过60%； 今年上半年行业多轮涨价，本质是成本压力传导，而不是需求强到企业…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从推杯换盏到精致打卡——中国高端餐饮十年蜕变",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2292705444/396540743",
+      "published": "Thu, 25 Jun 2026 10:21:55 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Bistro",
+        "Omakase",
+        "http",
+        "IPO",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "引言：一张桌子上的时代缩影 2012年的北京，一家高端酒楼的大堂里，十人圆桌几乎是标配。转盘上摆满鲝鱼翅肚，茅台在杯中摇晃，主陪副陪轮番敬酒，一桌十人、八人是常态，偶尔还有十二人的大桌——那是政务消费的黄金年代，也是中国高端餐饮最“热闹”的时候。 然后，一切戻然而止。 2013年，一个看似不起眼的运营指标——“桌均人数”——在餐饮行业内部开始被频繁提及。它指的是一桌实际就餐的平均人数。这个数字在2013年前后出现了断崖式的下行：从动辄八到十人，迅速缩减到四到六人。大圆桌空了一半，包间开始闲置，曾经一席难求的高端酒楼…",
+      "key_points": [
+        "远不止是少了几个客人那么简单。它折射的是中国高端餐饮行业在政策、经济、社会心理多重力量推动下的深层结构性变革。从2013年的桌均下行，到2022年疫情后复苏不及…",
+        "引言：一张桌子上的时代缩影 2012年的北京，一家高端酒楼的大堂里，十人圆桌几乎是标配。转盘上摆满鲝鱼翅肚，茅台在杯中摇晃，主陪副陪轮番敬酒，一桌十人、八人是常…",
+        "中国高端餐饮的底层逻辑高度依赖“三公消费”。据中国烹饪协会数据，2013年全国餐饮收入同比增长九点零个百分点，创下多年来的最低增速。更关键的是，限额以上餐饮收入…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "明日的世界（6） 人是 AI 的瓶颈",
+      "title_zh": "明日的世界（6）：人仍是 AI 扩散的真正瓶颈",
+      "url": "http://xueqiu.com/3350642636/396465563",
+      "published": "Thu, 25 Jun 2026 10:21:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Jones",
+        "GDP",
+        "Seedance",
+        "Economic",
+        "Challenge"
+      ],
+      "summary": "文章借 Charles I. Jones 的研究提醒一个容易被忽略的现实：模型能力可以快速跃迁，但生产率提升还要经过组织、制度和物理世界这些慢环节。核心亮点是把“AI 很强”与“经济何时兑现收益”拆开看，指出可数字化、可回滚、可自助验收的任务最先受益，而高监管、高责任行业会被人和制度卡住。适合关心 AI 宏观影响、产业落地节奏与生产率问题的读者。",
+      "key_points": [
+        "麻省理工学院经济学博士，现任斯坦福大学 STANCO 25 经济学讲席教授。他在 2026 年论文AI and Our Economic Future 里讨论的…",
+        "人所在的那些位置，是增长从模型世界进入现实世界时必须经过的环节。AI 的进步曲线可以很陡，经济的进步曲线却要经过人、组织和制度。关键在于 AI 能不能让一个原本…",
+        "越是数字化、可直接验收、失败可回滚、由用户自己承担取舍的任务，AI 越容易绕开人类瓶颈；越接近医疗、教育、交通、金融基础设施和实体生产，AI 越需要人和制度接住"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "极致割裂：消费龙头新低，科创50、科技龙头新高！（06.25）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9391624441/396585093",
+      "published": "Thu, 25 Jun 2026 10:21:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "PE",
+        "ETF",
+        "AI",
+        "PS",
+        "http"
+      ],
+      "summary": "最近一段时间，市场出现较大波动，身处其中的我们情绪难免有起伏。从全市场估值来看，泛科技板块处于历史高点。虽然高点之后不言顶，但随着估值走高，波动在不断加大。 对于一些朋友而言，这一轮牛市的体感并不算太友好。尤其越注意安全边际，越是关注基本面的朋友，可能感受会更难熬一些。 尤其当一种“有可能改变人类”的新科技出现时，前赴后继且正向螺旋加速抽血下，其他板块几乎都成为了燃料。 而当泛科技出现大跌时，因为贪婪和恐惧心理作祟，市场泥石俱下。所以，我们看到消费、医疗、中概、恒科、中药、证券、红利、价值等板块，逐渐进入或接近低估…",
+      "key_points": [
+        "消费与科技的强烈对比，正好反映了当前市场的割裂。目前科创50、科创创业50、科技龙头、全指信息、机器人、人工智能、半导体芯片、通信等泛科技指数，均处于高估",
+        "一、主要低估、高估指数复盘 1、消费龙头 ：PE跌至15.3，百分位0.00%、PB跌至2.87，百分位0.00%，指数温度跌至0°，历史新低",
+        "消费龙头成立于2018年年底，上述数据表明，指数囊括主要消费和可选消费的前提下，消费行业估值跌至近8年新低"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "医美机构私密科室——人、物、场、品四维拆解运营思考",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6420025.html",
+      "published": "Thu, 25 Jun 2026 09:49:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "boss",
+        "CC0",
+        "IP",
+        "OK",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "在女性健康意识觉醒的浪潮下，私密医美正成为医美机构突破增长瓶颈的黄金赛道。本文从人、物、场、品四大维度，深度拆解如何构建私密科室的运营闭环——从专业团队的共情力培养到医疗物料的合规管理，从沉浸式场景设计到阶梯式产品体系搭建，为从业者提供一套完整的私密医美运营方法论。 作为医美行业从业者观察者，在女性经济、女性身心灵健康意识全面崛起的时代，私密学科必将成为医美行业的核心增量赛道。最近大家都在聊，皮肤注射面部项目日趋“饱和”的现状下，私密学科应该是机构内的潜力项目或学科。确实，私密（学科）科室可以说是医美机构有毛利、有…",
+      "key_points": [
+        "私密医美正成为医美机构突破增长瓶颈的黄金赛道。本文从人、物、场、品四大维度，深度拆解如何构建私密科室的运营闭环——从专业团队的共情力培养到医疗物料的合规管理，从…",
+        "今日怎么想到挤时间码字私密相关文章了？一是近期新对接的工作版块跟私密学科相关，二是通过码字来思考私密（学科）科室在医美机构现存的问题中如何进阶运营",
+        "在女性经济、女性身心灵健康意识全面崛起的时代，私密学科必将成为医美行业的核心增量赛道。最近大家都在聊，皮肤注射面部项目日趋“饱和”的现状下，私密学科应该是机构内…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "功能的守门人、时间的守卫者、机会的追逐者：产品经理的三角困局",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pmd/6420088.html",
+      "published": "Thu, 25 Jun 2026 09:35:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "demo",
+        "PRD",
+        "bug",
+        "P0",
+        "P1",
+        "CC0"
+      ],
+      "summary": "产品经理、项目经理和老板的三角矛盾，几乎在每个需求评审会上都会上演。面对功能质量、交付节奏和市场机会的不同诉求，三方各执一词却又各自有理。本文剖析了三种典型的无力时刻，揭示了传统解法的失效原因，并提出了将验证前置、结构化记录风险等实操方向，帮助你在无法消除的结构性矛盾中，找到更有效的应对策略。 一、一个再熟悉不过的场景 需求评审会上。 产品经理翻着 PRD：“这个审批驳回功能还有三种异常情况没覆盖。驳回后数据怎么回滚？被驳回的单据是废弃还是可编辑？驳回原因是否强制必填？这三条至少要把前两条走通才能上线。” 项目经理…",
+      "key_points": [
+        "写在最后 三角矛盾不会消失。只要产品、项目、老板这三个角色存在，对功能、时间、机会的不同关注点就会永远存在",
+        "4.4 从“说服对方”转向“帮对方看清” 产品经理有一个职业惯性：总想用逻辑说服别人。“这个功能很重要，因为……”“这个风险不能忽略，因为……” 但在三角矛盾里…",
+        "产品经理对功能质量负责。项目经理对交付节奏负责。老板对市场机会和用户价值负责"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "刘强东的70万快递员转型计划：从送货到修机器人",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6420186.html",
+      "published": "Thu, 25 Jun 2026 09:16:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "APEC",
+        "CC0",
+        "CP",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "京东的'涅槃计划'正掀起一场物流行业的职业革命。刘强东预言机器人配送将取代70万快递员，却通过职业院校合作实现蓝领向技术岗的转型。本文深度剖析京东如何通过300万台机器人采购与员工技能升级，在无人配送浪潮中重构物流成本与服务体系，展现头部企业对技术变革与人文关怀的平衡之道。 “将来都是机器人送货了，根本不需要快递员，一定是机器人送货，但是我并不需要我们70万兄弟没有饭吃、没有工作。” 01 刘强东透露涅槃计划 据媒体报道，6月21日，参加2026年APEC工商领导人中国论坛的刘强东，正式对外分享了京东内部的“涅槃计…",
+      "key_points": [
+        "京东的'涅槃计划'正掀起一场物流行业的职业革命。刘强东预言机器人配送将取代70万快递员，却通过职业院校合作实现蓝领向技术岗的转型。本文深度剖析京东如何通过300…",
+        "参考： 北晚在线：刘强东：快递终将实现全部机器人送货，要培训70万快递员维护机器人 新京报：刘强东谈京东入局物流原因：社会化物流成本太高 钱江晚报：京东快递小哥…",
+        "根本不需要快递员，一定是机器人送货，但是我并不需要我们70万兄弟没有饭吃、没有工作。” 01 刘强东透露涅槃计划 据媒体报道，6月21日，参加2026年APEC…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "微信内测“小微”AI助手：不是Siri也不是新App，而是一层AI能力",
+      "title_zh": "微信内测“小微”AI 助手：不是独立 App，而是嵌入生态的一层能力",
+      "url": "https://www.woshipm.com/ai/6420097.html",
+      "published": "Thu, 25 Jun 2026 07:48:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "WeLM",
+        "App",
+        "MoE",
+        "Siri",
+        "Agent"
+      ],
+      "summary": "微信开始把 AI 作为底层能力而不是单独入口来放大：它直接挂接关系链、内容流和小程序服务，试图把“聊天框”变成统一调度层。亮点在于四层能力拆分清晰、强调低延迟和低成本、并把超级应用已有生态转成 Agent 分发优势；这更像微信对 AI 操作系统位势的一次试探。适合关注超级应用、Agent 产品形态和微信生态演化的读者。",
+      "key_points": [
+        "有人说这是微信版Siri。但仔细拆解它的能力就会发现，小微不是任何一个已知物种的复刻。它是一层嵌入微信内部的AI能力，是微信过去十多年积累的关系、内容和服务，第…",
+        "小微没有以一个新App出现，而是像一层被嵌入微信内部的AI能力",
+        "翻译一下就是：AI不应该是一个需要用户主动打开的新工具，而应该成为微信内部的一种基础能力"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拆解AI Agent：大模型、规划、记忆、工具，PM的设计指南",
+      "title_zh": "拆解 AI Agent：从模型、规划、记忆到工具的产品设计框架",
+      "url": "https://www.woshipm.com/ai/6420089.html",
+      "published": "Thu, 25 Jun 2026 07:43:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "PM",
+        "AI",
+        "Plan-Act",
+        "ReAct",
+        "API"
+      ],
+      "summary": "这篇不是追热点，而是把 Agent 拆成可执行的产品框架：大模型负责理解与生成，规划决定步骤，记忆维持上下文，工具负责接入外部动作。亮点在于它把失败重试、工具选择、并行调用和边界控制这些常被忽略的实现问题摆到台面上，适合作为 PM 或工程协作时的共用词表。适合需要快速建立 Agent 设计认知的产品和技术团队。",
+      "key_points": [
+        "Agent 正在重塑 AI 产品的形态，但许多产品经理对其核心模块仍缺乏系统认知。本文将 Agent 简化为四大组件：大模型作为大脑、规划模块制定策略、记忆系统…",
+        "Agent到底是什么？一句话：Agent = 大模型 + 规划 + 记忆 + 工具。大模型是脑子，负责理解和生成。规划决定先做什么后做什么。记忆让它记住上下文。…",
+        "还得定调用规则。一个工具失败了怎么办？是重试、是换个工具、还是直接跟用户说“我不行”。多个工具能不能同时调？能同时读三个文件就同时读，别一个一个来，省时间。哪些…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "扬州发现「巨型老鼠」，系外来入侵物种，其对生态环境有哪些危害？如何有效防治？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790715",
+      "published": "Thu, 25 Jun 2026 23:01:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "coypus",
+        "Myocastor"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 这事儿背后，是中国近代史上最大的养殖骗局之一，欺骗了全国数万家庭。 现在的媒体，应该去挖一挖骗局的始作俑者当时为什么能全身而退，而不是在这标题党巨大耗子。 容我慢慢说来。 “巨型老鼠”“外来入侵”，了解不多的人听起来跟哪国故意投放的生物兵器似的。 实际上，就是上世纪我国主动引进，后来发展成人祸的海狸鼠（Myocastor coypus）。 这东西虽说叫海狸鼠，但实际上既不是海狸，也不是老鼠。 长这个样子，跟猫一个尺寸，所以还有媒体会说“老鼠比猫大”。 再…",
+      "key_points": [
+        "所以 2016 年发布《中国自然生态系统外来入侵物种名单（第四批）》里，海狸鼠被定性为外来入侵物种",
+        "海狸鼠还具备大部分入侵物种共有的问题，能吃能生",
+        "那我建议给卡皮巴拉改名“极巨型老鼠”"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "最冷门文物比赛：你觉得哪一个文物知道的人很少，但却很有价值?越冷门越赢！？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790658",
+      "published": "Tue, 23 Jun 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "M246"
+      ],
+      "summary": "祥和居主人， 无话可说 查看知乎原文 《北方文物》2026 年第二期发表了西安市文物保护考古研究所撰写的《陕西西安东郊东方机械厂唐墓 M246 发掘简报》，文中披露了一枚 2019 年出土的“長安常歓”金钱。 唐 “长安常歓”金钱 这是自 2015 年在洛阳附近发现“長安常歓”银钱以来，首次发现同一版别的金币。 唐 “长安常歓”银钱 那么这枚“長安常歓”金钱的珍贵之处在哪里呢？我以为大致在于以下几个方面： 首先、它与“長安常歓”银钱一样，到目前为止都还是独此一枚的孤品。 “長安常歓”银钱另有一枚拍卖纪录，但由于其并…",
+      "key_points": [
+        "无话可说 《北方文物》2026 年第二期发表了西安市文物保护考古研究所撰写的《陕西西安东郊东方机械厂唐墓 M246 发掘简报》，文中披露了一枚 2019 年出土…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这头猪死了，但你还能在子弹、牛肉、金属、红酒和人类心脏里找到它",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E5%A4%B4%E7%8C%AA%E6%AD%BB%E4%BA%86%EF%BC%8C%E4%BD%86%E4%BD%A0%E8%BF%98%E8%83%BD%E5%9C%A8%E5%AD%90%E5%BC%B9%E3%80%81%E7%89%9B%E8%82%89%E3%80%81%E9%87%91%E5%B1%9E%E3%80%81%E7%BA%A2%E9%85%92%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%BF%83%E8%84%8F%E9%87%8C%E6%89%BE%E5%88%B0%E5%AE%83",
+      "published": "Thu, 25 Jun 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "christienmeindertsma.com",
+        "vimeo.com",
+        "https",
+        "AI",
+        "Christien",
+        "christien_meindertsma_on_"
+      ],
+      "summary": "猪固有一死，或做成锅包肉，或做成卤猪蹄……且慢，一头猪死后，真的只有被端上餐桌这条去路吗？ 荷兰有一头肉猪，它的生平虽不为人所知，但它全身各个部分的最终归宿都被记录下来。出人意料的是， 它被加工成了足足185种产品 ——包括子弹、药丸、牛肉等许多种我们完全料想不到的。 图 | christienmeindertsma.com 追踪这头猪的人是一位荷兰设计师，名叫克莉丝汀•梅因德斯玛（Christien Meindertsma）。2007年，她从荷兰养殖场随机选中了一头猪，记录下它死后的全部经历，并出版了这本名叫“…",
+      "key_points": [
+        "图 | christienmeindertsma.com 追踪这头猪的人是一位荷兰设计师，名叫克莉丝汀•梅因德斯玛（Christien Meindertsma）…",
+        "但它但书脊上装饰着一件不同寻常的东西：一个亮黄色的圆形塑料标签。这其实是一个耳标，它用在养殖场中，是一头猪活过的证明。而如果你从书架上抽下这本书，还会在它的封底…",
+        "它的生平虽不为人所知，但它全身各个部分的最终归宿都被记录下来。出人意料的是， 它被加工成了足足185种产品 ——包括子弹、药丸、牛肉等许多种我们完全料想不到的"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "周鸿祎宣布打造漏洞挖掘智能体，特斯拉中国确认接入豆包与DeepSeek双模型",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%91%A8%E9%B8%BF%E7%A5%8E%E5%AE%A3%E5%B8%83%E6%89%93%E9%80%A0%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%8C%E7%89%B9%E6%96%AF%E6%8B%89%E4%B8%AD%E5%9B%BD%E7%A1%AE%E8%AE%A4%E6%8E%A5%E5%85%A5%E8%B1%86%E5%8C%85%E4%B8%8EDeepSeek%E5%8F%8C%E6%A8%A1%E5%9E%8B",
+      "published": "Thu, 25 Jun 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "OpenAI",
+        "DeepSeek",
+        "Google",
+        "Jalape"
+      ],
+      "summary": "今天是6月25日，星期四。1951年的今天，首部彩色电视节目在美国播出，拉开了电视彩色化时代的序幕。 重点新闻速览 1.OpenAI联手博通推出首款自研推理芯片Jalapeño 2.周鸿祎宣布打造中国版漏洞挖掘智能体 3.特斯拉中国确认接入豆包与DeepSeek双模型 4.委内瑞拉1分钟连发两次7级以上强震 5.欧洲遭遇破纪录热浪，多国气温刷新6月极值 科技 OpenAI联手博通推出首款自研推理芯片Jalapeño 当地时间6月24日，OpenAI与博通联合发布首款定制AI推理芯片Jalapeño（意为“墨西哥辣椒…",
+      "key_points": [
+        "重点新闻速览 1.OpenAI联手博通推出首款自研推理芯片Jalapeño 2.周鸿祎宣布打造中国版漏洞挖掘智能体 3.特斯拉中国确认接入豆包与DeepSeek…",
+        "360同步发布自主研发的漏洞挖掘智能体“图龙锋”与自动化防御系统“仪天阵”，并联合统信、麒麟、海光、飞腾等信创企业发起“磐石之盾”计划，率先为重点关键基础设施单…",
+        "新规6月30日率先在英美及欧洲经济区生效，年底扩展至澳日韩，2027年9月前全球覆盖。此次调整源于Epic 2020年反垄断诉讼——2023年陪审团裁定Goog…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "她曾是好莱坞唯一的女导演",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%B9%E6%9B%BE%E6%98%AF%E5%A5%BD%E8%8E%B1%E5%9D%9E%E5%94%AF%E4%B8%80%E7%9A%84%E5%A5%B3%E5%AF%BC%E6%BC%94",
+      "published": "Thu, 25 Jun 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Arzner",
+        "Dorothy",
+        "Morgan",
+        "Chris",
+        "Cynthia",
+        "Dance"
+      ],
+      "summary": "文 魏时煜 卫禹兰 （本文曾发表于虹膜电子杂志。） 在 20世纪三四十年代的好莱坞黄金时代，确切地说从1928年好莱坞进入有声片时代到1943年为止，桃乐西·阿兹娜（Dorothy Arzner, 1897-1981）是好莱坞唯一的一位女导演。如同此前介绍过的女导演爱丽丝·居伊·布兰奇和露易丝·韦伯一样，阿兹娜也被主流电影史和评论圈彻底遗忘了数十年，直到20世纪70年代，由于女性主义的兴起，阿兹娜被重新发现并被津津乐道。 女性主义学者在阿兹娜身上发现了太多的兴奋点。 第一， 「 好莱坞黄金时代唯一的女导演 」 这个…",
+      "key_points": [
+        "文 魏时煜 卫禹兰 （本文曾发表于虹膜电子杂志。） 在 20世纪三四十年代的好莱坞黄金时代，确切地说从1928年好莱坞进入有声片时代到1943年为止，桃乐西·阿…",
+        "从 1927年到1943年阿兹娜退休，她一直是好莱坞唯一的女导演。著有专著《阿兹娜导演》（Directed by Dorothy Arzner, 1994）的学…",
+        "一个女同志成为好莱坞黄金时代的唯一的女导演，并且职业生涯持续了 20年，这多少是一个谜一般的现象。因为她从不提及私人生活，今天的人无法得知她的心路历程。在公开场…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "毒舌影评人，没有比他更毒的",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%AF%92%E8%88%8C%E5%BD%B1%E8%AF%84%E4%BA%BA%EF%BC%8C%E6%B2%A1%E6%9C%89%E6%AF%94%E4%BB%96%E6%9B%B4%E6%AF%92%E7%9A%84",
+      "published": "Thu, 25 Jun 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Farber",
+        "hongmomgs",
+        "irisfilm",
+        "Manny",
+        "Nation",
+        "qq.com"
+      ],
+      "summary": "作者：Manny Farber 译者：陈思航 校对：易二三 来源：The Nation（1949年6月） 译者按： 曼尼·法伯的电影评论总是能找到独特的切入点。在这部评价约翰·休斯顿的作品里，他的讽刺性风格发挥到了极致。对于休斯顿足够熟悉的观众，看到法伯的比喻一定会会心一笑。无论是「好莱坞的金发男孩」，还是用「道德的皮鞭」驱赶那些牛群般的角色，都精妙地框定了休斯顿的形象与风格。或许在作者论的圣域中，法伯可以成为一位强大的渎神者。 对于评论家来说，约翰·休斯顿是好莱坞的金发男孩。对于好莱坞的模式来说，休斯顿既是一头温…",
+      "key_points": [
+        "Manny Farber 译者：陈思航 校对：易二三 来源：The Nation（1949年6月） 译者按： 曼尼·法伯的电影评论总是能找到独特的切入点。在这部…",
+        "《碧血金沙》（1949） 在他的构图里，人物几乎没有移动手臂的空间。当一小群人近距离地围着酒吧、篝火、桌子的话，他会拼命地推进事件，展现那些只有演员的医生们才知…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "无聊的小事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%97%A0%E8%81%8A%E7%9A%84%E5%B0%8F%E4%BA%8B",
+      "published": "Thu, 25 Jun 2026 12:35:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "Bitsea",
+        "dragonfly",
+        "Prompt"
+      ],
+      "summary": "自从我开始玩公众号贴图功能以来，在我日常发布的那些天空照片的留言区，已经变成了全国乃至全世界读者交换本地天空的所在。人们会跑来张贴自己眼前的天空，然后点赞或者是评论他人发布的照片。 专注于每日文章流量的人可以来看看，这种天空贴图的阅读量不高，参与的人也不多。但这种事情我几乎每天都要搞，流量高还是低都要搞。 专注于生活意义的人也可以来看看，这种天空贴图看不出什么意义来，就是天空的样子，云团的样子，当然，还有光影的样子。想要从中「格物致知」，大概率什么都格不出来。 更多人也可以来看看，不过，我猜想观后感应该只有两个字：…",
+      "key_points": [
+        "的确可以做到不动脑子，纯然感受的状态。当一个人不断地翻看不同的天空照片，那么他就得以保持这种状态。正因为是无聊的，脑子就不需要兴奋起来，也不需要进行大量运算，所…",
+        "又会有人说「搞那么文艺干嘛」。因为在年轻时，生活的压力还没有那么重，内心的欲望却炽热无比时，文艺让人觉得清凉。等到年纪增长，生活的压力日甚一日，欲望和现实在泥潭…",
+        "不过，我猜想观后感应该只有两个字：无聊。这种个人判断很敏锐，的确是一种无聊，参与的人也的确在做一件无聊小事。但我又以为，许多人的心病是从无聊在生活中退场开始的。…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "史上最严峻能源危机之下，3.4万亿美元在投向怎样的未来？",
+      "title_zh": "能源危机升级下，3.4 万亿美元正在押注怎样的能源未来？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%8F%B2%E4%B8%8A%E6%9C%80%E4%B8%A5%E5%B3%BB%E8%83%BD%E6%BA%90%E5%8D%B1%E6%9C%BA%E4%B9%8B%E4%B8%8B%EF%BC%8C3.4%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83%E5%9C%A8%E6%8A%95%E5%90%91%E6%80%8E%E6%A0%B7%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9F",
+      "published": "Thu, 25 Jun 2026 08:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "IEA",
+        "AI",
+        "https",
+        "of",
+        "Coal",
+        "Data"
+      ],
+      "summary": "文章把中东局势、霍尔木兹海峡风险与《2026 世界能源投资》报告放在一起看，核心不是单一油价波动，而是全球能源资本正在重新定价安全、韧性与电网投资。亮点包括：危机并未逆转清洁能源大势、电网与储能的重要性继续抬升，以及部分中国光伏制造仍承受回报压力。适合关注宏观能源、产业投资和地缘风险传导的读者。",
+      "key_points": [
+        "全球能源关键“咽喉”霍尔木兹海峡局势仍扑朔迷离。国际能源署 （IEA） 执行主任法提赫·比罗尔多次强调“我们正面临全球历史上最严重的能源安全危机”，认为其影响堪…",
+        "IEA与北京大学能源研究院共同发布《2026世界能源投资》报告 （下称《报告》） ，预计2026年流向能源领域的资本将增长至3.4万亿美元，较2025年上升5%",
+        "2025年部分中国光伏企业仍面临盈利压力，投资回报率为负。IEA指出：“如果没有补贴，中国组件的平均平准化生产成本显著高于2025年市场实际销售价格。” 电网扩…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "视频播客怎么就成香饽饽了？",
+      "title_zh": "视频播客为什么突然成了平台争抢的内容形态？",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E8%A7%86%E9%A2%91%E6%92%AD%E5%AE%A2%E6%80%8E%E4%B9%88%E5%B0%B1%E6%88%90%E9%A6%99%E9%A5%BD%E9%A5%BD%E4%BA%86%EF%BC%9F",
+      "published": "Thu, 25 Jun 2026 20:18:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "MBTI"
+      ],
+      "summary": "文章借 B 站推出视频播客手册这件事，讨论平台为什么开始重新扶持长内容与可信表达：短平快内容和 AI 批量生产正在压低信息质量，平台需要一种更稳定的创作者供给。亮点在于它把视频播客放进内容分发、创作者激励和平台品牌建设三条线里一起看，说明这不是单一形式走红，而是平台在寻找“高信任内容”载体。适合关注内容平台、媒介形态和创作者经济变化的读者。",
+      "key_points": [
+        "还特意标出这是1.0版本，大有把它做成行业白皮书的意图。我的评价是，面对信息低质且泛滥的现状，B站的担忧之情可谓是溢于言表。牛津词典和韦氏词典曾选用「脑腐」和「…"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "从猎户座之王到群星",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/06/from_moo_to_stellaris.html",
+      "published": "2026-06-25T14:47:53Z",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Stellaris",
+        "Factorio",
+        "log",
+        "mod",
+        "Modifiers",
+        "Paradox"
+      ],
+      "summary": "每个经典电子游戏的游戏设计都多少有一些之前作品的痕迹。我认为原因有二：成功的玩法必须有大量玩家实际游戏体验的打磨证明其有效，在经典玩法上培养出来的玩家习惯可以极大的减少游戏的学习门槛，一个新玩法如果门槛过高就无法吸引足够的玩家去玩，也就得不到打磨。 我一直想搞清楚一款吸引我的游戏的核心规则部分到底是怎么设计出来的。为什么我可以玩成百上千小时还可以发掘出新乐趣，而开发者在看似不算太长的时间就设计出了它们。当我这两年有足够的时间，我开始用一种慢方法弄清楚这点：玩一些更古老的游戏，找到它们和现代游戏之间的发展脉络。 St…",
+      "key_points": [
+        "由于 P 社已有十字军之王、维多利亚、欧陆风云、钢铁雄心在前，我想当然的认为群星是他们招牌大战略类型游戏的科幻版延续。我在游戏系统里也发现了大量 P 社游戏中熟…",
+        "Stellaris 群星是我游戏时间第二长的游戏（第一是 Factorio），我从 1.0 版就开始玩，并从 1.2 版开始维护它的中文翻译 mod ，断断续续…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-26",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "蓝莓怎么突然不贵了？ | 《经济学人》里的中国餐桌",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%93%9D%E8%8E%93%E6%80%8E%E4%B9%88%E7%AA%81%E7%84%B6%E4%B8%8D%E8%B4%B5%E4%BA%86%EF%BC%9F+%7C+%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E3%80%8B%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E9%A4%90%E6%A1%8C",
+      "published": "Mon, 22 Jun 2026 16:21:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "strong",
+        "class",
+        "in",
+        "m-strong",
+        "middle",
+        "shopping"
+      ],
+      "summary": "这几年，大家有没有一些很明显的感觉： 有些以前看起来挺“高级”的东西，好像没那么高级了。 蓝莓，以前买一小盒都要犹豫一下。 牛油果，以前总觉得是健身博主和轻食店的东西。 三文鱼，也不像以前那样只出现在日料店里。 现在呢？ 盒马、山姆、普通水果店，甚至小区团购里，都能看到它们。 这期《经济学人》中国版块文章刚好写到这个变化。 文章说，随着中国中产群体越来越大，大家购物车里的东西也在变。 以前更关心吃不吃得饱。 现在很多人开始关心：吃得健不健康，食材新不新鲜，做起来方不方便。 来看其中一句： As China’s al…",
+      "key_points": [
+        "这期《经济学人》中国版块文章刚好写到这个变化",
+        "所以这句话可以译成： 随着中国规模近5亿的中产阶级越来越富裕、不断壮大，他们购物车里的东西也在发生变化",
+        "500m-strong middle class 不是“强大的5亿中产”，而是“规模近5亿的中产阶级”"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "观看过的哪些文物，让你感受到了历史的冲击？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790603",
+      "published": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A8512",
+        "FA8512"
+      ],
+      "summary": "知乎用户， 每天都要劝自己别键政了 查看知乎原文 说一件我家乡的文物吧，“川 F·A8512”东风雪铁龙汽车。 它不仅能让人感受到历史冲击，甚至它自己就有历史冲击（更准确说是物理冲击）留下来的痕迹—— “川 F·A8512”东风雪铁龙汽车 这辆车牌为川 FA8512 的东风雪铁龙汽车，副驾驶和车身已成废铁，残破不堪，面目全非，但驾驶舱无变形，发动机和电子元件也依然可用，缓缓地行驶在路上，也因此被网友誉为“车坚强”。 2008 年 5 月 12 日中午 2 点 28 分，突然地动山摇，这辆当时位于 极重灾区绵竹市汉旺…",
+      "key_points": [
+        "甚至它自己就有历史冲击（更准确说是物理冲击）留下来的痕迹—— “川 F·A8512”东风雪铁龙汽车 这辆车牌为川 FA8512 的东风雪铁龙汽车，副驾驶和车身已…",
+        "每天都要劝自己别键政了 说一件我家乡的文物吧，“川 F·A8512”东风雪铁龙汽车"
+      ]
+    }
+  ]
+}
