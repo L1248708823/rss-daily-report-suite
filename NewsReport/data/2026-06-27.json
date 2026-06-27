@@ -1,0 +1,769 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T01:00:11.369352+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 91,
+    "fresh_candidates": 66,
+    "backfill_candidates": 25,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-27",
+      "fetched_at": "2026-06-27T01:00:06.059278+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4027.26,
+          "change": -93.02,
+          "change_pct": -2.26,
+          "volume": 660108666.0,
+          "amount": 162119571.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4081.02,
+          "change": 54.50999999999976,
+          "change_pct": 1.35,
+          "prev_close": 4026.51,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-27 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 891.9239878470269,
+          "change": 11.913388461105683,
+          "change_pct": 1.353777837382748,
+          "prev_close": 880.0105993859212,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-27 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [],
+    "editor_picks": {
+      "generated_at": "2026-06-27T01:01:56.587269+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6420611.html",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6420629.html",
+        "https://www.woshipm.com/ai/6420831.html",
+        "https://www.woshipm.com/ai/6420576.html",
+        "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-401.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%AE%B6%E9%95%BF%E8%8A%B1%E9%92%B1%E4%B9%B0%E5%BF%97%E6%84%BF%E5%92%A8%E8%AF%A2%EF%BC%8C%E5%92%A8%E8%AF%A2%E5%B8%88%E5%9C%A8%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E5%8D%83%E9%97%AE%E4%BD%9C%E7%AD%94"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-27",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "你的投资结果，可能藏在你过去的经验里",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%BD%A0%E7%9A%84%E6%8A%95%E8%B5%84%E7%BB%93%E6%9E%9C%EF%BC%8C%E5%8F%AF%E8%83%BD%E8%97%8F%E5%9C%A8%E4%BD%A0%E8%BF%87%E5%8E%BB%E7%9A%84%E7%BB%8F%E9%AA%8C%E9%87%8C",
+      "published": "Fri, 26 Jun 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "TMT"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 做配置的小雪 来源：雪球 今年以来，市场表现相当极致。 在和客户沟通中我们发现，大家对投资的看法，很大程度上取决于过去的经历。 比如，在熊市入市坚持到牛市的人，更容易对市场感到乐观，但经历过大亏的投资者，更倾向于认为股市是个投机机器。 一、怎么理解金钱，藏在过去的经验里 现在，我们不会怀疑银行的安全性，但对于经历过银行破产的人来说，就不一样了。 《金钱心理学》的作者摩根·豪瑟，曾经在书中写道： 自己的爷爷在美国大萧条时期，…",
+      "key_points": [
+        "藏在过去的经验里 现在，我们不会怀疑银行的安全性，但对于经历过银行破产的人来说，就不一样了",
+        "是一种极度稀缺的能力 人在投资里最容易犯的错，就是把过去赚钱的经验，误以为是永远正确的方法",
+        "大家对投资的看法，很大程度上取决于过去的经历"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "朱酒看点（6月26日公开版）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6056806984/396838150",
+      "published": "Fri, 26 Jun 2026 09:43:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "朱酒看点（6月26日公开版） 昨天仍然是科技强，红利弱的走势。但相对前两天来说，红利的抗跌性在增强，而且内部明显在分化。 虽然沪深300ETF龙头的赎回数量又增长到了21亿份，但一部分红利股当天还是收了红盘，这是企稳的先行信号。 中证红利指数的40日收益差（40日收益差 = 中证红利全收益指数过去40日收益率 - 万得全A指数过去40日收益率）达到了-11.81%，根据此前对中证红利的历史回测，当收益差低于-10%时，正收益概率达到100%，平均持有一年收益率为10.96%。 同时历史数据显示，40日收益差低于-1…",
+      "key_points": [
+        "朱酒看点（6月26日公开版） 昨天仍然是科技强，红利弱的走势。但相对前两天来说，红利的抗跌性在增强，而且内部明显在分化"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "泡泡玛特（十）Hellokitty母公司六年的至暗时刻——一个IP帝国的衰败，不是因为IP老了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9326334102/396854310",
+      "published": "Fri, 26 Jun 2026 09:43:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "Hellokitty",
+        "Tsuji",
+        "YouTube",
+        "COO",
+        "CFO"
+      ],
+      "summary": "泡泡玛特这些年一直高歌猛进，即便今年主动降速，也有20%以上的增长。但如果要从长期重仓的角度去思考，一个绕不开的问题是： 它会不会有衰败的那一天？ 想要回答这个问题，最好的办法不是预测未来，而是回溯历史——去看看这个行业里的老前辈，那些曾经风光无限的IP公司，是怎么走过兴衰周期的。 三丽鸥，Hellokitty的母公司，就是这样一个绝佳的研究样本。它在2014年到2019年间经历了一场持续六年的衰退——不是一年两年的波动，而是营收和利润的双双下滑，一路跌到谷底。 （三丽鸥FY2013达到业绩峰值后连续6年减收减利，…",
+      "key_points": [
+        "Hellokitty是一个横跨半个世纪的超级IP。它在2014-2019年的衰退，不是因为”IP老了”“用户审美疲劳了”，而是因为管理层做了一系列错误决策：过度…",
+        "Hellokitty的母公司，就是这样一个绝佳的研究样本。它在2014年到2019年间经历了一场持续六年的衰退——不是一年两年的波动，而是营收和利润的双双下滑，…",
+        "三丽鸥在欧美靠直营商店销售，类似于今天泡泡玛特的模式。改革之后，公司只提供IP授权，找本地的合作厂商负责生产、制造和销售，公司只收授权费。这套模式在财务报表上极…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美银喊加息三次，瑞银说根本加不了，黄金到底应该听谁的？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6087293231/396974699",
+      "published": "Fri, 26 Jun 2026 09:43:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "bp",
+        "CPI",
+        "FOMC",
+        "http",
+        "SH600489"
+      ],
+      "summary": "近期黄金走势完全被美联储加息预期主导，盘面持续走弱，现货金价已经回落至4000美元这一关键心理关口附近。目前市场格局非常有意思：短期金价弱势明显、恐慌情绪蔓延，但市场对于黄金的远期、长期走势依旧普遍看好。 当下黄金交易的核心矛盾，是 美联储年内到底加不加息 。而当前华尔街头部投行之间，出现了极其罕见的极致分歧，多空观点完全针锋相对。 其中最具代表性的就是美银与瑞银，一家极致鹰派、一家极致鸽派，两家机构的判断直接决定了当下黄金的短期定价。今天我们把两家机构的核心逻辑完整拆解，搞清楚加息的真假预期，才能看懂黄金接下来的…",
+      "key_points": [
+        "美银支撑三次加息的三大核心论据： 1、通胀前景明确恶化，核心通胀黏性极强 美银本轮看空黄金、看多加息，核心担忧并非普通CPI数据，而是居高不下的核心通胀。当前住…",
+        "一、美银：2026年美联储将加息三次（全市场最鹰派预期） 美银最新核心结论非常明确：2026年内美联储将加息三次，分别在9月、10月、12月各加息25个基点，累…",
+        "今年美联储剩余议息会议仅剩5次，在剩余五次会议中落地三次加息，属于全市场最激进的鹰派定价。近期美元指数走强、黄金持续承压走弱，核心就是市场在提前计价美银这类激进…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "红利低波年均线策略还有效吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3529405310/396934161",
+      "published": "Fri, 26 Jun 2026 09:43:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "SH515080",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "之前写的 红利低波年均线抄底策略 很受大家欢迎 #分红季，享红利# #食息族征文# 但是最近红利低波持续走弱，中证红利已经跌破500日均线，且还在继续下行。很多朋友开始怀疑： 年均线策略是不是失效了？ 今天我用三组历史数据（2016年熔断、2018年贸易战、2020年疫情）带大家看看，红利低波在长周期跌破后，最终是如何修复的。 一、2020年成长股狂欢，红利低波全年横盘 2020年是典型的大分化年份。创业板指全年从1832点涨到2966点，涨幅高达 61.85% ；而中证红利低波全收益指数从13173点微涨到132…",
+      "key_points": [
+        "之前写的 红利低波年均线抄底策略 很受大家欢迎 #分红季，享红利# #食息族征文# 但是最近红利低波持续走弱，中证红利已经跌破500日均线，且还在继续下行。很多…",
+        "如果你是因为相信“高股息+低波动+均值回归”这个长期逻辑而买入红利低波，那么当前的下跌不该是恐慌的理由，而是策略发力的前置条件。历史没有保证，但数据告诉我们：红…",
+        "最大回撤-12.% 2020年1月至7月，红利低波从12346点跌破年线，最低跌至10864点，最大回撤 -12.01% ，持续161个交易日。新冠疫情全球爆发…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI造假世界杯：美女落泪是假的，但流量是真的",
+      "title_zh": "AI 造假世界杯：假画面泛滥，真问题是内容治理",
+      "url": "https://www.woshipm.com/ai/6420831.html",
+      "published": "Fri, 26 Jun 2026 10:36:27 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "FIFA",
+        "FBI",
+        "Facebook",
+        "Instagram",
+        "News"
+      ],
+      "summary": "世界杯再次证明，生成式 AI 最先被放大的不是创意，而是低成本制造流量与误导的能力。文章同时梳理了假看台画面、政治羞辱图和 AI 解说等正反案例，亮点在于把“工具能力变强”与“平台治理跟不上”这两个问题并排摆出。适合关注深度伪造、平台治理和赛事内容生态的读者。",
+      "key_points": [
+        "AI 正在重塑世界杯的观赛体验与内容生态。从伪造 '看台美女落泪' 到生成政治羞辱图像，深度造假技术已泛滥成全球性流量生意；而另一方面，AI 解说、智能防抖与社…",
+        "看台上总是有惊世美女落泪，偶尔还会惊现小胡子；酒吧里走进英国首相看英格兰比赛但是身穿克罗地亚球服；开幕式里莫名其妙飘着阿根廷国旗，还会有更加莫名其妙的大象走过……",
+        "“看台美女落泪”的画面确实来自某场比赛（非世界杯期间），但其中一位观众被“换脸”了"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当AI打出免费牌，上万元的“一对一”填志愿慌了吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6420797.html",
+      "published": "Fri, 26 Jun 2026 09:58:05 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "APP",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "QQ"
+      ],
+      "summary": "高考志愿填报行业正面临AI与传统服务的双重冲击。央视曝光高价咨询背后的灰色产业链后，四大科技巨头推出的免费AI志愿填报工具迅速占领市场。这些工具虽能快速生成院校推荐，却在数据准确性、个性化匹配和动态预测上暴露出致命缺陷。当AI的算法逻辑遭遇人生的复杂性，志愿填报这场关乎未来的决策游戏，究竟该相信机器还是人性？ 这几天，高考分数陆续出炉，志愿填报成了1290万考生家庭的“头等大事”。然而，央视在6月25日发布的一则调查报道，揭开了高考志愿填报行业背后的重重乱象。原来那些自称“十年名师”“教授级别”的高报师，可能入职还…",
+      "key_points": [
+        "高考分数陆续出炉，志愿填报成了1290万考生家庭的“头等大事”。然而，央视在6月25日发布的一则调查报道，揭开了高考志愿填报行业背后的重重乱象。原来那些自称“十…",
+        "付费的“一对一”服务尚且如此不靠谱，那些随着AI技术井喷而猛刷存在感的免费AI志愿填报工具，能做得更好吗",
+        "高端志愿填报服务的价格动辄成千上万元"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "用AI写PRD？先看完这5个Skill的对比",
+      "title_zh": "用 AI 写 PRD 之前，先分清 5 类 Skill 各擅长什么",
+      "url": "https://www.woshipm.com/ai/6420576.html",
+      "published": "Fri, 26 Jun 2026 09:57:55 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Skill",
+        "PRD",
+        "skill",
+        "skills",
+        "AI",
+        "brainstorming"
+      ],
+      "summary": "这不是简单列工具清单，而是在比较不同 PRD Skill 背后的工作方法：有人擅长结构化追问，有人擅长补全方案，也有人更适合把模糊想法逼成可执行文档。亮点在于它把“写得快”和“写得准”拆开看，提醒团队先统一需求颗粒度和验收口径，再谈让 AI 提效。适合产品经理、独立开发者和需要人机协作写需求的团队。",
+      "key_points": [
+        "我最喜欢这个 Skill 的一点是它对 “模糊语言” 的零容忍。它在文档里专门举了正反例对比： # 模糊写法（错误） – 搜索要快，返回相关结果 # 具体写法（…",
+        "本轮对比的五个 Skill： 本次我精心挑选了五个 skill，他们在 skills.sh 上的安装数量从数百次到数万次。并且每个 skill 都有自己独特的理…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Agentic OS：如何打造一支永不疲倦的AI销售团队",
+      "title_zh": "Agentic OS：如何搭建一支不知疲倦的 AI 销售团队",
+      "url": "https://www.woshipm.com/ai/6420611.html",
+      "published": "Fri, 26 Jun 2026 09:13:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "CRM",
+        "Agentic",
+        "API",
+        "IM"
+      ],
+      "summary": "这篇文章把“会聊天的销售 Agent”升级成“可分工、可复盘、可进化的销售系统”来讨论，核心不是提示词，而是组织结构。亮点在于它把销售流程拆成角色协作、规则护栏和验收闭环三层，解释了为什么报价、上下文和责任归属一旦混在单 Agent 里就容易失控。适合关注 Agent 系统设计、企业销售自动化和复杂工作流落地的读者。",
+      "key_points": [
+        "是一支会长记性的销售团队： 今天栽在骨折价上的跟头，明天绝不再栽第二次",
+        "AI销售助手为何会在关键时刻报出骨折价？背后暴露的不仅是模型问题，更是系统架构的致命缺陷。本文深度拆解如何将单一Agent升级为「销售公司」架构，通过五层分工与…",
+        "后来我们想明白一件事：要让AI把销售这门生意长期做下去，需要的不是一个更会聊天的销售Agent，而是一套为销售量身打造的Agentic OS"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "豆包被迫收费养家，反而拉高了「DAA」的能见度",
+      "title_zh": "豆包开始收费，国产 AI 也被迫直面 DAA 这把尺子",
+      "url": "https://www.woshipm.com/ai/6420629.html",
+      "published": "Fri, 26 Jun 2026 09:12:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Token",
+        "DAA",
+        "Agent",
+        "DAU",
+        "ChatGPT"
+      ],
+      "summary": "豆包从高日活免费产品走向订阅制，说明国产 AI 的竞争已经从“拉新”转向“能否把昂贵算力变成稳定收入”。文章的亮点是把豆包收费、推理成本压力和 DAA 这个任务交付指标放在一起看，指出未来比拼的不只是 DAU，而是用户愿不愿意为真正完成任务付钱。适合关注 AI 商业化、产品定价和 Agent 价值衡量的读者。",
+      "key_points": [
+        "我发现，豆包这次被迫收费养家，无意中把百度创始人李彦宏提出的AI时代度量衡——DAA指标的行业能见度又拉高了",
+        "豆包在为Agent的生产力定价 整体来看，豆包收费养家的破局点，在于极致的性价比与生产力质变",
+        "DAA的价值也便更加凸显出来。豆包这次“打窝式”收费，无形中就把“饵料”投进DAA的核心价值圈。其付费群体将主要是专业用户，他们对Agent落地干活的能力，提出…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "很多人说高三是自己的智力巅峰、知识储备量巅峰时期，是这样吗？这种说法有科学依据吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790719",
+      "published": "Thu, 25 Jun 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Learning",
+        "Function",
+        "Feedback",
+        "Signal",
+        "Optimum",
+        "Reinforcement"
+      ],
+      "summary": "知乎用户， 纸上得来终觉浅，绝知此事要躬行。 查看知乎原文 绝不是这样。高三的学习模式本质上是一种极端的监督学习（Supervised Learning），而出了学校以后学习方式变成以无监督 / 自监督学习和强化学习为主，学习效果和知识组织体系完全不同。 监督学习用人话说就是你做一道题，系统立刻告诉你标准答案是什么。你写完一套数学卷子，答案就在后面；你做完一篇英语阅读，A、B、C、D 哪个选项对，标答已经给你了；你写完一篇作文，老师会告诉你这个句子不高级，那个例子不典型，这个结构不够清楚。 也就是说，你的每一次输出…",
+      "key_points": [
+        "当一个人说“我高三是智力巅峰”的时候，我更倾向于把它翻译成另一句话： “那是我最后一次处在一个目标清晰、反馈及时、评价标准稳定、只要努力就大概率能看到回报的系统…",
+        "所以我不太相信“高三是智力巅峰”这种说法",
+        "高三是很多人“被监督训练的巅峰”"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "《挪威的森林》讲了什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790718",
+      "published": "Thu, 25 Jun 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "杪秋， 公众号：杪秋呀｜首先你要快乐，其次都是其次。 查看知乎原文 作者真正想要表达的是：当你的生活里接二连三发生特别不幸的事之后，你要怎么才能让自己不倒下去。 其实渡边这个人，他并不是什么深情男主：不痴情、也不风流。 你要是仔细看书里他怎么做事的，你就会发现，这个人最大的特点——其实是被动。 他对直子，一开始是好奇，后来是同情，再后来是责任，最后是一种自己也说不清的执念。 他承诺等直子，可他在东京等直子时，日子是怎么过的？ 他上课也不好好上，社团也不参加，朋友也没几个，大多数时候就是一个人待着，看看书，喝喝酒，想…",
+      "key_points": [
+        "就到了这本书最升华的一个层面——它的名字，为什么要叫“挪威的森林”",
+        "《挪威的森林》这本书最厉害的地方在于——它承认了人生的无解",
+        "其实这句话说的是：你的问题只有你自己能解决，但你不是一个人。你迷失在你的森林里，别人迷失在别人的森林里"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "万能的 AI 啊，请快些取代掉那些逼我使用 AI 的领导吧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%87%E8%83%BD%E7%9A%84+AI+%E5%95%8A%EF%BC%8C%E8%AF%B7%E5%BF%AB%E4%BA%9B%E5%8F%96%E4%BB%A3%E6%8E%89%E9%82%A3%E4%BA%9B%E9%80%BC%E6%88%91%E4%BD%BF%E7%94%A8+AI+%E7%9A%84%E9%A2%86%E5%AF%BC%E5%90%A7",
+      "published": "Fri, 26 Jun 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "coding",
+        "Skill",
+        "vibe",
+        "Skills",
+        "github"
+      ],
+      "summary": "你的老板，也给你定了“AI 指标”吗？ 去年这个时候我们还在担心因为 AI 被开除，今年我们开始烦恼怎么完成“使用 AI”的 KPI。 有的老板情绪激昂，责令全员 vibe coding，不管有没有任何需要 coding 解决的问题，先 code 再说；有人被要求在周报里量化“AI 帮我节省了几个小时”，最后大家都是用 AI 来帮自己填这栏；还有人为了完成“AI 工具开发”的 KPI，一周就开发出一个 agent，然后背着老板偷偷用原来那套老工具。 既要应付老板，还是应付 AI，累。 （以下为采访对象口述，经整理编…",
+      "key_points": [
+        "就出现了开头的那一幕，我的老板很疑惑地看着我，说“AI 这都做不到吗？AI 不是万能的嘛？” 十几个人的会议室鸦雀无声，我的脑子飞速旋转，想着如何回答这个问题，…",
+        "经整理编辑） 我的领导是我完成“AI 指标”的最大障碍 “AI 不是无所不能的吗”我承认，在开会的时候听到老板这句反问的时候，我起了“杀心”",
+        "被删除的 Skills丨小卡（化名）提供 就这样我的 Skills 一个版本一个版本的扔进垃圾箱，再一个版本一个版本的更新，直到我完全放弃。我甚至 PPT 也不…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苹果、微软等电子产品全球涨价，马斯克官宣Starmind太空AI算力星座，北方近十省份高温来袭",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9C%E3%80%81%E5%BE%AE%E8%BD%AF%E7%AD%89%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E5%85%A8%E7%90%83%E6%B6%A8%E4%BB%B7%EF%BC%8C%E9%A9%AC%E6%96%AF%E5%85%8B%E5%AE%98%E5%AE%A3Starmind%E5%A4%AA%E7%A9%BAAI%E7%AE%97%E5%8A%9B%E6%98%9F%E5%BA%A7%EF%BC%8C%E5%8C%97%E6%96%B9%E8%BF%91%E5%8D%81%E7%9C%81%E4%BB%BD%E9%AB%98%E6%B8%A9%E6%9D%A5%E8%A2%AD",
+      "published": "Fri, 26 Jun 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "iPad",
+        "Starmind",
+        "C1000",
+        "DragonFly",
+        "CPU"
+      ],
+      "summary": "今天是6月26日，星期五。1954年的今天，苏联奥布宁斯克核电站并网发电，成为世界第一座正式运行的民用核电站，标志着核能从军事走向民用，开启了核电时代。 重点新闻速览 1.美国政府首次要求AI公司限量发布模型 2.马斯克官宣Starmind太空AI算力星座 3.苹果、微软等电子产品全球涨价 4.委内瑞拉7.5级双主震已确认2名中国公民遇难 5. 北方近十省份高温来袭 科技 美国政府首次要求AI公司限量发布模型 6月25日，白宫国家网络总监办公室和科技政策办公室联合要求OpenAI限制新模型发布范围，在政府逐一批准前…",
+      "key_points": [
+        "重点新闻速览 1.美国政府首次要求AI公司限量发布模型 2.马斯克官宣Starmind太空AI算力星座 3.苹果、微软等电子产品全球涨价 4.委内瑞拉7.5级双…",
+        "Meta与高通签订“多年期、多代际”协议，将把DragonFly C1000用于下一代服务器集群，芯片计划2028年下半年量产。高通同时宣布2029财年非手机业…",
+        "解释了在特定条件下蓝藻水华为何会在短短几天内突然消退。6月26日，相关成果以《铁催化活性脂质过氧化产物触发藻华种群快速死亡》为题在线发表于《科学》。（Scien…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "大学专业死亡潮来临，正准备报志愿的高考生傻眼了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A7%E5%AD%A6%E4%B8%93%E4%B8%9A%E6%AD%BB%E4%BA%A1%E6%BD%AE%E6%9D%A5%E4%B8%B4%EF%BC%8C%E6%AD%A3%E5%87%86%E5%A4%87%E6%8A%A5%E5%BF%97%E6%84%BF%E7%9A%84%E9%AB%98%E8%80%83%E7%94%9F%E5%82%BB%E7%9C%BC%E4%BA%86",
+      "published": "Fri, 26 Jun 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "guokr.com",
+        "IT",
+        "sns"
+      ],
+      "summary": "全国各地高考成绩陆续公布，报志愿这件事终于来到了广大学子的眼前。2026年报志愿，别只问\"哪个专业热\"。你要问的是—— 四年以后，这个专业还在不在？ 这些年，AI正以惊人的速度重写着职业版图，一场无声的洗牌早已在就业市场全面铺开。规律其实很简单：能被标准化的活儿，能\"一键完成\"的活儿，往往最先出局。 我们把70多个大学专业，按AI的影响程度分成了三类， 做成了下面这张长长长图 。你可以先看看下面的要点简介，再保存最后的长图。 第一类：正在被AI\"降维打击\" 翻译、财务、基础IT、平面设计，这些靠标准化技能吃饭的专业…",
+      "key_points": [
+        "报志愿这件事终于来到了广大学子的眼前。2026年报志愿，别只问\"哪个专业热\"。你要问的是—— 四年以后，这个专业还在不在",
+        "第一类：正在被AI\"降维打击\" 翻译、财务、基础IT、平面设计，这些靠标准化技能吃饭的专业，一个都跑不了",
+        "第三类：AI时代的新黄金专业 人工智能，近五年新增406个专业点，全国第一，而且是断层第一"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“除了国足，中国几乎向世界杯派去了一切”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E9%99%A4%E4%BA%86%E5%9B%BD%E8%B6%B3%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%87%A0%E4%B9%8E%E5%90%91%E4%B8%96%E7%95%8C%E6%9D%AF%E6%B4%BE%E5%8E%BB%E4%BA%86%E4%B8%80%E5%88%87%E2%80%9D",
+      "published": "Fri, 26 Jun 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "VAR",
+        "FIFA",
+        "LABUBU",
+        "Trionda",
+        "AI",
+        "LED"
+      ],
+      "summary": "中国男足没去世界杯，但不妨碍世界杯处处离不开中国。 文：张雪莹 栏目：Vista天下奇点 你知道今年世界杯的足球，是要充电的吗？ 北京时间6月15日，美加墨世界杯F组一场比赛中，瑞典队5比1大胜突尼斯队。比赛第84分钟，瑞典队19号球员斯万贝里替补登场，仅17秒便破门得分。 边裁举旗示意越位，半自动越位识别系统划线也显示他处在越位位置——进球无效。然而VAR（视频助理裁判）介入后，主裁判改判进球有效。 足球内的智能芯片显示伊萨克脚尖触到了球丨视频截图 改变判决的关键，正是这颗需要充电的足球。从官方转播画面来看，阿亚…",
+      "key_points": [
+        "两只来自中国的小怪兽LABUBU，用它的“丑萌”征服了全球观众。当LABUBU蹦跳着出场时，镜头扫过看台，一位墨西哥父亲把女儿举过头顶，小女孩挥舞着玩偶，笑得露…",
+        "而足球内那颗每秒采集500次数据的智能芯片球胆，则来自江苏淮安的顶碁运动用品有限公司。顶碁运动业务部课长张玲介绍：“植入芯片的球胆每秒可记录500次触球数据，配…",
+        "它还只是美国世界杯的普通代工商，而到了2010年首次获得了FIFA官方授权。此次世界杯，它斩获FIFA全球大力神杯唯一顶级授权，获准制作26厘米规格摆件（对应2…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "当玩具成为电影主角",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BD%93%E7%8E%A9%E5%85%B7%E6%88%90%E4%B8%BA%E7%94%B5%E5%BD%B1%E4%B8%BB%E8%A7%92",
+      "published": "Fri, 26 Jun 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "Gayle",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Sequeira"
+      ],
+      "summary": "作者：Gayle Sequeira 译者：鸢尾花 校对：易二三 来源：Sight &amp; Sound （2023年7月20日） 从《梅根》到《芭比》，2023年是一个「玩偶电影年」。 热拉尔·约翰斯通导演的《梅根》是一部关于人类将悲伤「外包处理」的故事：一个小女孩在父母去世后，一个机器人玩偶来陪伴和安慰她。在格蕾塔·葛韦格的《芭比》中，一系列奇怪的情况迫使美泰公司的经典款芭比（玛格特·罗比饰）离开芭比乐园，到现实世界中去冒险。 但早在玩偶电影以女性为中心、将目光投向小女孩之前，它们常常描绘了孤独、不稳定的男性主…",
+      "key_points": [
+        "8.《玩具总动员》（1995） 导演：约翰·拉塞特 孩子们最终都会长大，他们的玩具也会长大，正是这种存在主义的恐惧为约·拉塞特执导的这部动画电影提供了灵感。在影…",
+        "当安迪收到太空游侠玩具巴斯光年（蒂姆·艾伦饰）时，警长胡迪（汤姆·汉克斯配）开始绞尽脑汁解决自己的不安全感，与此同时，巴斯光年一开始认为自己是一个真正的太空游侠…",
+        "但早在玩偶电影以女性为中心、将目光投向小女孩之前，它们常常描绘了孤独、不稳定的男性主角寻求伴侣的情节。这些男性在娃娃身上找到了理想的对象——毕竟，娃娃是一个足够…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "玩具总动员，从此没有回头路了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%8E%A9%E5%85%B7%E6%80%BB%E5%8A%A8%E5%91%98%EF%BC%8C%E4%BB%8E%E6%AD%A4%E6%B2%A1%E6%9C%89%E5%9B%9E%E5%A4%B4%E8%B7%AF%E4%BA%86",
+      "published": "Fri, 26 Jun 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Lilypad",
+        "Gabby",
+        "it",
+        "CG",
+        "forget",
+        "Hollywood."
+      ],
+      "summary": "文 hsiao 《玩具总动员》居然能拍到 5 ，当年我是没想过的。 《玩具总动员》（2026） 1995 年，不仅是这个系列的起点，是皮克斯的起点，也是整个 CG 动画工业的起点。 为什么生命力如此持久，我觉得是因为这个系列的每一部续集，都在回应一个不同的时代焦虑，承载焦虑的载体始终是玩具。 皮克斯发现，玩具是一个极佳的叙事载体，它可以具备意识和情感，但它存在的全部意义取决于另一个人是否需要它。 这使得《玩具总动员》从最开始就是一部关于存在意义的电影。这种存在的意义还可以随着时代不断演化。 《玩具总动员》（1995…",
+      "key_points": [
+        "《玩具总动员2》（1999） 这个过程没有恶意，只不过是正常的成长，但成长本身就是一种不自觉的残忍",
+        "《玩具总动员 5 》上映了，由皮克斯体系内部最出色最资深的导演安德鲁 · 斯坦顿执导。他是《海底总动员》《瓦力》的导演，皮克斯硕果仅存的几个元老之一",
+        "《玩具总动员2》（1999） 第四部结尾胡迪离开邦妮房间时，把警长徽章交给了翠丝，她现在是邦妮房间的领袖，但她是带着恐惧在领导"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 401 期）：如何赚到10亿美元",
+      "title_zh": "科技爱好者周刊（第 401 期）：如何赚到 10 亿美元",
+      "url": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-401.html",
+      "published": "2026-06-26T20:50:56Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "这期周刊围绕“技术人如何理解增长、产品与商业规模”展开，不只是讲一个大数字，而是在追问哪些能力能把技术项目推到真正有复利的生意。亮点包括对赚钱路径的案例拆解、值得关注的技术工具与社区动态，以及把开发者视角和商业判断放在同一篇周刊里串起来。适合想同时补技术视野和商业感觉的读者。",
+      "key_points": [
+        "科技爱好者周刊（第 401 期）：如何赚到10亿美元"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "万马奔腾的地方，叫昭苏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%87%E9%A9%AC%E5%A5%94%E8%85%BE%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%8C%E5%8F%AB%E6%98%AD%E8%8B%8F",
+      "published": "Fri, 26 Jun 2026 17:02:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "新疆伊犁哈萨克自治州昭苏县的无垠草场之上，正迎来一场炽烈的生命礼赞——万千天马如怒潮决堤，纵情奔腾于天地之间，气势撼野。所谓“天马”，指的是独属此地的伊犁马，它们体格轩昂，四肢劲健，将速度与力量融于一身，自古便是当地人边防卫戍和生产生活的重要伙伴。 每年盛夏，昭苏草场水草丰美，马群于此汇成流动的大地之河。奔腾之时，烟尘蔽日，远望似怒潮席卷。那份野性中的盎然生机，令人顿觉浩荡天地间，生命原可以如此磅礴而自由。 #新疆 #昭苏 #天马 #跟着地理君去旅行 #中国国家地理 敬请关注 中国国家地理文旅 云端赴山海，风景不间…",
+      "key_points": [
+        "新疆伊犁哈萨克自治州昭苏县的无垠草场之上，正迎来一场炽烈的生命礼赞——万千天马如怒潮决堤，纵情奔腾于天地之间，气势撼野。所谓“天马”，指的是独属此地的伊犁马，它…",
+        "昭苏草场水草丰美，马群于此汇成流动的大地之河。奔腾之时，烟尘蔽日，远望似怒潮席卷。那份野性中的盎然生机，令人顿觉浩荡天地间，生命原可以如此磅礴而自由",
+        "#新疆 #昭苏 #天马 #跟着地理君去旅行 #中国国家地理 敬请关注 中国国家地理文旅 云端赴山海，风景不间断"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "日常道歉",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%97%A5%E5%B8%B8%E9%81%93%E6%AD%89",
+      "published": "Fri, 26 Jun 2026 22:10:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "非常对不起，不敢请求原谅，我这里给您跪了！ 文章原文",
+      "key_points": [
+        "不敢请求原谅，我这里给您跪了"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "浙江，为什么出现了三所“厉害”的研究型大学？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%B5%99%E6%B1%9F%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%87%BA%E7%8E%B0%E4%BA%86%E4%B8%89%E6%89%80%E2%80%9C%E5%8E%89%E5%AE%B3%E2%80%9D%E7%9A%84%E7%A0%94%E7%A9%B6%E5%9E%8B%E5%A4%A7%E5%AD%A6%EF%BC%9F",
+      "published": "Fri, 26 Jun 2026 07:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PI",
+        "GDP",
+        "Nature",
+        "AI",
+        "bXvvnbr9pd",
+        "Cell"
+      ],
+      "summary": "6.26 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 撰文｜李珊珊 张天祁 ‍ ● ● ● 又是一年高考志愿季。对有意浙江的学子来说，今年多了新选项。 作为全国GDP排名第四的经济大省，浙江一直是学子们的热门选择，不论你是读本科还是读博士。然而，长期以来，一个被反复提及的话题是：浙江大学几乎以一己之力撑起全省的高校声望。直到近年来，才逐渐形成由浙大牵头，11所省属高校共同参与的高水平大学建设的格局。 如果目光不局限于公办高校体系，你会发现浙江的高等教育版图已悄然生变。两所由社会力量举办、国家和浙江…",
+      "key_points": [
+        "02 研究型大学的科研探索 宁波东方理工大学校园 根据2026年6月发布的自然指数 （Nature Index） ，浙江大学首次超越哈佛，位列全球高校第一。年初…",
+        "你会发现浙江的高等教育版图已悄然生变。两所由社会力量举办、国家和浙江省重点支持的新型研究型大学——西湖大学与宁波东方理工大学 （以下简称“东方理工”） ， 正在…",
+        "这是非常值得关注的高教拓新。在杭甬都市圈，研究型大学“三足鼎立”的格局初具雏形。历史悠久、体量庞大的浙江大学，是整个区域科技人才培养的压舱石；西湖大学与东方理工…"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "为什么人老了，反而更容易快乐？| 每日心理学英文",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E8%80%81%E4%BA%86%EF%BC%8C%E5%8F%8D%E8%80%8C%E6%9B%B4%E5%AE%B9%E6%98%93%E5%BF%AB%E4%B9%90%EF%BC%9F%7C+%E6%AF%8F%E6%97%A5%E5%BF%83%E7%90%86%E5%AD%A6%E8%8B%B1%E6%96%87",
+      "published": "Fri, 26 Jun 2026 22:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "happiness",
+        "we",
+        "in",
+        "is"
+      ],
+      "summary": "有些快乐，年轻人反而不敢要。 休息一下，觉得自己不够努力。 和朋友吃顿饭，觉得浪费时间。 睡个午觉，醒来先有负罪感。 好像快乐必须证明自己有用。 否则，它就像一种偷懒。 今天这篇 Psyche 问了一个很有意思的问题： 为什么很多老年人，反而更容易快乐？ 原文： Why older people are happier and what we can learn from them 作者：Xianmin Gong &amp; Natalie Wong 来源：Psyche 主题：happiness / ageing…",
+      "key_points": [
+        "今天这篇 Psyche 问了一个很有意思的问题： 为什么很多老年人，反而更容易快乐",
+        "原文： Why older people are happier and what we can learn from them 作者：Xianmin Gong…",
+        "问题 02 为什么年轻人更难安心快乐"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "家长花钱买志愿咨询，咨询师在用免费的千问作答",
+      "title_zh": "家长花高价买志愿咨询，咨询师却在复用免费的千问",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%AE%B6%E9%95%BF%E8%8A%B1%E9%92%B1%E4%B9%B0%E5%BF%97%E6%84%BF%E5%92%A8%E8%AF%A2%EF%BC%8C%E5%92%A8%E8%AF%A2%E5%B8%88%E5%9C%A8%E7%94%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E5%8D%83%E9%97%AE%E4%BD%9C%E7%AD%94",
+      "published": "Fri, 26 Jun 2026 10:01:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "IP"
+      ],
+      "summary": "这篇文章抓住了一个很现实的落点：AI 并没有先消灭信息差，反而先放大了包装、话术和服务定价之间的不透明。亮点在于它把高考志愿咨询产业链、免费大模型工具和家长付费焦虑放到一起看，说明很多收费服务卖的并不是更强能力，而是“替你承担决策焦虑”的外包感。适合关注 AI 对咨询行业冲击、教育消费和信息不对称问题的读者。",
+      "key_points": [
+        "央视直接起底了高报机构的生意经： 所谓资深名师可能是入职不久的销售，证书可以P，十年经验可以编；家长花几千上万元买来的 「 一对一定制 」 ，背后是把问题丢给免…",
+        "在友松实验室专门为高考志愿设计的AI基准测试里，千问的表现，基本持平了人类咨询师水平。这说明，查政策、核专业、做初筛、排方案这类工作，已经不再只能依赖少数人的经…",
+        "上面提到的调研里还有一个信息：在高考志愿填报师常用的AI工具中，千问被频繁提及。某种程度上，这恰恰说明，志愿填报里大量信息整理、政策核验和方案初筛的工作，正在变…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "唐僧每次被妖怪抓进洞中，一关就是好几天，他是吃米饭，还是吃馒头、面条、水饺？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790585",
+      "published": "Sat, 20 Jun 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "张小生， 可以写不出名堂，但要一直写下去。 查看知乎原文 唐僧被妖怪抓的情况很少，“一关就是好几天”的情况更少。 至于他吃什么，那就看妖怪洞里有什么素食了。 从巩州三怪开始，到玉兔精结束，唐僧被妖怪抓住的情况以及吃饭问题，统计如下。 第一次：寅将军洞里 在河州卫外，寅将军把唐僧抓了，关了一会。唐僧和从人被捉时，天还没亮。天亮后，太白金星救了唐僧。 原来此时秋深时节，鸡鸣得早，只好有四更天气。一行三人，连马四口，迎着清霜，看着明月，行有数十里远近……正怆慌之间，渐惭的东方发白，那二怪至天晓方散。 在妖怪洞里，唐僧啥也…",
+      "key_points": [
+        "“一关就是好几天”的情况更少",
+        "到玉兔精结束，唐僧被妖怪抓住的情况以及吃饭问题，统计如下",
+        "那么唐僧一共被妖怪抓去十六次"
+      ]
+    }
+  ]
+}
