@@ -1,0 +1,750 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T01:00:11.559909+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 95,
+    "fresh_candidates": 69,
+    "backfill_candidates": 26,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-06-30",
+      "fetched_at": "2026-06-30T01:00:06.255806+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4073.9,
+          "change": 46.64,
+          "change_pct": 1.16,
+          "volume": 659199936.0,
+          "amount": 166622037.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 3987.1,
+          "change": -29.34999999999991,
+          "change_pct": -0.73,
+          "prev_close": 4016.45,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-06-30 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 871.0384522642146,
+          "change": -6.411923095471479,
+          "change_pct": -0.7307448119608009,
+          "prev_close": 877.4503753596861,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-06-30 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B6%8A%E7%83%AD%E8%B6%8A%E7%A9%BF%E8%B6%8A%E5%87%89%E5%BF%AB%EF%BC%81%E4%B8%80%E7%A7%8D%E8%A2%AB%E8%BF%9C%E8%BF%9C%E4%BD%8E%E4%BC%B0%E7%9A%84%E9%9D%A2%E6%96%99%EF%BC%8C%E5%8A%9D%E4%BD%A0%E5%A4%8F%E5%A4%A9%E7%84%8A%E5%9C%A8%E8%BA%AB%E4%B8%8A%EF%BC%81",
+        "title": "越热越穿越凉快！一种被远远低估的面料，劝你夏天焊在身上！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/穿搭种草为主，带明显劝购话术，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-06-30T01:01:50.223624+00:00",
+      "lead_url": "http://xueqiu.com/7888562186/397391781",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6422143.html",
+        "https://www.woshipm.com/ai/6422144.html",
+        "https://www.woshipm.com/ai/6422150.html",
+        "https://daily.zhihu.com/story/9790896",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E5%85%B1%E5%90%8C%E4%B8%80%E4%BD%9C%E2%80%9D%E2%80%9C%E5%85%B1%E5%90%8C%E9%80%9A%E8%AE%AF%E2%80%9D%E5%B7%B2%E6%88%90%E6%A0%87%E9%85%8D%EF%BC%9A%E4%B8%AD%E5%9B%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E8%AE%BA%E6%96%87%E7%BD%B2%E5%90%8D%E8%83%8C%E5%90%8E%E7%9A%84%E8%AF%84%E4%BB%B7%E5%9B%B0%E5%A2%83"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-06-30",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "真正的投资，从不依赖精准预测",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%8A%95%E8%B5%84%EF%BC%8C%E4%BB%8E%E4%B8%8D%E4%BE%9D%E8%B5%96%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B",
+      "published": "Mon, 29 Jun 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Richard",
+        "XYZ",
+        "AI",
+        "END",
+        "Frank",
+        "Knight"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：晨星投资说 | 屈辰晨 投资者厌恶不确定性，而今年上半年的A股市场也将这一点演绎得淋漓尽致。 某种程度上，当前市场对科技的追捧，并不只是单纯的追逐热点，更像是在现在这个确定性稀缺环境里，被迫做出的唯一选择。 但近期，市场走势开始反复，单边上行的节奏被打破，科技板块的波动也明显放大。此前看似最具确定性的标的，如今反而变成了新的不确定性。 诚然，我们可以花更多时间和精力去擦亮自己的水晶球，想办法比别人更早、更准地预判未来。但历史…",
+      "key_points": [
+        "如果所有未来都已经被充分定价，市场上就不会存在错误定价，也不会存在真正意义上的投资机会",
+        "绝大部分投资者所需要的， 并不是如何获得一个更准确的预测，而是学会如何在未知中投资",
+        "当市场对外部事件做出极端反应时，理性的投资者反而可能从中找到机会"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "现在是买老登股吃利息的好时机吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1914355400/397334893",
+      "published": "Mon, 29 Jun 2026 10:05:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PE",
+        "ETC",
+        "ETF",
+        "http",
+        "PB"
+      ],
+      "summary": "所谓老登股，不过是市场对高股息红利资产的一种戏谑称呼。银行、煤炭、电力、石油、交通运输这些传统行业的蓝筹股，因分红稳定、波动较小、股息率高，被投资者戏称为老头乐或老登股。在2026年6月这个时间节点，当10年期国债收益率已跌至1.73%左右，1年期定期存款利率进入1.1%的零字头时代，中证红利指数的股息率却仍能维持在5%上下，部分银行股甚至能提供7%以上的股息回报，这种股债收益差是否意味着老登股的黄金时代已经到来？还是说，这不过是一个低利率陷阱中的幻觉？本文将从市场面、估值面、历史行情、政策面、投资机会与风险面六个…",
+      "key_points": [
+        "第二是风格切换风险。当市场风险偏好提升、经济复苏预期增强时，资金往往从高股息板块流向高成长板块。2026年上半年的行情正是如此：科技成长股大幅跑赢，红利资产阶段…",
+        "但需精选方向与耐心持有 综合以上六个维度的分析，我们的核心判断是：当前时点，对于以长期稳健收益为目标、能够承受短期波动并着眼于股息复利的投资者而言， 买入老登股…",
+        "建议采取差异化的策略：对于退休人群或追求稳定现金流的保守型投资者，当前可以拿出总权益仓位的30%至50%配置老登股，核心方向是国有大行和水电龙头，以及少数煤电一…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "跌跌不休，美团还能不能赚钱？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9869724797/397282474",
+      "published": "Mon, 29 Jun 2026 10:05:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "pct",
+        "AI",
+        "Q1",
+        "Q4",
+        "App",
+        "http"
+      ],
+      "summary": "美团从赚400多亿到亏损百亿，只用了不到一年时间。 2024年巅峰时，美团一年经调整净利润438亿。外卖大战一开打，利润直接归零转亏损。 如今阿里还在烧钱，抖音还在抢地盘， 美团还能不能赚钱？ 这不是一个简单的&#34;能&#34;或&#34;不能&#34;的问题。关键在于：外卖补贴战什么时候停？停了之后格局怎么分？美团还能不能回到巅峰盈利？ 01. AI与机器人：被低估的安全垫 26Q1营收910.4亿，同比+5.6%；经营亏损64.7亿，环比25Q4的-160.7亿大幅收窄；经调整净利-49.7亿，好于预期。…",
+      "key_points": [
+        "抖音还在抢地盘， 美团还能不能赚钱",
+        "这不是一个简单的&#34;能&#34;或&#34;不能&#34;的问题。关键在于：外卖补贴战什么时候停？停了之后格局怎么分？美团还能不能回到巅峰盈利",
+        "到店酒旅：美团的输血管 到店酒旅是美团目前赚钱的业务。外卖基本盘在亏损，如果到店份额持续被抖音瓜分，就没有业务能给外卖输血了，那美团想再次盈利就不可能了"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谈谈最近思考的宏大叙事",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4027531808/397333957",
+      "published": "Mon, 29 Jun 2026 10:05:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "好久没写宏大叙事了，主要是自己今年股票做得不好， 好像没赚到钱，你说啥都是错的。但股票市场是人性的放大场——人性的贪婪和恐惧会表现的酣畅淋漓，最有意思的是这个市场，在想当长的时间内，错的会变成对的；对的也会变成错的，以致于90%的人都会产生幻觉，即自己天赋异禀，具备别人所不具备的能力。其实，哪有几个幸运儿啊。 回到宏大叙事的主题，这一次极致分裂行情确实和历史上任何一次都不同，这次的极致分裂行情叠加了信息传递速度；不带任何情绪，永不畏高的量化交易；人工智能、太空竞争的本质是中美军备竞赛——这就注定了无论是中国、还是美…",
+      "key_points": [
+        "人类需要会思考的人形机器人吗？抑或是人类仅仅需要能够按照既定程序、接受人类指令的机器人，如果是后者，那和今年的汽车有啥区别，难道现在的汽车不是根据我们的肢体指令…",
+        "这一次极致分裂行情确实和历史上任何一次都不同，这次的极致分裂行情叠加了信息传递速度；不带任何情绪，永不畏高的量化交易；人工智能、太空竞争的本质是中美军备竞赛——…",
+        "那谁需要具备思考能力的人形机器人？肯定是资本家啊，因为，这样的话他们就可以通过裁员替代现在的白领了，这也是目前所谓的人工智能能够做到的不多运用领域最重要的一个，…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从“涨价”逻辑，看AI产业链利润究竟流向哪里？",
+      "title_zh": "AI产业链的利润到底流向哪里？别只盯着“涨价”",
+      "url": "http://xueqiu.com/7888562186/397391781",
+      "published": "Mon, 29 Jun 2026 10:05:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "CCL",
+        "PSU",
+        "PCB",
+        "AI",
+        "Rubin",
+        "MCU"
+      ],
+      "summary": "这篇文章把AI硬件链里最容易被讲成口号的“涨价逻辑”拆开了：真正决定利润归属的，不是谁喊价最凶，而是谁掌握稀缺供给、标准切换与定价权。文中拿光模块、PCB、PSU、HBM等环节对比，提醒读者把视线从短期价格波动转回产业壁垒与议价结构。适合想理解这一轮AI基础设施行情究竟谁受益、为什么受益的人阅读。",
+      "key_points": [
+        "回顾PCB、光模块以及高端PSU可以发现，产业链利润最终流向的，并不是涨价最多的环节，而是供给最稀缺、最具定价权的环节。涨价只是市场现象，供给壁垒决定定价权，而…",
+        "PSU产业链中并不存在类似CCL或高速光芯片那样具有绝对供给优势的单一零部件。因此，要判断未来产业利润最终流向哪里，需要先看看PSU的成本构成",
+        "同时MCU在PSU整体BOM中的占比仅约10%左右，即便价格上涨50%，对整机成本影响也只有约3%～5%， 因此即便出现阶段性涨价，也难以改变整条产业链利润分配"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "在电商吃过的苦，沃尔玛不想在AI再吃一遍了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6422218.html",
+      "published": "Mon, 29 Jun 2026 10:51:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Sparky",
+        "CEO",
+        "ChatGPT",
+        "Gemini",
+        "Agent"
+      ],
+      "summary": "零售巨头沃尔玛正在改写AI时代的消费入口规则，从ChatGPT合作到自研购物助手Sparky，这家百年企业用三次关键转型证明：真正的零售王者从不惧怕技术革命。本文深度拆解沃尔玛如何将5000家线下门店转化为AI基础设施，在代理式购物浪潮中重新定义全渠道零售的胜负手。 01 入口的故事 沃尔玛看起来已经接受了一个事实：AI会改变消费入口。一家开在城市中心地段的沃尔玛超市、提供送货上门服务的沃尔玛App或者小程序，曾经都是它精心运营的入口。但AI时代，人们的消费入口可能会变成 ChatGPT、Gemini、豆包、千问：…",
+      "key_points": [
+        "美国阿肯色州开出第一家沃尔玛门店 几十年来，这位线下零售之王靠大规模采购、低价策略、门店网络和供应链效率，建立起全球最强的零售系统。但过于强烈的“入口”优势，一…",
+        "沃尔玛超越eBay，成为美国电子商务市场销售老二。此后，它在电商业务持续发力，到2026财年（截至2026年1月31日），沃尔玛全球电商销售额达到1504亿美元…",
+        "02 AI时代的连接 消费者永远想要更低的价格、更快的速度、更少的麻烦。这是沃尔玛、7-11、亚马逊以及中国电商公司们都验证过的共识。现在，AI需要让用户相信，…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "金融AI浪潮下，产品经理如何在安全与创新之间走钢丝",
+      "title_zh": "金融AI落地，真正难的是把安全机制做成产品能力",
+      "url": "https://www.woshipm.com/ai/6422144.html",
+      "published": "Mon, 29 Jun 2026 09:27:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "bug",
+        "CC0",
+        "demo",
+        "DNA",
+        "get"
+      ],
+      "summary": "这篇不是泛泛谈“AI有风险”，而是把金融AI里最关键的几个控制点拆成了可执行框架：场景分级、信源约束、透明决策、人工兜底。核心价值在于它提醒产品团队，合规不是上线前补一层壳，而是要在高风险场景里把“AI会错”当作前提去设计交互与责任边界。",
+      "key_points": [
+        "金融AI应用的监管红线与创新边界正在被重新定义。当AI炒股工具让用户血本无归，当监管文件为高风险场景设立一票否决权，产品经理如何在合规框架下打造可信赖的金融AI…",
+        "我觉得是整套安全设计里最体现产品价值观的 AI会错。这是前提，不是意外。一个好的产品设计，不是假装AI永远对，而是大大方方承认它会错，然后给”人”留好纠错的位置…",
+        "谁在安全和创新这两根钢丝之间，走出了最优雅、最稳的那个姿势"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI Codex负责人亲口说：做产品这件事，顺序已经反过来了",
+      "title_zh": "OpenAI Codex负责人：AI时代做产品的顺序已经反过来了",
+      "url": "https://www.woshipm.com/ai/6422150.html",
+      "published": "Mon, 29 Jun 2026 09:15:40 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Andrew",
+        "Codex",
+        "taste",
+        "AI",
+        "OpenAI",
+        "agent"
+      ],
+      "summary": "文章抓住了一个很有代表性的变化：当实现原型的成本快速下降，团队不再先写大段文档再谨慎落地，而是更早把想法做成可体验的东西。它讨论的重点不是“人人都能做产品”，而是原型驱动、判断力和协作方式会如何重排，对产品、设计、工程角色都有现实参考价值。",
+      "key_points": [
+        "做产品这件事的先后顺序可能已经彻底反过来了？以前大家都觉得，做产品最贵的环节是把东西真正做出来，所以才会有那么多文档要写、那么多评审要过、那么多原型要测，目的就…",
+        "但我越想越觉得它戳中了一个特别底层的变化。Andrew 提到，现在 OpenAI 内部几乎每个人都很 agentic，都有自己的好点子，于是每个人都在动手做东西…",
+        "当时他们开始用模型驱动功能开发，结果发现传统产品流程根本撑不住了，唯一可行的办法变成把未来一两年想做的事情全部列出来，做成原型，看哪些现在就能用，剩下的先放着，…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "鸿蒙 Flutter 开发效率神器：CPF-Flutter/skills 技能库全解析",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6422146.html",
+      "published": "Mon, 29 Jun 2026 09:11:22 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Flutter",
+        "CPF-Flutter",
+        "skills",
+        "Skill",
+        "API",
+        "OpenHarmony"
+      ],
+      "summary": "CPF-Flutter/skills 工具库正在彻底改变 OpenHarmony 的 Flutter 开发体验。这套全链路自动化方案从环境搭建到性能排查，覆盖 12 个关键场景，特别是新增的三方库检索功能让适配效率翻倍。作为官方认证的 MIT 开源项目，它正在成为鸿蒙跨端开发者的效率基建。 做 OpenHarmony Flutter 跨端开发，你是否总被这些琐事消耗大量时间？ 从零搭建鸿蒙 Flutter 开发环境，踩遍环境配置坑； 批量适配第三方插件，分不清哪些库必须做鸿蒙兼容改造； 代码规范杂乱，兼容性内存泄漏…",
+      "key_points": [
+        "五、写在最后 随着 OpenHarmony 全场景设备普及，Flutter 作为主流跨端框架，生态适配需求持续暴涨。CPF-Flutter/skills 作为官…",
+        "CPF-Flutter/skills 工具库正在彻底改变 OpenHarmony 的 Flutter 开发体验。这套全链路自动化方案从环境搭建到性能排查，覆盖…",
+        "ohos-flutter-plugin-adaptation-necessity-check 插件适配前置检测工具：自动解析项目依赖、MethodChannel…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "专业版发布：豆包把握大模型竞争的节拍",
+      "title_zh": "豆包专业版发布：大模型价格战开始转向分层变现",
+      "url": "https://www.woshipm.com/ai/6422143.html",
+      "published": "Mon, 29 Jun 2026 09:02:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Token",
+        "Agent",
+        "ChatGPT",
+        "Claude"
+      ],
+      "summary": "文章把“模型越多人用越亏钱”的困境讲得比较清楚：免费和低价只能换来规模，未必换来可持续商业模式。豆包专业版的重点不只是收费，而是通过分层订阅识别高价值用户，把模型能力、服务深度和付费层级绑在一起，代表国产大模型竞争开始从卷价格转向卷经营。",
+      "key_points": [
+        "豆包专业版正式上线，标准套餐68元/月、加强套餐200元/月、高级套餐500元/月。回想两年前，也是豆包用0.0008元/千Tokens的价格重塑了国产大模型价…",
+        "至于如何把大模型从单纯烧钱变得可以赚钱，答案就藏在客户分层运营的策略里，这也是豆包专业版想做的事情——相比简单的收费，把超级用户区分出来更重要",
+        "也有测评UP主用豆包专业版生成了一个完整的世界杯球星消消乐游戏，所有的bug也是由豆包2.1 Pro模型自己去修，而豆包交付的结果是一个可以正常点击、有音乐交互…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么飞机不飞大圆航线？",
+      "title_zh": "为什么飞机不飞大圆航线？",
+      "url": "https://daily.zhihu.com/story/9790896",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "en-route",
+        "ETOPS",
+        "HFE-SZX",
+        "km",
+        "LAX",
+        "MTOW"
+      ],
+      "summary": "这是一篇很典型的“把常识误解讲透”的科普：民航优化的目标并不是几何意义上的最短距离，而是成本、载重、空域规则、风场与备降条件的综合最优。它用航路网、ETOPS 和跨洋飞行约束解释了为什么看似绕路，实际上可能才是更便宜、更安全、也更可执行的航线。",
+      "key_points": [
+        "大概是头不太会说话的PM 又是一个有趣的好问题：飞机为什么不飞大圆航线",
+        "同样 PEK 到 LAX，同样是 UA 的 789 在飞，飞行时长差了 1 个小时，航线也明显有区别。而且实际上，飞的慢的那个轨迹更接近于大圆航线，中间速度的偏…",
+        "但是跨洋还要再叠一层 ETOPS ：双发客机规定，航路上任意一点都必须能在限定时间内（120 / 180 / 240 分钟）飞到一个能落的备降场。太平洋正中没什…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "关于法国，有哪些大多数人所不知道的冷知识？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790902",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "Beast",
+        "La",
+        "tinais",
+        "Antoine",
+        "aux"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 冷笑话：英法百年战争谁赢了？ 答：狼赢了。 百年战争之后，法国还有五百年的猎狼战争。 野生狼群很少主动袭击人类， 以人为目标的捕食性攻击就更少了，但是百年战争改变了巴黎周围狼群的饮食结构，演化出了食人狼群。 长年战乱，军队抢劫，“劫道者”洗劫……塞纳河与卢瓦尔河之间的乡村成为无人区，荆棘丛生，成群的野狼从森林中涌出，游荡在城市和乡村。 这时候正好又遭遇黑死病大爆发，巴黎周围大量田地荒芜，房屋空置，空屋直接沦为野狼繁衍的巢穴。它们用爪子挖出埋葬在村庄和田野里的尸体…",
+      "key_points": [
+        "由于法国人对狼有着长达千年的恐惧，当时的法国牧羊人和猎人根本不相信狼是“自己走过来的”，他们愤怒地抗议，坚信这是环保组织或政府“半夜用直升机把狼偷偷空投进公园”…",
+        "加蒂奈之兽（Beast of Gâtinais） 1655 年 10 月 16 日，法国猎狼人圣埃雷姆侯爵蒙莫兰宣称杀死了“这头邪恶的野兽”，他被视为救世主，然…",
+        "猎人们利用死马和新鲜的动物血肉作为诱饵，故意散落在巴黎城墙的缺口处，并一路延伸到市中心。饥不择食的库托果然中了计，率领着核心狼群跨过缺口，顺着血迹一路贪婪地啃食…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "欧洲小伙开车200公里，终于赶在热死前，抢到了最后一台中国空调",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AC%A7%E6%B4%B2%E5%B0%8F%E4%BC%99%E5%BC%80%E8%BD%A6200%E5%85%AC%E9%87%8C%EF%BC%8C%E7%BB%88%E4%BA%8E%E8%B5%B6%E5%9C%A8%E7%83%AD%E6%AD%BB%E5%89%8D%EF%BC%8C%E6%8A%A2%E5%88%B0%E4%BA%86%E6%9C%80%E5%90%8E%E4%B8%80%E5%8F%B0%E4%B8%AD%E5%9B%BD%E7%A9%BA%E8%B0%83",
+      "published": "Mon, 29 Jun 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Denis",
+        "PortaSplit",
+        "agent",
+        "F-Gas",
+        "https"
+      ],
+      "summary": "作者 | 明日产品的 来源 | APPSO（ID：appsolution） 中国空调，在欧洲被抢疯了。 最离谱的是，一台空调硬是被抢出了演唱会门票和限量球鞋发售时的阵仗：海外网友蹲库存，跨境找货，还有人把 AI Agent 都派上了用场。 毫不夸张地说，这是 AI 最有力的一集。 为了买到一台美的移动式空调 PortaSplit，奥地利人 Denis Yurchak 折腾了整整两天：开车横穿 200 公里，多方周转， 甚至让 3 个 AI agent 全天候盯着库存。 最后，他抢到了一台奥地利仅剩的同款空调 。 看…",
+      "key_points": [
+        "为了买到一台美的移动式空调 PortaSplit，奥地利人 Denis Yurchak 折腾了整整两天：开车横穿 200 公里，多方周转， 甚至让 3 个 AI…",
+        "他买了杯咖啡，开车 200 公里去取空调。到店发现，价格涨了 100 欧，从 749 欧涨到 849 欧。Denis 决定硬刚，要求见经理，最后店家同意按预订价…",
+        "他抢到了一台奥地利仅剩的同款空调"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "结束长达25年运营，这款童年游戏也要“寿终正寝”了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BB%93%E6%9D%9F%E9%95%BF%E8%BE%BE25%E5%B9%B4%E8%BF%90%E8%90%A5%EF%BC%8C%E8%BF%99%E6%AC%BE%E7%AB%A5%E5%B9%B4%E6%B8%B8%E6%88%8F%E4%B9%9F%E8%A6%81%E2%80%9C%E5%AF%BF%E7%BB%88%E6%AD%A3%E5%AF%9D%E2%80%9D%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Mon, 29 Jun 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "QQ",
+        "NEXON",
+        "IP",
+        "Vista",
+        "Windows",
+        "CS"
+      ],
+      "summary": "在手游盛行，端游内卷的今天，那些童年时代的网游靠情怀能走多远？ 文：陈长卿 出品：Vista天下次元 运营：孙玥 所有玩过《泡泡堂》的玩家在提到这款游戏时，脑海中浮现的或许都是同样的画面： 在地图里放下一个水泡把对手锁在死角，然后立马跑走，等待水泡炸弹把对手“炸死”。 这就是《泡泡堂》最基础也最经典的玩法。 2001年，韩国游戏公司NEXON开发了休闲网络游戏《泡泡堂》，2002年由盛趣游戏（前身为盛大游戏）引进中国大陆并于2003年正式上线，迅速在全国各地掀起一股“泡泡旋风”，成为风靡80后、90后、00后三代人…",
+      "key_points": [
+        "NEXON宣布《泡泡堂》韩服将于8月13日正式停服，结束长达25年的运营并已于6月11日结束游戏内付费物品售卖，同步开启退款",
+        "韩国游戏公司NEXON开发了休闲网络游戏《泡泡堂》，2002年由盛趣游戏（前身为盛大游戏）引进中国大陆并于2003年正式上线，迅速在全国各地掀起一股“泡泡旋风”…",
+        "文：陈长卿 出品：Vista天下次元 运营：孙玥 所有玩过《泡泡堂》的玩家在提到这款游戏时，脑海中浮现的或许都是同样的画面： 在地图里放下一个水泡把对手锁在死角…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "美的分体空调在欧洲遭哄抢；智元机器人8台人形机器人工厂连轴6天直播 ；四川宜宾市高县发生5.5级浅层地震",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BE%8E%E7%9A%84%E5%88%86%E4%BD%93%E7%A9%BA%E8%B0%83%E5%9C%A8%E6%AC%A7%E6%B4%B2%E9%81%AD%E5%93%84%E6%8A%A2%EF%BC%9B%E6%99%BA%E5%85%83%E6%9C%BA%E5%99%A8%E4%BA%BA8%E5%8F%B0%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B7%A5%E5%8E%82%E8%BF%9E%E8%BD%B46%E5%A4%A9%E7%9B%B4%E6%92%AD++%EF%BC%9B%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%B8%82%E9%AB%98%E5%8E%BF%E5%8F%91%E7%94%9F5.5%E7%BA%A7%E6%B5%85%E5%B1%82%E5%9C%B0%E9%9C%87",
+      "published": "Mon, 29 Jun 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "OpenAI",
+        "Nature",
+        "PortaSplit",
+        "AI"
+      ],
+      "summary": "今天是6月29日，星期一。1964年的今天, 中国自主研制的“东风二号”导弹在酒泉发射成功，准确命中1000公里外目标。这是中国导弹从仿制走向自主设计的转折点。 重点新闻速览 1. 美的分体空调在欧洲遭哄抢 2.Anthropic指控阿里蒸馏Claude 3. 智元机器人8台人形机器人工厂连轴6天直播 4.四川宜宾市高县发生5.5级浅层地震 科技 保时捷放弃独立路线重返大众体系 近日，保时捷股东大会上，CEO迈克尔·莱特斯发布\"2035战略\"，放弃2022年IPO时承诺的独立路线，全面退回大众集团体系。自研电池子公…",
+      "key_points": [
+        "高温超导中心螺管线圈也完成满工况参数测试，线圈稳定载流60千安，核心性能达国际领先水平。两套超导磁体从特种不锈钢、绝缘材料到超导材料全部实现100%国产化。（新…",
+        "美的分体空调在欧洲遭哄抢 2.Anthropic指控阿里蒸馏Claude 3",
+        "OpenAI、Google等均以此训练自家小模型。争议焦点在于通过匿名代理绕过服务条款系统性提取竞品能力是否构成侵权。今年2月Anthropic已指控DeepS…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《2001》为何令人困惑？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A2001%E3%80%8B%E4%B8%BA%E4%BD%95%E4%BB%A4%E4%BA%BA%E5%9B%B0%E6%83%91%EF%BC%9F",
+      "published": "Mon, 29 Jun 2026 20:31:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hal",
+        "Ebert",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "qq.com"
+      ],
+      "summary": "作者：Roger Ebert 译者：陈思航 校对：Issac 来源：rogerebert.com 好的寓言会阐释自身。当你读完《圣经》中关于拉扎勒斯的故事时，你不需要向任何人寻求答案。我相信，斯坦利·库布里克的《2001：太空漫游》也是如此。那么，为什么这部电影还是让这么多观众感到愤怒、困惑呢？ 《2001：太空漫游》 上周我又去看了一次这部影片，我被许多人的喃喃声所包围，一些窃窃私语的人，试图弄清楚究竟发生了什么事，而其他人只是在消磨时间。我猜他们可能是在列出购物计划吧。在电影结束后，有人建议米高梅应该在允许人们…",
+      "key_points": [
+        "Roger Ebert 译者：陈思航 校对：Issac 来源：rogerebert.com 好的寓言会阐释自身。当你读完《圣经》中关于拉扎勒斯的故事时，你不需要…",
+        "比如让一些来自火星的小绿人将它放到合适的位置，那会不会更令人满意呢？一切都需要解释吗？有些人是这么认为的。我想知道他们如何能够忍受「看星星」这种活动。然而，更令…",
+        "不是每个太空探险家都会死在床上的。那么，卧室又是从哪里来的呢？我的直觉是，这出自库布里克的想象，他知道，熟悉的卧室可以成为最陌生、最令人费解，也最令人不安的结局…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "超英电影又又又废了一部？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%B6%85%E8%8B%B1%E7%94%B5%E5%BD%B1%E5%8F%88%E5%8F%88%E5%8F%88%E5%BA%9F%E4%BA%86%E4%B8%80%E9%83%A8%EF%BC%9F",
+      "published": "Mon, 29 Jun 2026 20:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kara",
+        "Krem",
+        "Ruthye",
+        "DCU",
+        "Gunn",
+        "King"
+      ],
+      "summary": "文 robo 《超级少女》失败了，这个结论不算提前宣布了吧？ 看票房，看评价， 已经很明显。 《超级少女》（2026） 这部 电影改编 的是 Tom King 和 Bilquis Evely 创作 的 经典 漫画《明日之女》， 内容是 讲超人 有一个 堂姐 Kara ，本来 在一颗红太阳行星上酗酒度日，遇到父亲被太空海盗 Krem杀害的少女Ruthye。Ruthye 请 她协助复仇， Kara起初拒绝，但Krem 也 毒伤了她的狗，她 终于就 踏上 了 追杀 Krem 之路。 一路上 Kara反复劝导Ruthye要…",
+      "key_points": [
+        "10月的《泥面人》是一部4000万美元预算的身体恐怖片，题材和调性都跟传统超英电影截然不同",
+        "《玩具总动员 5》(2026) 这个选择的问题不在于 Supergirl本身不配拥有自己的电影，而在于时机。2025年的《超人》全球票房6.18亿美元，相比同类…",
+        "Craig Gillespie 是一个还不错的导演，之前的 代表作是《我，花样女王》，他 特别 擅长处理边缘人物的故事，叙事风格偏向灵活、即兴、有质感的现实主义…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国蚊子最少的地方，避蚊天堂！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%9A%8A%E5%AD%90%E6%9C%80%E5%B0%91%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%8C%E9%81%BF%E8%9A%8A%E5%A4%A9%E5%A0%82%EF%BC%81",
+      "published": "Mon, 29 Jun 2026 17:52:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "buff",
+        "Carol",
+        "GS"
+      ],
+      "summary": "今年的蚊子，比往年来得更猖狂： 3月底， 全国各地的人们就已经被咬出了 2026年的一个蚊子包。 话题 #今年蚊子可能迎来史诗级加强 随之登上热搜， 点燃了人们对于蚊子那种 刺挠、缠绵的复杂“情愫”。 而伴随着盛夏的到来， 蚊子的肆虐又毁掉了多少人的美觉！ 这世界这么大， 真的就没有一片 “无蚊净土” 吗？ 今年，蚊子真的会“史诗级加强”吗？ 温馨提示 ：本文讲到的地方都是蚊子密度低或者活动时间短的，但并不代表就完全没有蚊子，毕竟小小的蚊子生命力可太顽强了！ 西北地区 蚊子来了只得晒成“蚊子干” 知己知彼，百战不殆…",
+      "key_points": [
+        "对水更有着“偏执的爱”：降雨较多、空气潮湿的环境，是蚊子最舒适的“产房”（尤其是雨后的大片积水）。因此， 要避蚊，就要去到干燥的地方 ，那么答案就显而易见了——…",
+        "山河锦绣 更多精彩视频在这里 本文创作团队 编辑：Carol 设计：巍巍 图片：视觉中国、图虫 话题 你还知道哪些蚊子少的地方",
+        "我们的地理版图上还藏着另一类神奇的存在：它们偏偏待在蚊子本该猖獗的地盘上，却凭着各自的“独门绝技”，成为了反常识的“避蚊孤岛”"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "花看半开",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%8A%B1%E7%9C%8B%E5%8D%8A%E5%BC%80",
+      "published": "Mon, 29 Jun 2026 21:04:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CP"
+      ],
+      "summary": "花看半开，酒饮微醺。这是明代《菜根谭》里的句子。宋人也写过类似的诗句：美酒饮教微醉后，好花看到半开时。我有另外一种理解。话说京东在外卖领域勇敢地发了一弹弓，然后美团和淘宝闪购挺身而出，相互用加特林疯狂问候，于是京东就在两位大佬的金属暴雨下睡得像个婴儿，这件事情想必大家都已经知道了。在这个老大老二动手，内力震死老三的事件里，我的个人收获是闪购。我从原来的单一美团用户，变成了美团、闪购双开玩家，并且因此开始使用盒马超市。附带说一句：为了确保两家继续打下去，每日红包和优惠券别停，我现在严格两头下注，轮流向双方提供军援，绝…",
+      "key_points": [
+        "酒饮微醺。这是明代《菜根谭》里的句子。宋人也写过类似的诗句：美酒饮教微醉后，好花看到半开时。我有另外一种理解。话说京东在外卖领域勇敢地发了一弹弓，然后美团和淘宝…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“共同一作”“共同通讯”已成标配：中国生物医学论文署名背后的评价困境",
+      "title_zh": "“共同一作”“共同通讯”泛化，折射出生物医学评价体系的结构性问题",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E5%85%B1%E5%90%8C%E4%B8%80%E4%BD%9C%E2%80%9D%E2%80%9C%E5%85%B1%E5%90%8C%E9%80%9A%E8%AE%AF%E2%80%9D%E5%B7%B2%E6%88%90%E6%A0%87%E9%85%8D%EF%BC%9A%E4%B8%AD%E5%9B%BD%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E8%AE%BA%E6%96%87%E7%BD%B2%E5%90%8D%E8%83%8C%E5%90%8E%E7%9A%84%E8%AF%84%E4%BB%B7%E5%9B%B0%E5%A2%83",
+      "published": "Mon, 29 Jun 2026 08:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "of",
+        "ECA",
+        "A.",
+        "in",
+        "Bornmann"
+      ],
+      "summary": "这篇调查有一手数据支撑，不只是抱怨署名乱，而是把问题落到了评价机制上：当论文、职称和资源分配高度绑定，合作署名就会从学术协作工具变成博弈工具。它的价值在于把一个学术圈内部细节，转化成更普遍的制度观察：指标一旦异化，形式会先于内容膨胀。",
+      "key_points": [
+        "撰文｜ 张立伟（山东大学）王珏（新加坡南洋理工大学） ‍ ● ● ● 01 为何做这一研究 一个被忽视的署名现象 “大科学”时代，合作研究与多中心研究日益增多，…",
+        "6.29 ‍‍‍‍‍‍‍‍ 知识分子 The Intellectual 图源：AI生成 我们对生命科学领域学术论文作者署名情况的调查发现，2024年中国生命科学…",
+        "图1 主要国家共同第一作者署名文章占比（左）与共同通讯作者署名文章占比（右） 图2 主要国家ECA文章占比（左）与共同第一且共同通讯署名文章占比（右） 图3 主…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "总怀疑自己不够爱，是不是一种焦虑？| 每日心理学英文",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%80%BB%E6%80%80%E7%96%91%E8%87%AA%E5%B7%B1%E4%B8%8D%E5%A4%9F%E7%88%B1%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B8%80%E7%A7%8D%E7%84%A6%E8%99%91%EF%BC%9F%7C+%E6%AF%8F%E6%97%A5%E5%BF%83%E7%90%86%E5%AD%A6%E8%8B%B1%E6%96%87",
+      "published": "Sun, 28 Jun 2026 09:33:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "you",
+        "of",
+        "or",
+        "can",
+        "in"
+      ],
+      "summary": "有些关系里的痛苦，不是来自争吵。 而是来自脑子里停不下来的问题： “我是真的爱 TA 吗？” “如果我还会被别人吸引，是不是说明这段关系有问题？” “为什么我昨天还确定，今天又开始怀疑？” 你越想确认，越不确定。 你越想找一个最终答案，心里越乱。 今天这篇 Psyche 讲的，就是这种关系里的反复怀疑。 不是每一次怀疑，都值得被当成真相。 原文： How to deal with relationship OCD 作者：Marisa T Mazza 来源：Psyche Guides 主题：relationship…",
+      "key_points": [
+        "而是来自脑子里停不下来的问题： “我是真的爱 TA 吗？” “如果我还会被别人吸引，是不是说明这段关系有问题？” “为什么我昨天还确定，今天又开始怀疑？” 你越…",
+        "VOICE B “也许我可以先不解决这个问题，只回到此刻。” 这不是逃避，而是不给焦虑继续加燃料",
+        "原文： How to deal with relationship OCD 作者：Marisa T Mazza 来源：Psyche Guides 主题：rela…"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "今年的高考静悄悄",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E4%BB%8A%E5%B9%B4%E7%9A%84%E9%AB%98%E8%80%83%E9%9D%99%E6%82%84%E6%82%84",
+      "published": "Mon, 29 Jun 2026 10:53:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "好吧，有点标题党了，静悄悄不至于，但和往年热度比，今年无论是高考过程，还是出分过程，网上的讨论热度其实都是有明显下降的。当然，我注意到小某书上还是有不少账号秀孩子成绩单的，不过仔细一看，80%都是卖教辅课程的，假装是学霸父母，不知道哪里复制过来甚至AI造出来的成绩单，然后讲个所谓的励志故事，各种张冠李戴，各种生搬硬造，然后挂个钩子等其他家长上钩，偷偷私信卖辅导课程的。小某书上盛行的这种欺诈套路，见怪不怪了，不过不是本文主题，不扯了。 昨晚直播再次喜提强行中断掐播，这次溜娃之后真的是讲啥都不对，这次的说法是没有资质不…",
+      "key_points": [
+        "有点标题党了，静悄悄不至于，但和往年热度比，今年无论是高考过程，还是出分过程，网上的讨论热度其实都是有明显下降的。当然，我注意到小某书上还是有不少账号秀孩子成绩…",
+        "是不是人生最重要的选择，是不是这个选择就决定了你的未来，其实一直都不是，以前不是，现在不是，以后也不是。会对人生发展有影响，但人生的路其实很宽阔。而这里更重要的…",
+        "硅谷很多巨头越来越愿意招聘一些优秀的应届毕业的高中生来培养，而不再把本科学历当作必然条件。韩国海力士的招聘要求也取消了学历要求。其实取消学历要求的背后，并不是招…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-06-30",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有什么事是你当了老师之后才知道的?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790770",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "emo"
+      ],
+      "summary": "栾小萌， 嘎嘎粘人，嘎嘎会哭，嘎嘎会敲小作文 查看知乎原文 “奶头乐”是真实存在的，并且在一些“生源异常”学校，往往是控制学生最好手段 先叠个甲，以下我说的这些话，仅仅只发生在“生源异常”的地方学校，不针对全体。 并且你也不用喷我不作为，其实我已经尝试过了，只不过我一个人的努力杯水车薪罢了。 曾经因为：“抓迟到”、“抓睡觉”、“抓他们随意进出教室”、“不给男女过于亲密”、“讲课声音太大”等一系列不良原因，差点被喷到校长室，嚷嚷要求换老师，给我都整抑郁了。 所以，如果你要喷我就喷吧，孩子确实能力不行，你行你上。 这些…",
+      "key_points": [
+        "好像上面大领导不太高兴了，这几天严查抖音课，一经发现，罚两倍课酬 我们这边一节课酬 30，罚两倍，加上原来的取消，直接蒸发 90 块 但不知道是不是一阵子的猫猫…",
+        "学生头目集火老师的，只要你惹她不高兴，她能带动一群人集体阴阳你 我没收过一部手机，因为她上课玩消消乐外放，很吵，她坐在最后一桌，我讲台上都能听得到 我暗示了委婉…",
+        "无论是监控还是偶尔的打个照面，都知道老师会给学生放抖音，只是不明说罢了，就算说，也只是避重就轻地说：“老师带你们看多媒体就乖一点，不要乱吵” 可以说只有抖音课，…"
+      ]
+    }
+  ]
+}
