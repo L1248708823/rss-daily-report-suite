@@ -1,0 +1,663 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T01:00:11.966255+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 89,
+    "fresh_candidates": 60,
+    "backfill_candidates": 29,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-03",
+      "fetched_at": "2026-07-03T01:00:06.646074+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4028.9,
+          "change": -83.55,
+          "change_pct": -2.03,
+          "volume": 656233612.0,
+          "amount": 157718373.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4147.15,
+          "change": 23.539999999999964,
+          "change_pct": 0.57,
+          "prev_close": 4123.61,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-03 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 904.5369685083671,
+          "change": 5.134321217869342,
+          "change_pct": 0.570859028860631,
+          "prev_close": 899.4026472904977,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-03 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8E%BB%E4%BA%86%E8%B6%9F%E8%80%81%E6%AC%A7%E6%B4%B2%EF%BC%8C%E5%90%8E%E6%82%94%E6%B2%A1%E6%8A%8A%E8%BF%99%E4%B8%AA%E5%9B%BD%E4%BA%A7%E2%80%9C%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%E2%80%9D%E5%B8%A6%E8%BF%87%E5%8E%BB......",
+        "title": "去了趟老欧洲，后悔没把这个国产“移动空调”带过去......",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "导购软文，商品卖点与使用场景为主，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%A4%8F%E5%A4%A9%E7%9A%84%E5%90%89%E6%9E%97%E7%8F%B2%E6%98%A5%EF%BC%8C%E5%A4%AA%E5%AE%9D%E8%97%8F%E4%BA%86%EF%BC%81",
+        "title": "夏天的吉林珲春，太宝藏了！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "旅游种草内容，目的地推荐与消费引导为主，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%A0%B8%E5%BF%83%E8%AF%8D%E6%B1%871000%E3%80%8B%E7%AC%AC%E4%B8%80%E7%89%88%EF%BC%8C%E6%95%B4%E7%90%86%E5%A5%BD%E4%BA%86",
+        "title": "《经济学人核心词汇1000》第一版，整理好了",
+        "platform": "一天一篇经济学人",
+        "source": "一天一篇经济学人(双语)",
+        "reason": "资料售卖/早鸟优惠导向明显，价格与转化信息为主，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-03T01:02:02.101998+00:00",
+      "lead_url": "https://tech.meituan.com/2026/06/29/LongCat-VitaBench-2.0.html",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6423793.html",
+        "https://www.woshipm.com/ai/6423461.html",
+        "http://xueqiu.com/5137555016/398046981",
+        "http://xueqiu.com/7271353740/398047434",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9F%83%E8%8F%B2%E5%B0%94%E9%93%81%E5%A1%94%E5%9B%A0%E7%83%AD%E6%B5%AA%E2%80%9C%E9%95%BF%E9%AB%98%E2%80%9D10%E5%8E%98%E7%B1%B3%EF%BC%9B%E7%B4%A2%E5%B0%BC%E5%AE%A3%E5%B8%832028%E5%B9%B4%E5%81%9C%E6%AD%A2%E7%94%9F%E4%BA%A7PlayStation%E5%AE%9E%E4%BD%93%E5%85%89%E7%9B%98%EF%BC%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E9%81%87%E6%9E%81%E7%AB%AF%E9%AB%98%E6%B8%A9%EF%BC%8C%E7%BE%8E%E5%9B%BD%E4%B8%AD%E4%B8%9C%E9%83%A8%E4%BD%93%E6%84%9F%E6%B8%A9%E5%BA%A6%E8%BE%BE45%E2%84%83"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-03",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "手里的白酒怎么办，半导体还能不能追？无论是哪种投资，都应远离受迫交易",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%89%8B%E9%87%8C%E7%9A%84%E7%99%BD%E9%85%92%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%8C%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%BF%98%E8%83%BD%E4%B8%8D%E8%83%BD%E8%BF%BD%EF%BC%9F%E6%97%A0%E8%AE%BA%E6%98%AF%E5%93%AA%E7%A7%8D%E6%8A%95%E8%B5%84%EF%BC%8C%E9%83%BD%E5%BA%94%E8%BF%9C%E7%A6%BB%E5%8F%97%E8%BF%AB%E4%BA%A4%E6%98%93",
+      "published": "Thu, 02 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 田瑀研究笔记 来源：雪球 最近常被问到两个方向的问题：手里的白酒怎么办，以及半导体还能不能追。 两个问题看起来相反，一个想逃，一个想进。但聊得多了，我发现它们背后藏着同一个东西——受迫交易。 不是只有爆仓平仓才叫受迫。因为跌了太久、看手里的标的哪哪都不顺眼，以及看别人涨了太多内心煎熬追了上去，这两种状态本质上都是同一件事——你的交易理由里，过去k线的分量越来越重，当有一天超出你的承受能力之后，受迫交易自然而然地发生了。 受…",
+      "key_points": [
+        "田瑀研究笔记 来源：雪球 最近常被问到两个方向的问题：手里的白酒怎么办，以及半导体还能不能追",
+        "不管是手里的白酒让你夜不能寐，还是场外的半导体让你心痒难耐，先别急着动。问问自己：我受迫了吗",
+        "不是只有爆仓平仓才叫受迫。因为跌了太久、看手里的标的哪哪都不顺眼，以及看别人涨了太多内心煎熬追了上去，这两种状态本质上都是同一件事——你的交易理由里，过去k线的…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于指数和不同板块的一些看法",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1451558862/398039333",
+      "published": "Thu, 02 Jul 2026 09:50:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPO",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今年整体不能算是全面牛市，更准确地说，是一个结构性非常强的震荡市。 牛市有，但牛市只集中在非常有限的几个方向里，比如存储、CPO、半导体、AI硬件这些高景气板块。除此之外，大部分板块其实都在被虹吸，资金像水一样往少数高弹性的地方流，其他地方就只能被动失血。 但如果我们把视角拉回指数，会发现上证指数并没有出现系统性大跌，而是一直维持在一个区间里震荡。这个位置我依然认为，未来继续走慢牛的概率是比较大的。 只是慢牛不代表人人都舒服。 慢牛里如果板块买不对，其实会非常头大。指数看着没怎么跌，但账户可能天天被磨，甚至有一种“…",
+      "key_points": [
+        "这也是为什么我一直强调要预留现金。因为创业板目前确实已经处在比较高的位置，并且有阶段性高点的一些特征。如果市场后面出现极端波动，科技高位回落、低位板块再被错杀，…",
+        "就一定需要有新的板块出来对冲科技股的波动。科技涨到一定阶段后，不可能永远单边虹吸全市场资金。这个时候，低位的大市值板块就该慢慢承担一些稳定指数、承接资金的作用了",
+        "这里只是在走牛市初期最折磨人的那一段：指数不弱，但板块极度分化；高位越来越热，低位越来越冷；看对指数的人，不一定马上赚钱；选错板块的人，甚至会怀疑人生"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "重新思考油运：这可能不是一轮普通的周期",
+      "title_zh": "重新思考油运：这也许不是一次普通周期波动",
+      "url": "http://xueqiu.com/5137555016/398046981",
+      "published": "Thu, 02 Jul 2026 09:50:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "VLCC",
+        "AI",
+        "AIS",
+        "always",
+        "Headline",
+        "http"
+      ],
+      "summary": "作者把油运从传统需求周期故事，重新拆成供给约束、合规运输能力和全球补库存节奏共同驱动的结构性命题。价值在于它不是追热点，而是试图解释为何 AI 之外也可能出现被低估的长期行业变化。",
+      "key_points": [
+        "投资最大的乐趣，不是预测明天涨还是跌。而是在市场还没有形成一致预期的时候，慢慢推翻自己的旧认知，再建立新的认知。也许几年以后回头看，这轮油运只是一次普通的周期。…",
+        "油运是一个需求驱动行业。现在我越来越觉得，它更像一个供给驱动行业。如果未来全球重新进入补库存周期，那么真正稀缺的，很可能不是石油。而是能够安全、稳定、合规运输石…",
+        "是另外一个问题： 市场有没有可能，在关注AI的同时，忽略了另一个正在发生结构性变化的行业？过去一周，我最大的收获，并不是看好油运。而是发现，我最开始研究油运的方…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当科技股狂欢散场，老登股正在为“低回报时代”构筑堡垒",
+      "title_zh": "当高增长退潮，“老登股”为低回报时代提供防守资产",
+      "url": "http://xueqiu.com/7271353740/398047434",
+      "published": "Thu, 02 Jul 2026 09:50:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "gt",
+        "ETF",
+        "GDP",
+        "http",
+        "SH600036"
+      ],
+      "summary": "这篇文章把银行、能源、公用事业等高股息资产放到“低回报时代”的框架里重估，讨论的不只是股息率，而是回购、现金流和估值安全边际的组合。相比泛泛而谈价值投资，它更像是在回答：当成长资产太拥挤时，组合里哪些资产能真正扛波动。",
+      "key_points": [
+        "那些恪守格雷厄姆的安全边际、践行巴菲特的现金流信仰、敢于在邓普顿的极度悲观点出手的投资者，正手握堡垒得分、真实股东回报率和价值陷阱系数这几把量化的镐头，悄然登上…",
+        "正处在被社交圈群嘲的阶段。但背后的推手，是几个慢变量——低生育率、老龄化、宏观杠杆率高企。这些力量正合力把我们大概率拽入一个全社会资本回报中枢下移的“低回报时代…",
+        "但老登股的回报远不止于股息。我们常常忽略它们持续回购注销带来的价值。为此，可以引入一个更完整的指标： 真实股东回报率 = 股息率 + 净回购收益率 （净回购收益…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "数据复盘：牛市一年半，你赚到了吗？（07.02）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9391624441/397998718",
+      "published": "Thu, 02 Jul 2026 09:50:32 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "A500",
+        "A500+",
+        "http",
+        "SH510300",
+        "SH588000"
+      ],
+      "summary": "转眼便过半年，上半年的风云跌宕，已经成为过去，我们迎来了2026的下半年。 在这个两极分化到极端的行情走势下，我们有必要回顾一下，不同阶段各大指数的涨跌幅，从而更加直观的理解市场的割裂。 本文统计了2024年9月24日反转、2025年4月7日低点以及2026年年初至今，三个阶段主要指数的涨跌幅，这些数据反映了各大指数的实际现状，在一定程度上能协助大家在后续的策略推进中有的放矢。 如果是上一轮坚持到现在的朋友，想必对2024年9月底的这次反转，有着非常深刻的印象。尤其2024年国庆回来之后大盘涨停再回落，可能让诸多朋…",
+      "key_points": [
+        "3、2026.01.01至今 到了26年年初，实际上牛市已经运行1年，市场整体估值慢慢抬升，尤其科技类的估值逐步进入历史高位，市场波动开始加大",
+        "本文统计了2024年9月24日反转、2025年4月7日低点以及2026年年初至今，三个阶段主要指数的涨跌幅，这些数据反映了各大指数的实际现状，在一定程度上能协助…",
+        "2、2025.04.07至今 2025年4月，外部环境发生一些冲击，情绪快速回落，市场短期波动加大。不过，后续主要宽基、风格指数均实现正收益，市场整体仍然保持牛…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Skill 实战指南 3 种方法，把你的经验变成 AI 工作流",
+      "title_zh": "把经验沉淀成 Skill：三种把 AI 用法工程化的路径",
+      "url": "https://www.woshipm.com/ai/6423461.html",
+      "published": "Thu, 02 Jul 2026 09:36:59 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Skill",
+        "AI",
+        "skills",
+        "Agent",
+        "Codex",
+        "github.com"
+      ],
+      "summary": "文章核心不是再教一遍提示词，而是讨论怎样把重复工作的判断标准固化成可复用 Skill。它给出从结果反推、从工作流提炼、从说明书工程化三条路径，适合已经开始把 AI 纳入日常生产流程、但还停留在“每次重说一遍需求”的团队。",
+      "key_points": [
+        "AI时代的核心竞争力正在从临时提示词转向可复用的Skill体系。本文深度解析三种构建Skill的实用方法：从结果反推、记录工作流优化、说明书工程化，并附赠通用模…",
+        "Skill 更像一套可复用 SOP。它能把你的经验、判断标准和交付格式固定下来，让 AI 每次都按同一套流程执行",
+        "Skill 沉淀长期流程。把你的经验、判断标准和交付格式固定下来，AI 才能稳定复用"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "山寨货的隐秘生意：用户上当、商户踩坑，当充电宝充满的是套路",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6423916.html",
+      "published": "Thu, 02 Jul 2026 09:11:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CC0",
+        "CEO",
+        "IP",
+        "iPhone17",
+        "KTV",
+        "Non-GAAP"
+      ],
+      "summary": "共享充电宝行业的'山寨陷阱'正在吞噬消费者信任。豹力充、智葱快充等品牌通过外观仿冒、卡槽通用等策略截流头部品牌，制造大量'还错充电宝'纠纷。本文揭露这场由产业资本运作驱动的灰色生意，以及头部品牌从直营转向代理模式后带来的市场失控。 当人们以为充电宝越来越贵已经是老生常谈，“还错充电宝”又成为让消费者头疼的新问题。 在社交媒体上，不少网友分享了自己“还错充电宝”的经历。其中不少人因为将外形相似的山寨品牌机柜错认成某品牌机柜，结果导致设备被锁，并且后台仍在持续计费。有动手能力强的网友借助工具，成功将充电宝取出，但更多的…",
+      "key_points": [
+        "02 山寨共享充电宝的隐秘生意 据惊蛰研究所观察，共享充电宝的头部品牌烧钱铺点、教育市场，而山寨品牌从一开始就不是正面竞争，而是精准地寄生在头部品牌开拓好的市场…",
+        "这门生意的核心在于针对性地布局线下网点。众所周知，共享充电宝的消费场景根植于线下商户，谁能让商户把机柜摆进店里，谁就有机会被用户扫到。而山寨品牌地推策略的核心，…",
+        "恐怕很难只用“用户疏忽”来解释。事实上，“还错充电宝”的背后是一条隐秘的山寨生态：一批名不见经传的小品牌，不靠广告和品牌建设获取用户，而是通过外观趋同、卡槽通用…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "7.5万字大作文，干掉了钉钉CEO",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6423860.html",
+      "published": "Thu, 02 Jul 2026 08:01:24 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CEO",
+        "logo",
+        "to",
+        "IC",
+        "Lark"
+      ],
+      "summary": "钉钉的崛起与争议折射出中国职场管理的深层逻辑。这款以『已读未读』『钉一下』等管控功能闻名的办公软件，既是小微企业管理的数字化身，也成为了打工人集体情绪的宣泄口。本文通过创始人无招的铁腕管理史，揭示钉钉如何从阿里弃子成长为国民级产品，又在飞书冲击下陷入战略迷茫，最终完成从管理工具到职场文化符号的蜕变。 最近钉钉的瓜，可能是国内互联网最好吃的了。 前两个月，钉钉的一位产品经理在阿里巴巴内网，发布了离职长文《置身钉内》。 7.5万字的煌煌巨著，揭秘了钉钉内部严苛到堪称残酷的团队文化，无招暴君式的管理和强度爆表的加班文化。…",
+      "key_points": [
+        "听者有心，他把这件事记了下来，变成了了钉钉最核心的三大设计： 已读未读（无论是一对一，还是一对多的群消息，消息发出者都能知道发出的消息对方是否阅读，哪些人已阅，…",
+        "说是钉钉把总部顶上的logo从蓝色的雨燕标，换成了钉三多扛着金箍棒，虽然指的是悟空平台，但有传言说，是无招觉得对面飞书大楼的logo比钉钉的高，压了钉钉一头，所…",
+        "揭秘了钉钉内部严苛到堪称残酷的团队文化，无招暴君式的管理和强度爆表的加班文化"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从 88VIP、京东 PLUS 到山姆：会员体系到底在卖什么？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6423348.html",
+      "published": "Thu, 02 Jul 2026 07:49:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PLUS",
+        "Prime",
+        "VIP",
+        "Amazon",
+        "ROI"
+      ],
+      "summary": "会员体系的设计远不止是权益清单的堆砌。当用户面对满屏的优惠券、折扣和联名权益时，真正促使他们付费的并非数量，而是对长期价值的确定性判断。本文深入剖析会员经济的本质，揭示为何简单的'省钱'逻辑难以维系用户忠诚，以及如何通过建立双向承诺打造真正可持续的会员关系。 很多产品做会员，第一反应是做一张权益清单。 给几张券，加一点折扣，送一点积分，再放几个专属标识。 如果权益还不够，就继续找合作方，加视频会员、出行权益、生活服务、品牌优惠。 最后会员页看起来很丰富，用户却不一定愿意买。 为什么？ 因为用户买会员，买的不是“权益…",
+      "key_points": [
+        "所以可以关注： 开通前后消费频次变化 开通前后客单价变化 开通前后内容消费变化 开通前后高级功能使用变化 相似用户对照组差异 不同权益使用后的行为变化 会员带来…",
+        "会员体系看起来是在卖权益",
+        "山姆解决的是商品差异化和购买确定性； Amazon Prime 解决的是高频履约体验和生态绑定； 88VIP 解决的是跨场景权益组合； 京东 PLUS 解决的是…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "教育AI技术栈的解构与重构：从大模型到智能体的产业实践",
+      "title_zh": "教育 AI 技术栈重构：胜负不在模型参数，而在全栈闭环",
+      "url": "https://www.woshipm.com/ai/6423793.html",
+      "published": "Thu, 02 Jul 2026 07:44:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Learn",
+        "OneNote",
+        "Study",
+        "T6"
+      ],
+      "summary": "这篇文章把教育 AI 的竞争焦点从“大模型谁更强”转回到工程闭环：数据管线、教学知识库、诊断反馈和交互设计必须一起打通。亮点在于它把爱学、微软 Study and Learn Agent、企鹅教师助手等案例放进同一框架里比较，适合想看垂类 Agent 如何真正落地的人。",
+      "key_points": [
+        "都有各自的选型逻辑。基础模型层决定了你的天花板——通用大模型知识面广但专业深度不足，垂类模型精准但泛化能力受限。硬件层决定你的推理成本和响应速度，这直接关系到产…",
+        "这是一步妙棋。教育大模型最常被诟病的就是”懂技术不懂教学”，根源在于训练数据和实际教学场景的脱节。企鹅教师助手的数据管线，相当于在技术团队和一线教师之间架了一座…",
+        "教育行业涌入的大模型不下二十个，能跑通产品闭环的屈指可数。原因不复杂——大家都在卷参数量、卷benchmark，却很少有人认真想过：从”模型能答题”到”产品能教…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "游客建议给河南宋陵露天石像加玻璃罩，文物局局长称「站了千年，为啥非要加东西」，加了坏得更快，是这样吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790820",
+      "published": "Wed, 01 Jul 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "我是妖怪， 左岸 查看知乎原文 参考沧州铁狮子，铸于后周广顺三年（953 年），年代早于宋陵露天石像。历经千年风吹雨淋安然伫立，反倒在多轮人工保护性修缮后受损致残，终于瘸了，再也无法独自站立，如今常年依靠钢架支撑。 1953 年，未经人为改造、原生露天的铁狮子： 历经多轮保护修缮后的铁狮子，需钢架辅助站着（改造自 1956 年起）： 铁狮子铸造于后周广顺三年（953 年），中空铸铁构件，重量有 32 吨、40 吨两种考据数据。千年露天存放，1803 年被狂风刮倒，1893 年重新扶正就位；仅有下颌、尾部小幅自然残损…",
+      "key_points": [
+        "左岸 参考沧州铁狮子，铸于后周广顺三年（953 年），年代早于宋陵露天石像。历经千年风吹雨淋安然伫立，反倒在多轮人工保护性修缮后受损致残，终于瘸了，再也无法独自…",
+        "未经人为改造、原生露天的铁狮子： 历经多轮保护修缮后的铁狮子，需钢架辅助站着（改造自 1956 年起）： 铁狮子铸造于后周广顺三年（953 年），中空铸铁构件，…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "奶茶界白月光，滤镜碎了，总部只有2个员工？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A5%B6%E8%8C%B6%E7%95%8C%E7%99%BD%E6%9C%88%E5%85%89%EF%BC%8C%E6%BB%A4%E9%95%9C%E7%A2%8E%E4%BA%86%EF%BC%8C%E6%80%BB%E9%83%A8%E5%8F%AA%E6%9C%892%E4%B8%AA%E5%91%98%E5%B7%A5%EF%BC%9F",
+      "published": "Thu, 02 Jul 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ERP",
+        "GMV",
+        "http",
+        "ID",
+        "nfc-yancaijing"
+      ],
+      "summary": "作者：张皓雯 李含章 编辑：江江 视觉：诺言 “立即停业，启动解约。” “规模越大，责任越重。” 部分门店食品操作台面摆放已燃尽的蚊香残渣，操作台下方堆放大量拆封未使用的蚊香 1点点又因为食品安全问题道歉了。 效期标签被随意更改、过期原料继续使用、茶叶无厂无日期、员工徒手操作等，1点点在今年6月底因食品安全的爆雷，而令舆论一片哗然，伤透了无数曾直呼“点门永存”的死忠粉丝，在他们眼里，1点点甚至是“奶茶界的白月光”。 1点点发布关于食品安全问题的致歉与整改声明 对一个超5000家、加盟店占多数的老牌茶饮品牌来说，这更…",
+      "key_points": [
+        "效期标签被随意更改、过期原料继续使用、茶叶无厂无日期、员工徒手操作等，1点点在今年6月底因食品安全的爆雷，而令舆论一片哗然，伤透了无数曾直呼“点门永存”的死忠粉…",
+        "现制茶饮的问题更多发生在门店端丨AI制图（诺言） 但对品牌来说，局部问题反复出现，同样会累积成信任问题。消费者不会区分这是总部的问题、加盟商的问题，还是某个员工…",
+        "前加盟商王宇的感受也印证了这一点。他告诉盐财经，总部“不愿意听加盟商的意见”。他们作为加盟商曾提出做直播、搞联名等方式扩大营销，但总部并未采纳。在他看来，1点点…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "晚上在小区里见到一直亮着红光的房子，要不要举报啊？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%99%9A%E4%B8%8A%E5%9C%A8%E5%B0%8F%E5%8C%BA%E9%87%8C%E8%A7%81%E5%88%B0%E4%B8%80%E7%9B%B4%E4%BA%AE%E7%9D%80%E7%BA%A2%E5%85%89%E7%9A%84%E6%88%BF%E5%AD%90%EF%BC%8C%E8%A6%81%E4%B8%8D%E8%A6%81%E4%B8%BE%E6%8A%A5%E5%95%8A%EF%BC%9F",
+      "published": "Thu, 02 Jul 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EJHANBAOD",
+        "http",
+        "v5gZyw6htV",
+        "www.jintiankansha.me"
+      ],
+      "summary": "有那么几年，如果带朋友来到我家楼下，我都会给他们指指看我家阳台，平平无奇的居民楼里亮出诡异的紫红色光芒，我还会讲出那个冷笑话： 我们不是什么特殊场所！只是个养食虫植物的 ……长食虫植物要求不多，但北京的朝北房子的自然光是确定不够的，必须加补光灯。 有很长一段时间，隔街相望的楼上也有一户人家冒出同样的色彩，我感觉我们好像茫茫世界里默契的两个朋友，有一种源自小众爱好的惺惺相惜。（对面楼说：并没有惺惺相惜，我是养多肉的） 我一直不明白，这么好养的食虫植物，怎么会是个小众爱好呢！ 想有一盆这样可爱的植物？快来预约食虫植物专…",
+      "key_points": [
+        "这里就体现了食虫植物的又一个优势，食虫植物的根系都不太发达，加上市售的种类里有的是小株型的种类，就一个冰箱顶面的大小，养十几盆不成问题，琳琅满目错落有致，自成一…",
+        "如果带朋友来到我家楼下，我都会给他们指指看我家阳台，平平无奇的居民楼里亮出诡异的紫红色光芒，我还会讲出那个冷笑话： 我们不是什么特殊场所！只是个养食虫植物的 ……",
+        "隔街相望的楼上也有一户人家冒出同样的色彩，我感觉我们好像茫茫世界里默契的两个朋友，有一种源自小众爱好的惺惺相惜。（对面楼说：并没有惺惺相惜，我是养多肉的） 我一…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "埃菲尔铁塔因热浪“长高”10厘米；索尼宣布2028年停止生产PlayStation实体光盘；世界杯遭遇极端高温，美国中东部体感温度达45℃",
+      "title_zh": "果壳科技速览：AI 算力、实体光盘退场与极端高温并行",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9F%83%E8%8F%B2%E5%B0%94%E9%93%81%E5%A1%94%E5%9B%A0%E7%83%AD%E6%B5%AA%E2%80%9C%E9%95%BF%E9%AB%98%E2%80%9D10%E5%8E%98%E7%B1%B3%EF%BC%9B%E7%B4%A2%E5%B0%BC%E5%AE%A3%E5%B8%832028%E5%B9%B4%E5%81%9C%E6%AD%A2%E7%94%9F%E4%BA%A7PlayStation%E5%AE%9E%E4%BD%93%E5%85%89%E7%9B%98%EF%BC%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E9%81%AD%E9%81%87%E6%9E%81%E7%AB%AF%E9%AB%98%E6%B8%A9%EF%BC%8C%E7%BE%8E%E5%9B%BD%E4%B8%AD%E4%B8%9C%E9%83%A8%E4%BD%93%E6%84%9F%E6%B8%A9%E5%BA%A6%E8%BE%BE45%E2%84%83",
+      "published": "Thu, 02 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "PlayStation",
+        "Atlas",
+        "ULA",
+        "Amazon"
+      ],
+      "summary": "这期合集覆盖三条同时升温的主线：Meta 把千亿美元级 GPU 资产推向 AI 云服务，索尼给 PlayStation 实体光盘生产排出明确退场时间表，极端高温继续改写大型赛事与城市基础设施承压方式。适合想在一条里快速补齐科技产业和气候信号的人。",
+      "key_points": [
+        "优必选发布消费级人形机器人U1系列，现场意向订单突破1.3万台，标志着消费级人形机器人正式进入规模化普及阶段。智谱GLM-5.2公开演示工业具身能力，可自主操控…",
+        "GB200等最新高端芯片全部自留用于内部研发。2026年Meta全年资本开支区间高达1250亿至1450亿美元。受消息提振，Meta股价当日收涨近9%，Core…",
+        "索尼宣布2028年停止生产PlayStation实体光盘 3.6月新势力车企销量出炉：零跑9.3万辆断层领跑 4"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "法国文化里，一直有这种东西",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B3%95%E5%9B%BD%E6%96%87%E5%8C%96%E9%87%8C%EF%BC%8C%E4%B8%80%E7%9B%B4%E6%9C%89%E8%BF%99%E7%A7%8D%E4%B8%9C%E8%A5%BF",
+      "published": "Thu, 02 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CNC",
+        "de",
+        "jeu",
+        "meneur",
+        "Avance",
+        "bien"
+      ],
+      "summary": "文 kakaka 进入淘汰赛后，法国队的强，更加肉眼可见了。 从这出发，随便联想一些法国文化。 法国人的一个根深蒂固的习惯，是把自己做成功的事情 ， 上升 到某种 关于文明的 高度 。 比如 一瓶酒 ， 不只是 拿来喝的，不仅是佐餐， 它是 独特风 土 人情 的表达。 比如 一部电影不只是娱乐，它 代表艺术家一生全部 思想 的凝结 。 这种将具体实践向形而上层面推送的倾向，有时候是一种真实的洞察力，有时候又是一种精致的自我感动，大多数时候两者很难区分。 法国 足球和 法国 电影 ，作为法国文化的某种突出形式 ，就发…",
+      "key_points": [
+        "好的比赛中他可以让整支球队围绕他的节奏运转，差的比赛中他像幽灵一样从 90分钟里消失。法国球迷对此的接受甚至热爱，说明了一些关于法国文化的东西",
+        "而在于它 确实能 持续地产出成果。成果的光芒会遮蔽 某些 更冷峻的事实，产出天才的土壤是什么， 谁 在那片土壤里 ，土壤里除了天才还有什么 ……反正 法国人 会…",
+        "不能用管理罐头贸易的规则来管理文化。这个论点本身不无道理。但它回避了一个更棘手的问题，这套保护机制到底是在保护法国文化的多样性，还是在保护法国文化精英对 「 什…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "戈达尔：我们赢了一仗，但斗争还没结束",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%88%88%E8%BE%BE%E5%B0%94%EF%BC%9A%E6%88%91%E4%BB%AC%E8%B5%A2%E4%BA%86%E4%B8%80%E4%BB%97%EF%BC%8C%E4%BD%86%E6%96%97%E4%BA%89%E8%BF%98%E6%B2%A1%E7%BB%93%E6%9D%9F",
+      "published": "Thu, 02 Jul 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jean",
+        "Andr",
+        "Henri",
+        "Yves",
+        "Christian-Jaque",
+        "Claude"
+      ],
+      "summary": "编者按： 五十多年前… 戈达尔在1959年4月22日发行的法国期刊《艺术》上写下了「新浪潮」的战斗宣言—— 「法国电影已然面目一新」（这也是本文的原标题） 。 其时弗朗索瓦·特吕弗的《四百击》即将代表法国参加戛纳电影节（当时的法国文化部长、新浪潮运动的拥护者安德烈·马尔罗功不可没）。而此前一年身为影评家的特吕弗还曾因在《电影手册》上撰文攻击戛纳电影节而被禁止参加电影节。 弗朗索瓦·特吕弗 作者：让·吕克·戈达尔 翻译：新参者 校对：远树 电影一结束，小放映厅的灯光亮起。片刻沉寂后，法国外交部的菲利普·厄兰格（Phi…",
+      "key_points": [
+        "我们鄙视或敬爱的父母，给我们惊喜或让我们无动于衷的小孩儿——那些真实的人和事，这是不可原谅的。今天，胜利属于我们。是我们的作品要去参加戛纳电影节，向世界展示法国…",
+        "弗朗索瓦·特吕弗 作者：让·吕克·戈达尔 翻译：新参者 校对：远树 电影一结束，小放映厅的灯光亮起。片刻沉寂后，法国外交部的菲利普·厄兰格（Philippe E…",
+        "编者按： 五十多年前… 戈达尔在1959年4月22日发行的法国期刊《艺术》上写下了「新浪潮」的战斗宣言—— 「法国电影已然面目一新」（这也是本文的原标题）"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "这道题两周里我看到了 N次",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%BF%99%E9%81%93%E9%A2%98%E4%B8%A4%E5%91%A8%E9%87%8C%E6%88%91%E7%9C%8B%E5%88%B0%E4%BA%86+N%E6%AC%A1",
+      "published": "Thu, 02 Jul 2026 20:52:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "不是很理解人们为什么能吵成这样，这是小学几何题吧？ 文章原文",
+      "key_points": [
+        "这道题两周里我看到了 N次"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“未来是否985、211毕业不再重要，职业发展全凭本事”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E6%9C%AA%E6%9D%A5%E6%98%AF%E5%90%A6985%E3%80%81211%E6%AF%95%E4%B8%9A%E4%B8%8D%E5%86%8D%E9%87%8D%E8%A6%81%EF%BC%8C%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E5%85%A8%E5%87%AD%E6%9C%AC%E4%BA%8B%E2%80%9D",
+      "published": "Thu, 02 Jul 2026 08:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Intellectual",
+        "Age",
+        "Agency",
+        "AGI",
+        "amp"
+      ],
+      "summary": "知识分子 知识分子 The Intellectual The Intellectual ‍‍‍‍‍‍‍‍ 知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源：AI生成 2026 年 6 月 15 日， 上海大学宝山校区 ， 美国杜克大学社会学系教授高柏 做了一场题为《 科技革命的冲击与文凭逻辑的退场：从悼念张雪峰看教育和劳动秩序的重构 》的讲座。以下为 讲座内容 及问答环节的摘录。 整理｜知识分子 ● ● ● 今天这个主题的缘起，是张雪峰去世后那5公里悼念人群带给我的震动。我开始思考：这一现象背后反…",
+      "key_points": [
+        "遇到一位2019年进厂的学生，短短几年已经被提升为带领40人团队的主管。这说明，只要你有真正的动手能力和技术，进入了具体行业，未来的职业发展全凭本事，你毕业于哪…",
+        "在这里我想讲讲深圳职业技术大学的故事。他们有一个口号：“依托一流企业打造一流专业”。他们与比亚迪、华为、大疆、腾讯等企业合作建立了“产业学院”。教材由校企共同开…",
+        "日本汽车在美国市场的竞争优势迫使美国人关注其主要代表，丰田生产模式。丰田并非自产所有零部件，而是在丰田市打造出400多个独立供应商构成的产业集群，并采用被称为“…"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
+      "title_zh": "LongCat 开源 VitaBench 2.0，补上长期动态智能体评测短板",
+      "url": "https://tech.meituan.com/2026/06/29/LongCat-VitaBench-2.0.html",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "VitaBench",
+        "LongCat"
+      ],
+      "summary": "美团开源 VitaBench 2.0，把智能体评测从一次性问答推进到长期、真实、动态用户互动场景，重点衡量个性化记忆、主动性和连续决策能力。对做 Agent 的团队来说，它提供了更贴近产品现实的基准，能更早暴露“短期聪明、长期失忆”的系统问题。",
+      "key_points": [
+        "VitaBench 2.0 是首个真实生活场景下面向长期动态用户建模的智能体评测基准，它系统性地评测大语言模型在长期、真实、动态的用户互动中个性化与主动性的能力"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "大商场里高奢店几乎没有人去逛，人工水电费成本都赚不回来，为什么不倒闭？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790737",
+      "published": "Fri, 26 Jun 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "S某某， 啊对对对，你说得对。 查看知乎原文 我搞商业地产运管的。 自己有公司，也算大公司呆过。 简单说说。 ———————————————————————————————————— 商业地产，大面儿上可以分几类。 沿街商铺，住宅底商，百货大楼，购物中心（一般我们叫他盒子），社区商业体，综合体，商业园区，专业市场，商办地产，产业园区，文旅地产，养老地产等等。 分类标准比较杂，可以按建筑形态，也可以按物业功能，还可以按运营模式。 题目涉及到的部分，主要说的是店，那就说说常见的几种用来开店的形态。 ——————————…",
+      "key_points": [
+        "在一些品牌入驻时，如果品牌力足够，项目还会给到一种补贴名为装补——即装修补贴，一般计价标准是每平米多少钱——这个钱可多可少，有些是真的补贴你的装修，有着甚至就是…"
+      ]
+    }
+  ]
+}
