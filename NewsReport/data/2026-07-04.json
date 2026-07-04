@@ -1,0 +1,697 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T01:00:14.445589+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 7,
+    "items_collected": 82,
+    "fresh_candidates": 62,
+    "backfill_candidates": 20,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-04",
+      "fetched_at": "2026-07-04T01:00:09.136152+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4043.64,
+          "change": 14.74,
+          "change_pct": 0.37,
+          "volume": 602009738.0,
+          "amount": 146556310.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4174.77,
+          "change": 51.160000000000764,
+          "change_pct": 1.24,
+          "prev_close": 4123.61,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-04 01:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 909.755849341714,
+          "change": 11.148664298230187,
+          "change_pct": 1.2406604892315325,
+          "prev_close": 898.6071850434838,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-04 01:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-04",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "年中复盘：上半年谁在赚钱？下半年该怎么投资？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B9%B4%E4%B8%AD%E5%A4%8D%E7%9B%98%EF%BC%9A%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%B0%81%E5%9C%A8%E8%B5%9A%E9%92%B1%EF%BC%9F%E4%B8%8B%E5%8D%8A%E5%B9%B4%E8%AF%A5%E6%80%8E%E4%B9%88%E6%8A%95%E8%B5%84%EF%BC%9F",
+      "published": "Fri, 03 Jul 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END",
+        "lof"
+      ],
+      "summary": "今年刚过半，各类资产表现如下： 位于榜首的是 科技赛道 ，科技含量高的韩股、A股的创业板指，涨幅遥遥领先。而榜单的另一边，是之前的主线 黄金、白银和恒生科技 。 这篇文章，和大家复盘下上半年的市场，以及后续我的投资思路。 01 今年市场最大的特征是「变化」 首先，风险和叙事在不断变化。 年初是轰轰烈烈的「去美元化」，随后是中东局势，引发市场对石油危机的担忧，最近，AI革命再次点燃市场，虹吸其他板块的资金，“老登”们跌跌不休。 频繁的风险、叙事切换，导致板块轮动非常快，而且波动相当剧烈。 黄金和贵金属 快速冲顶后，大…",
+      "key_points": [
+        "和大家复盘下上半年的市场，以及后续我的投资思路",
+        "03 我的投资思路：以不变应万变 最近，刚好收到一个朋友留言，核心观点是，我现在的持仓方案刚好契合当下的市场环境： 跌的多的“老登”和黄金，要么持仓少，要么相比…",
+        "请投资人独立决策并承担风险。在做出投资决策前，请仔细阅读基金合同等相关法律文件，了解基金的风险收益特征，实际收益以产品投资运作结果为准。市场有风险，投资需谨慎"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【有奖征文】2026上半年投资总结——冰火两重天，分化中寻机",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8152922548/398326989",
+      "published": "Fri, 03 Jul 2026 10:27:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "TfR1lyxxx",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "#2026上半年投资总结# 2026年上半场刚刚落幕，A股用一场极致分化，给所有投资者交出一份“冰与火”的半年卷。 沪指围绕4000点反复拉锯，期间一度冲高至4258点，创下近十年新高。而科技成长方向更是烈火烹油，科创50与创业板指携手走牛，屡屡刷新历史高点，半年涨幅分别高达64%和35%，成为市场上最耀眼的双星。 然而狂欢并非全场的底色，白酒、食品饮料等大消费板块黯然回调，跌幅居前，与科技赛道的炽热形成鲜明对照。“一半海水，一半火焰”，正是这半年市场最真实的注脚。 宽基指数ETF整体规模缩水，另一边是行业、风格因…",
+      "key_points": [
+        "【评选规则】 1.发帖必须带话题 #2026上半年投资总结# 标签； 2.客观评分（40%）：根据文章的阅读、转发、评论、点赞、收藏、打赏等互动数和评论质量综合…",
+        "#2026上半年投资总结# 2026年上半场刚刚落幕，A股用一场极致分化，给所有投资者交出一份“冰与火”的半年卷",
+        "【活动时间】 2026年7月1日–2026年7月19日 【奖项设置】 一等奖2名：打赏现金688元； 二等奖3名：打赏现金488元； 三等奖5名：打赏现金288…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "第六次康波周期启动——2026半年总结",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1508613299/398139420",
+      "published": "Fri, 03 Jul 2026 10:14:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ALL",
+        "DRIVER",
+        "gpu",
+        "TIA",
+        "APD"
+      ],
+      "summary": "第六次康波周期启动——2026半年总结 概况 说明： 文中市值指的是百分数 ，以初始投入资金计为100，例如初始投入资金为5万元，则市值=5/5X100=100。 从07年进入股市到今天已经19年了，是失业在家做股票的第7年。 净市值从25年底的601.51（扣除26年补贴家用后为592.45）到26年6月底的1061.47，盈利79.17%（计算公式=1061.47/592.45-1）。总市值从1108.59上升到1577.61，增长42.31%，同期上证指数上涨3.16%，今年净市值大幅跑赢上证指数76.01%…",
+      "key_points": [
+        "第六次康波周期启动——2026半年总结 概况 说明： 文中市值指的是百分数 ，以初始投入资金计为100，例如初始投入资金为5万元，则市值=5/5X100=100",
+        "幸运的是新能源AI、卫星互联网、智能驾驶高速发展，需要大量的新基建，带来了第六次康波周期回升",
+        "目前的宏观环境 美国主导的信息技术革命带来了第五次康波周期，目前处于第五次康波周期萧条末期，中国的互联网企业进入成熟期，开始互卷。中国城镇化进入末期，叠加人口周…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "供需格局彻底重塑，利基存储迎来量价双击，国产存储迎来跻身全球利基巨头的黄金窗口期",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1623974213/398150900",
+      "published": "Fri, 03 Jul 2026 10:14:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DDR4",
+        "NOR",
+        "IoT",
+        "DRAM",
+        "HBM",
+        "SK"
+      ],
+      "summary": "前段时间苹果全系 Mac、iPad 终端大面积涨价，库克公开将硬件成本暴涨的矛头直指存储厂商，直言存储涨价是数十年难得一见的供应链难题；紧接着美光高管公开正面回击，撕开过往数年苹果下行周期强行压价、压榨存储厂商利润的过往矛盾。 这场上下游巨头公开撕破脸的对峙，表面是终端售价博弈，底层折射出全球存储产业格局的根本性扭转。现如今三星、SK 海力士、美光三大海外存储寡头，集体收紧消费级成熟存储产能投放节奏，DDR4、普通 LPDDR、中小容量 NOR 这类刚需存储持续缩减投产。叠加本次和苹果博弈之后，美光后续主动收缩消费…",
+      "key_points": [
+        "六、全文总结 1、产业趋势不可逆：海外三大原厂主动收缩 D 级成熟存储产能，叠加美光与苹果供应链博弈，后续消费端供给收缩力度只会加剧，未来两年供需紧平衡格局稳固…",
+        "今年全球 DRAM 晶圆整体产能小幅扩容，但增量产能全部集中高端品类，传统通用成熟存储产能增速逐年放缓；加之 HBM 生产耗材、晶圆占用面积远超普通内存，变相持…",
+        "是 价格中枢稳步抬升 + 国产份额实打实放量 双向共振，不单仅有涨价收益；并且海外原厂产线改造具备不可逆属性，即便后续行业资本开支收缩，也很难回头复产消费级存储…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "高股息率策略真的会过时吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1433550277/398338657",
+      "published": "Fri, 03 Jul 2026 10:14:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "~~大湖投资理念分享 近期雪球上有位知名的投资人明确说，高股息率的投资策略已经过时了，当然该投资人这样说还是有底气的，公开产品年化20%~30%，在此背景下，今年上半年老登策略（高股息率政策）可以说是备受煎熬。 比较有意思的是，应该在2022年到2023年，雪球上有一位知名的投资人，他说高调说高股息的策略已经不适用未来市场，但比较遗憾的是他的公开产品，近两三年可以用颗粒无收来形容，不少采取高股息策略的投资人可以赚的盆满钵满。 在此背景下，球上两位知名的投资人在不同的阶段，都是明确否定高股息策略，因为个人是研究高股息…",
+      "key_points": [
+        "球上两位知名的投资人在不同的阶段，都是明确否定高股息策略，因为个人是研究高股息策略的，高股息策略难道真的会过时了吗",
+        "~~大湖投资理念分享 近期雪球上有位知名的投资人明确说，高股息率的投资策略已经过时了，当然该投资人这样说还是有底气的，公开产品年化20%~30%，在此背景下，今…",
+        "在当下的时点，高股息率真的会无效吗"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "中国AI，集体向“钱”看？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6424634.html",
+      "published": "Fri, 03 Jul 2026 10:26:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "Kimi",
+        "API",
+        "App",
+        "Store"
+      ],
+      "summary": "2026年的中国AI行业正迎来一场深刻的商业化转型。从DeepSeek的500亿融资到豆包的三级阶梯定价，再到Kimi的疯狂融资节奏，头部玩家纷纷从技术竞赛转向商业模式验证。这场集体‘向钱看’的转身，不仅揭示了行业从烧钱扩张到精细化运营的必然选择，也暴露出付费习惯培养、算力成本控制等核心难题。本文将深入剖析这场转型背后的资本博弈与商业逻辑。 2026年的夏天，中国AI行业正在经历一场集体转身。 最近，豆包正式发布基于最新豆包2.1系列大模型的豆包专业版，采用三级阶梯定价方案。 而六月中旬，一向宣称“不融资、不上市、…",
+      "key_points": [
+        "2026年的中国AI行业正迎来一场深刻的商业化转型。从DeepSeek的500亿融资到豆包的三级阶梯定价，再到Kimi的疯狂融资节奏，头部玩家纷纷从技术竞赛转向…",
+        "一边付费变现验证商业模式，这场集体 “向钱看” 的转身，既是行业生存必然选择，也暗藏种种转型难题",
+        "中国AI行业正在经历一场集体转身"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "扎男服输，AI大厂开始“分流”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6424507.html",
+      "published": "Fri, 03 Jul 2026 07:36:13 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "Anthropic",
+        "GPU",
+        "SpaceX",
+        "CoreWeave"
+      ],
+      "summary": "Meta的AI战略正在经历微妙转向——当内部AI产品进展不及预期时，扎克伯格选择将过剩算力开放出租，这条马斯克已验证的路径揭示了AI军备竞赛的新阶段：从算力囤积转向资产变现。本文深度剖析Meta与SpaceX的算力租赁逻辑，拆解AI基础设施从战略储备到可交易资产的演变，以及由此引发的云市场格局重构。 扎克伯格刚刚承认，Meta的AI agent进展比预期慢了。 据路透社报道，他在Meta内部全员会上表示，过去4个月，AI agent技术的发展“没有像我们预期的那样加速”，公司年初围绕AI推进的组织重构，也“还没有兑…",
+      "key_points": [
+        "算力市场的新格局就清楚了。谷歌、微软、AWS这样的传统云厂商，继续把AI算力整合进原有的云业务里；Meta、SpaceX这样的非云巨头，开始把内部AI基础设施拿…",
+        "这就是CoreWeave、Nebius股价下跌的原因。对neocloud来说，它们原本扮演的是中间商：从芯片公司和资本市场那里拿资源，再把算力卖给AI公司。如今…",
+        "彭博社称，Meta正在筹备一项云业务，计划出租多余AI算力。这让Meta站到了一个微妙的位置上：它曾是硅谷最激进的算力囤积者之一，且这种算力囤积是为自家激进的A…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Keep的AI突围路：万亿健身赛道，一个线上玩家的生死赌局",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6390680.html",
+      "published": "Fri, 03 Jul 2026 06:28:24 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Keep",
+        "Studio",
+        "APP",
+        "CC0",
+        "Pixabay"
+      ],
+      "summary": "健身行业正经历一场由AI驱动的深度洗牌，从传统的低价办卡模式转向个性化、全场景的科学健身服务。Keep作为线上起家的领军者，正凭借AI教练、数据资产和全场景布局重塑行业规则，但同时也面临流量成本飙升与线下扩张的挑战。本文将深入解析健身市场的三大转折信号、Keep的AI战略布局以及行业未来的四道隐形门槛，揭示AI如何从加分项变为生存必需品。 万亿级的健身市场，有人拼命往前冲，有人已经出局了。 以前开健身房简单租个场地、买点器械、招几个教练，靠办卡低价就能闷声赚钱。 现在呢？消费者从能练就行变成了我要练对、练好、体验进…",
+      "key_points": [
+        "这个线上起家的头部玩家，正站在这场变革的正中央。它是最早吃到AI红利的，也是最焦虑的那个",
+        "健身行业正经历一场由AI驱动的深度洗牌，从传统的低价办卡模式转向个性化、全场景的科学健身服务。Keep作为线上起家的领军者，正凭借AI教练、数据资产和全场景布局…",
+        "2025年中国健身市场规模突破1.2万亿，2027年预计到1.5万亿，45%的消费者每周至少练3次，Z世代成了主力军。乐刻、Keep、一兆韦德、威尔仕这几家，标…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一句话就能改流程很爽，但你敢让它直接上线吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6424447.html",
+      "published": "Fri, 03 Jul 2026 06:28:06 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "VIP",
+        "AI",
+        "CC0",
+        "ObjectOS",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "把 20% 折扣审批改成 15%，超过 30% 再加财务确认。这句话业务人员说出来只要几秒钟。但如果平台直接改完就上线，风险也会在几秒钟内进入生产。这篇聊：为什么自然语言可以降低改流程的门槛，但不能让流程直接上线——中间还差一道叫治理的关。 先说一个你一定熟悉的需求。 业务人员说： 把大额折扣审批阈值从 20% 调到 15%，超过 30% 的还要加财务确认。 这句话说出来只要几秒钟。业务变化本来就很频繁：折扣阈值要调、工单升级规则要变、采购复核条件要加、合同要插一个新的法务节点、报销政策每季度都可能变。 过去，每次…",
+      "key_points": [
+        "超过 30% 再加财务确认。这句话业务人员说出来只要几秒钟。但如果平台直接改完就上线，风险也会在几秒钟内进入生产。这篇聊：为什么自然语言可以降低改流程的门槛，但…",
+        "不能等于直接上线 一个危险的设计是：用户说一句话，系统马上改完并上线。这在演示里很顺，在真实业务里风险很高。因为一句话往往有歧义： 「大客户」是按合同金额、客户…",
+        "二、平台得能告诉你到底改了什么 如果自然语言改流程只是改了一段提示词，问题很快会出现：业务说VIP 客户 1 小时升级，系统把这句话加进提示词里。下一次模型可能…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DSL是什么，为什么在AI时代很重要",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6424184.html",
+      "published": "Fri, 03 Jul 2026 06:12:37 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DSL",
+        "AI",
+        "prompt",
+        "Excel",
+        "JSON",
+        "v0"
+      ],
+      "summary": "AI生成的问题从来不是\"生成不了\"，而是\"生成了但不可控\"。根源在于自然语言作为约束介质的根本缺陷——模糊性。DSL不是新系统，是维度拆解工作的结构化表达，它让分析层的数据洞察能自动注入生成层，飞轮才能真正闭合。 AI生成的问题从来不是“生成不了”，而是“生成了但不可控”。 你告诉AI”写一段有冲突感的开场”，它确实写了一段——但那个冲突是你的冲突还是它理解的冲突？拐点在哪？强度多大？转换速度多快？全是黑箱。你以为你在驾驭AI，实质上你在掷骰子。 这个问题的根源不在于模型能力不够，而在于 你用来约束AI的介质是自然…",
+      "key_points": [
+        "不是核心价值。如果DSL只是让prompt更规范，那它的价值就是一个工程效率工具——省点时间、减少手写错误。这不足以解释为什么DSL在AI时代是重要的",
+        "这就是为什么DSL在AI时代特别重要",
+        "你写”开场要有冲突”。这句话在自然语言里的语义是清楚的——人类听到这句话，会调动大量共享语境来理解：什么类型的冲突？冲突的呈现方式是什么？冲突强度大概在什么量级…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有哪些你从小信到大的生物学“常识”，全TM是错的？！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E5%93%AA%E4%BA%9B%E4%BD%A0%E4%BB%8E%E5%B0%8F%E4%BF%A1%E5%88%B0%E5%A4%A7%E7%9A%84%E7%94%9F%E7%89%A9%E5%AD%A6%E2%80%9C%E5%B8%B8%E8%AF%86%E2%80%9D%EF%BC%8C%E5%85%A8TM%E6%98%AF%E9%94%99%E7%9A%84%EF%BC%9F%EF%BC%81",
+      "published": "Fri, 03 Jul 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "N.",
+        "AI",
+        "BBC",
+        "Fangorn",
+        "Greenan",
+        "griseus"
+      ],
+      "summary": "从小，全国的小朋友都掌握着一些一模一样的 关于动物的常识 。如果哪个小朋友没听说过，可能会被嘲笑。 但事实上！很多出自于课本、童话、以及家长的教育中的动物知识，根本，就是假哒！ 今天我们就来分辨故事和真相。 鳄鱼与牙签鸟 那时候虽然没有AI，但已经有了PS 故事： 鳄鱼与牙签鸟是共生的关系。鳄鱼在进食后，会张开嘴巴让牙签鸟进入自己的口腔。牙签鸟会吃掉鳄鱼塞牙的肉和寄生虫。 真相： 鳄鱼并不需要牙齿清洁 ，它们的牙齿都是定期更换的。另一方面鳄鱼牙缝很大，而且不断有水流冲刷，一般 不会塞牙 。虽然牙上确实会有细菌啥的，…",
+      "key_points": [
+        "griseus ）。｜arkive.org 斑羚在林地里的分布非常稀疏，在泰国Om-Koi野生物避难所这个有效保护的山区里，灰斑羚的密度大致只有每平方公里5头左…",
+        "一般认为最大的嫌疑鸟是 尼罗鸻 （ Egyptian plover ）。但是到现在为止， 并没有这种现象的任何影像记录和现代文献 。如果这真的是一种重要的共生关…",
+        "那些可爱的童话 确实给我带来了非常美好的童年回忆 。我从小对刺猬扎水果的行为深信不疑，也曾被《斑羚飞渡》的故事感动到落泪。正是这些故事的存在，开启了我对自然的兴…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "宇树科技科创板IPO注册生效；苹果下半年将推出16款硬件产品；达摩院AI智能体发现4种全新超导材料",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BFIPO%E6%B3%A8%E5%86%8C%E7%94%9F%E6%95%88%EF%BC%9B%E8%8B%B9%E6%9E%9C%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%B0%86%E6%8E%A8%E5%87%BA16%E6%AC%BE%E7%A1%AC%E4%BB%B6%E4%BA%A7%E5%93%81%EF%BC%9B%E8%BE%BE%E6%91%A9%E9%99%A2AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%8F%91%E7%8E%B04%E7%A7%8D%E5%85%A8%E6%96%B0%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99",
+      "published": "Fri, 03 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "IPO",
+        "Model",
+        "Wi-Fi",
+        "GW",
+        "iPad"
+      ],
+      "summary": "今天是7月3日，星期五。1876年的今天，中国第一条铁路——淞沪铁路正式通车运营，每日往返6次，拉开了中国铁路运输的序幕。 重点新闻速览 1. 宇树科技科创板IPO注册生效 2.苹果下半年将推出16款硬件产品 3. 达摩院AI智能体发现4种全新超导材料 4. 特斯拉Model Y L长轴距版在美上市 5.东航宽体机全球航线Wi-Fi 7月3日起全部免费 科技 宇树科技科创板IPO注册生效，A股“人形机器人第一股”诞生 7月1日，证监会正式批复同意宇树科技首次公开发行股票并在科创板上市的注册申请。从3月20日IPO申…",
+      "key_points": [
+        "宇树科技科创板IPO注册生效 2.苹果下半年将推出16款硬件产品 3",
+        "宇树科技是全球首家在IPO前实现人形机器人规模化盈利的企业，2025年度营收17.08亿元，扣非净利润5.91亿元，人形机器人出货量全球第一。公司最近一次市场化…",
+        "特斯拉Model Y L长轴距版在美上市 5.东航宽体机全球航线Wi-Fi 7月3日起全部免费 科技 宇树科技科创板IPO注册生效，A股“人形机器人第一股”诞生…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "兰州大学一顶刊论文翻车，配图赫然出现【豆包 AI 生成】水印",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E4%B8%80%E9%A1%B6%E5%88%8A%E8%AE%BA%E6%96%87%E7%BF%BB%E8%BD%A6%EF%BC%8C%E9%85%8D%E5%9B%BE%E8%B5%AB%E7%84%B6%E5%87%BA%E7%8E%B0%E3%80%90%E8%B1%86%E5%8C%85+AI+%E7%94%9F%E6%88%90%E3%80%91%E6%B0%B4%E5%8D%B0",
+      "published": "Fri, 03 Jul 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "https",
+        "CC",
+        "Journal",
+        "Membrane",
+        "of"
+      ],
+      "summary": "前段时间，一张科研论文截图在网上流传 —— 凭借多年在互联网吃瓜、深耕科研资讯的敏锐直觉，我立马察觉到了不对劲，这篇发表在权威顶刊的论文，藏着一个很离谱的细节。 兰州大学这篇刊发在一区顶刊 Journal of Membrane Science （膜科学杂志）的学术论文，居然出现了豆包 AI 生成的水印。目前，已有高校导师就此事件专门提醒、告诫自己的学生，严守学术规范。 正式刊惊现 AI 水印， 预印本版本却无痕迹 根据论文原文显示，该论文的 Fig.2 图表右下角，清晰标注着“豆包 AI 生成”的水印痕迹，这也是…",
+      "key_points": [
+        "兰州大学这篇刊发在一区顶刊 Journal of Membrane Science （膜科学杂志）的学术论文，居然出现了豆包 AI 生成的水印。目前，已有高校导…",
+        "预印本版本却无痕迹 根据论文原文显示，该论文的 Fig.2 图表右下角，清晰标注着“豆包 AI 生成”的水印痕迹，这也是本次争议的核心",
+        "该论文的第一署名单位为兰州大学化学化工学院，第一作者兼共同通讯作者为该院杨某某"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "网红又发明了新的作死拍照方法：喂海鸥",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BD%91%E7%BA%A2%E5%8F%88%E5%8F%91%E6%98%8E%E4%BA%86%E6%96%B0%E7%9A%84%E4%BD%9C%E6%AD%BB%E6%8B%8D%E7%85%A7%E6%96%B9%E6%B3%95%EF%BC%9A%E5%96%82%E6%B5%B7%E9%B8%A5",
+      "published": "Fri, 03 Jul 2026 16:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "J.",
+        "in",
+        "of",
+        "A.",
+        "M."
+      ],
+      "summary": "本文授权转载自 答案如下（ID：theanswer163） ，未经授权禁止转载 又到了海边度假的季节。 在大连、青岛、福州等海鸥扎堆的地方，总有人拿着面包举起手机，等着海鸥俯冲过来美美合影，并配文：“勇敢的人先喂海鸥”。 这种想和海鸥亲密接触的冲动不难理解——城市里的人离自然太远，总要找个出口。只不过这个出口，选错了对象，也选错了方式。 照片里岁月静好，照片外鸡飞狗跳。 快门按下的前两秒：面包刚被你拿在手里，头顶四五只海鸥已经盯死你。你的手机还没举稳，一道白影擦着你鼻尖闪过，直接啄上你的手指，连面包带指尖一块儿往里…",
+      "key_points": [
+        "总有人拿着面包举起手机，等着海鸥俯冲过来美美合影，并配文：“勇敢的人先喂海鸥”",
+        "以人类垃圾和渔业废弃物为生的西部鸥，相比吃海洋自然食物的同类，繁殖成功率显著更低，雏鸟存活率更差[18]。吃得越像人类，未必活得越好。还有研究分析了374只城市…",
+        "城市化的海鸥早已靠垃圾堆过得风生水起。地中海的多岛屿调查显示，黄腿银鸥繁殖群规模与最近的开放式垃圾填埋场距离和处理量都显著相关， 离垃圾场越近，可获取的人为食物…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-402.html",
+      "published": "2026-07-03T17:51:54Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 402 期）：我在智念 AI 的日子（小说）"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "足球+电影，曾是西班牙的精密政治游戏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%B6%B3%E7%90%83%2B%E7%94%B5%E5%BD%B1%EF%BC%8C%E6%9B%BE%E6%98%AF%E8%A5%BF%E7%8F%AD%E7%89%99%E7%9A%84%E7%B2%BE%E5%AF%86%E6%94%BF%E6%B2%BB%E6%B8%B8%E6%88%8F",
+      "published": "Fri, 03 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NO-DO",
+        "Ammn",
+        "ases",
+        "botas",
+        "buscan",
+        "CIFESA"
+      ],
+      "summary": "文 Ammn 西班牙足球最辉煌的阶段，除了本世纪国家队勇夺世界杯、两巨头统治欧冠，早在弗朗哥时期的五十年代，已经是一切的起点了。 2010 年世界杯 西班牙队夺冠 但这个起点，不只是光荣。 弗朗哥统治西班牙将近四十年，在这段漫长的时间里，他的政权合法性来源，不是一成不变的。内战胜利赋予的军事正当性在战后十年逐渐褪色，冷战格局下的意识形态站队，也不足以长期支撑民众的情感认同，他的政权始终需要一种持续的、日常化的合法性供给。 弗朗哥 于是弗朗哥政权的宣传体系，在五十年代发明了一个让电影、足球和政治，三者以几乎不可见的方…",
+      "key_points": [
+        "国家体育代表委员会于 1977 年被解散， NO-DO 于 1981 年正式停止生产，但足球电影中建构的那种英雄叙事模式，早已渗入了西班牙大众文化的基底",
+        "西班牙在当时是一个被西欧民主国家孤立的独裁国家，它无法在政治、经济、文化领域赢得欧洲尊重，却可以通过足球获得一种替代性的承认",
+        "他还是西班牙历史上唯一亲自撰写电影剧本的国家元首"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "阿莫多瓦：弗朗哥怕电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%98%BF%E8%8E%AB%E5%A4%9A%E7%93%A6%EF%BC%9A%E5%BC%97%E6%9C%97%E5%93%A5%E6%80%95%E7%94%B5%E5%BD%B1",
+      "published": "Fri, 03 Jul 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "NC-17",
+        "El",
+        "bora",
+        "Cine",
+        "de",
+        "Enmascarado"
+      ],
+      "summary": "作者：佩德罗·阿莫多瓦 译者：易二三 校对：覃天 来源：Film Quarterly （2023年冬季刊） 我没有上过任何电 影学校或课程。当然，我有这个想法，但在我意识到自己想要写剧本和拍电影时，却没有任何地方可以让我学到这门艺术。佛朗哥在60年代末关停了西班牙官方电影学院（Escuela Oficial de Cine）。 我想他之所以这么做，是因为他怀疑电影可以成为记录现实的有力武器。在西班牙就是如此，电影往往以隐晦的方式批判佛朗哥政权，除了最明显的政治指控外，审查委员会不会注意到其他任何内容。关闭学校是为了…",
+      "key_points": [
+        "佩德罗·阿莫多瓦 译者：易二三 校对：覃天 来源：Film Quarterly （2023年冬季刊） 我没有上过任何电 影学校或课程。当然，我有这个想法，但在我…",
+        "当时还没有针对这类超8毫米胶片电影的商业巡回影展。巴塞罗那有一些电影节放映过我的作品，但我的大部分作品都是在摄影学校、美术馆甚至生日派对上放映的。1975年佛朗…",
+        "《维莉蒂安娜》 该政权非但没有助推60年代西班牙新浪潮电影运动的成功，反而让这些电影很难在国内上映。不过，这个话题值得单独写一本书。除了我上面提到的那些电影之外…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国少年营 | 暑假青海站活动报名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%B0%91%E5%B9%B4%E8%90%A5+%7C+%E6%9A%91%E5%81%87%E9%9D%92%E6%B5%B7%E7%AB%99%E6%B4%BB%E5%8A%A8%E6%8A%A5%E5%90%8D",
+      "published": "Fri, 03 Jul 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPS",
+        "amp",
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "summary": "跟中国国家地理看中国 中国少年营——青海站 活动内容简述 在本站活动中，我们将走进三江之源青海，寻访 原子城 旧址，聆听我国第一颗原子弹、氢弹自主研制的艰辛历程；造访 青海湖 国家级自然保护区监测站，理解青海湖“西北气候调节器”与“青藏高原物种基因库”的定位；登上 龙羊峡水电站 ，见证“一度电的诞生”；俯瞰“半河清水半河鱼”的湟鱼洄游奇观，探究其维系“水—鱼—鸟”生态链的平衡；踏入 天峻石林 ，追溯3.5亿年石炭纪岩层的沧桑变迁；走进 祁连山国家公园大数据中心 ，学习GPS等巡护设备，理解“把祁连山装进数据网络”的…",
+      "key_points": [
+        "活动信息 活动时间： 2026年8月4日—10日（7天） 活动地点： 西宁（集合/返程）、海北藏族自治州、海西蒙古族藏族自治州、海南藏族自治州、天峻县 活动费用…",
+        "跟中国国家地理看中国 中国少年营——青海站 活动内容简述 在本站活动中，我们将走进三江之源青海，寻访 原子城 旧址，聆听我国第一颗原子弹、氢弹自主研制的艰辛历程…",
+        "产品线路涵盖三大板块：「中国少年营」国内长线营、「少年营境外版」国际研学、「少年营周末版」短途活动，覆盖寒暑假、节假日与日常周末；由多学科专家老师带队，以科学视…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一个反直觉厨房知识点",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E4%B8%AA%E5%8F%8D%E7%9B%B4%E8%A7%89%E5%8E%A8%E6%88%BF%E7%9F%A5%E8%AF%86%E7%82%B9",
+      "published": "Fri, 03 Jul 2026 21:17:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "多年来，我一直反复敦促一位朋友尽快换掉厨房里的所有钝刀。但是朋友一直拒绝，哪怕是我表示直接买一套快递过去，依然严词拒绝，理由就是刀快了容易切到手。截图里的这些留言，可以看到各方的讨论，更有很多实例。我认为，为了安全反而让自己处于更为危险的境地，这是一件很讽刺的事情。有些时候，事情会和我们的直觉相反，那我们就需要有勇气和直觉对抗，去选择理性的做法。 文章原文",
+      "key_points": [
+        "我一直反复敦促一位朋友尽快换掉厨房里的所有钝刀。但是朋友一直拒绝，哪怕是我表示直接买一套快递过去，依然严词拒绝，理由就是刀快了容易切到手。截图里的这些留言，可以…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "从东北农大、中科大到清华，刘达是不是教育家？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%8E%E4%B8%9C%E5%8C%97%E5%86%9C%E5%A4%A7%E3%80%81%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%88%B0%E6%B8%85%E5%8D%8E%EF%BC%8C%E5%88%98%E8%BE%BE%E6%98%AF%E4%B8%8D%E6%98%AF%E6%95%99%E8%82%B2%E5%AE%B6%EF%BC%9F",
+      "published": "Fri, 03 Jul 2026 08:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 刘达。图源: 刘成栋百年诞辰纪念文集 刘达先后创办过三所高校，在五所高校担任过一把手，被称为“杰出的教育家”，他本人却拒绝“教育家”之头衔。难以说刘达是优良办学理念的首倡者，但他无疑是这类理念的一个非常突出的维护者。我们迫切需要与刘达类似的实事求是、尊重教育规律、有独立思想的教育实干家或教育家。 撰文｜ 熊卫民 ‍ ● ● ● 1952年院系调整前后，中国多所高校都迎来了得力的领导干部：北京大学 （江隆基） 、清华大学 （蒋南翔） 、中国人民大学 （吴玉…",
+      "key_points": [
+        "刘达是不是一个教育家？若把教育家定义为教育工作者，那他当然是。说他是同代教育工作者中成就突出的，那也没问题。论他对东北农大、东北林大、中国科大、清华大学的影响，…",
+        "他在生前还曾详细向忘年交张永谦陈述过自己的理由： 当教育家要有自己的教育思想。我有，但不系统，不完善。我自己不教书，我非常尊重专家和教授。到科大上任之初，我花了…",
+        "致谢： 陆宗伟、冯焕清、周荷琴、何天敬、刘祖平、罗玉平、何世平、明海、许子明、朱天相、黎懋光、刘渝珍、谢文梁、朱亚宗、阮耀钟、孙长礼、朱清时等中国科大的学长，东…"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "UPS 被 FedEx 甩开了？ | 经济学人商业",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+UPS+%E8%A2%AB+FedEx+%E7%94%A9%E5%BC%80%E4%BA%86%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+      "published": "Fri, 03 Jul 2026 09:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FedEx",
+        "UPS",
+        "hard",
+        "has",
+        "its",
+        "against"
+      ],
+      "summary": "疫情期间，美国快递公司一度风光无限。 可订单退潮后，真正考验才开始： 谁的网络更轻，谁的成本更低，谁更扛得住亚马逊亲自下场。 这篇讲 UPS 和 FedEx，表面是两家快递巨头的竞争， 背后其实是一个很现实的商业问题： 增长慢下来以后，公司还能靠什么让投资者相信你？ 英文选段 （原文链接： https://www.economist.com/business/2026/06/25/ups-is-losing-ground-to-fedex ） Investors are so far happier with wh…",
+      "key_points": [
+        "我们 30 天《经济学人》精读营做的就是这件事：每天不贪多，挑选两段，把词、句子、翻译和写作表达吃透",
+        "本周报精读打卡营送经济学人核心词汇1000",
+        "今日搭配 lose ground to：逐渐落后于 deliver on sth：兑现，拿出成果 against just：相比之下仅为 unload an a…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-04",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "美团技术团队顶会论文分享：搜索推荐ASX专场",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/06/18/2026-ASX.html",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agentic",
+        "ASX",
+        "AAAI",
+        "Agent",
+        "AI",
+        "CVPR"
+      ],
+      "summary": "美团业务研发平台/搜推 ASX (Agentic System X)团队聚焦构建大模型为基础的 Agent 技术体系，在大模型后训练、Agentic 强化学习以及多模态理解等核心前沿方向持续深耕，已在 ICLR、NeurIPS、CVPR、AAAI 等 AI 领域的国际顶会发表数十篇高质量研究成果。本文精选了6篇进行解读，希望对大家有所帮助或启发。",
+      "key_points": [
+        "美团业务研发平台/搜推 ASX (Agentic System X)团队聚焦构建大模型为基础的 Agent 技术体系，在大模型后训练、Agentic 强化学习以…"
+      ]
+    }
+  ]
+}
