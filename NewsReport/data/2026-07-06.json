@@ -1,0 +1,767 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T01:00:12.052612+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 91,
+    "fresh_candidates": 62,
+    "backfill_candidates": 29,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-06",
+      "fetched_at": "2026-07-06T01:00:06.730247+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 4043.64,
+          "change": 14.74,
+          "change_pct": 0.37,
+          "volume": 602009738.0,
+          "amount": 146556310.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4175.34,
+          "change": 0.569999999999709,
+          "change_pct": 0.01,
+          "prev_close": 4174.77,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-06 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 909.8800623724018,
+          "change": 0.12421303068776979,
+          "change_pct": 0.013653446776698221,
+          "prev_close": 909.755849341714,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-06 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%87%AA%E4%BB%8E%E7%A9%BF%E4%BA%86%E5%AE%83%EF%BC%81%E5%9C%A8%E9%9B%A8%E5%A4%A9%E6%A8%AA%E7%9D%80%E8%B5%B0%EF%BC%8C%E8%BF%99%E5%8F%8C%E9%9E%8B%E8%AE%A9%E6%88%91%E8%A2%AB%E6%95%B4%E4%B8%AA%E5%8A%9E%E5%85%AC%E5%AE%A4%E8%BF%BD%E9%97%AE%E9%93%BE%E6%8E%A5%EF%BC%81",
+        "title": "自从穿了它！在雨天横着走，这双鞋让我被整个办公室追问链接！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/优惠购买信息为主，含明确价格与购买引导，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-06T01:02:16.724302+00:00",
+      "lead_url": "http://xueqiu.com/7977283243/398500845",
+      "top_urls": [
+        "http://xueqiu.com/2799488232/398491423",
+        "https://www.woshipm.com/ai/6424703.html",
+        "https://www.woshipm.com/ai/6424575.html",
+        "https://www.woshipm.com/ai/6424725.html",
+        "https://www.woshipm.com/ai/6424797.html"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-06",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "低估等效于成长",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2386334596/398482344",
+      "published": "Sun, 05 Jul 2026 13:54:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "企业的价值很大的因素在于成长性，这一点从现金流折现的公式中就可以直观地看到，所以市场对于高成长的公司趋之若鹜，造成这类公司常常出现严重的高估，透支了未来许多年的业绩。 任何行业都有成长的天花板，同时伴随不可测的周期。在某一时期，就算行业远没触及天花板，但经营的周期也会让高估的价格快速回落，这是投资成长股的主要风险。 价值投资鼻祖格雷厄姆说：“安全边际是成功投资的基石”。成长也是一种安全边际，但是它很难量化，也不知道能持续多长时间，因为只要有增量的市场，往往会吸引无数竞争对手进入，成长的变数就很大，除非它拥有不可破的…",
+      "key_points": [
+        "在一些行业稳定，经历多年优胜劣汰的检验胜出的公司，我们更容易判断它的竞争优势，未来增长率可能只有个位数，甚至是停滞，但只要出现便宜的价格，就能尔补成长的不足，具…",
+        "假如以60市盈率买入一家成长率为20%的公司，要8年时间才能到达15倍市盈率，要10年时间才能到10倍市盈率，要12年时间才到6倍市盈率。不如现在就买入一家经营…",
+        "价值投资鼻祖格雷厄姆说：“安全边际是成功投资的基石”。成长也是一种安全边际，但是它很难量化，也不知道能持续多长时间，因为只要有增量的市场，往往会吸引无数竞争对手…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI鬼故事之后三星又涨价了",
+      "title_zh": "AI 资本开支预期反复，三星存储与代工报价继续走强",
+      "url": "http://xueqiu.com/7977283243/398500845",
+      "published": "Sun, 05 Jul 2026 13:54:06 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "LPDDR",
+        "AI",
+        "DRAM",
+        "NAND",
+        "SLC",
+        "CSP"
+      ],
+      "summary": "这篇文章把最近 AI 板块的回调情绪，重新拉回到供给与资本开支基本面：一边是 Meta 相关投入传闻继续推高市场对 AI 基建扩张的预期，另一边是三星在先进制程与存储环节的议价能力再度抬升。核心看点不在情绪争论，而在于 AI 需求没有真正降温，拥挤交易之后，产业链定价权正重新分化。",
+      "key_points": [
+        "最有趣的是周五传META找了三星电子定制10万亿韩元的AI芯片，还要发布新的ai agent，我不禁想问你这到底是要增加资本开支还是减少资本开支。而从产业端来看…",
+        "讲了一堆鬼故事。但从核心来看，还是三个月来科技股积累了大量的涨幅，加上持续的资本开始引起持有CSP的股东不满，使得市场难免开始担忧",
+        "各家存储厂的策略开始产生差异， 海力士和美光更加倾向于当前的价格以LTA定量扩产长期维持高价区间，而三星一直在试图进一步涨价"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "周末聊聊Meta/微软/小摩7.6",
+      "title_zh": "Meta、微软与华尔街分歧背后，AI 军备赛还在加速",
+      "url": "http://xueqiu.com/2799488232/398491423",
+      "published": "Sun, 05 Jul 2026 13:53:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "All",
+        "ASIC",
+        "CN",
+        "H100"
+      ],
+      "summary": "文章试图梳理最近围绕 Meta、微软和 AI 算力投入的几层误读：市场担心资本开支持续膨胀，但头部公司并没有真正踩刹车，反而还在继续押注算力和模型能力。值得读的地方在于，它把舆论噪音、巨头策略和二级市场情绪拆开看，帮助理解“算力过剩”为什么更像短期叙事，而不是产业共识。",
+      "key_points": [
+        "二.沉寂已久的微软终于又有大动作 在我眼里，XAi，微软，亚马逊其实早就退出了大模型的竞争。尤其微软，起个大早赶个晚集，最早All in Ai，All in O…",
+        "再结合前一阵谷歌核心人员出走和内部的爆料来看，顶尖大模型目前只剩下A与O，其他巨头都大概率会一边养着大模型（不再激进争夺头名，但在战略上保持缓步跟随），一边充当…",
+        "首先Meta和小扎都从未表达过“算力过剩”的观点，反倒仍在加速建算力。“算力过剩”是一次典型的媒体误读和市场误解，当然有些人是揣着明白装糊涂搅混水，具体可回看7…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "锂电池行业更新7-4（市场常见误区二）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/398493816",
+      "published": "Sun, 05 Jul 2026 13:53:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "by",
+        "Goulamina",
+        "GW",
+        "http",
+        "Inventory"
+      ],
+      "summary": "上篇我们是写了 市场常见误区一 ，本周继续往后写。 误区四：市场的所谓隐藏库存，到底算不算所谓的在途和一部分仓库库存。 我们谈库存的时候，习惯性的是把整个产业链上的库存都拿出来说，包括一个矿从产出锂精矿，到运输到港口，然后再到锂盐厂加工，最终进入贸易商也好，还是直接到中下游厂家，进入备库库存。这条完整的产业链是非常长的。 时间节点： 从时间表上面，我们可以得知几个核心点， a）不算收购和可研时间，建设时间是2年5个月(当时预期是2024年初投产），开工仪式披露：2024 年上半年完成建设、2024 年 Q2 投产，…",
+      "key_points": [
+        "所以我们要理解为什么马里的矿从产出到最终投入市场用了10个月时间，这10个月中间消耗的矿石，填满了路上的储水罐以及水管，最终才能做到这边锂盐厂持续不断的收到锂精…",
+        "最后： 库存认知误区：将供应链刚性“管道库存”等同于可抛售的过剩库存 这是当前供需分析中最核心的统计偏差。整条跨境锂产业链本质是一套长距离“供水系统”：矿山是水…",
+        "只用全球销量增速10-15%，平均单车带电量增加5-10%，明年的动力电池增速就能到21%，这个基本符合我对明年的增速预期，叠加明年储能45%左右的时候全球增速…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "半年度撕裂行情启示录：无论拿着谁，为什么大家都不舒服？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%8D%8A%E5%B9%B4%E5%BA%A6%E6%92%95%E8%A3%82%E8%A1%8C%E6%83%85%E5%90%AF%E7%A4%BA%E5%BD%95%EF%BC%9A%E6%97%A0%E8%AE%BA%E6%8B%BF%E7%9D%80%E8%B0%81%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E5%AE%B6%E9%83%BD%E4%B8%8D%E8%88%92%E6%9C%8D%EF%BC%9F",
+      "published": "Sun, 05 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END",
+        "ifind",
+        "iFind",
+        "PCB",
+        "wind"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：教你挖掘基 A股半年度收官，三大指数全线收涨。但今年的市场，正在以一种近乎残忍的方式，划分着投资者的阵营。 一边是双创板块不断刷新历史高点，科创50指数半年大涨超64%，创业板指涨超35%。按照历史经验，大涨之后往往会有高切低，但这一次，只有反复的高切高。 光模块、国产芯片、存储、PCB，资金在这些方向之间来回切换，始终没有离开AI硬件这条主线，整个赛道仿佛置身于另一套引力规则之中。 另一边，A股个股中位数下跌超-14.0%…",
+      "key_points": [
+        "截至2026.6.30） 写在最后 2026年上半年的A股，正在经历一场极致的结构性撕裂。这种撕裂让持有传统板块的人痛苦，让踏空科技的人焦虑，让追高AI的人忐忑…",
+        "但不代表它的价值不存在。投资的本质，从来都是用合理的价格买入自己看得懂的资产，然后耐心等待价值的兑现，而不是根据最近半年谁涨得好来决定持仓",
+        "以上不构成个股推荐，指数历史走势不预示未来表现，截至2026.6.30） 这种撕裂让很多人感到无所适从，而且每一种持仓状态都有自己的焦虑"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 产品经理如何为 Agent 产品设计安全护栏？",
+      "title_zh": "Agent 产品的安全护栏，不是补丁，而是产品结构",
+      "url": "https://www.woshipm.com/ai/6424703.html",
+      "published": "Sun, 05 Jul 2026 07:28:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "PRD",
+        "FAQ",
+        "CRM",
+        "Demo"
+      ],
+      "summary": "这篇文章把 Agent 安全从“怎么拦截越狱”提升到产品设计层面，核心是先按任务风险分层，再设计对应的校验、审批和动态路由。亮点在于它没有把安全当作上线前的附加项，而是明确提出：只要 Agent 会调用工具、改数据、触发业务动作，护栏就必须内建在能力边界里。",
+      "key_points": [
+        "Agent产品的安全护栏并非简单技术风控，而是产品设计的核心环节。本文深入剖析Agent安全性的本质挑战：从基础准确性提升到风险分层设计，从三层护栏构建到动态路…",
+        "也可能触发查询、生成、审批、下单、发邮件、改数据。产品经理需要设计一个“风险路由”机制",
+        "Agent 的安全护栏，不是上线前临时加的一层“保险丝”，而应该是产品能力的一部分"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Karpathy 官宣Vibe Coding时代落幕",
+      "title_zh": "Vibe Coding 退潮之后，AI 编程开始进入可验证交付阶段",
+      "url": "https://www.woshipm.com/ai/6424797.html",
+      "published": "Sun, 05 Jul 2026 06:14:15 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Coding",
+        "Vibe",
+        "Agent",
+        "Agentic",
+        "Engineering"
+      ],
+      "summary": "这篇文章抓住了一个重要转向：AI 编程的竞争焦点，正在从“十分钟能不能生成页面”转向“改了什么、为什么改、有没有证据证明可上线”。它适合放进今天精选，因为它讨论的不是单个工具，而是 Agentic Engineering 时代对测试、权限、评审和交付流程的整体要求。",
+      "key_points": [
+        "Agentic Engineering 时代，你要看它改了哪些文件、为什么这么改、跑了哪些测试、哪些测试没跑、有没有 lint、有没有类型错误、有没有安全风险、…",
+        "从“看结果”变成“看过程证据” Vibe Coding 时代，很多人只看页面能不能打开"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "To G 的 AI 产品怎么做？我从全国首个省级政务智能中枢，拆出了 5 条平台设计原则",
+      "title_zh": "省级政务智能中枢样本，给 To G AI 平台划出了五条主线",
+      "url": "https://www.woshipm.com/ai/6424575.html",
+      "published": "Sun, 05 Jul 2026 04:28:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "To",
+        "API",
+        "App",
+        "CC0",
+        "ChatGPT"
+      ],
+      "summary": "这篇稿子不是泛泛谈政务 AI，而是借广东“湾擎”案例，把 To G 平台真正难的部分拆开了：算力供给、知识中枢、工作流嵌入、运维分工和生态协同。它的价值在于说明政务场景做大模型，关键并不是先上线一个聊天入口，而是先把省级能力底座和地市应用分层建好。",
+      "key_points": [
+        "而 2026 年 6 月 16 日在广东上线试运行的”湾擎”——全国首个省级政务智能中枢，由广东省政务服务和数据管理局主导、中国移动广东公司共建——给出了一套完…",
+        "真正的挑战才刚开始——算力成本高企、知识孤岛林立、运维无人接盘。广东\"湾擎\"政务智能中枢的\"3553\"服务体系，给出了平台化AI产品的完整解法：从算力资源池到知…",
+        "这套分工还顺手解决了生态问题：省级层面把最重、最花钱的算力和模型矩阵建好，8 个获得授牌的地市”政务大模型工厂”和本土企业只需专注一件事——用中枢提供的能力，结…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI审核取代人工？平台安全了，创作者被牺牲了",
+      "title_zh": "AI 审核提效的代价，是把内容生态压向单一标准",
+      "url": "https://www.woshipm.com/ai/6424725.html",
+      "published": "Sun, 05 Jul 2026 03:31:29 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "Discord",
+        "newsletter",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "文章讨论的重点不是“AI 审核好不好用”，而是平台在追求高安全、低成本和高效率时，会怎样系统性牺牲创作者空间。可读之处在于，它把误伤率、申诉成本和内容同质化放进同一个框架，提醒团队别只看机器替人后的吞吐量，还要看治理机制是否保留纠偏能力。",
+      "key_points": [
+        "投诉激增 审核速度从平均2小时缩短到2秒 违规内容下架率提升300%（因为AI发现了大量人工漏掉的“猫病偏方”） 但同时，误伤率从5%飙升到25% 客服被“申诉…",
+        "宣称能同时实现高安全性、高流量效率和极低运营成本，打破传统审核的“不可能三角”。但真相是，创作者的多样性正成为被牺牲的对象。本文深度剖析AI审核的三重承诺与现实…",
+        "现实 ：AI的训练成本、迭代成本、算力成本、误判后的纠错成本，往往被低估。更重要的是，当AI彻底取代人工，平台失去了“人工判断”这个最后的安全阀。一个系统性误判…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI Native 内容生产系统：从数字员工愿景到企业可落地架构",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6423909.html",
+      "published": "Sun, 05 Jul 2026 02:27:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "API",
+        "ComfyUI",
+        "Token",
+        "Tool"
+      ],
+      "summary": "AI内容工具虽已大幅提升单点效率，但距离真正的'数字员工'仍有鸿沟。本文深度剖析通用Agent在垂直内容生产中的四大痛点，揭示从'能做到'到'每次都能做好'的质变路径，并首次完整提出AI内容生产系统的三层架构设计，为企业在工具升级与系统建设间提供关键决策框架。 AI内容工具距离”数字员工”还有多远？ AI内容生产任务目标定义 当前 AI 内容工具已经显著提升单点生产效率，但距离企业期待的”数字员工”仍存在明显差距。 因为企业想象的是：输入目标，比如“提升小红书获客效率”，AI 自动分析用户，找选题，设计素材，发布，…",
+      "key_points": [
+        "但距离真正的'数字员工'仍有鸿沟。本文深度剖析通用Agent在垂直内容生产中的四大痛点，揭示从'能做到'到'每次都能做好'的质变路径，并首次完整提出AI内容生产…",
+        "AI内容生产任务目标定义 当前 AI 内容工具已经显著提升单点生产效率，但距离企业期待的”数字员工”仍存在明显差距",
+        "人工仍需要： 审核生成质量（Agent 输出质量不稳定，需要人工筛选） 决定哪个版本可用（从多次生成中选择最优） 批量生产时的一致性把控（单次生成可以，批量时风…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么稻田里能一直蓄着水？而麦田就蓄不了？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790930",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "al.",
+        "cm",
+        "et",
+        "Genet.",
+        "Nat.",
+        "Oryza"
+      ],
+      "summary": "晴耕雨读的浣熊君， 在知乎撂地的闲散科普创作者，争取每周双更 查看知乎原文 首先虽然可以理解你问这个问题的原因，刻板印象里稻田水没过小腿是影视作品里经常有的表现。 但问题是稻田也不是一直都需要蓄水的，北方种植的一季稻在六七月份，华北东北地区一年最热的时间里就需要排水晒田烤田，田中的泥土要被太阳光晒得能走人才行，这期间田里断水断肥完全不需要有水，至于说原因我们一会就会提到。 当然其实我也理解，现代生活确实让很多人远离了土地，大家没见过稻田是很正常的事情，更不用说湿地中的野生稻了。 大家对稻田和水稻没有直观的概念，就会…",
+      "key_points": [
+        "稻田里肯定是没有水的，这就是范成大《四时田园杂兴》里所说的 “新筑场泥镜面平，家家打稻趁霜晴。” 这里是浣熊君，一个在知乎撂地的闲散作者 古代官盐贵的离谱，百姓…",
+        "看见晒的土地上有裂痕了就差不多了，这时候再灌一次浅水，让稻田中干干湿湿一直到秋季收获就可以了，目的是让剩余的叶片不干枯，确保穗子还在灌注，营养来到穗子里边就可以…",
+        "为数不多能追着水稻下湿地生长的稗子，所谓五谷不熟，不如稊稗，这种作物也能做到类似的现象并且在稻田和湿地里追着水稻杀，而且生命力更旺盛，那就是另一个话题了"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何评价日本电影《垫底辣妹》？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790949",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "low",
+        "qu"
+      ],
+      "summary": "知乎用户， 颜值打分请付费咨询 | 公众号：非癯仙（qu二声） 查看知乎原文 非名校的学生，其实有很多名校同学所没有的巨大优势，这些优势只要把握住，至少我看到了很多成功案例。 以下内容并非鸡汤，是我长期观察后得出的暂时结论。 我是 @非癯仙 ，今天想结合经典电影《垫底辣妹》，聊聊「非名校生优势」这个反常识话题。 这篇文章有些长，建议先收藏再看。 如果你正经历对未来的迷茫，它可能会让你对「失败」这件事，有一个完全不同的看法。 每年临近六月，《垫底辣妹》都会重新火一遍。这部电影 2015 年在日本上映，2016 年引进…",
+      "key_points": [
+        "《垫底辣妹》都会重新火一遍。这部电影 2015 年在日本上映，2016 年引进中国，一经推出就大受好评，成为当年国内票房最高的日本真人电影",
+        "今天想结合经典电影《垫底辣妹》，聊聊「非名校生优势」这个反常识话题",
+        "这或许就是《垫底辣妹》的隐藏剧情。表面上，它是一个「学渣努力考上名校」的励志故事。但现实里，它是一个「非名校生如何利用自己的隐藏优势，实现人生弯道超车」的教科书"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "因为攻击小鸭鸭，这只缉毒犬上了新闻！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9B%A0%E4%B8%BA%E6%94%BB%E5%87%BB%E5%B0%8F%E9%B8%AD%E9%B8%AD%EF%BC%8C%E8%BF%99%E5%8F%AA%E7%BC%89%E6%AF%92%E7%8A%AC%E4%B8%8A%E4%BA%86%E6%96%B0%E9%97%BB%EF%BC%81",
+      "published": "Sun, 05 Jul 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bbc.co.uk",
+        "Franky",
+        "bbc",
+        "Chase",
+        "dallasobserver.com",
+        "eonline.com"
+      ],
+      "summary": "编者荐语: 这篇文章来源于果壳旗下公众号“果壳自然”。关注我们，一起探索万物之美，守护自然的丰富、独特与永恒。 以下文章来源于果壳自然， 作者 耷拉 之前看到一个帖子，人们说了一些关于缉毒犬的故事。 退役回家，不能工作了汪！ “我的一位朋友是个现役的 警犬训练员 。这些工作犬购自德国或奥地利的专门繁殖中心，然后送到狗狗学校培训。那些从小就没有展现出天赋的狗狗，会在成年前 作为家庭宠物开放领养 ，大多数训犬员也会自己把退役工作犬作为宠物领养。我们的朋友有个很大的农场，所以她养了好多；但有些训犬员没有条件，也有许多监狱…",
+      "key_points": [
+        "有一只兰开夏郡的监狱缉毒犬（当事狗名字已被隐去）曾经被爆出丑闻：它被指控 攻击监狱里的一群小鸭鸭 ——人们怀疑，监狱里发现的鸟类尸体与它有关",
+        "我们陆军预备役人员准备出发去欧洲，一位军警带着缉毒犬前来检查行李和各种运输的包裹物品。这只成年的德国牧羊犬，有一次对着一辆货车又是抓挠又是叫。我们先是检查了它找…",
+        "bbc还报道了这件事｜bbc.co.uk 对这个新闻我只想说：为什么你们监狱里有小鸭鸭？还一群，小鸭鸭犯什么事了…… 不过，考虑到英国是有 鸭行道 的，估计哪里…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有时候显老并不是因为脸垮，而是因为……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E6%97%B6%E5%80%99%E6%98%BE%E8%80%81%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%9B%A0%E4%B8%BA%E8%84%B8%E5%9E%AE%EF%BC%8C%E8%80%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E2%80%A6%E2%80%A6",
+      "published": "Sun, 05 Jul 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IM010-2310053",
+        "OK",
+        "CP",
+        "nm",
+        "PDRN",
+        "Batisse"
+      ],
+      "summary": "油皮+毛孔粗大 的绝望谁懂啊！😭 一到下午，油脂就像开闸洪水般涌出来， 整张脸 腻到蚊子站上去都劈叉， 手指一蹭就是一道高光，摸上去凹凸不平、糙得剌手。 这满脸的洞洞，一脸的猪油啊，很容易 显人脏！ 看着油脂满满的鼻头，想挤吗！想挤吗！ 化妆遮吧 ， 粉底液卡在毛孔里， 远看浮粉斑驳，近看像撒了一脸白芝麻。社交距离 聊天，根本无心搭茬儿，满脑子都是——离我远点，千万别看到我 油光满面、满是黑头毛孔的脸！ 试遍了 小气泡 、清洁面膜 、 酸类产品 、 针清、冰敷等几乎所有方法，完了照镜子一看： 嘿，都白干！毛孔不仅没…",
+      "key_points": [
+        "开机调好档位和区域就OK， 10分钟就能完成全脸操作 ，追着剧、刷个手机就结束了，坚持起来很轻松哎~ 果壳实拍 这是因为 易科美采用了 360 °环形冰点技术…",
+        "但是做家用点阵激光美容仪的却很少。这是因为： 它对 设备的 激光波长、 光斑密度、动态扫描算法、效果与安全性、疼痛感的平衡 要求非常高",
+        "咱们今天买仪器直接送大家25片！相当于又给自己省了好几百~ 截图时间：7.1 除了仪器或项目后，平时觉得脸部状态不太好的时候，也可以用里面的面膜来舒缓修护 长期…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "美蛙、河粉、砂糖橘……你被这些名字“骗”了多少年？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BE%8E%E8%9B%99%E3%80%81%E6%B2%B3%E7%B2%89%E3%80%81%E7%A0%82%E7%B3%96%E6%A9%98%E2%80%A6%E2%80%A6%E4%BD%A0%E8%A2%AB%E8%BF%99%E4%BA%9B%E5%90%8D%E5%AD%97%E2%80%9C%E9%AA%97%E2%80%9D%E4%BA%86%E5%A4%9A%E5%B0%91%E5%B9%B4%EF%BC%9F",
+      "published": "Sun, 05 Jul 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bowuzazhi",
+        "ID",
+        "Reddit",
+        "sdyaung"
+      ],
+      "summary": "本文经授权转载自：博物（ID:bowuzazhi） 不知道大家有没有这种感觉，当我们听到某个名字时，脑子里往往会自动浮现对应的形象。比如听到有人叫雨婷，一般会默认这是个女孩，听到建国、建华这类的名字，心里可能已经打上老一辈的标签了（没有说王建国、王建华两位老师很老的意思）。 或者反过来，如果你在路上碰到一只黄狗，大概率会脱口而出：嘬嘬嘬，小黄过来！ 小猫同理，它们都有一个共同的称呼：咪咪~ 这些叫法都是因为你的直觉。 但有些名称偏偏非常反直觉，你以为的往往不是你以为的，背后可能藏着“取名鬼才”的小巧思。 今天我们就…",
+      "key_points": [
+        "这里面还藏着一个餐饮界公开的秘密：虽然名字叫“美蛙”，但 你现在在餐饮店里吃到的，大多是它的亲戚——同样原产北美的牛蛙 。其实牛蛙比美国青蛙引进得更早，因为牛蛙…",
+        "沙河镇上有对夫妻开了一间小食店。他们用当地白云山上的泉水浸泡大米，磨成浆后蒸成薄片，再切成丝，做出来的粉爽滑又筋道， 后来这些宽米粉被统称为“沙河粉”，如今“沙…",
+        "所以大家想都不用想就觉得：叫这个名字肯定是因为它吃起来像白砂糖一样甜"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "又给电影的情书？这一招被滥用了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%88%E7%BB%99%E7%94%B5%E5%BD%B1%E7%9A%84%E6%83%85%E4%B9%A6%EF%BC%9F%E8%BF%99%E4%B8%80%E6%8B%9B%E8%A2%AB%E6%BB%A5%E7%94%A8%E4%BA%86",
+      "published": "Sun, 05 Jul 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Illumination",
+        "James",
+        "A-",
+        "CinemaScore",
+        "hongmomgs",
+        "IP"
+      ],
+      "summary": "文 庄山贝 《小黄人与大怪兽》最近上了新的一集，曾经的顶级系列，现在关注的人不多了。 《小黄人与大怪兽》 票房创新低，但媒体评论还可以，不过我觉得它的好评其实很值得打个问号。 我承认这部电影做对了一些事。导演皮埃尔 · 科芬把时间线设定在 1920 年代好莱坞，让一群此前从未出现的小黄人意外闯入片场、成为默片明星，然后在有声电影时代来临时因为无法说人类语言而被淘汰。 这个设定有一个天然的聪明之处。小黄人说的是一种混合多国语言的小黄人语，它们从诞生之日起就是不能说话的角色，全部喜剧效果依赖肢体动作和声音的节奏感。 这…",
+      "key_points": [
+        "近年来好莱坞对致敬电影史这件事表现出越来越浓厚的兴趣。《艺术家》《巴比伦》《造梦之家》《光之帝国》，加上现在的《小黄人与大怪兽》， 「 对电影的情书 」 已经成…",
+        "不需要承载那些意义。没错，但那就不要称之为 「 对电影的情书 」 。你不能一边宣称在致敬经典，一边把经典中最本质的东西全部抽空，只留下一个可供辨认的外壳。这种庸…",
+        "《巴比伦》中的《阿凡达》画面 问题出在哪里？出在这些致敬电影的默认前提上。它们假定 「 电影 」 是一种值得被供奉的文化遗产，观众走进电影院应该怀有某种朝圣般的…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "重新理解这部经典的黑色电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%87%8D%E6%96%B0%E7%90%86%E8%A7%A3%E8%BF%99%E9%83%A8%E7%BB%8F%E5%85%B8%E7%9A%84%E9%BB%91%E8%89%B2%E7%94%B5%E5%BD%B1",
+      "published": "Sun, 05 Jul 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "American",
+        "Chicago",
+        "Cinema",
+        "Fox",
+        "Grey",
+        "Hawks"
+      ],
+      "summary": "作者： Jonathan Rosenbaum 译者： Issac 校对： 内田枸杞子 来源： Chicago Reader 尽管《夜长梦多》久负经典之名，又代表了霍华德·霍克斯作为电影人的超高技艺，但在霍克斯的作品排行榜中，它却从未名列前茅——至少赶不及《疤面煞星》《二十世纪快车》《天使之翼》《逃亡》《红河》《峰火弥天》《妙药春情》《绅士爱美人》和《赤胆屠龙》，这几部皆是我最喜爱的电影。 《夜长梦多》 《逃亡》（1944）是霍克斯之前的作品，与之合作的有亨弗莱·鲍嘉、劳拉·白考尔、朱尔斯·福瑟曼和威廉·福克纳两位编…",
+      "key_points": [
+        "《夜长梦多》——一部几乎满是阴郁和冷酷的黑色电影，但其阴郁和冷酷又偶尔被温暖同性恋情的隐藏点和善意的色欲所打破——的两个版本描绘出一个不稳定的宇宙，这个宇宙中趣…",
+        "霍克斯「在导演最初的几部戏的时候十分没有安全感，以至于他因为呕吐，常常不得不把车开到路边。」 不过要是没有这样的绝望的话，我相信人们也不会记得他是一位伟大的导演…",
+        "Jonathan Rosenbaum 译者： Issac 校对： 内田枸杞子 来源： Chicago Reader 尽管《夜长梦多》久负经典之名，又代表了霍华德…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国这些瀑布，迎来夏天最美时刻！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E8%BF%99%E4%BA%9B%E7%80%91%E5%B8%83%EF%BC%8C%E8%BF%8E%E6%9D%A5%E5%A4%8F%E5%A4%A9%E6%9C%80%E7%BE%8E%E6%97%B6%E5%88%BB%EF%BC%81",
+      "published": "Sun, 05 Jul 2026 09:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "盛夏来临，最治愈的风景， 莫过于奔腾而下的瀑布。 丰沛的降雨， 让一年中最壮观的瀑布季如约而至。 中国幅员辽阔， 也孕育了风格迥异的瀑布奇观。 这个夏天，不妨跟着瀑布去旅行！ 赤水与四面山瀑布群 我国最大的丹霞瀑布群 在贵州赤水和重庆四面山， 分布有7200平方公里的丹霞地貌， 丹霞地貌上发育了上千条瀑布， 这里也是我国最大的丹霞瀑布群。 赤水大瀑布景区 （又名十丈洞景区） 位于贵州省赤水市南部， 赤水河支流风溪河的上游。 赤水大瀑布景区是“赤水丹霞”申报世界自然遗产的核心组成部分之一， 大瀑布高76米，宽80米，…",
+      "key_points": [
+        "2005最美瀑布第六名 黄果树瀑布 图源：中国国家地理 2025年10期 摄影／王宁 诺日朗瀑布 中国最宽的瀑布、中国最大的钙华瀑布 九寨沟丰盈而独特的水， 也…",
+        "峡谷内还分布着连片的生物钙华， 面积达200万平方米， 这些钙华的形成与瀑布和植物密切相关， 因此马岭河峡谷瀑布群还可以称为 我国规模最大的生物钙华崖壁瀑布群",
+        "点击下图 进入「中国国家地理畅读」小程序 你错过的经典这里能看 别错过哦 编辑：广平 这些不起眼的渡口，曾决定王朝兴亡 夏天的吉林珲春，太宝藏了"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "差点忘了发今天的云",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%B7%AE%E7%82%B9%E5%BF%98%E4%BA%86%E5%8F%91%E4%BB%8A%E5%A4%A9%E7%9A%84%E4%BA%91",
+      "published": "Sun, 05 Jul 2026 21:09:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "今早雨过天晴，天空因为刚刚洗过，颜色感觉更加鲜活。但是说到美，讨论说到光影和色彩，说到手机摄影大师，昨天《 看上去很美 》跟帖区里的各种照片让我非常震撼。可以去看看：《 看上去很美 》 文章原文",
+      "key_points": [
+        "天空因为刚刚洗过，颜色感觉更加鲜活。但是说到美，讨论说到光影和色彩，说到手机摄影大师，昨天《 看上去很美 》跟帖区里的各种照片让我非常震撼。可以去看看：《 看上…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他做过11年大学校长，如今陷入学术争议",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E5%81%9A%E8%BF%8711%E5%B9%B4%E5%A4%A7%E5%AD%A6%E6%A0%A1%E9%95%BF%EF%BC%8C%E5%A6%82%E4%BB%8A%E9%99%B7%E5%85%A5%E5%AD%A6%E6%9C%AF%E4%BA%89%E8%AE%AE",
+      "published": "Sun, 05 Jul 2026 07:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "n.d.",
+        "Biology",
+        "Cell",
+        "Excel",
+        "Nature",
+        "Prism"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 刊发争议论文的当期杂志。图源：Nature Cell Biology 撰文｜张天祁 ‍ ● ● ● 一位大学前校长、院士候选人，最近陷入了学术争议。 6月27日，\"耿同学讲故事\"发布视频，称北京中医药大学前校长徐安龙2019年发表于《Nature Cell Biology》的一篇论文存在大篇幅数据造假。 从今年4月起，耿同学先后公开质疑同济大学生科院时任院长王平、南开大学生科院时任院长陈佺、上海大学转化医学研究院时任院长苏佳灿等多位学者。现在，他第一次指…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 刊发争议论文的当期杂志。图源：Nature Cell Biology 撰文｜张天祁 ‍ ● ● ●…",
+        "2000年起任生命科学学院院长，2008年升任副校长。他还担任过“有害生物控制与资源利用国家重点实验室”主任、“南海海洋生物技术国家工程研究中心”主任。2013…",
+        "耿同学先后公开质疑同济大学生科院时任院长王平、南开大学生科院时任院长陈佺、上海大学转化医学研究院时任院长苏佳灿等多位学者。现在，他第一次指向一位曾经的大学校长"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "你熟悉的街区，可能还藏着很多陌生人 | 每日心理学英文",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BD%A0%E7%86%9F%E6%82%89%E7%9A%84%E8%A1%97%E5%8C%BA%EF%BC%8C%E5%8F%AF%E8%83%BD%E8%BF%98%E8%97%8F%E7%9D%80%E5%BE%88%E5%A4%9A%E9%99%8C%E7%94%9F%E4%BA%BA++%7C+%E6%AF%8F%E6%97%A5%E5%BF%83%E7%90%86%E5%AD%A6%E8%8B%B1%E6%96%87",
+      "published": "Sun, 05 Jul 2026 09:34:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "you",
+        "in",
+        "or",
+        "neighbourhood"
+      ],
+      "summary": "今天不排版 我们常常以为，自己很熟悉住的地方。 哪家店早餐好吃，哪条路早高峰堵，哪个路口外卖车最多。 但这篇 Psyche 文章说，熟悉不等于认识。 我们每天经过的小区门口，可能贴着我们从没认真看过的通知。 楼下水果店老板，也许已经记住了我们常买什么。 那个总在清晨遛狗的人，可能比我们更知道这条街什么时候开始醒来。 一个街区，不只是地图上的一块地方。 它是人走出来的，也是人一点点讲出来的。 文章作者 Gabrielle Bendiner-Viani 是一位城市研究者和艺术家。 她建议我们用一种更慢的方式去认识 ne…",
+      "key_points": [
+        "get to know your neighbourhood 了解你的街区；慢慢认识你生活的地方",
+        "一个你每天经过的街区， 才会从“住处附近”，变成“我们生活的一部分”",
+        "📖 英文原文阅读 上下滑动阅读｜适合收藏慢慢读 How to get to know your neighbourhood Whether you are a…"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "都是打广告，怎么姆巴佩一句「补水啦」这么出圈？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E9%83%BD%E6%98%AF%E6%89%93%E5%B9%BF%E5%91%8A%EF%BC%8C%E6%80%8E%E4%B9%88%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%80%E5%8F%A5%E3%80%8C%E8%A1%A5%E6%B0%B4%E5%95%A6%E3%80%8D%E8%BF%99%E4%B9%88%E5%87%BA%E5%9C%88%EF%BC%9F",
+      "published": "Sun, 05 Jul 2026 16:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "FIFA",
+        "break",
+        "hydration",
+        "Nike",
+        "Adidas",
+        "Google"
+      ],
+      "summary": "刚刚结束的世界杯1/8决赛开球前，费城当地气温达到了38度，球迷高呼这是「最该补水的一集」。 近70分钟的鏖战后，21岁小将杜埃成功造点，姆巴佩一蹴而就为法国队打进了全场唯一的进球。 关于这场比赛的判罚尺度争议很大，巴拉圭屡次恶意犯规都被裁判无视，有人基于姆巴佩「忍者神龟」的外号，说对手这纯是在「扒拉龟」。 自进入淘汰赛阶段以来，梅西与姆巴佩进球数之间的较量成了最大看点，今天凌晨这场比赛结束后，两人在本届世界杯均打入了7个进球，而世界杯历史射手榜的差距也仅剩1球，悬念仍然十足。 不过除了比赛内容足够精彩之外，姆巴佩…",
+      "key_points": [
+        "姆巴佩在中文互联网最近火出圈的，其实是另外一件事…… 没错，我要说的，就是那句传遍大街小巷的魔性广告词「我是姆巴佩，补水啦」",
+        "它几乎垄断了补水时间这门3分钟生意： 每一次3分钟暂停都像是它的「solo」专场，场上球员补水，场外弹幕刷屏，评论玩梗，而且这种效应随着赛程的深入，已经不限于姆…",
+        "观众的注意力都在比赛上，广告说得越复杂，越容易被跳过，补水啦没有让姆巴佩解释一堆产品卖点，也没有让他讲什么品牌故事，只让他反复说那句「我是姆巴佩，补水啦」"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第272期 - 接天莲叶",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/272/",
+      "published": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "AI",
+        "Brother",
+        "Mac",
+        "App",
+        "Kami"
+      ],
+      "summary": "封面图拍摄于周末去西溪湿地航拍莲花，非常好看，也很震撼，人类在自然下面看着很小，无人机帮助我看到了太多好东西了。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 特地买了一台 Brother T735DW 打印机 为了测试 Kami 的打印排版，特地买了一台 Brother T735DW 打印机，机器质感很好，挺喜欢，假如你需要买打印机可以看看这个品牌。打印出来的 Kami 排版的内容也很不错，当然我特地给升级了一个版本，让他更好支持打印机，小伙伴可以用起来，PS…",
+      "key_points": [
+        "筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 特地买了一台 Brother T735DW 打印机 为了测试 Kami 的打印排版，特地买了一…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-06",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "哪些古人的智慧，直到今天还在影响世界？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790925",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Arci"
+      ],
+      "summary": "Arci， 喜欢文史，深耕招聘，精通背调，时常徒步。 查看知乎原文 曾经看央视纪录片《河西走廊》，看到最后一集讲到新疆生产建设兵团的画面时，我突然愣住了。 两千年前，张骞“凿空”西域，霍去病封狼居胥， 汉武帝在河西设立酒泉、张掖、武威、敦煌四郡，开启“戍卒屯田”；两千年后的今天，新疆生产建设兵团的战士们开着拖拉机在戈壁滩上开垦良田，守卫边疆 。 同样的画面，同样的逻辑，穿越了两千年，居然还在运行。 那一刻我意识到，有些智慧，是真的刻在了这个民族的骨子里。 什么是“军屯”？ 说白了，就是把军队变成农民，把农民变成军队…",
+      "key_points": [
+        "张骞“凿空”西域，霍去病封狼居胥， 汉武帝在河西设立酒泉、张掖、武威、敦煌四郡，开启“戍卒屯田”；两千年后的今天，新疆生产建设兵团的战士们开着拖拉机在戈壁滩上开…",
+        "才会有这样的韧性——两千年前在河西走廊屯田的戍卒，和今天在新疆建设兵团的战士，做着同一件事：扎根",
+        "这才是中华文明最可怕的力量——我们不靠枪炮征服世界，我们靠锄头把每一寸土地变成故乡"
+      ]
+    }
+  ]
+}
