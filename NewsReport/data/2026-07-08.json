@@ -1,0 +1,683 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T01:00:10.960887+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 88,
+    "fresh_candidates": 60,
+    "backfill_candidates": 28,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-08",
+      "fetched_at": "2026-07-08T01:00:05.632376+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3990.24,
+          "change": -51.0,
+          "change_pct": -1.26,
+          "volume": 514453091.0,
+          "amount": 119637109.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4112.46,
+          "change": 6.760000000000218,
+          "change_pct": 0.16,
+          "prev_close": 4105.7,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-08 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 898.3193445110679,
+          "change": 1.4766438503706922,
+          "change_pct": 0.16464914630880753,
+          "prev_close": 896.8427006606972,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-08 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B9%A0%E6%83%AF%E8%BF%99%E6%A0%B7%E5%B8%A6%E8%80%B3%E6%9C%BA%E7%9A%84%E4%BA%BA%EF%BC%8C%E7%A6%BB%E8%81%8B%E4%B8%8D%E8%BF%9C%E4%BA%86%E2%80%A6%E2%80%A6",
+        "title": "习惯这样带耳机的人，离聋不远了……",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购软广，购买引导与促销表述过重，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%A0%B8%E5%BF%83%E8%AF%8D%E6%B1%871000%E3%80%8B%E6%97%A9%E9%B8%9F%E7%A5%A8%E6%9C%80%E5%90%8E6%E5%A4%A9",
+        "title": "《经济学人核心词汇1000》早鸟票最后6天",
+        "platform": "一天一篇经济学人",
+        "source": "一天一篇经济学人(双语)",
+        "reason": "课程早鸟票导流，价格与促销信息为主，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-08T09:01:29+08:00",
+      "lead_url": "http://xueqiu.com/1701766657/398730868",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6425750.html",
+        "https://www.woshipm.com/ai/6426133.html",
+        "https://www.woshipm.com/it/6426121.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone+Ultra%E9%87%8F%E4%BA%A7%E5%90%AF%E5%8A%A8%EF%BC%9B%E8%8B%B1%E7%89%B9%E5%B0%94CPU%E6%B6%A8%E4%BB%B77%25-16%25%EF%BC%9B6G%E4%BA%A7%E4%B8%9A%E5%8C%96%E9%AA%8C%E8%AF%81%E4%B8%AD%E8%AF%95%E5%B9%B3%E5%8F%B0%E4%B8%8A%E6%B5%B7%E5%90%AF%E5%8A%A8",
+        "http://xueqiu.com/3559889031/398732971"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-08",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么90%的交易者最终都会离场？答案藏在一堵\"雪墙\"里",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%8890%25%E7%9A%84%E4%BA%A4%E6%98%93%E8%80%85%E6%9C%80%E7%BB%88%E9%83%BD%E4%BC%9A%E7%A6%BB%E5%9C%BA%EF%BC%9F%E7%AD%94%E6%A1%88%E8%97%8F%E5%9C%A8%E4%B8%80%E5%A0%B5%22%E9%9B%AA%E5%A2%99%22%E9%87%8C",
+      "published": "Tue, 07 Jul 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-",
+        "Financial",
+        "Freedom",
+        "K.",
+        "Tharp",
+        "to"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 灼见量化 来源：雪球 交易了十几年 ， 最让我受益的 ， 不是某个神奇的策略 ， 也不是某次精准的抄底逃顶 ， 而是一个比喻 。 这个比喻来自 Van K. Tharp 的 《 Trade Your Way to Financial Freedom 》 —— 一本证券交易领域的经典之作 。 书中第七章用\"雪墙\"来描述资金管理和风险控制 ， 读完之后 ， 我发现之前十几年对\"风险\"的理解 ， 全部被重新排列了一遍 。 它不只…",
+      "key_points": [
+        "这就是为什么-风险控制和资金-管理是量化交易系统的核心",
+        "02 白雪球和黑雪球的相对大小 —— 盈亏比 第二个因素 ： 同样是一次交易 ， 单次盈利 （ 白雪球 ） 越大越好 ， 单次亏损 （ 黑雪球 ） 越小越好",
+        "无论是在净值曲线单边暴涨的极端行情中 ， 还是在净值曲线连续阴跌的盘整期 ， 只要雪墙还在 ， 就一定会等到净值曲线再创新高的那天 —— 这就是系统的意义"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "散户亏钱的根源：从来不是不会选股，而是找错了市场角色",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/398802898",
+      "published": "Tue, 07 Jul 2026 09:23:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "SH588050",
+        "SZ159919",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "长期复盘投资市场，我发现绝大多数散户的持续亏损，核心问题从不是不会选股、不懂技术、看不懂K线，而是自身市场角色的彻底错位。 很多人日复一日钻研短线技巧、追逐市场热点、频繁交易博弈，却从未想清楚一个根本问题： 在机构资金、量化交易、市场情绪主导的成熟市场里，自己究竟处在什么位置。 定位错了，所有努力都是逆势博弈，再勤奋的操作，也换不来长期稳定的盈利。 一、亏损第一因：跟风从众，踏错牛熊节奏 散户最致命的通病，是习惯性追涨杀跌： 低位不敢布局廉价筹码，只敢在行情火热、股价高位时跟风入场，精准踏空底部、接盘高位。 A股牛…",
+      "key_points": [
+        "我发现绝大多数散户的持续亏损，核心问题从不是不会选股、不懂技术、看不懂K线，而是自身市场角色的彻底错位",
+        "仅凭机械纪律克服贪惧，天然实现高位止盈、低位抄底。巴菲特逆向操作的底气，从来不是胆大，而是充足的现金流和容错仓位，股债平衡就是普通投资者最稳妥的行情弹药库",
+        "对抗机器纪律 如今的A股，早已不是散户对庄家的简单博弈，量化模型、程序化交易、机构量化资金，已占据市场大部分成交份额"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "沙特史诗级降价解读，油运进入真供需阶段",
+      "title_zh": "沙特大幅下调亚洲原油售价，油运逻辑从地缘溢价转向真实供需",
+      "url": "http://xueqiu.com/1701766657/398730868",
+      "published": "Tue, 07 Jul 2026 09:23:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "China",
+        "its",
+        "OSP",
+        "Saudi",
+        "through"
+      ],
+      "summary": "沙特阿美把 8 月销往亚洲的阿拉伯轻质原油官方售价大幅下调，核心目标是重新争夺亚洲份额并加快出货。文章认为，随着霍尔木兹海峡逐步恢复通航，油运市场的定价逻辑会从短期地缘风险溢价，切换到更可持续的真实装船需求。对投资者更关键的观察点，不再是单次事件冲击，而是海湾出口恢复、OPEC+ 增产和战略储备补库节奏能否继续抬升运力利用率。",
+      "key_points": [
+        "目前供应恢复速度明显快于库存恢复速度。海湾国家可以迅速恢复产能、恢复装船，但全球战略储备补库却需要时间。无论是OECD国家，还是美国SPR，机构普遍预计都要到今…",
+        "海湾产油国恢复出口、OPEC+持续增产、沙特主动降价抢订单，本身都意味着更多货盘需要装船",
+        "对于油运投资而言，我们需要关注三个更关键的数据： 第一，霍尔木兹海峡每天实际通过的原油和成品油流量是否持续恢复"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "股息收入，将成为保险股的胜负手（下）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7543024848/398734266",
+      "published": "Tue, 07 Jul 2026 09:23:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AC+FVOCI+FVTPL",
+        "http",
+        "SH601318",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "上一篇文章，我分析了我发现的一个问题，那就是最近两年，平安产险的净投资收益率急剧下滑，而平安人寿则好很多。 而另外一家公司也引起了我的强烈兴趣，那就是人保。我想要看看人保财险和人保寿险是否也存在平安一样的情况，这篇文章我就会来分析一下。 这个分析相对还是有点麻烦的，因为没有现成的数据，我每年都在整理人保的投资收益率，得到的数据是这样的： 也就是说，人保财险（也就是中国财险）目前财报并不公布净投资收益率了，人保公布的只有整个集团的数据。所以要得到人保财险和人保寿险的数据，我只能自己算。 根据我看财报的经验，当一家公司…",
+      "key_points": [
+        "净投资收益包括了利息收入+股息收入+投资性房地产租金收入。这里我就不加联营合营企业投资收益了，原因是：中国财险在2022年及之前是直接公布净投资收益率的，我看了…",
+        "如果有一天平安能够率先达到很高的股票占比，股息收入能够比债券的利息收入还要高，那么利率下行时，或许就不能算平安的逆周期了",
+        "都可以在年报或者子公司的年度信息披露中找到（除了投资性房地产的租金收入可能找不到，但是金额较小）。接下来我就直接上结果了"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "重新认识中证1000",
+      "title_zh": "重新认识中证 1000：它不再只是传统印象里的“小盘股集合”",
+      "url": "http://xueqiu.com/3559889031/398732971",
+      "published": "Tue, 07 Jul 2026 09:23:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "Wind",
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "文章试图纠正市场对中证 1000 的旧印象：它不只是小市值股票堆砌，而是在盈利预期、行业结构和风格收益上都出现了新变化。尤其值得注意的是，作者强调该指数未来几年盈利增速预期明显修复，这会改变它过去只能依靠增强策略挖超额的叙事。对关注中小盘风格轮动的人来说，这篇更像一次框架更新，而不是单纯的指数科普。",
+      "key_points": [
+        "重新看了下中证1000的指数数据，才发现对中证1000这个指数，的确要有一些新认识，不能抱着老思想了",
+        "中证1000的利润增速，竟然从2023年、2024年的每年20%+的同比下降，变成了2026年预期的58.23%的增加，甚至2027年和2028年同样预期增加。…",
+        "尤其是我一般习惯于对比2016年迄今的收益，那恰好是刚刚经历了2015年的去杠杆熊市，恰恰是小盘股估值最不堪时。所以从下图可以看到，2016年迄今(截至2026…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为了对抗AI的\"附和\"，我把它做成了一款产品",
+      "title_zh": "为了克服 AI 彼此附和，作者把多模型讨论做成了一款产品",
+      "url": "https://www.woshipm.com/ai/6425750.html",
+      "published": "Tue, 07 Jul 2026 09:19:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "share",
+        "chat",
+        "chat.deepseek.com",
+        "thread"
+      ],
+      "summary": "这篇文章把“多 AI 讨论为什么没有认知增量”拆成一个产品问题，而不是单纯的提示词技巧问题。作者的解法是让不同模型先独立表态，再互相修正，最后允许人工只在关键节点介入，从流程上减少从众和空转。对做 Agent 或协作工具的人来说，价值在于它提供了一套可迁移的设计原则：先保证观点独立，再追求收敛效率。",
+      "key_points": [
+        "原因是——我不想要辩论。辩论的目标是争输赢，而我要的讨论是客观分析一个命题的各个侧面。强制分歧虽然让 AI 不再附和，但它把讨论变成了一场对抗游戏。这不是我要的…",
+        "真正重要的是： 我把 AI 的“附和”问题，从一个技术问题变成了一个产品问题来解决",
+        "我开始把它做成产品 方案验证完了，但实际使用还是一个痛点：我需要反复在三个 AI 网页之间复制粘贴，手动转发观点，操作本身占据了思考的精力"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "流量50亿却卖不动货？不是内容不行，是你没搞懂AI营销地图",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6425813.html",
+      "published": "Tue, 07 Jul 2026 09:17:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "Google",
+        "abs",
+        "AIDM",
+        "An"
+      ],
+      "summary": "你应该也有过这种经历。本来只是随手刷手机，突然看到一款产品：一台扫地机器人、一瓶防晒、一只通勤包，或者一门 AI 课程。内容拍得不错，你心里觉得“好像有点用”，但没有马上下单。 你可能会先搜真实体验，再去电商平台看差评；如果价格不低，还会去 B 站看长测评，或者等直播间讲到优惠。最后，商品可能只是进了收藏夹，或者躺在购物车里。 我越来越觉得，AI 营销真正值得讨论的地方，不是“AI 能不能帮品牌生成 100 条广告文案”，而是另一个更难的问题： 用户为什么已经看见了，也有点动心了，却还是没有买？ 先看一个最近很出圈…",
+      "key_points": [
+        "可以解释这种犹豫。很多时候，用户不是不想得到好处，而是更怕买错。买贵了、买假了、不适合自己、售后麻烦，这些可能的损失，会放大用户的迟疑。[4] 所以，AI 营销…",
+        "AI 驱动的用户决策营销地图 把上面的理论和现实场景放在一起，我总结了一套方法叫做 AIDM：AI-driven Decision Marketing Fram…",
+        "用 AI 视频工具把传统“狐仙报恩”的剧情改成了反转武侠短剧。观众本来以为下一秒是狐狸报恩，结果角色突然来一句：“我不是那只狐狸，我是那只酱板鸭。” 这个反差太…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "“烧”掉了百亿美元，世界模型的概念都还没有统一",
+      "title_zh": "世界模型热度飙升，但行业对它究竟是什么仍未达成共识",
+      "url": "https://www.woshipm.com/ai/6426133.html",
+      "published": "Tue, 07 Jul 2026 09:14:34 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "VLA",
+        "AI",
+        "Token",
+        "Labs",
+        "World",
+        "EVA"
+      ],
+      "summary": "文章梳理了世界模型近 18 个月迅速升温的背景：资本和机器人路线都在押注“让模型理解物理世界”。但作者也指出，行业对世界模型的定义仍高度分裂，有人把它理解为视频生成，有人强调潜空间预测、规划器或模拟器。真正值得关注的不是概念口号，而是它与 VLA 路线如何分工协作，以及数据与物理常识这两道门槛何时能被跨过去。",
+      "key_points": [
+        "世界模型正从学术概念蜕变为AI领域的技术风暴眼，与VLA技术路线共同重构具身智能的未来图景。18个月内超百亿美金的资本涌入，揭示了行业对物理世界理解的狂热追求。…",
+        "世界模型负责理解世界，VLA负责作用于世界，两者并非对立关系，而是天然统一的整体。而VLA和世界模型的分工，类似于“大脑皮层”与“小脑”的关系，大脑皮层负责理解…",
+        "但业界对于“什么是世界模型”至今还没有达成共识，渲染器、模拟器、规划器、视频生成、潜空间预测……五花八门的定义和路径各自圈地，仿佛一群人在不同维度上谈论着同一件…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "WPS被骂不冤，但也听劝了",
+      "title_zh": "WPS 被骂并不冤，但这次至少开始认真修复信任问题",
+      "url": "https://www.woshipm.com/it/6426121.html",
+      "published": "Tue, 07 Jul 2026 09:12:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "WPS",
+        "AI",
+        "Office",
+        "Copilot",
+        "CEO",
+        "Microsoft"
+      ],
+      "summary": "文章围绕 C 盘占用、会员收费和功能设限争议，复盘了 WPS 这轮口碑危机。重点不只是“被骂”，而是厂商后续是否拿出可验证的改动，例如清理存储策略、简化会员体系和改善回应方式。对 SaaS 和办公软件团队来说，这更像一堂产品治理课：一旦商业化逻辑长期侵蚀基本体验，后续补救就不再是 PR 问题，而是信任成本问题。",
+      "key_points": [
+        "WPS一开始被骂，并不冤枉。比较庆幸的是，金山办公最终认真听劝，用务实、真诚的动作整改问题、修复口碑",
+        "金山办公表态，将持续接纳用户的批评和建议，及时改进。但也会对个别恶意造谣、蓄意诽谤的行为，坚决依法维权"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "自带强迫症AI Agent，不检查到 100 分不交卷",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6426073.html",
+      "published": "Tue, 07 Jul 2026 06:38:38 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenSquilla",
+        "AI",
+        "Deepseek",
+        "pro",
+        "v4",
+        "bug"
+      ],
+      "summary": "OpenSquilla · 0.4.0 还记得上个月推荐给大家的 OpenSquilla 吗？就是那个会自动把请求路由到不同的模型、还能写出 metaskill 的 Agent。 没看过的小伙伴可以看这篇 原来 Agent 该这么跑 我被一个开源项目点醒了… 他们刚刚更新了 0.4.0 版 ，这次有客户端了，直接安装，简单设置一下，开箱即用。老用户直接升级，不用担心原来的所有数据。 01 客户端上线 三步 开箱即用 01 选择简单设置 02 填写一个 openrouter 的 apikey 03 选择使用什么网络搜…",
+      "key_points": [
+        "02 · CODE-TASK 这不是重点。重点是，这个版本植入了 强迫症 DNA ，官方名称 code-task",
+        "03 不止于测试 还有两处 强迫症 细节 OpenSquilla 这强迫症还不止体现在测试上",
+        "它把 强迫症 、 拿证据 、 可控制 这三件事，做成了 DNA"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "鸭和鹅到底有什么区别？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790981",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "我要的是饼干， 正宗无业游民，小学结业者。 查看知乎原文 我养过的鸭肯定超过五千万只了，养过的鹅可能五万只不到。 就问题描述里，有很多是错的，我来说一下。 额头的肉瘤，鸭也是有的，最明显的是番鸭，番鸭的肉瘤是很鲜艳的红色，比鹅更显眼。而且番鸭绝对没有温顺胆小，比鹅还要凶悍。 鸡鸭鹅中，攻击力最强的是鸡，鹅只能算是最弱的。 火鸡。有人说它不好吃，其实它煮的汤很清甜，煮很久也不会冒油。我养过的火鸡最重的能有 60 斤，真的可以一脚踢死你。 然后是番鸭，我养过的，最重的有 23 斤，也可以打得你流血不止。因为它的爪真的是…",
+      "key_points": [
+        "很多人点赞和收藏了，我继续打，先说清楚一件事，红牛那篇是我写的，不要再问哈。那个号是我输给别人的，那个号写了几个都是小几万赞的回答后，就不停有人来找我打广告，我…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "你还在古书中读到过哪些“不经提点”多数人就理解不了的东西？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9790995",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Tumbaga",
+        "Arsenical",
+        "Azonker",
+        "bajo",
+        "btw",
+        "copper"
+      ],
+      "summary": "Azonker， Made Of Stone 查看知乎原文 众所周知，西班牙征服者在到达美洲后经常拿一些欧洲小商品（比如玻璃珠）换当地人的贵重物品，例如珍珠黄金之类的。 “我们正在修船的时候,来了许多托纳拉村的印第安人,那村子离河岸一西班牙里,是个很和平的村子。他们带来了玉米饼、鱼和水果,很友善地赠给我们。统帅对他们客气非常,让人拿绿色和透明的珠子回赠他们,还打手势让他们拿黄金饰物来换我们的东西。印第安人带来了金饰物,我们拿出玻璃珠子与他们交换。瓜萨卡尔科村和周围其他村落的印第安人也带着他们的劣等饰物来和我们交换，…",
+      "key_points": [
+        "氧化层脱落，或者在被西班牙人反复磨损，长久存放后，内部的铜色才会显露出来（书中所述的“生锈”正是这一过程）"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "乱套了！超强台风巴威大概率登陆华东，美莎克将北上并降特大暴雨",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B9%B1%E5%A5%97%E4%BA%86%EF%BC%81%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E5%B7%B4%E5%A8%81%E5%A4%A7%E6%A6%82%E7%8E%87%E7%99%BB%E9%99%86%E5%8D%8E%E4%B8%9C%EF%BC%8C%E7%BE%8E%E8%8E%8E%E5%85%8B%E5%B0%86%E5%8C%97%E4%B8%8A%E5%B9%B6%E9%99%8D%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
+      "published": "Tue, 07 Jul 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EF2",
+        "ID",
+        "qxahz-tybbs"
+      ],
+      "summary": "7月5日夜间到7月6日全天，超强台风巴威维持了一种近乎变态的稳定状态，即使是穿过了近500米高的罗塔岛，它的台风眼始终犀利清晰，核心对流云团始终稳定，中心附近最大风力始终维持在17级以上。唯一有所变化的可能就是它的体积：没错，已经非常巨大的巴威，又变大了。 卫星云图可见，7月6日晚，巴威的外围云系最大直径已经达到1800公里，六级风圈直径接近1000公里，已经是不折不扣的巨型台风。未来，它还将在西北太平洋暖池上待3天，再经历1-2轮眼壁置换，并且逐步接手台风美莎克的西南季风水汽，环流还将继续扩大。到7月9日，巴威的…",
+      "key_points": [
+        "由于巴威后期实在太大，目前，巴威仍有10%的可能性在浙江、上海近海北上。但不管怎么说，巴威严重影响华东沿海已成定局，登陆华东也已是大概率事件。如果登陆，巴威后期…",
+        "我国近海海温大幅偏高，东海中南部已经升到了28度以上。因此，巴威靠近我国时虽然强度会降，但可能降的有限。如果巴威掠过台湾北部，它将以强台风强度登陆浙闽交界处附近…",
+        "超强台风巴威维持了一种近乎变态的稳定状态，即使是穿过了近500米高的罗塔岛，它的台风眼始终犀利清晰，核心对流云团始终稳定，中心附近最大风力始终维持在17级以上。…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苹果折叠屏iPhone Ultra量产启动；英特尔CPU涨价7%-16%；6G产业化验证中试平台上海启动",
+      "title_zh": "科技早报：折叠屏 iPhone 量产、英特尔 CPU 涨价、上海启动 6G 中试平台",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone+Ultra%E9%87%8F%E4%BA%A7%E5%90%AF%E5%8A%A8%EF%BC%9B%E8%8B%B1%E7%89%B9%E5%B0%94CPU%E6%B6%A8%E4%BB%B77%25-16%25%EF%BC%9B6G%E4%BA%A7%E4%B8%9A%E5%8C%96%E9%AA%8C%E8%AF%81%E4%B8%AD%E8%AF%95%E5%B9%B3%E5%8F%B0%E4%B8%8A%E6%B5%B7%E5%90%AF%E5%8A%A8",
+      "published": "Tue, 07 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "Ultra",
+        "iPhone",
+        "CPU",
+        "GPT-5.6",
+        "Hy3",
+        "ICML"
+      ],
+      "summary": "这是一篇新闻合集，但背后串起来的是同一条线索：消费硬件、芯片供给和下一代通信基础设施都在同步进入新阶段。代表性信号包括苹果折叠屏进入量产准备、英特尔在供需挤压下上调部分 CPU 价格，以及上海启动 6G 产业化验证中试平台。适合需要快速补一遍科技产业面动态的读者，用来抓住“硬件周期 + 算力供给 + 通信布局”这三个焦点。",
+      "key_points": [
+        "英特尔称调价基于“不断变化的市场动态和供应链成本监控”。核心原因是AI算力抢占晶圆产能导致消费级供给收缩，部分Xeon 8000系列型号建议零售价已高出发布时定…",
+        "6G产业化验证中试平台上海启动 5.ICML放榜，清华阿里拿下最高奖 科技 SpaceX Transporter-17搭载首颗商业核动力卫星 SpaceX于7月…",
+        "重点新闻速览 1.苹果折叠屏iPhone Ultra量产启动 2.英特尔CPU涨价7%-16% 3.微软Xbox部门裁员3200人 4"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "林克莱特除了拍电影，还会啥？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9E%97%E5%85%8B%E8%8E%B1%E7%89%B9%E9%99%A4%E4%BA%86%E6%8B%8D%E7%94%B5%E5%BD%B1%EF%BC%8C%E8%BF%98%E4%BC%9A%E5%95%A5%EF%BC%9F",
+      "published": "Tue, 07 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A.F.S.",
+        "AMC",
+        "Cinema",
+        "Alamo",
+        "Austin",
+        "Belcourt"
+      ],
+      "summary": "作者：Elena Saavedra Buckley 译者：易二三 校对：奥涅金 来源：《纽约客》（2020年7月18日） 刚刚过去的这个春天的大部分时间里，德克萨斯州奥斯汀的场景就像理查德·林克莱特九十年代初的电影《都市浪人》开场独白中所描述的那样梦幻——这部电影是在这座城市里创作、表演和拍摄的。 《都市浪人》 「我刚才在 汽车上做了个非常奇怪的梦，」影片主角对一个冷漠的出租车司机说道。 「什么都没有发生。 老兄，就好像《最后一个人》里的场景。 周围没有人……当我回到家里的时候，我不停地切换电视频道，阅读。 」 当…",
+      "key_points": [
+        "而它们的观众往往也比较忠诚；这两种品质在危机时期都能派上用场。3月底，标准收藏（Criterion Collection）和剑锋影业（Janus Films）发…",
+        "林克莱特还是从过去的角度谈论了电影院。「我认为，电影院之所以一直如此成功，是因为它能再现梦境状态，」他一边说，一边看着屏幕上闪现的彩色宣传片——「无限爆米花」和…",
+        "」 林克莱特就像一条良犬嗅出了自己的老窝一样，匆匆跑向电影院门口挂着的电影海报——《死吻》、《红色沙漠》，还有一整面墙的波兰海报——这些都是从他的大量收藏中取出…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "美国建国250年，电影界献礼了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%BE%8E%E5%9B%BD%E5%BB%BA%E5%9B%BD250%E5%B9%B4%EF%BC%8C%E7%94%B5%E5%BD%B1%E7%95%8C%E7%8C%AE%E7%A4%BC%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Tue, 07 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "ruike"
+      ],
+      "summary": "文 ruike 今年刚刚过去的的 7 月 4 日，是美国立国 250 周年。 大量的官方庆祝活动在进行中。费城重新开放了关闭半个世纪的第一银行旧址，史密森尼学会推出覆盖旗下 21 座博物馆的周年特展 …… 与此同时，专注信仰题材的天使影业赶在 7 月 3 日上映了《青年华盛顿》，讲乔治 · 华盛顿在法国印第安人战争中的经历，片名也呼应了约翰·福特的影史名作《青年林肯》。 《青年 华盛顿》 这部由乔恩 · 欧文执导的电影收获了两极评价，评论界称它像小学课本里那种伟人传记，观众评分却给到 A 。 无论如何，建国叙事作为…",
+      "key_points": [
+        "首周末拿下 5000 万美元，最终全球票房达 8.17 亿。这部影片的爱国主义性质与前述所有电影都不同。它不讲述美国历史，不触及建国叙事，甚至不讨论美国国内的任…",
+        "这里暴露了美国建国神话的一个深层悖论。它足够强韧，可以容纳对自身的批判。奥利弗 · 斯通拍摄《生于七月四日》的自由，本身就受到建国文件所确立的第一修正案保护",
+        "林 - 曼努尔 · 米兰达的《汉密尔顿》对建国叙事进行了一次根本性的重构。这部百老汇音乐剧于 2015 年首演， 2020 年由流媒体平台发行了原卡司录制的现场…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，才是夏季最关键的一天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%89%8D%E6%98%AF%E5%A4%8F%E5%AD%A3%E6%9C%80%E5%85%B3%E9%94%AE%E7%9A%84%E4%B8%80%E5%A4%A9",
+      "published": "Tue, 07 Jul 2026 07:30:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Carol"
+      ],
+      "summary": "今天 我们迎来了二十四节气中 第十一个节气—— 小暑 。 《月令七十二候集解》中记载： “六月节……暑，热也， 就热之中分为大小， 月初为小，月中为大， 今则热气犹小也。” 小暑虽带着个“小”字， 其之于夏天的意义 却一点都不小！ 首先，小暑在二十四节气中的 分量可不小： 它与小寒、大寒、大暑同是 直接反映气温变化的节气 。 小暑时节最大的气候特点， 是夏季天气格局的“换挡”—— “一出一入”， 出是 出梅 ，入是 入伏 。 梅雨季的江苏扬州瘦西湖 每年六月中旬至七月上旬， 长江中下游地区陷入漫长的梅雨， 空气湿度…",
+      "key_points": [
+        "小暑时节是‌ 东亚夏季风系统 与副热带高压季节性北抬 的 关键时间节点‌",
+        "是夏季天气格局的“换挡”—— “一出一入”， 出是 出梅 ，入是 入伏",
+        "今天 我们迎来了二十四节气中 第十一个节气—— 小暑"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "一坨云的半小时",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%80%E5%9D%A8%E4%BA%91%E7%9A%84%E5%8D%8A%E5%B0%8F%E6%97%B6",
+      "published": "Tue, 07 Jul 2026 12:14:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "同一坨云，在半个小时内的前后变化。最后好像还生了一坨小云出来......大手笔啊这是。 文章原文",
+      "key_points": [
+        "在半个小时内的前后变化。最后好像还生了一坨小云出来......大手笔啊这是"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "名画背后的科学秘密，科学史的“图像叙事” | 左图右史",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%90%8D%E7%94%BB%E8%83%8C%E5%90%8E%E7%9A%84%E7%A7%91%E5%AD%A6%E7%A7%98%E5%AF%86%EF%BC%8C%E7%A7%91%E5%AD%A6%E5%8F%B2%E7%9A%84%E2%80%9C%E5%9B%BE%E5%83%8F%E5%8F%99%E4%BA%8B%E2%80%9D+%7C+%E5%B7%A6%E5%9B%BE%E5%8F%B3%E5%8F%B2",
+      "published": "Tue, 07 Jul 2026 08:12:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Analemma",
+        "Antikythera",
+        "Ashdod",
+        "c.1611",
+        "c.1745",
+        "c.1860"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 《格致丹青——美术作品中的科学与文化》 湖南科学技术出版社，2025年10月第1版 撰文｜刘钝 ‍ ● ● ● 拙著《格致丹青：美术作品中的科学与文化》有幸面世，笔者自拟的“内容简介”坦言：“本书如果有幸被列入艺术类著作的话，那也是一本不入正统之流的异类作品。作者采用科学史与文化史的视角，尝试对不同时代不同风格的美术作品提供一些比较新鲜的观感。”又在“作者题记”内声称：“作者略晓数理，粗通文墨，少年涂鸦，壮游四海名博艺苑。然而他既非专业美术人士，也缺乏艺…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 《格致丹青——美术作品中的科学与文化》 湖南科学技术出版社，2025年10月第1版 撰文｜刘钝 ‍…",
+        "图20 罗聘《鬼趣图》八段之一 香港私人收藏 以上介绍了笔者在科学史与文化史框架内探索 “ 图像叙事 ” 的若干努力，或许能为前述 “ 比较新鲜的观感 ” 与…",
+        "图3 安提凯希拉装置残件(约公元前2世纪) 现藏现藏雅典希腊国家考古博物馆 02 讲科学 “ 格致 ” 是前近代中国人对自然知识的统称，揭示画面背后的科学内涵是…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-08",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他们破解作物“午睡”百年谜题，水稻增产有望",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E4%BB%AC%E7%A0%B4%E8%A7%A3%E4%BD%9C%E7%89%A9%E2%80%9C%E5%8D%88%E7%9D%A1%E2%80%9D%E7%99%BE%E5%B9%B4%E8%B0%9C%E9%A2%98%EF%BC%8C%E6%B0%B4%E7%A8%BB%E5%A2%9E%E4%BA%A7%E6%9C%89%E6%9C%9B",
+      "published": "Sun, 05 Jul 2026 07:59:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "doi.org",
+        "MBS1",
+        "Unsplash",
+        "articles",
+        "Beat"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 跟踪前沿进展，掌握最新动态 撰文 | 知识分子 ● ● ● 1 他们破解作物“午睡”百年谜题，水稻可增产一至四成 图片来源：中国科学院遗传与发育生物学研究所/崖州湾国家实验室 中国科学院遗传与发育生物学研究所/崖州湾国家实验室李家洋院士团队与合作者，今年6月在《细胞》杂志在线发表论文阐述植物蛋白相变介导的新型光保护并增强光合作用的机制，并以主栽稻花香品种开展多年多点田间规模测产试验，证实该技术增产成效显著，能够让水稻等农作物产量提升10%至40%。 据该…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 跟踪前沿进展，掌握最新动态 撰文 | 知识分子 ● ● ● 1 他们破解作物“午睡”百年谜题，水稻…",
+        "既是论文共同第一作者，也是共同通讯作者，她2016年加入李家洋位于遗传发育所的实验室。据《中国科学报》报道，在推进作物“午睡”机制这个研究中，李家洋和邵宁选择了…",
+        "图片来源：Unsplash 2026 年 7 月 1 日， 四川农业大学水稻研究所钦鹏、李仕贵团队联合中国科学技术大学生命科学与医学部向成斌、孙林峰团队，在《自…"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791003",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EGO"
+      ],
+      "summary": "瞎扯 · 你去过最离谱的景区是什么？ 知乎日报 查看知乎原文 Q： 你去过最离谱的景区是什么？ @晚点再起名 ：这个算吗？石家庄的 刘华强 买瓜遗址。 Q： 什么是微软式中文？ @EGO ：今天凌晨升级系统时拿手机拍的，好笑又无语。 Q： 什么是知识的诅咒？ @航迹云 ：当你从学校走向社会，真正开始找工作： Q： 百度还有希望崛起吗？ @小明 ：我都搜 海姆立克急救法 了，它仍旧坚持优先给我推送广告。 这要是还能崛起，那就真的逆天了。 Q： 你见过药物最吓人的副作用是什么？ @美食达人汉尼拔 ： 乌帕替尼 说明书上…",
+      "key_points": [
+        "瞎扯 · 你去过最离谱的景区是什么"
+      ]
+    }
+  ]
+}
