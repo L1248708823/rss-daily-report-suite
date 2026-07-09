@@ -1,0 +1,709 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T01:00:12.112360+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 94,
+    "fresh_candidates": 66,
+    "backfill_candidates": 28,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-09",
+      "fetched_at": "2026-07-09T01:00:06.823803+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3970.88,
+          "change": -19.36,
+          "change_pct": -0.49,
+          "volume": 496229374.0,
+          "amount": 119235580.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4073.49,
+          "change": -3.700000000000273,
+          "change_pct": -0.09,
+          "prev_close": 4077.19,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-09 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 891.2212275145883,
+          "change": -0.8095069686690977,
+          "change_pct": -0.0907487755046955,
+          "prev_close": 892.0307344832574,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-09 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%87%E5%9B%AD%E4%B9%8B%E5%9B%AD%EF%BC%8C%E5%A5%BD%E8%BF%90%E8%BF%9E%E2%80%9C%E8%8E%B2%E2%80%9D%EF%BC%81",
+        "title": "万园之园，好运连“莲”！",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "景区赏花预告与直播导流为主，信息增量低，偏活动/文旅推广"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-09T01:02:18.463758+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6426869.html",
+      "top_urls": [
+        "http://xueqiu.com/4184484807/398933386",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%B8%AF%E8%82%A1%E7%BB%88%E4%BA%8E%E5%A4%A7%E6%B6%A8%EF%BC%81%E8%BF%98%E5%A5%BD%E6%88%91%E6%B2%A1%E6%94%BE%E5%BC%83%EF%BC%81",
+        "https://www.woshipm.com/ai/6426847.html",
+        "https://www.woshipm.com/ai/6426835.html",
+        "https://www.woshipm.com/ai/6426767.html"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "港股终于大涨！还好我没放弃！",
+      "title_zh": "港股终于反弹：流动性改善与政策表态正在重估市场预期",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%B8%AF%E8%82%A1%E7%BB%88%E4%BA%8E%E5%A4%A7%E6%B6%A8%EF%BC%81%E8%BF%98%E5%A5%BD%E6%88%91%E6%B2%A1%E6%94%BE%E5%BC%83%EF%BC%81",
+      "published": "Wed, 08 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PE"
+      ],
+      "summary": "文章把这次港股大涨归因到资金面预期变化，尤其是香港资产配置表态对中长期增量资金的影响。相比单纯情绪复盘，它更有价值的部分是把港股低迷拆成美元流动性和内部资金虹吸两层，再讨论政策变化是否会重新修复恒科资产定价。",
+      "key_points": [
+        "一、港股为什么大涨？怎么看待政策的长远影响",
+        "大部分人都是在大涨后才发现热点，比如 去年年底的有色，年初的石油，二季度的AI，而当成为热点的时候，已经过了最好的买入时机",
+        "不仅能对冲美联储政策带来的外部冲击，也能提升内资对港股定价的话语权，降低市场对外资的顾虑和担忧"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "【干货】为什么坚定看好AI，大白话分析",
+      "title_zh": "为什么仍然坚定看好 AI：从芯片、光通信到先进封装的产业链梳理",
+      "url": "http://xueqiu.com/4184484807/398933386",
+      "published": "Wed, 08 Jul 2026 10:22:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "cpo",
+        "CoWoS",
+        "CPO",
+        "CPU",
+        "GPU"
+      ],
+      "summary": "这篇内容把当前 AI 投资主线拆成芯片、光通信、存储和先进封装几段，重点强调行情回调不等于产业逻辑结束。可读价值在于它不是泛泛喊口号，而是给出玻璃基板、HBF、CPO、近存计算等下一轮可能受益的细分方向，适合当作观察清单而不是交易口号。",
+      "key_points": [
+        "回顾近三个月持股经历 盛合晶微→联讯仪器→盛合晶微→联瑞新材→富信科技→臻宝科技→兆易创新→聚辰股份→南亚新材→吉和昌→聚辰股份 始终围绕AI产业的存储、先进封…",
+        "我不相信AI行情就此结束，坚定认为调整到位后，深度受益于下一代技术升级的环节，有着巨大的机会，比如玻璃基板、HBF、CPO，先进封装、近存计算、M9、M10等等…",
+        "近期持有科技股回撤是很正常的，全世界科技一起跌，不要一跌就没有信仰、一涨就看多十倍，未来几年，不坚定持有AI，很难赚到巨额收益"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "老登行业-水泥以及印尼煤电力",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7103876041/398943081",
+      "published": "Wed, 08 Jul 2026 10:22:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "rmb",
+        "vs",
+        "ai",
+        "http",
+        "pcb",
+        "SZ300308"
+      ],
+      "summary": "昨天有两个人多问了两遍水泥 而这里 大家对内卷、老登行业，产能过剩等等 实际都有类似的问题。 供需关系和中国剪不掉的产能，到底怎么回事 顺便扯扯电力 水泥行业供大于求 最核心问题是什么？ 是供需关系么？ 而中国有全世界最低价格得水泥，持续过剩，产能持续出清难 是行业太差么？ 什么ai就是未来。 水泥这类行业企业都完蛋？ 恰恰相反 这类行业，水泥。 都有一个特点 暴利 叠加中国特殊的极低建设成本，极低的吨水泥投资。 简单说 就是海螺吨水泥投资不过500rmb。 民企老产能能低到300以下。 好年份 这个投资 民企一年…",
+      "key_points": [
+        "昨天有两个人多问了两遍水泥 而这里 大家对内卷、老登行业，产能过剩等等 实际都有类似的问题",
+        "到底怎么回事 顺便扯扯电力 水泥行业供大于求 最核心问题是什么",
+        "这才是多数下游行业 拿不到类似国外产业高额回报原因 这也是我持续看好上游产业原因 上游老登产业 最终能产能持牌的 不会有垃圾行业 为什么不那么看好高科技 好多高…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "牛市的终点，不是暴跌，是“沉默”",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/399015050",
+      "published": "Wed, 08 Jul 2026 10:21:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "M2",
+        "SH600036",
+        "SH600519",
+        "SZ159919"
+      ],
+      "summary": "深耕市场多年，我最深的投资感悟： 一轮大牛市真正的终点，从来不是轰轰烈烈的暴跌，而是行情顶点悄然而至的无声沉默。 这种沉默，是全市场弥漫的疲惫。场内投资者大都持股待涨，等待新资金进场接力，可场外增量资金，早已不再入场。 多数人判断牛市顶部，只会依靠估值过高、量价背离、市场过热这些常见指标。今天我换一个视角，拆解牛市末期隐蔽又致命的转折： 流动性内爆 。 市场普遍存在一个误区： 牛市终结于集体恐慌抛售。真相恰恰相反，牛市的落幕，始于没有人愿意主动买入的那一刻。 场内筹码尚且稳定，没有大规模出逃，但主动进场的买盘已经枯…",
+      "key_points": [
+        "我最深的投资感悟： 一轮大牛市真正的终点，从来不是轰轰烈烈的暴跌，而是行情顶点悄然而至的无声沉默",
+        "龙头承载着整轮行情的炒作逻辑与做多信心。只要龙头持续新高，市场就还有持股耐心。但信仰的崩塌，往往不是暴跌，而是高位失语",
+        "而是完成残酷进化 彼得·林奇的圈层理论清晰解释牛市终点：投资者如同同心圆分布，内层是机构，中层是公募与高净值人群，外层是普通散户。一轮牛市，就是资金与逻辑由内向…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "红利与现金流大跌：别只怪科技 “吸血”，数据背后藏着更本质的真相",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/398994584",
+      "published": "Wed, 08 Jul 2026 10:21:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CF",
+        "PE-TTM",
+        "CSI932365",
+        "CSIH30269",
+        "http"
+      ],
+      "summary": "最近和一些基民聊天，大家都在吐槽手里的“老登资产”。 有人拿着红利低波，有人配了自由现金流，原本以为是防守端的“压舱石”，结果这几个月跌得比谁都狠。大家茶余饭后聊起来，口径出奇一致： 还不是被科技成长吸血了？钱都跑去炒AI、追半导体，谁还看得上几个点股息的老古董。 这话听着挺顺耳，毕竟眼看着对面科技板块热火朝天，这边红利、现金流死气沉沉，流动性被抽走似乎是最合理的解释。 但我总觉得，事情可能没这么简单。 为了搞清楚红利和现金流到底经历了什么，我特意去拉了一组Wind数据，把这两个指数从高点以来的表现拆开揉碎了看。…",
+      "key_points": [
+        "有人配了自由现金流，原本以为是防守端的“压舱石”，结果这几个月跌得比谁都狠。大家茶余饭后聊起来，口径出奇一致： 还不是被科技成长吸血了？钱都跑去炒AI、追半导体…",
+        "毕竟眼看着对面科技板块热火朝天，这边红利、现金流死气沉沉，流动性被抽走似乎是最合理的解释",
+        "04 给普通投资者的中肯建议 市场永远喜欢用简单的叙事解释复杂的涨跌。“科技吸血” 之所以流传甚广，是因为它足够直观、足够有情绪感染力。但真正的投资决策，不能建…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "你的AI Skill为什么不好用？三个场景拆解调优方法",
+      "title_zh": "为什么你的 AI Skill 不好用？三个场景拆解调优方法",
+      "url": "https://www.woshipm.com/ai/6426869.html",
+      "published": "Wed, 08 Jul 2026 10:59:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "Skill",
+        "AI",
+        "PRD",
+        "description",
+        "reference",
+        "Agent"
+      ],
+      "summary": "文章把 AI Skill 调优拆成产品、设计、运营三个落地场景，核心不是继续堆提示词，而是把输入边界、交付格式和验收规则写成稳定工作流。亮点在于给出一份可复用的检查清单，适合把“偶尔好用”的技能改造成团队内可复制的生产工具。",
+      "key_points": [
+        "从‘能用’到‘好用’需要精细调优。本文深入产品、设计、运营三大场景，揭秘如何将模糊指令转化为稳定工作流：产品经理的预检工具、设计师的交付清单、运营的内容筛选器，…",
+        "八、一个通用调优清单 如果你已经写了一个 Skill，但总觉得不好用，可以按下面这张清单检查： 1",
+        "方法不复杂： 拿一个满意结果，让 AI 反推流程；做完一遍真实任务，让 AI 总结你的判断；先写一份工作说明书，再让 AI 优化成 Skill"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从囤积到经营：我用Obsidian+AI打造认知资产库的全过程",
+      "title_zh": "从囤积到经营：用 Obsidian 和 AI 搭建认知资产库",
+      "url": "https://www.woshipm.com/ai/6426767.html",
+      "published": "Wed, 08 Jul 2026 10:59:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "LLM",
+        "Karpathy",
+        "Obsidian",
+        "RAG",
+        "Skill"
+      ],
+      "summary": "文章把个人知识库从“收藏夹”升级成“认知资产库”，重点在于分层处理、主题治理，以及让 LLM 在记录、提炼、复用不同阶段承担不同角色。它的价值不在工具炫技，而在提醒读者：AI 时代知识管理的瓶颈不是收集，而是持续压缩和重组。",
+      "key_points": [
+        "如何让信息真正转化为个人认知资产？本文作者用半年时间重构Obsidian知识管理体系，从三层处理架构到主题驱动治理，揭示AI时代个人知识管理的核心不是收集而是淬…",
+        "这也是为什么我说知识库的核心本体不是知识集合，而是认知资产。搭建和使用知识库的大半年里，我最大的认知变化就是从这里开始的——目标从“存了多少篇文章”变成了“沉淀…",
+        "Karpathy 的 LLM Wiki 框架里有一个类似的洞察：好的查询结果可以反向归档为新的 wiki 页面，让探索本身也成为知识资产。我的知识应用 Skil…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI越强，越需要人“兜底”：botsitting的产业逻辑与就业机会",
+      "title_zh": "AI 越强，越需要人兜底：Botsitting 的产业逻辑与就业机会",
+      "url": "https://www.woshipm.com/ai/6426847.html",
+      "published": "Wed, 08 Jul 2026 09:33:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "botsitting",
+        "Work",
+        "Claude",
+        "Index",
+        "NACE"
+      ],
+      "summary": "文章讨论了一个容易被忽视的现实：AI 并不会直接把人从流程里拿掉，而是催生大量负责校正、监控和嵌入业务流程的新岗位。它把 botsitting 解释成一种过渡性的“人机协作基础设施”，对理解企业为什么一边上 AI 一边继续招人很有帮助。",
+      "key_points": [
+        "botsitting正成为新兴职业蓄水池。微软、摩根斯坦利等企业已设立AI培训师、数字化采纳专员等岗位，专门负责修正AI输出、嵌入业务流程。数据显示白领每周平均…",
+        "不过《Work AI Index 2026》认为，botsitting将会给大量的大学生创造就业机会",
+        "AI的工作方式决定了它天生需要人来兜底"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大厂抢AI人才：年薪600万起步，等不及毕业就挖人",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6426839.html",
+      "published": "Wed, 08 Jul 2026 09:25:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Tech",
+        "HR",
+        "NLP",
+        "CVPR",
+        "GitHub"
+      ],
+      "summary": "当大厂HR带着鲜花蹲守清华答辩现场，当600万年薪成为AI博士的起步价，这场人才争夺战已突破常规认知边界。从高中校园到顶会晚宴，企业正以惊人溢价提前锁定算力人才，背后折射出AI产业迭代与教育体系间的致命时差。本文将揭示这场供需失衡风暴中，文凭价值如何被重构，以及代码即简历的新筛选逻辑如何重塑人才市场格局。 缺人，缺人，等不及毕业，大厂开出天价年薪去高校抢人了。 7月6日，据《中国新闻周刊》报道，今年毕业季尾声，清华大学计算机系NLP实验室公布了一份毕业生去向统计，14名毕业生中，4人进入字节跳动，3人加入实验室孵化…",
+      "key_points": [
+        "缺人，等不及毕业，大厂开出天价年薪去高校抢人了",
+        "“不管是读书还是‘进厂’，只有在真实的战场，持续输出被看见的产出，才能为前进的道路叠加buff。” 不仅如此，老李还指出，一个真正能用的AI核心人才，毕业后没有…",
+        "01 大厂疯狂抢AI人才 这波大厂抢人有多疯？从答辩现场到高中校园，都有他们的身影，主打一个，“不等人才长成后采摘，而是直接下地播种。” 公开资料显示，在不久前…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "a16z播客深度拆解：AI Agent不需要UI，但需要什么？",
+      "title_zh": "AI Agent 不需要 UI 吗？a16z 播客谈无头软件与数据接口重构",
+      "url": "https://www.woshipm.com/ai/6426835.html",
+      "published": "Wed, 08 Jul 2026 09:18:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "agent",
+        "Steven",
+        "SAP",
+        "AI",
+        "Seema",
+        "API"
+      ],
+      "summary": "这篇稿子抓住了 AI Agent 时代一个关键转向：软件的核心竞争力可能从界面设计转到数据与能力是否能被 agent 直接调用。可读点在于它没有停在“UI 会不会消失”的噱头，而是进一步讨论 headless 软件、API 组织方式和创业公司切入点。",
+      "key_points": [
+        "当AI Agent开始绕过UI直接调用数据，企业软件的底层逻辑正在被重构。a16z播客中Seema Amble与Steven Sinofsky揭示：Salesf…",
+        "我们天天挂在嘴边的 AI agent，到底还需不需要一个软件界面。如果 agent 不用点鼠标，不用看屏幕，那我们做了几十年的 UI 设计，是不是马上就没用了。…",
+        "说真正有意思的不是 Salesforce 这一家公司做了什么，而是整个行业都在往这个方向靠。传统软件是为人设计的，人要登录，要点击，要在界面里一步步走完一个工作…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "《庄子》中，你最喜欢的寓言是哪一个？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791012",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "浪羁， 半生羁绊难纵释，自此放浪爱自由 查看知乎原文 我最喜欢的是 “浑沌之死” 。 这篇很短，短到像一个冷笑话： 南海之帝叫倏，北海之帝叫忽，中央之帝叫浑沌。 倏和忽经常到浑沌那里做客，浑沌对他们很好。 倏和忽觉得应该报答他。 他们说： 人都有七窍，用来看、听、吃、呼吸，唯独浑沌没有，不如我们帮他凿出来。 于是他们每天给浑沌凿一窍。 七天之后，七窍凿完。 浑沌死了。 我喜欢这则寓言，是因为它写出了人类最隐蔽、也最危险的一种暴力： 善意的暴力。 倏和忽不是恶人。他们没有嫉妒浑沌，没有仇恨浑沌，也没有想要毁灭浑沌。恰…",
+      "key_points": [
+        "半生羁绊难纵释，自此放浪爱自由 我最喜欢的是 “浑沌之死”",
+        "但庄子真正警惕的是：当“变好”成为一种强制，生命就开始死亡",
+        "但庄子并不简单歌颂这种“开窍”"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么太平天国仅用两三年时间就能从广西打到了南京？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791024",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "秋原， 盛朝慷慨传征事 瀚海峥嵘戍边兵 查看知乎原文 没有两三年，甚至连一年都不到。1852/04 永安突围，1853/03 攻占江宁，前后一年都没有。 从 1852 年 4 月永安突围~同年 8/9 月攻长沙受挫，太平军的作战其实并不顺利。值得肯定的是没有被清军包围，靠着勇猛 + 运气，数次突破清军的封锁阻击；但一路上也是跌跌撞撞，在沿途清军围追堵截下，自身损失非常大。在全州和长沙死了两个王，在龙寮岭、蓑衣渡等战斗中还被清军消灭、俘虏了大批从金田起义跟随着的广西“老兄弟”。 但是从进入湖南开始，尤其是让开长沙之后…",
+      "key_points": [
+        "就把太平军堵截在金田周边的山区，只要把其中有战斗力的部分消灭，太平天国很可能没出广西就被扑灭了",
+        "就不是几千人的清军可以征剿的； “自（河漕）停运以来，漕卒无所得食，河南、山东诸省，盗贼峰起，十数年而始灭，中原之元气日伤”——黄临甫《海运河运议论》 在太平天…",
+        "太平天国运动从酝酿、发展到壮大的这个过程，本身就是旧式封建集权国家的内部社会矛盾，外加国门被西方势力武力打开后收到的外来冲击，二者共同作用的"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "败诉1030万买了个“顺风局”，茉莉奶白为什么被全网心疼？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B4%A5%E8%AF%891030%E4%B8%87%E4%B9%B0%E4%BA%86%E4%B8%AA%E2%80%9C%E9%A1%BA%E9%A3%8E%E5%B1%80%E2%80%9D%EF%BC%8C%E8%8C%89%E8%8E%89%E5%A5%B6%E7%99%BD%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A2%AB%E5%85%A8%E7%BD%91%E5%BF%83%E7%96%BC%EF%BC%9F",
+      "published": "Wed, 08 Jul 2026 20:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LV",
+        "LVMH",
+        "iD",
+        "Spicy",
+        "ylwanjia",
+        "IP"
+      ],
+      "summary": "文章授权转载自 剁椒Spicy（iD:ylwanjia） 作者：Jolene “接茉莉奶白事业运”的热度还没下去，1030万的判决再次将茉莉奶白抬到了舆论的风口浪尖。 6月29日，江苏省苏州市中级人民法院作出一审判决：就路易威登马利蒂（Louis Vuitton Malletier，下称“LV”）诉深圳市茉莉奶白餐饮管理有限公司、吴中经济开发区东侠饮品店侵害商标权纠纷一案，法院认定被告相关行为侵害了LV旗下7枚图形注册商标专用权，茉莉奶白主体公司需赔偿LV经济损失1000万元及维权合理开支30万元，合计1030万元…",
+      "key_points": [
+        "茉莉奶白已公开回应将依法上诉。然而在社媒舆论上，茉莉奶白的“事业运”似乎仍然没有停下：连续冲上热搜的多个话题下是一片“顺风局”：一边是法院白纸黑字的侵权认定，一…",
+        "图源：微博@中国新闻周刊 为什么在法律上输掉官司的茉莉奶白，却在舆论场上赢了人心",
+        "为什么消费者 不觉得茉莉奶白像LV"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "被湖北龙卷风刷屏？看完这篇，关键时刻能救你命！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%A2%AB%E6%B9%96%E5%8C%97%E9%BE%99%E5%8D%B7%E9%A3%8E%E5%88%B7%E5%B1%8F%EF%BC%9F%E7%9C%8B%E5%AE%8C%E8%BF%99%E7%AF%87%EF%BC%8C%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E8%83%BD%E6%95%91%E4%BD%A0%E5%91%BD%EF%BC%81",
+      "published": "Wed, 08 Jul 2026 20:12:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "earth.nullschool.net",
+        "EF2",
+        "guokr.com",
+        "hsk",
+        "sns",
+        "Steed"
+      ],
+      "summary": "7月6日晚，社交媒体被同一件事刷屏： 湖北多地遭遇龙卷风 。 小红书和微博上，大量黄冈、鄂州网友上传了现场视频和照片：狂风裹挟着桌椅杂物横扫街道，居民楼的窗户整面碎裂，有人拍下了 巨大的楔形漏斗云 从鄂州方向越过长江、直扑黄冈城区的画面。 龙卷风的楔形漏斗云越过长江 | 小红书 黄冈师范学院多名学生发帖称，教学楼玻璃几乎全碎，体育场顶棚被整个掀飞，校园里的大树成片倒伏。 湖北黄冈受灾现场 | 新华社 据湖北省相关部门通报，7月6日19时至23时，黄石、黄冈、鄂州、咸宁等地遭遇强对流天气，53个乡镇出现8至13级雷暴…",
+      "key_points": [
+        "下午到前半夜是高发时段。这次湖北龙卷风发生在晚上8点前后，就与这一规律相符",
+        "社交媒体被同一件事刷屏： 湖北多地遭遇龙卷风",
+        "湖北黄冈受灾现场 | 新华社 据湖北省相关部门通报，7月6日19时至23时，黄石、黄冈、鄂州、咸宁等地遭遇强对流天气，53个乡镇出现8至13级雷暴大风，其中多个…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "2025年度国家科学技术奖揭晓；Momenta今日登陆港交所；超强台风“巴威”逼近",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+2025%E5%B9%B4%E5%BA%A6%E5%9B%BD%E5%AE%B6%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A5%96%E6%8F%AD%E6%99%93%EF%BC%9BMomenta%E4%BB%8A%E6%97%A5%E7%99%BB%E9%99%86%E6%B8%AF%E4%BA%A4%E6%89%80%EF%BC%9B%E8%B6%85%E5%BC%BA%E5%8F%B0%E9%A3%8E%E2%80%9C%E5%B7%B4%E5%A8%81%E2%80%9D%E9%80%BC%E8%BF%91",
+      "published": "Wed, 08 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Momenta",
+        "Fusion",
+        "Meta",
+        "Proxima",
+        "TB"
+      ],
+      "summary": "今天是7月8日，星期三。1898年的今天，玛丽·居里和皮埃尔·居里在巴黎一间破旧棚屋中，从数吨沥青铀矿渣中提炼出0.1克氯化镭，其放射性比铀强900倍。 重点新闻速览 1.2025年度国家科学技术奖揭晓 2.Momenta今日登陆港交所 3.中国电信提出从流量经营向Token经营转型 4.超强台风“巴威”逼近 科技 Momenta今日登陆港交所 2026年7月8日，自动驾驶公司Momenta正式在港交所挂牌，股票代码06880.HK，发行价295.6港元/股，开盘市值约703亿港元，为当日港交所市值最大IPO。假设…",
+      "key_points": [
+        "重点新闻速览 1.2025年度国家科学技术奖揭晓 2.Momenta今日登陆港交所 3.中国电信提出从流量经营向Token经营转型 4.超强台风“巴威”逼近 科…",
+        "该产品采用第九代V-NAND闪存芯片和新研发的4纳米控制器，提供4TB、8TB和16TB三种容量，其中16TB版本连续读写速度分别达28400MB/s和2190…",
+        "此次疫情由Bundibugyo型埃博拉病毒引起，目前无获批疫苗或特效治疗。一项评估单克隆抗体MBP134和瑞德西韦的临床试验已于7月2日启动。（新华社） 超强台…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“贵州省汤”终于火了！减脂神器还解暑，强烈建议你试试！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E8%B4%B5%E5%B7%9E%E7%9C%81%E6%B1%A4%E2%80%9D%E7%BB%88%E4%BA%8E%E7%81%AB%E4%BA%86%EF%BC%81%E5%87%8F%E8%84%82%E7%A5%9E%E5%99%A8%E8%BF%98%E8%A7%A3%E6%9A%91%EF%BC%8C%E5%BC%BA%E7%83%88%E5%BB%BA%E8%AE%AE%E4%BD%A0%E8%AF%95%E8%AF%95%EF%BC%81",
+      "published": "Wed, 08 Jul 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "APP",
+        "ID",
+        "orz",
+        "Science_China"
+      ],
+      "summary": "最近北京的天气，毫不夸张地说，人真的快要长鳃了……厨房更是成了一个天然的“桑拿房”，在里面待个十几分钟，整个人就像是从水里捞出来。 在这种天气下，吃什么，成了比数学更难的问题。 直到大数据推送了—— “贵州省汤”素瓜豆 。 提前预判一下，第一次看到这个图片的你，此刻一定在心里悄悄吐槽：清汤寡水，看起来就不怎么样…… 图片来源：编辑自己制作拍摄。别问里面的汤为什么这么少，上桌时不小心被猫打翻了orz 但是！！！只要喝过一次，一定会狠狠感叹：天菩萨，怎么能这么鲜甜！ 解腻又减脂 贵州人怎么偷偷吃的这么好 先给没吃过的朋…",
+      "key_points": [
+        "直到大数据推送了—— “贵州省汤”素瓜豆",
+        "嫩南瓜是什么？请看下图～ 嫩南瓜。图片来源：某生鲜APP（左）、编辑拍摄（右） 为什么看起来平平无奇的素瓜豆汤能成为贵州“省汤”？优点大概有下面这几个方面： 自…",
+        "解腻又减脂 贵州人怎么偷偷吃的这么好 先给没吃过的朋友科普下：素瓜豆汤，是用嫩南瓜、四季豆和清水煮出的素汤"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "历史现场：探班《霸王别姬》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8E%86%E5%8F%B2%E7%8E%B0%E5%9C%BA%EF%BC%9A%E6%8E%A2%E7%8F%AD%E3%80%8A%E9%9C%B8%E7%8E%8B%E5%88%AB%E5%A7%AC%E3%80%8B",
+      "published": "Wed, 08 Jul 2026 17:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Express",
+        "Genesis",
+        "hongmomgs",
+        "irisfilm",
+        "Musical",
+        "New"
+      ],
+      "summary": "作者 ：汤尼·雷恩 译者：易二三 校对：覃天 来源：Sight and Sound （1992年12月刊） 《 霸王 别姬》是最著名的京剧传统剧目之一，由擅长旦角的京剧名角梅兰芳推广普及（ 1930年 赴 美 演出 ）。 多产的香港女作家李碧华在十二年前出版的一部小说中也借用了这个剧目的名字作为书名。该书跨越了中国几十年风云变幻的现代史——从民国初年到十年动乱之后——同时描绘了两名男伶之间紧密的情感纽带。 这段感情始于20年代京剧班子那种斯巴达式的环境中，腼腆的段小楼是柔弱的程蝶衣的保护者。成年后，两人成为了著名的…",
+      "key_points": [
+        "《霸王别姬》与这种迫害和偏执的社会氛围有何呼应呢？当我在徐枫位于香港的办公室里问她为什么买下这本书的版权时，她说的第一句话是：「在读到这本书之前，我并不了解同性…",
+        "《霸王别姬》标志着陈凯歌打破了他在自己前四部作品中采用的精致、唯美的手法；这是一部大制作的时代奇观，三位主角都是大牌明星。程蝶衣由香港偶像张国荣饰演，他因出演关…",
+        "《霸王别姬》 段小楼由内地明星张丰毅扮演，他曾被凌子风（《骆驼祥子》，1982）和周晓文（《青春无悔》，1992）等导演塑造为被凝视的男性形象，但用他自己的话说…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "很多亚洲电影人，都会永远感谢他",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BE%88%E5%A4%9A%E4%BA%9A%E6%B4%B2%E7%94%B5%E5%BD%B1%E4%BA%BA%EF%BC%8C%E9%83%BD%E4%BC%9A%E6%B0%B8%E8%BF%9C%E6%84%9F%E8%B0%A2%E4%BB%96",
+      "published": "Wed, 08 Jul 2026 17:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Cinema",
+        "Arrow",
+        "hongmomgs",
+        "irisfilm",
+        "Maker",
+        "Masters"
+      ],
+      "summary": "文 Nose 汤尼 ·雷恩去世了。这个消息是在一些电影圈同行的社交媒体上传开的，比任何新闻机构的反应都快。这也很合理，因为雷恩不是一个大众熟知的明星，他对电影的工作和贡献，大多是建立在某种行业网络之上。 汤尼 ·雷恩 1948年出生的雷恩很难用单一身份来界定。他的职业生涯从上世纪60年代末延伸至生命终点，跨越影评写作、电影节策展、字幕翻译、影碟评论音轨录制、电影编剧乃至纪录片导演等多个领域，但贯穿这些角色的底层逻辑始终如一：他是一个不满足于评论的评论者，一个坚持在电影的生产、流通、阐释三个环节同时介入的实践者。 在…",
+      "key_points": [
+        "亚洲电影的国际化推广在过去三十年中经历了根本性的变化。从 80年代中后期开始，很多亚洲作者电影在欧洲电影节上集中崛起，到2000年代韩国商业类型片强势出海，再到…",
+        "雷恩自己撰写了导言、 「 形式与句法笔记 」 以及完整的作品编年文献。在导言中，他清醒地指出法斯宾德在英国被当作字幕艺术电影来接受，与他在西德作为大众文化现象被…",
+        "他开始在温哥华国际电影节主持东亚电影选片工作，并从 1994年起创立并主导了该电影节的龙虎竞赛单元。这个专注于亚洲电影新人的竞赛平台持续运作至2013年结束，为…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "很好的一篇散文",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%BE%88%E5%A5%BD%E7%9A%84%E4%B8%80%E7%AF%87%E6%95%A3%E6%96%87",
+      "published": "Wed, 08 Jul 2026 12:43:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "来自读者 7，发布在《 浪人无所依 》的留言区。我觉得可惜了，这样的文字应该贴出来让更多读者看到才对。很简单的中文，很简单的一些继续，但是会让看到的人深受触动，因为通过这些文字，可以让人们的灵魂相互连接，从内心激发的震颤形成了共鸣。老有人问我文章应该怎么写，问我什么是好文章，什么是好文笔，这篇短文字就是回答。并且，它揭示了写作的奥秘：先是你得如此去生活，如此去真实经历，然后你得本身就有这样的一颗心，有这样的灵魂。最后才是写，而写不写其实也没有那么重要---无人的山谷里一树繁花悄然开放，有没有人看到并不重要。对于看的…",
+      "key_points": [
+        "发布在《 浪人无所依 》的留言区。我觉得可惜了，这样的文字应该贴出来让更多读者看到才对。很简单的中文，很简单的一些继续，但是会让看到的人深受触动，因为通过这些文…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "高善文：一位首席经济学家的心灵史",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E9%AB%98%E5%96%84%E6%96%87%EF%BC%9A%E4%B8%80%E4%BD%8D%E9%A6%96%E5%B8%AD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E7%9A%84%E5%BF%83%E7%81%B5%E5%8F%B2",
+      "published": "Wed, 08 Jul 2026 09:07:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PFR",
+        "END",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源： 北大汇丰PFR公众号 2026年7月7日，经济学家高善文去世。 55岁的高善文与癌症抗争了一年多。他2025年1月出现早期症状，11月开始强烈怀疑为淋巴癌，12月确诊为 外周T细胞淋巴癌 。他的离去让人唏嘘不已。 高善文 1971 年出生在山西临汾， 17 岁考入北京大学无线电电子学专业，读硕士转到国民经济管理系（现北大光华管理学院）， 2005 年获中国人民银行研究生部（现清华五道口金融学院）经济学博士。他1995年起在中国人民银行总行工作，2…",
+      "key_points": [
+        "《北大金融评论》对话安信证券首席经济学家高善文。通过他的讲述，我们了解的不仅是一位成功的投行经济学家的成长史，更是一部心灵史",
+        "01 卖方分析师的胜绩和经济学家的特质 高善文1995年进入人民银行总行，2003年进入光大证券研究所，担任首席经济学家，2007年5月转入安信证券，担任首席经…",
+        "高善文并不是人们传统印象里的那种典型的首席经济学家。深耕宏观研究超过25年，围绕诸多重大宏观问题，例如中国是否通过了刘易斯拐点、2011-2020年中国经济潜在…"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "“大学普及化”对贫困学生伤害最大 | 经济学人社论(双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E2%80%9C%E5%A4%A7%E5%AD%A6%E6%99%AE%E5%8F%8A%E5%8C%96%E2%80%9D%E5%AF%B9%E8%B4%AB%E5%9B%B0%E5%AD%A6%E7%94%9F%E4%BC%A4%E5%AE%B3%E6%9C%80%E5%A4%A7+++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A4%BE%E8%AE%BA%28%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Wed, 08 Jul 2026 17:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "to",
+        "of",
+        "is",
+        "as",
+        "have"
+      ],
+      "summary": "1 写在前面 思维导图： Angela，心之所向，无问西东 #外刊精读 #考研英语 #CATTI #心灵成长 #双语美文 2 精读|翻译|词组 Leaders | Don’t dumb down 社论 | 切勿降低标准 英文部分选自经济学人20260627期社论版块 Leaders | Don’t dumb down 经济学人社论 | 切勿降低标准 University-for-all harms poor students the most “ 大学普及化 ” 对贫困学生伤害最大 Time for sane st…",
+      "key_points": [
+        "1 写在前面 思维导图： Angela，心之所向，无问西东 #外刊精读 #考研英语 #CATTI #心灵成长 #双语美文 2 精读|翻译|词组 Leaders…",
+        "其中一种解释是疫情对学校教育造成了冲击，然而事实表明，其实在新冠之前，美国等许多富裕国家的学生在校成绩就已经下滑了。与此同时，众多高校一直在不断降低入学门槛。美…",
+        "主要由富裕国家组成的经合组织（ OECD ）开展的测试表明，大学生的读写能力不如十年前。最优秀的学生比以往任何时候都更聪明，但越来越多的学生基础技能之差，连年龄…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791028",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Daniels",
+        "Earth",
+        "Google",
+        "official"
+      ],
+      "summary": "瞎扯 · 这个世界上有什么动物长得像 P 出来的? 知乎日报 查看知乎原文 Q： 这个世界上有什么动物长得像 P 出来的? @狮鹫心 ：当然是呀嗨呀，哦不对是 崖海鸦 ，从某些角度看起来特别像那种监视鸟类用的假鸟，其他鸟类见了怕不是要惊呼伪鸟来了。 Q： 你在实验室最惊险的瞬间是什么？ @小赵他会飞 ：在你发现了一个新的 发光物质 的时候 你最好祈祷这个物质同时会发热 Q： 你在谷歌地球（ Google Earth ）有什么独特的发现？ @Daniels ：谷歌地图上，有神人把 霍尔木兹海峡 开放关闭时间做出来了…",
+      "key_points": [
+        "瞎扯 · 这个世界上有什么动物长得像 P 出来的"
+      ]
+    }
+  ]
+}
