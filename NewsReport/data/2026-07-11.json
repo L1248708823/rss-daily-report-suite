@@ -1,0 +1,758 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T01:00:12.002192+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 93,
+    "fresh_candidates": 67,
+    "backfill_candidates": 26,
+    "items_published": 26,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-11",
+      "fetched_at": "2026-07-11T01:00:06.682890+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3996.16,
+          "change": -40.43,
+          "change_pct": -1.0,
+          "volume": 627450065.0,
+          "amount": 156310869.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4119.01,
+          "change": -4.489999999999782,
+          "change_pct": -0.11,
+          "prev_close": 4123.5,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-11 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 896.9558612696321,
+          "change": -0.977742665616347,
+          "change_pct": -0.10888808051411937,
+          "prev_close": 897.9336039352485,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-11 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%B0%91%E5%B9%B4%E8%90%A5+%7C+%E6%9A%91%E5%81%87%E7%94%98%E8%82%83%E7%AB%99%E6%B4%BB%E5%8A%A8%E6%8A%A5%E5%90%8D",
+        "title": "中国少年营 | 暑假甘肃站活动报名",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "活动预告/报名信息为主，包含行程与费用，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%A0%B8%E5%BF%83%E8%AF%8D%E6%B1%871000%E3%80%8B%E6%97%A9%E9%B8%9F%E7%A5%A8%E6%9C%80%E5%90%8E4%E5%A4%A9",
+        "title": "《经济学人核心词汇1000》早鸟票最后4天",
+        "platform": "一天一篇经济学人",
+        "source": "一天一篇经济学人(双语)",
+        "reason": "课程售卖/早鸟票促销，价格转化导向明显，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E9%A3%9E%E4%BA%86%E4%B8%89%E5%B9%B4%E9%83%BD%E6%B2%A1%E6%94%92%E5%A4%9F%E7%9A%84%E6%9D%83%E7%9B%8A%EF%BC%8C%E4%BD%8F%E9%85%92%E5%BA%97%E7%9B%B4%E6%8E%A5%E9%80%81%E4%BA%86",
+        "title": "飞了三年都没攒够的权益，住酒店直接送了",
+        "platform": "【荐】阑夕",
+        "source": "【荐】阑夕",
+        "reason": "会员权益宣传为主，品牌推广属性强，信息增量有限"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%99%BA%E5%BA%93%E8%8E%B7%E8%AF%84FocusEconomics+2026%E4%B8%AD%E5%9B%BD%E7%BB%BC%E5%90%88%E9%A2%84%E6%B5%8B%E7%AC%AC%E4%B8%80%E5%90%8D",
+        "title": "经济学人智库获评FocusEconomics 2026中国综合预测第一名",
+        "platform": "经济学人",
+        "source": "经济学人",
+        "reason": "机构获奖宣传稿，品牌背书意味强，缺少可迁移信息"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-11T01:02:11.757305+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6427624.html",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6427721.html",
+        "https://www.woshipm.com/ai/6427625.html",
+        "http://xueqiu.com/1438190065/399393843",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%9C%A8%E4%B8%96%E7%95%8C%E4%B9%8B%E5%B7%85%E2%80%9C%E6%8D%95%E6%8D%89%E2%80%9D%E7%A9%BA%E6%B0%94%EF%BC%9F",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%9F%91%E8%9E%82%E5%B7%B2%E7%BB%8F%E8%83%BD%E6%BD%9C%E6%B0%B43%E5%B0%8F%E6%97%B6%E4%BA%86%EF%BC%8C%E8%BF%99%E6%98%AF%E7%9C%9F%E4%BA%8B%E5%84%BF"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-11",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "过去100年，美国投资者走过哪些弯路？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BF%87%E5%8E%BB100%E5%B9%B4%EF%BC%8C%E7%BE%8E%E5%9B%BD%E6%8A%95%E8%B5%84%E8%80%85%E8%B5%B0%E8%BF%87%E5%93%AA%E4%BA%9B%E5%BC%AF%E8%B7%AF%EF%BC%9F",
+      "published": "Fri, 10 Jul 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Tom",
+        "Beta",
+        "END-",
+        "IBM",
+        "Marry"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：我画你财 最近，有人问财哥，在市场里交了这么多学费，怎么还是学不会投资？ 其实有一种学习方法，不需要我们交学费，那就是： 美国人，或者说美国的投资人，他们经历的股票市场的发展时间长，经历的考验多，经验比咱更丰富。 今天，财哥就带大家回顾下Tom一家四代人的投资经历，看看有什么作业值得我们借鉴。 一、老Tom的投机时代（1900-1960年） 上世纪初以来，美股是个不折不扣的投机天堂。 由于当时没有有效的监管，有钱人还能靠内幕…",
+      "key_points": [
+        "不需要我们交学费，那就是： 美国人，或者说美国的投资人，他们经历的股票市场的发展时间长，经历的考验多，经验比咱更丰富",
+        "资产配置的兴起是 美股 市场成熟的产物，实际上，它是美股投资者在一次次周期、波动和人性考验中，寻找并验证的投资方法论",
+        "投资赚钱，不仅取决于市场，更取决于投资者的买卖操作"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中远海控2026年半年度归母净利润预测与全年展望！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5742821612/399404145",
+      "published": "Fri, 10 Jul 2026 10:03:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CCFI",
+        "SCFI",
+        "H1",
+        "Path",
+        "Q2",
+        "CII"
+      ],
+      "summary": "看到很多企业都发布了半年报预增公告，几乎都是大增的行情，尤其科技版块，几百上千甚至过万的百分比。猫叔重仓中远海控，不由得有些羡慕。距离海控半年报还有一个多月，二季度已经结束，就来一版猫叔的中远海控2026年半年报的预增吧。 一、先上结论 猫叔预计： 中远海控2026年第二季度单季归母净利润将在98.00亿元至110.00亿元之间，2026年H1累计归母净利润在156.77亿元至168.77亿元之间。 虽然比2025年上半年（175.36亿元）存在约3.7%至10.6%的小幅同比下滑，但这主要还是受制于2025年第一…",
+      "key_points": [
+        "七、下半年展望与潜在风险提示 基于二季度形成的运力紧缺惯性，以及7月至10月全球海运传统旺季的叠加效应，如果下半年CCFI均值中枢能够稳步企稳于1700点的高位…",
+        "鉴于中远海控一贯稳健审慎的会计确认准则，以及欧美长协履约的实际刚性， 猫叔认为Path C（中性均衡路径）是当前测算下的最准确路径。即中远海控2026年半年度归…",
+        "模型二：站在机构的脑壳上推演-乐观 伴随二季度运价的飙升，国内多家头部券商对中远海控2026年的全年盈利预期进行了密集的大幅上调。其中，天风证券将2026年归母…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么长期持股难？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2386334596/399462676",
+      "published": "Fri, 10 Jul 2026 10:03:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "股票投资难，除了选股难之外，就是长期持股了，这是什么原因？来分析一下。 一、任何事物都有周期，企业发展和经营有波动，但人们习惯以线性的思维去看问题，只要公司业绩出现向下的趋势，就唤起了悲观的潜意识，认为以后再都没有变好的机会了，于是在低位抛出。同样，遇上景气度好，业绩向上时，又会过度乐观，在高位接盘，不断买入卖出，持股成本反而越来越高。 二、付出劳动就要有收获，人们习惯每月领工资，而赚企业经营的钱是以年为单位的，一年才派一次或两次股息，感觉时间太长了。而且，账面市值是波动的，到了嘴巴的肉还会飞，不像每月工资，持续积…",
+      "key_points": [
+        "为什么要长期持股？因为按西格尔的统计数据显示，这样能降低亏损的风险，提高投资的收益率",
+        "除了选股难之外，就是长期持股了，这是什么原因？来分析一下",
+        "用人话来说，就是将公司未来的所有收益作一个折价，一次性支付。所以，从时间上看，股市长期资本买入的收益是反杠杆的，大概100元的投入，每年只能得到6.67元，这就…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想310 A股硬件板块的阶段性领跑",
+      "title_zh": "A 股 AI 硬件为何阶段性领跑",
+      "url": "http://xueqiu.com/1438190065/399393843",
+      "published": "Fri, 10 Jul 2026 10:03:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GW",
+        "http",
+        "Meta",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "文章从日韩股市、美股半导体和国内盘中表现的联动出发，解释了 A 股 AI 硬件链近期为何比传统板块更强。它把 Meta 自研芯片节奏、算力目标上修与国内资金偏好联系起来，给出“全球 AI 资本开支预期仍在抬升，硬件链先受益”的交易框架。适合关注 AI 基础设施、半导体和市场风格切换的人读。",
+      "key_points": [
+        "过去一段时间在偏传统的品种里，存量的资金是非常熟悉这类品种的股性的，在外部变量不大或者频繁变化，且仅有少量增量资金（大量增量资金被吸进AI硬件）的情况下，博弈非…",
+        "现在节奏似乎是有了变化：昨天国内并没有受到韩股回调的干扰，AI硬件产业链从上午开始就显示出韧性，下午更是走出单边行情，与日韩形成共振；到了晚上，费城半导体指数止…",
+        "由于“全球共此凉热”，对市场的观察从前一天晚上美股的盘前开始，到跟进AI链上不同板块的盘中表现，再到早上观察日韩动向，来判断投资情绪、寻找A股映射"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒泡沫启示录",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5928403639/399382066",
+      "published": "Fri, 10 Jul 2026 10:03:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "http",
+        "SH000688",
+        "SZ399997",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "说散户特征是追涨杀跌并不准确，更准确的说，应是“快追涨、慢杀跌”，爱坤永相随的易方达蓝筹精选没有机构投资者，是观测散户行为的完美标本。 2020年3月到2021年3月的短短1年时间，基金净值狂飙突进，基金份额增加为原来的5倍，这就是快追涨；而在5年后，基金份额依还有峰值的50%，就这是慢杀跌。 申购份额1年就5倍，崩盘后5年才跑50%，散户“急追涨、慢杀跌”的这一特征，给基金管理者提供了绝佳的致富路径：抱团一个题材极速拉高，请一些媒体专家写文章开直播，吸引投资者跟风，自己则不管不顾使劲抱团，直到再难维系，随之而来A…",
+      "key_points": [
+        "这颠覆常识；2026年全行业100多倍的PE可以稳住，百分之几百的利润增速可以是常态，强周期可以变成弱周期，这同样颠覆常识;但我们的公募界就是这样充满了赤裸裸的…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "阿里全面禁用Claude改用千问：为什么\"吃自己的狗粮\"是产品破局的唯一捷径？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6427748.html",
+      "published": "Fri, 10 Jul 2026 08:48:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "DeepSeek",
+        "AI",
+        "Dogfooding",
+        "Gemini",
+        "TAPD"
+      ],
+      "summary": "阿里内部全面禁用Claude的通知正式生效，全员切换至自研的通义千问。表面看这是一场战略切割，但从产品视角来看，这或许是千问迎来质变的最好契机。今天我们就来聊聊，为什么\"吃自己的狗粮\"才是做产品的终极方法论。 一、热点背后：阿里”断舍离”的产品逻辑 就在今天，阿里7月3日下发的内部通知正式生效： 全面禁用Anthropic旗下所有产品 ——包括Claude全系列模型和Claude Code，办公网络、设备、API调用全部拦截，统一替换为自研的Qoder（原通义灵码）和通义千问企业版。 讽刺的是，就在今年年初，阿里还…",
+      "key_points": [
+        "阿里内部全面禁用Claude的通知正式生效，全员切换至自研的通义千问。表面看这是一场战略切割，但从产品视角来看，这或许是千问迎来质变的最好契机。今天我们就来聊聊…",
+        "为什么？因为这触及了做产品最核心、也最容易被忽视的一条铁律： Dogfooding（吃自己的狗粮）",
+        "硅谷有句名言：”If you don’t eat your own dog food, you shouldn’t expect anyone else to.…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "被狂热追捧的AI 「医疗神迹」，正在复刻硅谷「坏血骗局」",
+      "title_zh": "AI“医疗神迹”为何越来越像下一场 Theranos 式泡沫",
+      "url": "https://www.woshipm.com/ai/6427625.html",
+      "published": "Fri, 10 Jul 2026 08:45:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "mRNA",
+        "Rosie",
+        "LMArena",
+        "App",
+        "Medvi"
+      ],
+      "summary": "文章质疑近期被热炒的 AI 医疗奇迹叙事，指出不少案例更像信息整合、包装传播与估值故事，而不是真正完成了严肃的医学研发验证。它借 Theranos 的历史提醒读者：医疗和生物技术不能照搬互联网行业“先讲未来、后补验证”的打法，否则风险会被情绪掩盖。适合关注 AI 医疗、科技泡沫和技术伦理的人读。",
+      "key_points": [
+        "这难免令人联想到硅谷最臭名昭著的“坏血案”——19 岁斯坦福辍学女生伊丽莎白・霍姆斯2003 年创办医疗公司 Theranos，对外包装成 “女版乔布斯”，抛出…",
+        "别让硅谷的浮夸之风“ 刮” 进医药圈 没产品，可以先讲未来；没利润，可以先报增长；没验证，可以先要估值。这是现在硅谷科技圈最普通不过的一幕。而对于AI技术浪潮是…",
+        "伟大企业的诞生是建立在无数个追逐风口的企业的“尸骨”上。在残酷的商业竞争中，这种“弱肉强食”的逻辑固然正确，可是以赢家的姿态为被淘汰者寻找安慰本身就代表着一种傲…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GPT-5.6全量放送，Codex正式并入ChatGPT",
+      "title_zh": "GPT-5.6 全量放送，Codex 正式并入 ChatGPT",
+      "url": "https://www.woshipm.com/ai/6427721.html",
+      "published": "Fri, 10 Jul 2026 08:06:49 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "GPT-5.6",
+        "Sol",
+        "ChatGPT",
+        "OpenAI",
+        "token",
+        "Codex"
+      ],
+      "summary": "文章聚焦 OpenAI 新一轮产品组合调整：一边继续推更便宜、更快的模型，一边把 Codex 能力并入 ChatGPT 的工作流，强化“接任务到交付结果”的 Agent 形态。核心看点不是单一模型参数，而是 OpenAI 正在把模型能力、桌面入口和执行链路收束成统一产品，进一步降低高频调用成本。适合关注 AI 工具形态和 Agent 产品方向的人读。",
+      "key_points": [
+        "最近这两天的新模型发布，有一点“便宜模型批量放送”的意思",
+        "OpenAI也不是简单把Codex改名为ChatGPT Work——OpenAI说，从今天开始，Codex app会并入新的ChatGPT desktop ap…",
+        "01 划重点：便宜、快速、高性价比 在OpenAI 的正式发布文档中，开篇就把话说得很直白：GPT-5.6的目标是“每个token带来更多智能、更强的每美元性能…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "完了，国内大模型也卷成\"新能源车\"了",
+      "title_zh": "国内大模型正在卷成“新能源车”：中美竞争逻辑开始分叉",
+      "url": "https://www.woshipm.com/ai/6427624.html",
+      "published": "Fri, 10 Jul 2026 07:15:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "SaaS",
+        "Analysis"
+      ],
+      "summary": "这篇文章把中美大模型竞争拆成两条路线：美国更像 API 平台集中化，头部模型公司吃下大部分收入；中国则更像“入口保卫战”，融资、场景和生态一起内卷。亮点在于它把 DeepSeek 式低成本扩张、巨额融资持续涌入、工程师红利推动产品落地放到同一张图里看，解释了为什么国内不会很快收敛成少数寡头。适合关注 AI 产业格局、模型商业化和产品战略的人读。",
+      "key_points": [
+        "资本的流向更能反映国内大模型竞争态势",
+        "投资人仍然在不断加注大模型创业公司。算上智谱最新一轮配售，今年以来，国内头部大模型创业公司累计融资规模已经超过 1300 亿元人民币",
+        "今年以来，国内头部大模型创业公司累计融资规模已经超过1300亿元人民币"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从一张图到一份拼豆图纸，爱豆AI图纸在鸿蒙生态里做了什么",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/harmony/6427596.html",
+      "published": "Fri, 10 Jul 2026 06:20:27 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "HDC",
+        "GB",
+        "HarmonyOS",
+        "Native",
+        "postmeta.bookmark"
+      ],
+      "summary": "从一张普通图片到可落地的拼豆图纸，中间隐藏着多少专业门槛？爱豆AI图纸通过整合小艺智能体的像素化转换、鸿蒙系统的智能交互与3D逐步预览功能，将复杂的创作链路压缩成流畅的移动端体验。这款鸿蒙原生应用不仅解决了手工艺爱好者的图纸制作痛点，更揭示了AI工具如何在小众领域实现从创意到实物的精准赋能。 如果只看成品，拼豆像是一件很轻松的手工：一颗颗小豆子按颜色排好，最后拼出一张像素风图案。但真正动手的人知道，难点往往不在“想拼什么”，而在“怎么把一个想法变成一份能照着做的图纸”。 一张照片、一张插画，甚至一个偶像或球星的形象…",
+      "key_points": [
+        "再生成图纸 爱豆AI图纸当前的核心流程，并不是用户上传一张图片后直接得到最终拼豆图纸。团队在采访中特别澄清过，中间有一个过程：小艺智能体先生成像素化风格的图片，…",
+        "爱豆AI图纸做了一个 3D 拼豆逐步预览功能，通过 3D 动画实时、逐步地告诉用户该怎么拼、往哪里拼。用户不只是看一张静态图纸，而是可以像跟着流程演示一样，一步…",
+        "五、从网页端到鸿蒙原生：性能和复杂图纸的压力 爱豆AI图纸最早不是从鸿蒙原生应用开始的。团队先做了网页端，后来在鸿蒙和仓颉相关团队的接触下，开始开发鸿蒙版本"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史圈有哪些谣言是现代人编造的，连野史算不上？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791067",
+      "published": "Fri, 10 Jul 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ripley",
+        "Robert",
+        "Believe",
+        "Daily",
+        "Droit",
+        "du"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 美国新闻报业有一位奇人叫做 罗伯特·里普利（Robert Ripley） 。 1920 至 1930 年代，他因为经常去旧金山唐人街，耳濡目染下，成为了当时美国罕见的“精神中国人”。 他一生迷恋中国文化，不仅收藏了大量中国古董，在家里穿着清朝丝绸长袍接客，甚至还购买了一艘真正的中国木帆船，作为他在纽约的私人游艇和工作室。 罗伯特·里普利的木帆船“万利”号（“Mon Lei”） 里普利曾在 1922 年和 1932 年两度访问中国。 1932 年的中国之行，正值他…",
+      "key_points": [
+        "没有找到中世纪欧洲任何一部法律或地方法规明文规定过“初夜权”的存在，这实际上是 18 世纪启蒙运动时期的文人们为了批判封建制度，将中世纪抹黑为“黑暗时代”而编造…",
+        "这是英国报纸记者为了独家新闻编造的，第一批进墓的 26 人绝大多数活到了正常寿命，发掘活动主持人霍华德·卡特活到了 64 岁",
+        "亚特兰蒂斯大陆的“历史遗迹”被现代声呐发现"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "民国时期存在影视剧中出现的江浙财团吗？存在的话像影视剧里那样能左右南京国民政府？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791075",
+      "published": "Fri, 10 Jul 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "sei",
+        "SKU",
+        "TG"
+      ],
+      "summary": "丧心病狂刘老湿， 会讲点儿故事，略懂点儿历史，稍有点儿意思。 查看知乎原文 江浙财团是客观存在的。 在某些特定历史时期里，也确实可以影响南京政府。 但问题在于，蒋介石并不是传统意义上的“资产阶级代言人”。当然我知道，肯定有人会说蒋介石不是在 4·12 时期靠江浙财团支持才上位的吗？答案是没错，他确实是在江浙财团的支持下上位的，但是这种支持得看你如何理解：蒋介石当然需要军费以便跟国民政府决裂，但是江浙财团难道就不需要一个保护者吗？ 要知道 1927 年 1 月，国民革命军挥师入浙，兵锋直指上海。周恩来坐镇沪上，亲自挂…",
+      "key_points": [
+        "所以你问江浙财团存在吗？答案是存在；你问它能左右南京政府吗？答案是在短暂的特定时期里，可以，但更多的时候，它只能充当蒋介石的提款机。蒋介石建立的是一个独裁政权，…",
+        "蒋介石并不是传统意义上的“资产阶级代言人”。当然我知道，肯定有人会说蒋介石不是在 4·12 时期靠江浙财团支持才上位的吗？答案是没错，他确实是在江浙财团的支持下…",
+        "国民党中央政治会议赶在宋子文返华前夜快速通过了“剿匪赤军费治标 18 万、治本 1500 万……治本军费，准在美棉麦借款内动支”的决议。等宋子文回来之后，与蒋介…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "广西洪水退去后，露出了瑟瑟发抖的瑞幸、蜜雪冰城",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B0%B4%E9%80%80%E5%8E%BB%E5%90%8E%EF%BC%8C%E9%9C%B2%E5%87%BA%E4%BA%86%E7%91%9F%E7%91%9F%E5%8F%91%E6%8A%96%E7%9A%84%E7%91%9E%E5%B9%B8%E3%80%81%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E",
+      "published": "Fri, 10 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ID",
+        "Qingshangye666",
+        "Vista",
+        "LV",
+        "Travel"
+      ],
+      "summary": "内容转载自Vista氢商业（ID：Qingshangye666） ，作 者 徐俊奕 奶茶之乡一方有难，奶茶品牌八方支援。 作者：徐俊奕 编辑：卢力麟 设计：胖兔 “瑞幸的茉莉花产区，被淹了。” 最近因台风“美莎克”，广西遭遇罕见的持续性强降雨，多地出现洪涝灾害。当网友密切关注灾后情况时，一张瑞幸产区的对比图出现了。 美莎克到来之前，蓝天白云、满屏的白色茉莉花，隔着屏幕你似乎都可以闻到清香。如今，却只有一滩浑浊的洪水，以及已经变灰的、被冲散的花瓣。这里是广西横州，全球10朵茉莉花，6朵来自这里。 因为洪水，“奶茶之乡…",
+      "key_points": [
+        "我从小喝到大。” 参考文献 [1]界面新闻，《广西横州洪灾：茉莉花田成了海，收购价从18元跌到4元》，2026.07 [2]盐财经，《广西洪水，冲垮了瑞幸、蜜雪…",
+        "多从事奶茶，也爱喝奶茶，广西就这样用闭环方式成为了中国的奶茶之乡，甚至有网友调侃“当一个广西人说这家奶茶好喝，你得当个事儿办。” 如今眼看着家乡奶茶行业因为洪水…",
+        "奶茶品牌越来越积极主动承担社会责任。而这一次手握奶茶上游原材料命脉的地方遭了灾，更是需要特别对待。刚被LV一纸告上法庭的茉莉奶白率先宣布捐赠100万元，随后蜜雪…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么要在世界之巅“捕捉”空气？",
+      "title_zh": "为什么科学家要在世界之巅“捕捉”空气",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%9C%A8%E4%B8%96%E7%95%8C%E4%B9%8B%E5%B7%85%E2%80%9C%E6%8D%95%E6%8D%89%E2%80%9D%E7%A9%BA%E6%B0%94%EF%BC%9F",
+      "published": "Fri, 10 Jul 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "DJI",
+        "EV50",
+        "Everest",
+        "https",
+        "in",
+        "of"
+      ],
+      "summary": "这篇科普把珠峰解释成一扇观测大气的“高空窗口”：这里既连接近地空气，也连接更高层的大气过程，因此特别适合追踪臭氧输送、边界层交换和高海拔气象变化。亮点在于它把珠峰观测站、无人机航拍与长期地球科学研究串起来，让读者看到极端环境如何成为理解全球大气循环的实验场。适合关注气候、环境监测和地球科学的人读。",
+      "key_points": [
+        "仪器测到的很可能不是当地生成的臭氧，在珠峰这样的高海拔区域，不同高度空气持续发生交换，仪器测到的，有可能 甚至跨越数百公里输送而来的空气 。这些臭氧究竟来自哪里…",
+        "Mavic 3完成珠峰峰顶航拍 ，无人机第一次以影像记录下世界之巅；2024年开始， FlyCart系列又将无人机带入物资运输和应急救援场景 ，完成高海拔物资补…",
+        "为什么是研究 地球空气的\"最佳窗口\" 珠峰北坡大本营海拔5000米左右，恰好位于行星边界层与自由对流层之间的过渡区域。这里像是一扇半开着的“窗”，一边连接着我们…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我国首次实现运载火箭一子级海上可控回收；宇树机器人完成全球首例活体家猪外科手术；我国机器人获全球首个工业级全域欧盟认证",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E8%BF%90%E8%BD%BD%E7%81%AB%E7%AE%AD%E4%B8%80%E5%AD%90%E7%BA%A7%E6%B5%B7%E4%B8%8A%E5%8F%AF%E6%8E%A7%E5%9B%9E%E6%94%B6%EF%BC%9B%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%8C%E6%88%90%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B%E6%B4%BB%E4%BD%93%E5%AE%B6%E7%8C%AA%E5%A4%96%E7%A7%91%E6%89%8B%E6%9C%AF%EF%BC%9B%E6%88%91%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%8E%B7%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E5%B7%A5%E4%B8%9A%E7%BA%A7%E5%85%A8%E5%9F%9F%E6%AC%A7%E7%9B%9F%E8%AE%A4%E8%AF%81",
+      "published": "Fri, 10 Jul 2026 17:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GB",
+        "OpenAI",
+        "Atlas",
+        "Biomni",
+        "ChatGPT",
+        "G1"
+      ],
+      "summary": "今天是7月10日，星期五。1962年的今天，瑞典工程师尼尔斯·博林发明的三点式安全带获得美国专利，取代了旧式横跨腹部的单点安全带。他将专利转让给沃尔沃，沃尔沃随后开放给所有汽车制造商免费使用，拯救了无数生命。 重点新闻速览 1. 长征十号乙首飞成功，我 国首次实现运载火箭一子级海上可控回收 2.我国机器人获全球首个工业级全域欧盟认证 3.宇树机器人完成全球首例活体家猪外科手术 4.三星堆铜顶尊跪坐人像为异地铸造混搭组装 科技 长征十号乙首飞成功，我国首次实现运载火箭一子级海上可控回收 7月10日12时15分，长征十…",
+      "key_points": [
+        "我 国首次实现运载火箭一子级海上可控回收 2.我国机器人获全球首个工业级全域欧盟认证 3.宇树机器人完成全球首例活体家猪外科手术 4.三星堆铜顶尊跪坐人像为异地…",
+        "长征十号乙由中国航天科技集团所属中国运载火箭技术研究院抓总研制，为两级串联构型大型液体商业运载火箭，全箭长约63米、直径5米，起飞推力约890吨，重复使用状态下…",
+        "该系统还能解读多模态数据集和优化蛋白质稳定性并协调湿实验室仪器操作。《Science》 宇树机器人完成全球首例活体家猪外科手术 中国宇树科技研发的人形机器人由外…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "蟑螂已经能潜水3小时了，这是真事儿",
+      "title_zh": "蟑螂已经能潜水 3 小时了，这次是真的",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%9F%91%E8%9E%82%E5%B7%B2%E7%BB%8F%E8%83%BD%E6%BD%9C%E6%B0%B43%E5%B0%8F%E6%97%B6%E4%BA%86%EF%BC%8C%E8%BF%99%E6%98%AF%E7%9C%9F%E4%BA%8B%E5%84%BF",
+      "published": "Fri, 10 Jul 2026 13:22:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "NTU",
+        "Singapore",
+        "JIN",
+        "ONG",
+        "research"
+      ],
+      "summary": "研究团队给陆生蟑螂做了一套可穿戴“潜水服”，通过微型供氧结构解决其水下呼吸问题，让它们能在不受伤的前提下持续潜水数小时。文章的价值不只是猎奇，而是展示了柔性外壳、微型供氧和生物行为约束怎样被组合成低成本仿生系统，为极端环境下的小型机器人或生物载体设计提供了思路。适合关注仿生工程、可穿戴装置和实验设计的人读。",
+      "key_points": [
+        "但科学家已经帮它们克服了（？） 就在最近，新加坡南洋理工大学和早稻田大学研究者合作研发了一款蟑螂专用潜水服。这套装备成功弥补了陆生蟑螂不会游泳的缺点，让它们能在…",
+        "但穿戴潜水服的蟑螂可以在水下正常活动多达3小时。研究者特别强调，潜水服与呼吸管都可以无痛穿脱，它们不会对蟑螂造成任何伤害",
+        "自带氧气罐与呼吸管的蟑螂潜水服 | NTU Singapore 防水外壳并没有包裹蟑螂的胸部，因为那样会导致它们的腿无法自由活动。为了让胸部两侧的气门也得到供氧…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这些足球强国的盛衰",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E4%BA%9B%E8%B6%B3%E7%90%83%E5%BC%BA%E5%9B%BD%E7%9A%84%E7%9B%9B%E8%A1%B0",
+      "published": "Fri, 10 Jul 2026 20:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "baby",
+        "El",
+        "fico",
+        "Gr",
+        "Haro",
+        "hongmomgs"
+      ],
+      "summary": "文 Haro 看世界杯的空当，很容易想到一些问题，为什么总是这几个强队争冠？为什么有的强队之前很厉害现在不行了？为什么有的强队可以一直强？为什么有的 队 可以衰落后 再 复兴？ 归根结底， 决定这些足球强国起起落落的规律 ， 到底 有哪些？ 我们经常被一些单向度的指标 困扰 。比如英格兰拥有全球商业价值最高的联赛，国家队冠军却极少。比如巴西国内联赛长期受赛历混乱、债务高企、治理不良的诸多问题困扰，国家队仍拿过五次世界杯。法国联赛不算欧洲最强，却拥有最近三十年战绩最稳定出色的国家队。还有荷兰，人口只有 1800万左右…",
+      "key_points": [
+        "决定这些足球强国起起落落的规律 ， 到底 有哪些",
+        "社会制度决定足球的耐心。德国和法国的改革能持续多年，因为它们有较强公共组织能力。英格兰在商业成功后仍能补青训短板，因为俱乐部有钱，足总也有危机感。意大利改革慢，…",
+        "更 取决于 城市空间和阶层焦虑。经济发展会改善场地、营养和医疗，也会消灭空地，压缩街头时间，让游戏变成课程。很多足球强国最珍贵的资产，恰恰是现代化最容易带走的东…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《虎豹小霸王》摄影太强了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E8%99%8E%E8%B1%B9%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%8B%E6%91%84%E5%BD%B1%E5%A4%AA%E5%BC%BA%E4%BA%86",
+      "published": "Fri, 10 Jul 2026 20:59:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "A.",
+        "American",
+        "Cinematographer",
+        "Herb",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Herb A. Lightman 译者：易二三 校对：覃天 来源：American Cinematographer （2020年6月12日） 在我此前两次观看《虎豹小霸王》的时候，我当然意识到了它拍得很美，但摄影并没有跳脱出来吸引我的注意力。现在我才意识到，这正是它如此出色的原因。 摄影指导康拉德·霍尔已经隐藏了他的个人风格，转而致力于用最能引发人兴趣且最恰当的方式来讲述这个故事。他以最高的专业技能和艺术技巧做到了这一点，但从不喧宾夺主，或是大叫：「看看我是多么高超的摄影师！」 《虎豹小霸王》 当我又一次观看…",
+      "key_points": [
+        "我是一个『反锐度』的摄影师，」他说。「我不喜欢前景的锐度和无限的锐度。在我作为一名摄影师的成长过程中，我曾经很喜欢它——在我欣赏《公民凯恩》的阶段。我经常把光圈…",
+        "应我的邀请，他从旧金山飞到了好莱坞，告诉我他在《虎豹小霸王》中扮演的角色。在讨论他拍摄这部电影的基本方法时，他说： 「我在开拍前就和导演乔治·罗伊·希尔见过面，…",
+        "《虎豹小霸王》 「那一组镜头纯粹是在和摄影机一起玩，」他评论道。「但从其拍摄机制上来说，这意味着要说服剧组人员在一天中最合适的时间开机……就在太阳落山的时候拍摄…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "都在等雨",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%83%BD%E5%9C%A8%E7%AD%89%E9%9B%A8",
+      "published": "Fri, 10 Jul 2026 18:59:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "究竟几点下，下不下，我都不晓得。看眼看着天边慢慢亮开一条缝，缝隙越变越宽，赶紧掏出手机来捏了一张。总之，人们对于这场雨的态度是慎重的。下午我看到邻居以大雨警报建议居家办公为由，要求暂停装修一下午。就在敲这几个字的时候，我听到了雨点开始敲击雨棚。 文章原文",
+      "key_points": [
+        "下不下，我都不晓得。看眼看着天边慢慢亮开一条缝，缝隙越变越宽，赶紧掏出手机来捏了一张。总之，人们对于这场雨的态度是慎重的。下午我看到邻居以大雨警报建议居家办公为…"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "潘建伟对毕业生们说：首先要做健康快乐的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%BD%98%E5%BB%BA%E4%BC%9F%E5%AF%B9%E6%AF%95%E4%B8%9A%E7%94%9F%E4%BB%AC%E8%AF%B4%EF%BC%9A%E9%A6%96%E5%85%88%E8%A6%81%E5%81%9A%E5%81%A5%E5%BA%B7%E5%BF%AB%E4%B9%90%E7%9A%84%E4%BA%BA",
+      "published": "Fri, 10 Jul 2026 08:27:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "get",
+        "http",
+        "Intellectual",
+        "vXDWpbyHr1",
+        "www.jintiankansha.me"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual ‍ 7月4日，中国科学技术大学教授、西湖大学校董潘建伟，在西湖大学2026毕业典礼致辞。 ● ● ● 今天，我怀着十分喜悦和非常自豪的心情，参加西湖大学毕业典礼。作为西湖大学发起成立的倡议者之一，我有幸见证了这所大学从初创到发展的几乎每一个重要时刻。从筹建之初，施一公、钱颖一、陈十一、饶毅和我就怀着一个共同的梦想：打造一所真正以学术卓越为灵魂、面向世界科技前沿、致力于培养创新领军人才的大学。短短数年，西湖大学已迅速崛起，成为中国高等教育改革创新的一面旗帜…",
+      "key_points": [
+        "在追求事业的同时，首先要做一个健康、快乐、正常的人；不要因为工作而忽略亲情，经常回家陪陪父母，这是做好学问的根本基础",
+        "我觉得对人来说最重要的事情是家庭。我这一路走来，父母对我有极大的影响。父母对我的要求，在原则上很高——给我取名“建伟”，寄托着建设伟大祖国的期望。但在生活中，他…",
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual ‍ 7月4日，中国科学技术大学教授、西湖大学校董潘建伟，在西湖大学2026毕业典礼致辞"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "迷茫中如何破局",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E8%BF%B7%E8%8C%AB%E4%B8%AD%E5%A6%82%E4%BD%95%E7%A0%B4%E5%B1%80",
+      "published": "Fri, 10 Jul 2026 13:45:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AI+",
+        "excel",
+        "offer",
+        "TK"
+      ],
+      "summary": "年轻人迷茫很常见，我年轻的时候也不例外，从大环境来说，我刚毕业的时候，是中国努力申请加入世贸组织，加入全球化的临门一脚，面对未知的世界熔炉，面对全新的互联网时代，我们虽然对未来充满憧憬，但也心存不安，当时也有不少人认为，加入世贸后西方的先进产能倾销会压垮我们的落后的民族产业；互联网的崛起会让西方彻底主导我们的信息传播和价值观信仰。所有我们现在以为理所当然的趋势，在那个时代其实都是迷雾中的。 现在则像是走完了一个循环，世界正在割裂，全球化开始退潮，而AI时代又开始了曾经的思辨，西方是否会通过AI建立新的技术断层领先，…",
+      "key_points": [
+        "减少内耗是破局第一步。否则你根本没精力思考和分析更重要的事情"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "高尿酸血症确诊",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/07/hyperuricemia.html",
+      "published": "2026-07-10T03:40:15Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "kg"
+      ],
+      "summary": "我在 2024 年底左脚大拇指根部曾肿痛一周 ，结合多年体检高尿酸结果，怀疑是痛风。但后来没有什么症状，身体也一直很好，就没去医院看。 最近一年多一直通过跑步降低体重 ，减少了 9~10kg 体重。攀岩保持在一周两到三次。自己在家查血尿酸，一直在 500~600 之间，偶尔在 480 左右。虽然戒掉了含糖饮料，也无饮酒，作息规律，精神放松（不用工作了）。但尿酸一直降不下来。...",
+      "key_points": [
+        "我在 2024 年底左脚大拇指根部曾肿痛一周 ，结合多年体检高尿酸结果，怀疑是痛风。但后来没有什么症状，身体也一直很好，就没去医院看",
+        "减少了 9~10kg 体重。攀岩保持在一周两到三次。自己在家查血尿酸，一直在 500~600 之间，偶尔在 480 左右。虽然戒掉了含糖饮料，也无饮酒，作息规律…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有什么问题人类解决得如此出色，以至于年轻人都没意识到它曾经是个巨大的问题？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791076",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "廖诗琴， 长得很好看 查看知乎原文 吃饱饭。 受各路电视剧影响，我能想到灾荒的情景大概就是大雪纷飞，饿殍遍野。 能想到的赈灾剧情，就是一个官员，对着一群饥肠辘辘的人施粥。如果是贪官，粥里面的米很少，因为粮食被贪墨了；如果是清官，粥就能熬得很浓稠。 「赈灾」这件事被塑造成是一个只要是清官，就能做好的事情。 这是个非常大的误解。 在粮食不足的时候让每个人不饿死，是件很不容易的事情。 前段时间因为写小说找资料，翻到一本《救荒事宜》的小册子，明代人张陛写的，书里体系化的介绍了怎么赈灾。 讲赈灾前，张陛写了一些灾荒的情况。里…",
+      "key_points": [
+        "每个「坊」由一两个「义士」来负责低价粮的发放。下等户只能在自己坊买低价粮，这样就解决了冒名的问题，因为每个坊的人都是熟悉的。下等户可以五天里面分几次陆续买走这些…",
+        "通过免费派粮解决贫困户的吃饭问题 下等户家里还有些余钱可以买粮，但真正的贫困户连买粮的钱都没有怎么办呢？只能免费派粮",
+        "对不同的人做了分层，主要是三个方面： 通过低价粮解决下等户的吃饭问题 首先是粮食的供应问题。灾荒时，因为缺粮，直觉上是要平抑粮价，防止粮价太高、粮商趁机牟利，但…"
+      ]
+    }
+  ]
+}
