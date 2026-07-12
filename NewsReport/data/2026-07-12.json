@@ -1,0 +1,698 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T01:00:11.204208+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 83,
+    "fresh_candidates": 57,
+    "backfill_candidates": 26,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-12",
+      "fetched_at": "2026-07-12T01:00:05.851643+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3996.16,
+          "change": -40.43,
+          "change_pct": -1.0,
+          "volume": 627450065.0,
+          "amount": 156310869.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4119.01,
+          "change": -4.489999999999782,
+          "change_pct": -0.11,
+          "prev_close": 4123.5,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-11 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 896.9558612696321,
+          "change": -0.977742665616347,
+          "change_pct": -0.10888808051411937,
+          "prev_close": 897.9336039352485,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-11 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E4%BA%9B%E2%80%9C%E6%96%B0%E4%B8%AD%E5%BC%8F%E2%80%9D%E4%B8%91%EF%BC%8C%E7%9C%9F%E4%B8%8D%E8%83%BD%E6%80%AA%E4%BD%A0%E8%BA%AB%E6%9D%90%E4%B8%8D%E5%A5%BD%E6%88%96%E6%98%AF%E4%B8%8D%E5%8C%96%E5%A6%86%E2%80%A6%E2%80%A6",
+        "title": "有些“新中式”丑，真不能怪你身材不好或是不化妆……",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "疑似服饰软广，商品种草导向明显，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%8F%E5%A4%A9%E5%8E%A8%E6%88%BF%E7%83%AD%E5%BE%97%E5%83%8F%E6%A1%91%E6%8B%BF%EF%BC%9F%E8%BF%99%E4%B9%88%E5%81%9A%E5%8F%AF%E4%BB%A5%E7%9E%AC%E9%97%B4%E9%99%8D%E6%B8%A913%E2%84%83%EF%BC%88%E4%B8%8D%E6%98%AF%E8%A3%85%E7%A9%BA%E8%B0%83",
+        "title": "夏天厨房热得像桑拿？这么做可以瞬间降温13℃（不是装空调",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "疑似厨房降温产品软广，消费导向强，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E6%9A%91%E5%81%87%E6%97%85%E6%B8%B8%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%8C%E5%9C%A8%E8%BF%99%E9%87%8C",
+        "title": "暑假旅游天花板，在这里",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "旅游种草导流为主，行程推荐色彩重，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%80%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%B2%BE%E8%AF%BB%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%88%E6%9C%80%E5%90%8E3%E5%A4%A9%EF%BC%89",
+        "title": "第一期经济学人精读打卡营（最后3天）",
+        "platform": "一天一篇经济学人",
+        "source": "一天一篇经济学人(双语)",
+        "reason": "活动预告/报名导流为主，训练营招募信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%EF%BC%8C%E5%87%BA%E5%A2%83%E6%B8%B8%E5%85%A5%E9%97%A8%E9%A6%96%E9%80%89",
+        "title": "马来西亚，出境游入门首选",
+        "platform": "caoz的梦呓",
+        "source": "caoz的梦呓",
+        "reason": "旅游心得与目的地导流为主，可迁移信息有限"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-12T01:02:14.121975+00:00",
+      "lead_url": "https://www.woshipm.com/ai/6427936.html",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6427947.html",
+        "https://www.woshipm.com/ai/6427900.html",
+        "https://daily.zhihu.com/story/9791133",
+        "http://xueqiu.com/3559889031/399621132",
+        "http://xueqiu.com/1340904670/399644615"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "双创“鲸落”，喜大普奔",
+      "title_zh": "双创“鲸落”，喜大普奔",
+      "url": "http://xueqiu.com/3559889031/399621132",
+      "published": "Sat, 11 Jul 2026 14:12:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ETF",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "文章抓住了 7 月 11 日 A 股一个很关键的分化信号：指数尤其是双创板块显著回撤，但大量个股仍在上涨，微盘和等权口径的体感与指数走势出现背离。它提供了一个比“涨跌”更有用的观察框架，即流动性正在从高拥挤成长赛道向更广泛个股扩散。",
+      "key_points": [
+        "尤其是从双创板块来看，甚至可以算是一个大跌的交易日——科创50大跌5.53%，创业板指也大跌4.37%。但我想，对许多投资者来说，这或许又是一个喜闻乐见、甚至喜…",
+        "双创尤其是半导体和通信设备的走弱，并非所有的成长板块都能受益。除了 A 股的电池和光伏比较萎靡之外，另一个比较萎靡的就是牵动人心的恒生科技。周五恒生科技微跌0.…",
+        "万得微盘股指数今年迄今依然下跌 5.42%，相比之下，中证 1000 指数今年迄今还上涨 7.94%。这两者之间的收益差意味着，若流动性不再集中在双创个股的话，…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资股票指数，必须研究成份股变化",
+      "title_zh": "投资股票指数，必须研究成份股变化",
+      "url": "http://xueqiu.com/1340904670/399644615",
+      "published": "Sat, 11 Jul 2026 14:01:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "CXO",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这篇文章提醒读者不要把指数投资误解成“自动获得平均收益”。真正决定体验差异的，往往是成份股如何调整、行业权重怎样迁移，以及这些变化是否仍符合你的风险收益预期；它对只看指数名称、不看底层结构的投资习惯提出了直接纠偏。",
+      "key_points": [
+        "必须研究成份股变化 陈嘉禾 九圜青泉科技首席投资官 在投资工作中，不少投资者对股票指数会有一种放心的感觉，似乎只要投资了股票指数，就可以远离投资经理人为造成的错…",
+        "就是投资者在投资股票指数时，所必须理解和研究的成分股变化。很显然，指数投资并不是一件“投资以后就不用管”的简单事情，而是需要投资者深入理解、实时追踪购买的股票指…",
+        "投资指数最重要的一点，就是研究指数的成分股变动。而且，对股票指数的成分股变动的研究，是一项长期的工作。也就是说，投资者需要持续追踪指数的成分股变动，在变动发生前…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "理性看待账面亏损",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5642562501/399449393",
+      "published": "Sat, 11 Jul 2026 13:49:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在下跌过程中买入股票，尽管你可能已经参考了公司过去的经营业绩，为股票给出了一个比较保守的买入价格，像我现在记账中标明的3以下买澳博，3.5以下买石四药，6以下买敏华控股，5以下买中国飞鹤，1.3以下买上海石化，3以下买首都机场等等，在真实的买入过程中，依然可以发生比较高的账面亏损。 但是，即便现在亏损幅度有的已经接近50%，但是实际的亏损额度很少超过1人民币（仅首都机场因调出沪港通无法摊薄每股亏损超过1人民币），这就是低价股亏损额度和亏损幅度会出现的感觉不一致——亏损幅度很高但是额度不大。 其实低价股有很多特点，（…",
+      "key_points": [
+        "尽管你可能已经参考了公司过去的经营业绩，为股票给出了一个比较保守的买入价格，像我现在记账中标明的3以下买澳博，3.5以下买石四药，6以下买敏华控股，5以下买中国…",
+        "从上图可以清晰地看出一点：那个细细的红线上面堆积着大量的蜡烛体，而下面则鲜见，这样看，较高的账面亏损是不是看着就没有那么可怕了",
+        "（格雷厄姆在他的著作中讨论过一些）今天所说的低额度与高幅度的亏损现象也应该算是一个，很多低价股并不是天生就是低价，如果天上就是低价，说明这家公司要么总股本太大，…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "我的核心原则：低估值+高股息+有增速+适度分散",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1880027777/399624795",
+      "published": "Sat, 11 Jul 2026 13:49:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "EPS",
+        "GDP",
+        "LPR",
+        "ericwarn",
+        "http"
+      ],
+      "summary": "近期观察到两家知名基金在加入新基金经理后，投资风格发生明显转向，重仓布局科技板块。暂且不论这一调整的对错与否，单从“保持投资风格稳定”这一角度来看，机构投资确实面临诸多挑战。基金运作过程中，既要应对业绩排名、客户赎回、市场舆论等外部压力，又要兼顾合规要求和团队决策，很容易出现操作变形的情况，这也是机构投资的局限性之一。而散户投资者的核心优势便在于此：没有外部力量逼迫你改变操作策略，无需迎合市场热点、无需在意短期排名，能否坚持自己的投资逻辑，能否守住本心做对的事情，成为决定散户投资成败的关键。 结合多年投资实践，我始…",
+      "key_points": [
+        "方能行稳致远 机构投资因外部压力容易出现风格漂移，而散户投资者的核心竞争力，就在于能够不受干扰地坚守自己的投资逻辑。低估值（PE≤15倍）为投资筑牢安全垫，高股…",
+        "我始终坚守一套清晰的选股原则——低估值+高股息+有增速，再搭配适度分散的配置策略。这套原则看似简单，却能有效规避市场波动风险，实现长期稳健收益，下面我将结合具体…",
+        "三、有增速：增速不低于 GDP 或贷款利率，规避价值陷阱 我强烈反对买入长期负增长或增长停滞的公司，即便这类公司具备低估值和高股息的特征，也坚决不碰——这一原则…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "全世界都在赚钱，为什么只有你在亏钱？揭开股市里最大的错觉",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E8%B5%9A%E9%92%B1%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AA%E6%9C%89%E4%BD%A0%E5%9C%A8%E4%BA%8F%E9%92%B1%EF%BC%9F%E6%8F%AD%E5%BC%80%E8%82%A1%E5%B8%82%E9%87%8C%E6%9C%80%E5%A4%A7%E7%9A%84%E9%94%99%E8%A7%89",
+      "published": "Sat, 11 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 鴨先知 来源：雪球 在资本市场浸淫越久 ， 越会发现一个残酷的真相 ： 绝大多数参与交易的人 ， 本质上和赌徒没有任何区别 。 而赌徒的宿命 ， 往往只有两个极端 。 第一个下场 ， 是短时间内赢了太多的钱 。 这听起来像是一件幸事 ， 但从人性的角度看 ， 这其实是最恶毒的诅咒 。 当一个人习惯了在屏幕前敲击几下键盘 ， 就能在一个月甚至几天内赚到普通人一辈子起早贪黑才能攒下的辛苦钱时 ， 他大脑的奖励机制就被彻底破坏了…",
+      "key_points": [
+        "而人性的弱点决定了 ： 受了伤的人往往打碎了牙往肚子里咽 ， 默默承受爆仓的痛苦 ； 而偶然赢了钱的人 ， 却恨不得拿个大喇叭让全世界都知道",
+        "幸存者偏差被无限放大 ， 所有人接收到的都是别人赚钱的幻觉 ， 并在潜意识里产生一种致命的错觉 ： 别人都能赚 ， 凭什么我赚不了",
+        "不看别人的涨停板 ， 只看自己的现金流 ， 也许走得很慢 ， 但在这个场子里 ， 只有活得久一点 ， 你才能看到最后的风景"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "北上广的“城巴佬”，抢着花钱去种地",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6427969.html",
+      "published": "Sat, 11 Jul 2026 09:43:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Seki",
+        "MyFarm",
+        "QQ",
+        "App",
+        "Bug",
+        "CC0"
+      ],
+      "summary": "从盒马'沪上共享菜园'到北京望京的都市农场，共享菜地正在成为都市中产的新消费符号。1298元/年的20平米地块不仅提供耕种权，更衍生出托管服务、合租模式等创新玩法。这种融合了食品安全焦虑与情绪疗愈需求的'拼豆式农耕'，正在重构城市与土地的连接方式。本文将深度剖析这场由平台推动的'新田园主义'浪潮背后的商业逻辑与用户心理。 最近，城里人不流行当白领了，流行当 “ 农夫 ”。 今年 5 月底，盒马 App 在上海地区上线了 “ 沪上共享菜园 ” 服务，其中，20 平米地块年租用价格为 1298 元，30 平米地块价格为…",
+      "key_points": [
+        "自己今年 38 岁，一个奇妙的人生节点上。今年 5 月，她辞掉了自己的媒介采购工作。“ 我马不停蹄地工作了快 16 年，裸辞的时候我其实知道在短时间内我不会再找…",
+        "一直在上海城市中生活的 Seki 一家其实对种地这件事完全陌生，不了解作物的生长周期，也不了解要怎么耕地、施肥。她向知危回忆第一天到菜地的时候，周围有不少租户就…",
+        "技术指导、种子、农具这类服务，基本已经成为共享菜园的标配，北方冬天种不了菜的话，大部分菜园也都会为此提供送菜服务，比如望京这家菜园冬天送菜 12 次，每次 5…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "实测GPT5.6，分享三个超实用Prompt，跟Fable5分工合作",
+      "title_zh": "实测 GPT-5.6：三个实用 Prompt，和 Fable5 分工合作",
+      "url": "https://www.woshipm.com/ai/6427947.html",
+      "published": "Sat, 11 Jul 2026 07:08:49 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Sol",
+        "Fable",
+        "Codex",
+        "ChatGPT",
+        "Claude",
+        "OpenAI"
+      ],
+      "summary": "这篇文章聚焦 GPT-5.6 的实际使用方式，而不是只报参数。它把模型分层、上下文规模、站点生成与多模型协作串成一条实操路径，尤其强调“规划与执行拆给不同模型”的工作流，适合已经在用 AI 生产内容或写代码的人快速借鉴。",
+      "key_points": [
+        "没听错。Codex这个名字没了，整个产品改叫ChatGPT了，原来的ChatGPT改名ChatGPT Classic了。然后在里面分了三个区，一个是原来的Cod…",
+        "Sonnet 5执行加上Fable 5当计划顾问，在SWE-bench Pro上能拿到Fable 5大约92%的分数，成本只有63%。Fable每个任务大概只需…",
+        "还加了个站点功能。我们跟Codex对话生成的可视化网页，可以直接部署成一个可分享的网站。我在试用这个的时候，也顺手打开了新的内置浏览器。现在支持导入所有的密码和…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI给Codex找了份新工作",
+      "title_zh": "OpenAI 给 Codex 找了份新工作",
+      "url": "https://www.woshipm.com/ai/6427936.html",
+      "published": "Sat, 11 Jul 2026 06:29:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenAI",
+        "Codex",
+        "Work",
+        "ChatGPT",
+        "Microsoft",
+        "Agent"
+      ],
+      "summary": "OpenAI 这轮更新把编程助手继续推向通用工作入口：一边用 GPT-5.6 的分层模型覆盖不同成本带，一边用 ChatGPT Work 把 Agent 能力嵌进办公流。文章的价值不在功能罗列，而在于指出 OpenAI 正试图从“写代码”扩展到“接管知识工作”的更大叙事。",
+      "key_points": [
+        "参考资料： 1.《ChatGPT 现在是你完成最具雄心工作的伙伴》，openAI官网， 2.GPT-5.6发布说明，OpenAI 3.ChatGPT Work与…",
+        "他要在客户会议前从多个系统拉取持仓、手工核对数据，再拼出完整的投资组合视图。该行用ChatGPT和Codex搭建内部助手Singularity后，Guerrer…",
+        "随着AI在现实工作中的能力边界逐渐明晰，OpenAI和微软也正在从明确的模型供应与应用分发关系，进入模型、Agent与工作入口相互重叠的竞合。如果用户继续从Wo…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI、Grok、Meta三大模型先后发布，谁是性价比之王？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6427923.html",
+      "published": "Sat, 11 Jul 2026 06:02:27 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GPT-5.6",
+        "Grok-4.5",
+        "AI",
+        "token",
+        "MuseSpark-1.1",
+        "OpenAI"
+      ],
+      "summary": "美国大模型市场正掀起一场性价比革命！Grok-4.5、Muse Spark 1.1和GPT-5.6三款新品集体降价提能，OpenAI甚至推出三档分级方案。本文通过编码能力、专业场景测试和价格对比，揭晓谁才是真正的性价比之王，并解析中国模型如何用价格优势倒逼美国巨头变革。 一夜之间，美国大模型集体上新了。 先是SpaceX AI/X AI，率先发布了Grok-4.5；然后是Meta推出Muse Spark 1.1，再然后是OpenAI，推出GPT-5.6，还一次性端出来三个版本：Sol、Terra和Luna。 虽然一…",
+      "key_points": [
+        "01 谁是性价比之王 大家都在争性价比，那么这一轮发布的新模型，谁的性价比最高呢",
+        "在这一轮新模型中，谁是性价比之王，谁又会成为版本新贵呢",
+        "美国大模型市场正掀起一场性价比革命！Grok-4.5、Muse Spark 1.1和GPT-5.6三款新品集体降价提能，OpenAI甚至推出三档分级方案。本文通…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "如何用AI“蒸馏”自己：把零散经验，变成可复用的个人核心资产",
+      "title_zh": "如何用 AI“蒸馏”自己：把零散经验变成可复用资产",
+      "url": "https://www.woshipm.com/ai/6427900.html",
+      "published": "Sat, 11 Jul 2026 04:07:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PPT",
+        "PRD",
+        "PM",
+        "Principle",
+        "Memory"
+      ],
+      "summary": "文章讨论的核心不是再学一个 AI 工具，而是把零散经验沉淀为可复用的个人系统。它把知识库、SOP、模板与复盘串起来，试图把“临场发挥”改造成“可复制的方法论”，对产品、运营和知识工作者都比较有迁移价值。",
+      "key_points": [
+        "B端产品经理如何用AI工具实现经验复利？本文揭秘一套本地化AI蒸馏体系，将临场直觉固化为可复用资产。从PRD拆解到数据汇报，通过三层颗粒度分级与四维知识库搭建，…",
+        "Skills｜模块化技能库（执行动作） 核心AI工具：自定义技能Prompt库、个人SOP模板库、AI范式沉淀工具 核心作用：把零散执行动作，固化为可复用的标准…",
+        "本质是一场自我重塑： 把临时的临场发挥，变成稳定的体系能力； 把模糊的直觉经验，变成清晰的可复用方法论； 把消耗精力的重复劳动，变成持续增值的个人资产"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么香港的冲厕水是咸的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791089",
+      "published": null,
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 不用尝，用的是海水，咸中带苦。 甚至在香港用淡水冲厕，不叫违法，叫犯罪： 具体是为什么呢？ 中国香港地小人口多，人口密度全世界第四，快赶上新加坡了。 虽说降雨量也不低，但架不住人太多，雨水根本不够用。 又没有大型湖泊、河流，地下水系也不丰富，供不起那么多淡水，一直很缺淡水。 早年间的香港，还会闹水荒，一度强制用水管制，也叫“制水”。 1963 年的时候，全香港所有水塘的存水只够全市人饮用 43 天，几乎一整年的时间都要限制供水。 刚开始，供水是每天 8…",
+      "key_points": [
+        "总之—— 香港的冲厕水就是这么咸的",
+        "一瓶农夫山泉，10.5 港币，折合人民币 9 块： 基于这种情况，香港又恰好三面环海，在冲厕水这件事上，索性直接用海水了",
+        "香港水费单 4 个月一周期，周期内前 30 立方米冲厕水免费，后面的 4 块多港币一立方，比淡水的住宅食水要便宜"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "计算机专业曾经有哪些方向非常火后来却凉了？",
+      "title_zh": "计算机专业曾经有哪些方向很火，后来又凉了？",
+      "url": "https://daily.zhihu.com/story/9791133",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "EJB",
+        "Flash",
+        "Delphi",
+        "J2ME",
+        "Java",
+        "Spring"
+      ],
+      "summary": "这篇回答用亲历视角回看计算机行业几轮热点退潮，从网页设计、嵌入式到不同开发岗位的供需变化，提醒读者“热门方向”往往只是在特定周期里成立。对今天仍在追风口的人来说，它的价值在于补上行业记忆，帮助判断哪些技能是短期泡沫，哪些能力更耐周期。",
+      "key_points": [
+        "现在呢。全国九百多所院校开设计算机专业，每年六十万毕业生涌入市场。2 不是计算机不行了。是会计算机的人不稀缺了。一门技术从少数人掌握到所有人可以学习，这个过程是…",
+        "但逻辑不会 2000 年那会，全国开设计算机专业的院校没那么多，会写代码就不愁找工作。2011 年移动互联网红利爆发，名校加计算机加能写代码，进大厂像喝水一样自…",
+        "这些故事的共同点不是失败。是技术方向会死，但技术本身不会消失。Delphi 的 RAD 思想在 C# 和 .NET 里重生。EJB 的组件化思路被 Spring…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "大量猫咪后肢瘫痪，闯祸的是猫粮吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A7%E9%87%8F%E7%8C%AB%E5%92%AA%E5%90%8E%E8%82%A2%E7%98%AB%E7%97%AA%EF%BC%8C%E9%97%AF%E7%A5%B8%E7%9A%84%E6%98%AF%E7%8C%AB%E7%B2%AE%E5%90%97%EF%BC%9F",
+      "published": "Sat, 11 Jul 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B1",
+        "cliniciansbrief",
+        "A.",
+        "animal-health-literacy",
+        "animal-veterinary",
+        "cats."
+      ],
+      "summary": "最近有媒体报道，许多网友反映自己家的小猫后腿瘫痪，只能靠前腿拖着身体爬行，甚至开始大小便失禁，而动物医院往往无法明确病因。 好在，大多数小猫在更换猫粮后情况好转。 网友们发现，患病小猫食用的猫粮集中在几个品牌。这让不少养猫人开始怀疑，问题是不是出在猫粮上——难道是猫粮有毒吗？ 相关报道丨微博/北京商报 可能不是有毒，而是缺营养 目前还没有权威信息表明猫粮和猫咪瘫痪的关系，我们只能根据病例情况推测一下。 患病猫基本情况：已公开病例主要集中在2～8岁的成年猫。 症状：最开始是走路不稳、后腿打滑、跳跃困难；数周后发展为双…",
+      "key_points": [
+        "引起大量猫后肢瘫痪的原因，有可能是长期主要食用缺乏维生素B1（硫胺素）的猫粮 。维生素B1缺乏可导致神经系统损伤，表现为步态异常、运动协调障碍、肢体无力等症状，…",
+        "荷兰、瑞士出现大规模猫咪瘫痪的情况。瑞士方回溯66例完整病例，发病猫都以后肢无力/后肢截瘫为最初症状，之后发展为四肢瘫痪，属于下运动神经元外周神经病变。调查发现…",
+        "相关报道丨微博/北京商报 可能不是有毒，而是缺营养 目前还没有权威信息表明猫粮和猫咪瘫痪的关系，我们只能根据病例情况推测一下"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "真的不建议你下雨天在地下车库散步、遛狗",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%BD%A0%E4%B8%8B%E9%9B%A8%E5%A4%A9%E5%9C%A8%E5%9C%B0%E4%B8%8B%E8%BD%A6%E5%BA%93%E6%95%A3%E6%AD%A5%E3%80%81%E9%81%9B%E7%8B%97",
+      "published": "Sat, 11 Jul 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "al.",
+        "et",
+        "air",
+        "environmental",
+        "health"
+      ],
+      "summary": "梅雨季的雨水下个没完，公园湿滑，跑道积水，原本规律的锻炼计划一下被打乱。于是，很多人把目光投向了一个“绝妙替代方案”——地下车库。这里不淋雨、不晒太阳，冬暖夏凉，地方还够大：有人散步，有人遛娃，有人慢跑，甚至有人把广场舞“搬”进了车库。看起来，它像极了一个临时开放的社区健身房。 居民在地下车库遛娃、跳广场舞丨小红书用户（见水印） 但问题恰恰在于：地下车库看起来方便又舒适，实际上却可能是 雨天里最不适合久留的地方之一 。通风差、湿度高、尾气残留重，还可能聚集一种很多人从未注意过的 危险气体——氡 。它看不见、闻不到，…",
+      "key_points": [
+        "尽量别去 与其研究“戴什么口罩能进车库”，不如记住最有效的一条原则： 远离污染源，永远比在污染源里想办法防护更靠谱 。无论晴天还是雨天，都不建议把地下车库当作散…",
+        "地下车库更危险 雨天是一个容易被低估的“放大器”。一方面，降雨会改变土壤中的气体分布和压力状态。土壤湿度升高后，原本藏在孔隙里的气体更容易被“挤”出来，氡向地下…",
+        "居民在地下车库遛娃、跳广场舞丨小红书用户（见水印） 但问题恰恰在于：地下车库看起来方便又舒适，实际上却可能是 雨天里最不适合久留的地方之一 。通风差、湿度高、尾…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "只要周星驰继续拍，我就永远会看",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%AA%E8%A6%81%E5%91%A8%E6%98%9F%E9%A9%B0%E7%BB%A7%E7%BB%AD%E6%8B%8D%EF%BC%8C%E6%88%91%E5%B0%B1%E6%B0%B8%E8%BF%9C%E4%BC%9A%E7%9C%8B",
+      "published": "Sat, 11 Jul 2026 10:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Eros",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Eros 在华语电影的版图里，我们曾习惯性将周星驰的作品归类到无厘头喜剧，或者小人物励志片的范畴里。而现在，如果继续以这种标准，去审视他登陆暑期档的新作《功夫女足》，似乎已经不再合适。 因为，「周星驰」这三个字，已经超越了一个导演或者演员的人名，成为我们对某一类电影风格的形容词，可以视为一种集体承认的文化暗号。这个暗号指向某种让喜剧、悲剧、尊严在银幕上和谐共存的美学方案。 《功夫女足》的出现，正是代表「周星驰」这个美学系统的全新发展。我们需要借由这部电影，再次认识一次周星驰。 那些无厘头、荒诞之类的评价，的确是…",
+      "key_points": [
+        "我们曾习惯性将周星驰的作品归类到无厘头喜剧，或者小人物励志片的范畴里。而现在，如果继续以这种标准，去审视他登陆暑期档的新作《功夫女足》，似乎已经不再合适",
+        "绿茵场上的球赛是一种约定，像是世界杯会如约四年一届到来，我们也知道自己跟周星驰的电影，永远有一个不见不散的约会，不管是隔一年、四年，还是一万年，都不改变",
+        "她们身上背着的东西，远比年轻主角复杂得多，家庭的责任、身体的折旧、周遭的冷眼、自我怀疑的噪音。她们不再有输了还有下一次的青春特权，周星驰要描写的，恰恰是在这种全…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "金·凯瑞怎么评价自己第一部严肃的电影？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%87%91%C2%B7%E5%87%AF%E7%91%9E%E6%80%8E%E4%B9%88%E8%AF%84%E4%BB%B7%E8%87%AA%E5%B7%B1%E7%AC%AC%E4%B8%80%E9%83%A8%E4%B8%A5%E8%82%83%E7%9A%84%E7%94%B5%E5%BD%B1%EF%BC%9F",
+      "published": "Sat, 11 Jul 2026 10:32:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "He",
+        "Age",
+        "at",
+        "Baltimore",
+        "Dali"
+      ],
+      "summary": "作者：David Kronke 译者：易二三 校对：覃天 来源： The Baltimore Sun （1998年6月8日） 《楚门的世界》涉及了很多议题，包括媒体的入侵，美国人与名人产生共鸣的欲望，社会如何压抑个人天生的冒险意识并将他们推向集体性的平庸，以及个人的满足和从众如何在一个滑动的尺度上不自在地存在。 《楚门的世界》 这是一部属于金·凯瑞的电影吗？ 当然，它也是彼得·威尔的，从他最早在家乡澳大利亚拍摄的影片《悬崖上的野餐》和《最后大浪》，到备受关注的好莱坞巨制《证人》《蚊子海岸》和《无惧的爱》，威尔拍摄的…",
+      "key_points": [
+        "或者我们可以把一些东西融合在一起。我认为这是一种美妙的感觉，也是导演必须采取的一种基本途径，让演员保持开放，有一定的自发性。我永远不会告诉金，「我们不想要这个，…",
+        "《楚门的世界》 这是一部属于金·凯瑞的电影吗",
+        "记者 ：哪些电影让你们产生了这样的想法：「他就是我想在这个项目上合作的那个人？」 威尔 ：我在音像店看到了一张《神探飞机头》的海报。我对他的发型和那些鸟很感兴趣…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "今天取消了Tidal订阅",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8A%E5%A4%A9%E5%8F%96%E6%B6%88%E4%BA%86Tidal%E8%AE%A2%E9%98%85",
+      "published": "Sat, 11 Jul 2026 13:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD",
+        "Tidal",
+        "Apple",
+        "Music",
+        "DJ",
+        "Midjourney"
+      ],
+      "summary": "今天我取消了 Tidal 订阅，但还是保留了网易云和 Apple Music. 最直接的原因是我本周收到一封电子邮件，Tidal 告诉我说从 8 月份开始要涨价。本来我和它相安无事，每个月信用卡商会弹出一条扣费消息，已经变成了个习惯，我用这条消息提醒自己新的一个月就要到来。 专门写信来通知要涨价就是另外一件事情了，我一下子停下来，开始仔细思考这件事： 自从我开始玩 CD，每天打开流媒体的时间就开始锐减，这个变化非常明确。一边写字，一边播放一张专辑，我早年间就有这个习惯，到今天维持着肌肉记忆，所以切回去不费吹灰之力。…",
+      "key_points": [
+        "我想着马上要涨价了，趁着现在还是在低价位，是不是听一下 Tidal，感受一下赚到的感觉。结果尝试了几次都连不上，就看到转菊花，于是我没有任何犹豫，直接切到网页版…",
+        "我想我会继续订阅下去。不是多困难的事情，涨价固然让人不爽，但是人很容易换个角度去想：一个月多了这几块钱，选一天点外卖的时候少点一个菜就都有了。何况 Tidal…",
+        "专门写信来通知要涨价就是另外一件事情了，我一下子停下来，开始仔细思考这件事： 自从我开始玩 CD，每天打开流媒体的时间就开始锐减，这个变化非常明确。一边写字，一…"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "熊大闰：突破传统、甘于寂寞的科研人，星湍归处是吾乡",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%86%8A%E5%A4%A7%E9%97%B0%EF%BC%9A%E7%AA%81%E7%A0%B4%E4%BC%A0%E7%BB%9F%E3%80%81%E7%94%98%E4%BA%8E%E5%AF%82%E5%AF%9E%E7%9A%84%E7%A7%91%E7%A0%94%E4%BA%BA%EF%BC%8C%E6%98%9F%E6%B9%8D%E5%BD%92%E5%A4%84%E6%98%AF%E5%90%BE%E4%B9%A1",
+      "published": "Sat, 11 Jul 2026 08:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "RR",
+        "Astronomy",
+        "Convection",
+        "Frontiers",
+        "Ludwig"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 熊大闰先生 。（图源：中国科学院紫金山天文台） 撰文｜ 郑晓晨（北京天文馆） 毛淑德（西湖大学） ‍ ● ● ● 2026年3月5日21时37分，南京。中国科学院院士、著名天体物理学家熊大闰先生与世长辞，享年88岁。 作为同样仰望星空的天文学后辈，熊大闰先生的名字在恒星研究领域如雷贯耳。前些时日有幸拜读先生的自述文 《熊大闰：突破传统，潜心学问》 ，其中一句话令人记忆尤深： “ 在科学上要有所作为，要具备科学的洞察力和敢于突破传统的勇气；而要能将自己有限…",
+      "key_points": [
+        "便勾勒出一位突破传统、甘于寂寞的科研人铮铮风骨",
+        "他考入北京大学物理系，据他回忆，\" 到北京大学似乎进入了另一个世界，大大开阔了我的眼界，方知世界竟有这么多精妙的学问待我们去学习。\" 他贪婪地从北大浩瀚的图书资…",
+        "熊大闰院士纪念网页： https://pmo.cas.cn/cxwh/dnxdrys/ 参考文献： [1] 中国科学《 非局部对流理论计算恒星结构的一种新方案》…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-12",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "第一期经济学人精读打卡营（最后4天）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%80%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%B2%BE%E8%AF%BB%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%88%E6%9C%80%E5%90%8E4%E5%A4%A9%EF%BC%89",
+      "published": "Wed, 08 Jul 2026 17:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Day01",
+        "Day02",
+        "Day03",
+        "Day04",
+        "Day05"
+      ],
+      "summary": "《经济学人》30天精读打卡营，7月12日正式开营。 这几天，我们把 20 天正课的文章又重新核了一遍。 有些旧选题拿掉了，有些文章顺序也调整了。最后留下来的这 20 篇，我希望它们不只是“好看”，而是真的适合每天拿来精读、拆句、练翻译。 每天还是不贪多：两段重点精读， 预习、译文、词汇、长难句、训练、打卡和答疑。 这 20 天，大致会这样走： 第1周｜AI 与自动化 Day01 AI 助手从工具变成推销员 Day02 中国式自动化的两难 Day03 机器人送披萨，为什么更容易落地 Day04 AI 微短剧：内容工业…",
+      "key_points": [
+        "加赠一份： 《经济学人核心词汇1000》 如果你一直想读《经济学人》，但总是卡在长难句、词义、逻辑和翻译表达上，可以这次跟着一起读",
+        "7月12日正式开营。报名费用：199元 报名加小助理微信：foxwulihua4 现在报名，赠送《经济学人核心词汇1000》",
+        "有些文章顺序也调整了。最后留下来的这 20 篇，我希望它们不只是“好看”，而是真的适合每天拿来精读、拆句、练翻译"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "华盛顿一方面提出人人自由平等和公平正义，一方面又蓄奴200多名黑奴，他是不是一个伪君子？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791118",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Abolition",
+        "Act",
+        "An",
+        "Caught",
+        "Dower",
+        "Estate"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 英美法律中有一个概念叫做“寡妇产（Dower）”。 当丈夫去世时，法律规定寡妇有权继承或终身使用丈夫生前财产的三分之一，通常为不动产，如土地和房屋。 寡妇对这笔财产仅拥有“终身使用权”（Life Estate），而没有绝对的“所有权”（Ownership）。 这意味着她可以靠这笔资产的收益度日，但无权将其变卖、赠与或写入自己的遗嘱。 寡妇去世后，这笔财产必须完好地传给其前夫的合法继承人，通常是长子或其他血亲。 华盛顿 27 岁时迎娶了寡妇玛莎。 当时华盛顿只是一…",
+      "key_points": [
+        "宾夕法尼亚州最高行政委员会，1780 年 3 月 1 日，宾夕法尼亚州档案馆 如果这些奴隶在宾州获得自由，华盛顿需要按照弗吉尼亚法律，向玛莎前夫卡斯蒂斯家族的后…",
+        "让乔治·华盛顿钻了半辈子法律空子，并导致无数黑人骨肉分离的“寡妇产奴隶”及其后代，历经一个多世纪的苦难，终于在南北战争后迎来了法理上的自由",
+        "华盛顿动用联邦资源签署《逃奴追缉法案》进行搜捕，但两人至死都未被抓回，获得了珍贵的自由"
+      ]
+    }
+  ]
+}
