@@ -1,0 +1,736 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T01:00:11.741502+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 68,
+    "backfill_candidates": 25,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-14",
+      "fetched_at": "2026-07-14T01:00:06.432555+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3913.79,
+          "change": -82.37,
+          "change_pct": -2.06,
+          "volume": 590907356.0,
+          "amount": 133487193.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4005.92,
+          "change": 5.119999999999891,
+          "change_pct": 0.13,
+          "prev_close": 4000.8,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-14 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 873.0634975485075,
+          "change": 1.115869789573594,
+          "change_pct": 0.1279744051189846,
+          "prev_close": 871.9476277589339,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-14 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-14",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "看不懂行情时，普通投资者最该做的三件事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%9C%8B%E4%B8%8D%E6%87%82%E8%A1%8C%E6%83%85%E6%97%B6%EF%BC%8C%E6%99%AE%E9%80%9A%E6%8A%95%E8%B5%84%E8%80%85%E6%9C%80%E8%AF%A5%E5%81%9A%E7%9A%84%E4%B8%89%E4%BB%B6%E4%BA%8B",
+      "published": "Mon, 13 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：中泰证券资管 最近的行情，如果你盯着盘面，脑子里可能全是问号：轮到老登股上场表现了吗？创新药的复苏开启了吗？AI的行情，是要调整了吗？ 这些问题都是投资中的大问题，但坦白说，我一个也答不上来。 我们总是不自觉地把自己代入“解题者”的角色， 总希望通过更充分的信息搜集和更深入的分析，把市场的无常驯化成有常，把概率事件推演成必然结论 。但恕我直言，开头提到的那几个问题，不仅仅是我一个人没有答案，而是绝大多数市场的参与者，都无法给…",
+      "key_points": [
+        "却是投资中最真实的存在。从这个角度看，学会和未知共处，或许才是普通人的投资必修课",
+        "一方面是因为处于极值状态（一眼就能分辨出便宜还是贵）的市场是少数时间；更多时间是各种可能性并存的胶着状态——估值看起来不算贵，但也没有便宜到令人心动；前景似乎不…",
+        "但拉长时间看，价值和泡沫或早或晚也都有兑现的时刻。当你不需要在明天、下周或下个月就要一个答案时，未知带来的压迫感会减轻很多，只需要确保自己等得起——用闲钱投资，…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "AI应用下一站：游戏",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3540620772/399728246",
+      "published": "Mon, 13 Jul 2026 10:00:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "UE6",
+        "Epic",
+        "IP",
+        "Sweeney",
+        "Unity"
+      ],
+      "summary": "一、绿洲假设：为什么下一站是游戏 上一篇我们讨论了AI for Science，结论是&#34;仍在早期&#34;，卡在三条约束上：训练数据不可得（病历拿不到）、黑箱不可解释（无法向监管交代）、幻觉零容忍（错一次死人）。这一篇换一个行业。游戏是数据最富集的场景，每一帧渲染、每一次按键都是训练语料；是黑箱最不成问题的场景，玩家从不要求可解释性；也是全世界幻觉容忍度最高的场景，一定程度的涌现、意外和不按剧本，本来就是玩法的一部分。同样的技术约束，换一个行业，判决可能完全相反。 但在讨论供给之前，先回答一个更大的需求问题…",
+      "key_points": [
+        "一、绿洲假设：为什么下一站是游戏 上一篇我们讨论了AI for Science，结论是&#34;仍在早期&#34;，卡在三条约束上：训练数据不可得（病历拿不到）…",
+        "有一个耐人寻味的注脚。Epic创始人Tim Sweeney在今年的发布会上描绘过这样的愿景：堡垒之夜最终变成一个单一的巨大世界，每个创作者的岛屿和游戏成为其中的…",
+        "我认为他应该围绕文娱打造AI护城河，能不能做出最好的游戏引擎，然后创造下一个OASIS,让全球玩家同玩。短期也是看好游戏的现金流和未来AI不可替代性"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "10倍生产力和打折的支付能力，AI最大的矛盾如何破局？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9277793488/399872696",
+      "published": "Mon, 13 Jul 2026 10:00:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Token",
+        "PPT",
+        "Agent",
+        "GDP",
+        "PDF"
+      ],
+      "summary": "一个童话里的AI经济破局之道 1/5 AI需求的两个瓶颈 对AI的质疑，最初是能力：除了写几句诗画几张画，它还能做什么有价值的事？这个质疑随着推理模型的出现，消失了。 后来的质疑是需求，除了写代码，拍视频，还有什么AI能几倍提升效率的任务？这个质疑随着Agent一类的生产力工具的出现，也消失了。 现在的质疑是有支付和消费能力的需求，理论上的需求转化为实际需求，要面对两个瓶颈： 第一个瓶颈是时间这一类稀缺资源。 假设过去，一个知识工作者，每天有1个单位的产出，有了 Agent，每天产出10个单位，全球总供给能力增长1…",
+      "key_points": [
+        "技术革命提升生产力，消费者的支付能力不足，不断发生供给过剩，最终以惨烈的经济危机收场",
+        "AI提高生产力，减少劳动需求，总工资下降，导致消费能力下降和需求不足，支付能力与生产力不匹配",
+        "也会有自己的投资节奏判断，但有一点是可以肯定的，无论是从技术，还是从经济学的角度，都不需要担心未来的需求，也不必担心需求的支付能力，AI也只是小熊、小猪、科学家…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想311 当你凝视波动时，波动也在凝视你",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/399740767",
+      "published": "Mon, 13 Jul 2026 10:00:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ASML",
+        "CPI",
+        "etf",
+        "http",
+        "PCB",
+        "Rubin"
+      ],
+      "summary": "上周市场的波动是巨大的：单看上证指数可能感受还好，只收了1个点的跌幅；创业板指跌了4个点，但振幅达到6.2%，周四出现强势反弹，但周五冲高回落，随后一路单边震荡下行，最终收出放量、反包的长阴线。创业板指尚且如此，可以想想细分领域的etf和个股品种，经历了如何的日间波动和日与日之间的震荡。 剧烈的波动背后是巨大的分歧，周末对于各类消息的讨论热度持续攀升，包括光纤扩产、PCB的品质、Vera Rubin延期等等；上市公司也出来辟谣市场对于业绩的猜测，中际旭创在其投资者交流中表示，公司对2026年半年度及二季度业绩有信心…",
+      "key_points": [
+        "但并不能简单定义为逻辑反转；目前还是看前期情绪过于高涨，获利盘兑现压力上升，叠加各类信息扰动，波动显著放大。在这种波动下，操作是比较难的，之前写过，有浮盈想要部…",
+        "个人的想法是在波动加大的环境下能保住胜利果实，一是由于上半年还有20个点的收益打底，即便守下来也对得起一年的辛苦；二是前期布局的品种中，目前只有一个是亏的，其他…",
+        "周末对于各类消息的讨论热度持续攀升，包括光纤扩产、PCB的品质、Vera Rubin延期等等；上市公司也出来辟谣市场对于业绩的猜测，中际旭创在其投资者交流中表示…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "存储 — 周期与成长的十字路口",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/399849883",
+      "published": "Mon, 13 Jul 2026 10:00:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "HBM",
+        "DRAM",
+        "BOM",
+        "GPU",
+        "IPO"
+      ],
+      "summary": "海外，SK海力士周五登陆纳斯达克，发行价 149 美元，开盘 170 美元，募资 265 亿美元创下外国企业赴美 IPO 历史纪录，超 7 倍认购、首日溢价超 20%，市场情绪炽热；国内，国产 DRAM 龙头长鑫科技同步进入发行倒计时，7 月 16 日开启科创板申购，拟募资 295 亿元，为 2026 年 A 股最大 IPO、科创板史上第二大融资项目。海内外两大存储巨头同期叩响资本市场大门，将存储赛道的热度推至顶点。 此刻的存储行业，正站在周期与成长的十字路口。 高光：毛利率追平英伟达 自去年 8 月起，存储开启连…",
+      "key_points": [
+        "正站在周期与成长的十字路口",
+        "AI 产业的深度渗透仍为存储打开了确定的成长空间。从云端训练推理到端侧设备、具身智能，存储的需求底座仍在持续拓宽，行业本具备从强周期品种转向核心成长赛道的历史机…",
+        "AI 浪潮给了 存储行业跳出周期、跻身成长赛道的历史机遇 。当存储在 AI 硬件中的价值占比稳步提升、成为产业刚需底座，它本可以像主芯片一样，赚产业长期成长的钱…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从自用到开源-个人知识库产品化实践",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6428446.html",
+      "published": "Mon, 13 Jul 2026 08:03:49 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GitHub",
+        "Obsidian",
+        "Skill",
+        "CLAUDE.md",
+        "clone"
+      ],
+      "summary": "从个人知识库到开源产品的蜕变，揭秘认知资产如何转化为可交付的AI工具。作者将沉淀半年的知识操作系统打包成GitHub项目，直面自用与产品化的三大鸿沟：用户画像缺失、个人印记剥离、产品说明重构。本文深度解析项目开源背后的产品思维跃迁，以及AI时代产品人最珍贵的判断力如何在这套知识引擎中淬炼成型。 终于来到了我个人知识库AI实践的最终章。 第一篇聊认知——为什么个人知识库的本体不是知识集合，而是认知资产。第二篇聊实操——3 个脚本、4 个 Skill、3 层防线是怎么一步步长出来的。今天这篇聊交付。我把这套自己用了大半…",
+      "key_points": [
+        "到分享实践，再到最后交出一个别人能直接上手用的产品——这个递进过程本身，是我这半年最大的收获，也是我真正想分享出来的心路历程（和终极干货）。这篇文章就是聊聊这个…",
+        "揭秘认知资产如何转化为可交付的AI工具。作者将沉淀半年的知识操作系统打包成GitHub项目，直面自用与产品化的三大鸿沟：用户画像缺失、个人印记剥离、产品说明重构…",
+        "第一篇聊认知——为什么个人知识库的本体不是知识集合，而是认知资产。第二篇聊实操——3 个脚本、4 个 Skill、3 层防线是怎么一步步长出来的。今天这篇聊交付…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "7·15新规下，付费情感AI三大商业化场景的合规产品设计",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6428441.html",
+      "published": "Mon, 13 Jul 2026 08:03:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PM",
+        "Prompt",
+        "TA",
+        "UGC",
+        "XX"
+      ],
+      "summary": "《人工智能拟人化互动服务管理暂行办法》实施后，情感AI产品的付费功能成为监管重点。本文深度剖析三类主流付费业务的合规边界与改造方案，从专属陪伴、情绪疏导到第三方导流，揭示付费场景下被放大的风险与应对策略。产品经理如何在不触碰红线的前提下实现商业价值？答案藏在分层风控与全链路审计的设计之中。 7月15日《人工智能拟人化互动服务管理暂行办法》正式施行后，多数情感AI团队已经完成了免费基础功能的合规改造。但很快，一个更棘手的问题摆在了产品经理面前：付费功能该怎么改？ 付费场景下的情感AI，是新规监管的重点抽查对象。近期已…",
+      "key_points": [
+        "本系列文章覆盖了情感AI从免费到付费的全链路产品设计思考，前三篇分别拆解了UGC智能体管控、未成年人分层防护、成年用户柔性风控，本篇补齐商业化场景的合规闭环。文…",
+        "一、付费情感AI三条需要重点把控的合规边界 《办法》对商业化场景提出了比免费服务更严格的约束。从产品设计的角度看，以下三条是PM在规划付费功能时，需要前置思考的…",
+        "《人工智能拟人化互动服务管理暂行办法》实施后，情感AI产品的付费功能成为监管重点。本文深度剖析三类主流付费业务的合规边界与改造方案，从专属陪伴、情绪疏导到第三方…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "契约库：让设计规范像代码一样管理",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6428353.html",
+      "published": "Mon, 13 Jul 2026 08:00:07 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "YAML",
+        "v1.0.0",
+        "v1.1.0",
+        "ERR-001.yaml",
+        "AI",
+        "contracts"
+      ],
+      "summary": "当设计规范遇上版本控制，YAML 语义契约正在重构设计系统的协作范式。本文深入解析如何将设计意图形式化为可追踪的代码化契约，并建立组织级的语义规范仓库，实现版本管理、Git 同步、影响面分析与权限控制四大核心能力，彻底改变传统文档式设计规范的局限。 本文是阶段二《设计师作为”语义翻译者”》的基础设施专题，回答 YAML 语义契约在组织内如何被管理、被追踪、被同步。 阶段二的核心判断是：传统设计规范以文档形态存在（PDF、语雀、Figma 注释），版本不可追溯、变更不可同步、影响不可分析。Schema-As-Code…",
+      "key_points": [
+        "阶段二的核心判断是：传统设计规范以文档形态存在（PDF、语雀、Figma 注释），版本不可追溯、变更不可同步、影响不可分析。Schema-As-Code 的解法…",
+        "子目录 ： prompt-prefixes/：供 AI 编程工具消费的 Prompt 前缀 json-schemas/：供前端校验消费的 JSON Schema…",
+        "版本可追溯（git log 看历史） 变更可审查（Pull Request 评审） 影响可分析（代码搜索、依赖分析） 权限可控制（谁可以 push、谁可以 me…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拼多多为什么不打AI入口战？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6428504.html",
+      "published": "Mon, 13 Jul 2026 07:45:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Temu",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "当各大互联网巨头疯狂争夺AI入口时，拼多多却选择了一条截然不同的道路。这家电商平台没有加入通用大模型竞赛，而是将千亿资金砸向供应链改造。本文深度解析拼多多为何敢于缺席AI入口大战，以及它如何在低价供给与AI深度结合中找到自己的生存之道。 2026年的中国互联网，AI入口已经成为全行业默认的“下一代流量命脉”。 阿里持续加码通义千问，字节全力迭代豆包，腾讯落地元宝，百度死守文心一言，几乎所有头部平台都在疯狂布局大模型、智能Agent和一站式AI助手，试图把用户的所有消费决策锁在自己的AI入口之内。 唯独拼多多是个异类…",
+      "key_points": [
+        "黄峥在阐释本分文化时曾说“在你的位置上，做你该做的事”，这句话放到AI战略上，亦是如此。大模型入口战是阿里、字节、腾讯的牌桌，在那张桌上，拼多多花再多钱也未必能…",
+        "拼多多却选择了一条截然不同的道路。这家电商平台没有加入通用大模型竞赛，而是将千亿资金砸向供应链改造。本文深度解析拼多多为何敢于缺席AI入口大战，以及它如何在低价…",
+        "不在造入口，要集中力量把子弹用在关键位置。公开财报显示，拼多多近年研发投入占营收比重基本稳定在3%-4%区间。2025年，拼多多总营收约4318亿元，研发费用约…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "微信“小绿书”会是下一个内容风口吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6428509.html",
+      "published": "Mon, 13 Jul 2026 06:44:39 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CC0",
+        "GIF",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "TopKlout",
+        "Unsplash"
+      ],
+      "summary": "微信「贴图」功能的崛起正在颠覆公众号生态。从「小绿书」到独立流量入口，这种短图文形式凭借高完读率和算法偏好迅速抢占流量高地。但社区互动的缺失与内容深度的妥协，也让这场变革充满争议。本文深度剖析贴图功能如何重构创作者生存法则与平台战略布局。 你有没有发现，这一年刷公众号，贴图内容的曝光位无处不在。 服务号信息流里有专门的“贴图”版块，公众号主页有贴图标签页，“看一看”里贴图内容密集推荐，甚至连聊天列表的入口都在给贴图让路。 过去的公众号文章是三五千字打底，配图只是点缀。现在打开消息列表，滑来滑去都是贴图内容，排版像小…",
+      "key_points": [
+        "微信「贴图」功能的崛起正在颠覆公众号生态。从「小绿书」到独立流量入口，这种短图文形式凭借高完读率和算法偏好迅速抢占流量高地。但社区互动的缺失与内容深度的妥协，也…",
+        "微信上线了图片消息功能，最多9张图配1000字，因为排版太像小红书，被网友戏称为“小绿书”。当时很多人觉得这只是个补充功能，不会影响公众号的长图文生态",
+        "而是让长和短共存互补。微信能不能让贴图从流量工具变成真正的社区生态，这才是决定“小绿书”能走多远的关键"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791179",
+      "published": "Mon, 13 Jul 2026 22:59:58 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "DeepSeek",
+        "Deepseek",
+        "Grammar",
+        "print",
+        "xxxx"
+      ],
+      "summary": "瞎扯 · 钓鱼佬最接受不了什么？ 知乎日报 查看知乎原文 Q： 钓鱼佬最接受不了什么？ @喝红茶不加糖 ：我有次和老婆在河边散步，路上聊起了空军的发展历史，结果一旁的钓鱼佬气急败坏的要打我，简直莫名其妙。 Q： 怎么看待 「 何意味 」 这个网络词？ @Grammar ：这个不是语文卷子上经常出现的词吗？ 请赏析 xxxx 句子有何意味。 Q： 如何评价《 「 出片式旅行 」 ，正在毁掉当代人的假期？》人民日报这一文章？ @凡人阿土 ：出片式好歹消费了张车票。 等明年 AI 换背景式旅游火起来，你就知道今年的好了。…",
+      "key_points": [
+        "瞎扯 · 钓鱼佬最接受不了什么"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "他们宁愿住核电站旁边，也不愿住AI数据中心附近",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%96%E4%BB%AC%E5%AE%81%E6%84%BF%E4%BD%8F%E6%A0%B8%E7%94%B5%E7%AB%99%E6%97%81%E8%BE%B9%EF%BC%8C%E4%B9%9F%E4%B8%8D%E6%84%BF%E4%BD%8FAI%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E9%99%84%E8%BF%91",
+      "published": "Mon, 13 Jul 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "of",
+        "amp",
+        "Compton",
+        "Environmental"
+      ],
+      "summary": "在美国密歇根州的一个小镇莱诺克斯，居民们突然发现一个网站，声称要在镇里建立一个 AI数据中心 园区，但并未说明是谁要建。镇政府表示，从来没有人申请过。直到居民依法申请拿到内部邮件，才发现开发商早已在背后接触官员。 愤怒的居民涌进公开会议，有几场会议持续超过了四小时。他们递交请愿书，要求罢免四名镇政府官员。 莱诺克斯只是一个缩影。2026年上半年， 美国至少有75个数据中心项目被叫停或推迟 ，涉及金额约1300亿美元。在密歇根、德克萨斯、俄克拉荷马、加利福尼亚、佛罗里达等州，居民们走进公开会议，批评官员对数据中心提案…",
+      "key_points": [
+        "美国人宁愿住在核电站旁边，也不愿住在数据中心附近 。当大多数人还在讨论AI对普通人带来的就业困境时，住在数据中心附近的人们，已经切实感受到了AI带来的环境后果",
+        "莱诺克斯只是一个缩影。2026年上半年， 美国至少有75个数据中心项目被叫停或推迟 ，涉及金额约1300亿美元。在密歇根、德克萨斯、俄克拉荷马、加利福尼亚、佛罗…",
+        "2018年夏季干旱期间的爱尔兰威克洛郡普拉福卡水库。爱尔兰正围绕都柏林大力扩建高耗能、高耗水的人工智能数据中心基础设施，或将给本就紧张的淡水供应带来更大压力 |…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "把你的车悄悄弄坏再修好，这其实是4S店的基本操作。",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%8A%8A%E4%BD%A0%E7%9A%84%E8%BD%A6%E6%82%84%E6%82%84%E5%BC%84%E5%9D%8F%E5%86%8D%E4%BF%AE%E5%A5%BD%EF%BC%8C%E8%BF%99%E5%85%B6%E5%AE%9E%E6%98%AF4S%E5%BA%97%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E3%80%82",
+      "published": "Mon, 13 Jul 2026 20:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "BBA",
+        "chaping321",
+        "ID",
+        "X.PIN"
+      ],
+      "summary": "不知道各位车主，有没有碰到过“小病大修”的经历。 本来是个小剐蹭，看着车上痕迹轻微，以为几百块就能搞定。 但送到 4S 店里一看，人直接拉出个大几千的维修单，还跟你头头是道地解释：哥们你别看外面撞得不严重，其实里头的那个那个都坏了，这一套零件全得换。 碰到这种情况，有可能是你真的倒霉，刚好撞到了内伤。但还有一种可能性是，4S 店的维修人员顺道给你整坏的，也就是 私自扩损 。 在座的老司机们，或多或少都听过扩损这个事吧，可能大家都觉得这个摊不到自己头上。 但脖子哥找了包括 4S 店工作人员、保险定损员在内的几位老哥聊…",
+      "key_points": [
+        "还有的其实是维修工人敲断的。” 把本来没坏的零件扩损弄坏，这样修理厂就能多赚一个配件费。而比起人为敲坏，陶磊跟我说了一个更骚的操作",
+        "人直接拉出个大几千的维修单，还跟你头头是道地解释：哥们你别看外面撞得不严重，其实里头的那个那个都坏了，这一套零件全得换",
+        "有可能是你真的倒霉，刚好撞到了内伤。但还有一种可能性是，4S 店的维修人员顺道给你整坏的，也就是 私自扩损"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苹果起诉OpenAI引爆骂战；广汽启境GT7增程版曝光；全国用电负荷首破十五亿千瓦创历史新高",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9C%E8%B5%B7%E8%AF%89OpenAI%E5%BC%95%E7%88%86%E9%AA%82%E6%88%98%EF%BC%9B%E5%B9%BF%E6%B1%BD%E5%90%AF%E5%A2%83GT7%E5%A2%9E%E7%A8%8B%E7%89%88%E6%9B%9D%E5%85%89%EF%BC%9B%E5%85%A8%E5%9B%BD%E7%94%A8%E7%94%B5%E8%B4%9F%E8%8D%B7%E9%A6%96%E7%A0%B4%E5%8D%81%E4%BA%94%E4%BA%BF%E5%8D%83%E7%93%A6%E5%88%9B%E5%8E%86%E5%8F%B2%E6%96%B0%E9%AB%98",
+      "published": "Mon, 13 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "M7",
+        "GT7",
+        "M6",
+        "OpenAI",
+        "Tau"
+      ],
+      "summary": "今天是7月13日，星期一。1919年的今天，英国R34飞艇完成人类首次由欧洲飞越大西洋再返回的不着陆飞行，往返均成功，证明了飞艇长途飞行的可行性。 重点新闻速览 1.苹果起诉OpenAI引爆骂战 2.MuseImage AI图像生成模型引发隐私争议后紧急下线 3. 全国用电负荷首破十五亿千瓦创历史新高 4. 广汽启境GT7增程版曝光 5. 新疆全域遭遇罕见极端高温 科技 苹果起诉OpenAI引爆骂战 苹果起诉OpenAI窃取硬件商业机密后，马斯克在X平台多次攻击奥特曼为骗子，指控其将欺诈行为提升到全新高度。这场互怼…",
+      "key_points": [
+        "苹果原本计划为M7系列带来神经网络处理能力的大幅升级，最终认为这些改进足够重要，因此决定加快下一代产品的推出而不是完成整个M6产品线。按照目前计划搭载基础版M6…",
+        "美国波士顿儿童癌症与血液疾病研究中心（Dana-Farber）研究团队利用基因工程改造的干细胞进行KIT受体表位编辑——修改KIT蛋白表面的特定氨基酸位点，使抗…",
+        "全国用电负荷首破十五亿千瓦创历史新高 4"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这不是给学霸准备的，这是给每一个普通家庭准备的“未来说明书”！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E4%B8%8D%E6%98%AF%E7%BB%99%E5%AD%A6%E9%9C%B8%E5%87%86%E5%A4%87%E7%9A%84%EF%BC%8C%E8%BF%99%E6%98%AF%E7%BB%99%E6%AF%8F%E4%B8%80%E4%B8%AA%E6%99%AE%E9%80%9A%E5%AE%B6%E5%BA%AD%E5%87%86%E5%A4%87%E7%9A%84%E2%80%9C%E6%9C%AA%E6%9D%A5%E8%AF%B4%E6%98%8E%E4%B9%A6%E2%80%9D%EF%BC%81",
+      "published": "Mon, 13 Jul 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "dc_ps",
+        "End",
+        "feature",
+        "GeefmIC1qd",
+        "Junior"
+      ],
+      "summary": "多少家长拼尽全力鸡娃：报奥数、补英语、挤学区房，费尽心思让孩子赢在起跑线，可如今心里却越来越慌...... 很多时候不是家长不努力，也不是孩子不够好，而是我们根本 看不清未来趋势！不知道哪些行业会爆发？哪些技能未来有用？孩子现在该知道什么、思考什么？更不知道普通家庭的孩子，该如何跟上AI时代…… 残酷的真相： 死刷题、拼储备的旧模式，早已跟不上当下的竞争！ 未来比拼的是孩子的眼界、认知和判断力。 💥《好奇星球》全新升级！ 专为7-15岁孩子打造！带他们看黑洞、看量子、看嫦娥探月…… 直接把国家未来5-10年发展方向…",
+      "key_points": [
+        "这是给每一个普通家庭准备的“未来说明书”",
+        "也不是孩子不够好，而是我们根本 看不清未来趋势！不知道哪些行业会爆发？哪些技能未来有用？孩子现在该知道什么、思考什么？更不知道普通家庭的孩子，该如何跟上AI时代…",
+        "👇戳图立马抢👇 0 3 直击痛点 /它到底解决了家长的哪些“心头大患”/ 它击穿了当下家庭教育的五大痛点—— 痛点1：孩子看新闻只看热闹，不看门道，读了个寂寞…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "她的代表作，不止影史最佳《迷魂记》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A5%B9%E7%9A%84%E4%BB%A3%E8%A1%A8%E4%BD%9C%EF%BC%8C%E4%B8%8D%E6%AD%A2%E5%BD%B1%E5%8F%B2%E6%9C%80%E4%BD%B3%E3%80%8A%E8%BF%B7%E9%AD%82%E8%AE%B0%E3%80%8B",
+      "published": "Mon, 13 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "Chloe",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Sight"
+      ],
+      "summary": "作者：Chloe Walker 译者：鸢尾花 校对：易二三 来源: Sight &amp; Sound （2023年2月13日） 金·诺瓦克在好莱坞的黄金时期是短暂的。从突破之作《易如反掌》（1954）到巅峰之作《迷魂记》（1958），她只用了四年的时间，虽然此后她仍有出色的表演，但到了60年代中期，她只有零星几部作品，且作品质量参差不齐。 《迷魂记》 不过，即便属于她的巅峰时期是如此短暂，她仍为这些作品注入了自己的风格。在50年代中期的好莱坞，诺瓦克是众多女明星中的一员，是新近出现的、又一个玛丽莲·梦露式的金发碧…",
+      "key_points": [
+        "《迷魂记》（1958） 导演：阿尔弗雷德·希区柯克 在《迷魂记》中，诺瓦克轻松地扮演了玛德琳/朱迪的双重角色，詹姆斯·斯图尔特饰演的侦探约翰·弗格森完全被她迷住…",
+        "Chloe Walker 译者：鸢尾花 校对：易二三 来源: Sight &amp; Sound （2023年2月13日） 金·诺瓦克在好莱坞的黄金时期是短暂的…",
+        "《夺情记》（1958） 导演：理查德·奎因 就在拍摄《迷魂记》的同年，诺瓦克和斯图尔特再次合作，联袂出演了这部作品。在这部迷人的爱情喜剧中，诺瓦克扮演的女巫爱上…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "收视率九成，这样的剧得多好看？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%94%B6%E8%A7%86%E7%8E%87%E4%B9%9D%E6%88%90%EF%BC%8C%E8%BF%99%E6%A0%B7%E7%9A%84%E5%89%A7%E5%BE%97%E5%A4%9A%E5%A5%BD%E7%9C%8B%EF%BC%9F",
+      "published": "Mon, 13 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 路西法尔 1990年，中国老百姓最惦记的是什么事呢？ 不是伊拉克和科威特开了战，而是大成没娶成刘慧芳。 「大成」 即宋大成，和「刘慧芳」都是电视剧《渴望》中的重要角色。这部电视剧被认为是国产室内剧的开山鼻祖，创下了中国电视剧史上空前绝后的90.78%的收视率（尽管当时的统计方式受到后人的极大怀疑），真正做到了「万人空巷」。 《渴望》 传说不仅带动了彩电的销售，播出期间甚至连犯罪率都会降低。主人公刘慧芳、王沪生、宋大成的三角恋让全国观众牵肠挂肚、如痴如醉，故而与战争、挂历并列为90年的三件大事。 《渴望》的故事并…",
+      "key_points": [
+        "夏顺开其实就相当于吉米，而纯洁的刘慧芳就相当于迪尔。夏顺开鄙视她的虚伪、死板、无能，正如吉米鄙视同性恋，他绝不会爱上刘慧芳，他追逐的正是这种「不可能的爱情」本身…",
+        "和「刘慧芳」都是电视剧《渴望》中的重要角色。这部电视剧被认为是国产室内剧的开山鼻祖，创下了中国电视剧史上空前绝后的90.78%的收视率（尽管当时的统计方式受到后…",
+        "而《渴望》里刘慧芳之所以不嫁宋大成选择王沪生，嫁给王沪生之后又不顾丈夫反对坚持收养刘小芳，本质上是与夏顺开一定要娶她是一样的：夏顺开需要在刘慧芳身上验证自己的「…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国到底有多少重名的地理景观？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E5%B0%91%E9%87%8D%E5%90%8D%E7%9A%84%E5%9C%B0%E7%90%86%E6%99%AF%E8%A7%82%EF%BC%9F",
+      "published": "Mon, 13 Jul 2026 17:02:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MV",
+        "zh"
+      ],
+      "summary": "中国疆域广袤 山川命名自古多有重合 同一座山，可能会落在江南红层盆地 或在川西高原山区 也可能在黄土台塬地区 会营造出截然不同的地质景观 水文格局、植被群落与山河气韵 龙虎山 丹霞红层与喀斯特岩溶地貌 江西鹰潭龙虎山 江西龙虎山坐落于鹰潭市西南二十公里，地处武夷山脉西北支脉向鄱阳湖平原过渡的赣东丘陵地区。 这座山得名于东汉天师张道陵炼丹的传说，“ 丹成而龙虎现，两山对峙如龙盘虎踞 ”，龙山绵延起伏，虎山昂首蹲伏，泸溪河横亘两山之间，山水格局奠定了山名由来。 江西龙虎山 从地质演化来看，这片山地成型于1.4亿年前的晚…",
+      "key_points": [
+        "一个科学定义的百年演变 .中国国家地理.2025年12期 话题 你还知道哪些同名的地理景观",
+        "这些地区也有桃花岛 山东日照 桃花岛 浙江乐清湾 桃花岛 同名之下 是亿万年来地壳运动塑造的地理地貌 是季风气候梯度造就的景观差异 是大江流域分割出的水文格局…",
+        "中国疆域广袤 山川命名自古多有重合 同一座山，可能会落在江南红层盆地 或在川西高原山区 也可能在黄土台塬地区 会营造出截然不同的地质景观 水文格局、植被群落与山…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "拆解一瞬间的心念",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%8B%86%E8%A7%A3%E4%B8%80%E7%9E%AC%E9%97%B4%E7%9A%84%E5%BF%83%E5%BF%B5",
+      "published": "Mon, 13 Jul 2026 12:47:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "ar",
+        "Bitsea",
+        "castle.",
+        "children"
+      ],
+      "summary": "听到有人批评自己，当自我意识到这件事的瞬间，内心的不爽就闪电一样出现了，根本来不及做什么。 然而这只是第一个瞬间，紧接着第二个瞬间到来，人就会立即开始准备攻击或者是自我辩解。如果一个人经常遭到批评，或者遭受攻击，比如说他经常在网上写东西，那么这两个瞬间之间几乎没有空隙，反击立即就发生了。 这样的事情反复发生，内心的连锁反应就会逐渐固化下来，变成一种类似本能的条件反射。人们看到了，说这个人就是这样，一直都那么暴躁。自己则完全接受下来，说这就是我，我就是这样一种性格。 其实这些话都不成立。 之所以说这就是本心本性，那是…",
+      "key_points": [
+        "拆解一次并不是一劳永逸。这里讲一个我身上最新的例子： 前阵子我查煤气表，发现卡里还有 1800 多块钱。然后我再查了一下每月用量，发现即便我每天中午做一餐简单饭…",
+        "事情到这里应该很清楚了吧？1800 是房东卡上的钱，不是我的钱。但是在之后的两周时间里，我的心却不时自动跳出来提醒我：喂！你还有 1800 块钱在燃气卡里，去拿…",
+        "不爽的情绪在瞬间产生，那它是怎么来的？是来自期待。我期待我是好的，我是对的，我期待人们都会赞同我，都会承认我。一旦现实和这种期待发生抵触，因为这种期待如此强烈，…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "70岁C刊名誉主编：我的学生发文章几乎没任何困难，本科生也能发",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+70%E5%B2%81C%E5%88%8A%E5%90%8D%E8%AA%89%E4%B8%BB%E7%BC%96%EF%BC%9A%E6%88%91%E7%9A%84%E5%AD%A6%E7%94%9F%E5%8F%91%E6%96%87%E7%AB%A0%E5%87%A0%E4%B9%8E%E6%B2%A1%E4%BB%BB%E4%BD%95%E5%9B%B0%E9%9A%BE%EF%BC%8C%E6%9C%AC%E7%A7%91%E7%94%9F%E4%B9%9F%E8%83%BD%E5%8F%91",
+      "published": "Mon, 13 Jul 2026 08:56:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SSCI",
+        "CSSCI",
+        "HHI",
+        "Index",
+        "Citation",
+        "Sciences"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图片为AI生成 撰文｜李想俣 张天祁 ‍ ● ● ● 《文史哲》名誉主编王学典的一篇文章，在学界引发了一场争议。 7月10日，《中华读书报》微信公号刊发山东大学讲席教授、儒学高等研究院院长、知名C刊《文史哲》名誉主编王学典的文章《纵横学界的一位豪杰主编——追忆武卫华兄》。该文此前已发表在《中华读书报》纸质版7月8日第 5 版瞭望专版。 在这篇悼文中，70岁的王学典深情回忆曾担任《山东社会科学》主编的武卫华。 其中一些细节讲述，却也在不经意间，以当事人视角…",
+      "key_points": [
+        "翁惠明主编《东岳论丛》，武卫华主编《山东社会科学》。山东地区的这几家重要期刊，我的学生发表文章几乎没有任何困难。那个时期，几乎我所有的学生都曾在这些刊物上发表过…",
+        "王学典的学生“发表文章几乎没有任何困难”。相比之下，由于C刊容量有限等因素，很多博士生和青年学者想发表论文并非易事。王学典则认为，这不能怨杂志社，不能怨期刊界",
+        "在此期间还有《东岳论丛》也经常向我约稿。《东岳论丛》的副主编是翁惠明，也是我的老朋友、历史系七八级的同学。因此，那一时期武卫华向我要稿，翁惠明也向我要稿，我的文…"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "《经济学人核心词汇1000》早鸟票最后1天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%A0%B8%E5%BF%83%E8%AF%8D%E6%B1%871000%E3%80%8B%E6%97%A9%E9%B8%9F%E7%A5%A8%E6%9C%80%E5%90%8E1%E5%A4%A9",
+      "published": "Mon, 13 Jul 2026 17:35:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CATTI",
+        "court",
+        "foxwulihua4",
+        "fuel",
+        "psephology",
+        "slash"
+      ],
+      "summary": "《经济学人核心词汇1000》第一版，整理好了 第一版不是终点，而是一个可以开始系统刷的入口。 前几天那篇讲“词是怎么筛出来的”文章，阅读量很高。 后台有同学又问： 这 1000 个词，是不是把重要的词都覆盖了？ 说实话：不是。 外刊词汇不是一个封闭系统，没有任何一份表能“穷尽重要词”。 我们能保证的是： 把这批词啃下来，再去读外刊，很多句子会明显顺很多。 它是个入口，不是终点。 第一版团队经过两周的梳理基本成型。 每个词条都配了中文释义、真实外刊例句和参考翻译、核心搭配、写作仿句，理解例句，按模块分好；另外这次做的…",
+      "key_points": [
+        "如果你在准备考研、CATTI、雅思写作、专八，或者读《经济学人》时经常有那种“单词都认识、句子就是读不顺”的感觉，这套资料应该适合你",
+        "比如 psephology （选举研究），《经济学人》确实用过，但语境太窄，考试和写作里几乎用不上，也得删",
+        "加小编微信：foxwulihua4，回复 核心词 文章原文"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "正式开源！美团 LongCat-2.0 同步开放国产卡推理代码",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/07/12/LongCat-2.0-Open-source.html",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LongCat-2.0",
+        "Agentic",
+        "Coding",
+        "Embedding",
+        "LongCat",
+        "N-gram"
+      ],
+      "summary": "美团 LongCat-2.0 总参数 1.6T，平均激活约 48B，为真实的 Agentic Coding 任务而生，架构上创新性引入 LongCat 稀疏注意力和 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力的同时，结合动态激活进一步强化了代码理解、生成以及执行的表现。",
+      "key_points": [
+        "美团 LongCat-2.0 总参数 1.6T，平均激活约 48B，为真实的 Agentic Coding 任务而生，架构上创新性引入 LongCat 稀疏注意…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为何后世文言文和先秦文章总是有些微妙的不同？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791081",
+      "published": "Fri, 10 Jul 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "to",
+        "gladio",
+        "SVO",
+        "unsad",
+        "access",
+        "appeal"
+      ],
+      "summary": "周沛， 觀天下書未徧，不得妄下雌黃 查看知乎原文 其实所有这些微妙不同，都是一件事造成的： 后世文言文必须通过各种方式摹拟已经死亡的上古汉语，可现实汉语口语是不断向前发展的。越往后的作者在写文言文时，越会被同时期的口语所污染，从而不可避免地偏离文言文的「纯正」 。 我自己把这种现象称作「口语阑入」。随着真实汉语的发展，文言文会不断羼入汉语真实口语的噪音，最终自然消解这一书面语的拟古根基。正如杨伯峻先生所言： 周秦以后，文字和语言渐渐分家。在所谓士大夫的阶层中，口头说的是活人的话，笔下写的却是死人的文章。唐宋人以周秦…",
+      "key_points": [
+        "后世文言文与先秦两汉文章的「微妙区别」，就非常容易理解了。汉语是不断向前运动的，大家可以简单理解为越来越接近今天的汉语。可文言文是高度拟古的，因为在无力通过行政…",
+        "后世文言文与先秦两汉文章的微妙差别，本质上都归因于汉语自身的发展演变。文言文是一种高度拟古的书面语言，可现实汉语却是社会发展的直接反映。随着现实汉语的不断发展，…",
+        "汉语的双音节化直接使得后世文言文与上古汉语文章之间有显著不同。我们看一个直观的案例。《礼记·大学》是先秦儒家学派的作品。到了初唐，唐太宗敕令编纂《五经正义》，就…"
+      ]
+    }
+  ]
+}
