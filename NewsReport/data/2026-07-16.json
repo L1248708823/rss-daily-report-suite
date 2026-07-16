@@ -1,0 +1,797 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T01:00:11.021168+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 89,
+    "fresh_candidates": 64,
+    "backfill_candidates": 25,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-16",
+      "fetched_at": "2026-07-16T01:00:05.715100+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3955.58,
+          "change": -11.55,
+          "change_pct": -0.29,
+          "volume": 576209492.0,
+          "amount": 122629827.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4050.09,
+          "change": -10.190000000000055,
+          "change_pct": -0.25,
+          "prev_close": 4060.28,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-16 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 880.9842594241806,
+          "change": -2.216550645425855,
+          "change_pct": -0.25096791354291953,
+          "prev_close": 883.2008100696064,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-16 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-16",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "明明承担了风险，为什么却不赚钱？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%98%8E%E6%98%8E%E6%89%BF%E6%8B%85%E4%BA%86%E9%A3%8E%E9%99%A9%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8D%B4%E4%B8%8D%E8%B5%9A%E9%92%B1%EF%BC%9F",
+      "published": "Wed, 15 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-",
+        "ETF"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 不在此山中 来源：雪球 没有人会无缘无故给你发钱 ， 投资中的大部分回报 ， 都来自投资者对风险的承担 。 但是 ， 很多人会觉得 ： 我投资的钱每天上下大幅波动 ， 风险这么大 ， 怎么没什么回报 ， 甚至还要赔钱呢 ？ 先看一个大家都能理解的例子 。 一 、 你会为 “ 作死 ” 多付运费吗 ？ 假设你有一批货物要从A城运到B城 ， 你找到了一位货车司机小王 。 小王在出发前 ， 研究了路线 ， 有两条路 ： 选择一…",
+      "key_points": [
+        "三 、 对策 ： 只承担 “ 有补偿 ” 的风险 理解了这两种风险 ， 投资策略就清晰了 ： 1.走 “ 国道 ” 不走 “ 山路 ” ， 分散非系统性风险 即…",
+        "因为这是所有市场参与者都必须共同面对的风险 ， 为了鼓励资金参与经济活动 、 支持实体经济发展 ， 长期来看 ， 承担这种 “ 与市场同呼吸共命运 ” 的风险…",
+        "别信那些鼓吹走山路能抄近道发大财的 “ 老司机 ” ， 那些宣称能帮你抓住下一只暴涨股的大师 ， 往往是在引诱你承担不必要的巨大风险 2.理性面对 “ 国道 ”…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "量化时代，我是怎么活过来的",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/400271642",
+      "published": "Wed, 15 Jul 2026 09:54:41 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ERP",
+        "ETF",
+        "DMA",
+        "gt",
+        "http",
+        "lt"
+      ],
+      "summary": "说句实在话，现在的A股，对手盘早就不是人了。 是一群不睡觉、没情绪、毫秒级反应的机器。 我见过太多朋友，技术学了一堆，K线翻烂了，每天盯盘盯到眼睛疼，年底一算账还是亏的。 真不是不努力，是你一直在拿自己的短板，硬撞机器的长板。 你盯半小时分时线纠结要不要动手，算法已经把全市场扫描了几万遍。你靠情绪做决策，机器全年无休、零情绪、毫秒级执行。 想明白这一点之后，我反而踏实了。 活下来不需要比它快，只需要看懂它赚什么钱，然后主动站到它够不着的地方。 一、你亏的钱，大多被三类量化赚走了 市场上的量化策略很多，但真正冲着散户…",
+      "key_points": [
+        "覆盖底仓、择时、逆向和稳健增强 不用复杂公式，不用天天盯盘。四套逻辑清楚、可长期执行的框架，足以应对量化时代的市场",
+        "大多被三类量化赚走了 市场上的量化策略很多，但真正冲着散户来的，主要是这三种",
+        "捕捉量化集体平仓制造的错杀。触发条件：微盘股指数单周跌超15%且成交放大1.5倍以上。优选宽基ETF一键买入，避免个股停牌无法进场。若选个股，分散10到15只，…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "再聊一聊锂行业",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8222687488/399925565",
+      "published": "Wed, 15 Jul 2026 09:54:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "http",
+        "SZ000792",
+        "SZ002460",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$赣锋锂业(SZ002460)$ $盐湖股份(SZ000792)$ 本来不想说太多的，因为股价受市场情绪，行业景气度，流动性，资金偏好等多种因素影响，个人不能和趋势和行情做对，所以本来抱着主力要洗盘要砸盘你随意的状态，但发现现在的市场确实太没有道理啦！还是再聊一聊锂行业。 1.锂需求：市场对今年锂电池总产量的预期基本看到了 3200 GWh 了，需求旺盛超预期，是无论多空双方基本都认可的，就是26年锂需求仍然是超预期的，或者是按照年初设想的乐观预期走的； 2.锂供给：年初经历了津巴 暂停锂精矿出口的扰动，最近又受到…",
+      "key_points": [
+        "因为股价受市场情绪，行业景气度，流动性，资金偏好等多种因素影响，个人不能和趋势和行情做对，所以本来抱着主力要洗盘要砸盘你随意的状态，但发现现在的市场确实太没有道…",
+        "10.把锂矿投资当成长期有成长属性的资源，同时考虑成本和安全性，确保公司和我们能熬过周期和战胜市场的波动，享受行业的持续成长"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "7.14光通信行业更新",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8141527616/400132489",
+      "published": "Wed, 15 Jul 2026 09:54:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "NPO",
+        "PCB",
+        "CAPEX",
+        "CSP"
+      ],
+      "summary": "早上随手发了一张相信光的照片，没想到下午整个板块就巨阳拉了起来 二哥今天要强势一点主要是因为市场传二哥Q2业绩在45-47亿左右，之前主流机构预测都在38-40亿，如果真有47亿肯定是超预期的。我昨天也说过，目前跟踪下来新易盛的出货量是修复非常大的，之前产品也发往虚拟仓了，只要客户确认顺利45-47亿是很有可能的。 下面更新一下最近的行业信息： 一、 1. 核心观点与重点推荐方向 AI产业中期趋势未结束 ：利润与收入增速的拐点远未到来，资本开支强度及光模块、PCB等硬件景气度有望延续至 2028年之后 ，但中途波动…",
+      "key_points": [
+        "核心供应商利润弹性巨大 行业阿尔法强化 ：通信成为数据中心建设瓶颈， DCI 、 OCS 、 Core Network 等各环节需求百花齐放，涨价趋势自2025…",
+        "通信ETF（515880） ：光模块、服务器、铜连接、光纤等AI算力核心环节，合计权重约 85% ，光通信纯度高，自 2023年以来业绩持续突出 ，同类指数中优…",
+        "强现实支撑光通信与AI硬件再配置 板块调整与预期下修 ：6月20日以来，光模块、通信及AI板块整体走弱，市场对远期预期明显下调，筹码结构经历较大交换"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对海力士跨市场定价分歧与存储共振的思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/400202048",
+      "published": "Wed, 15 Jul 2026 09:54:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ADR",
+        "LTA",
+        "AI",
+        "HBM",
+        "ASP",
+        "DRAM"
+      ],
+      "summary": "在经历前期剧烈震荡后，昨晚美股存储迎来强势反弹。海力士ADR单日暴涨超27%，并同步带动美光、闪迪均上涨约5%。而经过此轮大涨，海力士美股ADR相较其韩正股溢价率已扩大至51%。 在韩本土市场大幅波动的背景下，美股ADR展现出的向上弹性，是 基本面共识重塑 、 衍生品杠杆催化 、以及 跨市场流动性摩擦 共同作用的结果。 更关键的是，围绕估值的跨市场博弈也表明： 这轮由AI基础设施投资驱动的存储超级周期，将在长协与刚性扩产周期下，显著长于历史经验。 一、LTA带来的存储周期平滑与长效逻辑 海力士近期价格波动的核心源于…",
+      "key_points": [
+        "一、LTA带来的存储周期平滑与长效逻辑 海力士近期价格波动的核心源于市场对存储盈利模式的分歧",
+        "期权市场的杠杆催化： 衍生品市场的介入放大了ADR的短期弹性。海力士ADR期权上市首日，合约成交突破3.3万张，且超三分之二集中在当周到期的短期看涨期权（如行权…",
+        "四、展望：在波动中把握存储的长期逻辑 综合供需基本面与资本市场行为，海力士、以及当下存储的市场震荡是一次价值重估"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "\"AI吃AI会完蛋\"是伪命题，真正的产品风险是缺乏数据纠错机制",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6429962.html",
+      "published": "Wed, 15 Jul 2026 10:43:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "gt",
+        "Nature",
+        "RAID",
+        "AWS",
+        "CC0"
+      ],
+      "summary": "当AI开始吞噬自己的输出，模型坍塌的阴影笼罩行业。Nature最新研究揭示极端条件下AI的退化轨迹，但现实远比实验复杂。本文从产品视角拆解三大认知误区，提出基于数据锚定、纠正、智能、监控的RAID模型框架，揭示医疗AI到娱乐产品的分级防御策略，更指出现阶段AI产品经理必须掌握的数据管线设计能力与新兴市场机遇。 模型坍塌？ 2024年7月，Nature封面刊登Shumailov等人的研究，系统揭示模型坍塌（Model Collapse）现象：AI模型在完全封闭的递归训练中，到第九代完全失真——从中世纪建筑输出退化为不…",
+      "key_points": [
+        "产品框架：AI产品数据纠错机制设计 基于以上分析，可以提炼一套AI产品训练数据管线的设计框架，我称之为“ 数据锚定纠正智能监控模型 ”",
+        "“AI吃AI会完蛋”是伪命题",
+        "而是缺乏纠错机制的封闭递归"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品经理必看：3招搞定AI幻觉，再也不怕模型“翻车”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6430332.html",
+      "published": "Wed, 15 Jul 2026 09:26:16 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "AI幻觉正在成为产品经理最头疼的行业难题——大模型越是自信输出，业务风险反而越大。本文深度剖析AI决策的三大致命陷阱，并给出可落地的风控方案：从规则引擎双校验到置信度分层机制，再到全链路溯源设计，教你用产品思维构建AI决策的安全防线。 做过AI产品的产品经理们都会面临同一个问题：大模型看似无所不能，却总在关键节点“掉链子”。 明明参数更优、训练数据更全，AI却会凭空编造数据、错判业务场景、给出完全脱离规则的决策，这就是行业通病——AI幻觉。 更致命的是，很多AI决策自带“自信感”，输出结果逻辑通顺、话术严谨，让人很…",
+      "key_points": [
+        "AI幻觉正在成为产品经理最头疼的行业难题——大模型越是自信输出，业务风险反而越大。本文深度剖析AI决策的三大致命陷阱，并给出可落地的风控方案：从规则引擎双校验到…",
+        "做过AI产品的产品经理们都会面临同一个问题：大模型看似无所不能，却总在关键节点“掉链子”",
+        "很多AI产品翻车后的最大问题是： 出错了不知道为什么错、找不到出错环节、无法定位是模型问题、数据问题还是流程问题，更无法快速修正止损"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当普通人也能生成鸿蒙元服务，码上飞要解决的不只是“做应用”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6430268.html",
+      "published": "Wed, 15 Jul 2026 08:44:31 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "agent",
+        "APP",
+        "Agent",
+        "Coding",
+        "HarmonyOS"
+      ],
+      "summary": "AI生成应用已成现实，但真正的挑战在于如何让这些应用被看见、被使用并持续运转。码上飞不仅解决了非技术人群的数字化难题，更通过与鸿蒙生态的深度整合，为小微商家提供了从开发到经营的一站式解决方案。本文将揭秘码上飞如何用AI agent协作打破技术壁垒，让普通人的生意真正跑起来。 在当今的AI时代，AI 能不能生成应用，已经不需要解释。对很多用户来说，更现实的问题则是：应用生成之后，怎么被别人发现？怎么分发？怎么获得曝光和收益？怎么真正跑起来？ 这也是码上飞运营负责人徐智豪在采访中反复强调的一点。应用本身不是目的，只是实…",
+      "key_points": [
+        "元服务则让这件事往前走了一步。码上飞本身可以作为元服务存在于鸿蒙生态中，鸿蒙用户可以在元服务里打开码上飞并进行对话。同时，码上飞也支持用户把自己生成的应用发布成…",
+        "码上飞的鸿蒙故事，并不只是一个 AI Coding 产品适配新系统的故事。它更像是在回答一个问题： 当鸿蒙生态进入Agent时代，普通人能不能不懂代码，也把自己…",
+        "华为 HDC 2026 官方新闻稿显示， HarmonyOS 6 终端设备数突破 6600 万，鸿蒙系统已经汇聚超 1100 万注册开发者，应用市场可获取应用和…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "亲身经历过OPC，才知道产品思维有多么重要",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6429856.html",
+      "published": "Wed, 15 Jul 2026 08:44:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OPC",
+        "MVP",
+        "PMF",
+        "AARRR",
+        "Acquisition"
+      ],
+      "summary": "OPC（一人公司）创业浪潮下，AI工具看似让产品开发变得前所未有的简单，但真正的挑战在于如何找到愿意使用产品的客户。本文通过亲身经历，揭示了技术创业者常见的认知陷阱：将技术可行性等同于商业成功，忽视了用户真实需求。从失败案例中总结出‘问题验证三段论’，帮助创业者实现从‘解决方案优先’到‘问题优先’的思维转变，探索单人可跑通的增长闭环。 一、前言 查理・芒格有句流传甚广的话：“手里拿着锤子，满眼都是钉子”。 放在今天的 AI 创业浪潮里，这句话精准戳中了绝大多数OPC创业者的集体困境——当大模型把产品开发的门槛拉到前…",
+      "key_points": [
+        "AI工具看似让产品开发变得前所未有的简单，但真正的挑战在于如何找到愿意使用产品的客户。本文通过亲身经历，揭示了技术创业者常见的认知陷阱：将技术可行性等同于商业成…",
+        "这次，不并不先进行产品开发，而是去看市场，看竞品，去各论坛、媒体平台，寻找目标用户，先搭建自己的运营社群，通过文章或是短视频，把目标用户聚集起来，作为产品最初的…",
+        "当一个产品的诞生从未经历过“问题验证”的阶段，那么推广阶段就必然要面对一个残酷的现实：你需要说服用户接受一个他们并不真正需要的东西。这几乎是不可能完成的任务"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "老板让我给核心业务接入大模型，我为什么拼死拦住了？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6429765.html",
+      "published": "Wed, 15 Jul 2026 08:30:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "API",
+        "AI_Bot",
+        "CC0",
+        "Key"
+      ],
+      "summary": "当大模型遇上企业级业务系统，看似美好的智能化升级背后暗藏致命陷阱。从数据越权到审计黑洞，盲目接入AI可能让产品经理沦为背锅侠。本文深度剖析B端AI落地的三大雷区，并给出权限治理、审计跟踪与数据隔离的实战解决方案，揭示如何让AI在安全边界内真正赋能企业核心业务。 最近，很多 B 端产品经理都经历过同样的职场“噩梦”。 老板看完某个炫酷的 AI 发布会，转头就对你说：“下个月，把大模型接入我们的核心业务流，让用户一句话就能操作审批、改报价、查报表。” 听起来很美好对吧？仿佛企业一夜之间就迈入了智能化时代。但真正懂业务系…",
+      "key_points": [
+        "转头就对你说：“下个月，把大模型接入我们的核心业务流，让用户一句话就能操作审批、改报价、查报表。” 听起来很美好对吧？仿佛企业一夜之间就迈入了智能化时代。但真正…",
+        "看似美好的智能化升级背后暗藏致命陷阱。从数据越权到审计黑洞，盲目接入AI可能让产品经理沦为背锅侠。本文深度剖析B端AI落地的三大雷区，并给出权限治理、审计跟踪与…",
+        "把它当“受治理的员工” 真正的企业级 AI 架构，绝不能是游离于业务系统之外的外挂。破局的核心思路只有一个： 人和 AI 助手，必须在同一套身份、权限与审计模型…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "太阳在变成红巨星的时候，会不会引力变弱到吞噬不到地球，导致地球仍然处在适宜带？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791188",
+      "published": "Tue, 14 Jul 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AGB",
+        "AU",
+        "panel",
+        "a_crit",
+        "cycle",
+        "Darwin"
+      ],
+      "summary": "孙萌， 研究恒星一生的天体物理学者，平时写码、推公式混口饭吃。 查看知乎原文 结论先行，我觉得答案是逃不掉。但欢迎提出不同意见，大家一起头脑风暴。 这是一个非常好的问题，题主具备了很多天文基础知识。是的，恒星演化到晚期（比如红巨星）的时候星风就很强了（太阳现在处于主序星阶段，星风损失速度可以忽略不计，非常弱），也知道还有宜居带这个概念。不过天文里面宜居带定义，其实比较糙，即恒星周围能让行星表面存在液态水的区域。但如果上升到 host 智慧生命的地步，那必须得条件可要多了，比如需要板块运动，要有大气等等。 故事从这篇…",
+      "key_points": [
+        "E., 2012, ApJ, 761, 121，里面有个图，几乎是 AGB 渐近巨星怎么吃行星的教科书级 plot。我毕业答辩介绍研究背景的时候，也会用这个图。…",
+        "就完全是另一套故事。这些小质量行星太轻，潮汐作用不够强。它们的轨道几乎没有往里缩，只是乖乖地待在那儿被主星膨胀吃掉。我们的太阳系，大约 50 亿年后，太阳会膨胀…",
+        "双星轨道周期比恒星内部对流的时间尺度要短很多，这时湍流无法完全跟上潮汐变形，潮汐耗散效率会下降，我们称为减弱粘滞（reduced viscosity）。而对于较…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "福建安溪龙须殿被曝遭紫雷劈中，这种雷威力有多大？周围有那么多比它高的建筑，为什么就它偏偏被雷击中？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791160",
+      "published": "Mon, 13 Jul 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ps",
+        "articles",
+        "https",
+        "km",
+        "KTV",
+        "nature.com"
+      ],
+      "summary": "野狸子， 形而上学 查看知乎原文 看来大家对“紫雷”这两个字的兴趣，远大于对闪电本身的兴趣嘛。 “九天紫雷”“天雷伐庙”“紫雷劈殿”，这些词凑到一起，莫名一股修仙小说的味道就燃起来了，莫不是哪个道友又开始渡劫或者诛魔了？ 据村里老一辈口述，此地山脚自古阴气极重，地底岩层深处禁锢一头山精邪祟，明代先人选址修建龙须殿，依靠常年香火阳气镇压地脉，用青石板封住邪祟出口，安稳四百余年。 又传这座殿新天王石像完工后，迟迟未举办开光法事，神像灵场长期处于“真空”状态，山下游荡的阴杂邪祟趁机依附在殿内，积攒浓重浊气，这也是龙须殿引…",
+      "key_points": [
+        "nature.com/articles/s41 586-020-03122-6 泉州安溪紫雷劈庙事件的一些传说 查看知乎讨论",
+        "迟迟未举办开光法事，神像灵场长期处于“真空”状态，山下游荡的阴杂邪祟趁机依附在殿内，积攒浓重浊气，这也是龙须殿引雷的另一大因素， 在结合网友的风水局，再随便加点…",
+        "此地山脚自古阴气极重，地底岩层深处禁锢一头山精邪祟，明代先人选址修建龙须殿，依靠常年香火阳气镇压地脉，用青石板封住邪祟出口，安稳四百余年"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "买3D打印机前必看，那股“塑料味”到底安全吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B9%B03D%E6%89%93%E5%8D%B0%E6%9C%BA%E5%89%8D%E5%BF%85%E7%9C%8B%EF%BC%8C%E9%82%A3%E8%82%A1%E2%80%9C%E5%A1%91%E6%96%99%E5%91%B3%E2%80%9D%E5%88%B0%E5%BA%95%E5%AE%89%E5%85%A8%E5%90%97%EF%BC%9F",
+      "published": "Wed, 15 Jul 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PLA",
+        "ABS",
+        "FDM",
+        "EN",
+        "EU",
+        "An"
+      ],
+      "summary": "每一种技术在真正进入家庭之前，都要过同一道关。 微波炉刚出现的时候，人们担心辐射。不粘锅普及的那些年，关于涂层是否有毒的争论从未停止。 还有洗碗机、空气炸锅、扫地机器人等等，每一个从“新鲜玩意儿”变成“家里标配”的东西，都经历过一段被审视、被怀疑、被反复追问“安不安全”的过程。 现在，轮到 3D打印机 了。 近几年，3D打印机的价格和操作门槛都在快速下降。越来越多的家庭开始用它打印玩具、教具或者各种小物件。周末陪孩子3D打印个小手工，寓教于乐。 一个朋友跟我说，她就一直想给孩子买台3D打印机。孩子班上好几个同学家里…",
+      "key_points": [
+        "包括UL GREENGUARD在开放式打印机上测试空气质量，长时间打印PM2.5比点一支香薰蜡烛还低；EN 71-3测打印件化学迁移，达到儿童日常接触标准；EU…",
+        "目前3D打印耗材还没有统一的强制准入门槛 ，不像塑料玩具行业已经建立了完整的法规体系。判断一款耗材是否安全， 很大程度上要靠品牌自身的信息披露和第三方认证",
+        "任何塑料加热都会释放微量的 挥发性有机物（VOCs） 和 超细颗粒物（UFPs） 。这不是3D打印独有的，就连炒菜、点蜡烛、用激光打印机都会释放一些物质"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "得了一种看哈兰德表情包就想笑的病",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%BE%97%E4%BA%86%E4%B8%80%E7%A7%8D%E7%9C%8B%E5%93%88%E5%85%B0%E5%BE%B7%E8%A1%A8%E6%83%85%E5%8C%85%E5%B0%B1%E6%83%B3%E7%AC%91%E7%9A%84%E7%97%85",
+      "published": "Wed, 15 Jul 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Haaland",
+        "Erling",
+        "in",
+        "City",
+        "Manchester",
+        "Instagram"
+      ],
+      "summary": "本文授权转载自 答案如下（ID：theanswer163） ，未经授权禁止转载 当地时间七月五日的傍晚，新泽西大都会人寿体育场，挪威二比一掀翻巴西。第七十九分钟，一个高大的金发男人力压加布里埃尔头球破门。第九十分钟，他又在禁区外一脚贴地远射钻进死角。终场哨响，他眼含热泪，转身走向看台，领着满场挪威球迷敲鼓划船。另一侧，内马尔哭着下场，赛后宣布退出国家队。 挪威等这一天等了二十八年。而在此很久之前，这个男人的脸，就已出现在我们的手机屏幕上。 他就是埃尔林·哈兰德。 你打开手机，点开社交媒体，点进世界杯的话题。不论是长…",
+      "key_points": [
+        "可他从不抱怨 。[20]” 在国家队里，主帅索尔巴肯说：“埃尔林是个非常好带的球员。他一心为球队好，喜欢和队友待在一起，也爱跟队伍里所有的工作人员一起找乐子[2…",
+        "和抽象表情包以及球场上飞奔的野兽印象不同的是， 场外的哈兰德，友善、干净、爱笑",
+        "世界名画《埃尔林·哈兰德的呐喊》 然而，将他的五官单独拆出来，几乎每一处都是标准的帅哥模板，只是组装到一起后，就成了这么一张又抽象、又狂放的维京海盗脸。而哈兰德…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "多家出版商起诉谷歌Gemini AI版权侵权；AI拟人化监管新规7月15日正式施行；阶跃星辰发布STEPX Neo AI手机",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%9A%E5%AE%B6%E5%87%BA%E7%89%88%E5%95%86%E8%B5%B7%E8%AF%89%E8%B0%B7%E6%AD%8CGemini+AI%E7%89%88%E6%9D%83%E4%BE%B5%E6%9D%83%EF%BC%9BAI%E6%8B%9F%E4%BA%BA%E5%8C%96%E7%9B%91%E7%AE%A1%E6%96%B0%E8%A7%847%E6%9C%8815%E6%97%A5%E6%AD%A3%E5%BC%8F%E6%96%BD%E8%A1%8C%EF%BC%9B%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0%E5%8F%91%E5%B8%83STEPX+Neo+AI%E6%89%8B%E6%9C%BA",
+      "published": "Wed, 15 Jul 2026 17:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Neo",
+        "STEPX",
+        "DeepSeek",
+        "Gemini",
+        "V4"
+      ],
+      "summary": "今天是7月15日，星期三。1965年的今天，美国“水手4号”探测器成功传回了人类历史上首批火星表面的近距离照片。 重点新闻速览 1.多家出版商起诉谷歌Gemini AI版权侵权 2.苹果智能备案获批 3.DeepSeek V4国内首创算力峰谷分时计费 4.AI拟人化监管新规7月15日正式施行 5.阶跃星辰发布STEPX Neo AI手机 科技 多家出版商起诉谷歌Gemini AI版权侵权 包括Hachette、Cengage、Elsevier在内的多家国际知名出版商于近日对谷歌提起诉讼，指控其Gemini AI模型…",
+      "key_points": [
+        "重点新闻速览 1.多家出版商起诉谷歌Gemini AI版权侵权 2.苹果智能备案获批 3.DeepSeek V4国内首创算力峰谷分时计费 4.AI拟人化监管新规…",
+        "宣布自研工业机器人在汽车工厂精密装配场景完成4个月迭代，自攻螺母上件双侧作业成功率从90.2%提升至98%，单台设备最快76秒完成1个工件装配。机器人还进入总装…",
+        "新规是国内首部专门针对AI拟人化行为的监管规范。受此新规影响，豆包、通义千问等产品的原独立智能体模块同步下线，相关功能迁移至合规新版工具入口。（科技新闻速览）…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "看起来显小状态好的人，都有一个共同特点......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%98%BE%E5%B0%8F%E7%8A%B6%E6%80%81%E5%A5%BD%E7%9A%84%E4%BA%BA%EF%BC%8C%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E5%85%B1%E5%90%8C%E7%89%B9%E7%82%B9......",
+      "published": "Wed, 15 Jul 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "nm",
+        "LED",
+        "ml",
+        "nm+",
+        "CS-2023-060-1",
+        "NASA"
+      ],
+      "summary": "你有没有这种感觉—— 过了30岁之后，不知道从哪天起，明显感觉自己好像老了。😞 以前熬夜通宵依然精神百倍，现在即使睡饱了觉， 脸还是 垮的、浮的、暗的。 出门前精心化了一小时妆，到下午照镜子—— 脸往下走了，妆也往下走了 。 更扎心的是： 翻出去年同期的照片一对比，真感觉岁月在脸上留下了痕迹。 皮肤随岁月逐渐衰老丨图虫 究其原因，和皮肤深处的胶原蛋白流失有关。 从20岁开始，皮肤里的胶原蛋白就以每年1%的速度递减 。 [1] 再加上各种压力、熬夜、不健康的饮食习惯，流失只会更快 。 久而久之，皮肤 组织就会坍塌，…",
+      "key_points": [
+        "实际使用效果因人而异 @大鹏，T区油、毛孔大，鼻周易敏感 试用体验后直接心动要购买 虽然我比较敏感，但这个我 开最大3档用起来也没什么不适 ，只有一丢热乎乎的感…",
+        "报告编号SHA01-26031165-JC-01，实际使用效果因人而异 👉 如果你主要是淡皱纹、促胶原、想让皮肤嘭起来， 选胶原小光盾就够了 ，性价比更高，完全…",
+        "果壳市集后台好评截图 如果你 ： 👉 觉得贵妇面霜效果不够，想来点厉害的辅助手段； 👉 怕做项目疼、怕恢复期、怕麻烦，又想全脸紧致、淡皱纹 ； 👉平时就喜欢做皮…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "曾经是地球上最牛的电影网站",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9B%BE%E7%BB%8F%E6%98%AF%E5%9C%B0%E7%90%83%E4%B8%8A%E6%9C%80%E7%89%9B%E7%9A%84%E7%94%B5%E5%BD%B1%E7%BD%91%E7%AB%99",
+      "published": "Wed, 15 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IMDb",
+        "IMDbPro",
+        "Mojo",
+        "Database",
+        "Internet",
+        "Movie"
+      ],
+      "summary": "文 王伟 IMDb（Internet Movie Database）是一个关于电影、电视节目和电子游戏的互联网电影数据库，收录了电影及电视剧的简介、片长、导演、演员等信息，以IMDb 250电影榜单、STARMeter明星星级，以及用户的打分和评论为世界影迷喜爱并熟知。 IMDb的创始人柯尔·尼德姆 IMDb最初创建于英国的布鲁塞尔，1998年被亚马逊公司收购，成为亚马逊旗下的独立子公司，其后于2014年收购Withoutabox和BoxOffice Mojo两家电影互联网公司。 IMDb于2016年10月17日迎…",
+      "key_points": [
+        "尼德姆的决定是正确的。很难想象，如果没有商业资金的注入，这个今天全世界规模最大的电影网站还能否存活。可以说，公司化使IMDb网站得以生存并扩大，最终从一种业余爱…",
+        "这个本着免费为用户提供信息的电影网站，已无力承担流量增长所需的设备。继续作为网友们的业余爱好，还是转型为商业公司，令尼德姆及其他志愿者纠结了足足几个月",
+        "现收录于IMDb网站上的「rec.arts.movies新闻组存档」网页截图 其实早在14岁，尼德姆就已经开始在自己的夏普MZ-80K的电脑上建立了以电影为主题…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这个外国豆瓣要被收购了？影迷怎么办？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E4%B8%AA%E5%A4%96%E5%9B%BD%E8%B1%86%E7%93%A3%E8%A6%81%E8%A2%AB%E6%94%B6%E8%B4%AD%E4%BA%86%EF%BC%9F%E5%BD%B1%E8%BF%B7%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F",
+      "published": "Wed, 15 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Letterboxd",
+        "IMDb",
+        "Tomatometer",
+        "Fandango",
+        "Needham",
+        "Col"
+      ],
+      "summary": "文 ruike 国外有个网站叫 Letterboxd ，很多人说是外国豆瓣，这几年大火。两者像是有点像，但又不太一样。 最近它有个新闻，是面临被收购，这就让我想起了过去这些年，互联网影迷社区的起起落落。 迷影文化在互联网上的生存状态，和过去的线下时代相比，到底有什么不一样？ 电影本身有一个特点，它特别适合被数据化编目。因为每部电影都有确定的片名、导演、演员、年份、时长、国别、类型 …… 这些基础数据天然适合被录入数据库，再做各种排列组合。于是这些排列组合就衍生出巨大的趣味性，成了迷影文化和互联网文化之间，那种特殊亲…",
+      "key_points": [
+        "文 ruike 国外有个网站叫 Letterboxd ，很多人说是外国豆瓣，这几年大火。两者像是有点像，但又不太一样",
+        "是面临被收购，这就让我想起了过去这些年，互联网影迷社区的起起落落",
+        "几乎同时诞生了两个影迷社区。一个是我们熟知的豆瓣，创始人阿北，主打书、影、音三个文艺赛道。另一个是马日拉（马锐拉）创办的海报资料库 IMPDB ，后更名为互联影…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "剑南春X中国国家地理：沧海桑田话“永恒”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%89%91%E5%8D%97%E6%98%A5X%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%EF%BC%9A%E6%B2%A7%E6%B5%B7%E6%A1%91%E7%94%B0%E8%AF%9D%E2%80%9C%E6%B0%B8%E6%81%92%E2%80%9D",
+      "published": "Wed, 15 Jul 2026 17:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Gao",
+        "Quincy",
+        "Shangri-La"
+      ],
+      "summary": "香格里拉的春天，总是来得晚一些。 在低海拔地区已经开始渐次争春的时候，她还没醒，直到别人的春天快过了一半，她才开始慵懒地睁开睡眼，画上绝色的妆。 如果你恰好在春夏之季扎进了她的怀抱，那就可以什么都不做、什么都不想，让清透的阳光把皮肤晒得微微发烫，让温柔的风带起丝丝碎发摩挲着你的脸，让轻晃的牛铃声如同催眠一般萦绕耳畔，看马慢慢地吃草，尾巴的长毛随着风飞扬、散开，在阳光里变得发亮，看草长成绿色的绒布，看花把它绣成彩色的花毯，看如镶满碎钻的绸缎般的水面上扑簌簌飞过一只鸟，在寂静中留下几声或长或短的啁啾…… 天地之间，盛放…",
+      "key_points": [
+        "剑南春联合中国国家地理，带着26 对新人来到这片神奇梦幻的土地。在卡瓦格博和缅茨姆的深情对望中， 在不染尘埃的日月之名中， 在流淌千年的历史与信仰中，在这片离天…",
+        "此次活动还来 到了香格里拉高山植物园，它是 我国藏区首个公益性植物园，也是世界首个低纬度高海拔的高山植物园。本次行程的“重头戏”——剑南春X中国国家地理【山河“…",
+        "还是香格里拉成就了洛克，总之，相比其他众多的博物学家来说，洛克的出镜率太高了。然而，当他被提起的时候，往往不是因为他所从事的植物学上的 成就，而是因为香格里拉，…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "和世界杯平行",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%92%8C%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B9%B3%E8%A1%8C",
+      "published": "Wed, 15 Jul 2026 12:21:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "yellow",
+        "AI",
+        "ar",
+        "banana.",
+        "Bitsea"
+      ],
+      "summary": "今年我完全不知道世界杯的任何进程，和朋友圈里熬夜的球迷朋友完全活在两个世界里。具体来说，就是他们值夜班，我值白班。我上班之后翻看前一晚的内容，就知道世界杯还在继续，不过谁输谁赢我并不在意，我就想看看是谁在熬夜，是谁的荷尔蒙还没有耗尽。 看世界杯是属于那种「你应该去做」的事情，也属于我刚好不想去做的事情。类似的事情很多，比如说我还在念书那会儿，男同学都要去读《兵器知识》《汽车杂志》《舰船知识》《健身与搏击》一类的杂志，否则就可能和大家缺乏课间共同话题。 可我一点都看不进去，我更喜欢看《奥秘》和《飞碟探索》那样的杂志，…",
+      "key_points": [
+        "现在连这样的事情我也不愿意做了。我很高兴自己和世界杯保持平行关系，他们在那边踢他们的，我在我这边玩我自己的。然后我发现，生活并没有受到任何影响。这对于我倒是很有…",
+        "为了写专栏而看世界杯其实很痛苦。真球迷是下了班或者逃了班去看球赛，算是休息娱乐。对于我来说，我是在休息娱乐的时间打开电视上班。也没有任何欣赏的成分，一边看比赛还…",
+        "我终于取消了最后一个项目，坦然不再关注世界杯。就像是我现在彻底放下了周星驰的电影一样，从我欠他电影票和他欠我电影票的循环里跳了出去。我依然承认世界杯或者周星驰举…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "菲尔兹奖剧透？北大校友王虹、邓煜或双双获奖，这是他们的故事",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%89%A7%E9%80%8F%EF%BC%9F%E5%8C%97%E5%A4%A7%E6%A0%A1%E5%8F%8B%E7%8E%8B%E8%99%B9%E3%80%81%E9%82%93%E7%85%9C%E6%88%96%E5%8F%8C%E5%8F%8C%E8%8E%B7%E5%A5%96%EF%BC%8C%E8%BF%99%E6%98%AF%E4%BB%96%E4%BB%AC%E7%9A%84%E6%95%85%E4%BA%8B",
+      "published": "Wed, 15 Jul 2026 07:55:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Joshua",
+        "Zahl",
+        "Kakeya",
+        "Zaher",
+        "Hani",
+        "arXiv"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 左图为王虹，图源：法国高等科学研究所；右图为邓煜，图源：芝加哥大学 撰文｜ 李璐 张天祁 ‍ ● ● ● 2026 年菲尔兹奖最热门人选，坊间一直盛传是这四位数学家：王虹、邓煜、 Jacob Tsimerman 、 John Pardon 。 7 月 14 日，据说国际数学家大会 （ ICM ） 官网前端代码被发现了隐藏字段，本届菲尔兹奖得主名单“提前泄露”。 相关信息显示，四个标注为 “ HIDDEN ” 的 “ Fields Medal Lectu…",
+      "key_points": [
+        "北京大学数学学院 2026 年毕业典礼上，北京国际数学研究中心主任田刚在致辞中特地提到： 拿咱们的校友王虹、邓煜来说，他们近期在重大数学难题上的突破，也正是 “…",
+        "王虹此前已获 2026年克雷研究奖 （ Clay Research Award， 与 Joshua Zahl 共同获奖 ）、 数学新视野奖 （ New Hori…",
+        "若国际数学家大会 官网“泄露信息”最终得到证实，本届菲尔兹奖将同时授予两位从北京大学数 学 学院 走出的数学家。而即将举行的2026国际数学家大会上，包括北大教…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "前美联储主席艾伦·格林斯潘 | 经济学人讣告 （双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%89%8D%E7%BE%8E%E8%81%94%E5%82%A8%E4%B8%BB%E5%B8%AD%E8%89%BE%E4%BC%A6%C2%B7%E6%A0%BC%E6%9E%97%E6%96%AF%E6%BD%98+++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%AE%A3%E5%91%8A+%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Wed, 15 Jul 2026 14:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "in",
+        "he",
+        "to",
+        "his",
+        "was"
+      ],
+      "summary": "1 写在前面 美联储前主席格林斯潘于2026年6月22日去世，享年100岁。他早年是爵士乐手，痴迷数据，后经安·兰德影响倾向自由市场理念，历任福特经济顾问委员会主席，1987年由里根任命执掌美联储。上任伊始即沉着应对\"黑色星期一\"股灾，此后捍卫央行独立，主导了90年代美国史上最长繁荣，被誉为\"大师\"。但世纪之交后经济渐失控，任内宽松政策与监管理念在金融危机后备受质疑：他究竟是天才，还是恰好走运？ 2 精读|翻译|词组 Obituary | Leader of the band 讣告 | 货币政策指挥家 英文部分选自…",
+      "key_points": [
+        "2 精读|翻译|词组 Obituary | Leader of the band 讣告 | 货币政策指挥家 英文部分选自经济学人20260622期讣告板块 Ob…",
+        "定义 了他 整个 职业生涯。作为美联储主席，格林斯潘成为 全球最具权势 的经济人物，指挥 着 庞大 而 复杂的美国经济， 奏响 最 美妙的 乐章",
+        "1 写在前面 美联储前主席格林斯潘于2026年6月22日去世，享年100岁。他早年是爵士乐手，痴迷数据，后经安·兰德影响倾向自由市场理念，历任福特经济顾问委员会…"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "东北亚“K型经济”：AI周期与地缘政治的双重影响",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+%E4%B8%9C%E5%8C%97%E4%BA%9A%E2%80%9CK%E5%9E%8B%E7%BB%8F%E6%B5%8E%E2%80%9D%EF%BC%9AAI%E5%91%A8%E6%9C%9F%E4%B8%8E%E5%9C%B0%E7%BC%98%E6%94%BF%E6%B2%BB%E7%9A%84%E5%8F%8C%E9%87%8D%E5%BD%B1%E5%93%8D",
+      "published": "Wed, 15 Jul 2026 17:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Economist",
+        "EIU",
+        "Enterprise",
+        "B2B",
+        "Viewpoint"
+      ],
+      "summary": "对东北亚经济体而言，全球AI投资的超级周期和伊朗战事将放大金融资产和实物资产回报率，跑赢工资增长的趋势。 在这种K型经济中，货币政策的效力将减弱。财政政策则将更侧重再分配功能。 同时，旨在对技术进步所创造的财富进行再分配和“预分配”的创新型举措将获得更多政治关注，也可能为企业带来更具波动性的政策环境。 所谓K型经济，是指经济体内不同消费群体和产业部门之间的增长出现显著分化，从而走上两条截然不同的轨迹。这种经济分化通常伴随着经济不平等情况的出现——高收入、资产丰厚的家庭凭借快速的收入增长和财富积累进一步拉开与其他群体…",
+      "key_points": [
+        "AI超级周期与伊朗战事的溢出效应将加剧经济失衡 全球AI超级周期将通过股市的升势令东北亚的K型经济趋势加速发展，并加剧产业失衡情况。2026年，随着AI投资热潮…",
+        "( 本文节选自经济学人智库研究。预测发布日期：2026年7月8日 ) 相关阅读： 【报告】经济学人智库全球展望 | 2026年7月 全球增长放缓，中东冲突走向何…",
+        "上述三个东北亚经济体的央行均依赖间接货币政策工具来调控货币供应总量和管理通胀。然而，当不同行业之间、大型企业与中小企业之间的经营状况的差异显著，且金融繁荣与生活…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791154",
+      "published": "Sun, 12 Jul 2026 22:59:58 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "South",
+        "China",
+        "im",
+        "Korea",
+        "korea",
+        "Korea."
+      ],
+      "summary": "瞎扯 · 如何看待评价嬴政是罪在当代功在千秋？ 知乎日报 查看知乎原文 Q： 如何看待评价嬴政是罪在当代功在千秋？ @xiaobra ：我要是当时的百姓 从坟里爬出来 也要喊一句 Q： 有哪些笑话你再次听到还是会笑？ @小蒙古 ：老师：这位家长，请不要骂脏话！ 家长：我我没有！ 老师：那你为什么说？ 家长： Q： 你在旧书里发现过什么有价值的东西？ @年天 ： 1976 年的读者演算近代到此时的距离。 Q： 有哪句影视台词是你至今难忘的？ @曾经 MYTH ：「陛下，陈胜吴广他俩起义了。」 「赵高，你怎么看?」 「…",
+      "key_points": [
+        "瞎扯 · 如何看待评价嬴政是罪在当代功在千秋"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "SpaceX们的百万颗卫星，将“毁灭”天文观测？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+SpaceX%E4%BB%AC%E7%9A%84%E7%99%BE%E4%B8%87%E9%A2%97%E5%8D%AB%E6%98%9F%EF%BC%8C%E5%B0%86%E2%80%9C%E6%AF%81%E7%81%AD%E2%80%9D%E5%A4%A9%E6%96%87%E8%A7%82%E6%B5%8B%EF%BC%9F",
+      "published": "Sun, 12 Jul 2026 08:32:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "doi.org",
+        "https",
+        "Unsplash",
+        "SpaceX",
+        "Kevin",
+        "lncRNA"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 跟踪前沿进展，掌握最新动态 撰文 | 叶晴朗 ● ● ● 1 SpaceX 们的百万颗卫星，将 “ 毁灭 ” 天文学 ？ 图源：Unsplash / Kevin Stadnyk 一项最新的研究称，上百万颗规划中的卫星会给 天文观测带来“毁灭性影响”( devastating effect)。 目前，地球轨道上已有 14000多 颗在轨卫星。而马斯克的 SpaceX 计划再发射 100 万颗卫星来建设天基数据中心；美国初创公司 Reflect Orbita…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 跟踪前沿进展，掌握最新动态 撰文 | 叶晴朗 ● ● ● 1 SpaceX 们的百万颗卫星，将 “…",
+        "图源：Unsplash / Kevin Stadnyk 一项最新的研究称，上百万颗规划中的卫星会给 天文观测带来“毁灭性影响”( devastating eff…",
+        "来自欧洲南方天文台 等机构的 研究显示， 百万颗规模的超巨型卫星星座会让卫星光轨遍布观测视场，绝大多数长曝光天文观测都会受到干扰"
+      ]
+    }
+  ]
+}
