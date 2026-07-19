@@ -1,0 +1,739 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T01:00:11.259195+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 91,
+    "fresh_candidates": 62,
+    "backfill_candidates": 29,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%90%B9%E5%BC%B9%E5%8F%AF%E7%A0%B4%E3%80%81%E7%99%BD%E9%87%8C%E9%80%8F%E7%BA%A2%E3%80%81%E8%82%A5%E7%BE%8E%E5%A4%9A%E6%B1%81%E2%80%A6%E2%80%A6%E5%81%9C%EF%BC%81%E6%98%AF%E8%B0%81%E6%95%99%E4%BD%A0%E8%BF%99%E4%B9%88%E5%BD%A2%E5%AE%B9%E4%B8%80%E9%A2%97%E6%A1%83%E7%9A%84%EF%BC%9F%EF%BC%81",
+        "title": "吹弹可破、白里透红、肥美多汁……停！是谁教你这么形容一颗桃的？！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "水果种草和果园导购信息为主，消费引导明显，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E4%B8%AA%E5%B0%8F%E4%B8%9C%E8%A5%BF%E7%9E%AC%E9%97%B4%E9%99%8D%E6%B8%A9%E5%8D%81%E5%A4%9A%E5%BA%A6%EF%BC%81%E6%8A%8A%E4%BD%A0%E4%BB%8E45%E2%84%83%E5%8E%A8%E6%88%BF%E2%80%9C%E6%95%91%E2%80%9D%E5%87%BA%E6%9D%A5%EF%BC%88%E4%B8%8D%E7%94%A8%E8%A3%85%E7%A9%BA%E8%B0%83%EF%BC%81",
+        "title": "这个小东西瞬间降温十多度！把你从45℃厨房“救”出来（不用装空调！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购和价格卖点为主，营销属性强，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-19T00:00:00+08:00",
+      "lead_url": "http://www.phodal.com/blog/ai-native-team-flow/",
+      "top_urls": [
+        "https://www.woshipm.com/ai/6432000.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+WAIC%E4%B9%8B%E5%90%8E%EF%BC%8C%E5%86%8D%E6%9D%A5%E8%AE%A4%E8%AF%86%E4%B8%80%E6%AC%A1%E8%9A%82%E8%9A%81",
+        "https://www.woshipm.com/ai/6431874.html",
+        "http://xueqiu.com/1910783512/400922408",
+        "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%80%E6%AC%A1%E5%88%9B%E9%80%A0%E6%80%A7%E7%9A%84%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%8C%E8%AE%A9%E4%BB%96%E7%8B%AC%E4%BA%AB%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96"
+      ]
+    },
+    "market": {
+      "requested_date": "2026-07-19",
+      "fetched_at": "2026-07-19T01:00:05.927962+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3764.15,
+          "change": -118.26,
+          "change_pct": -3.05,
+          "volume": 650450984.0,
+          "amount": 124644545.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4016.36,
+          "change": 40.09999999999991,
+          "change_pct": 1.01,
+          "prev_close": 3976.26,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-18 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 874.8739618370923,
+          "change": 8.73488578455806,
+          "change_pct": 1.0084853606152575,
+          "prev_close": 866.1390760525343,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-18 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "复盘2015：那个盛夏",
+      "title_zh": "中国原油实际需求测算",
+      "url": "http://xueqiu.com/8801393218/400631484",
+      "published": "Sat, 18 Jul 2026 13:24:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "每每回望投资生涯，最难忘、最刻骨铭心的，永远是2015年的七月。 那年盛夏，我带着来北京小住的父母，住进怀柔山野间的一处民宿。 那是一片不高的小山岗，山清水静，溪水清澈。日子过得很慢、很松弛。小院里搭着一座凉亭，阴凉通透。父母清闲自在，每天清晨出门散步、逛山野，傍晚慢悠悠归来。闲暇时，他们会泡上冰镇啤酒，山居晚风，恬淡安然。 哪怕是陪着父母静养休憩的日子，我依旧改不了多年的习惯。 别人休闲度假，我坐在亭子里，抱着电脑看盘、复盘。那时候的我，早已和市场融为一体，涨跌起伏，日夜牵挂。 谁也未曾想到，就是这样一段宁静的山…",
+      "key_points": [
+        "我坐在亭子里，抱着电脑看盘、复盘。那时候的我，早已和市场融为一体，涨跌起伏，日夜牵挂"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中国原油实际需求测算",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1910783512/400922408",
+      "published": "Sat, 18 Jul 2026 13:24:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CHatgpt",
+        "http",
+        "Rystad",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这篇测算把中国原油需求拆成炼厂加工量、成品油净出口、库存变化和石化原料几层，给出的结论是：若不依赖库存和净出口调节，国内日均进口原油大致需要 970 万到 1030 万桶。它的价值不在于一个精确数字，而在于把市场常见的“进口量=真实需求”误读拆开，让读者看清产能、消费和化工需求之间的差异。",
+      "key_points": [
+        "中国满足国内需求所需的原油加工量 2025年中国规模以上炼厂原油加工量为 7.376亿吨 ，折合约： 7.376亿吨×7.33桶/吨÷365≈1480万桶/日7…",
+        "2025年实际进口量比“不出口成品油、不增减库存”的理论需求大约高： 1155−1000=155万桶/日1155−1000=155万桶/日 但这155万桶/日不…",
+        "满足国内消费所需的平衡加工量大约为： 1480−30∼50=1430∼1450万桶/日1480−30∼50=1430∼1450万桶/日 不过，2025年石化原料…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "A股跌破年线的杀伤力太大了",
+      "title_zh": "第一个被 AI 做空的国家，出现了",
+      "url": "http://xueqiu.com/3559889031/400892703",
+      "published": "Sat, 18 Jul 2026 13:24:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ETF",
+        "gt",
+        "http",
+        "lt",
+        "RSI"
+      ],
+      "summary": "这一周，一直以颇为悲观的心态，紧密关注A股在200日均线和250日年线的支撑力度，并在跌破中分批减仓。但即使如此，还是没预料到周五万得全A跌破年线的杀伤力是如此巨大，竟然是一根大跌4.75%的“断头铡刀”。 如果不算2024年关税冲击时的单日暴跌，这是 A股自“9·24”行情以来第一次跌破 。 周五A股的大跌，无疑是全球半导体板块集体回调中一连串事件中的一环。 隔夜美股，费城半导体指数大跌4.29%，今年迄今最大回撤将近20%。 周五，韩国股市因为节假日休市。当下亚太杠杆最强，赌性最强的市场休市，不知道是“幸&#3…",
+      "key_points": [
+        "一直以颇为悲观的心态，紧密关注A股在200日均线和250日年线的支撑力度，并在跌破中分批减仓。但即使如此，还是没预料到周五万得全A跌破年线的杀伤力是如此巨大，竟…",
+        "在万得全A跌破年线之际，即使从传统的RSI指标来看，30.08点已经初步超卖，但我仍宁可先进一步降低仓位，而不是急于抄底——甚至我的计划中都没抄底这一项",
+        "我的一点心得》中，我介绍过刘晨明当时提出用乖离率来区分主线行情的终结与调整。在他当时的统计来看，主线行情的调整乖离率极少跌破5%： 入场、离场对应的参考阈值为：…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "铝业三巨头估值底牌大起底：云铝、神火、中铝，谁才是真正的长线印钞机？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2884313460/400922694",
+      "published": "Sat, 18 Jul 2026 13:24:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PR",
+        "ROE",
+        "PB",
+        "CBAM",
+        "http",
+        "SH601600"
+      ],
+      "summary": "最近随着宏观情绪的变化，不少长线资金开始往资源股里寻觅机会。在这个圈子里待久了，大家都清楚电解铝早就不是当年那个跟着经济周期大起大落的“破铜烂铁”了。国家发改委把产能天花板一旦焊死，行业就失去了无序扩产的基础，加上新能源车和光伏的需求承接，整个电解铝板块正在向“类公用事业”的现金奶牛演变。 早上我分析了最近很火的云铝股份，很多其他网友提出不同意见，既然行业景气度反转，中铝、神火和云铝这三巨头到底该怎么选？对于习惯了在长电这类防御性高股息资产里拿确定性的长线投资者来说，面对这几家依然带有周期残影的标的，我们需要一套极…",
+      "key_points": [
+        "很多其他网友提出不同意见，既然行业景气度反转，中铝、神火和云铝这三巨头到底该怎么选？对于习惯了在长电这类防御性高股息资产里拿确定性的长线投资者来说，面对这几家依…",
+        "最终PR等于1.0才算高估；如果PR落在0.4到0.6之间，才是真正的巴菲特式黄金坑。规则理清了，我们直接拆解数据",
+        "买神火买的是当下的极致暴利，而买入云铝，买的则是周期终局里，那个最令人安心的长期价值"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "股市最残酷的真相：你赚的钱，往往来自别人犯的错误",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%82%A1%E5%B8%82%E6%9C%80%E6%AE%8B%E9%85%B7%E7%9A%84%E7%9C%9F%E7%9B%B8%EF%BC%9A%E4%BD%A0%E8%B5%9A%E7%9A%84%E9%92%B1%EF%BC%8C%E5%BE%80%E5%BE%80%E6%9D%A5%E8%87%AA%E5%88%AB%E4%BA%BA%E7%8A%AF%E7%9A%84%E9%94%99%E8%AF%AF",
+      "published": "Sat, 18 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：宗哥投资 来源：雪球 很多人进入股市之前，都有一个很美好的想象。他们以为股市是一个大家一起赚钱的地方。公司发展、经济增长、企业利润增加，投资者自然就能赚钱。 但真正进入市场几年之后，很多人会慢慢发现一个残酷的事实：股市本质上是一场人与人之间的博弈。你赚的钱，往往来自别人犯的错误。 01 股票上涨 ， 不代表所有人都赚钱 很多人看到一只股票从10元涨到20元，会下意识认为：“大家都赚钱了。” 但现实是完全不同的。在股市里，一只…",
+      "key_points": [
+        "股市并不是一个所有人都能赚钱的地方。它更像是一面镜子。它会不断放大人性的贪婪、恐惧和冲动。所以股市最残酷的真相其实只有一句话：你赚的钱，往往来自别人犯的错误。而…",
+        "很多人会慢慢发现一个残酷的事实：股市本质上是一场人与人之间的博弈。你赚的钱，往往来自别人犯的错误",
+        "其实来自 “ 人性 ” 股市中最常见的几个错误，其实都来自人性：追涨杀跌"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "第一个被AI做空的国家，出现了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6432000.html",
+      "published": "Sat, 18 Jul 2026 13:12:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "IT",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "FY26"
+      ],
+      "summary": "文章把印度 IT 外包板块的下跌，解释成 AI 对“按人头计费”商业模式的正面冲击：当自动化开始吞掉重复编码和维护工作，劳动力套利就不再稳固。更值得注意的是，它顺手点出了更深层的问题: 印度长期缺少本土产品和研发飞轮，一旦外包模式被削弱，资本会重新定价整个国家的软件产业叙事。",
+      "key_points": [
+        "印度股市就崩一次——Nifty IT指数18个月腰斩，19万亿卢比蒸发，230亿美元外资夺路而逃。印度IT外包玩了二十年\"劳动力套利\"：按人头收费、赚人力差价，…",
+        "在AI时代反而成了最沉重的包袱。拥有最多程序员的国家，就这样被锁在了旧时代的黄昏里",
+        "更可怕的是趋势的逆转。上一个财年（FY25），印度前五大IT公司还净增了12,718人；到了FY26，这五家公司合计净减少了6,981人。仅TCS一家就净减超过…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI时代产品经理不卷PRD了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6431986.html",
+      "published": "Sat, 18 Jul 2026 12:53:44 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PRD",
+        "PMF",
+        "CC0",
+        "H5",
+        "postmeta.bookmark"
+      ],
+      "summary": "AI 工具正在重塑产品经理的工作方式，但真正的核心竞争力从未改变。当 PRD 撰写、原型设计等执行层工作被 AI 大幅提效后，产品经理的判断力、决策力与架构能力反而成为关键胜负手。本文深度剖析在需求筛选、PMF验证、产品生命周期管理等核心维度上，人类思维如何与AI工具形成互补。 前几天跟一个入行不久的产品经理聊天，他说最近特焦虑：“以前写个PRD要憋一周，现在丢给AI，两小时就能改出一份逻辑严密、格式标准的文档。那是不是说，只要会用AI工具，谁都能来干产品了？” 我告诉他，真不是。 PRD本质上是“执行层”的产物，…",
+      "key_points": [
+        "但真正的核心竞争力从未改变。当 PRD 撰写、原型设计等执行层工作被 AI 大幅提效后，产品经理的判断力、决策力与架构能力反而成为关键胜负手。本文深度剖析在需求…",
+        "增长不再是唯一的核心指标，稳健和护城河变得更重要。这时候，产品经理要思考的是如何通过技术壁垒、生态建设或者极致的体验，让用户离不开你",
+        "是把已经想清楚的事写下来。AI能帮你写得又快又好，但它没法替你“想清楚”。而产品经理真正的价值，恰恰就在那些AI写不出来的地方"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "你动嘴，AI干活：这就是Vibe Coding！",
+      "title_zh": "AI 互联网日报：千问 AI 眼镜升级智能体入口；昇腾 950 获 WAIC 最高荣誉；京东物流迎来人形机器人",
+      "url": "https://www.woshipm.com/ai/6430061.html",
+      "published": "Sat, 18 Jul 2026 08:43:04 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Coding",
+        "Vibe",
+        "vibe",
+        "coding",
+        "bug"
+      ],
+      "summary": "当 AI 能听懂你的'感觉'，产品开发将彻底颠覆！Vibe Coding 正在让'不会写代码'成为伪命题——你只需描述'像苹果官网那样干净'的设计，AI就会自动生成完整功能。本文通过真实案例揭秘如何用自然语言指挥AI开发朋友圈功能，并剖析这一技术如何将7个角色的开发流程压缩成'你与AI的对话'。 先问各位一个问题：你有没有一个想过无数次、但因为”不会写代码”而烂在脑子里的产品想法？ 别装了，肯定有。 我也有。而且不止一个。 但今天我要跟你说一件很离谱的事：2026 年了，你不需要会写代码，你只需要会说话。 这不是鸡…",
+      "key_points": [
+        "这就是 Vibe Coding",
+        "包含增删改查，还有点赞评论。” 它开始干活。几分钟后，右边直接出来一个完整的朋友圈。能发图文、能发纯文本、能评论、能点赞。我试了发布，传照片、设可见范围、点发布…",
+        "不是这玩意儿不火了，而是太火了，已经到了需要更严肃的工程框架来管它的阶段。就像当年”敏捷开发”刚出来的时候，大家都在喊”不用写文档了！太爽了！”然后呢？然后大家…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI互联网日报：千问AI眼镜升级智能体入口；昇腾950获WAIC最高荣誉；京东物流迎来人形机器人",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6431874.html",
+      "published": "Sat, 18 Jul 2026 06:55:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "WAIC",
+        "Skill",
+        "Google",
+        "Token"
+      ],
+      "summary": "这波动态的共同主题不是“又有几个模型发布”，而是 AI 正从聊天框走向现实入口。代表信号包括智能眼镜作为 Agent 宿主、支付与服务链路被打通、仓储机器人开始承接执行，以及算力平台继续往大规模基础设施升级。适合想快速把握 WAIC 后产业重心的人阅读。",
+      "key_points": [
+        "腾讯以“AI Buddy”集中亮相WAIC，智能体走进生产生活场景 2，华为昇腾950超节点获WAIC最高荣誉，1024卡架构首次亮相 3，商汤“未来实验室”落…",
+        "我忽然想到：下一代AI入口，可能不是再开一个聊天框，而是它跟着目光、支付和机器人的手一起进入现实。千问AI眼镜把智能体带到眼前，支付宝“阿宝”开始跨端办事，腾讯…",
+        "第三方Skill进入全天候入口 核心内容 ：阿里千问宣布把AI眼镜升级为智能体眼镜，设备可按需求调用第三方Skill和Agent，并加入全双工语音、眼动追踪、体…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "ETF客户随行情来去，那ETF运营的意义是什么？ABPAH增长模型探讨",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/operate/6431878.html",
+      "published": "Sat, 18 Jul 2026 06:32:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "APP",
+        "A-B-P-A-H",
+        "AARRR",
+        "IP",
+        "XX"
+      ],
+      "summary": "ETF运营的深层逻辑远非追涨杀跌那么简单。本文揭示了用户从认知到持有的完整决策链条A-B-P-A-H，拆解了标准运营动作为何失效的根源，并提出了八大运营杠杆的实战方法论。在高度同质化的ETF市场，真正决定成败的是对用户决策断点的精准狙击与心智占位。 ETF运营思考认知： 第一，行情决定用户来不来，运营决定用户留不留、以及下一次想到谁。客户随行情走是常态，而运营真正的挑战，是我们是否能在行情之外留下资产。。 第二，标准动作全部做到位却没有增长，可能是因为标准动作是解决”在场”，不解决”被选择”。永远不要只追热点，要追…",
+      "key_points": [
+        "申购来；行情走，赎回去。如果行情来了客户来，行情走了客户走，那运营的意义是什么",
+        "驱动是交易决策。情绪是快变量，来得快，走得也快，所以客户随行情来去。真正的问题是：他是否来，有没有和行情之外的东西建立关系。关系对象决定去留——只和行情建立关系…",
+        "行情决定用户来不来，运营决定用户留不留、以及下一次想到谁。客户随行情走是常态，而运营真正的挑战，是我们是否能在行情之外留下资产"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791234",
+      "published": "Thu, 16 Jul 2026 22:59:58 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Silence"
+      ],
+      "summary": "瞎扯 · 为什么年轻人反感老一辈的说教? 知乎日报 查看知乎原文 Q： 为什么年轻人反感老一辈的说教? @蓄意轰拳 ：我想起了那个答主：父母在县城托关系给他找了一个月薪 2800 的工作… Q： 千问和豆包哪个更强? @真的是达哥 ：豆包站起身来笑道：领导说的是，我自罚三杯 千问却冷哼一声：腌臜泼才，爷这满腹经纶，你竖耳听来便是，莫要聒噪！ Q： 为什么棒球在我国毫无水花？ @小淫贼张无忌 ：棒球棍、棒球、棒球服和棒球帽，分别在格斗、遛狗、穿搭界取得了良好的成绩，也不能说毫无水花。 Q： 为什么越来越多的老师拒绝当…",
+      "key_points": [
+        "瞎扯 · 为什么年轻人反感老一辈的说教"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "医生说请个同事帮我清创，转身端来了一盒蛆",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8C%BB%E7%94%9F%E8%AF%B4%E8%AF%B7%E4%B8%AA%E5%90%8C%E4%BA%8B%E5%B8%AE%E6%88%91%E6%B8%85%E5%88%9B%EF%BC%8C%E8%BD%AC%E8%BA%AB%E7%AB%AF%E6%9D%A5%E4%BA%86%E4%B8%80%E7%9B%92%E8%9B%86",
+      "published": "Sat, 18 Jul 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Commons",
+        "FDA",
+        "https",
+        "Maggot",
+        "Maggots",
+        "Wikimedia"
+      ],
+      "summary": "本文含有大量蛆医生高清工作照，请大家量力而行，谨慎观看。 蛆，无脊椎动物昆虫纲双翅目动物幼虫的统称。它 可能是你最不想在伤口上看到的东西，但偏偏它的“创伤护理”能力独树一帜，甚至美国食品药品管理局（FDA）都已经 批准2种蛆虫作为处方医疗设备 。 蛆虫疗法用于糖尿病足创口 | Wikimedia Commons / Alexsey Nosenko / Maggot Medicine 蛆虫疗法古已有之 据说，澳大利亚原住民和玛雅人都曾使用蛆虫清理创口。 到了近代，军医们注意到 伤兵被蛆虫处理过的伤口似乎恢复得更好 。…",
+      "key_points": [
+        "军医们注意到 伤兵被蛆虫处理过的伤口似乎恢复得更好 。一战期间，威廉·贝尔（William Baer）医生前往战地医院，发现了一位重伤号：股骨开放性骨折、腹部和…",
+        "让我们来看看这两位蛆医生是怎么开展清创工作的",
+        "不同创面接受蛆虫疗法的前后对比图 | 参考文献[1] 就在今年6月，FDA又批准了一个蝇类物种加入蛆虫疗法。这一医疗设备名为MEDIFLY Maggots™，由…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "拔牙后我肿出了双下巴，医生还在上面打了个洞……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%8B%94%E7%89%99%E5%90%8E%E6%88%91%E8%82%BF%E5%87%BA%E4%BA%86%E5%8F%8C%E4%B8%8B%E5%B7%B4%EF%BC%8C%E5%8C%BB%E7%94%9F%E8%BF%98%E5%9C%A8%E4%B8%8A%E9%9D%A2%E6%89%93%E4%BA%86%E4%B8%AA%E6%B4%9E%E2%80%A6%E2%80%A6",
+      "published": "Sat, 18 Jul 2026 16:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "guokr.com",
+        "health",
+        "health_guokr",
+        "ID"
+      ],
+      "summary": "前段时间我去拔了个智齿，本来以为就是个小事，结果后面事情发展得越来越离谱…… 我的脸肉眼可见地一天比一天肿了起来 拔牙的过程很顺利，拔完观察了20分钟，医生跟我说没问题，回去遵医嘱按时吃消炎药就可以了。我还问有什么需要忌口的，医生说最好不要吃刺激性食物、不要用拔牙那侧咀嚼云云。 拔完第一天一切正常，第二天我还开心地吃了妈妈烙的很薄很薄的肉饼，第三天事情就不对了起来， 我突然就肿得张不开嘴了 。 遇事不决问AI。AI跟我说拔牙后第三四天正是疼的时候，熬过去就好了。然而到了第四天，我感觉疼得要扛不住了，即使睡前吃了布洛…",
+      "key_points": [
+        "我那肿出来的双下巴丨作者供图 辗转多家医院后，我在双下巴上打了个洞 到了口腔专科医院后，我享受了超高规格的待遇，医生不但让我插队先看，还打电话“摇人”。“摇”来…",
+        "医生在我双下巴上打了一个洞丨作者供图 手术完以后我插了一段时间引流管，每天都要去医院冲管换纱布。最开始的时候引流出的脓液能渗透六七块纱布，我下巴每天都要贴着厚厚…",
+        "却肿出来了双下巴 ，急诊医生建议我去口腔专科医院进一步就诊"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "他的艺术很伟大，生活中可不一定",
+      "title_zh": "一次创造性的实验设计，让他独享诺贝尔奖",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%96%E7%9A%84%E8%89%BA%E6%9C%AF%E5%BE%88%E4%BC%9F%E5%A4%A7%EF%BC%8C%E7%94%9F%E6%B4%BB%E4%B8%AD%E5%8F%AF%E4%B8%8D%E4%B8%80%E5%AE%9A",
+      "published": "Sat, 18 Jul 2026 20:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Alex",
+        "amp",
+        "Clark",
+        "Eldorado",
+        "hongmomgs",
+        "in"
+      ],
+      "summary": "作者：Alex Clark 译者：易二三 校对：Issac 来源：《卫报》（2020年8月29日） 当林·乌曼的父亲步入80岁大关的时候，他开始将自己的生活称为「尾声」。早上躺在床上的时候，他会盘算一下自己的疾病状况，允许自己平均每十年得一次病：如果总数少于八次，他就会起床；如果数字更大，他就会原地躺好。但是这种策略更多是现实主义的态度而不是绥靖主义的，而且他继续工作的决心在很大程度上没有动摇。 乌曼的父亲是伟大的瑞典电影导演英格玛·伯格曼，在他生命的最后几年里，他主要集中于与女儿的合作——那本书捕捉了他生命中的一…",
+      "key_points": [
+        "那么现年81岁的丽芙·乌曼则占据了更为边缘的地带。哈马尔的孤绝和内省某种程度上指代了伯格曼的世界，乌曼辗转于奥斯陆、洛杉矶和纽约等地，林也经常伴在身侧，她的经验…",
+        "这是一部建立在「一本我没有写过的书的废墟」之上的作品。父女之间通过无数的信件、电话和会面高兴地计划他们的项目时，伯格曼「越来越老了」。在他去世前的春夏两季，也就…",
+        "也是最后一个孩子，暑假都在哈马尔度过；剩下的时间里，她和母亲住在奥斯陆和美国，当丽芙外出工作时，她的祖母和一帮保姆会来照顾她。「我是他的孩子，也是她的孩子，」她…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "导演太自恋，但仍值得尊重？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%AF%BC%E6%BC%94%E5%A4%AA%E8%87%AA%E6%81%8B%EF%BC%8C%E4%BD%86%E4%BB%8D%E5%80%BC%E5%BE%97%E5%B0%8A%E9%87%8D%EF%BC%9F",
+      "published": "Sat, 18 Jul 2026 20:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Story",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com",
+        "Terr"
+      ],
+      "summary": "文 Terr 大概就是整整二十年前，《水中女妖》在北美公映了，很失败的一部电影。 之后，沙马兰的创作轨迹经历了若干次升降起伏，刚从深渊里爬出来又滑下去，但《水中女妖》始终悬在一个奇特的位置上。它不像《最后的气宗》那样被当作彻底的笑话，也远没有获得《第六感》的经典待遇，它更像是被人遗忘了。 《水中女妖》 偶尔被人提起，困惑是一致的反应。沙马兰为什么拍这么一部电影，葬送自己如日中天的电影生涯？ 以下都是马后炮的解释。 他拍这部电影的时候正处在一个非常微妙的节点。 1999 年到 2002 年间，《第六感》《不死劫》《天…",
+      "key_points": [
+        "Story 跋涉来到人间就是为了唤醒他。如果这个角色由另一个演员来演，观众或许还能把它当作一个关于创作者使命的寓言来接受。但由导演本人来扮演这个宇宙选中的天才写…",
+        "沙马兰是好莱坞导演中少有的、真诚地相信叙事拥有实质性力量的人。他不是在说故事很美这种文艺腔的空话，他在说故事是一种介入现实的行为，它能改变听故事的人，让他们做出…",
+        "全球票房仅收回 7280 万美元，连制作成本都勉强覆盖，如果算上宣发费用则是明确的亏损。烂番茄评分稳定在 25% 上下。金酸莓奖颁给沙马兰两座奖杯，最差导演和最…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最美村寨，为什么美了千年？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%BE%8E%E6%9D%91%E5%AF%A8%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BE%8E%E4%BA%86%E5%8D%83%E5%B9%B4%EF%BC%9F",
+      "published": "Sat, 18 Jul 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "中国很多村寨，是千百年来人们顺应自然、因地而居的结果。不同的山川地貌，形成了多样的聚落形态，也沉淀出独特的建筑、文化与生活方式。01 甘肃甘南·扎尕那村地处青藏高原东缘，藏寨依山层叠而建，森林、农田、河流与寺庙共生于山间盆地，形成农牧结合、人与自然和谐共处的典型藏族聚落。02 新疆阿勒泰·禾木村坐落于喀纳斯湖畔，是中国保存最完整的图瓦人聚居地。井干式木屋掩映于白桦林间，与草原、雪山共同构成童话般的村落景观。03 福建宁德·降龙村保存完整的明清传统村落，夯土民居依山层叠，马鞍墙、古巷、炮楼错落分布，村后原始阔叶林环抱…",
+      "key_points": [
+        "是千百年来人们顺应自然、因地而居的结果。不同的山川地貌，形成了多样的聚落形态，也沉淀出独特的建筑、文化与生活方式。01 甘肃甘南·扎尕那村地处青藏高原东缘，藏寨…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "为什么从左到右是前进",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8E%E5%B7%A6%E5%88%B0%E5%8F%B3%E6%98%AF%E5%89%8D%E8%BF%9B",
+      "published": "Sat, 18 Jul 2026 12:14:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "ar",
+        "Bitsea",
+        "cin",
+        "cinema"
+      ],
+      "summary": "昨天和朋友讨论了一个有趣的小问题：为什么在银幕上，人物总是从画面左侧进入，然后向右跑？也就是说，人类的默认运动方向是从左向右？朋友给出的解释是写字的时候，全球大部分地区都是从左向右书写，然后就成为了一种默认的共识。 我看了觉得有点不服，既然是讨论银幕上的运动，那么是不是可以参考剧场？剧场的舞台一边有个口，左边是上场口，右边是下场口。除了独舞一类的表演，允许演员就近下场之外，一般都是从舞台左侧上场，从右侧下场。电影照抄舞台剧，这应该更为合理。 但我马上就意识到了不合理。因为朋友和我的解释都存在一个共同问题：文字或者戏…",
+      "key_points": [
+        "早上太阳在东，影子在西。中午太阳在南，影子在北。傍晚太阳在西，影子在东。于是，每天都能看到日影做顺时针运动。从西到北再到东，这就是从左到右",
+        "昨天和朋友讨论了一个有趣的小问题：为什么在银幕上，人物总是从画面左侧进入，然后向右跑？也就是说，人类的默认运动方向是从左向右？朋友给出的解释是写字的时候，全球大…",
+        "就以正北为上，作为基准点。那么日晷投影在左是上午，在右是下午，运动轨迹就是从左向右"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "一次创造性的实验设计，让他独享诺贝尔奖",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%80%E6%AC%A1%E5%88%9B%E9%80%A0%E6%80%A7%E7%9A%84%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1%EF%BC%8C%E8%AE%A9%E4%BB%96%E7%8B%AC%E4%BA%AB%E8%AF%BA%E8%B4%9D%E5%B0%94%E5%A5%96",
+      "published": "Sat, 18 Jul 2026 08:18:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "American",
+        "Award",
+        "DNA",
+        "engram",
+        "Ingenuity"
+      ],
+      "summary": "这篇纪念文章抓住了利根川进最值得回看的地方：他不仅用一个创造性的实验设计解释了抗体多样性的来源，还在功成名就后转向神经科学，继续做出记忆研究的重要成果。比起单纯追悼，这更像一篇关于顶尖科学家如何跨领域创造突破的案例复盘。",
+      "key_points": [
+        "利根川进是 “ 较为少见的灵光乍现的日本科学家 ” 。加入研究红海之初，年纪轻轻的 利根川进 其实既无特别想法，实验设计和做法也模仿其他人。但到了 1976 年…",
+        "一个人在自己极熟的领域做到了顶，却掉头走进一个完全陌生的领域，这件事本身就不寻常——而这样做的诺奖得主其实不止利根川进一个，据他所知至少有三四位。原因大概是一样…",
+        "饶毅《生物学概念与途径》视频系列 “ 他在 37 岁时的一个实验设计，解决了一个重要免疫学问题，于 48 岁获得诺贝尔奖"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "一针疫苗，或可大幅降低痴呆风险 | 经济学人社论(双语译文）",
+      "title_zh": "WAIC 之后，再来认识一次蚂蚁",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%80%E9%92%88%E7%96%AB%E8%8B%97%EF%BC%8C%E6%88%96%E5%8F%AF%E5%A4%A7%E5%B9%85%E9%99%8D%E4%BD%8E%E7%97%B4%E5%91%86%E9%A3%8E%E9%99%A9++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%A4%BE%E8%AE%BA%28%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 17 Jul 2026 10:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "is",
+        "to",
+        "in",
+        "it",
+        "as"
+      ],
+      "summary": "1 写在前面 思维导图： May Li，男，我要去追逐心中的太阳，还要继续努力的亚古兽 #外刊精读 #考研英语 #CATTI #心灵成长 #双语美文 2 精读|翻译|词组 Leaders | Sharp as a tack 经济学人社论｜脑力常青 英文部分选自经济学人20260711期社论版块 Leaders | Sharp as a tack 经济学人社论｜脑力常青 A no-brainer for protecting your brain 护脑，不费脑 One simple vaccination may d…",
+      "key_points": [
+        "1 写在前面 思维导图： May Li，男，我要去追逐心中的太阳，还要继续努力的亚古兽 #外刊精读 #考研英语 #CATTI #心灵成长 #双语美文 2 精读|…",
+        "还有一种直接的方法可以提高保持头脑敏锐的可能性，而且几乎不费吹灰之力。近年的一项科学发现带来了令人振奋的消息，接种一个疗程的带状疱疹疫苗，或许能将患痴呆风险降低…",
+        "注释： anti-dementia effect ：预防或降低痴呆风险的效果"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "WAIC之后，再来认识一次蚂蚁",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+WAIC%E4%B9%8B%E5%90%8E%EF%BC%8C%E5%86%8D%E6%9D%A5%E8%AE%A4%E8%AF%86%E4%B8%80%E6%AC%A1%E8%9A%82%E8%9A%81",
+      "published": "Sat, 18 Jul 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Cloudflare",
+        "WAIC",
+        "App",
+        "Coding",
+        "Agent"
+      ],
+      "summary": "文章的抓手不是再讲一次 WAIC 热闹，而是提出一个更有用的判断：国内 AI 竞争正在从模型能力，转向谁能卡住真实世界的高频入口。蚂蚁被重新审视，正是因为它同时握着支付、生活服务和可信执行链路，这让智能体不必从零找场景，而是能直接接到已有交易与履约体系里。",
+      "key_points": [
+        "带来了一个稍微有点意外的结果，那就是有些本来已经「定型」的公司，因为过去的积累和未来的智能体发生了某种化学反应，得到了一次被重新认识的机会",
+        "基于国民级的服务覆盖，蚂蚁在事实上可以通过升级——而非从头再来——的方式把智能体接入到普通人高频接触的真实场景里",
+        "往往在金融科技和科技金融两个名词之间拉锯，AI时代到来之后，蚂蚁也有阿福这样的爆款新品出现"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "旅游不止是旅游",
+      "title_zh": "设计流动摩擦：AI 原生团队的核心能力",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E6%97%85%E6%B8%B8%E4%B8%8D%E6%AD%A2%E6%98%AF%E6%97%85%E6%B8%B8",
+      "published": "Sat, 18 Jul 2026 10:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "bug"
+      ],
+      "summary": "经常会看到类似的评论，中国那么多风景，为什么还要去外国旅游；以及，把钱存起来增值更有价值，为什么要浪费在旅游上，等等。 当然，我不是说旅游一定要有什么伟大的意义，但从我个人来说，我从来没有把旅游当作单纯的一种放松和休闲。 以前看美剧《西部世界》，有一段话我觉得还挺有感慨，按照我的理解，他讲的是，找遍世界，最终找回了自己。最开始，我觉得解锁了新的大洲，新的国家，新的地标，很有成就，那么慢慢的，我发现其实解锁了自己，更多的面对陌生环境的勇气，更强的体能和适应力，更高的爬升和海拔记录，对自身能力，体力极限，安全边界有了更…",
+      "key_points": [
+        "一种就是旅游就是旅游，打卡拍照秀朋友圈，一切都是为了赢得别人的羡慕和称赞；还有一种也挺常见，天朝上国心态，到哪里都是吐槽别人不如自己家乡，不如国内的便利，性价比…",
+        "因为新加坡的溢出效应，中国投资者目前在新山大规模投资，特别是算力中心，对当地就业，商业还是促进很大，而随着柔佛州电力被中国企业瓜分殆尽，大吉隆坡的雪兰莪也开始享…",
+        "带着好奇心去旅游，我看到很多我觉得好奇的现象就会去问问AI，问问搜索引擎，然后理解背后的逻辑，比如说以前写过埃及开罗的满城都是烂尾房，我特意搜索过，原来是当地的…"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "设计流动摩擦：AI 原生团队的核心能力",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/ai-native-team-flow/",
+      "published": "Sat, 18 Jul 2026 02:16:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Coding",
+        "Pull",
+        "Request"
+      ],
+      "summary": "这篇文章把焦点从“个人效率提升了多少”移到“团队怎样重新设计协作摩擦”。在 AI 原生团队里，真正的核心能力不只是写得更快，而是把需求澄清、任务切分、审查反馈和知识沉淀这些摩擦面设计成可流动、可复用、可被 Agent 接住的工作流。对已经开始引入 Coding Agent 的团队，这比单看代码生成速度更关键。",
+      "key_points": [
+        "我们讨论 AI 对软件研发的影响，最常使用的仍是个人生产力：一个功能要多久，一名开发者能同时推进多少任务，Coding Agent 能生成多少代码。AI 确实显…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "欧洲热浪已致上百人死亡，国内却遇到「凉夏」，环球为何不同凉热？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791214",
+      "published": "Wed, 15 Jul 2026 23:01:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hPa"
+      ],
+      "summary": "气象喵探员， 点开我的主页你会发现——这个喵纯纯气象迷，除了气象啥也不会~ 查看知乎原文 从气象学标准来说，用凉夏来定义当前的气温是不准确的。 关于凉夏的认定有严格标准，某一站点 6~8 月平均气温比常年偏低幅度达到 0.43 倍标准差及以上，可认定为单站达标。 而达标站点数量达到总站的 50%以上才可认定为广义上的凉夏，并且现在才 6 月，是不可能进行认定的，更何况近一个月全国气温仍然以偏高为主，而不是大幅偏低。 关于欧洲高温的情况，从 500hPa 位势图来看，西欧上空存在环流异常，588 线围起了一个突出的区…",
+      "key_points": [
+        "这已经是有记录以来当地 6 月最强的高温热浪事件 ，由于欧洲因历史原因空调覆盖率较低，本轮高温过程已经造成大量死亡，其中法国死亡人数已超 40 人",
+        "欧洲本轮的高温主要是由热穹顶效应所引起的，也的确非常严重，由于空调覆盖率较低目前已导致多人死亡",
+        "而达标站点数量达到总站的 50%以上才可认定为广义上的凉夏，并且现在才 6 月，是不可能进行认定的，更何况近一个月全国气温仍然以偏高为主，而不是大幅偏低"
+      ]
+    }
+  ]
+}
