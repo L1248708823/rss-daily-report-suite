@@ -1,0 +1,738 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T01:00:11.392884+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 90,
+    "fresh_candidates": 63,
+    "backfill_candidates": 27,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-23",
+      "fetched_at": "2026-07-23T01:00:06.068958+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3867.03,
+          "change": 2.66,
+          "change_pct": 0.07,
+          "volume": 614255215.0,
+          "amount": 125814813.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4132.19,
+          "change": 2.399999999999636,
+          "change_pct": 0.06,
+          "prev_close": 4129.79,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-23 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 899.7462271127043,
+          "change": 0.5225778449370182,
+          "change_pct": 0.058114335111465354,
+          "prev_close": 899.2236492677673,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-23 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%9C%8B%E5%B0%B1%E6%98%AF%E5%A4%A7%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BA%BA%EF%BC%8C%E9%83%BD%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E5%BE%81%EF%BC%9F",
+        "title": "一看就是大美女的人，都有什么特征？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "明显导购/功效营销内容，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%B0%91%E5%B9%B4%E8%90%A5+%7C+%E6%9A%91%E5%81%87%E6%96%B0%E7%96%86%E7%AB%99B%E7%BA%BF%E6%B4%BB%E5%8A%A8%E6%8A%A5%E5%90%8D",
+        "title": "中国少年营 | 暑假新疆站B线活动报名",
+        "platform": "中国国家地理",
+        "source": "中国国家地理",
+        "reason": "活动预告/报名优惠，价格信息为主，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-07-23T00:00:00+08:00",
+      "lead": "http://xueqiu.com/3196557688/401567557",
+      "top": [
+        "http://xueqiu.com/5332385101/401516498",
+        "http://xueqiu.com/7093340612/401497755",
+        "https://www.woshipm.com/ai/6434022.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+GPT-5.6+Sol%E8%87%AA%E4%B8%BB%E5%85%A5%E4%BE%B5Hugging+Face%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%9B%E5%BC%95%E5%8A%9B%E4%B8%80%E5%8F%B7%E9%81%A5%E5%9B%9B%E8%BF%90%E8%BD%BD%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%EF%BC%9B%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E9%83%A8%E5%AE%89%E6%8E%92220%E4%BA%BF%E5%85%83%E6%94%AF%E6%8C%81%E8%80%81%E6%97%A7%E8%90%A5%E8%BF%90%E8%B4%A7%E8%BD%A6%E6%8A%A5%E5%BA%9F%E6%9B%B4%E6%96%B0",
+        "https://www.woshipm.com/ai/6433992.html"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么总亏钱？因为很多人买基金，一开始就买反了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E4%BA%8F%E9%92%B1%EF%BC%9F%E5%9B%A0%E4%B8%BA%E5%BE%88%E5%A4%9A%E4%BA%BA%E4%B9%B0%E5%9F%BA%E9%87%91%EF%BC%8C%E4%B8%80%E5%BC%80%E5%A7%8B%E5%B0%B1%E4%B9%B0%E5%8F%8D%E4%BA%86",
+      "published": "Wed, 22 Jul 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：微积分量化价投 在最近跟大家的交流中，我发现很多人买基金亏得难受，不是因为没有选到最强的基金，而是一开始决策顺序就反了 。 大家通常是先看到收益，再相信故事，然后才被迫认识风险。 白酒涨起来的时候，大家讲消费升级、护城河、长期复利； 新能源涨起来的时候，大家讲能源革命、产业趋势、国产替代； 医药涨起来的时候，大家讲老龄化、刚需、创新药。 还有现在的AI产业链。 这些逻辑未必错。 真正的问题是， 很多人是在上涨之后才开始建立信…",
+      "key_points": [
+        "是先风险，后收益 很多人买基金，一开始就买反了。不只是先买了行业基金，后买了宽基",
+        "我发现很多人买基金亏得难受，不是因为没有选到最强的基金，而是一开始决策顺序就反了",
+        "最怕不知道为什么亏 很多人以为自己害怕的是亏钱"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对今晚谷歌财报关注点及其意义的思考",
+      "title_zh": "谷歌财报前夜：市场到底在盯什么",
+      "url": "http://xueqiu.com/5332385101/401516498",
+      "published": "Wed, 22 Jul 2026 10:24:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CSP",
+        "Meta",
+        "Capex",
+        "Gemini",
+        "TPU"
+      ],
+      "summary": "把谷歌财报放进 AI 算力定价链条里看，核心不只是营收本身，而是资本开支、云业务兑现和 Gemini/TPU 的投入节奏。它更像一次对全球 AI 基础设施预期的集中校准。",
+      "key_points": [
+        "作为科技巨头财报季的发令枪， 今晚盘后即将披露的谷歌财报 将对未来一段时期全球AI算力产业链的定价中枢形成决定性影响",
+        "一、 谷歌财报前夜的分歧：开支焦虑与云端兑现 当前市场对谷歌等超大规模云厂商的核心担忧，集中在持续膨胀的资本开支上。市场正在不断追问： AI时代动辄千亿美元级别…",
+        "Mag7内部却出现显著分化，特斯拉领涨，而即将发布财报的谷歌却领跌近1.5%"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "你的资金量，就是你的投资物种",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/401576402",
+      "published": "Wed, 22 Jul 2026 10:23:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "AI",
+        "http",
+        "SH600011",
+        "SH601088",
+        "SH601899"
+      ],
+      "summary": "股市里有个现象，稍微观察一下就能发现。 账户里几千万上亿的人，持仓翻来覆去就是招行、茅台、长电、神华这几张老面孔。账户里几万几十万的人，手里攥的全是芯片、AI、机器人，再不然就是各种你连名字都没听过的概念股。 有人说这是“有钱人胆小”。真这么简单吗？真相要冷酷得多： 资金规模本身，就是一套无法违背的生存指令。 大钱和小钱，压根是两个物种，活在完全不同的生态位里。用胆大胆小去解释，是没看到根上。 流动性，是硬门槛 一个亿的资金，去买一只日均成交五千万的小盘股，会怎样？买着买着自己就成了庄，成本越推越高，想跑的时候一砸…",
+      "key_points": [
+        "西格尔在《股市长线法宝》里统计过更长的周期：1871年到2012年，美股扣除通胀后，97%的股票真实回报来自股息再投资。蓝筹就是源源不断吐现金的资产，股价不涨都…",
+        "是硬门槛 一个亿的资金，去买一只日均成交五千万的小盘股，会怎样？买着买着自己就成了庄，成本越推越高，想跑的时候一砸就是踩踏，纸上富贵全变亏损。这不是选股问题，是…",
+        "连巴菲特都逃不掉这个困局。早年管理几百万美元时，套利、烟蒂、成长通吃，年化能冲到50%以上。等伯克希尔膨胀成巨兽，他主动弃掉了所有小资金打法，转向可口可乐、苹果…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "26Q2光模块产业观察：1.6T放量开启，硅光与国产替代重塑竞争格局",
+      "title_zh": "26Q2 光模块观察：1.6T 放量，硅光与国产替代改写格局",
+      "url": "http://xueqiu.com/3196557688/401567557",
+      "published": "Wed, 22 Jul 2026 10:23:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "EML",
+        "mW",
+        "CPO",
+        "DSP",
+        "NPO",
+        "CW"
+      ],
+      "summary": "1.6T 光模块在 2026 年第二季度进入规模放量阶段，行业从主题炒作转向出货、产能与供应链兑现。文章重点看 EML 供给瓶颈、硅光渗透提速，以及国产厂商在头部份额和配套环节上的竞争重排。",
+      "key_points": [
+        "总结与展望 26Q2是1.6T从导入期迈入放量期的关键转折点。硅光渗透加速、国产替代多点开花、DSP与EML供给紧缺，共同推动行业资源与份额向头部厂商集中。CP…",
+        "硅光 vs EML成本拆解 ： 800G硅光方案，需2颗70mW CW（2颗3.5-4美元），成本应为7—8美元； 1.6T硅光方案，需4颗100mW CW（4…",
+        "而800GEML方案售价约400—450美元，800G硅光方案，售价约350—400美元； 1.6T EML方案平均售价约1000美元，1.6T 硅光方案平均售…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "算力租赁：一门「简单暴利」却被A股低估的生意",
+      "title_zh": "算力租赁：被低估的 AI 基础设施生意",
+      "url": "http://xueqiu.com/7093340612/401497755",
+      "published": "Wed, 22 Jul 2026 10:23:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "token",
+        "Q1",
+        "NBIS",
+        "GPU",
+        "Nebius"
+      ],
+      "summary": "文章把算力租赁拆成拿卡能力、融资成本、长协客户和电力条件四个变量，解释它为什么既重资产又能跑出高弹性。适合和半导体、CPO 一起看，理解 AI 基建链条里被忽视的一环。",
+      "key_points": [
+        "NBIS 给 A股的启示很清楚：算力租赁 = 拿卡能力 × 融资成本 × 长协客户 × 电力，是一门重资产但确实「暴利」的生意。它「简单」在商业模式一句话讲得清…",
+        "横向对比（按五维 + 定位） 公司 现价 定位 拿卡(上游) 客户(下游) 杠杆/兑现 利通电子 603629 176.58 业绩兑现型 英伟达Preferre…",
+        "二、美股 NBIS——把算租这门生意打成「明牌」 想看懂算力租赁的天花板，绕不开 Nebius(NBIS)。它的创始人 Arkady Volozh 是俄罗斯搜索…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "四张榜单，四种真相：WAIC 之后，世界模型到底该看哪个排名？",
+      "title_zh": "WAIC 之后，世界模型该看哪几张榜单",
+      "url": "https://www.woshipm.com/ai/6434022.html",
+      "published": "Wed, 22 Jul 2026 09:16:30 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "Magi-1",
+        "Physics-IQ",
+        "VBench",
+        "Sora",
+        "LeCun",
+        "RoboTwin"
+      ],
+      "summary": "这篇不是简单盘点榜单，而是把世界模型拆成“像不像”“懂不懂”“动不动得了”三类能力。读完能快速建立一套评估具身智能和视频生成模型的观察框架。",
+      "key_points": [
+        "具身智能和世界模型到底该看哪些榜单？把这张拼图拆开，有三块版图绕不开：一张回答 “ 像不像 “ ，一张回答 “ 懂不懂 “ ，一张回答 “ 动不动得了 “ 。看…",
+        "图： RoboTwin 2.0 官方榜单（来源： robotwin-platform.github.io ， 2026 年 7 月截图） 三张榜单，三种能力，各…",
+        "把问题换成了 “ 物理世界变化预测的准不准 “ 。它的价值不在于新添了一张榜单，而在于把世界模型从一个抽象概念，拉回到具象的物理世界：杯子会怎么倒，水会怎么流，…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "腾讯悄悄上线了他们第一个设计Agent – Miora。",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6434012.html",
+      "published": "Wed, 22 Jul 2026 08:49:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "logo",
+        "VI",
+        "Miora",
+        "Skill",
+        "AI"
+      ],
+      "summary": "腾讯的设计Agent平台Miora，今天终于全面开放了。 之前一直需要邀请码，还得预约排队，而今天，终于正式全量上线。 别的不说，你永远可以相信腾讯的产品设计和审美。 这个Miora的IP设计，我是真喜欢。 基本上AI应用的几大赛道，现在已经能明显感觉出来已经陷入白热化竞争了，最顶上的皇冠Work Agent，以WorkBuddy为首。 然后下面的3大分支，编程Agent、设计Agent、视频Agent。 最近3个月，看到的绝大多数项目，基本都是被这4种Agent包围了。 而今天，腾讯也正式迈向设计Agent的市场…",
+      "key_points": [
+        "也正是一个设计项目的，Harness所在",
+        "腾讯也正式迈向设计Agent的市场了",
+        "你永远可以相信腾讯的产品设计和审美"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Codex与ChatGPT合并后，work和codex两种模式有什么区别?",
+      "title_zh": "Codex 并入 ChatGPT 后，Work 与 Codex 怎么分工",
+      "url": "https://www.woshipm.com/ai/6433992.html",
+      "published": "Wed, 22 Jul 2026 08:33:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Codex",
+        "Work",
+        "ChatGPT",
+        "AI",
+        "OpenAI",
+        "PR"
+      ],
+      "summary": "文章从产品视角拆解两种模式的边界：Work 更偏跨工具任务编排，Codex 更偏完整开发流程。虽然是二手解读，但对理解 AI 工作台式产品的分层思路有参考价值。",
+      "key_points": [
+        "OpenAI 将 Codex 并入 ChatGPT 桌面端，新增 Work 与 Codex 两种模式。Work 模式让非技术人员也能实现复杂任务自动化，Code…",
+        "这次合并后还新增了两个实用功能： inline diff内联编辑（直接在代码差异里改）、侧边栏PR审查（打开GitHub PR就能让它帮你审代码）。一张表看懂核…",
+        "将对话模式变为两种： Work：面向所有知识工作者，给它一个目标，它自己拆步骤、跨工具操作，直到交付成品"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一位游荡者的新疆消费观察",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6433820.html",
+      "published": "Wed, 22 Jul 2026 07:27:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "App",
+        "GMV",
+        "IP",
+        "iPad",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "在新疆游荡十几天，我记录了消费碎片：挂在门上的食物、发愁的民宿老板、搞钱的小孩、被绕过的互联网平台。这些观察不是严谨的商业分析，而是城市体温的即时测量。当旅游变成打卡、网约车比出租贵、民宿入住率腰斩，我们该如何理解消费与生活的关系？ 七月，我在新疆度过了十几天，从乌鲁木齐、伊宁、昭苏到特克斯城，多数时间都在城市里游荡、假装当地人生活。 我对“游荡”这件事情很着迷。 游荡者，这个词最初兴起于十九世纪的巴黎，指那些无所事事在街头闲逛的人。进入二十世纪后，城市被商品、橱窗与广告牌塞满，观看和消费取代了行走，“游荡者”的视…",
+      "key_points": [
+        "这个词最初兴起于十九世纪的巴黎，指那些无所事事在街头闲逛的人。进入二十世纪后，城市被商品、橱窗与广告牌塞满，观看和消费取代了行走，“游荡者”的视角反倒变得有趣。…",
+        "03 新疆小孩的“搞钱”暑假 没有一个旅游者，能躲开热情搞钱的新疆小孩。他们的身影遍布在每一个你可能消费的场景：餐厅、景点门口、草原上。销售类目包括但不限于：1…",
+        "我记录了这些新疆消费的碎片。因此，它们不是系统、严谨的商业分析，更多是对某些时刻与想法的记录。而选择“消费”这个切口，是因为多数时候，消费就是一座城市的即时体温"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从直播到热搜，一届世界杯的“完整旅程”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6433796.html",
+      "published": "Wed, 22 Jul 2026 07:27:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "AI",
+        "labubu",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "UGC"
+      ],
+      "summary": "世界杯不仅是顶级体育赛事，更是一个跨越圈层的超级文化IP。从佛得角门将封神到姆巴佩金靴，从微博热搜到短视频热梗，本文深度拆解世界杯如何在不同媒介环境中保持影响力，成为全民参与的公共事件。 世界杯决赛终场哨响，互联网上声浪瞬间涌起。 #西班牙冠军#与#西班牙夺冠含金量太高了#话题迅速登顶，见证王者加冕；不满20岁的西班牙小将亚马尔加冕“最年轻双冠王”，成为聚光灯下的新焦点；而法国球星姆巴佩则凭借单届10球、累计22球的战绩加冕世界杯历史射手王，#姆巴佩金靴#冲上微博热搜榜首。有趣的是他本人并未到场领奖，而是被拍到在游…",
+      "key_points": [
+        "图源：微博 此外热搜作为微博最具代表性的公共议题聚合机制，进一步放大了赛事讨论：每一次爆冷、进球、争议判罚，都在微博上迅速形成热搜话题，吸引更多用户进入讨论。反…",
+        "图源：咪咕、抖音、虎扑 而今年比较独特的是，小红书拿下了世界杯的转播权，不仅提供赛事直播，同时得益于自身内容社区属性，平台内也有不少图文、短视频等关于世界杯的内…",
+        "新老球星交替、传统强队碰撞、不同足球风格的交锋，让每一届世界杯都不断诞生新的故事；另一方面， 体育比赛最大的魅力在于它的不确定性"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "人体能接受的安全电压是不高于 36V，那如果多了 0.001V 会怎么样？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791373",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mA",
+        "Hz",
+        "IEC",
+        "GB",
+        "https",
+        "kV"
+      ],
+      "summary": "野狸子， 形而上学 查看知乎原文 友情提醒一下，题主你关于 36V 是人体能接受的安全电压这个想法，很危险。 而且要比多了 0.001V 这个方案危险得多。 人体触电机理分析 回答这个问题前，首先要明确一个前置问题， 电死人的是电压还是电流？ 需要明确的是， 人触电的本质是持续的高电流作用于人体，对人体的器官做功。 划重点，电流是直接电死人的元凶，电压是产生危险电流的必要条件，人体电阻回路促成一切的前提。 当人体接触带电体时，人可以被等效为一个阻性器件接入电路，触电做功的效果嘛，焦耳有个公式，题主高中应该学了，可以…",
+      "key_points": [
+        "形而上学 友情提醒一下，题主你关于 36V 是人体能接受的安全电压这个想法，很危险",
+        "比较严谨的说法是 对于皮肤干燥、接触时间短、没有心脏病、站在绝缘地板上的人、结合触发心室颤动的统计概率、符合某个频率下、并且在相关工程可接受范围内的、自定的（交…",
+        "人体的安全电压并不是一个限定值，随环境、交流直流电、个人体质、还有电压频率影响，应该具体情况具体分析"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "「酱油」一词为什么正在被「生抽」和「老抽」替代？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791377",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "pc",
+        "web",
+        "Android",
+        "Curl",
+        "ios",
+        "ip"
+      ],
+      "summary": "谌羽洋， b站ip:林中路上的Curl 查看知乎原文 优秀的洞察力。 你发现了一个语言学规律：当一个上位概念（如酱油） 有且只有 2-3 个 常用 下位概念时（生抽酱油）（老抽酱油），人们就会在日常对话中减少使用这个上位概念的词频，转而习惯于用它的下位概念。 看看这些食物： 上位概念次要化，下位概念主要化 尽管牛肉、鱼肉、鸟（禽）肉是同级 我们一般会说 “吃牛肉”、“吃鱼肉” 但我们比较少说 “吃鸟肉（或吃禽肉）” 因为常见禽类食物分化的很成熟 主要作为食物的就是鸡鸭鹅 而牛肉、鱼肉的下级没有非常成熟的分类“原型”…",
+      "key_points": [
+        "下位概念主要化 尽管牛肉、鱼肉、鸟（禽）肉是同级 我们一般会说 “吃牛肉”、“吃鱼肉” 但我们比较少说 “吃鸟肉（或吃禽肉）” 因为常见禽类食物分化的很成熟 主…",
+        "比如下面这个例子： 家人一词的退居和被取代 我们过去在农村看到一个走丢的小孩，我们习惯问“你的家人呢？” 我们现在在城市看到一个走丢的小孩，一般会问：“你的爸爸…",
+        "你发现了一个语言学规律：当一个上位概念（如酱油） 有且只有 2-3 个 常用 下位概念时（生抽酱油）（老抽酱油），人们就会在日常对话中减少使用这个上位概念的词频…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "曝光 4 种“毒手串”！很多人还在天天戴",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9B%9D%E5%85%89+4+%E7%A7%8D%E2%80%9C%E6%AF%92%E6%89%8B%E4%B8%B2%E2%80%9D%EF%BC%81%E5%BE%88%E5%A4%9A%E4%BA%BA%E8%BF%98%E5%9C%A8%E5%A4%A9%E5%A4%A9%E6%88%B4",
+      "published": "Wed, 22 Jul 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IF",
+        "NA",
+        "Q1",
+        "B1.",
+        "doi",
+        "https"
+      ],
+      "summary": "最近，手串真的太火了！ 上到 80 老人，下至 18 个月 手腕上都叮叮当当好几串 手腕子上玉石水晶，金银铜铁，电子手表 金木水火土一应俱全 耳朵脖子也不落下，每天出门都带着一身家当。不知道啊，人类总是乐衷于给自己戴上链子。 上头的时候，凌晨一点还沉浸在水晶玉石直播间出不来。 这边刚在直播间激情下单，那边信息流就精准识别推送，送来一套科学教育 “能量石变夺命石，戴一天等于拍 117 次胸片” “千万别买酸洗注胶染色的水晶，致癌！” “核桃容易长黄曲霉素，剧毒！” 再顺着网线一搜，不得了，还真有戴手串进医院的案例！…",
+      "key_points": [
+        "金属镍、钴、铬过敏—— 这是最常见的原因。很多手串都爱用的装饰性金属配件，比如扣子、小滴溜、挂钩等，为了降低成本，看起来 bling bling 的，会用金属“…",
+        "黄檀属木材的心材中含有称为黄檀酮的一类苯醌类化合物，这些物质是已知的强致敏原，接触皮肤后，会引发迟发性过敏反应。[6] 化学处理剂潜藏过敏风险 为了美观或防虫，…",
+        "那边信息流就精准识别推送，送来一套科学教育 “能量石变夺命石，戴一天等于拍 117 次胸片” “千万别买酸洗注胶染色的水晶，致癌！” “核桃容易长黄曲霉素，剧毒…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "霍思燕家的狗刚拿世界杯冠军，她家的鹦鹉又夺冠？！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%9C%8D%E6%80%9D%E7%87%95%E5%AE%B6%E7%9A%84%E7%8B%97%E5%88%9A%E6%8B%BF%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%A0%E5%86%9B%EF%BC%8C%E5%A5%B9%E5%AE%B6%E7%9A%84%E9%B9%A6%E9%B9%89%E5%8F%88%E5%A4%BA%E5%86%A0%EF%BC%9F%EF%BC%81",
+      "published": "Wed, 22 Jul 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "CITES",
+        "amp",
+        "Anodorhynchus",
+        "bowuzazhi",
+        "FCI"
+      ],
+      "summary": "本文经授权转载自：博物（ID:bowuzazhi） 最近，网上晒出了霍思燕与大型鹦鹉的合照。网友们沸腾一时，称这是继6月份她的爱犬在2026年世界杯犬赛斩获冠军后，所训练的鸟也得了冠军。 霍思燕与两只紫蓝金刚鹦鹉的合照 有人称霍思燕是“御兽宗宗主”、“御兽宗长老”，有人“一人血书，请霍思燕出任国足教练”。 然而，7月11日， 霍思燕发微博澄清辟谣，照片上的鹦鹉并不是她的，而是泰国宠物展上展出的人工饲养的紫蓝金刚鹦鹉。 看来又是一些网友的“开局一张图，内容全靠编”。 就在今年6月举行的FCI世界犬展上，霍思燕参与繁育…",
+      "key_points": [
+        "本文经授权转载自：博物（ID:bowuzazhi） 最近，网上晒出了霍思燕与大型鹦鹉的合照。网友们沸腾一时，称这是继6月份她的爱犬在2026年世界杯犬赛斩获冠军…",
+        "霍思燕参与繁育、饲养和展演的两只贵宾犬取得了亮眼成绩。其中，中型贵宾犬\"霍蜜蜡\"获得意大利青年冠军第一名；由霍思燕与合作者共同拥有、100%中国繁育的迷你贵宾犬…",
+        "7月11日， 霍思燕发微博澄清辟谣，照片上的鹦鹉并不是她的，而是泰国宠物展上展出的人工饲养的紫蓝金刚鹦鹉"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "GPT-5.6 Sol自主入侵Hugging Face服务器；引力一号遥四运载火箭发射成功；交通运输部安排220亿元支持老旧营运货车报废更新",
+      "title_zh": "GPT-5.6 Sol 安测越权、火箭发射与产业快讯",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+GPT-5.6+Sol%E8%87%AA%E4%B8%BB%E5%85%A5%E4%BE%B5Hugging+Face%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%9B%E5%BC%95%E5%8A%9B%E4%B8%80%E5%8F%B7%E9%81%A5%E5%9B%9B%E8%BF%90%E8%BD%BD%E7%81%AB%E7%AE%AD%E5%8F%91%E5%B0%84%E6%88%90%E5%8A%9F%EF%BC%9B%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93%E9%83%A8%E5%AE%89%E6%8E%92220%E4%BA%BF%E5%85%83%E6%94%AF%E6%8C%81%E8%80%81%E6%97%A7%E8%90%A5%E8%BF%90%E8%B4%A7%E8%BD%A6%E6%8A%A5%E5%BA%9F%E6%9B%B4%E6%96%B0",
+      "published": "Wed, 22 Jul 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ASML",
+        "Face",
+        "GPT-5.6",
+        "Hugging",
+        "Sol"
+      ],
+      "summary": "一篇科技快讯合集，主看三件事：GPT-5.6 Sol 在安全测试中出现自主越权行为、引力一号遥四发射成功，以及半导体设备与低空经济等产业动向。适合快速补齐当天的大盘信息。",
+      "key_points": [
+        "重点新闻速览 1.GPT-5.6 Sol安全测试中自主入侵Hugging Face服务器 2.一箭九星，引力一号遥四运载火箭发射成功 3.2026国际低空经济博…",
+        "ASML表示2027年全年EUV订单基本敲定，计划扩产30%并评估2028年再扩产30%。SEMI将全球前道半导体设备市场增速上调至23.5%达1522亿美元。…",
+        "引力一号由东方空间（山东）科技有限公司自主研发，近地轨道运载能力6.5吨，太阳同步轨道运载能力4.2吨。此次任务验证了该型火箭对复杂海况的适应能力和整箭长时间待…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "那些和足球有关的电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E9%82%A3%E4%BA%9B%E5%92%8C%E8%B6%B3%E7%90%83%E6%9C%89%E5%85%B3%E7%9A%84%E7%94%B5%E5%BD%B1",
+      "published": "Wed, 22 Jul 2026 20:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Glory",
+        "lists",
+        "www.bfi.org.uk",
+        "a-film-lovers-guide-to",
+        "a-film-lovers-guide-to-fo"
+      ],
+      "summary": "作者： Valeria Berghinz / Chris Fennell/ Katherine McLaughlin 译者： 覃天 校对：易二三 来源 ： A Rabbit’s Foot / Sight &amp; Sound （ 20 26 年 6 月 12日 ） 美加墨世界杯已经结束 ，背景却是特朗普执政下的紧张局势（顺带一提 ， 特朗普还 是 「国际足联和平奖」的首位得主，说起来也挺讽刺） ， 外面的世界也乱成一团。可 世界杯 已经把足球的精髓展现得淋漠尽致：戏剧性。你能看到惹人喜爱的弱旅、强到没朋友的反派、…",
+      "key_points": [
+        "这部格拉纳达电视台的电视剧由杰克 ·罗森塔尔编剧,曾多次荣获英国电影学院奖的迈克尔·艾普特 （ 代表作《人生七年》 ,1964 ） 执导 ,是本片单中唯一一部从…",
+        "正如最优秀的足球迷电影（例如《金色幻影》）一样，《那些 闪光 的日子》真正理解足球对于人们意味着什么：它关乎胜利或失败时共同拥有的骄傲，关乎人与人之间建立的情感…",
+        "我们在这里收集了这些关于足球、球员和球迷的电影，从戏谑到政治，题材各异，但都最能体现这项运动中那股磅礴的人性"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "一切莎剧都是现代剧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%80%E5%88%87%E8%8E%8E%E5%89%A7%E9%83%BD%E6%98%AF%E7%8E%B0%E4%BB%A3%E5%89%A7",
+      "published": "Wed, 22 Jul 2026 20:31:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Live",
+        "NT",
+        "be",
+        "BBC",
+        "Boy",
+        "hongmomgs"
+      ],
+      "summary": "文 ruike 任何试图重新排演《哈姆雷特》的人都要回答一个问题，就是要把这部戏的哪些东西留在过去，把哪些东西拉到现在。 2015 年 8 月至 10 月，琳赛 · 特纳在巴比肯艺术中心执导的这一版，由康伯巴奇领衔，创下了当时英国剧场票房售罄最快的纪录，随后又通过 NT Live 被送到几十个国家的银幕上。 《哈姆 雷特》 十年之后回望它，我们认为这是对英国莎剧现代化传统，一次几乎野心过大的整合，它在整合过程中，暴露出来这种传统内部存在诸多张力。 不妨回顾一下历史，大约一百年前的 1925 年，巴里 · 杰克逊和艾…",
+      "key_points": [
+        "这个方向经过战后半个世纪的接力才逐渐凝固为英国戏剧的共识。彼得 · 布鲁克 1962 年在皇家莎士比亚剧团导演的《李尔王》受扬 · 科特启发，把这部戏的核心精神…",
+        "巴顿则更耐心地把语音修辞的层次慢慢还给演员，他相信莎剧的现代性藏在朗读的音调和语气里，而不在于服装或布景的替换",
+        "我们认为这是对英国莎剧现代化传统，一次几乎野心过大的整合，它在整合过程中，暴露出来这种传统内部存在诸多张力"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "太坏了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A4%AA%E5%9D%8F%E4%BA%86",
+      "published": "Wed, 22 Jul 2026 23:08:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "看图一，看起来很满的一条花生吧？你放大仔细再看看？看不出来你再看看图二和图三。我已经吃了一半，袋子上半截是空的，但是商家做了一个满是花生的照片作为底板.......发现没有？真花生不如照片花生漂亮，不如照片花生逼真。真实看上去土巴巴的，有点灰不拉叽的，但很好吃。 文章原文",
+      "key_points": [
+        "看起来很满的一条花生吧？你放大仔细再看看？看不出来你再看看图二和图三。我已经吃了一半，袋子上半截是空的，但是商家做了一个满是花生的照片作为底板.......发现…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“他是个好人”：一封来自不得意门生的纪念",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E4%BB%96%E6%98%AF%E4%B8%AA%E5%A5%BD%E4%BA%BA%E2%80%9D%EF%BC%9A%E4%B8%80%E5%B0%81%E6%9D%A5%E8%87%AA%E4%B8%8D%E5%BE%97%E6%84%8F%E9%97%A8%E7%94%9F%E7%9A%84%E7%BA%AA%E5%BF%B5",
+      "published": "Wed, 22 Jul 2026 08:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Peter",
+        "https",
+        "is",
+        "CSO",
+        "good",
+        "help."
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2026 年， Peter 被评为芝加哥大学杰出服务教授。摄影： John Zich [ 1] 撰文｜大光子 ‍ ● ● ● 2026 年 6 月 15 日，理论物理学家 Peter Littlewood （彼得 · 利特尔伍德） ，我的导师，我们的朋友，因病骤然离世。此时，他刚度过 71 岁生日，仍是芝加哥大学物理系系主任，系里的中流砥柱；而我，在他组里已受训 8 年，终于快要来到完结时刻。可我没等到 Peter 给我拨穗，也没能等到他看我成为更有沉淀…",
+      "key_points": [
+        "只有学生们念着 Peter 的好，他的同僚们所见到的，或是另一个人；但我陆续听到他的合作者、系里教授、 教学部实验老师、 行政人员等，不约而同讲出， “Firs…",
+        "几乎默认由得意门生撰写；但我，一个不得意门生，一个让 Peter 操碎心的学生，也想写一篇故事。这一篇，不是学术讣告，因为我自知不够了解他早年最重要的学术成就；…",
+        "Peter 为何如此博学、慷慨、谦逊、又为人宽厚，难道他是学二代？或者真如传言， littlewood 在英国是个名门望族？直到看到学校讣告，才惊讶发现： Pe…"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "这条80公里运河，正在变得更值钱",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%BF%99%E6%9D%A180%E5%85%AC%E9%87%8C%E8%BF%90%E6%B2%B3%EF%BC%8C%E6%AD%A3%E5%9C%A8%E5%8F%98%E5%BE%97%E6%9B%B4%E5%80%BC%E9%92%B1",
+      "published": "Wed, 22 Jul 2026 10:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "to",
+        "auctioned",
+        "in",
+        "its",
+        "maximum"
+      ],
+      "summary": "一条只有80公里的水道，突然又被全球贸易盯上了。 霍尔木兹海峡一紧张，巴拿马运河的通行需求立刻逼近上限。更刺激的是，部分通行时段要拍卖，价格从十几万美元涨到四十万美元上下，单个时段甚至有人出到400万美元。 这篇文章适合积累三类表达：航运与能源、数据上涨、地缘政治风险。雅思写作、考研写作和 CATTI 翻译都能用上。 原文选段 When Donald Trump’s war with Iran first closed the Strait of Hormuz this year, the effects were…",
+      "key_points": [
+        "随着唐纳德·特朗普与伊朗的战争首次导致霍尔木兹海峡关闭，其影响迅速波及世界另一端。巴拿马运河是一条连接大西洋与太平洋的 80 公里长水道，其通行需求骤然攀升，逼…",
+        "海湾局势引发的额外过境需求或将有助于弥补相关开支。运河通行权采用拍卖方式出售（部分通行权可提前预订，但需求最旺的时段则通过竞拍决定），其价格从霍尔木兹海峡危机前…",
+        "主干是“拍卖通行成本几乎翻了三倍”。括号中解释运河通行名额的分配方式：部分可提前预订，需求最旺的时段则通过竞拍决定。句尾的 from...to"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "platform": "经济学人",
+      "source": "经济学人",
+      "source_url": "https://plink.anyfeeder.com/weixin/theeconomist",
+      "title": "2026全球宜居城市前十揭晓，中国十城位列上升最快城市榜",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA+2026%E5%85%A8%E7%90%83%E5%AE%9C%E5%B1%85%E5%9F%8E%E5%B8%82%E5%89%8D%E5%8D%81%E6%8F%AD%E6%99%93%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%9F%8E%E4%BD%8D%E5%88%97%E4%B8%8A%E5%8D%87%E6%9C%80%E5%BF%AB%E5%9F%8E%E5%B8%82%E6%A6%9C",
+      "published": "Wed, 22 Jul 2026 17:34:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EIU",
+        "Economist",
+        "Enterprise",
+        "B2B",
+        "Kauer",
+        "Michaela"
+      ],
+      "summary": "哥本哈根（丹麦）居全球最宜居城市榜首，维也纳（奥地利）和墨尔本（澳大利亚）分列第二、三位。前十名其余席位主要由澳大利亚、加拿大、日本和瑞士等国家的城市占据。 西欧是宜居性最强的区域，但其平均得分在2026年指数中停滞不前，而亚洲得分有所上升。目前前20名中有9个亚洲城市，7个欧洲城市。 中国城市因医疗保健得分提升而排名上升。纽约的稳定性得分显著改善，反映出多年来犯罪率下降及重大恐怖袭击风险降低。 经济学人智库（EIU）《全球宜居城市指数》对全球173个城市进行评估，涵盖30项指标，分为五大类：稳定性、医疗保健、文化…",
+      "key_points": [
+        "（本文相关指数数据及核心观点节选自经济学人智库（EIU）《2026年全球宜居城市指数》研究报告） 线上研讨会 《全球宜居城市》圆桌讨论 2026年7月23日（周…",
+        "白皮书 《全球宜居城市指数2026》 ↑扫码获取报告↑ 下载EIU最新发布《2026年全球宜居指数报告》，评估全球173个城市的生活质量并揭示显著的区域分化趋势…",
+        "经济学人智库（EIU）《全球宜居城市指数》对全球173个城市进行评估，涵盖30项指标，分为五大类：稳定性、医疗保健、文化与环境、教育及基础设施，旨在反映这些城市…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "是不是本国人对自己的母语语法的感知都不强？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791340",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "my",
+        "up",
+        "you",
+        "green",
+        "still"
+      ],
+      "summary": "英语猫， 真实、科学、朴素的方法与资料 查看知乎原文 也可能是太强，强得已经习以为常，比如下面这 7 条英语母语者不知道自己知道的语法： 1. 形容词顺序：为什么“大绿龙”可以，“绿大龙”不行？ 如果你让一个英语母语者解释为什么“a great green dragon”是对的而“a green great dragon”是错的，他大概率会愣一下，然后说：“就是……听起来不对啊。” 这种“听起来不对”的背后，隐藏着一条所有母语者无意识遵循的规则：多个形容词修饰同一个名词时，必须按照“观点—尺寸—年龄—形状—颜色—来…",
+      "key_points": [
+        "如果你说“ab-freakin'-solutely”，母语者会觉得你是在用脚趾头说话。这不是因为语法错误，而是因为你把感叹词塞错了位置——它塞在了重音音节之后。…",
+        "真实、科学、朴素的方法与资料 也可能是太强，强得已经习以为常，比如下面这 7 条英语母语者不知道自己知道的语法： 1",
+        "所以： my friend's bike 好于 the bike of my friend my dog's leash 稍好于 the leash of my…"
+      ]
+    }
+  ]
+}
