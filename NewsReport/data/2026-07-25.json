@@ -1,0 +1,724 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T01:00:11.468488+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 91,
+    "fresh_candidates": 66,
+    "backfill_candidates": 25,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-25",
+      "fetched_at": "2026-07-25T01:00:06.164920+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3814.2,
+          "change": -62.58,
+          "change_pct": -1.61,
+          "volume": 508203905.0,
+          "amount": 91536640.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4053.29,
+          "change": 4.029999999999745,
+          "change_pct": 0.1,
+          "prev_close": 4049.26,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-25 04:54:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 882.266753194978,
+          "change": 0.8771972929090452,
+          "change_pct": 0.09952435753691985,
+          "prev_close": 881.389555902069,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-25 04:54:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-25",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "做多头比做空头，更容易赚到钱！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%81%9A%E5%A4%9A%E5%A4%B4%E6%AF%94%E5%81%9A%E7%A9%BA%E5%A4%B4%EF%BC%8C%E6%9B%B4%E5%AE%B9%E6%98%93%E8%B5%9A%E5%88%B0%E9%92%B1%EF%BC%81",
+      "published": "Fri, 24 Jul 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：做配置的小雪 来源：雪球 7月以来，市场波动相当剧烈，很多朋友咨询我们，对后市是看多还是看空，作为一名坚定的“死”多头，这篇文章和大家分享下我对长期投资的一些想法。 01 空头的胜率并不高 电影《大空头》原型迈克尔·伯里，在2008年成功预测金融危机后，一炮走红，但后续看空的观点屡次踩错。 去年年底，伯里就开始高调看空AI，并开通了知识专栏，定价379美元/年，目前已有超30万人订阅。 相比用真金白银做空股市，靠卖建议赚钱，…",
+      "key_points": [
+        "做多头很容易赚到钱 即使在上世纪波动剧烈、经历过多次崩盘的美股，「长期做多」依然是胜率最高的策略",
+        "如果你打算长期投资，那么做一个坚定的多头，采取简单的交易策略，就能以更高的概率、更省心的方式赚到钱",
+        "真正能赚到钱的方法，往往非常无聊——买入持有，再加上严格的交易纪律，虽然没有预测市场来的那么刺激，但却能换来更高的胜率和长久的安心"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "一个转折点",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1643044849/401917185",
+      "published": "Fri, 24 Jul 2026 09:43:32 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ai",
+        "AI",
+        "GJD",
+        "ACL",
+        "AH",
+        "De"
+      ],
+      "summary": "01 一个转折点 周三按计划定投账户减持了部分沪深300，和50AH持仓。 有读者说这几天很多救市政策，不等等吗？ 其实当下市场的估值，完全没到了要救市的地步，之所以最近相关信息比较多，是因为前段日子科技行业跌的太快了，科创50从7月10日到7月17日，6个交易日跌了22%。 跌不怕，但快速下跌很可怕，会互相踩踏，爆仓，引起连锁反应。 GJD的目的是稳住局势减少踩踏，不是推高股价给高估接盘。 所以还是别偏离基本面。 咱们再从一个侧面数据来聊聊 截止本周，公募基金都已经发布了二季度财报 中泰证券发布了，二季度基金持仓…",
+      "key_points": [
+        "01 一个转折点 周三按计划定投账户减持了部分沪深300，和50AH持仓"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "红利价值接棒走强的时间，可能不远了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/401924010",
+      "published": "Fri, 24 Jul 2026 09:43:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Choice",
+        "CSIH30269",
+        "http",
+        "PE",
+        "SH000300"
+      ],
+      "summary": "如果你最近沉浸在投资社群，大概率会听到两种截然不同的声音。 一边是押注AI和半导体的年轻人，盯着账户里翻红的收益率，眉飞色舞地说“这次不一样，科技就是未来”；另一边是拿着红利、价值的老股民，晃着茶杯慢悠悠补一句：“再疯的行情也得歇脚，哪有只涨不跌的赛道？” 这就是当下的A股：一边是科技成长还在高歌猛进，一边是红利价值在角落里默默磨底。 而站在当前的节点，一个所有人都绕不开的问题浮出水面： 属于科技成长的夏天，要结束了吗？红利价值的风格切换，真的要来了？ 01 没有不变的主角，只有永恒的轮动 打开A股近十年的K线图，…",
+      "key_points": [
+        "红利价值在资产的走强也需要催化剂。要么是成长股业绩不及预期引发的资金避险，要么是经济复苏带来传统行业盈利的超预期改善，要么是政策层面加大对分红的监管引导——这些…",
+        "但足够稳 与科技成长的高歌猛进相比，红利价值过去两年的表现确实有些沉闷。但沉闷不代表没有价值，反而可能是蓄力的信号",
+        "与其纠结“切换具体哪一天发生”，不如提前做好布局： 如果你手里全是高弹性的成长赛道，不妨适当减仓，把一部分仓位挪到红利低波类资产上，用“老登”的稳来对冲“小登”…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2026年下半年仔猪行情展望",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1632625377/401946629",
+      "published": "Fri, 24 Jul 2026 09:43:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SZ000876",
+        "SZ002714",
+        "SZ300498",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "推导新生仔猪是根据4个月前能繁母猪环比变化推算，不考虑母猪效率变化。实际上，行业母猪效率从去年四季度已经停止增长，由于今年仔猪持续亏损，弱仔被大量淘汰，后续实际不排除行业母猪效率会下降的可能。 首先，根据前图，可以明确的是，今年新生仔猪数量肯定是低于去年的。 其次，由于集团企业被动调减能繁母猪后为了保证自身需求，大幅减少了仔猪外销，专业母猪场由于仔猪的长期亏损而集中淘汰母猪，市场可交易仔猪的降幅是大于新生仔猪降幅的。 而由于持续的亏损，行业资金的持续消耗，即使下半年行情有所反弹，全年仔猪需求也会少于去年。 供需双减…",
+      "key_points": [
+        "行业资金的持续消耗，即使下半年行情有所反弹，全年仔猪需求也会少于去年",
+        "一是由于生猪价格从6月底开始的快速反弹带动仔猪价格上涨；二是二季度末能繁母猪存栏数据公布，母猪去化超预期，行业预期有所升温；三是已经进入春节前出栏的最后补栏窗口…",
+        "推导新生仔猪是根据4个月前能繁母猪环比变化推算，不考虑母猪效率变化。实际上，行业母猪效率从去年四季度已经停止增长，由于今年仔猪持续亏损，弱仔被大量淘汰，后续实际…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "Q2自由现金流转负，不是谷歌的致命伤",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6244752229/401922388",
+      "published": "Fri, 24 Jul 2026 09:43:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TPU",
+        "AI",
+        "Alphabet",
+        "CFO",
+        "Meta",
+        "Gemini"
+      ],
+      "summary": "昨夜谷歌狂泻七个点，今天照往常早起一小时，把Alphabet 2026年二季度财报和电话会翻完了。 谷歌的财务数字很漂亮：营收达1198亿美元，同比增长24%，保持连续12个季度的双位数增长；其中云业务营收达248亿美元，同比增长82%；营业利润达408亿美元，同比增长30%。 但，股价竟狂泄7.13%。 还是老一套的看空理由，谷歌全年资本开支指引中枢一口气上调150亿美元；单季度自由现金流直接干到-59亿美元，CFO还表示2027年将“继续大幅提升”。 市场害怕持续的AI军备竞赛，只会带来无底洞的烧钱投入和一再推…",
+      "key_points": [
+        "为了整机交付，谷歌在提前备货，阶段性占用经营现金流。换句话说，本季度流出的59亿美元自由现金流里，有一部分开支并非指向烧钱，而是压在仓库里的存货",
+        "谷歌全年资本开支指引中枢一口气上调150亿美元；单季度自由现金流直接干到-59亿美元，CFO还表示2027年将“继续大幅提升”",
+        "就看自由现金流何时回正。谷歌整机收入预计在2027年放量，拐点就该出现在2027年上半年之前"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从「管人」到「管模型」：在线客服与AI客服的数据评估体系有何根本不同？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6434866.html",
+      "published": "Fri, 24 Jul 2026 10:04:34 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CSAT",
+        "LLM",
+        "NLU",
+        "RAG",
+        "Prompt"
+      ],
+      "summary": "当AI客服从100人变成1000个并发，评估效率的底层逻辑彻底变了。传统指标围绕“管人”构建，而AI客服需要一套围绕“管模型”的新框架——从NLU理解、RAG检索到LLM安全，每个环节都需独立量化。本文拆解五个核心差异，帮你重新设计评估体系。 当客服系统从100个人变成1000个AI并发时，真正变化的不是效率数字，而是评估效率的底层逻辑。 一、一个场景，两个世界 假设你正在负责智能客服项目。周一早会上，运营团队给你看了两组数据：人工客服组 CSAT 4.6，FCR 82%，月投诉12起；AI客服组日均会话量暴涨了3…",
+      "key_points": [
+        "当AI客服从100人变成1000个并发，评估效率的底层逻辑彻底变了。传统指标围绕“管人”构建，而AI客服需要一套围绕“管模型”的新框架——从NLU理解、RAG检…",
+        "为什么？因为人工客服的指标体系是围绕”管人”构建的——他的速度快不快、知识够不够、态度好不好。而AI客服需要一套围绕”管模型”的评估框架——它的理解对不对、检索…",
+        "二、回顾：传统人工客服在评估什么 先花一分钟回顾人工客服的评估体系。这套体系在过去十年非常成熟，本质上回答了五个问题： 效率维度，你响应得够不够快？核心看首次响…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "别人都在搞AI，你的企业要不要跟？先听听9年老兵怎么说",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6434887.html",
+      "published": "Fri, 24 Jul 2026 10:04:26 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Coding",
+        "Cursor",
+        "Copilot",
+        "prompt",
+        "SaaS"
+      ],
+      "summary": "FDE岗位暴增800%，年薪200万起步，但真正落地时第一步该做什么？本文从9年企业数字化经验出发，拆解AI Coding落地的四个阶段，揭示数据基建是隐形天花板，并给出从“工具选型”到“协作制度”的完整操作手册。 最近 FDE（Forward-Deployed Engineer，前向部署工程师）这个岗位火得一塌糊涂，岗位暴增800%+，年薪200万起步。OpenAI专门成立了40亿美元的公司派驻场团队，Anthropic把应用团队翻了五倍，国内字节、蚂蚁、智谱都在抢人。 说白了，这就是一个 帮企业把AI真正用起来…",
+      "key_points": [
+        "八、总结：企业 AI Coding 不是选工具，是选路径 回到最开始的判断：市面所有人都在聊 AI Coding 用什么工具，但没人告诉你”你的企业在哪个阶段、…",
+        "现在的管理多了一层：管 AI。prompt 怎么写更省 token、同一个任务哪个模型性价比最高、AI 输出的代码规范怎么保持一致，要不要淘汰 AI…这些不是”…",
+        "这就是一个 帮企业把AI真正用起来 的岗位，所有人都在聊”这个岗位多重要”，但没人告诉你：当你 真的走进一家企业 ，面对”我们 ERP 是 SaaS 的、数据在…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一行代码不会写，我靠“白嫖”AI，做出了一个 3.2K Star 的开源工具",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6434831.html",
+      "published": "Fri, 24 Jul 2026 10:01:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GitHub",
+        "Star",
+        "Fork",
+        "Gist",
+        "GithubStarsManager"
+      ],
+      "summary": "作为一个连 Hello World 都敲不利索的产品经理，我没写一行代码，却上线了一款目前 3.2K Star 的 GitHub 开源工具。这篇文章想聊聊：一个\"只会提需求\"的产品，是怎么用免费的 AI 额度，把一个自用的小玩意儿养成了一款持续迭代的产品。 先把结论摆在最前面，免得觉得我在贩卖焦虑： 我 不会写代码 ，真的，一行都不会； 我 没花一分钱 买 AI 会员，全靠各家大模型的免费额度”薅羊毛”； 我做的这个工具叫 GithubStarsManager ，一个用 AI 管理 GitHub 星标仓库的应用，目…",
+      "key_points": [
+        "作为一个连 Hello World 都敲不利索的产品经理，我没写一行代码，却上线了一款目前 3.2K Star 的 GitHub 开源工具。这篇文章想聊聊：一个…",
+        "免得觉得我在贩卖焦虑： 我 不会写代码 ，真的，一行都不会； 我 没花一分钱 买 AI 会员，全靠各家大模型的免费额度”薅羊毛”； 我做的这个工具叫 Githu…",
+        "项目地址：https://github.com/AmintaCCCP/GithubStarsManager 桌面客户端下载：GitHub Releases 页直…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "中文播客，词汇通胀",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6434950.html",
+      "published": "Fri, 24 Jul 2026 09:32:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CC0",
+        "NPD",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Talk"
+      ],
+      "summary": "中文播客正在塑造一套新的“精神词典”：原生家庭、主体性、情绪价值、奥德赛时期……这些词汇帮助人们重新解释生活，却也带来新的焦虑。当心理热词成为答案，现实问题反而被掩盖。本文深入剖析播客如何制造并消费这些概念，以及我们如何避免被词语绑架。 只要连续听几档中文播客，很快就能学会一套新的普通话。 谈童年，要说“原生家庭”；谈性格，要说“高敏感”“讨好型人格”；谈工作，要警惕“内耗”和“低能量”；谈关系，要看对方能不能提供“情绪价值”，有没有“托举”你，有没有让你“被看见”；决定拒绝一件事，叫“建立边界”；不再替别人操心，…",
+      "key_points": [
+        "中文播客正在塑造一套新的“精神词典”：原生家庭、主体性、情绪价值、奥德赛时期……这些词汇帮助人们重新解释生活，却也带来新的焦虑。当心理热词成为答案，现实问题反而…",
+        "中文播客接下来的高频词会是“具身”“在场”和“真实连接”。AI可以在几秒钟里生成比多数人更工整的道理，真正变得稀缺的，反而是一个具体的人坐在另一个人面前，停顿、…",
+        "中文播客的核心听众集中在25至40岁，高线城市和高收入群体仍是收听主体。报告摘要这群人通常受教育程度不低，有一定消费能力，也拥有很强的自我分析欲望。他们未必缺少…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大厂挤爆AI宠物赛道：年轻人不想铲屎，只想要不死的赛博猫咪？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6434941.html",
+      "published": "Fri, 24 Jul 2026 09:31:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "iMoochi",
+        "LOVOT",
+        "Ropet",
+        "Fuzozo",
+        "CC0"
+      ],
+      "summary": "当AI宠物从概念走向货架，努比亚、华为等大厂纷纷入局。它们不死不病不掉毛，提供完全可控的情感陪伴，但新鲜感褪去后，是成为情感锚点还是吃灰摆件？本文深入解析AI宠物的市场逻辑与情感困境。 7月17日，努比亚的AI宠物机器人iMoochi将正式上线，AI宠物赛道又添一员大将。 从年初CES上以“最无用却最想掏钱”走红的日本mirumi，到华为“智能憨憨”开售10秒即售罄，再到Ropet、Fuzozo芙崽等品牌的持续热销，一个以情感陪伴为名的赛博宠物赛道，正以前所未有的速度挤满玩家。 对于想养宠物但没条件的打工人，不用铲…",
+      "key_points": [
+        "从年初CES上以“最无用却最想掏钱”走红的日本mirumi，到华为“智能憨憨”开售10秒即售罄，再到Ropet、Fuzozo芙崽等品牌的持续热销，一个以情感陪伴…",
+        "有很大一部分想养宠物又迟迟无法下定决心的人，其实内心存在着想被需要但又怕被消耗的矛盾心理，真实宠物会生病、会死亡、会制造麻烦，这些不确定性对他们来说是压力源。而…",
+        "努比亚、华为等大厂纷纷入局。它们不死不病不掉毛，提供完全可控的情感陪伴，但新鲜感褪去后，是成为情感锚点还是吃灰摆件？本文深入解析AI宠物的市场逻辑与情感困境"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "卖鱼老婆婆说，“鱼直接捞放塑料袋比放在有水的桶里拎过去放生更容易活”，她这是哪门子道理？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791407",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "acid",
+        "Aminobenzoic",
+        "ester",
+        "ethyl",
+        "HbO",
+        "Hemoglobin"
+      ],
+      "summary": "祥昊， 哦。这样啊。 查看知乎原文 可能你不信，多数鱼到岸上会快速死亡，不是憋死的。 而是自己作死的。 鱼作为一种水生动物，并不是不能在陆地上生存。 毕竟陆地上海平面的氧分压高达 20.95%, 即使大气中的氧分压会随着海拔高度减少， 到了海拔 5000 米的高原氧分压只有 10%左右, 也远超湖水里的 5-10 mg/L 然而，鱼上岸会死，这也是常识。 怎么死的呢？ 也不难理解，甭管是人是鱼还是虫，呼吸的原理其实都差不多，利用的是氧气和二氧化碳的扩散现象。 分子通过布朗运动（简称瞎几把乱动）从高浓度地区向低浓度地…",
+      "key_points": [
+        "又有塑料袋保持湿润，能靠着呼吸新鲜空气苟活一阵",
+        "所以倒不如把鱼丢塑料袋里",
+        "在福建省南平市建瓯市有一个省级非物质文化遗产，叫弓鱼法， 可以让鱼在离水的条件下最少存活 10-24 个小时"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "你遇到过的最奇葩的地域黑是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791430",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CBC",
+        "Gypped",
+        "khoja",
+        "kvaftes"
+      ],
+      "summary": "里姆， 红书同名，公众号：里姆的旅游和阿拉伯。 查看知乎原文 阿拉伯世界存在很多的公共饮水池，这是伊斯兰文化和埃及社会中的慈善、善行、人人平等的象征，无论贫富、种族、信仰，任何路过的旅人都可以免费来喝这里的水。 比如上图这种是古代建造的豪华版，下图则是当代的简陋版。 慢慢的，这个词开始污染，延伸出一种歧视意味，暗示对方缺乏社交礼仪或界限感，比如：这是公共饮水池（免费自取）的吗？就隐形调侃了不打招呼、不顾及别人、占小便宜的行为。 埃及方言里这一类的潜台词有很多，尤其是体现在地域、种族歧视等方面。 1，上埃及人 从血统…",
+      "key_points": [
+        "外界对米努夫省人“吝啬”的刻板印象可能源于一个历史误解：该省人民过去更倾向于从事政府行政工作（即领取固定薪水），而非务农或经商，这种对金钱和资源的精打细算被外人…",
+        "这个词语也经常被用来表达一种基于地域的偏见和歧视。他们经常被描绘成没有受现代教育、思想保守、跟不上城市节奏的群体。有时带有一种“乡下人”、“土包子”乃至“粗鲁的…",
+        "2）三个不同地方的人决定捐钱。前两人说把钱抛向空中，落进自己画的圈 / 线内归自己。米努夫人说：“我把钱抛向空中，掉在地上的归我，留在天上的才给穷人。” 3）一…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "菲尔兹奖得主宣布加入OpenAI；我国多个卫星成功入轨；数家航司和售票平台被京津冀约谈",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E5%AE%A3%E5%B8%83%E5%8A%A0%E5%85%A5OpenAI%EF%BC%9B%E6%88%91%E5%9B%BD%E5%A4%9A%E4%B8%AA%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%85%A5%E8%BD%A8%EF%BC%9B%E6%95%B0%E5%AE%B6%E8%88%AA%E5%8F%B8%E5%92%8C%E5%94%AE%E7%A5%A8%E5%B9%B3%E5%8F%B0%E8%A2%AB%E4%BA%AC%E6%B4%A5%E5%86%80%E7%BA%A6%E8%B0%88",
+      "published": "Fri, 24 Jul 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROAD1",
+        "AI",
+        "OpenAI",
+        "A-04",
+        "Agent",
+        "Brockman"
+      ],
+      "summary": "今天是7月24日，星期五。1954年的今天，美国海军研究实验室工程师用天线设施对着麦克风说话，2.5秒后声音经地-月路径返回。成为“月球中继通信”项目的里程碑。 重点新闻速览 1.邓煜、王虹获2026年菲尔兹奖 2.天链二号06星成功发射，火箭飞行途中遭雷击 3.北京出台全国首个省级AI智能体专项政策 4.华中农大发表水稻抗旱基因ROAD1研究 5.数家航司和售票平台被京津冀约谈，限期整改机票超售问题 科技 菲尔兹奖得主宣布加入OpenAI 当地时间7月23日，加拿大数学家雅各布·齐默曼（Jacob Tsimerm…",
+      "key_points": [
+        "重点新闻速览 1.邓煜、王虹获2026年菲尔兹奖 2.天链二号06星成功发射，火箭飞行途中遭雷击 3.北京出台全国首个省级AI智能体专项政策 4.华中农大发表水…",
+        "政策鼓励将智能体能力深度嵌入智能手机、智能眼镜等终端产品，推动智能体在工业、低空、政务等场景大规模落地。（新华社） 科学 邓煜、王虹获2026年菲尔兹奖 当地时…",
+        "是我国第二代地球同步轨道数据中继卫星，数据传输带宽、多航天器同步跟踪能力均实现跨越式提升。卫星将承担三大核心任务：为天宫空间站在内的载人航天器提供全天候中继通信…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "科学擦屁股指南",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%A7%91%E5%AD%A6%E6%93%A6%E5%B1%81%E8%82%A1%E6%8C%87%E5%8D%97",
+      "published": "Fri, 24 Jul 2026 20:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "al.",
+        "et",
+        "of",
+        "dermatitis",
+        "Dermatitis",
+        "IAD"
+      ],
+      "summary": "好多食物还没入口，大家就分成甜咸两党开始争斗，等它们离开身体时，清理的手法又会生出更多派别。 擦屁股这项技能人人都熟悉，但具体操作上，用点按还是擦拭，从前向后还是由左至右，每个人的习惯都不尽相同。 图丨giphy 像抽绳口袋一样缩紧 实践最科学的擦屁股方法之前，先来大概了解一下菊部的构造。大部分人可能没有什么机会仔细端详自己的菊部（也没太大必要），但是，了解卫生死角才能做好清洁工作。 作为出口的肛门和入口，也就是口唇的结构有相似之处。 肛门口里面的肛管内壁是黏膜（与口腔黏膜相似），外面则是皮肤（就像口周皮肤）， 肛…",
+      "key_points": [
+        "难以掩饰 | pixabay 男性擦屁股，左右开弓 那怎么清理最科学、最干净呢？考虑到男女结构略有不同，下面分别阐述，首先是比较简单的男性清洁方法： 第一步，保…",
+        "图丨giphy 像抽绳口袋一样缩紧 实践最科学的擦屁股方法之前，先来大概了解一下菊部的构造。大部分人可能没有什么机会仔细端详自己的菊部（也没太大必要），但是，了…",
+        "如果排泄物呈条形、偏干且不沾壁，那么菊部收缩后需要清洁的应该是一个小圆。按照成龙大哥著名的擦屁股省纸原则，理论上一张纸就能达到清洁目的（如果它不破的话）"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "算力狂奔的年代，AI开始跟人类抢水喝？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%AE%97%E5%8A%9B%E7%8B%82%E5%A5%94%E7%9A%84%E5%B9%B4%E4%BB%A3%EF%BC%8CAI%E5%BC%80%E5%A7%8B%E8%B7%9F%E4%BA%BA%E7%B1%BB%E6%8A%A2%E6%B0%B4%E5%96%9D%EF%BC%9F",
+      "published": "Fri, 24 Jul 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GPU",
+        "cctv",
+        "datacenters.economictimes",
+        "giphy",
+        "GPT-4"
+      ],
+      "summary": "为了打起精神用豆包手搓一份工作报表，你喝掉了一瓶冰可乐。 与此同时，远在数千公里外的智算中心里，豆包为了帮你完成这份报表，也“喝”掉了大约500毫升水。 图丨giphy 我们以为跟AI聊天只是用一点电、占一点网，实际上每一次生成答案，都要消耗真实世界里的电力、芯片和水资源。 在过去，“云计算”只是个形象的比喻，而AI时代的云计算，会真的把水变成“云”。 AI脑子越热，喝水越多 AI一思考，脑袋就发烫。 给AI用的算力中心叫智算中心，它的峰值功耗比传统的算力中心要高得多 。 智算中心里有成千上万颗GPU芯片，每颗芯片…",
+      "key_points": [
+        "全球AI算力基础设施的年耗水总量，已经接近爱尔兰全国居民的全年用水量",
+        "微软曾于2018年~2020年在苏格兰海岸测试海底数据中心（Project Natick），该项目已于2024年终止。丨 Microsoft 正在建设中的我国海…",
+        "简单来说就是吹走热空气、带来冷空气，安装方便成本低廉，但散热效率非常低，只适合低算力的传统机房； 风冷设备丨参考资料[1] 浸没式液冷 ，是把设备直接浸泡在专门…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "越来越多年轻人的婚前协议里，开始加上一条“和AI调情也算出轨”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E5%A9%9A%E5%89%8D%E5%8D%8F%E8%AE%AE%E9%87%8C%EF%BC%8C%E5%BC%80%E5%A7%8B%E5%8A%A0%E4%B8%8A%E4%B8%80%E6%9D%A1%E2%80%9C%E5%92%8CAI%E8%B0%83%E6%83%85%E4%B9%9F%E7%AE%97%E5%87%BA%E8%BD%A8%E2%80%9D",
+      "published": "Fri, 24 Jul 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "APPSO",
+        "appsolution",
+        "Chatfishing",
+        "ID"
+      ],
+      "summary": "作者 | 明日产品的 来源 | APPSO（ID：appsolution） 出轨，必须得有“第三个人”吗？ 传统婚礼誓词里，人们承诺相爱、忠诚，直到死亡将彼此分离。如今， 一些准夫妻还要额外确认：不背着伴侣和 ChatGPT 调情，不给虚拟恋人充值，也不与 AI 建立持续的浪漫或性关系。 十年前，婚姻的介入者通常是另一个人。大模型时代，破坏关系的也可能是一串代码、一个每月续费的订阅服务，或者一个永远秒回、永远愿意倾听的 AI 伴侣。 据 Business Insider 报道，欧美已有准夫妻要求在婚前协议中加入“禁…",
+      "key_points": [
+        "越来越多夫妻开始把婚前协议当作一份合伙规则，提前写明彼此的预期、边界和违约后果",
+        "创始人 Julia Rodgers 发现，越来越多客户开始要求把 AI 聊天机器人、虚拟伴侣和虚拟化身列入限制范围",
+        "纽约家庭律师 Lisa Zeiderman 已接触到越来越多类似抱怨：配偶每天投入大量时间陪伴 AI，对着屏幕聊天，却很少再关注身边的伴侣和孩子"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "弗里茨·朗在这个阶段真的不行了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BC%97%E9%87%8C%E8%8C%A8%C2%B7%E6%9C%97%E5%9C%A8%E8%BF%99%E4%B8%AA%E9%98%B6%E6%AE%B5%E7%9C%9F%E7%9A%84%E4%B8%8D%E8%A1%8C%E4%BA%86%EF%BC%9F",
+      "published": "Fri, 24 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Buck",
+        "C.M.",
+        "Christopher",
+        "Cross",
+        "Douglas",
+        "hongmomgs"
+      ],
+      "summary": "作者： Douglas Buck 译者： 覃天 校对：易二三 来源 ： Off Screen （2020年5-7月刊） 《绿窗艳影》和《血红街道》这两部影片拍摄于同一时期，并由相同的三位演员主演，二者在道德寓言式的故事轨迹上也有着惊人的相似：一名已婚中年男子（爱德华·罗宾逊饰）偶然遇见了一个看似能够实现自己最隐秘欲望的机会——也就是琼·贝内特所饰演的女性形象——却一步步不可避免地陷入由欺骗与敲诈构成的深渊之中。 《血红街道》 而这一切，很大程度上都由一个贪婪、冷酷的投机者推动。这个角色由性格演员丹·德亚饰演。他身材…",
+      "key_points": [
+        "朗在《血红街道》这部影片上疯狂超支、严重超期拍摄，在片场制造了近乎无法收拾的混乱。唯一没有受到他波及的，或许是琼·贝内特——因为当时两人正秘密发展着关系，而贝内…",
+        "正是在这种失控的创作状态中，朗反而释放出了自己最黑暗、最具个人特色的电影想象力。他将一个原本结构扎实的好莱坞黑色电影故事，转化为一部充满阴险人物的作品：这些人物…",
+        "《血红街道》 《绿窗艳影》或许是一部相当出色的作品——只可惜毁在了那个糟糕的结尾上；但真正称得上杰作的，还是《血红街道》。在这部影片里，那个如同怪物般强悍的弗里…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "港剧的婚恋观，确实是有些不一样",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B8%AF%E5%89%A7%E7%9A%84%E5%A9%9A%E6%81%8B%E8%A7%82%EF%BC%8C%E7%A1%AE%E5%AE%9E%E6%98%AF%E6%9C%89%E4%BA%9B%E4%B8%8D%E4%B8%80%E6%A0%B7",
+      "published": "Fri, 24 Jul 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TVB",
+        "CEO",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "serendipity"
+      ],
+      "summary": "文 刘起 《明报周刊》2018年六月某期封面标题是，如何嫁个有钱人。这样精明算计的婚恋观，大概只有香港人，才会大大方方写在杂志标题上、拍进黄金档电视剧中。《珠光宝气》中三妹康雅思精心算计加入豪门的戏码，活脱像是香港八卦小报的翻版。 《珠光宝气》（2008） 2008年的《珠光宝气》是TVB四十一周年台庆大戏，金牌监制戚其义在《金枝欲孽》后，以原班人马拍摄了这部长达82集的家族商战题材的女性剧集，也算TVB商战剧最后的辉煌了吧。 据说故事人物设置借鉴了宋氏三姐妹，以康家三姐妹康雅言（邵美琪）、康雅瞳（黎姿）、康雅思（…",
+      "key_points": [
+        "文 刘起 《明报周刊》2018年六月某期封面标题是，如何嫁个有钱人。这样精明算计的婚恋观，大概只有香港人，才会大大方方写在杂志标题上、拍进黄金档电视剧中。《珠光…",
+        "所以各自的情感戏也有不一样的调性",
+        "痞气十足，野心勃勃、能屈能伸。这种外冷内热的坏男人形象，对于女性观众颇有吸引力。之前经常出演职场剧的林保怡，对这类尖酸刻薄、内心深情的角色更是驾轻就熟。邵美琪饰…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "为什么一定要在夏天去新疆？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E5%AE%9A%E8%A6%81%E5%9C%A8%E5%A4%8F%E5%A4%A9%E5%8E%BB%E6%96%B0%E7%96%86%EF%BC%9F",
+      "published": "Fri, 24 Jul 2026 17:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "新疆一年四季都值得去， 但如果只能选一个季节， 夏天，是最好的答案。 因为只有这个时候， 风景最丰富， 体验最独特，味道也最好。 错过这个季节， 很多风景，就要再等一年。 新疆最美的风景 都在夏天！ 夏天，是新疆一年中景观最丰富的季节。 除了大家熟知的那拉提、喀拉峻、巴音布鲁克、夏塔 ，这里还有众多藏在雪山间的草原、森林和花海，也是 全国最舒服的避暑目的地之一。 7月的新疆伊犁哈萨克自治州 草原 雪山下的广袤“绿毯” 受海拔影响，即使盛夏，这里的高山草原依然凉爽宜人，是新疆最重要的避暑区域之一。 新疆的草原，不是单…",
+      "key_points": [
+        "夜晚 夜市才是真正的新疆 如果你的胃口足够好，白天吃完水果，晚上一定要去夜市。夏天的新疆日照时间长，晚上十点左右天色依然明亮，正是逛夜市的好时候",
+        "【参考资料】 [1] 中国国家地理 2013年10期 [2]《独库公路：纵贯天山脊梁的景观大道》中国国家地理 2014年11期 [3]《伊昭公路 它是穿越乌孙山…",
+        "新疆最美的风景 都在夏天"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "梦幻滤镜",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%A2%A6%E5%B9%BB%E6%BB%A4%E9%95%9C",
+      "published": "Fri, 24 Jul 2026 17:22:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今天北京雾气蒙蒙，云团上的光线就非常柔和。有一种梦幻感，像是电影《天使爱美丽》的场景。当然，这张照片还不是那么像，一会儿我在留言区放出滤镜版，那就完全不一样了。周末愉快！ 文章原文",
+      "key_points": [
+        "云团上的光线就非常柔和。有一种梦幻感，像是电影《天使爱美丽》的场景。当然，这张照片还不是那么像，一会儿我在留言区放出滤镜版，那就完全不一样了。周末愉快"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "专访田刚院士：从王虹、邓煜获菲尔兹奖，看中国数学人才成长的二十年",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%93%E8%AE%BF%E7%94%B0%E5%88%9A%E9%99%A2%E5%A3%AB%EF%BC%9A%E4%BB%8E%E7%8E%8B%E8%99%B9%E3%80%81%E9%82%93%E7%85%9C%E8%8E%B7%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%EF%BC%8C%E7%9C%8B%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%A6%E4%BA%BA%E6%89%8D%E6%88%90%E9%95%BF%E7%9A%84%E4%BA%8C%E5%8D%81%E5%B9%B4",
+      "published": "Fri, 24 Jul 2026 10:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Kervaire",
+        "MIT",
+        "Bochner-Riesz",
+        "Bourgain",
+        "Elias"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2026国际数学家大会，田刚与北大数院校友王虹、邓煜 撰文｜张天祁 编辑｜陈晓雪 去年北大邀请王虹、邓煜两位老师回校做了一系列报告。当时他们的成果还处在同行进一步理解和检验的过程中，大家当时对这两项工作的评价和判断是什么样的 这篇文章一出来，我们就知道她肯定是热门人选。北大现在是中国的数学重镇，这些年跟外界的交流也越来越多，加上王虹又是我们的校友，所以希望她回来讲讲这方面的工作。一方面是给我们一个学习机会，另一方面，通过她讲解、回答提问、解释细节，也更容…",
+      "key_points": [
+        "中国科学院院士、北京大学数学科学学院教授、北京国际数学研究中心主任田刚曾在 接受《知识分子》专访 时表示，北大数学人、中国数学家获得菲尔兹奖只是时间问题。202…",
+        "2026年国际数学家大会上，王虹、邓煜两位北京大学数学科学学院 （以下简称“北大数院”） 2007级校友获得菲尔兹奖。这是中国籍数学家首次获得这一数学界最高荣誉…",
+        "2026年国际数学家大会上，王虹、邓煜两位北京大学数学科学学院（以下简称为“北大数院”）2007级校友获得菲尔兹奖。这是中国籍数学家首次获得这一数学界最高荣誉，…"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "对抗系统的桌游",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/07/deckers.html",
+      "published": "2026-07-24T14:05:05Z",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "solo",
+        "Legacy",
+        "Aeon",
+        "alpha",
+        "Alpha",
+        "Astro"
+      ],
+      "summary": "最近比较难找到人一起开桌游，所以我玩了不少人对抗系统规则的游戏。 桌游中人和人对抗的比较常见，设计一套规则、让玩家在这套规则下博弈；但需要找到（足够水平的）人一起玩。虽然很多桌游也会设计 solo 模式，但大多是设计一个自动机来模拟对手。这会损失相当的博弈性，要么变成了可预测的系统行为，要么沦为半随机事件。而游戏规则的原始设计中通常都会有相当部分依赖人之间的博弈才有趣。例如，我最喜欢的桌游《银河竞逐》在第一个扩展包中就加入了自动机，允许 solo ，但我觉得远没有和人玩有趣。 也有设计得不错的自动机。例如之前介绍过…",
+      "key_points": [
+        "如果一开始就围绕玩家对抗系统规则去设计，去掉人和人之间的博弈，那么游戏会有不太一样的体验。关于这种 PvE 游戏，去年我在整理卡牌构筑类桌游规则时提过不少：Le…",
+        "设计一套规则、让玩家在这套规则下博弈；但需要找到（足够水平的）人一起玩。虽然很多桌游也会设计 solo 模式，但大多是设计一个自动机来模拟对手。这会损失相当的博…",
+        "所以我玩了不少人对抗系统规则的游戏"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "怎样才可以成为一个杰出的旅行家？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791412",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "km",
+        "AI"
+      ],
+      "summary": "于朝阳， 因厌蠢，故好怼屏删。出版书籍有《长安四千年》《秦亡汉兴》等 查看知乎原文 如无意外，9 月就会诞生一个当代最伟大的旅行家标杆。 在地球最恶劣环境中极限生存的能力。为旅行不惜献祭整个人生的决心。在各种阻碍下百折不挠，宁向前而死，不后退求生的意志...有了这些，基本就达到了张骞、玄奘那样的杰出旅行家级别了... 今年 9 月，有一位英国徒步旅行家，即将完成 28 年 5.8 万公里的“歌利亚远征”环球徒步旅行，从南美洲最南端的智利出发，一直行走到自己的家乡英国。这也将是他与家人告别近 30 年来，第一次回家.…",
+      "key_points": [
+        "有约一半旅程、13 年时间，因签证、资金、疫情、禁令原地停滞，剩余年份为有效徒步周期。从古至今，穿越万国的政治阻力都极大。即使是科技发达，文化昌明的现代。但令人…",
+        "在地球最恶劣环境中极限生存的能力。为旅行不惜献祭整个人生的决心。在各种阻碍下百折不挠，宁向前而死，不后退求生的意志...有了这些，基本就达到了张骞、玄奘那样的杰…",
+        "因厌蠢，故好怼屏删。出版书籍有《长安四千年》《秦亡汉兴》等 如无意外，9 月就会诞生一个当代最伟大的旅行家标杆"
+      ]
+    }
+  ]
+}
