@@ -1,0 +1,667 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T01:00:11.376233+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 83,
+    "fresh_candidates": 59,
+    "backfill_candidates": 24,
+    "items_published": 20,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-07-31",
+      "fetched_at": "2026-07-31T01:00:06.085659+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3804.69,
+          "change": -23.78,
+          "change_pct": -0.62,
+          "volume": 592298923.0,
+          "amount": 110647727.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4094.76,
+          "change": -8.659999999999854,
+          "change_pct": -0.21,
+          "prev_close": 4103.42,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-07-31 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 888.8973755365153,
+          "change": -1.879927339366759,
+          "change_pct": -0.21104347105582932,
+          "prev_close": 890.777302875882,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-07-31 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-07-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "Claude OPUS 5 max：泡泡玛特研究——客观分析潮玩行业的可持续性（Stude...",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4706428215/402760287",
+      "published": "Thu, 30 Jul 2026 09:52:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "Labubu",
+        "Funko",
+        "CEO",
+        "COO",
+        "Hello"
+      ],
+      "summary": "$泡泡玛特(09992)$ 前言： 因为段大佬已经重仓买入泡泡玛特，虽然我承认这个行业确实不像在我能力圈范围，但群里天天讨论，架不住好奇心，还是想认真看看这家公司，初步看，王宁、公司现有的壁垒、企业文化、公司运营能力我都没有什么疑问，最大的疑问点在于 “行业需求” ——这是一个可持续的行业吗？或者说在可持续的情况下，市场会越来越大吗？情绪会被迁移吗？ 我向Claude OPUS 5 max提问：我在研究泡泡玛特这家公司，但对未来十年潮玩的发展不会特别有信心，特别是看到很多公司在运营IP的时候快速兴旺，也存在快速衰退…",
+      "key_points": [
+        "我向Claude OPUS 5 max提问：我在研究泡泡玛特这家公司，但对未来十年潮玩的发展不会特别有信心，特别是看到很多公司在运营IP的时候快速兴旺，也存在快…",
+        "乐观情景（约20%概率） 成立的前提是三个变量同时为正。品类被证实结构性，中国潮玩零售额从千亿走向2036年的2500亿—3000亿区间，全球收藏品市场维持8%…",
+        "前言： 因为段大佬已经重仓买入泡泡玛特，虽然我承认这个行业确实不像在我能力圈范围，但群里天天讨论，架不住好奇心，还是想认真看看这家公司，初步看，王宁、公司现有的…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想324 分歧、混沌与巨头们的囚徒困境",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/402772439",
+      "published": "Thu, 30 Jul 2026 09:52:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Capex",
+        "capex",
+        "http",
+        "Lumentum",
+        "Meta"
+      ],
+      "summary": "昨晚美股三大指数全部下跌。纳斯达克和标普500盘中一度翻红，但在美联储发布会进行过程中跳水。以费城半导体指数为代表的一众硬件股继续调整：闪迪由红盘一路跌至-7%，美光跌超10%，英特尔、Lumentum等跌幅也超过5%，且大多数个股的下跌都集中在尾盘。 那么，美联储会议究竟透露了哪些信息？ 利率方面按兵不动，仍维持在3.5%至3.75%的区间。自2025年12月最后一次降息以来，这已是第五次维持不变。目前看公布之后，黄金上涨、美债收益率也同步走高。但本次会议有四分之一的委员投下反对票，而上次会议全体赞成维持利率，显…",
+      "key_points": [
+        "Meta的财报也加深了市场对“AI回报”的担忧：其二季度自由现金流勉强覆盖资本开支，三季度指引低于预期，同时仍将维持高强度的Capex。这种困境在之前的《谷歌们…",
+        "意味着资金成本上升；巨头们的现金流被Capex侵蚀，开始举债投入AI基础设施建设。“无脑投入”的阶段基本结束，此后每一份业绩报告都会被反复审视——算力支出、数据…",
+        "他的主张是不给预期、“少说话”。他反复强调“在乎通胀”，却迟迟没有实际动作。在发布会现场，面对“为什么今天不加息”的追问，他的回答大意是：大家对通胀问题过于急躁…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "紫金矿业的铜板块正步入十年的繁荣期",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5205526918/402765755",
+      "published": "Thu, 30 Jul 2026 09:52:32 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AISC",
+        "CAGR",
+        "Global",
+        "AI",
+        "amp",
+        "Critical"
+      ],
+      "summary": "紫金矿业通常被认为是黄金股。没办法，名字里面自带金，大家习以为常了。于是乎，它在二级市场里的股价波动，总是跟着金价走，与紫金黄金国际、赤峰黄金、招远黄金等同涨同跌，特别是今年中东伊朗战局打响后3-6月份的表现尤为明显。 然而，事实是这样吗？稍微探究一下就会发现，并非如此。从2022年起，紫金的铜板块利润便超过了黄金板块，毛利占公司总体的比重超过了大概10个百分点。这从公司管理层的思考习惯上也看得出来，在评估各类矿产的时候，很喜欢拿铜为尺度，比如1吨黄金约等于1万吨的铜，1万吨的碳酸锂相当于1.5万吨的铜，等等。 很…",
+      "key_points": [
+        "对于紫金矿业的投资者而言，研究铜的重要性要优先于金。笔者研究发现，紫金矿业的铜板块恰恰赶上了价格、品位、产量最最适合发挥其所长的“击球区”，2026-2035年…",
+        "时间来到2035年末，紫金矿业完成了既定的目标，全年产量达到了200万吨，铜精矿业务毛利率保持60%的高水准，彼时的铜价也恰好摸高到23771美元/吨。它的铜板…",
+        "铜价预计将有较为景气的十年，仅凭这个因素就可以秒杀众多大宗商品、工业制品，利多所有的铜矿企业。而铜品位持续的下降，将重新洗牌整个铜矿行业，低成本优势企业将脱颖而…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "观望是一种特权",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2103206506/402744432",
+      "published": "Thu, 30 Jul 2026 09:52:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ai",
+        "bug",
+        "etf",
+        "HKHSI",
+        "http",
+        "ipo"
+      ],
+      "summary": "今天，市场依然是宽幅震荡。。。下午随着韩国股市跌幅收敛，a股反弹，全天超过4200只股票上涨。。。但量能没放多少。。。所以反弹基础并不牢靠。。。 现在影响行情走势的原因太多。。。比如韩国股市行情，美股及美联储趋势，资金风格轮动趋势，以及中报预期，还有政策趋势啥的。。。。这么多变数，短线根本不好猜。。。所以我基本不动的 我作为散户，和机构不同。。。钱的来源不同，他们玩别人的，我玩自己的。。。他们机会不好也不得不交易，因为做的就是波段，追的就是成长，玩的就是短线，靠挣佣金费为生，看重规模的。。。我机会不好不出手，为自己…",
+      "key_points": [
+        "对于机构而言，是一种特权 。。。。没理解到自己的优势，随意上来就玩命干的，往往结果不好",
+        "之所以都抱团ai硬件产业链。。。是因为整体宏观承压，消费啥的明显承压。。。都不亮，就这么一盏灯，孤零零的挺晃人。。。所以得“万般宠爱”啊。。。因此这种独宠其实也…",
+        "但同时也会刻意的和它保持“距离感”。。。这是一种拧巴的感觉，但又蛮真实的。。。ai那玩意，写这种矛盾的东西，挺费劲。。。。那种鲜活感，不是token的堆砌能整出…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "白酒行业当下的销售方式是怎么样的？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3840065805/402728014",
+      "published": "Thu, 30 Jul 2026 09:52:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "我之前分享过不少茅台的负面内容，现在回头来看，其实完全没有必要。 首先，过度谈论企业负面，很容易招来争议和反感。即便部分负面信息属实，绝大多数人在情感上也难以接受，得不偿失。 其次，纠结于负面信息，对自身投资没有任何实质帮助。往后我会减少这类内容，专注分享我重点关注的优质公司，聚焦行业正向发展与核心变化。 行业外的大多数人，其实并不了解白酒行业内部的真实变革。今天我就简单聊聊，这些年白酒行业销售模式发生的几轮关键迭代与变化。 白酒最早的主流销售模式是酒店盘中盘模式。后续市场上烟酒店大批量涌现，洋河率先创新，推出深度…",
+      "key_points": [
+        "其实并不了解白酒行业内部的真实变革。今天我就简单聊聊，这些年白酒行业销售模式发生的几轮关键迭代与变化",
+        "白酒最早的主流销售模式是酒店盘中盘模式。后续市场上烟酒店大批量涌现，洋河率先创新，推出深度营销模式，凭借这套模式快速崛起，火爆市场",
+        "最后做一个整体总结： 古井贡酒、国窖领衔的厂方自营模式，是未来白酒行业渠道变革的核心大趋势"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "黄仁勋力挺K3开源，但模型都一样了，AI产品的差异化从哪来？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6436672.html",
+      "published": "Thu, 30 Jul 2026 09:52:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CUDA",
+        "K3",
+        "Anthropic",
+        "model",
+        "API"
+      ],
+      "summary": "黄仁勋首条推文联名76家公司，月之暗面开源2.8万亿参数模型，AI产品经理的焦虑被彻底点燃：模型都一样了，产品凭什么不一样？本文从开源之争的底层逻辑切入，拆解AI产品经理真正的差异化来源，不是选模型、调提示词或堆功能，而是定义什么叫做对的能力。 7 月 24 号，黄仁勋发了他人生中第一条推文。 开头第一句就是 For my first post。内容是一封联名信，标题叫《Open Weights and American AI Leadership》。这条推文现在有 6361 万次浏览。 三天后，月之暗面把 Kim…",
+      "key_points": [
+        "月之暗面开源2.8万亿参数模型，AI产品经理的焦虑被彻底点燃：模型都一样了，产品凭什么不一样？本文从开源之争的底层逻辑切入，拆解AI产品经理真正的差异化来源，不…",
+        "差异化从哪来 上面那段国际新闻，对我们来说就一个： 未来两年，你能拿到的模型，和你竞争对手能拿到的模型，会越来越接近同一批",
+        "那两天我收到一条消息： K3模型都开源了，能力还比肩Opus4.8，那 AI 产品经理到底做什么"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "WorkBuddy的这个新功能，我觉得就是Agent时代的Office。",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6437565.html",
+      "published": "Thu, 30 Jul 2026 08:43:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "WorkBuddy",
+        "Agent",
+        "AI",
+        "AE",
+        "Excel",
+        "excel"
+      ],
+      "summary": "今天，WorkBuddy发布了一个新版本。 深度打通了腾讯文档，而且这个打通，是真的那种超级深度的打通，完成了1+1&gt;2的转型，真的有点让我看到了第三代办公产品的感觉了。 这次补上了两个对大家办公来说，很重要的能力。 1. WorkBuddy中生成的文件，终于可以在侧边栏中直接操控修改了。 2. 直接把腾讯文档搬进了WorkBuddy，完成了同一份文档，在WorkBuddy中支持我与AI的协同以及我与同事的协同，甚至，可以让我的AI与同事的AI进行协同。 以前大家用Agent办公时，几乎都是个人孤岛、无法在线…",
+      "key_points": [
+        "这个就是我觉得Agent时代目前最合适的办公协同方式",
+        "大家其实已经觉得很便捷了，但是如果只有这个东西的话，我觉得其实也没啥特别可讨论的，因为确实就属于常规功能",
+        "其实明眼的小伙伴肯定瞬间就能发现，这不就是一个不带协同功能的本地腾讯文档吗…… 其实就是这样的…… 这就是大厂的优势啊，生态的打通，直接是过于方便和便捷了"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "有图也无真相的时代，终于来了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6435257.html",
+      "published": "Thu, 30 Jul 2026 08:24:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPT-Image-2",
+        "Claude",
+        "Cursor",
+        "SpaceX",
+        "AI",
+        "Tim"
+      ],
+      "summary": "GPT-Image-2 让伪造截图的门槛彻底消失，一张描述即可生成以假乱真的推文、新闻稿甚至公司公告。本文回顾造假历史，对比新旧技术差异，指出当字体、布局都能被模型精准还原时，我们只能靠核实文字和URL来辨别真伪。工具越强，滥用越难防，唯有严惩使用者才能震慑。 以下说的每一张图，都是 GPT-Image-2 生成的……？ ChatGPT Images 2.0 发布后最火的用法之一，是伪造截图。 X 的推文、微博的动态、朋友圈、聊天界面、公司新闻稿页面——只要一句话描述你想要什么，它就给你生成一张。一张粗看毫无破绽，…",
+      "key_points": [
+        "有引文、点评和注释，读起来好像公司新闻稿一样详尽；在交易开始前半小时流传，留给人核实的时间很少，但足以让投资者下单。始作俑者因认罪逃脱了最高 20 年的刑期，被…",
+        "像 Claude Mythos Preview 那种“过于先进不宜公开”的做法，社长觉得，一来没必要，二来防不住。它是能自主发现并利用数千个 0day 漏洞，但…",
+        "但不同于此前破绽百出的假新闻截图，一个工具如果被人发现是可以去生成以假乱真的假图的时候，就像已经发生的那样，这是可以刺激更多人主动去造假玩玩的"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "推荐系统中，LLM该做哪一步（上）：为什么不能替代任务型模型",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6437194.html",
+      "published": "Thu, 30 Jul 2026 07:36:01 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LLM",
+        "AI",
+        "ARPU",
+        "gt",
+        "HDBSCAN",
+        "LightGBM"
+      ],
+      "summary": "当AI项目引入大语言模型后，很多人误以为它能替代传统的任务型预测模型。本文从技术能力矩阵出发，深入剖析了LLM在概率估计、私有数据学习、稳定性、大规模计算及推荐价值判断上的五大局限，明确指出在电商、金融等数据密集型场景中，两类模型应各司其职、协同共生。 很多AI项目一引入大语言模型，就容易产生一个冲动：既然LLM能理解、推理和生成，是不是原来的聚类、倾向预测和推荐模型都可以被替代？ 在电商、金融、运营商、物流等数据密集型场景中，答案是否定的。要说清原因，必须先区分两类模型究竟在解决什么问题。 一、概念界定：讨论的究…",
+      "key_points": [
+        "下一篇继续讨论另一半问题：既然LLM不负责替代任务型模型，它在企业AI系统里最有价值的位置是什么？两类模型、知识图谱与规则系统又该怎样组成完整闭环",
+        "三、LLM无法替代任务型模型的五个技术原因 3.1 推理输出不等同于概率估计 给定以下用户特征输入LLM： 用户28岁，ARPU 129元，近三月流量使用率超过…",
+        "很多人误以为它能替代传统的任务型预测模型。本文从技术能力矩阵出发，深入剖析了LLM在概率估计、私有数据学习、稳定性、大规模计算及推荐价值判断上的五大局限，明确指…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "中国具身智能融资潮：资本到底在买什么？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6435394.html",
+      "published": "Thu, 30 Jul 2026 06:55:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Linkerbot",
+        "Galaxea",
+        "B+",
+        "IPO",
+        "App"
+      ],
+      "summary": "2026年上半年，中国机器人公司融资56亿美元，资本正密集押注具身智能。这轮热潮背后，投资人买的不是机器人本体，而是硬件量产能力、关键零部件、真实场景数据和模型落地的工程能力。本文拆解融资逻辑，揭示产业从“会动”到“能干活”的转型。 今年上半年，中国机器人公司融资明显变密集了。 看了不少融资、IPO、产业政策和真实落地案例之后，很明显的感受就是这轮融资潮背后，资本买的不是单纯的机器人本体，而是四件东西： 硬件量产能力、关键零部件、真实场景数据，以及把模型接进物理世界的工程能力。 01 钱确实在流向机器人公司 先看一…",
+      "key_points": [
+        "这或许就是这一波中国具身智能融资潮背后的逻辑",
+        "中国机器人公司融资56亿美元，资本正密集押注具身智能。这轮热潮背后，投资人买的不是机器人本体，而是硬件量产能力、关键零部件、真实场景数据和模型落地的工程能力。本…",
+        "具身智能已经不是单个明星公司的故事，而是一个产业集体进入融资窗口"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "大象和海象是同源吗？它们的名字相似是因为长相吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791542",
+      "published": "Wed, 29 Jul 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "c.",
+        "i.",
+        "m.",
+        "Anterior",
+        "Canine",
+        "cm"
+      ],
+      "summary": "祥昊， 相忘于江湖。 查看知乎原文 这是一只海象， 长的胡子拉碴，有一对大牙。 这是一只大象， 长的皮糙肉厚，也有一对大牙。 那么问题来了，这俩都叫象，这俩都有大牙，那是亲戚不？ 咱先别忙下定论， 先观察下他们的头骨。 大象我们可以很明显的看到， 两根巨大的象牙是来自于头骨前方一对凸出的骨头。 这是前颌骨，哺乳动物的上门牙就是从这里长出的。 而这个位置正对应着第二门齿的解剖位置，所以我们就可以确定， 大象的象牙是由第二门齿特化出来的。 哦，大象原来是个龅牙仔，说话漏风，牙还外八。 而成年海象的牙齿更是奇怪， [1]…",
+      "key_points": [
+        "但是海象和大象的牙根本不是一类牙， 这俩肯定不是同源，起码牙不是",
+        "海象上颌骨残留的门齿 巨大的海象牙配合敏锐的胡须， 可以像镐头一样在海底泥沙里挖掘贝壳， 再加上海象异常灵活的舌头，以及特化开罐器的牙齿互相配合",
+        "幼年海象竟然一颗都没落下。我们不光可以清晰的观察到前排的六对门牙， 还可以清楚看到单飞出去的是第四颗犬齿"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "光伏板挡住了阳光，下面的草为啥长得更茂盛了？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791551",
+      "published": "Wed, 29 Jul 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "中国能建， 赋能美丽中国，共建美好世界。 查看知乎原文 因为光伏板在发电的同时，给地面创造了一个超级适合小草生长的“专属小温室”。 青豫直流二期外送项目海南州塔拉滩 90 万千瓦光伏建设项目 所在的塔拉滩曾经以戈壁沙丘为主，历来有“风吹石头跑”的说法，草能长到两寸高都十分稀奇，是黄河上游和三江源地区风沙危害最严重的地带之一。如今，光伏板架设完成后，生态环境直接迎来翻天覆地的改变： 水分蒸发量减少 30%，风速降低 50%，为植被生长创造了前所未有的有利条件。原本寸草不生的荒漠渐渐被绿色覆盖，植被覆盖度提升至 80%…",
+      "key_points": [
+        "光伏板是挡住了伤人的强光、高温、大风，留住了适宜的光照、充足的水分、安稳的生长环境 ，从根源改良局地微气候，助力植被繁茂生长。中国能建从国内乌兰布和沙漠治沙、乌…",
+        "解决干旱缺水最大难题 沙漠、戈壁、草原的裸地环境极其恶劣，夏天地表温度能飙到 60℃以上，好不容易下点雨，几小时就被彻底晒干，草籽根本无法萌发成活。而光伏板能挡…",
+        "光合作用效率更高 植物生长并非阳光越烈越好，盛夏强光直射极易灼伤草木叶片、抑制光合作用，反而不利于生长。光伏板过滤遮挡强光后，穿透的光线全部变为均匀柔和的漫射光…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "电线上为什么要挂一串“精灵球”？这东西关键时刻可以救命！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%94%B5%E7%BA%BF%E4%B8%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%8C%82%E4%B8%80%E4%B8%B2%E2%80%9C%E7%B2%BE%E7%81%B5%E7%90%83%E2%80%9D%EF%BC%9F%E8%BF%99%E4%B8%9C%E8%A5%BF%E5%85%B3%E9%94%AE%E6%97%B6%E5%88%BB%E5%8F%AF%E4%BB%A5%E6%95%91%E5%91%BD%EF%BC%81",
+      "published": "Thu, 30 Jul 2026 12:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "of",
+        "doi",
+        "in",
+        "Mart",
+        "PMID"
+      ],
+      "summary": "你见过挂在电线上的球吗？ 这种装置在城市居民区很少见，但它们时常出现在高速路边、机场周围，以及输电线横跨山谷、河流的地方 。这些颜色鲜艳的球体看起来像是某种保护壳，仿佛守护着什么神秘的高科技设备。 谁把精灵球挂电线上了？| 图虫创意 然而，这些球里面其实什么东西都没装，色彩鲜艳的外壳才是它的本体。 这些神秘球体对输送电力没有任何作用，但它们是至关重要的安全设施，关键时刻能拯救许多生命 。 这些球能拯救生命，而且不只是人类的生命。| 黑jio妹妹 飞行安全保障 这种球名叫航空警示球（aerial marker bal…",
+      "key_points": [
+        "谁把精灵球挂电线上了？| 图虫创意 然而，这些球里面其实什么东西都没装，色彩鲜艳的外壳才是它的本体",
+        "但它们是至关重要的安全设施，关键时刻能拯救许多生命",
+        "但这种警示球其实尺寸相当大，它通常直径在0.6-1米之间。| Lisa Meiman/Western Area Power/Flickr 这些球最常见的颜色是橙…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "同事问我是不是偷偷洗了头......为啥油头塌顶瞬间支棱了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%90%8C%E4%BA%8B%E9%97%AE%E6%88%91%E6%98%AF%E4%B8%8D%E6%98%AF%E5%81%B7%E5%81%B7%E6%B4%97%E4%BA%86%E5%A4%B4......%E4%B8%BA%E5%95%A5%E6%B2%B9%E5%A4%B4%E5%A1%8C%E9%A1%B6%E7%9E%AC%E9%97%B4%E6%94%AF%E6%A3%B1%E4%BA%86%EF%BC%9F",
+      "published": "Thu, 30 Jul 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml",
+        "JURO",
+        "Givaudan",
+        "Onvie",
+        "STEP",
+        "AI"
+      ],
+      "summary": "是谁跟我一样， 一到夏天就被油头硬控了！ 早上着急忙慌洗头吹头，结果出门不到两小时， 发根服服帖帖趴在头皮上，刘海一绺一绺的 ，整个人看起来像三天没洗头。 下午再瞥一眼头发，已经 油得反光，脸被塌发衬得又大又圆 ......可怕的是，还得顶着这个油扁头见客户、开会，真的很想原地消失！ 夏天对我们油头星人真的太不友好了！ 高温一出汗，油脂加速分泌，头发越油越塌，越塌越显脸大。 👆AI制作：油头不仅显脸大，还显得人很没精气神、不精致 说句实在话，谁不想时时刻刻头发蓬松清爽地见人？但有时候就是很难实现...... ❌ 早…",
+      "key_points": [
+        "它都能救： ✅ 早上赖床来不及洗头 → 一抹几秒出门，蓬松得像刚吹完头； ✅ 下午临时开会、见客户 → 发根一揉就支棱，油头秒变高颅顶； ✅ 出差旅行连轴转 →…",
+        "👆果壳实拍 ➡️ 运维男同事@小Q： 以前我觉得“干发产品”都是智商税，用了这款干发啫喱感觉真的能让男生方便省事、提高精致度！用完不止是看起来不油而已，是真的能…",
+        "在评论区留下赞美，还成了复购铁粉 👍 无论 油头星人、敏头星人、懒人党、出差党、健身党、染烫党 ，只要有过“来不及洗头但头又油了”的崩溃时刻，这支 栖岚干发啫喱…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "真心建议：三伏天换个洗头方式，洗一次爽几天",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%9F%E5%BF%83%E5%BB%BA%E8%AE%AE%EF%BC%9A%E4%B8%89%E4%BC%8F%E5%A4%A9%E6%8D%A2%E4%B8%AA%E6%B4%97%E5%A4%B4%E6%96%B9%E5%BC%8F%EF%BC%8C%E6%B4%97%E4%B8%80%E6%AC%A1%E7%88%BD%E5%87%A0%E5%A4%A9",
+      "published": "Thu, 30 Jul 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ml",
+        "dc_ps",
+        "detail",
+        "End",
+        "ph",
+        "wscgoods"
+      ],
+      "summary": "前阵子有朋友，一定要介绍一位 有技术、有担当的“三八红旗手”给我认识。 媒体播过这位三八红旗手 廖石秀 的纪录片 1。 她带领村民种植了6700 亩油茶林，还研发了一款“ 山茶籽洗发水” ， 还加入了小黄姜颗粒，特别适合 三伏天，高温湿热闷出来 的 头油、头屑、扁塌…… 植萃原料都是自己的， 配方还有发明专利技术 ， 效 果特别好，但她不会营销，所以知道的人不多 。 我一开始的反应是不相信的。 媒体播出 廖石秀的 纪录片 👇 △图源 品牌提供证书 洗发水这东西，还能和 “ 三八红旗手”“ 助农高科技”挂上勾？ 来，…",
+      "key_points": [
+        "颅顶直接蓬起来👇 实拍： 测试者分享，仅供参考，实际效果因人而异 ✅ 长效控油，三伏天出汗多，同事实测3天不洗头，竟然也不油不塌 👇 实拍： 测试者分享，仅供参…",
+        "非常建议大家在三伏天试试“ 山茶麸 + 小黄姜 ” 天然洗护 的神奇力量",
+        "推了个遍，直接告诉他们：“ 头屑、头油、头痒……一定要试试。” 实拍：测试者分享，仅供参考，实际效果因人而异 如果你一到三伏天就容易出汗、出油， 给它一个机会，…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有多少人忍到现在不吃桃，只为等这一颗湖景？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E5%A4%9A%E5%B0%91%E4%BA%BA%E5%BF%8D%E5%88%B0%E7%8E%B0%E5%9C%A8%E4%B8%8D%E5%90%83%E6%A1%83%EF%BC%8C%E5%8F%AA%E4%B8%BA%E7%AD%89%E8%BF%99%E4%B8%80%E9%A2%97%E6%B9%96%E6%99%AF%EF%BC%9F",
+      "published": "Thu, 30 Jul 2026 10:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BOSS",
+        "dc_ps",
+        "feature",
+        "KJNSCW2aLZ",
+        "Queen",
+        "Super"
+      ],
+      "summary": "湖景 ，每年水蜜桃的守底BOSS。 作为中晚熟品种，“湖景”的生长周期长，与早熟品种相比更加香甜。 所长今年对比了不同产地的多家水蜜桃后，选择了 龙泉驿的“湖景” 来为大家本年度蜜桃季添上浓墨重彩的一笔，希望这只 一口爆汁的水蜜桃 ，能熨平夏日为大家带来的焦躁。 龙泉驿水蜜桃（晚湖景）4.5-4.8斤装 粉嫩软滑 水润爆汁 软桃党的福音 日常价：￥118 起 优惠价： ￥108 起！！ 👇🏻 戳下图购买👇🏻 并且还推出重磅福利: 7月30日10:00-7月31日10:00 ，24小时限时升级发货， 购买108元精品…",
+      "key_points": [
+        "柔软多汁” ，而“晚湖景”正符合这一描述，甩开腮帮子猛啃一口， 浓厚香甜的汁水瞬间充满口腔 ，属于夏天的幸福也会随着这汪汁水，从手心淌到手腕、小臂上",
+        "/ 水蜜桃是一种喜欢玩“接力赛”的水果 ，从早期的“春蜜”，到前不久的“白凤”，再到如今的“湖景”，大家互相接力，跑完整个蜜桃季",
+        "龙泉驿水蜜桃（晚湖景） 4.5-4.8斤 装 粉嫩软滑 水润爆汁 软桃党的福音 日常价：￥118 起 优惠价： ￥108 起"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 406 期）：道可，道非，常道",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/07/weekly-issue-406.html",
+      "published": "2026-07-31T00:09:18Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 406 期）：道可，道非，常道"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "隐于成都闹市，这片莲池太牛了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%9A%90%E4%BA%8E%E6%88%90%E9%83%BD%E9%97%B9%E5%B8%82%EF%BC%8C%E8%BF%99%E7%89%87%E8%8E%B2%E6%B1%A0%E5%A4%AA%E7%89%9B%E4%BA%86",
+      "published": "Wed, 29 Jul 2026 17:35:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "是非成败付东流，一池白莲守春秋。四川成都武侯区，武侯祠端坐长街中心。闹市之中，一池荷香浮碧，隔开喧嚣烟火，独守清寂。 武侯祠约建于南北朝时期，初为诸葛亮专祠，毗邻刘备陵寝惠陵。明洪武二十四年（1391年），在蜀献王朱椿“君臣宜一体”的主张下，祠、陵、庙合而为一，终成君臣合祀格局。如今的武侯祠涵盖惠陵、汉昭烈庙、三义庙等区域，是全国唯一纪念蜀汉英雄的君臣合祀祠庙，亦为影响深远的三国遗迹博物馆。 岁月如流，三国烽烟早已散尽，风流人物尽归史册。唯有一池素净白莲，年年盛放于人间烟火之中，温柔守望着一方不朽传奇。你可曾在武侯…",
+      "key_points": [
+        "一池白莲守春秋。四川成都武侯区，武侯祠端坐长街中心。闹市之中，一池荷香浮碧，隔开喧嚣烟火，独守清寂"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我已AI倦怠",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E5%B7%B2AI%E5%80%A6%E6%80%A0",
+      "published": "Thu, 30 Jul 2026 11:34:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "in",
+        "Midjourney",
+        "Sam",
+        "an",
+        "Anthropic"
+      ],
+      "summary": "说实话，就算新闻今天说真正的人工智能已经出现，在人类的历史上，第一次由人创造出新的硅基智慧生命，人类从造物上升为造物主---我也只会拉起被子，掩护身子不要让空调凉风吹到，然后翻身接着去睡。 因为我实在是感觉到倦了。AI 本身没有什么问题，网上讨论 AI 的方式有问题，甚至是那种讨论时的情绪有大问题。每天都是「惊爆」，每天都是「炸裂」，每天都是「翻天覆地」，每天都是「不知道就完了」，每天都要「开始了新的一天」，有些时候还不止一次，感觉这一天可能是个天秤座，对于如何开始始终犹豫不决，于是开完又不断重开。 另外一方面，A…",
+      "key_points": [
+        "我现在的大脑对 AI 已经经过了兴奋期和平台期，处在非常稳定的倦怠期。我不想知道又有什么惊天大突破，也不想知道又有什么地裂大颠覆，因为和我没有多少关系。现在我对…",
+        "我就变得更加倦怠了。如果捡麦穗是一种必然，能捡麦穗未来都算是一种幸运，那我还是抓紧时间养护腰肌为好。目光不需要再盯着田地里慢慢饱满起来的麦穗，别看，那是人家的，…"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "汽车、建筑与电网，如何改变用电方式 ｜“科学四十人”观众招募",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%B1%BD%E8%BD%A6%E3%80%81%E5%BB%BA%E7%AD%91%E4%B8%8E%E7%94%B5%E7%BD%91%EF%BC%8C%E5%A6%82%E4%BD%95%E6%94%B9%E5%8F%98%E7%94%A8%E7%94%B5%E6%96%B9%E5%BC%8F+%EF%BD%9C%E2%80%9C%E7%A7%91%E5%AD%A6%E5%9B%9B%E5%8D%81%E4%BA%BA%E2%80%9D%E8%A7%82%E4%BC%97%E6%8B%9B%E5%8B%9F",
+      "published": "Thu, 30 Jul 2026 11:55:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Intellectual",
+        "Science"
+      ],
+      "summary": "知识分子 The Intellectual 2026年8月5日周三下午，北京中关村，“科学四十人” 邀请交通、建筑和电力系统的资深专家，共同探讨车、建筑与电网协同发展的潜力、现实难题与未来路径。活动开放观众席位，《知识分子》期待您的参与。 ● ● ● 空调持续运转，电动汽车集中充电，数据中心昼夜不停。盛夏之中，用电高峰不断攀升；随着交通、建筑加速电气化，以及数字经济持续发展，中国的电力需求还将进一步增长。 与此同时，风电和光伏在电力供应中的占比不断提高，其出力却会随天气和昼夜变化。面对持续增长的用电需求，未来的电力…",
+      "key_points": [
+        "北京中关村，“科学四十人”将举办“如何重塑中国的用电方式——交通、建筑与未来电网”闭门研讨活动，邀请交通、建筑和电力系统领域的资深专家，共同讨论车、建筑与电网协…",
+        "知识分子 The Intellectual 2026年8月5日周三下午，北京中关村，“科学四十人” 邀请交通、建筑和电力系统的资深专家，共同探讨车、建筑与电网协…",
+        "关于“科学四十人” “科学四十人”是智识学研社(北京市海淀区智识前沿科技促进中心，“知识分子”出品方)发起的高端科技交流公益项目。“科学四十人”致力于成为中国先…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-07-31",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "你给哪些牛人发过邮件？有哪些结果？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791420",
+      "published": "Fri, 24 Jul 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jogi",
+        "U21",
+        "you",
+        "am",
+        "best",
+        "bin"
+      ],
+      "summary": "孙萌， 研究恒星一生的天体物理学者，平时写码、推公式混口饭吃。 查看知乎原文 我给一位前世界杯冠军教练发了十几年邮件，而且他居然一直回。其实也没啥戏剧性的故事，大多数时候，就是每年 2 月 3 日附近给他发一封生日邮件，偶尔在人生比较重要的节点更新近况。我们只见过两次，他却一直会回。 先定义一下我眼里的牛人， 约阿希姆·勒夫（Joachim Loew），2014 年世界杯冠军教练。 且这座世界杯是在巴西拿到的。德国队也成为历史上第一支在南美洲赢得世界杯的欧洲球队。世界杯这种比赛，冠军当然谈何容易，但在南美大陆一路打…",
+      "key_points": [
+        "冠军不是教练一个人的成就。那一代德国队已有非常优秀的球员。但德国队的特点，似乎从来不只是依赖一两个超级巨星不断靠个人解决问题，他们强调把各有特点的优秀球员组成整…",
+        "德国足协已公开表示将与克洛普谈判接任事宜。严格说，截至我写下这些文字的时候，还没正式官宣？但克洛普已经表达了原则上的意愿。我开始看德国队的时候，渣叔刚进入顶级教…",
+        "在美国华盛顿特区。那次比在中国容易得多。至少以我个人当时的观察，美国社会对足球的狂热程度和中国球迷圈不太一样，所以行动难度下降了很多。那次我拿到了他的联系方式：…"
+      ]
+    }
+  ]
+}
