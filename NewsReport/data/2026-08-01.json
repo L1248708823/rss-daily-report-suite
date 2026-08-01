@@ -1,0 +1,552 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T01:00:10.765277+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 0,
+    "min_items_floor": 20,
+    "floor_added": 2,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 73,
+    "fresh_candidates": 51,
+    "backfill_candidates": 22,
+    "items_published": 17,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-01",
+      "fetched_at": "2026-08-01T01:00:05.454196+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3832.26,
+          "change": 27.57,
+          "change_pct": 0.72,
+          "volume": 597529427.0,
+          "amount": 118768155.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4046.42,
+          "change": -57.0,
+          "change_pct": -1.39,
+          "prev_close": 4103.42,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-01 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 878.4556853087272,
+          "change": -12.374388734386912,
+          "change_pct": -1.389085202099724,
+          "prev_close": 890.8300740431141,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-01 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "绝对价值是投资最坚实的抓手",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1433550277/403140762",
+      "published": "Fri, 31 Jul 2026 10:13:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "~~大湖2026年1到7月份投资总结 经历了波澜壮阔的6月~7月份，在老登和小登投资风格持续争论中，终于尘埃落定，最终决定投资走向的肯定就是绝对价值。 7月底个人累计收益创历史新高，由于7月上旬有40%的资金出了账户，所以说统计非常困难，出账户的资金重新做了一个绝对分散组合，主要还是为了分散风险。 个人证券系统显示，1到7月份收益22.6%，再加上出账户40%的资金收益，今年收益应该有26%，自2022年四季度投资体糸慢慢成熟以来，3年7月取得约4.6倍收益（注：3个账户汇总），回撤控制的不错，超越上证和恒生指数，…",
+      "key_points": [
+        "绝对价值是投资最重要的抓手",
+        "~~大湖2026年1到7月份投资总结 经历了波澜壮阔的6月~7月份，在老登和小登投资风格持续争论中，终于尘埃落定，最终决定投资走向的肯定就是绝对价值",
+        "涨高了会跌，跌够了也会反弹，但最终决定的股价运行规律，还是公司的价值，所以说绝对价值出现的时候，我们要敢于出击"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想325 AI叙事转向：从硬件狂欢到商业审慎",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/403018560",
+      "published": "Fri, 31 Jul 2026 10:13:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Meta",
+        "AMD",
+        "Azure",
+        "beta",
+        "http"
+      ],
+      "summary": "陆陆续续又有几家巨头出了财报，正好顺着梳理下近期AI叙事的变化。 昨夜美股大涨，硬件代表费城半导体指数涨了8个点，一众硬件个股更是拉出长阳，闪迪涨了26个点、美光18个点，Lumentum涨幅15%、迈威尔涨了12%，英特尔和AMD也都在10个点以上。但单从K线上看，很难定义成趋势的反转，更多还是看宽幅震荡中的反弹。 相较硬件共享行业beta，曾经的互联网巨头们的走势则相对分化。之前有聊到过《巨头们的囚徒困境》：不自研或者自研大模型稍弱，先砸给你看；自研了，还要看AI对业务的赋能逻辑是否通顺，是否软硬齐备、全栈一体…",
+      "key_points": [
+        "虽然之前“开源闭源之争”就存在，但Kimi K3的问世确实是一个关键的事件：当有模型能够以1/3甚至更低的成本，做到最顶尖模型80%甚至更高的认为完成度，那么顶…",
+        "硬件代表费城半导体指数涨了8个点，一众硬件个股更是拉出长阳，闪迪涨了26个点、美光18个点，Lumentum涨幅15%、迈威尔涨了12%，英特尔和AMD也都在1…",
+        "不是不看好AI的发展，而是现有的商业模式会被更谨慎地放到聚光灯下审视，市场不再单纯地为“未来可能的回报”买单，更愿意在每一份报表里仔细琢磨回报的效率。这对AI行…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "IO+ADC加速分化：为什么越来越多的ADC选择了AK112",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4643406706/403029206",
+      "published": "Fri, 31 Jul 2026 10:13:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ADC",
+        "IO",
+        "PD-1",
+        "VEGF",
+        "HER3",
+        "Trop2"
+      ],
+      "summary": "IO联合ADC已成为行业布局的重点方向，但在加速追赶的表象之下，分化也正在发生。 这种分化，主要来自IO端的差异。作为联合方案中决定疗效天花板和临床推进节奏的核心变量，IO药物的数据强度、安全性和市场进度，直接决定了后续一系列开发的走向。 全球顶流大厂在IO+ADC的布局上，普遍面临两个层面的不确定性。在IO端，多数在研的PD-1/VEGF双抗尚未完成关键III期验证，与依沃西之间的疗效差距仍是一个悬而未决的问题。在ADC端，市面上大多数产品仍属于治疗窗口窄、差异化有限的1.0版本，大厂既需要消化此前引进的ADC资…",
+      "key_points": [
+        "从单一药物的竞争转向生态与系统方案的竞争。未来的标准疗法形态，更可能以核心IO基座为轴心、由多方联合组装而成。依沃西当前已成为全球联合疗法被众多企业首选药物，这…",
+        "IO联合ADC已成为行业布局的重点方向，但在加速追赶的表象之下，分化也正在发生",
+        "这一选择是必要的。依沃西基于HARMONi-6研究的PFS和OS双阳性结果，已成为一线鳞状NSCLC的标准治疗。试验选择依沃西联合化疗作为对照组，正是对这一地位…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "i 茅台之于茅台就像Apple Store之于苹果",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7815672011/403073924",
+      "published": "Fri, 31 Jul 2026 10:13:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Apple",
+        "Store",
+        "DTC",
+        "vs",
+        "ml",
+        "Q1"
+      ],
+      "summary": "上篇文章 网页链接 {1639+1719 双价实施，茅台改写价格与渠道规则}梳理了茅台最新的产品价格体系与渠道变革，本篇将聚焦其频繁调价的底层支撑——i 茅台。 在我看来，i 茅台绝非简单的线上卖酒 APP，而是茅台商业模式的一次重大升级： 对标苹果用 Apple Store + 官网把定价权、数据权、服务权收归己有，i 茅台让更多普通消费者能够以平价买到保真的茅台酒的同时，让茅台第一次真正掌握了销售终端、用户数据与消费体验的主导权，进一步加深了护城河。 一、茅台过去的商业模式：品牌强，但消费者关系弱 茅台过去长期…",
+      "key_points": [
+        "i 茅台绝非简单的线上卖酒 APP，而是茅台商业模式的一次重大升级： 对标苹果用 Apple Store + 官网把定价权、数据权、服务权收归己有，i 茅台让更…",
+        "茅台把销售、体验、数据、服务收回自己手里的战略，从渠道动作升级为组织能力——这正是苹果当年把 Apple Store 从「开几家店」做成「全球直营体系」的同构逻…",
+        "六、i茅台 ≈ 苹果官方直营体系（Apple Store） i 茅台与苹果的官方直营体系，是同一种结构：品牌自建直营，直接面向用户提供服务"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "美国的库存可能没那么重要了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1170975436/403080434",
+      "published": "Fri, 31 Jul 2026 10:13:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SPR",
+        "EIA",
+        "http",
+        "SH601857",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "以前我会过于关注美国的原油库存，有时候会得出过于乐观的结论。 但是重新思考一下美国的库存，会发现，对于一个净出口国来说，库存可能真的没那么重要。做个更极端的假设，如果美国继续释放库存，直到战略库存真的降到技术最低点，好像也没啥问题，反正他们可以随时通过减少出口补进去。而且近期美国库存的降低，其实跟他们趁着成品油市场的暴利，拼命提高炼油厂利用率且加大出口有关。 而且美国的补库存压力远远没有我以前想的那么大。 这次SPR释放采用的是借出制。意思是拿了SPR的石油公司之后必须还的，而且还的时候还要带利息，意思是还的要比借…",
+      "key_points": [
+        "会发现，对于一个净出口国来说，库存可能真的没那么重要。做个更极端的假设，如果美国继续释放库存，直到战略库存真的降到技术最低点，好像也没啥问题，反正他们可以随时通…",
+        "美国全国商业原油和SPR库存的绝对水平，作为全球油价方向指标的重要性已经明显下降 战略库存可能对于净进口国来说才有更重要的意义。问题是这次中国的本土库存几乎没怎…",
+        "美国真的需要像7080年代那么多的战略库存缓冲吗？好像从来没有人看过沙特有多少原油战略库存。肯定是有顾问这么跟川普说了，意思就是“现在战略库存对美国真的没有那么…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "拆了腾讯WorkBuddy，我发现了AI产品三个值得抄的设计",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6436781.html",
+      "published": "Fri, 31 Jul 2026 08:48:54 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "WorkBuddy",
+        "AI",
+        "Skill",
+        "https",
+        "article"
+      ],
+      "summary": "WorkBuddy DAU 1300万、MAU超2000万，凭什么在效率类AI产品中登顶？本文从产品经理视角拆解其底层架构，发现它不是聊天框，而是三层工作台；核心不是主从Agent，而是路由+Skill市场。更关键的是，多Agent协作的真相与官方说法截然不同。这些设计决策揭示了AI产品竞争的新趋势：从模型能力转向工作流嵌入深度。 前段时间WorkBuddy的数据刷了一波屏。DAU 1300万，MAU超2000万，效率类AI产品排第一。 作为一个AI产品经理，我的第一反应不是好厉害，而是 它凭什么 。 市面上能聊天…",
+      "key_points": [
+        "五、能从WorkBuddy抄走的东西 拆完这个产品，我觉得有三个层面的设计可以迁移到其他AI产品",
+        "WorkBuddy最值得学的不是它的多Agent营销话术，而是藏在底层的三个产品设计决策",
+        "WorkBuddy DAU 1300万、MAU超2000万，凭什么在效率类AI产品中登顶？本文从产品经理视角拆解其底层架构，发现它不是聊天框，而是三层工作台；核…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "买不起大疆、影石的年轻人，排队租运动相机",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6435452.html",
+      "published": "Fri, 31 Jul 2026 07:07:49 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Pocket",
+        "Pocket3",
+        "APP",
+        "CC0",
+        "GoPro",
+        "iPhone17"
+      ],
+      "summary": "大疆Pocket 3出租月入1500？年轻人“以租代买”运动相机，背后是理性与感性兼具的新消费哲学。本文揭秘相机租赁超级生意，看年轻人如何用几百元过把瘾，再判断是否刚需。 “一台机器，旺季月入1500。” 去年暑假，王强只是发了个出租大疆Pocket 3的视频，本意只想试试水，赚回点本钱。没想到视频一发出去，就收到一两百条私信，一台机器被几十个人抢着租。 发现商机之后，他立刻做大了生意。如今手里有三四十台设备，八月档期早已约满。 比王强便宜好几倍的线上租赁更加火热：某相机租赁平台，大疆Pocket 3的订单量已经突…",
+      "key_points": [
+        "年轻人却开始租了 身边朋友开始“人手一台大疆、影石”的时候，运动相机老玩家玲子却不买了",
+        "像他一样想抓住商机的人不在少数。他发现，现在做运动相机租赁的商家比两年前直接翻了一倍，还涌现了很多租赁平台。尤其是只想把家里的机器挂上网稍微“回血”的年轻人，出…",
+        "大疆Pocket 3出租月入1500？年轻人“以租代买”运动相机，背后是理性与感性兼具的新消费哲学。本文揭秘相机租赁超级生意，看年轻人如何用几百元过把瘾，再判断…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "WorkBuddy把飞书打成了豆包的“馅儿”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6438260.html",
+      "published": "Fri, 31 Jul 2026 06:53:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "WorkBuddy",
+        "Agent",
+        "AI2B",
+        "SaaS",
+        "TRAE"
+      ],
+      "summary": "文｜唐辰 图源：唐辰同学AI辅助制图 飞书终于还是成了豆包的“馅儿”。 7月30日上午，字节跳动发出内部信，对豆包、飞书和火山引擎进行整合。根据调整方案： 飞书产品团队并入豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报。 飞书GTM（市场、销售、客户服务）团队整合进火山引擎，成立新的ToB GTM 组织“创造力服务平台（Creativity Service Platform）”，由火山引擎负责人谭待负责。 字节对外的口径是，重组完成后，飞书原有的产品和服务保持不变，并将和豆包在生产力场景进行更深度的产…",
+      "key_points": [
+        "文｜唐辰 图源：唐辰同学AI辅助制图 飞书终于还是成了豆包的“馅儿”",
+        "飞书自证了商业化能力，可以撑起新豆包的商业化故事。我注意到字节在架构调整里提及，按7月平均消耗口径统计，字节大模型业务ARR（年化收入）达40亿美元",
+        "那就只能把旧船拆了，把有用的零件装到新船上，这也是字节分解掉飞书的本质。具体来看： 一是产品定义权的让渡。飞书团队并入豆包后，飞书也从一个“前台应用”退化为“后…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI互联网日报：豆包进入特斯拉车机、GPT-5.6下调价格、小米澎程切入增程、Apple为供应紧张囤货",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6438247.html",
+      "published": "Fri, 31 Jul 2026 06:39:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Apple",
+        "Token",
+        "Google",
+        "GPT-5.6",
+        "Intelligence"
+      ],
+      "summary": "消费者的账单，先有感觉了。腾讯把任务算力降到五分之一，智谱重开订阅，AI服务想用效率把价格压下来。另一头，Apple大举备货，小米扩进增程，硬件成本正把选择推向更高的价位。我站在消费者一边，低价当然重要，但真正划算的是服务不中断、设备不减配，付费之后还看得见稳定和长期价值。这才是消费者愿意留下来的好生意。 一起来看看这两天发生的AI和互联网赛道的大事件吧！ 💡 今日AI互联网大事件速览 1，OpenAI下调GPT-5.6价格，Luna与Terra争夺规模化工作流 2，智谱重开GLM Coding Plan，1GW国…",
+      "key_points": [
+        "OpenAI下调GPT-5.6价格，Luna与Terra争夺规模化工作流 2，智谱重开GLM Coding Plan，1GW国产算力托住开发者需求 3，特斯拉中…",
+        "语音助手进入驾驶舱 核心内容 ：特斯拉中国开始分批推送2026.14.13车机系统，覆盖Model 3、Model Y、Model S和Model X。更新接入…",
+        "昆仑架构带来N90与N70两款SUV 核心内容 ：雷军在小米澎程技术发布会上宣布，小米汽车进入增程式混合动力市场，推出昆仑技术架构以及N90、N70两款增程式智…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "0-1搭建你的AI知识操作系统：保姆级教程",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6377509.html",
+      "published": "Fri, 31 Jul 2026 06:26:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "Obsidian",
+        "Skill",
+        "AI",
+        "NotebookLM",
+        "Memory"
+      ],
+      "summary": "别再收藏完就吃灰了！本文手把手教你用Obsidian+Claude+NotebookLM搭建个人知识库系统，从零开始，每一步精确到点哪个按钮、复制哪段话。不到2小时跑通最小闭环，让AI真正为你所用，而不是你花时间去适配它。 上一篇《产品经理的效率革命：我的AI工作流完整拆解》发出去之后，后台最多的一条留言是这样的： 思路我听懂了，也认同，但你能不能写一篇手把手的教程，告诉我今天晚上打开电脑要做哪些事？ 这篇文章就是回答这个问题的。 上一篇我说过一句话： 不要花时间适配AI，花时间构建你自己的知识基础设施，让AI来适…",
+      "key_points": [
+        "可以回头看一眼： 第四章那个原子笔记的例子，就是从我输入侧的笔记调出来的 第六章那个“我怎么写这篇文章”的五步流程，就是我写这篇文章本身的真实过程 这篇成稿现在…",
+        "Step 5：审稿、调整、存回Obsidian输出侧 这篇文章写完之后，我会把成稿存到： /Users/mac/Desktop/Simin’s spiritua…",
+        "定选题方向 我新开一个Claude对话窗口，输入： 以下是我知识库里关于AI工作流主题的几条原子笔记，以及上一篇爆款文章《AI工作流完整拆解》的成稿。我想基于这…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "玉米不能当饭吃，怎么成为了世界三大粮食作物之一？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791589",
+      "published": "Fri, 31 Jul 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Masa",
+        "Nixtamalization",
+        "Tamales",
+        "Tortillas",
+        "Totopos"
+      ],
+      "summary": "夏虫欲饮冰， 公众号：夏虫欲饮冰；主研世界历史、古代战争、知识和技术 查看知乎原文 玉米当然可以当饭吃啊，只不过你得往里面加点石灰。 在今日世界的餐桌上，玉米似乎并不多见，尤其是在中国人的餐桌上，虽然全国各地都有大面积种植玉米，但是与玉米相关的食物，却非常少见，尤其是与稻米、小麦等主粮作物制作的食物进行对比时。玉米做成的食物，大多数是以煮玉米棒、爆米花、玉米面风味馒头或饼的样子出现，其种类无论如何都不能与前两种主粮作物相提并论。这种情况不禁让很多人开始怀疑玉米的地位，认为其没有资格成为主粮作物。 这不怪大家怀疑玉米…",
+      "key_points": [
+        "玉米似乎并不多见，尤其是在中国人的餐桌上，虽然全国各地都有大面积种植玉米，但是与玉米相关的食物，却非常少见，尤其是与稻米、小麦等主粮作物制作的食物进行对比时。玉…",
+        "公众号：夏虫欲饮冰；主研世界历史、古代战争、知识和技术 玉米当然可以当饭吃啊，只不过你得往里面加点石灰",
+        "印第安人意外发现在加热的石灰水（碱性环境）中浸泡和煮制玉米，这种化学反应会破坏玉米中的化学结构，即水解半纤维素，将维生素释放出来，使其变得可以被人体吸收，正是这…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史上有没有出现过位于岛屿上的内陆国？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791599",
+      "published": "Fri, 31 Jul 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "kom"
+      ],
+      "summary": "澄淤， 今晚吃隆江猪脚饭 查看知乎原文 11~13 世纪，海南岛黎地的第一个霸主， 「三十六峒联盟」或「三十六峒邦联」 。 12 世纪后期的海南岛形势图。在当时文献中，「汉地」又称作「省地」；「黎地」又称作「黎峒」「黎洞」或「海外黎蛮」。联盟的版图基于《宋会要》等有关记载推定。其他黎地势力虽可考，因无关而并未标出。 只凭 互联网对海南史的 刻板印象 ，此名称乍一看更像是所谓的 「原始部落」。 然而在实不在形，诸如林日举《海南史》等著作，都会告诉我们，它当是一个 由若干氏族贵族共同统治、表现出明显封建化趋向的联盟式政…",
+      "key_points": [
+        "「峒」（kom） 则是黎地社会普遍的政治体，各有 明确且不可随意逾越的地域疆界 ，下含若干村落氏族，我们可以粗略理解为 酋邦 。「三十六峒」未必是实数，后世士大…",
+        "诸如林日举《海南史》等著作，都会告诉我们，它当是一个 由若干氏族贵族共同统治、表现出明显封建化趋向的联盟式政治体 ，我们可以粗略理解为 邦联 ；周围的其他邦联和…",
+        "——（南宋）周去非《岭外代答》 1202 年， 王氏 将盟主之位让给了她唯一的女儿 吴氏 。三十六峒联盟因此成为了中国历史上极少数 连续三代由女性君主稳定承袭…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "点了杯乳酸菌美式，店员给了我厚厚一沓餐巾纸，他在暗示我什么？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%82%B9%E4%BA%86%E6%9D%AF%E4%B9%B3%E9%85%B8%E8%8F%8C%E7%BE%8E%E5%BC%8F%EF%BC%8C%E5%BA%97%E5%91%98%E7%BB%99%E4%BA%86%E6%88%91%E5%8E%9A%E5%8E%9A%E4%B8%80%E6%B2%93%E9%A4%90%E5%B7%BE%E7%BA%B8%EF%BC%8C%E4%BB%96%E5%9C%A8%E6%9A%97%E7%A4%BA%E6%88%91%E4%BB%80%E4%B9%88%EF%BC%9F",
+      "published": "Thu, 30 Jul 2026 10:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CGMCC",
+        "NSY0201",
+        "NSS0302",
+        "CFU",
+        "Commons",
+        "Gastroenterology"
+      ],
+      "summary": "最近，瑞幸把百亿活性益生菌冻干成白色小颗粒，封进一根吸管，然后用一杯美式去唤醒它们。 口感上，乳酸菌粉末溶解后，带来了浓烈的养乐多味儿。即便是不加糖的冰美式，喝起来也带着甜味。 尝尝乳酸菌美式 | 悲催的铊宝宝 好多网友说自己买乳酸菌美式的时候，店员贴心地附赠了厚厚一沓餐巾纸。所以，喝了它，会大便畅通吗？ 百亿活菌都有谁 益生菌是一类对人体健康有益的活性微生物的统称。 世界卫生组织将益生菌定义为：“有活性的微生物，当摄取适量时，能对宿主的健康产生积极影响”。 瑞幸这次使用的乳酸菌吸管中，用到的复合乳酸菌包括： 动物…",
+      "key_points": [
+        "尝尝乳酸菌美式 | 悲催的铊宝宝 好多网友说自己买乳酸菌美式的时候，店员贴心地附赠了厚厚一沓餐巾纸。所以，喝了它，会大便畅通吗",
+        "不同的人对“食补”进来的益生菌反应并不一样，效果堪比开盲盒。有的人喝完乳酸菌美式疯狂跑厕所，也有人依然带着 两三天没拉的屎 羡慕那些噗噗畅通的人",
+        "乳酸菌粉末溶解后，带来了浓烈的养乐多味儿。即便是不加糖的冰美式，喝起来也带着甜味"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "北京的黄卫兰读者在吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%8C%97%E4%BA%AC%E7%9A%84%E9%BB%84%E5%8D%AB%E5%85%B0%E8%AF%BB%E8%80%85%E5%9C%A8%E5%90%97%EF%BC%9F",
+      "published": "Thu, 30 Jul 2026 10:27:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "在昨日天的 苦夏 一文跟帖区，来自福建的读者若渔不断把发了一张截屏，然后又把相关帖子不断顶起来：图 1 、图 2、图 3 和图 4。我看了之后有些紧张，但没有做声，可见长期上网让我的心态变得很阴暗、很谨慎。没想到，今早起来，事情迎来了新的走向，请看图 5，图 6---多事变成了趣事妙事。图 7 和图 8 是原图对比，这两人当时应该在一条直线上，一前一后。当时应该拍完照片就走了，本应从此消失在人海。谁能想到，在我的《槽边往事》交换天空照片的帖子里，他们毫无预兆地再度相逢。所以北京的黄卫兰读者，你在吗？毫无疑问，我才是…",
+      "key_points": [
+        "来自福建的读者若渔不断把发了一张截屏，然后又把相关帖子不断顶起来：图 1 、图 2、图 3 和图 4。我看了之后有些紧张，但没有做声，可见长期上网让我的心态变得…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "做出菲尔兹奖量级工作的，还有这些中国数学家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%81%9A%E5%87%BA%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E9%87%8F%E7%BA%A7%E5%B7%A5%E4%BD%9C%E7%9A%84%EF%BC%8C%E8%BF%98%E6%9C%89%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%A6%E5%AE%B6",
+      "published": "Thu, 30 Jul 2026 09:07:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "htm",
+        "en",
+        "info",
+        "mp.weixin.qq.com",
+        "SASTRA"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜ 张天祁 戴晶晶 ‍ ● ● ● “即使没有邓、王二位老师，今年还是有不小的概率有一位中国人拿奖。”⁠⁠邓煜的合作者马骁，在知乎有这样的评论。 [1] 中国数学家王虹、邓煜双双获得被誉为“数学界诺贝尔奖”的菲尔兹奖，成为全民热议话题。但如果把这次获奖理解为两位天才的偶然出现，就低估了中国数学家和中国数学近年来的表现。 2026国际数学家大会开幕式，邓煜、王虹获颁菲尔兹奖 实际上，这些年做出重要成果的中国数学家，不只有邓煜、王虹，他们中既有人在海外高…",
+      "key_points": [
+        "他还与威斯康星大学张若冰 （烟台大学本科） 合作，研究四维超凯勒的流形坍缩几何，并证明了该领域内的两个著名猜想。⁠ 03 “厉害在他们不是一个人，而是一批人”…",
+        "邓煜、王虹获颁菲尔兹奖 实际上，这些年做出重要成果的中国数学家，不只有邓煜、王虹，他们中既有人在海外高校任职，也有人在北大、浙大、复旦等国内高校任职。这里面，北…",
+        "邓煜回答德国记者关于中国数学的提问时表示，“即使只看过去几年，中国数学家已经完成了不少非常出色的工作，其中也包括在中国科研机构任职的数学家……至于什么时候会有来…"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "现代人能吃得惯古代普通老百姓家里的菜吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791525",
+      "published": "Tue, 28 Jul 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "哈哈哈哈， 历史爱好者 查看知乎原文 我觉得大概率吃不惯，吃一顿行两顿行，连着吃可能就不行了。我是北方人，所以这个专门聊聊明清时期北方——尤其是华北地区——普通老百姓的饮食。 在农业生产力低下的前现代社会中，绝大多数人的饮食逻辑根本不是\"吃好\"，而是\"活着\"。普通农民的生存状况比江南地区更为艰难。他们的餐桌，是一部用粗粮、野菜和偶尔一点荤腥写成的生存史。 一、我想吃白面 我们今天觉得\"粗粮健康\"，是因为精米白面吃多了想换换口味，偶尔喝一碗小米粥、吃一根玉米，感觉清新又养生。但在明清时期的北方，吃粗粮不是因为选择，而…",
+      "key_points": [
+        "回到这个问题：现代人能吃得惯古代普通老百姓家里的菜吗？答案是否定的。不是因为古代人不会做菜，而是因为生产力水平决定了绝大多数人只能维持\"活着\"这个最低标准",
+        "明清北方普通老百姓的饭菜，大概率是这样的：一锅没有油水的杂粮粥或高粱饭，配上一碟咸菜或水煮野菜，偶尔有一小块咸鱼或几片肥肉，就是改善生活了。鲁菜今天以\"咸鲜\"著…",
+        "历史爱好者 我觉得大概率吃不惯，吃一顿行两顿行，连着吃可能就不行了。我是北方人，所以这个专门聊聊明清时期北方——尤其是华北地区——普通老百姓的饮食"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "夕阳，是一天中最美的时刻！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%A4%95%E9%98%B3%EF%BC%8C%E6%98%AF%E4%B8%80%E5%A4%A9%E4%B8%AD%E6%9C%80%E7%BE%8E%E7%9A%84%E6%97%B6%E5%88%BB%EF%BC%81",
+      "published": "Tue, 28 Jul 2026 17:20:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "当夕阳沉向地平线，阳光斜穿厚厚的大气层，波长较短的蓝紫光大多被散射殆尽，而波长较长的红橙光穿透力更强、被更多保留下来。 于是，甘肃省酒泉市阿克塞县的戈壁被染成熔金，驼影在暮色中缓缓拉长；河南省三门峡市的黄河河段泛起粼粼波光，云层如锦缎铺满天际。这一场天地共酿的盛大落幕，是太阳写给万物的情书。 你心中最难忘的落日黄昏，又在哪片天空下？快来评论区分享吧～ #晚霞 #跟着地理君去旅行 敬请关注 中国国家地理文旅 云端赴山海，风景不间断。 中国国家地理文旅·景区联播 ↓ 直播预告 ↓ 山间林木苍翠叠嶂 溪涧流水叮咚绵长 流…",
+      "key_points": [
+        "中国国家地理文旅·景区联播 ↓ 直播预告 ↓ 山间林木苍翠叠嶂 溪涧流水叮咚绵长 流云自在缠绕峰峦 清风悄然消解暑热 无需奔赴远方，镜头带你穿梭山野秘境 静观朝…"
+      ]
+    }
+  ],
+  "backfill_items": []
+}
