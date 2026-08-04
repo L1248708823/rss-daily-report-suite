@@ -1,0 +1,811 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T01:00:12.201215+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 105,
+    "fresh_candidates": 75,
+    "backfill_candidates": 30,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-04",
+      "fetched_at": "2026-08-04T01:00:06.904716+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3809.66,
+          "change": -22.6,
+          "change_pct": -0.59,
+          "volume": 524516960.0,
+          "amount": 95225689.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4048.94,
+          "change": -6.400000000000091,
+          "change_pct": -0.16,
+          "prev_close": 4055.34,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-04 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 879.3021691449514,
+          "change": -1.3898783095150975,
+          "change_pct": -0.15781660723886085,
+          "prev_close": 880.6920474544665,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-04 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-04",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "投资进阶宝典：如何股债与攻守再平衡？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%8A%95%E8%B5%84%E8%BF%9B%E9%98%B6%E5%AE%9D%E5%85%B8%EF%BC%9A%E5%A6%82%E4%BD%95%E8%82%A1%E5%80%BA%E4%B8%8E%E6%94%BB%E5%AE%88%E5%86%8D%E5%B9%B3%E8%A1%A1%EF%BC%9F",
+      "published": "Mon, 03 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "A500",
+        "A500+",
+        "A500+30",
+        "END-",
+        "lt"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：六亿居士 来源：雪球 面对如此极致割裂的市场 ， 我们其实很难答对每一道题 ， 如果想追求精确的操作 ， 其结果往往是一地鸡毛 。 投资 ， 其实就是一场进退有度的修炼 ， 这一点大部分投资者都心有戚戚焉 。 我们都理解低估时敢于进 ， 高估时懂得退 ， 中间的时候则是耐心持有 。 但轮到我们自己动手时 ， 受市场情绪的影响 ， 明明定好的策略往往会变形 。 涨的时候嫌仓位轻 ， 后悔自己没多买 ； 跌的时候又惊慌失措 ，…",
+      "key_points": [
+        "答案其实讨论过很多遍 ： 这便是 股债再平衡与攻守再平衡",
+        "04 攻守再平衡 ： 极致割裂的风格其实是馈赠 说完股债配比与再平衡 ， 我们再来聊一聊权益仓位的攻守平衡",
+        "下图是一个常见的全球指数配置案例 ： 聊完攻守配置 ， 我们选用最简单的一个案例 ： 中证红利+中证A500+双创50 ， 分别代表防守 、 均衡和进攻 ， 聊…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谈谈钠电",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7324752206/403419968",
+      "published": "Mon, 03 Aug 2026 10:21:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Wh",
+        "kg",
+        "BMS",
+        "EMS",
+        "EPC",
+        "PCS"
+      ],
+      "summary": "钠电当前主要的应用场景主要有储能、两轮车、启停电源、低速代步车等场景。 其中锂电人最关心的应用场景就是储能，这里从技术到产业链角度全方面剖析一下钠电。 一、技术路线 正极方面，当前产业链主流落地的路线是层状氧化物和聚阴离子路线。 层状氧化物路线就是锂电的三元路线，需要添加镍、锰等金属，提升能量密度，也是钠电当前能量密度最高的路线，工作电压3.2-3.4V，能量密度在140-175Wh/kg。常温下循环次数2500-3500次，温度到55℃高温下循环次数1500-2000次。 层状氧化物是唯一能量密度能上车的路线，但…",
+      "key_points": [
+        "钠电一般用于储能的正极路线是聚阴离子路线，合成工艺与磷酸铁锂高度相似，可直接复用 LFP 产线，配套硬碳负极的话，能量密度约 110-140 Wh/kg，低于层…",
+        "占系统总成本的 40%-50%。2026 年国内规模化量产的储能级钠电电芯（以聚阴离子路线为主），百兆瓦级批量采购价约为0.35-0.45 元 / Wh：头部企…",
+        "二、产业现状 今年被视为钠电规模化商业化元年，产业链从技术验证正式迈入批量供货阶段，宁德时代 2026 年 9 月将交付首批钠电储能系统，全年实现吉瓦时级出货；…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "成长股活成蓝筹的暴利密码，藏在它最脆弱的时候",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/403378299",
+      "published": "Mon, 03 Aug 2026 10:21:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "PEG",
+        "ROE",
+        "SH600519",
+        "SZ000333",
+        "xueqiu.com"
+      ],
+      "summary": "玩了二十余年股票，我真正让账户翻倍的，从来不是涨得最疯的票，而是那些从几十上百亿市值慢慢磨出来、最后活成行业蓝筹的公司。 早年我也天天算PEG、拉五年ROE，结果该亏的一分没少。后来才明白，想找到能长成蓝筹的成长股，别先看它能涨多高，要先想清楚它最坏会跌到哪、怎么跌。彼得·林奇说，你搞不懂它为什么涨，它就会用同样的方式让你搞不懂为什么跌。我补一句： 你搞不懂它怎么跌，它跌给你看时，你跑都来不及。 先想怎么跌，再谈怎么活 乐视当年营收增速漂亮，但一位做审计的老哥只跟我说了一句： 经营性现金流连年负数，关联交易多到能把…",
+      "key_points": [
+        "结果该亏的一分没少。后来才明白，想找到能长成蓝筹的成长股，别先看它能涨多高，要先想清楚它最坏会跌到哪、怎么跌。彼得·林奇说，你搞不懂它为什么涨，它就会用同样的方…",
+        "在“蓝筹化折价”那一段 成长变蓝筹，最肥的利润不在业绩最牛时，也不在完全变蓝筹后，而在增速刚掉下来、全市场都说它不行了、但护城河和股东回报已经悄悄变了的时候",
+        "大股东减持，增长乏力，股价从七百多跌到不足两百，市盈率跌破10倍，满屏都是“互联网没戏了”。但财报里广告和游戏基本盘未崩，视频号起势，账上现金充沛，公司开始拼命…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "剥开核心资产的财务伪装：从市赚率到破妄率的进阶定价逻辑",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2884313460/403303581",
+      "published": "Mon, 03 Aug 2026 10:21:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PWR",
+        "KR",
+        "ROE",
+        "ROIC",
+        "KC",
+        "PE"
+      ],
+      "summary": "纵观多轮牛熊更迭，长周期市场的铁顶往往横亘在四千二百点区间。在这个宽幅震荡周期里，频繁的波段交易终将沦为零和博弈。作为一名坚守价值的长期股权持有者，我的应对策略始终是锁仓高现金流核心资产，拒绝瞎折腾，用源源不断的股息对冲宏观的不确定性。在这个过程中，如何精准量化一家企业的真实投资价值，成为了决定成败的关键。 探讨量化估值，就必须聊聊丁宁为了学习巴菲特而发明的市赚率（PR）模型。市赚率是丁宁在实战中坚定使用的核心体系，其底层逻辑非常精妙。 丁宁的核心构思是：市赚率 = 市盈率 ÷ 净资产收益率，即公式为 PR = P…",
+      "key_points": [
+        "破妄率的计算公式为： PWR = PE / (ROIC × KC × KR) 当企业身处周期底部、净利润微薄甚至为负导致PE失真时，无缝切换至“重资产防御模式”…",
+        "丁宁发明的原市赚率在应对某些极端复杂的财务粉饰时，依然暴露出三个难以回避的局限性。第一是杠杆幻觉陷阱。公式依赖的净资产收益率极易被高负债扭曲，两家赚钱能力相同的…",
+        "这个所谓的破妄率（PWR）绝对谈不上完美，它只是我在面对复杂的财务迷雾时，尝试去剥离杠杆、破解折旧、堵住回购漏洞的一种非主流思路。克制盲目的数学崇拜，认清资产的…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "等大家都认为熊市到来时，基本就结束了（旧文更新）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1553799558/403382106",
+      "published": "Mon, 03 Aug 2026 10:21:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "PB",
+        "PE",
+        "TCL",
+        "TMT"
+      ],
+      "summary": "文章是旧文，发于2021年7月，增加了2022年与2026年相关。如果论熊市的极端性，最可怕的是2008年，跌幅最大。最难熬的是2011年，没有任何机会。 总体而言，现在的熊市和以前不同，总是有结构性的机会。2019年起，科技板块走出长牛行情，只是科技的方向有变化，从新能源到AI。熊市来时，高股息、低估值板块总有相对收益。 我的熊市定义，就是超过2/3的股票下跌，且超过2/3的人亏损。 我经历过五轮熊市。 每一轮熊市，我都亏67%左右，也就是净值变成1/3，5轮熊市下来，净值只有0.004左右。 如果牛市不赚几十倍…",
+      "key_points": [
+        "等大家都认为熊市到来时，基本就结束了，一般时间在三个月左右",
+        "网上能预判熊市的人确实是不存在。我的预判只是个人的交易的依据，并不一定是对的，要过一年半载才见分晓。很多人是根据帐户的感受来判断，比如说账户资金回撤30%，就认…",
+        "三、2008年 2008年的熊市是真的可怕，觉得A股要跌到0才会止跌。我从3000点开始买入，一直买到1600点，大约买了四次。还留了1/5资金没买。在班车上，…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "落魄的贵族是什么样的?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791654",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Barnaba",
+        "Barnabotti",
+        "Homo",
+        "Libro",
+        "N.H",
+        "Nobilis"
+      ],
+      "summary": "永乐通宝， 白河夜船 查看知乎原文 那就不得说到威尼斯共和国（687-1797）的那伙贵族破落户了，一群穷到丧失生育权的投票机器。 18 世纪的威尼斯绘本中，一位戴着在狂欢节面具，穿着象征贵族尊严的传统黑色托加袍的“乞丐”在当街行乞 威尼斯共和国虽然托名为共和国，最高决策机构是“大议会”，最高统治者是权力被限制的终身制总督（在没有许可的情况下不能离开威尼斯，不能拥有海外财产。并且在死后，其家人的财务会被审查）。 但由于大议会议员是世袭制，大议会席位基本被几十个大小家族（后期发展到约 200-250 个）所垄断，所以…",
+      "key_points": [
+        "因为他们中大多数都生活在圣巴尔巴（San Barnaba）广场周围，人们开始称这群落魄的贵族为巴纳博蒂（Barnabotti）",
+        "大议会的《Serrata》法规从 1297 年到 1323 年逐步实施，将威尼斯的贵族阶层确立为一个封闭的世袭阶层，仅允许现有家族的后代成为大议会的成员，不论个…",
+        "威尼斯的贵族家庭数量也从 14 世纪的约为 2000 户，到 18 世纪时减少到不到 100 户，甚至连召开大议会的最低人头数都很难凑齐了"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "《金瓶梅》中哪些细节一看可以看出是明朝才有而不是北宋年间的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791663",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "vcr"
+      ],
+      "summary": "会飞的女巫， 如是醉人虽于此时，委卧荆棘便生乐想。 查看知乎原文 说个非常小的细节：奶茶。 明代人喝茶，喜欢加各种小料，茶水只当个基底，和我们现代人喝奶茶差不多。 只不过明代人管它不叫奶茶，叫泡茶，比方说蜜饯金橙子泡茶。 我们的奶茶小料是珍珠、芋圆、椰果。 明代的奶茶小料是核桃、榛子、瓜子仁等等。 请看 vcr，明代高濂《遵生八笺·饮馔服食笺上》： 所宜 核桃、榛子、瓜仁、杏仁、榄仁、栗子、鸡头、银杏 之类，或可用也。 当然，正经品茶的人不加这么些小料，喝纯茶。 还是高濂《遵生八笺·饮馔服食笺上》： 茶有真香，有佳…",
+      "key_points": [
+        "《金瓶梅》就写过 都是银镶茶钟，金杏叶茶匙，放白糖玫瑰，馨香美口 金杏叶茶匙 讲究一点的茶匙会中间镂空，方便把茶水滤出去，免得连小料带茶水盛一勺，一不小心洒在身…",
+        "我在扬之水女史分析金瓶梅器物的著作里找了几张明代茶匙文物图片",
+        "不是所有小料都必须放，你可以按个人口味，爱放几种放几种"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "张一鸣不做亏本买卖：“消失”的飞书和张一鸣的反常识决策，今天的字节是怎样跳动的？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6439262.html",
+      "published": "Mon, 03 Aug 2026 09:56:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "token",
+        "SaaS",
+        "WorkBuddy",
+        "CEO",
+        "Agent"
+      ],
+      "summary": "字节跳动拆分飞书，产品团队并入豆包，GTM并入火山引擎，标志着飞书独立事业群时代落幕。本次调整背后是AI办公入口争夺战的加剧，腾讯、阿里、字节纷纷重构To B AI主线。文章深度解析组织变动逻辑、人事博弈及行业竞争格局，揭示字节从SaaS转向MaaS的战略野心。 字节跳动的飞书事业群拆分了。 飞书一分为二，本次变动涉及飞书团队约 4000 人。其中产品团队整体并入豆包，由豆包负责人赵祺统一管理；市场、销售、客户服务团队（GTM）并入火山引擎后，作为新的To B商业化组织“创造力服务平台”，由火山引擎负责人谭待负责带…",
+      "key_points": [
+        "04 张一鸣不做亏本的买卖 字节方面可能提前预判了分拆飞书，会在市场上迎来一片唱衰的声音，因此特地在对外的PR信息中秀了一把肌肉",
+        "也不排除是张一鸣和他的核心管理团队反复商量后做的决策。他们现在是一家全球化的公司了，高级别管理团队之间，在某些方面的共识应该还是有的",
+        "有字节专家分析说，飞书产品做得确实很流畅，体验也很好。但是在公司战略层面，可能字节创始人张一鸣对飞书的大结果是不满意的"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "10万玩家围观的AI小镇回来了，港科大团队想造一个数字生命世界",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6439292.html",
+      "published": "Mon, 03 Aug 2026 09:55:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agentopia",
+        "Aivilization",
+        "Altera",
+        "Anuttacon",
+        "GTA"
+      ],
+      "summary": "由心愿汇聚而成的微缩文明。 近日，港科大团队孵化的项目Aivilization正式改了名字，叫作AI小镇星原。 该项目在关闭约四个月后，以更名后的新品牌重新上线运营。 去年八月，团队刚上线一个连自己都觉得够不上及格线的版本，压力测试只按两三千人的规模准备，结果不到三天，注册用户就冲破了五万，此后热度一路攀升，参与的玩家累计超过十万。 那场爆红的起点，藏着一段并不顺利的立项过程。 紫荆智能这家公司2023年成立时做的是政企技术服务，给香港警务处做过发言人辅助系统，也在一款二次元游戏里做过角色扮演型NPC。 2024年…",
+      "key_points": [
+        "港科大团队孵化的项目Aivilization正式改了名字，叫作AI小镇星原",
+        "星原代表的是港科大团队一直在验证的一个判断，AI角色除了执行任务，也可以拥有属于自己的生活轨迹，这条轨迹只有放进一个持续运转的世界里才立得住",
+        "基本在这一年里花得干干净净，团队没有拿到外部投资，靠的是公司自有资金和港科大实验室的支持，验证方向之后才谈成了融资，团队规模也顺势扩大了一倍，开始筹备下一代版本"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "QQ宠物回归，繁忙的当代人有空“养”吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6439184.html",
+      "published": "Mon, 03 Aug 2026 08:11:49 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "QQ",
+        "AI",
+        "DAU",
+        "CC0",
+        "Duo",
+        "Hy3"
+      ],
+      "summary": "QQ宠物回归引爆怀旧潮，但2026年的我们真有空养电子宠物吗？从旅行青蛙的陨落到抖音小火人的社交困境，本文剖析了情感陪伴赛道的深层逻辑，探讨AI记忆能否让QQ宠物成为真正的“情感基础设施”，而非一时噱头。 7月27日，停运整整8年的QQ宠物正式回归手机QQ。 消息发布当天，#腾讯全新QQ宠物上线##我的QQ宠物回来了#等话题就冲上微博、抖音各大平台热搜。 图片源自微博 无数人涌入手机QQ搜索入口重新领养属于自己的宠物，评论区清一色的“我的青春真的回来了”。 但热闹过后，一个不那么热闹的问题浮上来了：2026年了，每…",
+      "key_points": [
+        "一个不那么热闹的问题浮上来了：2026年了，每天被工作、短视频、社交信息轰炸的当代人，真的有空养一只电子宠物吗",
+        "04 结语 回到最初的问题：QQ宠物回归，是噱头还是价值",
+        "但2026年的我们真有空养电子宠物吗？从旅行青蛙的陨落到抖音小火人的社交困境，本文剖析了情感陪伴赛道的深层逻辑，探讨AI记忆能否让QQ宠物成为真正的“情感基础设…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "智能客服 Agent 架构选型：从【能回答】到【能解决】到【能代办】",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6437758.html",
+      "published": "Mon, 03 Aug 2026 07:00:09 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "prompt",
+        "DAG",
+        "Router",
+        "PM",
+        "LLM"
+      ],
+      "summary": "智能客服架构选型常让企业陷入两难：多Agent协作复杂度失控，单Agent又难保准确率。本文提出三层能力模型，从能回答、能解决到能代办，结合网易云商、阿里、Amazon MARCO等案例，解析不同阶段的架构设计与产品经理的核心关注点，助你找到适合自身业务的发展路径。 Gartner 预测，到 2029 年，Agentic AI 将自主解决 80% 的常见客户服务问题。但在当前的落地实践中，大量企业踩的第一个坑不是模型能力不够，而是 架构选错了 。要么一上来就搞多 Agent 协作，复杂度失控；要么所有逻辑塞进一个…",
+      "key_points": [
+        "智能客服架构选型常让企业陷入两难：多Agent协作复杂度失控，单Agent又难保准确率。本文提出三层能力模型，从能回答、能解决到能代办，结合网易云商、阿里、Am…",
+        "一、核心框架：三个能力层级决定三种架构 智能客服的产品能力演进，本质上是三个层级的递进： 每一层对 Agent 的要求是质变的： 回答 只需要知道，知识库够用就…",
+        "而是： 先把底座打好 ：NLP 处理简单问题，单 Agent + RAG 处理复杂问题，极端转人工 按信号拆 Agent ：当单 Agent 出现 prompt…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么生鲜加工不能直接搬制造业BOM？聊聊物料系统的设计过程",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6439039.html",
+      "published": "Mon, 03 Aug 2026 06:57:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "kg",
+        "BOM",
+        "cm",
+        "APP",
+        "Excel",
+        "SKU"
+      ],
+      "summary": "门店要的是净菜成品——净白菜段、净土豆丝、蔬菜拼盘。但采购进来的是毛菜原料——整颗大白菜、带泥土豆。中间这步\"原料变成成品\"，到底投了多少料、出了多少货、损耗去哪了、成本怎么算，过去全靠工人经验和纸质流转卡，没人说得清。 我们花了段时间，把这块从\"人盯人\"推到\"系统管\"。踩了不少坑，也推翻过几版方案。这篇文章就讲讲我们最后怎么设计的，重点不是我们多牛，而是生鲜加工这个场景逼着你做哪些不一样的取舍。 先说结论：制造业BOM，生鲜抄不动 如果你做过制造业ERP，对BOM（物料清单）不会陌生。它的逻辑很简单：一个成品由哪…",
+      "key_points": [
+        "更具体的衔接流程可以看我之前写的补货系统那篇文章（《 为什么生鲜补库存不能直接套通用公式？聊聊补货系统的设计逻辑 》），这篇就不重复了",
+        "是出成率反算 制造业BOM成本是简单加法：成品成本 = 子件A采购价 + 子件B采购价 + … 生鲜成品成本不是加法。因为出成率意味着：你投入的原料量 &gt;…",
+        "有几个判断我觉得是对的，也有几个可以做得更好： 对的： 没做成全自动加工排产。生鲜加工变量太多——原料品质波动、工人手艺差异、设备临时故障，全自动排产的翻车成本…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "谷歌地球AI生图功能紧急叫停；阿里正式发布旗舰大模型Qwen3.8；京东外卖发布AI智能头盔",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%B0%B7%E6%AD%8C%E5%9C%B0%E7%90%83AI%E7%94%9F%E5%9B%BE%E5%8A%9F%E8%83%BD%E7%B4%A7%E6%80%A5%E5%8F%AB%E5%81%9C%EF%BC%9B%E9%98%BF%E9%87%8C%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%E6%97%97%E8%88%B0%E5%A4%A7%E6%A8%A1%E5%9E%8BQwen3.8%EF%BC%9B%E4%BA%AC%E4%B8%9C%E5%A4%96%E5%8D%96%E5%8F%91%E5%B8%83AI%E6%99%BA%E8%83%BD%E5%A4%B4%E7%9B%94",
+      "published": "Mon, 03 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "DNA",
+        "Qwen3.8",
+        "Q9",
+        "SUV",
+        "API"
+      ],
+      "summary": "今天是8月3日，星期一。1958年的今天，世界上第一艘核动力潜艇“鹦鹉螺号”成功从冰层下穿过北极点，创造了航海与核动力技术史上的重大里程碑。 重点新闻速览 1.谷歌地球AI生图功能上线不到48小时紧急叫停 2.阿里正式发布旗舰大模型Qwen3.8 3.奥迪发布品牌史上最大SUV Q9 4.京东外卖发布AI智能头盔 5.微信地震预警功能上新 科技 DeepSeek-V4-Flash正式版API上线公测 7月31日，DeepSeek通过API文档发布日志宣布DeepSeek-V4-Flash正式版API上线公测。该版本…",
+      "key_points": [
+        "重点新闻速览 1.谷歌地球AI生图功能上线不到48小时紧急叫停 2.阿里正式发布旗舰大模型Qwen3.8 3.奥迪发布品牌史上最大SUV Q9 4.京东外卖发布…",
+        "欧盟委员会同步公布首批签署《人工智能生成内容透明度行为准则》的180多家机构名单。同时启动通用人工智能模型提供商监管，所有在欧盟境内提供服务的通用大模型必须完成…",
+        "该算法首次将基因扰动与化学药物扰动映射至统一语义空间，解决了化学扰动与细胞特异性响应的交互预测难题。核心模块UniPert已开源，G2CP采用基因筛选数据预训练…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "参与抢救她的医生护士，纷纷中毒进入ICU，她身上为何有大蒜和氨水的味道？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%82%E4%B8%8E%E6%8A%A2%E6%95%91%E5%A5%B9%E7%9A%84%E5%8C%BB%E7%94%9F%E6%8A%A4%E5%A3%AB%EF%BC%8C%E7%BA%B7%E7%BA%B7%E4%B8%AD%E6%AF%92%E8%BF%9B%E5%85%A5ICU%EF%BC%8C%E5%A5%B9%E8%BA%AB%E4%B8%8A%E4%B8%BA%E4%BD%95%E6%9C%89%E5%A4%A7%E8%92%9C%E5%92%8C%E6%B0%A8%E6%B0%B4%E7%9A%84%E5%91%B3%E9%81%93%EF%BC%9F",
+      "published": "Mon, 03 Aug 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gloria",
+        "DMSO",
+        "C2",
+        "Susan",
+        "DMSO2",
+        "Julie"
+      ],
+      "summary": "急症室里，医护人员正在全力抢救一位癌症晚期的病人。 起初，所有人都以为这只是一次寻常的夜间急救，没有人意识到，在接下来不到 10 分钟的时间里，这位躺在病床上，生命垂危的病人，会以一种诡异的方式， 毒晕在场的 23 名医护，其中 5 人住院治疗，还有 1 人在 ICU 里躺了两周，后续还出现胰腺炎，膝部缺血性坏死等严重后遗症。 这位患者，也从此被冠上“毒妇（Toxic Lady）”的称号，给全世界的法医和科学家留下一道数十年难解的谜题。 而最接近真相的答案竟然和一种在实验室里我们每天都要接触，甚至被认为相对安全的物…",
+      "key_points": [
+        "图源：cerebrodigital.net 其余参与抢救的医护人员也开始出现不同程度的中毒症状，医院被迫开启紧急预案，将现场人员隔离，只留下三名医生继续抢救，但…",
+        "血液里高浓度的二甲基砜在室温状态下会析出晶体，这正好解释了，当晚医护人员在注射器里观察到的棕褐色颗粒 。Gloria 体内高浓度的二甲基砜与血液中的硫酸盐结合形…",
+        "而最接近真相的答案竟然和一种在实验室里我们每天都要接触，甚至被认为相对安全的物质有关 …… 毒晕 23 人的“Toxic Lady” 1994 年 2 月的一个…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "曾经的“百万高定珠宝”，凭什么被中国人百元磕下了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9B%BE%E7%BB%8F%E7%9A%84%E2%80%9C%E7%99%BE%E4%B8%87%E9%AB%98%E5%AE%9A%E7%8F%A0%E5%AE%9D%E2%80%9D%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E8%A2%AB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%99%BE%E5%85%83%E7%A3%95%E4%B8%8B%E4%BA%86%EF%BC%9F",
+      "published": "Mon, 03 Aug 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "Cut",
+        "S925",
+        "amp",
+        "Cushion",
+        "dc_ps"
+      ],
+      "summary": "筹备了整整半年！ 培育宝石 系列 珠宝 ，我们终于攒够了底气，这次要放大招！ 向着天然珠宝里真正百万、千万的高定，发起挑战： 💎有惊艳的“异形切割款” 💎 多颗“超大克拉、高净度主石”搭配的奢款 而且还是天然宝石无法做到的 “ 颜色同源、几乎无色差、高度一致性 ” PS：讲到这，要再次感谢中国培育宝石技术的成熟，让曾经只能在博物馆看到的璀璨高定款式，如今百元～小千元就能拥有致敬款！ ⬇️点击下图即可专场挑选⬇️ 先和一路跟过来的老朋友们，解释一下来龙去脉： 大概前年，我们头一次向大家推培育宝石，其实心里是悬着的。…",
+      "key_points": [
+        "发起挑战： 💎有惊艳的“异形切割款” 💎 多颗“超大克拉、高净度主石”搭配的奢款 而且还是天然宝石无法做到的 “ 颜色同源、几乎无色差、高度一致性 ” PS：讲…",
+        "【媲美顶奢高定】 【培育 蓝 宝 石、红宝石系列珠宝】 礼盒包装、一物一证、培育925银 戒指、项链、耳钉、手链、胸针… 灵感源自皇·室经典设计 开团价：159…",
+        "工厂老板说服了镇厂之宝（ 在香港某品牌参与过无数百万珠宝打磨镶嵌，如今退休在工厂审设计、盯工艺的祖师级大佬），亲自出马，把控关键工艺"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "吃感冒灵，禁止开车！国家最新禁驾名单发布",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%90%83%E6%84%9F%E5%86%92%E7%81%B5%EF%BC%8C%E7%A6%81%E6%AD%A2%E5%BC%80%E8%BD%A6%EF%BC%81%E5%9B%BD%E5%AE%B6%E6%9C%80%E6%96%B0%E7%A6%81%E9%A9%BE%E5%90%8D%E5%8D%95%E5%8F%91%E5%B8%83",
+      "published": "Mon, 03 Aug 2026 16:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al.",
+        "doi",
+        "driving",
+        "et",
+        "vol."
+      ],
+      "summary": "吃过感冒灵的人，想必对这一点都深有体会： 一包感冒灵下肚，头昏昏沉沉 眼皮仿佛有千斤重 困得仿佛失智了一般🥱 假如是在公司喝的，那一天基本上就废了 一个字也看不进去，一句话也听不进去😴 民间赠名 「史上最牛安眠药」 图片来源：🍠 针对这一点，日前，国家药监局专门发布一则公告： 决定对感冒灵口服剂（颗粒、胶囊、片、茶）说明书中的【警示语】、【不良反应】、【禁忌】和【注意事项】等进行统一修订。 感冒灵口服制剂【警示语】【注意事项】必须明确标注：「服药期间不得驾驶机、车、船、从事高空作业、机械作业及操作精密仪器」。 这意…",
+      "key_points": [
+        "老牌感冒药 感冒灵 （只要药品名里有「感冒灵」三个字，都是），正式纳入服药禁驾名单",
+        "想必对这一点都深有体会： 一包感冒灵下肚，头昏昏沉沉 眼皮仿佛有千斤重 困得仿佛失智了一般🥱 假如是在公司喝的，那一天基本上就废了 一个字也看不进去，一句话也听…",
+        "国家药监局就已经发布第 81 号公告，对复方感冒灵制剂说明书进行过一轮修订。此次公告是进一步扩大，安全要求持续趋严"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "怎么拍荷马史诗，好莱坞想了半个多世纪",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%80%8E%E4%B9%88%E6%8B%8D%E8%8D%B7%E9%A9%AC%E5%8F%B2%E8%AF%97%EF%BC%8C%E5%A5%BD%E8%8E%B1%E5%9D%9E%E6%83%B3%E4%BA%86%E5%8D%8A%E4%B8%AA%E5%A4%9A%E4%B8%96%E7%BA%AA",
+      "published": "Mon, 03 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Nose",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Nose 古希腊从来不只属于古Nose希腊。从电影诞生之初，银幕上的奥林匹斯和特洛伊就是当代精神焦虑的投影面。 荷马史诗被反复拍摄，而每一次翻拍，忠实于原典从来不是真正的目标。真正的问题永远是同一个，此刻的观众需要从那个遥远的世界里提取什么。 1950 年代中期，好莱坞正处于宽银幕大片竞赛的白热阶段。 1954 年，德 · 劳伦蒂斯和卡洛 · 庞蒂制片、马里奥 · 卡梅里尼执导的意大利版《尤利西斯》让柯克 · 道格拉斯扮演奥德修斯。 《尤利西斯》 这部影片比后来泛滥的廉价力士片精致得多，它的真正功能是在战后文化…",
+      "key_points": [
+        "《亚历山大大帝》是好莱坞古典史诗中唯一认真试图处理古代社会性别规范的作品，但它的表达被制片体制和市场压力严重削弱了",
+        "这种处理方式恰恰透露了好莱坞对古希腊的一种特定理解，所谓神话，不过是一座可以任意提取零件的素材仓库",
+        "好莱坞正处于宽银幕大片竞赛的白热阶段"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "诺兰最好作品，竟然是这一部？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%AF%BA%E5%85%B0%E6%9C%80%E5%A5%BD%E4%BD%9C%E5%93%81%EF%BC%8C%E7%AB%9F%E7%84%B6%E6%98%AF%E8%BF%99%E4%B8%80%E9%83%A8%EF%BC%9F",
+      "published": "Mon, 03 Aug 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cinephiliabeyond.org",
+        "Film",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Newmarket"
+      ],
+      "summary": "作者：Tim Pelan 译者：陈思航 校对：Issac 来源：cinephiliabeyond.org 破 碎的叙事、扭曲的感知、压缩的时间——导演／编剧克里斯托弗·诺兰不会满足于一条直线，只要有机会，他就会呈现一套莫比乌斯环。他的《记忆碎片》获得了多项大奖提名，这是一部突破性的热门作品，也是一部「神经黑色」电影。 《记忆碎片》 在这部作品中，这位英国文学的毕业生，首次真正尝试呈现他所谓的「占有体验」。在这种作品里，读者可以反复地重新阅读，直到他们满意自己对作者意图的理解。 《记忆碎片》的「回溯」叙事是个令人费解…",
+      "key_points": [
+        "诺兰自己说道，对于观众来说，阐释《记忆碎片》最简单的方式，就是将它看作是一部反过来讲述的黑色电影。虽然影片本身其实比这种定义精细得多。「如果你画出时间线，你会看…",
+        "Tim Pelan 译者：陈思航 校对：Issac 来源：cinephiliabeyond.org 破 碎的叙事、扭曲的感知、压缩的时间——导演／编剧克里斯托弗…",
+        "同为导演的史蒂文·索德伯格被《记忆碎片》的概念与完成度所打动。他拥护这部电影，并在他认识的发行商中游说。最终，从未发行过一部影片的Newmarket冒了一次险。…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "来感受一下乌云的压迫感",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%9D%A5%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B%E4%B9%8C%E4%BA%91%E7%9A%84%E5%8E%8B%E8%BF%AB%E6%84%9F",
+      "published": "Mon, 03 Aug 2026 18:34:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "上了一天班，此刻也顺道活动一下阁下的贵颈椎。 #贴图亦有慈爱 2026年全新上线 一口鲜油鸡枞纯粹版（全菌帽） 文章原文",
+      "key_points": [
+        "此刻也顺道活动一下阁下的贵颈椎"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "石筑古堡，藏尽大明遗风 ！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%9F%B3%E7%AD%91%E5%8F%A4%E5%A0%A1%EF%BC%8C%E8%97%8F%E5%B0%BD%E5%A4%A7%E6%98%8E%E9%81%97%E9%A3%8E+%EF%BC%81",
+      "published": "Mon, 03 Aug 2026 17:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "在贵州省安顺市西秀区，云鹫山半山腰的狭长山谷里，藏着“冷兵器时代最后的堡垒” 云峰屯堡 。 它是六百多年前明朝“调北征南”将士戍边营建的军屯，整座村寨由巨石垒筑而成，街巷纵横交错，宜居的布局兼具防御巷战优势，而在石墙包裹下，仍流淌着浓浓的江淮余韵。 漫步青石板街巷，聆听古朴地戏；寻访石碉老宅，坐拥山野微凉，时光仿佛都在这里放缓了脚步。这般安然悠远的意境，也让这里成为了游人怀古寻幽的绝佳之地。 #云峰屯堡 #上云峰屯堡逛明潮市集 #镜头下的云峰 #避暑 #暑假去哪儿 #安顺小众 敬请关注 中国国家地理文旅 云端赴山海…",
+      "key_points": [
+        "中国国家地理文旅·景区联播 ↓ 直播预告 ↓ 山间林木苍翠叠嶂 溪涧流水叮咚绵长 流云自在缠绕峰峦 清风悄然消解暑热 无需奔赴远方，镜头带你穿梭山野秘境 静观朝…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "CNS发表残酷真相：如何重塑生物医学基础科研的信任机制？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+CNS%E5%8F%91%E8%A1%A8%E6%AE%8B%E9%85%B7%E7%9C%9F%E7%9B%B8%EF%BC%9A%E5%A6%82%E4%BD%95%E9%87%8D%E5%A1%91%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6%E5%9F%BA%E7%A1%80%E7%A7%91%E7%A0%94%E7%9A%84%E4%BF%A1%E4%BB%BB%E6%9C%BA%E5%88%B6%EF%BC%9F",
+      "published": "Mon, 03 Aug 2026 08:02:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CNS",
+        "Science",
+        "Nature",
+        "Cell",
+        "al.",
+        "BD"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual Cell 、Nature、Science封面 撰文｜周大鹏（同济大学教育部病原体与宿主相互作用重点实验室） ‍ ● ● ● 近年来中国的生物医学基础科研，还没有达到张学敏院士在同济大学高等讲堂列举的建国后生命医学几个代表成就的高度：人工合成胰岛素、青蒿素、糖丸疫苗、 全反式维甲酸联合三氧化二砷治疗 急性早幼粒细胞 、消灭血吸虫病。 CNS （Cell 、Nature、Science） 所谓顶级刊物的发表中，纳米、结构、代谢、有机等学科，国内都存在过度夸大…",
+      "key_points": [
+        "2026年5月以来的科学风暴还宣告一个“残酷真相”：除了文章上教科书和产品上货架的科研，以及承担法律责任的临床试验数据，所谓顶刊发表已经在失去公信力。分析一下顶…",
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual Cell 、Nature、Science封面 撰文｜周大鹏（同济大学教育部病原体与宿主相互作用重点…",
+        "开始有很多是短平快的结构解析，真正像发明冷冻电镜这样的获得诺奖的工作，国内暂时还没有条件搭建像最高端光刻机那样的平台。巨额投入后，中国生物医学界开始尝试掌握复杂…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "第三期经济学人精读打卡营（0823）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%89%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%B2%BE%E8%AF%BB%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880823%EF%BC%89",
+      "published": "Mon, 03 Aug 2026 15:27:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "b54072.economist-day1-qa.",
+        "CATTI",
+        "Day01",
+        "day01-trial",
+        "Demo"
+      ],
+      "summary": "第一期快结束了、第二期还在进行中，已经有同学问：下一期还是读原来的文章吗？当然不是啦！新一期是全新的20篇文章！每天两段精读！ 这次有个重大更新：第一期小伙伴反馈说自测区仿写，自己写的句子不知道对不对，这一期大家每天提交的前十位仿写，我们让写作组老师都会批改！！也会发群里，这样大家也可以在别人的完美的或者有问题的句子中学到很多。 新一期20天，我们会读什么 第1周｜AI、教育与科技 AI如何真正改善教育 校园禁手机，真的有用吗 中国大学真的世界第一了吗 求职者的AI军备竞赛 一块奶酪里的古代中国 第2周｜就业、城市…",
+      "key_points": [
+        "我们不确定20天能改变多少。但如果这一期结束，你再打开一篇《经济学人》，能比现在少卡壳几次，知道该从哪儿下手拆句子，这门课就没白上",
+        "我们会读什么 第1周｜AI、教育与科技 AI如何真正改善教育 校园禁手机，真的有用吗 中国大学真的世界第一了吗 求职者的AI军备竞赛 一块奶酪里的古代中国 第2…",
+        "供大家体验预习、精读、自测、训练和打卡的完整流程。每天不求多，只要能记住一个点，啊怕是一个词、一个句式，都是进步"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "老炮的消亡",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E8%80%81%E7%82%AE%E7%9A%84%E6%B6%88%E4%BA%A1",
+      "published": "Sun, 02 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "IPO",
+        "AI",
+        "Alpha",
+        "Angelababy",
+        "BAT"
+      ],
+      "summary": "2014年6月7日，由 华谊兄弟 打造的 冯小刚 电影公社，历时两年修建，在海口正式开街，盛况空前。 这是全球首座以导演命名的主题公园，取材自《一九四二》《唐山大地震》等电影元素，总投资 55亿，面积1400亩，内含8000平米超大影棚， 后来的那部《芳华》便是在这儿取景拍摄。 这一年恰逢华谊 20岁生日。到场的除了冯小刚和华谊老板王忠军、王忠磊，还有马云、杨受成、向华强，以及成龙、刘德华、徐克、葛优、张国立、黄晓明、Angelababy领衔的大半个娱乐圈。 冯绍峰胳膊打着石膏来了，宋丹丹双手拄着拐棍也来了—— 只…",
+      "key_points": [
+        "例如上映前多次 “跳票”的《罗曼蒂克消亡史》，由“内地王家卫”程耳自编自导，电影原有一个更写意的名字《旧社会》，很快被打回来——“现在都新社会了，拍什么旧社会？…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-04",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "毕业留美工作缴10万美元“人头费”？特朗普政府又要对国际学生动手了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%AF%95%E4%B8%9A%E7%95%99%E7%BE%8E%E5%B7%A5%E4%BD%9C%E7%BC%B410%E4%B8%87%E7%BE%8E%E5%85%83%E2%80%9C%E4%BA%BA%E5%A4%B4%E8%B4%B9%E2%80%9D%EF%BC%9F%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%BF%E5%BA%9C%E5%8F%88%E8%A6%81%E5%AF%B9%E5%9B%BD%E9%99%85%E5%AD%A6%E7%94%9F%E5%8A%A8%E6%89%8B%E4%BA%86",
+      "published": "Fri, 31 Jul 2026 12:20:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OPT",
+        "H-1B",
+        "of",
+        "Students",
+        "Doors",
+        "Foreign"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 哈佛校园。 摄影师：Stephanie Mitchell 图源：哈佛大学 撰文｜戴晶晶 ‍ ● ● ● 美国计划进一步收紧国际学生在美停留和就业政策。 《华尔街日报》当地时间7月30日援引知情人士报道称，国际学生从美国大学毕业后如果留美工作，特朗普政府考虑收取10万美元费用。 [1] 彭博社也从知情人士处证实了这一消息。 [2] 这笔费用拟与“选择性实习训练计划” （Optional Practical Training，OPT） 挂钩。OPT是美国为持…",
+      "key_points": [
+        "《华尔街日报》当地时间7月30日援引知情人士报道称，国际学生从美国大学毕业后如果留美工作，特朗普政府考虑收取10万美元费用",
+        "目前尚不清楚谁来支付这10万美元。知情人士称，费用可能由国际学生本人支付，也可能由未来雇主承担。但无论由谁支付，10万美元都远超普通工作许可的办理成本，可能使大…",
+        "特朗普政府正在不断推出政策工具来限制国际学生的留美学习和就业"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "长鑫不是一种必然",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E9%95%BF%E9%91%AB%E4%B8%8D%E6%98%AF%E4%B8%80%E7%A7%8D%E5%BF%85%E7%84%B6",
+      "published": "Thu, 30 Jul 2026 21:18:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DRAM",
+        "Innotron",
+        "EUV",
+        "ASML",
+        "NAND",
+        "SK"
+      ],
+      "summary": "2018年10月22日，荷兰光刻机公司ASML总部迎来一位中国客人： Innotron 的CEO 朱一明 。 听到Innotron这个名字，ASML高管大概率是懵逼的。Innotron成立于2016年的合肥，没有量产芯片，没有客户，也没有收入，但开口就要买一台ASML定价1.2亿美元的EUV光刻机。 朱一明倒是在业内小有名气，生于1972年，先后在清华大学拿到应用物理学士和硕士，后赴美国深造，2005年回国创立兆易创新。 兆易创新的拳头产品是 NOR Flash ，属于存储芯片边缘品类，用于中低端电子产品，大厂食之…",
+      "key_points": [
+        "虞仁荣姿态松弛 朱一明也有类似经历。2004年他在硅谷创业，早期投资人是一水儿的清华校友，包括85级自动化的李军、83级经济系的薛军、80级工物系的罗茁以及81…",
+        "国家大基金一期的投资周期是2014-2019年，跟长鑫最缺钱的阶段重合，但一期没有投资长鑫，而是一直等到2020年，长鑫的良率已经曙光在前的时候，大基金二期才出…",
+        "参考资料 [1] Chinese companies rush to make own chips as trade war bites，Nikkei Asia…"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "《哈利波特》中1加隆=17银西可，1银西可=29纳特，jk罗琳为什么设计了一种难以快速计算的货币体系？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791630",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Farthing",
+        "Florin",
+        "Half",
+        "jk",
+        "JK",
+        "Pence"
+      ],
+      "summary": "腐哥腐豆腐的腐， 抽抽抽苦手，爹味。想要我破防很简单，你比我优秀就行。 查看知乎原文 这是在阴阳英国以前的老货币系统。 英国曾经使用一种叫£sd 的旧货币体系，采用了三个货币单位，便士、先令、和英镑。 而它们之间的换算如下： 12 便士（Pence）= 1 先令（Shilling） 20 先令 = 1 英镑（Pound） 也就是说： 1 英镑 = 240 便士 这听起来还能接受，但真正的问题是…英国人日常流通的硬币面值极其混乱。 除了一便士、一先令的面值，还有： 四分之一便士（Farthing） 半便士（Half…",
+      "key_points": [
+        "于是她在《哈利·波特》里狠狠干了一票： 17 西可 = 1 加隆 29 纳特 = 1 西可 比英国旧币还恶毒",
+        "虽然这设计一定程度可以说是罗琳不懂经济学，飞来一个灵感就用。但这个设定也恰恰符合她对魔法世界的一贯塑造： 一个封闭、充满离谱习俗、抱怨却死活不改的老旧社会",
+        "则是把一磅银子铸造成 240 枚便士（小银币）。为什么选 240？因为 240 既是 12 的倍数，又能被大量数字整除，非常适合拆分。这就是镑和便士之间的汇率由…"
+      ]
+    }
+  ]
+}
