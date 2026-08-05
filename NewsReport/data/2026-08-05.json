@@ -1,0 +1,721 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T01:00:12.793225+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 92,
+    "fresh_candidates": 62,
+    "backfill_candidates": 30,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-05",
+      "fetched_at": "2026-08-05T01:00:07.393057+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3822.28,
+          "change": 12.62,
+          "change_pct": 0.33,
+          "volume": 540324922.0,
+          "amount": 100838254.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4082.18,
+          "change": 4.9699999999998,
+          "change_pct": 0.12,
+          "prev_close": 4077.21,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-05 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 885.5102628321572,
+          "change": 1.078096998730075,
+          "change_pct": 0.12189708158275221,
+          "prev_close": 884.4321658334271,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-05 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "华能水电—具备成长性的水电公司",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5385800475/403546978",
+      "published": "Tue, 04 Aug 2026 09:55:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GW",
+        "ericwarn",
+        "http",
+        "LPR3.00",
+        "LPR3.50",
+        "SH600025"
+      ],
+      "summary": "我在之前的文章中，已经分享了很多关于水电的详细分析，可以从以下文章中查看： 《 A股主要水电公司经营数据的对比 》 《 一流的商业模式：水电 》 《 三季报总结：大公共事业篇（下） 》 《 电力2025年年报解读—水电篇 》 本篇分析的是我国第二大水电上市公司—华能水电，核心看点是其成长性。 水电资产的特点是前期投入大，大坝、机组建成后几乎无可变成本，每年能够稳定释放现金流，资产存续、盈利回报周期远超绝大多数行业。本文将从公司在建发电机组、上网电价、财务费用和折旧的维度，去分析一下公司的成长空间。 看点1：水电装机…",
+      "key_points": [
+        "已经分享了很多关于水电的详细分析，可以从以下文章中查看： 《 A股主要水电公司经营数据的对比 》 《 一流的商业模式：水电 》 《 三季报总结：大公共事业篇（下…",
+        "上市水电公司中华能水电的在建装机量是水电公司中最大的（在建4.8GW），还有一定的成长性。在水电公司里面国投电力合计在建3.72GW，国电电力在建1.5GW，其…",
+        "与长江电力20倍相当，但略微高一点，也许是市场给了其成长性溢价；分红率45%，股息率2%左右，不够有吸引力；不过有增量空间的水电资产是比较稀缺的， 可以等被错杀…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谁来拯救多晶硅？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8414744881/403508212",
+      "published": "Tue, 04 Aug 2026 09:55:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "多晶硅的最近炒作的故事。是核定成本，不得低于成本销售。 先不说这个合不合法。这个成本到底是什么成本？现金成本，还是完全成本？ 如果按照现金成本，头部企业现金成本只有27000—28000元/吨，加税也就是3万元左右，本来就低于现价。按照这个规定，头部现在的销售完全合理。 而且到了丰水期，部分基地成本还会下降。技术也在迭代，成本本身就是往下走的。 如果按照完全成本，问题就大了。 每家企业的完全成本都不一样。是全行业一刀切，还是每家按照自己的成本卖？ 一刀切，切在哪里？按照低成本企业切，高成本企业还是亏；按照高成本企业…",
+      "key_points": [
+        "切在哪里？按照低成本企业切，高成本企业还是亏；按照高成本企业切，低成本企业就躺着赚超额利润。大家再统一一个最低售价，那是不是又变成价格垄断和哄抬价格了"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "思科2000-2021年复盘",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3719761070/403598369",
+      "published": "Tue, 04 Aug 2026 09:55:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "AVVID",
+        "IP+",
+        "Aironet",
+        "Catalyst",
+        "VPN"
+      ],
+      "summary": "思科复盘核心规律： （1）股价是2000年3月见顶的，但是后续产业仍在发展，9-12个月后，基本面才见顶 （2）先出现问题的是融资渠道 ， 边际买家资金面没有钱了 ： 融资市场崩塌早于订单 8 个月，股价跟随融资市场崩塌 （3）需求在顶部显得最强，然后暴力蒸发，突然消失 ：先是交期拉长 → 然后是抢配额虚单 → 需求在顶部显得最强，然后暴力蒸发。 （4）股价碟调80%之后，管理层口风才转变，承认需求下滑。再次确认 触发器不是需求数据，是再融资窗口关闭 。 （5）一些capex泡沫破灭的共性信号： 不可撤销性 + 完…",
+      "key_points": [
+        "思科复盘核心规律： （1）股价是2000年3月见顶的，但是后续产业仍在发展，9-12个月后，基本面才见顶 （2）先出现问题的是融资渠道 ， 边际买家资金面没有钱…",
+        "思科 2000年8月8日——股价3月底见顶，最高跌了40%，后反弹，财报会议附近回到最高点跌20% 2000财年第四季度的净销售额为57.2亿美元，而去年同期为…",
+        "思科面向服务提供商客户群体的战略是提供可靠且可扩展的电信级IP技术，通过将服务提供商与思科在企业和商业市场的专业知识、认知及资源网络相连接，帮助其降低服务交付成…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "拿什么拯救你，腾势汽车",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8704550738/403518646",
+      "published": "Tue, 04 Aug 2026 09:54:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Z9GT",
+        "D9",
+        "N8L",
+        "N9",
+        "Z9S",
+        "N7"
+      ],
+      "summary": "$比亚迪(SZ002594)$ $比亚迪股份(01211)$ 一个握着比亚迪最好技术资源、最早渠道建设和奔驰合资血统的品牌，为什么四年了还在原地打转？本报告的结论是：问题不在营销，不在产品力，甚至不在品牌调性——腾势从来就没有被授予&#34;定义一台车&#34;的权力。 摘要三句话结论 第一，&#34;月销还是1万多台&#34;这个观感需要精确化，但精确化之后指控更重。 腾势 2026 年 6 月首次突破 2 万台（20,352 台），7 月 19,196 台。但 1—7 月累计 85,737 台，比 2025 年…",
+      "key_points": [
+        "据《晚点 Auto》报道（比亚迪未正面回应），2025 年起王朝、海洋、腾势、方程豹四品牌独立核算、自负盈亏；2026 年 6 月汽车工程院一拆为五，各品牌研究…",
+        "1治理层：产品定义权从来不在腾势手里 2026 年 6 月改革之前，比亚迪汽车工程院是绝对权力中枢，五大品牌研究院是工程院的 二级部门 ，职能被内部形容为&#3…",
+        "声量没有起来 ——在《中国汽车报》×新榜的车企抖音影响力 TOP20 榜单中，2026 年 4、5、6 月三期正文均未出现腾势"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "集思广益，做难且正确的事",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3196557688/403543112",
+      "published": "Tue, 04 Aug 2026 09:54:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPU",
+        "Token",
+        "AI",
+        "HBM",
+        "ASIC",
+        "BOM"
+      ],
+      "summary": "集思广益，卖方观点分享： 云厂商从“修路工”到“调度员” 之前压在云上面的一座大山是，云厂商是AI时代出钱修路的人，最后却可能只变成闭源模型的基础设施供应商：云厂商投入巨额资本购买GPU、建设数据中心，但如果绝大部分任务都必须调用少数几家闭源模型，那么模型厂商掌握需求入口和定价权，云厂商承担重资产投入，增量利润却可能被模型层拿走。现在这个格局开始变化。开源模型越来越强、越来越便宜，虽然最强闭源模型在复杂推理和高价值任务上仍有溢价，但它已经没有必要成为所有任务的默认选择。 未来的AI调用会从“一个模型解决所有问题”，…",
+      "key_points": [
+        "最确定的不是某一家供应商，而是在互联带宽和光传输上具备技术壁垒的公司——因为无论芯片怎么变、模型怎么换，数据在机柜间、集群间的流动只会越来越密集，而这一环节，我…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "假如蝌蚪没有经过变态发育会是怎样的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791650",
+      "published": "Mon, 03 Aug 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Goliath",
+        "Ambystoma",
+        "cm",
+        "T3",
+        "T4",
+        "talpoideum"
+      ],
+      "summary": "小星有鬼， 没用的生物学知识又增加了 查看知乎原文 一、传奇的巨型牛蛙蝌蚪“Goliath” 蝌蚪的变态发育主要是依靠甲状腺素触发，因此，很多甲状腺和甲状腺素分泌出现问题的蝌蚪难以进入变态发育过程，始终保持蝌蚪形态，并继续长大，最终变成巨无霸蝌蚪。 巨型美洲牛蛙蝌蚪 Goliath 和正常大小的美洲牛蛙蝌蚪对比 上图这只美洲牛蛙（ Lithobates catesbeianus ）蝌蚪被发现于美国亚利桑那州奇里卡瓦山脉的一处池塘中，由美国自然历史博物馆西南研究站的实习生 Alina Downer 在参与濒危物种奇里…",
+      "key_points": [
+        "巨型美洲牛蛙蝌蚪 Goliath 蝌蚪的变态发育依赖于甲状腺素的触发， 甲状腺素通路异常 很有可能是蝌蚪巨型化的主因。甲状腺素不足，蝌蚪无法进入变态发育环节，便…",
+        "还有极少数的幼态个体能够性成熟，环境压力是否正在促使非洲爪蟾走上一条多样化的演化之路——即大多数个体变态发育后正常繁殖，少数个体通过永久幼态繁殖，为种群繁衍留一…",
+        "巨型美洲牛蛙蝌蚪 Goliath 巨型美洲牛蛙蝌蚪 Goliath 被发现后，该蝌蚪被安置在实验室水族箱中，水质保持清洁，并模拟自然光照周期。研究人员定期投喂藻…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "市场还在看外卖，美团已经开修下一条护城河",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6440340.html",
+      "published": "Tue, 04 Aug 2026 09:37:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Gartner",
+        "App",
+        "case",
+        "CC0",
+        "CEO"
+      ],
+      "summary": "美团旗下AI助手小团全面升级，从“能答”到“能办”，实现订餐、打车等本地生活服务的代理执行。本文深入解析其背后的数据与履约壁垒，探讨AI如何降低消费决策摩擦，并指出美团的AI资产价值被市场低估。 15世纪末，哥伦布环球航行归来，部分欧洲贵族认为其成就出于偶然。哥伦布没有反驳。他拿起一个鸡蛋，让在场的人试着把它立在桌上。没有人成功。他轻轻在蛋壳上敲了一个小凹痕，把蛋稳稳地放了上去，然后说：“这件事不难，但只有我知道怎么做到。” 很多事情听起来都不难。让AI回答一个问题，让AI梳理一份看似逻辑合理的出行方案，让AI帮用…",
+      "key_points": [
+        "美团的AI资产积累，远比市场看到的要厚。理想、智谱、宇树，以及今年大放异彩的月之暗面，背后都有美团的身影。而在内部，美团的投入同样不遑多让。在今年的电话会上，王…",
+        "是用十几年时间一寸一寸铺出来的。这条护城河，不是技术领先挖出来的，是时间熬出来的。而时间筑成的壁垒，恰恰最难被颠覆",
+        "再说履约能力。小团能协助完成订位、下单、打车，不止是因为能理解用户需求。更根本的原因是：美团有覆盖本地生活服务的配送及服务履约网络，能承接住AI发起的每一个行动…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI First，Coding Zero！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6440296.html",
+      "published": "Tue, 04 Aug 2026 08:57:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Coding",
+        "AI",
+        "Code",
+        "Claude",
+        "First",
+        "Zero"
+      ],
+      "summary": "字节跳动启动AI业务组织调整，飞书并入豆包，销售体系整合进火山引擎。这一动作背后，是各巨头在Coding赛道上的激烈竞争。本文解析字节此次调整的战略意图，以及Coding为何成为大厂重投入的关键领域。 前几天，字节跳动启动了AI业务组织调整！ 这是自2021年实行业务板块化以来，字节对To B业务动作最大的一次。 飞书产品团队并入豆包，飞书的市场、销售、客服体系则与火山引擎整合，组建新To B GTM组织“创造力服务平台”。 表面看，这只是一次协同办公产品的架构重组，但如果结合当前全行业的动作来看，这大概率也和字节…",
+      "key_points": [
+        "相比AI客服提升多少体验、会议纪要省多少时间等模糊指标，Coding可直接换算为开发周期缩短天数、Bug减少数量、测试覆盖率提升比例，这些都能进财报。软件工程师…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一个入口太小，一个弹窗太大：Codex和豆包同时上了一堂产品课",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6440279.html",
+      "published": "Tue, 04 Aug 2026 08:55:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Codex",
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "Codex新聊天入口藏得太深，豆包录音弹窗却主动变小。这两个小改动看似简单，实则关乎产品体验的核心：功能要让人看见，状态则不打扰。本文从实际体验出发，剖析入口设计的分寸感，探讨AI产品如何平衡功能与体验。 今天发现了 Codex 的新聊天入口，也看到豆包把录音听写的大弹窗改小了。 说实话，这两处变化对我来说，一方面确实很实用、很痒点，但另一方面也提醒我：产品更新不能只完成设计，确实，也还要让老用户知道发生了什么。 产品入口，既是产品功能，也是用户体验，是产品同学绕不开的设计能力。 Codex 的新聊天没有消失，只是…",
+      "key_points": [
+        "豆包录音弹窗却主动变小。这两个小改动看似简单，实则关乎产品体验的核心：功能要让人看见，状态则不打扰。本文从实际体验出发，剖析入口设计的分寸感，探讨AI产品如何平…",
+        "这次 Codex 让我重新找回了一个实用入口，豆包也确实听劝，把最突兀的功能重新折叠起来",
+        "豆包录音结束后的实时总结页面 看见与折叠，都是产品体验 我一直觉得，AI 将产品落地的门槛和生产力大幅提高之后，必将加速产品体验的竞争，这些对于产品同学来说，不…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "禁掉所有工具后，Opus 5和GPT-5.6的差距终于藏不住了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6440242.html",
+      "published": "Tue, 04 Aug 2026 08:45:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "bug",
+        "Opus",
+        "GPT-5.6",
+        "AI",
+        "Claude",
+        "HTML"
+      ],
+      "summary": "Opus 5发布后，提示词工程似乎成了过去式。本文用两个极限测试对比Opus 5与GPT-5.6：一个埋了六个bug的购物车代码，一个禁用所有第三方库的波形图任务。从找bug到解题思路，看谁更懂产品思维。 且不论性能，自Claude Opus 5发布以后有一件事让AI圈特别在意，就是Anthropic在提示词上的改进。 AI投资人玛特·夏默（Matt Shumer）在X上发了一条视频，播放量超过4百万次。 他只给Opus 5写了三段话作为提示词，模型就用Three.js写出了一个能玩的3D第一人称射击游戏。这个项目…",
+      "key_points": [
+        "画音频波形图，通常都会用到matplotlib + numpy + librosa这三件套，专业、方便、几行代码搞定。正所谓巧妇难为无米之炊。如果我刻意把这些工…",
+        "提示词工程似乎成了过去式。本文用两个极限测试对比Opus 5与GPT-5.6：一个埋了六个bug的购物车代码，一个禁用所有第三方库的波形图任务。从找bug到解题…",
+        "代码里根本就没区分原价和优惠价这两个口径，而这才是所有相关bug的总根源。它还指出运费函数的参数名本身就是错的，把错误固化进了函数签名里，甚至还推导了改完之后选…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "首部AIGC故事片《奇谭》，究竟是怎么做出来的？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6440061.html",
+      "published": "Tue, 04 Aug 2026 07:58:07 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "IP",
+        "AIGC",
+        "Banana",
+        "CC0",
+        "CEO"
+      ],
+      "summary": "AI影视迎来里程碑时刻，首部获官方发行许可的长片《奇谭》上线爱奇艺。这部68分钟的东方志怪作品，不仅验证了AI在长叙事中的可行性，更揭示了“人工创意+AI生成”的协作新模式。本文深度对话主创团队，拆解AI长片的制作流程、风格探索与商业化路径。 AI影视，迎来了首部获得官方发行许可的长片作品。 近期，《奇谭：纸刃渡荒墟》（以下简称《奇谭》）在爱奇艺正式上线。这部由大梦创新与爱奇艺联合出品、时长达68分钟的影片，在上线后登顶爱奇艺总榜飙升榜、电影热搜榜等多个榜单。 不同于此前依靠短时长、高传播效率出圈的AI短片，《奇谭…",
+      "key_points": [
+        "01 AI长片是怎么做出来的",
+        "作为国内首部获得《网络剧片发行许可证》的AIGC网络故事片，《奇谭》根植于中式奇幻，讲述了御纸师白小满与半人半纸的胡不归闯入阴阳夹缝、寻找自我救赎的故事",
+        "《奇谭》AI导演刘海洋进一步拆解了影片的详细制作流程，他将一部AI长片从创意到最终成片的过程大致分为几个阶段： “首先是传统的剧本创意和讨论阶段，AI团队会同步…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "欧盟《人工智能法案》透明度规则开始适用；首届Agent记忆挑战赛启动；荣耀Robot Phone配置曝光",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AC%A7%E7%9B%9F%E3%80%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%B3%95%E6%A1%88%E3%80%8B%E9%80%8F%E6%98%8E%E5%BA%A6%E8%A7%84%E5%88%99%E5%BC%80%E5%A7%8B%E9%80%82%E7%94%A8%EF%BC%9B%E9%A6%96%E5%B1%8AAgent%E8%AE%B0%E5%BF%86%E6%8C%91%E6%88%98%E8%B5%9B%E5%90%AF%E5%8A%A8%EF%BC%9B%E8%8D%A3%E8%80%80Robot+Phone%E9%85%8D%E7%BD%AE%E6%9B%9D%E5%85%89",
+      "published": "Tue, 04 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "AML",
+        "Phone",
+        "Robot",
+        "Xbox"
+      ],
+      "summary": "今天是2026年8月4日，星期二。2007年的今天，NASA发射了“凤凰”号火星探测器，并在探测任务中发现了火星表层下的冰。 重点新闻速览 1.欧盟《人工智能法案》透明度规则开始适用 2.Agent 记忆能力首个公开评测榜单 AML 发布 3.复旦新技术30分钟完成胶质瘤三维病理分析 4.荣耀 Robot Phone 配置曝光 科技 欧盟《人工智能法案》透明度规则开始适用 欧盟《人工智能法案（AI Act）》中的部分透明度义务开始进入适用阶段。根据相关规定，面向欧盟用户的部分 AI 系统需要明确告知用户其正在与人工…",
+      "key_points": [
+        "重点新闻速览 1.欧盟《人工智能法案》透明度规则开始适用 2.Agent 记忆能力首个公开评测榜单 AML 发布 3.复旦新技术30分钟完成胶质瘤三维病理分析…",
+        "首届 Agent 记忆挑战赛也已同步启动，面向开源项目和商业产品开放报名。（Agent Memory Leaderboard 官网） AML正式发布丨Agent…",
+        "该技术能够以单细胞分辨率呈现肿瘤浸润边界，在人体胶质瘤标本中，有超过 20% 的浸润区域仅在三维分析中被识别，有望为脑肿瘤术中快速诊断和精准切除提供新的技术方案…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一生爱卷的中国人！这次轮到了曾经高攀不起的“天价”抗衰神话......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%94%9F%E7%88%B1%E5%8D%B7%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA%EF%BC%81%E8%BF%99%E6%AC%A1%E8%BD%AE%E5%88%B0%E4%BA%86%E6%9B%BE%E7%BB%8F%E9%AB%98%E6%94%80%E4%B8%8D%E8%B5%B7%E7%9A%84%E2%80%9C%E5%A4%A9%E4%BB%B7%E2%80%9D%E6%8A%97%E8%A1%B0%E7%A5%9E%E8%AF%9D......",
+      "published": "Tue, 04 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PPM",
+        "ml",
+        "DPPH",
+        "buf",
+        "dc_ps",
+        "End"
+      ],
+      "summary": "是谁，咬牙花大几千买了 贵妇精华 ，用的时候 抠抠搜搜，生怕浪费 一滴，结果一瓶用完却发现，皮肤好像也就那样？ 这并 不是你皮肤的问题，是 钱没花对地方 ！ 成分党朋友都知道，护肤品值不值得买，不能只 看广告宣传， 一要看成分表 ，二要看成分排名 （排名越靠前，含量越高，作用越大） 。 比如， 麦角硫因 这个成分，几乎所有的国际护肤品牌K老线都有添加。 因为皮肤老化的头号杀手就是自由基 ，紫外线、生活压力、作息不规律、年龄增长、空气污染等都会产生过剩的自由基， 长期放任不管， 就会导致 脸氧化变黄、暗沉发灰、粗糙、…",
+      "key_points": [
+        "✅ 2000 +PPM、 5000+ PPM在此基础上还添加了足量烟酰胺+传明酸，配合麦角硫因协同褪黑， 并拿到了美白淡斑特证 ，美白特证+专利双buf加持",
+        "还拿到了含金量高的美白淡斑特证+自研专利证书，价格却只要别人的一个零头",
+        "让麦角硫因 实现了量产，纯度还做到了 99.99%"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "上年纪后，不只肚子，脖子也终于有了游泳圈……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8A%E5%B9%B4%E7%BA%AA%E5%90%8E%EF%BC%8C%E4%B8%8D%E5%8F%AA%E8%82%9A%E5%AD%90%EF%BC%8C%E8%84%96%E5%AD%90%E4%B9%9F%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%86%E6%B8%B8%E6%B3%B3%E5%9C%88%E2%80%A6%E2%80%A6",
+      "published": "Tue, 04 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SDX",
+        "g+",
+        "HRP",
+        "off",
+        "dc_ps",
+        "detail"
+      ],
+      "summary": "一到夏天就特别想穿V领、吊带，戴上精致的锁骨链~ 可一自拍就发现， 脖子上细长深刻的几道皱纹，还是让整个人还是说不出的： 显老。 连女明星都很容易中招 为啥颈部不老则已， 一老起来这么可怕？ 从皮肤结构来说，颈部天生就在抗皱这方面是短板。 🟤皮肤薄、胶原少： 和脸比起来， 脖子上皮肤的角质层含水量更高、更薄， 长期低头、抬头、转动拉扯， 胶原会更容易断裂塌陷 ，形成不可逆静态纹路； 🟤 皮脂腺稀缺： 脸上有源源不断的油脂来保湿，但 脖子的皮脂和汗腺数量只有脸的1/3 ，没有大量皮脂腺的保护，水分流失更快，干纹天天叠…",
+      "key_points": [
+        "对比图效果一目了然： 旧版本已经很能打，去年它也终于迎来重磅升级",
+        "脖子上皮肤的角质层含水量更高、更薄， 长期低头、抬头、转动拉扯， 胶原会更容易断裂塌陷 ，形成不可逆静态纹路； 🟤 皮脂腺稀缺： 脸上有源源不断的油脂来保湿，但…",
+        "👇🏻实测28天颈部紧致度增加43.12 👇🏻 👇🏻实测28天颈部弹性增加42.11 👇🏻 以上三层成分协同发力， 不管是干纹、低头纹、松垮老化纹，还是脸颈色差、…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "牛蛙抗生素超标 5 倍多，吃一顿到底有多危险？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%89%9B%E8%9B%99%E6%8A%97%E7%94%9F%E7%B4%A0%E8%B6%85%E6%A0%87+5+%E5%80%8D%E5%A4%9A%EF%BC%8C%E5%90%83%E4%B8%80%E9%A1%BF%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E5%8D%B1%E9%99%A9%EF%BC%9F",
+      "published": "Tue, 04 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Food",
+        "in",
+        "https",
+        "PMID",
+        "al.",
+        "Drug"
+      ],
+      "summary": "昨天（8 月 3 日），澎湃新闻发布了一篇暗访调查，联合环保公益机构对多个电商平台的牛蛙产品做了检测，结果不太好：多个样品 抗生素残留超标 ，最严重的一份 恩诺沙星超标了 5 倍以上 ，还有样品检出了早就被禁止用于食品动物的 呋喃唑酮代谢物 [1]。 牛蛙一直是兽药残留的重灾区。2014 年以来牛蛙共抽检 21518 次，其中 4077 次不合格， 不合格率约为 18.95%[2] ，这类抽检本来就会更多盯着高风险品类和环节，不是说 5 只就有一只不合格，但说实话，这个比例真的不低了。所以我去年写牛蛙时也强调了这件…",
+      "key_points": [
+        "澎湃新闻发布了一篇暗访调查，联合环保公益机构对多个电商平台的牛蛙产品做了检测，结果不太好：多个样品 抗生素残留超标 ，最严重的一份 恩诺沙星超标了 5 倍以上…",
+        "这个 5 倍到底有多危险",
+        "呋喃唑酮：属于不该出现的禁药 其他抗生素我就不多说了，但这次还检测出了呋喃唑酮代谢物。暗访里，拼多多一家名为\"美味蛙牛蛙生鲜\"的店铺销售的一款牛蛙，呋喃唑酮代谢…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "一代歌舞巨星，她的光曾照亮华人世界",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%80%E4%BB%A3%E6%AD%8C%E8%88%9E%E5%B7%A8%E6%98%9F%EF%BC%8C%E5%A5%B9%E7%9A%84%E5%85%89%E6%9B%BE%E7%85%A7%E4%BA%AE%E5%8D%8E%E4%BA%BA%E4%B8%96%E7%95%8C",
+      "published": "Tue, 04 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Roxie",
+        "YouTube"
+      ],
+      "summary": "文 Roxie 葛兰去世了， 93 岁，很高寿。 也许今天的影迷熟悉她的不太多，毕竟她活跃于七十年前，电影生涯只有十一年，期间一共拍了三十三部电影。 这个数字在当年的产量机制下不算惊人，但葛兰在银幕上留下的印记，远远超出了她的片单长度。 葛兰与尤敏 《星星月亮太阳》剧照 葛兰的事业，和国际电影懋业有限公司紧密绑定。这家片厂的掌舵者陆运涛是南洋华侨资本家，五六十年代在马来亚和新加坡经营着庞大的院线帝国。 1955 年，他收购了负债累累的永华影业，将其改组为电懋，把好莱坞式的公司化管理引入香港。 与邵氏兄弟热衷于古装片…",
+      "key_points": [
+        "葛兰式的歌舞明星就再也不会出现了。她的歌还在流传，但那个让这些歌成为可能的世界已经不在了",
+        "京剧和昆曲的训练赋予了葛兰一种与同代歌女截然不同的表演素质。她的嗓音强劲，具有一种洪亮的穿透力，接近戏曲中所谓的金嗓，这她能够自然地接纳摇滚乐、曼波、恰恰、卡里…",
+        "葛兰在电懋时代唱出的那些关于跳舞、关于飞翔、关于恋爱的歌，从来就不只是轻浮的娱乐，它们是一代流亡者用歌舞为自己搭建的避难所"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "新好莱坞一代人的教父就是他",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%96%B0%E5%A5%BD%E8%8E%B1%E5%9D%9E%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E6%95%99%E7%88%B6%E5%B0%B1%E6%98%AF%E4%BB%96",
+      "published": "Tue, 04 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DVD",
+        "Electrical",
+        "hongmomgs",
+        "irisfilm",
+        "Matthew",
+        "Motors"
+      ],
+      "summary": "作者：Matthew Thrift 译者：易二三 校对：覃天 来源：Sight and Sound （2024年5月14日） 罗杰·科曼是美国独立电影界的巨匠，也是一位参与制作了近 500 部作品的制片人兼导演，享年98岁（1926.4.5-2024.5.9）。这位从50年代中期开始电影生涯的B级片之王，以其独特的智慧，在长达70年的时间里经受住了电影业的每一次风暴。从西部片到青春片，从机车片到科幻片和恐怖片，科曼无所不涉。直到晚年，他都没有放慢脚步，仅千禧年以来，他就以制片人的身份参与了60多部影片。 罗杰·科曼…",
+      "key_points": [
+        "因为这是他的第一部电影。他来好莱坞之前是百老汇演员。我和很多年轻演员谈过，但最终决定由他出演。我记得拍摄结束后的一个周六晚上，我和比尔去了镇上的一家酒吧，搭讪了…",
+        "科曼为美国电影界的一些大师带来了职业生涯的第一次突破。在弗朗西斯·福特·科波拉、乔纳森·戴米、马丁·斯科塞斯和杰克·尼科尔森等人的制片厂生涯中，科曼既对创作自由…",
+        "问：由于《迷途》（1967）和《野帮伙》（1966）这两部影片，你被认为是让丹尼斯·霍珀走上《逍遥骑士》（1969）之路的功勋。你如何看待整个新好莱坞运动"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "终于能坐下来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%BB%88%E4%BA%8E%E8%83%BD%E5%9D%90%E4%B8%8B%E6%9D%A5%E4%BA%86",
+      "published": "Tue, 04 Aug 2026 18:43:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CCD"
+      ],
+      "summary": "虽然累到无语，不过还是起身随手捏一张天空，顺带捕捉一只鸟儿。手机摄影就是那么随意。手机还是要比 CCD 相机方便，就算是伍佰也得服气掏手机抓拍的手速。祝你下班好，晚饭好，孩子功课好，夫妻关系好，晚上睡得好。 2026年全新上线 一口鲜油鸡枞纯粹版（全菌帽）",
+      "key_points": [
+        "不过还是起身随手捏一张天空，顺带捕捉一只鸟儿。手机摄影就是那么随意。手机还是要比 CCD 相机方便，就算是伍佰也得服气掏手机抓拍的手速。祝你下班好，晚饭好，孩子…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "大陆东南侧为何总有大岛？我们可能被地图骗了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%A4%A7%E9%99%86%E4%B8%9C%E5%8D%97%E4%BE%A7%E4%B8%BA%E4%BD%95%E6%80%BB%E6%9C%89%E5%A4%A7%E5%B2%9B%EF%BC%9F%E6%88%91%E4%BB%AC%E5%8F%AF%E8%83%BD%E8%A2%AB%E5%9C%B0%E5%9B%BE%E9%AA%97%E4%BA%86",
+      "published": "Tue, 04 Aug 2026 17:35:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt"
+      ],
+      "summary": "翻看世界地图， 我们发现了一个有意思的现象， 把目光投向几块大陆的 东南方向 ： 亚洲东南侧有 台湾岛 ， 非洲东南侧有 马达加斯加岛 ， 北美洲大陆东南外侧的加勒比海，分布着 古巴岛 和 伊斯帕尼奥拉岛 ， 南美洲东南方有 马尔维纳斯群岛 ， 澳大利亚东南方则有 塔斯马尼亚岛 。 它们大小不同、距离大陆远近不一， 形成时间也相差甚远， 却像是约好了一样， 纷纷出现在大陆的东南一侧！ 难道，大洲的东南角真的更容易长出岛屿？ 这些“东南岛”，都有谁？ 台湾岛 亚洲东南缘，被“挤”出来的岛 位于亚洲大陆东南缘的 台湾岛…",
+      "key_points": [
+        "台湾东部海岸的海蚀地形十分显著 长期受海浪侵蚀、风化及差异侵蚀作用， 坚硬岩层保留下来，较软岩层不断被削蚀， 最终形成了形似蘑菇的蕈状石 图为中国台湾省台北市…",
+        "我们发现了一个有意思的现象， 把目光投向几块大陆的 东南方向 ： 亚洲东南侧有 台湾岛 ， 非洲东南侧有 马达加斯加岛 ， 北美洲大陆东南外侧的加勒比海，分布着…",
+        "被“挤”出来的岛 位于亚洲大陆东南缘的 台湾岛 ，是 中国第一大岛 ，也是西太平洋上一座极具代表性的高山岛"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“隐瞒”失败病例？巴斯德狂犬疫苗试验事故还原｜商周专栏",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E9%9A%90%E7%9E%92%E2%80%9D%E5%A4%B1%E8%B4%A5%E7%97%85%E4%BE%8B%EF%BC%9F%E5%B7%B4%E6%96%AF%E5%BE%B7%E7%8B%82%E7%8A%AC%E7%96%AB%E8%8B%97%E8%AF%95%E9%AA%8C%E4%BA%8B%E6%95%85%E8%BF%98%E5%8E%9F%EF%BD%9C%E5%95%86%E5%91%A8%E4%B8%93%E6%A0%8F",
+      "published": "Tue, 04 Aug 2026 08:08:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "Exp",
+        "acute",
+        "adjuvants.",
+        "by",
+        "disseminated"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 查看狂犬病疫苗的巴斯德画像（作者：阿尔伯特·埃德费尔特，图源：维基百科） 撰文｜商周 ‍ ● ● ● 01 让巴斯德声誉达到巅峰的狂犬病疫苗 1885年7月6日，星期一，法国科学家路易·巴斯德的实验室来了三名陌生访客：一位神情焦急的母亲、她九岁的儿子约瑟夫·迈斯特，以及一位名叫西奥多·冯内的先生，三人来自法国东部的阿尔萨斯。 两天前，小男孩迈斯特的父亲让他去附近小镇的一家啤酒厂取液体酵母。走在小镇街上的时候，迈斯特受到一条疯狗的攻击，手部和脚上多处被咬伤…",
+      "key_points": [
+        "却是佩鲁茨没有回应的，这就是巴斯德对两个狂犬病疫苗接种失败病例的“隐瞒”",
+        "狂犬病一旦发作就意味着死亡，因此为这两人接种狂犬病疫苗并不违反伦理道德，接种失败也不意味着疫苗无效，但巴斯德隐瞒这两个失败的病例依然是不诚实的表现",
+        "从巴斯德和家人以及朋友的通讯来看，他应该并非有意隐瞒这两个病例。因为在他看来，狂犬病疫苗需要在病人被疯狗咬伤之后、出现狂犬病症状之前接种。而这两个病例是出现了狂…"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "一瓶啤酒，撑起老挝3.5%的GDP | 经济学人亚洲（考研、CATTI考试必看)",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%80%E7%93%B6%E5%95%A4%E9%85%92%EF%BC%8C%E6%92%91%E8%B5%B7%E8%80%81%E6%8C%9D3.5%25%E7%9A%84GDP++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E4%BA%9A%E6%B4%B2%EF%BC%88%E8%80%83%E7%A0%94%E3%80%81CATTI%E8%80%83%E8%AF%95%E5%BF%85%E7%9C%8B%29",
+      "published": "Tue, 04 Aug 2026 21:46:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "LBC",
+        "Beerlao",
+        "to",
+        "Kyophilavong",
+        "Phouphet"
+      ],
+      "summary": "本文选自经济学人亚洲板块 Jul 30th 2026 https://www.economist.com/asia/2026/07/30/beerlao-probably-the-most-important-lager-in-the-world Beerlao: probably the most important lager in the world 标题很勾人：世界上“最重要”的啤酒，不在德国、比利时或日本，而在老挝。Beerlao 一年销售额相当于该国GDP的3.5%，还是全国最大纳税户。文章前半段写得像…",
+      "key_points": [
+        "本文选自经济学人亚洲板块 Jul 30th 2026 https://www.economist.com/asia/2026/07/30/beerlao-pro…",
+        "翻译点拨 ： 英文可以把“观点 + 发言人 + 说明内容”塞在一句里，中文最好拆开。先说“老挝国立大学的 Phouphet Kyophilavong 认为”，再…",
+        "酒醒之后却有点头疼。它的成功恰恰映出老挝经济的暮气沉沉。一党统治未能带动其他产业起飞；眼下还算兴旺的水电和采矿业，又创造不了多少岗位。老挝国立大学的 Phoup…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-05",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么很多文物「破破烂烂」却价值连城，它到底贵在哪里？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791621",
+      "published": "Sat, 01 Aug 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "为什么很多文物“破破烂烂”却价值连城，它到底贵在哪里？ 何其深， 逃不过命中注定时，就给它点颜色 查看知乎原文 湖北省博物馆展出的睡虎地“黑夫”书信，不光“破破烂烂”还是史上无名的“小人物”。 我们在学校里学的历史都是正史，是历代新建王朝为前朝修史，是很正确的历史。 慢慢地，我们代入了上位者的正确史观来看待过去。 史书是不会记录像”黑夫““惊”和“喜”这样一个小人物的。 先简单介绍一下： 1975 年 11 月，湖北云梦县睡虎地村村民开挖农田排水渠，施工中掘出古墓痕迹；湖北省博物馆组建考古工作队实地勘探，同年 12…",
+      "key_points": [
+        "逃不过命中注定时，就给它点颜色 湖北省博物馆展出的睡虎地“黑夫”书信，不光“破破烂烂”还是史上无名的“小人物”"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "专访王虹：一位中国女数学家的逆流追梦路",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%93%E8%AE%BF%E7%8E%8B%E8%99%B9%EF%BC%9A%E4%B8%80%E4%BD%8D%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E9%80%86%E6%B5%81%E8%BF%BD%E6%A2%A6%E8%B7%AF",
+      "published": "Sat, 01 Aug 2026 08:59:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "sticky",
+        "MIT",
+        "case",
+        "M2",
+        "IHES",
+        "Katz-Tao"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 王虹 最新一期的《数学文化》杂志，刊登了该刊联合主编、中国科学院院士汤涛的文章，原标题 《破百年猜想，赴四十载之约——记菲尔兹奖得主王虹》。王虹接受访谈并审阅了全文。 撰文 ｜ 汤涛 ● ● ● 2026年7月23日，终将被永久镌刻于中国数学发展史册，成为极具里程碑意义的高光节点。在本年度国际数学家大会 （ICM） 上，中国青年数学家王虹、邓煜斩获全球数学界最高荣誉——素有“数学界诺贝尔奖”之称的菲尔兹奖。针对二人突破性的科研成果，著名数学家张益唐由衷赞…",
+      "key_points": [
+        "北大数学2007级同学合影:（左至右）赵子慧、唐云清、王虹、邓煜、孙鑫和苏炜杰 / 北京大学北京国际数学研究中心李东璘 摄 01 半路赴数：一个南方女孩的逆流追…",
+        "第一关是语言关。“刚去法国的时候不太会说法语，上课还有课后同学们交流都是法语，前六个月比较困难，后面在法国同学们的帮助下大概能跟上了。” “巴黎综合理工学院是一…",
+        "撰文 ｜ 汤涛 ● ● ● 2026年7月23日，终将被永久镌刻于中国数学发展史册，成为极具里程碑意义的高光节点。在本年度国际数学家大会 （ICM） 上，中国青…"
+      ]
+    }
+  ]
+}
