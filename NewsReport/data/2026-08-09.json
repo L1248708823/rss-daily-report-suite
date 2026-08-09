@@ -1,0 +1,741 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T01:00:11.209466+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 92,
+    "fresh_candidates": 62,
+    "backfill_candidates": 30,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-09",
+      "fetched_at": "2026-08-09T01:00:05.897204+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3940.04,
+          "change": 39.69,
+          "change_pct": 1.02,
+          "volume": 564988582.0,
+          "amount": 120954357.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4341.12,
+          "change": 100.56999999999971,
+          "change_pct": 2.37,
+          "prev_close": 4240.55,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-08 04:54:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 941.4424979825421,
+          "change": 21.81024068030922,
+          "change_pct": 2.371626322057273,
+          "prev_close": 919.6322573022329,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-08 04:54:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%9C%BC%E6%B2%A6%E9%99%B7%EF%BC%81%E9%9A%BE%E6%80%AA%E9%AB%98%E5%9C%86%E5%9C%86%E5%81%8F%E7%88%B1%E5%9B%BD%E9%A3%8E%E8%85%95%E8%A1%A8%EF%BC%81%E8%A7%A3%E9%94%81%E6%8A%8A%E8%8B%8F%E5%B7%9E%E5%9B%AD%E6%9E%97%E6%88%B4%E5%9C%A8%E6%89%8B%E8%85%95%EF%BC%81",
+        "title": "一眼沦陷！难怪高圆圆偏爱国风腕表！解锁把苏州园林戴在手腕！",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/腕表种草文案为主，品牌卖点和产品推荐信息密集，信息密度低"
+      },
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880810-0906%EF%BC%89",
+        "title": "早起打卡营（0810-0906）",
+        "platform": "一天一篇经济学人",
+        "source": "一天一篇经济学人(双语)",
+        "reason": "打卡营活动招募，参与规则与活动安排信息为主，报名导流属性明显，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-08-09T09:03:36+08:00",
+      "lead": "https://www.woshipm.com/ai/6442626.html",
+      "top": [
+        "https://www.woshipm.com/ai/6442539.html",
+        "https://www.woshipm.com/ai/6442510.html",
+        "https://www.woshipm.com/ai/6406731.html",
+        "http://xueqiu.com/1108129250/404231233",
+        "https://www.woshipm.com/ai/6442536.html"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "长鑫存储与兆易创新的区别和分工合作关系",
+      "title_zh": "长鑫存储与兆易创新：设计与制造的协同分工",
+      "url": "http://xueqiu.com/1108129250/404231233",
+      "published": "Sat, 08 Aug 2026 14:55:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "DRAM",
+        "IDM",
+        "gt",
+        "DDR5",
+        "Flash",
+        "LPDDR5X"
+      ],
+      "summary": "看到长鑫存储拒绝苹果降价要求的新闻发现这是一只有很强议价能力的公司，值得长期跟踪，从今天开始学习研究这家公司，下面是AI工具给的内容，分享给想了解的人。 一个朱一明，两张半导体王牌：长鑫存储与兆易创新的&#34;虚拟IDM&#34;帝国 同一个创始人，一个做设计，一个搞制造，两家独立上市公司拼出了一个对标三星、美光的垂直整合存储大厂。这不是普通的代工关系，而是中国半导体产业最独特的协同模式。 一、先说结论 长鑫存储和兆易创新，表面上是两家公司，实际上是 朱一明一手设计的&#34;虚拟IDM&#34; ——用&#34…",
+      "key_points": [
+        "两张半导体王牌：长鑫存储与兆易创新的&#34;虚拟IDM&#34;帝国 同一个创始人，一个做设计，一个搞制造，两家独立上市公司拼出了一个对标三星、美光的垂直整合…",
+        "五、业务流向：从设计到终端 整个合作链条的流向很清晰： 兆易创新（设计利基DRAM芯片） —&gt;长鑫存储（用成熟制程如19nm代工生产） —&gt; 兆易创…",
+        "兆易创新 = 大脑（芯片设计 + 全球销售） 长鑫存储 = 工厂（晶圆制造 + 工艺迭代） 一个轻资产、一个重资产，互相托底，熨平周期。这套模式已经跑了近十年，…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "涨得多，跌得浅，修复稳：好股的特征",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/404231260",
+      "published": "Sat, 08 Aug 2026 14:54:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "ICU",
+        "KTV",
+        "PCB",
+        "SZ002938"
+      ],
+      "summary": "七月的AI科技板块，是一场实打实的行情大考，褪去短期炒作的热度，真正检验持仓个股核心成色与韧性。 最近一周市场情绪快速回暖，板块行情骤然反转，不少前期深跌的个股连续反弹、强势涨停，市场瞬间从极致悲观的ICU切换到情绪亢奋的KTV，赚钱效应集中爆发。但越是行情热闹之时，越要保持理性。短线的暴涨暴跌皆是市场情绪的瞬时宣泄，看投资标的优劣，从来不是看单日、单周的脉冲行情，而是要看贯穿牛熊的完整“连续剧”。 这周暴涨的标的，未必是优质长线票；本周走势平淡、滞涨调整的个股，也不一定弱势标的。我始终坚持一个核心投资逻辑： 真正…",
+      "key_points": [
+        "涨得多、跌得浅、修复稳 ，穿越周期依旧坚挺的标的，才是值得长期坚守的优质核心资产",
+        "未必是优质长线票；本周走势平淡、滞涨调整的个股，也不一定弱势标的。我始终坚持一个核心投资逻辑： 真正的好股票，从来不是短期进攻最猛的标的，而是涨时能跑得快、跌时…",
+        "本轮大幅度极速下跌的过程中，沿途已经沉淀了海量套牢盘。这种情绪驱动的极速V型反转并不具备持续性，股价后续大概率不会一路走高，而是会反复震荡、充分换手，慢慢夯实底…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "老婆炒股第一天，就把我十年心得全推翻了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1303146761/404239541",
+      "published": "Sat, 08 Aug 2026 14:30:38 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "AI",
+        "amp",
+        "http",
+        "SH603259",
+        "SZ002317"
+      ],
+      "summary": "写在前面：本人炒股接近快10年，扛过2018年的至暗时刻，也在2020年的结构性牛市里赚过钱。自认为算是A股市场的&#34;老兵&#34;了。但万万没想到，我最大的投资挑战，不是来自市场，而是来自我家那位连K线都看不懂的老婆。 今年是科技股的大年——半导体板块市值超越银行登顶A股第一，寒武纪市值破万亿，中际旭创一年涨了一倍多。满市场都在喊&#34;AI元年&#34;&#34;国产替代&#34;，连楼下理发店的Tony老师都在讨论AI芯片。也正是在这样的氛围下，我老婆觉得——该她上场了。 以下是我们家近期的真实对话，…",
+      "key_points": [
+        "今年是科技股的大年——半导体板块市值超越银行登顶A股第一，寒武纪市值破万亿，中际旭创一年涨了一倍多。满市场都在喊&#34;AI元年&#34;&#34;国产替代&…",
+        "老婆： &#34;那个PE是什么意思？&#34; 我： &#34;市盈率，简单说就是你花多少年能靠利润回本。PE是20，说明按当前利润，20年回本。&#34;…",
+        "你直接告诉我买哪一个“代码”是多少 又过了一周，老婆的持仓已经从一只变成了五只。问她为什么买，理由包括但不限于： &#34;这个名字好听&#34;（某只带&#3…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "雨停之后，我们重新学习投资",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%9B%A8%E5%81%9C%E4%B9%8B%E5%90%8E%EF%BC%8C%E6%88%91%E4%BB%AC%E9%87%8D%E6%96%B0%E5%AD%A6%E4%B9%A0%E6%8A%95%E8%B5%84",
+      "published": "Sat, 08 Aug 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Wind",
+        "AMD",
+        "amp",
+        "CPI",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：教你挖掘机 这两天，A股科技板块迎来超跌反弹，看好修复持续性的声音也多了起来。一场巨大的暴风雨似乎正在远去。此刻我有很多心里话，想和大家聊一聊。 2026年四月至六月，海内外硬科技板块走出了一轮近乎史诗级的行情。 最让人印象深刻的，是那些应接不暇的产业名词：从光模块、GPU、服务器、PCB，到更上游的电子布、覆铜板、六氟化钨、MLCC、玻璃基板……似乎永远学不完，也永远有新的涨价逻辑和产业叙事等待被发现。 上涨会改变人的认知…",
+      "key_points": [
+        "我们重新学习投资 此时此刻，我们对短期的市场整体是乐观的，也觉得超跌反弹值得期待。当一场暴风雨正在过去，人们最想知道的是：科技还会回来吗？市场如若企稳，应该如何…",
+        "市场也重新回到了可以讨论价值的位置。杠杆风险得到较大释放，融资买入占比降至低位，集中平仓压力逐步缓解；7月国内股票ETF净流入4778亿元，上市公司回购增多，国…",
+        "假设年初科技与红利、低波、传统蓝筹各占50%，经过一轮上涨，科技仓位被动上升到70%。这时，即使依然看好科技，也应把一部分涨出来的利润重新配置到另一边的资产中。…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "没问清基金经理这4个问题，千万别买！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%B2%A1%E9%97%AE%E6%B8%85%E5%9F%BA%E9%87%91%E7%BB%8F%E7%90%86%E8%BF%994%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%8C%E5%8D%83%E4%B8%87%E5%88%AB%E4%B9%B0%EF%BC%81",
+      "published": "Sat, 08 Aug 2026 13:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Alpha",
+        "Beta",
+        "END-",
+        "PPT"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：画要多说 来源：雪球 和基金经理交流，某种程度上就像相亲聊天。 对方带着精心准备的PPT，声情并茂地做自我介绍。 这时候，很多人就上头了。 但别忘了：历史净值只代表过去，你的钱投向的是未来。 一个优秀的私募基金经理应该不仅能赚钱，还要知道自己为什么赚钱，以及什么时候会不赚钱。 如何判断一位基金经理是否靠谱？ 下次和基金经理沟通时，不妨带着这几个问题去聊~ 问题1：你的超额收益，究竟从哪儿来？ 这个问题看的是 收益来源 。 这…",
+      "key_points": [
+        "就是这四个维度的问题： 真正优秀的基金经理，不怕你问，甚至欢迎你问",
+        "考察的是基金经理的 进化能力 。市场一直在变化，很多原有的逻辑都已经赚不到钱了",
+        "如何判断一位基金经理是否靠谱"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 产品的门槛，不在开始使用前，而在第一次生成之后",
+      "title_zh": "AI 产品的门槛，转移到了第一次生成之后",
+      "url": "https://www.woshipm.com/ai/6406731.html",
+      "published": "Sat, 08 Aug 2026 07:37:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "CC0",
+        "CyrusChang",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "AI 工具的门槛正在从“开始”转移到“改下去”。当生成结果不尽如人意时，产品能否接住用户的第一次受挫？本文从新手体验出发，探讨 AI 产品如何帮助用户跨越“不会改下去”的隐形门槛。 前几天，一个老家的朋友问我：“你当时是怎么入门 AI 的？” 我第一反应是：“什么门？” 说完我自己也愣了一下。因为这句话听起来很轻松，好像现在用 AI 已经没什么门槛了。但某种程度上，好像也确实是这样。 这几年 AI 产品做得越来越轻。不需要装环境，不需要懂模型，也不需要先看完一套教程。很多时候，它就是一个网页，一个输入框，或者一个聊…",
+      "key_points": [
+        "AI 工具的门槛正在从“开始”转移到“改下去”。当生成结果不尽如人意时，产品能否接住用户的第一次受挫？本文从新手体验出发，探讨 AI 产品如何帮助用户跨越“不会…",
+        "以前的门槛在开始之前：装环境、学软件、看教程、理解参数。现在的门槛在结果之后：图出来了，但人物不一致；台词有了，但不像人说话；单张图还行，连起来就不像一个故事",
+        "现在 AI 产品已经把“开始尝试”的门槛降得很低了。低到只要你愿意试，就真的可以开始"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 能秒级出报表，为什么业务还是来不及？",
+      "title_zh": "AI 秒级生成报表，为何业务仍然来不及？",
+      "url": "https://www.woshipm.com/ai/6442626.html",
+      "published": "Sat, 08 Aug 2026 07:37:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "SoFi",
+        "Intervention",
+        "Time",
+        "to",
+        "Blend"
+      ],
+      "summary": "AI 将报表生成提速到秒级，但业务链路中的等待却可能让分析失去意义。SoFi 的 546 个失败会话与 Blend 的新产品，共同指向一个被忽视的指标：行动窗口。本文提出从业务结果反推产品设计，用剩余窗口、Time to Intervention 和窗口命中率，重新定义数据产品的优先级。 一周内，SoFi 的贷款申请流程出现了 546 个同类失败会话：用户收到错误信息后，没有完成申请。更危险的是，在 Glassbox 的异常检测发出提醒前，这个技术问题一直没有进入 SoFi 团队的视野。 SoFi 的业务和技术团队…",
+      "key_points": [
+        "业务链路没有一起提速 数据产品常用响应时间衡量体验。过去找分析师排期半天，现在 AI 已经能秒级出图，提升当然真实。可从业务事件发生到干预动作生效，中间至少还有…",
+        "其自有网络中，零售抵押贷款申请从开始到提交的比例只有 60%–70%，没有提交的借款人不会进入传统贷款管线报表。这个口径不能外推到整个贷款行业，却能说明为什么发…",
+        "需求顺序会倒过来 传统看板需求常从指标口径、分析维度、图表类型和刷新频率开始。围绕行动窗口设计产品，起点要换成业务结果，先回答五个问题： 希望改变什么业务结果"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一周以后，我想我终于可以来聊聊Seedance 2.5了。",
+      "title_zh": "Seedance 2.5 API 上线：AI 视频开始追求电影级标准",
+      "url": "https://www.woshipm.com/ai/6442539.html",
+      "published": "Sat, 08 Aug 2026 07:35:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Seedance",
+        "AI",
+        "DiDi_OK",
+        "Prompt",
+        "API",
+        "Seed"
+      ],
+      "summary": "Seedance 2.5 API上线，引发AI视频创作圈热议：有人觉得不如2.0惊艳，有人却称质感飞跃。本文深度采访多位顶级创作者，揭示2.5从“短视频爆款逻辑”转向“电影级标准”的底层变革，解析30秒时长、指令遵循与电影感背后的产品设计哲学。 今天，Seedance 2.5的API正式上线了。 我知道几乎所有视频Agent产品、还有一些想做大制作广告、中长精品剧的、影视公司内部的系统，都在等这一刻。 接下来大家都会迅速把Seedance 2.5接进自己的工作流里，然后开始继续碾压式创作，哪怕是AI精品剧、AI短片…",
+      "key_points": [
+        "我终于能回答，Seedance 2.5相比2.0，到底改变了什么了",
+        "终于可以谈最敏感的问题了",
+        "即使观看的是720P的较低分辨率结果，手背不同斜面的阴影、皮肤细节的暗示、人物和环境之间的光线过渡也更丰富，边缘不再那么硬，主体才终于像真的站在那个空间里面了"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 产品的下一道分水岭：从展示能力到稳定交付结果",
+      "title_zh": "AI 产品的下一道分水岭：稳定交付结果",
+      "url": "https://www.woshipm.com/ai/6442536.html",
+      "published": "Sat, 08 Aug 2026 07:33:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "App",
+        "PRD",
+        "Anthropic",
+        "McKinsey"
+      ],
+      "summary": "当通用模型越来越易得，AI 产品的竞争焦点正从模型能力转向任务结果。本文从智能服务定义、Agent 立场、技术形态选择到持续服务设计，拆解 AI 产品经理如何构建真正的壁垒：不是功能演示，而是稳定交付用户愿意反复托付的任务。 最近看了《原点 The Origin》的一期对谈，王钦文和海银资本创始人王煜全聊了近一个小时。 这期节目跨度很大，从英伟达和自动驾驶，一路聊到用户侧 Agent、人形机器人和中国 AI 创业。里面有几个值得拿出来讨论的问题：为什么判断产业趋势要寻找领先指标，而不是等收入和利润验证；AI 是否能…",
+      "key_points": [
+        "可能不是准确猜中 2029 年会发生什么，而是在判断错之前及时发现，并把产品重新带回用户愿意持续托付的任务上。对应用层 AI 来说，下一道分水岭在于能否稳定交付…",
+        "AI 产品的竞争焦点正从模型能力转向任务结果。本文从智能服务定义、Agent 立场、技术形态选择到持续服务设计，拆解 AI 产品经理如何构建真正的壁垒：不是功能…",
+        "稳定交付结果才开始接近产品"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "如何用 AI 搭建自动化工作流？产品经理先把“自动化边界”设计出来",
+      "title_zh": "用 AI 搭建自动化工作流，先划清自动化边界",
+      "url": "https://www.woshipm.com/ai/6442510.html",
+      "published": "Sat, 08 Aug 2026 07:33:05 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "MCP",
+        "Agent",
+        "CC0",
+        "Evaluator",
+        "Generator"
+      ],
+      "summary": "AI工作流设计常陷入将用户愿望直接转化为功能清单的误区。本文提出以用户结果为导向，将流程拆解为规划、生成、校验三类节点，并强调人工确认的必要性，为产品经理提供了一套从设计到验收的完整方法论。 做 AI 工作流时，产品经理最容易犯的错误，是把用户的愿望直接当成功能清单。 用户说： 我想让 AI 自动处理客户需求。 这句话背后可能包含： 识别需求； 查找资料； 生成方案； 创建任务； 通知负责人； 修改客户信息； 更新订单； 发起审批。 这些动作的风险完全不同，不能全部交给一个 Agent。 一、先设计用户结果 先问：…",
+      "key_points": [
+        "AI工作流设计常陷入将用户愿望直接转化为功能清单的误区。本文提出以用户结果为导向，将流程拆解为规划、生成、校验三类节点，并强调人工确认的必要性，为产品经理提供了…",
+        "五、AI 工作流上线前的验收问题 产品经理至少应测试： 正常输入：信息完整时，是否输出可用结果",
+        "产品经理应明确： 哪些内容可以自动生成 哪些内容可以自动推荐 哪些内容必须人工确认 哪些内容必须直接阻断 四、好易自编排 MCP 对产品交付有什么价值 对交付伙…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "考古队在墓穴里会碰见机关吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791776",
+      "published": null,
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Plus"
+      ],
+      "summary": "我是妖怪， 可乐加冰 查看知乎原文 考古发现中的防盗措施并没有像电影小说中的那么玄幻，我只查到了两种，积石积沙、诅咒。 积石积沙墓 积沙墓，中国古代为防盗而采用沙土填充墓穴的一种墓葬形制，有时还会在沙土中填入石块，构成积石积沙墓，当盗墓者挖掘盗洞深入墓穴时，沙土会从四面流入把盗洞堵住，石块会砸下来把盗墓者砸伤砸死。 防守成功案例 以村郭庄楚墓个 Plus 版，除了积石积沙外，还部署了假棺，最终抗住了二十多次的盗掘。 这个墓的填土下面有厚近 11 米的积沙，估计原有积沙在 3000 立方米以上。沙层中精心埋藏了积石、…",
+      "key_points": [
+        "考古人员在积沙层中发现了 1000 余块积石，最小的仅 3 公斤，最大的 165 公斤。这些石块多是坚硬的花岗岩、石灰岩，形状不一，但边角都十分锋利，应当是特意…",
+        "中国古代为防盗而采用沙土填充墓穴的一种墓葬形制，有时还会在沙土中填入石块，构成积石积沙墓，当盗墓者挖掘盗洞深入墓穴时，沙土会从四面流入把盗洞堵住，石块会砸下来把…",
+        "被盗掘一空的椁室： 诅咒 此类诅咒多为墓主人或其家属在墓葬中设置的警示性文字或符号，用以威慑盗墓者。从科学角度来看，这些诅咒并无实际效力，但效果两说"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "西班牙率先暴富并拥有了几乎整个美洲，为何最后却远远落后于当初远不如自己的英法德？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791788",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "de",
+        "of",
+        "juros",
+        "en",
+        "la",
+        "Castilla"
+      ],
+      "summary": "返往埃斯特雷马杜， 火车在动是因为它的车轮在转动 查看知乎原文 先点出个广为人知的谬论：西班牙的经济衰落主要源于美洲贵金属输入带来的通货膨胀和产业衰退。 事实上，西班牙的物价增长高峰在 16 世纪上半叶，而白银则在 16 世纪下半叶才开始大量流入。属于王室的那部分白银（约占输入的 40%）大部分在进入本土之前就因被抵押给了银行家而输往外国。此外，在 16 世纪顶峰时期，流入的美洲白银仅占卡斯蒂利亚 GDP 的约 7.5%，占全欧洲 GDP 不到 0.5%。在宏观经济层面，单凭美洲白银根本不足以独自引发全欧的大规模通…",
+      "key_points": [
+        "二、君主国的宪政缺陷 哈布斯堡西班牙的纹章，每个旗帜代表一处领地 查理五世继承了一系列散落在中欧和西欧的极其不同的领土。他的遗产大概是自罗马人以来在欧洲由单一君…",
+        "西班牙的物价增长高峰在 16 世纪上半叶，而白银则在 16 世纪下半叶才开始大量流入。属于王室的那部分白银（约占输入的 40%）大部分在进入本土之前就因被抵押给…",
+        "但增加税收的成功尝试与来自美洲的意外之财相结合，产生了持续的基本财政盈余，国王借入的资金少于他在利息和债务偿还上的支出。哈布斯堡西班牙远非主持了一个税收收入下降…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一眼沦陷！难怪高圆圆偏爱国风腕表！解锁把苏州园林戴在手腕！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%9C%BC%E6%B2%A6%E9%99%B7%EF%BC%81%E9%9A%BE%E6%80%AA%E9%AB%98%E5%9C%86%E5%9C%86%E5%81%8F%E7%88%B1%E5%9B%BD%E9%A3%8E%E8%85%95%E8%A1%A8%EF%BC%81%E8%A7%A3%E9%94%81%E6%8A%8A%E8%8B%8F%E5%B7%9E%E5%9B%AD%E6%9E%97%E6%88%B4%E5%9C%A8%E6%89%8B%E8%85%95%EF%BC%81",
+      "published": "Sat, 08 Aug 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "mm",
+        "IP"
+      ],
+      "summary": "很多姐妹挑选腕表的时候，目光总是第一时间看向海外轻奢大牌，却忽略了咱们国货腕表里藏着的顶尖实力。 提起 飞亚达 ，它从来都不是普通的国民手表品牌。隶属于中航工业央企控股， 国内钟表行业唯一 A 股上市企业 ；从 2003 年神舟五号升空开始，足足 16 次陪伴中国航天员出征太空， 是全世界仅有的两大航天专用腕表品牌之一 ，能够承受太空‑80℃~+80℃极端温差的航天级精密制表技术，全部下放至民用腕表当中。 飞亚达 深耕制表行业整整 38 载，全国铺设 1700 余家线下实体专柜，门店足迹踏遍全球 29 个国家、30…",
+      "key_points": [
+        "东方美人・苏绣款石英女表 市面上绝大多数国风腕表，只是简单粘贴山水、花卉元素做表面功夫。而飞亚达这款东方美人苏绣腕表，吃透了传统苏州园林“框景”的顶级中式审美",
+        "设计师直接将八边形花窗轮廓做成整块腕表的表壳；表盘依托航天精密 3D 打印工艺，1:1 复刻非遗苏绣蚕丝丝缕肌理，盘面晕染朦胧柔和的园林景致。当你抬手，指针缓缓…",
+        "高圆圆同款的复古天花板 ✦时尚圈认证爆款，拿奖无数的经典中古款式 如果你痴迷法式老钱风、复古中古配饰，这款小金表绝对不能错过。它是飞亚达登陆米兰时装周的秀场单品…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "地板上血迹斑斑，还有我爬行时留下的两道长长的血痕",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%B0%E6%9D%BF%E4%B8%8A%E8%A1%80%E8%BF%B9%E6%96%91%E6%96%91%EF%BC%8C%E8%BF%98%E6%9C%89%E6%88%91%E7%88%AC%E8%A1%8C%E6%97%B6%E7%95%99%E4%B8%8B%E7%9A%84%E4%B8%A4%E9%81%93%E9%95%BF%E9%95%BF%E7%9A%84%E8%A1%80%E7%97%95",
+      "published": "Sat, 08 Aug 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "guokr.com",
+        "health",
+        "health_guokr",
+        "ID",
+        "TA"
+      ],
+      "summary": "我是一名中学老师，7月10日是学校期末总结大会，过了这天，暑假便正式开始了。下午散会后，我回到宿舍收拾行李，等姐姐下班后来接我，美滋滋地盘算着暑假计划：学做菜、打羽毛球、去贵州观山探地，还要参加专业技能培训…… 收拾妥当， 我环顾一圈，决定拔掉空调插头断电 。毕竟，开会时刚刚强调了消防安全。 一阵金属碰撞声后， 我双腿岔开着摔坐在地上 空调安装在窗户上方，位置很高。我寻了一把折叠椅，脱鞋踩上去。椅子左边，是半开机盖的洗衣机，右边放着棕扫把和不 锈钢簸箕。我伸手够了几次插头，始终差一截。 凭着长沙妹子与生俱来的“霸蛮…",
+      "key_points": [
+        "我看到“事故现场”一 片狼藉，地板上血迹斑斑，还有我爬行时留下的两道长长的血痕，右脚甚至左脚的袜子（行动时沾到的）都被血液染透。剧痛袭来，我差点掉了眼泪",
+        "当时我爬行到画面右侧以外区域 | 作者供图 用毛巾裹住伤脚， D老师把我背到了卫生院 社区卫生院就在学校对面，不过几百米，可如何把我转运过去是个问题。按压伤口的…",
+        "一大滴鲜血“啪嗒”一下砸在地板上，溅出无数细碎的“花瓣”，紧接着又是第二滴、第三滴…… 鲜血不管不顾地汩汩涌出，我从没见过自己流这么多血"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "小区里看到这种奇怪的人脸，立刻报警！立刻！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%8F%E5%8C%BA%E9%87%8C%E7%9C%8B%E5%88%B0%E8%BF%99%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E4%BA%BA%E8%84%B8%EF%BC%8C%E7%AB%8B%E5%88%BB%E6%8A%A5%E8%AD%A6%EF%BC%81%E7%AB%8B%E5%88%BB%EF%BC%81",
+      "published": "Sat, 08 Aug 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "haoqi238",
+        "https",
+        "ID",
+        "CITIF",
+        "gd",
+        "mp.weixin.qq.com"
+      ],
+      "summary": "本文转载自微信公众号： 好奇博士（ID：haoqi238） 参考文献 [1].徐迅,陶俊,吴瑰.基于卷积神经网络的带遮蔽人脸识别.江汉大学学报(自然科学版).2019 [2].人脸识别应用三维假体人脸分类分级规范.团体标准T/CITIF 005-2023 [3].央视财经.央视曝光!“易容”换脸作案!真能骗过门禁攻破手机?记者实测→https://news.cnr.cn/native/gd/20240721/t20240721526805723.shtml [4].每日经济新闻.看到这种人脸，立即警惕!已有人报案h…",
+      "key_points": [
+        "本文转载自微信公众号： 好奇博士（ID：haoqi238） 参考文献 [1].徐迅,陶俊,吴瑰.基于卷积神经网络的带遮蔽人脸识别.江汉大学学报(自然科学版).2…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "什么样的长相特征，是中了“耐老”的基因彩票?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E9%95%BF%E7%9B%B8%E7%89%B9%E5%BE%81%EF%BC%8C%E6%98%AF%E4%B8%AD%E4%BA%86%E2%80%9C%E8%80%90%E8%80%81%E2%80%9D%E7%9A%84%E5%9F%BA%E5%9B%A0%E5%BD%A9%E7%A5%A8%3F",
+      "published": "Sat, 08 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PPM",
+        "ml",
+        "DPPH",
+        "MC1R",
+        "age",
+        "aging."
+      ],
+      "summary": "你身边一定有那种人——不防晒、常熬夜，但就是显年轻。 别怀疑，人家可能真中了“耐老”的基因彩票。2016年中科院联合荷兰团队分析了近800万个DNA位点， 发现带MC1R基因特定变异的人，看起来比同龄人平均老两岁 [1] 。 而耐老的人通常 骨相立体、真皮层厚、胶原密度高 ——这些，从出生就定了。 图源：图虫创意 但！先别认命。基因决定的是“衰老起点”，而真正按下加速键的是另一个东西—— 自由 基 。 皮肤老化的头号杀手就是自由基 ，紫外线、生活压力、作息不规律、年龄增长、空气污染等都会产生过剩的自由基， 长期放任…",
+      "key_points": [
+        "人家可能真中了“耐老”的基因彩票。2016年中科院联合荷兰团队分析了近800万个DNA位点， 发现带MC1R基因特定变异的人，看起来比同龄人平均老两岁 [1]",
+        "所以没中基因彩票？没关系。但自由基这件事，你今天开始就能管！可问题是—— 是谁，咬牙花大几千买了 贵妇精华 ，用的时候 抠抠搜搜，生怕浪费 一滴，结果一瓶用完却…",
+        "图源：图虫创意 但！先别认命。基因决定的是“衰老起点”，而真正按下加速键的是另一个东西—— 自由 基"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "如何就黑色电影吵起来？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%A6%82%E4%BD%95%E5%B0%B1%E9%BB%91%E8%89%B2%E7%94%B5%E5%BD%B1%E5%90%B5%E8%B5%B7%E6%9D%A5%EF%BC%9F",
+      "published": "Sat, 08 Aug 2026 20:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Criterion",
+        "hongmomgs",
+        "Imogen",
+        "irisfilm",
+        "Issac",
+        "qq.com"
+      ],
+      "summary": "作者：Imogen Sara Smith 译者：易二三 校对：Issac 来源： Criterion （2016年8月14日） 如果你想在黑色电影迷这个群体中引发一场争论，没有比提议增加或剔除一部经典作品更简单的方法了。所有这些争论都指向一个永远棘手的问题：什么是黑色电影？ 黑色电影是出了名的狡猾，往往指向众多叙事混乱、道德模糊的作品。它是一种类型，一个系列，还是一种风格？ 太多时候，它面临着成为某种标签的危险，而定义它的是一份有着一目了然的主题的清单。一定有一些男人，穿着风衣，下巴如同花岗岩般，软呢帽的帽檐向下拉…",
+      "key_points": [
+        "那么《红菱艳》是一部黑色电影吗？它看起来不太像，而且它缺少我们所期望的许多修辞。但维姬熊熊燃烧的欲望在影像中爆发了出来——例如那个令人震惊的特写镜头，黑色、白色…",
+        "定义黑色电影或追溯经典序列的起源和轨迹是不值得的。但这种讨论只有在考虑到黑色电影的源头、同类或分支时才会更为深入——即其他国家的黑色电影系列、无声黑色电影、前海…",
+        "她为哥哥写了一段伤感的墓志铭：「他很悲伤。是我们当中最悲伤的人。他需要的太多，得到的却太少。」 许多黑色电影都蕴含着警示性的寓言或黑暗童话：完美的抢劫以每个人都…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "它绝对是本世纪情景喜剧的巅峰",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%AE%83%E7%BB%9D%E5%AF%B9%E6%98%AF%E6%9C%AC%E4%B8%96%E7%BA%AA%E6%83%85%E6%99%AF%E5%96%9C%E5%89%A7%E7%9A%84%E5%B7%85%E5%B3%B0",
+      "published": "Sat, 08 Aug 2026 20:38:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CP",
+        "IMDb",
+        "CBS",
+        "DVD",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 西帕克 美国的情景喜剧有两条不成文的规矩：第一，模式需要可以无限延展，一般不会有任何带有悬念的剧情，故事都是简单的日常生活，让观众可以无论从哪一集入坑都可以继续追下去；第二，结局一定要圆满，男女主角与真爱最终一定要在一起，不给观众留下任何的遗憾。 不管是《老友记》《人人都爱雷蒙德》《生活大爆炸》还是《摩登家庭》几乎都遵循这样的模式。而唯有一部经典情景喜剧，打破了这个惯例，在保留美剧基本模式的前提下，以悬念开头，以叙事诡计铺垫，最终给出了一个所有观众都未曾预料到的结局。 《老友记》 这便是于2005-2014年由…",
+      "key_points": [
+        "是一个简单不会出错的选择。但是，笔者更佩服主创选择更现实结局的勇气。现实不会总是圆满的，它包含着关系的破裂，亲人的死亡，和家庭的重组，这些其他情景喜剧不会告诉你…",
+        "真正让人震惊的乾坤大挪移还是出现在剧集的大结局中。在2014年大结局刚刚播出时，无数粉丝大呼坑爹，称其为烂尾集，IMDb上只有5.5分的低分。但从当年到现在，笔…",
+        "文 西帕克 美国的情景喜剧有两条不成文的规矩：第一，模式需要可以无限延展，一般不会有任何带有悬念的剧情，故事都是简单的日常生活，让观众可以无论从哪一集入坑都可以…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "快递纸箱不进家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%BF%AB%E9%80%92%E7%BA%B8%E7%AE%B1%E4%B8%8D%E8%BF%9B%E5%AE%B6",
+      "published": "Sat, 08 Aug 2026 15:44:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "快递纸箱不进家的说法我听过，但亲身经历则是另外一回事。最近，我亲眼看到了室内甲醛数据从 0.01 飙升到 0.06，百思不得其解，把机器附近的东西一样一样移开测试，最后终于发现源头是临时堆放的几个快递纸箱。于是我开始把它们移到室外，一边移动，数据就一边快速下跌。等移动完毕，甲醛浓度已经降低到了 0.02。很快，就彻底恢复正常。以前我听人说快递纸箱不进家，就觉得小题大做。到底是有多浓的胶水？夏季高温天气长途运输两三天还散不掉里面那点甲醛和挥发性物质？我也不理解为什么有些人快递箱都放在门口堆着，就是不肯收进家里慢慢拆。…",
+      "key_points": [
+        "但亲身经历则是另外一回事。最近，我亲眼看到了室内甲醛数据从 0.01 飙升到 0.06，百思不得其解，把机器附近的东西一样一样移开测试，最后终于发现源头是临时堆…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "9张图，带你了解中国“最孤独”的树",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+9%E5%BC%A0%E5%9B%BE%EF%BC%8C%E5%B8%A6%E4%BD%A0%E4%BA%86%E8%A7%A3%E4%B8%AD%E5%9B%BD%E2%80%9C%E6%9C%80%E5%AD%A4%E7%8B%AC%E2%80%9D%E7%9A%84%E6%A0%91",
+      "published": "Sat, 08 Aug 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "[太阳]人们为什么会喜欢“孤独树”，大概是因为在繁华的都市中，像“孤独树”这样的景致并不常见。许多人日常在工作岗位上抽不出身，偶尔打卡一次“诗和远方”，希望缓解疲惫的身心。恰好满足了他们对自由、对旷野的向往。[爱心]地理君要提醒大家：这些“孤独树”固然美丽，但他们多生长在生态环境脆弱的地方：高山旁、草原上、湖泊里、湿地中......甚至是茶园、油菜花田等农业生产活动区域中。因此我们一定要爱护环境，守护大自然的美好。有些风景，适合抵达；有些风景，适合远望。[玫瑰]图① 四川省甘孜藏族自治州理塘县格聂神山的旷野上矗立着…",
+      "key_points": [
+        "大概是因为在繁华的都市中，像“孤独树”这样的景致并不常见。许多人日常在工作岗位上抽不出身，偶尔打卡一次“诗和远方”，希望缓解疲惫的身心。恰好满足了他们对自由、对…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他，让一种可怕的流行病在中国走向绝迹",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%EF%BC%8C%E8%AE%A9%E4%B8%80%E7%A7%8D%E5%8F%AF%E6%80%95%E7%9A%84%E6%B5%81%E8%A1%8C%E7%97%85%E5%9C%A8%E4%B8%AD%E5%9B%BD%E8%B5%B0%E5%90%91%E7%BB%9D%E8%BF%B9",
+      "published": "Sat, 08 Aug 2026 08:27:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "of",
+        "Epidemiology",
+        "Health",
+        "Medicine",
+        "Public"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜ 苏竹君 阙之玫 ‍ ● ● ● 苏德隆 (1906-1985) 先生是著名公共卫生学家、 预防医学家 、 医学教育家 、 中国现代流行病学奠基人之一、全国血防先驱、一级教授 。在他和同事们，以及很多人共同努力下， 血吸虫病在上海、在中国不再大规模流行，开始走向绝迹。而他的贡献不只是血吸虫病防治。 2026 年 7 月 9 日是苏德隆先生诞辰 120 周年，《知识分子》在此刊发他女儿苏竹君和外孙女阙之玫撰写的纪念文章，文章原标题《祖国和人民的需要，…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜ 苏竹君 阙之玫 ‍ ● ● ● 苏德隆 (1906-1985) 先生是著名公共卫生学家、…",
+        "他主编出版《流行病学各论讲义》，在 “ 流行性感冒 ” 章节中，还专门分析 1957 年至 1958 年间席卷世界的一种新型亚洲甲型流感，至今读来仍有借鉴意义。…",
+        "国召即方向 早在医科二年级时，苏德隆就注意到一种急性流行病的危害 —— 千余民众因在沪郊昆山青阳港游泳而患上急性血吸虫病，当时医学界对这种疾病所知甚少。苏德隆在…"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "早起打卡营（0810-0906）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A9%E8%B5%B7%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%880810-0906%EF%BC%89",
+      "published": "Sat, 08 Aug 2026 21:53:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AM",
+        "rule",
+        "is",
+        "PM"
+      ],
+      "summary": "【看看大家怎么说 】 【个人介绍】 小编是从2021年 6 月份开始五点半早起，在这之前，长达五六年时间都是凌晨一点半睡觉，那么熬夜都干什么呢？和大多数人一样，无非就是刷手机，追剧，刷短视频，当然还有编辑公众号、写复盘等等。 突然有一天，感觉状态不是很好，就想着是不是应该改变下这种状态，长期熬夜对身体不好，有时候第二天的精神状态也一般，那么该怎么办呢? 小编在询问了一些朋友后，就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起…",
+      "key_points": [
+        "而是比自己正常的作息早起 1 小时（或者 1 个半小时），利用好这短时间做对自己个人发展有帮助的事情，这就叫早起。所以按照这个逻辑：人人都可以早起！这句话没毛病…",
+        "就下决心要做出改变：早睡早起（一开始是11点睡（后面是9点半睡不超过10点半），5点半起）。但是一开始我怕自己坚持不下去，就想着找一群人一起坚持，于是就公众号发…",
+        "且 有以下情况的小伙伴，不推荐参加早起打卡营： 1.心脏方面有过往病史 2.和上班时间冲突 3.不能接受活动规则的要求 4.网络不稳定频率高的（需要在腾讯会议中…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-09",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何评价用今天的价值观和法律来要求1800年前的古人？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791764",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CT",
+        "invalid"
+      ],
+      "summary": "invalid s， 我特别喜欢和聪明人交往，因为不用考虑他们的尊严——乔布斯 查看知乎原文 因为 1800 年前的古人比较先进，禁得起考验。 比如，汉高祖刘邦就发明了“养老金”。只要你没严重犯罪或者服刑，那么年龄 50 就有补助，年龄 70 以上就能授“王杖”。持王杖者可以得到很多特权，比如随意出入官衙等。 王杖杖头是一只斑鸠，所以也叫鸠杖。汉代墓葬中有鸠杖出土。 至于八十以上嘛……喏： 《汉书.文帝纪》记载：“有司请令县道,年八十以上,赐米人月一石,肉二十斤,酒五斗。其九十以上,又赐帛人二匹,絮三斤。赐物及当禀…",
+      "key_points": [
+        "我特别喜欢和聪明人交往，因为不用考虑他们的尊严——乔布斯 因为 1800 年前的古人比较先进，禁得起考验",
+        "且民间“上访”颇为有效 我至今都记得小学读“前后汉故事新编”时认识的一位勇敢善良的汉代小女孩，缇萦： 《史记·孝文本纪》 原文 （汉文帝十三年）五月，齐太仓令淳…",
+        "汉代更进一步以法律制度确立下来，成为汉朝“以孝治天下”的组成部分。根据文献记载，汉代无罪之人年满 70 之后，将会得到朝廷优待，被授予鸠杖（鸠有“九”、“久”之…"
+      ]
+    }
+  ]
+}
