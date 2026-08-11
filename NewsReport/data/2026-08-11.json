@@ -1,0 +1,775 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T01:00:16.674438+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 8,
+    "items_collected": 90,
+    "fresh_candidates": 55,
+    "backfill_candidates": 35,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-11",
+      "fetched_at": "2026-08-11T01:00:11.321243+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3966.59,
+          "change": 26.55,
+          "change_pct": 0.67,
+          "volume": 542118110.0,
+          "amount": 116689328.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4409.26,
+          "change": 19.01000000000022,
+          "change_pct": 0.43,
+          "prev_close": 4390.25,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-11 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 956.10635684087,
+          "change": 4.122138826820105,
+          "change_pct": 0.43300495415978296,
+          "prev_close": 951.9842180140499,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-11 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-11",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "巴菲特开始加仓了，对普通人有何启发？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%B7%B4%E8%8F%B2%E7%89%B9%E5%BC%80%E5%A7%8B%E5%8A%A0%E4%BB%93%E4%BA%86%EF%BC%8C%E5%AF%B9%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9C%89%E4%BD%95%E5%90%AF%E5%8F%91%EF%BC%9F",
+      "published": "Mon, 10 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CEO",
+        "CNBC",
+        "END-",
+        "float",
+        "higher"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：表舅是养基大户 今天重点待大家聊一个话题—— 巴菲特的伯克希尔 刚发布了二季报，其时隔3年多后，首次重新开始净买入股票，因此再聊下美股层面「股债平衡」策略的必要性，最后也通过股神的操作，给大家提供一些个人可以参考的建议，一共4条。 1、先说一个个人的结论哈，我觉得巴菲特现在就是工作狂大佬典型的 「退而不休」 状态，几个证据： 第一，其虽然卸了CEO，但仍然是董事长，且还有30%的投票权，几乎是一股独大，这还是巴菲特的公司；…",
+      "key_points": [
+        "总结一下，从巴菲特的二季报里，我们得出以下结论，并给个人投资做个参考： 第一，巴菲特在时隔14个季度后，二季度对股票重回净买入，其中，净买入的一半资金用来加仓谷…",
+        "表舅是养基大户 今天重点待大家聊一个话题—— 巴菲特的伯克希尔 刚发布了二季报，其时隔3年多后，首次重新开始净买入股票，因此再聊下美股层面「股债平衡」策略的必要…",
+        "我觉得巴菲特现在就是工作狂大佬典型的 「退而不休」 状态，几个证据： 第一，其虽然卸了CEO，但仍然是董事长，且还有30%的投票权，几乎是一股独大，这还是巴菲特…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "不高尚价投，不神话茅台",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/404351961",
+      "published": "Mon, 10 Aug 2026 10:10:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "核心区和老酒资源是茅台最大的核心竞争力。核心区意味着品质，不然系列酒用同样人工，同样工艺，同样不计成本，为啥竞争力远不如飞天碾压。茅台1935加上飞天基酒和不加飞天基酒是两种酒。有人相信茅台可以根据需求无限扩产且不影响品质，我肯定是不相信的，这不符合基本常识。问题关键在于管理层信不信。 有人说，可以做实验，数据完全一致。自己举证自己，当然肯定没问题，这是想都不用想的事。事实上是不是一致，消费者嘴巴不会说谎。打败茅台的只能是茅台自己，突破核心区就是打败自己的开始，这才是我通篇论述的关键点。核心区意味着稀缺性，稀缺性是…",
+      "key_points": [
+        "就会失去质疑的勇气。股东大会不上酒是对的，卖冰淇凌是对的，美酒加咖啡是对的，搭售收费也是对的。没有基本是非观念，没有基本理性和客观，离失败也就不远了。茅台当然很…",
+        "核心区和老酒资源是茅台最大的核心竞争力。核心区意味着品质，不然系列酒用同样人工，同样工艺，同样不计成本，为啥竞争力远不如飞天碾压。茅台1935加上飞天基酒和不加…",
+        "可以做实验，数据完全一致。自己举证自己，当然肯定没问题，这是想都不用想的事。事实上是不是一致，消费者嘴巴不会说谎。打败茅台的只能是茅台自己，突破核心区就是打败自…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "看懂比价指标：成长与红利的钟摆，已经摆到极端位置",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9610521692/404319075",
+      "published": "Mon, 10 Aug 2026 10:09:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "Wind",
+        "AI",
+        "LOF",
+        "H30269",
+        "http"
+      ],
+      "summary": "做投资，我们很容易被盘面每天的涨跌、各大平台的热点叙事裹挟，被短期的赚钱效应带着情绪走。想要客观看清成长和红利两大风格所处的位置，我们可以借助一个简单却很有效的观察工具：创业板指与中证红利低波动指数（H30269）比价。 比价的计算逻辑并不复杂：比价 = 创业板指收盘点位 ÷ 中证红利低波动指数收盘点位。这个比值，本质就是成长板块相对红利价值板块的 “价格溢价”。 比价持续向上抬升：代表创业板为代表的成长板块，相对红利低波越来越贵，成长行情占上风； 比价持续向下回落：代表红利低波相对成长占优，价值风格开始占上风。…",
+      "key_points": [
+        "我们可以通过数据平台导出两个指数多年的日线数据，计算每日比价，再进一步算出比价的历史分位。所谓历史分位，就是把历史上所有的比价数值做排序，看当下的比价处在全部历…",
+        "比价指标可以作为我们观察市场风格的参考，但它不能作为单一买卖信号。比价走到历史高位，成长依旧有可能继续冲高，我们不能简单看到指标高位，就直接做空成长，满仓押注红…",
+        "不代表行情立刻反转，只代表风险收益比已经发生倾斜 。要客观承认，极端的行情可以继续维持一段时间，热度上来之后，成长还可以继续冲高。但站在配置的角度，当比价来到历…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "主动基金“神话”破灭？数据告诉你真实答案",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/404360069",
+      "published": "Mon, 10 Aug 2026 10:09:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Choice",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "关于主动基金和指数基金，谁才是普通投资者的最优解，这个争论几乎和基金行业的历史一样长。 两派人都很坚定。站主动基金的人会说，中国股市散户多，机构割韭菜的空间还在，主动基金的超额收益肉眼可见。站指数基金的人则一针见血：风格漂移、基金经理跳槽、抱团踩踏，主动基金的槽点一抓一大把。更有极端者放话：亏钱也要亏在自己手里，绝不拿钱让别人帮着亏。 情绪是一回事，数据是另一回事。今天这篇文章，我们不看单只基金的“传奇”或“惨案”，只用代表平均水平的基金指数，把时间切成几段，带你看清楚这十几年里，主动基金到底经历了什么。 （数据来…",
+      "key_points": [
+        "数据是另一回事。今天这篇文章，我们不看单只基金的“传奇”或“惨案”，只用代表平均水平的基金指数，把时间切成几段，带你看清楚这十几年里，主动基金到底经历了什么",
+        "（数据来源：Choice） 01 不同时段，不同结局 先说结论：主动基金曾经完胜，但这个优势正在快速消退",
+        "中国股市散户多，机构割韭菜的空间还在，主动基金的超额收益肉眼可见。站指数基金的人则一针见血：风格漂移、基金经理跳槽、抱团踩踏，主动基金的槽点一抓一大把。更有极端…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "（周记344）杠杆的魔力丨聊聊本周丨急时总想做点什么",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1643044849/404344208",
+      "published": "Mon, 10 Aug 2026 10:08:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LOF",
+        "ALL",
+        "IN",
+        "AI",
+        "iOS",
+        "Put"
+      ],
+      "summary": "声明： 文中可能会涉及个股，只是思路分享不代表绝对正确，也不代表买卖推荐，请保持独立思考，据此买卖，风险自负。 黑白不建群，不私下主动联系读者，不开付费星球等付费社区。如果有人以我的名义向你收费请马上拉黑。 股市有风险，入市需谨慎 1 杠杆的魔力 先说本周的几个新闻 1、8月7日，沪深交易所就完善上市开放式基金（LOF）相关安排公开征求意见，拟分类明确部分LOF终止上市的情形和程序。 按照征求意见稿，商品期货LOF、QDIILOF应当终止上市，并设置过渡期，最晚于2027年12月31日终止上市；连续60个交易日每日…",
+      "key_points": [
+        "入市需谨慎 1 杠杆的魔力 先说本周的几个新闻 1、8月7日，沪深交易所就完善上市开放式基金（LOF）相关安排公开征求意见，拟分类明确部分LOF终止上市的情形和…",
+        "除非你有完善的体系，或者某家公司你研究了就是被错杀，否则持有低估企业，保持耐心的等待，好过于你总想做点什么",
+        "他有个最大的魔力，一旦你用了他，刚开始你可能只是想用一点，但是慢慢的你就会觉得融资的钱也是你的钱，上涨时候没用完就是少赚。很多人越涨反而杠杆越大，就是这个原因"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI互联网日报：DeepSeek与Kimi压低缓存成本、抖音豆包酒店入口开始抽佣、拼多多明天达切入即时零售、Meta开源Muse Glimmer",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6444372.html",
+      "published": "Mon, 10 Aug 2026 14:36:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Google",
+        "Play",
+        "Android",
+        "Anthropic",
+        "Claude"
+      ],
+      "summary": "先看账本。入口越来越贵，省下来的成本也越来越会换主人。Anthropic把Claude Code自动模式默认打开，应用商店也开始松动分发和支付边界。美团、京东被拼多多“最快明天达”逼到履约效率桌上，我这次看到的不是单点功能升级，而是平台把助手、支付、分发和物流塞进同一条工作流里。少一步，就多一笔议价空间。 一起来看看这两天发生的AI和互联网赛道的大事件吧！ 📌 今日AI互联网大事件速览 1，DeepSeek、Kimi压低缓存成本，NVIDIA推动跨模型复用 2，阿里云AIDC交付周期缩短至100天，建设成本同步下降…",
+      "key_points": [
+        "DeepSeek、Kimi压低缓存成本，NVIDIA推动跨模型复用 2，阿里云AIDC交付周期缩短至100天，建设成本同步下降 3，OpenAI致信德州州长，承…",
+        "DeepSeek、Kimi压低缓存成本，NVIDIA推动跨模型复用 核心内容 ：DeepSeek、Kimi等中国大模型近期把缓存成本作为价格竞争重点，NVIDI…",
+        "综合费率约12% 核心内容 ：抖音对豆包入口产生的酒店订单抽佣，综合费率约12%。这个动作把AI助手入口和本地生活交易直接连在一起：豆包负责理解需求和导流，抖音…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "WorkBuddy产品分析：腾讯押注AI办公Agent背后的产品逻辑",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6443570.html",
+      "published": "Mon, 10 Aug 2026 07:31:23 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "WorkBuddy",
+        "Agent",
+        "Excel",
+        "Copilot",
+        "Word"
+      ],
+      "summary": "腾讯推出的WorkBuddy，不是又一个AI聊天工具，而是试图重新定义办公入口的智能执行平台。它瞄准知识工作者在信息处理上的效率瓶颈，让AI从辅助工具变为任务执行者。本文深入拆解其产品定位、目标用户与战略意图，探讨AI办公产品能否真正进入工作流。 过去二十年，办公软件的发展一直围绕一个核心目标： 让人更高效地使用工具 从最早的本地办公软件，到云端协作工具，再到企业级SaaS平台，办公产品不断优化的是工作流程。例如： Word解决文字编辑问题； Excel解决数据处理问题； PowerPoint解决信息表达问题； 企…",
+      "key_points": [
+        "一个完整的产品分析过程包括： 第一步：收集市场信息",
+        "这是一种完全不同的产品逻辑",
+        "传统办公软件解决的是：“如何完成某个具体动作。” 而WorkBuddy试图解决的是：“如何更快完成一个完整目标。” 因此，WorkBuddy的产品定位，本质上是…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 都会写 PRD 了，我为什么还要专门做一款 Skill？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6443282.html",
+      "published": "Mon, 10 Aug 2026 07:15:02 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PRD",
+        "Skill",
+        "AI",
+        "Agent",
+        "references",
+        "Prompt"
+      ],
+      "summary": "当AI生成PRD已成常态，为何还要专门设计一款Skill？本文作者通过四次关键迭代，将个人判断、团队知识与交付标准融入AI工作流，揭示效率之外更核心的价值——让AI稳定执行产品工作流，而非简单生成模板。 最近，我做了一件看起来有点多余的事：专门设计了一款写 PRD 的 Skill。 毕竟，现在让 AI 写一份 PRD 已经不难。把需求背景贴进去，再补一句“请输出完整的产品需求文档”，几分钟后，用户故事、功能范围、异常流程和验收标准就都有了。单看生成速度，它甚至比很多产品经理写得还快。 那为什么还要多做一层 Skil…",
+      "key_points": [
+        "为何还要专门设计一款Skill？本文作者通过四次关键迭代，将个人判断、团队知识与交付标准融入AI工作流，揭示效率之外更核心的价值——让AI稳定执行产品工作流，而…",
+        "那为什么还要多做一层 Skill？保存一段 Prompt，不也能用吗",
+        "把团队知识放进 references 提问流程稳定后，我遇到的下一个问题是：为什么每次还要重新告诉 AI 团队怎么写 PRD、常见业务规则是什么、哪些场景必须检…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 时代，人与人的差距可能先来自信息茧房",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6443719.html",
+      "published": "Mon, 10 Aug 2026 07:13:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "CC0",
+        "MCP",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "同一轮AI浪潮，有人焦虑，有人无感，有人已用它重构工作流。本文从团队实践出发，剖析习惯成本、信息茧房与代际差异，指出AI产品的真正机会在于融入工作流而非添加聊天框。与其焦虑或抵制，不如跑通一个小闭环，走出自己的信息茧房。 最近我在帮团队更新项目管理工作流，把飞书智能体之类的能力接进原有协作方式。做着做着，我反而更确定了一件事：同一轮 AI 浪潮里，大家看到的根本不是同一个世界。 有人每天刷到的都是“AI 替代谁”“岗位还剩多少”的焦虑；有人觉得 AI 就是写几句文案、补几段代码；甚至还有人自认为 AI 的产出 AI…",
+      "key_points": [
+        "有人焦虑，有人无感，有人已用它重构工作流。本文从团队实践出发，剖析习惯成本、信息茧房与代际差异，指出AI产品的真正机会在于融入工作流而非添加聊天框。与其焦虑或抵…",
+        "未必从模型能力开始，而是从谁先走出自己的信息茧房开始",
+        "更有价值的问题是：我手里的重复工作有哪些？哪些信息一直在反复找？哪些协作成本本来就高？AI 能不能先替我接住其中的一段"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Loopit已经让创作变简单， 下一步该让作品走出去",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/evaluating/6443336.html",
+      "published": "Mon, 10 Aug 2026 07:05:06 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Loopit",
+        "AI",
+        "Playable",
+        "Remix",
+        "YouTube",
+        "Google"
+      ],
+      "summary": "Loopit 以 AI 生成互动作品为切入点，降低了创作门槛，但下载量超500万后，社区活跃度仍存疑。本文从创作者循环、内容治理到跨平台分发，剖析其从工具走向平台的挑战，并提出连接器定位的破局思路。 在浏览Loopit之前，我对AI游戏创作产品的关注点一直很直接：它能不能把一句话变成一个实际可玩的作品？ Loopit确实给出了一个很有吸引力的答案。它把用户创作的内容称为Playable，也就是一种可以点击、滑动、摇晃，甚至通过声音参与的互动作品。用户不需要掌握代码，只要描述想法，AI就会尝试生成画面、逻辑和交互。…",
+      "key_points": [
+        "Loopit下一步最需要解决的，不只是继续提高生成质量或丰富站内信息流，而是帮助作品走出Loopit，进入抖音、YouTube、小红书、X等已经拥有大量用户的内…",
+        "把数据带回来。创作者需要知道作品在不同平台获得了多少展示、多少点击、多少有效试玩，又有多少用户因此关注自己。没有数据归因，所谓“作品走出去”仍然只是把链接发出去",
+        "这套设计已经超出了普通生成工具的范围。生成工具主要解决“能不能做出来”，内容平台还要回答另外几个问题：作品发布后谁能看见，作者怎样获得反馈，优秀创作者为什么愿意…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "日本为什么会流行起来枯山水，毕竟这风格很容易招流浪猫过来上厕所？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791818",
+      "published": "Mon, 10 Aug 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Engawa"
+      ],
+      "summary": "也说， 一二三聊职场，四五六谈感情。 查看知乎原文 为了保命。 历史上日本的枯山水庭园起源于 镰仓时代 ，在 室町时代 达到了顶峰。 最早日本的枯山水出现在权贵和寺庙的庭院里。 日本室町时期的大名贵族、禅宗僧侣是当时社会上层人物非常有钱。 贵族们在自己的居住地里为享乐造起庭院，禅宗僧侣们为修身也造起了庭园。 同时，那个时代的日本也比较乱，经常有大人物受到刺杀。 室町时代 “下克上” 风气盛行，出现了多起公开弑杀幕府将军的标志性事件： 嘉吉之乱中，足利义教被家臣袭杀，“永禄大逆”事件里，足利义辉被家臣围杀。 同时这一…",
+      "key_points": [
+        "也有一块大面积的碎石子路面 一些媒体号，说是日本人“尊重自然，保持静谧”的枯山水",
+        "历史上日本的枯山水庭园起源于 镰仓时代 ，在 室町时代 达到了顶峰",
+        "最早日本的枯山水出现在权贵和寺庙的庭院里"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "随机生成5位数，得到11111和得到54176的概率相同，为什么遇到前者时我们会觉得随机算法有问题？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791779",
+      "published": "Sat, 08 Aug 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bug",
+        "seed",
+        "NIST",
+        "Burr",
+        "DBinary",
+        "E."
+      ],
+      "summary": "DBinary， 画画的，专画可爱的东西 查看知乎原文 恭喜你，你注意力惊人，注意到了网络安全中非常有意思的一个实战型密码学概念。 因为不用觉得随机算法有问题这个问题好像理论上很反直觉， 而是确实生成了 11111111 123123123 这种数字的时候，这个随机算法确实有更大概率是有问题的（当然，因为算法已经出问题了，所以概率应该不会相同）。 先来一个简单易懂的概念： 如果设置一个 6 位数密码，你认为，设置“123456”和\"259765\"哪一个问题更大？ 显然是前者，就是说如果随便给你一个人，让你必须猜他设…",
+      "key_points": [
+        "因为不用觉得随机算法有问题这个问题好像理论上很反直觉， 而是确实生成了 11111111 123123123 这种数字的时候，这个随机算法确实有更大概率是有问题…",
+        "如果在不考虑“人”的因素之下，一个“完美的随机数生成算法”，生成 11111 和 54176 的数学理论上是相等的，但是一旦加入“人”的因素，这个概率的天平就会…",
+        "而是： 当一个随机算法（代码）仅看其单测试情况下，它生成了一个非常有规律数字，这个算法存在 bug 的概率，是否比它不存在 bug 的概率更大"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么中国人喜欢拿它炖肉，但外国人喜欢用它做饮料？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%96%9C%E6%AC%A2%E6%8B%BF%E5%AE%83%E7%82%96%E8%82%89%EF%BC%8C%E4%BD%86%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%96%9C%E6%AC%A2%E7%94%A8%E5%AE%83%E5%81%9A%E9%A5%AE%E6%96%99%EF%BC%9F",
+      "published": "Mon, 10 Aug 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "flickr",
+        "kapama",
+        "Chicken",
+        "Cinnamomum",
+        "Lauren",
+        "VS"
+      ],
+      "summary": "天一热，不免就会想到些厚重的香料，肉桂便是其中之一。而对于肉桂的态度，大家似乎有些爱憎分明，爱的人爱得不得了，恨的人则闻一下就不行。 肉桂卷里的肉桂、炖肉用的桂皮，同样是气味浓烈带着“桂”字的香料，却不是同一个东西，风味和用途也不同。 肉桂卷 | flickr Iyhon Chiu 01 桂皮VS肉桂 / 国内VS国外 / 樟科多种植物的树皮因为都含有芳香物质，有一股特殊的香气，所以常被用作香料使用。 割下来的肉桂树皮 | 图片来自图虫创意 植物学概念中， 在我国被称为 “桂皮” 的，其实主要是 中国土生土长的肉桂…",
+      "key_points": [
+        "静置几分钟后，直接饮用，就是一杯单纯浓郁的肉桂茶，还可添加蜂蜜或柠檬等来调味。如果想要更加馥郁的口味，还能用肉桂茶再去冲泡自己喜欢的茶叶或茶包",
+        "桂皮颜色更深，为红棕色，皮厚且坚硬扎实，口感更加刺激，略带苦涩味 。这也是甜点和饮料中常用锡兰肉桂，而非桂皮的原因",
+        "你是喜欢肉桂还是讨厌肉桂啊"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "首个全国产10万卡AI超集群投用；我国发现首个独立锗酸盐新矿物乌斯河锗矿；2026国际基础科学大会在北京开幕",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%A6%96%E4%B8%AA%E5%85%A8%E5%9B%BD%E4%BA%A710%E4%B8%87%E5%8D%A1AI%E8%B6%85%E9%9B%86%E7%BE%A4%E6%8A%95%E7%94%A8%EF%BC%9B%E6%88%91%E5%9B%BD%E5%8F%91%E7%8E%B0%E9%A6%96%E4%B8%AA%E7%8B%AC%E7%AB%8B%E9%94%97%E9%85%B8%E7%9B%90%E6%96%B0%E7%9F%BF%E7%89%A9%E4%B9%8C%E6%96%AF%E6%B2%B3%E9%94%97%E7%9F%BF%EF%BC%9B2026%E5%9B%BD%E9%99%85%E5%9F%BA%E7%A1%80%E7%A7%91%E5%AD%A6%E5%A4%A7%E4%BC%9A%E5%9C%A8%E5%8C%97%E4%BA%AC%E5%BC%80%E5%B9%95",
+      "published": "Mon, 10 Aug 2026 18:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Cosmos",
+        "DB",
+        "Azure",
+        "CMG",
+        "V2a"
+      ],
+      "summary": "今天是8月10日，星期一。1897年的今天，德国拜耳公司化学家费利克斯·霍夫曼成功合成化学纯净且稳定的阿司匹林。阿司匹林后来成为全球最广泛使用的解热镇痛药物之一。 重点新闻速览 1.首个全国产10万卡AI超集群在郑州投用 2.我国发现首个独立锗酸盐新矿物乌斯河锗矿 3.2026国际基础科学大会在北京开幕 4.台风“白海豚”在浙江玉环沿海两次登陆 科技 微软修补Azure Cosmos DB高危漏洞 8月9日消息，安全公司Wiz发现Azure Cosmos DB环境中的一个严重漏洞，命名为CosmosEscape。该…",
+      "key_points": [
+        "重点新闻速览 1.首个全国产10万卡AI超集群在郑州投用 2.我国发现首个独立锗酸盐新矿物乌斯河锗矿 3.2026国际基础科学大会在北京开幕 4.台风“白海豚”…",
+        "这是迄今发现的年代最早的非洲南部符号行为证据之一，表明早期现代人类在认知和符号表达方面的能力发展可能早于此前估计，为理解人类认知进化的时间线提供了新证据。这一发…",
+        "采用全自研高速互联网络架构，单机柜算力密度达到业界领先水平。在投用仪式上，该集群将优先服务于国家重大科研项目和人工智能产业需求。（央视新闻） CMG机器人挑战赛…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "尝鲜仅20天！有芒果香的黄桃来啦！咬开直接爆蜜汁",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B0%9D%E9%B2%9C%E4%BB%8520%E5%A4%A9%EF%BC%81%E6%9C%89%E8%8A%92%E6%9E%9C%E9%A6%99%E7%9A%84%E9%BB%84%E6%A1%83%E6%9D%A5%E5%95%A6%EF%BC%81%E5%92%AC%E5%BC%80%E7%9B%B4%E6%8E%A5%E7%88%86%E8%9C%9C%E6%B1%81",
+      "published": "Mon, 10 Aug 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "bce74r63j50fr",
+        "dc_ps",
+        "detail",
+        "wscgoods"
+      ],
+      "summary": "酷暑盛夏，燥热席卷而来，唯有一口鲜甜的应季鲜果，才能抚平夏日的烦闷焦躁~ 晚风渐渐吹散荔枝的清甜，属于夏日的另一重甜蜜正式登场 —— 芒果黄桃 如约而至！ 很多老粉复购时都爱亲昵叫它 “芒芒桃” 。 奇妙的双重风味， 把芒果的馥郁果香与黄桃的醇厚甜润揉在一颗果子里 ，吃过就念念不忘。 在一众黄桃当中，山西运城黄金油桃，可以说是独一档的存在。 对比山东、东北产区的黄桃， 它的糖分沉淀更足，果香也更加浓烈奔放。 剥开果肉，浓郁果香扑面而来，萦绕鼻尖，入口回甘悠长，吃过便很难再将就普通桃子。 通体金黄油润的果皮，光泽感十…",
+      "key_points": [
+        "尝鲜仅20天！“黄桃之乡”山西运城“芒果黄桃”上市啦， 顺丰产地直发 大热天，从冰箱取出冰凉的黄金芒果桃，追剧闲暇大口啃食，这才是属于夏天的快意滋味~ 爱吃黄桃…",
+        "果肉兼具芒果般糯弹与鲜桃的脆爽 ，层次格外丰富~ 冰冻吃体验感绝了~ 除 了直接鲜食， 自制无添加黄桃罐头、熬制涂抹面包的果酱，都是不错的选择",
+        "把芒果的馥郁果香与黄桃的醇厚甜润揉在一颗果子里 ，吃过就念念不忘"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "动物园里的北极熊突然变绿，为什么怎么洗都洗不掉",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8A%A8%E7%89%A9%E5%9B%AD%E9%87%8C%E7%9A%84%E5%8C%97%E6%9E%81%E7%86%8A%E7%AA%81%E7%84%B6%E5%8F%98%E7%BB%BF%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%8E%E4%B9%88%E6%B4%97%E9%83%BD%E6%B4%97%E4%B8%8D%E6%8E%89",
+      "published": "Mon, 10 Aug 2026 16:00:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "bears",
+        "https",
+        "Lewin",
+        "of",
+        "polar",
+        "a0"
+      ],
+      "summary": "1978年夏天，圣迭戈动物园的兽医菲利普·罗宾逊（Phillip T. Robinson）走过北极熊展区，看见三只成年熊的体侧和后腿覆着大片草绿色（注，不是下图这头）。但头还是白的，肚子也是白的。 这不是1978年那头，另一个动物园的绿毛北极熊 直觉告诉罗宾逊，这应是藻染上的绿色。因为展区带水池，池壁和池水里都长藻，熊整天泡在里面，蹭一身绿说得通。 但罗宾逊按用水冲了一遍毛，发现绿色洗不掉，这就不能用藻来解释了。 于是，罗宾逊剪下几撮毛，送到几公里外的斯克里普斯海洋研究所，交给拉尔夫·卢因（Ralph Arnold…",
+      "key_points": [
+        "卢因和罗宾逊把研究结果发表在《自然》上，论文题目就是《动物园里北极熊的变绿》",
+        "名古屋东山动物园的绿毛北极熊 至于它们究竟从哪个开口进入毛中，研究人员没有直接观察到。比较合理的推测是，北极熊在长满藻类的池底和池壁摩擦时，把细胞带进了护毛的腔…",
+        "另一个动物园的绿毛北极熊 直觉告诉罗宾逊，这应是藻染上的绿色。因为展区带水池，池壁和池水里都长藻，熊整天泡在里面，蹭一身绿说得通"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "诺兰谈他的技巧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%AF%BA%E5%85%B0%E8%B0%88%E4%BB%96%E7%9A%84%E6%8A%80%E5%B7%A7",
+      "published": "Mon, 10 Aug 2026 20:54:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IMAX",
+        "Films",
+        "hongmomgs",
+        "irisfilm",
+        "Jeffrey",
+        "qq.com"
+      ],
+      "summary": "作者：Jeffrey Ressner 译者：鸢尾花 校对：易二三 来源：www.dga.org （2012年春季专题） 克里斯托弗 · 诺兰 的父亲是一名 英国广告 商，母亲是 一位美国空姐 ， 这位 年少就 痴迷于电影的导演在 2000 年凭借黑色电影《记忆 碎片 》一举成名。 这部耗资 400 万美元的独立电影采用了犯罪惊悚片的惯用套路，但又加入了新的元素 —— 男主角反复出现的短期失忆现象通过一 组 交错的叙事线索得以展现，其中一个叙事线索在时间上向前推进，而另一 条叙事线则指向过去 。 《记忆碎片》 诺兰在…",
+      "key_points": [
+        "尽管他要在最后期限前完成所有的剪辑工作，完成导演剪辑版，但诺兰却表现出了禅宗般的平静，轻声而从容地谈论着他的工作",
+        "如果你投入大量的时间和精力去匹配原始的素材，那么你可以在画面中加入的特效真的可以欺骗观众的眼睛，如今的技术已经比20年前先进的多。对我来说，问题在于如果不先用摄…",
+        "诺兰：我不知道其他人的经历是否与我相同，拍《追随》的时候，我和一帮朋友都还穿着自己的衣服，我妈妈给我们做着三明治。之后到获得400万美元投资拍摄《记忆碎片》，再…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "我最喜欢的一部诺兰电影，你可能想不到",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%83%A8%E8%AF%BA%E5%85%B0%E7%94%B5%E5%BD%B1%EF%BC%8C%E4%BD%A0%E5%8F%AF%E8%83%BD%E6%83%B3%E4%B8%8D%E5%88%B0",
+      "published": "Mon, 10 Aug 2026 20:54:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IMAX",
+        "Empire",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Ruike"
+      ],
+      "summary": "文 Ruike 借《奥德赛》上映的机会，说说我最喜欢的一部诺兰电影。 如果说《奥德赛》讲的是执念和代价的命题，那么这早在诺兰二十年前的一部作品里，就已经被讲透了，我说的是《致命魔术》。 《致命魔术》（2006） 《致命魔术》在诺兰作品序列里，始终处于一个尴尬的位置，它夹在两部蝙蝠侠之间，像一个魔术师在两场大型巡演的间歇，悄悄献上的小剧场表演。 多数影迷谈论诺兰时会先提《黑暗骑士》的商业统治力，或者《盗梦空间》的概念冲击，或者《奥本海默》的奥斯卡加冕，但如果我们只能选一部电影来说明诺兰到底是怎样的导演，我觉得最合适的…",
+      "key_points": [
+        "文 Ruike 借《奥德赛》上映的机会，说说我最喜欢的一部诺兰电影",
+        "多数影迷谈论诺兰时会先提《黑暗骑士》的商业统治力，或者《盗梦空间》的概念冲击，或者《奥本海默》的奥斯卡加冕，但如果我们只能选一部电影来说明诺兰到底是怎样的导演，…",
+        "如果说《奥德赛》讲的是执念和代价的命题，那么这早在诺兰二十年前的一部作品里，就已经被讲透了，我说的是《致命魔术》"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "秋天的感觉",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%A7%8B%E5%A4%A9%E7%9A%84%E6%84%9F%E8%A7%89",
+      "published": "Mon, 10 Aug 2026 18:18:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "说是要下雨，而且下一周，小区群里都收到了暴雨警报。但此刻这天一丝云都没有，蓝到发黑。 文章原文",
+      "key_points": [
+        "而且下一周，小区群里都收到了暴雨警报。但此刻这天一丝云都没有，蓝到发黑"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "这些“过时”的地理知识，该更新了！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%BF%99%E4%BA%9B%E2%80%9C%E8%BF%87%E6%97%B6%E2%80%9D%E7%9A%84%E5%9C%B0%E7%90%86%E7%9F%A5%E8%AF%86%EF%BC%8C%E8%AF%A5%E6%9B%B4%E6%96%B0%E4%BA%86%EF%BC%81",
+      "published": "Mon, 10 Aug 2026 17:25:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VS",
+        "GNSS",
+        "WMO"
+      ],
+      "summary": "当年我们熬夜死记硬背 考试必考的地理标准答案 很多早已过时、不再适用 时代在发展 地理知识也需要更新一下了 珠穆朗玛峰长高了⬆️ 8844.43米 VS 8848.86米 2005年10月9日，中国向世界宣布珠穆朗玛峰峰顶岩石面海拔高程为8844.43米。在 此后的十余年里 ，该数据一直作为全国统一采用的珠穆朗玛峰岩石面海拔高程 标准数据 。 珠峰日落 直到 2020年12月8日 ，中国和尼泊尔共同向世界公布了珠峰的新身高： 8848.86米 。 该海拔数据是雪面高程而非岩石面高程，而且为了测新高程，测量人员实际攀…",
+      "key_points": [
+        "当年我们熬夜死记硬背 考试必考的地理标准答案 很多早已过时、不再适用 时代在发展 地理知识也需要更新一下了 珠穆朗玛峰长高了⬆️ 8844.43米 VS 884…",
+        "参考资料： 1、奇迹！毛乌素沙地治理——世界上最大面积的生态逆转在这里铺开.国家林业和草原局.2024年11月1日 2、我国粮食生产重心进一步向北转移.《中国粮…",
+        "面对鳕鱼资源的枯竭 加拿大渔业部被迫于1992年宣布 彻底关闭纽芬兰及圣劳伦斯湾沿海渔场 经营了近500年的纽芬兰捕鱼业走到了尽头 你还记得哪些早已过时的地理考…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "北京大学博雅讲堂，八位名家线上开讲，8月13日-20日",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8D%9A%E9%9B%85%E8%AE%B2%E5%A0%82%EF%BC%8C%E5%85%AB%E4%BD%8D%E5%90%8D%E5%AE%B6%E7%BA%BF%E4%B8%8A%E5%BC%80%E8%AE%B2%EF%BC%8C8%E6%9C%8813%E6%97%A5-20%E6%97%A5",
+      "published": "Mon, 10 Aug 2026 17:46:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "get",
+        "Intellectual"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual ‍ ● ● ● 01 简介 “科学与人文相映生辉，前沿与历史交响成诗”——这是一次云端名家盛宴。本系列讲座邀请一批北京大学在理、工、文、医各前沿乃至交叉学科的领军名家，以通俗易懂的语言传递深邃隽永的思想，引领着每颗好奇求知的心灵，穿越学科发展的历史长河，攫取一抹前沿研究的星光，为社会展现北京大学在自然与人文科学的雄厚实力和历史积淀，吸引未来青年学生加入探索的征途。 本次活动由北大-清华生命科学联合中心、北京大学前沿交叉学科研究院联合主办。秉承 “深度开放…",
+      "key_points": [
+        "02 讲座安排 讲座安排一图尽览 信息来源：北京大学前沿交叉学科研究院 03 8月13日讲座预告 8月13日 星期四 19：30-20：30 主讲人： 程乐松（…",
+        "本次活动由北大-清华生命科学联合中心、北京大学前沿交叉学科研究院联合主办。秉承 “深度开放融合、打破思维边界、云中对话名家” 的理念，8场讲座内容将在北京大学、…",
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual ‍ ● ● ● 01 简介 “科学与人文相映生辉，前沿与历史交响成诗”——这是一次云端名家盛宴。本…"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "第三期经济学人打卡营",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%89%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%89%93%E5%8D%A1%E8%90%A5",
+      "published": "Mon, 10 Aug 2026 12:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Day01",
+        "a.pages.dev",
+        "CATTI",
+        "day01-trial",
+        "f6313249.economist-day1-q"
+      ],
+      "summary": "最近两期经济学人打卡营的答疑区里，反复出现一类问题。 句子里的单词几乎都认识，大意似乎也看懂了，可真要说清楚作者在讲什么，或者自己动手翻译，就开始卡壳。 有人找不到长句的主干；有人每个词都查对了，译出来却还是不像中文；也有人看完解析觉得自己懂了，到了仿写环节，又不确定写出来的句子到底对不对。 这也是读《经济学人》最让人泄气的地方：文章明明摆在眼前，词也查了，语法好像也学过，可作者的逻辑、语气和真正想说的话，总隔着一层纱。 读懂，不等于读透 做了两期精读打卡营之后，我们越来越确定，把原文、译文和词汇整理出来并不难。难…",
+      "key_points": [
+        "报名请添加小助理微信：foxwulihua4，添加时备注：第三期精读打卡营 我们不能保证20天之后，所有人都能毫不费力地读完一篇《经济学人》。这种话说出来也不负…",
+        "第三期开营信息 开营时间： 8月23日 课程周期： 30天 正课数量： 20天，周一至周五更新 每日内容： 1篇主文章双语译文发社群，2段精读在网页端按节奏解锁…",
+        "这也是读《经济学人》最让人泄气的地方：文章明明摆在眼前，词也查了，语法好像也学过，可作者的逻辑、语气和真正想说的话，总隔着一层纱"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "Agent评测漫谈 —— 由浅入深讲解Agent评测",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/08/07/Agent-Evaluation.html",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "BP"
+      ],
+      "summary": "本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。",
+      "key_points": [
+        "由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如果进化论是对的，植物为何不进化得很难吃？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791748",
+      "published": "Fri, 07 Aug 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "in",
+        "al.",
+        "et",
+        "by",
+        "M."
+      ],
+      "summary": "元算， 科普爱好者，探索自然的奥秘。 查看知乎原文 澳大利亚有一种树。 碰一下它的叶子，得疼两年。 有个军官用它的叶子擦了皮眼子。 后来他难受得开枪自杀了。 这种树不在深山老林里，就在路边，随便就能碰到。 01 那片叶子 1866 年，北昆士兰。 一个道路勘测员牵着马穿过雨林。 天气闷热，空气像裹了一层湿毛巾。 灌木丛茂密，他用砍刀开路，手臂不断扫过两侧的植物枝叶。 然后他碰到了一片叶子。 心形叶片，表面毛茸茸的，看上去人畜无害。 但在皮肤接触的那一刻，一阵灼烧感从手臂炸开，这是一种他从未体验过的、像被浇了硫酸同时…",
+      "key_points": [
+        "回到最初的问题，植物为什么不进化得很难吃",
+        "一种不会动的植物竟然进化出了和蜘蛛、蜗牛同款的神经攻击武器",
+        "一种植物独立进化出了和动物毒液结构相同的武器"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "《请回答1988》为什么让人怀念？——品牌如何创造用户心中的“美好记忆资产”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6437902.html",
+      "published": "Mon, 03 Aug 2026 01:19:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GMV",
+        "lululemon",
+        "Patagonia",
+        "Airbnb",
+        "Do",
+        "It"
+      ],
+      "summary": "没有霸道总裁，没有狗血反转，一部讲述1988年首尔胡同日常的韩剧，为何能火十几年？本文从《请回答1988》的爆火切入，拆解其背后的商业逻辑：用户买的从来不是产品，而是情感。从被理解、被陪伴到对简单幸福的向往，揭示未来品牌竞争的核心方向——打造用户的美好记忆资产。 说起韩剧的经典爆款，大多逃不开一个逻辑：强戏剧冲突。 《来自星星的你》，用跨星际设定造极致浪漫；《太阳的后裔》，用英雄叙事拉满情感张力；《鬼怪》，用奇幻世界观构建新鲜感。 它们靠密集的反转、强烈的情绪，牢牢抓住观众的注意力。 但有一部剧，是个十足的“异类”…",
+      "key_points": [
+        "没有狗血反转，一部讲述1988年首尔胡同日常的韩剧，为何能火十几年？本文从《请回答1988》的爆火切入，拆解其背后的商业逻辑：用户买的从来不是产品，而是情感。从…",
+        "《请回答1988》为什么让人怀念",
+        "七、打造你的“1988时刻”：顶级品牌，都在给用户埋记忆锚点 前面六章，我们从《请回答1988》的情感共鸣，聊到了怀旧心理、社区价值、用户故事、关系网络，再到品…"
+      ]
+    }
+  ]
+}
