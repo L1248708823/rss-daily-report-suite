@@ -1,0 +1,737 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T01:00:12.376917+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 95,
+    "fresh_candidates": 68,
+    "backfill_candidates": 27,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-12",
+      "fetched_at": "2026-08-12T01:00:06.904898+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3934.09,
+          "change": -32.5,
+          "change_pct": -0.82,
+          "volume": 529490944.0,
+          "amount": 106673709.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4380.3,
+          "change": 12.300000000000182,
+          "change_pct": 0.28,
+          "prev_close": 4368.0,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-12 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 949.8407375375762,
+          "change": 2.6671782918321014,
+          "change_pct": 0.2815934065934058,
+          "prev_close": 947.1735592457441,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-12 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "黄金突破4400点！4000点的黄金，你抄到了吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E9%BB%84%E9%87%91%E7%AA%81%E7%A0%B44400%E7%82%B9%EF%BC%814000%E7%82%B9%E7%9A%84%E9%BB%84%E9%87%91%EF%BC%8C%E4%BD%A0%E6%8A%84%E5%88%B0%E4%BA%86%E5%90%97%EF%BC%9F",
+      "published": "Tue, 11 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：做配置的小雪 上周，黄金大涨超7%，今天，重返4400点大关。 01 “避险”资产波动也很大 从年初到7月份，黄金一度最大回撤达到30%，远超今年全球股票市场的波动，并且在4000美元关口附近，盘整了两个多月。 黄金这轮下跌主要有两个原因： 首先，导火索是美伊冲突导致的流动性危机，而黄金作为流动性最好的资产，被投资者抛售变现。 但随着美伊冲突缓和，黄金并没有如期反弹，原因在于市场担心美国通胀进一步抬头，导致降息节奏放缓甚至结…",
+      "key_points": [
+        "被央行抄到了 在7月盘整的时候，我们收到很多朋友咨询：“黄金是不是没戏了？要不要赶紧清仓割肉？” 但是反观央行，却在这个时候默默 加仓",
+        "01 “避险”资产波动也很大 从年初到7月份，黄金一度最大回撤达到30%，远超今年全球股票市场的波动，并且在4000美元关口附近，盘整了两个多月",
+        "它的持有成本就是生息资产，比如美债的收益率，所以，当美联储转鹰、市场押注持续加息时，利率抬高，也推高了黄金的持有成本，从而压制金价上涨"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "相信企业的内在价值",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1641200866/404570322",
+      "published": "Tue, 11 Aug 2026 10:05:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "PE",
+        "SH601899",
+        "SZ000408",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "藏格矿业中报已经出来，营业收入：20.65亿元，同比+23.05%，归母净利润：36.38亿元，同比+102.09%（翻倍）扣非归母净利润：37.06亿元，同比+104.92%，经营现金流净额：9.84亿元，同比+17.99%。- 重点项目中巨龙铜矿爬坡放量，贡献28亿的利润。麻米错盐湖：已经建成、拿到试生产批复，进入试生产阶段，未来锂增量核心。 - 龙木错7万吨碳酸锂：环评获批；老挝200万吨钾盐项目权证推进存在不确定性。 可以说财报极其亮眼的情况下，股价则一反常态，大跌7%以上。很多人始料不及，谈一下我个人的想…",
+      "key_points": [
+        "一是说分红不及预期。但藏格矿业直到去年中报才开始有分红的。且藏格矿业也从来没承诺过固定分红比例，24年年报分红比例甚至金15%左右。主要原因是巨龙铜矿二期工程于…",
+        "第一，找出企业内在价值。足够了解企业计算保底利润，再对其进行估值判断来计算目标价和合理市值。并且找出内在的价值锚点。如藏格矿业今年九十亿利润，给20倍PE那么到…",
+        "股价不上去大家都搞不到钱。短期只能降低一些成本。技术会卖飞 基本面基本不会卖飞 所以相信基本面看到跌都要拿着。而不能耍小聪明 。不然只能赚小钱却赚不了大钱"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "洋河的投资机会",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/404578601",
+      "published": "Tue, 11 Aug 2026 09:56:24 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE30",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "2025年，洋河净利润22亿，按PE30计算市值660亿，现市值619亿。2025年五粮液净利润89亿，按PE30计算市值2670亿，现市值2911亿。这不是巧合，而是市场根据现有财报信息给予公允报价，为什么没有溢价，因为一个改分红，一个修账本。 不了解白酒的人，也是这么认为的，但了解白酒的人，都知道这不是正常业绩。人员交替年份，利用行业周期做低业绩，为自己任内谋个低基数，这是基本操作。就像我说的那样，本质就是朝三暮四还是朝四暮三的区别。企业真实业绩一直就在那里。 国企说保底的时候，通常是保底再保底双保险，拿保底分…",
+      "key_points": [
+        "但对下优势明显，再被蚕食，也不可能沦落到22亿境地。今世缘真这么强，也不会在江苏省中端突破，避开洋河低端海之蓝，次高端梦6+，进行差异化竞争。当市场给予洋河破产…",
+        "洋河净利润22亿，按PE30计算市值660亿，现市值619亿。2025年五粮液净利润89亿，按PE30计算市值2670亿，现市值2911亿。这不是巧合，而是市场…",
+        "通常是保底再保底双保险，拿保底分红作真实销售，是相对客观和保守的。洋河如果不换人，保底70亿分红，我认为没有问题。五粮液即使换人，200亿保底分红也没有问题。每…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "持股收息也不能无脑买入",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9243873627/404486546",
+      "published": "Tue, 11 Aug 2026 09:56:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600036",
+        "SH601318",
+        "SZ000651",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "很多人眼里持股收息，就是看谁股息最高就买入，长期的持有，每年等分红就好了。其实这是没有了解持股收息的本质。 持股收息的本质是买入优秀且稳定经营，每年都固定给股东派发股息的公司。长期持有，分享企业经营带来的利润。重点是你买入什么公司，其次才是长期持有。 公司能分红是建立在公司未来能赚钱的基础上，公司没赚到钱，哪里来的现金分给你？ 首先要买入未来能成长或稳定经营的公司，还要有稳定的分红历史，才有可能未来继续给你分红。比如很多大蓝筹，国有公用事业，金融股。 其次还要买的够便宜，买贵了，分红率就低，要用很长的时间来消除估值…",
+      "key_points": [
+        "买入已决定了结果。如果选择是对的，每年你只要分红复投，或股价低了有钱就买入。几年分红复投下来，股息率都能超过10%，你还不能坚定持股收息",
+        "就是看谁股息最高就买入，长期的持有，每年等分红就好了。其实这是没有了解持股收息的本质",
+        "每年都固定给股东派发股息的公司。长期持有，分享企业经营带来的利润。重点是你买入什么公司，其次才是长期持有"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "矿产资源",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7736057859/404537167",
+      "published": "Tue, 11 Aug 2026 09:56:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "EV",
+        "NAV",
+        "EBITDA",
+        "http",
+        "lt"
+      ],
+      "summary": "对矿产资源公司来说，单纯用PB（市净率）来估值通常不太准确，甚至容易产生误导。它顶多算一个辅助参考，绝不能作为核心依据。 账面净资产严重失真： 矿企最值钱的资产是地下的矿石，但这部分价值在财务报表上往往被严重低估。 1.勘探支出费用化——很多前期找矿花的钱，按会计准则直接计入费用，不会变成资产。 2.历史成本入账——几年前买的矿，现在金、铜价格大涨，但账面成本可能还是当初那个很低的数字。 3.资源未入表——已经探明但尚未开采的储量，其巨大的潜在价值根本没有体现在资产负债表里。 无法反映核心价值 ：矿企价值由储量、品…",
+      "key_points": [
+        "还会用 EV/EBITDA 看盈利能力，用 EV/储量（企业价值/探明储量）横向对比资源价值，早期勘探公司甚至可能用实物期权模型",
+        "投的是地下的资源，资源未来的价值兑现，以及对资源未来的价格预期，而不仅仅是报表上的账面资产",
+        "3.资源未入表——已经探明但尚未开采的储量，其巨大的潜在价值根本没有体现在资产负债表里"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "腾讯WorkBuddy火了，字节和阿里急了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6445072.html",
+      "published": "Tue, 11 Aug 2026 09:33:25 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Chat",
+        "WorkBuddy",
+        "Cursor",
+        "PPT"
+      ],
+      "summary": "办公Agent正成为国内大厂的新战场，腾讯、阿里、字节十天内相继整合资源押注。WorkBuddy以月访问量2097万次领先，而豆包虽有3.82亿月活却面临转型挑战。本文解析Chat与Agent的本质区别，揭示办公Agent如何成为生产力工具，并探讨大厂竞争背后的战略逻辑。 办公Agent，已经成为国内互联网大厂的必争之地。 腾讯、阿里、字节，三家公司在短短十天内，几乎做了同一件事：结束赛马，把更多的资源押宝在办公Agent上。 7月20号，腾讯内部通知Qclaw并入WorkBuddy所在部门统一管理。 一天后，阿里…",
+      "key_points": [
+        "腾讯、阿里、字节十天内相继整合资源押注。WorkBuddy以月访问量2097万次领先，而豆包虽有3.82亿月活却面临转型挑战。本文解析Chat与Agent的本质…",
+        "WorkBuddy却以月访问量2097万次稳居第一，超过字节跳动Trae（1279万）和阿里QoderWork（788万）的总和",
+        "腾讯、阿里、字节，三家做出了共同判断"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Kimi K3 问世：中国 AI 的【规模宣言】与开源路线的历史性拐点",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6444898.html",
+      "published": "Tue, 11 Aug 2026 08:50:37 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Kimi",
+        "K3",
+        "AI",
+        "token",
+        "API",
+        "DeepSeek"
+      ],
+      "summary": "Kimi K3 以 2.8 万亿参数、百万级上下文和原生多模态能力，成为全球首个开源 3 万亿级模型。本文深度解析其技术突破、与主流模型的优劣对比，并探讨开源与闭源格局的结构性逆转，揭示中国 AI 从跟随到定义规则的范式转移。 一、引言：当 2.8 万亿参数成为新基准 2026 年 7 月 16 日，上海世界人工智能大会（WAIC）开幕前夕，月之暗面（Moonshot AI）正式发布了 Kimi K3——一个拥有 2.8 万亿参数 、 100 万 token 超长上下文 、 原生视觉理解 能力的开源大模型。 这不是…",
+      "key_points": [
+        "2.开源路线的”封顶”意义 ：在过去 12 个月中的 9 个月里，Kimi 模型都保持着开源模型的规模上限。K3 的发布让开源阵营首次拥有了与顶级闭源模型”掰手…",
+        "五、个人洞察：Kimi K3 背后的三个”范式转移” 作为一名长期关注 AI 产业发展的观察者，我认为 Kimi K3 的问世不仅仅是技术参数的突破，更折射出三…",
+        "洞察二：中国 AI 的”第二曲线”已启动 如果把 2023-2024 年看作中国大模型的”第一曲线”（以应用创新和长文本为特色），那么 2025-2026 年则…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "业绩不增长白皮书",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6444785.html",
+      "published": "Tue, 11 Aug 2026 07:22:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CEO",
+        "SKU",
+        "CC0",
+        "KPI",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "存量时代，企业增长失速的根源并非单点短板，而是体系化作战能力的缺失。本文深入剖析战略、战役、作战、业绩四大环节的脱节现象，揭示“样样向好却不增长”的深层逻辑，为管理者提供系统性的破局思路。 过去四十年，中国企业赚钱，远没有今天这么难。 增量时代，市场红利推着所有人跑。产品够好，渠道烂一点、品牌弱一点，照样卖爆；渠道够狠，产品平庸一点，照样铺满全国；品牌会打广告，产品和渠道差点意思，也能咔咔收割。一个长板捅破天，剩下的别太拉胯，增长就挡不住。 但这里有个巨大的误会：那个年代的增长，不全是你的本事，多半是时代的馈赠。大…",
+      "key_points": [
+        "企业增长失速的根源并非单点短板，而是体系化作战能力的缺失。本文深入剖析战略、战役、作战、业绩四大环节的脱节现象，揭示“样样向好却不增长”的深层逻辑，为管理者提供…",
+        "一个让无数老板扎心的怪事发生了：明明样样都在变好，业绩就是不增长",
+        "但很多企业的现状是：从战略到执行的每一个落地环节，都在持续拉低成功的概率。定战役找不准核心，找机会抓不住红利，拆目标对不上资源，提效率摸不到根因，看仪表看不到长…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI产品的攻与防：核心功能跑通后，还要补上哪些边界？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6444803.html",
+      "published": "Tue, 11 Aug 2026 07:18:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Lollipop",
+        "OWASP",
+        "SSH",
+        "WAF",
+        "Adaptive"
+      ],
+      "summary": "AI产品的输入框看似简单，背后却隐藏着多层校验与安全防线。从文件上传到模型调用，每一个环节都可能成为攻击的入口。本文通过实际案例，剖析产品在公网暴露后遭遇的扫描与攻击，揭示安全设计必须从产品定义阶段就开始，而非事后补救。 现在很多AI产品的首页，看上去都差不多：中间放一个大输入框。 用户输入一句话，挂一张图片或者一份文件，剩下的事情交给AI完成。这种交互有个名字，叫LUI，也就是Language User Interface。 即梦现在的创作页就是一个很典型的例子。 站在用户这边看，它就是一个上传入口加一个输入框。…",
+      "key_points": [
+        "#关键动作 它为什么需要优先检查：最贵／最敏感／最难撤回 #边界 什么输入可以进入，什么必须拒绝 谁可以发起 可以访问什么数据、操作什么对象 身份、对象和动作由…",
+        "把三个问题写进一张行动卡 这张卡不是让产品经理自己去做渗透测试，更不是让人越过安全边界去测试别人的系统。产品经理要做的是把边界、上限、退路和通过标准写进需求与验…",
+        "可能只是一次产品异常。有人连续上传几百个超大文件，不断触发解析和模型任务，就是在滥用正常功能。如果提交的是专门构造的恶意文件，目的是寻找解析漏洞，这就不是异常处…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "别再手搓提示词了！万能提示词工程编写框架让AI从“听得懂”到“做得对”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6444756.html",
+      "published": "Tue, 11 Aug 2026 07:17:01 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "core_intent",
+        "DZS",
+        "DZS-",
+        "timestamp",
+        "unresolved_questions"
+      ],
+      "summary": "提示词工程已进入2.0时代，从单向指令转向构建认知框架。本文公开DZS万能提示词框架，包含五阶段自适应循环、三维压力测试与对话脉令档案，让AI输出从平庸到惊艳，成为你的思维伙伴。 做提示词工程这么久，我见过太多人把大模型当成“许愿池”——扔一句模糊的话进去，期待AI能完美猜中心思。结果要么是泛泛而谈的废话，要么是逻辑跑偏的“幻觉”内容。 问题出在哪？ 不是AI不够聪明，而是你的提示词缺少一套“思考框架” 。 2026年的AI开发范式已经变了。Anthropic应用AI团队的工程师Margot Van Laar在Co…",
+      "key_points": [
+        "默认为【延续】，并在回答中主动寻求确认：“我将此理解为之前话题的延伸，如果不是，请随时指正。” 如果是【延续】或【深化】，在你的回答开头明确指出这种关联，例如：…",
+        "预期结果：AI会回复确认信息：“【DZS-万能提示词工程编写框架】已激活…” 第2步：提交您的原始提示 框架激活后，像平常一样直接输入您的问题。无需任何特殊格式…",
+        "今天我直接把我的 【DZS-万能提示词工程编写框架】 完整公开。它不是教你写某一类提示词，而是给你一套能让任何提示词都变“聪明”的底层操作系统"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有什么技能今天看起来理所当然，但先辈们花了几个世纪才摸索出来？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791837",
+      "published": "Tue, 11 Aug 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Annaeus",
+        "Gayetty",
+        "hemp",
+        "Issue",
+        "Lucius",
+        "Medicated"
+      ],
+      "summary": "永乐通宝， 白河夜船 查看知乎原文 用纸擦屁股。 事实上直到今天，全世界 80 亿人中的大部分，依旧没能普及用厕纸擦屁股，典型的例子就是超级人口大国——印度。 擦屁股问题是古人类学会直立行后才有的，可以说是解放前肢而付出的代价之一。 为了适应直立行走和保持身体平衡，人类进化出了全身最大、最强壮的臀大肌，并配合独特的骨盆结构来提供稳定的支撑。肛门也因此被深深埋入了臀大肌内，使得排泄物更易残留在屁股上，又因为肛门周围相对密闭的环境，更容易滋生细菌，引发肛肠疾病，所以清洁屁股成了人类的一种刚需。 而绝大多数哺乳动物，比如…",
+      "key_points": [
+        "今天看起来理所当然，但先辈们花几十个世纪才摸索出来",
+        "大食商人苏莱曼来大唐经商，并用阿拉伯文写下《苏莱曼东游记》（又译《中国—印度见闻录》），其中就吐槽中国人的如厕习惯：“中国人不讲卫生，便后不用水洗，而是用中国造…",
+        "日本仙台藩藩主伊达政宗在幕府的授权下，曾派家臣支仓常长带领一支一百多人的队伍横越太平洋出访欧洲（史称庆长遣欧使节），日本访问团所到之处都造成轰动，有部分原因是因…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何看待OpenAI下一代模型Astra大量解决数学猜想？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791839",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Babai",
+        "group",
+        "nonsofic",
+        "OpenAI",
+        "Wiles"
+      ],
+      "summary": "知乎用户， 服膺守善心无违 查看知乎原文 谢邀， 利益相关 ：从单位距离猜想被否定到这次的 10 个问题，很幸运在 openai 和 另一个知友 @废柴少女幽香酱 陈老师 以及公司同事们一起，参与推动了这些或许会成为人类数学史转折点的技术进程。 一个有趣的事情是，参与的同事没有谁的本职工作是 focus on ai math 的，这次完全就是通往 agi 道路上的一个支线剧情。 （ 以下由 ChatGPT 润色） 这次的证明发布之后，我在过去两天里在推特上看到许多数学家开始重新思考数学工作的意义。 我不太想从一个…",
+      "key_points": [
+        "我们正在目睹某种新事物初现曙光。人工智能系统已经开始解决数学问题，而这道晨曦很快便会化作一轮完整的朝阳。那些困扰我们数十年的问题，或许终于会被攻克。我感谢我在…",
+        "服膺守善心无违 谢邀， 利益相关 ：从单位距离猜想被否定到这次的 10 个问题，很幸运在 openai 和 另一个知友 @废柴少女幽香酱 陈老师 以及公司同事们…",
+        "变成下一代人轻而易举的一个 API 调用；一个人用青春、孤独和失败才跨过的深渊，后来者只需要按下回车"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "流星雨撞上日全食！就在明晚，百年难遇的天象大戏来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B5%81%E6%98%9F%E9%9B%A8%E6%92%9E%E4%B8%8A%E6%97%A5%E5%85%A8%E9%A3%9F%EF%BC%81%E5%B0%B1%E5%9C%A8%E6%98%8E%E6%99%9A%EF%BC%8C%E7%99%BE%E5%B9%B4%E9%9A%BE%E9%81%87%E7%9A%84%E5%A4%A9%E8%B1%A1%E5%A4%A7%E6%88%8F%E6%9D%A5%E4%BA%86",
+      "published": "Tue, 11 Aug 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "M.",
+        "NASA",
+        "P.",
+        "ada.",
+        "Aniol",
+        "Brocken"
+      ],
+      "summary": "一年一度的英仙座流星雨，将在8月12-13日迎来极大。与此同时，在地球另一端的西班牙正在上演“天狗食日”，这是121年以来西班牙大陆首次迎来的日全食。在日食带如果足够幸运，你甚至可以看到 流星划过日全食的世纪奇景 。 这场日全食，国内看不到。 果壳直播团队天文科普达人韩越扬 奔赴西班牙，驻扎全食带核心观测区，为你实时传回现场画面， 陪你看遍白天与黑夜的奇迹。 点击预约，8月12日20:00，流星雨+日全食直播间见！ 月亮是天狗？ 先来聊聊日食是怎么发生的。简单来说，当月球运行到太阳和地球之间，三者恰好排成一条直线时…",
+      "key_points": [
+        "8月12日日全食时间表 | NASA 此外，8月的暑假是旅游旺季，再加上日食天象，届时可能会有上千万人涌入西班牙。已经决定出国追日的朋友，一定要提前踩好多个观测…",
+        "乌兰布统草原夏夜的英仙座流星雨丨摄影师：芮博超 单看日全食，已经足够稀有。单看英仙座流星雨极大，还碰上完美的新月条件，也需要运气。试问我们这一生，又能遇到几次“…",
+        "使用漏勺观测日偏食丨 Brocken Inaglory 条件绝佳的英仙座流星雨 日全食已经足够震撼，但8月12日的宇宙，还准备了第二份礼物"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "台风“白海豚”登陆沿海，为啥千里之外的北京被暴雨刷屏？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%B0%E9%A3%8E%E2%80%9C%E7%99%BD%E6%B5%B7%E8%B1%9A%E2%80%9D%E7%99%BB%E9%99%86%E6%B2%BF%E6%B5%B7%EF%BC%8C%E4%B8%BA%E5%95%A5%E5%8D%83%E9%87%8C%E4%B9%8B%E5%A4%96%E7%9A%84%E5%8C%97%E4%BA%AC%E8%A2%AB%E6%9A%B4%E9%9B%A8%E5%88%B7%E5%B1%8F%EF%BC%9F",
+      "published": "Tue, 11 Aug 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gh_bc4e899b1071",
+        "ID"
+      ],
+      "summary": "审核专家：叶海英 中国气象局气象宣传与科普中心（中国气象报社） 新媒体中心副主任 今年台风“白海豚”的走势格外反常，接连两次登陆浙江后，本该影响华东沿海的它千里北上，强势波及华北，可能致使北京等多地遭遇暴雨。不少人疑惑：台风明明是沿海天气系统，北方为何会被波及？ 图源：社交媒体 什么是“白海豚旋涡”？ 这次台风引发北方暴雨的，是一个被称作“白海豚残余涡旋”的特殊系统——本质上就是“白海豚”登陆减弱后留下的残余环流。 图源：海淀融媒 它和普通台风有完全不同的致灾特点，核心特征就是 风弱雨强 。普通台风靠大风、风暴潮致…",
+      "key_points": [
+        "审核专家：叶海英 中国气象局气象宣传与科普中心（中国气象报社） 新媒体中心副主任 今年台风“白海豚”的走势格外反常，接连两次登陆浙江后，本该影响华东沿海的它千里…",
+        "图源：北京气象局 台风“白海豚”登陆浙江后，受陆地摩擦、海洋水汽切断影响，台风本体风力快速减弱，但它并没有彻底消失，而是形成了一个完整的残余环流——气象上称为“…",
+        "“白海豚”为何沿海登陆 却能“重创”北京"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "DeepSeek回应“偷偷给人取外号”；NASA成功对旅行者2号实施“大爆炸”操作；3亿年前冰室气候下极热事件全貌",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+DeepSeek%E5%9B%9E%E5%BA%94%E2%80%9C%E5%81%B7%E5%81%B7%E7%BB%99%E4%BA%BA%E5%8F%96%E5%A4%96%E5%8F%B7%E2%80%9D%EF%BC%9BNASA%E6%88%90%E5%8A%9F%E5%AF%B9%E6%97%85%E8%A1%8C%E8%80%852%E5%8F%B7%E5%AE%9E%E6%96%BD%E2%80%9C%E5%A4%A7%E7%88%86%E7%82%B8%E2%80%9D%E6%93%8D%E4%BD%9C%EF%BC%9B3%E4%BA%BF%E5%B9%B4%E5%89%8D%E5%86%B0%E5%AE%A4%E6%B0%94%E5%80%99%E4%B8%8B%E6%9E%81%E7%83%AD%E4%BA%8B%E4%BB%B6%E5%85%A8%E8%B2%8C",
+      "published": "Tue, 11 Aug 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Meta",
+        "Muse",
+        "NASA",
+        "AI",
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "summary": "今天是8月11日，星期二。1942年的今天，海蒂·拉玛与乔治·安太尔获得“ 跳频扩频通信系统 ”美国专利，用钢琴卷轴机制同步切换无线电频率，为后来的Wi-Fi、蓝牙和蜂窝通信奠定了技术基础。 重点新闻速览 1.NASA成功对旅行者2号实施“大爆炸”操作 2.Meta发布30B参数轻量化模型Muse Glimmer 3.DeepSeek回应“偷偷给人取外号” 4.中科院首次揭示3亿年前冰室气候下极热事件过程与机制 5.2026年唯一日全食明天上演 科技 NASA成功对旅行者2号实施“大爆炸”操作 近日，NASA宣布成…",
+      "key_points": [
+        "重点新闻速览 1.NASA成功对旅行者2号实施“大爆炸”操作 2.Meta发布30B参数轻量化模型Muse Glimmer 3.DeepSeek回应“偷偷给人取…",
+        "测试数据显示GPT-5.6-Cyber对95%的高级网络安全任务请求作出响应，包括漏洞利用链开发、身份验证绕过和权限提升等高风险场景。OpenAI表示希望在攻击…",
+        "DeepSeek当日通过财经网科技作出官方回应：这些称呼本质是推理阶段的上下文占位符，用于帮助模型快速锁定对话对象特征、调整回答语气，全程不带负面情绪。该类标签…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "天呐！我鼻子上的黑头自己排队往外冒！这画面又恶心又爽",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A9%E5%91%90%EF%BC%81%E6%88%91%E9%BC%BB%E5%AD%90%E4%B8%8A%E7%9A%84%E9%BB%91%E5%A4%B4%E8%87%AA%E5%B7%B1%E6%8E%92%E9%98%9F%E5%BE%80%E5%A4%96%E5%86%92%EF%BC%81%E8%BF%99%E7%94%BB%E9%9D%A2%E5%8F%88%E6%81%B6%E5%BF%83%E5%8F%88%E7%88%BD",
+      "published": "Tue, 11 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "J.",
+        "of",
+        "A.",
+        "Adam",
+        "ages",
+        "as"
+      ],
+      "summary": "谁懂现在这个天气！白天高温度，晚上温度高，早上出门时妆容精致的都市丽人，一上午过去，额头、 鼻子、下巴上就泛起油光， 都市丽人秒变都市油人！ 当你晚上洗完脸，凑近镜子，看到 鼻翼两侧密密麻麻的小黑点 。有没有试过用手挤、用鼻贴撕、用粉刺针刮…… 可结果当时是干净了，没过两天，它们又“春风吹又生”。 化妆时，额头和下巴总有一片 凹凸不平的“小颗粒” ，粉底怎么拍都盖不住，反而更显脏。 果壳实拍 果壳实拍：大油田同事每天晚上一定要做的环节，可今天清理了，明天还是继续出现。 你以为是自己“脸没洗干净”，于是 换更强的洗面…",
+      "key_points": [
+        "截图时间：2026.8.4 “黑头终结者” 想改善掉脸上的黑头，首先咱得先明白为啥会冒黑头，黑头是一种开放性粉刺，是因为皮脂腺分泌了太多的皮脂， 结果积聚在导管…",
+        "用法抄作业 泥膜棒到手之后，具体怎么用，跟着我给大家整理的这份“傻瓜式操作指南”就行—— 果壳实拍 01~热敷开毛孔：洗完脸热毛巾敷T区3分钟，毛孔张开才好大扫…",
+        "全脸都用一瓶，根本没法对出油量不同T 区、U 区进行针对性治理， 挖的时候脏一手，洗的时候累半死，敷的时候干得像戴石膏面具，笑一下脸都裂开， 洗完一看，黑头没少…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "《百年孤独》第二季比第一季更好吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E3%80%8A%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E3%80%8B%E7%AC%AC%E4%BA%8C%E5%AD%A3%E6%AF%94%E7%AC%AC%E4%B8%80%E5%AD%A3%E6%9B%B4%E5%A5%BD%E5%90%97%EF%BC%9F",
+      "published": "Tue, 11 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Netflix",
+        "hongmomgs",
+        "IMAX",
+        "irisfilm",
+        "qq.com",
+        "Roxie"
+      ],
+      "summary": "文 Roxie Netflix 剧版《百年孤独》第二季于上线了，目前只有前 7 集，还剩最后一集大结局，是定在 8 月 26 日单独播出。 这部改编自马尔克斯同名小说的 16 集剧集，至此走向终章。 《百年孤独》第二季 第一季早在 2024 年底面世的时候，外界的主要兴趣就集中在一个技术问题上，这部小说被公认为很难影视化，究竟能不能拍出来？能不能拍得像样？ 《百年孤独》第一季 第一季的好口碑其实已经回答了这个问题，所以第二季实际上面临的新问题是，它的野心能去到多高？它能否重新定义魔幻现实主义在当代影像中的意义。 关…",
+      "key_points": [
+        "《百年孤独》第二季 这个选择些许改变了第二季的气质。第一季的马孔多尚且带有伊甸园的余韵，热带植物繁茂，色调明丽。到了第二季，铁路通了，外国人来了，联合果品公司进…",
+        "《百年孤独》第二季 第一季早在 2024 年底面世的时候，外界的主要兴趣就集中在一个技术问题上，这部小说被公认为很难影视化，究竟能不能拍出来？能不能拍得像样",
+        "《百年孤独》第一季 第一季的好口碑其实已经回答了这个问题，所以第二季实际上面临的新问题是，它的野心能去到多高？它能否重新定义魔幻现实主义在当代影像中的意义"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "斯皮尔伯格迈向神坛的第一步",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%96%AF%E7%9A%AE%E5%B0%94%E4%BC%AF%E6%A0%BC%E8%BF%88%E5%90%91%E7%A5%9E%E5%9D%9B%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AD%A5",
+      "published": "Tue, 11 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MCA",
+        "MCA-TV",
+        "E.T.",
+        "Be",
+        "Bennett",
+        "Bruce"
+      ],
+      "summary": "作者：Bruce Bennett 译者：Issac 校对：易二三 来源：Reverse Shot （2012年4月29日） 1969年，史蒂文·斯皮尔伯格在踏出迈向他如今拥有的神坛地位的第一步时，遇到了两个家喻户晓的人。 第一个是罗德·塞林，1975年的心脏手术终止了他的职业生涯，但在往后近两代人的时间里，他作为《迷离时空》的创作者和主持人的身份都让他地位尊崇。 罗德·塞林 在1969年，22岁的斯皮尔伯格被任命执导《夜间画廊》系列剧集中的试播集《眼睛》，据他的传记作者乔尔·恩格尔说，当时塞林的职业生涯陷入了瘫痪，…",
+      "key_points": [
+        "Bruce Bennett 译者：Issac 校对：易二三 来源：Reverse Shot （2012年4月29日） 1969年，史蒂文·斯皮尔伯格在踏出迈向他…",
+        "《E.T.外星人》（1982） 从《童子军》（这是他第一部获得了摄影功绩勋章的影片）到1969年 ，斯皮尔伯格一直在拍电影。随着《眼睛》开拍日期的临近，他后来告…",
+        "两位医生就拉里的身体和家庭病理进行了两次明确的、沉重的咨询。第一次是导演对摄影棚内照明系统的研究。不过，就像电影中的大多数对话场景一样，斯皮尔伯格显然煞费苦心地…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "不建群的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%8D%E5%BB%BA%E7%BE%A4%E7%9A%84%E4%BA%BA",
+      "published": "Tue, 11 Aug 2026 11:28:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "最近看到两条读者提问，彼此看起来差别很大，但在我眼里完全是一回事： 1、你为什么不建一个读书群？ 2、在陌生的城市里工作，总感到孤独怎么办？ 那就去参加一个读书群好了---如果我这么回答是不是有点冷血，有点不道德？ 熟悉我的读者都知道，我不大加群，尤其是大群，尤其是学习群、打卡群、社交群。因为这件事，我还被一位曾经的朋友喷过：你有什么了不起的？群里可都是各行各业的精英！ 然后大家就不再是朋友，连微信也一并删除。 原因是我不需要。 生活中有一类人，每天都需要社交，随时都需要置身人群之中，否则就会觉得不自在，不安全，甚…",
+      "key_points": [
+        "我自己不加群，就更不可能建群。在我的个人哲学里，凡是一个人真想做的，他自己就已经去做了；凡是一个人真能做的，他自己一个人就已经做掉了。所以，一旦他要加个群，甚至…",
+        "现代生活因为科技的发展进步，的确得到了大量便利。但这些便利大多不是为了帮助人们完成什么事情，达成什么目标，而是极大地放大了人的欲望。只有电话的时代，一个人从早到…",
+        "是不是也应该理解我这一类人？你看到我的状态，本能地感觉到会很孤独，但那是你的观感。之所以有这种观感，是因为你有一颗爱热闹，渴望人群的心。是因为你自己定义了所谓「…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最会起名的人，竟在地理书中！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E4%BC%9A%E8%B5%B7%E5%90%8D%E7%9A%84%E4%BA%BA%EF%BC%8C%E7%AB%9F%E5%9C%A8%E5%9C%B0%E7%90%86%E4%B9%A6%E4%B8%AD%EF%BC%81",
+      "published": "Tue, 11 Aug 2026 17:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Ni",
+        "amp",
+        "El",
+        "La"
+      ],
+      "summary": "我们都学过地理 信风、焚风、白夜、 晨昏梦影、西风漂流...... 小时候只顾着背知识点， 但你是否有认真想过： 为什么偏偏叫这些名字？ 长大后再翻开地理课本才发现， 那些看似冰冷冷的地理名词， 其实每一个都藏着 人类观察自然几千年的浪漫。 人类把风，形容成了诗 风是最看不见的东西，也是人类最早学会命名的自然现象之一。 有人根据方向命名，有人根据性格命名，有人把它改变世界的力量，也写进了名字里。 信风 它从不失约 第一次看到\"信风\"，很多人都会以为，它是一阵会\"送信\"的风。其实，这里的\"信\"， 是守信、可靠的意思。…",
+      "key_points": [
+        "秘鲁渔民最早发现了\"厄尔尼诺\"现象 并赋予它\"圣婴\"之名 图为：秘鲁利马卡拉奥海岸的渔民 山，也会给天气起名字 风翻过山脉，雨停在山前，空气也拥有了新的“性格”…",
+        "厄尔尼诺的来龙去脉》博物 2026年07月 [5]《异样的河谷——西藏昌都的干热地带》中国国家地理 2014年10月 [6]《东钱湖 繁华都市边的浙江第一大天然…",
+        "南大洋圈层结构图 点开图片可看到洋流方向 图源：中国国家地理 2018年03月 它最狂野的一面，可以在南美洲与南极洲之间的 德雷克海峡 看到：这里常年风急浪高，…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "这位少年之死，改变了基因治疗",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%BF%99%E4%BD%8D%E5%B0%91%E5%B9%B4%E4%B9%8B%E6%AD%BB%EF%BC%8C%E6%94%B9%E5%8F%98%E4%BA%86%E5%9F%BA%E5%9B%A0%E6%B2%BB%E7%96%97",
+      "published": "Tue, 11 Aug 2026 08:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Wilson",
+        "Jesse",
+        "AAV",
+        "FDA",
+        "Gelsinger",
+        "OTCD"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual Jesse Gelsinger 撰文｜ 周叶斌 ‍ ● ● ● 两位孩子，在基因编辑临床试验中遭遇不幸，离开了这个世界。 2026 年 7 月 23 日，著名学术期刊 《科学》 曝光 6岁女孩在 基因治疗中死去 ： 一对中国夫妇为治疗患有罕见神经系统遗传疾病的女儿，求助于上海交通大学 医学院 松江研究院 松江 仇子龙团队，并在 上海交大医学院附属新华医院 开展临床试验。7 月 26 日，上海交 大 发表声明称成立专项工作组 展开全面调查。 8 月 5 日…",
+      "key_points": [
+        "02 让一切戛然而止的灾难 但就在第二天， 9 月 14 日 —— Ashanti 接受基因治疗的 9 周年，一通电话开启了彻底改变 Wilson 和基因治疗命…",
+        "Wilson 后来创立了基因治疗公司 GEMMABio ，图为该公司高管团队。来源： GEMMABio 但就在这种阴影下， Wilson 实验室成了各种新 AA…",
+        "宾大 1999 年 10 月 5 日的一份公开说明 03 一夜之间，基因治疗从云巅跌落 Jesse Gelsinger 去世前，大众普遍相信基因治疗将成为新世纪…"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "先读完这一周，再决定要不要加入",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%85%88%E8%AF%BB%E5%AE%8C%E8%BF%99%E4%B8%80%E5%91%A8%EF%BC%8C%E5%86%8D%E5%86%B3%E5%AE%9A%E8%A6%81%E4%B8%8D%E8%A6%81%E5%8A%A0%E5%85%A5",
+      "published": "Tue, 11 Aug 2026 23:25:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Brief",
+        "foxwulihua4",
+        "in",
+        "PDF",
+        "World"
+      ],
+      "summary": "这几天有人来问年费会员，问到最后，常常停在同一句话上： “内容看着不错，但我没用过，一下买一年还是有点犹豫。” 这个顾虑很实际。前几天那篇文章，我们已经把会员中心讲得很细：每天更新什么，手机上怎么读，音频、译文和词汇注释放在哪里。能介绍的，基本都介绍了。具体推文： 每天二十分钟，在手机上读完一篇《经济学人》 可介绍再详细，也还是我们自己在说。页面用着顺不顺，文章的难度合不合适，平时能不能抽出十几分钟读完，这些得自己试过才知道。 所以我们补了一个体验入口。 外刊阅读体验：29.9元 ／ 开通后5天有效 里面放的不是临…",
+      "key_points": [
+        "问到最后，常常停在同一句话上： “内容看着不错，但我没用过，一下买一年还是有点犹豫。” 这个顾虑很实际。前几天那篇文章，我们已经把会员中心讲得很细：每天更新什么…",
+        "外刊阅读体验：29.9元 ／ 开通后5天有效 里面放的不是临时拼出来的“试读样稿”，就是会员前一周读到的正式内容。开通后一次性解锁，不用等第二天、第三天更新。有…",
+        "有效期365天。每天更新一篇《经济学人》双语文章和一份全球早报，读过的文章、收藏和阅读记录都会留在账号里。你不用现在就决定自己能不能读一年。先看看这五天内容，能…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么有些小学生对「找规律」题感到特别困惑？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791745",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ZFC",
+        "Card",
+        "A000079",
+        "AC",
+        "Kris",
+        "PA"
+      ],
+      "summary": "Kris谭， 敲代码的普通学生 查看知乎原文 因为找规律这种题本身就是硬造出来的，给定一个数列本来就有无穷种意义下的“下一个”喵。就算你要求奥卡姆剃刀原则，即“选择那个最简单的通项数列”，在不同代价函数定义下都有 具有天壤之别 的“最简单”或者“最好的”那个公式喵。 在数学中，有一个叫做 拉格朗日插值定理 的东西喵。简单来说，它指的是， 给定任何 个数字，如果你指定了 个数字，你总能找到一个最高不超过 次的多项式来过拟合这全部 个数字喵。 比如，题目给出 ，一个最直观的感觉是 ，它是 A000079 ，显然下一个项…",
+      "key_points": [
+        "小学生感到困惑完全不是因为他们是笨蛋，只是因为这种题目不可能存在一种兼顾 数学合理性、易于老师批改、易于学生订正 这三种性质的评分标准喵，显然这种题目是很荒谬的…",
+        "敲代码的普通学生 因为找规律这种题本身就是硬造出来的，给定一个数列本来就有无穷种意义下的“下一个”喵。就算你要求奥卡姆剃刀原则，即“选择那个最简单的通项数列”，…",
+        "这个“代价函数”根本不是统一的喵！如果一个老师觉得直觉主义好就选择了字符串长度作为代价函数，另一个老师觉得选择公理是世界上最好用的东西，然后每天开一台图灵机暴力…"
+      ]
+    }
+  ]
+}
