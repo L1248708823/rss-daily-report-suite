@@ -1,0 +1,773 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T01:00:11.299034+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 69,
+    "backfill_candidates": 24,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-14",
+      "fetched_at": "2026-08-14T01:00:05.904137+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3926.96,
+          "change": -19.72,
+          "change_pct": -0.5,
+          "volume": 572793677.0,
+          "amount": 116420307.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4341.12,
+          "change": -9.760000000000218,
+          "change_pct": -0.22,
+          "prev_close": 4350.88,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-14 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 941.1633576928641,
+          "change": -2.115987204012413,
+          "change_pct": -0.22432243592100937,
+          "prev_close": 943.2793448968765,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-14 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-14",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "多元资产配置的目标：不被波动淘汰出局",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%A4%9A%E5%85%83%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%9A%E4%B8%8D%E8%A2%AB%E6%B3%A2%E5%8A%A8%E6%B7%98%E6%B1%B0%E5%87%BA%E5%B1%80",
+      "published": "Thu, 13 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DAX",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：府库 来源：雪球 从我自己所经历的过程 ， 会有几个比较明显的变化 。 在本金比较少的时候 ， 更希望通过交易去获得更高的收益 ， 后续随着本金增加 ， 有了自己的家庭 ， 有了自己的宝宝 ， 更希望投资更加稳健一些 。 同时越来越发现自己很难有那么多的精力去进行短线交易 ， 更希望用一种交易频率比较低的方式 ， 做长期投资 。 在我工作 、 生活的变化 ， 和对于事情理解的变化 ， 这样的背景下整个投资策略也是跟着进行调整…",
+      "key_points": [
+        "所以我对多元资产配置核心理念的理解是这样的 ： 「 多元资产配置的目标 ， 就是为了收获这些资产的长期年化收益 ， 同时因为回报来源不同 ， 让回报更加持续 ，…",
+        "这个就是我希望引入多元资产配置的最重要的原因 ， 希望让自己投资组合的收益来源多元化 ， 让整个组合更平稳 ， 同时避免由于单一资产的长期低迷 ， 导致投资收益…",
+        "就是多元资产配置 2020年随着疫情国内和海外市场轮番下跌 ， 我手里其实拿着不少海外资产 ， 美股基金 、 日本股票基金 、 德国股票基金 ， 还有黄金 ，…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "闪耀的马士基与暗淡的赫伯罗特 - 双子星的26H1",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6254064333/404902709",
+      "published": "Thu, 13 Aug 2026 09:42:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EBIT",
+        "Q1",
+        "Q2",
+        "EBITDA",
+        "TEU",
+        "FEU"
+      ],
+      "summary": "2026年二季度，在人祸（贸易政策+中东战乱）与天灾（高温气候+厄尔尼诺）的共同催化下，集运行业迎来了一轮量价齐升的非传统旺季，重演了24年的盛况。在这轮上行期中，马士基与萝卜的集运业务双双扭亏为盈，且在同一天公布了财报。作为同联盟的两兄弟，由于业务布局与联盟定位的差异，业绩表现天差地别，马士基在单箱价格大增（长协比例降低到50%以下，即期运价占多数）的助力叠加物流港口业务的加持下，单季度利润暴涨6倍，萝卜却仍在盈亏平衡线徘徊；二者对全年的盈利预期都同样乐观，简单看一下这两家公司的表现： 一. 业绩表现 1. 营收…",
+      "key_points": [
+        "在全球游戏规则发生转变（权力转移、联盟弱化、霸权反噬）的当下，军事冲突与经济制裁无法避免，混乱也就成为了集运行业的常态。而每一次混乱造成的影响从来不会只是某一个…",
+        "成本管控问题一直是马士基与萝卜业绩表现不佳的主要原因之一，尤其在组建联盟后更为明显。自去年一季度双子星联盟创立以来，马士基与萝卜的成本都明显增加，随着日益磨合，…",
+        "马士基萝卜虽然都扭亏为盈，但业绩表现天差地别，马士基利润暴涨6倍，比去年同期还增长了一倍，萝卜却还在盈亏平衡线徘徊： ① 在定价策略方面 ，之前马士基用更具竞争…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "Coherent 财报会：没有看到任何CPO需求推迟，相反客户需求在增加！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8730228692/404805494",
+      "published": "Thu, 13 Aug 2026 09:41:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPO",
+        "NPO",
+        "InP",
+        "Coherent",
+        "Non-GAAP",
+        "Q4"
+      ],
+      "summary": "算力爆发带来的光基础设施需求呈“阶跃式”增长，订单积压创历史新高。目前的订单可见性已延伸至2027日历年，部分客户的长期协议（LTA）甚至覆盖到了2028年及本十年末。全行业最大的痛点在于光芯片供给。Coherent Corp.（COHR）6英寸磷化铟（InP）产能升级超预期推进，产能翻倍节点提早一个季度达成，实际生产良率已经超越了传统的3英寸晶圆。管理层明确表态：没有看到任何CPO需求推迟，相反客户需求在增加。2027财年的营收增速预计将超越2026财年，并在2027财年末（即2027年6月前）实现单季度营收突破…",
+      "key_points": [
+        "算力爆发带来的光基础设施需求呈“阶跃式”增长，订单积压创历史新高。目前的订单可见性已延伸至2027日历年，部分客户的长期协议（LTA）甚至覆盖到了2028年及本…",
+        "需求趋势 ： 管理层明确表示没有看到任何CPO需求推迟，相反客户需求在增加 ，部分客户要求加快拉货，是“需求被提前”的情况。过去3–6个月内，客户对CPO和NP…",
+        "三、订单能见度与需求趋势：无任何减弱迹象 Q4再次创下订单纪录，2027财年基本已被订单完全覆盖，积压已延伸至2027日历年年底，客户开始将采购订单下至2028…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "焦煤的逻辑，是反转不是反弹",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8699572373/404856161",
+      "published": "Thu, 13 Aug 2026 09:41:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Mysteel",
+        "http",
+        "PPT",
+        "SH600985",
+        "SZ000983",
+        "VS"
+      ],
+      "summary": "焦煤行情：本次是供给逻辑反转，而非短期反弹 目前焦煤的逻辑存在巨大的预期差。市场当前仍然普遍把本轮煤价上行简单定义为安监扰动带来的阶段性反弹，认为停产结束、煤矿复产之后，供给很快恢复，价格重回弱势。但我一直判断：行情本质是供给底层逻辑发生永久性反转，过去多年依赖违规超产形成的隐形供给池被系统性封堵，有效供给上限被锁死，焦煤供需格局由弱平衡转向中长期紧平衡。 一、起点：沁源事故撕开行业灰色供给底层——“黑面+外包”构成过去最重要弹性来源 沁源留神峪煤矿事故暴露了长期压制焦煤价格的核心变量：隐蔽工作面（行业俗称“黑面”…",
+      "key_points": [
+        "而非短期反弹 目前焦煤的逻辑存在巨大的预期差。市场当前仍然普遍把本轮煤价上行简单定义为安监扰动带来的阶段性反弹，认为停产结束、煤矿复产之后，供给很快恢复，价格重…",
+        "典型案例：涉事留神峪煤矿核定产能120万吨/年，依靠隐蔽工作面、越界开采，实际年产量最高可达360万吨，超产幅度200%，是行业极端缩影。（来自豆包） 过去市场…",
+        "五、结论与跟踪重点 历史上焦煤每一轮上涨大多属于反弹，根源在于存在巨大的表外供给蓄水池；如今蓄水池被全新安全法规、国家层面专项整治+山西地方政策持续排空，底层供…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从海外经验看，AI对银行股的影响是偏正面的",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5519392453/404882149",
+      "published": "Thu, 13 Aug 2026 09:41:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ETF",
+        "ETF-SPDR",
+        "http",
+        "KBE",
+        "xueqiu.com"
+      ],
+      "summary": "从海外经验看，AI对银行股的影响是偏正面的。 AI基建对资金的需求是海量的，纯靠科技企业的内生现金流以及发股票来做AI投资已经完全不够，必须借款，令信贷需求旺盛；而且，美国经济增长总体强劲，非AI行业的信贷需求同样旺盛，这使得美国的净息差处于非常高的位置（图1，美国2026年一季度为3.31%），让国内银行股的股民羡慕死了（国内2026年一季度为1.40%）。 美国的银行除了可以通过发放贷款或持有债券来收息，净利息收入大增外（图2），它们还能混业经营，做投行业务，再赚上一大笔钱，非息收入更是暴增（图3）。 其结果是…",
+      "key_points": [
+        "AI对银行股的影响是偏正面的",
+        "纯靠科技企业的内生现金流以及发股票来做AI投资已经完全不够，必须借款，令信贷需求旺盛；而且，美国经济增长总体强劲，非AI行业的信贷需求同样旺盛，这使得美国的净息…",
+        "但这可能是白日梦，因为环境大不同： 一是国内AI基建的规模可能会显著小于美国，而且就算AI信贷起来了，其他板块的信贷需求趋弱也会有明显拖累； 二是国内银行的业务…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些东西，国内外版差别大到，只剩名字一样？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791873",
+      "published": "Thu, 13 Aug 2026 23:01:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Brassica",
+        "Mustard",
+        "Armoracia",
+        "juncea",
+        "rusticana",
+        "alba"
+      ],
+      "summary": "也说， 一二三聊职场，四五六谈感情。 查看知乎原文 “芥末”可以说是比较有代表性的。 因为在中国、美国、欧洲，都有完全不一样的芥末，差异大到从植物学到颜色都不同，神奇的是，味道居然很相近。 本文还会颠覆你两个认知——日本绿芥其实不是绿色的；美国黄芥，其实不是黄色的。 中国芥末 中国菜里面一直有芥末，比如老北京凉菜“芥末墩儿”。 里面使用的是由‌ 芥菜（Brassica juncea）的种子 ‌研磨而成的佐料。也叫“黄芥末”。 芥菜属于十字花科芸苔属植物，在中国已有悠久食用历史。 芥末墩 做中国芥末的芥菜籽 日本芥末…",
+      "key_points": [
+        "都有完全不一样的芥末，差异大到从植物学到颜色都不同，神奇的是，味道居然很相近",
+        "这个东西是 白芥菜籽（Sinapis alba） 加上各种调味料制作的",
+        "前面我们说了白芥末——这东西实际产自加拿大"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么感觉四大发明很空洞？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791883",
+      "published": "Thu, 13 Aug 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Das",
+        "Hausbuch",
+        "loom",
+        "Mittelaterliche",
+        "Abraham",
+        "almost"
+      ],
+      "summary": "卧地马鸭， 柔弱立身之本，刚强惹祸之胎 查看知乎原文 因为古代中国的技术高峰根本就没包含在四大发明里。 举个例子，这是中国古代的纺织机械： 汉代斜织机复原图 汉代画像石所绘的织机影像 这东西叫作斜织机，又称踏板织机，是中国古代精密机械的杰出创造之一，被发明于 公元前 5 世纪 的战国时期，普及于 公元前 2 世纪 的西汉时期。 同时期欧洲处于古希腊到古罗马的交接时期，他们的纺织“机械”长这样： 古希腊时期的重锤织机 又称竖直织机 此后一直沿用至中世纪晚期 为什么说斜织机是古代中国的杰出机械呢？ 第一，它的结构确实精…",
+      "key_points": [
+        "最早都是欧洲人拿来自吹自擂的“三大发明” （黑火药、古登堡印刷术、指南针）， 后续被英国汉学家李约瑟拿了去，缝缝补补传入了近代中国，又被后人奉为圭臬 这问题底下…",
+        "中国也出现了类似欧洲竖织机的产物，以元明时期出现的“立机子”为例，中国版本的结构长这样： 而同时期欧洲版本的结构还停留在这样： 这其实就能看出所谓“四大发明”的…",
+        "对人类的影响就是空前绝后，让金属加工不再局限于低温块炼铁，也让中国成为了全球最早发明钢的文明， 但大部分人对这项科技都是闻所未闻的状态 生铁、熟铁、可锻铸铁、钢…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "保姆级教程，Codex 接入 DeepSeek V4 Pro 和 Grok 4.6，6 种方法全整理",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6446522.html",
+      "published": "Thu, 13 Aug 2026 11:39:48 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Codex",
+        "DeepSeek",
+        "API",
+        "Key",
+        "ocx",
+        "V4"
+      ],
+      "summary": "大家好，我是苍何。 一夜之间，DeepSeek V4 Pro 正式版发布了。 目前从官方给出的评测数据表现，V4 Pro 各方面表现都优于 V4 Flash， 还没来得及感叹，刷新一下 X 时间线，Grok 4.6 也来了。 好像是 AI 圈又过年了一样。 激动的心，颤抖的手，火速上手试了试。 但转念一想，肯定不少小伙伴跃跃欲试，却不知道从哪下手。 于是我整理了这篇从 0 到 1 的保姆级教程，把 DeepSeek V4 Pro 和 Grok 4.6 接入 Codex 和 WorkBuddy 的方法做了个非常细致的…",
+      "key_points": [
+        "于是我整理了这篇从 0 到 1 的保姆级教程，把 DeepSeek V4 Pro 和 Grok 4.6 接入 Codex 和 WorkBuddy 的方法做了个非…",
+        "●●● codex -m \"deepseek/deepseek-v4-pro\" Grok 4.6 接入 Codex Grok 接入 Codex 有 3 种方式，…",
+        "然后在终端输入： ●●● codex --profile grok 方式二：opencodex opencodex 支持用 API Key 或 X/SuperG…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Grok 4.6 评测：$2 起步的长时任务智能体，性价比杀穿前沿模型",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6446478.html",
+      "published": "Thu, 13 Aug 2026 10:16:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Grok",
+        "Max",
+        "token",
+        "Cursor",
+        "GPT-5.6",
+        "Sol"
+      ],
+      "summary": "让模型自己跑完一个多步任务，而不是每步都停下来等你确认，这是今年大模型最卷的方向。Grok 4.6 就是冲着这个来的。它在上一代基础上补了一轮长时智能体训练，综合智能指数追平了 OpenAI 的旗舰，输出价却只要对手的零头。长任务、改代码、把想法做成能跑的应用，它比前代强了不止一档。值不值得把活儿交给它，上手试过才知道。 它是什么来头 Grok 4.6 是 SpaceXAI（前身 xAI）在 2026 年 8 月 12 日发布的最新大模型。一句话定位：面向长时运行智能体的专用模型。它不是那种你问一句答一句的聊天模型…",
+      "key_points": [
+        "还有个不能忽略的存在是 DeepSeek V4 Pro，输入价只要 0.87，比 Grok 4.6 又便宜一个数量级。不过它走开源路线，长时智能体的稳定性跟闭源…",
+        "结论 Grok 4.6 是 2026 年性价比最高的长任务大模型，没有之一。它没有在单个基准上封神，却用不到对手一半的价格，把长时智能体能力拉到了第一梯队，这才…",
+        "维度 权重 星级 一句话解读 功能完整性 20% ⭐⭐⭐⭐☆ 智能体、编码、视觉都覆盖，单项不封顶 易用性 15% ⭐⭐⭐⭐⭐ API 即插即用，Cursor…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当所有人都在学AI，我劝你先停下：产品经理的三个认知陷阱",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6446338.html",
+      "published": "Thu, 13 Aug 2026 09:05:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "CC0",
+        "Claude",
+        "Gemini",
+        "GPT-4"
+      ],
+      "summary": "AI工具迭代加速，产品经理易陷入工具狂欢而迷失方向。本文作者复盘亲身经历，揭示三大误区：沉迷工具忽略用户价值、炫技方案缺乏人味、算不清商业成本。强调用户、场景、商业三价值才是真正的护城河，为AI时代产品人敲响警钟。 24年初，我第一次正经接触AI。 那时候真是日日新。GPT-4刚出来没几个月，Claude、Gemini、Kimi、文心一言轮番登场，每隔一两周就有一个新模型炸出来。 但说实话，现在回头看，已经没几个人聊参数了。大家卷的不是模型多大，而是又出了什么AI办公神器、什么号称能替你干一半活的Agent。 后来…",
+      "key_points": [
+        "本文由人人都是产品经理作者【柳星聊产品】，微信公众号：【柳星聊产品】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载",
+        "产品经理易陷入工具狂欢而迷失方向。本文作者复盘亲身经历，揭示三大误区：沉迷工具忽略用户价值、炫技方案缺乏人味、算不清商业成本。强调用户、场景、商业三价值才是真正…",
+        "模型会过期，但 用户价值、场景价值、商业价值 ，这三件事不会变。它们才是产品经理真正的护城河"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "假如AI泡沫彻底破裂……",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6446299.html",
+      "published": "Thu, 13 Aug 2026 08:52:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "to",
+        "VC",
+        "Elias",
+        "IT",
+        "API"
+      ],
+      "summary": "当AI泡沫破裂，独角兽一夜清零，智算中心沦为直播基地，具身智能公司被债主堵门，算法精英降薪转行。这场推演以科幻笔触描绘产业崩塌后的众生相，揭示AI热浪退去后，真正穿越周期的竟是那些“胆子小”的垂直应用者。 这是一篇近未来主题的科幻小说。 起因是7月份全球AI算力、大模型板块集体回调，导致“AI泡沫破裂”话题迅速破圈。从部分投行的研判，到占领热搜第一，这个议题在一个月左右的时间里完全没有降温迹象。伴随着飘绿的股市与股民的哀嚎，我们发现比泡沫碎裂更可怕的是它即将破碎时的挣扎与恐怖。 那不妨做个推演，假如某个巨型“黑天鹅…",
+      "key_points": [
+        "假如某个巨型“黑天鹅”事件出现，导致全球AI泡沫顷刻之间彻底破裂，之后会发生什么",
+        "起因是7月份全球AI算力、大模型板块集体回调，导致“AI泡沫破裂”话题迅速破圈。从部分投行的研判，到占领热搜第一，这个议题在一个月左右的时间里完全没有降温迹象。…",
+        "首先我们需要达成一个共识。当前预想中的AI泡沫破裂与2000年互联网泡沫破裂本质上非常相似。即技术方向长期来看是成立的，但短期内资本狂热过度透支产业信用，进而在…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Reddit 上万人反复抱怨的 6 个需求，已经有人把它们做成公司了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6446278.html",
+      "published": "Thu, 13 Aug 2026 08:47:40 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "App",
+        "Reddit",
+        "Clyx",
+        "GoodTrust",
+        "Pet"
+      ],
+      "summary": "Reddit不仅是吐槽平台，更是创业者的需求金矿。本文从社区热议中提炼出六大方向：帮成年人找到真朋友、给自由职业者配AI律师、宠物跨国旅行指南、数字遗产管理、短信AI助手以及反刷屏应用。每个方向都有真实产品落地，值得创业者借鉴。 今天这一期花了很长时间，所有的产品我都很喜欢，分享给大家。 熟悉海外 AI 社区的小伙伴应该对 Product Hunt 和 Reddit 都不陌生。 如果 Product Hunt 更像一个新产品展厅，那么 Reddit 更像一个巨大的“用户吐槽平台”。 我更愿意把 Reddit 看作一…",
+      "key_points": [
+        "Clyx 融资 1400 万美元 。当时已经有约 5 万名活跃购票用户，还有约 20 万人在平台上浏览活动",
+        "但它很适合做一件事： 发现那些已经存在很久、反复被人抱怨，却一直没有特别好解决方案的问题",
+        "Robin AI 已经把 AI 合同审查卖给 Pfizer、KPMG、UBS 这样的大企业。2024 年公司销售额达到 770 万英镑"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "美国科研制度革命：创世纪计划与《科学：新黄金时代》解读",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BE%8E%E5%9B%BD%E7%A7%91%E7%A0%94%E5%88%B6%E5%BA%A6%E9%9D%A9%E5%91%BD%EF%BC%9A%E5%88%9B%E4%B8%96%E7%BA%AA%E8%AE%A1%E5%88%92%E4%B8%8E%E3%80%8A%E7%A7%91%E5%AD%A6%EF%BC%9A%E6%96%B0%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%E3%80%8B%E8%A7%A3%E8%AF%BB",
+      "published": "Thu, 13 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Phase",
+        "ALab",
+        "EDA",
+        "GPU",
+        "nm"
+      ],
+      "summary": "【导读】 【2026年7月，美国白宫发布《科学：新黄金时代》报告，美国能源部同步公布创世纪计划首批278个项目。此举标志着美国科研体制正经历从“线性创新”向“任务驱动、平台共享、闭环验证”的范式迁移。本文梳理变革脉络，研判战略意图，并提出有关建议。 背景：两份文件，一个信号 1945年，范内瓦·布什提交《科学：无尽的前沿》，确立“联邦出资、高校研究、产业转化”的线性创新模型，该模式运行八十年，催生了互联网、GPS、基因测序等重大成果。 2026年7月21日，白宫科技政策办公室主任迈克尔·克拉齐奥斯提交《科学：新黄金…",
+      "key_points": [
+        "美国白宫发布《科学：新黄金时代》报告，美国能源部同步公布创世纪计划首批278个项目。此举标志着美国科研体制正经历从“线性创新”向“任务驱动、平台共享、闭环验证”…",
+        "参考文献 [1]白宫科技政策办公室《科学：新黄金时代》（2026年7月21日） [2]美国能源部创世纪计划首批项目公告及完整获奖名单（2026年7月22日）；作…",
+        "矛盾：“黄金时代”叙事 vs 预算削减现实 创世纪计划的宏大叙事与紧缩的预算现实之间存在深刻的结构性张力。这一矛盾既揭示了美国科研体制转型的内在阻力，也为研判其…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这个把无数人体做成塑料的疯狂科学家，最终自己也将被切成薄片展出",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E4%B8%AA%E6%8A%8A%E6%97%A0%E6%95%B0%E4%BA%BA%E4%BD%93%E5%81%9A%E6%88%90%E5%A1%91%E6%96%99%E7%9A%84%E7%96%AF%E7%8B%82%E7%A7%91%E5%AD%A6%E5%AE%B6%EF%BC%8C%E6%9C%80%E7%BB%88%E8%87%AA%E5%B7%B1%E4%B9%9F%E5%B0%86%E8%A2%AB%E5%88%87%E6%88%90%E8%96%84%E7%89%87%E5%B1%95%E5%87%BA",
+      "published": "Thu, 13 Aug 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Body",
+        "unsplash",
+        "Worlds",
+        "articles",
+        "bodyworlds.com"
+      ],
+      "summary": "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：unsplash 撰文：王怡博 审校：clefable 2002年11月，在英国伦敦亚特兰蒂斯画廊（Atlantis Gallery），德国解剖学家巩特尔·冯·哈根斯（Gunther von Hagens）不顾英国政府的警告， 在几百名付费观众面前公开进行了一场人类遗体解剖 。当天，500张现场门票全部售出，还有约200名原本满怀期待、冒雨前来的人，最终失望而归。 这是英国自19世纪30年代以来的首次公开尸体解剖，引发了广泛的争议。 解剖对…",
+      "key_points": [
+        "本文转载自公众号 “环球科学”（id：huanqiukexue） 图片来源：unsplash 撰文：王怡博 审校：clefable 2002年11月，在英国伦敦…",
+        "正规渠道的尸体根本不够用。于是，一个极其诡异的地下行业应运而生：“掘墓人”和“盗尸贼”。他们趁着夜色去新坟偷盗新鲜尸体卖给医学院，甚至还催生出了为了卖尸而连环杀…",
+        "所有展品均来自无偿自愿捐赠者，每年都有人报名捐赠遗体。但早期来源似乎缺乏严格核查；而且自愿捐献不等于同意以任何形式公开展示。他坚信塑化人体展览是科学、教育与艺术…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "工信部启动6G创新发展部省协同试点；国内首个Agent记忆榜单AML重磅出炉；中科院发布全球海洋智能预报大模型“琅琊”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%B7%A5%E4%BF%A1%E9%83%A8%E5%90%AF%E5%8A%A86G%E5%88%9B%E6%96%B0%E5%8F%91%E5%B1%95%E9%83%A8%E7%9C%81%E5%8D%8F%E5%90%8C%E8%AF%95%E7%82%B9%EF%BC%9B%E5%9B%BD%E5%86%85%E9%A6%96%E4%B8%AAAgent%E8%AE%B0%E5%BF%86%E6%A6%9C%E5%8D%95AML%E9%87%8D%E7%A3%85%E5%87%BA%E7%82%89%EF%BC%9B%E4%B8%AD%E7%A7%91%E9%99%A2%E5%8F%91%E5%B8%83%E5%85%A8%E7%90%83%E6%B5%B7%E6%B4%8B%E6%99%BA%E8%83%BD%E9%A2%84%E6%8A%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E2%80%9C%E7%90%85%E7%90%8A%E2%80%9D",
+      "published": "Thu, 13 Aug 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Pixel",
+        "Pro",
+        "Agent",
+        "AI",
+        "AML",
+        "Google"
+      ],
+      "summary": "今天是8月13日，星期四。1913年的今天，英国冶金学家 Harry Brearley 熔炼出含铬12.8%、碳0.24%的合金钢，是人类史上第一次冶炼出不锈钢。 重点新闻速览 1.工信部启动6G创新发展部省协同试点 2.国内首个Agent记忆榜单AML重磅出炉 3.中科院发布全球海洋智能预报大模型“琅琊” 4.荣耀发布全球首款机器人手机Robot Phone 科技 Mistral宣布欧洲主权AI算力联盟 近日，法国人工智能公司Mistral宣布启动区域推理端点、第三方开源模型托管和欧洲主权算力联盟计划，目标在20…",
+      "key_points": [
+        "重点新闻速览 1.工信部启动6G创新发展部省协同试点 2.国内首个Agent记忆榜单AML重磅出炉 3.中科院发布全球海洋智能预报大模型“琅琊” 4.荣耀发布全…",
+        "在720P分辨率、10秒视频基准测试中，FLUX 3以93%胜率击败Luma Ray3.2，77%胜率超越Runway Gen-4.5，面对Seedance 2…",
+        "展会集中展示人形机器人、四足机器人、协作机器人等最新整机产品及关键配套技术。同期举办的多场技术论坛聚焦灵巧手操作精度、多模态感知融合、端侧推理算力等前沿议题。（…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "最强助眠运动！游泳、撸铁都不如它",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%80%E5%BC%BA%E5%8A%A9%E7%9C%A0%E8%BF%90%E5%8A%A8%EF%BC%81%E6%B8%B8%E6%B3%B3%E3%80%81%E6%92%B8%E9%93%81%E9%83%BD%E4%B8%8D%E5%A6%82%E5%AE%83",
+      "published": "Thu, 13 Aug 2026 16:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al",
+        "et",
+        "on",
+        "doi",
+        "exercise"
+      ],
+      "summary": "运动对睡眠有好处，而且好处不小。 近年来，多项随机对照试验（RCT）都发现，规律运动可以显著提升睡眠质量和效率，减少夜间醒来次数，甚至让你更快入睡[1~3]。 很多人以为，运动的助眠效果，主要来自于“累”——跑步，HITT，力量训练……各种高心率、高强度的运动把身体搞到力竭，然后一沾枕头就秒睡，主打一个“把自己累趴，失眠就追不上来”。 这样做能好睡的朋友，不用怀疑，坚持你的坚持。 但研究发现，助眠效果最好的运动，并不是累死人的那种，而是听起来没啥运动量的： 正念运动 （mind-body exercise） 说几个…",
+      "key_points": [
+        "15～30 分钟就很有效； 图源：丁香医生设计团队 喜欢太极的朋友： 恭喜你已经掌握了“被低估的国民助眠运动”",
+        "图源：丁香医生设计团队 2025 年 BMJ Evidence-Based Medicine 的一项荟萃分析中[6]，研究团队梳理了 22 项高质量的临床随机对…",
+        "研究者总结—— 类似的运动能有效改善睡眠 甚至有望成为一线干预手段之一 慢悠悠的正念运动 帮你身心放松睡更好 瑜伽、太极这类正念运动，强度高低与个人技术和练习方…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
+      "published": "2026-08-14T00:59:09Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "半部意大利电影史都和他有关",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8D%8A%E9%83%A8%E6%84%8F%E5%A4%A7%E5%88%A9%E7%94%B5%E5%BD%B1%E5%8F%B2%E9%83%BD%E5%92%8C%E4%BB%96%E6%9C%89%E5%85%B3",
+      "published": "Thu, 13 Aug 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ASC",
+        "Criterion",
+        "David",
+        "hongmomgs",
+        "Hudson",
+        "irisfilm"
+      ],
+      "summary": "作者：David Hudson 译者：易二三 校对：Issac 来源：Criterion（2021年2月9日） 1966年，在他开始与费德里科·费里尼合作的两年前，朱塞佩·罗通诺就已经成为了第一个被邀请加入美国电影摄影师协会（ASC）的外国人。33年后，当ASC授予罗通诺国际奖时，罗恩·马吉德采访了他，并在1999年3月出版的《美国电影摄影师》杂志上对他进行了生动的介绍。罗通诺于今年2月8日去世，享年97岁. 朱塞佩·罗通诺 朱塞佩·「巴比诺」·罗通诺在罗马出生和长大，17岁时父亲去世，迫使他去找工作。他在著名的布…",
+      "key_points": [
+        "他才找到一份工作，成为利昂·沙姆洛伊的助手，后者正在拍摄亨利·金的《狐狸王子》。「对我来说，那个片场简直就是一所大学，」罗通诺说。他与影片主演之一奥逊·威尔斯成…",
+        "《狐狸王子》 罗通诺在维托里奥·德西卡的《风烛泪》（1952）和《终站》（1953）中担任掌机，这让他得到了摄影师阿尔多·罗萨诺·格拉齐亚蒂的赏识，并开始担任后…",
+        "《豹》 罗通诺第一次和费里尼合作是在另一部选集电影《勾魂慑魄》（1968），之后他们一共完完整整地合作了七部电影，第一部是《爱情神话》（1969），罗通诺把这部…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这是我最最喜欢的欧洲电影，绝对是巅峰神作",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E6%98%AF%E6%88%91%E6%9C%80%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E6%AC%A7%E6%B4%B2%E7%94%B5%E5%BD%B1%EF%BC%8C%E7%BB%9D%E5%AF%B9%E6%98%AF%E5%B7%85%E5%B3%B0%E7%A5%9E%E4%BD%9C",
+      "published": "Thu, 13 Aug 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Ag",
+        "Armando",
+        "Brancia",
+        "call",
+        "Cinecitta",
+        "Fellini"
+      ],
+      "summary": "文 Ag 不存在的里米尼 我在纸上反复写里米尼（Rimini）和费里尼（Fellini）这两个词。 里米尼的确如费里尼所言，是一个「一笔成形的字，一排小士兵」，它在笔下变成了一个天然自洽的、带有卷边的小港湾。费里尼那个词与里米尼有着部分类似的连绵结构，只是除了开头那个字母，那个巨大的伫立在首位的F，像是一堵里面住着树妖、浑身是劲的墙。 费里尼 我将笔扔下，里米尼和费里尼的幽灵在桌上那堆废报纸、文稿纸、餐巾纸里爬来爬去。这一个月里，我一个字也写不出，天天两只手揣在口袋里，在雾霾里到处晃荡，后来染上了什么流感病毒，像五…",
+      "key_points": [
+        "《甜蜜的生活》的舞女扮演者玛加丽•诺尔在法国的床上睡得正香，一个深夜夺命call把她惊醒：「马加丽塔（费里尼自己对马加丽的昵称），明天上午十点准时来五号棚找我，…",
+        "慢慢接受了费里尼描绘的那个里米尼，他们开始在这部影片里寻找现实原型，经常放到一半时，一个人指着某个银幕说「这是我！」「噢！那是隔壁老王他爹！」「放屁，那是我！」…",
+        "《阿玛柯德》是费里尼最后一部依旧可以随心所欲拍的电影，1973年的时候，《访谈录》里所说的体制宣战还未上演，这是一个绝好的时候，费里尼似乎觉得可以将有关青春的障…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "怎样想决定了是个怎样的人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%80%8E%E6%A0%B7%E6%83%B3%E5%86%B3%E5%AE%9A%E4%BA%86%E6%98%AF%E4%B8%AA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA",
+      "published": "Thu, 13 Aug 2026 11:35:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "关于人和人之间的巨大想法差异，有件事让我一直记忆犹新。那是十多年前的事情了，当时我有个创业项目刚刚出了一点点头，看起来非常有希望，就喜滋滋地去找一位前辈讨教，如何才能做大做成。 去到前辈家，他很耐心地听完我的做法和想法，却并没有直接回答我的问题，而是反问我：「你一直都在和我说如何做成，那你有没有考虑过有哪些因素可以让你做不成？」 我一时愣住，想着如何做成都耗尽了我全部心力，而且也不过是百分之一二的机会，我为什么要花时间去考虑如何做不成？ 看我有些困惑，他向我阐释了一下自己的观点： 在这个社会活得越久，越觉得成事的重…",
+      "key_points": [
+        "也很难在一个根本不信的人面前证明自己智商及格，所以最明智的做法就是别说话。不说话保持微笑，你起码还是个和善的人，一旦开口，立即变成要么内心险恶，要么智商欠费，总…",
+        "不会分享思路。反过来说，在大部分人那里只是背结论，看不出背后有思路。继续延伸下去的话，如果你给了他们思路，他们并没有兴趣，只会本能地去维护自己既有的结论，而且要…",
+        "好在世界宽容慷慨，招待不同的人坐下吃席，各有各的活法，各有各的乐趣"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "8月31日截止！“洞见贵州，从织金洞开始”摄影大赛",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+8%E6%9C%8831%E6%97%A5%E6%88%AA%E6%AD%A2%EF%BC%81%E2%80%9C%E6%B4%9E%E8%A7%81%E8%B4%B5%E5%B7%9E%EF%BC%8C%E4%BB%8E%E7%BB%87%E9%87%91%E6%B4%9E%E5%BC%80%E5%A7%8B%E2%80%9D%E6%91%84%E5%BD%B1%E5%A4%A7%E8%B5%9B",
+      "published": "Thu, 13 Aug 2026 20:11:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "“洞见贵州，从织金洞开始” 摄影大赛正在火热进行中 征集时间 截至2026年8月31日 征集范围 贵州织金洞景区、乌江源景区及周边区域 展现洞穴奇观及周边生态自然环境 欢迎您留下美好的图片或影像 大赛设万元大奖，等你来赢取！ 中国拥有全球最广袤的 喀斯特地貌区 也是公认的洞穴王国 无数溶洞深藏地下 气势恢宏 如梦如幻 用户投稿展示 《幽蓝梦境》 张连富 用户投稿展示 《千年凝铸秘宫灵盔》 杨建 它静卧在乌江两大源流之间 深邃博大 具有顶级视觉冲击 用户投稿展示 《流动的定格》 吴翱曦 流水溶蚀 造就了山体中深深的裂…",
+      "key_points": [
+        "从织金洞开始” 摄影大赛正在火热进行中 征集时间 截至2026年8月31日 征集范围 贵州织金洞景区、乌江源景区及周边区域 展现洞穴奇观及周边生态自然环境 欢迎…",
+        "中国拥有全球最广袤的 喀斯特地貌区 也是公认的洞穴王国 无数溶洞深藏地下 气势恢宏 如梦如幻 用户投稿展示 《幽蓝梦境》 张连富 用户投稿展示 《千年凝铸秘宫灵…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "2026未来科学大奖得主赵东元：“造孔之人”的30年科研路",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+2026%E6%9C%AA%E6%9D%A5%E7%A7%91%E5%AD%A6%E5%A4%A7%E5%A5%96%E5%BE%97%E4%B8%BB%E8%B5%B5%E4%B8%9C%E5%85%83%EF%BC%9A%E2%80%9C%E9%80%A0%E5%AD%94%E4%B9%8B%E4%BA%BA%E2%80%9D%E7%9A%8430%E5%B9%B4%E7%A7%91%E7%A0%94%E8%B7%AF",
+      "published": "Thu, 13 Aug 2026 18:31:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NSR",
+        "JACS",
+        "MOF",
+        "an",
+        "Boyle",
+        "clean"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源：未来科学大奖 ● ● ● 8 月 13 日，复旦大学教授赵东元，与北大教授袁新意、中国科学院生物物理所研究员张宏，获 2026 年未来科学大奖，每位获奖者将获得约 700 万人民币 （等值 100 万美元） 的奖金。 评委会介绍， 赵东元 的开创性工作建立了有序介孔材料的科学基础，其发展出的材料体系广泛应用于催化、能源存储与转化、环境治理和生物医药等领域。 赵东元被称为 “ 布袋院士 ” 。 2021 年，他用装教案的布袋拎回了国家自然科学奖一等奖…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源：未来科学大奖 ● ● ● 8 月 13 日，复旦大学教授赵东元，与北大教授袁新意、中国科学院…",
+        "复旦大学江湾校区先进材料楼的赵东元办公室，“造孔之人”四字书法作品",
+        "赵东元： 我们都知道中国设定的双碳目标：在2030年达到碳排放峰值，在2060年实现碳中和。选择这两个时间点，是因为在可预见的未来我们必须依赖化石燃料作为我们的…"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "先读五天，满意再加入",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%85%88%E8%AF%BB%E4%BA%94%E5%A4%A9%EF%BC%8C%E6%BB%A1%E6%84%8F%E5%86%8D%E5%8A%A0%E5%85%A5",
+      "published": "Thu, 13 Aug 2026 17:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PDF",
+        "Brief",
+        "CATTI",
+        "foxwulihua4",
+        "in",
+        "World"
+      ],
+      "summary": "工作很忙，学习很累，但是每天想读点英语，又不太想给自己找一份\"大作业\"。这种时候最容易发生的事是：打开网盘翻了半天不知道读哪篇，好不容易选中一篇，又得去找译文和音频，折腾20分钟，困意上来了，最后什么也没读。 我们做年费会员中心，最想解决的就是这20分钟，不是再往你的网盘里塞一批 PDF，而是让你想读的时候，打开手机就能开始。 一篇《经济学人》，可以这样读 打开当天的双语文章，音频就在最前面。先别急着看中文，戴上耳机听一遍，第一遍不必句句听懂，先抓文章在谈什么、作者是什么态度。听完往下是背景导读，很多时候我们读不懂…",
+      "key_points": [
+        "不用一上来就决定要不要花599 29.9 读五天",
+        "五天里你会拿到 5 篇《经济学人》双语精读、5 份全球早报，以及全部音频和 PDF。五天后觉得不合适，你花 29.9 读了五天《经济学人》，含译文、注释和音频，…",
+        "可以添加小编微信： foxwulihua4 想先用五天，回复： 体验，并付费29.9元计入试读"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "近日马来西亚的几则新闻",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E8%BF%91%E6%97%A5%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E7%9A%84%E5%87%A0%E5%88%99%E6%96%B0%E9%97%BB",
+      "published": "Thu, 13 Aug 2026 23:49:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "不能说时政话题，马来西亚可以说不，而且已经不算新闻了，大约几周前的事情了。 新闻1，柔佛州碧桂园森林城市，大家对这个名字还有印象不，马来警方近日扫荡碧桂园森林城市，抓捕超过300人电信诈骗团伙（属于两个不同团伙），其中接近95%成员为中国籍。 新闻2，一名新加坡73岁大叔被骗往马来西亚后遭到绑架勒索，新加坡警方接到报警后，请求马来西亚警方展开营救行动，营救过程中与持枪歹徒枪战，击毙两名外籍歹徒（此处外籍=非马来籍），在解救新加坡大叔之外，同时解救另一名遭绑架中国女士，并抓获其他绑架集团团伙成员，一名马来籍和多名中国…",
+      "key_points": [
+        "马来西亚可以说不，而且已经不算新闻了，大约几周前的事情了",
+        "一名新加坡73岁大叔被骗往马来西亚后遭到绑架勒索，新加坡警方接到报警后，请求马来西亚警方展开营救行动，营救过程中与持枪歹徒枪战，击毙两名外籍歹徒（此处外籍=非马…",
+        "很多时候很多人说东南亚不安全，你看案例是不是很多，但从菲律宾到缅甸到泰国到马来西亚，说起来基本都是一个模板，中国人在海外挖坑，欺骗，绑架，勒索，甚至虐杀中国同胞"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-14",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "汉族的汉化能力为何那么强大呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9791814",
+      "published": "Mon, 10 Aug 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "游鱼， 「为了全人类」 哲学|历史|文学 领域劣秀答主 查看知乎原文 因为粮食。 不是文化，更不是汉族的魅力。 中原农业的粮食垄断会侵蚀任何胆敢进入它的人。 外族只要踏进 黄河—长江流域， 就会立刻被粮食、户籍、乡里网络困住。 文化反倒只是表层的结果。 「黄河—长江流域的混合农业，创造了超稳定人口增殖环境。」 这句话的意思很简单： 中原的粮食体系稳定、高产、太爆发了，凡是进入这里的族群都会被人口压力压到必须 转向汉式的农业、税制和定居结构。 许多人以为的「汉化」，是语言和服饰变化。 但我觉得很大程度是被农业体强制启…",
+      "key_points": [
+        "不适用于中原土地管理。」 迄今已出土的契丹文“地券”（即土地买卖或授受契约）数量极少，且多为残石或摩崖，文字简短，尚未见到对“亩、步、顷”等中原田亩单位或“租、…",
+        "战国中晚期「粟＋大豆」加权平均亩产 216 市斤 西汉一般亩产粟 281 市斤 [1] 秦汉高产田「亩锺之田」可达 247 公斤（仅指粟） [2] 把这个换算成…",
+        "外族政权面对的是一个非常现实的困境：不汉化就无法征粮 我写到这里，其实可以把这个问题简化到一句话： 汉化的本质，是一个政权要吃饭，就必须纳入中原粮食体系"
+      ]
+    }
+  ]
+}
