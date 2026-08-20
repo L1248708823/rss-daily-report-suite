@@ -1,0 +1,727 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T01:00:11.516940+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 89,
+    "fresh_candidates": 63,
+    "backfill_candidates": 26,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-20",
+      "fetched_at": "2026-08-20T01:00:06.187701+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3894.42,
+          "change": -95.88,
+          "change_pct": -2.4,
+          "volume": 572191213.0,
+          "amount": 121810797.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4504.51,
+          "change": -18.269999999999527,
+          "change_pct": -0.4,
+          "prev_close": 4522.78,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-20 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 974.3708354365265,
+          "change": -3.951984824858755,
+          "change_pct": -0.4039550895687863,
+          "prev_close": 978.3228202613852,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-20 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-20",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "接受亏损，才能赚钱：盈亏同源的启示",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%8E%A5%E5%8F%97%E4%BA%8F%E6%8D%9F%EF%BC%8C%E6%89%8D%E8%83%BD%E8%B5%9A%E9%92%B1%EF%BC%9A%E7%9B%88%E4%BA%8F%E5%90%8C%E6%BA%90%E7%9A%84%E5%90%AF%E7%A4%BA",
+      "published": "Wed, 19 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：薛洪言 来源：雪球 很多投资者都有过类似的经历：看中一个策略，刚买进去就开始回撤；受不了割掉，它又涨了；换另一个热门策略，结果同样的事情再次发生。 这种循环背后，藏着一个被反复提及却常被误解的概念——盈亏同源。 盈亏同源，说白了就是：你赚的钱和你亏的钱，往往来自同一个地方。 你想避开某种亏损，往往也会同时避开对应的盈利。 频繁切换策略试图只吃甜头，长期看大概率得不偿失。真正可行的做法，是接受必要成本，控制风险，分散配置，坚持…",
+      "key_points": [
+        "既然盈亏同源，我就只能躺平接受亏损，投资还怎么赚钱",
+        "盈亏同源不是让你消极接受亏损，而是让你明白： 你想赚什么钱，就要承担什么风险",
+        "你大概率也会错过那几次大赚，最后变成“小赚大亏”或者“不赚不亏”。所以坦然接受盈亏同源后，投资的赚钱路径其实很清晰"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "11个月的锂价上涨周期将终结！墨柯：碳酸锂年末或跌至10万区间（核心研判之四）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4086763837/405358522",
+      "published": "Wed, 19 Aug 2026 09:50:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "to",
+        "GDP",
+        "GNP",
+        "http",
+        "xueqiu.com"
+      ],
+      "summary": "【重要文章，篇幅较长，预计阅读时间15分钟】 本文将从碳酸锂期货历史走势、新能源汽车和储能终端真实需求两大维度，拆解本轮锂价见顶的底层逻辑。当前市场普遍存在“碳酸锂供给增量有限、电池排产高增” 的乐观叙事，但忽略了终端需求持续走弱、远期去库压力爆发的核心风险。 原文分上下两篇，上篇先完成行情复盘与两大下游市场——新能源汽车和储能——的深度拆解；下篇将继续分析动力和储能电池的生产情况、库存分析、行业监管政策，并推演锂价中长期走势。但是由于篇幅较长，共拆解为四篇发布。 【前文回顾之一】墨柯：2026锂价拐点已现，年末或…",
+      "key_points": [
+        "【前文回顾之一】墨柯：2026锂价拐点已现，年末或跌至10万区间！（核心研判之一）下跌周期正式开启 【前文回顾之二】墨柯年末或跌至10万区间！（核心研判之二）储…",
+        "2026年5月碳酸锂期货触及20.9万的高点，已经宣告本轮为期不到11个月的上涨周期彻底终结，中长期下跌行情已经确立",
+        "年末碳酸锂大概率回落至 10 万区间，2027 年供给集中释放后价格或再度下探至 5 万附近。短期博弈性反弹难以改变下跌大趋势，产业链企业应当降低原料备货、按需…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "共识越狂热，能量耗尽越快：我的21年逆向投资10条铁律",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/405454577",
+      "published": "Wed, 19 Aug 2026 09:49:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "MACD",
+        "PE",
+        "ROE",
+        "xueqiu.com"
+      ],
+      "summary": "今天和大家聊聊趋势。 我身边有个朋友，自称技术派高手，均线、布林带、MACD 如数家珍，可账户长期坐过山车，折腾几年，收益还不如存定期。后来我建议他换个视角—— 别只盯着股价，去盯“共识的能量”。 你会发现一个被忽视的真相： 共识越狂热，能量耗尽越快；共识越冷清，生命力反而越长久。 这不是玄学，是人性驱动的筹码博弈。这套“逆向投资法”，今天摊开讲，或许能让你少走几年弯路。 一、趋势确立，往往是陷阱的开始 很多人信奉“趋势确立再入场”。可你想过没有，当趋势明朗到人人都看得出时，通常也是主力建仓完毕、准备派发的时候。…",
+      "key_points": [
+        "你会发现一个被忽视的真相： 共识越狂热，能量耗尽越快；共识越冷清，生命力反而越长久",
+        "我从市场中抽象出一个词：“能量耗竭”。一个系统越有序、共识越强，维持它所需的能量就越大。2015年创业板周线十连阳，趋势完美，紧接着就是股灾",
+        "是人性驱动的筹码博弈。这套“逆向投资法”，今天摊开讲，或许能让你少走几年弯路"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从黄金漏斗看阿里巴巴",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5673225518/405541023",
+      "published": "Wed, 19 Aug 2026 09:48:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "MiniMax",
+        "GLP-1",
+        "http",
+        "Meta",
+        "ready"
+      ],
+      "summary": "作为AI时代的顶梁柱，这段时间密集分析了阿里巴巴的相关研报，忽然发现其实阿里巴巴，和我在投的药明，非常的相似。 熟悉药明模式的，最常见的就是拎出来说一句：它的黄金漏斗——R端早期发现分子，最早摸到那些有眼光的项目；M端早扩产，等商业化洪流冲过来，反应釜早就 ready。这套&#34;离源头最近、先手扩产&#34;的打法，我讲过好多遍了。 我最近总结了一下，把同一个原理（黄金漏斗）扣到阿里头上，你会发现吴泳铭那张 AI 投资名单，逻辑一模一样。 文章只是提阿里众多板块当中的一个：阿里云，其余业务还有待商榷。 先梳理一…",
+      "key_points": [
+        "反手买阿里云 MiniMax 的招股书把这套写得最清楚：阿里持股 13.66%，MiniMax 反过来采购阿里云算力，双方给 2026 至 2028 年设的采购…",
+        "再看见需求，最后顺着自己的客户名单买买买。每一笔都压在爆发前夜——这就是阿里吃到的认知红利。说白了，这不就是药明的&#34;赢得分子&#34;？药明在 R 端最…",
+        "把同一个原理（黄金漏斗）扣到阿里头上，你会发现吴泳铭那张 AI 投资名单，逻辑一模一样"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对宇树上市与具身智能发展的思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/405570813",
+      "published": "Wed, 19 Aug 2026 09:48:53 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "DS",
+        "PE",
+        "IPO",
+        "Beta",
+        "Coherent"
+      ],
+      "summary": "受债市担忧影响，昨晚美股科技再次承压，前一天逆势上涨的存储与光通信板块受挫。闪迪、海力士均跌超9%，美光跌超7%；Lumentum与Coherent分别跌近10%和13%。 今天，宇树科技将正式登陆科创板。简单谈谈对宇树首日及其未来发展的看法。 一、交易结构 作为国内乃至全球人形与四足机器人的领军企业，宇树IPO自启动以来便吸引了全市场的目光。它的上市，宣告具身智能正式敲开了资本市场的大门。 宇树发行价150.80元，预计募资约61亿元，发行股份占发行后总股本比例约10%。公司今年上半年预计收入10.52亿至11.…",
+      "key_points": [
+        "一、交易结构 作为国内乃至全球人形与四足机器人的领军企业，宇树IPO自启动以来便吸引了全市场的目光。它的上市，宣告具身智能正式敲开了资本市场的大门",
+        "当前市场缺乏对标波士顿动力、Figure AI的纯正具身智能整机标的。资金实际上是在交易三个维度的预期： 量产兑现期： 期望2027-2028年，人形机器人能真…",
+        "宇树科技将正式登陆科创板。简单谈谈对宇树首日及其未来发展的看法"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么现在的文字都是横排的，而不像古代一样竖着写？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792023",
+      "published": "Wed, 19 Aug 2026 23:01:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "vs",
+        "qi",
+        "QWERTY"
+      ],
+      "summary": "繁星与辰， 好奇是进步之阶，平常是生活之药 查看知乎原文 有点反直觉的是：横排其实到 1955 年后才逐渐成为主流，在此之前主流都是竖排。横排能后来居上是材料、笔具变化和西学东渐共同推动的结果，国家政策一锤定音，科学角度来说横排的书写和阅读更加高效。 古人为什么要竖着排版，竖着写？因为材料学的限制——椠(qiàn) [1] 、觚(gū) [2] 、版、牍、牒、简、函、策这些古代书写载体都更适合竖着写，竖着看。 觚的复原示意图，横着写不了 上面提到的那些书写载体都是竖长的，且木头和竹子是有纹理的， 古人在木和竹上逆着…",
+      "key_points": [
+        "竖排间隔明显 为什么现在的文字又以横排为主呢",
+        "文字改革的急先锋钱玄同在《新青年》上发表了《论应用文之亟宜改良》，其中一条就是“改右行直下为左行横迤”。他给出的理由，放到今天都不过时： “人目系左右并列，而非…",
+        "《光明日报》大胆的率先改版为横排，并发布《本报改版致读者》： “我们认为现在中国报刊书籍的排版方式，应该跟着现代文化的发展和它的需要而改变，应该跟着人们生活习惯…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "孩子问「自转一圈相当于整个宇宙围着我公转一圈，那些离我很远的天体岂不是轻易超光速了」，我该如何解释?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792039",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "Bayesian",
+        "Bucket",
+        "Capo",
+        "Cosmos",
+        "Fabric"
+      ],
+      "summary": "曹天元 Capo， Bayesian 查看知乎原文 很好的问题，而且其物理内涵实际上并不像有些人以为的那样简单。以下我尽量避免使用公式和术语，试图用大多数人能理解的方式来进行回答（提示：这在很多细节上是不严谨的，但是不影响主旨）。 首先需要知道，所谓“物体运动不能超过光速”只是一种科普式的简化。在相对论里，“速度”这个概念并不是我们日常想象的那样，简单地用“距离除以时间”。因为相对论的核心观念就在于，什么叫做“距离”，什么叫做“时间”，这在“不同人的眼里”是不一样的。用相对论的话说，在不同的“参考系”里面，“距离”…",
+      "key_points": [
+        "事情就这么解决了吗？我们是否已经可以充满信心地宣称：在任何时候，我们都可以绝对分清自己到底是处在一个惯性系中，还是正在“加速”？遗憾的是，实际上答案远远没有那么…",
+        "对于马赫的一些论断，我们实际上并不能得出肯定或者否定的结论。比方说，地球在旋转，太阳系在旋转，银河系在旋转，本星系在旋转。但对于整个宇宙来说，却有大量的观测证据…",
+        "如何解释牛顿的水桶呢？马赫说：水桶的旋转必然不是绝对的，而只是“相对于宇宙其他部分”在旋转。实际上，你可以认为是水桶在转，宇宙不转，也可以认为是水桶不转，宇宙在…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从流量风口到价值高地，AI爆发下的微短剧发展六大趋势",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6451255.html",
+      "published": "Wed, 19 Aug 2026 11:13:36 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "IP",
+        "AIGC",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "微短剧市场突破千亿，AI生成内容占比超95%，但播放流量仅4%，量质倒挂揭示行业悖论。从流量叙事到价值升维，微短剧正经历生态重构，六大趋势预示精品化、IP化、出海新方向。本文深度解析AI时代微短剧的转型逻辑与未来走向。 当一部部微短剧在通勤地铁、午休间隙被一口气刷完，那个曾被贴上土味、狗血标签的内容品类，正从真人短剧时代的流量爆发，迈入AI驱动下的产能爆炸新阶段。 2025年，国内微短剧市场规模已突破1000亿元，用户规模超过7亿。与此同时，AI生成的内容供给在整个生态中的占比已超过95%。过去几年，如果要寻找互联…",
+      "key_points": [
+        "AI生成内容占比超95%，但播放流量仅4%，量质倒挂揭示行业悖论。从流量叙事到价值升维，微短剧正经历生态重构，六大趋势预示精品化、IP化、出海新方向。本文深度解…",
+        "IP化长线运营成关键 微短剧的高速增长，使其成为过去几年的一个流量风口。无论是之前的真人短剧，还是当下的AI短剧，底层的发展逻辑更多是追求流量风口的“爆款”模式…",
+        "微短剧海外叙事新探索 微短剧海外市场正在从流量试水进入规模化、本地化发展的新阶段。2026年前两个月，海外微短剧应用双端内购收入达到3.95亿美元，下载量达到4…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "做得越快，错得越贵：AI产品为什么必须反向冷启动",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6451145.html",
+      "published": "Wed, 19 Aug 2026 11:02:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "API",
+        "MCP",
+        "App",
+        "Excel"
+      ],
+      "summary": "AI 产品最危险的不是模型效果不行，而是“产品还在打磨”背后的证据债。本文提出反向冷启动策略，主张从第一天起验证痛点、行为、承诺与经济四类证据，避免团队在无外部反馈下堆砌功能，最终用证据进度替代功能进度衡量产品价值。 AI 产品最危险的一句话，不是模型效果还不行。 是 产品还在打磨 。 因为多数时候，打磨只是一个体面的说法：我们还没有证据证明用户需要它，但已经舍不得停下来了。 页面越来越完整，工作流越来越复杂，模型评测越来越漂亮。周报里每周都有进展，只有一件事没有发生： 没人愿意为了这个产品，付出任何真实代价。 没…",
+      "key_points": [
+        "而是“产品还在打磨”背后的证据债。本文提出反向冷启动策略，主张从第一天起验证痛点、行为、承诺与经济四类证据，避免团队在无外部反馈下堆砌功能，最终用证据进度替代功…",
+        "六、反向冷启动最容易被用歪的地方 有人会把这套方法理解成：先营销，产品以后再补",
+        "是产品做完之后找用户。反向冷启动，是从项目第一天开始找证据"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI辅助销售，和销售AI化不是一回事",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6451023.html",
+      "published": "Wed, 19 Aug 2026 07:03:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Amay",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "AI辅助销售只是优化流程，真正的销售AI化是重新设计人与AI的分工。本文从实战经验出发，剖析AI味背后的机械聊天方式，提出好AI销售的核心标准：客户明知是AI仍愿意聊，且能真正接走人的工作。 最近我越来越发现，很多企业做AI销售，一开始方向就错了。 他们把AI当成了一个工具，辅助销售。销售遇到客户问题，把内容丢给AI，AI生成一段答案，真人看一遍，再手动发给客户。 看起来用了AI，但仔细想想，原来的销售流程其实一点都没变。 以前是销售自己想、自己回；现在变成AI帮你想，最后还是销售自己看、自己判断、自己发。 AI只…",
+      "key_points": [
+        "差的不是一个“自动发送” 这也是我为什么一直在强调：AI辅助销售，和销售AI化不是一回事",
+        "看起来只差一步，实际上完全不是一回事",
+        "辅助销售。销售遇到客户问题，把内容丢给AI，AI生成一段答案，真人看一遍，再手动发给客户"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么大厂突然放弃MCP？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/5973563.html",
+      "published": "Wed, 19 Aug 2026 06:29:39 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MCP",
+        "CLI",
+        "AI",
+        "Agent",
+        "Token",
+        "CLI+API"
+      ],
+      "summary": "MCP口碑反转，Perplexity CTO等大佬纷纷转向CLI+API轻量化方案。Token浪费高达32倍、架构冗余、安全漏洞成三大痛点。但MCP并未过时，选型需看场景：小规模重效率选CLI，大规模重规范选MCP。本文深度解析两者优劣，助你精准避坑。 最近AI圈又有了新变化，MCP口碑开始发生反转。包括Perplexity CTO、Y Combinator核心团队在内的一众行业大佬，都公开表态要放弃MCP，优先采用CLI+API的轻量化方案开发Agent。 为什么大家从使用MCP转向使用CLI？两种方案到底适合什…",
+      "key_points": [
+        "为什么大家从使用MCP转向使用CLI？两种方案到底适合什么场景？普通开发者该怎么选",
+        "四、为什么大家一夜间都在用CLI",
+        "二、为什么大家不再用MCP了"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "你的Agent耗费词元大，并不是因为模型单价贵",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6450486.html",
+      "published": "Wed, 19 Aug 2026 06:28:13 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "token",
+        "Analysis",
+        "Artificial",
+        "Claude",
+        "PRD"
+      ],
+      "summary": "Agent账单居高不下，换便宜模型却只省四分之一？单价差15倍，账单却只降4.5倍。问题不在模型价格，而在任务结构：重复计费、冗长上下文、重试成本才是大头。本文拆解八步任务成本算法，教你从任务设计入手，真正省钱。 最近我把一个Agent的模型换掉了。 原来是当时第一梯队模型，输入15元、输出60元每百万token。更换后的便宜许多，输入1元，输出4元。 单价差15倍。 因此希望账单会掉一个数量级。下个月对出来，只降到原来的四分之一多一点。 差掉的那十几倍去了哪？经过对比，这几天我有了暴论。 单价只决定基数，任务结构…",
+      "key_points": [
+        "换便宜模型却只省四分之一？单价差15倍，账单却只降4.5倍。问题不在模型价格，而在任务结构：重复计费、冗长上下文、重试成本才是大头。本文拆解八步任务成本算法，教…",
+        "不是整个任务配一个模型。澄清、格式整理、模板填充这类配便宜的，拆功能点和写主流程这种配好的。标准是这一步的错误会不会往下传导，会传导的不要省",
+        "你只看得到单价，做出来的决策就是换模型。按任务记账，你看到的是步数、重试率、重复计费，这些才是能动的东西"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "《牛来》票房两千万了，在座的各位都有责任",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%E7%A5%A8%E6%88%BF%E4%B8%A4%E5%8D%83%E4%B8%87%E4%BA%86%EF%BC%8C%E5%9C%A8%E5%BA%A7%E7%9A%84%E5%90%84%E4%BD%8D%E9%83%BD%E6%9C%89%E8%B4%A3%E4%BB%BB",
+      "published": "Wed, 19 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ID",
+        "directube",
+        "FM103.3",
+        "IP",
+        "meirirenwu"
+      ],
+      "summary": "文章授权转载自 每日人物（ID：meirirenwu） 截至8月18日16时35分，影片《牛来》票房突破2000万。 此时，距离那条转折性的吐槽视频发出过了5天，追求“亲自看看”的观众把《牛来》的票房从7169元，硬生生买到了突破1000万元，票房预测更是涨至1.35亿元人民币。 《牛来》绝不是一部制作精良的动画电影，画面粗糙、穿模、复制牛群等毛边显而易见。故事本身一点都不猎奇，是一个母子亲情和小牛成长故事，因为一本正经，反而更为搞笑，引发大量吐槽：“上坟烧的牛都比这个画得好”“我晚上闭眼还有直立行走的牛对着我喊妈…",
+      "key_points": [
+        "参考文献 [1]《深度｜这么糙的《牛来》为什么能公映？听专业人士详解〉，澎湃新闻 [2]《现场探访《牛来》出品公司，注册地址疑为家庭住所》，中国新闻周刊 [3]…",
+        "网友们对《牛来》的关注还来源于那份身处暑期档的不合时宜。自8月5日上映后，过了一周多，《牛来》的票房仅有7352元。同期电影高手云集，8月14日，有全球票房接近…",
+        "同花顺8月17日的热股榜单 《牛来》票房一举超过千万元后，事情愈发变得不对。无论是去看《牛来》找虐并录制reaction视频，还是电影院全“手搓”劣质海报火上浇…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "我国首次实现入轨级火箭陆地回收；HOVERAir VERSA模块化无人机发布；宇树科技科创板上市首日暴涨629%",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%88%91%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%85%A5%E8%BD%A8%E7%BA%A7%E7%81%AB%E7%AE%AD%E9%99%86%E5%9C%B0%E5%9B%9E%E6%94%B6%EF%BC%9BHOVERAir+VERSA%E6%A8%A1%E5%9D%97%E5%8C%96%E6%97%A0%E4%BA%BA%E6%9C%BA%E5%8F%91%E5%B8%83%EF%BC%9B%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E7%A7%91%E5%88%9B%E6%9D%BF%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E6%9A%B4%E6%B6%A8629%25",
+      "published": "Wed, 19 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HOVERAir",
+        "VERSA",
+        "ChatGPT",
+        "OpenAI",
+        "Advances",
+        "ESA"
+      ],
+      "summary": "今天是8月19日，星期三。1839年的今天，法国政府正式向全球公布达盖尔发明的银版摄影法，并买断专利免费献给世界。 重点新闻速览 1. 交通运输北斗定位模块强制性国标发布 2.我国首次实现入轨级火箭陆地回收 3.宇树科技科创板上市首日暴涨629% 4.零零科技发布HOVERAir VERSA模块化无人机 科技 索菲·阿德诺 成为史上首位完成舱外活动的法国女性 北京时间8月18日20时29分，法国宇航员索菲·阿德诺搭档美国宇航员阿尼尔·梅农从国际空间站出舱，执行时长6小时23分钟的太空行走任务。阿德诺由此成为史上首位…",
+      "key_points": [
+        "交通运输北斗定位模块强制性国标发布 2.我国首次实现入轨级火箭陆地回收 3.宇树科技科创板上市首日暴涨629% 4.零零科技发布HOVERAir VERSA模块…",
+        "青少年版在学习模式中提供引导式提问、分步解题和知识测验，当系统识别用户直接寻求作业答案时会引导其转向理解式学习路径。安全防护方面，针对自残、暴力、进食障碍等高风…",
+        "火箭一子级成功软着陆于甘肃省民勤县朱雀三号着陆场坪。这是我国首次实现入轨级运载火箭一子级着陆支腿方式回收，标志着中国民营航天首次实现火箭入轨回收"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "只是换了个方式睡觉，大家说我“面相”都变了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8F%AA%E6%98%AF%E6%8D%A2%E4%BA%86%E4%B8%AA%E6%96%B9%E5%BC%8F%E7%9D%A1%E8%A7%89%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E2%80%9C%E9%9D%A2%E7%9B%B8%E2%80%9D%E9%83%BD%E5%8F%98%E4%BA%86",
+      "published": "Wed, 19 Aug 2026 16:01:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "cm",
+        "level",
+        "NASA",
+        "SPA",
+        "VIP"
+      ],
+      "summary": "前两天刷到一条热搜： #第一批00后已经开始颈椎理疗了 #。 评论区直接炸了锅—— “20岁的年纪，60岁的颈椎” “每天醒来第一件事不是睁眼，是转脖子” “去医院拍片，医生说我的颈椎曲度已经反弓了”…… 不说别的，我 同事里有十个有八个都在被颈椎问题折磨。 天天埋头在电脑桌前，再加上 长期低头刷手机， 脖子僵得像块铁板。 本来以为睡觉能放松放松肩颈，没想到越睡越累，脖子越睡越痛，甚至落枕，遭了大罪！ 很多人不知道，枕头，其实枕的是我们的脖子， 我们的颈椎天生有一道精妙的C型生理曲线▼ 但是市面上90%的枕头，根本…",
+      "key_points": [
+        "贴脸也不闷， 十分透气，冰冰凉凉的比开了空调还舒爽， 睡觉爱出汗的人千万别错过~ 枕套的面料是92%涤纶+8%氨纶， 贴睡更安心~ 可拆卸的丝滑裸肌触感枕套，…",
+        "男生女生都能找到合适的尺寸 🔵 针织布面料 ： 99元一个 ，更适合天气凉一点后使用~ 果壳实拍 全场任意2件再减20元，建议大家安睡枕和抱抱枕都安排上，一整晚…",
+        "60岁的颈椎” “每天醒来第一件事不是睁眼，是转脖子” “去医院拍片，医生说我的颈椎曲度已经反弓了”…… 不说别的，我 同事里有十个有八个都在被颈椎问题折磨"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为啥现在的人大老远出趟国，总要带把贵贵的伞回去？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E5%95%A5%E7%8E%B0%E5%9C%A8%E7%9A%84%E4%BA%BA%E5%A4%A7%E8%80%81%E8%BF%9C%E5%87%BA%E8%B6%9F%E5%9B%BD%EF%BC%8C%E6%80%BB%E8%A6%81%E5%B8%A6%E6%8A%8A%E8%B4%B5%E8%B4%B5%E7%9A%84%E4%BC%9E%E5%9B%9E%E5%8E%BB%EF%BC%9F",
+      "published": "Wed, 19 Aug 2026 16:01:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm",
+        "amp",
+        "UPF400+",
+        "UVA",
+        "ABS",
+        "activity"
+      ],
+      "summary": "今年的天气真是不讲道理，这都已经入秋了，出个门太阳晒得还是眼睛都睁不开，没有一个好用的防晒装备是真顶不住！ 不想晒老晒伤， 论防晒效果， 还得是物理防晒靠谱。 可是市面上所谓的迷你伞，看着小却很重。一打开像“Duang~”膨胀了一样，再也折不回原来那么小巧的体积了，装进包很勉强，实在是懒得带。 有些防晒伞不仅防晒效果堪忧，用了个寂寞，还有些不到两个月就开裂了…… 尤其今年天气特别诡异，异常频发，一会烈日一会下雨的，无论是南方北方都需要一把好用的便携伞。 听说国外已经开始流行一种 “超迷你折叠伞” ，伞又细又轻，太便…",
+      "key_points": [
+        "但是面料、涂层质量不好，伞很厚很重， 用了半年就开始开胶、漏水透雨，每年都要花一两百快重新买，算下来隐形支出很昂贵的",
+        "姐妹都爱背好看的小包，以前为了美雨伞只能手拎或是硬抗太阳…… 现在有了贝诗铅笔伞，你可以 美丽+防晒+挡雨，三者兼顾",
+        "进口紧密的伞面布料让贝诗铅笔伞可以 晴、雨两用 ，下雨天也无压力，伞面不易沾水，很好打理"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "侯孝贤这部电影震撼力太大",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BE%AF%E5%AD%9D%E8%B4%A4%E8%BF%99%E9%83%A8%E7%94%B5%E5%BD%B1%E9%9C%87%E6%92%BC%E5%8A%9B%E5%A4%AA%E5%A4%A7",
+      "published": "Wed, 19 Aug 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BOMB",
+        "DVD",
+        "Elliott",
+        "hongmomgs",
+        "irisfilm",
+        "Issac"
+      ],
+      "summary": "作者：Nicholas Elliott 译者：易二三 校对：Issac 来源：BOMB（2016年2月12日） 台湾导演侯孝贤的《好男好女》（1995）是第一部对我产生如此强烈情感反应的电影，我不得不把脸藏起来，不让其他观众看到，以免引发公共恐慌。 《好男好女》（1995） 影片在两个角色之间来回穿梭。梁静是一名演员，她的情人被谋杀后，她得到了一大笔「血债」；而梁碧玉是一名台湾共产者，曾于上世纪40年代在大陆与日本人作战，并在50年代的血腥清洗中失去丈夫，回到台湾。 侯孝贤将一个不那么遥远的时代的狂热理想和牺牲与当…",
+      "key_points": [
+        "但侯孝贤对当下的幻灭并不能解释他的电影为何如此感人。一个简单的答案是，他通过在意想不到的时间重复简单旋律的片段来表达情感。在《恋恋风尘》（1986）中——这是一…",
+        "侯孝贤将一个不那么遥远的时代的狂热理想和牺牲与当下的信仰被卡拉OK取代并置在一起，虽然我的心理状态很安定，但我仍然为自己的反应如此夸大而感到羞愧。这是我会想拍的…",
+        "《恋恋风尘》（1986） 侯孝贤的电影不是关于历史的创造者，而是关于那些被历史力量锤击的人。虽然侯孝贤把所有的主角都看成是「好男好女」，但我认为，如果他找到了一…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "最好的喜剧，一度担心它过时了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%80%E5%A5%BD%E7%9A%84%E5%96%9C%E5%89%A7%EF%BC%8C%E4%B8%80%E5%BA%A6%E6%8B%85%E5%BF%83%E5%AE%83%E8%BF%87%E6%97%B6%E4%BA%86",
+      "published": "Wed, 19 Aug 2026 20:30:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BBC",
+        "callback",
+        "CBS",
+        "FBI",
+        "hongmomgs",
+        "IP"
+      ],
+      "summary": "文 漠九 最近又重看了一遍《副总统》，还是好看。 《副总统》（2012） 看之前担心过时了，因为你懂的，现在的美国政治比喜剧还喜剧，但还好，并没有过时。 如果说它讽刺的东西略有过时，至少它的创作方法仍然高级。 大 多数政治喜剧在两个 模式 之间摇摆。一种是《白宫风云》，把华盛顿写成理想主义最后的战场，观众看完之后会觉得民主制度总归还是由一些好人在维持着。另一种是《纸牌屋》式的，政客被刻画成冷血棋手，每一步都是算计。 《白宫风云》（1999） 《副总统》的创作者阿尔曼多 ·伊安努奇 同时 拒绝了这两条路。 在权力的理…",
+      "key_points": [
+        "《副总统》（2012） 看之前担心过时了，因为你懂的，现在的美国政治比喜剧还喜剧，但还好，并没有过时",
+        "它只是展示事物就这样运转。没有一个隐藏的理性秩序等着被恢复，也没有一个更好的替代方案在某处待命。《副总统》的世界观更接近于说，这个系统从来就不是按任何人描述的方…",
+        "大 多数政治喜剧在两个 模式 之间摇摆。一种是《白宫风云》，把华盛顿写成理想主义最后的战场，观众看完之后会觉得民主制度总归还是由一些好人在维持着。另一种是《纸牌…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "套个娃",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A5%97%E4%B8%AA%E5%A8%83",
+      "published": "Wed, 19 Aug 2026 15:15:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI"
+      ],
+      "summary": "太多人在发朋友圈之前犹豫良久，改了又改，修了又修，最后多半还是选择删除。问题并不在于缺乏可以降低这种个人写作门槛的工具，而是需要降低这种写作背后心理压力的门槛的产品功能。如果朋友圈允许匿名发帖呢？允许阅后即焚呢？哪怕是用 AI，在图文最后注明「本条信息为 AI 撰写」，这起码也算是一个面具，而戴上面具就可以参加化妆舞会了，哪怕其实大家都能认出对方来。AI 懂得修饰文辞，但怕是不会计算人情世故。AI 自身根本就没有怕，无惧的硅基生物要帮助到有所畏惧的碳基生物，帮助他们去掉心里的某种怕，我对此表示怀疑。 文章原文",
+      "key_points": [
+        "改了又改，修了又修，最后多半还是选择删除。问题并不在于缺乏可以降低这种个人写作门槛的工具，而是需要降低这种写作背后心理压力的门槛的产品功能。如果朋友圈允许匿名发…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国“最般配”的地方，原来在这里",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E6%9C%80%E8%88%AC%E9%85%8D%E2%80%9D%E7%9A%84%E5%9C%B0%E6%96%B9%EF%BC%8C%E5%8E%9F%E6%9D%A5%E5%9C%A8%E8%BF%99%E9%87%8C",
+      "published": "Wed, 19 Aug 2026 07:30:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "vs",
+        "buff",
+        "JASON",
+        "Jubei",
+        "li",
+        "ng"
+      ],
+      "summary": "今天是七夕，中国情人节之一 地理君展开中国地图，突然发现 有些地方，可能早就 “在一起 ” 了 因为看上去简直太 “般配” 更难得的是 它们不仅表面上看起来 “般配” 深层次更是 地理上的 “知音” 这糖撒的，里里外外，满地图都是 最“般配”的一对、最和谐的“知音” 是这一山一水 宁夏六盘山 vs 贵州六盘水 这对 “六盘” ，一个屹立在黄土高原之巅看林海浪涌；一个静歇于夏日的喀斯特峰丛，吹吹小风。 都叫“六盘”，靠的是“缘” 六盘水，贵州下辖地级市，是由曾经的 六枝 、 盘县 （今盘州市） 、 水城 （今水城县）…",
+      "key_points": [
+        "【参考文献】 [1]《六盘山：诗歌与帝王之山》中国国家地理 2010年02期 [2]《六盘山上高峰》人民日报海外版 2020年07月27日 第12版 [3]《汕…",
+        "中国情人节之一 地理君展开中国地图，突然发现 有些地方，可能早就 “在一起 ” 了 因为看上去简直太 “般配” 更难得的是 它们不仅表面上看起来 “般配” 深层…",
+        "汕尾薄饼 图源：@寻味潮汕 汕头汕尾 气候、地理、人文皆“般配” 虽不像六盘山、六盘水那样，能成为相隔上千公里的地理“知音”；汕头、汕尾相距仅百公里，诸多方面何…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "刘国恩：现代增长底层逻辑｜北大博雅讲堂直播",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%88%98%E5%9B%BD%E6%81%A9%EF%BC%9A%E7%8E%B0%E4%BB%A3%E5%A2%9E%E9%95%BF%E5%BA%95%E5%B1%82%E9%80%BB%E8%BE%91%EF%BD%9C%E5%8C%97%E5%A4%A7%E5%8D%9A%E9%9B%85%E8%AE%B2%E5%A0%82%E7%9B%B4%E6%92%AD",
+      "published": "Wed, 19 Aug 2026 11:57:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PHAS"
+      ],
+      "summary": "北京大学博雅讲堂 2026前沿与交叉研修班， 8月13日-20日 程乐松、张 蔚、黄晓军、 张 藜 黄铁军、 刘忠范、 刘国恩、乔 杰 8位各领域顶尖学者共同分享交叉学科的魅力 扫描上方二维码即可 免费研修（如错过直播，可观看直播回放） 精彩继续 8月19日 19:30-20:30 刘国恩 → 人类文明：现代增长的福音与挑战 主讲人： 刘国恩（北京大学国家发展研究院长江学者特聘教授、北京大学全球健康发展研究院院长、中国医学科学院学部委员） 授课题目： 人类文明：现代增长的福音与挑战 内容简介： 人类文明是一场跌宕前…",
+      "key_points": [
+        "北京大学博雅讲堂 2026前沿与交叉研修班， 8月13日-20日 程乐松、张 蔚、黄晓军、 张 藜 黄铁军、 刘忠范、 刘国恩、乔 杰 8位各领域顶尖学者共同分…",
+        "《 石墨烯传奇：从诺贝尔奖到国之重器》 刘忠范，中国科学院院士、北京大学化学与分子工程学院教授、北京石墨烯研究院院长 “科学与人文相映生辉，前沿与历史交响成诗”…",
+        "您也可点击下方预约本场直播（如错过直播，可观看回放）： 8月20日 19:30-20:30 乔杰 → 追“精”问“卵”：守护生命起源的健康 主讲人： 乔杰（中国…"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "同一头牛，三种写法：Sixth Tone、卫报、BBC 怎么写《牛来》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%90%8C%E4%B8%80%E5%A4%B4%E7%89%9B%EF%BC%8C%E4%B8%89%E7%A7%8D%E5%86%99%E6%B3%95%EF%BC%9ASixth+Tone%E3%80%81%E5%8D%AB%E6%8A%A5%E3%80%81BBC+%E6%80%8E%E4%B9%88%E5%86%99%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B",
+      "published": "Wed, 19 Aug 2026 22:36:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBC",
+        "AI",
+        "in",
+        "Sixth",
+        "Tone",
+        "to"
+      ],
+      "summary": "很遗憾，经济学人没有关于牛来的相关报道，所以我们对比了Sixth Tone、卫报、BBC的文章： 这三篇文章写的是同一部电影，但其中一家，从头到尾没提这部电影是谁做的。大家猜是哪家？它又为什么不提？答案在文中 。我们不做逐篇精读，把它们放在一起比较，看看有哪些值得学习的地方。 一、同一个逆袭，三种讲法 先看核心事实：票房从几千块冲到几千万，三家分别怎么写 Sixth Tone The movie earn ed just 5,500 yuan at the box office in its first week.…",
+      "key_points": [
+        "经济学人没有关于牛来的相关报道，所以我们对比了Sixth Tone、卫报、BBC的文章： 这三篇文章写的是同一部电影，但其中一家，从头到尾没提这部电影是谁做的。…",
+        "三种讲法 先看核心事实：票房从几千块冲到几千万，三家分别怎么写 Sixth Tone The movie earn ed just 5,500 yuan at…",
+        "三种温度 “这片子没用AI”是三家都抓到的点，但写法完全不同"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-20",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792040",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Deng",
+        "logo",
+        "sherlock",
+        "Yuxuan"
+      ],
+      "summary": "瞎扯 · 故宫为什么一到下午 5 点就关门？是在害怕什么？ 知乎日报 查看知乎原文 Q： 故宫为什么一到下午 5 点就关门？是在害怕什么？ @螺旋真理 ：故宫的工作人员也得下班回家洗洗涮涮、接孩子做饭、喝酒聊天扯淡、唱戏跑团打掼蛋。 Q： 为什么小男孩小时候要比小女孩难养好多? @铃儿响叮当 ：小时候拿两个铜片往插座里插，我爹眼疾脚快，一脚就给我崩飞出去磕掉一颗牙。 Q： 应届生毕业后没方向了，想问问大家是怎么找到人生意义和盼头的？ @Yuxuan Deng ：你想得太高级了，降一点级吧（活着就好，别求别的）。 Q…",
+      "key_points": [
+        "瞎扯 · 故宫为什么一到下午 5 点就关门？是在害怕什么"
+      ]
+    }
+  ]
+}
