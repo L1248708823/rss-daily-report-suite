@@ -1,0 +1,789 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T01:00:11.032463+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 64,
+    "backfill_candidates": 29,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-23",
+      "fetched_at": "2026-08-23T01:00:05.722244+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3905.2,
+          "change": 1.48,
+          "change_pct": 0.04,
+          "volume": 446895868.0,
+          "amount": 88342348.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4604.53,
+          "change": 85.38999999999942,
+          "change_pct": 1.89,
+          "prev_close": 4519.14,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-22 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 994.9698950278907,
+          "change": 18.45149870593343,
+          "change_pct": 1.8895188022499874,
+          "prev_close": 976.5183963219573,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-22 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2026年8月总结 - 昏招跌出后满仓黄金股",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7448161277/406176316",
+      "published": "Sat, 22 Aug 2026 14:03:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "AH",
+        "BLS",
+        "CPI",
+        "http",
+        "SZ000506"
+      ],
+      "summary": "一、本月交易及今年收益率 1、本月交易 8月10日，卖出招金黄金6%仓位，卖出万国黄金集团6%仓位，当日收盘后剩余黄金股仓位为48%。 8月11日，卖出山金国际24%仓位，卖出黄金股ETF 24%仓位，当日收盘后剩余黄金股仓位为0%。 8月20日，买入山金国际40%仓位、万国黄金集团40%仓位、招金黄金20%仓位，累计仓位为100%。 2、今年收益率 截至2026年8月21日，我的今年收益率是6.23%。 以前我公布收益率之后，有些球友觉得比预期偏低一些。我在此解释一下造成低收益率的几大原因：一是，今年1月持有山东…",
+      "key_points": [
+        "3、昏招3 – 6月下旬买入弹性更小的黄金股ETF 因为错误地预计后面可能还会再下跌，6月下旬买入了弹性更小的黄金股ETF作为过渡仓位（40%仓位）",
+        "2、17家黄金股（含黄金股ETF）从底部到2026年8月21日的涨幅及弹性倍数计算表 3、小结 （1）伦敦金从1月29日高点5,594.77美元到6月30日低点…",
+        "942.99到2026年8月21日的涨幅是17.47%，17家黄金股（含黄金股ETF）从6月/7月底部到2026年8月21日的平均涨幅是78.08%，17家黄金…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "买格力，买的是以后能分走的现金",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5788816642/406146920",
+      "published": "Sat, 22 Aug 2026 14:03:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600690",
+        "SZ000333",
+        "SZ000651",
+        "XD",
+        "xueqiu.com"
+      ],
+      "summary": "$格力电器(SZ000651)$ 「老叶智道」叙述商业故事，沉淀投资智道。 价值投资老爱说一句话，买股票就是买公司，买的是公司未来的自由现金流。这话听着挺玄的，那么具体落到格力电器上，其实也就那么具体。2026年8月中旬，格力股价大概40元，整个公司大约2250亿元。假如花这2250亿把整个公司买下来，到底贵不贵？ 2025年格力营收1704.47亿元，比上年少了9.89%。利润290.03亿元，也少了9.89%。收入利润连续两年往下掉，日子看起来确实不太爽。可经营现金流有463.83亿元，比利润多出一大截。全年每…",
+      "key_points": [
+        "当然要是你觉得美的小米还会继续抢格力的生意，收入再掉两年，每年少10%那种，现在这个价就谈不上便宜。后面再差一点，可能就要亏在里面了，这个就见仁见智了，我认为这…",
+        "买股票就是买公司，买的是公司未来的自由现金流。这话听着挺玄的，那么具体落到格力电器上，其实也就那么具体。2026年8月中旬，格力股价大概40元，整个公司大约22…",
+        "经营现金流比利润多，我一开始也以为是空调卖疯了。后来再想想，不一定。经销商打款打得快一点，格力账上现金就会多一截。该付给零件厂、钢材商的钱如果晚一点付，现金也会…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "冰火两重天，为什么铝企的业绩差异这么大？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2735055577/405965243",
+      "published": "Sat, 22 Aug 2026 14:02:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600219",
+        "SZ000807",
+        "SZ000933",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "在铝价保持高位的当下，各大铝企2026年中报的业绩增长却相差很大，已经发布了中报的神火净利润是增长了152%，而相比之下很多铝企则明显不如神火，天山铝业业绩预增是102%，中铝只有58%—73%，南山铝业甚至连预增公告都没有（另外云铝是171%—182%）。 我看了最近发布中报的一些小铝企，比如华峰铝业，增速还是负的。那么同样是铝企，在铝价保持高位的当下，为什么业绩差异这么大？ 其实这就要聊到一个很重要的话题：业务结构。 01 业务结构如何决定业绩？ 我先上结果，我把六大铝企的业务划分为了5种类型：电解铝、氧化铝、…",
+      "key_points": [
+        "比如华峰铝业，增速还是负的。那么同样是铝企，在铝价保持高位的当下，为什么业绩差异这么大",
+        "我把六大铝企的业务划分为了5种类型：电解铝、氧化铝、铝加工、能源和其他。5种业务的利润贡献率如下（是营业利润的贡献率，不是净利润，没有扣除其他成本）： 在202…",
+        "各大铝企2026年中报的业绩增长却相差很大，已经发布了中报的神火净利润是增长了152%，而相比之下很多铝企则明显不如神火，天山铝业业绩预增是102%，中铝只有5…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "一只股票胜过千只股票",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9927088462/406159065",
+      "published": "Sat, 22 Aug 2026 14:02:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "本杰明·格雷厄姆在1973年修订出版了《聪明的投资者》第四版并增加了后记。在这篇后记中，他承认自己创立的价值投资体系确实具有局限性。他以第三人称身份写道：“我们非常熟悉和了解格雷厄姆与纽曼，他们大半辈子都在证券市场管理自己和客户的资金，进行投资……他们有过相当难受的经历，他们从中获得的教训是，小心为上、安全第一，这胜过由于贪心想要赚到世界上所有人的钱而冒进……运用这种小心为上、安全第一的投资方式，他们历经市场潮起潮落，多年不倒，投资业绩相当不错……” 他回忆一件往事：1948年，他把私募基金20%的资金都投到了一只…",
+      "key_points": [
+        "从这样仅仅一只股票的投资决策中所获得的累计收益，远远超过了格雷厄姆和纽曼在其专长领域进行广泛投资操作长达20年所获得的其他所有投资收益的总和，这些投资操作需要他…",
+        "本杰明·格雷厄姆在1973年修订出版了《聪明的投资者》第四版并增加了后记。在这篇后记中，他承认自己创立的价值投资体系确实具有局限性。他以第三人称身份写道：“我们…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "为什么你买基金承担了风险，最终却没有赚到钱？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E4%B9%B0%E5%9F%BA%E9%87%91%E6%89%BF%E6%8B%85%E4%BA%86%E9%A3%8E%E9%99%A9%EF%BC%8C%E6%9C%80%E7%BB%88%E5%8D%B4%E6%B2%A1%E6%9C%89%E8%B5%9A%E5%88%B0%E9%92%B1%EF%BC%9F",
+      "published": "Sat, 22 Aug 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Anomaly",
+        "ECVaR",
+        "END-",
+        "Left",
+        "Low",
+        "risk"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：晨星投资说 “收益是风险的补偿”，是金融学中一个经常被提及的概念。 按照这一逻辑，投资者承担的风险越高，理论上就应该获得越高的补偿。 可在现实中，很多投资者的真实体验并非如此：市场下跌时，波动和回撤一个没少；市场反弹时，收益却未必跟得上。 问题可能出在一个关键点上：风险并不是一种东西。有些风险可能在长期带来回报，但 有些风险却只是让投资者承受波动和回撤 。比如 晨星此前针对中国高波动基金的研究就发现 ，高波动并不必然对应更高…",
+      "key_points": [
+        "04 关注风险来源更重要 为什么我们在中国偏股基金中没有观察到类似基础市场研究中的左尾风险补偿",
+        "承担更高左尾风险的基金组别，并没有在未来稳定获得更高收益",
+        "在投资中，并不是只要承担了风险，就一定能获得补偿"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "世界各国主食是什么？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792084",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ag",
+        "Bread",
+        "fufu",
+        "Pain",
+        "tortilla",
+        "Chu"
+      ],
+      "summary": "ag獭， 好奇而无用的獭獭 查看知乎原文 人类的主食，大多来自禾本科和根茎类植物。 水稻、大麦、小麦、玉米、青稞、高粱这些作物都属于禾本科，人类主要取其种子；土豆、红薯、芋头、山药这些属于根茎植物，人类主要取其粗大的根茎。此外，一些蓼科和藜科植物，诸如荞麦、藜麦以及香蕉、面包果这些高产、大个的果实也是某些地方人们的主食，它们扮演的角色分别与禾本科和根茎类植物类似。 除了上面这些粮食以外，各种豆类也是世界各地人们非常重要的能量来源。豆类产量高，且富含蛋白质、脂肪、氨基酸等营养成分，对于难以获取肉类的社会而言，豆类的地…",
+      "key_points": [
+        "各地人类的主食也有很多差异—— 稻米 水稻是全世界超过 20 亿人口的主食。野生水稻原产于中国和印度，距今约 1 万年前，中国南方的人们最早开始栽种水稻。随着人…",
+        "Eba 是用 Garri 木薯粉制成的面团，是西非人的主食，一般搭配浓汤或炖肉食用 木薯原产于南美洲的巴西，大约 6600 年前，中美洲的先民们就已经开始食用木…",
+        "是南美安第斯高原最重要的粮食作物，也是整个美洲仅次于玉米的粮食作物。野生土豆含有大量龙葵素，具有一定毒性，安第斯先民们通过多年培育，才将野生土豆培育成高产而耐寒…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "摊丁入亩在历史上到底是善政还是恶政？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792100",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "宁南左侯， 太极生二姨 查看知乎原文 清代所有的抽象操作的以及令人眼花缭乱的各种改革，归根结底的目的是为了搞钱。之前我在知乎上看到不少人都好奇，既然明朝收不上来钱打仗，那怎么清朝就能有钱去打南明、打大顺大西呢？其实一开始我也好奇，但后来去翻各种方志、奏疏之类的资料发现，清朝并没有解决缺钱这个核心问题的办法，而且较之于明末，清初面临的问题更多，战争、自然灾害、人口大量消失，哪一样都会导致财政萎缩，所以顺治年间解决财政赤字的手段简单而暴力，简单就是多收税，暴力就是不给钱就弄死。 顺治六年全国财政收入是 1480 万两，…",
+      "key_points": [
+        "也正是因为这种徭役和人丁数量挂钩的原则，所以中国历史上人口增长历来缓慢，其实不是增长缓慢，而是隐匿较多，因为地银是固定的，丁银则是人越多承担的越多，所以人丁隐匿…",
+        "摊丁入亩、火耗归公、养廉银、士绅一体纳粮，李正老师曾在哔站视频里花了好几期来高度赞扬雍正的这一系列改革。整体而言，火耗归公是为了解决地方办公经费问题，养廉银是为…",
+        "就是在康熙“永不加赋”固定丁税的基础上，简化征收流程，合二为一。这个操作是理论上是完全合理的和有利的，因为这样是田多人少的多交、田少人多的少交，有人无田的佃户不…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 对话体验重构：从「聊完即走」到「可管理、可回溯、可复用」的知识工作流设计",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6452722.html",
+      "published": "Sat, 22 Aug 2026 07:12:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Alt",
+        "DOM",
+        "Esc",
+        "CC0",
+        "data-round"
+      ],
+      "summary": "AI 对话的深度用户常被无结构的信息流困扰：重要结论难找回、长对话易迷路、提示词无法复用。本文提出一套增强脚本设计方案，通过笔记标记、提示词管理、轮次导航与时间线锚点四大模块，为对话赋予结构，将其转化为可管理、可回溯的知识工作流。 AI 对话增强脚本设计方案：给无结构的对话加上结构 深度用户要的不是更多 AI 能力，而是把 AI 对话变成「可管理、可回溯、可复用」的个人知识工作流。本文基于日常使用 AI 对话产品的真实痛点，推导出一套完整的增强脚本设计方案，涵盖笔记标记、提示词管理、轮次导航、时间线锚点四大核心模块…",
+      "key_points": [
+        "而是把对话变成可管理、可回溯、可复用的知识工作流",
+        "边界约定： – 用户连续发两条消息但 AI 只回复了一次——算 1 轮（以 AI 回复为锚点） – AI 一次回复被拆成多个 DOM 节点——算 1 轮（以用户…",
+        "AI 对话增强脚本设计方案：给无结构的对话加上结构 深度用户要的不是更多 AI 能力，而是把 AI 对话变成「可管理、可回溯、可复用」的个人知识工作流。本文基于…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "公关、广告行业的OPC时代来了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6452759.html",
+      "published": "Sat, 22 Aug 2026 07:08:15 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OPC",
+        "AI",
+        "CC0",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "Unsplash"
+      ],
+      "summary": "当AI能独立完成三维动画，当资深从业者一人即可串起全流程，广告公关行业的OPC时代正加速到来。本文从组织变革视角，剖析互联网公司如何将广告公司推向执行端，AI又如何拆解重组织，揭示未来能力将重新回归个人。 前段时间，一位在互联网大厂工作的朋友给我看了一条视频，这是他们的供应商用AI做的，一条三维动画的品牌视频。 我说这个片子用AI做，应该用不了一万吧，我知道供应商的机制，所以故意往多了说。但他的回答是，供应商加上策略啥的，最后报价大几万。 它让我产生一个疑问，一个熟悉业务的资深从业者，借助AI，这个事情估计几千就能…",
+      "key_points": [
+        "当资深从业者一人即可串起全流程，广告公关行业的OPC时代正加速到来。本文从组织变革视角，剖析互联网公司如何将广告公司推向执行端，AI又如何拆解重组织，揭示未来能…",
+        "最近越来越多广告、公关行业的人开始谈 OPC。OPC 可以理解为资深个人或极小团队，像一间公司一样完成从理解问题、提出策略、创意表达，到内容生产和最终交付的整个…",
+        "01 OPC 为什么会成为趋势 如果只看AI，很容易把OPC理解成一个新的创业潮流，但我觉得AI只是最后那一脚。在AI出现之前，广告公司的组织逻辑其实已经被互联…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "联名之王瑞幸，为什么栽在了一对“素人情侣”手上？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6452758.html",
+      "published": "Sat, 22 Aug 2026 07:04:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IP",
+        "FENDI",
+        "Bunny",
+        "Esther",
+        "CC0",
+        "HEELO"
+      ],
+      "summary": "瑞幸七夕联名小众IP《王焕君和张缤智》，因大众认知度低、私人叙事强塞给消费者，引发大规模吐槽与舆情危机。本文从三重错位剖析翻车根源，揭示高频联名背后的成本压力与情绪价值误读，为品牌营销敲响警钟。 2026年七夕，瑞幸咖啡与连载动画《王焕君和张缤智》的联名产品正式上线。 杯套、手提袋上印满了两个陌生的人名和以真人为原型的恋爱日常画面，消费者端起咖啡的第一反应不是惊喜或浪漫，而是困惑，“这两人是谁”“买咖啡像给陌生人随份子”的吐槽迅速刷屏。 紧接着，该动画画风被指抄袭多部经典日漫、部分画面被质疑“擦边”“自嬷”“娇妻文…",
+      "key_points": [
+        "对照喜茶2023年与FENDI的联名来看，FENDI作为全球知名奢侈品牌，大众认知基础远高于一对网红情侣，相关联名产品上线后，消费者愿意为一杯19元的“FEND…",
+        "头部IP的授权费已经翻了几番，飙涨到了500万至900万左右。当“联名”本身从一种品牌策略变成了一种必须完成的任务指标时，IP筛选的标准就从“这个IP是否与消费…",
+        "预热期：争议被忽视 联名正式上线前几天，各大资讯博主爆出包含IP漫画风冰杯、成对杯套、主题杯袋、主题漫画等在内的联名内容时，部分消费者已经表达过对IP知名度和画…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI产品经理，别急着删数据：真正要交付的是一套可回滚的清洗规则",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6452703.html",
+      "published": "Sat, 22 Aug 2026 06:55:40 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Bad",
+        "Case",
+        "Diff",
+        "Excel",
+        "postmeta.bookmark"
+      ],
+      "summary": "AI项目中的数据清洗远非简单的表格整理，一条看似不规范的记录可能是关键业务信息。本文深入剖析清洗规则制定中的常见误区，提出用规则卡和保留清单确保数据价值不流失，帮助产品经理在AI项目中做出更明智的数据处理决策。 做AI项目时，产品经理经常会收到一句看起来很简单的任务： 这批数据有点脏，上线前先清洗一下。 技术同学开始跑脚本，空值补了，重复项删了，格式统一了。处理后的数据少了一大截，报表里的指标也变得很漂亮。 接入模型一测，效果没提升，原本能回答的问题反而答不上来了。 继续往下查，常见的情况是这样的：缺少标题的文档被…",
+      "key_points": [
+        "产品经理拿到数据以后，先拉业务、算法和数据同学对齐用途。先别讨论正则表达式，也别急着选工具，把下面四件事说清楚： 这批数据最后进入哪个环节 它需要帮助AI完成什…",
+        "AI产品经理不需要亲自写完所有清洗脚本，但必须回答一件事： 哪些数据允许AI学习，哪些只能在特定场景使用，哪些需要人工确认，哪些才可以真正删除",
+        "先把这5样东西交出来 如果你刚开始做AI产品经理，暂时不用研究一套庞大的数据治理平台"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "7个人，把学生笔记做成“闯关游戏”，拿下1300万用户",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6448660.html",
+      "published": "Sat, 22 Aug 2026 06:41:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Gizmo",
+        "AI",
+        "TikTok",
+        "Paul",
+        "Quizlet",
+        "All"
+      ],
+      "summary": "Gizmo 用游戏化机制重塑学习体验，将笔记、PDF 甚至视频自动转化为闯关式测验。从 30 万到 1300 万用户，仅 7 人团队如何靠口碑与分享实现爆发增长？本文拆解其产品逻辑与增长策略，看 AI 如何让学习像刷抖音一样上瘾。 今天分享的产品我觉的还蛮有意思的：Gizmo，https://gizmo.ai/ Gizmo 的 slogan 就道出了产品核心：对学习上瘾。 如果你用过多邻国，大概很熟悉这种感觉： 本来只是想学5分钟英语，做完一道题，经验值+10，再做一道，连续学习天数不能断。 好友排行榜上还有个人只…",
+      "key_points": [
+        "将笔记、PDF 甚至视频自动转化为闯关式测验。从 30 万到 1300 万用户，仅 7 人团队如何靠口碑与分享实现爆发增长？本文拆解其产品逻辑与增长策略，看 A…",
+        "02 先解决了学习软件里一个特别小的问题 Save All 最开始做的事情非常简单，学生把一段笔记贴进去。比如： “线粒体是细胞进行有氧呼吸的主要场所，为细胞提…",
+        "越来越多学生会主动告诉他们： 自己以前学一会儿就忍不住去刷 TikTok，但用了 Gizmo 以后，会一直在里面做题，因为感觉像在“玩游戏”"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“国家级新纪录”，竟是AI修出来的鸟图",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E5%9B%BD%E5%AE%B6%E7%BA%A7%E6%96%B0%E7%BA%AA%E5%BD%95%E2%80%9D%EF%BC%8C%E7%AB%9F%E6%98%AFAI%E4%BF%AE%E5%87%BA%E6%9D%A5%E7%9A%84%E9%B8%9F%E5%9B%BE",
+      "published": "Sat, 22 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "iNaturalist",
+        "al.",
+        "amp",
+        "Biology",
+        "Conservation"
+      ],
+      "summary": "拍鸟这件事总是苦乐参半。我们希望鸟离得再近一点，摆出灵动的姿态，光线恰到好处，前景没有植物遮挡……要凑齐这么多有利因素并不容易。看着那些“就差一点”的照片，你是不是也想过：要不，请AI修一修？ 生态学家呼吁： 如果你计划将照片上传到iNaturalist等公民科学平台，请不要使用AI修图处理 。尽管大部分使用AI修图的人并没有主观恶意，但这种行为正在污染数据库，干扰科学研究。 最近，iNaturalist就发生了这样一起乌龙事件。有用户上传了一张“红翅黑鹂”（ Agelaius phoeniceus ）的照片， 如…",
+      "key_points": [
+        "AI修图的时候常常会出现错乱的羽毛。鸟类的羽毛排列和羽色斑纹遵循特定的结构（称为羽区），而 通用AI模型不会针对这样的细节进行专门训练 。（它们能把人的手指画对…",
+        "如果原图不需要大幅度调整，使用更专业的修图工具，用更精细的指令进行微调（比如指定非常具体的调整区域），肯定有人能用AI修出特征准确的图片。有经验的观鸟人也能更好…",
+        "红翅黑鹂是图库中常见的鸟，它们分布于美国和加拿大，数量多又不怕人，还有显眼的配色，是摄影师们喜爱的拍摄对象；而黄肩黑拟鹂分布于南美洲的圭亚那高地和亚马孙地区的低…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "好残忍！人到中年，脸不是慢慢老的，是突然垮的......",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A5%BD%E6%AE%8B%E5%BF%8D%EF%BC%81%E4%BA%BA%E5%88%B0%E4%B8%AD%E5%B9%B4%EF%BC%8C%E8%84%B8%E4%B8%8D%E6%98%AF%E6%85%A2%E6%85%A2%E8%80%81%E7%9A%84%EF%BC%8C%E6%98%AF%E7%AA%81%E7%84%B6%E5%9E%AE%E7%9A%84......",
+      "published": "Sat, 22 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "nm",
+        "LED",
+        "ml",
+        "of",
+        "Aesthetic",
+        "Alghoul"
+      ],
+      "summary": "村上春树曾说，人是一瞬间变老的。以前我不信， 直到照镜子发现自己“发腮脸垮”了。 😭 ① 脸从 V变成了U ， 明明体重没变，脸愣是比年轻时候宽了一圈； ② 下颌线模糊 ，侧脸看过去，下巴和脖子快连上了； ③ 苹果肌 往下掉 ，法令纹跟着加深，怎么看怎么老...... 图源：图虫创意 这三件事，随便拎一件都够让人崩溃的，偏偏它们爱同时出现！因为这本质上 是同一个原因—— 一是胶原流失 皮肤里的胶原蛋白，从20岁开始就以每年1%的速度递减 [1] 。胶原一少，皮肤就像气球漏了气， 开始松和塌 ； 二是韧带松弛 脸上有…",
+      "key_points": [
+        "人是一瞬间变老的。以前我不信， 直到照镜子发现自己“发腮脸垮”了",
+        "连同事都问我：你是不是做啥项目了？感觉脸小了",
+        "是不是真的有用？用多久会有变化"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "烂脸三年才发现，救我的不是药膏，是这种几块钱的维生素",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%83%82%E8%84%B8%E4%B8%89%E5%B9%B4%E6%89%8D%E5%8F%91%E7%8E%B0%EF%BC%8C%E6%95%91%E6%88%91%E7%9A%84%E4%B8%8D%E6%98%AF%E8%8D%AF%E8%86%8F%EF%BC%8C%E6%98%AF%E8%BF%99%E7%A7%8D%E5%87%A0%E5%9D%97%E9%92%B1%E7%9A%84%E7%BB%B4%E7%94%9F%E7%B4%A0",
+      "published": "Sat, 22 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B5",
+        "ml",
+        "dc_ps",
+        "feature",
+        "get",
+        "SfVltLSRB0"
+      ],
+      "summary": "有多少人跟我一样， 看见自己脸上出现暗沉、粗糙、敏感、长痘、细纹，就下意识地追求各种网红美白、抗皱、祛痘产品。 脸越烂，手越贱，脸更烂。 实拍 这时候最该做的就是 停用各种猛药 ，让皮肤歇一段时间，但一照镜子看见自己的状态，又忍不住靠化妆去遮盖，最终在敏感肌的路上越作越远 其实，不管你是否处于烂脸期，都可以用一种我们常见的成分去养护皮肤—— 它不挑肤质、不挑年龄，能让皮肤一直保持稳定的好状态，关键是它很便宜，性价比非常高！ 这位护肤界隐藏的大佬就是 维生素B5 ，也就是成分表里常见的 泛醇 。 果壳实拍 B5很百搭…",
+      "key_points": [
+        "随便用不心疼~ 果壳实拍 要知道现在 官旗活动价也要144元一瓶！今天给大家的价格相当于打了将近5折的力度~ 截图时间：8.12 这还没完，这次还会额外送大家…",
+        "实拍 这时候最该做的就是 停用各种猛药 ，让皮肤歇一段时间，但一照镜子看见自己的状态，又忍不住靠化妆去遮盖，最终在敏感肌的路上越作越远 其实，不管你是否处于烂脸…",
+        "主要负责\"关掉\"刺痛 虽然叫它\"B5\"精华，其实远不能概括它的华丽配方——除了5% B5外，还有 1%专利悦肤宁 （指成分表中 柑橘果提取物、丁二醇、水） 果壳…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "老爸失去意识摔倒后，医生在他身体里装了个“充电宝”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%80%81%E7%88%B8%E5%A4%B1%E5%8E%BB%E6%84%8F%E8%AF%86%E6%91%94%E5%80%92%E5%90%8E%EF%BC%8C%E5%8C%BB%E7%94%9F%E5%9C%A8%E4%BB%96%E8%BA%AB%E4%BD%93%E9%87%8C%E8%A3%85%E4%BA%86%E4%B8%AA%E2%80%9C%E5%85%85%E7%94%B5%E5%AE%9D%E2%80%9D",
+      "published": "Sat, 22 Aug 2026 16:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "app",
+        "guokr.com",
+        "health",
+        "health_guokr",
+        "ID"
+      ],
+      "summary": "老爸今年70了，作为一个罹患2型糖尿病几十年的老糖友，他规律服药、注意饮食，饭后还经常快走。 因此，他的血糖一直控制得还不错，以至于我常常都忘了，糖尿病经年累月对血管和神经的伤害。 老爸“腿软”摔了一跤， 我们都怀疑他是低血糖了 今年3月9日，一个周一，老爸照例在帮我接孩子放学后留在我家吃晚饭。饭后闲聊中，老爸忽然说：“前天我摔了一跤。” 我一惊：“你没事吧？怎么会摔跤呢？”当时我还以为是老爸年纪大了，腿脚不便绊倒了。 “就是下午出门快走回来， 进电梯的时候腿软了摔跤了 。”老爸答。 糖尿病患者容易发生低血糖，这是…",
+      "key_points": [
+        "到家之后我特地关照家里的小朋友：“现在外公身体里有一个“充电宝”，你要小心点不要突然拉外公的手哦。” 装完起搏器之后头两个月，老爸有时候觉得心跳太快了，去问医生…",
+        "原来老爸那天的摔倒几乎可以说是突然失去意识 ，地点在家楼下的电梯里。他倒下的瞬间头重重撞向了电梯轿厢，万幸那时电梯并没有关门，巨大的声响引来了邻居",
+        "急诊抢救室病历 ｜ 作者供图 父亲的晕厥不是因为低血糖， 而是因为心脏病 等到中午左右，起搏器中心的医生来谈话。我请教医生为什么这么快就做了要装起搏器的决定，…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "日本电影这段时间为什么大爆发？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%97%A5%E6%9C%AC%E7%94%B5%E5%BD%B1%E8%BF%99%E6%AE%B5%E6%97%B6%E9%97%B4%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E7%88%86%E5%8F%91%EF%BC%9F",
+      "published": "Sat, 22 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Theatre",
+        "Art",
+        "bagu",
+        "Bunka",
+        "Donald",
+        "Guild"
+      ],
+      "summary": "作者：Donald Richie 译者：易二三 校对：覃天 来源：《视与听》（2021年2月12日） 在1951年，美军占领期结束六年后，新日本终于准备好与国际大家庭重新接轨。该国一直在努力摆脱战时的贫困，并巩固了光明的经济前景。在60年代，面纱揭开，新的日本出现了。 各种各样的产品和项目奔涌而出：摩托车、晶体管收音机、电视机、日产、丰田；东京的旧运河被填满，超级高速公路高高悬起；机场单轨列车，第一列子弹头列车；新的建筑如一阵风般涌现——丹下健三设计的国立代代木竞技场获得了著名的普利兹克建筑奖，未来派风格的新大谷酒…",
+      "key_points": [
+        "刚从罗马电影实验中心回来的增村保造呼吁打破日本传统的电影制作方式，创造出一些更有社会意义的东西。他在《接吻》（1957）中表达了他的理念，影片中被冷落的年轻主角…",
+        "街头巷尾 60年代的反文化电影不仅关注紧迫的社会问题，追求自由主义态度，它们也用不同于传统大制片厂的方式拍摄，从而展示了城市的不同侧面。因为预算少，且不可能有精…",
+        "1968） 在60年代和70年代，艺术电影协会几乎资助了所有较为优质的日本电影。它所属的只有一个戏院「新宿文化」（the Shinjuku Bunka）及其附属…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "最经典的美剧，重看不改结论",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%80%E7%BB%8F%E5%85%B8%E7%9A%84%E7%BE%8E%E5%89%A7%EF%BC%8C%E9%87%8D%E7%9C%8B%E4%B8%8D%E6%94%B9%E7%BB%93%E8%AE%BA",
+      "published": "Sat, 22 Aug 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "juking",
+        "stats",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "Joe"
+      ],
+      "summary": "文 庄山贝 最近又复习了一下《火线》，曾经的史上最佳美剧（之一），过了这么些年，还在那个位置上么？作为美剧黄金时期前期的作品，它有没有被后来者超越？ 《火线》(2002) 和上一次看相比，这次获得的最大感受是，剧里讲的这个社会，其实几乎不存在多少真正邪恶的人，为什么它仍然能够持续、大规模地制造邪恶？ 换个说法，这部剧，它的剧情和人物运行的社会学逻辑到底是什么？ 先说一个最基本的观察。西巴尔的摩并非那种无政府状态。恰恰相反，它的秩序极强。毒品组织有地盘划分和晋升层级，薪酬和内部纪律也一样不缺。警察局也同样如此，码头工…",
+      "key_points": [
+        "但缺乏合法上层社会的社会资本和文化资本。他不知道那些看不见的规则怎么运作，不知道谁可以信任，谁的承诺有效力。他以为自己已经离开了街头。实际上他只是从一个他精通的…",
+        "索巴特卡在第二季反复说到码头已经慢慢死了二十五年，干船坞生锈、码头闲置，他最痛苦的并不是自己失去工作，是一家人在码头上已经看不到未来。这就是一整个阶级的墓志铭啊",
+        "曾经的史上最佳美剧（之一），过了这么些年，还在那个位置上么？作为美剧黄金时期前期的作品，它有没有被后来者超越"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我个人最欣赏的 AI 用法",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E4%B8%AA%E4%BA%BA%E6%9C%80%E6%AC%A3%E8%B5%8F%E7%9A%84+AI+%E7%94%A8%E6%B3%95",
+      "published": "Sat, 22 Aug 2026 12:56:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "Bitsea",
+        "Flow",
+        "Prompt",
+        "V8.2"
+      ],
+      "summary": "关于 AI 的文章我已经写过太多了，但是今天还是想再写一篇。我知道，总是谈同一个话题容易让人觉得厌烦，所以不如这样：如果一看到 「AI 」这个词，你的第一反应是「听吐了」，或者「我对 AI 太熟了」，那么你大可以现在就关闭离开，因为接下来的内容对你毫无帮助。那么美好的周末，干点什么别的不成？ 还没有听到吐的诸位，让我们继续。 首先我说一下我的结论：截至目前，我认为 AI 最强也最有用的地方不在于编程，不在于回答问题，更不在于提供所谓「情绪价值」。我也不认同很多人的共同说法：AI 还没有体现出真实的实用性，自身依然存…",
+      "key_points": [
+        "我这种凭借吵架本能和 AI 的互动是随机的，也是零散的，远不如我朋友那样成体系。所以，我在今天文章的标题里写道：我个人最欣赏的 AI 用法。也正因为这样，我突然…",
+        "可是反过来想一下呢？AI 大模型能不能训练人如何思考？或者建构乃至重塑个人的思考模型甚至是思维模式？对此，我的看法是这样的： AI 相当于全人类所有导师的集合，…",
+        "我已经在朋友身上看到了这样的用法。他从一开始想要找几个聪明的顾问，逐渐意识到 AI 顾问的聪明建立在自己未知的知识，未知的认知，以及未知的思考模式上。于是，他稍…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "科考旅行 | 非洲之巅——乞力马扎罗高山徒步考察报名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%A7%91%E8%80%83%E6%97%85%E8%A1%8C+%7C+%E9%9D%9E%E6%B4%B2%E4%B9%8B%E5%B7%85%E2%80%94%E2%80%94%E4%B9%9E%E5%8A%9B%E9%A9%AC%E6%89%8E%E7%BD%97%E9%AB%98%E5%B1%B1%E5%BE%92%E6%AD%A5%E8%80%83%E5%AF%9F%E6%8A%A5%E5%90%8D",
+      "published": "Fri, 21 Aug 2026 17:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Morum",
+        "amp",
+        "Barafu",
+        "Barranco",
+        "D1",
+        "D2"
+      ],
+      "summary": "▲点击上方海报即可进行报名 “广袤无垠，嵯峨雄伟 在阳光下闪着白光 白得令人难以置信” 这是海明威所描述的 “乞力马扎罗山方形的山顶” （square top） 美国作家海明威的中篇小说 《乞力马扎罗的雪》 让更多人通过文学第一次“看见”这座非洲高峰 也使乞力马扎罗在全世界 留下了极具辨识度的意象 远眺乞力马扎罗山 海拔5895米的乞力马扎罗山 是非洲第一高峰 它以“非洲屋脊”的身姿 矗立在坦桑尼亚北部的高原之上 它靠近赤道却终年山顶积雪 孤独地反射着太阳的光 成为东非高原地平线上最醒目的参照物 然而 在气候变暖与…",
+      "key_points": [
+        "▲点击上方海报即可进行报名 “广袤无垠，嵯峨雄伟 在阳光下闪着白光 白得令人难以置信” 这是海明威所描述的 “乞力马扎罗山方形的山顶” （square top）…",
+        "徒步时间：1小时 徒步距离：3公里 徒步环境：草原为主 宿：希拉1号营地（帐篷） D3 9月6日 周日 希拉1号营地（3505m）—希拉2号营地（3900m）…",
+        "宿：阿鲁沙市（酒店） D2 9月5日 周六 阿鲁沙—兰道罗斯大门（2100m）— Morum（3500m）— 希拉1号营地（3505m） 酒店早餐后，前往位于乞…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "同行评议的“秘密”：《科学》论文录用率，中国作者不及美加1/3",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%90%8C%E8%A1%8C%E8%AF%84%E8%AE%AE%E7%9A%84%E2%80%9C%E7%A7%98%E5%AF%86%E2%80%9D%EF%BC%9A%E3%80%8A%E7%A7%91%E5%AD%A6%E3%80%8B%E8%AE%BA%E6%96%87%E5%BD%95%E7%94%A8%E7%8E%87%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%BD%9C%E8%80%85%E4%B8%8D%E5%8F%8A%E7%BE%8E%E5%8A%A01%2F3",
+      "published": "Sat, 22 Aug 2026 08:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CNS",
+        "Science",
+        "https",
+        "Advances",
+        "at",
+        "dynamics"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual ● ● ● 论文发表、同行评审，一直是现代科学体系的关键要素。不过，由于期刊评审信息一般不对外公开，外界很难了解个中秘密。 一个研究团队最近分析了《科学》 （ Sci ence） 及其姊妹刊《科学进展》 （Science Advances） 2015年至2020年间共计110303 份稿件的投稿和录用情况。 该研究通讯作者为《科学进展》副主编、科罗拉多大学计算机系教授Aaron Clauset，第一作者为佛蒙特大学数学与统计系助理教授Sam Zhang。…",
+      "key_points": [
+        "工作机构位于中国的通讯作者，论文录用率仅为2.5%，而美国和加拿大机构的通讯作者录用率是8.3%。换句话说，中国作者录用率不到美加作者的三分之一。在《科学进展》…",
+        "03 “同行评议”的挑战 值得说明的是，上述研究分析的是《科学》和《科学进展》2015年至2020年的情况。而过去这些年，中国作者在CNS （《细胞》《自然》《…",
+        "北京生命科学研究所所长王晓东最近在《知识分子》撰文就提到 ，“随着投稿数量不断增加，尤其是Nature、Science、Cell 这样的顶刊，编辑甚至不得不将绝…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "AI 与狗有何共同之处 | 经济学人文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+AI+%E4%B8%8E%E7%8B%97%E6%9C%89%E4%BD%95%E5%85%B1%E5%90%8C%E4%B9%8B%E5%A4%84+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96",
+      "published": "Sat, 22 Aug 2026 09:13:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "AI",
+        "is",
+        "it",
+        "be"
+      ],
+      "summary": "本文选自经济学人科技板块 Aug 17th 2026 https://www.economist.com/culture/2026/08/17/what-ai-has-in-common-with-dogs Culture | Man’s best frenemy What AI has in common with dogs Two new books ponder whether the technology will be tame or savage The Rise and Fall of the Art…",
+      "key_points": [
+        "本文选自经济学人科技板块 Aug 17th 2026 https://www.economist.com/culture/2026/08/17/what-ai-…"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "全栈应用开发:精益实践",
+      "source": "全栈应用开发:精益实践",
+      "source_url": "https://www.phodal.com/blog/feeds/rss/",
+      "title": "面向人机交互设计 Harness：构建以产物为中心的 Agent Loop",
+      "title_zh": null,
+      "url": "http://www.phodal.com/blog/artifact-centered-agent-harness/",
+      "published": "Sat, 22 Aug 2026 14:49:00 +0000",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Harness",
+        "Agent",
+        "Better",
+        "Loop"
+      ],
+      "summary": "最近，我一直在 Better Harness 里思考编码智能体的工作闭环：用户究竟想完成什么，智能体读取了哪些上下文、执行了哪些操作，",
+      "key_points": [
+        "我一直在 Better Harness 里思考编码智能体的工作闭环：用户究竟想完成什么，智能体读取了哪些上下文、执行了哪些操作，"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "影 视 纠 察 队",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E5%BD%B1+%E8%A7%86+%E7%BA%A0+%E5%AF%9F+%E9%98%9F",
+      "published": "Sat, 22 Aug 2026 21:27:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "diss",
+        "gay",
+        "groupie",
+        "IMDb",
+        "Incel",
+        "Top250"
+      ],
+      "summary": "开播十二年后，豆瓣评分 9.4的 《父母爱情》 遭遇口碑“翻车”。 这部年代剧由正午阳光出品，以前属于一代国剧经典。 但近几年， “父母爱情翻车”、“美化陈世美”等话题轮番上热搜，其豆瓣页面迎来“一星运动”， 短评区充斥着“封建”、“价值观有问题”等海量差评 。 比如挑刺者看来，剧情为了合理化 江德福（郭涛饰演）娶年轻漂亮有文化的安杰（梅婷饰演），安排他的乡下原配张桂兰出轨，男主接下来迎娶 “城里小姐”，就不算喜新厌旧，也不用背上道德包袱。 《父母爱情》讨论区被差评攻陷 其实《父母爱情》刚播出之时，就有关于“特权”…",
+      "key_points": [
+        "由詹姆斯·卡梅隆执导的好莱坞大片《泰坦尼克号》在中国上映，传闻“一刀未剪”。当年3月召开的九届人大一次会议上，一位长者提到： “我们不要以为资本主义就没有思想交…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "通辽-白城-松原附近的地上为什么有大褶子？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792088",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "W.",
+        "Inc.",
+        "amp",
+        "Company",
+        "Norton",
+        "by"
+      ],
+      "summary": "青铜马弓手， 研究山脉，常在野外 查看知乎原文 题主打字竟然还带口音？大褶子~~ 这个问题挺冷门，网络上应该还没有系统性介绍的文章。 问题涉及的区域主要在松辽平原，也就是鸡脖子那里。 仔细看，确实有不少「颈部横纹」。 松辽平原上这些醒目的线性地貌，通常被称作： 巨型弧形沙垄 ，也叫 科尔沁沙地巨型弧形沙垄 。 沙垄 间是细长的垄间洼地，大大小小、形态各异的 湖泡 散布其间，显示出「 垄 - 泡相间 」的地貌特征。（注意：垄、泡二字将遍布全文） 松辽平原上的巨型流线构造及解译特征（王照波，2020） 有沙地，有湿地，…",
+      "key_points": [
+        "小结 松辽地区的大褶子和褶子缝里的水泡子，显示出「 垄 - 泡相间 」的地貌特征，是多种地质作用与环境因素交织的复杂结果",
+        "研究山脉，常在野外 题主打字竟然还带口音？大褶子~~ 这个问题挺冷门，网络上应该还没有系统性介绍的文章",
+        "仅针对科尔沁沙地或松辽平原而言： 「有限冰川论」者支持风成说，认为末次冰期盛期，松辽平原周边的大兴安岭、小兴安岭和长白山的局部地区发育山地冰川，松辽盆地处于冰缘…"
+      ]
+    }
+  ]
+}
