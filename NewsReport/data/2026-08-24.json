@@ -1,0 +1,749 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T01:00:12.879977+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 5,
+    "items_collected": 89,
+    "fresh_candidates": 58,
+    "backfill_candidates": 31,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-24",
+      "fetched_at": "2026-08-24T01:00:07.537431+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3905.2,
+          "change": 1.48,
+          "change_pct": 0.04,
+          "volume": 446895868.0,
+          "amount": 88342348.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4621.33,
+          "change": 16.800000000000182,
+          "change_pct": 0.36,
+          "prev_close": 4604.53,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-24 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 998.6001231372675,
+          "change": 3.6302281093767306,
+          "change_pct": 0.36485808540719405,
+          "prev_close": 994.9698950278907,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-24 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "看破虚妄，抓主要矛盾-特变半年报",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9941162276/406209685",
+      "published": "Sun, 23 Aug 2026 14:30:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600089",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$特变电工(SH600089)$ 特变电工半年报公布后，利润不及预期，收入超预期，输变电超预期、煤炭和电费不及预期，多晶硅超预期，储能不及预期，黄金符合预期，多空交织，然而整体怎么样，同样观点多样，看好和不看好的观点相互碰撞。 本文试图透过财务表象看到业务实质，透过纷繁复杂的多板块业务涨跌，抓住特变电工未来发展的主要矛盾，为后续投资决策提供一些有价值的建议。 特变电工输变电、能源、新能源和新材料四大板块，想要看破虚妄，抓住主要矛盾，下面的三张图价值千金，是全面认识特变电工的捷径。 营收结构占比和同比变化： 毛利结构…",
+      "key_points": [
+        "特变电工输变电、能源、新能源和新材料四大板块，想要看破虚妄，抓住主要矛盾，下面的三张图价值千金，是全面认识特变电工的捷径",
+        "透过纷繁复杂的多板块业务涨跌，抓住特变电工未来发展的主要矛盾，为后续投资决策提供一些有价值的建议",
+        "纷繁复杂的表象背后，一定要学会抓住主要矛盾"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "阿里巴巴配售是重大利空？",
+      "title_zh": "阿里巴巴配售是利空吗？关键要看折价与 AI 资金去向",
+      "url": "http://xueqiu.com/5068022281/406218626",
+      "published": "Sun, 23 Aug 2026 14:30:14 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ARR",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "文章把配售的短期摊薄效应与融资用途分开，认为判断利空与否要同时看配售折价、资金是否投向 AI，以及这些投入能否转化为云业务和 AI 商业化。文中引用阿里云收入同比增长 45%、AI 产品年化收入 495 亿元、外部商业化收入占比 35% 等指标，适合关注互联网公司 AI 资本开支与变现质量的读者；具体数字仍应以公司公告为准。",
+      "key_points": [
+        "从配售这个角度短期是利空还是利好？那就要看配售的价格了，如果一个800亿的配售，对应23,600亿港元市值大概是3.3%，如果配售价格是在5~8个点的折让，这是…",
+        "先看钱是用来干嘛的，阿里巴巴在人工智能的投入，很早就说过了，是3,800亿后面还说要加码，这次财报公告已经投入1900亿，而且在阿里，云和人工智能的收入和业务发…",
+        "阿里云收入同比增长45%，AI相关产品年化收入（ARR）达495亿元人民币（约73亿美元），在阿里云外部商业化收入中占比升至35%。这一数字已连续12个季度实现…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "上个周期煤炭股的启示——当前存储股的位置如何？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4851333020/406215421",
+      "published": "Sun, 23 Aug 2026 14:24:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "T1",
+        "Q1",
+        "T0",
+        "T2",
+        "H2"
+      ],
+      "summary": "我最开始接触投资，就是21年投资煤炭股，这奠定了我长期的投资偏好，即周期股或者是业绩爆发股，今年7月存储股暴跌，一直让我产生21年9月煤炭股的即视感，做一下简单的类比，刻舟求剑，仅供我自己参考。 一 、21年9月的故事 21年9月煤炭股非常火热，现价-期货-股价三重共振，期货价格至今还没打破当时的高度，当时也有机构喊出“ 改革开放以来最大的一次投资机会 ”，冀中能源一周半翻倍，但是到9月底，市场规律和有形大手同时发力，同时崩溃。 大致相当于这次7月初存储股的“二阶导见顶”，当时三季预报业绩也很好，但是市场依旧不理会…",
+      "key_points": [
+        "就是21年投资煤炭股，这奠定了我长期的投资偏好，即周期股或者是业绩爆发股，今年7月存储股暴跌，一直让我产生21年9月煤炭股的即视感，做一下简单的类比，刻舟求剑，…",
+        "三、行业对比 存储股的格局比当初的煤炭股强得多， 首先，国内有疆煤外运这一强大的压制因素，一旦价格上来，产量可以暴涨；其次，煤稍微涨几百，很多行业要大面积破产，…",
+        "四、总结 不存在整个板块利润顶尚无法预测，股价顶就出现的情况，但是具体到个股会有分化： T0神华级：股东回报长期持续，股价持续新高； T1潞安级：有跨周期成长，…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "市净率创了新低，为什么可能不是便宜？",
+      "title_zh": "市净率创新低，不等于便宜：先看盈利能力是否变了",
+      "url": "http://xueqiu.com/1006269237/406234386",
+      "published": "Sun, 23 Aug 2026 14:23:49 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600612",
+        "SH600660",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "文章提醒，市净率处于历史低位只说明价格相对过去便宜，不能替代对生意质量的判断：如果净资产收益率从 25% 降到 8%，2 倍市净率可能只是新的合理价。更有用的做法是把估值分位与盈利能力指标放在一起看，区分“按当前盈利确实便宜”与“盈利恶化导致的低估值”；适合建立基本面估值框架的投资者。",
+      "key_points": [
+        "红色箭头标的是几处盈利调节收益率冲到高位的时候。回头看，那些位置往往对应着股价的阶段性顶部——不是精确的尖顶，但大意是对的：市场给的报价，已经超出了当时赚钱能力…",
+        "这两者就分开了。一只股票市净率分位很低，盈利调节收益率也低，说明按它的盈利水平，价格确实给少了一块。另一只分位同样低，盈利调节收益率却很高，那低分位的成因大概率…",
+        "最常做的一件事，是把现在的估值和它自己的历史比。市净率落到历史最低的一成区间，心里就痒：便宜了"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "8年基民真心话：买基金最怕的不是跌，而是别人家的涨了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+8%E5%B9%B4%E5%9F%BA%E6%B0%91%E7%9C%9F%E5%BF%83%E8%AF%9D%EF%BC%9A%E4%B9%B0%E5%9F%BA%E9%87%91%E6%9C%80%E6%80%95%E7%9A%84%E4%B8%8D%E6%98%AF%E8%B7%8C%EF%BC%8C%E8%80%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E5%AE%B6%E7%9A%84%E6%B6%A8%E4%BA%86",
+      "published": "Sun, 23 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "AI",
+        "END-",
+        "yan1218"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 5yan1218 来源：雪球 入市第 8 年 ， 主做基金配置 ， 不追热点 ， 用组合对抗波动 。 今天聊个扎心但没人说的话 —— 很多人基金账户绿 ， 真不是因为市场跌 ， 是因为 忍不住比 。 你有没有过这种时刻？ 朋友圈有人晒 ： 重仓新能源 ， 这波吃肉了 。 群里有人喊 ： AI 主题基一周涨 8% ， 你们还在躺平 ？ 你低头看自己账户 ： 沪深300 趴着不动 ， 创业板磨磨唧唧 。 一比 ， 心就乱了 。…",
+      "key_points": [
+        "今天聊个扎心但没人说的话 —— 很多人基金账户绿 ， 真不是因为市场跌 ， 是因为 忍不住比",
+        "我就给自己定了条规矩 ： 别人的涨 ， 跟我没关系",
+        "我的笨办法 晒账户只看自己的\"配置比例\"和\"现金仓位\" ， 不看收益排名 ； 想换基之前 ， 先问 ： 我是真觉得它更好 ， 还是只是\"别人赚了我不甘心\""
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么物理规则几乎都是乘法？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792076",
+      "published": "Fri, 21 Aug 2026 23:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "kx",
+        "SU",
+        "cos",
+        "dN",
+        "dt",
+        "G_"
+      ],
+      "summary": "北冥有鱼， 北大理论物理博士，互联网从业 查看知乎原文 要回答这个问题,得从一个更根本的事实说起: 数学不是物理的装饰,而是物理结构的语言。一个公式长什么样,取决于它所描述的那类现象,本身具有什么样的结构。 而自然界的底层,其实只由少数几种”组织方式”反复搭建。每一种组织方式,都对应着一种数学工具。我们看到的各种公式形态,不过是这些底层结构的不同侧面。 下面我把这些对应关系梳理一遍。 一、自然界的几种底层组织方式 1. 独立性 —— 对应乘法 两个互不干扰的系统放在一起,它们的联合状态数等于各自状态数的乘积(W₁·…",
+      "key_points": [
+        "这也解释了为什么一旦涉及”不同种类物理量之间的关系”,公式几乎必然是乘法形式——压强、体积、温度之间(PV=nRT),力、质量、加速度之间(F=ma),电压、电…",
+        "任何光滑函数在小范围内都可以近似成 y≈kx,这就是乘法。自然界很多现象在常见尺度下恰好处于这种”弱扰动”区间,一阶近似就够用——胡克定律、欧姆定律、弱场引力都…",
+        "要组合成新的量,乘除是唯一能改变量纲的运算。加减只能发生在同量纲的量之间。所以只要公式涉及不同种类的物理量,乘法几乎无可避免"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "当 AI 对话超过 20 轮后，我们需要一张「对话地图」",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6452908.html",
+      "published": "Sun, 23 Aug 2026 12:11:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "px",
+        "App",
+        "hover",
+        "Alt",
+        "CC0"
+      ],
+      "summary": "长对话中迷路是AI聊天的高频痛点，但底部固定栏并非最优解。本文提出将阅读App的成熟交互迁移至右侧侧边栏，构建「对话地图」：轮次列表、进度细线、精准跳转与星标筛选，让无结构的对话变得可管理、可回溯，成为持续积累的知识资产。 一、一个真实的场景 和 AI 聊到第 27 轮，你突然想回到第 8 轮确认一个数据口径。 你开始疯狂滚动鼠标，页面像瀑布一样向上飞。滚到第 15 轮，你怀疑自己滚过了，又往下滚一点。反复三次，你终于找到那段对话，但已经忘了自己回来要确认什么。 这不是模型不够聪明，是 对话本身没有地图 。 大多数…",
+      "key_points": [
+        "三、方案核心：把侧边栏变成「对话地图」 整体思路很简单：将阅读 App 中「进度条 + 章节列表 + 书签标记」的成熟交互，迁移到 AI 对话的右侧侧边栏，形成…",
+        "但底部固定栏并非最优解。本文提出将阅读App的成熟交互迁移至右侧侧边栏，构建「对话地图」：轮次列表、进度细线、精准跳转与星标筛选，让无结构的对话变得可管理、可回…",
+        "二、为什么底部栏不是最优解 很多增强方案选择在对话底部加一条固定状态栏，放进度条、轮次指示器、星标按钮。这能解决一部分问题，但会引入新的摩擦： 遮挡内容：底部固…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "对话 Claude Code 之父：当模型越来越聪明，还在设计复杂工作流的人只是在假装做产品",
+      "title_zh": "对话 Claude Code 之父：模型越聪明，复杂工作流越可能成为束缚",
+      "url": "https://www.woshipm.com/ai/6453025.html",
+      "published": "Sun, 23 Aug 2026 10:42:02 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Claude",
+        "Boris",
+        "prompt",
+        "Diana",
+        "Hu",
+        "Cherny"
+      ],
+      "summary": "对话围绕 Boris Cherny 如何把 Claude Code 从代码补全带进真实开发环境展开：当模型已经能读代码库、改文件、调用终端时，层层叠加的固定工作流反而可能限制能力释放。文章还提出“Product Overhang”视角——产品机会可能来自释放模型尚未被界面和流程暴露的能力，适合做 AI 编程产品、Agent 工具和开发者体验的人阅读。",
+      "key_points": [
+        "他分享了正在重新定义行业的问题：当模型进步越来越快，过去的产品设计是否反而成了限制？开发者应该如何释放模型尚未被发现的能力？当编程本身逐渐被解决，真正重要的又会…",
+        "一批 AI 创业机会藏在 Product Overhang 里。模型已经具备大量尚未被产品释放的能力，真正的机会不是继续堆叠工作流，而是拿掉妨碍模型发挥的设计，…",
+        "这是test time compute的一种新形式。当我们谈论Scaling law，谈论模型随着时间推移变得越来越智能时，历史上，这主要取决于几个因素：神经网…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从一次危重猫接诊，看动物医院该怎么做 RAG",
+      "title_zh": "从危重猫接诊看 RAG：医疗 AI 先补流程，再选模型",
+      "url": "https://www.woshipm.com/ai/6452868.html",
+      "published": "Sun, 23 Aug 2026 10:14:08 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "RAG",
+        "AI",
+        "GraphRAG",
+        "LLM",
+        "Heidi",
+        "Recall"
+      ],
+      "summary": "一个信息模糊的宠物就诊电话，暴露出知识断层、信息采集不足和系统割裂如何叠加成医疗风险。文章以动物医院为例，讨论如何把个人经验沉淀为机构知识、为不同信息设计检索路径，并强调电话分流、知识治理和人工流程比单纯更换模型更重要；适合关注 RAG 落地与高风险场景 AI 产品设计的读者。",
+      "key_points": [
+        "却因信息模糊、知识断层和系统割裂演变为医疗风险事件。本文从动物医院接诊场景切入，深入拆解RAG在医疗AI产品中的落地路径：如何将个人经验转化为机构知识，如何为三…",
+        "值得产品经理追问的是：如果为动物医院设计一款 AI 产品，它应该怎样把这种模糊描述变成有用信息？把医院资料接入知识库就够了吗",
+        "参考资料： ACVIM 猫心肌病分类、诊断与管理共识 AAHA：动物医院电话分流的培训与算法案例 Heidi Health：产品与工作方式 Heidi Heal…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "前沿大模型都在拼代码，真正争夺的不是编程能力，而是下一代模型的创造权",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6452852.html",
+      "published": "Sun, 23 Aug 2026 07:11:12 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "ER-100",
+        "OpenAI",
+        "AlphaEvolve"
+      ],
+      "summary": "大模型竞争正从“比谁更会聊天”转向“比谁更能干活”。Grok、OpenAI、Anthropic 等前沿实验室纷纷押注代码与智能体，背后争夺的实则是自动化研发能力。本文深入拆解这一趋势，探讨 AI 如何从知识使用者变为知识生产者，并重新审视其对科研、交通与教育等社会结构的深层冲击。 如果把过去几年的大模型发布会放在一起看，会发现一个非常明显的变化。早期大家比的是谁回答得更准确、谁的上下文更长、谁能在数学竞赛中拿到更高分。后来，竞争扩展到图片和视频：人物会不会多出一根手指，连续镜头能不能保持一致，生成的视频究竟有多接近…",
+      "key_points": [
+        "大模型竞争正从“比谁更会聊天”转向“比谁更能干活”。Grok、OpenAI、Anthropic 等前沿实验室纷纷押注代码与智能体，背后争夺的实则是自动化研发能力…",
+        "已经会觉得粗糙。未来的人回看现在的大模型，也可能觉得它们迟钝、昂贵而且需要不断提醒。今天令人惊叹的能力，未来可能只是没人愿意单独付费的基础功能。但真正需要警惕的…",
+        "而是一套训练机器研究能力的基础设施。模型不是单纯在学习“怎样成为一名程序员”，而是在学习怎样提出方案、接受反馈、修正错误，并继续推进。这才是代码能力真正重要的地…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从目标到可靠交付：复杂 Agent 的执行、反馈、协作与记忆体系",
+      "title_zh": "让复杂 Agent 可靠交付：执行、反馈、协作与记忆如何组合",
+      "url": "https://www.woshipm.com/ai/6444373.html",
+      "published": "Sun, 23 Aug 2026 06:49:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": "top",
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "Leader",
+        "Memory",
+        "HITL",
+        "MoA",
+        "Prompt"
+      ],
+      "summary": "文章把“读取数据—分析—生成报告—审批发送”这类复杂任务拆成固定工作流、自主规划、多 Agent 协作、反馈机制和记忆管理，并强调通过流程控制与人工审批来降低失控风险。它的可迁移价值在于：Agent 的可靠性不只取决于模型能力，还取决于任务边界、状态管理和人机协作设计；适合构建业务自动化系统的产品与工程团队。",
+      "key_points": [
+        "当Agent被要求完成“读取售后数据、分析问题、生成报告、审批后发送邮件”这类复杂任务时，单一Prompt往往力不从心。本文深入拆解固定工作流、自主规划、多Ag…",
+        "短期记忆：维持当前任务的连续性 短期记忆主要保存当前会话需要的信息，例如近期对话、任务目标、关键约束、工具结果和执行状态。它通常通过上下文窗口实现：应用将相关历…",
+        "五、自主规划：从执行固定动作转向追逐目标 固定工作流适合已知路径，但现实环境可能变化。例如订单接口暂时不可用、字段名称调整，或者客服记录缺少必要信息。如果事先穷…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "30岁学音乐、40岁搞摇滚，晚不晚？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+30%E5%B2%81%E5%AD%A6%E9%9F%B3%E4%B9%90%E3%80%8140%E5%B2%81%E6%90%9E%E6%91%87%E6%BB%9A%EF%BC%8C%E6%99%9A%E4%B8%8D%E6%99%9A%EF%BC%9F",
+      "published": "Sun, 23 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "APP",
+        "Cyber",
+        "ENYA",
+        "NOVA",
+        "DIY",
+        "MUSIC"
+      ],
+      "summary": "有时候还真挺羡慕小时候的自己的。 不仅无忧无虑，更重要的是时间一大把。 虽然大多都是极不情愿的被爸爸妈妈送进了特长班，然后不出意外的半途而废， 但最后不管学的怎么样，长大以后都还觉得挺有用的。 人长大了，又变成了看啥都想学，然而时间精力都不允许。看别人聚会能露一手撩撩crush，闲着没事录个弹唱也有几百点赞，羡慕的眼泪只能往肚子里咽。 不过话说回来，现在这么多的成人兴趣班，不就是让我们这些积极上进（其实是又菜又爱玩）的大小孩重温儿时的梦想嘛！然后不出意外又半途而废， 因为痛，真的，太痛了。 那个满手茧子，中指无名指…",
+      "key_points": [
+        "👉 只想随手玩、追求便携潮玩、送礼：冲口袋赛博吉他 👉 要玩创作、偶尔小型演出，追求专业功能：冲 Cyber‑G 👉 追求简单快乐、颜值优先，不想折腾电子设备：…",
+        "希望长期玩下去、有一定的可玩性、还希望能让自己或者孩子，用他作为音乐启蒙、学习的工具，那一定选这台 。不太恰当的比喻，口袋赛博吉他偏向潮玩向新手快乐机，那 Cy…",
+        "👇🏻 戳下预约👇🏻 02 ✨口袋赛博吉他｜800g “音乐小机甲”，开箱小白直接当音乐人 第一次摸到口袋赛博吉他的时候，我属实被惊艳到。传统吉他要扛巨大琴盒，这…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "水果界的维 C 天花板！维 C 含量是橙子的 78 倍！可惜很多人不知道",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B0%B4%E6%9E%9C%E7%95%8C%E7%9A%84%E7%BB%B4+C+%E5%A4%A9%E8%8A%B1%E6%9D%BF%EF%BC%81%E7%BB%B4+C+%E5%90%AB%E9%87%8F%E6%98%AF%E6%A9%99%E5%AD%90%E7%9A%84+78+%E5%80%8D%EF%BC%81%E5%8F%AF%E6%83%9C%E5%BE%88%E5%A4%9A%E4%BA%BA%E4%B8%8D%E7%9F%A5%E9%81%93",
+      "published": "Sun, 23 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SOD",
+        "ID",
+        "mg",
+        "Science_China",
+        "VC"
+      ],
+      "summary": "你听说过一种比橙子维生素 C 含量还要高出几十倍的神奇水果吗？它外形小巧，果肉酸甜，却蕴藏着惊人的营养，这就是刺梨，一种云贵高原特有的野生水果，被誉为“维 C 之王”。 或许很多人都没有听说过刺梨，但它却有着不容小觑的营养价值。那么，这种低调的水果究竟有什么特别之处？本篇文章让我们一起来了解下吧。 图源：图虫创意 作为小众水果 刺梨维 C 含量是橙子的 78 倍 刺梨，是生长在我国西南地区的水果，尤其以贵州刺梨最为出名。即便是在相对贫瘠的土地上，刺梨也能茁壮成长，贡献给人们优质的果实。 刺梨形如其名，果实成熟后色泽…",
+      "key_points": [
+        "常见水果中以鲜枣、橙子、猕猴桃等的维生素 C 含量为尊，但和刺梨比起来，它们可都只能算是小弟，妥妥被降维打击。咱们用数据说话： 数据来自《中国食物营养成分表》（…",
+        "图源：图虫创意 作为小众水果 刺梨维 C 含量是橙子的 78 倍 刺梨，是生长在我国西南地区的水果，尤其以贵州刺梨最为出名。即便是在相对贫瘠的土地上，刺梨也能茁…",
+        "能对维生素 C 起到保护作用，晒干、冻干、低温烘干、制作原浆或做成果粉并不会对刺梨的维生素 C 含量造成太大影响。如果觉得有些酸涩，还可以依据个人口味加入一些水…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "夏天这个很多人都在用的“续命水”，可能正在毁掉你的脸",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%8F%E5%A4%A9%E8%BF%99%E4%B8%AA%E5%BE%88%E5%A4%9A%E4%BA%BA%E9%83%BD%E5%9C%A8%E7%94%A8%E7%9A%84%E2%80%9C%E7%BB%AD%E5%91%BD%E6%B0%B4%E2%80%9D%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%AD%A3%E5%9C%A8%E6%AF%81%E6%8E%89%E4%BD%A0%E7%9A%84%E8%84%B8",
+      "published": "Sun, 23 Aug 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TEWL",
+        "End",
+        "kuku",
+        "max",
+        "ml",
+        "mm"
+      ],
+      "summary": "有多少人的桌上正放着一瓶 补水喷雾 ？ 没事就拿起来滋滋滋喷几下，每次喷完的当下确实很舒服， 凉凉的、润润的，脸不紧了、皮肤也软了。 但过不了多久，该干还是干，甚至比没喷之前还要干...... 这是咋回事？ 🤷‍♀️ 先说一个很多人不知道的事： 你以为在给脸补水 其实可能在加速水分流失 我们的皮肤有一套自我锁水系统，角质层就是那道“大门”。大门关得紧，水分跑不掉，皮肤就水润；大门留了缝，水分哗哗往外跑，皮肤就干燥。 经皮水分流失（TEWL） ，就是衡量水分跑掉速度的指标 。 TEWL越高，说明你的皮肤屏障越弱，水分…",
+      "key_points": [
+        "🤷‍♀️ 先说一个很多人不知道的事： 你以为在给脸补水 其实可能在加速水分流失 我们的皮肤有一套自我锁水系统，角质层就是那道“大门”。大门关得紧，水分跑不掉，皮…",
+        "周家礽老先生带领 400岁研发团队 做的口碑 抗干裂配方，因为实在太好用！很多人留言说—— “周老爷子能不能再出一瓶喷脸的？干皮真的一年四季都渴，随时随地都想补…",
+        "不熏眼 ，用手轻轻按压几下，就被kuku吃进皮肤里了。紧绷的皮肤好像被解放一样，瞬间舒展开了， 摸起来也是水润Q弹的~ 而且这瓶喷雾的用法非常多！还可以根据你的…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么有的人脸上没什么皱纹，但你一看就觉得她老了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E7%9A%84%E4%BA%BA%E8%84%B8%E4%B8%8A%E6%B2%A1%E4%BB%80%E4%B9%88%E7%9A%B1%E7%BA%B9%EF%BC%8C%E4%BD%86%E4%BD%A0%E4%B8%80%E7%9C%8B%E5%B0%B1%E8%A7%89%E5%BE%97%E5%A5%B9%E8%80%81%E4%BA%86%EF%BC%9F",
+      "published": "Sun, 23 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "nm",
+        "LED",
+        "ml",
+        "of",
+        "Aesthetic",
+        "Alghoul"
+      ],
+      "summary": "人到中年发腮脸垮 想抗皱提拉、拥有紧致下颌线？ 那一定要锁定直播哦~ 村上春树曾说，人是一瞬间变老的。以前我不信， 直到照镜子发现自己“发腮脸垮”了。 😭 ① 脸从 V变成了U ， 明明体重没变，脸愣是比年轻时候宽了一圈； ② 下颌线模糊 ，侧脸看过去，下巴和脖子快连上了； ③ 苹果肌 往下掉 ，法令纹跟着加深，怎么看怎么老...... 图源：图虫创意 这三件事，随便拎一件都够让人崩溃的，偏偏它们爱同时出现！因为这本质上 是同一个原因—— 一是胶原流失 皮肤里的胶原蛋白，从20岁开始就以每年1%的速度递减 [1]…",
+      "key_points": [
+        "实际使用效果因人而异 @Cathy，34岁，苹果肌塌+法令纹深 做梦都想去除法令纹 明明脸上皱纹不多，但面中是“塌”的 ，法令纹越来越深，脸上总是写着：我很累很…",
+        "报告编号SHA01-26031165-JC-01，实际效果因人而异 这里也给大家整理了一张对比图，可以放大查看👇 来看具体的功效报告，从 促生胶原、提升下颌线、…",
+        "随便拎一件都够让人崩溃的，偏偏它们爱同时出现！因为这本质上 是同一个原因—— 一是胶原流失 皮肤里的胶原蛋白，从20岁开始就以每年1%的速度递减 [1] 。胶原…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "又看了一遍，想给它年度十佳",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%88%E7%9C%8B%E4%BA%86%E4%B8%80%E9%81%8D%EF%BC%8C%E6%83%B3%E7%BB%99%E5%AE%83%E5%B9%B4%E5%BA%A6%E5%8D%81%E4%BD%B3",
+      "published": "Sun, 23 Aug 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Axios",
+        "Eventbrite",
+        "hongmomgs",
+        "incel",
+        "IP",
+        "irisfilm"
+      ],
+      "summary": "文 zozo 《痴迷》绝对是今年最大的电影文化事件之一，影响力不亚于《奥德赛》。 《痴迷》 它和当下美国青少年生活的关系，密不可分。就从这点来说，这部电影就该留名影史了。 关于影片的讨论，有两条路线共鸣最大。一条把它归入 incel 恐怖片，认为贝尔代表了一种有毒的男性占有欲。另一条侧重女性的同意权，认为许愿柳的魔法从根本上取消了妮基的身体自主，构成了一种超自然形式的性暴力。 这两条路线当然都很有道理，但我觉得还是忽视了一个东西，如果《痴迷》只是关于一个孤独怪人对女性的强迫，导演为什么要用大量时间去建构一个完整的青…",
+      "key_points": [
+        "莎拉的存在证明了贝尔的情感困境至少有一部分是他自己制造的，他的世界之所以窄到只剩下妮基，很大程度上是因为他主动建立了一个极端的情感价值等级。在这个等级里，妮基的…",
+        "伊恩从另一个方向暴露了朋友圈的脆弱。他一边鼓励贝尔去追妮基，一边自己和妮基保持了两年断断续续的性关系。莎拉知道这件事，替他们保密。这些信息在影片推进过程中逐渐浮…",
+        "有两条路线共鸣最大。一条把它归入 incel 恐怖片，认为贝尔代表了一种有毒的男性占有欲。另一条侧重女性的同意权，认为许愿柳的魔法从根本上取消了妮基的身体自主，…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "库布里克说，拍电影就像是坐过山车",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%BA%93%E5%B8%83%E9%87%8C%E5%85%8B%E8%AF%B4%EF%BC%8C%E6%8B%8D%E7%94%B5%E5%BD%B1%E5%B0%B1%E5%83%8F%E6%98%AF%E5%9D%90%E8%BF%87%E5%B1%B1%E8%BD%A6",
+      "published": "Sun, 23 Aug 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Criterion",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "编者按： 在标准收藏公司2020年发行《爱情是狗娘》的影碟时，该片的编剧兼导演亚历杭德罗·冈萨雷斯·伊纳里图跟我们分享了一个了解其创作过程的重要窗口，向我们展示了他在为其结构复杂、颇有冲击力的出道之作描摹场景时使用的几十张「便笺卡」。众所周知，这不仅是他在拍摄《爱情是狗娘》时采用的方法，而且沿用到了他此后的所有作品中——包括他最新的史诗片《诗人》。在下文中，伊纳里图自述了使用这些卡片的方法和目的。 作者：亚历杭德罗·冈萨雷斯·伊纳里图 译者：易二三 校对：覃天 来源：Criterion（2022年12月1日） 路德…",
+      "key_points": [
+        "拍电影就像在坐过山车时写诗。当一个人在拍电影时，感觉就像坐过山车一样——很难具备写作或准备电影时那样的专注和精神空间。那么，写在这些便笺卡上的想法，往往会在必要…",
+        "拍电影就是编写和画出一个故事的视觉架构或是自我表达。但它也意味着更多的东西：知道如何铺砖、放置钢筋并且将你的手伸进泥浆里搅拌，这是一项艰巨的任务。还有最敏感和微…",
+        "我有幸在缅因州罗克波特的一个讲习班上跟从朱迪思·韦斯顿学习，她是一位北美的表演老师，来自一个更务实的体系，并帮助我以更具体的方式理解和应用我在路德维克那里获得的…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "处暑说吃",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A4%84%E6%9A%91%E8%AF%B4%E5%90%83",
+      "published": "Sun, 23 Aug 2026 12:22:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "今天是农历七月十一，处暑。处暑的意思是到了这个时节暑气就开始消退，天气渐渐转凉。今年明显不是这样，命名处暑节气的时候并没有厄尔尼诺这个概念，反正是秋老虎的屁股摸不得。 和所有的节气一样，作为中国人我们应该主要讨论一下吃什么。 处暑应该吃龙眼，除了味道甜之外，据说是可以消暑补血。某些地方会用龙眼来配稀饭，我听说之后以为补血的那个「血」，指的是血糖。我喜欢龙眼多过荔枝，荔枝多少会带着一点点酸味，龙眼没有这回事，除了甜就只有甜。事实上，龙眼要比荔枝更甜，吃起来感觉更为淳朴，没有丝毫妖娆。除了太甜，唯一的缺点就是核太大。荔…",
+      "key_points": [
+        "北京现在的龙眼大部分都来自泰国，少部分国产。说到葡萄就不一样了，葡萄一年四季都有，到处都产，算是最常见的水果。不过到了处暑这会儿，应该是密集上市的时节。因为是应…",
+        "题图标题： 《处暑 》 创作者： 和菜头的小肉手 AI算法提供： Midjourney V 8.2 槽边往事 和菜头 出品 【微信号】 Bitsea 个人转载内…",
+        "处暑。处暑的意思是到了这个时节暑气就开始消退，天气渐渐转凉。今年明显不是这样，命名处暑节气的时候并没有厄尔尼诺这个概念，反正是秋老虎的屁股摸不得"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，离离暑云散，袅袅凉风起！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E7%A6%BB%E7%A6%BB%E6%9A%91%E4%BA%91%E6%95%A3%EF%BC%8C%E8%A2%85%E8%A2%85%E5%87%89%E9%A3%8E%E8%B5%B7%EF%BC%81",
+      "published": "Sun, 23 Aug 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [],
+      "summary": "今天10时19分，处暑到 在《月令七十二候集解》中 “处”是躲藏，终止的意思 而它的意义就是提醒我们 炎热的暑天要过去，秋天就要来 仅此古人才会说： “处，去也， 暑气至此而止 矣” 阿尔山杜鹃湖秋 处暑是秋天第二个节气 这个时节正是“秋老虎”肆虐之际 “处暑处暑，热死老鼠” 这句谚语就是我小时候对处暑最大的认识 二十四节气与七十二候 图源：中国国家地理 2013年12期 如同“秋波”不是秋天的菠菜一样 “秋老虎”也不是秋天的老虎 目前“秋老虎”没有气象意义上的国家标准 “秋老虎” 主要是在进入处暑节气后 并且多发…",
+      "key_points": [
+        "处暑到 在《月令七十二候集解》中 “处”是躲藏，终止的意思 而它的意义就是提醒我们 炎热的暑天要过去，秋天就要来 仅此古人才会说： “处，去也， 暑气至此而止…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他们追踪2万多中学生发现，AI会让考试成绩大幅下滑",
+      "title_zh": "跟踪 2 万多名中学生的研究：生成式 AI 可能损害考试表现",
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E4%BB%AC%E8%BF%BD%E8%B8%AA2%E4%B8%87%E5%A4%9A%E4%B8%AD%E5%AD%A6%E7%94%9F%E5%8F%91%E7%8E%B0%EF%BC%8CAI%E4%BC%9A%E8%AE%A9%E8%80%83%E8%AF%95%E6%88%90%E7%BB%A9%E5%A4%A7%E5%B9%85%E4%B8%8B%E6%BB%91",
+      "published": "Sun, 23 Aug 2026 07:57:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": "lead",
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "David",
+        "abstract",
+        "Chinese",
+        "dx.doi.org",
+        "Education"
+      ],
+      "summary": "香港大学吴延晖团队与斯德哥尔摩大学 David Strömberg 团队，利用 2022 年 9 月至 2025 年 6 月的数据和双重差分方法，估计中学生使用生成式 AI 后本应取得的成绩变化。文章指出，AI 省下的答题时间可能以减少认知训练为代价，且成绩较好的学生受到的影响更明显；适合关注教育政策、学习科学与 AI 使用边界的读者。",
+      "key_points": [
+        "香港大学经管学院吴延晖教授团队与斯德哥尔摩大学 David Str ö mberg 教授 团队，近期在研究《生成式人工智能学习惩罚：中国中学的证据》中提出了 “…",
+        "吴延晖： 看起来好学生受到的影响更明显，是因为考试真正拉开差距的，往往不是基础题，而是少数几道难题。基础比较差的学生，也都会做简单题，真正决定成绩差距的是需要深…",
+        "2022 年 9 月至 2025 年 6 月期间，他们利用双重差分模型估计学生未使用 AI 情况下本应取得的成绩，并与真实观测结果比对。研究结论是，使用 AI…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "中国人平均每年只吃100克巧克力 | 经济学人中国",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B9%B3%E5%9D%87%E6%AF%8F%E5%B9%B4%E5%8F%AA%E5%90%83100%E5%85%8B%E5%B7%A7%E5%85%8B%E5%8A%9B+++++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E4%B8%AD%E5%9B%BD",
+      "published": "Sun, 23 Aug 2026 22:42:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "chocolate",
+        "in",
+        "Chinese",
+        "hit",
+        "spot"
+      ],
+      "summary": "本文选自经济学人中国板块 Aug 2oth 2026 https://www.economist.com/china/2026/08/20/will-china-ever-learn-to-love-chocolate 中国的咖啡品牌很多，肯德基门店数量也居全球之首。可轮到巧克力，数字突然冷了下来。中国人平均每年只吃100克巧克力，大约就是一块普通板状巧克力。法国人的消费量是这个数字的100倍。当我看到100克时愣了一下：很多人一年吃掉的巧克力，还没有一顿火锅蘸料重。但《经济学人》发现，这门一直没能打动中国消费者的…",
+      "key_points": [
+        "本文选自经济学人中国板块 Aug 2oth 2026 https://www.economist.com/china/2026/08/20/will-china…",
+        "参考翻译 中国拥有的咖啡店品牌和肯德基门店数量都超过世界上任何其他国家。然而，巧克力始终没能讨得中国消费者的欢心。中国人平均每年只吃100克巧克力，仅为法国人的…",
+        "几个表达很好用 hit the spot 字面看是“击中那个点”，实际常用来形容食物、饮料或某种体验正合需要。这里带了一点反写：巧克力始终没能击中中国人的味蕾，…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第279期 - 风之谷泉",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/279/",
+      "published": "Mon, 24 Aug 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "https",
+        "Pake",
+        "kaku",
+        "Linux",
+        "Omarchy"
+      ],
+      "summary": "封面图拍摄于周末去临安风之谷带娃玩水，这地方很空旷，不过周末小孩和大人都很多，娃倒是挺喜欢。远处看，水难得有蓝绿色的感觉，照片拍的是外面的一个大湖。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 Cumora：这个很不错的 Agent 团队协作工具居然开源了 https://github.com/yetone/cumora 来自 yetone，又是一个「没有想到」系列，居然开源了。在目前的开源方案里，这应该是我看过做得很不错的 Agent 团队协作工具，客户端本身…",
+      "key_points": [
+        "后面 3 个产品被我不经意间做成了一个系列，那就是 Kaku、Waza、Kami。应该说，没有 Kaku 的取名，就没有后面这两个产品的名字。Kaku 是我去年…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-24",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "大氧化事件是否开启了地球历史上的一段黑暗时代?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792052",
+      "published": "Thu, 20 Aug 2026 23:00:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Event",
+        "glaciation",
+        "Great",
+        "Huronian",
+        "Oxygenation"
+      ],
+      "summary": "笨笨， 公众号：魅力科学君 查看知乎原文 是的。 大氧化事件（Great Oxygenation Event）发生在大约 24 亿年前，从名称就可以看出，这是一次地球上氧气浓度大幅提升的事件。 对于现在的我们来讲，这似乎不算什么，但对于当时地球上的生命而言，这其实是一场非常可怕的灾难，它开启的黑暗时代，差点把地球上的生命全部送走。下面我们就来看看这具体是怎么回事。 时间回到地球的太古宙时期，那时地球大气里主要是二氧化碳、甲烷和一些氮气，几乎不存在氧气。 在那个时候，地球海洋里就已经存在着大量古老的微生物，它们主要分…",
+      "key_points": [
+        "这似乎不算什么，但对于当时地球上的生命而言，这其实是一场非常可怕的灾难，它开启的黑暗时代，差点把地球上的生命全部送走。下面我们就来看看这具体是怎么回事",
+        "大氧化事件（Great Oxygenation Event）发生在大约 24 亿年前，从名称就可以看出，这是一次地球上氧气浓度大幅提升的事件",
+        "这场灾难并没有立刻席卷全球，这是因为地球有着极其强大的缓冲能力，当时原始海洋里溶解了海量的亚铁离子，这些铁离子成了地球的第一道防线，每当蓝细菌排出一点氧气，这些…"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "雨中",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%9B%A8%E4%B8%AD",
+      "published": "Thu, 20 Aug 2026 19:18:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今天午后北京骤降大雨，道路两侧低洼处很快积水。我开车出门，雨势太大，不敢开快，雨刮打到最大一档，慢慢趟水往前开。在我前面是一辆大巴车，不是公交，就是那种很宽很高很长的客车。它一点减速的意思都没有，我看着它快速开过去，轮胎溅起接近一人高的水瀑。在大巴车的右手边，我看到一个穿着雨衣骑电驴的人。从体态和雨衣色彩来看，应该是位妇人。水瀑就那么直接拍在她身上，就像是一道巨浪从左侧袭击了她，水花四溅，又顺着雨衣快速洒落一地水花。看到这一幕我非常难过。在那么大的雨天，还一定要骑着电驴赶路的人，多半是为了生计而奔波。水瀑那么劈头盖…",
+      "key_points": [
+        "道路两侧低洼处很快积水。我开车出门，雨势太大，不敢开快，雨刮打到最大一档，慢慢趟水往前开。在我前面是一辆大巴车，不是公交，就是那种很宽很高很长的客车。它一点减速…"
+      ]
+    }
+  ]
+}
