@@ -1,0 +1,761 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T01:00:11.149704+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 90,
+    "fresh_candidates": 68,
+    "backfill_candidates": 22,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-25",
+      "fetched_at": "2026-08-25T01:00:05.826412+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3882.01,
+          "change": -23.19,
+          "change_pct": -0.59,
+          "volume": 486931412.0,
+          "amount": 95203926.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4685.08,
+          "change": 33.48999999999978,
+          "change_pct": 0.72,
+          "prev_close": 4651.59,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-25 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 1012.4357937852653,
+          "change": 7.2371175591171095,
+          "change_pct": 0.7199688708592085,
+          "prev_close": 1005.1986762261482,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-25 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-25",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "达利欧警告债务危机临近的当下，普通人该如何应对？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BE%BE%E5%88%A9%E6%AC%A7%E8%AD%A6%E5%91%8A%E5%80%BA%E5%8A%A1%E5%8D%B1%E6%9C%BA%E4%B8%B4%E8%BF%91%E7%9A%84%E5%BD%93%E4%B8%8B%EF%BC%8C%E6%99%AE%E9%80%9A%E4%BA%BA%E8%AF%A5%E5%A6%82%E4%BD%95%E5%BA%94%E5%AF%B9%EF%BC%9F",
+      "published": "Mon, 24 Aug 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END-",
+        "ZF"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：投投释道 来源：雪球 1971年8月15日 ， 尼克松宣布美元与黄金脱钩 ， 美国财长康纳利对欧洲盟友说 ： \"美元是我们的货币 ， 但却是你们的问题 。 \"五十五年后 ， 这句话正在反转 。 8月21日 ， 桥水基金创始人达利欧发表文章 《 国家如何走向破产 》 ， 再次拉响美债警报 。 这不是他第一次警告 ， 但这一次 ， 全世界都在认真聆听 。 达利欧的逻辑并不复杂 。 他把信贷体系比作人体血液循环 ： 债务用得好 ，…",
+      "key_points": [
+        "至于日本215%债务率为何\"没出事\" ， 达利欧给出的数据让人醍醐灌顶 ： 2013年以来持有日债相对美元债券亏损51% ， 相对黄金亏损76% ， 日本工人工…",
+        "这不是短期投机 ， 而是央行购金 、 美元信用松动 、 地缘碎片化三重逻辑叠加的中长期趋势 ， 回调即是配置窗口 ； 第二 ， 科技成长仍是确定性最强的方向 ，…",
+        "同样的债务危机爆发前也会有个各种异常 ， 比如突然的利率上升 ， 偿债占比持续攀升 、 海外买盘退潮 、 央行被迫加速购债等"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "不聊 AI，我们还能聊什么？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1986498621/406306659",
+      "published": "Mon, 24 Aug 2026 10:28:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "LABUBU",
+        "Costco",
+        "GMV",
+        "IP",
+        "http"
+      ],
+      "summary": "最近，一个关注躺平指数很多年的朋友来找我。他说：“你们这个公众号，现在已经变成一个AI号了。” 他的意思倒不是说，做一个AI号有什么不好。只是以前在这里还能看到的很多东西，现在慢慢看不到了。 这个号从一开始，就和其他的自媒体不太一样。很多文章，首先要服务于自己的投研，之后才会考虑什么话题有流量。 这意味着，一家公司如果没有明显的预期差，资本市场给它的估值也相对合理，我很难判断它究竟被高估还是低估，也就很难落笔。还有一些公司，热度很高，却没有上市，也没有公开可看的财务资料，比如追觅，像这样的公司，更不会勾起我写的欲望…",
+      "key_points": [
+        "央行购金、储备多元化、美元周期和地缘风险都还在。我对黄金和黄金矿业股的长期方向依然偏正面，也愿意继续持有。可在这个过程里，坚定看多黄金只是其中一小部分，剩下的，…",
+        "我也给不出什么有意义的解决方案。让它们别卷、别扩产、把产品卖贵一点，谁都会说；甚至还能看到有人劝企业别当“卖国贼”，别把设备卖给美国、卖给印度，更是站着说话不腰…",
+        "一个关注躺平指数很多年的朋友来找我。他说：“你们这个公众号，现在已经变成一个AI号了。” 他的意思倒不是说，做一个AI号有什么不好。只是以前在这里还能看到的很多…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "泰聚周思考 | 硅基开始和碳基抢\"债务\"",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4047351923/406256730",
+      "published": "Mon, 24 Aug 2026 10:28:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GPU",
+        "CoreWeave",
+        "Token",
+        "Meta",
+        "Alphabet"
+      ],
+      "summary": "这半年，市场花了大量精力争论AI是不是泡沫、算力订单会不会见顶、开源模型会不会杀死闭源模型。我觉得这些讨论都没有抓住2026年真正的主线。 真正的变化发生在一个更枯燥、也更根本的地方：AI开始借钱了。 从3月31日到8月17日，美国10年期国债收益率从4.30%升至4.72%，上行42个基点；同期10年期实际利率从2.00%升至2.44%，上行44个基点；而10年期盈亏平衡通胀率反而从2.30%降到2.28%。把这三个数字放在一起看，结论只有一个：名义利率的全部上行几乎都来自实际利率，跟通胀预期没关系。这意味着，即…",
+      "key_points": [
+        "回到最开始那个问题：硅基开始和碳基抢债务，这件事本身既不是利好也不是利空，它只是把AI从&#34;成长股叙事&#34;重新装回了&#34;资本周期&#34;的框…",
+        "美国10年期国债收益率从4.30%升至4.72%，上行42个基点；同期10年期实际利率从2.00%升至2.44%，上行44个基点；而10年期盈亏平衡通胀率反而从…",
+        "也是我认为被普遍忽略的一层：涨价是&#34;硅基抢债务&#34;的加速器"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "物业行业：最差时刻或已过去",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7317491453/406278708",
+      "published": "Mon, 24 Aug 2026 10:27:57 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "H1",
+        "PB",
+        "pct",
+        "CRIC",
+        "http"
+      ],
+      "summary": "最近跟踪的几个物业公司陆续出了半年报，客观说比自己预期的要好一些，基于此我们对物业行业做个简单梳理和判断。 一、这是一个&#34;慢下来&#34;的万亿市场 物业管理是一个典型的 存量长尾市场 。先看三组数字，理解行业的体量与节奏： 2025年底，其实其实已经没那么差了，三个结构性判断： 1）行业从&#34;增量驱动&#34;切换到&#34;存量运营&#34;。 2025 年新建商品房销售面积 8.81 亿㎡，这意味着新增管理面积的&#34;源头活水&#34;在收窄，但存量 327 亿㎡ 的盘子还在以每年超 8 亿…",
+      "key_points": [
+        "这是本轮主题最重要的一个数据点： 百强企业净利润均值 2025 年实现 +4.03%，是 2022 年以来的首次正增长 。此前三年行业利润持续负增长，物业股也因…",
+        "八、简短总结 &#34;最差时刻或已过去&#34;成立，但要分两端看 利润端（百强净利 2022 年以来首次转正）已企稳；收入端仍温吞。真正的拐点信号是 收缴率…",
+        "三、2026 中报：业绩企稳的微观验证 头部物企的半年报，已经能看出&#34;最差时刻过去&#34;的迹象"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对阿里800亿港元配售的解读与思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/406260165",
+      "published": "Mon, 24 Aug 2026 10:27:51 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ADS",
+        "ARR",
+        "Category",
+        "T+2",
+        "All"
+      ],
+      "summary": "昨天一大消息，阿里巴巴拟配售800亿港元新股，配售所得款项净额将全部用于投资全栈AI能力，加强AI基础设施建设。 这是阿里自2019年港股上市七年来首次新股配售，也创下今年全球第三大、港股有史以来最大规模的后续发行纪录。对此市场反应不一，简单谈谈看法。 一、配售概况 本次配售的条款与交易架构，反映了阿里在融资效率与市场承接之间的权衡： 定价与折让幅度： 本次配售价格定为112.70港元/股（对应每份ADS为115美元），较周五港股收盘价123港元折让约8.37%，较美股ADS收盘价折让约3.64% 权益摊薄比例 ：…",
+      "key_points": [
+        "一、配售概况 本次配售的条款与交易架构，反映了阿里在融资效率与市场承接之间的权衡： 定价与折让幅度： 本次配售价格定为112.70港元/股（对应每份ADS为11…",
+        "阿里巴巴拟配售800亿港元新股，配售所得款项净额将全部用于投资全栈AI能力，加强AI基础设施建设",
+        "阿里采取了最直接的Reg S（Category 2）架构纯新股闪电配售。虽然公司承诺90天内不再增发，但参与配售的机构并没有锁定期。这意味着3.8%的股权稀释和…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "Space X 的发射台下为啥不能做成深井来吸收烈焰回收散热水？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792139",
+      "published": "Mon, 24 Aug 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "EMBA",
+        "Space"
+      ],
+      "summary": "太空僧， 2022年新知答主｜航天及天文优秀答主 查看知乎原文 “小王啊，关于 深井 这个问题，我们要高度重视，把它当作一个非常重要的问题来对待，一定要抓紧推进，要在保证质量的前提下加快速度，不能因为追求速度而忽视质量。” 小王看了一眼领导，把头点得像小鸡啄米。 第一个月 按照领导的意思，小王挖了一口很深的竖直圆井，把火箭直接架在井口的上面。他又想，火箭的火焰冲下去，能量会被井壁和井底吸收，于是又去抓了个做给排水的，布了水管，把水从井底抽上来，又从井壁喷出来，利用水的蒸发来冷却，然后水再集中回井底，循环利用。 点火…",
+      "key_points": [
+        "因为水中会混入微量燃烧产物或地面污染物，所以还要进行过滤。符合水质标准的水会回填到系统里。虽然目前还做不到闭环的完全回收，但相对一次发射的总成本来说，水费占比很…",
+        "2022年新知答主｜航天及天文优秀答主 “小王啊，关于 深井 这个问题，我们要高度重视，把它当作一个非常重要的问题来对待，一定要抓紧推进，要在保证质量的前提下加…",
+        "导流器终于能扛住了，声学环境也达到可接受水平。发射台损伤显著下降。嗯，水的核心价值，不就是拿来抑制声波、保护火箭和发射台表面的嘛"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么说 CPU 是人造物的巅峰？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792142",
+      "published": "Mon, 24 Aug 2026 23:00:00 GMT",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPU",
+        "EUV",
+        "print",
+        "ASML",
+        "Dunkirk",
+        "EDA"
+      ],
+      "summary": "Dunkirk， 世界是由原子组成的 查看知乎原文 沙子的主要成分是二氧化硅。 把它提纯、熔化、再结晶，就可以得到一根硅柱。只不过这个提纯的要求有点高，1/1000000000，意思是每十亿个硅原子里，杂质不能超过一个。 这根硅柱随后被切成薄薄的圆片，直径约 30 厘米，厚度不到 1 毫米，叫做晶圆。它就是 CPU 的白纸，后续所有都发生在这张纸上。 最小的开关 要理解 CPU，就要先理解它的最基本单元，晶体管。 晶体管本质上是一个开关。通电，电流通过，代表 1；断电，电流截断，代表 0。仅此而已。计算机所有的计算…",
+      "key_points": [
+        "一个程序员写下一行代码： print(\"hello world\") 他完全理解这行代码的意思，让屏幕上打印出一段文字。但他不一定知道，也不需要知道这行代码在被执…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6453768.html",
+      "published": "Mon, 24 Aug 2026 11:06:22 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "skill",
+        "AI",
+        "Excel",
+        "alchaincyf",
+        "Amazon"
+      ],
+      "summary": "我已经3年多没工作过了，按理说呢，我其实没那么多数据分析需求了，那我为啥要做这么个skill？ 在我从某团离开前，有段记忆我印象很深。当时我们业务在特殊的冲刺时期，每天上班前都要开线上早会，大概9点左右。而我作为某个业务方向新用户运营的负责人，需要每天提前2小时从后台取前一天的运营数据，做完分析，然后在早会上同步运营进展，解释昨天数据为什么波动，再据此调整当天的运营策略。 说实话，那么短周期的数据，归因其实挺无聊的，但没办法，必须做。这些数据的变化可能跟天气有关，跟我们自己的运营动作有关，跟竞争对手的策略有关，跟周…",
+      "key_points": [
+        "虽然我自己现在基本没这类问题了，但我估计还有大把职场人每天在被数据折磨着。于是我把我对现在agent能力的理解，加上我以前做运营时攒下的数据处理和分析经验，做成…",
+        "一部分灵感来自Anthropic的AI心理学研究。skill的第一句话是「如果世界上最好的数据分析能力可以被装进一个文件，那就是你」，然后要求它依次成为领域专家…",
+        "这个skill本质上是 一套体系化的策略，用来激发现在大模型的能力，同时避开大模型在数据处理上的缺陷 。最大的那个缺陷就是前面说的：AI算错的时候不会报错。你写…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "在 vibe coding 里，唯一真正重要的，是管理好文档",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6453588.html",
+      "published": "Mon, 24 Aug 2026 10:50:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "coding",
+        "vibe",
+        "DOM",
+        "prompt",
+        "Service"
+      ],
+      "summary": "Vibe coding 时代，代码不再是项目的唯一核心，文档管理才是决定成败的关键。本文深入剖析为何文档比代码更重要，并给出五类关键文档的维护策略，帮助你在 AI 协作中避免上下文失真，提升开发效率与系统稳定性。 这两年，越来越多人开始讨论 vibe coding 。 有人把它理解成一种更轻松的开发方式：先把想法说出来，让 AI 帮忙生成代码；有人把它理解成一种新的协作方式：人负责方向、判断和取舍，模型负责实现、试错和补全；也有人干脆把它理解成一句大白话： 先别纠结，先把东西做出来。 这些理解都没错。 但如果真的在…",
+      "key_points": [
+        "真正决定产出质量、迭代速度和系统上限的，往往不是模型有多聪明，而是文档有没有被管理好。甚至可以更直接一点说： vibe coding 里，唯一真正重要的事情，就…",
+        "代码不再是项目的唯一核心，文档管理才是决定成败的关键。本文深入剖析为何文档比代码更重要，并给出五类关键文档的维护策略，帮助你在 AI 协作中避免上下文失真，提升…",
+        "真正重要的不是“现在怎么做”，而是“为什么当时没那样做”"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GitHub上一个\"技能包\"月增5万星：Agent Skills正在抢走程序员的饭碗",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6453589.html",
+      "published": "Mon, 24 Aug 2026 10:46:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Skills",
+        "SKILL.md",
+        "Agent",
+        "Claude",
+        "Code",
+        "GitHub"
+      ],
+      "summary": "GitHub 日榜上，Skills 类项目正以惊人速度抢占原本属于大模型新版本的位置。SKILL.md 文件让 Agent 即插即用，一次编写处处复用，成为团队资产。本文拆解 Skills 爆火背后的经济学，揭示三大踩坑点，并给出消费者、创作者、团队负责人的上手路径。 上周刷到 GitHub 日榜的时候很震惊，感觉AI的发展太疯狂了。因为三件事同时挤进了同一个榜单的顶部，而它们不是一个东西，是一类东西。 obra/superpowers，GitHub 总星 27.49 万，单日新增 749。 JuliusBruss…",
+      "key_points": [
+        "mattpocock 是 JavaScript/TypeScript 圈熟脸，著名前端工程师。他那个 5 万星项目，本质是他把自己十几年生产环境踩过的坑，打包成…",
+        "Anthropic 官方 skills 仓库（约 17 万星，2025 年 9 月创建）和 Addy Osmani 的 agent-skills 同日登榜。8…",
+        "i-have-adhd 这个项目能拿 1.5 万星，反向证明了大家被 Agent 的啰嗦输出折磨得有多惨。”ADHD 友好输出”本质就是个技能——告诉 Agen…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "产品已经稳定，客户差异到底怎么接：项目交付中的标准与差异边界",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6453567.html",
+      "published": "Mon, 24 Aug 2026 09:58:37 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ERP",
+        "postmeta.bookmark",
+        "postmeta.postlike"
+      ],
+      "summary": "当产品方向稳定后，客户差异不会消失，反而成为产品演进的关键考验。本文提出一套判断链：先明确产品真正要守的标准，再识别客户差异触及的层级，最后决定差异应如何承接。结合能源管理与设备维修场景，帮助产品经理在标准化与定制化之间找到平衡。 上一篇讨论项目交付中的产品演进时，核心问题是：产品已经形成以后，项目仍然会带回来新的需求和新的业务证据，产品不能拒绝真实修正，也不能让每一个项目重新定义产品。再往后走一步，问题会变得更具体——当产品方向已经相对稳定、目标客户没有发生根本变化、很多能力也经过多个项目验证以后，后续项目到底应…",
+      "key_points": [
+        "核心问题是：产品已经形成以后，项目仍然会带回来新的需求和新的业务证据，产品不能拒绝真实修正，也不能让每一个项目重新定义产品。再往后走一步，问题会变得更具体——当…",
+        "回头看这篇文章的方法并不复杂：先从产品解决的问题和业务结果里找真正的标准；再把客户的功能要求还原成差异发生的层级；接着通过产品范围、目标客户长期差异、稳定变化维…",
+        "前面的判断看起来比直接讨论功能更慢，却决定了产品几年以后会变成什么样。产品成熟以后， 真正要积累的并不是一套“所有客户都一样”的固定答案，而是越来越清楚的标准与…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI智能体在企业怎么落地？关键看这5个核心工作流",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6452463.html",
+      "published": "Mon, 24 Aug 2026 09:58:02 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PPT",
+        "ToB",
+        "Agent",
+        "Anson",
+        "CC0"
+      ],
+      "summary": "企业为AI智能体付费，并非因其聪明，而是因其能嵌入工作流。本文聚焦内容、销售、客服、知识库四大场景，解析智能体如何串联流程、提升效率，为企业带来实际价值。 过去一年，很多人都在讲智能体。 有的人讲Agent，有的人讲多智能体协作，有的人讲自动执行任务，也有人讲AI员工。 但如果你真的和企业客户聊过，就会发现一个很现实的问题： 企业并不会因为一个AI“看起来很聪明”就买单。 它们真正关心的是： 这个东西能不能减少重复工作？ 能不能让销售更快跟进线索？ 能不能让客服少处理一部分重复问题？ 能不能让新人更快找到资料？ 能…",
+      "key_points": [
+        "并非因其聪明，而是因其能嵌入工作流。本文聚焦内容、销售、客服、知识库四大场景，解析智能体如何串联流程、提升效率，为企业带来实际价值",
+        "我们只讲一个更具体的问题： 哪些工作流，最容易让企业看到AI智能体的价值",
+        "智能体真正有价值的地方，不是“会聊天”，而是“能进入工作流”"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“不吃碳水就能瘦”“减肥不能吃油脂”？千万别信，后果比你想象的严重！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E4%B8%8D%E5%90%83%E7%A2%B3%E6%B0%B4%E5%B0%B1%E8%83%BD%E7%98%A6%E2%80%9D%E2%80%9C%E5%87%8F%E8%82%A5%E4%B8%8D%E8%83%BD%E5%90%83%E6%B2%B9%E8%84%82%E2%80%9D%EF%BC%9F%E5%8D%83%E4%B8%87%E5%88%AB%E4%BF%A1%EF%BC%8C%E5%90%8E%E6%9E%9C%E6%AF%94%E4%BD%A0%E6%83%B3%E8%B1%A1%E7%9A%84%E4%B8%A5%E9%87%8D%EF%BC%81",
+      "published": "Mon, 24 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GI",
+        "fufu",
+        "level",
+        "mg",
+        "QQ"
+      ],
+      "summary": "立秋一过，温度刚降下来一点，食欲就开始蹭蹭上涨。贴秋膘，是为了吃口好的，但不是真的想长肉啊！ 这不是为了让大家吃得香、还不胖人，我们全网搜罗了 百余款健康又美味的好物 ——从优质主食到解馋零食，从快手代餐到营养补给，还有优质蛋白、营养纤维…… 一站配齐，省心省力 。 人怎么能吃的又香、有不胖啊，来果壳直播间，帮你搬走（一部分）减肥路上的绊脚石！ 👇 马上预约 👇 健康快手不胖人 早秋美食专场 健康又好吃的即食谷物……有的！ 白水煮一下就好吃的优质蛋白……有的！ 来自新疆的乳制品，有的！ 爆款好物剧透 95%都是大块…",
+      "key_points": [
+        "外卖订单里 “少饭”“去饭” 的备注量蹭蹭往上涨，有人干脆把 “不吃碳水” 刻进了夏日生存法则......甚至互联网上还滋生出了 “碳水脸” 之类对碳水完全没有…",
+        "👆全谷物营养保留更完整 来源：《中国居民膳食指南（2022）》 说白了， 我们不仅要吃碳水，更要有选择地吃“好碳水”，也就是加工程度低、营养保留更完整的全谷物…",
+        "不用煮。撕开袋子就能吃， 微波炉加热一分钟，口感更软糯香甜"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "看到这种“巨型蒲公英”，别吹别摘！吹一口可能罚100元！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%8B%E5%88%B0%E8%BF%99%E7%A7%8D%E2%80%9C%E5%B7%A8%E5%9E%8B%E8%92%B2%E5%85%AC%E8%8B%B1%E2%80%9D%EF%BC%8C%E5%88%AB%E5%90%B9%E5%88%AB%E6%91%98%EF%BC%81%E5%90%B9%E4%B8%80%E5%8F%A3%E5%8F%AF%E8%83%BD%E7%BD%9A100%E5%85%83%EF%BC%81",
+      "published": "Mon, 24 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "Tragopogon",
+        "of",
+        "amp",
+        "J.",
+        "dubius"
+      ],
+      "summary": "今年初夏，在北京、山东和辽宁等北方省市出现了大量“巨型蒲公英”，这些蒲公英的“毛球”比拳头还大，许多人玩得不亦乐乎，甚至专程“拍照打卡”。 巨型蒲公英丨小红书 但很多公园管理部门发出提醒： 这种“巨型蒲公英”虽然颜值很高，但最好只看不动——别吹、别摘，更不要随意带回家 （根据《北京市公园条例》，采挖植物属于公园内禁止行为，违规可处50元以上100元以下罚款）。 北京某公园成片生长的“巨型蒲公英”丨参考文献[1] 很多人问：它们不就是“升级版”的蒲公英吗？吹散种子不是在帮它们繁殖吗？为什么不让吹？ 真假蒲公英 细看一…",
+      "key_points": [
+        "巨型蒲公英丨小红书 但很多公园管理部门发出提醒： 这种“巨型蒲公英”虽然颜值很高，但最好只看不动——别吹、别摘，更不要随意带回家 （根据《北京市公园条例》，采挖…",
+        "蒜叶婆罗门参艳丽的紫红色花朵丨live-native.com 和长喙婆罗门参一样，蒜叶婆罗门参也有如同巨型蒲公英的果序丨参考文献[7] 至于长喙婆罗门参，美国的…",
+        "https://doi.org/10.1080/23802359.2024.2329668 [3] 公园里突然出现可爱的巨型蒲公英？你可别乱吹"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "那些声称自己有“厌蠢症”的人，厌的到底是什么样的“蠢”？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%82%A3%E4%BA%9B%E5%A3%B0%E7%A7%B0%E8%87%AA%E5%B7%B1%E6%9C%89%E2%80%9C%E5%8E%8C%E8%A0%A2%E7%97%87%E2%80%9D%E7%9A%84%E4%BA%BA%EF%BC%8C%E5%8E%8C%E7%9A%84%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E2%80%9C%E8%A0%A2%E2%80%9D%EF%BC%9F",
+      "published": "Mon, 24 Aug 2026 20:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ta",
+        "L.",
+        "soogif",
+        "A.",
+        "actions",
+        "activity."
+      ],
+      "summary": "真要被这个愚蠢的世界气爆了！ 😠刚来的实习生不会用电脑，你手把手教ta怎么建表格、做数据，这才刚过三天，怎么又不会了？ 😠你踩着点到高铁站，队伍最前面那个人在闸机那儿捣鼓了五分钟，机器不断传来报错提醒，ta到底会不会刷身份证进站啊？ 😠辅导一年级孩子的数学作业，你不厌其烦地教ta设未知数、列方程， 为什么换来的永远是空洞无辜的眼神呢？ 你刷手机时学到一个新词： 厌蠢症 。网友们说，这是一种遇到蠢人蠢事就会暴怒的“病”。 图丨小红书 你释然了，原来那些人和事真的很蠢，而自己的暴怒因为“病”的缘故也完全合理。行，以后就…",
+      "key_points": [
+        "也是对自己的保护 知识的诅咒带来的突发“厌蠢”，能通过打破信息差化解。而无事发生便大声宣布自己有“厌蠢症”的人，则给人傲慢的感觉",
+        "原来那些人和事真的很蠢，而自己的暴怒因为“病”的缘故也完全合理。行，以后就说自己得了“厌蠢症”吧",
+        "还不是你一个人生闷气？丨soogif 近几年有个很火的概念叫做“ 课题分离 ”，简单来说就是“放下助人情节，尊重他人命运”，很适合容易“厌蠢”的人用来自我提醒。…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“卫星移动数据业务”全面上线；机器人打破人类跑步世界纪录；三台风同时活跃",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E5%8D%AB%E6%98%9F%E7%A7%BB%E5%8A%A8%E6%95%B0%E6%8D%AE%E4%B8%9A%E5%8A%A1%E2%80%9D%E5%85%A8%E9%9D%A2%E4%B8%8A%E7%BA%BF%EF%BC%9B%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%89%93%E7%A0%B4%E4%BA%BA%E7%B1%BB%E8%B7%91%E6%AD%A5%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%EF%BC%9B%E4%B8%89%E5%8F%B0%E9%A3%8E%E5%90%8C%E6%97%B6%E6%B4%BB%E8%B7%83",
+      "published": "Mon, 24 Aug 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "S301",
+        "App",
+        "Pasqal",
+        "bipolar",
+        "Nature"
+      ],
+      "summary": "今天是8月24日，星期一。1995年的今天，微软正式推出Windows 95系统，带来革命性的个人计算体验。该系统首创开始菜单与任务栏，并支持即插即用硬件。 重点新闻速览 1.中国卫通“卫星移动数据业务”全面上线 2.我国牵头提出固态电池领域全球首个国际标准成功立项 3.AI智能体能自主生成并运行量子计算代码 4. 荣耀机器人“闪电”1500米打破人类世界纪录 5.“紫檀” “ 简拉维 ”及“沙德尔”三台风同时活跃 科技 斯坦福模型开放训练全程直播 8月23日，斯坦福大学AI实验室教授Percy Liang宣布，M…",
+      "key_points": [
+        "采用MoE架构，训练计划在11台NVIDIA GB200 NVL72上进行，使用18.75万亿token进行预训练（80%）和中期训练（20%），预计耗时约3个…",
+        "重点新闻速览 1.中国卫通“卫星移动数据业务”全面上线 2.我国牵头提出固态电池领域全球首个国际标准成功立项 3.AI智能体能自主生成并运行量子计算代码 4",
+        "Pasqal团队让Anthropic公司的Claude等前沿大语言模型熟悉其中性原子量子计算机的技术规格，重点探索量子模拟应用，即调控量子计算机使其表现得类似于…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "没有人拿的金棕榈比他更多",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%B2%A1%E6%9C%89%E4%BA%BA%E6%8B%BF%E7%9A%84%E9%87%91%E6%A3%95%E6%A6%88%E6%AF%94%E4%BB%96%E6%9B%B4%E5%A4%9A",
+      "published": "Mon, 24 Aug 2026 19:35:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBC",
+        "Criterion",
+        "ESA",
+        "Facebook",
+        "Geordie",
+        "Girish"
+      ],
+      "summary": "作者：Girish Shambu 译者：覃天 校对：易二三 来源：Criterion （2018年1月16日） 长久以来，艺术电影很少成为人们辩论的中心话题。不过，当像大岛渚的《感官王国》（1976）或凯瑟琳·布雷亚的《姊妹情色》（2001）这样的电影出现时，它们招致的往往是责难，或是对影片由于犯罪与色情因素而被禁映的关注。但对于一部像《我是布莱克》这样描述日常生活的电影来说，引发激烈的公开讨论是不常见的，因此，当这部电影于2016年在英国上映时，这是一个惊喜。 《我是布莱克》 《我是布莱克》的早期支持者，是民主社…",
+      "key_points": [
+        "可以追溯到约翰·格里尔逊领导下的那个十年的纪录片运动，从诞生于40年代末的社会问题电影，一直延续到50年代中期由林赛·安德森、托尼·理查德森和卡雷尔·赖兹等导演…",
+        "数以百计的来自英国全国各地公民的证词开始涌现在媒体上，它们详细描述了一个残酷而支离破碎的制度，在日常现实中的恐怖。《卫报》在其网站上发表了一篇长文，收集了大量这…",
+        "《我是布莱克》 《我是布莱克》的早期支持者，是民主社会主义者杰里米·科尔宾，他是反对党工党的领袖，也是政府紧缩计划的最强烈反对者之一。紧缩计划寻求大幅削减公共服…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "AI拍电影的一个大痛点，快被解决了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+AI%E6%8B%8D%E7%94%B5%E5%BD%B1%E7%9A%84%E4%B8%80%E4%B8%AA%E5%A4%A7%E7%97%9B%E7%82%B9%EF%BC%8C%E5%BF%AB%E8%A2%AB%E8%A7%A3%E5%86%B3%E4%BA%86",
+      "published": "Mon, 24 Aug 2026 19:35:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Pretty",
+        "Sweet",
+        "updream",
+        "Blender",
+        "bug"
+      ],
+      "summary": "文 Nose 当下 AI 生成视频最大的痛点是什么，做过的都懂。一言以蔽之，就是大模型不听话、听不懂话，不能严格按照创作者的意图去工作。 其实在生成复杂环境和风格质感方面，大模型现在的能力并不差，但最难让它理解的意图，我认为还是场面调度，是运镜。 最近找到一个新工具，利用白模功能，做了几支视频，重点就是想解决精准场面调度的难题。看看效果： 第一支视频是一个相对简单的十秒左右的环绕镜头。 第二段是一个夕阳离别的场景，需要人物处在精确的空间关系中。 第三段是一组较为复杂的滑板场面，包含一个低机位的跟拍，一个 22 秒的…",
+      "key_points": [
+        "有的人物入画时竟然凭空出现，大变活人，或者出画时像幽灵一样蒸发，还有同一个人在画面上分裂成双胞胎，还比如 A 从某人背后掠过，被短暂遮挡后，穿出时竟会变成 B…",
+        "解决了上面这些关于运镜的问题。当然，这次建白模也花了比较长的时间。比如长街上的退行跟拍，涉及复杂的人物走位和交接，还有专门的滑板技术动作，还比如最后那个镜头倾斜…",
+        "那反复抽卡就能解决这些问题吗？事实上不能，我试了不下十遍，每一次都变着法子出现某种不能忍受的穿帮。因为镜头运动过于复杂，不管提示词写得多么完美，因为完美也意味着…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "差一分就是差十分",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%B7%AE%E4%B8%80%E5%88%86%E5%B0%B1%E6%98%AF%E5%B7%AE%E5%8D%81%E5%88%86",
+      "published": "Mon, 24 Aug 2026 11:52:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "以百分制计算，如果考试成绩是 59 分，那么意味着其实和及格线有 10 分的整体差距。这不是什么个人暴论，而是我当年读书的时候学到的常识。 那时候老师和家长为了增加我们的焦虑，经常会给我们讲同一个案例，每次只是换人而已：谁家那小谁，在中考/高考的时候，差一分，就因为那一分而落榜了。当然，结论就是要努力学习，争取把那一分拿下。 不是所有老师都会讲这个故事，有些老谋深算的老师上课时闲话很少，下课也不愿和学生有太多往来，但是偶尔兴起，也会发表一些个人的真知灼见，比如说「就差一分」这种问题，以下是原音重放： 「嗤！就差一分…",
+      "key_points": [
+        "经常会给我们讲同一个案例，每次只是换人而已：谁家那小谁，在中考/高考的时候，差一分，就因为那一分而落榜了。当然，结论就是要努力学习，争取把那一分拿下",
+        "有些老谋深算的老师上课时闲话很少，下课也不愿和学生有太多往来，但是偶尔兴起，也会发表一些个人的真知灼见，比如说「就差一分」这种问题，以下是原音重放： 「嗤！就差…",
+        "没有什么「差一分落榜」一说，差的不止是一分。这一分也不是什么「稍微努力一下」就可以达成的事情，需要相当努力提升 10 分才行。觉得就差一分，这种心态还不如那些差…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "《欢迎来龙餐馆》同款荒漠，原来在宁夏！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E3%80%8A%E6%AC%A2%E8%BF%8E%E6%9D%A5%E9%BE%99%E9%A4%90%E9%A6%86%E3%80%8B%E5%90%8C%E6%AC%BE%E8%8D%92%E6%BC%A0%EF%BC%8C%E5%8E%9F%E6%9D%A5%E5%9C%A8%E5%AE%81%E5%A4%8F%EF%BC%81",
+      "published": "Mon, 24 Aug 2026 18:02:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "宁夏的荒漠奇观，是一部写在大地上的地质史诗。数千万年来，青藏高原隆升与亚洲内陆持续干旱，为宁夏提供了丰富的沙源物质。风化与搬运作用雕琢出这片苍茫大地，也成为人类文明绕不开的舞台。西夏王陵的黄土陵台在旷野中静默矗立，青铜峡一百零八塔沿着黄河岸边的山坡层层叠落，诉说着千年丝路的过往。 而深入腾格里沙漠深处，你会遇见一座名为《一场大梦》的巨型蒙眼雕塑。它大半身躯埋进黄沙，只露出肩膀和头颅，薄纱蒙眼，风过纱动，沉默而震撼。在沙坡头，奔腾的黄河与无垠的大漠猝然相遇，黄沙与碧水同框，成就了宁夏独有的奇观。塞上江南，从来不止一面…",
+      "key_points": [
+        "#宁夏 #蒙眼雕塑 #龙餐馆 #西夏陵 #沙漠 #跟着地理君去旅行 敬请关注 中国国家地理文旅 云端赴山海，风景不间断",
+        "中国国家地理文旅·景区联播 ↓ 直播预告 ↓ 山间林木苍翠叠嶂 溪涧流水叮咚绵长 流云自在缠绕峰峦 清风悄然消解暑热 无需奔赴远方，镜头带你穿梭山野秘境 静观朝…",
+        "是一部写在大地上的地质史诗。数千万年来，青藏高原隆升与亚洲内陆持续干旱，为宁夏提供了丰富的沙源物质。风化与搬运作用雕琢出这片苍茫大地，也成为人类文明绕不开的舞台…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "2026科学探索奖揭晓：50位青年科学家每人300万，首次出现95后",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+2026%E7%A7%91%E5%AD%A6%E6%8E%A2%E7%B4%A2%E5%A5%96%E6%8F%AD%E6%99%93%EF%BC%9A50%E4%BD%8D%E9%9D%92%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%AF%8F%E4%BA%BA300%E4%B8%87%EF%BC%8C%E9%A6%96%E6%AC%A1%E5%87%BA%E7%8E%B095%E5%90%8E",
+      "published": "Mon, 24 Aug 2026 11:14:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Joshua",
+        "Zahl",
+        "Cornerstone",
+        "get",
+        "http",
+        "Intellectual"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文 | 戴晶晶 ● ● ● 8月24日，新基石科学基金会在北京揭晓2026年科学探索奖获奖名单，50位青年科学家榜上有名。他们中，包括 第一位”95后“获奖人 ，加拿大籍数学家 Joshua Zahl，以及 10位女性科学家。 每位获奖人将在 5 年内获得总计 300 万元人民币奖金，且可自由支配。 至此， 科学探索奖已产生八届共397位获奖者。该奖项面向基础科学和前沿技术领域，支持在中国内地及港澳地区全职工作的 “ 探索期 ” 杰出青年科学家 （男性…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文 | 戴晶晶 ● ● ● 8月24日，新基石科学基金会在北京揭晓2026年科学探索奖获奖名单，…",
+        "以下为科学探索奖 2026 年获奖名单： 关于科学探索奖 “ 科学探索奖 ” 是新基石科学基金会出资、科学家主导人才遴选的公益奖项。奖项面向基础科学和前沿技术领…",
+        "科学探索奖已产生八届共397位获奖者。该奖项面向基础科学和前沿技术领域，支持在中国内地及港澳地区全职工作的 “ 探索期 ” 杰出青年科学家 （男性 45 周岁及…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "第三期经济学人精读打卡营：这次，每天多读两段",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%89%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%B2%BE%E8%AF%BB%E6%89%93%E5%8D%A1%E8%90%A5%EF%BC%9A%E8%BF%99%E6%AC%A1%EF%BC%8C%E6%AF%8F%E5%A4%A9%E5%A4%9A%E8%AF%BB%E4%B8%A4%E6%AE%B5",
+      "published": "Mon, 24 Aug 2026 12:51:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "less",
+        "CATTI",
+        "Day01",
+        "Day20",
+        "ignorance"
+      ],
+      "summary": "做完前两期后，我们做了复盘，也听取了很多小伙伴的反馈。两段原文，足够讲几个词，也能拆一两个长句。但有些文章刚刚进入正题，选段就结束了。有时候知道某句话怎么翻，却未必看见：作者为什么先讲这个例子？下一段为什么突然转弯？前面的数字和后面的结论，究竟是怎样接起来的？所以第三期，我们把每天的精读量从两个自然段增加到了 四个 。 四段来自同一篇文章，通常按照“2+2”分成A、B两个板块，每天大约350—550词。A板块往往负责提出问题、交代背景或建立场景；B板块继续往下走，补上转折、论证和结论。如果文章本身更适合“1+3”或…",
+      "key_points": [
+        "第一周｜语言、文化与日常消费 Day01 AI文章，真能一眼认出来吗 Day02 日本人开始抢购“凶宅” Day03 红牛卖的究竟是不是饮料 Day04 蜜雪冰…",
+        "报名请添加小助理微信： foxwulihua4 ，添加时备注： 第三期 我们不能保证20天之后，所有人都能毫不费力地读完一篇《经济学人》。这种话说出来也不负责任…",
+        "我们做了复盘，也听取了很多小伙伴的反馈。两段原文，足够讲几个词，也能拆一两个长句。但有些文章刚刚进入正题，选段就结束了。有时候知道某句话怎么翻，却未必看见：作者…"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "播客是在备份历史吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%92%AD%E5%AE%A2%E6%98%AF%E5%9C%A8%E5%A4%87%E4%BB%BD%E5%8E%86%E5%8F%B2%E5%90%97%EF%BC%9F",
+      "published": "Mon, 24 Aug 2026 15:32:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "IP",
+        "Agent",
+        "Anthropic",
+        "Apple"
+      ],
+      "summary": "文 ｜ 阑夕 上个周末，小半个中文播客圈，都出现在了小宇宙组的一场局里。 这应该是小宇宙第一次通过发布IP的形式，给播客行业正在发生的趋势，定个调子。 熟悉这家公司风格的人，都知道它相当遵循搭台唱戏的分工，能做好搭台的份内工作，绝不插手唱戏的内容职责。 但在这个名叫「先声信号塔」的IP共创里，小宇宙很少见的表现出了想要见证和记录一些事情的主动态度，或者说，台子，突然有话要讲了。 有点像茨威格创作「人类群星闪耀时」的初衷，基于强烈的使命驱动，坚信有必要把一些改变世界进程的名字全都书写下来。 至少，在第一期以AI为题的…",
+      "key_points": [
+        "备份历史的价值，在一个公共表达产生退化或者异化的环境里，尽可能的提供一个保存完整上下文的产业快照，保持站在创新曲线的左侧",
+        "在第一期以AI为题的活动现场，那种备份历史的时代感，挥之不去",
+        "那就是 播客是反工业化的，在模型近乎无限的生产能力面前，创作的稀缺性、真实性、人类性都在急剧衰退"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-25",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么没有这种省略剑身只留剑尖从而降低成本的剑？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792030",
+      "published": "Wed, 19 Aug 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Anon",
+        "capacity",
+        "Damping",
+        "earlywood",
+        "eonet.ne.jp",
+        "Feder"
+      ],
+      "summary": "Anon， 傻狗 查看知乎原文 其他答主已经指出了这个想法的问题。但作为一个工程师，我觉得指出问题不等于解决问题，所以这里决定探讨下，在不对武器制式进行大幅修改的情况下， 假如我们真的尝试做铁头木剑会遇到什么情况 。 （在给本文作图的时候突然发现很多年前我曾经有过画一个 “艺用冷兵器解剖” 的尝试，不过画了几格就再也没动过了） 全木质剑身其实是会有好处的，常用冷兵器杀人的朋友们都知道，砍到骨头之类硬物的时候（如果热战中没能及时挑对劈砍部 切到了不能直接过的骨点），劣质的剑会有明显的震动。 图片来自 myarmour…",
+      "key_points": [
+        "用各方向最一致的圆形截面并增大剑身的粗细，由于横截面显著增大，木材年轮和纤维的影响也会减弱。此时圆形的剑身完全可以直接空手抓，所以我们完全可以把护手去掉来获得更…",
+        "题主对传统刀剑的观察似乎是完全基于外表的，实际刀剑并不只有刃部是钢铁，而是延伸向下一直到剑柄内。根据文化和地区，如何固定这个剑柄略有差别，比如日式剑偏好在柄上打…",
+        "固定方案就比较明显了：剑尖有个小尾巴插入木质剑身，可以靠胶来固定"
+      ]
+    }
+  ]
+}
