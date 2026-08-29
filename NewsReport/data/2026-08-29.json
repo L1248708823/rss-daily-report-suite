@@ -1,0 +1,759 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T01:00:11.226639+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 86,
+    "fresh_candidates": 61,
+    "backfill_candidates": 25,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-08-29",
+      "fetched_at": "2026-08-29T01:00:05.924435+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3952.18,
+          "change": -4.39,
+          "change_pct": -0.11,
+          "volume": 510581645.0,
+          "amount": 97036515.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4454.23,
+          "change": -147.35000000000036,
+          "change_pct": -3.2,
+          "prev_close": 4601.58,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-08-29 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 963.6809342678476,
+          "change": -31.879446203803468,
+          "change_pct": -3.20216099687499,
+          "prev_close": 995.5603804716511,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-08-29 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-08-29",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "美债危机的本质与推演：如何影响大类资产定价与配置？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%BE%8E%E5%80%BA%E5%8D%B1%E6%9C%BA%E7%9A%84%E6%9C%AC%E8%B4%A8%E4%B8%8E%E6%8E%A8%E6%BC%94%EF%BC%9A%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D%E5%A4%A7%E7%B1%BB%E8%B5%84%E4%BA%A7%E5%AE%9A%E4%BB%B7%E4%B8%8E%E9%85%8D%E7%BD%AE%EF%BC%9F",
+      "published": "Fri, 28 Aug 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "SLR",
+        "AI",
+        "END-",
+        "Wind",
+        "YCC"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：教你挖掘基 来源：雪球 最近这轮市场波动，很多人第一时间把矛头指向了“美债危机”。 但这个说法本身含糊不清——什么是美债危机？是还不上钱了，还是另有隐情？ 厘清这个问题，比判断明天涨跌重要得多。 01 危机的本质：是信任，而非流动性 首先需要廓清一个常见误读，眼下的美国并非面临着利息都付不出的窘境。真正的问题出在债务路径的可持续性上，以及市场对这条路径的信任正在被系统性侵蚀。 数据是冷峻的。截至2026年8月18日，美国联邦…",
+      "key_points": [
+        "03 定价之锚漂移时：大类资产的影响与传导 厘清了美债危机的本质，问题便自然延伸至投资层面：高企的美债收益率，将如何牵引各类资产的走向",
+        "10年期和30年期美债收益率之所以被称为全球资产定价之锚，是因为它同时扮演三个角色： 无风险利率基准、贴现率核心参数，以及全球风险偏好的参照系",
+        "会直接影响银行愿意买多少国债、能买多少国债，进而间接影响美债利率定价，属于典型的市场干预行为"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对英伟达收购Hugging Face的解读与思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/407021178",
+      "published": "Fri, 28 Aug 2026 10:02:27 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Face",
+        "Hugging",
+        "AI",
+        "CUDA",
+        "ARR",
+        "AWS"
+      ],
+      "summary": "昨晚，受益于英伟达强劲财季业绩及乐观前景展望，市场提振了对于AI支出扩张周期延续的信心。英伟达上涨近9%，博通涨近4.5%；存储方面，海力士涨超2%，美光、闪迪微跌0-1%。 昨天一大消息是英伟达同意以129亿美元收购全球最大AI大模型开源平台Hugging Face。简单谈谈看法。 一、Hugging Face概况 Hugging Face又称抱抱脸，早期仅仅是一家面向青少年的聊天机器人公司。但在Transformer架构变革初期，它将内部NLP工具开源，推出广受欢迎的Transformers库，完成从消费级应用…",
+      "key_points": [
+        "Hugging Face同样在积极布局机器人开源生态（如LeRobot平台）。收购完成后，英伟达具身智能将实现闭环： 在英伟达平台上训练，用英伟达的仿真引擎，在…",
+        "收购Hugging Face提供了一个极云业务新入口。Hugging Face处于模型与算力之间（开发者选好模型后需要算力部署）。英伟达可以将其云算力合同注入H…",
+        "昨天一大消息是英伟达同意以129亿美元收购全球最大AI大模型开源平台Hugging Face。简单谈谈看法"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "看热闹不嫌事大",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7913104177/407012216",
+      "published": "Fri, 28 Aug 2026 10:02:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "消费问题说到底就是个经济问题，以前这个问题解决不了的概率只有20%，现在这个问题解决不了的概率提升到50%。当然这只是我的认知和判断，并不代表事实本身。落地措施和呈现出来的财报没有乐观理由。 老窖控量保价我是赞同的，有利于长期品牌价值提升，代价就是短期业绩承压，毕竟相对普五品牌势能不强。洋河二季报反转和更差会是两个完全不同的结论。现在是更差，意味行业周期和市场竞争冲击比我想的大。 最差日子我愿意陪伴，分红减少我可以接受，前提我得提前准备干粮，光靠嘴支持是不长久的。叠加之前有白酒小股东求我不要看多，赶紧看空让股价反转…",
+      "key_points": [
+        "分红减少我可以接受，前提我得提前准备干粮，光靠嘴支持是不长久的。叠加之前有白酒小股东求我不要看多，赶紧看空让股价反转，现在我以身入局，看看规律灵不灵。我观点确实…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "离了个大谱（二）---动力电池装机数据",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5243796549/407032708",
+      "published": "Fri, 28 Aug 2026 10:02:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GWh",
+        "http",
+        "SZ002460",
+        "SZ300750",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "最近还是在理数据 都是网上公开的，只是这些细节大家之前没有质疑，回头看漏洞百出，关键是我们还以为没有任何问题，还用来参考。现在大家都用这些数据来谈需求，所以是不是离了个大谱呢？ 只能说中国汽车动力电池产业创新联盟在2026年1月份发布的2025年12月的数据里面，统计了2025年1-12月全国动力电池企业装车量数据。 数据显示比亚迪只有 165GWh，而比亚迪之前每个月都会披露装机量，去年全年装机量285GWh，扣除年报里面报道的储能装机60GWh，实际动力电池装机225GWh，差距高达165/225=0.7333…",
+      "key_points": [
+        "而比亚迪之前每个月都会披露装机量，去年全年装机量285GWh，扣除年报里面报道的储能装机60GWh，实际动力电池装机225GWh，差距高达165/225=0.7…",
+        "只是这些细节大家之前没有质疑，回头看漏洞百出，关键是我们还以为没有任何问题，还用来参考。现在大家都用这些数据来谈需求，所以是不是离了个大谱呢",
+        "只能说中国汽车动力电池产业创新联盟在2026年1月份发布的2025年12月的数据里面，统计了2025年1-12月全国动力电池企业装车量数据"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么你选了无数只“牛基”，却依然赚不到钱？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2356382715/407035065",
+      "published": "Fri, 28 Aug 2026 10:02:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Alpha",
+        "Beta",
+        "AI",
+        "all",
+        "http",
+        "in"
+      ],
+      "summary": "打开任何一个基金社区，最热门的帖子永远是：“这只基金还能买吗？”“求推荐一只稳赚的基。”“某某经理最近不行了，要不要割？” 我们花大量时间看排行榜、刷大 V 推荐、对比晨星评级，像集邮一样收集“牛基”，可几年下来，账户收益却惨不忍睹。 问题出在哪里？ 不是你不够努力，而是你努力的方向错了。 基金投资的终极能力，从来不是选基，而是搭建一套属于自己的投资体系。 选基是“术”，体系是“道”。没有体系的选基，就像没有地图的航行 —— 偶尔靠运气到达彼岸，但大多数时候，只会在风浪中迷失。 沉淀可复用的投资方法论，本质上是把“…",
+      "key_points": [
+        "涨跌不惊 回到开头那个问题：为什么那么努力选基，还是赚不到钱",
+        "最热门的帖子永远是：“这只基金还能买吗？”“求推荐一只稳赚的基。”“某某经理最近不行了，要不要割？” 我们花大量时间看排行榜、刷大 V 推荐、对比晨星评级，像集…",
+        "3.1 先定持有期规则 不同类型的基金，有不同的合理持有周期： 权益基金 ：至少 3–5 年维度。股票市场的风格轮动，往往以年为单位，一只好基金可能连续两年跑输…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "天坛保洁雨中用海绵吸水打扫地面，工作人员回复称保护古代金砖，金砖为啥如此特殊？有什么更好的办法清洁吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792215",
+      "published": "Fri, 28 Aug 2026 23:01:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "cm"
+      ],
+      "summary": "祥昊， 。 查看知乎原文 天坛祈年殿祈谷坛那片金砖确实有点不大一样， 倒不是因为那是金砖，也不是因为那批金砖岁数大，更不是说这砖很贵， 单纯是因为它们确实很特殊。 其实紫禁城现存大量宫殿地面都是金砖铺设，比如： [1] 太和门、太和殿 、中和殿、保和殿、乾清门、乾清宫、交泰殿、坤宁宫、养心殿、宁寿门、宁寿宫、皇极殿、倦勤斋、奉先殿、英华殿、寿康宫、太极殿、长春宫、永寿宫、翊坤宫、储秀宫、体元殿、建福宫、抚辰殿、敬胜斋、景阳宫、静怡轩、隆宗门、月华门、景运门、养性门、养性殿、乐寿堂、颐和轩等。 而现代苏州也早有了金砖…",
+      "key_points": [
+        "其实紫禁城现存大量宫殿地面都是金砖铺设，比如： [1] 太和门、太和殿 、中和殿、保和殿、乾清门、乾清宫、交泰殿、坤宁宫、养心殿、宁寿门、宁寿宫、皇极殿、倦勤斋…",
+        "铺的时候还有处理垫层、定标高、冲趟、样趟、揭趟、浇浆、上缝、铲尺缝、刹趟等一大堆繁琐工序，铺墁金砖地面，需要瓦工 1 人和壮工 2 人，每天只能铺墁 5 块",
+        "天坛祈年殿祈谷坛那片金砖确实有点不大一样， 倒不是因为那是金砖，也不是因为那批金砖岁数大，更不是说这砖很贵， 单纯是因为它们确实很特殊"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么NH3三角锥翻转得比PH3快?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792230",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "a1",
+        "a2",
+        "PH3",
+        "HOMO",
+        "NH3",
+        "NR3"
+      ],
+      "summary": "Bright Summer， 徜徉于自然科学之海 查看知乎原文 这是一个好问题，涉及到分子结构理论最基本的一些东西。下面我们将用两大定性模型—— 价键理论（VB） 和 分子轨道理论（MO） 解答这一问题。 Part 1: 有关实验事实 在进入分析和解答之前，我们先看看支持题主所述这一结论的实验事实。 显然 PR3 和 NR3 通常都是三角锥构型的： NH3 的三角锥构型 其中心原子还含有一对孤对电子，占据四面体的一个顶点，因此分子呈三角锥型。 如果将孤对电子也视作一个取代基，那么该模型就可以看作类似碳四面体的结构。…",
+      "key_points": [
+        "对于含一对孤对电子的三角锥型分子 ER3，它的翻转过程先经历一个平面型的 sp2 杂化过渡态，然后再转换为另一角锥型",
+        "对于平面型的过渡态，任何一种中心原子都必须采用 sp2 杂化。因此，相较于本来还有 25%s 成分成键的 N，角锥型几乎完全采用 p 轨道成键的 PH3 的 s…",
+        "显然 PR3 和 NR3 通常都是三角锥构型的： NH3 的三角锥构型 其中心原子还含有一对孤对电子，占据四面体的一个顶点，因此分子呈三角锥型"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "具身智能风口里，没有自由人",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/embodied/6456049.html",
+      "published": "Fri, 28 Aug 2026 08:57:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "VR",
+        "CEO",
+        "AI",
+        "EGO",
+        "PART",
+        "Robotics"
+      ],
+      "summary": "当具身智能风口再起，诺亦腾机器人CEO戴若犁选择了一条与众不同的路：以人为中心的数据采集。从动作捕捉到数据工厂，他如何用跨本体复用的数据体系，为物理AI铺路？本文深度对话戴若犁，揭秘数据采集赛道的商业逻辑与创业心法。 PART 01 天真的创业者 大概半年前，戴若犁博士开始写美食笔记。不是寥寥几句的赞美，一篇笔记动辄几千字。 他会详实记录各种美味的细节。 比如香港的菠萝油。他会描写面包体如何松软、糖壳如何酥脆不掉渣。吃的时候，温热面包夹上冻过的黄油，趁黄油没化冻时大口咬下，以咬掉半块黄油为佳。随后务必快速咀嚼和吞咽…",
+      "key_points": [
+        "但如果你知道他的身份——诺亦腾机器人创始人、CEO，他发布美食笔记的平台——朋友圈，大概就能理解这是一项多么特立独行的事情了。在具身智能这么一个火爆风口，机器人…",
+        "EGO数据采集火起来之后，市面上已经出现指导价低于50元/小时的数据。“这种方式没有门槛，有设备、有人力运营就能做。”7月以来，多家媒体也报道了数采公司盯上农村…",
+        "PART 04 历史的重复 不只一个人感慨：这波具身智能的风口与十年前的VR太像了。戴若犁对比过两波风口的相似之处：政府支持、投资人放钱、创业者涌入、各种FOM…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "开源模型们不想让所有人都免费使用了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6456062.html",
+      "published": "Fri, 28 Aug 2026 08:27:28 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "K3",
+        "API",
+        "DeepSeek",
+        "MiniMax",
+        "Kimi",
+        "MIT"
+      ],
+      "summary": "开源模型们不想让所有人都免费使用开源模型：Kimi K3、Qwen3.8-Max相继设置年收入门槛，DeepSeek V4-Pro则坚持MIT开源，许可证开始参与划分模型公司的护城河。 大多数人对开源模型的理解很简单：免费下载，随便用。 那么，开源模型公司靠什么赚钱？目前的答案是，API、私有化部署、企业服务，或者自己做产品。反正权重本身不卖钱。而过去两年，中国大模型公司其实也一直把开放本身视作一种竞争力，由此也一定程度缓和了“赚钱”的苦恼。 现在这个格局开始出现变化。 既然“开源追上闭源”甚嚣尘上，那么模型最核心…",
+      "key_points": [
+        "开源模型们不想让所有人都免费使用开源模型：Kimi K3、Qwen3.8-Max相继设置年收入门槛，DeepSeek V4-Pro则坚持MIT开源，许可证开始参…",
+        "开源模型们不想让所有人都免费用开源模型了",
+        "大多数人对开源模型的理解很简单：免费下载，随便用"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Flova和LibTV还在互呛，字节MiniMax已经下场",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6456039.html",
+      "published": "Fri, 28 Aug 2026 08:26:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "LibTV",
+        "Flova",
+        "AI",
+        "Agent",
+        "Skill",
+        "MiniMax"
+      ],
+      "summary": "字节视频生成赛道连出招：MiniMax Design把第三方生成、剪辑、Skill经验沉淀整合进一站工作台，让创作者在站内直接出片。聚合平台跑不出规模就只能出局。 留给视频模型聚合平台的时间越来越少。 8月20日，MiniMax官方多模态创作Agent工作台MiniMax Design发布，主打一句话出片及原生模型优势，平台直接把第三方平台的生成、编辑、剪辑功能整合到一起，并将开发者经验直接沉淀进Skill里。 两天之前，字节在小云雀之外的另一创作平台漫剧创作工具被曝出内测，最高支持10万字剧本一键成片。一个覆盖短…",
+      "key_points": [
+        "字节的布局更加密集。即梦AI深度打通了豆包、剪映和抖音，形成了从创意到分发的一体化闭环。同时，字节还在内测漫剧创作工具和专业级AI影视工作平台Seedance…",
+        "LibTV们正面临一场上下游同时收紧的夹击，字节的官方生态在争夺创作者和内容生态；上游的视频模型厂商主动下场，用原生的Agent工作台直接覆盖目标客群。除价格外…",
+        "一是长期会员，二是创作者的工作流程与数据沉淀在平台内部，迁移成本较高。但面对掌控生产到分发全流程的字节下场，第三方平台手握的流程资产便会迅速贬值"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "美国红杉预言的模应一体，Loopit是值得重点关注的样本",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6456015.html",
+      "published": "Fri, 28 Aug 2026 08:22:22 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Loopit",
+        "Zing-0.5",
+        "Roblox",
+        "API",
+        "Sonya"
+      ],
+      "summary": "红杉合伙人Sonya Huang提出“产品即智能”，Roblox用游戏卡带破解世界模型困境——两条线索指向同一件事：真正有壁垒的是应用与模型之间别人学不走的数据飞轮。国内少有公司同时做这两件事，Loopit发布自研世界模型Zing-0.5。 我之前写过红杉美国合伙人Sonya Huang的那篇演讲，也写过Roblox用“游戏卡带”破解AI世界模型困境的那篇研究。这两篇文章之间有一条我没有显式点出来的逻辑线——如果你把它们放在一起看，会发现它们其实在回答同一个问题：在AI时代，一个真正有竞争壁垒的产品，到底长什么样子…",
+      "key_points": [
+        "第二个是关于“模应一体”这件事为什么在互动内容领域特别成立。我一直觉得，不同的行业对“必须自建模型”这个判断的迫切程度是不一样的。对一些企业软件公司来说，调用A…",
+        "这就是为什么Loopit管这件事叫“模应一体”。应用不是模型完成之后套上去的外壳，而是模型持续学习的数据生产环境。模型也不是应用背后的一次性能力采购，而是让应用…",
+        "红杉说所有应用公司最终都会拥有自己的主权AI。这个判断在美国开始有越来越多的案例在验证。在中国，Loopit是目前走在这条路上、且同时具备应用规模和自研模型的少…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "索尼Walkman：一个时代的王者，如何被自己“杀死”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6456013.html",
+      "published": "Fri, 28 Aug 2026 08:21:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Walkman",
+        "iPod",
+        "MD",
+        "MP3",
+        "ATRAC",
+        "iTunes"
+      ],
+      "summary": "索尼Walkman曾统治全球音乐市场二十余年，单品均价150美元、历史销量4亿台，如今年轻人却要问一句“那是什么”。杀死它的不是对手，而是傲慢、路径依赖与内部互相打架的部门。这是品类创造者如何失去品类的故事。 1979年7月1日，索尼推出了世界上第一台随身听设备——Walkman TPS-L2。最初两个月卖出3万部，十年卖出5000万部。单品均价150美元，历史认证销量达4亿台。在往后的二十余年时间里，Walkman一直统治着全球音乐市场。 今天，如果你在年轻人中间提起Walkman，他们可能会问：“那是什么？”一…",
+      "key_points": [
+        "是一个关于“王者如何被自己杀死”的故事",
+        "索尼相信封闭——自己制定标准、自己控制生态、自己赚取全部利润。这种模式在Walkman的磁带和CD时代是有效的，因为物理介质天然是封闭的。但在数字时代，开放才是…",
+        "索尼发言人中村纮子说：“现在我们的用户更多选择的是数码播放器，由于随身听市场需求大大减少，所以我们决定在日本停止随身听的生产。” 经济观察网的记者写道：“索尼将…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么越来越多科研基金，开始用抽签决定谁拿经费？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E7%A7%91%E7%A0%94%E5%9F%BA%E9%87%91%EF%BC%8C%E5%BC%80%E5%A7%8B%E7%94%A8%E6%8A%BD%E7%AD%BE%E5%86%B3%E5%AE%9A%E8%B0%81%E6%8B%BF%E7%BB%8F%E8%B4%B9%EF%BC%9F",
+      "published": "Fri, 28 Aug 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Research",
+        "ERC",
+        "Heyard",
+        "SNSF",
+        "Barnett"
+      ],
+      "summary": "从2022年起，作为瑞士最大的公共科研资助机构，瑞士国家科学基金会做了一个决定：对于评审者确实无法区分的申请，用抽签决定谁获得资助。 它不是唯一一家这样操作的资助机构。根据《自然》杂志最近的报道，英国、新西兰、德国的资助机构也在做类似的尝试。在一些试验中，评审者发现，抽签并未让更弱的申请涌入，反而让申请者的多样性有所提升。但反对者指出，抽签无法衡量一个项目与其所处知识环境的整合度，而政治上，让纳税人的钱“靠运气”分配可能很难交代。 本文收录于合集 学界观察与指南 撰文：陈小美 Rachel Heyard的工作是在噪…",
+      "key_points": [
+        "作为瑞士最大的公共科研资助机构，瑞士国家科学基金会做了一个决定：对于评审者确实无法区分的申请，用抽签决定谁获得资助",
+        "古雅典的kleroterion以随机方式从合格公民中选择陪审员。现代科研资助重新讨论的，也不是抛开门槛，而是在合格申请之间如何面对不可区分性。| Marsyas…",
+        "“与其问‘我们应不应该在科学流程中引入随机性’，不如把问题换一下：‘我们有多确信自己的决定足够精确？’”如今已在苏黎世大学可重复科学中心工作的Heyard说，“…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "Google发布Gemini Omni 1.1 Flash视频生成模型；阿里通义发布Qwen3.8-Flash； “沙德尔”登陆浙江",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+Google%E5%8F%91%E5%B8%83Gemini+Omni+1.1+Flash%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B%EF%BC%9B%E9%98%BF%E9%87%8C%E9%80%9A%E4%B9%89%E5%8F%91%E5%B8%83Qwen3.8-Flash%EF%BC%9B%C2%A0%E2%80%9C%E6%B2%99%E5%BE%B7%E5%B0%94%E2%80%9D%E7%99%BB%E9%99%86%E6%B5%99%E6%B1%9F",
+      "published": "Fri, 28 Aug 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Google",
+        "Flash",
+        "Gemini",
+        "Omni",
+        "Qwen3.8-Flash"
+      ],
+      "summary": "今天是8月28日，星期五。1845年的今天，科普杂志《科学美国人》在纽约创刊。 重点新闻速览 1.Google发布Gemini Omni 1.1 Flash视频生成模型 2.阿里通义发布Qwen3.8-Flash 3. “沙德尔”登陆浙江 4.两部门规范医疗机构特医食品使用 科技 Google发布Gemini Omni 1.1 Flash视频生成模型 8月27日，Google发布Gemini Omni 1.1 Flash视频生成模型。新模型可分析最多10秒的此前视频内容，并以10秒为增量继续生成，累计将视频延长至4…",
+      "key_points": [
+        "“沙德尔”登陆浙江 4.两部门规范医疗机构特医食品使用 科技 Google发布Gemini Omni 1.1 Flash视频生成模型 8月27日，Google发…",
+        "重点新闻速览 1.Google发布Gemini Omni 1.1 Flash视频生成模型 2.阿里通义发布Qwen3.8-Flash 3",
+        "公开信呼吁企业、网络安全公司和政府加强合作，共享威胁情报、提高安全标准，并将网络防御作为优先事项。目前，OpenAI、Anthropic和微软也分别推出了Day…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为了睡眠遮光贴黑胶带留下了胶痕，真的需要更换整扇窗户吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BA%86%E7%9D%A1%E7%9C%A0%E9%81%AE%E5%85%89%E8%B4%B4%E9%BB%91%E8%83%B6%E5%B8%A6%E7%95%99%E4%B8%8B%E4%BA%86%E8%83%B6%E7%97%95%EF%BC%8C%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E6%9B%B4%E6%8D%A2%E6%95%B4%E6%89%87%E7%AA%97%E6%88%B7%E5%90%97%EF%BC%9F",
+      "published": "Fri, 28 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "commons",
+        "ID",
+        "steamforkids",
+        "wikimedia",
+        "Adhesive"
+      ],
+      "summary": "本文转载自公众号“把科学带回家”（ID：steamforkids） 撰文： Ziv 审校：乌其多 一个瓜从昨晚吃到现在，太多细节我们普通人因为没有经历过，实在是无法共情任何一方，更无法辨别真伪。为数不多我能理解的事情之一就是，窗框上留下了黑胶带的胶痕…… 这些胶顽固地扒在玻璃上面，如果要一点一点地刮掉，费时又费力，还要小心不要留下划痕。 无论是 用来睡眠时遮光 、还是防台风，如果没有及时撕掉胶带，随着时间的推移，留下胶会越来越牢固，难以清除，而且面积很大，想想除胶的工作量就让人两眼一黑。 恨不得要高价换掉整扇落地窗…",
+      "key_points": [
+        "本文转载自公众号“把科学带回家”（ID：steamforkids） 撰文： Ziv 审校：乌其多 一个瓜从昨晚吃到现在，太多细节我们普通人因为没有经历过，实在是…",
+        "恨不得要高价换掉整扇落地窗 有什么能 避免赔偿更换整扇窗户的方式吗",
+        "台风天过后（ 或者离开酒店后 ）别忘了尽快撕下胶带，防止它们变成陈年老胶。另外，撕胶带的时候可以慢一点，这样玻璃上留下的胶就会比较少"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "新中产运动，费钱又要命",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%96%B0%E4%B8%AD%E4%BA%A7%E8%BF%90%E5%8A%A8%EF%BC%8C%E8%B4%B9%E9%92%B1%E5%8F%88%E8%A6%81%E5%91%BD",
+      "published": "Fri, 28 Aug 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HYROX",
+        "CrossFit",
+        "ID",
+        "SouthReviews",
+        "AI",
+        "App"
+      ],
+      "summary": "本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：贺一 编辑：吴擎 意识模糊的十几分钟里， 谭鑫经历了漫长而逼真的濒死幻觉。 那是今年7月杭州站的一场HYROX比赛， 谭鑫作为参赛者在比赛中突然失去意识。醒来时，她已经躺在医院。当时她的体温39.4摄氏度，多项身体指标异常，被医生诊断为运动性热射病，一度下达病危通知。 她有七年多健身经历，跑越野赛，为这场比赛训练了两个多月。此前她从没想过，自己会差点在一场开着空调的室内健身比赛里“丢了性命”。 HYROX ，这项几年前还让很多人感到陌生…",
+      "key_points": [
+        "HYROX的主要受众是一二线城市新中产，尤其是职场精英、金融经管等人群。他们大多有多年健身或耐力运动基础（马拉松、CrossFit、越野跑）：普遍将运动视为社交…",
+        "乒乓球大满贯得主张继科以特邀嘉宾身份，参加HYROX健身跑成都站男子接力组比赛。比赛中，他手臂受伤，仍坚持完赛，但赛事直播两名解说对其发表“上综艺不用出这么多汗…",
+        "“参加了比赛，就不可能不在乎名次，不想拼一把。” 但热射病和那次濒死经历，最终改变了谭鑫对这些数字的看法。她退掉了今年已经报名的越野赛，也不准备再参加比赛。运动…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "中国电影的下一代导演，从哪里来？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E7%9A%84%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%AF%BC%E6%BC%94%EF%BC%8C%E4%BB%8E%E5%93%AA%E9%87%8C%E6%9D%A5%EF%BC%9F",
+      "published": "Fri, 28 Aug 2026 15:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AIGC",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 Ruike AI 生视频带给影视行业的真正问题，其实可以压缩成两个：一是谁有资格成为导演？二是， AI 视频到底能做哪些事？ 前一个是关于人，后一个关于影像本身。 过去我们总是默认，当电影导演要先经历一套专业体系的筛选，学历、作品、行业关系……但 AI 视频正在改变这个前提。 它让一个创作者在还没有拿到投资，没有组建剧组之前，就先把自己脑子里的人物、世界、调性，做成了可以观看的影像。 换言之，导演的资格开始由影像直接证明。 《钟馗嫁妹》的爆红，很直接地说明了这种变化。万梦生团队并不是传统意义上的电影班底，三位创…",
+      "key_points": [
+        "当电影导演要先经历一套专业体系的筛选，学历、作品、行业关系……但 AI 视频正在改变这个前提",
+        "也许可以单打独斗，凭借 AI 完成大部分创作本身的工作，但从灵光一现的创造，到真正为市场认可的电影、剧集产品之间，仍然需要一套完整的产业链支撑。这里面包括算力、…",
+        "她决心跳出传统影视创作模式，依托即梦 AI 开启低成本创作，和小团队一点点摸索调试，最后打通了整个制作流程，做出轰动全网的短片《权利童话》，入围釜山 AI 电影…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "有些伟大的导演，本质上是编剧",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9C%89%E4%BA%9B%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%AF%BC%E6%BC%94%EF%BC%8C%E6%9C%AC%E8%B4%A8%E4%B8%8A%E6%98%AF%E7%BC%96%E5%89%A7",
+      "published": "Fri, 28 Aug 2026 15:43:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MV",
+        "banish",
+        "Barish",
+        "Chicago",
+        "hongmomgs",
+        "IP"
+      ],
+      "summary": "作者：乔纳森·罗森鲍姆 译者：陈思航 校对：易二三 来源：Chicago Reader 那些不是导演的编剧，很少会以电影作者的身份闻名。 许多著名的电影写作者，都有导演或导演/演员多重身份。 我们甚至可以追溯到D·W·格里菲斯、查理·卓别林与埃里克·冯·施特罗海姆，但他们的名声与编剧关系不大。 埃里克·冯·施特罗海姆 如果想要找到以编剧闻名的创作者，可能只能追溯到罗伯特·汤或帕迪·查耶夫斯基。 前者只做过很少的导演工作，后者则只从事编剧与制片，他们可以算是以写作闻名的电影作者。 当然，查耶夫斯基的影片非常易于辨识。…",
+      "key_points": [
+        "他与一系列优秀影人合作——尤其是编剧/导演贡德里、共同编剧比斯毛特（一位视觉艺术家）、演员金·凯瑞、凯特·温丝莱特、伊利亚·伍德、马克·鲁弗洛、克斯汀·邓斯特和…",
+        "这一切听起来可能有点夸张、甚至自我放纵——而且，之后还会看到更多奇幻的展开。但是，剧本与表达是如此精湛与严谨，这让它的转变显得极其容易理解。（我看过这部影片两次…",
+        "大多数重要的叙事实验都从他那里汲取了灵感，但这一事实却鲜有人知。（我指的不是《记忆碎片》或《不可撤销》这些毫不诗意的噱头与赝品，而是《八部半》、《泯灭天使》、《…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "下坡路的走法",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%8B%E5%9D%A1%E8%B7%AF%E7%9A%84%E8%B5%B0%E6%B3%95",
+      "published": "Fri, 28 Aug 2026 11:48:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "App",
+        "BBS",
+        "Bitsea",
+        "Blog"
+      ],
+      "summary": "近期不断有公众号作者来找我，哭诉流量下降的事。如果要一个简单的回答，我会说：耐心一点，也许只是一次算法调整，调整完毕之后也许会有改观。如果要一个直接的回复，我则会说：你还是去做视频或者音频吧，虽然现在也有点晚了。如果一定要写文字，那么小红书的笔记可能在现阶段更适合你。 至于我本人的想法？我经历了 BBS 时代、Blog 时代、微博时代、公众号时代，如果要给出今天关于网络文字创作的判断，我会说：整个互联网世界里关于文字阅读的基础已经发生了根本性的变化。 首先是用户变化，全民转为网民的进程已经完成，各种内容形式和内容平…",
+      "key_points": [
+        "下坡路上也能看风景，就像是在渐渐倾斜的甲板上依然可以演奏交响乐一样"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国城市古称，哪个最好听？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9F%8E%E5%B8%82%E5%8F%A4%E7%A7%B0%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9C%80%E5%A5%BD%E5%90%AC%EF%BC%9F",
+      "published": "Fri, 28 Aug 2026 17:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BOOK"
+      ],
+      "summary": "你有没有发现， 中国有许多城市， 都曾有一个特别好听的名字。 如 长安、琅琊、兰陵、云中、汴京 …… 光念出来，就自带几分诗意。 有的豪迈大气，有的温润典雅， 有的仙气十足，有的意境悠远。 寥寥两三个字，便让人浮想联翩。 其实，这些古地名并非随意而来。 它们或源于山川形势、或承载郡县建制， 或记录着一座城市的历史与文化， 今天让我们一起重新认识下 这些 曾惊艳了千百年的城市古称吧 山东临沂 古称“ 琅琊 ” 如果要评选中国最有侠气的古地名， 琅琊 一定榜上有名。 《琅琊榜》让这个名字家喻户晓，也让无数人对“琅琊”心…",
+      "key_points": [
+        "山河锦绣 更多精彩视频在这里 本文创作团队 编辑：广平 设计：巍巍 图片：视觉中国、图虫 话题 你还知道哪些好听的城市古称",
+        "或记录着一座城市的历史与文化， 今天让我们一起重新认识下 这些 曾惊艳了千百年的城市古称吧 山东临沂 古称“ 琅琊 ” 如果要评选中国最有侠气的古地名， 琅琊…",
+        "中国有许多城市， 都曾有一个特别好听的名字"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "知名高校终身教授被裁，这可能才是开始",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%9F%A5%E5%90%8D%E9%AB%98%E6%A0%A1%E7%BB%88%E8%BA%AB%E6%95%99%E6%8E%88%E8%A2%AB%E8%A3%81%EF%BC%8C%E8%BF%99%E5%8F%AF%E8%83%BD%E6%89%8D%E6%98%AF%E5%BC%80%E5%A7%8B",
+      "published": "Fri, 28 Aug 2026 07:57:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "IIT",
+        "Fortnow",
+        "Lance",
+        "of",
+        "AAUP",
+        "ACM"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual IIT校园。来源：IIT官网 撰文｜李珊珊 ‍ ● ● ● 2026年这个夏天，太平洋两岸的学术圈同时感受到一种“寒意”——终身教职 （Tenure） 光环正在加速褪色，甚至开始走向事实上的退场。 在中国，同济大学出台人事新规，明确专业技术职务不再签订长期聘任协议，全面实行周期考核。预聘岗位3年一考，长聘教授6年一大考、3年中期评估。考核不合格者，将面临降职、转岗甚至解聘。 在美国，知名理论计算机科学家兰斯·福特诺 （Lance Fortnow） 突然失…",
+      "key_points": [
+        "大学还能给教师多大程度的职业安全，就重新摆上了台面，这可能才是终身教职今天真正面临的挑战",
+        "这项改革在美国高校引发强烈反响。美国大学教授协会 （AAUP） 认为，即便佐治亚州高等教育委员会强调，全州教师终身教职后考核的通过率接近95%，这种“纠正性”改…",
+        "知名理论计算机科学家兰斯·福特诺 （Lance Fortnow） 突然失去终身教职。福特诺在个人博客上提到：自己和大约160名同事——其中包括多位终身教职人员—…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "日本音乐咖啡馆在海外引发共鸣 | 经济学人文化（双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%97%A5%E6%9C%AC%E9%9F%B3%E4%B9%90%E5%92%96%E5%95%A1%E9%A6%86%E5%9C%A8%E6%B5%B7%E5%A4%96%E5%BC%95%E5%8F%91%E5%85%B1%E9%B8%A3+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96%EF%BC%88%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 28 Aug 2026 12:47:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "in",
+        "is",
+        "of",
+        "music",
+        "bars"
+      ],
+      "summary": "1 导读 休息一下 2 精读|翻译|词组 Culture | For the reco rd 文化 | 郑重其 “声” 英文部分选自经济学人202822期文化板块 Culture | For the reco rd 文化 | 郑重其 “声” Japan’s music cafés are striking a chord abroad 日本音乐咖啡馆在海 外引发共鸣 New venues are inspired by a century-old tradition 一项 百年传统 ， 启发 新 潮 场所 Spac…",
+      "key_points": [
+        "1 导读 休息一下 2 精读|翻译|词组 Culture | For the reco rd 文化 | 郑重其 “声” 英文部分选自经济学人202822期文化板…",
+        "Space Talk 和 全球 许 多 类似场所一样，或多或少受到了 日本音乐喫茶店（ ongaku kissa ，即音乐咖啡馆） 的启发",
+        "尼克 · 戴尔 （ Nick Dwyer ） 是一部 东京音乐咖啡馆纪录片 的 导演 ， 他 表示，音乐喫茶 店 文化 “ 真正的魔力 ” 在于营造出一 种 “…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-08-29",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "可能会是播客",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%8F%AF%E8%83%BD%E4%BC%9A%E6%98%AF%E6%92%AD%E5%AE%A2",
+      "published": "Tue, 25 Aug 2026 11:35:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CD",
+        "AI",
+        "Midjourney",
+        "Bitsea",
+        "NG",
+        "V8.2"
+      ],
+      "summary": "写字早就不是这个时代的主流自我表达方式了，有时候我也问自己：如果在写字之外，再选个别的形式来表达，我会选什么？ 首先，出镜我是不会考虑的。我不爱拍照，不爱面对摄像头，不喜欢参加任何公开活动，就喜欢一个人猫着。而且，我有一种根深蒂固的偏见，认为一个人在面对镜头的时候，总是会下意识地要表现或者表演，也总是会下意识地撒谎或者遮掩，想要创造出一个心目中完美的自我。 唯一的解法我也不会考虑，那就是审讯。面对镜头五分钟、十分钟，很容易表演，稍加训练就会很熟悉，套话假话片儿汤话脱口而出，流利非常。但是公安朋友告诉我，如果肯耐心一…",
+      "key_points": [
+        "这种表达方式又比较安全。说了一千个句子，其中藏了一两句出格的话，没有几个人会立即注意得到。听众在听的时候，远不如读的时候那么警觉，随时准备挑刺，随时准备质疑。然…",
+        "我个人的看法是播客最大的优点是没有新增劳动量。我有个想法，到最终成文，本身就需要我在大脑里和自己反复唠。从一个模糊的感觉开始，一点点聊到成型，最后转变成文字输出…",
+        "播客的信息密度太低，听一个小时捞不到几句干货。而且，反复听一个人或者几个人，听他们来来去去唠有限的几个话题，很容易让人感觉到厌倦。我认为这种想法是真实的，真实地…"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古代偷偷晒海水难道不可以少量自制盐吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792198",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ck3",
+        "dlc"
+      ],
+      "summary": "晴耕雨读的浣熊君， 在知乎撂地的闲散科普创作者，争取每周双更 查看知乎原文 其实这个问题反而解释出来了一点，那就是食盐这种生活必需品，他在产地本身就不贵重。 而古代吃盐之所以贵，之所以有人贩私盐，是因为成本与利润绝大部分不来自于生产过程和原料，而是来自于跨地域运输，以及消费地无法生产的天然垄断。 那垄断就会产生巨额的税收，这也是自古以来盐业被朝廷长期把控的主要原因，盐铁并称山泽之利也是因为这个。 至于说能吃的食盐，制作也不算非常困难。 大家可以去看《熬波图》中的描述，问题中将海水晾晒只是第一步“制卤”，这一步制作出…",
+      "key_points": [
+        "盐政在古代社会之所以是国家命脉，他的成本绝不在制盐有多困难多辛苦上边，而是在于运输和销售端以及中间产生的垄断税收上边，但凡一个东西有刚需且容易被朝廷控制，那这东…",
+        "很多情况下产盐地的灶户本身就会私自制盐，哪怕不自制他买自己生产的官盐也不会贵到哪里去",
+        "所以我们在《大明律·户律·盐法》中就先会看到，对贩私盐要严厉打击 “凡妇人有犯私盐，若夫在家，或子知情，罪坐夫男。” 原则上不允许卖，但在朝廷面前，原则就得听朝…"
+      ]
+    }
+  ]
+}
