@@ -1,0 +1,770 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T01:00:11.598730+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 88,
+    "fresh_candidates": 61,
+    "backfill_candidates": 27,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-03",
+      "fetched_at": "2026-09-03T01:00:06.291587+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3941.39,
+          "change": -38.5,
+          "change_pct": -0.97,
+          "volume": 516472775.0,
+          "amount": 83536776.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4394.09,
+          "change": 6.130000000000109,
+          "change_pct": 0.14,
+          "prev_close": 4387.96,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-03 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 949.2144199205878,
+          "change": 1.324206922050621,
+          "change_pct": 0.13970045305791806,
+          "prev_close": 947.8902129985372,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-03 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    },
+    "removed_items": [
+      {
+        "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%B8%80%E5%88%B0%E4%B8%AD%E5%B9%B4%EF%BC%8C%E5%B0%B1%E5%81%B7%E5%81%B7%E7%8B%82%E4%B9%B0%E7%BE%8A%E6%AF%9B%E8%A1%AB%EF%BC%9F",
+        "title": "为什么一到中年，就偷偷狂买羊毛衫？",
+        "platform": "果壳网",
+        "source": "果壳网",
+        "reason": "商品导购/反季促销，价格信息和购买号召为主，信息密度低"
+      }
+    ],
+    "editor_picks": {
+      "generated_at": "2026-09-03T09:03:35+08:00",
+      "lead": "http://xueqiu.com/5332385101/407505906",
+      "top": [
+        "https://www.woshipm.com/ai/6457927.html",
+        "https://www.woshipm.com/ai/6458717.html",
+        "https://www.woshipm.com/ai/6457256.html",
+        "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E8%94%9A%E6%9D%A5%E6%98%AF%E4%B8%80%E7%A7%8D%E5%91%BD%E8%BF%90",
+        "http://xueqiu.com/7271353740/407554736"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-03",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "社保基金1年涨超13%！简单到普通人也能直接复刻！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%A4%BE%E4%BF%9D%E5%9F%BA%E9%87%911%E5%B9%B4%E6%B6%A8%E8%B6%8513%25%EF%BC%81%E7%AE%80%E5%8D%95%E5%88%B0%E6%99%AE%E9%80%9A%E4%BA%BA%E4%B9%9F%E8%83%BD%E7%9B%B4%E6%8E%A5%E5%A4%8D%E5%88%BB%EF%BC%81",
+      "published": "Wed, 02 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：做配置的小雪 来源：雪球 社保基金一直被广大投资者称为“聪明钱”和“国家队”。 因为作为一只超级巨无霸基金，社保基金保持了非常优秀的投资胜率和收益率。 根据最新的报告，2025年，社保基金收益率达到13.22%。 自2000年成立以来，即使经历了多轮牛熊周期和剧烈波动，年均投资收益率依然高达7.62%，而且过去25年，大部分年份都在赚钱。 业绩表现这么好，靠的不是所谓的“高人”，而是一套简单清晰的制度，甚至简单到我们普通人也…",
+      "key_points": [
+        "靠的不是所谓的“高人”，而是一套简单清晰的制度，甚至简单到我们普通人也能直接复刻",
+        "2、确定个人配置中枢 ： 社保基金设立的目的，是为了应对未来人口老龄化，导致养老金出现缺口时，可以确保老百姓的养老金能够按时足额发放，所以，对安全性要求要远高于…",
+        "02 国家队的资产配置框架：战略配置+战术调仓 1、战略配置：锚定大类资产的配置中枢 和传统的资产配置类似，社保基金也是分散投资不同类型的底层资产，并且有明确的…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "紫金与神华：两种世界观的对决",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/407554736",
+      "published": "Wed, 02 Sep 2026 09:23:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "http",
+        "ROE",
+        "SH601088",
+        "SH601899",
+        "xueqiu.com"
+      ],
+      "summary": "矿王之争吵了很多年，吵不出结果。有人搬紫金半年报68%的利润增速，有人甩神华5300亿的累计分红。数据都真实，谁也驳不倒谁。 问题的根源在于，这压根不是一场同一规则下的比赛。 紫金赚的是“价格”的钱，神华赚的是“制度”的钱。 两条完全不同的赛道，硬拉到一块比，天平的刻度都对不上。 今天不谈数据堆砌，换个角度，从两家公司骨子里的世界观说起。 相信价格的，和相信制度的 紫金矿业这家公司，骨子里信的是价格。 信铜价会涨，信金价会涨，信锂价会涨。带着这个信仰满世界找矿。矿业低谷期出手，高峰期投产，卡莫阿、巨龙、波格拉，每一…",
+      "key_points": [
+        "一个被忽视的事实是：紫金的资源禀赋本身构成了更长维度的稳定性。卡莫阿、巨龙这些矿山的可采年限动辄几十年，铜的供给端全球资本开支不足已经持续了多年，新矿从发现到投…",
+        "更实际的做法是配比。一个矿业投资组合里，紫金负责进攻，神华负责防守。铜金价下跌时，神华的分红和低波动平滑回撤。煤价下跌时，紫金的铜金弹性提供对冲。配比的逻辑建立…",
+        "信金价会涨，信锂价会涨。带着这个信仰满世界找矿。矿业低谷期出手，高峰期投产，卡莫阿、巨龙、波格拉，每一单都是逆周期布局。2026年上半年金价都涨到4000多美元…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对英伟达投资联发科的解读与思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/407505906",
+      "published": "Wed, 02 Sep 2026 09:23:42 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GPU",
+        "ASIC",
+        "NVLink",
+        "NVLink-C2C",
+        "SoC"
+      ],
+      "summary": "八月最后一个交易日，美股三大指数收跌，但纳指单月仍累涨近4%。存储走强，闪迪涨5.5%，美光、闪迪分别涨约2.8%和2.2%。英伟达涨近1.5%，单月累涨近10%。 昨晚一大消息是英伟达宣布向联发科（MediaTek）投资35亿美元，深化双方在多个维度的战略合作。这是英伟达有史以来最大的海外直接投资。简单谈谈看法。 一、联发科概况 先介绍下联发科，过去大家对它的认识主要停留在智能手机SoC。随着全球智能手机进入存量博弈阶段，联发科正在积极寻求业务边界突破，加速向AI数据中心领域转型。 在芯片设计底层能力上，联发科在…",
+      "key_points": [
+        "四、总结 从129亿美元收购Hugging Face，到35亿美元投资联发科，英伟达正加速完成商业模式的扩展",
+        "物理AI（智能汽车） 双方将合作开发AI驱动的软件定义汽车平台。联发科的天玑汽车平台将深度集成英伟达技术，为智能汽车座舱提供先进AI能力与RTX图形渲染支持，并…",
+        "二、交易概况：云、端、车三大领域 英伟达此次与联发科的合作，并不局限于数据中心业务，而是围绕计算平台的演进，完成从云到端的全栈技术绑定。双方合作将主要在以下三个…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "三家家电龙头业绩对比，行业现状，和投资逻辑",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1643044849/407691353",
+      "published": "Wed, 02 Sep 2026 09:23:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PE",
+        "MIR",
+        "http",
+        "KUKA",
+        "OBM"
+      ],
+      "summary": "家电中黑白比较关注的三家企业，美的、格力、海尔智家都已经发布了半年报，咱们今天换个聊法把美的，海尔，格力，做个整体对比。 这样我们对家电行业，和几家企业的发展逻辑会有更直观的感受。 1 业绩对比 格力电器： 格力上半年营业收入：893亿，同比下降8.15% 归母净利润132亿同比，下降7.87%。 扣非归母净利润127亿，同比下降8.89% 如果只看二季度 营业收入464亿元，同比下降16.8%， 净利润71.95亿，同比下降15.43% 扣非归母净利润70.04 亿元，同比下降14.88% 美的集团： 上半年营业…",
+      "key_points": [
+        "2 家电行业的现状 先来看一下上半年家电行业现状，在此基础上我们再看各家的数据对比，比较有直观感受",
+        "1 业绩对比 格力电器： 格力上半年营业收入：893亿，同比下降8.15% 归母净利润132亿同比，下降7.87%",
+        "国内部分： 家电整体： 2026年上半年国内家电整体零售额为4250亿元，同比下降 9.9%， 一季度、二季度同比分别下降 6.2%、12.4%，空调品类拖累行…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从赛道论和对应市值来下注创新药",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5055730096/407443129",
+      "published": "Wed, 02 Sep 2026 09:23:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ADC",
+        "IO2.0",
+        "BD",
+        "IO",
+        "AK112",
+        "B7"
+      ],
+      "summary": "创新药有多个细分赛道。 虽然最近医药股的一波短期脉冲行情是Moderna点燃的；但中国的优势赛道不在于mRNA，而在于另外三个：IO2.0，ADC，和一个卖铲子的CRO。 IO 2.0赛道 IO免疫药物，特点是广谱，多病种，一旦跑出来就是“基石”级药王。20年前的K药，到现在还没达峰，25年销售额300亿美金+。 所以中国目前占优势的的下一代IO2.0赛道，远比mRNA这个赛道大的多得多。 而IO2.0这个细分赛道，毛估市场整体给了5000亿-1万亿的总市值，分布在更细分的三个小赛道。 细细分1. PD1+VEGF…",
+      "key_points": [
+        "这几个IO2.0的细分我都押了一些，维立志博仓位最多。只因为独占一个细分赛道，总市值最小弹性最大，且靠后线EP-NEC的填补空白已确保能成药。先不用管能否成为I…",
+        "总市值也超5千亿了。很大的赛道，又不能不关注。没找到好办法，只能按临床进度广撒网了一些，每个仓位都很轻。科伦，百利，映恩，再鼎，甚至还有我一直耿耿于怀的康宁杰瑞",
+        "如果未来还有像22年那种创新药超低迷期，却不知道抄什么的时候，果断押这几个药明很安全，回暖了就能翻倍的赚"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI互联网日报：Qwen3.8-Max前端编程榜单升至全球第一、网信办清理561万余条AI违规信息、努比亚豆包手机完成入网",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6458819.html",
+      "published": "Wed, 02 Sep 2026 09:18:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Google",
+        "Claude",
+        "OpenAI",
+        "ChatGPT",
+        "Fable"
+      ],
+      "summary": "1691分，Qwen3.8-Max把前端编程榜单推到新高，也把长周期智能体继续往企业工作里压。Claude Fable 5.1则把高度智能体化任务的成本最多降约45%，说明竞争正从“更聪明”转向“更能持续干活”。老曹的判断是，榜单会反复换座次，真正留下用户的，是复杂任务做得稳，账单也算得过来。 一起来看看这两天发生的AI和互联网赛道的大事件吧！ 📌 今日AI互联网大事件速览 1，阿里升级Qwen3.8-Max，前端编程榜单升至全球第一 2，努比亚豆包手机完成入网，NaviX Ultra计划9月开售 3，智谱把GLM…",
+      "key_points": [
+        "阿里升级Qwen3.8-Max，前端编程榜单升至全球第一 2，努比亚豆包手机完成入网，NaviX Ultra计划9月开售 3，智谱把GLM Coding Pla…",
+        "前端编程榜单升至全球第一 核心内容 ：阿里将旗舰模型Qwen3.8-Max升级至0902版本，针对编程和专业办公进行了专项后训练。新版在第三方前端开发榜单Cod…",
+        "Qwen3.8-Max把前端编程榜单推到新高，也把长周期智能体继续往企业工作里压。Claude Fable 5.1则把高度智能体化任务的成本最多降约45%，说明…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "1914元制作1集？漫剧仍困在隐性成本中",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6458717.html",
+      "published": "Wed, 02 Sep 2026 08:43:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AIGC",
+        "IP",
+        "DataEye",
+        "prompt",
+        "AniShort"
+      ],
+      "summary": "AI漫剧正从边缘实验跃升为平台战略级内容，但千元做剧的传说背后，是28.7%的抽卡成功率与45天的角色修正。当卫视黄金档与资本热搜同时拥抱AI长剧，这场狂欢的真相，远比数字复杂。本文拆解成本账本与产业坐标，揭示被遮蔽的真实图景。 2026年8月31日傍晚，长沙。国内首部上星播出的AIGC长剧《后西游记》在湖南卫视黄金档开播。没有真人演员，画面与人物演绎全部由AI完成。 1700公里外的香港，8月24日兑吧集团股价单日暴涨78%，其AI短剧业务上半年收入2.23亿元，占集团总营收过半。而在北京，「短剧按摩大脑」刚刚冲…",
+      "key_points": [
+        "兑吧集团（01753.HK）发布2026年中期业绩公告。AI短剧业务自1月推出以来，上半年累计贡献收入2.23亿元，占集团总收入51.2%，正式成为公司强劲增长…",
+        "其核心价值在于低成本、高产能、快迭代；长剧时代，核心价值转向拓展类型边界、降低试错成本、盘活IP储备。一部真人拍摄成本过高的修仙长剧，用AI制作可能只需数十万元…",
+        "角色一致性是最大技术瓶颈。比如，同一主角在第1集与第10集的脸型可能完全不同。解决这一问题需要建立角色LoRA、训练角色模型、维护资产库，或人工逐张修图，但这些…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "整个AI圈都在斩杀，Qwen却算了一笔长期账",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6457927.html",
+      "published": "Wed, 02 Sep 2026 07:41:04 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "Qwen",
+        "Qwen3.8-Flash",
+        "Flash",
+        "Qwen4",
+        "AI"
+      ],
+      "summary": "英伟达把\"每一美元能买多少智能\"立成行业新尺子，千问一个月四次迭代交卷。Qwen3.8-Flash 提前放出为 Qwen4 准备的 Next 架构，把下一代地基交给开源社区先跑，友商却锁在发布会前。这场长期账，算的是架构开放与生态耐心。 上个月，英伟达发了篇论文，提了个概念，intelligence per dollar，每一美元能买到多少智能。 以前行业比谁脑子大、参数多，往后得比每一美元买到多少智能；这个尺子立起来刚一个月，千问就把答案交了。 模型迭代的节奏也确实变了，以前几个月憋一个重磅，现在几乎每天来一波。…",
+      "key_points": [
+        "英伟达把\"每一美元能买多少智能\"立成行业新尺子，千问一个月四次迭代交卷。Qwen3.8-Flash 提前放出为 Qwen4 准备的 Next 架构，把下一代地基…",
+        "阿里云自己养着算力，0.8 元、2.7 元是长期价。同样斩杀线，一个拿补贴，一个拿家底；谁划得久，比谁划得低更值得看",
+        "它反手把线又压下去一截，斩杀线这东西，一天之内又往下挪了一格"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "变味的 FDE",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6457256.html",
+      "published": "Wed, 02 Sep 2026 07:31:57 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FDE",
+        "Palantir",
+        "AI",
+        "ToB",
+        "Agent",
+        "CC0"
+      ],
+      "summary": "FDE 被 Palantir 带火，本意是用临时「碎石路」方案跑通客户，再提炼成可复用的标准产品「高速公路」。但传到国内后，碎石路直接成了目的，大量 FDE 退化成纯外包。没有坚定做标准产品的定力，再热闹的 FDE 也只是定制泥潭。 最近和一位做 FDE 的朋友聊天，我问他：FDE 这么火，有人赚到钱了吗？ 他说：很难。因为大部分 FDE 其实就是外包，而做外包赚钱，并没有那么容易。 这位朋友说得可能有点夸张，但也确实说出了一个现状：传到中国的 FDE，已经变味了。 FDE 原本的意义，其实是产品探索。 FDE 是…",
+      "key_points": [
+        "但也确实说出了一个现状：传到中国的 FDE，已经变味了"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一文理清 HarmonyOS 6.0.2 涵盖的十个升级点",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6458625.html",
+      "published": "Wed, 02 Sep 2026 07:08:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HarmonyOS",
+        "https",
+        "App",
+        "cn",
+        "consumer",
+        "developer.huawei.com"
+      ],
+      "summary": "HarmonyOS 6.0.2 带来多项实用更新：ArkUI 新增 Picker 容器、滚动内容总大小获取、Tabs 图片指示器，ArkWeb 支持快速回顶，基础服务新增注解能力，加解密支持 ChaCha20。本文逐一解析这些新特性，助你快速掌握开发要点。 HarmonyOS 6.1 已于 2026 年 4 月 20 日正式发布，但在 HarmonyOS 6.0 和 HarmonyOS 6.1 两个版本之间，还有 HarmonyOS 6.0.1 和 HarmonyOS 6.0.2 两个小版本。下面结合《鸿蒙Harm…",
+      "key_points": [
+        "@TargetApi(Build.VERSION_CODES.O) 鸿蒙一书的对应章节 《鸿蒙HarmonyOS 6应用开发:从零基础到App上线》一书的“2.…",
+        "鸿蒙一书的对应章节 《鸿蒙HarmonyOS 6应用开发:从零基础到App上线》一书的“12.5 实战项目：仿微信的私聊和群聊”小节介绍了如何使用MD5算法获取…",
+        "鸿蒙一书的对应章节 《鸿蒙HarmonyOS 6应用开发:从零基础到App上线》一书的“12.1.2 GTE方式调用”小节介绍了如何给App模块申请网络访问权限…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么书法界会排斥「江湖体」？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792300",
+      "published": "Tue, 01 Sep 2026 23:01:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "byxm2024",
+        "cm",
+        "XX"
+      ],
+      "summary": "为什么书法界会排斥“江湖体”？ 花落书香， 卖沉香的、业余书法家，传武、中医爱好者。沉香交流：byxm2024 查看知乎原文 大多数搞传统书法的书友，会将“江湖书法”归为不学无术，认为不临帖，拿起笔乱写就是市面上常见的“江湖体”！ 不是的，没有这么简单！ 市面上被网友称为“江湖书法”的作品，其实叫“商业书法”更为合理，可以对标绘画里面的“行画”。 我年轻时候写的江湖体 江湖书法也是成体系，有非常多的从业者，占据绝大部分的低端市场； 因为商业模式的不同，“江湖书法”大概分两大类从业者： 一是流水线一样，师傅带徒弟的模…",
+      "key_points": [
+        "为什么书法界会排斥“江湖体”",
+        "当初写的启功体商业作品 本人仿田英章风格的 我提这个是什么意思呢？我想说的是，所谓“江湖体”，也需要天天练的，江湖体大佬们，但凡字卖得好的，每天除了写字，就是琢…",
+        "传统书法的市场太小了，好多人沉浸在自己的世界里面，不去研究大众的喜好，字卖不出去，看人家水平不高的人，写江湖体月入过万，难免有情绪，把这种情绪归结为大众审美不高…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "历史上的每个朝代都有哪些烂大街的名字?",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792303",
+      "published": "Tue, 01 Sep 2026 23:00:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "宁南左侯， 太极生二姨 查看知乎原文 明朝后期的“承恩”啊，大规模出现在嘉靖后期和万历时期，所以到万历中后期开始广泛出现在各个战线上。 府军前卫就有实授百户李承恩，万历三十一年八年袭职，时年四十四岁。 百户徐承恩，万历三年承袭，时年二十四岁。 试百户卢承恩，嘉靖四十一年承袭，时年三十一岁。 百户刘承恩，嘉靖四十四年承袭，时年十岁。 百户刘承恩 2.0，隆庆三年承袭，时年二十三岁。 百户李承恩 2.0，万历二十一年承袭，时年二十一岁。 副千户杨承恩，万历二十年承袭，时年十九岁。 百户刘承恩 3.0，万历十年承袭，时年…",
+      "key_points": [
+        "还有锦衣卫指挥使安承恩、海承恩、白承恩，指挥同知裴承恩、王承恩，指挥佥事奚承恩、郤承恩、张承恩，千户马承恩、王承恩，副千户刘承恩、吴承恩，百户胡承恩、张承恩，镇…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "耐克越来越卖不动了，但每年仍打给刘翔1400万",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%80%90%E5%85%8B%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86%EF%BC%8C%E4%BD%86%E6%AF%8F%E5%B9%B4%E4%BB%8D%E6%89%93%E7%BB%99%E5%88%98%E7%BF%941400%E4%B8%87",
+      "published": "Wed, 02 Sep 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HOKA",
+        "Salomon",
+        "ACG",
+        "App",
+        "Basecamp",
+        "House"
+      ],
+      "summary": "作者：龚正 编辑：杨晶 一个是连续8个季度在中国市场经营下滑的巨头，一个是退役11年仍被按时打款的运动员，这两件事都同时发生在了耐克身上。 就当中国消费者，把“梦中情鞋”转向HOKA、Salomon、昂跑等“中产新三件套”时，耐克却对当初签下的刘翔始终不弃，形成了“唯利是图”世界里的另一种“反商业套路”。 耐克在中国，真的卖不动了 “除了那个勾，还有什么。”、“原价899元降到429元还是不行。” 对北京青年小刘来说，很难想象20年前，耐克鞋在周围朋友心中，会变成这个形象。 那时他记得，自己买了一双基础款跑鞋，花了…",
+      "key_points": [
+        "真的卖不动了 “除了那个勾，还有什么。”、“原价899元降到429元还是不行。” 对北京青年小刘来说，很难想象20年前，耐克鞋在周围朋友心中，会变成这个形象",
+        "还能否回春 回到2026年。耐克大中华区营收跌破60亿美元，连续八个季度下滑。另一方面，刘翔的1400万保底收入每年准时到账",
+        "刘翔19岁，还是田径圈内的新人一枚。无奥运冠军纪录，也没打破过世界纪录。结果那时，耐克就以每年20-30万元的价格签下了他"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "失踪几十年，遗体一一出现，麻烦大了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%B1%E8%B8%AA%E5%87%A0%E5%8D%81%E5%B9%B4%EF%BC%8C%E9%81%97%E4%BD%93%E4%B8%80%E4%B8%80%E5%87%BA%E7%8E%B0%EF%BC%8C%E9%BA%BB%E7%83%A6%E5%A4%A7%E4%BA%86",
+      "published": "Wed, 02 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DNA",
+        "ID",
+        "SouthReviews",
+        "Huss",
+        "Kaub",
+        "Lobith"
+      ],
+      "summary": "本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：贺一 编辑：张来 1992年9月，两名比利时登山者从瑞士西南部瓦莱州的魏斯米斯山小屋出发，计划翻越海拔4017米的魏斯米斯山。途中天气恶化，两人失踪。此后的多次搜救，只找到一个登山背包。 2026年7月26日，一名徒步者在魏斯米斯山附近、萨斯格伦德境内的特里夫特冰川发现了人体遗骸。遗骸随后被送往瓦莱州医院位于锡永的法医研究所。8月，警方通过DNA比对确认，死者正是1992年失踪的两名比利时登山者。 34年来，这起失踪案没有出现新的线索。…",
+      "key_points": [
+        "仅几周内，瑞士南部瓦莱州不同冰川就接连发现人体遗骸；同一时期，阿莱奇冰川还露出了一架1968年坠毁的小型飞机残骸。瓦莱州警方也表示，随着冰川退缩，几十年前失踪者…",
+        "有人在冰川上发现几十年前的失踪者，不是件新鲜事",
+        "瑞士夫妇马塞兰和弗朗辛·迪穆兰外出照料牲畜后失踪，留下七个年幼的孩子。75年后，两人的遗体在特桑弗勒龙冰川被发现，身边还有背包、手表和书等物品。DNA确认身份后…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "Anthropic发布新模型；OpenAI计划发布新模型Astra；戴森新AI牙刷价格￥3899，可拍牙菌斑",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+Anthropic%E5%8F%91%E5%B8%83%E6%96%B0%E6%A8%A1%E5%9E%8B%EF%BC%9BOpenAI%E8%AE%A1%E5%88%92%E5%8F%91%E5%B8%83%E6%96%B0%E6%A8%A1%E5%9E%8BAstra%EF%BC%9B%E6%88%B4%E6%A3%AE%E6%96%B0AI%E7%89%99%E5%88%B7%E4%BB%B7%E6%A0%BC%EF%BF%A53899%EF%BC%8C%E5%8F%AF%E6%8B%8D%E7%89%99%E8%8F%8C%E6%96%91",
+      "published": "Wed, 02 Sep 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Astra",
+        "Fable",
+        "OpenAI",
+        "AI",
+        "Anthropic",
+        "Mythos"
+      ],
+      "summary": "今天是9月2日，星期三。1752年的今天，英国及其殖民地正式将儒略历切换为更精确的格里高利历（即公历）。为纠正累积的时间误差，日历直接从9月2日跳至9月14日，删除了11天。 重点新闻速览 1. Anthropic发布Claude Fable 5.1和Mythos 5.1 2.OpenAI计划发布新模型Astra 3.我国在高端遥感动态成像关键技术领域取得重要突破 4.“中国天眼”联合DESI重绘宇宙中性氢演化图景 5. 戴森新AI牙刷价格￥3899，可拍牙菌斑 科技 Anthropic发布Claude Fable…",
+      "key_points": [
+        "尽管同期宇宙恒星形成活动显著减弱（约为今天的2.5倍），但作为星系重要气体储备的中性原子氢密度仅约为今天的1.4倍，这种演化速率上的强烈反差直接排除了“中性氢快…",
+        "可拍牙菌斑 科技 Anthropic发布Claude Fable 5.1和Mythos 5.1 当地时间9月1日，Anthropic发布Claude Fable…",
+        "Anthropic发布Claude Fable 5.1和Mythos 5.1 2.OpenAI计划发布新模型Astra 3.我国在高端遥感动态成像关键技术领域取…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "为什么一到中年，就偷偷狂买羊毛衫？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E5%88%B0%E4%B8%AD%E5%B9%B4%EF%BC%8C%E5%B0%B1%E5%81%B7%E5%81%B7%E7%8B%82%E4%B9%B0%E7%BE%8A%E6%AF%9B%E8%A1%AB%EF%BC%9F",
+      "published": "Wed, 02 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SIIJJEYY",
+        "dc_ps",
+        "feature",
+        "sla3SQK0Ej",
+        "v2"
+      ],
+      "summary": "当大家都还在琢磨要不要再买几件夏装的时候，我已经在给大家盘算怎么 省钱 了！ 要说什么时候买秋冬的衣服最划算，那必然是 反季 ！ 也许你现在一看到这些东西就觉得热气冲天只想划过，但想想这 比当季掉了快一半的价格 ，这把羊毛谁忍得住不薅！ 这次为大家精心挑选了一件反季 亏本清仓 好物， 100%的纯羊毛材质 ，只需要2位数的价格，就能拥有敲软糯羊毛衫！ 作为矜贵的“软黄金”， 不仅有原产地证书。 而且还有果壳送检的 检测报告 作证哦！ 精选来自 澳洲的美利奴羊毛 ，纤细柔软，由它制成的衣服具有良好的 垂坠感 和 柔顺…",
+      "key_points": [
+        "今天 79元起 就可以到手一件绞花纯羊毛衫了，姐妹们冲鸭~~ SIIJJEYY枝辑羊绒衫 推文价： 79元起 👇🏻戳图购买👇🏻 第 二 款 桂花针V领帽衫 心机…",
+        "版型 版型是一件羊毛衫的灵魂所在~ 不信你看，市面上的羊毛衫看似差不多，但是上身有的松松垮垮不成型，有的太修身显肚子又显胯宽",
+        "这次为大家精心挑选了一件反季 亏本清仓 好物， 100%的纯羊毛材质 ，只需要2位数的价格，就能拥有敲软糯羊毛衫"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "一代武侠巨星，去世了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%80%E4%BB%A3%E6%AD%A6%E4%BE%A0%E5%B7%A8%E6%98%9F%EF%BC%8C%E5%8E%BB%E4%B8%96%E4%BA%86",
+      "published": "Wed, 02 Sep 2026 21:13:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "qq.com",
+        "Roxie"
+      ],
+      "summary": "文 Roxie 陈观泰去世， 80岁。 提到这个名字，我们的脑海里会一下子涌出无数邵氏电影的画面。当年， 张彻 开创武侠阳刚潮流， 但他的阳刚美学内部并非铁板一块， 也是 通过不同类型的演员，来展开不同面向的男性气质。 最早的第一代是 王羽，桀骜、孤绝，一个人就是一把刀。 王羽 姜大卫是第二代的核心之一，冷峻 的 少年气，有一种叛逆的灵动。 姜大卫 狄龙是另一极， 高大 英俊健美，张彻后来说他的俊是拒绝脂粉味的俊，有 香港演员里不多见的 古典正剧气质。 狄龙 和狄姜同期的 陈观泰 是另一种。 陈观泰 张彻讲过，陈观…",
+      "key_points": [
+        "此后几年他还陆续在《锦衣卫》《鸿门宴》《恶战》《师父》 《刀背藏身》 等片中出现，演的往往都是老辈高手或权力人物。这些角色的共性是，新一代导演请他来，请的不只是…",
+        "新浪潮改变了电影语言，嘉禾、德宝以及大量独立公司改变了生产格局，英雄片、 无厘头喜剧 和新武侠 运动， 也把 他擅长的 动作电影推进到完全不同的位置 ， 他的第…",
+        "《洪熙官》(1977) 1978年和解回归邵氏以后，陈观泰的银幕形象开始发生明显转向。张彻拍《残缺》，让他演反派杜天道，一 个 残暴的乡间恶霸，对手是郭追、孙建…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "电影是一门孤独的艺术，他拍了最孤独的电影",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E7%94%B5%E5%BD%B1%E6%98%AF%E4%B8%80%E9%97%A8%E5%AD%A4%E7%8B%AC%E7%9A%84%E8%89%BA%E6%9C%AF%EF%BC%8C%E4%BB%96%E6%8B%8D%E4%BA%86%E6%9C%80%E5%AD%A4%E7%8B%AC%E7%9A%84%E7%94%B5%E5%BD%B1",
+      "published": "Wed, 02 Sep 2026 21:13:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "Ann",
+        "hongmomgs",
+        "irisfilm",
+        "Lee",
+        "Mamas"
+      ],
+      "summary": "作者：Ann Lee 译者：覃天 校对：易二三 来源：Sight &amp; Sound（2021年2月3日） 电影是一门集结了孤独、心碎和欲望的艺术，而王家卫则将这些情绪附着在了自己的电影中。这篇文章就将带领大家进入王家卫充满了强烈情感的电影世界。 选择看一部王家卫的电影，就意味着进入一个情绪充盈的世界。这不仅是因为它们讲述了令人难忘，命运多舛的浪漫故事，更因为这位香港导演吸引观众的高超手段。影片中梦幻般的质地，鲜艳的色彩和激动人心的音乐编织出一种强烈的氛围，让你完全被催眠。 作为一名痴迷于诱惑带来的沉醉感的导演…",
+      "key_points": [
+        "Ann Lee 译者：覃天 校对：易二三 来源：Sight &amp; Sound（2021年2月3日） 电影是一门集结了孤独、心碎和欲望的艺术，而王家卫则将这…",
+        "并用他深刻而惊心动魄的爱情、疏离和心碎的故事把它们变成了完全独特的影片。在1997年的戛纳电影节上，王家卫凭借《春光乍泄》赢得了最佳导演奖，从而获得了国际性的赞…",
+        "《堕落天使》（1995） 当恋人们结束一段关系后，他们之间留下的唯一一件事就是他们对这段恋情的记忆。回忆，将把他们永远束缚在失去的爱情中。编号是223的警察（金…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国“财富”地理",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E2%80%9C%E8%B4%A2%E5%AF%8C%E2%80%9D%E5%9C%B0%E7%90%86",
+      "published": "Wed, 02 Sep 2026 18:37:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Jubei",
+        "kratos",
+        "ni",
+        "zh"
+      ],
+      "summary": "2026年9月3日 是农历七月廿 （niàn） 二 很多人不知道这是什么日子 它就是大家当下 最不想忽视的中国传统节日 财神节 值此财神佳节即将到来之际 地理君也应个景 为你带来这份中国“财富”地理 希望大家八方来财 宝藏的一省一市 “一省” 豫豫生辉，地球最“闪耀”的省 作为 “宝石硬度之王” 的钻石，以其极高的折射率和强色散，能将白光折射出迷人“火彩”，长期以来都是财富的象征。 近年来，合成钻石愈发受全世界青睐。中国制造的合成钻石，出口额更是突飞猛进。 比如今年上半年，通过上海钻石交易所申报一般贸易出口相关产品…",
+      "key_points": [
+        "2026年9月3日 是农历七月廿 （niàn） 二 很多人不知道这是什么日子 它就是大家当下 最不想忽视的中国传统节日 财神节 值此财神佳节即将到来之际 地理君…",
+        "【参考文献】 [1]《开启中国金库之门》中国国家地理2003年01期 [2]《这里为什么成为中国“最金贵”城市？丨这座城市有点东西》中国新闻网 2025年12月…",
+        "辽东地区出土的西汉马蹄金 东北地区仅此一对 图源：旅顺博物馆 胶东的大金矿 莱州、招远、栖霞、乳山…… 从地图上看，它们只是胶东半岛东部、烟台下辖的一串普通地名…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "小学算术视野下的人生",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%B0%8F%E5%AD%A6%E7%AE%97%E6%9C%AF%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E4%BA%BA%E7%94%9F",
+      "published": "Wed, 02 Sep 2026 11:54:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "假设每个人平均可以活 80 年，22 岁开始上班，60 岁退休，那么，上班的 38 年是 80 年人生的 47.5%，也就是说，为了保障自己的人生，需要用生命的近一半去上班。 而每个人每天睡 8 小时，占一天的⅓，计算下来，人生的 33.33% 用于睡觉休息。如果这样计算的话，人生未免有些悲观，休息和打工已经占用了 80% 的人生，只有 20% 算是自己的。 但这里还有一种算法，不去计算工作日，而是计算工作时长。假设一周工作 5 天，每天工作 8 小时。同时，把通勤时间计入，再把午休时间加上---午休是工作带来的，…",
+      "key_points": [
+        "我一直怀疑成人算术在一开始就是错的。那个算式说，通过不断在社会生活中投入，通过不断对外获取，然后就会得到美好人生。刚才我的小学算术显示，如果你此时此刻就思考，就…",
+        "用小学算术计算一下就知道，即便一个人活 80 年，人生中的大部分时间都不属于自己，最少有一半早已经被占用。如果每天能给自己留下一两个小时，这已经算是很奢侈的事情…",
+        "既然人生中的大部分时间都安排满了强制任务，那么剩下的那一点属于个人的时间是不是应该精打细算一番？很多人的逻辑是不是弄反了？觉得在强制任务上投入足够多的时间精力，…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "中国博士后，已经50万+了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%B8%AD%E5%9B%BD%E5%8D%9A%E5%A3%AB%E5%90%8E%EF%BC%8C%E5%B7%B2%E7%BB%8F50%E4%B8%87%2B%E4%BA%86",
+      "published": "Wed, 02 Sep 2026 08:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "editor",
+        "get",
+        "Intellectual",
+        "L3",
+        "zhishifenzi.com"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 1990年，中国博士后科学基金会成立。 图片来源：中国博士后科学基金会 撰文｜张天祁 ‍ 撰文｜ 刘天明 （佐治亚大学 教授） ‍ 撰文｜ 仇旻 （西湖大学副校长、工学院院长，西湖大学光电研究院院长） ● ● ● 最近，小红书上有人晒出自己的博士后证 件 ，编号已经超过 50 万。 40 多年前，这个编号还是 “ 001” 。从 001 到 50 万，中国博士后制度走过了怎样的一段路？又有多少人的人生，被这串数字记录其中？ 中国博士后制度的起点，可以追溯…",
+      "key_points": [
+        "全国累计招收博士后超过 24 万人；到 2025 年 博士后 制度实施 40 周年时，这一数字已超过 40 万人。截至 2025 年 6 月底，全国共有 386…",
+        "图片来源：中国博士后科学基金会 撰文｜张天祁 ‍ 撰文｜ 刘天明 （佐治亚大学 教授） ‍ 撰文｜ 仇旻 （西湖大学副校长、工学院院长，西湖大学光电研究院院长）…",
+        "洪志良从瑞 士 苏黎世联邦理工学院 回国进入复旦大学物理学博士后科研流动站，成为中国博士后制度正式建立后招收的第一位博士后，编号 “ 001” 。第一批 博后…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "年轻人为什么突然迷上了一场“自虐式”比赛Hyrox ？| 经济学人文化",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AA%81%E7%84%B6%E8%BF%B7%E4%B8%8A%E4%BA%86%E4%B8%80%E5%9C%BA%E2%80%9C%E8%87%AA%E8%99%90%E5%BC%8F%E2%80%9D%E6%AF%94%E8%B5%9BHyrox++%EF%BC%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E6%96%87%E5%8C%96",
+      "published": "Wed, 02 Sep 2026 17:21:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "Hyrox",
+        "upwards",
+        "grumble",
+        "accounting",
+        "cost"
+      ],
+      "summary": "本文选自经济学人文化板块 Sep 1st 2026 https://www.economist.com/culture/2026/09/01/hyrox-the-fitness-craze-that-runs-and-runs 先跑一公里，再上滑雪机；接着继续跑，还要划船、负重弓步、做波比跳、推拉雪橇。折腾完这一整套，90分钟只能算“成绩体面”。高手会把时间压到一小时以内。这项比赛叫 Hyrox 。2017年汉堡首场比赛只有约650人；到了2026—2027赛季，预计将有超过200万人在六大洲参赛。门票贵、训练苦，…",
+      "key_points": [
+        "本文选自经济学人文化板块 Sep 1st 2026 https://www.economist.com/culture/2026/09/01/hyrox-the…",
+        "年轻人为什么愿意花钱受累",
+        "它已经不只是一场比赛 相关话题在 Instagram 和 TikTok 上的浏览量已超过5亿次；Peloton推出了专项训练课，欧洲还出现了四天的Hyrox主题…"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "蔚来是一种命运",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E8%94%9A%E6%9D%A5%E6%98%AF%E4%B8%80%E7%A7%8D%E5%91%BD%E8%BF%90",
+      "published": "Wed, 02 Sep 2026 21:15:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ES8",
+        "ES9",
+        "NT2",
+        "NT3",
+        "ET9",
+        "ClearMotion"
+      ],
+      "summary": "2023年底的媒体沟通会上，李斌表示“蔚来的谷底已经过去了”，不出意外收获一片嘲讽。 当时是蔚来NT2平台的产品周期末期，车型全面覆盖，最大的店都放不全。NIO Phone震撼登场，NIO life联名设计师堆满一面墙，原创设计有口皆碑，价格底线牢牢守住，顾客一进店就会被fellow教育： 蔚来不参与价格战，没有低于30万的车。 唯一缺点是车卖不出去，两代平台8款车，凑不出一辆月交付破万的车型。 2023年，蔚来交付了16万辆车，研发、门店、充换电站投入只增不减，全年成功亏损211亿，差不多日均亏6000万，换成百…",
+      "key_points": [
+        "07.命运 回到2023年李斌的“走出低谷”，蔚来当时的状态，在商业史上有一个对照组： 1997年的苹果",
+        "很多人没有意识到，蔚来其实是一家垂直整合程度非常高的车企，自研浓度极高",
+        "因为李斌看见的蔚来和市场看见的蔚来，不是一个东西"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-03",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何看待《经济学人》关于诺奖得主阿西莫格鲁「世界上最有影响力的经济学家，却不令人信服」的文章？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792319",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "hit",
+        "piece"
+      ],
+      "summary": "冷哲， 自我感觉良好的时候，通常也是位于愚昧之巅的时候 查看知乎原文 阿西莫格鲁的那些宣扬欧美制度优越性的论断，包括《国家为什么会失败》在内，被人批驳，这是很正常的事情。 他的这类作品，和《历史的终结》是同一类东西。 但这次有趣的地方在于，是《经济学人》在批驳他。要知道《经济学人》之前在这些方面的态度，和阿西莫格鲁的这些更大众化（而在学书上并不严谨）的论调并没有什么大的差异。 甚至我们可以说，《经济学人》背后的政治力量和为阿西莫格鲁推上诺贝尔奖桂冠的政治力量，基本上是同一批。 所以，令人玩味的不是《经济学人》这篇文…",
+      "key_points": [
+        "我觉得还有一个疑点，就是为什么经济学人要批判阿西莫格鲁获诺贝尔的作品。他那个方向的研究原本是很符合《经济学人》胃口的。而诸如斯蒂格利茨、克鲁格曼等诺贝尔奖获得者…",
+        "是《经济学人》在批驳他。要知道《经济学人》之前在这些方面的态度，和阿西莫格鲁的这些更大众化（而在学书上并不严谨）的论调并没有什么大的差异",
+        "无疑与《经济学人》一贯的立场背道而驰。因此有的朋友主张，阿西莫格鲁被批判，主要原因是这个"
+      ]
+    }
+  ]
+}
