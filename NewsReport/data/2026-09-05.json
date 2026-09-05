@@ -1,0 +1,769 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T01:00:11.340751+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 64,
+    "backfill_candidates": 29,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-05",
+      "fetched_at": "2026-09-05T01:00:06.044261+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3930.12,
+          "change": -11.97,
+          "change_pct": -0.3,
+          "volume": 537286161.0,
+          "amount": 93825519.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4430.96,
+          "change": -42.029999999999745,
+          "change_pct": -0.94,
+          "prev_close": 4472.99,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-05 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 956.0109430771457,
+          "change": -9.06826961595948,
+          "change_pct": -0.9396399276546418,
+          "prev_close": 965.0792126931052,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-05 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-05",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "危机到来前，我先做六次压力测试",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%8D%B1%E6%9C%BA%E5%88%B0%E6%9D%A5%E5%89%8D%EF%BC%8C%E6%88%91%E5%85%88%E5%81%9A%E5%85%AD%E6%AC%A1%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95",
+      "published": "Fri, 04 Sep 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-",
+        "KAIZEN"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： KAIZEN投资之道 来源：雪球 这些年我越来越明白 ， 真正让人陷入困境的 ， 可能是你把自己的生活搞得过于脆弱 。 危机来不来 ， 只是时间问题 。 就像一栋房子 ， 风和日丽时看着挺好 。 地基没打牢 ， 梁柱用杠杆 ， 墙里埋着高息负债 。 台风一来 ， 最先塌的往往就是那栋平时看起来最豪华的 。 我不再执着于预测危机什么时候来 ， 反而问自己一个问题 ： 如果明天一切归零 ， 我的生活会不会瞬间崩盘 ？ 答案藏在…",
+      "key_points": [
+        "是我给自己做的六次压力测试",
+        "危机不是买入理由 ， 便宜才是 早年投资我犯过一个典型的错 ： 看到跌了就觉得是机会 ， 跌20%买一点 ， 跌30%再加一点 ， 越买越没现金 ， 最后发现自…",
+        "我现在习惯反过来想 ： 不要先问 “ 危机来了我怎么赚钱 ” ， 先问 “ 危机来了什么东西会让我彻底完蛋 ”"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谁才是真正的周期之王？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6858312012/407947353",
+      "published": "Fri, 04 Sep 2026 10:09:15 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OPEC+",
+        "ETF",
+        "http",
+        "LNG",
+        "MDI",
+        "PVC"
+      ],
+      "summary": "铜、黄金、石油、煤炭、电解铝、化工、磷矿、航运，大家都叫周期资产，但真正投起来，它们背后的周期并不是同一种周期。有人赚的是价格上涨后的利润弹性，有人赚的是供给多年无法跟上的时间差，有人赚的是货币与信用变化，还有人赚的是短期有效运力骤减带来的极端行情。 先看一个简化例子：假设一吨铜的综合成本为5万元，售价为8万元，吨利润就是3万元。如果铜价涨到10万元，收入只增加25%；即使成本升到5.3万元，吨利润也会变成4.7万元，较原来增长约57%。这并不意味着现实中的矿山成本固定不变。能源、人工、设备、运输、税费、矿石品位和…",
+      "key_points": [
+        "———————————————————————————— 九、到底谁才是真正的周期之王",
+        "———————————————————————————— 六、化工：产能周期之王 化工最接近传统教科书中的周期行业：高利润，扩产；产能过剩，利润下滑；企业亏损，…",
+        "黄金的周期可以拆成两层：第一层是金价本身的货币与金融周期；第二层是金矿企业在金价变化下体现出的经营杠杆。黄金更像 货币周期之王"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "对博通财报的解读与思考",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/407838765",
+      "published": "Fri, 04 Sep 2026 10:06:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Q4",
+        "XPU",
+        "ASIC",
+        "TPU",
+        "GPU"
+      ],
+      "summary": "昨晚美股科技迎来修复，英伟达涨超3%；存储方面，美光、海力士分别涨超2.4%和2.6%。前一日公布业绩和指引大超预期的戴尔大涨近16%。 昨晚博通财报公布。这也是继英伟达之后，另一份市场聚焦审视AI基础设施超级周期的财报。博通盘后走势震荡，先是因第四财季营收指引略逊预期而下跌超6%，随后又在电话会议给出强劲长期指引后修复，下跌不到1%。简单做个总结。 一、博通财报解读 第三财季，博通财报数字总结如下： 尽管数字亮眼，但内部业务结构出现了明显分化： 1. 营收与利润双爆发： Q3博通实现总营收295.9亿美元，同比增…",
+      "key_points": [
+        "二、博通电话会解读 虽然财报指引有微小瑕疵，但博通的电话会则扭转了此前的悲观情绪",
+        "博通财报数字总结如下： 尽管数字亮眼，但内部业务结构出现了明显分化： 1",
+        "另一份市场聚焦审视AI基础设施超级周期的财报。博通盘后走势震荡，先是因第四财季营收指引略逊预期而下跌超6%，随后又在电话会议给出强劲长期指引后修复，下跌不到1%…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "都在说美债要崩！理性点，崩不了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/407988013",
+      "published": "Fri, 04 Sep 2026 10:00:49 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "AI",
+        "http",
+        "QE",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "最近，很多博主都在说美债要崩。 一些读者问：为啥说了这么久的崩溃，美债还是没崩？这些博主在骗人吗？ 大家都有点看热闹不嫌事大的心态，都希望美债崩。 但理性一点！ 首先，美债很长时间内都崩不了； 其次，没有人愿意看到美债崩。 一、什么是崩溃？ 对于债券来说，崩溃就是指没人相信它能兑现了。 对于一国国债来说 ， 崩溃是指政府无法偿还利息了。 仅仅是利率上升，并不等于崩溃。只不过随着利率不断上升，政府的压力会越来越大而已。 以现在现在的利率水平来说，离崩溃还远得很。 以美债40万亿美元的规模，如果资金全都抛售了，请问买什…",
+      "key_points": [
+        "五、利率走高的影响不容小觑 虽然美债崩不了，但利率如果不断走高，影响也很大",
+        "美债很长时间内都崩不了； 其次，没有人愿意看到美债崩",
+        "二、没人愿意看到美债崩 这么多财富都以美债的形式存在，如果美债突然间崩了，这些财富就瞬间归零了"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "遇事不决五五开，等权重为何总让高级模型难堪",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3559889031/407993197",
+      "published": "Fri, 04 Sep 2026 10:00:40 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DeMiguel",
+        "Feng",
+        "Financial",
+        "Garlappi",
+        "Management",
+        "Portfolio"
+      ],
+      "summary": "我平常投资做选择时，喜欢说一句：“遇事不决，五五开。” 这不是玩笑。 两边都没有足够把握，那就先各给一半，不急着重押。后来我才发现，这句口头禅放进投资里，恰好就是等权重最简洁的版本。 当然，资产一多，就不只是五五开了。 大约在公元四世纪，拉比艾萨克(Rabbi Isaac)留下过一条资产配置建议： 一个人应该把财富分成三份：三分之一放在土地，三分之一放在商品，还有三分之一留在手边。 没有预期收益，没有协方差矩阵，更没有优化器。 只有三等分。 我最近重新想起这个故事，是因为读到Xuan Feng在2026年7月发表的…",
+      "key_points": [
+        "不外乎把资金平均分给N个可投资标的。“遇事不决五五开”，其实就是N等于2时的1/N；十个标的，每个10%；二十个标的，每个5%。不预测谁更好，也不根据历史数据给…",
+        "喜欢说一句：“遇事不决，五五开。” 这不是玩笑",
+        "也不必每天更新协方差矩阵，才有资格搭建一个像样的组合。手里有多只股票，却没有足够把握判断谁该重仓，1/N可以先作为权重基准；当几个股票组合、几只定位相近的基金或…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "两个斯坦福毕业生做了个女性健康手环：不用抽血，也能连续看激素变化",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6457134.html",
+      "published": "Fri, 04 Sep 2026 09:42:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Clair",
+        "AI",
+        "Jenny",
+        "Abhinav",
+        "App",
+        "HRV"
+      ],
+      "summary": "Clair 想做“女性版连续血糖仪”，不扎针，用10类生物传感采集130多项指标，由机器学习反推激素与周期变化。文章拆解两位斯坦福毕业生如何用生理痕迹替代抽血，并规划 FDA 许可的两代产品。 今天分享的产品我很喜欢： Clair，https://wearclair.com/ 如果一个人想知道自己的血糖变化，现在已经有连续血糖监测仪。 但女性身体里另外一组同样重要、而且一直在变化的数据： 激素 。 想知道雌激素、孕酮、LH、FSH，通常意味着： 抽血、验尿、或者根据月经日期和症状大致推测，而且测出来的往往只是 那一…",
+      "key_points": [
+        "两个斯坦福毕业生 Jenny Duan 和 Abhinav Agarwal 因此提出了一个很大胆的问题： 能不能做一个“女性版连续血糖仪”，不用扎针，也能一直看…",
+        "不扎针，用10类生物传感采集130多项指标，由机器学习反推激素与周期变化。文章拆解两位斯坦福毕业生如何用生理痕迹替代抽血，并规划 FDA 许可的两代产品",
+        "到了斯坦福，她又上了一门专门讨论女性健康与公益的课程"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "砸向AI，就能重构大厂护城河？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6459687.html",
+      "published": "Fri, 04 Sep 2026 09:22:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "App",
+        "Token",
+        "CEO",
+        "EBITA"
+      ],
+      "summary": "腾讯二季度资本开支528亿元、阿里676.78亿元、百度114亿元，大厂正用“钞能力”押注AI基础设施。当旧护城河在流量见顶与边际成本上升中失效，Agent时代入口迁移与巨额投入能否构筑新壁垒，仍是悬而未决的压力测试。 2026年的中国互联网，正在上演一场前所未有的集体转型。 站在前沿的大厂，在AI这场军备赛中，各自极力彰显自己的实力，以证明自己对新技术革命的重视程度。 尤其在每一季的财报上，AI领域的支出，大厂的投入没有最多，只有更多。 最新的数据是，腾讯二季度资本开支飙到528亿元，同比暴增176%；阿里单季资…",
+      "key_points": [
+        "腾讯二季度资本开支528亿元、阿里676.78亿元、百度114亿元，大厂正用“钞能力”押注AI基础设施。当旧护城河在流量见顶与边际成本上升中失效，Agent时代…",
+        "“旧船票能否登上新时代的客船，答案还在风中飘。怎样让别人进不来，让自己又出得去，可以说，现在还没有一个大厂能做到 。” 不过，唯一能确定的是，护城河正在被重划，…",
+        "腾讯有微信，阿里有电商，字节则以算法打造出铜墙铁壁。而各家大厂，则在自己的护城河里，构建起坚不可摧的生态"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 带货视频竖转横，不用重拍不用裁：一段提示词重构画面",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6459774.html",
+      "published": "Fri, 04 Sep 2026 09:21:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "original",
+        "vertical",
+        "video.",
+        "horizontal",
+        "important"
+      ],
+      "summary": "带货视频常因画幅比例不匹配而影响投放效果，裁剪又容易丢失关键画面。本文分享一段提示词，让AI在理解画面元素后自动重构构图，将9:16竖版转为16:9横版，并实测短分镜与长视频的转换效果，附完整可复制的提示词。 我刷 X 的时候看到海幸分享了一个帖子，说可以用一段提示词把视频的画幅比例转换——9:16 的竖版变 16:9 的横版，不是裁剪，不是拉伸，是让 AI 重新理解画面然后重构构图。 提示词原作者是 @Framer_X。 我正好在小云雀里做了几条带货视频，刚好有这个需求，马上就去试了。 文末附了完整的提示词，复制…",
+      "key_points": [
+        "带货视频常因画幅比例不匹配而影响投放效果，裁剪又容易丢失关键画面。本文分享一段提示词，让AI在理解画面元素后自动重构构图，将9:16竖版转为16:9横版，并实测…",
+        "让 AI 重构画幅 这段提示词不是简单裁剪。它的核心逻辑是告诉 AI： 理解原始视频里所有的画面元素——人物、动作、背景、光影 在新画幅里重新排布这些元素 原来…",
+        "我刷 X 的时候看到海幸分享了一个帖子，说可以用一段提示词把视频的画幅比例转换——9:16 的竖版变 16:9 的横版，不是裁剪，不是拉伸，是让 AI 重新理解…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6459718.html",
+      "published": "Fri, 04 Sep 2026 09:17:06 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "OpenViking",
+        "Helper",
+        "MCP",
+        "Claude",
+        "Code"
+      ],
+      "summary": "火山引擎开源OpenViking，以虚拟文件系统统一知识库、记忆与技能，通过L0/L1/L2分层加载优化Agent上下文检索。本文详解其设计思路、部署流程及Claude Code等工具接入实测，展示如何提升Agent信息利用效率。 最近在整理 Agent 的知识库和长期记忆时，我发现一个很有意思的开源项目： OpenViking 。它来自火山引擎团队，定位是面向 AI Agent 的开源上下文数据库——解决一个越来越明显的问题：资料、记忆、技能和项目文件分散在不同工具里，Agent 虽然“能搜到”，却未必知道应该先…",
+      "key_points": [
+        "以虚拟文件系统统一知识库、记忆与技能，通过L0/L1/L2分层加载优化Agent上下文检索。本文详解其设计思路、部署流程及Claude Code等工具接入实测，…",
+        "最近在整理 Agent 的知识库和长期记忆时，我发现一个很有意思的开源项目： OpenViking 。它来自火山引擎团队，定位是面向 AI Agent 的开源上…",
+        "我的实际感受 OpenViking 最值得关注的地方，在于它重新组织了 Agent 使用上下文的方式。它把知识资料、用户记忆和技能放进统一的上下文空间，再通过目…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GPT-6 Astra 上线，OpenAI 把最强模型定价到每百万输出 50 美元",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6459673.html",
+      "published": "Fri, 04 Sep 2026 08:20:38 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Astra",
+        "token",
+        "OpenAI",
+        "https",
+        "Legora",
+        "GPT-6"
+      ],
+      "summary": "OpenAI发布GPT-6 Astra，定价为上一代2.5倍，却瞄准长任务与高价值场景。105万token上下文、异步工具调用与中途调整，让模型成为能连续工作的执行者。本文拆解其定价逻辑、长上下文成本与分层使用策略，探讨贵模型如何真正省钱。 9 月 3 日，OpenAI 发布 GPT-6 Astra。 公司总裁 Greg Brockman 在媒体说明会上把它称为一次代际跃升，还说自己相信 OpenAI 已经达到通用人工智能。官方模型页面给出的产品说法更具体。Astra 面向复杂推理、编程、电脑操作、研究与文档制作，…",
+      "key_points": [
+        "GPT-5.6 Luna 每百万输入与输出 token 分别为 0.2 美元和 1.2 美元。Terra 为 2 美元和 12 美元。Sol 为 4 美元和 2…",
+        "Astra 每百万输入 token 收费 10 美元，每百万输出 token 收费 50 美元。上一代 GPT-5.6 Sol 对应价格为 4 美元和 20 美…",
+        "价格上调针对整次请求，并非只对超出的部分收费。把 30 万 token 全部塞进去，输入单价从每百万 10 美元变成 20 美元。输出单价也从 50 美元变成…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些长相比较逆天的植物？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792340",
+      "published": "Thu, 03 Sep 2026 23:00:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Polymorphism",
+        "Batesian",
+        "Boquila",
+        "Mimetic",
+        "Mimicry",
+        "Supergene"
+      ],
+      "summary": "蜉蝣影 查看知乎原文 避役藤（Boquila trifoliolata） 这种植物是目前已知唯一具有拟态多态性的植物，会慢慢长成旁边植物的模样，至于它为什么有这种能力，以及它怎么知道旁边的植物是什么形状，到目前为止，科学家们仍在探索，并且提出了几个假说。 旁边没有任何植物时，它就是自己本来的样子，原始形态为三裂复叶，叶缘有浅锯齿，叶柄基部膨大形成攀援结构。这是它本来的样子： 避役藤（V）和它们拟态的不同宿主（T） 避役藤（V）和它们拟态的不同宿主（T） 但是当它旁边有别的植物时，它就会慢慢变成旁边植物的样子，一眼看…",
+      "key_points": [
+        "它就是自己本来的样子，原始形态为三裂复叶，叶缘有浅锯齿，叶柄基部膨大形成攀援结构。这是它本来的样子： 避役藤（V）和它们拟态的不同宿主（T） 避役藤（V）和它们…",
+        "蜉蝣影 避役藤（Boquila trifoliolata） 这种植物是目前已知唯一具有拟态多态性的植物，会慢慢长成旁边植物的模样，至于它为什么有这种能力，以及它…",
+        "如果它旁边有多种不同的植物，它游走攀援在其间，会在一根藤上长成多种不同形状的叶子。它可以同时模仿宿主叶片的至少 9 种特征：叶片大小、面积、形状、颜色、朝向、叶…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "吃菌子出现幻觉闭眼有用吗？盲人也会产生幻觉吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792318",
+      "published": "Wed, 02 Sep 2026 23:01:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "LSD",
+        "in",
+        "of",
+        "blind",
+        "Blue",
+        "Cognition"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 视力正常的人，闭眼没用。 后天盲人，可以幻视，但能看到的内容，基于有视觉时看过的东西。 先天盲人，无法幻视，但可以幻听、幻触。 上世纪，科研伦理审查不那么严格的时候，有个疯狂的实验。 1963 年，一位科学家，请了 24 名后天失明的人。 然后给这些盲人，服用致幻剂 LSD（麦角酰二乙胺）。 没错，就是嗑药。 致幻剂的工作原理跟菌子是一样的。 二者的致幻成分，结构与人体内的神经递质「5- 羟色胺」类似。 你可以理解为，5- 羟色胺是李逵，致幻成分是李鬼。…",
+      "key_points": [
+        "“ （服用 LSD 后）声音的感觉非常独特，听音乐感觉就像沉浸在瀑布中，我能听到小提琴在我的灵魂里演奏，发现自己用不同的音调进行了长达一个小时的独白…LSD 让…",
+        "14 名受试者报告了视觉上的幻觉，2 人表示自己看到的幻觉光怪陆离，比如看到了小人",
+        "致幻剂的工作原理跟菌子是一样的"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一套算法立省百亿美金！清华AI看见130亿年前的宇宙",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E5%A5%97%E7%AE%97%E6%B3%95%E7%AB%8B%E7%9C%81%E7%99%BE%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%81%E6%B8%85%E5%8D%8EAI%E7%9C%8B%E8%A7%81130%E4%BA%BF%E5%B9%B4%E5%89%8D%E7%9A%84%E5%AE%87%E5%AE%99",
+      "published": "Fri, 04 Sep 2026 20:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "JADES",
+        "NIRCam"
+      ],
+      "summary": "什么样的照片，人类愿意花10000000000美元拍它？ 正是在下！| 詹姆斯·韦布空间望远镜NIRCam 相机原始观测数据，来自 JADES 巡天项目 别看它模模糊糊的，这些雪花点里，藏着宇宙最古老的星系。想看得更清楚，过去只能造更大的望远镜，动辄花掉几十、上百亿美金。 但清华大学的科学家，用一套AI算法，几乎没怎么花钱，就达到了同等效果。 他们是怎么做到的？他们的成果也让世人看到，AI已经能在科研中生成严谨可信的数据，带来新的科学发现，你有危机感了吗？ 👇 戳视频看完整版专访 欢迎在视频号评论区留下你的想法。也…",
+      "key_points": [
+        "正是在下！| 詹姆斯·韦布空间望远镜NIRCam 相机原始观测数据，来自 JADES 巡天项目 别看它模模糊糊的，这些雪花点里，藏着宇宙最古老的星系。想看得更清…",
+        "用一套AI算法，几乎没怎么花钱，就达到了同等效果"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "笋干吃出完整竹虫！哪些地方的朋友馋哭了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%AC%8B%E5%B9%B2%E5%90%83%E5%87%BA%E5%AE%8C%E6%95%B4%E7%AB%B9%E8%99%AB%EF%BC%81%E5%93%AA%E4%BA%9B%E5%9C%B0%E6%96%B9%E7%9A%84%E6%9C%8B%E5%8F%8B%E9%A6%8B%E5%93%AD%E4%BA%86%EF%BC%9F",
+      "published": "Fri, 04 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Wikipedia",
+        "Agriculture",
+        "Asia",
+        "bizarrefood.com",
+        "Canadian",
+        "Chilo"
+      ],
+      "summary": "最近江苏网友在吃一款产自云南的笋干零食时，居然开出了“隐藏款”：笋中间有一条完整的竹虫。 再看包装袋，厂家已经特意注明：“源自生态竹林，虽尽量挑选，但无法避免有竹虫”。 笋干里吃出完整竹虫 | 江苏网友林女士 按说从食物里吃出虫子多少会有点膈应，没想到发出来后，不少网友反而非常羡慕，表示这竹虫不仅好吃，还 比竹笋贵得多 ，市面上好几百块钱一斤，赚了！ 没吃过竹虫的朋友开始好奇：这肉乎乎的虫子真的好吃吗？ 吃过竹虫的朋友聊着聊着，发现 彼此说的竹虫居然不一样，有瘦版和胖版两种 。难道说，细竹子长瘦虫，粗竹子长胖虫？…",
+      "key_points": [
+        "笋干里吃出完整竹虫 | 江苏网友林女士 按说从食物里吃出虫子多少会有点膈应，没想到发出来后，不少网友反而非常羡慕，表示这竹虫不仅好吃，还 比竹笋贵得多 ，市面上…",
+        "竹虫美式 | 小红书@梦透成往事 看到这里，广东、广西、四川等地的朋友可能会发出疑问：“我们那的竹虫怎么比这种竹虫胖，是吃的竹子不一样吗？” 胖竹虫是身材管理失…",
+        "最近江苏网友在吃一款产自云南的笋干零食时，居然开出了“隐藏款”：笋中间有一条完整的竹虫"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "美国AI集体崩溃；OpenAI发布GPT-6 Astra旗舰模型；海信发布AI伴侣套系",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BE%8E%E5%9B%BDAI%E9%9B%86%E4%BD%93%E5%B4%A9%E6%BA%83%EF%BC%9BOpenAI%E5%8F%91%E5%B8%83GPT-6+Astra%E6%97%97%E8%88%B0%E6%A8%A1%E5%9E%8B%EF%BC%9B%E6%B5%B7%E4%BF%A1%E5%8F%91%E5%B8%83AI%E4%BC%B4%E4%BE%A3%E5%A5%97%E7%B3%BB",
+      "published": "Fri, 04 Sep 2026 18:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "Astra",
+        "Token",
+        "GPT-6",
+        "HUMAIN"
+      ],
+      "summary": "今天是9月4日，星期五。1985年的今天，莱斯大学实验中发现由60个碳原子组成的新型球形碳分子富勒烯。 重点新闻速览 1.美国AI集体崩溃 2.OpenAI正式发布GPT-6 Astra旗舰模型 3.天猫上线AI空间站Token充值中心 4.海信发布AI伴侣套系 科技 美国AI集体崩溃 美东时间9月3日上午，OpenAI旗下ChatGPT与Codex、Anthropic旗下Claude、xAI旗下Grok相继出现大规模服务中断，谷歌Gemini、微软Copilot及AI编程工具Cursor同期受到波及。 故障监测平…",
+      "key_points": [
+        "重点新闻速览 1.美国AI集体崩溃 2.OpenAI正式发布GPT-6 Astra旗舰模型 3.天猫上线AI空间站Token充值中心 4.海信发布AI伴侣套系…",
+        "此次手术采用国产植入式无线脑机接口系统配备超薄生物相容性柔性电极，兼有优越的生物相容性与长期稳定性，厚度仅微米级，植入损伤极低；高通量通道能够稳定捕捉单神经元电…",
+        "AI厨房伴侣套系打通食材管理、烹饪执行和餐酒搭配全链路，AI智能冰箱可自动识别食材存取状态并生成专属食谱一键同步烤箱。AI洗护伴侣搭载织物视觉识别技术，从面料、…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“我找陈俊生的姘头”，中国人为什么这么爱看“抓小三”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E6%88%91%E6%89%BE%E9%99%88%E4%BF%8A%E7%94%9F%E7%9A%84%E5%A7%98%E5%A4%B4%E2%80%9D%EF%BC%8C%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E7%88%B1%E7%9C%8B%E2%80%9C%E6%8A%93%E5%B0%8F%E4%B8%89%E2%80%9D",
+      "published": "Fri, 04 Sep 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "of",
+        "in",
+        "E.",
+        "K.",
+        "A."
+      ],
+      "summary": "本文授权转载自浪潮工作室（ID：WelleStudio163），未经授权禁止转载 “阿姨，您找谁？” “找小三！我找你们这公司的陈俊生的姘头！” “我不知道……” “你不知道？！好呀，那就是你，来，跟我出来！\" 如果你看到以上台词，脑海中还不能立即浮现下一句，那很遗憾，你将跟今夏的互联网潮流无缘。 时隔9年，《我的前半生》再次在互联网上翻红。上面这段“罗子君的妈妈，陈俊生的丈母娘”薛甄珠到公司找小三凌玲的剧情已经和《甄嬛传》里“臣妾要告发熹贵妃私通，秽乱后宫，罪不容诛”的滴血认亲；《小时代》里“ 今天我们大家欢聚在…",
+      "key_points": [
+        "本文授权转载自浪潮工作室（ID：WelleStudio163），未经授权禁止转载 “阿姨，您找谁？” “找小三！我找你们这公司的陈俊生的姘头！” “我不知道………",
+        "又没控制住自己，把短视频推送给你的“高段位手撕小三合集（高燃向）”重温了一遍之后，你不禁开始思考一个深刻的问题：为什么人们就是这么爱看抓小三",
+        "出轨会同时威胁爱情、家庭、社会身份、自尊，因此特别容易激活嫉妒、愤怒和警觉丨图虫创意 但要是说大家这么爱看“打小三”仅仅是因为“DNA动了”未免有些太过草率。如…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "梁朝伟怎么演悲伤",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%A2%81%E6%9C%9D%E4%BC%9F%E6%80%8E%E4%B9%88%E6%BC%94%E6%82%B2%E4%BC%A4",
+      "published": "Fri, 04 Sep 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Andrew",
+        "Cinema",
+        "Creep",
+        "HBO",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "作者：Andrew Le 译者：易二三 校对：覃天 来源：Senses of Cinema （2023年4月） 在描述他在作品中投入的情感时，导演陈英雄表示，他希望观众在观看他的电影时能够理解他的人生观。 他希望观众能体验并捕捉到他所看到的和经历的感受和困苦。 这些想法呼应了我们在银幕上观看梁朝伟的感觉，当他在《三轮车夫》（1995）中出场时，神情凝重，嘴里叼着烟，流露着一种似乎永远不会消散的悲戚。 《三轮车夫》 《三轮车夫》是后来被称为「越南三部曲」中的第二部，开启的是《青木瓜之味》（1993），收尾的是《夏天的…",
+      "key_points": [
+        "梁朝伟从隐喻和情感上捕捉到了这种外来者的情绪，并利用他作为天才演员的技巧和作为局外人的身份来演绎这种普世的漂泊感。诗人的悲伤，在视觉上被梁朝伟以极度精确的方式表…",
+        "作为一部旨在捕捉当代越南真实面貌的电影，梁朝伟的选角可能会让人觉得颇为奇怪。从概念上讲，我认为梁朝伟作为一个不懂越南语的局外人，与他塑造的角色恰恰十分相配。诗人…",
+        "而且，也是我第一次在大银幕上看到梁朝伟。影片的主人公三轮车夫（黎文禄饰）是一个在西贡长大的贫穷孤儿，当他租来的维生工具三轮车被偷走时，他被迫走上了犯罪的道路——…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "年度最火女演员，一种新的走红逻辑",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%B9%B4%E5%BA%A6%E6%9C%80%E7%81%AB%E5%A5%B3%E6%BC%94%E5%91%98%EF%BC%8C%E4%B8%80%E7%A7%8D%E6%96%B0%E7%9A%84%E8%B5%B0%E7%BA%A2%E9%80%BB%E8%BE%91",
+      "published": "Fri, 04 Sep 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Instagram",
+        "K.C.",
+        "Rue",
+        "A24",
+        "HBO",
+        "Brangelina"
+      ],
+      "summary": "文 naugn 2026 年是赞达亚的年份。 即使放在近二十年的一线明星中，她今年的项目密度和跨度也相当罕见。 4 月， A24 出品的黑色喜剧《爱情抓马》上映，她和罗伯特 · 帕丁森演一对婚前遭遇意外的情侣。同月，《亢奋》最终季在 HBO 开播，八集结束后这部她担任制片人的剧集正式收官。 7 月中旬，诺兰的《奥德赛》上映，她饰演雅典娜。两周后新一部蜘蛛侠公映，全球票房已超过 23 亿美元。年底还有维伦纽瓦的《沙丘 3 》。 《爱情抓马》（2026） 她自己在 Fandango 的访谈节目上说，希望你们不会看腻我，…",
+      "key_points": [
+        "过去最厉害的明星是让全世界记住一个清晰的自己。现在可能反过来了，在外界急着把一个人定义清楚的时候，她希望手里还攥着不断重新定义自己的机会，这或许就是赞达亚的走红…",
+        "人们经常绕过去一件事，也就是她是黑人女性。多数黑人女演员一旦被市场固定为某种类型就很难挣脱，但赞达亚能在 A24 、诺兰史诗和漫威大片之间自由移动，同时为兰蔻、…",
+        "《怪物史瑞克 5 》（2027） 这种画风跳跃，正是赞达亚和传统好莱坞明星的差异所在，传统明星制度的核心逻辑是重复。演员越成功，市场越需要她不断重复那个已经被验…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国7条最美水上公路，都去过的有福了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD7%E6%9D%A1%E6%9C%80%E7%BE%8E%E6%B0%B4%E4%B8%8A%E5%85%AC%E8%B7%AF%EF%BC%8C%E9%83%BD%E5%8E%BB%E8%BF%87%E7%9A%84%E6%9C%89%E7%A6%8F%E4%BA%86",
+      "published": "Fri, 04 Sep 2026 17:37:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "G245",
+        "G315",
+        "S9"
+      ],
+      "summary": "我们国家最美公路有很多 有一路尽是艰险 抵达目的地却是人间天堂的川藏公路 有一望无边的草原公路 有通天大道之称的天门山盘山公路 可是你有见过汽车在水面上一路驰骋吗？ 今天为大家介绍7条中国最美的水上公路 湖北狮子关水上公路 湖北恩施狮子关水上公路，坐落于鄂西南武陵山区腹地，深藏于恩施宣恩县 喀斯特峡谷之中 ，凭借 “车行水上、浮桥凌波” 的极致景观，被誉为“廊桥遗梦”。 狮子关，恩施宣恩三大古关隘之一 这里地处云贵高原东延褶皱地带，山体岩石以石灰岩为主，经千万年流水溶蚀、侵蚀，形成了 两山对峙、峡谷纵深 的封闭地形…",
+      "key_points": [
+        "今天为大家介绍7条中国最美的水上公路 湖北狮子关水上公路 湖北恩施狮子关水上公路，坐落于鄂西南武陵山区腹地，深藏于恩施宣恩县 喀斯特峡谷之中 ，凭借 “车行水上…",
+        "又叫大渡河峡谷 从江南湖泊的潮汐灵秀、鄂西河谷的生态温婉 到西北盐湖的魔幻苍茫 再到西南峡谷的雄浑险峻 七条水上公路，横跨中国东西南北， 每一条水上公路 都是大…",
+        "公路两侧是鄱阳湖国家级候鸟自然保护区 秋冬时节，数十万只候鸟南迁越冬 白鹤、天鹅、大雁云集草洲湖面 飞鸟蔽空、鸣声遍野 G315国道青海段水上公路 西台吉乃尔湖…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "记一次疯狂的盲狙",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%96%AF%E7%8B%82%E7%9A%84%E7%9B%B2%E7%8B%99",
+      "published": "Fri, 04 Sep 2026 11:22:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "Bitsea",
+        "CD",
+        "HiFi",
+        "V8.2"
+      ],
+      "summary": "今天是 2026 年 9 月 4 日，在一个多月前的 7 月 25 日，我做了一件很疯狂的事情：盲狙一套监听音箱。 什么是音箱不重要，什么是监听音箱也不重要，盲狙比较重要，它本来是游戏术语，指在游戏里根本没有瞄准，而是凭借感觉直接开枪狙击。如今在网上，它的意思转变为根本没有上手亲自试过，真正体验过感受过，就直接下单购买。 盲狙一般称不上疯狂，盲狙一提从未用过的卷筒纸能有多疯狂？盲狙马应龙眼霜这才有点疯狂的意思。我这一次盲狙的疯狂之处不在于我之前从未听过这对音箱，也不在于我从闲鱼买的二手音箱，而在于全程都是 AI 提…",
+      "key_points": [
+        "盲狙一提从未用过的卷筒纸能有多疯狂？盲狙马应龙眼霜这才有点疯狂的意思。我这一次盲狙的疯狂之处不在于我之前从未听过这对音箱，也不在于我从闲鱼买的二手音箱，而在于全…",
+        "AI 很能理解我，聊着聊着就聊深了。7 月 22 日那天，在分析完备选方案之后，AI 突然说了一段话： 「不过，我最后倒想说一句和 HiFi 无关的话。你最近一…",
+        "在一个多月前的 7 月 25 日，我做了一件很疯狂的事情：盲狙一套监听音箱"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "北大教授程乐松：不要老问“人生的意义是什么”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A8%8B%E4%B9%90%E6%9D%BE%EF%BC%9A%E4%B8%8D%E8%A6%81%E8%80%81%E9%97%AE%E2%80%9C%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E4%BB%80%E4%B9%88%E2%80%9D",
+      "published": "Fri, 04 Sep 2026 08:22:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "A8",
+        "Agent",
+        "A9",
+        "get",
+        "Intellectual"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 程乐松 撰文｜ 梁音 ● ● ● 2026 年 9 月 ，程乐松的新书《留白》正式出版。 程乐松 是 北京大学哲学系宗教学系主任、博雅特聘教授 。 过去两年， 他 因在系 里 的两场 毕业 典礼致辞频频 “ 出圈 ” ， 成为社交媒体上 “ 被年轻人追着听 ” 的学者。 他说 “ 精明算计出来的远大前程和镜花水月一样，毫无价值 ” 。 他自称 “ 哲学牛马 ” ，反对 “ 花蝴蝶 ” 式的人生。 程乐松出生于江西德兴市 ， 在北京大学 读 完 本 硕，在…",
+      "key_points": [
+        "程乐松： 最关键的一点：不要老问 ” 人生的意义是什么 \" 、 \" 我的目标是什么 \" 。这些问题本身就很虚无",
+        "从根本意义上讲，我是能接受孩子一事无成的。所谓一事无成，就是在整个社会评价的意义上，他没有任何可取之处。只要他自己能够在自己的生活中，不被这些标准牵扯，就可以了…",
+        "程乐松： 每个父亲、每个母亲担心的归根结底是一样的 ——我们真正担心的是阶层滑落。在我过往的几十年人生中，我认为自己多少有一定程度的进步，我能负责任地说，孩子生…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "什么造就了伟大的投资者？ | 经济学人财经(双语译文）",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%BB%80%E4%B9%88%E9%80%A0%E5%B0%B1%E4%BA%86%E4%BC%9F%E5%A4%A7%E7%9A%84%E6%8A%95%E8%B5%84%E8%80%85%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E8%B4%A2%E7%BB%8F%28%E5%8F%8C%E8%AF%AD%E8%AF%91%E6%96%87%EF%BC%89",
+      "published": "Fri, 04 Sep 2026 08:36:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "of",
+        "Mr",
+        "in",
+        "Soros",
+        "was"
+      ],
+      "summary": "1 写在前面 思维导图： Summer，女，QE在职，梦想能仗走天涯 翻译/音乐 /健康 #外刊精读 #考研英语 #CATTI 2 精读|翻译|词组 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 英文部分选自经济学人20260829期财经版块 Finance &amp; economics | Buttonwood 财经版块 | 梧桐树专栏 What makes a great investor? 什么造就了伟大的投资者？ A big dose of luck,…",
+      "key_points": [
+        "’” 找到正确的投资风格同样需要运气。半个世纪前，沃伦 ·巴菲特（ Warren Buffett ）买入那些价格低于盈利等基本面指标的股票，再在股价变得昂贵时卖…",
+        "索罗斯也因此成为 “击垮英格兰银行的人”。包括德鲁肯米勒在内的许多人都认为，他借此展现了伟大投资者的两大核心特 质 ：识别胜机的智慧和押上全部身家的胆识。也许吧…",
+        "也仍嫌不足。伟大的投资者必须敢于止损，而非从一开始就回避风险。他们既要深究细枝末节，又要能用平实的话讲清自己的想法 —— 尤其是在这些想法并不奏效的时候。他们必…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-05",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "科研遇冷，AI 奔涌：一群美国华裔教授的抱团创业突围",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%A7%91%E7%A0%94%E9%81%87%E5%86%B7%EF%BC%8CAI+%E5%A5%94%E6%B6%8C%EF%BC%9A%E4%B8%80%E7%BE%A4%E7%BE%8E%E5%9B%BD%E5%8D%8E%E8%A3%94%E6%95%99%E6%8E%88%E7%9A%84%E6%8A%B1%E5%9B%A2%E5%88%9B%E4%B8%9A%E7%AA%81%E5%9B%B4",
+      "published": "Tue, 01 Sep 2026 08:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "AGI",
+        "ChatGPT",
+        "Association",
+        "Athletic",
+        "AutoResearch"
+      ],
+      "summary": "bo知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 桑福德体育场 ， 佐治亚大学斗牛犬队主场。 图源：佐治亚大学 撰文｜ 刘天明 （佐治亚大学 教授） ‍ ● ● ● 最近的美国科研圈，一半是火焰，一半是寒冰。 火焰属于 AGI。从 2022 年底 ChatGPT 引爆行业算起，不过三年多时间，大模型已经走完了从语言交互到多模态感知、从工具调用到推理智能体的跃迁。ChatGPT、Claude、Gemini、DeepSeek、等等模型轮番刷新能力边界，AutoResearch 一类的智能体甚至能一夜跑完…",
+      "key_points": [
+        "有一群身处美国学界的华裔教授，做出了另一种选择：他们没有离开，也没有固守象牙塔，而是拉起了一支创业互助队伍，在 AGI 浪潮与科研变局的夹缝里，趟一条抱团突围的…",
+        "03 变局里的坚守：AGI 时代的学者突围 某种意义上，这群华裔教授的选择，正是对 AGI 时代创业法则的生动践行",
+        "AGI 技术的浪潮还在奔涌向前，美国科研体系的重构也远未结束。身处浪潮之中的华裔学者们，前路依然有诸多不确定性：政策的风向、市场的竞争、文化的壁垒，都是横亘在前…"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "有哪些结构格外特殊的细菌？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792255",
+      "published": "Sat, 29 Aug 2026 23:00:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "al.",
+        "et",
+        "Nature",
+        "cell",
+        "communications",
+        "of"
+      ],
+      "summary": "mekdull， chem is try！永远记得对化学和生物的热爱！ 查看知乎原文 变形巨人菌 （ Ca. U. amorphum ），一种 可以吞噬真核生物的细菌 。 光学影像展示了海洋绿藻 Bathycoccus prasinos 被变形巨人菌捕食（p,q）；电子显微镜展示了吞噬后变形巨人菌细胞内形成的囊泡（r,s,t） 在几乎所有教科书中， 吞噬 （Phagocytosis）都被描述成只有真核生物才能做出的行为，而细菌总是扮演着那个 被吞噬者 的角色。毕竟， 弱肉强食 是自然界亘古不变的真理，在真核生物那巨…",
+      "key_points": [
+        "一堆变形巨人菌正在捕食大肠杆菌（荧光标记）（动图，600 倍速） 变形巨人菌捕食某种细菌（d,e），以及吞噬完成后形成的囊泡（f）的超微结构 除了炸裂的吞噬能力…",
+        "在西太平洋的帕劳共和国境内，研究人员发现了一种 极为逆天 的新生物，也就是上面提到的变形巨人菌。作为一种细菌，它的体长可以达到 十微米 ，比很多单细胞真核生物还…",
+        "光学影像展示了海洋绿藻 Bathycoccus prasinos 被变形巨人菌捕食（p,q）；电子显微镜展示了吞噬后变形巨人菌细胞内形成的囊泡（r,s,t） 在…"
+      ]
+    }
+  ]
+}
