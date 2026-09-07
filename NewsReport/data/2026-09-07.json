@@ -1,0 +1,764 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T01:00:17.015316+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 9,
+    "items_collected": 87,
+    "fresh_candidates": 55,
+    "backfill_candidates": 32,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-07",
+      "fetched_at": "2026-09-07T01:00:11.699146+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3930.12,
+          "change": -11.97,
+          "change_pct": -0.3,
+          "volume": 537286161.0,
+          "amount": 93825519.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4413.61,
+          "change": -17.350000000000364,
+          "change_pct": -0.39,
+          "prev_close": 4430.96,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-07 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 952.2675579275643,
+          "change": -3.7433851495813997,
+          "change_pct": -0.39156300214853557,
+          "prev_close": 956.0109430771457,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-07 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "大白话讲解韬 (τ) 定律",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/408213617",
+      "published": "Sun, 06 Sep 2026 13:13:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "EDA",
+        "nm",
+        "RC",
+        "Wafer",
+        "Logic",
+        "Bonding"
+      ],
+      "summary": "阅读提示： 个人学习笔记，仅做技术科普，不构成任何投资建议 华为提出的韬（τ）定律，对国产半导体而言，它最大的意义，是打开了一条新的解题思路：不把所有希望完全押在极致先进制程上，通过架构、堆叠、EDA 协同，在成熟工艺底座之上，挖掘芯片性能、功耗、密度的上限，为国内晶圆制造、先进封测、国产 EDA 整条产业链，指明了一条可以落地的演进方向。 传统逻辑芯片的原理 一颗普通 Logic 逻辑芯片的结构： 一层器件(晶体管) + M 层金属连线层 。 晶体管全部做在器件层里面，晶体管与晶体管之间，依靠一层一层的金属连线完…",
+      "key_points": [
+        "存在一定样本选取的讨巧。手机 AP 属于高度集成通用 SoC，计算占比高、互连 IO 开销占比相对有限。而 AI 大算力芯片属于计算‑存储‑通信三重密集型芯片：…",
+        "仅做技术科普，不构成任何投资建议 华为提出的韬（τ）定律，对国产半导体而言，它最大的意义，是打开了一条新的解题思路：不把所有希望完全押在极致先进制程上，通过架构…",
+        "二、3D‑EDA 企业（支撑韬定律 “逻辑折叠” 必不可少的软件工具） 普通 2.5D Chiplet EDA 只能做芯粒平铺； 适配韬定律逻辑折叠需要「真 3…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "黄金脱锚——布雷顿森林体系的瓦解和滞胀时代",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9794771369/408227318",
+      "published": "Sun, 06 Sep 2026 13:13:36 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPI",
+        "GDP",
+        "http",
+        "IEA",
+        "Nifty-Fifty",
+        "OPEC"
+      ],
+      "summary": "1950年，在战后以及布雷顿森林体系确立的第5个年头，美国的黄金储备约2万吨，占全球总储备(约3.2万吨)超过六成。 一、西方战后经济恢复(1950~1973) 1950~1973年，史称“资本主义黄金期”，西欧整体年均GDP增长4.6%，(远高于1913~1950的1.4%)；西德1951~1960年均增长8.2%，；法国1951~1970年均增长5.3%；日本1956~1973年均增长9.2%；同期美国年均增长3.6%。 这段时间，西方国家积累了大量美元储备。截至1971年末，德国储备了172亿美元(按35美元…",
+      "key_points": [
+        "总结 布雷顿森林体系的瓦解以及随后而来的滞胀，不是单一因素导致的，而是多因素共同作用下的结果(贸易结构、货币政策、供给冲击、地缘政治、主权信用)",
+        "在战后以及布雷顿森林体系确立的第5个年头，美国的黄金储备约2万吨，占全球总储备(约3.2万吨)超过六成",
+        "是布雷顿森林体系崩溃的重要前提"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "财政部注资太平：市场终于开始重估“有爹有妈”的保险股",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3221928963/408236662",
+      "published": "Sun, 06 Sep 2026 13:12:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "http",
+        "PB",
+        "PEV",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今天这条新闻，我认为是 中国太平近期最重要的一条消息 。 9月6日原文确认： 财政部将向中国太平保险集团有限责任公司注资70亿元。 同日，确认： 财政部将向中国人寿保险（集团）公司注资350亿元。 中国人保也公告，拟向财政部定增募资不超过150亿元，用于补充资本金。 这不是普通利好，也不是某一家保险公司的单独“补血”。 这是财政部对大型国有金融保险机构的一次明确资本支持。 三家资本补充对照： 中国人寿：350亿元｜集团层面｜做强金融央企主力军 中国太平：70亿元｜集团层面｜补上市场最担心的资本短板 中国人保：不超过…",
+      "key_points": [
+        "所以我的结论很明确： 财政部注资中国太平，不只是补70亿资本，而是在帮助市场重新认识中国太平的信用底座",
+        "9月6日原文确认： 财政部将向中国太平保险集团有限责任公司注资70亿元",
+        "市场曾传出“财政部拟向大型险企注资约2000亿元”的消息。当时很多人半信半疑"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么说财政部3570亿注资是A股定心丸？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7516820417/408238160",
+      "published": "Sun, 06 Sep 2026 13:12:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH603986",
+        "SZ300059",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "财政部一天之内，向工行、农行、三大保险集团（国寿、人保、太平）、以及进出口银行和出口信保，一口气注资3570亿。 我看大家还在期待有更多消息出来，论坛热度很高。 很多人第一反应是：银行不是挺赚钱的吗？为什么突然要这么多钱？是不是有什么问题？ 这倒不是。 如果你是一个老股民，应该还记得去年3月，财政部已经用5000亿特别国债给中行、建行、交行、邮储补过一次血了。 加上今天这轮，六大国有行两轮加起来，一共补充资本7800亿。 那银行为什么需要补充资本？ 表面看，工行、农行的资本充足率都达标，但现在整个银行业的净息差被压…",
+      "key_points": [
+        "国寿350亿、人保150亿、太平70亿，三家合计570亿，都是财政部直接注资",
+        "应该还记得去年3月，财政部已经用5000亿特别国债给中行、建行、交行、邮储补过一次血了",
+        "3570亿财政资金注入金融体系，本质上是一次信用扩张的起点，相当于一次“准量化宽松”的信用扩张，A股整体风险偏好会得到提振，这是大概率事件"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "这些聪明贝塔指数，是如何跑赢市场的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E8%BF%99%E4%BA%9B%E8%81%AA%E6%98%8E%E8%B4%9D%E5%A1%94%E6%8C%87%E6%95%B0%EF%BC%8C%E6%98%AF%E5%A6%82%E4%BD%95%E8%B7%91%E8%B5%A2%E5%B8%82%E5%9C%BA%E7%9A%84%EF%BC%9F",
+      "published": "Sun, 06 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "MSCI",
+        "SNLV",
+        "END-",
+        "MSCIMSCI"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 不在此山中 来源：雪球 聪明贝塔指数 ， 也叫策略指数 。 策略好不好 ， 不能只看发布前回测 ， 更要看发布后的实际表现 。 以下这几个典型的聪明贝塔指数 ， 涉及红利 、 价值 、 质量 、 低波和动量 ， 以前都说过 ， 也都有相应的指数基金 ， 这里统一看看发布至今的实际表现 。 都是全收益指数 ， 分红再投资算在内 。 对比的基准指数也是全收益指数 。 1. 中证红利 ： 有超额 ， 回撤不小 从2008年5月2…",
+      "key_points": [
+        "1000价值稳健全收益与中证1000全收益 长期来看 ， 这些指数发布后都跑赢了基准 ， 聪明贝塔也不是稳赚券",
+        "如果长期投A股市场 ， 分散持有聪明贝塔指数是个不错的选项",
+        "不在此山中 来源：雪球 聪明贝塔指数 ， 也叫策略指数"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "找到你的 Herbie：小企业如何用 AI 改造核心工作流",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460410.html",
+      "published": "Sun, 06 Sep 2026 12:04:30 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Herbie",
+        "CRM",
+        "Agent",
+        "CC0",
+        "ChatGPT"
+      ],
+      "summary": "企业AI落地，别急着全员铺开。约束理论告诉我们，系统产出受限于瓶颈环节。本文从童子军Herbie的故事切入，教你如何识别真正的瓶颈、先减负再提效，让AI作用于杠杆最大的地方，实现工作流整体提速。 Eliyahu M. Goldratt 在《The Goal》里讲过一个故事。 一群童子军排成一列徒步。有人走得快，有人走得慢。队伍很快被拉长——走得快的人已经跑到前面，走得慢的人落在后面。看起来很多人在努力前进，但整支队伍的速度，始终被最慢的那个孩子限制。 这个孩子叫 Herbie。 后来他们发现，Herbie 慢，不只…",
+      "key_points": [
+        "方法可以浓缩成一个循环： 选一条核心工作流 → 把它完整画出来 → 找到限制整体吞吐量的 Herbie → 先给它减负 → 让上下游围绕它重新组织 → 用 AI…",
+        "从一条核心工作流开始。找到那个真正限制业务前进的 Herbie。先把他背上的东西拿掉，再想办法让他走得更快。当他不再是瓶颈，再去寻找下一个",
+        "小企业更适合的路径不是“全面上 AI”，而是：选一条最重要的工作流，找到真正限制业务产出的瓶颈，然后用 AI 去动它"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一家机器人公司还没开始交付，为什么就值63亿美元？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/embodied/6459461.html",
+      "published": "Sun, 06 Sep 2026 11:41:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BMW",
+        "AI",
+        "Figure",
+        "Apptronik",
+        "Optimus",
+        "Apollo"
+      ],
+      "summary": "小鹏机器人融资63亿美元，特斯拉、现代、宝马纷纷入局，人形机器人为何成了智能汽车公司的共同议题？本文拆解车企布局机器人的四种路径，分析造车经验能迁移多少，以及谁在认真做产品、谁在讲资本故事。 8月24日，小鹏宣布机器人业务首轮融资超过9亿美元，投后估值超过63亿美元。 与这个颇具冲击力的数字同时存在的，是另一组不那么醒目的事实：交易仍涉及后续交割安排，小鹏的IRON也还没有进入规模商业交付。换句话说，投资人此时定价的主要不是当下收入，而是对未来的判断。 如果这只是小鹏一家公司的故事，问题无非是63亿美元贵不贵。 但…",
+      "key_points": [
+        "车企之间同样存在距离。小鹏已连续发布多代整机，并把机器人业务拆出来融资；比亚迪确认过人形机器人的亮相计划，但网络流传的部分产品参数和部署规模并未得到公司正式确认…",
+        "车企的弱点则藏在自己的规模里：汽车主业会不断争夺资金和管理注意力，一家车企控制的机器人公司也未必容易把产品卖给竞争对手。更重要的是，车企擅长量产，却可能在客户任…",
+        "但不会都成为机器人公司 判断一家车企是在认真做机器人，还是借热点讲故事，不能只看样机是否亮相"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AGI来没来不好说，但GPT-6真把Token省下来了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460215.html",
+      "published": "Sun, 06 Sep 2026 08:54:23 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Astra",
+        "GPT-6",
+        "OpenAI",
+        "AI",
+        "Sol",
+        "Token"
+      ],
+      "summary": "GPT-6 Astra深夜突袭，OpenAI总裁高呼“欢迎来到AGI时代”。新模型在ARC-AGI-3上从7.8%飙至99.9%，编程与智能体能力大幅跃升，同时Token消耗与任务耗时显著降低。本文深度拆解其性能真相、成本优势与“偏科”争议，带你判断AGI时刻是实至名归还是又一次宣言。 多年以后，人类或许会想起AGI时代的到来，是在一个平平无奇的夜晚。 9月3日，整个AI圈可能都没睡好。先是晚间全球AI大宕机，就当所有人准备洗洗睡的时候，9月4日凌晨三点半，GPT-6 Astra亮相了。 虽然发布会上OpenAI宣…",
+      "key_points": [
+        "Astra可以跨上下文窗口保存“工作笔记”，同时让更早的完整上下文保持可搜索，之前的消息和工具输出都能找回。重点内容主动记下来，漏记的细节还能回头翻，避免因上下…",
+        "但AI圈还有一个共识：高分不一定就“高能”，模型到底好不好用，还得干活层面见真章"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "实测GPT-6 Astra：曾经的那个OpenAI，回来了。",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460269.html",
+      "published": "Sun, 06 Sep 2026 08:53:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GPT-6",
+        "Astra",
+        "Sol",
+        "GPT-5.6",
+        "Codex",
+        "Fable"
+      ],
+      "summary": "GPT-6 Astra正式推送，OpenAI重回黄金时代！实测速度大幅提升、前端审美史诗级强化，一句话生成高精度3D模型惊艳全场。本文还分享了适配超级模型的AGENT.md优化策略，助你彻底释放新模型潜力。 今天凌晨，GPT-6 Astra正式向所有订阅用户开始推送。 不过这几天通宵的有点狠，我2点多就睡了，然后完美的错过了。。。 一觉睡醒，已经是下午2点了，然后微信就炸了，一堆人还有群里都在问我，GPT-6 Astra上了，你咋文章还没发。 我：= = 不过我还是很兴奋的，以为这玩意来的时间比我预期的还是早了一点…",
+      "key_points": [
+        "OpenAI重回黄金时代！实测速度大幅提升、前端审美史诗级强化，一句话生成高精度3D模型惊艳全场。本文还分享了适配超级模型的AGENT.md优化策略，助你彻底释…",
+        "Astra有个新机制，就是可以做成跨窗口笔记，那么旧窗口里的消息和工具结果也能搜回来",
+        "曾经手搓模型拉Box的感觉，现在AI可以直接上了，这还是挺兴奋的"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "番茄钟已经有一万种，他只加了一只猫，8个月做到月入1.8万美元",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6457148.html",
+      "published": "Sun, 06 Sep 2026 07:21:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "App",
+        "Ryan",
+        "Cat",
+        "Chair",
+        "on",
+        "AI"
+      ],
+      "summary": "Cat on Chair 给普通番茄钟加了只手绘猫，用收集、布置与陪伴感替代功能堆砌，8个月下载破12万、月入近1.8万美元。文章拆解设计师如何用 AI Coding 完成95%代码、把女友画的猫做成产品。 今天这个产品我可太喜欢了，这个 App 的开发者如果看到这一篇请务必告诉我。 这个 App，第一眼几乎不像一个值得创业的产品，它叫 Cat on Chair， 核心功能就是一个番茄钟。 所谓番茄钟，就是最普通的一种专注方法：设定25分钟，这25分钟不看手机、不干别的，时间到了以后休息几分钟，再开始下一轮。 类似…",
+      "key_points": [
+        "Cat on Chair 给普通番茄钟加了只手绘猫，用收集、布置与陪伴感替代功能堆砌，8个月下载破12万、月入近1.8万美元。文章拆解设计师如何用 AI Cod…",
+        "是它把“完成任务”变成了猫的行为 如果只是在计时器旁边画一只猫，其实很容易沦为 换皮番茄钟",
+        "目前它已经包括： 普通番茄钟、正向计时、待办事项、App和网站屏蔽、白名单、锁屏小组件、专注历史、统计、iCloud同步、环境音、Apple Watch、App…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "游戏晕3D是天生的还是后天的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792400",
+      "published": null,
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "sickness",
+        "of",
+        "VR",
+        "motion",
+        "Keshavarz",
+        "Hecht"
+      ],
+      "summary": "biokiwi， 用生命科学的角度看世界！ 查看知乎原文 所谓的“晕 3D”，是一种叫 “3D 晕眩症” 的症状（或者 视觉诱发晕动症 ，visually induced motion sickness，以下简称为晕 3D），是指在玩 3D 电子游戏，或者使用 VR 时容易发生的晕眩症状。 它也叫 模拟器病 （simulator sickness）——因为这个症状最开始，是指飞行员或者驾驶员使用模拟器开飞机、开车的时候，感觉到的恶心、难受、呕吐症状。 最早的模拟器病出现在 1950 年代的美国海军直升机模拟驾驶舱里…",
+      "key_points": [
+        "是一种叫 “3D 晕眩症” 的症状（或者 视觉诱发晕动症 ，visually induced motion sickness，以下简称为晕 3D），是指在玩 3…",
+        "晕动症——当你觉得你在动 但你视野没动的时候 晕车、晕船、晕飞机，这些因为交通工具引起的眩晕症状，我们叫做 晕动症 （motion sickness）。相信即使…",
+        "因为感官冲突过程中涉及到不少神经信号的传递，或者组胺分泌引发的恶心，所以 抗胆碱能、抗组胺类药物 往往都能有效减少晕车，当然也能避免晕 3D 当然，大家可能知道…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "我发现很多农村教堂并没有发鸡蛋，那为什么还有那么多老头老太太去信？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792416",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Mahaney",
+        "Piper",
+        "YouTube",
+        "YWCA",
+        "app",
+        "Campus"
+      ],
+      "summary": "骨瘦如柴姚日月， 真正的秩序，不是建立在契约之上，而是建立在对失败的恐惧之上。 查看知乎原文 对很多刚到美国的华人来说，教会是很神奇的地方。 进去可能只是为了蹭顿饭。 最后却顺手学了英语，找了工作，交了朋友，运气好的连对象都有了。 放在游戏里，这玩意基本就是华人新手村里的冒险者公会。 1848 年，加州发现金矿，消息一传到广东，珠江三角洲沿海的台山，新会，开平，恩平这一带的农民开始往美国跑。 这批人绝大多数是穷得活不下去的劳工，签了卖身契，搭着船横渡太平洋，到了旧金山就直接进矿场，进铁路工地。 后来横贯北美的太平洋…",
+      "key_points": [
+        "使用英语，神学上虽然仍偏福音派但是没有那么绝对， 但是这种教会的规模还很小，能不能在 2030 年代撑起华裔基督教的下一个阶段，要看接下来十年",
+        "从 1853 年旧金山唐人街那座长老会教堂起步， 到 1882 年排华法案下的艰难扎根， 到 1965 年移民法案后的留学生皈依大潮， 到 1990 年代到 2…",
+        "这批人和 1980 年代那批穷学生不完全一样， 他们经济上更宽裕，进入美国的时候已经有比较明确的职业方向， 很多人直接落地到硅谷，到金融业，到大学和科研机构"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "从顾虑到真香：孩子的脑洞该如何落地？家庭第一台 3D 打印机给你答案",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E9%A1%BE%E8%99%91%E5%88%B0%E7%9C%9F%E9%A6%99%EF%BC%9A%E5%AD%A9%E5%AD%90%E7%9A%84%E8%84%91%E6%B4%9E%E8%AF%A5%E5%A6%82%E4%BD%95%E8%90%BD%E5%9C%B0%EF%BC%9F%E5%AE%B6%E5%BA%AD%E7%AC%AC%E4%B8%80%E5%8F%B0+3D+%E6%89%93%E5%8D%B0%E6%9C%BA%E7%BB%99%E4%BD%A0%E7%AD%94%E6%A1%88",
+      "published": "Sun, 06 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "APP",
+        "X-MAKER",
+        "iF",
+        "Level",
+        "AOSEED"
+      ],
+      "summary": "最近我们收到好多后台私信来问上次那台3D打印机还有没有好价，很多姐妹都反应不给孩子找点事干，那就是手机平板轮番上阵，眼睛废了、脑子空了、亲子关系也崩了。 所以我们也是应大家的呼声，又去找品牌方谈了一次，还是上次的价格给大家来次返场。 先预约下方直播条锁定直播好价，福利多多~品牌方也是诚意满满~ 对于这台3D打印机说实话，决定入手之前，我和大多数宝妈一样，脑子里盘旋着三大顾虑： 第一，价格不便宜，买回来会不会吃灰？ 家里吃灰的玩具还少吗？ 第二，建模操作那么复杂，孩子能会用？ 我自己看着都头疼。 第三，是不是就只能打…",
+      "key_points": [
+        "附加加分功能 内置高清摄像头 ：全程记录，生成延时摄影视频，孩子可以分享朋友圈 快拆喷头 ：只需一个按钮即可更换 机身可DIY装饰 ：表面预留了安装孔位，孩子可…",
+        "福利多多~品牌方也是诚意满满~ 对于这台3D打印机说实话，决定入手之前，我和大多数宝妈一样，脑子里盘旋着三大顾虑： 第一，价格不便宜，买回来会不会吃灰",
+        "（3）长期学习价值：阶梯式免费STEM课程 完整三阶教学体系，全平台免费 ： 先导篇 ：3D打印基础科普 Level 1（平板） ：基础简易建模 Level 2…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "去医院做核磁，前面排队的是一只大熊猫？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8E%BB%E5%8C%BB%E9%99%A2%E5%81%9A%E6%A0%B8%E7%A3%81%EF%BC%8C%E5%89%8D%E9%9D%A2%E6%8E%92%E9%98%9F%E7%9A%84%E6%98%AF%E4%B8%80%E5%8F%AA%E5%A4%A7%E7%86%8A%E7%8C%AB%EF%BC%9F",
+      "published": "Sun, 06 Sep 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "static.nfapp.southcn.com",
+        "weibo",
+        "Instagram",
+        "tagesspiegel.de",
+        "amvt.ac",
+        "c199463.html"
+      ],
+      "summary": "“嘿！快猜猜我今天去医院做核磁前面排着谁？” “谁呀？是哪个明星吗？还是遇到你亲戚朋友了？” “都不是！是一只 大熊猫 ！” 大熊猫“七七”的就诊记录｜weibo 在人类医院怎么会碰上大熊猫来看病？野生动物可不像人类患者一样会乖乖坐着，兽医们又是怎么给它们做检查、做手术的呢？ 腿脚不便？拍个片子！ 有时候你真的能在人类医院里见到动物，比如前面提到的大熊猫“七七”曾去上海仁济医院接受CT检查。 由于不同物种的野生动物 体型差异很大 ，一些为宠物研发的、主要应用于小动物的仪器，在参数或者大小上无法满足大型动物的需求；再…",
+      "key_points": [
+        "“嘿！快猜猜我今天去医院做核磁前面排着谁？” “谁呀？是哪个明星吗？还是遇到你亲戚朋友了？” “都不是！是一只 大熊猫 ！” 大熊猫“七七”的就诊记录｜weib…",
+        "下图的这只大熊猫“梦想”是在德国柏林动物园出生的，它曾因出现痉挛症状而被送往夏里特医院接受核磁共振检查",
+        "比如前面提到的大熊猫“七七”曾去上海仁济医院接受CT检查"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "不戒碳水就是不自律？不好意思，这次我不想忍了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E6%88%92%E7%A2%B3%E6%B0%B4%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%87%AA%E5%BE%8B%EF%BC%9F%E4%B8%8D%E5%A5%BD%E6%84%8F%E6%80%9D%EF%BC%8C%E8%BF%99%E6%AC%A1%E6%88%91%E4%B8%8D%E6%83%B3%E5%BF%8D%E4%BA%86",
+      "published": "Sun, 06 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GI",
+        "dc_ps",
+        "End",
+        "feature",
+        "Glycemic",
+        "hGeLNih85T"
+      ],
+      "summary": "不知何时起，“戒碳水”变成了一种流行。 米饭 不敢大口吃， 面条 不敢多碰， 包子、饺子、甜点 ，想吃全靠忍。不小心吃多了后悔，吃少了又饿得快...... 社交媒体上， 戒碳水、断主食、生酮饮食 被包装成自律健康的生活方式。好像你不戒，就是不自律、犯猪瘾，就活该被嘲笑成“ 碳水脸”。 明明我们只是想吃碗米饭， 怎么突然就低人一等了？ 其实啊，真正的问题不是吃碳水，而是吃错了碳水。 想要 判断“怎么吃对碳水”， GI值（血糖生成指数，Glycemic Index）是常用的参考维度之一 ，这是衡量食物里的碳水让血糖“冲…",
+      "key_points": [
+        "戒碳水、断主食、生酮饮食 被包装成自律健康的生活方式。好像你不戒，就是不自律、犯猪瘾，就活该被嘲笑成“ 碳水脸”",
+        "“戒碳水”变成了一种流行",
+        "用 手指轻按表面能迅速回弹，嚼起来谷香味特别突出，还很有嚼劲和韧性，越吃越香~上锅蒸一下，或者微波炉加热都可以，巨方便省事~ 🍞 低GI燕麦香葱吐司 作为早八人…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "免费早餐，坑了多少好酒店？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%8D%E8%B4%B9%E6%97%A9%E9%A4%90%EF%BC%8C%E5%9D%91%E4%BA%86%E5%A4%9A%E5%B0%91%E5%A5%BD%E9%85%92%E5%BA%97%EF%BC%9F",
+      "published": "Sun, 06 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ID",
+        "tourismzonenews"
+      ],
+      "summary": "天下没有免费的早餐。 首图：AI 领域：酒店业 昨天早上，我在上海一家外资五星连锁酒店用早餐前，遇到了个颇为尴尬的场景。 餐厅门口，服务人员压低声音，反复向面前客人道歉，姿态放得很低，大概意思是前面接到了投诉，酒店已经沟通过，这顿早餐就不收钱了。 客人点点头，脸上看不出太多表情，回头招呼同行朋友，几个人顺着餐厅入口走了进去。 门口那位姑娘松了口气，很快又恢复笑容，转身去核验后面客人房号和权益。 我站在后面，看完全过程，突然想起近几年，类似这样古怪的妥协，在许多商旅酒店门店屡见不鲜，早餐更是重灾区。 不久前，有家中端…",
+      "key_points": [
+        "系统里也没有赠送权益，还是有人不走，继续站在柜台前聊，“平台上订房说会员有礼，早餐又不值几个钱，怎么到你们这里就不行了？” 无论前台怎么解释，气氛只会越来越尴尬…",
+        "凯悦旗下的部分凯悦嘉轩已将早餐从所有住客免费的标配中取消，改为仅限特定会员或需单独付费购买，华住、亚朵、锦江等国内连锁酒店集团也日益严格按照会员等级来划分是否早…",
+        "我在武汉出差，住在漫心酒店，早上去餐厅时，入口位置立着块会员权益早餐说明，写得很清楚，哪些级别会员可以免费用餐，什么情况需要付费，没有太多解释空间"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "蔡明亮谈小康、酷儿和马来西亚",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%94%A1%E6%98%8E%E4%BA%AE%E8%B0%88%E5%B0%8F%E5%BA%B7%E3%80%81%E9%85%B7%E5%84%BF%E5%92%8C%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A",
+      "published": "Sun, 06 Sep 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BOMB",
+        "Gary",
+        "God",
+        "hongmomgs",
+        "irisfilm",
+        "Kramer"
+      ],
+      "summary": "作者：Gary M. Kramer 译者：易二三 校对：覃天 来源：BOMB （2015年4月8日） 蔡明亮是当代世界电影的大师之一。他的电影以长镜头、极简对白和总是担任主演的李康生（导演的缪斯）而著称。这位电影人出生于马来西亚，但主要在台湾（偶尔也在法国）工作，他的电影着重表现偷窥、疏离和孤立。 蔡明亮（左）与李康生 他一次又一次地回到一些引发共鸣的隐喻和主题；在他的作品中，雨和水几乎是永恒的存在，它经常代表着爱或绝望，有时同时代表着两者。就像这些有着流动的水的画面一样，蔡明亮电影中的角色也因被压抑的性欲而悸动。…",
+      "key_points": [
+        "Kramer 译者：易二三 校对：覃天 来源：BOMB （2015年4月8日） 蔡明亮是当代世界电影的大师之一。他的电影以长镜头、极简对白和总是担任主演的李康生…",
+        "蔡明亮：创造难道不是与生活不可分割的吗？我不想讲故事，也不想编造现实。我想推荐一部关于我的传记片:《昨天》，这部电影是马来西亚的年轻导演苏忠源为我拍的。他追踪了…",
+        "蔡明亮：离开我在马来西亚的家乡古晋市后，我留在了台湾。我没有离开台湾是因为我觉得在这里更自由。我想说什么就说什么。在马来西亚，很多社会限制让我无法做回自己，所以…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这是中国人最爱的欧洲电影了吧？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%9C%80%E7%88%B1%E7%9A%84%E6%AC%A7%E6%B4%B2%E7%94%B5%E5%BD%B1%E4%BA%86%E5%90%A7%EF%BC%9F",
+      "published": "Sun, 06 Sep 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Annm",
+        "culte",
+        "France",
+        "hongmomgs",
+        "Houry",
+        "ind"
+      ],
+      "summary": "文 Annm 整整六十年前，《虎口脱险》在法国公映。 《虎口脱险》 一开始没有什么迹象表明它会成为法国影史上极为特殊的一部电影。制片人罗贝尔 · 多弗曼和导演热拉尔 · 乌里当然想要一个商业大片，但超过 1700 万的法国观影人次远远超出了所有人的预期。 那一年法国总人口大约 4900 万，这个票房规模相当于当时法国人口的三分之一以上。这个数字作为法国电影在法国本土的观影人次纪录保持了四十多年，直到 2008 年才被《欢迎来北方》超越。 《欢迎来北方》 但《虎口脱险》的真正特殊性还不在于票房纪录，我们今天回过头来看…",
+      "key_points": [
+        "这里还有一个微妙的代际维度。《虎口脱险》的编剧之一是乌里的女儿达妮埃尔 · 汤普森。这是她第一次做编剧，后来她参与了乌里此后几乎所有电影的剧本创作。她 1942…",
+        "法国人把它从银幕上的事件内化成了集体生活的一个固定仪式。所以法国人对待这部电影的方式有一种很特殊的温情，媒体谈到《虎口脱险》时，经常使用 「 ind é mod…",
+        "影片本身就是一个现代化的商业产品。今天很多人因为在电视上反复看到它，觉得这是一部温馨的老电影，忘了它在当年其实是一个规模惊人的工业项目。它是法英合拍片，英国的兰…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国最美火山湖，现在就出发！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%BE%8E%E7%81%AB%E5%B1%B1%E6%B9%96%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%91%EF%BC%81",
+      "published": "Sun, 06 Sep 2026 09:00:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Carol"
+      ],
+      "summary": "我们总说水火不相容， 然而，“地球的焰火”火山喷发 却塑造出了许多壮美的湖泊。 火山湖主要分为 火口湖、玛珥湖以及熔岩堰塞湖， 它们不仅美丽， 还有着特殊的科研价值...... 火口湖 代表：长白山天池 我国最具代表性的火山湖 就是一座典型的火口湖—— 位于吉林省东南部的 长白山天池 ， 就像一个永恒的坐标， 把火山锥和火山口湖的形象 定位在了人们的心里 。 图中天池水面映射着火红的朝霞，仿佛炽烈的岩浆喷涌而出，与空中火山灰般的云层共同构成了“火山爆发”的幻境。 图源：中国国家地理 2022年03期 天池是 我国第…",
+      "key_points": [
+        "火口湖 代表：长白山天池 我国最具代表性的火山湖 就是一座典型的火口湖—— 位于吉林省东南部的 长白山天池 ， 就像一个永恒的坐标， 把火山锥和火山口湖的形象…",
+        "图源：中国国家地理 2005年11期 绘图/郭柏林 一篇微信文章的体量 无法将中国火山湖依次完整 介绍 如果你想深入、全面地了解 更多的火山湖以及背后的地理知识…",
+        "图源：中国国家地理 2017年03期 摄影／刘载学 玛珥湖 代表：湖光岩、阿尔山部分火山湖、龙岗火山群大龙湾 玛珥 是指岩浆在上升过程中遇到水， 水受热迅速膨胀…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "介绍一下我家的月饼",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B%E6%88%91%E5%AE%B6%E7%9A%84%E6%9C%88%E9%A5%BC",
+      "published": "Sun, 06 Sep 2026 11:26:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "最重要的事情最先讲：今年中秋在十一前，今年中秋在十一前，今年中秋在十一前。 有些年份中秋和十一在一起，而有些年份中秋在十一之前，今年就是如此。每到这样的年份，我就提醒一声。因为历史经验告诉我，每一次都会有很多人会在月饼下架之后才跑来下单，还觉得自己很稳，然后如梦初醒，赶紧去别处临时找。 今年中秋是 9 月 25 日，但是打月饼的师傅们从 17 日开始就会停工休息。从下周一开始，满打满算还有十天，不是什么「还早」。 我在线上卖云南月饼很多年，我家的滇式五仁月饼更是扭转了许多人对于五仁月饼的偏见。从来就没有什么「最难吃…",
+      "key_points": [
+        "我所说的每一句话， 都是错的 《槽边往事合集》 槽边往事 槽边往事2 槽边往事3 槽边往事 4 健康 《槽边往事》专营店营业 介绍一下全菌帽版油浸鸡枞 南派三叔…",
+        "我家的滇式五仁月饼更是扭转了许多人对于五仁月饼的偏见。从来就没有什么「最难吃的月饼」一说，全看个人口味是什么，然后就要是看谁来做，怎么做。五仁月饼不是什么「也可…",
+        "所有这些月饼在 9 月 17 日之后就不再生产，之后能不能买到，能买到哪些品种，就要拼人品和运气了。虽然每年到了这个季节，我家月饼都会准时上线，但是每年也都有人…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "用神经科学的原理来讨论中国画",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E7%94%A8%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6%E7%9A%84%E5%8E%9F%E7%90%86%E6%9D%A5%E8%AE%A8%E8%AE%BA%E4%B8%AD%E5%9B%BD%E7%94%BB",
+      "published": "Sun, 06 Sep 2026 08:08:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "Press",
+        "University",
+        "ART",
+        "BRAIN",
+        "BRIDGING"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 《步辇图》是唐代阎立本的作品，反映 松赞干布 迎娶 文成公主 的事，这是汉藏兄弟民族友好情谊的历史见证。图中所绘是禄东赞朝见 唐太宗 的场景， 唐太宗 身体魁梧，比周围人物大了许多，乃是画家根据自己意愿突出人物重要性的做法。 图源：故宫博物院 撰文｜ 林凤生 ‍ ● ● ● 本世纪以来，西方多位神经科学家，如英国伦敦大学学院的 S.Zeki等，采用近、现代脑科学里的新发现和相应的实验手段，分析、解读了在许多西方名画里蕴含的科学原理，令广大的科学、艺术爱好…",
+      "key_points": [
+        "山水的造型方面，因为加入画家的主观意愿，较之用透视法、解剖术等科学原理为指导的西方绘画在逼真的程度上要稍逊一筹，于是许多美术史家认为中国画缺乏科学性。但笔者以为…",
+        "[24] 为了理解中国画法与视觉脑科学之间的关系，我们首先要了解我们的视觉体验是如何由大脑生成的。当外界入射的视觉信息会聚到视网膜上时，会经过一番整理，快速地对…",
+        "意大利帕尔马大学的神经科学家 贾科莫 ·里佐拉蒂 （ G iacomo Rizzolatti） 领导的研究小组在研究恒河猴大脑里 （前皮层F5区） 的“运动-命…"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "第三期经济学人精读打卡营(最后1天)",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%AC%AC%E4%B8%89%E6%9C%9F%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E7%B2%BE%E8%AF%BB%E6%89%93%E5%8D%A1%E8%90%A5%28%E6%9C%80%E5%90%8E1%E5%A4%A9%29",
+      "published": "Sun, 06 Sep 2026 16:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "less",
+        "mere",
+        "CATTI",
+        "Day01",
+        "increase"
+      ],
+      "summary": "我们最近一直在改第三期精读营的课程。脑子里反复出现一个问题：一篇文章讲了十来个词、两句长难句，题也做了，译文也看了，第二天还能留下什么？ 如果答案只是“这篇我读过”，那和收藏了一篇文章，区别并不大。外刊精读最容易出现一种错觉。查完生词，句子大致看懂，再对一遍译文，心里会冒出一句：“好像也没那么难。”可下次碰到相似文章，还是不知道作者的结论藏在哪里，也分不清哪句话是事实，哪句话只是推测。 问题往往不在词汇量。你看到的是四段英文，作者写的是一条论证路线。 第三期《经济学人》精读打卡营，我们把每天的正课重新做成了四段完整…",
+      "key_points": [
+        "我们最近一直在改第三期精读营的课程。脑子里反复出现一个问题：一篇文章讲了十来个词、两句长难句，题也做了，译文也看了，第二天还能留下什么",
+        "会读什么 这期20篇文章全部重新选过，来自《经济学人》年费会员文章，不沿用前两期正课。题目看起来很杂",
+        "其实是《经济学人》最值得学、也最容易在CATTI翻译和考研阅读里丢掉的东西"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第281期 - 越王的剑",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/281/",
+      "published": "Mon, 07 Sep 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Hunt",
+        "Product",
+        "https",
+        "AI",
+        "GitHub",
+        "HTML"
+      ],
+      "summary": "封面图拍摄于周末浙江博物馆，本来想去看四大兽首的展览，结果人很多，就去看常规的场馆了，发现了非常美的东西，这把越王勾践儿子的佩剑就非常好看，感叹当时的越国审美真好。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 TokenRemain：一个免费的 AI Coding 额度统计 https://www.tokenremain.com/ 在官网的宣传页感觉还不错，整体也做得比较整洁，有兴趣的可以试一试，而且还加入了 Codex 重置的一些通知。 Unclack：打字的…",
+      "key_points": [
+        "本来想去看四大兽首的展览，结果人很多，就去看常规的场馆了，发现了非常美的东西，这把越王勾践儿子的佩剑就非常好看，感叹当时的越国审美真好"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-07",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "你觉得什么品种的蛇最吓人？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792352",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Hydrophis",
+        "Aipysurus",
+        "cyanocinctus",
+        "fasciatus",
+        "laevis",
+        "Laticauda"
+      ],
+      "summary": "知乎用户， 嗜猫事猫是猫 查看知乎原文 绝对是对人类过于热情，喜欢拱入怀里的海蛇。陆生毒蛇要么被人类惊扰到就跑掉，要么如眼镜蛇类立直身体明确表达不友好，就算是阴毒的尖吻蝮和原矛头蝮，也只会安静的待在原处，人类只要不走过去就没啥事；而海蛇，尤其是繁殖期的雄性海蛇看见潜水员，会像家里猫狗一样奔过来打招呼，西北太平洋热带海域的橄榄海蛇等品种，还爱缠绕在手臂和腿部及潜水装备上，并在人类惊慌失措拍打和逃离时，企图通过撕咬阻止，堪称潜水人员的梦魇，导致每年多人被咬伤。 遇见热情的海蛇需要一颗强大的心脏 https://www.…",
+      "key_points": [
+        "点一下题，无论什么品种，离我最近那条蛇最吓人， 查看知乎讨论",
+        "靠近人类船只观察的橄榄海蛇（光滑剑尾海蛇 Aipysurus laevis） 人类对于海蛇的恐惧主要是因为更高效的神经毒素，40 个属 207 种海蛇中常见品种…",
+        "嗜猫事猫是猫 绝对是对人类过于热情，喜欢拱入怀里的海蛇。陆生毒蛇要么被人类惊扰到就跑掉，要么如眼镜蛇类立直身体明确表达不友好，就算是阴毒的尖吻蝮和原矛头蝮，也只…"
+      ]
+    }
+  ]
+}
