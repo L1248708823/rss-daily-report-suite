@@ -1,0 +1,732 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T01:00:11.673345+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 91,
+    "fresh_candidates": 62,
+    "backfill_candidates": 29,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-08",
+      "fetched_at": "2026-09-08T01:00:06.348678+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3932.7,
+          "change": 2.58,
+          "change_pct": 0.07,
+          "volume": 477375261.0,
+          "amount": 89790401.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4426.95,
+          "change": 20.720000000000255,
+          "change_pct": 0.47,
+          "prev_close": 4406.23,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-08 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 955.1742231581655,
+          "change": 4.47061970517791,
+          "change_pct": 0.47024326918931075,
+          "prev_close": 950.7036034529876,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-08 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-08",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "一买就跌？一卖就涨？我的账户难道被监控了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%80%E4%B9%B0%E5%B0%B1%E8%B7%8C%EF%BC%9F%E4%B8%80%E5%8D%96%E5%B0%B1%E6%B6%A8%EF%BC%9F%E6%88%91%E7%9A%84%E8%B4%A6%E6%88%B7%E9%9A%BE%E9%81%93%E8%A2%AB%E7%9B%91%E6%8E%A7%E4%BA%86%EF%BC%9F",
+      "published": "Mon, 07 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "AI",
+        "END-",
+        "ROE"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 六亿居士 来源：雪球 最近的市场 ， 又有点折腾人 。 市场一折腾 ， 情绪就如影随形 。 一卖就涨 、 一买就跌 ， 也成了这半年不少朋友挥之不去的心病 。 过去一周 ， 上证指数下跌0.56% ， 深证成指下跌3.13% ， 创业板指波动更大 。 周五两市成交额重新回到2万亿元以上 ， 高位科技板块出现明显调整 ， 资金又开始向消费 、 农业等低位方向切换 。 前段时间涨得很好的科技 、 AI 、 算力 ， 出现了明显…",
+      "key_points": [
+        "账户里有十只基金 ， 一只赚了40% ， 一只亏了30% ， 剩下八只上下几个点"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "铜周期：我们现在到底站在什么位置？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1583242898/408255489",
+      "published": "Mon, 07 Sep 2026 10:21:58 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TC",
+        "AI",
+        "PMI",
+        "Charge",
+        "http",
+        "ROE"
+      ],
+      "summary": "最近铜价波动很大，伦铜在13800到14500之间来回拉锯，很多朋友问：铜的大周期到底走到哪一步了？是已经到顶要跌，还是只是上行途中的正常震荡？ 我把自己跟踪铜周期的框架整理出来，供大家参考。以下全部是个人学习思考，不构成投资建议。 一、判断周期位置，先看供给端——这是决定性因素 铜和很多大宗商品不一样，它的供给弹性极低。一个大型铜矿从勘探到投产，平均需要8到12年，不是价格一涨就能马上挖出来的。 当前供给端有几个非常明确的信号： 1. 全球铜矿资本开支长期不足 过去十年，全球主要矿业公司在铜矿勘探和新项目上的投入…",
+      "key_points": [
+        "四、关键跟踪指标清单 判断铜周期是否走坏，我重点盯这几个指标： 五、个人思考总结 把以上信息综合起来，我的判断是： 铜目前处于超级周期的上行中段，不是底部，也不…",
+        "铜价从高位回落到12100附近，回撤幅度接近20%，之后再度反弹创新高。这种&#34;大涨—深度回调—再创新高&#34;的走势，是上行周期中段的典型特征，而不是…",
+        "我个人的体会是：大方向可以乐观，但操作上不能追高，要接受周期股的巨大波动，在景气阶段要有止盈意识，不能用&#34;只买不卖永久拿着&#34;的思路对待强周期品种"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "快递公司最核心的预期差",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9201106692/408253547",
+      "published": "Mon, 07 Sep 2026 10:21:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "gt",
+        "CR6",
+        "CR9",
+        "H1",
+        "http",
+        "kg"
+      ],
+      "summary": "上市公司年报、研报分析中，均在提及“行业反内卷政策”，由此大家很容易得出一个结论：把本轮快递业绩的大幅增长是由于反内卷政策。一旦得出这样的结论，马上就会产生怀疑：反内卷政策执行的持续性？是否未来会再度内卷？ 我认为，大量投资者都被误导了，实际上快递行业这轮业绩修复，反内卷只是一个说辞， 根本原因是快递行业从买方市场转变成了卖方市场 。 此前的几篇文章也多多少少写过，比如 快递行业研究 、 快递的景气度与护城河 、 我最看好的老登——快递 ，本篇再集中说明一下。 一、为何不是反内卷 大家都在说快递反内卷，来源是一年多…",
+      "key_points": [
+        "由于快递公司对加盟商的核心考核是“单量”，完成单量有阶梯返利，完不成单量罚款，导致加盟商有着天然的低价抢订单的冲动。电商客户利用快递加盟商之间的竞争，逐个压价、…",
+        "派件市场（派送&gt;揽收）的一级加盟商生存不易，二级加盟商就更困难了。这就倒逼出现了区域共配现象——同一个二级加盟商，可能对接了多个快递公司的区域加盟商。这个…",
+        "出现了积极变化： 1、 快递公司总部对经销商的考核政策出现较大变化 ，“冲量返点”减少，“质量返点”增加。对单量未达标的加盟商，从直接罚款转为帮扶、调整区域划分…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "猪周期，见底了吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2859479813/408351611",
+      "published": "Mon, 07 Sep 2026 10:21:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH000001",
+        "SZ000876",
+        "SZ002714",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "这一轮猪周期，到底走到哪个阶段了？现在是不是已经到了底部？ 一、猪周期最残酷的地方，就是“赔钱时间” 养猪这个行业，最重要的不是某一天猪价涨跌，而是 亏损能持续多久 。 一般中小散户外购仔猪，从仔猪养到商品猪出栏，大概需要5—6个月。也就是说，一轮正常的亏损周期，大约就是5—6个月。 亏一轮，很多人还能扛。 但如果连续亏两轮，也就是10—12个月，情况就完全不一样了。 家底最厚的散户，也经不起这么长时间持续亏损。尤其是中小养殖户，本身资金实力有限，连续亏损以后，退出是非常现实的选择。 目前全国年出栏1万头以下的养殖…",
+      "key_points": [
+        "很多时候也就是4—6个月（对应散户一轮养猪周期） 2018年那一轮，牧原曾经连续亏损接近12个月，那已经是非常极端的一次",
+        "这里有一个非常重要的概念： 猪周期的底部，不是猪价最低的那一天，而是行业已经被亏损逼到极限的那个阶段",
+        "不是找到最刺激的猪股，而是找到能够活着穿越猪周期、并在周期反转时吃到利润的公司"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "天齐锂业2026年半年报阅读笔记",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7157351566/408289504",
+      "published": "Mon, 07 Sep 2026 10:21:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "SQM",
+        "LCE",
+        "PB",
+        "PE",
+        "CGP3",
+        "AIDC"
+      ],
+      "summary": "——锂价周期中的资源龙头：定性、预测与估值 天齐锂业这份半年报最醒目的数字是归母净利润同比增长4925%——从去年同期约0.84亿跳到42.42亿。但比数字更重要的问题是：这是周期反转的真实盈利，还是基数效应下的数学幻觉？理解天齐，本质上是理解锂价周期，理解资源品的成本曲线。本文分四部分：半年报财务与业务、历史回顾与定性、全年及2027预测、投资价值与估值。 一、半年报：锂价反转下的盈利弹性 核心财务与季度节奏 上半年营收122.42亿（+153%），仅用半年就超过2025全年的103.46亿；归母42.42亿（+…",
+      "key_points": [
+        "——锂价周期中的资源龙头：定性、预测与估值 天齐锂业这份半年报最醒目的数字是归母净利润同比增长4925%——从去年同期约0.84亿跳到42.42亿。但比数字更重…",
+        "定性判断：这是一家什么样的公司 定性结论： 天齐锂业是一家&#34;纯周期资源股&#34;，不是成长股，不是科技股，也不是制造业股。它的核心是两个全球顶级锂资源…",
+        "三、往后看：全年业绩与2027年判断 2026年全年预测 预测天齐全年业绩，核心是预测下半年锂价均价。上半年均价16.34万（Q1约15万/Q2约17.5万），…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "因为GPT-6 Astra的爆火，我好像看见了时代的断层。",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460982.html",
+      "published": "Mon, 07 Sep 2026 09:24:10 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Astra",
+        "AI",
+        "Blender",
+        "GPT-6",
+        "Demo",
+        "AE"
+      ],
+      "summary": "GPT-6 Astra 的发布让整个互联网陷入疯狂，它不仅能操控 Blender、Unity 等专业软件，还能自主完成建模、渲染甚至游戏 Demo 的制作。本文通过多个震撼案例，揭示了 AI 正在抹平“执行能力”的鸿沟，让创意与结果之间的距离急剧缩短，未来职业价值将被重构为“判断力”与“执行力”的分离。 周末，GPT-6 Astra正式上线了。 然后，所有的社媒、社群都玩疯了。 我的X的时间线，更是几乎全部都是GPT-6 Astra。 或者更准确的说，全是各种人拿GPT-6操作软件，然后做出来一些离谱东西的视频。…",
+      "key_points": [
+        "前几天看到GPT-6 Astra发了之后，其实我很焦虑，因为我不止是一个博主，我也是一个三十多个人的公司的老板，于是我写了这么一段话，可能确实会有一些登味，但是…",
+        "很多次我在玩《神之天平》的时候都扼腕叹息，如果KEIZO是AI时代去做这款作品的，如果他的手上有GPT-6 Astra这样的模型",
+        "这也是为什么我上一篇写GPT-6的时候，会写一句话： GUI可能会逐渐成为Agent时代最通用的API"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "智谱开天猫旗舰店，都卖给谁了？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6460833.html",
+      "published": "Mon, 07 Sep 2026 09:21:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Token",
+        "API",
+        "AI",
+        "ARR",
+        "Coding",
+        "GLM-5.3-Flash"
+      ],
+      "summary": "智谱将Token摆上天猫货架，以118元/月的价格售卖GLM Coding Plan，看似零售实验，实则为API业务打广告并回应资本市场。本文从收入结构切换、ARR增长与成本竞争角度，剖析智谱在Token经济终局中的战略布局与盈利焦虑。 智谱的工程师们可能没想到，自己日夜调试的代码，有一天会以118元/月的价格，和手机贴膜、数据线摆在同一个购物车里。 现在上淘宝搜索“智谱”，跳出来的是几张中规中矩的定价单，售卖智谱GLM Coding Plan，个人Lite版月付118元，Pro版月付538元，Max版月付1078…",
+      "key_points": [
+        "那今天智谱的布局就是抢占基础设施入口的先手； 如果Token始终无法摆脱非标品的属性，那天猫旗舰店可能只是一场精心策划的品牌广告，热闹过后，什么都没改变",
+        "智谱的天猫旗舰店到底在卖什么",
+        "天猫上线Token充值中心后，首批接入的阿里云、智谱、Kimi、MiniMax、DeepSeek等国内头部大模型厂商中，智谱是唯一一个以官方旗舰店身份入驻的大模…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "我帮企业配了两年数字员工，轮到自己却卡在了第一步",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460820.html",
+      "published": "Mon, 07 Sep 2026 07:21:19 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "agents",
+        "Anthropic",
+        "Building",
+        "CC0",
+        "effective"
+      ],
+      "summary": "给企业配了两年数字员工，轮到自己却卡在第一步：不知道第一个该配谁、让它干什么。问题不在技术，在于自己的培训、咨询、交付还没梳理成能交接的岗位。判断还在脑子里，起个「方案专家」的名字也不会自动交出去——先把会后整理固定下来，可能才是真的开始。 这几年，我一直在给企业做AI培训、智能体和知识库项目，也搭过不少数字员工。要说拆需求、设计工作流、准备资料、做评测，这些事我手到擒来。 但这周，托朋友的福，我和一位AI圈里知名的创业者约了个咖啡局。他现在在做一个 AI数字员工 的项目，想听听我从企业一线的看法。聊到他的产品，我…",
+      "key_points": [
+        "轮到自己却卡在第一步：不知道第一个该配谁、让它干什么。问题不在技术，在于自己的培训、咨询、交付还没梳理成能交接的岗位。判断还在脑子里，起个「方案专家」的名字也不…",
+        "轮到自己，一个都配不出来 我自己也同时在做培训、咨询、方案和项目交付。每天并行很多事，活不少，但一想到什么事能交给数字员工干，我一时半会还真反应不过来",
+        "托朋友的福，我和一位AI圈里知名的创业者约了个咖啡局。他现在在做一个 AI数字员工 的项目，想听听我从企业一线的看法。聊到他的产品，我坦率告诉他：理念挺好，我也…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "OpenAI产品负责人：你熬夜写的50页文档，已经不值钱了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460929.html",
+      "published": "Mon, 07 Sep 2026 07:16:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Tara",
+        "OpenAI",
+        "Agent",
+        "ChatGPT",
+        "Work"
+      ],
+      "summary": "熬夜写的50页文档正在急速贬值？OpenAI产品负责人Tara Seshan在访谈中直言，能写长文档已不再是能力证明。AI正从对话、协作者进化到持久Agent同事，执行层被接管，人类只剩掌舵价值。她揭秘OpenAI内部如何砍掉一年期路线图，用两三个月敏捷迭代，并分享告别完美文档的毛边哲学，为打工人指出新护城河。 不管你愿不愿意，你熬夜写的那份50页文档，正在急速贬值。 这不是你的锅，只怪现在的AI太能干了——几分钟就能吐出一份字数相当、同样工整、几乎挑不出什么毛病的替代品。 所有打工人都撞上这样一个残酷现实： 在今…",
+      "key_points": [
+        "熬夜写的50页文档正在急速贬值？OpenAI产品负责人Tara Seshan在访谈中直言，能写长文档已不再是能力证明。AI正从对话、协作者进化到持久Agent同…",
+        "你熬夜写的那份50页文档，正在急速贬值",
+        "是OpenAI Codex与ChatGPT Work的产品负责人Tara Seshan"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "“GPT-6 Astra 正式登场”会怎样改变现有技术栈？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6460795.html",
+      "published": "Mon, 07 Sep 2026 07:08:48 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Astra",
+        "API",
+        "Agent",
+        "RAG",
+        "AI",
+        "GPT-6"
+      ],
+      "summary": "GPT-6 Astra 把异步工具调用、状态延续推到 Agent Runtime 一层，只换模型名称只能用上最表层。后端从模型网关升级为任务运行时，前端从聊天窗口变为任务控制台，百万上下文不会结束 RAG，真正拉开差距的是数据治理、权限审计与可观测性。 2026 年 9 月 3 日，OpenAI 发布 GPT-6 Astra。到了北京时间 9 月 4 日，技术圈里已经出现了大量跑分解读和“AGI 时代”讨论。 很多开发团队看到新模型，习惯性的动作是打开配置文件，把旧模型名称换成 gpt-6-astra，然后重新跑一…",
+      "key_points": [
+        "我对 Astra 的判断是： 它不会让现有技术栈集体报废，但会改变技术栈的重心 。前端从聊天走向任务控制，后端从同步调用走向长任务运行，RAG 从文档检索走向按…",
+        "现有系统怎样迁移更稳妥 大多数企业没有必要重写整套系统。比较现实的路径，是保留稳定的业务服务、数据库和消息体系，在外面增加一层可替换的 Agent Runtim…",
+        "调用入口会成为这轮技术栈调整的第一道分水岭"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "哪些文物使用了罕见的制作材料？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792427",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "basaltes",
+        "Tezcatlipoca"
+      ],
+      "summary": "知乎用户， 伪史壬一律拉黑 查看知乎原文 华南地区有几处新石器时代遗址出土了一种黑色石器 [1] ，看起来没什么特别： 广西娅怀洞遗址出土的石器 它叫做雷公墨石器。 雷公墨这个名字最早见于唐代，如唐朝刘恂的《岭表录异》一书中记载： 每大雷雨后，多于野中得黳石，谓之雷公墨。扣之鈖然，光莹如漆。又如霹雳处，或土木中，得楔如斧者， 谓之霹雳楔，小儿佩带，皆辟惊邪；孕妇磨服，为催生药。必验。 雷公墨 直到上世纪才搞清楚这是一种玻璃陨石，或称撞击玻璃。源于约 79 万年前一颗大小接近 1 公里的小行星撞击到南海（目前没找到陨…",
+      "key_points": [
+        "找来了传教士汤若望鉴别。汤若望认为这是用“巴萨勒得”（拉丁文 basaltes）就是玄武岩制成的，石材产于大西洋属雅里吗（德国）及贺仁（希腊）两国山中，在他们国…",
+        "特斯卡特利波卡 黑曜石镜是中美洲文明的工艺品，但对于万里之外的中国来说很稀罕，就连网罗了天下奇珍的清朝皇帝也没见过，也不知道它是啥材料做的。这面黑曜石镜子目前收…",
+        "放眼全球最有名的玻璃陨石文物是这件：图坦卡蒙胸饰中心的金黄色圣甲虫宝石，1998 年才被鉴定出来是以一块利比亚玻璃陨石雕刻而成的"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "从科学的角度考虑，蘑菇能否直接在人体（或尸体）上生长？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792433",
+      "published": null,
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BS",
+        "Massospora",
+        "Ophiocordyceps",
+        "Transmission",
+        "Active",
+        "AHT"
+      ],
+      "summary": "祥昊， 我在想要不凑几个人跑团去？ 查看知乎原文 真够呛。 对于真菌来说， 蘑菇（子实体）并不是必要的产物。 我们能吃到蘑菇很大程度得感谢那些木腐 / 草腐真菌地主家有了余粮想托举一把， 让自家的傻儿子攀个高枝，虽然也就几公分的事，但也算赢在起跑线不是。 而大多数真菌是不会结子实体的。 那我非要让真菌结子实体会咋样呢？ 那首先得找能干这活的菌。 传统分类按真菌形态可以粗略的分为四大门， 其中壶菌门（Chytridiomycota）结构原始，往往喜欢单打独斗，纯个体户，结不出大型子实体。 接合菌门（Zygomycot…",
+      "key_points": [
+        "第二种是 无操控传播（Non-Manipulative Transmission）， 如绿僵菌（ Metarhizium ） 他们可以直接在宿主身上产生孢子跟随…",
+        "[5] 第一派是 顶峰病传播（Summit Disease）， 如偏侧蛇虫草（Ophiocordyceps unilateralis 就是大名鼎鼎的僵尸蚂蚁真菌…",
+        "我们能吃到蘑菇很大程度得感谢那些木腐 / 草腐真菌地主家有了余粮想托举一把， 让自家的傻儿子攀个高枝，虽然也就几公分的事，但也算赢在起跑线不是"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "大屏手机真正的门槛不是硬件，是生态",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A4%A7%E5%B1%8F%E6%89%8B%E6%9C%BA%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%97%A8%E6%A7%9B%E4%B8%8D%E6%98%AF%E7%A1%AC%E4%BB%B6%EF%BC%8C%E6%98%AF%E7%94%9F%E6%80%81",
+      "published": "Mon, 07 Sep 2026 20:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Pura",
+        "View",
+        "Mate",
+        "XT",
+        "HarmonyOS",
+        "APP"
+      ],
+      "summary": "在摄影圈流传着一句话：“底大一级压死人”，说的是在其他条件相近时，传感器越大，成像质量就越高。 的确，在很多时候，大就意味着有更大的性能空间，能容纳更多复杂功能。 怪不得手机屏幕也从曾经的巴掌大，变得越来越大。 但，当我们把更多面积塞进手机屏幕，期待的性能和体验提升真的兑现了吗？ 手机屏幕持续放大 多出来的面积真的被用上了吗？ 我们可以先来看看以往的大屏手机，体验如何： 2012年，iPhone 5第一次将屏幕从3.5英寸拉长到4英寸时，没有及时更新的第三方应用仍按照旧尺寸运行，不仅上下有黑边，键盘和底部菜单都飘了…",
+      "key_points": [
+        "折叠可以越做越薄。但真正决定一块大屏有没有被用好的，从来不是硬件本身——是生态",
+        "从来不只在于怎么将屏幕做得更宽，折叠做得更丝滑，而是生态能不能适配上。硬件可以快速硬堆出来，但系统、应用、交互等生态适配，才是横亘在行业面前的真正门槛",
+        "HarmonyOS 7从生态侧破局 让每一寸屏幕空间都真正有用 对手机应用来说，一块更大、比例不同的屏幕，不是一张可以直接自适应的画布。想要体验不变形，原有的内…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这两个系统先衰老的人，老得更快，死得也可能更早！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E4%B8%A4%E4%B8%AA%E7%B3%BB%E7%BB%9F%E5%85%88%E8%A1%B0%E8%80%81%E7%9A%84%E4%BA%BA%EF%BC%8C%E8%80%81%E5%BE%97%E6%9B%B4%E5%BF%AB%EF%BC%8C%E6%AD%BB%E5%BE%97%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9B%B4%E6%97%A9%EF%BC%81",
+      "published": "Mon, 07 Sep 2026 20:40:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "aging",
+        "https",
+        "al.",
+        "D.",
+        "doi.org",
+        "et"
+      ],
+      "summary": "人们常说“一天天老去”，但科学发现，衰老并不是像时钟一样稳定地滴答前行。它更像一场悄悄积蓄的暴雨，平时不易察觉，却会在某个年龄节点突然倾盆而下。 比如，许多人在 45 岁之后会明显感觉到： 记忆力开始走下坡路，精力就像旧手机的电量，不仅掉得快，还常常充不满，而一些原本遥远的慢性病，也在此时悄然冒头。 图源：图虫创意 大脑这种突如其来的变化，究竟是如何发生的？今天我们就来详细讲讲大脑为什么会出现这种变化以及身体其他器官和长寿的关系。 年轻的大脑与免疫系统 是长寿的关键！ 近年来，科学家们提出了一个关键概念——“器官年…",
+      "key_points": [
+        "几乎所有器官的蛋白质组在此阶段经历“分子级联风暴”，差异表达的蛋白数量呈爆发性激增，标志着多器官系统性衰老的全面启动。值得注意的是，主动脉在这一阶段的蛋白质重塑…",
+        "《自然》杂志的一项研究提出了一种通过分析血液中的蛋白质，评估人体不同器官的“生物年龄”。研究人员对近 6000 人进行了分析，发现身体 各个器官衰老的速度其实并…",
+        "对于五分之一的人来说，虽然他们的身体总体上还很年轻，但是个别器官已经提前“老化”了。另外，2026 年斯坦福的一个团队发现，器官内部衰老的节奏也不一样，比如大脑…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "ChatGPT和美国“杀人犯”聊天后报警了！AI有权审判我的对话框吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+ChatGPT%E5%92%8C%E7%BE%8E%E5%9B%BD%E2%80%9C%E6%9D%80%E4%BA%BA%E7%8A%AF%E2%80%9D%E8%81%8A%E5%A4%A9%E5%90%8E%E6%8A%A5%E8%AD%A6%E4%BA%86%EF%BC%81AI%E6%9C%89%E6%9D%83%E5%AE%A1%E5%88%A4%E6%88%91%E7%9A%84%E5%AF%B9%E8%AF%9D%E6%A1%86%E5%90%97%EF%BC%9F",
+      "published": "Mon, 07 Sep 2026 18:21:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "OpenAI",
+        "FBI",
+        "AR-15",
+        "CFA"
+      ],
+      "summary": "你敢相信，向AI吐露的私密想法，有一天会被直接递交给执法部门吗？ 在美国就发生了这样一桩颠覆认知的事件。一名前高盛分析师在对话中向ChatGPT完整描述谋害前女友的犯罪计划，OpenAI安全系统识别高危内容后，主动向FBI提交线索，当事人最终认罪获刑。 从结果来看，一场明确的预谋恶性案件被提前阻断，但在行业规则、法律边界、隐私权益层面，ChatGPT主动报警留下的争议远大于成果。 大众最初的赞叹很快褪去，取而代之的是更深层的恐惧： AI到底有没有权力窥探、上报用户私人对话？ 一方面，AI报警阻止恶性案件发生，体现模…",
+      "key_points": [
+        "AI报警阻止恶性案件发生，体现模型安全能力的价值；但另一方面，也带来隐私争议，用户默认对话属于私密交流，大模型却可以把聊天记录提交执法机关，私人对话边界被打破",
+        "在美国就发生了这样一桩颠覆认知的事件。一名前高盛分析师在对话中向ChatGPT完整描述谋害前女友的犯罪计划，OpenAI安全系统识别高危内容后，主动向FBI提交…",
+        "这起被称为“全球首例AI报警抓人”的案件，因其情节的戏剧性迅速引爆舆论。但鲜有人知的是，就在几个月前，同样面对用户与ChatGPT的暴力对话，OpenAI做出了…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "从结构创新到系统体验，三折叠开始回答更难的问题",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%8E%E7%BB%93%E6%9E%84%E5%88%9B%E6%96%B0%E5%88%B0%E7%B3%BB%E7%BB%9F%E4%BD%93%E9%AA%8C%EF%BC%8C%E4%B8%89%E6%8A%98%E5%8F%A0%E5%BC%80%E5%A7%8B%E5%9B%9E%E7%AD%94%E6%9B%B4%E9%9A%BE%E7%9A%84%E9%97%AE%E9%A2%98",
+      "published": "Mon, 07 Sep 2026 18:21:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Mate",
+        "XT",
+        "ECG",
+        "HarmonyOS",
+        "AI",
+        "AIGC"
+      ],
+      "summary": "折叠屏进入成熟期， 评价标准发生变化 折叠屏刚出现时，“一块屏幕真的能折起来”这件事就足够让人惊叹。 2019年，华为Mate X开启折叠屏探索；2024年，华为Mate XT 非凡大师将三折叠从技术构想推向规模商用。把屏幕从一次弯折推进到两次弯折，背后牵动的是柔性屏、铰链、材料、厚度乃至软件适配的一整套工程问题。 但一个品类走向成熟之后，大家的标准也会跟着变化。“能折”逐渐成为基础能力，我们开始追问更具体的问题：长期使用是否可靠？开合是否顺手？以及，更大的屏幕，究竟换来了什么？ 9月7日，华为Mate XT 2…",
+      "key_points": [
+        "三折叠进入系统创新阶段 折叠屏走过多年，早已不再需要反复证明屏幕能不能折了。但这并不意味着形态创新走到了终点。相反，当新鲜感退去，每一种新的折叠方式都要回答一个…",
+        "华为Mate XT 2 非凡大师给出了一套新答案。展翼三折叠重新组织了开合、握持和大屏使用方式：左右均可展开，独立外屏承接高频操作，需要更多信息时再展开大屏；灵…",
+        "竞争的门槛也随之抬高。当“做出一台折叠屏”逐渐成为入场券，仅靠屏幕、铰链或厚度形成差异已经不够。芯片能否支撑大屏多任务，系统能否根据屏幕形态重新组织信息，应用能…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "八月看过的最佳美剧了，第一次敢这么拍",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%85%AB%E6%9C%88%E7%9C%8B%E8%BF%87%E7%9A%84%E6%9C%80%E4%BD%B3%E7%BE%8E%E5%89%A7%E4%BA%86%EF%BC%8C%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%95%A2%E8%BF%99%E4%B9%88%E6%8B%8D",
+      "published": "Mon, 07 Sep 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FBI",
+        "Hulu",
+        "hongmomgs",
+        "IP",
+        "irisfilm",
+        "J.E."
+      ],
+      "summary": "文 Sylvia_a 《狂怒追缉》是今年最有原创性的美剧之一吧。 《狂怒追缉》 但原创性不是指 FBI 女探员追踪女性连环杀手这个设定，这在英语犯罪影视里，已经有一条清楚的发展脉络，它本身不是一个全新的东西。 比如说 1987 年鲍勃 · 拉菲尔森的《黑寡妇》，就是这类题材的一个重要前身，讲一个女性司法部调查员，追踪女性连续杀人犯。 《黑寡妇》（1987） 到 2018 年的《杀死伊芙》，这种双女主犯罪叙事被做到了商业和口碑的高峰。 《杀死伊芙》 《狂怒追缉》跟这条女性追踪女性的题材脉络有直接的血缘关系。罗森曾经让…",
+      "key_points": [
+        "原来伊斯顿私藏的大量未成年性侵影像里，有一段拍摄对象正是 14 岁的爱丽丝。她的影像最终进入了伊斯顿掌握和流通的那套性剥削资料体系。爱丽丝和凯瑟琳第一次被同一种…",
+        "伊莎贝尔当年分娩后不久被迫继续接待客人，大量出血，痛苦到无法承受。凯瑟琳应她的请求给 她注射了致死剂量的海洛因 ，那是凯瑟琳的第一次杀人",
+        "它让两个人在伦理位置上完成了一次交叉。凶手最终停止反抗、接受逮捕，警察却第一次主动杀了人"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这就是无限流电影的鼻祖？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E5%B0%B1%E6%98%AF%E6%97%A0%E9%99%90%E6%B5%81%E7%94%B5%E5%BD%B1%E7%9A%84%E9%BC%BB%E7%A5%96%EF%BC%9F",
+      "published": "Mon, 07 Sep 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Alex",
+        "Guardian",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "Reid"
+      ],
+      "summary": "作者：Alex Reid 译者：易二三 校对：鸢尾花 来源：The Guardian （2023年2月2日） 《土拨鼠之日》已经来到了它的30周年纪念——这比影片中比尔·默瑞饰演的古怪天气预报员被困在时间循环中的33年350天，还差3年光景。这部电影在发行时仅仅被看作是一部古怪的喜剧，后来它愈发受到好评。这不仅是因为「土拨鼠之日」已经成为任何无休止重复的苦难的代名词。在2023年，《土拨鼠之日》的影响力和受欢迎程度更胜以往。 《土拨鼠之日》 当然，有些人从一开始就觉得它引人入胜。大卫·林奇就是早期的崇拜者之一，而昆…",
+      "key_points": [
+        "雷米斯在关于该片制作的纪录片《时间的重量》中打趣地说：「他似乎很诚实地对待角色令人讨厌的部分。比尔·默瑞不是偶然成为电影明星的，他了解虚荣心和以自我为中心的感受…",
+        "《棕榈泉》（主角为情侣版本的《土拨鼠之日》）的制片人贝基·斯洛维特说：「这个概念之所以常青，是有其原因的——我们都想知道，如果我们当初做出不同的选择，事情会是什…",
+        "有些人从一开始就觉得它引人入胜。大卫·林奇就是早期的崇拜者之一，而昆汀·塔伦蒂诺在1994年为宣传《低俗小说》而接受采访时，大加赞赏道：「《土拨鼠之日》是去年我…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "今天，中国最美秋色开始登场！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%BB%8A%E5%A4%A9%EF%BC%8C%E4%B8%AD%E5%9B%BD%E6%9C%80%E7%BE%8E%E7%A7%8B%E8%89%B2%E5%BC%80%E5%A7%8B%E7%99%BB%E5%9C%BA%EF%BC%81",
+      "published": "Mon, 07 Sep 2026 07:33:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END"
+      ],
+      "summary": "“蒹葭苍苍，白露为霜。” 古人从清晨草木上的露水中， 感知季节的变化。 白露 ， 是 二十四节气中的第十五个节气 ， 也是秋季的第三个节气。 此时，夏日暑气渐退， 秋意开始变得清晰 。 为什么叫白露？ “白露”是二十四节气中 很有画面感的一个名字。 它没有直接说“秋天来了”， 而是从清晨草木间的一层露水， 为季节留下了一个具体的标记。 这里的“露”，指夜间或清晨， 近地面空气中的水汽遇冷， 凝结在草木表面的水滴。 到了白露时节，昼夜温差加大， 夜间气温下降，更容易形成露水。 露珠明明无色透明， 为什么又称“白”？…",
+      "key_points": [
+        "山间秋色开始出现， 常绿林与落叶林交错， 构成初秋山色",
+        "绿色、黄色、红色开始在森林中交织， 大片山林进入色彩最丰富的阶段",
+        "秦岭最佳赏秋期通常在 10月中旬至11月下旬 随着海拔降低，秋色逐渐向山下铺展 而在 川西高原 ， 海拔又创造出另一种秋景"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "取消英文，取消古文",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%8F%96%E6%B6%88%E8%8B%B1%E6%96%87%EF%BC%8C%E5%8F%96%E6%B6%88%E5%8F%A4%E6%96%87",
+      "published": "Mon, 07 Sep 2026 12:44:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "BBS",
+        "Bitsea",
+        "V8.2",
+        "XX"
+      ],
+      "summary": "上网年限太长，人就容易厌倦，比如说这几天看到又有人在吵取消英文，取消英文主科地位。记得我第一次在网上看到这个话题时，胡子还是软的，头发也依然茂密。 这种翻炒万年话题本来没什么意思，不过和海峡那边对照观察一番，事情就变得有趣起来：这边是过阵子就吵要不要取消英文，那边是过阵子就吵要不要取消古文。 我个人对于取消派的所有想法都支持，想取消英文那就取消好了，想取消古文那就取消好了。反正我又不能决定这件事，干脆就支持一下。就算是他们呼吁取消数学物理，我还是支持。以后上学这件事，进去能学会写自己的名字，我觉得就已经足够，全部科…",
+      "key_points": [
+        "想取消英文那就取消好了，想取消古文那就取消好了。反正我又不能决定这件事，干脆就支持一下。就算是他们呼吁取消数学物理，我还是支持。以后上学这件事，进去能学会写自己…",
+        "不过和海峡那边对照观察一番，事情就变得有趣起来：这边是过阵子就吵要不要取消英文，那边是过阵子就吵要不要取消古文",
+        "反正我学过了，学会了，也受益了，彻底取消之后有利于维护我自己的利益。将来都是 AI 大行其道，都不学英文，都不学古文，我这种古法手搓文章的人，等于是拥有了一个私…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "谁来决定科学往哪走？美国白宫科技政策办公室的权力沉浮",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%B0%81%E6%9D%A5%E5%86%B3%E5%AE%9A%E7%A7%91%E5%AD%A6%E5%BE%80%E5%93%AA%E8%B5%B0%EF%BC%9F%E7%BE%8E%E5%9B%BD%E7%99%BD%E5%AE%AB%E7%A7%91%E6%8A%80%E6%94%BF%E7%AD%96%E5%8A%9E%E5%85%AC%E5%AE%A4%E7%9A%84%E6%9D%83%E5%8A%9B%E6%B2%89%E6%B5%AE",
+      "published": "Mon, 07 Sep 2026 08:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Science",
+        "https",
+        "of",
+        "Policy",
+        "House",
+        "in"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2025年5月19日，迈克尔·克拉齐奥斯在美国国家科学院发表演讲 编者按： 2026年7月21日，美国白宫科技政策办公室主任迈克尔·克拉齐奥斯 （Michael Kratsios） 向特朗普总统提交了题为《科学：黄金新时代》 （Science: A New Golden Age） 的报告。白宫将其称为自1945年范内瓦·布什《科学：无尽的前沿》以来80余年间对美国科技体制的首次全面重构。这份123页的报告附有白宫科技政策办公室与管理和预算办公室联合签发的…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2025年5月19日，迈克尔·克拉齐奥斯在美国国家科学院发表演讲 编者按： 2026年7月21日，…",
+        "注：本文原载《美国研究》 2026 年第 4 期，原标题《科技领导权的制度悖论：美国白宫科技政策办公室功能变迁的政治逻辑》，《知识分子》刊发时作者作了压缩改写，…",
+        "争夺科技领导权！从《无尽的前沿》到《科学：黄金新时代》 01 谁来决定科学往哪里走 1945 年，时任美国科学研究与发展办公室主任范内瓦 · 布什 （ Vann…"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "花几十万读MBA，不如看体育纪录片？| 经济学人商业",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%8A%B1%E5%87%A0%E5%8D%81%E4%B8%87%E8%AF%BBMBA%EF%BC%8C%E4%B8%8D%E5%A6%82%E7%9C%8B%E4%BD%93%E8%82%B2%E7%BA%AA%E5%BD%95%E7%89%87%EF%BC%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E5%95%86%E4%B8%9A",
+      "published": "Mon, 07 Sep 2026 11:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Whereas",
+        "on",
+        "idea",
+        "piercing",
+        "schizophrenic",
+        "is"
+      ],
+      "summary": "本文选自经济学人商业板块 Sep 2nd 2026 https://www.economist.com/business/2026/09/02/why-get-an-mba-when-you-can-watch-a-sports-documentary 花钱读MBA，许多人想学的，无非是怎么带团队、怎么在压力下做决定。亚马逊纪录片《A Beautiful Obsession》把这些问 题直接扔进了曼城更衣室。瓜迪奥拉赛前要求球员拥抱，输球后又会对抱怨的球员发火；选人参考43项数据，临场布置仍靠白板。 这套风格很难归…",
+      "key_points": [
+        "本文选自经济学人商业板块 Sep 2nd 2026 https://www.economist.com/business/2026/09/02/why-get-…",
+        "这套风格很难归纳成一句管理口号。偏偏商学院最擅长的，就是把复杂问题压缩成一个漂亮概念。这个反差，《经济学人》是这么写的",
+        "Revolut则围绕手机应用建立了自己的商业模式"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-08",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792440",
+      "published": null,
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "KTV"
+      ],
+      "summary": "瞎扯 · 电视剧《康熙王朝》中有哪些让人啼笑皆非的剧情？ 知乎日报 查看知乎原文 Q： 电视剧《康熙王朝》中有哪些让人啼笑皆非的剧情？ @小璟同学 s ：这台词已经堪比「徐州城是中原第一雄关」了 Q： 兔子为什么无法超越猫咪在宠物中的地位？ @好梦在何方 ：你别说兔子，只限定在城市的话哈基汪都没法挑战哈基米的地位，会用猫砂还是太权威了 Q： 老师是如何一眼看出学生的作业是在抄答案？ @平林新月 ：这个用脚趾想都不可能出现答案是「KTV」的情况嘛…… Q： 你敢在拼多多买几十块的衣服穿去上班吗？ @米可 ：我要笑死了…",
+      "key_points": [
+        "瞎扯 · 电视剧《康熙王朝》中有哪些让人啼笑皆非的剧情"
+      ]
+    }
+  ]
+}
