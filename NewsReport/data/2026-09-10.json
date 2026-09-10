@@ -1,0 +1,755 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T01:00:11.037855+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 94,
+    "fresh_candidates": 62,
+    "backfill_candidates": 32,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-10",
+      "fetched_at": "2026-09-10T01:00:05.738515+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3951.51,
+          "change": 10.96,
+          "change_pct": 0.28,
+          "volume": 517504311.0,
+          "amount": 87373490.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4401.75,
+          "change": 0.020000000000436557,
+          "change_pct": 0.0,
+          "prev_close": 4401.73,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-10 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 949.312424646744,
+          "change": 0.0043133409425308855,
+          "change_pct": 0.00045436680579898943,
+          "prev_close": 949.3081113058015,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-10 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-10",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "25年年化7.62%！我心中永远的YYDS，全国社保基金",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+25%E5%B9%B4%E5%B9%B4%E5%8C%967.62%25%EF%BC%81%E6%88%91%E5%BF%83%E4%B8%AD%E6%B0%B8%E8%BF%9C%E7%9A%84YYDS%EF%BC%8C%E5%85%A8%E5%9B%BD%E7%A4%BE%E4%BF%9D%E5%9F%BA%E9%87%91",
+      "published": "Wed, 09 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "YYDS",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 茶杯白水 来源：雪球 投资市场里 ， 最容易被记住的 ， 往往是一年翻倍的产品 。 但真正值得研究的 ， 通常是一条不那么刺激 ， 却能穿越多个周期的收益曲线 。 就在前几天 ， 全国社会保障基金披露了2025年的年度投资收益率 。 2025年收益率为13.22% ， 年末资产总额达到3.8万亿元 ， 成立以来年均收益率为7.62% 。 13.22%放在2025年的市场环境里 ， 并不是一个特别惊艳的数字 。 我真正认可社…",
+      "key_points": [
+        "这也是我心中永远的YYDS ： 全国社保基金",
+        "03 永远的YYDS ： 全国社保基金 我心中的全国社保基金 ， 之所以是永远的YYDS ， 并不是因为它每一年都能赚很多钱",
+        "这也是我心中社保基金成为YYDS的原因 ： 它不是永远正确 ， 而是很少因为一次错误 ， 就失去未来"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "光通信更新与光电博览会前瞻",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/408555906",
+      "published": "Wed, 09 Sep 2026 12:02:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OCS",
+        "AI",
+        "NPO",
+        "CPO",
+        "EML",
+        "Lumentum"
+      ],
+      "summary": "昨晚美股芯片与AI基建逆市上涨，英特尔涨超9%；光通信方面，Lumentum涨超11%，康宁、Coherent均涨超7%；存储涨跌不一，海力士涨近5%，美光跌约1.6%。 另外，今天起至11日， 光电博览会CIOE 将在深圳国际会展中心举办。简单做个前瞻。 先说说昨天两起合作，都揭示了算力投资向网络通信与物理层蔓延。 1. 亚马逊与高通绑定 高通与亚马逊AWS达成横跨多代产品的定制化数据中心芯片合作协议，重点发力AI推理场景。高通向亚马逊发行至多2500万股认股权证（行权价161.26美元），其归属与亚马逊实际采购…",
+      "key_points": [
+        "今天起至11日， 光电博览会CIOE 将在深圳国际会展中心举办。简单做个前瞻",
+        "供应链：光芯片、薄膜铌酸锂与特种光纤 当前光通信板块的产能释放，面临几个关键物料与材料层面的约束： 200G EML与大功率CW光源： 在1.6T光模块中，20…",
+        "英特尔涨超9%；光通信方面，Lumentum涨超11%，康宁、Coherent均涨超7%；存储涨跌不一，海力士涨近5%，美光跌约1.6%"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "谁的估值最低？——保险股2026年中报总结（7）",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7543024848/408548571",
+      "published": "Wed, 09 Sep 2026 12:02:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "PEV",
+        "B+CSM",
+        "CSM",
+        "PE",
+        "FVOCI"
+      ],
+      "summary": "有小伙伴批评我，说我只讲基本面，但不讲估值。脱离估值讲基本面类似耍流氓。 我觉得批评得有道理。 关于目前的估值，我先把本文的结论放前面： A股估值最低的是：太保A和平安A。 H股估值最低的是：太平和人保H。 01 为什么不能看PE？ 我之所以不爱讲估值，是因为我之前讲过了，我的观点就是： 1. 不能看PE。 2. 如果简单点比较保险股估值，直接看PB就行了。 3. 如果复杂点比较保险股估值，我不看PEV。比较P/（B+CSM）更靠谱。 这是截止2026年9月4日收盘后的PE情况，这看起来是不是国寿和新华最低，平安在…",
+      "key_points": [
+        "太平和太保的估值最低，平安和国寿最高",
+        "目前平安A具备极高的配置价值，而太平虽然在基本面分析时，我表现出了对保险业务端尤其是银保渠道的失望之情，但是如果结合这么低的估值，我觉得配置价值也是明显的",
+        "如果问我哪个公司估值最低，我会在PB估值中取一个最低，再从P/(B+CSM)估值中取一个最低"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "消费股跌了这么久，但依然不便宜",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/408547109",
+      "published": "Wed, 09 Sep 2026 12:01:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PE",
+        "http",
+        "IPO",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "以前的股市周期里，消费行业是香饽饽，本轮周期，连狗都嫌弃。 消费行业中有很多股票都跌破了924那会的低点。 我的持仓中，消费行业的占比很低。 倒不是因为我能掐会算。 而是在牛市到来前，我对比了性价比，认为没有进入击球区，所以就没碰。 接下来，我跟大家分享一下我现在的观点。 我认为现在投资消费行业，最大的问题是：还不够便宜。 一、估值还不够吸引人 再好的公司，买贵了照样亏钱。 别看现在消费企业跌了很多，但估值其实并不算便宜。 为啥不便宜呢？ 第一，上一轮牛市过度透支了。 那么消化估值就需要很长时间。 以中国中免为例，…",
+      "key_points": [
+        "四、总结 总结一下现在投资消费行业的投资现状： 第一，好公司不一定足够便宜； 第二，便宜的公司不见得能活下去； 第三，存量竞争环境中，护城河不够深的企业很难撑得…",
+        "在宏观经济还没走出底部前，这些新消费依然会遭遇逆风期。如果买贵了，也会亏很惨",
+        "但现在绝大部分消费股的股息率也就不到3%"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想352 当下市场的三体系统",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/408558870",
+      "published": "Wed, 09 Sep 2026 12:01:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "http",
+        "xAI",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "目前二级市场资产定价的逻辑，已经从5-6月的AI单一叙事线，转向“AI叙事+地缘叙事+流动性叙事”的三重嵌套系统。或者也可以说，市场一直是多重系统嵌套，只不过在此前的行情里某一主线体现出压倒性的优势；但目前这种单一主线强势的局面已经不再，三者又非平行运行，而是通过资金流向、风险偏好与资产定价锚相互嵌套，形成复杂的纠缠。市场在这种纠缠下，显示出结构性的震荡。 理解这种纠缠，可能远比孤立跟踪某个指标更为关键。 首先是AI叙事线 ，作为本轮牛市最核心的叙事线，从英伟达的芯片，到谷歌的资本开支，到Anthropic的估值跃…",
+      "key_points": [
+        "已经从5-6月的AI单一叙事线，转向“AI叙事+地缘叙事+流动性叙事”的三重嵌套系统。或者也可以说，市场一直是多重系统嵌套，只不过在此前的行情里某一主线体现出压…",
+        "作为本轮牛市最核心的叙事线，从英伟达的芯片，到谷歌的资本开支，到Anthropic的估值跃升，一举一动都牵动着资本市场的目光。这条叙事线已经从硬件的估值狂欢，讲…",
+        "美债收益率曲线和美联储议息路径，是其中最具代表性的两个。严格来讲，流动性叙事线并非独立变量，它同时也会受到其他两条叙事线的影响和牵动。例如，当AI企业大规模发债…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI互联网日报：ChatGPT Images 2.5正式上线/iPhone Duo定价曝光/DeepSeek升级又降价",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462429.html",
+      "published": "Wed, 09 Sep 2026 11:28:19 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ChatGPT",
+        "Flash",
+        "Google",
+        "OpenAI",
+        "Token"
+      ],
+      "summary": "样机期过去了。几个月前，机器人和AI眼镜的新闻，主角常是展台演示。现在，京东把300万台机器人的五年采购计划写进物流，华为则让AI眼镜直接完成一次线下付款。一个铺向仓库和配送链，一个把交互压到抬眼与确认之间。老曹觉得，AI走进现实的分水岭，是谁能把设备、服务和责任一起接住。 一起来看看这两天发生的AI和互联网赛道的大事件吧！ 📌 今日AI互联网大事件速览 1，DeepSeek预告V4.1 Flash并下调Flash系列价格 2，京东物流计划五年采购300万台机器人 3，腾讯混元联合高校提出流式空间记忆框架Spati…",
+      "key_points": [
+        "DeepSeek预告V4.1 Flash并下调Flash系列价格 核心内容 ：DeepSeek预告将在北京时间9月10日前后正式发布V4.1 Flash，并称内…",
+        "DeepSeek预告V4.1 Flash并下调Flash系列价格 2，京东物流计划五年采购300万台机器人 3，腾讯混元联合高校提出流式空间记忆框架Spatia…",
+        "消息称Apple折叠手机将命名iPhone Duo，起售价2000美元 核心内容 ：在Apple秋季发布会前，Bloomberg记者Mark Gurman称首款…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "GPT Image 2.5正式上线！随手一画就能出图，连等图时间都不让你无聊！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462418.html",
+      "published": "Wed, 09 Sep 2026 11:03:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GPT",
+        "Image",
+        "Logo",
+        "AI",
+        "APP",
+        "cue"
+      ],
+      "summary": "哈喽大家好，我是萤柳！ 今天GPT Image 2.5 悄悄上线了！ 最近 GPT 更新得真频繁，前脚刚发布了 GPT6，后脚就更新了个 GPT Image2.5。 作为目前最能打的一款 AI 绘图模型，这次的升级可以概括为三个词：更快、更清晰、更聪明。 生成速度明显提升，出图的细节和文字渲染也更稳了。 我第一时间上手体验了一番，从设计模板到随笔画图，把它的新功能都摸了一遍，下面直接上实测。 https://tu.aixq.cc/wp-content/uploads/2026/09/GPT_Image_2.5正式上…",
+      "key_points": [
+        "https://tu.aixq.cc/wp-content/uploads/2026/09/GPT_Image_2.5正式上线！随手一画就能出图，连等图时间都不…",
+        "随手一画就能出图让创意表达更自由",
+        "如果觉得太慢了，好无聊，还可以玩贪吃蛇，太好玩了"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "V4.1 Flash测速刷屏，但DeepSeek这次真正想补的是工程能力",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462122.html",
+      "published": "Wed, 09 Sep 2026 09:32:35 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DeepSeek",
+        "Flash",
+        "V4.1",
+        "V4",
+        "Agent",
+        "token"
+      ],
+      "summary": "DeepSeek V4.1 Flash中间版本开启内测，新结构原生多模态、速度大幅跃升，成本却与V4 Flash持平。社区测试显示多项任务快3.9至6.0倍，扩招150名工程师背后，是梁文锋把实验室推向工业化工程的成人礼。 没有任何预告，DeepSeek V4.1 Flash的中间版本deepseek-v4.1-flash-expires-on-0910开始内测了。 DeepSeek官方表示，“DeepSeek V4.1 Flash采用了新的模型结构，原生多模态支持、能力更强、速度更快、且成本更低。” 没有技术报告…",
+      "key_points": [
+        "这次招聘主攻两个方向。其一是服务端开发工程师，涵盖大模型研究平台、Agent 框架组件、研发效率基建、DeepSeek API、线上服务以及数据工程；其二是 A…",
+        "DeepSeek不需要在乎这些问题，但现在梁文锋手下的是一家企业，这些工程问题反而成了关键",
+        "DeepSeek V4.1 Flash中间版本开启内测，新结构原生多模态、速度大幅跃升，成本却与V4 Flash持平。社区测试显示多项任务快3.9至6.0倍，扩…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从“生图”到“做图”：GPT Image 2.5 工作流体验",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462267.html",
+      "published": "Wed, 09 Sep 2026 08:32:11 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "GPT",
+        "Image",
+        "Sketch",
+        "Logo",
+        "Prompt"
+      ],
+      "summary": "OpenAI 新推出的 GPT Image 2.5 带来 Sketch 手绘分镜、图片标注和多轮局部编辑，让 AI 图片从一次性生成变成可反复迭代的创作流程，真正进入可控制的生产力阶段。 OpenAI 又突然更新了。 这次是 GPT Image 2.5 。 更快、更清晰、人物一致性更强，多轮改图也更稳定，同时还加入了 Sketch、Templates、图片标注修改等新的创作方式。 但体验下来，我觉得这次最值得聊的，不是： 它又画得更好了。 而是： 我们用 AI 做图的方式，正在发生变化。 以前更像是在“生图”。 现…",
+      "key_points": [
+        "Templates 帮你跳过从零开始，图片标注让你直接指出哪里有问题，再加上更精准的局部编辑和多轮一致性，这些能力开始真正连成了一套工作流",
+        "所以如果一定要总结 GPT Image 2.5 这次真正做成的一件事，我觉得就是： 它开始把“生图”，变成了“做图”",
+        "OpenAI 新推出的 GPT Image 2.5 带来 Sketch 手绘分镜、图片标注和多轮局部编辑，让 AI 图片从一次性生成变成可反复迭代的创作流程，真…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "硅谷开始给“还没想好做什么”的创业者发钱：投资节点正在前移",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6460713.html",
+      "published": "Wed, 09 Sep 2026 08:30:39 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "a16z",
+        "Commons",
+        "Park",
+        "South",
+        "Speedrun"
+      ],
+      "summary": "South Park Commons 把投资节点推到创业之前：不要求产品、团队甚至想法，只要人够有野心就给 100 万美元，用 SAFE 换 7% 股份。a16z 的 Speedrun、Z Fellows 与 ODF 也在抢早期创业者，钱正在变成赠品，网络才是真正产品。 最近看到一张创投圈的名单，整理了2026年创业者最值得申请的 25个项目。 YC、Techstars、500 Global、Antler、PearX、HF0、South Park Commons、ODF、a16z……乍看之下，就是另一份硅谷创业加速…",
+      "key_points": [
+        "一些硅谷最热门的创业项目已经开始接受另一类申请人： 没有公司，没有产品，没有联合创始人，甚至还没想好到底要做什么",
+        "South Park Commons 把投资节点推到创业之前：不要求产品、团队甚至想法，只要人够有野心就给 100 万美元，用 SAFE 换 7% 股份。a16…",
+        "而是面向 pre-idea 阶段的技术人才： 参加者可以还没有公司，通过五周线下活动和 OpenAI 研究人员、其他创业者一起探索未来可能做什么"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "OpenAI智能体一周末攻克千禧难题，纽约大学教授质问：你是不是看过我的草稿？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+OpenAI%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%80%E5%91%A8%E6%9C%AB%E6%94%BB%E5%85%8B%E5%8D%83%E7%A6%A7%E9%9A%BE%E9%A2%98%EF%BC%8C%E7%BA%BD%E7%BA%A6%E5%A4%A7%E5%AD%A6%E6%95%99%E6%8E%88%E8%B4%A8%E9%97%AE%EF%BC%9A%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E7%9C%8B%E8%BF%87%E6%88%91%E7%9A%84%E8%8D%89%E7%A8%BF%EF%BC%9F",
+      "published": "Wed, 09 Sep 2026 21:14:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OpenAI",
+        "AI",
+        "Lean",
+        "Anthropic",
+        "Codex",
+        "Getty"
+      ],
+      "summary": "2000年，克雷数学研究所拿出700万美元，悬赏7道数学难题。 每解出一道，奖金100万。 这7道题被称为千禧年大奖难题，是公认最难的数学问题。 26年过去，只有一道被解开过。 俄罗斯数学家佩雷尔曼2003年证明了庞加莱猜想，然后拒绝领奖，隐居至今。其余6道，纹丝不动。 9月8日，第二道的答案来了 。 给出答案的 不是哪位数学家， 是OpenAI的一群AI智能体 。 但数学突破只是这个故事的一半， 后面还有一场大瓜 。 纳维-斯托克斯方程丨ChatGPT生图 被攻克的这道题叫 纳维-斯托克斯方程问题 。 纳维-斯托…",
+      "key_points": [
+        "OpenAI官宣前不到12小时 ，美国纽约大学数学教授特里斯坦·巴克马斯特（Tristan Buckmaster）在社交媒体上发帖，宣布他和合作者莱文特·阿尔珀…",
+        "OpenAI动用了一个尚未公开的内部模型，据称能力远超刚发布的GPT-6 Astra。先用近百个AI智能体协同工作约50小时，攻克了欧拉方程的爆破问题；紧接着把…",
+        "OpenAI 证明中构造的涡旋结构可视化，流线绕中轴螺旋盘绕，黄色代表旋转更快、蓝色更慢丨OpenAI 今年夏天以来，AI在数学领域的突破已经让人有些麻木了。5…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“机不离身”的年轻人，建议还是用这种耳机！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E6%9C%BA%E4%B8%8D%E7%A6%BB%E8%BA%AB%E2%80%9D%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%EF%BC%8C%E5%BB%BA%E8%AE%AE%E8%BF%98%E6%98%AF%E7%94%A8%E8%BF%99%E7%A7%8D%E8%80%B3%E6%9C%BA%EF%BC%81",
+      "published": "Wed, 09 Sep 2026 21:14:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "S7",
+        "ACS",
+        "app",
+        "Newmine",
+        "ai"
+      ],
+      "summary": "这个事得从去年说起 —— 谁成想向来对中国科技产品说三道四的老外们竟然一致当场破防 ！ 2025年进博会，外籍客商云集，各大企业为了方便员工涉外沟通、提升工作效率，采购了一批耳机： ✅ 耳夹式佩戴， 戴一整天，耳朵不易疼 ✅ 搭载AI技术 ，戴上直接中英同声传译 实拍 很多老外体验后现场满脸不敢置信：能录音转文字、能中英同声传译、还自带 AI 大模型的智能耳机， 居然只要 99 元！ 甚至反复确认了三遍价格：99元？中国造的？ 就是在去年进博会上这一波， 纽曼S7 AI 耳机直接 爆火！还出现了当场聊订单的盛况！…",
+      "key_points": [
+        "电脑、手机、平板 不管是 苹果还是安卓 ，只要有蓝牙都能用 👇戳图立马抢👇 实拍 👍 首先是强大的语音笔记，耳机直接当做录音笔使用 会议、课堂实时录音， 真的很…",
+        "无修图，一点不像99元的耳机 👇戳图立马抢👇 02 真AI智能耳机 不止是耳机，更是“生活智囊” 2026年了，真的别再用只懂听歌的普通耳机了， 就算你的耳机还…",
+        "实拍 Newmine纽曼S7 AI耳夹耳机 1年质保，可验真伪 粉丝开团价：99元 点击下方图片，立即抢购 01 纽曼 30年国货老品牌 中国智造 性价比全球点…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "AI攻克纳维-斯托克斯千禧年难题；Meta发布个人AI智能体Muse；Cybercab乘客端意外出现虚拟控制杆",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI%E6%94%BB%E5%85%8B%E7%BA%B3%E7%BB%B4-%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%9A%BE%E9%A2%98%EF%BC%9BMeta%E5%8F%91%E5%B8%83%E4%B8%AA%E4%BA%BAAI%E6%99%BA%E8%83%BD%E4%BD%93Muse%EF%BC%9BCybercab%E4%B9%98%E5%AE%A2%E7%AB%AF%E6%84%8F%E5%A4%96%E5%87%BA%E7%8E%B0%E8%99%9A%E6%8B%9F%E6%8E%A7%E5%88%B6%E6%9D%86",
+      "published": "Wed, 09 Sep 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Muse",
+        "OpenAI",
+        "Cybercab",
+        "Meta",
+        "ChatGPT"
+      ],
+      "summary": "今天是9月9日，星期三。1940年的今天，贝尔实验室通过电传打字机向纽约的复数计算器发送指令，实现首次计算机远程操作。 重点新闻速览 1.OpenAI宣布AI攻克纳维-斯托克斯千禧年难题 2.Meta发布个人AI智能体Muse 3.Cybercab乘客端意外出现虚拟控制杆 4.“天宫课堂”展示太空烤蛋糕 5.杂交水稻大面积制种刷新高产纪录 科技 OpenAI宣布AI攻克纳维-斯托克斯千禧年难题 美东时间2026年9月8日，OpenAI宣布其内部模型组织约10000个并发智能体协作88小时，完成了纳维-斯托克斯方程存…",
+      "key_points": [
+        "重点新闻速览 1.OpenAI宣布AI攻克纳维-斯托克斯千禧年难题 2.Meta发布个人AI智能体Muse 3.Cybercab乘客端意外出现虚拟控制杆 4.“…",
+        "新模型生成延迟较Images 2.0最高降低50%，在细节锐度、自然光照和纹理丰富度方面均有提升，参考照片中人物主体保真度更高。产品端新增Sketch草图绘制功…",
+        "产品基于Muse Spark系列基础模型运行在独立云端虚拟机Muse Secure VM中，彼此相互隔离确保数据安全。支持接入Google Workspace、…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "千防万防！没想到家里每天用的这个，偷偷毁掉孩子视力？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8D%83%E9%98%B2%E4%B8%87%E9%98%B2%EF%BC%81%E6%B2%A1%E6%83%B3%E5%88%B0%E5%AE%B6%E9%87%8C%E6%AF%8F%E5%A4%A9%E7%94%A8%E7%9A%84%E8%BF%99%E4%B8%AA%EF%BC%8C%E5%81%B7%E5%81%B7%E6%AF%81%E6%8E%89%E5%AD%A9%E5%AD%90%E8%A7%86%E5%8A%9B%EF%BC%9F",
+      "published": "Wed, 09 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AA",
+        "lm",
+        "RG0",
+        "cm",
+        "MT-D02",
+        "MT-T01"
+      ],
+      "summary": "现在的孩子 每天坐在书桌前的时间那是相当长，眼睛一直盯着书本、作业，再加上不合适的灯光，那可真是对眼睛的“折磨”。 在咱们的日常生活中，灯光可不仅仅是为了照亮屋子， 它还关乎着我们全家人的健康，尤其是孩子的眼睛。 其实，很多人家里的光照条件都不过关..... 要是眼睛出了问题，那可是一辈子的事儿，大家不信可以寒暑假去眼科看看，都是焦急的家长们！ 不仅是孩子，很多成年人的用眼习惯也不好 ，喜欢摸黑玩手机，还伴有其他的错误习惯，可能让成年后度数依旧猛涨！ 其实，很多人家里的光照条件都不过关..... 我们办公室的灯光实…",
+      "key_points": [
+        "按每天用10个小时算，也可以用10多年入手一台 ，孩子能从小学妥妥用到上大学",
+        "现在的孩子 每天坐在书桌前的时间那是相当长，眼睛一直盯着书本、作业，再加上不合适的灯光，那可真是对眼睛的“折磨”",
+        "✅ 家里空间有限的、孩子学习、成人读书看电脑化妆或者办公室用，可以直接选： 199桌面款"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "2010年代最美电影之一",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+2010%E5%B9%B4%E4%BB%A3%E6%9C%80%E7%BE%8E%E7%94%B5%E5%BD%B1%E4%B9%8B%E4%B8%80",
+      "published": "Wed, 09 Sep 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Jonathan",
+        "qq.com",
+        "Romney"
+      ],
+      "summary": "作者： Jonathan Romney 译者： 易二三 校对： Issac 来源： 《电影评论》 由摄影师克莱尔·马松掌镜、瑟琳·席安玛执导的《燃烧女子的肖像》充满了情欲、优雅和温暖，其故事背景设定在18世纪。 《燃烧女子的肖像》(2019) 马松像挥动画笔一样操纵着摄影机，激动人心地捕捉到了无拘无束的艺术家玛丽安（诺米·梅兰特 饰）和即将出嫁的贵族女子艾洛伊丝（阿黛尔·哈内尔 饰）之间日益增长的情愫。 《燃烧女子的肖像》(2019) 故事主要在仅用烛光照明的室内空间里展开，但它没有沉溺于怀旧，而是在玛丽安和艾洛伊…",
+      "key_points": [
+        "我们欣赏过的画家之一是让-巴蒂斯·卡米耶·柯洛，我们在筹备电影时，巴黎刚好有他的展览。柯洛是19世纪以风景画闻名的画家，但他也画过一些非常个人化和感人的肖像，这…",
+        "克莱尔·马松： 我受到了筹备时看过的肖像画的影响，你感觉不到光线来自哪个方向，只会看到它从人物的表面和脸庞上散发出来。我也曾试图以相似的方式用光包裹住玛丽安和艾…",
+        "克莱尔·马松： 《大西洋》是春天在塞内加尔拍的，而《燃烧女子的肖像》是秋天在法国拍的。尽管这两部电影都从女性视角讲述了一个爱情故事，而且都发生在大西洋岸边，但它…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "年度韩剧，舍它其谁！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%B9%B4%E5%BA%A6%E9%9F%A9%E5%89%A7%EF%BC%8C%E8%88%8D%E5%AE%83%E5%85%B6%E8%B0%81%EF%BC%81",
+      "published": "Wed, 09 Sep 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "makjang",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "T.Yerxaa"
+      ],
+      "summary": "文 T.Yerxaa 如果不是播出平台所限，《现在不是出轨的问题》真有可能成为今年韩剧最大的爆款，起码是之一吧。 现在豆瓣 8.7 分，应该是韩剧年度前几了。 这剧一开始是很容易被低估的，因为它的人物和剧情设定，很像一部刻意拼凑韩剧陈词滥调的作品。 两个住得很近的中产家庭，丈夫和邻居妻子有了婚外情，另一边正打着离婚官司，两家的女儿又卷入同一场事故。勒索和尸体随后出现，秘密一层层扩大。这些元素随便挑几个出来，都足够支撑一部标准的狗血伦理剧。 但整部剧的运行方式，并没有走这个路数。 导演李昌熙在采访中多次提到，他第一次…",
+      "key_points": [
+        "《缺席的人》（2001） 他不是光说不练的，这部剧的实际运作模式，是把韩剧最成熟的一套人物关系生产方式，嫁接到了美国黑色犯罪喜剧的因果逻辑上，最终成为一个非常奇…",
+        "这也是韩剧人物心理和美式黑色喜剧因果机制结合得最有效的地方，人物拥有充分的情感动机，但这些情感动机最终承担的，是推动错误继续发生的剧作功能",
+        "文 T.Yerxaa 如果不是播出平台所限，《现在不是出轨的问题》真有可能成为今年韩剧最大的爆款，起码是之一吧"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "谁才是中式快餐的招牌菜？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E8%B0%81%E6%89%8D%E6%98%AF%E4%B8%AD%E5%BC%8F%E5%BF%AB%E9%A4%90%E7%9A%84%E6%8B%9B%E7%89%8C%E8%8F%9C%EF%BC%9F",
+      "published": "Wed, 09 Sep 2026 17:41:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "F4",
+        "APP",
+        "Carol"
+      ],
+      "summary": "如今，大家生活节奏越来越快， 就连吃饭也从细嚼慢咽变成了快速果腹， 方便、快捷的中式快餐顺势而生—— 它既保留中餐的灵魂， 又适应快餐对效率的要求， 成为一门 “快而不糙” 的饮食艺术。 当我们去了解中式快餐的渊源， 就能看到其背后令人垂涎的中华饮食智慧。 每一份“不糊弄”的中式快餐， 都能让大家达成共识： 干饭，我们是认真的！ 温馨提示：文章先后顺序不代表任何排名 麻辣烫 被东北人发扬光大的四川美食？ 麻辣烫，近几年的中式快餐顶流，在各地有着迥然不同的做法。然而，众多地方麻辣烫中最“称霸”全国的，还得是东北麻辣烫…",
+      "key_points": [
+        "图源：小红书@中国食品报 卤肉饭 中式快餐的“元老级”人物 与新晋火爆的麻辣烫不同，卤肉饭是中式快餐的“元老级”人物",
+        "大家生活节奏越来越快， 就连吃饭也从细嚼慢咽变成了快速果腹， 方便、快捷的中式快餐顺势而生—— 它既保留中餐的灵魂， 又适应快餐对效率的要求， 成为一门 “快而…",
+        "煲仔饭 中式快餐的“锅气担当” 煲仔饭，作为广东久负盛名的地方美食，在华南地区知名度颇高。近几年，煲仔饭又因 现点现煮 工艺和 “自带锅气” 的特点风靡全国"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "欢迎来到薄肌俱乐部",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E8%96%84%E8%82%8C%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "published": "Wed, 09 Sep 2026 12:10:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "KPI",
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "可能是算法推荐的缘故，最近「薄肌」这个词不断在我眼前出现，感觉一枚新的网络流行词在冉冉升起。 上网查了一下，「薄肌」是一种最新的身材审美标准。它不同于之前的「病娇」审美，也不同于之前的「肌霸」审美，而是走了一条中间道路：男性应该有肌肉，但不应该达到夸张臃肿的程度，应该保持一定的纤细身材，但要求肌肉轮廓清晰，不可以是风吹就倒的纸片。女性那边也与之类似。 已经有人仿照电影《搏击俱乐部》，开始为「薄肌俱乐部」定出规则，给出思想支持。也有人给出了具体的数值：男性薄肌标准是体脂在8%-15%， 女性标准则是 15%-20%。…",
+      "key_points": [
+        "开始为「薄肌俱乐部」定出规则，给出思想支持。也有人给出了具体的数值：男性薄肌标准是体脂在8%-15%， 女性标准则是 15%-20%",
+        "这种变化很有趣。以前的审美方向对于大多数人而言，像是个难以完成的 KPI，一旦达成，也像是取得了人生中的一项重大成就。现在这种「薄肌」如果完全不考虑数据标准，它…",
+        "我认为「薄肌」带有保守的倾向。无论是大只佬还是病娇男，他们在视觉上是鲜明的，是凸出的，也都是一望而知的。薄肌不是如此，很多人大概需要第二眼才能识别出来，他们站在…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "OpenAI声称解出千禧年问题，却遭数学家声讨“盗用思路”",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+OpenAI%E5%A3%B0%E7%A7%B0%E8%A7%A3%E5%87%BA%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%97%AE%E9%A2%98%EF%BC%8C%E5%8D%B4%E9%81%AD%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%A3%B0%E8%AE%A8%E2%80%9C%E7%9B%97%E7%94%A8%E6%80%9D%E8%B7%AF%E2%80%9D",
+      "published": "Wed, 09 Sep 2026 19:35:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OpenAI",
+        "N-S",
+        "AI",
+        "Anthropic",
+        "https",
+        "Lean"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜ 张天祁 ‍ ● ● ● AI 在朝着成为杰出数学家的道路上又迈出了一步。争议也随之而来。 9 月 8 日， OpenAI 公布了一份关于纳维 – 斯托克斯方程（ Navier – Stokes equations ，简称 N-S 方程）存在性与光滑性问题的证明。 OpenAI 称，其内部 AI 系统在约 1 万个智能体协同工作 88 小时后，找到了一种三维不可压缩 N-S 方程有限时间形成奇点的构造。随后又让 GPT-6 Astra 将证明形式化…",
+      "key_points": [
+        "团队把刚刚训练出的新模型投入尚未解决的千禧年问题。布贝克后来解释说，他们原本并没有专门准备 N-S 方程研究项目，只是新模型在数学任务上的能力出现了明显跃升，于…",
+        "结果出乎团队预料。大约 100 个智能体花了 50 个小时，就解决了无外力欧拉方程的有限时间爆破问题。这个结果改变了整个项目的方向：布贝克和团队由此判断， N-…",
+        "OpenAI 开始训练一个新的内部模型。几天后，数学家兼 OpenAI 研究员塞巴斯蒂安 · 布贝克（ S é bastien Bubeck ）等人听到传闻，称…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "这一代青少年，真的在变笨吗？| 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%BF%99%E4%B8%80%E4%BB%A3%E9%9D%92%E5%B0%91%E5%B9%B4%EF%BC%8C%E7%9C%9F%E7%9A%84%E5%9C%A8%E5%8F%98%E7%AC%A8%E5%90%97%EF%BC%9F%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Wed, 09 Sep 2026 09:58:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "of",
+        "to",
+        "line",
+        "scores",
+        "have"
+      ],
+      "summary": "本文选自经济学人国际板块 Sep 8th 2026 https://www.economist.com/international/2026/09/08/are-teenagers-growing-dimmer 9月8日，新一轮PISA成绩公布。91个国家和地区、约76万名15岁学生参加了这次测试。结果不太好看。2015年至2025年，OECD国家的平均阅读成绩下降了28分，数学下降22分。按照PISA常用的换算，20分大致相当于一年的学习进度。 《经济学人》在文章里给了一个更扎眼的说法：今天15岁学生的数学和阅读…",
+      "key_points": [
+        "《经济学人》在文章里给了一个更扎眼的说法：今天15岁学生的数学和阅读水平，大致只相当于十年前的14岁学生。看到这句话时，小编倒没急着给孩子扣上\"变笨\"的帽子，更…",
+        "本文选自经济学人国际板块 Sep 8th 2026 https://www.economist.com/international/2026/09/08/are…",
+        "年费会员中心每天更新一篇《经济学人》双语文章和一份The World in Brief全球早报。原文、译文、词汇、长难句和音频放在同一个页面里，读过的文章也会自…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "徕芬沉冤昭雪了，然后呢？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E5%BE%95%E8%8A%AC%E6%B2%89%E5%86%A4%E6%98%AD%E9%9B%AA%E4%BA%86%EF%BC%8C%E7%84%B6%E5%90%8E%E5%91%A2%EF%BC%9F",
+      "published": "Wed, 09 Sep 2026 12:30:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GMV",
+        "i2"
+      ],
+      "summary": "文 ｜ 阑夕 当徕芬终于把9块9的刷头补进货仓，它被人质疑的痛苦却仍然无人认领。 原委不算曲折，两个月前，用户发现徕芬下架了9块9的刷头，作为电动牙刷产品推荐三个月一换的配件，徕芬的刷头一直是整个行业里独一档的便宜。 有些网友立刻把徕芬吊起来骂——万恶的资本之类，你们懂的——即便徕芬解释了这是产线调整造成的暂时缺货，也无济于事。 整个事情的讽刺在于，市场上大多数刷头，单只售价都不低于20块钱，国际品牌更是能卖到50块钱以上，这些真正的「刷头刺客」，反而能够美美隐身。 这不对吧？ 有点像我看过的一个故事，小张每天上班…",
+      "key_points": [
+        "我觉得徕芬在发现解释无用之后放弃解释的策略其实是对的，有的时候面对阳谋就是如此乏力，你没法去责怪任何人，情绪的开源并非虚空，甚至乐观的想，消费者不满，也是因为他…",
+        "从一开始就是故意这么设计的： 压低电动牙刷的本体定价，为初次购买这个环节增加竞争力，然后把利润大头，放在需要定期更换的刷头上，并以非官配刷头不安全为由，把用户绑…",
+        "直到徕芬重新上架9块9的第二代刷头——在工艺品质上甚至做了升级——那些质疑徕芬是在变相逼人购买更贵型号刷头的阴谋论就此破产"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "董建华的狮子山下",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E8%91%A3%E5%BB%BA%E5%8D%8E%E7%9A%84%E7%8B%AE%E5%AD%90%E5%B1%B1%E4%B8%8B",
+      "published": "Wed, 09 Sep 2026 21:02:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Crawford",
+        "G20",
+        "MacLehose"
+      ],
+      "summary": "9月8日晚，董建华先生在香港辞世，享年89岁。 我们在2019年发布过一篇文章，借“富豪家族接班”这个话题，回顾过董建华先生在香港的过往。 董建华以香港首任特首的身份为人熟知，但他的家族其实发迹于航运业。1970年代，航运业风生水起， 包玉刚 和 董浩云 是最显赫的两大家族，两人在航运业缠斗多年，延续到后辈。 此后，包玉刚的女婿 吴光正 投身地产，董浩云之子董建华转向政界。1995年，命运中的宿敌又在香港首任特首竞选中对决，这次是董建华赢了。 成为特首的董建华大展拳脚，推行了一系列施政方针，以解决住房问题的“八万五…",
+      "key_points": [
+        "到走向悲伤 2015年，69岁的吴光正宣布正式退休，36岁的儿子吴宗权接过数千亿家产，开始躺着收钱。仅两大广场每年收租就可达160亿利润，更不需要提九龙仓还持有…",
+        "而是积极参与香港特区第一届政府，被委任以医院管理局主席职务，之后又成为了香港贸易发展局主席。他和董建华的蜜月期维持了将近四年，2002年，吴光正重新回归九龙仓会…",
+        "董浩云还在接班人问题上跟包玉刚暗中较劲。在这方面董浩云先拔头筹，两个儿子成绩优异，尤其是董建华，董浩云很早就开始针对性培养，儿子毕业后安排去美国通用汽车基层打工…"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "暑假的英语补习",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/09/summer.html",
+      "published": "2026-09-09T07:56:12Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Basic",
+        "Key",
+        "Reading",
+        "Words"
+      ],
+      "summary": "对云豆来说，这个暑假特别长。 他小学毕业了，6 月中就已放暑假，9 月 1 日方开学进入初中。自然没有学校布置的暑假作业。我不想他整个假期都沉迷在短视频和蛋仔派对中，所以每天给他安排了英语学习。 7 月初，我记录过对孩子之前的英文辅导。先前，我用的《英语在用：剑桥初级英语语法》给他补习基础语法。学习的效果还可以，原本以为可以在暑假过渡到中级本。但读了两天后就发现完全进行不下去。倒不是中级语法难度大了很多，而是他本身的阅读能力跟不上。 阅读不仅仅是 “英文” 语言的问题，换成中文也一样。所以，我换了一套书：《Basi…",
+      "key_points": [
+        "我记录过对孩子之前的英文辅导。先前，我用的《英语在用：剑桥初级英语语法》给他补习基础语法。学习的效果还可以，原本以为可以在暑假过渡到中级本。但读了两天后就发现完…",
+        "6 月中就已放暑假，9 月 1 日方开学进入初中。自然没有学校布置的暑假作业。我不想他整个假期都沉迷在短视频和蛋仔派对中，所以每天给他安排了英语学习"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-10",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古代士兵的伙食如何？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792350",
+      "published": "Fri, 04 Sep 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "UP"
+      ],
+      "summary": "也说， 一二三聊职场，四五六谈感情。 查看知乎原文 说几样有趣的东西吧：“耐饥丸、千里脯、守山砖”。 先说“耐饥丸“ 也有叫“ 不饿丸、行军丸、赈灾丸 ”。 这个东西是我国古代历史上真实出现过的，不是”大力丸、仙丹”等江湖骗人的东西。 据说能“吃一丸顶一餐”，最早可以追溯到北宋的一种“方便食品”，广泛应用在行军、赈灾、储备抗荒等场景。 据记载北宋 陈抟老祖 曾研制“耐饥丸”，配方为“ 黑豆、芝麻、糯米和蜂蜜 ”。 简单说就是“糖油混合物压瓷实”和今天的“压缩饼干成分差不多。 蜂蜜本身就有抗腐的功效，相当于“糖渍保鲜…",
+      "key_points": [
+        "个人觉得更应该像这种北方硬年糕 南方一种蒸软了吃的萝卜糕，想象是类似这样的东西 这几种都是有真实记载的古代士兵食物",
+        "这个是专门给守卫在要塞、烽火岗的士兵的",
+        "煮熟后混合，放入砖模制成砖坯，晒干后砌成墙的样子。” 日常，这些“守山砖头”就是岗哨士兵们遮风挡雨的内部墙体一部分"
+      ]
+    }
+  ]
+}
