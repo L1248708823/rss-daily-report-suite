@@ -1,0 +1,795 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T01:00:11.484328+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 100,
+    "fresh_candidates": 66,
+    "backfill_candidates": 34,
+    "items_published": 25,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-11",
+      "fetched_at": "2026-09-11T01:00:06.127125+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3934.4,
+          "change": -17.11,
+          "change_pct": -0.43,
+          "volume": 484675114.0,
+          "amount": 77967269.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4330.12,
+          "change": 13.519999999999527,
+          "change_pct": 0.31,
+          "prev_close": 4316.6,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-11 08:58:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 934.3514517658784,
+          "change": 2.917339849213022,
+          "change_pct": 0.3132094704165219,
+          "prev_close": 931.4341119166654,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-11 08:58:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-11",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "投资的再平衡，说起来容易做起来难",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E6%8A%95%E8%B5%84%E7%9A%84%E5%86%8D%E5%B9%B3%E8%A1%A1%EF%BC%8C%E8%AF%B4%E8%B5%B7%E6%9D%A5%E5%AE%B9%E6%98%93%E5%81%9A%E8%B5%B7%E6%9D%A5%E9%9A%BE",
+      "published": "Thu, 10 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 府库 来源：雪球 如果一个投资组合设定好了各类资产的持仓比例 ， 组合跑一段时间之后 ， 一定会因为各类资产的涨跌导致持仓比例偏离预设的比例 ， 所以就会涉及到这个再平衡的概念 。 再平衡的意思不复杂 ， 就是组合里某一类资产涨多了或者跌多了 ， 占比偏离了当初定下的目标 ， 就把它调回去 。 至于什么时候动手 ， 可以按时间来 ， 可以按偏离了多少来 ， 也可以趁着有钱进出的时候顺手调一调 。 这件事在理论上曾经被认为是…",
+      "key_points": [
+        "03 再平衡具体到自己的投资中并不容易 对于再平衡来说 ， 并不是一个只要做了就必定能提升收益的动作 ， 也不存在最佳的再平衡策略 ， 所以再平衡应用到自己的投…",
+        "年化收益都有提升 ， 看起来再平衡是一种很不错的投资操作",
+        "把两类资产接下来所有可能出现的涨跌组合列成一张表 ， 一种一种算过去 ， 结论是再平衡和什么都不做 ， 最后期望能拿到的钱是一样多的 ， 那个所谓的再平衡红利只…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "全球粮食危机的概率飙升，但国内在瞎炒",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/408703125",
+      "published": "Thu, 10 Sep 2026 09:50:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "最近一个月，农业板块大涨。主要是因为炒作粮食危机。 一方面是厄尔尼诺发生概率上升，另一方面是地缘冲突导致物价和化肥上涨。 剔除中国后全球谷物的库销比只有13%左右，警戒线是18%左右。 咱们现在在国内买粮食和农作物时，应该还没有感觉到价格离谱的上升吧。 但如果把视角转换到海外就不一样。 美国小麦期货今年已经上涨46%。 美燕麦上涨17%；美玉米上涨21%；美稻米上涨25%；美大豆上涨25%。 其他的海外品种就不一一列举了，反正是上涨的多，下跌的少。 但反观国内，小麦不仅没涨，反而下跌了。 之前我社群有小伙伴说厄尔尼…",
+      "key_points": [
+        "国内炒粮食危机，基本就属于跟着瞎起哄。属于 强预期弱 现实的博弈",
+        "提醒各位读者朋友，A股炒粮食危机属于跟着瞎起哄。（股票和商品的逻辑不完全相同） 这些企业的基本面都不怎么样，而且农业板块本来就没什么投资价值",
+        "粮食危机也是结构性的，并不是所有国家都会遭遇"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中金黄金2026年中报分析：拐点时刻到来",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2828641690/408796148",
+      "published": "Thu, 10 Sep 2026 09:50:03 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q2",
+        "Q3",
+        "Q1",
+        "Q4",
+        "H1",
+        "http"
+      ],
+      "summary": "1、业绩情况 中金黄金在二季度金价回调比较大的情况下，中报业绩是不错的，26H1归母净利润43.6亿，同比增长23%。从季度业绩看，26Q2利润19.8亿元，同比增长19%，环比减少17%。二季度黄金利润减少，但铜的利润是增加的，所以整体利润表现尚可。 2、黄金业务 （1）黄金过往产量 如下图，近年来中金黄金的矿产金产销呈现&#34; 稳中有降 &#34;的趋势，2019年时候产销超过24吨，近几年稳定在18吨出头。原因也很简单，存量矿山品位下降带来产量下滑，加上这些年公司无大型新增项目投产，这也能体现出金矿不好找…",
+      "key_points": [
+        "1、业绩情况 中金黄金在二季度金价回调比较大的情况下，中报业绩是不错的，26H1归母净利润43.6亿，同比增长23%。从季度业绩看，26Q2利润19.8亿元，同…",
+        "(c)大东沟金矿等 ：辽宁大东沟金矿是新中国成立以来发现的规模最大单体金矿床，该矿共探明金矿石量25.86亿吨，金金属量1444.49吨。当前中金黄金集团持股1…",
+        "2、黄金业务 （1）黄金过往产量 如下图，近年来中金黄金的矿产金产销呈现&#34; 稳中有降 &#34;的趋势，2019年时候产销超过24吨，近几年稳定在18吨…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "红利ETF怎么选：全品类对比与最终答案",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2884313460/408765587",
+      "published": "Thu, 10 Sep 2026 09:49:59 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ETF",
+        "QDII",
+        "AH",
+        "http",
+        "ROE",
+        "xueqiu.com"
+      ],
+      "summary": "数据截至2026年9月10日 | 覆盖全市场主要红利策略ETF 过去两年，红利风格在A股市场展现出持续的相对优势。目前全市场具备红利属性的场内ETF（按ETF策略分类口径）共39只，覆盖细分指数超过20个。面对“哪只产品更值得配置”的常见疑问，直接给出单一代码往往缺乏针对性。红利类ETF并非单一品类，按内核逻辑可划分为五大阵营：虽然名称相近，但底层选股逻辑与风险收益特征存在显著差异。本文基于数据对五类产品进行梳理，并结合不同投资需求梳理配置方案。 一、核心结论 综合比较下，华泰柏瑞中证红利低波动ETF（512890…",
+      "key_points": [
+        "数据截至2026年9月10日 | 覆盖全市场主要红利策略ETF 过去两年，红利风格在A股市场展现出持续的相对优势。目前全市场具备红利属性的场内ETF（按ETF策…",
+        "可参考下表分类： 二、红利ETF的五种细分品类 红利策略ETF的核心均在于筛选分红能力较强的上市公司，但各指数在定义“高分红”及叠加辅助因子上存在差异。按选股逻…",
+        "三、主流红利ETF横向对比（12只） 下表选取A股与港股红利ETF中规模靠前、具备代表性的12只产品（数据截至2026年9月10日，收益率按场内价格涨跌幅口径计…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "当“社会营销费用池”消失之后：高端白酒为什么可能发生长期身份劣化",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2292705444/408660386",
+      "published": "Thu, 10 Sep 2026 09:49:56 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AAA",
+        "LVMH",
+        "CRM",
+        "http",
+        "KTV",
+        "lvmh"
+      ],
+      "summary": "过去十几年，市场习惯用一种财务视角理解茅台：出厂价与终端价之间存在巨大价差，说明渠道攫取了本应属于上市公司的利润；如果厂家能够提高出厂价、增加直营、通过数字平台直接触达消费者，就可以把这部分利润收回来。 这个逻辑在财务上没有错，却可能漏掉了一个更重要的问题： 出厂价与终端成交价之间的巨大价差，并不只是“被渠道拿走的利润”，它同时构成了一笔规模惊人的、分散在整个社会中的隐性营销预算。 这笔钱从来没有出现在贵州茅台的“销售费用”科目里，却长期支付着经销商、烟酒店、团购商、商务中介、礼品商、收藏者、饭局组织者乃至无数关系…",
+      "key_points": [
+        "如果把这个机制称为**“社会营销费用池”**，那么近年来茅台“全面向C”的真正意义，就不只是渠道改革",
+        "这里就回到了“社会营销费用池”",
+        "只要高端白酒不断出现在这类社会叙事附近，整个品类都可能承受“场景污染”"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI长剧的尴尬：降本容易赚钱难",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462878.html",
+      "published": "Thu, 10 Sep 2026 09:20:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "TV",
+        "AIGC",
+        "CM",
+        "IP",
+        "postmeta.bookmark"
+      ],
+      "summary": "AI长剧《后西游记》登陆卫视黄金档，收视夺冠、股价涨停，资本市场为之沸腾。然而，高收视背后是口碑争议与付费难题：AI能否真正讲好长故事？用户又是否愿意为AI剧集买单？本文从内容质量、商业模式与行业生态三重视角，拆解AI长剧的机遇与挑战。 8月31日，一部没有任何真人演员的AI剧集—《后西游记》，进入了省级卫视的电视剧黄金档。 该剧由芒果 TV 出品、芒果 TV AIGC 创新内容中心制作、伯璟文化承制，改编自明末清初同名神魔小说，是《西游记》三大续书之一。作为季播剧，《后西游记》率先播出的是第一季“花果山篇”共5集…",
+      "key_points": [
+        "AI视频赛道不是没有精品。一部由一位“90后奶爸”个人手搓的AI短剧《归墟》，全网播放量过亿、某平台热度值近4400万。这部短剧世界观清晰、人物塑造也非常有辨识…",
+        "据每日经济新闻记者采访多位业内人士了解到，部分AI长剧的制作成本已经可以较同体量真人剧下降一半以上，不到20人的团队也能完成长篇内容。而对于《后西游记》，芒果超…",
+        "以远低于真人剧集的成本和制作周期生产长剧，并进入主流的电视大屏，资本市场正在为这个新故事买单。不过，尽管AI能解决长视频内容成本高企的难题，但平台赚钱的根本逻辑…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462888.html",
+      "published": "Thu, 10 Sep 2026 09:02:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Tim",
+        "Urban",
+        "Anthropic",
+        "Jacob",
+        "OpenAI"
+      ],
+      "summary": "前OpenAI与Anthropic核心预训练研究员Jacob Coxon辞职并公开警告：AI正冲向自我改进的超级智能，业内高层私下认为十年内人类灭绝概率超10%。本文借Tim Urban十一年前的《人工智能革命》框架，重审智能爆炸、DPU与智能阶梯，揭示我们已站在那条虚线之上。 昨天呢，我在X上看到了一条流量已经过了1亿的帖子。 讲道理，我在X上已经很久很久没有见过这种流量的帖子了。 发帖的人叫Jacob Coxon。 刚刚从Anthropic辞职。 他说，过去三年，他先后在OpenAI和Anthropic做大模型…",
+      "key_points": [
+        "前OpenAI与Anthropic核心预训练研究员Jacob Coxon辞职并公开警告：AI正冲向自我改进的超级智能，业内高层私下认为十年内人类灭绝概率超10%…",
+        "真正参与制造这些前沿AI的人里面，有不少人私下里真的相信： 如果事情最后失控，人类可能在这个十年结束之前灭绝",
+        "因为那篇文章最后提出了一个极其简单、极其粗暴、又极其宏大的判断： 如果人类最终真的造出了远超自己的超级智能"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "卖的是产品，做的却还是项目：B2B软件商品化最容易忽略的一步",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/pd/6462863.html",
+      "published": "Thu, 10 Sep 2026 08:02:20 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "B2B",
+        "postmeta.bookmark",
+        "postmeta.postlike",
+        "PPT"
+      ],
+      "summary": "产品做出来了，但为什么每笔交易还是像第一次？从产品到商品，中间隔着一层被大多数团队忽略的「商品基线」。本文深度拆解商品基线的五个核心问题——谁买、为什么买、买什么、怎么交易、怎么交付，帮你把「卖出去过」变成「可复制的稳定交易」。 回看前面几篇文章，我们花了很长时间处理一个问题：项目里做出来的东西，哪些应该留下来，成为公司愿意长期承担的产品能力。 从项目需求怎么进入产品，到产品基线怎么形成；从客户差异怎么接，到版本怎么保持自己的演进节奏。做到这一步以后，一个产品至少在公司内部已经逐渐稳定下来。产品经理知道它解决什么问…",
+      "key_points": [
+        "如果“买什么”没有定义清楚，“怎么交易”就很难稳定。一个客户购买的是纯软件，另一个客户购买的是软件、硬件和实施服务的组合，两者即使都使用同一套产品，价格逻辑也不…",
+        "一、产品和商品解决的是两类问题 很多项目交付型公司其实很容易把产品和商品混在一起，甚至并没有特别明确的“商品”概念。只要一套系统已经有名称、有功能、有标准版本，…",
+        "也不能证明商品已经形成 产品卖出去过，也并不意味着产品商品化已经完成，这一点在项目型公司里尤其容易被忽略。因为很多产品最早本身就是在项目里做出来的。做完第一个项…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "演唱会场馆们，应该把高德飞行街景2.0作为标配",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462766.html",
+      "published": "Thu, 10 Sep 2026 08:01:21 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Live",
+        "ABot-Earth",
+        "AGI",
+        "Astra",
+        "CC0"
+      ],
+      "summary": "当AI开始从语言走向现实，真正稀缺的是能理解真实世界并落地的答案。高德最新版本通过飞行街景2.0、避雷指南和导航Live三大功能，将空间智能融入出行全流程，从出发前踩点到行程规划再到抵达指引，重新定义了地图的能力边界。本文深度体验这些功能，解析高德如何从导航工具进化为空间智能平台。 AI 的进化速度，最近又上了一个台阶。 GPT-6 Astra 的发布，让”AGI 时代正在加速”又一次成为热门话题。能对话、能创作、能推理，人们对 AI 的期待被不断推高，仿佛什么问题都可以交给它。 查资料、改文案、做分析，甚至安排一…",
+      "key_points": [
+        "体验完全不一样，在地图里搜索对应的演出场地后，左下角就会有飞行街景的入口，点击后就可以直接进入场馆内部进行游览： 进去后默认会开启自动游览，它会自动带着我逛一圈…",
+        "真正稀缺的是能理解真实世界并落地的答案。高德最新版本通过飞行街景2.0、避雷指南和导航Live三大功能，将空间智能融入出行全流程，从出发前踩点到行程规划再到抵达…",
+        "重新理解高德 把飞行街景 2.0、避雷指南和导航 Live 放在一起看，会发现这次更新的三大核心能力，已经很难再用传统导航的逻辑来理解高德正在做的事"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "靠机器人刷马桶，这家公司拿到600万美元融资",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/embodied/6461613.html",
+      "published": "Thu, 10 Sep 2026 07:51:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Abluo",
+        "Hivebotics",
+        "https",
+        "PickNik",
+        "IAL",
+        "Mark"
+      ],
+      "summary": "Hivebotics宣布完成600万美元A轮融资，其厕所清洁机器人Abluo已在新加坡国立大学医院、樟宜机场等20多个场所累计运行近1万小时。产品用高压蒸汽、真空抽吸等无接触方式清洁，并记录前后结果，把人工清洁的30分钟压缩为5分钟检查。 01 600万美元，从试点到量产 9月4日，Hivebotics宣布完成600万美元A轮融资，由Vertex Ventures东南亚及印度领投，房地产集团Farglory旗下的Fareast Land Development和卫浴产品厂商Rigel跟投。钱的用途说得很直接，把他们…",
+      "key_points": [
+        "从试点到量产 9月4日，Hivebotics宣布完成600万美元A轮融资，由Vertex Ventures东南亚及印度领投，房地产集团Farglory旗下的Fa…",
+        "Hivebotics宣布完成600万美元A轮融资，其厕所清洁机器人Abluo已在新加坡国立大学医院、樟宜机场等20多个场所累计运行近1万小时。产品用高压蒸汽、真…",
+        "依据 PickNik 开发案例与公司产品资料 资料来源： Vertex，Hivebotics 600万美元A轮公告，2026年9月4日原文 https://ww…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "请问哪些植物毛茸茸的？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792490",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Geum",
+        "aleppicum",
+        "rivale",
+        "chinense",
+        "glaciale",
+        "japonicum"
+      ],
+      "summary": "小星有鬼， 自然博物写作者，在鸟兽草木间寻找真相和诗意 查看知乎原文 毛茸茸的草莓味旋转圣代来几个？ 匍匐路边青 匍匐路边青 匍匐路边青 这种可爱的植物叫做 匍匐路边青 （ Geum reptans ），它隶属于蔷薇科路边青属（ Geum ），原产欧洲中部和东南部的部分山区，如阿尔卑斯山脉、喀尔巴阡山脉等高山地区，主要分布在海拔 2000 米至 4000 米的高山流石滩、冰碛物、岩屑坡和岩石缝隙中，是典型的 高山植物 ，。这些地方土壤贫瘠、风力强劲、紫外线强烈，昼夜温差大，匍匐路边青在这样严酷的生境中展现了强大的生…",
+      "key_points": [
+        "自然博物写作者，在鸟兽草木间寻找真相和诗意 毛茸茸的草莓味旋转圣代来几个",
+        "匍匐路边青 匍匐路边青 匍匐路边青 这种可爱的植物叫做 匍匐路边青 （ Geum reptans ），它隶属于蔷薇科路边青属（ Geum ），原产欧洲中部和东南…",
+        "我国最常见的路边青属植物——路边青（Geum aleppicum）的花朵 我国最常见的路边青属植物——路边青（Geum aleppicum）的果序 紫萼路边青…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苹果发布iPhone 18 Pro系列及首款折叠屏iPhone Duo；中国西南首次发现丹尼索瓦人化石；日本暴发梅毒疫情",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83iPhone+18+Pro%E7%B3%BB%E5%88%97%E5%8F%8A%E9%A6%96%E6%AC%BE%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone+Duo%EF%BC%9B%E4%B8%AD%E5%9B%BD%E8%A5%BF%E5%8D%97%E9%A6%96%E6%AC%A1%E5%8F%91%E7%8E%B0%E4%B8%B9%E5%B0%BC%E7%B4%A2%E7%93%A6%E4%BA%BA%E5%8C%96%E7%9F%B3%EF%BC%9B%E6%97%A5%E6%9C%AC%E6%9A%B4%E5%8F%91%E6%A2%85%E6%AF%92%E7%96%AB%E6%83%85",
+      "published": "Thu, 10 Sep 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "iPhone",
+        "Pro",
+        "Duo",
+        "Flash",
+        "V4.1",
+        "eSIM"
+      ],
+      "summary": "今天是9月10日，星期四。1984年的今天，英国科学家亚历克·杰弗里斯在研究遗传标记时，通过X射线胶片意外发现了DNA指纹技术。 重点新闻速览 1.iPhone Handoff功能实现两机共享一号 2.DeepSeek正式发布V4.1 Flash模型 3.中国西南首次发现丹尼索瓦人化石 4.苹果发布iPhone 18 Pro系列及首款折叠屏iPhone Duo 5.日本爆发梅毒疫情 科技 iPhone Handoff功能实现两机共享一号 9月10日，苹果在秋季发布会上正式推出iPhone Handoff功能，实现两…",
+      "key_points": [
+        "重点新闻速览 1.iPhone Handoff功能实现两机共享一号 2.DeepSeek正式发布V4.1 Flash模型 3.中国西南首次发现丹尼索瓦人化石 4…",
+        "研究团队对19个月大的雄性小鼠实施总热量减少30%的饮食方案，发现夜间限时热量限制组将小鼠中位寿命延长35%，而全天均匀限制组仅延长11%。通过高保真NanoS…",
+        "两款新机首发台积电2nm制程A20 Pro芯片，配备6核CPU和7核GPU，持续性能较上代提升40%，内存带宽提升50%。主摄首次搭载可变光圈设计，6片激光切割…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "AI狂飙的时代，蚂蚁森林要再种一棵“异想天开”的树",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI%E7%8B%82%E9%A3%99%E7%9A%84%E6%97%B6%E4%BB%A3%EF%BC%8C%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97%E8%A6%81%E5%86%8D%E7%A7%8D%E4%B8%80%E6%A3%B5%E2%80%9C%E5%BC%82%E6%83%B3%E5%A4%A9%E5%BC%80%E2%80%9D%E7%9A%84%E6%A0%91",
+      "published": "Thu, 10 Sep 2026 17:22:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "MOF",
+        "AirRoot",
+        "APP",
+        "bug",
+        "feature"
+      ],
+      "summary": "互联网时代最了不起的地方，就是赋予了每一个普通人前所未有的“超能力”：你能在荒郊野岭叫来一辆车，能从手机里“变”出来钱，也能足不出户尝遍全城的饭菜……很多曾被视作“异想天开”的事，一件件照进了现实。 蚂蚁森林， 就是互联网时代长出的一棵“异想天开”的树 。 今天，蚂蚁森林发布了一封写给7亿参与者的公开信，信中坦承，当年谁也没有预判到，这个最初看起来“不那么靠谱”的构想，会一步步成长为全球参与人数最多的生态公益之一： 7亿人参与、其中1.6亿人种下7亿多棵真树，林木扎根13个省份，生态修复总面积4713平方公里 ………",
+      "key_points": [
+        "是此次外滩大会“绿色星球”展区的核心命题，多个项目都围绕荒漠水资源难题展开探索 所以这一棵新的“异想天开”的树，不再始于一株扎根沙土的梭梭，而是始于一滴水。在今…",
+        "十年前蚂蚁森林的“异想天开”，种在7亿人的手机里，靠的是把人连接起来，为的是“人人都能参与”；如今这一棵新的“异想天开”的树，要种进对自然规律的理解里，靠的是把…",
+        "又一棵“异想天开”的树 从种树到种“术”，蚂蚁森林这是要离树本身更远了吗"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "如果没有台风，你可能不会认识这种极度濒危的动物……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E5%8F%B0%E9%A3%8E%EF%BC%8C%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%B8%8D%E4%BC%9A%E8%AE%A4%E8%AF%86%E8%BF%99%E7%A7%8D%E6%9E%81%E5%BA%A6%E6%BF%92%E5%8D%B1%E7%9A%84%E5%8A%A8%E7%89%A9%E2%80%A6%E2%80%A6",
+      "published": "Thu, 10 Sep 2026 17:22:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "OL",
+        "https",
+        "EB",
+        "of",
+        "Saola",
+        "al."
+      ],
+      "summary": "本文经授权转载自：博物（ID:bowuzazhi） “白海豚”、“琵鹭”、“紫檀”……每到夏秋，好像西太平洋上的热带气旋一生成，各种动植物的大名就开始在新闻里出没。有时你都怀疑，气象部门是不是手头常备动植物名录，啥时候刮台风就翻开挑个名字。 自2026年6月8日起执行的最新热带气旋命名表 其实这真不是错觉，目前使用的“西北太平洋和南中国海热带气旋命名表”中，哪怕去除了日本提出的“鲸鱼”、“小熊”等星座名，140个名称中也有至少六十多个跟动植物相关，它们不光优美，还反映出各地的自然特色。 比如中国大陆提交的银杏、木兰…",
+      "key_points": [
+        "越南用中南大羚的本地名“苏拉”命名台风，除了展示国家特有的珍稀物种，也是希望更多人来关注、了解和保护这种濒危动物。不过，由于“苏拉”在菲律宾造成重大损失，它如今…",
+        "老挝和柬埔寨分布的大象都为亚洲象。老挝历史上曾有南掌国，“南掌”为老挝语Lān Xāng，意为“百万大象”。而“象神”作为Xangsane中译，既契合发音又气势…",
+        "目前被IUCN评为“濒危”丨thainationalparks 有毒又美味的“苏丹鱼” 看过前面两个，咱们再来挪动下地图。在马来西亚提交的台风名中，有一个叫“杰…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "挖到宝啦，秋天好看又百搭的T恤，让全办公室都跟着我买（还不贵",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%8C%96%E5%88%B0%E5%AE%9D%E5%95%A6%EF%BC%8C%E7%A7%8B%E5%A4%A9%E5%A5%BD%E7%9C%8B%E5%8F%88%E7%99%BE%E6%90%AD%E7%9A%84T%E6%81%A4%EF%BC%8C%E8%AE%A9%E5%85%A8%E5%8A%9E%E5%85%AC%E5%AE%A4%E9%83%BD%E8%B7%9F%E7%9D%80%E6%88%91%E4%B9%B0%EF%BC%88%E8%BF%98%E4%B8%8D%E8%B4%B5",
+      "published": "Thu, 10 Sep 2026 17:22:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "eqgjifcnwtpgcv",
+        "ins",
+        "money"
+      ],
+      "summary": "入秋了，入秋了，终于入秋了！气温一降，夏季衣服也要换下了， 要说秋冬衣橱里超火、使用率巨高的单品——非长袖T恤莫属。 说是衣橱中的万金油不为过吧？ 单穿清清爽爽、显气色；和卫衣、针织衫、西装叠穿又有层次感。 从球星贝克汉姆，到好莱坞演员，私下被拍到的穿搭里都少不了一件简单的长袖T恤！ 但很多长袖T恤刚买回来还挺有型，洗两次就开始缩水、扭斜，领口越穿越大…… 便宜是便宜，但能穿一整个秋冬的却没几件。 算一下，如果每年都因为T恤变形、起球、掉色而重新买，那这也是一笔不小的花费💰💰💰。 都说海外的品质很好，所以这次我们选…",
+      "key_points": [
+        "女生搭牛仔裤、背带裙都好看"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "阮一峰的网络日志",
+      "source": "阮一峰的网络日志",
+      "source_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "title": "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR",
+      "title_zh": null,
+      "url": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html",
+      "published": "2026-09-11T00:13:03Z",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "issue",
+        "PR"
+      ],
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "key_points": [
+        "科技爱好者周刊（第 412 期）：禁止 issue，只用 PR"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "曾经的神级脑洞，废了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%9B%BE%E7%BB%8F%E7%9A%84%E7%A5%9E%E7%BA%A7%E8%84%91%E6%B4%9E%EF%BC%8C%E5%BA%9F%E4%BA%86",
+      "published": "Thu, 10 Sep 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CG",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com",
+        "YOLO"
+      ],
+      "summary": "文 树宝 《坠落》拍续集还是蛮奇怪的。 《坠落》（2022） 它的故事没什么好概括的，两个女人爬上两千英尺高的废弃电视塔，梯子断了，下不来。之后发生的一切都是从这个空间条件里延伸出来的。 水在下面够不着了，手机没信号，装着无人机的背包掉到下面的通信天线上，秃鹫还来了 …… 编剧不需要不断发明新的事件，人物只需要一步步发现这个空间还能怎样威胁她们。 整个剧作都是从一个物理性的条件硬推出来，它之所以好看，很大程度上就在于限制条件足够集中。 但这也让续集几乎不可能照原样拍。第一部越纯粹，第二部留下的重复空间就越小。再找两…",
+      "key_points": [
+        "影片在结尾又提前为第三部留了入口。杰克斯翻到希洛冒险清单里的下一项 「 地狱深渊 」 ，贝基也收到了一份纪念活动的邀请。这里暴露出了这个系列以后很难回避的问题，…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "一拍脑门，就是一个世界级爆款",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%80%E6%8B%8D%E8%84%91%E9%97%A8%EF%BC%8C%E5%B0%B1%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C%E7%BA%A7%E7%88%86%E6%AC%BE",
+      "published": "Thu, 10 Sep 2026 20:30:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Free",
+        "Solo",
+        "hongmomgs",
+        "irisfilm",
+        "POV",
+        "qq.com"
+      ],
+      "summary": "文 西帕克 《坠落》是一部极其简单，又极其高概念的电影，讲述的就是两个女人被困在高塔塔顶的求生故事、两个主要角色，一个披萨盘那么大，却有2000英尺（610米）高的塔顶，以及一个时不时从高处往下拍，把观众逼到恐高症发作的手持镜头。 《坠落》 如果你有幸在电影院里观看了这部电影，无疑会被其中的POV镜头产生的恐惧效应惊吓，不自觉的手心捏一把汗，但如果你是在家中下载或者流媒体观看本片，这样的惊悚效果也无疑会折半，让人不得不更加注意这部电影随处可见的剧情错误和俗套。 当然，作为一部直指观众肾上腺素，并且试图以最低的成本达…",
+      "key_points": [
+        "正如贝琪做了一个危险动作后自我吐槽的那样「好遗憾我没有把这一幕拍下来」。在短视频的时代，危险的攀高与攀爬已随处可见（甚至已成为抖音中的热门类别），观众需要更多的…",
+        "展示了三个朋友在进行「徒手攀岩」运动，而女主角贝琪的丈夫丹也因为意外坠崖去世。这其实是一个略微俗套的设置，早在2000年的登山冒险片《垂直极限》中，便已有过几乎…",
+        "但电影内核中这还是一个带着在男性社会中自我寻找影子的作品。父亲和丈夫无处不在的权威，让贝琪在定义自己上陷入了困境。分析这个角色，我们会发现，她选择和本结婚，是因…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中国地理界第一“老张”，有多强？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E5%9B%BD%E5%9C%B0%E7%90%86%E7%95%8C%E7%AC%AC%E4%B8%80%E2%80%9C%E8%80%81%E5%BC%A0%E2%80%9D%EF%BC%8C%E6%9C%89%E5%A4%9A%E5%BC%BA%EF%BC%9F",
+      "published": "Thu, 10 Sep 2026 17:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "B1",
+        "ch",
+        "Jubei"
+      ],
+      "summary": "中国地理领域有很多“老张” 有的“老张”以山河扬名 有的“老张”据关口而兴 有的“老张”靠大港崛起 有的“老张”以强大著称 若论中国地理界第一“老张” 到底花落谁家？ 中国最有名的“老张”，有多强？ 北京有张坊、张镇、张山营；上海有张江、张堰、张庙；天津有张家窝；安徽有张溪、张八岭；广东的佛山有张槎 （chá） ；华北、华中地区还有很多“张家湾”......中国地名中的“老张”数不胜数。 而单论其中 最有名 的“老张”，湖南省 张家界 市几乎没有悬念。 张家界天门洞 张家界 这里西邻巴蜀，北接荆州，南连衡山，东向洞…",
+      "key_points": [
+        "中国地理领域有很多“老张” 有的“老张”以山河扬名 有的“老张”据关口而兴 有的“老张”靠大港崛起 有的“老张”以强大著称 若论中国地理界第一“老张” 到底花落…",
+        "湘西以及张家界的“界”多，于是“界”所代表的 “高山密林” 也多；而张家界在 中国地理界的 “第一” 地位，恰好也与它的“高山密林”强相关",
+        "张广才岭已银装素裹 跨越东西，纵贯南北，地图上“老张”不仅惊艳世界，更隐含了中国地理的无限种可能。而在你心中，谁会是那位第一“老张”呢"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "心的教师",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%BF%83%E7%9A%84%E6%95%99%E5%B8%88",
+      "published": "Thu, 10 Sep 2026 12:19:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "今天是教师节，我想起自己曾在一本书里读过一位教师忆念自己老师的文字。他说，虽然老师已经逝世多年，但是他觉得自己的心和老师没有一刻分离。这些年来，在他的案头一直摆放着老师的相片。有时候自己起心动念，有了什么不好的念头，转头看到老师在镜框里正凝视着自己，心中就立即大为惭愧，恶念也随之消融。 这段回忆让我深受感动，不仅仅是因为师徒之间情感深挚，我更看重教育能够深入人心的伟大力量。教师传授学生知识，学生记得的是知识，是方法，是思想，作用在大脑。教师塑造学生心灵，学生因此而行正道，因此而守护内心，也因此而获得强大 依怙 。即…",
+      "key_points": [
+        "不仅仅是因为师徒之间情感深挚，我更看重教育能够深入人心的伟大力量。教师传授学生知识，学生记得的是知识，是方法，是思想，作用在大脑。教师塑造学生心灵，学生因此而行…",
+        "或者回答「作者的老师」，我觉得都有失偏颇。不是所有人看到老师的照片都能幡然醒悟，也不是所有老师都会让学生在多年之后都常常忆念，更不用说在案头放一张相片。这里需要…",
+        "我想起自己曾在一本书里读过一位教师忆念自己老师的文字。他说，虽然老师已经逝世多年，但是他觉得自己的心和老师没有一刻分离。这些年来，在他的案头一直摆放着老师的相片…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "诺奖风向标2026拉斯克奖揭晓，获奖者有四位日本科学家",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E8%AF%BA%E5%A5%96%E9%A3%8E%E5%90%91%E6%A0%872026%E6%8B%89%E6%96%AF%E5%85%8B%E5%A5%96%E6%8F%AD%E6%99%93%EF%BC%8C%E8%8E%B7%E5%A5%96%E8%80%85%E6%9C%89%E5%9B%9B%E4%BD%8D%E6%97%A5%E6%9C%AC%E7%A7%91%E5%AD%A6%E5%AE%B6",
+      "published": "Thu, 10 Sep 2026 10:08:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Factor",
+        "F-IXa",
+        "F-X",
+        "HLA",
+        "FDA",
+        "IX"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜李珊珊、周奕彤、叶晴朗 ‍ ● ● ● 9 月 9 日，被誉为诺贝尔奖 “ 风向标 ” 的生物医学领域重要奖项 —— 拉斯克奖 （ The Lasker Awards ） 揭晓。 今年， 已有 81 年历史 的拉斯克 奖空缺了 医学科学特别成就奖，获奖奖项是 基础医学研究奖、临床医学研究奖、公共服务奖。 其中，基础医学研究奖授予了斯坦福大学医学院埃曼努尔 · 米诺特 （ Emmanu el Migno t ） 和筑波大学柳泽正史 （ Masashi…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜李珊珊、周奕彤、叶晴朗 ‍ ● ● ● 9 月 9 日，被誉为诺贝尔奖 “ 风向标 ” 的生…",
+        "屠呦呦2011年获得拉斯克临床医学研究奖，这是拉斯克奖首次颁予中国科学家。四年后，她赢得诺奖。2022年，来自香港中文大学的卢煜明，也获得了拉斯克临床医学研究奖",
+        "已有 81 年历史 的拉斯克 奖空缺了 医学科学特别成就奖，获奖奖项是 基础医学研究奖、临床医学研究奖、公共服务奖"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "为什么有些独生子女，找对象也要找独生子女？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E4%BA%9B%E7%8B%AC%E7%94%9F%E5%AD%90%E5%A5%B3%EF%BC%8C%E6%89%BE%E5%AF%B9%E8%B1%A1%E4%B9%9F%E8%A6%81%E6%89%BE%E7%8B%AC%E7%94%9F%E5%AD%90%E5%A5%B3%EF%BC%9F++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Thu, 10 Sep 2026 11:55:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "undivided",
+        "burden",
+        "is",
+        "bear",
+        "by"
+      ],
+      "summary": "本文选自经济学人中国版块 Sep 9th 2026 https://www.economist.com/china/2026/09/09/only-children-in-china-prefer-to-marry-other-only-children 相亲时，除了房子、收入，有人还会问一句：你有兄弟姐妹吗？ 《经济学人》采访了一位28岁的山西女性。她期待婚姻带来的陪伴，却坚持未来丈夫也必须是独生子女。在她看来，父亲一直接济兄弟，却忽略了母亲。她不想在自己的婚姻里重演这样的关系。文章引述的一项工作论文发现：控制教…",
+      "key_points": [
+        "《经济学人》采访了一位28岁的山西女性。她期待婚姻带来的陪伴，却坚持未来丈夫也必须是独生子女。在她看来，父亲一直接济兄弟，却忽略了母亲。她不想在自己的婚姻里重演…",
+        "本文选自经济学人中国版块 Sep 9th 2026 https://www.economist.com/china/2026/09/09/only-childr…",
+        "再看“有没有兄弟姐妹”，就多了一层顾虑：一个人能带来多少家庭资源，又要承担多少家庭责任？但家庭结构并不能替我们判断一个人。独生子女未必能处理好与父母的边界，有兄…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "空间智能的赛道，高德没有对手",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BD%E7%9A%84%E8%B5%9B%E9%81%93%EF%BC%8C%E9%AB%98%E5%BE%B7%E6%B2%A1%E6%9C%89%E5%AF%B9%E6%89%8B",
+      "published": "Thu, 10 Sep 2026 14:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "ABot-Earth",
+        "Atlas",
+        "Coding",
+        "Earth",
+        "Genie"
+      ],
+      "summary": "文 ｜ 阑夕 高德没有按常理出牌。 扫街榜上线之初，大家都以为这是一个切入点评市场的产品。 如果只看第一年的动作，确实没毛病，扫街榜上线一年累计用户超过8.8亿，证明了这款产品的市场规模。 但在今天之后，对于高德的所有判断和预期，可能都要做出新的修正了。 或者说，得要避免「只见树木，不见森林」的误区。 而且如果只认得出标题——「扫街榜全面AI化」——也不足以完成修正，毕竟在这年头，不蹭AI的公司和产品才是少见的。 不要看一个人说了什么，要看他做了什么。 扫街榜是一片商业飞轮，空间智能则是高德早已转动的技术飞轮。这次…",
+      "key_points": [
+        "到导航，再到空间智能，高德的赛道一直在升级，唯独不变的，是把城市、街区、车流乃至草木都还原到手机上",
+        "能够得益于空间智能的能力加持，变得更加易用，由此提升高德整体的用户活跃和口碑品质，这些回报，都将传递到后端的技术，成为必有回响的正反馈",
+        "扫街榜的产品体验提升，就高度依托于空间智能的投产，里面的很多烟火小店，都藏在复杂小巷子里，不像商圈那么好找，而飞行街景的升级，就能让用户提前「踩点」，眼见为实的…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "《Agent 评测白皮书》系列01：Agent 评测全览",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html",
+      "published": null,
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent"
+      ],
+      "summary": "我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。",
+      "key_points": [
+        "我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一…"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "platform": "ezindie",
+      "source": "ezindie",
+      "source_url": "https://www.ezindie.com/feed/rss.xml",
+      "title": "独立开发变现周刊（第156期） : 单渠道突破法实现400万美元年收",
+      "title_zh": null,
+      "url": "https://www.ezindie.com/weekly/issue-156",
+      "published": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "分享独立开发产品变现相关有价值的内容，每周五发布。单渠道突破法实现400万美元年收",
+      "key_points": [
+        "每周五发布。单渠道突破法实现400万美元年收"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-11",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "熊猫吃竹子是刻在基因中的习性吗？可以通过从小喂养其他食物改变吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792363",
+      "published": "Sat, 05 Sep 2026 23:01:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "T1R1",
+        "L-",
+        "T1R3",
+        "T1R2",
+        "Agriarctos",
+        "Ailurarctos"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 现在很多人容易陷入一个误区，以为大熊猫濒危，是因为它们吃竹子。 是进化得不成功。 恰恰相反，它们进化得很成功。 没有竹子，就没有大熊猫。 我们先来看看，大熊猫食性的演化过程。 大熊猫位于熊科（Ursidae）基干，祖先比其它熊亚科（Ursinae）成员更加的古老。 早期熊科动物主要是杂食性的。 杂食性就意味着，同时存在肉食和植食偏好。 通常来说，哺乳动物的肉食偏好由鲜味受体（T1R1+T1R3）决定，作用于 L- 谷氨酸为代表的 L- 氨基酸 [1] [2] 。 T1R…",
+      "key_points": [
+        "嫩竹笋、竹芽是竹子中含糖量最高的部分之一，对甜味敏感，是大熊猫喜欢吃竹笋及圈养大熊猫喜欢吃水果点心的重要原因",
+        "先让一部分知识有趣起来 现在很多人容易陷入一个误区，以为大熊猫濒危，是因为它们吃竹子",
+        "大熊猫的濒危完全不是因为吃竹子"
+      ]
+    }
+  ]
+}
