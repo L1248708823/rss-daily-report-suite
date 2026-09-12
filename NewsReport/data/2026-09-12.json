@@ -1,0 +1,757 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T01:00:11.220023+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 100,
+    "fresh_candidates": 64,
+    "backfill_candidates": 36,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-12",
+      "fetched_at": "2026-09-12T01:00:05.898995+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3888.11,
+          "change": -46.29,
+          "change_pct": -1.18,
+          "volume": 579123145.0,
+          "amount": 95818634.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4348.35,
+          "change": 31.75,
+          "change_pct": 0.74,
+          "prev_close": 4316.6,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-12 04:54:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 937.656001736139,
+          "change": 6.846407960518945,
+          "change_pct": 0.7355325950979973,
+          "prev_close": 930.8095937756201,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-12 04:54:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-12",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "做投资，最好在“能知道”的事情上下注",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%81%9A%E6%8A%95%E8%B5%84%EF%BC%8C%E6%9C%80%E5%A5%BD%E5%9C%A8%E2%80%9C%E8%83%BD%E7%9F%A5%E9%81%93%E2%80%9D%E7%9A%84%E4%BA%8B%E6%83%85%E4%B8%8A%E4%B8%8B%E6%B3%A8",
+      "published": "Fri, 11 Sep 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：做配置的小雪 每个投资人应该都听过这句话： 投资是认知的变现。 什么是认知？ 有人认为是抢先一步的小道消息。但是消息真假难辨，不对称的信息，反而会招致亏损，而且没有人能永远站在信息链顶端，持续赚钱。 有人认为是严密的逻辑推演。看历史，因果分明，逻辑清晰，但看向未来，却会面临无数不确定性因素，即使逻辑再严丝合缝，市场也不一定按我们的想法演绎。 很多人投资亏钱，感到痛苦，往往就是因为把投资决策，建立在这些很难解释的清楚的事情上。…",
+      "key_points": [
+        "做好投资，根本不需要我们掌握多么高深的秘籍，只需要诚实地分清“我们能知道的事”和“我们不可能知道的事”，并立足于那些 不变的规律，就能从容应对万变的市场",
+        "感到痛苦，往往就是因为把投资决策，建立在这些很难解释的清楚的事情上",
+        "能知道的：优质资产长期都是上涨的 无法知道的：短期是涨还是跌 市场的短期走势，取决于全球数亿交易员的即时情绪，而情绪又受很多因素影响：宏观经济、突发事件、产业进…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从Muse看AI应用与软件的未来",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5332385101/408871365",
+      "published": "Fri, 11 Sep 2026 10:12:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Muse",
+        "Agent",
+        "AI",
+        "Meta",
+        "SaaS",
+        "Sentinel"
+      ],
+      "summary": "昨晚美PPI数据公布，8月PPI同比上涨5.4%，高于市场预期的5.3%，较前值4.7%明显提速，这也意味着更高的加息概率。受此影响美股科技承压，海力士、美光均跌约5%，闪迪跌约4%；光通信方面，Lumentum、Coherent分别跌超5%和3%。 近日Meta推出个人AI助手Muse，App下载排名迅速攀升至第四；市场反响也不错，发布后Meta涨超6.5%。从Muse简单谈谈Agent和软件的未来。 一、Muse有何不同 首先，Muse有何不同？传统对话式AI大多是 “无状态” 的——用户输入指令，模型输出结果…",
+      "key_points": [
+        "App下载排名迅速攀升至第四；市场反响也不错，发布后Meta涨超6.5%。从Muse简单谈谈Agent和软件的未来",
+        "软件的价值判断正从用户打开频率变为，是否处于企业任务执行链条的关键位置。这也构成了软件价值链的四层结构： 数据控制层： 大模型决定推理能力，但数据平台决定Age…",
+        "掌握核心业务数据、深度嵌入企业流程的 平台型软件 ，将成为Agent执行任务的基础底座。未来软件价值不再单纯看席位订阅，而是看Agent调用量、任务执行量、以及…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "9.11 光通信行业更新",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8141527616/408873354",
+      "published": "Fri, 11 Sep 2026 10:12:09 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPO",
+        "NPO",
+        "OCS",
+        "AI",
+        "scale",
+        "CSP"
+      ],
+      "summary": "这段时间参加了xys临时股东会和CIOE的会展，然后也非常感谢 @四不先生深圳 在会展期间组织的交流饭局，认识了许多业绩和投资水平都非常厉害的老师，学到了许多珍贵的投资理念。 今天刚好有时间就总结更新一下行业最近的进展。 一、二哥临时股东会 1. 扩产持续推进 公司目前在成都新租的几万平米的厂房已经开始投产，同时公司也在推进成都3厂和泰国3厂的的进度，预计明年投产。 2. 与上游客户锁定关键物料 公司强调对于一些关键物料的锁定是需要终端客户去支撑和协调的，终端客户对这些关键物料的分配起到比较重要的作用，公司在未来备…",
+      "key_points": [
+        "今天刚好有时间就总结更新一下行业最近的进展",
+        "A: 国内光模块厂商的优势主要体现在四个方面：第一是制造端优势，制造效率、工时、反应速度、良率都大幅优于美国厂商，同等时间内可以生产更多产品，良品率更高；第二是…",
+        "A: 当前市场对光模块行业和公司主要存在两大误解：第一个误解是认为光模块是没有技术含量的组装行业，实际上组装只是光模块生产的其中一道后道工序，前置的SMT 工艺…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "2026年9月 ENSO 月报：极强厄尔尼诺预警",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7163180119/408862802",
+      "published": "Fri, 11 Sep 2026 10:12:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ENSO",
+        "Ni",
+        "CPC",
+        "event",
+        "forcode",
+        "http"
+      ],
+      "summary": "雪球貌似只有我做这么完整的ENSO跟踪和分享，求个点赞和转发。 写在前面，由于ENSO循环的演变和影响因子非常复杂，且对于不同农作物的产量和价格的影响也并非直接的线性关系，这种长周期月报不能直接用于买卖点参考，请大家在农产品股票和期货的投资中充分提高警惕，注意风险。 说明：7月份就开始分享ENSO的数据了，那个时候中粮糖业11块……个人持有白糖相关标的，成本很低，请勿追高。 $中粮糖业(SH600737)$ $*ST广糖(SZ000911)$ $万向德农(SH600371)$ 白糖的历史牛市和走势分析有专门的文章，…",
+      "key_points": [
+        "气候预测中心（CPC）的官方 ENSO 展望综合了来自北美及海外的多个模型，预测厄尔尼诺将继续增强并持续至今年年底 [图6-7-8]。在2026年10月至12月…",
+        "网页链接 概要： 厄尔尼诺正在持续增强，在2026-2027年北半球秋冬季节出现极强事件（very strong event）的可能性超过90%",
+        "厄尔尼诺进一步增强，赤道东太平洋的海面温度异常超过了 +3.0°C [图1]。除了 Niño-4 指数在8月降至 +0.1°C 外，其他 Niño 指数的值均有…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "A股地量出现，要变盘了吗？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/408862077",
+      "published": "Fri, 11 Sep 2026 10:11:54 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "昨天，在海外风险偏好降低的影响下，A股成交额萎缩到了 1.6万亿。 老读者应该知道，我在7月的时候，就跟大家分享过，接下来A股会持续缩量，直到缩至地量水平。 而且也大概估算了地量在1.6万亿左右。 在A股达到地量之后，变盘是不是要来了呢？ 一、降波还不够 当时我跟大家分享了三个现象。 第一，是缩量； 第二，是降波； 第三，是降集中度。 现在日成交额萎缩到地量了，但不大可能V型反转。 更大的可能是继续震荡洗筹码。 接下来，还要等到周成交额缩至地量水平！这就更能反映出筹码换手比较充分了。 此外，现在的 波动率还不够低。…",
+      "key_points": [
+        "我在7月的时候，就跟大家分享过，接下来A股会持续缩量，直到缩至地量水平",
+        "对于我个人而言，我手里有3成的债券仓位，这是用来应对可能出现的下跌",
+        "还要等到周成交额缩至地量水平！这就更能反映出筹码换手比较充分了"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "新Siri终于开始理解用户“个人上下文”了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462666.html",
+      "published": "Fri, 11 Sep 2026 08:43:16 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Siri",
+        "AI",
+        "iPhone",
+        "Apple",
+        "Intelligence",
+        "App"
+      ],
+      "summary": "Apple 给 Siri 补上了'个人上下文'能力：它能串联你常用的 App、联系人、行程与对话习惯，把零散信息拼成可用的助手记忆。实现思路借了多 Agent 协作——让感知、推理、执行分工处理。 北京时间9月10日凌晨1点，加州库比蒂诺还是上午10点，苹果一年一度的秋季发布会在Apple Park拉开帷幕。 熟悉的库克这次只在开头短暂露面，随后便把舞台交给了约翰·特努斯。这是特努斯接任苹果CEO之后的首场秋季发布会，也是他真正意义上的一次“首秀”。 这场首秀里，激进和稳扎稳打同时出现。硬件上，苹果拿出了等待多年的…",
+      "key_points": [
+        "Siri AI则成为用户调用这些能力最直接的入口之一，可以理解个人上下文、看懂屏幕内容，再根据用户的要求继续完成操作",
+        "Siri第一次真正拥有了对用户“个人上下文”的理解",
+        "个人上下文、屏幕理解、联网回答、跨App操作、相机里的视觉理解，包括独立Siri App，苹果在6月8日的WWDC上就已经完整公布。当时苹果已经把Siri AI…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "“美国版豆包”又更新了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6463492.html",
+      "published": "Fri, 11 Sep 2026 08:08:47 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Gemini",
+        "Google",
+        "Antigravity",
+        "AI",
+        "Agent",
+        "App"
+      ],
+      "summary": "最近，那个经常被国内网友调侃成“美国版豆包”的 Gemini，终于把 Windows 客户端端上来了。 Google现在已经正式上线Gemini Desktop，Windows和macOS都可以下载安装。Windows用户按下 Alt + Space，就能在任何界面直接唤起Gemini，不用再专门打开浏览器；它还能连接Gmail、Google Drive、Docs和Calendar，把邮件、文档和日程直接拉进当前工作流。Gemini Spark也已经进入桌面端，可以处理多步骤的研究、规划和信息整理任务。 Mac版目…",
+      "key_points": [
+        "那个经常被国内网友调侃成“美国版豆包”的 Gemini，终于把 Windows 客户端端上来了",
+        "“美国版豆包”Gemini也正式杀进Windows了",
+        "Codex有自己单独的桌面App。但今年OpenAI已经把它们收进了新的ChatGPT Desktop：用户更新原来的Codex App之后，它会直接变成新的C…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Codex，差点把我搞疯！！！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462266.html",
+      "published": "Fri, 11 Sep 2026 07:55:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Codex",
+        "token",
+        "codex",
+        "docker",
+        "linux",
+        "Windows"
+      ],
+      "summary": "Codex 6.0 的编码能力虽强，但产品上线时被资源消耗、Docker 打包和部署耗时折腾得够呛。从 5.6 切换到 6.0 后，排查一次问题就能吃掉 5 小时额度，Windows 本地开发到 Linux 云端部署更是频频踩坑。 Codex编码能力是一绝，根本没啥问题，但是在我最近产品上线的过程中，Codex的问题频出，让我应接不暇。 不知道你有没有同款问题。 第一：资源消耗问题 最近我把codex的模型，从5.6切换到了6.0，不得不说，6.0之后的模型消耗资源的速度实在是太快了。 它排查一个问题，基本上就能把…",
+      "key_points": [
+        "你目前有没有被Codex，部署到线上搞疯"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "模型发布比快递还快，AI产品经理该怎么选",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6462785.html",
+      "published": "Fri, 11 Sep 2026 07:49:01 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "API",
+        "Meta",
+        "Anthropic",
+        "Astra"
+      ],
+      "summary": "针对四家厂商四天内接连更新旗舰模型带来的选型压力，给出四点建议：场景匹配度优先于排行榜名次、建立自己的内部评估基准、按总拥有成本而不是 API 单价算账、把安全与合规放在接入之前完成。 9 月初 AI 行业迎来一轮密集迭代。9 月 1–3 日，Anthropic、Google、Meta、OpenAI 四大厂商接连推出新一代旗舰大模型，形成一轮短期 “模型军备竞赛”；Meta Muse Spark 1.3 性能跻身第一梯队，但并未登顶全球榜单。 9 月 1 日：Anthropic 发布 Claude Fable 5.…",
+      "key_points": [
+        "这种疲惫感不是个案。行业内已经有一个新词来形容它—— “模型疲劳” 。作为AI产品经理，我们既不能像技术媒体那样追每一个热点，也不能像业务方那样完全依赖供应商推…",
+        "但产品经理的工作不是冲浪，而是造船。与其被每一波新模型的发布打乱节奏，不如沉下心来，把 选型标准、评估体系、成本模型、安全框架 这四根支柱搭结实",
+        "本文由人人都是产品经理作者【AI 产品经理的逻辑与审美】，微信公众号：【AI 产品经理的逻辑与审美】，原创/授权 发布于人人都是产品经理，未经许可，禁止转载 题…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "具身智能，关联交易虚火",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/embodied/6463440.html",
+      "published": "Fri, 11 Sep 2026 07:22:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "IPO",
+        "AI",
+        "it",
+        "PMF",
+        "CEO",
+        "even"
+      ],
+      "summary": "具身智能赛道融资半年破千亿，却催生「攒局型创业」乱象：数采中心、关联交易虚增收入，百亿估值背后真实付费客户寥寥。本文深度拆解「异标的闭环」如何撑起IPO泡沫，揭示资本、地方与创业者三方共谋的行业虚火，并探讨去伪存真后的产业未来。 2026年9月，梅卡曼德创始人邵天兰连发两条朋友圈，捅破了业内心照不宣的窗户纸，把当前赛道里的一种流行玩法称为「攒局型创业」——套路就是靠「数采中心」、「租赁公司」这类关联交易做出虚假的、不可持续的、没有PMF的收入，靠发布「大新闻」炒作，并绑架地方支持，快速冲上市，fake it til…",
+      "key_points": [
+        "有家与时俱进的零售巨头希望找具身产业开发一款收拾门店的机器人，但问遍了行业，几乎没有一家接单，这家零售巨头就有员工很纳闷：「我们好歹也是个产业明星，我们愿意掏钱…",
+        "却催生「攒局型创业」乱象：数采中心、关联交易虚增收入，百亿估值背后真实付费客户寥寥。本文深度拆解「异标的闭环」如何撑起IPO泡沫，揭示资本、地方与创业者三方共谋…",
+        "01 狂欢与虚火 根据36氪《深氪 | 千亿IPO，宇树站在山尖上》文披露的数据，2026年上半年中国具身智能融资总金额接近1000亿，一年内迅速提升了五倍。在…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一泡古人的屎，凭什么成了无价之宝？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E6%B3%A1%E5%8F%A4%E4%BA%BA%E7%9A%84%E5%B1%8E%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E6%88%90%E4%BA%86%E6%97%A0%E4%BB%B7%E4%B9%8B%E5%AE%9D%EF%BC%9F",
+      "published": "Fri, 11 Sep 2026 18:07:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "ICU"
+      ],
+      "summary": "古人用棍子擦屁股（如果他们还擦的话），棍子是重要的物证，古人的食物组成、有没有受到寄生虫侵扰、寄生虫又是从哪里传播过来的，都可能从中推测出来，一根棍子让我们跟几千几万年前的人类对上了话。 在科普作家河森堡看来： \"你就是一泡屎，那都是无价之宝。\" 理科出身讲国宝 河森堡大学读的是计算机，快毕业了看到国博来校招，就上去笔试、面试，几轮下来，竟然过关斩将成了一名讲解员。刚当上讲解员，人人都害怕年底的考试，因为机制就是随机抽签，抽到什么时代什么文物，都要讲下来。例如，你可能抽中一块远古时期的石头…… 唐宋元明清有的是故事…",
+      "key_points": [
+        "在科普作家河森堡看来： \"你就是一泡屎，那都是无价之宝。\" 理科出身讲国宝 河森堡大学读的是计算机，快毕业了看到国博来校招，就上去笔试、面试，几轮下来，竟然过关…",
+        "棍子是重要的物证，古人的食物组成、有没有受到寄生虫侵扰、寄生虫又是从哪里传播过来的，都可能从中推测出来，一根棍子让我们跟几千几万年前的人类对上了话"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "美国太空司令部完成首次实飞太空演习；OpenAI因Astra需求暂停部分新订阅；宇树科技开源60亿参数具身基座模型",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%BE%8E%E5%9B%BD%E5%A4%AA%E7%A9%BA%E5%8F%B8%E4%BB%A4%E9%83%A8%E5%AE%8C%E6%88%90%E9%A6%96%E6%AC%A1%E5%AE%9E%E9%A3%9E%E5%A4%AA%E7%A9%BA%E6%BC%94%E4%B9%A0%EF%BC%9BOpenAI%E5%9B%A0Astra%E9%9C%80%E6%B1%82%E6%9A%82%E5%81%9C%E9%83%A8%E5%88%86%E6%96%B0%E8%AE%A2%E9%98%85%EF%BC%9B%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%BC%80%E6%BA%9060%E4%BA%BF%E5%8F%82%E6%95%B0%E5%85%B7%E8%BA%AB%E5%9F%BA%E5%BA%A7%E6%A8%A1%E5%9E%8B",
+      "published": "Fri, 11 Sep 2026 18:07:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PD-L2",
+        "OpenAI",
+        "Astra",
+        "Pro",
+        "API",
+        "box"
+      ],
+      "summary": "今天是9月11日，星期五。1952年的今天，查尔斯·赫夫纳格尔医生首次成功为患者植入有机玻璃管制成的人工主动脉瓣，成功恢复了患者心脏血液动力学功能，开创了心脏瓣膜置换手术先河。 重点新闻速览 1.美国太空司令部完成首次实飞太空演习 2.OpenAI因Astra需求暂停部分新订阅 3.宇树科技开源60亿参数具身基座模型 4.西湖大学首次公布小鼠Y染色体完整序列 5.“可食用课本”糯米纸零食存在风险 科技 美国太空司令部完成首次实飞太空演习 美国太空司令部近日宣布，代号“2026阿波罗机动”的首次太空实飞演习已于9月第…",
+      "key_points": [
+        "重点新闻速览 1.美国太空司令部完成首次实飞太空演习 2.OpenAI因Astra需求暂停部分新订阅 3.宇树科技开源60亿参数具身基座模型 4.西湖大学首次公…",
+        "此次演习还整合了参与“奥林匹克捍卫者”行动的7国部队：美国、英国、加拿大、澳大利亚、法国、德国和新西兰。演习还有商业航天力量加入，设立“商业集成单元”将私营企业…",
+        "小鼠Y染色体超90%序列由高度重复单元构成，传统测序技术难以解析。团队整合PacBio HiFi、Oxford Nanopore超长读长等多技术完成组装。研究发…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "164:1，整个地球，只有美国反对",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+164%3A1%EF%BC%8C%E6%95%B4%E4%B8%AA%E5%9C%B0%E7%90%83%EF%BC%8C%E5%8F%AA%E6%9C%89%E7%BE%8E%E5%9B%BD%E5%8F%8D%E5%AF%B9",
+      "published": "Fri, 11 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "km",
+        "ID",
+        "SouthReviews",
+        "DEI",
+        "Earth",
+        "Equal"
+      ],
+      "summary": "本文授权转载自“南风窗”，点击上方关注。 ID：SouthReviews 作者：苏打 编辑：向现 最近，我们可能要重新认识世界地图。 央视新闻报道，当地时间2026年9月4日，联合国大会以164票赞成、1票反对、6票弃权的结果，通过一项由西非国家多哥牵头、非盟支持的非约束性决议，鼓励各国政府、学校、科技公司、媒体和国际组织在公共展示、教学、新闻配图等场景，更多采用2018年问世的平等地图（Equal Earth），替代已经沿用457年的墨卡托投影世界地图。 新旧地图的主要区别是，新地图更强调面积真实，旧地图更强调方…",
+      "key_points": [
+        "墨卡托投影法绘制的地图（左）和“平等地球投影法”绘制的地图（右）对比 1963年时，美国地理学家罗宾逊也有一版折中方案。不追求面积绝对准确，也不追求角度绝对准确…",
+        "法国等联署。美国投下了唯一的反对票，理由是，“联合国不该在现实问题之外去纠缠16世纪的制图传统。” 多哥外长迪塞在联合国大会上发言时则说：“一张公正的地图并不会…",
+        "美国是决议中投下唯一一张反对票的国家丨联合国 特朗普第二任政府的世界观，与联合国以及全球南方近年来越来越流行的“去殖民化”话语冲突明显"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "下雨天不想穿雨鞋，那还能穿什么鞋防雨水?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8B%E9%9B%A8%E5%A4%A9%E4%B8%8D%E6%83%B3%E7%A9%BF%E9%9B%A8%E9%9E%8B%EF%BC%8C%E9%82%A3%E8%BF%98%E8%83%BD%E7%A9%BF%E4%BB%80%E4%B9%88%E9%9E%8B%E9%98%B2%E9%9B%A8%E6%B0%B4%3F",
+      "published": "Fri, 11 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "VOBO",
+        "cm",
+        "b9M9JQlMSDhMq6fiTviGg",
+        "dc_ps",
+        "detail",
+        "EB"
+      ],
+      "summary": "一、三、五，小雨！二、四、六，中雨！隔三差五的还得来场暴雨！ 今年入秋之后的雨，着实有点不讲道理！ @微博 | 截图日期：2026.9.8 有人跟我一讨厌下雨的么？ 一直下不停的雨意味着， 只要一出门，被浸湿的鞋袜就会像块湿泥巴一样糊在脚底板上， 粘腻阴冷的脚感能 把人一步步推向崩溃的边缘。 新鞋子在这种鬼天气是肯定穿不出门了，旧鞋也不顶了事，走路遇到水坑，或者走在路边， 一辆车溅起大大的水花——简直灾难！ 明明只是上下班上下学通勤，不管什么鞋，都能被毁得不行！ 更 别说，如果脚部长时间被雨水浸湿，没有及时 擦干…",
+      "key_points": [
+        "雨水还进不来， 春天不闷，夏天不热，秋天不潮，冬天不冻脚， 是真正能穿一整年的四季运动鞋",
+        "👇🏻 戳下图购买👇🏻 它不是“雨天专用” 是日常生活场景的全能鞋履 它不是笨重的雨鞋，也不是只能用来运动的跑鞋，它是一双能适配你生活里大多数场景的鞋",
+        "家里鞋柜摆了十几双，下雨天找不到一双能放心穿的，出门走两步就开始心疼鞋， 其实日常穿鞋，根本不需要那么多“限定”"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "哈内克：我不是悲观主义者",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%93%88%E5%86%85%E5%85%8B%EF%BC%9A%E6%88%91%E4%B8%8D%E6%98%AF%E6%82%B2%E8%A7%82%E4%B8%BB%E4%B9%89%E8%80%85",
+      "published": "Fri, 11 Sep 2026 19:49:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Damon",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "qq.com",
+        "Reverse"
+      ],
+      "summary": "作者：Damon Smith 译者：Issac 校对：易二三 来源：Reverse Shot（2010年1月4日） 记者：《白丝带》也 许是你第一 次使用社区的概念的影片。 哈内克：你是说，社会？ 《白丝带》（2009） 记者：就是给我们描绘了一群人的形象，而不是只关注一个家庭单位，你之前的作品都是在强调后者。 哈内克：我认为在我早期的电影中，比如《机遇编年史的71块碎片》和《巴黎浮世绘》，我呈现的是社会的剖面，所以这对我来说并不是完全陌生的领域。 记者：你是说你对探索私人问题更感兴趣，而不是困扰社会的更大的历史和…",
+      "key_points": [
+        "哈内克：我知道我经常被归为悲观主义者。当我主修哲学的时候，我读过叔本华的作品，但这并不是我真正看待自己的方式。首先，问题是你如何定义悲观主义者。我如何定义自己？…",
+        "哈内克：我不是哲学家。戏剧总是处理善恶的冲突，这部电影也不例外。我真的不知道如何回答这个问题",
+        "哈内克：我不确定我同意这种分类。我认为在每一部电影中，我都在处理社会元素。问题是，你是更准确地关注个人，还是家庭，又或是更广泛的社会。不管怎样，你还是要面对同样…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "戛纳之后，Osmo Pocket 4P又来威尼斯电影节交作业了，部部惊艳！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%88%9B%E7%BA%B3%E4%B9%8B%E5%90%8E%EF%BC%8COsmo+Pocket+4P%E5%8F%88%E6%9D%A5%E5%A8%81%E5%B0%BC%E6%96%AF%E7%94%B5%E5%BD%B1%E8%8A%82%E4%BA%A4%E4%BD%9C%E4%B8%9A%E4%BA%86%EF%BC%8C%E9%83%A8%E9%83%A8%E6%83%8A%E8%89%B3%EF%BC%81",
+      "published": "Fri, 11 Sep 2026 19:49:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Osmo",
+        "Pocket",
+        "D-Log",
+        "Ronin",
+        "Vignet",
+        "VPB"
+      ],
+      "summary": "文 Nose 刚刚过去的9月7日，威尼斯国际电影节期间，大疆举办的一场「光影新浪潮」影像交流会，将专业电影圈内的众多目光汇聚于此。 正处于激烈变化中的电影产业，或许能从这场论坛热议的话题中，找到某些问题的答案。 这场论坛是VPB行业论坛的官方议程之一。业内人士知道，VPB是威尼斯对标戛纳电影市场的一个板块，相比戛纳电影市场的重心是交易，VPB更侧重于对前沿制作的关注。 可以这么理解，这里探讨的是未来五到十年内，可能改变电影生产的技术和观念。业内无人不关注，电影还能怎么拍？ 比如说今年的官方议程里，就有多家世界顶级影…",
+      "key_points": [
+        "另一位知名摄影指导Cristiano Di Nicola 的出发点很能代表当代剧情片创作的视角，他掌镜的作品入围了本届威尼斯电影节主竞赛单元。面对 Osmo P…",
+        "这场论坛是VPB行业论坛的官方议程之一。业内人士知道，VPB是威尼斯对标戛纳电影市场的一个板块，相比戛纳电影市场的重心是交易，VPB更侧重于对前沿制作的关注",
+        "威尼斯国际电影节期间，大疆举办的一场「光影新浪潮」影像交流会，将专业电影圈内的众多目光汇聚于此"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "科考旅行 | 伊比利亚半岛文化地理考察报名",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E7%A7%91%E8%80%83%E6%97%85%E8%A1%8C+%7C+%E4%BC%8A%E6%AF%94%E5%88%A9%E4%BA%9A%E5%8D%8A%E5%B2%9B%E6%96%87%E5%8C%96%E5%9C%B0%E7%90%86%E8%80%83%E5%AF%9F%E6%8A%A5%E5%90%8D",
+      "published": "Fri, 11 Sep 2026 17:40:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Al-Andalus",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "summary": "▲点击上方海报即可报名 Iberian Peninsula 西班牙 葡萄牙 为什么伊比利亚 成为了文明相遇的地方 塞维利亚西班牙广场 从高原到大洋 一场穿越西班牙与葡萄牙的文明漫游 伊比利亚半岛，位于欧洲大陆的西南角，这是一块被地中海与大西洋“夹击”的三角形土地。它北以比利牛斯山脉与法国为界，南隔直布罗陀海峡与非洲对望——这是一个被水包围、被山锁住的半岛，天然地站在“尽头”的位置上。 但正是这片“尽头”，却成了人类历史上文明相遇最密集的地方之一。 打开伊比利亚半岛的地形图，我们会看到一块巨大的高地占据了半岛的大半壁…",
+      "key_points": [
+        "跟着中国国家地理科考旅行 “文明交响” 系列考察，从地中海到大西洋，再回到高原之心，我们将陪你一起，把伊比利亚半岛的文明层理一页页翻开",
+        "▲点击上方海报即可报名 Iberian Peninsula 西班牙 葡萄牙 为什么伊比利亚 成为了文明相遇的地方 塞维利亚西班牙广场 从高原到大洋 一场穿越西班…",
+        "西班牙传统舞蹈弗拉门戈 塞维利亚斗牛广场 从塞维利亚向东，是格拉纳达。阿尔罕布拉宫坐落在内华达山的山麓上，阿拉伯语意为“红堡”。1984年，它被列入世界文化遗产…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "中年翻种子",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%B8%AD%E5%B9%B4%E7%BF%BB%E7%A7%8D%E5%AD%90",
+      "published": "Fri, 11 Sep 2026 11:32:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "有读者问我：「叔，你到了这个年纪还会有焦虑和烦心事吗？」 首先，这个问题就很讨打，如果不是问我，如果不是问现在刚好德艺双馨的我，多半会遭到白眼：什么年纪？什么叫「到了这个年纪」？那你觉得我是有多老？ 大家应该都能理解这种心态，绝大多数人都厌恶衰老，热爱青春，因为我们都是生命。所以，面对衰老这种问题，面对自己青春不再的现状，人就会觉得不安，就要想逃避。于是，就会把对于衰老的恐惧用力压在心底，埋上很多土，再搬来很多石板镇上。 这种恐惧不能浮出心头，暂时被压制，被回避，被遮掩，被刻意遗忘，就会慢慢收缩，变成一颗很小的种子…",
+      "key_points": [
+        "无论正反都要翻种子，中年人很难逃脱。那种「等我成熟一些，等我年长一些，所有负面情绪就会消失」的念头，是一种可爱的天真。而对于一个中年人而言，那种「翻过这一次就彻…",
+        "让种子完全消失的方法或者告诉你一个最终停止的时间点，抱歉，我也没有。中年就一点好，那就是迟早会明白答案并不会以自己期待的方式，成功解决自己的问题。虽然这个答案不…",
+        "青年人和中年人比较，谁的种子池更容易翻腾？谁的种子更容易从休眠中复苏？谁更容易突然之间被爆发而起的负面情绪所笼罩？保守的说法是不一定，青年人种子少但是激素高、欲…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他花了十几年，做“救命药”，碱基编辑技术也做到了世界前沿",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E8%8A%B1%E4%BA%86%E5%8D%81%E5%87%A0%E5%B9%B4%EF%BC%8C%E5%81%9A%E2%80%9C%E6%95%91%E5%91%BD%E8%8D%AF%E2%80%9D%EF%BC%8C%E7%A2%B1%E5%9F%BA%E7%BC%96%E8%BE%91%E6%8A%80%E6%9C%AF%E4%B9%9F%E5%81%9A%E5%88%B0%E4%BA%86%E4%B8%96%E7%95%8C%E5%89%8D%E6%B2%BF",
+      "published": "Fri, 11 Sep 2026 08:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Cell",
+        "al.",
+        "DNA",
+        "et",
+        "Nature",
+        "tBE"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 陈佳在上海科技大学2025年毕业典礼致辞。图源：上海科技大学 撰文｜李珊珊 ‍ ● ● ● 不同国家的患者，来到上海寻找希望。 他们 冲着 一款基于中国原创碱基编辑技术研发的新 药 “ CS-101注射液 ” 而来。 据介绍，到2026年8月底，CS-101注射液已治疗30余位海内外β-地中海贫血患者，近20位患者持续摆脱输血依赖超过一年。其中，随访时间最长的患者，已有近三年没有再输过一次血。这也是全球在研碱基编辑药物中随访时间最长的一组临床数据。 9月…",
+      "key_points": [
+        "[3] 变形式碱基编辑器tBE。来源：Han et al., Nature Protocols, 2023 [4] 锁与钥匙联动的精妙结构，让这个新型的碱基编辑…",
+        "他想把技术直接转让给大药厂，省得自己花费精力去创业。但学校帮忙联系了国内外多家药企，得到的回复几乎是同一个模板： “ 陈教授，你这个碱基编辑技术太新了，我们没听…",
+        "他们 冲着 一款基于中国原创碱基编辑技术研发的新 药 “ CS-101注射液 ” 而来"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "给自己一年时间，慢慢读懂《经济学人》",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BB%99%E8%87%AA%E5%B7%B1%E4%B8%80%E5%B9%B4%E6%97%B6%E9%97%B4%EF%BC%8C%E6%85%A2%E6%85%A2%E8%AF%BB%E6%87%82%E3%80%8A%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%E3%80%8B",
+      "published": "Fri, 11 Sep 2026 19:07:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Brief",
+        "DAY",
+        "in",
+        "World",
+        "MP3",
+        "PDF"
+      ],
+      "summary": "知行者联盟 READ THE WORLD, DAY BY DAY 工作很忙，学习很累，但是每天想读点英语，又不太想给自己找一份“大作业”。 这种时候最容易发生的事是：打开网盘翻了半天，不知道读哪篇；好不容易选中一篇，又要去找译文和音频。折腾二十分钟，困意上来了，最后什么也没读。 我们做“知行者联盟 · 365 天外刊阅读会员中心”，最想省下来的，就是开始阅读之前的这段折腾。 每天打开，内容已经替你准备好 会员中心每天更新两类内容：一篇值得细读的《经济学人》文章，以及一份 The World in Brief 全球早…",
+      "key_points": [
+        "知行者联盟 · 365 天外刊阅读会员中心 599 元／年 每日《经济学人》双语精读 + World in Brief 全球早报 原文、译文、音频、PDF、MP…",
+        "音频、PDF 和 MP3 都在当天文章页面里 一篇《经济学人》，可以这样读 先听一遍音频，不必句句听懂，先抓文章在谈什么、作者是什么态度。听完往下，是背景导读",
+        "内容已经替你准备好 会员中心每天更新两类内容：一篇值得细读的《经济学人》文章，以及一份 The World in Brief 全球早报"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "京东，或许是最被低估的AI公司",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%BA%AC%E4%B8%9C%EF%BC%8C%E6%88%96%E8%AE%B8%E6%98%AF%E6%9C%80%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84AI%E5%85%AC%E5%8F%B8",
+      "published": "Fri, 11 Sep 2026 10:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "GPT-6",
+        "Token",
+        "AA",
+        "Agent",
+        "Blender"
+      ],
+      "summary": "文 丨 阑夕 机场的广告牌上，可能是全中国最不缺「行业第一」的地方。 AI时代自然也不例外，随着算力等资源需求的水涨船高，云厂商们又把战场重新搬回了全国各地的航站楼里。 之所以要说这个「又」字，是因为从堪称神仙大战的2025年开始，AI行业就呈现着一种螺旋上升的纠缠态，资本流动叠加着热点风向，这些因素让一向被视作行业晴雨表的机场广告牌，更换频率比以往高得多。 不过热闹归热闹，各家云厂商高度趋同的说辞——拼市占率、Token调用量、算力规模——还是难免会让人有些审美疲劳，有种一项比肩工业革命的技术，打到最后还是只能盯…",
+      "key_points": [
+        "京东是一家被明显低估的AI公司，理由在于，它已经开始为那个未来处理一批非常具体、甚至有些琐碎的问题",
+        "所有具身数据公司其实都能做这些事，但京东得天独厚的优势在于，过去十几年来它在物理世界的扎根之深，是没有几家公司可以与之比肩的",
+        "但数字之巨，不仅意味着京东在未来要付出远超自身购买力的成本，也跟当时互联网公司就该是轻资产的共识完全背道而驰"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "caoz的梦呓",
+      "source": "caoz的梦呓",
+      "source_url": "https://plink.anyfeeder.com/weixin/caozsay",
+      "title": "贫困者溢价",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E8%B4%AB%E5%9B%B0%E8%80%85%E6%BA%A2%E4%BB%B7",
+      "published": "Fri, 11 Sep 2026 10:06:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "最近学了个词，叫做贫困者溢价。有点反常识，但也很现实。 很多时候，富裕人群反而容易享受非常多免费福利，而贫困的人反而要支付更多成本。 比如高铁站或者机场，普通人买瓶水要花钱，饿了吃顿饭要花钱，但是拿着各种高端卡和贵宾卡的可以去贵宾厅享受免费吃喝。 普通人想要约重要客户，安排一次重要约谈，需要去找个咖啡厅消费，但有钱人呢，用各种酒店集团的白金卡，直接把客人拉到酒店行政酒廊，环境高大上，酒水点心全免费。而且，这种待遇对高阶酒店会员来说，并不需要预订昂贵的行政客房。 信用卡消费也是，高端信用卡有大量的积分和里程回馈，相当…",
+      "key_points": [
+        "叫做贫困者溢价。有点反常识，但也很现实",
+        "不舍得丢弃既往的东西，我父母很长时间也是，多年不用的各种老物件都堆在家里，说真的，房子本身很贵的对吧，被不值钱的东西占据，其实也是一种严重的浪费。从某种意义来说…",
+        "生产力的不断提升，和历史相比，其实我们每个人都在变得更富裕，只是在任何时刻，财富总不是平均分配的，所以总会有很多人觉得自己依然贫困，但很多场景下，你其实可以不必…"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "platform": "饭统戴老板",
+      "source": "饭统戴老板",
+      "source_url": "https://plink.anyfeeder.com/weixin/worldofboss",
+      "title": "永远不要低估小米",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A5%AD%E7%BB%9F%E6%88%B4%E8%80%81%E6%9D%BF+%E6%B0%B8%E8%BF%9C%E4%B8%8D%E8%A6%81%E4%BD%8E%E4%BC%B0%E5%B0%8F%E7%B1%B3",
+      "published": "Fri, 11 Sep 2026 15:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "nm",
+        "AI",
+        "A4",
+        "O3",
+        "SUV",
+        "ARM"
+      ],
+      "summary": "今年9月的产品发布会，小米内部的定调是“自研技术大会师”。 何为会师？发布会上新产品集成了小米过去五年的核心研发成果，即将接受市场检阅。 产品发布会前，小米公布了玄戒芯片的第二代产品线，一口气拿出玄戒O3/O100/D100三颗芯片。其中搭载玄戒O3的小米18Fold，是小米历史上定价最高的旗舰机型。 预热已久的小米澎程SUV，六根滑轨、纯平地板、可变空间的产品定义，都是行业首次出现。 过去五年，小米各个研发部门把雷军拍板的“五年千亿”研发开支花了个一干二净，但芯片首发定价破万旗舰机型，新车杀入被车企犁了好几遍的主…",
+      "key_points": [
+        "小米首席测试车手任周灿成为首个获纽北官方圈速认证的中国车手 如果公司设定一个平庸的目标，既无法吸引顶尖的人才，也无法培养顶尖的人才。之前流传的投资人交流纪要中，…",
+        "财新 [2] 小米创业思考，雷军/徐洁云 [3] 一往无前，范海涛 [4] 小米公司财报，小米 [5] ARM to A4: How Apple changed…",
+        "雷军和管理层做了一次深度复盘：过去的十年，小米验证了自身的商业模式，迅速形成规模。不知不觉中，公司走到了十字路口： 小米创业十年的成绩堪称商业奇迹，营收突破20…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-12",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么牧羊犬能指挥羊群进退？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792407",
+      "published": "Sun, 06 Sep 2026 23:00:00 GMT",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al.",
+        "et",
+        "herd",
+        "Journal",
+        "shepherding"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 无论是面对狼群还是牧羊犬，羊都只有一个办法：往羊群里挤，稀释自己被吃的概率。 而牧羊犬只需精准拿捏这种恐惧即可。 先上一张图，大家感受一下标准的牧羊犬牧羊过程： 发现了没，牧羊犬最需要关注的，是离羊群最远的羊。 这里涉及到一个经典的理论：自私牧群理论（Selfish herd theory）。 这套理论最早是由进化生物学家威廉·汉密尔顿（W.D.Hamilton）在 1971 年一篇题为《自私牧群的几何学》中提出来的。 他认为，羊之类的群居动物中的每一个…",
+      "key_points": [
+        "牧羊犬只需要拿捏住脱队的羊，就能自然而然地让羊群聚拢： 最远的羊被优先关注 从人的视角看，牧羊犬像个指挥官，让羊群乖乖听话",
+        "蓝线是牧羊犬的运动轨迹，黑色是羊群的运动轨迹： 在这个实验中，科学家也验证了自私牧群理论",
+        "大家感受一下标准的牧羊犬牧羊过程： 发现了没，牧羊犬最需要关注的，是离羊群最远的羊"
+      ]
+    }
+  ]
+}
