@@ -1,0 +1,837 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T01:00:11.705021+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 3,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 93,
+    "fresh_candidates": 62,
+    "backfill_candidates": 31,
+    "items_published": 24,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-16",
+      "fetched_at": "2026-09-16T01:00:06.406906+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3864.28,
+          "change": -21.05,
+          "change_pct": -0.54,
+          "volume": 440907766.0,
+          "amount": 76398290.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4277.61,
+          "change": -16.32000000000062,
+          "change_pct": -0.38,
+          "prev_close": 4293.93,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-16 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 922.9796078254857,
+          "change": -3.5213652482841553,
+          "change_pct": -0.3800714031202401,
+          "prev_close": 926.5009730737698,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-16 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "以未来股价为导向的投资方式",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1553799558/409306793",
+      "published": "Tue, 15 Sep 2026 13:59:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "Phython",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "我做过很多类投资方式。2005-2012年，长期持股的低估值投资；2013年-2017年，也做过热点题材的短线；2018年-2022年，做过景气度投资；2023年-2026年，以基本面为基础的趋势投资。为什么持续变更投资方法，市场在变化，自己也在不断学习和进步，希望效率更高，收益率更高。或者说，原来的投资方法在失效，很难盈利。 2016年后，量化基金大发展。阿尔法狗战胜李世石与柯洁，大概是AI突破的明显标志。我当时已经去研究量化基金，以及Phython语言，基础比较差，没有付诸实施。2023年后，量化基金已经主导A…",
+      "key_points": [
+        "以前还是以市场、趋势或者基本面为导向的，以后就以未来股价为导向",
+        "我做过很多类投资方式。2005-2012年，长期持股的低估值投资；2013年-2017年，也做过热点题材的短线；2018年-2022年，做过景气度投资；2023…",
+        "我认为量化基金占A股成交量2/3，我以前的投资或投机方式，盈利比较困难"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "中远海控2026年三季报业绩前瞻",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5742821612/409277558",
+      "published": "Tue, 15 Sep 2026 13:58:43 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "TEU",
+        "Q3",
+        "CCFI",
+        "Q2",
+        "SCFI",
+        "PB"
+      ],
+      "summary": "按照历史经验，中远海控2026年三季度会是年内利润最高的一季。 半年报出来后，二季度已经从低点转升，三季度还叠加了三件大事：1）跨太平洋新长协进入完整执行季、2）欧美传统出运旺季、3）红海绕行和霍尔木兹扰动继续占用有效运力。 同时也要考虑到4个不利因素：1）亚欧线9月现货回落、2）绕航和拥堵抬高单箱成本、3）供应链业务毛利率偏低、4）人民币相对美元升值后的汇兑损失。 三季度的利润会环比改善，但应该到不了部分水手认为的会有2024年三季度那种水平。 总之，2026年Q3会呈现出“量微增、价明显升、利润环比大幅改善”特…",
+      "key_points": [
+        "中远海控2026年三季报将是一份量价齐升、利润表现出色的高质量答卷。但在投资策略上猫叔建议大家以“Q3基准125亿元、全年320亿元”为理性中枢， 不必过度乐观…",
+        "表3 2026年三季度三档测算 基准情景下，中远海控2026年第三季度实现营业收入约 715亿元（ 基准档按750万TEU×9,250元/TEU，航运综合收入约…",
+        "中远海控2026年三季度会是年内利润最高的一季"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "随想357 “AI减速”叙事进一步发酵",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1438190065/409267489",
+      "published": "Tue, 15 Sep 2026 13:57:21 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CPI",
+        "http",
+        "III",
+        "KEYTRUDA",
+        "Moderna"
+      ],
+      "summary": "从昨晚美股来看，“AI叙事+地缘叙事+流动性叙事”三要素里影响权重较大的是AI叙事。在上周五美股盘前，美国的CPI和地缘的扰动就已经有所发酵，但盘中反馈一般，无论是硬件科技的代表费城半导体指数，还是一种矿业相关品种，基本都是上涨或横盘表现的；而昨天和上周五最显著的差异就是多位科技大佬站出来喊话“AI减速”，结果就是美股三大指全部低开，纳斯达克跌幅一度超1%。 这其实也符合逻辑， 由AI资本开支、算力需求、数据中心、电力瓶颈大牛股带来的需求，本就是这一轮美股尤其是科技股的核心变量。 在市场叠满拥挤交易、获利了结、期权…",
+      "key_points": [
+        "“AI叙事+地缘叙事+流动性叙事”三要素里影响权重较大的是AI叙事。在上周五美股盘前，美国的CPI和地缘的扰动就已经有所发酵，但盘中反馈一般，无论是硬件科技的代…",
+        "这个事件现在发酵到老特都站出来喊话了。他发帖表示，美国政府对这些企业已经手握 “极强的刑事与监管权力”，他还表示，AI与数据中心将成为有史以来最强劲的经济发展引…",
+        "“AI减缓”叙事可能会在短期影响市场的情绪，但中长期还是要看AI能否兑现生产率和智力边界拓展。Moderna总裁在大摩第二十四届全球医疗保健大会的发言表示，肿瘤…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "油价破百，剧本变了：能源从周期品变战略资产",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7271353740/409310077",
+      "published": "Tue, 15 Sep 2026 13:55:48 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Q4",
+        "CPI",
+        "EIA",
+        "ETF",
+        "http",
+        "SH600938"
+      ],
+      "summary": "球友们，布油破100美元已经有一阵子了。 有没有注意到一个反常的事？9月9日那天布油破百，标普500只跌了0.48%，纳斯达克跌了0.64%，能源板块反而逆势拉了一波，XLE年内累计涨了48%。截至9月11日，标普500距历史高点不到2%。 换2008年，油价冲147，全球股市直接崩。换2022年，俄乌一打，油价破百，通胀炸了，美联储暴力加息，市场血流成河。 每一次油价破百，市场的反应都不一样。这一次，市场看的东西变了。 消费者的&#34;血条&#34;厚了 一个大多数人没留意的数字：美国汽油支出占可支配收入的比重…",
+      "key_points": [
+        "能源资产正在从“周期性博弈品”变成“稀缺性战略资产” 。这个逻辑完全独立于油价本身的涨跌",
+        "油价冲147，全球股市直接崩。换2022年，俄乌一打，油价破百，通胀炸了，美联储暴力加息，市场血流成河",
+        "有没有注意到一个反常的事？9月9日那天布油破百，标普500只跌了0.48%，纳斯达克跌了0.64%，能源板块反而逆势拉了一波，XLE年内累计涨了48%。截至9月…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "美债的锚，正在从美联储手里滑走",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%BE%8E%E5%80%BA%E7%9A%84%E9%94%9A%EF%BC%8C%E6%AD%A3%E5%9C%A8%E4%BB%8E%E7%BE%8E%E8%81%94%E5%82%A8%E6%89%8B%E9%87%8C%E6%BB%91%E8%B5%B0",
+      "published": "Tue, 15 Sep 2026 16:06:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "FOMC",
+        "Alphabet",
+        "END-",
+        "KAIZEN",
+        "Meta"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： KAIZEN投资之道 来源：雪球 各位球友 ， 9月FOMC近在眼前 ， 市场把9月加息概率定价到接近90% 。 今天不想聊加不加息 ， 想聊一个更底层的东西 —— 美债长端的定价权 ， 正在从美联储手里滑走 。 01 一个被严重忽视的信号 今年以来 ， 10年期美债收益率悄悄涨了65个基点 。 拆开看更有意思 ： 其中53个基点是实际收益率贡献的 ， 通胀预期只贡献了12个基点 。 7月之后更夸张 ， 上行的30个基点几…",
+      "key_points": [
+        "想聊一个更底层的东西 —— 美债长端的定价权 ， 正在从美联储手里滑走",
+        "他提了个\"镜厅效应\" —— 市场看美联储脸色行动 ， 美联储又看市场反应调整政策 ， 看到的\"市场信号\"其实是自己的回声",
+        "03 沃什把市场的\"拐杖\"扔了 沃什5月接任美联储主席后 ， 干了一件大事 ： 砍掉前瞻指引"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "百度做了一堆AI产品，却没有一个能代表百度？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6464997.html",
+      "published": "Tue, 15 Sep 2026 10:31:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "DuMate",
+        "Agent",
+        "PPT",
+        "WorkBuddy",
+        "PDF"
+      ],
+      "summary": "最近看国内几家大厂做 AI 办公，我发现一个挺有意思的现象。 如果问腾讯的 AI 办公产品是谁，很多人会想到 WorkBuddy。 问阿里，答案越来越明确：千问办公。 问字节，豆包工作也已经站到了台前。 但如果把同样的问题扔给百度： 百度的AI办公，到底是谁？ 这个问题突然就不好回答了。 不是因为百度没产品。 恰恰相反，百度的 AI 产品可能比很多人想象中还多。 文心、库库AI、百度搭子、秒哒、文心快码 Comate、千帆…… 几乎聊天、搜索、写代码、做应用、办公、Agent，百度都已经做了。 但有意思的地方也正在…",
+      "key_points": [
+        "却没有一款产品形成“这就是百度 AI 办公”的强烈认知",
+        "DuMate虽然能力很像下一代办公产品，但它身上的“百度独有资产”暂时没有那么明显",
+        "也是小编自认为百度做的最好的AI产品，只可惜太垂直了，门槛也比较高"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI巨头，盯上“金融牛马”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6464917.html",
+      "published": "Tue, 15 Sep 2026 09:30:55 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Anthropic",
+        "Google",
+        "Louis",
+        "WorkBuddy"
+      ],
+      "summary": "两个月内，Anthropic、Google Cloud、腾讯 WorkBuddy 金融版、OpenAI 金融版 ChatGPT 排队入场。IDC 数据显示中国金融生成式 AI 市场增速高达 90.4%，但最核心的判断仍然握在人手里。 Louis构思好框架后把素材喂给AI，再调出几个自建的Skill，只要几个小时，一份符合他思路且相对完整的调研报告就出炉了。 同样的活，2020年的中秋，他写了一整个假期。 Louis在金融行业待了10年，做过行业研究员、产品经理，参与过全国性金融系统的设计，跑过衍生品交易和后台结算的…",
+      "key_points": [
+        "三条路线的商业价值其实各有侧重。从眼下的成熟度看，第一条最容易快速放量，第二条最有可能沉淀长期价值，第三条则最考验平台的用户规模和金融服务能力。这也解释了为什么…",
+        "这类产品解决的是金融从业者每天最琐碎、最标准化的工作：找数据、整理材料、搭初步模型、更新表格等。它的优势在于部署最快，用户门槛最低，覆盖面也最容易做大。但这条路…",
+        "行研和交易只是其中一台发动机。”他还指出了一个被忽略的事实，金融业最原始的形态是银行的存贷，如今没有任何一家金融AI能够覆盖借贷和存款的全周期。巨头反复强调的覆…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "让AI真正赋能企业（初探）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6464904.html",
+      "published": "Tue, 15 Sep 2026 09:20:52 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Agent",
+        "mcp",
+        "agent",
+        "emmm",
+        "MCP"
+      ],
+      "summary": "当AI能独立完成设计、研发、测试，企业应用开发将走向何方？作者通过三个真实项目验证了AI驱动的Agent中枢模式，从2小时上线的分期计算器到智能知识库，揭示未来企业如何通过MCP协议实现能力开放与业务闭环。 最近忙着搞挺多很有意思的事情，所以就没怎么写文章。 至于是什么有意思的事情，哈哈，后续跟大家逐个分享，不要着急，好事不怕晚。 最近也上线了一些纯AI的企业项目，然后就有了一些思考，就是AI到底在企业里面该怎么真正的应用起来。在这呢，也期望写出来分享给大家。 最近呢，我个人通过AI做了几个小的项目，然后全程没有通…",
+      "key_points": [
+        "然后就有了一些思考，就是AI到底在企业里面该怎么真正的应用起来。在这呢，也期望写出来分享给大家",
+        "企业未来的AI赋能，就应该就是一个Agent中枢",
+        "有很多通用的能力或者工具（比如用户，基础数据，权限，三方工具），通过mcp方式向所有被授权的AI开放（也就是企业内部员工），所有AI都可以通过调用底层数据或者工…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "模型早就会用浏览器了，难的是别让它把密码交出去",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6464178.html",
+      "published": "Tue, 15 Sep 2026 08:43:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "Browserbase",
+        "harness",
+        "token",
+        "https",
+        "AI"
+      ],
+      "summary": "既然模型已经会操作浏览器，为什么放进生产环境还是会出事。Browserbase 工程博客给的答案是，模型本身够用了，不够用的是围着它的那一圈东西，从熟悉的工具接口、上下文管理到权限护栏，缺一样都跑不久。 本文编译自 Browserbase 工程博客的一篇文章，作者署名 Kyle。有一点要先说明。Browserbase 自己就卖这套基础设施，文章里的判断带着明确的商业立场，我们在最后一节单独讨论。 前段时间有一篇关于 Astra Computer Use 的拆解被编译成中文，作者也是这家公司的人。那篇讲的是模型怎么读…",
+      "key_points": [
+        "前段时间有一篇关于 Astra Computer Use 的拆解被编译成中文，作者也是这家公司的人。那篇讲的是模型怎么读界面、怎么把操作写成代码交给工具执行。这…",
+        "这件事在浏览器场景里比在代码场景里严重得多。写代码的时候，模型读的是你自己仓库里的文件。操作浏览器的时候，模型读的是别人网站上的内容，而这些内容是对方想让它读到…",
+        "模型已经足够好到可以驾驶浏览器，harness 决定的是能不能大规模地、可靠且安全地驾驶"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "DeepSeek“推倒重来”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6464700.html",
+      "published": "Tue, 15 Sep 2026 08:25:32 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Agent",
+        "DeepSeek",
+        "Flash",
+        "V4.1",
+        "DSH",
+        "Kimi"
+      ],
+      "summary": "DeepSeek V4.1 Flash改用非对称结构，40层拆成前20层编码器与后20层解码器，KV Cache压到890字节每token，专为输入密集的Agent负载降本。文章认为这次重做的真正目标是入口，靠DSH反哺模型形成闭环。 DeepSeek V4.1 Flash发布后，不仅速度变快，而且内容更准确，还有原生多模态。 全网对DeepSeek V4.1 Flash好评如潮，梁文锋再次被奉为“梁圣”。 相较于V4 Flash，V4.1 Flash最大的特点是推倒重来，采用了和V4 Flash完全不同的非对称结…",
+      "key_points": [
+        "现在的DeepSeek早就不是一家小作坊了，而是一个拥有数百名员工的企业，想要重起一个新的结构不仅费时，还很费力。即便如此，梁文锋也要狠下心，对V4推倒重来",
+        "于是DeepSeek选择推倒重来。V4.1 Flash采用了非对称结构Causal-Encoder-Decoder（CED）",
+        "V4.1 Flash最大的特点是推倒重来，采用了和V4 Flash完全不同的非对称结构"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为什么一只蚂蚁无论从多高的地方摔下来都不会被摔伤摔死，其他动物摔下来直接死翘翘了，背后是什么原理呢？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792567",
+      "published": "Mon, 14 Sep 2026 23:01:00 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "in",
+        "DOI",
+        "mg",
+        "M.",
+        "Biology"
+      ],
+      "summary": "云杉， 知乎遗风，科研工作者，文理双修的战士。 查看知乎原文 先说一个很少有活人体验过的雷霆知识： 人从高楼跳下来落体的时候，不会无限加速。 刚刚开始下落时，重力把你往下拉，所以速度越来越快。 但速度越快，迎面而来的空气阻力也越大。 最终会出现一个情况，就是向下的重力被空气阻力抵消。 这个时候呢，人就不会明显加速了，而是以一个相对稳定的速度下降。 我们把这个速度，叫做「终端速度」。 用研究就测算过，一个 85kg、四肢展开的跳伞者，他能达到的终端速度是 44m/s，也就是 158 km/h。 如果他一直不开伞的话，…",
+      "key_points": [
+        "你从桌子上把一只蚂蚁丢下去，和从七八米的高度把一只蚂蚁丢下去，结果可能大差不差",
+        "比如为什么昆虫可以用看起来很小的翅膀飞行，为什么蒲公英的种子可以在天上飘很久很久很久~ 更何况，蚂蚁本身还很结实",
+        "是“你愿意和一只 1 米 8 高的蟑螂还是 180 只蟑螂共同生活？” 我的答案是无脑选一米八"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "数据中心为什么需要这么多电和水？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792573",
+      "published": "Mon, 14 Sep 2026 23:00:00 GMT",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "CSCS",
+        "cscs",
+        "Alps",
+        "Cray",
+        "EX",
+        "HPE"
+      ],
+      "summary": "黄河边儿， 勤学善思，理性科普，热爱生活，向阳而行。 查看知乎原文 前年去过瑞士卢加诺访问过瑞士国家超级计算中心（Swiss National Supercomputing Centre，CSCS），我觉得是一个很好的例子来说明这个问题。 先上几张照片。 卢加诺这个小城围绕着卢加诺湖而建，下面就是卢加诺湖。 卢加诺湖 卢加诺湖 卢加诺小城 湖水养育了周边的居民，也给这个城市的超算中心 Alps（也是全欧洲最大的超算中心，世界排第六）提供了重要的保障。 这个超算中心的亮点就是全水冷，由于紧挨卢加诺湖，而且深部水温在七…",
+      "key_points": [
+        "CSCS 地下资源层的大型水罐 一般数据中心常见的是几十厘米高的架空地板，下面塞满电缆和水管。问题是，一旦二十年以后设备变了，水管尺寸变了，功率密度翻了几倍，下…",
+        "因为传统的数据中心如果想得到 6～10℃左右的冷水，通常需要使用制冷机，即电能→压缩机→制冷循环→冷水",
+        "Cray EX 的冷却设计本质上就是一个 液—液换热系统 。计算机内部有一个受严格控制的闭式冷却回路，通过 CDU 把热量交给数据中心建筑的冷却水系统。一台大型…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这种国民鱼一直被低估、被当廉价鱼！现在才知道钙和 DHA 这么多！快试试",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E7%A7%8D%E5%9B%BD%E6%B0%91%E9%B1%BC%E4%B8%80%E7%9B%B4%E8%A2%AB%E4%BD%8E%E4%BC%B0%E3%80%81%E8%A2%AB%E5%BD%93%E5%BB%89%E4%BB%B7%E9%B1%BC%EF%BC%81%E7%8E%B0%E5%9C%A8%E6%89%8D%E7%9F%A5%E9%81%93%E9%92%99%E5%92%8C+DHA+%E8%BF%99%E4%B9%88%E5%A4%9A%EF%BC%81%E5%BF%AB%E8%AF%95%E8%AF%95",
+      "published": "Tue, 15 Sep 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "DHA",
+        "DOI",
+        "d.cnki.gtqgu.2024.000942.",
+        "EPA",
+        "cm",
+        "ID"
+      ],
+      "summary": "秋意渐浓，正是带鱼丰腴肥美之时。在各种常见的水产品中，带鱼以其独特的形态和亲民的价格，稳坐“国民海鲜”的宝座。 它银光闪闪、身形如刀，以“刺少肉多，肉质鲜美”的优势，始终出现在千家万户的餐桌上。很多人童年的第一口鱼肉，就是从带鱼开始的。 这样看似平常的海鲜，其实是 水产中的“性价比之王” ！这篇文章，我们就来说说带鱼值得吃的营养以及食用建议。 图源：图虫创意 不会吃鱼就选它，高蛋白还超补钙！ 对于不擅长挑鱼刺的人来说，带鱼绝对是餐桌上的福音。它肉嫩体肥、味道鲜美，最关键的是，除了中间一根清晰可见的主刺外，鱼身几乎没…",
+      "key_points": [
+        "低脂肪：健身减肥的理想选择 每 100 克新鲜带鱼（切段）的蛋白质含量高达 17.6 克，这和鸡腿肉差不多，但肉质比鸡腿肉更鲜嫩。同时，每百克带鱼（切段）的脂肪…",
+        "这层银白色的物质并非鱼鳞，而是一层由特殊脂肪形成的“银脂”，其中含有一种名为 6-硫代鸟嘌呤的物质，早期的研究发现，这种成分具有一定的抗癌活性。[9]不过，这层…",
+        "DHA 含量突出：这种营养被称为“脑黄金” 提到 DHA，人们首先想到的是昂贵的三文鱼。但实际上，带鱼，特别是某些特定品种，DHA 含量同样不容小觑"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "苹果Siri AI上线；豆包手机助手消费版正式发布；塔克拉玛干沙漠发现两处大型地下水水源",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B9%E6%9E%9CSiri+AI%E4%B8%8A%E7%BA%BF%EF%BC%9B%E8%B1%86%E5%8C%85%E6%89%8B%E6%9C%BA%E5%8A%A9%E6%89%8B%E6%B6%88%E8%B4%B9%E7%89%88%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%9B%E5%A1%94%E5%85%8B%E6%8B%89%E7%8E%9B%E5%B9%B2%E6%B2%99%E6%BC%A0%E5%8F%91%E7%8E%B0%E4%B8%A4%E5%A4%84%E5%A4%A7%E5%9E%8B%E5%9C%B0%E4%B8%8B%E6%B0%B4%E6%B0%B4%E6%BA%90",
+      "published": "Tue, 15 Sep 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Siri",
+        "Kimi",
+        "S-HODE",
+        "mm",
+        "SUV"
+      ],
+      "summary": "今天是9月15日，星期二。1885年的今天，康斯坦丁·法尔伯格发明的糖精正式获得专利，这开启了人工甜味剂的商业化应用。 重点新闻速览 1.苹果Siri AI上线 2.豆包手机助手消费版正式发布 3.塔克拉玛干沙漠发现两处大型地下水水源 4.吉利银河首款硬派越野SUV开启全球预售 5.海南五指山遭遇历史罕见特大暴雨 科技 苹果Siri AI上线 北京时间9月15日，苹果正式向全球用户推送iOS 27、iPadOS 27、macOS 27、watchOS 27、visionOS 27和tvOS 27正式版。 iOS 2…",
+      "key_points": [
+        "重点新闻速览 1.苹果Siri AI上线 2.豆包手机助手消费版正式发布 3.塔克拉玛干沙漠发现两处大型地下水水源 4.吉利银河首款硬派越野SUV开启全球预售…",
+        "不抵抗中断、纠正或关闭，不自行扩大任务范围，不追求未经人类赋予的目标。准则已筹备约5个月，旨在确保AI始终服务人类、不制造依赖、尊重人的判断力和自主性。微软计划…",
+        "新版助手通过系统级协作提供语音、屏幕理解及手机操作能力：AI按键支持长按提问、双击视频交互；用户授权后可调用通话录音、照片和短信建立记忆；手机操作Beta结合工…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这种高脂肪的零食，我却劝你要经常吃？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E7%A7%8D%E9%AB%98%E8%84%82%E8%82%AA%E7%9A%84%E9%9B%B6%E9%A3%9F%EF%BC%8C%E6%88%91%E5%8D%B4%E5%8A%9D%E4%BD%A0%E8%A6%81%E7%BB%8F%E5%B8%B8%E5%90%83%EF%BC%9F",
+      "published": "Tue, 15 Sep 2026 16:53:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "wscgoods",
+        "xiup2lzgoa38gk"
+      ],
+      "summary": "这两年，随着山核桃仁的“爆火”，市面上产品也鱼龙混杂了起来， 买对了让人吃了还想吃，要若是没挑好，买到的就是一股 哈喇味 ，是真下不去口。 想要避免踩雷的方法其实很简单，就是 选对时节！ 选对产区！ 这两点很重要，时节说的就是“白露”，只有买到了 当年 白露时节采收的新鲜山核桃 才体会到到那种吃一颗想一年的奶香和甜香！ 而关于产区，所长建议大家认准 临安！ 我曾在当地 吃过新鲜的 山核桃仁， 人直接傻了。 临安的山核桃仁很特别，当你刚把它放入嘴中开始咀嚼的时候， 焦香、奶香、咸香、甜香…… 等等各种香气就排山倒海般…",
+      "key_points": [
+        "是你在工位上嘴里淡出个鸟味的日子里，做梦都想来上一罐的零食",
+        "山核桃仁就是为摸鱼而生的零食",
+        "临安山核桃仁 26年9月开杆新果 新增麻辣口味和碧根果~ 2罐/4罐/5罐礼盒装 100g/罐 自带奶香 酥脆可口 日常价：￥89起 优惠价： ￥79起 👇🏻…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "比熬夜掉头发更可怕的事：你的头皮正在悄悄“死亡”....",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%AF%94%E7%86%AC%E5%A4%9C%E6%8E%89%E5%A4%B4%E5%8F%91%E6%9B%B4%E5%8F%AF%E6%80%95%E7%9A%84%E4%BA%8B%EF%BC%9A%E4%BD%A0%E7%9A%84%E5%A4%B4%E7%9A%AE%E6%AD%A3%E5%9C%A8%E6%82%84%E6%82%84%E2%80%9C%E6%AD%BB%E4%BA%A1%E2%80%9D....",
+      "published": "Tue, 15 Sep 2026 16:53:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HAP-Rebuild",
+        "mL",
+        "amp",
+        "mL+",
+        "A223058882610200102C",
+        "DHT"
+      ],
+      "summary": "你是不是也有这样的经历：头皮感觉越来越容就泛油， 头屑反反复复，头发也悄悄变少 ，还悄悄白了。 换了无数款控油、去屑洗发水，却始终不见好转。 可能是你的头皮在加速衰老 。 不止脸会老，头皮也会！ 错误的洗头习惯和产品。它们正悄悄破坏头皮屏障，让 头油 头屑头痒陷入 “ 越洗越重 ” 的恶性循环。 上面种种问题， 归根到底是头皮不健康、 头皮屏障被破坏了。 脸需要护肤修护，头皮更需要护理！ 头皮是毛囊和头发生存的土壤，头皮的状态决定毛囊和头发的状态。 因此，毛囊和头发护理的重点在于头皮护理！ 理解这一点，对于我们挑选…",
+      "key_points": [
+        "采用头皮护理国家发明专利技术配方 （发明名称：一种具有防*控油去屑止痒功效的头皮护理组合物，专利号：ZL202310143454.2） ，就是为了解决头皮头发清…",
+        "你是不是也有这样的经历：头皮感觉越来越容就泛油， 头屑反反复复，头发也悄悄变少 ，还悄悄白了",
+        "可能是你的头皮在加速衰老"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "关于威尔斯的方方面面",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%85%B3%E4%BA%8E%E5%A8%81%E5%B0%94%E6%96%AF%E7%9A%84%E6%96%B9%E6%96%B9%E9%9D%A2%E9%9D%A2",
+      "published": "Tue, 15 Sep 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BFI",
+        "Georgia",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "Korossi"
+      ],
+      "summary": "作者：Georgia Korossi 译者：Issac 校对：易二三 来源：BFI（2015年7月3日） 曾经的奥斯卡奖得主查克·沃克曼凭借其纪录片新作《电影魔术师：奥逊·威尔斯》，重新审视了有关这位电影界富有远见的伟人的最大谜团。这部纪录片恰逢其时，因为今年夏天是奥逊·威尔斯诞辰100周年。 《电影魔术师：奥逊·威尔斯》（2014） 作为戏剧、广播和电影导演方面的天才，威尔斯年少成名。他与演员合作时的同理心，以及他将电影制作的各个方面（包括剧本、音乐、声音和灯光）结合在一起的技巧，对电影作为一种艺术形式的进步至关…",
+      "key_points": [
+        "威尔斯与女人 丽塔·海华斯在《上海小姐》（1947）的片场 「我很幸运，能和她（丽塔·海华斯）在一起的时间比她生命中任何一个男人都长。」 威尔斯在与他的明星们合…",
+        "威尔斯与戏剧 威尔斯于1936年改编的威廉·莎士比亚的《麦克白》 「我认为我犯错了，我不该继续拍电影的，但这是一个我不会后悔的错误，因为这就像我不应该还和那个女…",
+        "威尔斯在制作《世界之战》广播剧 1938年，威尔斯根据赫伯特·乔治·威尔斯的科幻小说《世界之战》进行了臭名昭著的电台改编，之后他收到了一封律师的来信，信中称他的…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "可能你们不同意，但这真是我心中最好的动画",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8F%AF%E8%83%BD%E4%BD%A0%E4%BB%AC%E4%B8%8D%E5%90%8C%E6%84%8F%EF%BC%8C%E4%BD%86%E8%BF%99%E7%9C%9F%E6%98%AF%E6%88%91%E5%BF%83%E4%B8%AD%E6%9C%80%E5%A5%BD%E7%9A%84%E5%8A%A8%E7%94%BB",
+      "published": "Tue, 15 Sep 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 赛人 （本文原名《两个人的秋千》。） 2020年11月1日，导演张毅离世。我很喜欢这个导演，华人导演里，真论文笔好的，他能排第一。 张毅 他生前是欲把杨德昌的动画遗作《追风》完成掉的，不料，天意不合人愿。张毅算是杨德昌的密友了，徐克其实与杨德昌私交也不错，巧的很，这三人对动漫的兴趣都很浓，还都身体力行过。 我是很爱看动画片的，跟很多人一样，都是小时候养成的习惯。这其中，日本动画片对我有着至关重要的启蒙，不光是画面予我那种说不清，道不明的亲切感。还在于那些优秀的动画片，仿佛是在提醒我，万物皆有灵，你可以和任何事物…",
+      "key_points": [
+        "对这么两部动画片，一直保有非常好的印象，时不时也会翻出来看一下。一部是浦山桐郎的《龙子太郎》，另一部是山田洋次监制并编剧的《熊猫的故事》。两部影片既有着极为神奇…",
+        "跟很多人一样，都是小时候养成的习惯。这其中，日本动画片对我有着至关重要的启蒙，不光是画面予我那种说不清，道不明的亲切感。还在于那些优秀的动画片，仿佛是在提醒我，…",
+        "张毅 他生前是欲把杨德昌的动画遗作《追风》完成掉的，不料，天意不合人愿。张毅算是杨德昌的密友了，徐克其实与杨德昌私交也不错，巧的很，这三人对动漫的兴趣都很浓，还…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "啥？明朝也有“高颅顶”！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%95%A5%EF%BC%9F%E6%98%8E%E6%9C%9D%E4%B9%9F%E6%9C%89%E2%80%9C%E9%AB%98%E9%A2%85%E9%A1%B6%E2%80%9D%EF%BC%81",
+      "published": "Tue, 15 Sep 2026 17:35:00 +0800",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "OOTD"
+      ],
+      "summary": "图为明代绘画《宫中图》局部，画中一位嫔妃正在揽镜自照，她们的乌云高鬓间点缀着各式簪钗，插在发间各处，形成一副“头面”。中华遗产 2017年02期 今天出门穿什么，发型怎么做，耳环戴哪一对？对很多人来说，准备一套满意的 OOTD，本身就是出门前的重要仪式。 几百年前的女性，同样会在 发型、首饰和衣着 上花心思。到了明代，这份心思更是落到了头发上的 一簪一钗 之间，精致而华丽。 明代衔珠凤凰簪 中华遗产 2017年02期 在明代以前，女性的首饰大多直接簪戴在自己的发髻上，一件件插、一件件调整，更多只是作为发髻上的点缀。…",
+      "key_points": [
+        "中国国家地理大讲堂： 大明女子的“头”等大事—— 明朝版《红楼梦》簪戴巧思 ，我们特邀 《中国妆束》作者左丘萌 ，我们一起走进明代，看看看发型怎么梳，簪钗怎么戴"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "灵感不上门",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%81%B5%E6%84%9F%E4%B8%8D%E4%B8%8A%E9%97%A8",
+      "published": "Tue, 15 Sep 2026 13:57:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "HYROX"
+      ],
+      "summary": "灵感，灵感，灵感，老有人跑来问我哪里来的灵感。每天一篇文章，灵感哪里来？每天三张图，灵感哪里来？ 这个问法本身就有问题，感觉是人坐在家里，门铃响，开门一看，灵感穿着西装三件套，手提公文包自我介绍： 「您好，我是灵感，叫我小灵就行，我今天来找您，是为了帮助您写一篇新文章」。 不会有这样的事的。 也不会是你在家里东摸西找，在马桶水箱和墙壁之间的夹缝里发现灵感正躲在那里，抓住来扔在键盘上它就帮你打好一篇文字。也许你的确能找到私房钱或者双马尾小强，但不会有灵感。 事实上我说过很多次了，你得先行动，行动的过程中就一定会和环境…",
+      "key_points": [
+        "你自然而然会产生反应，有情绪上的，有思考上的，一开始是些碎片，你跟着碎片飘荡，它们慢慢慢慢会聚合在一起，慢慢慢慢形成某个你的个人想法。这时候你有了冲动，想把这个…",
+        "感觉是人坐在家里，门铃响，开门一看，灵感穿着西装三件套，手提公文包自我介绍： 「您好，我是灵感，叫我小灵就行，我今天来找您，是为了帮助您写一篇新文章」",
+        "在马桶水箱和墙壁之间的夹缝里发现灵感正躲在那里，抓住来扔在键盘上它就帮你打好一篇文字。也许你的确能找到私房钱或者双马尾小强，但不会有灵感"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "重大科技计划的专家回避制度，面临怎样的挑战？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E9%87%8D%E5%A4%A7%E7%A7%91%E6%8A%80%E8%AE%A1%E5%88%92%E7%9A%84%E4%B8%93%E5%AE%B6%E5%9B%9E%E9%81%BF%E5%88%B6%E5%BA%A6%EF%BC%8C%E9%9D%A2%E4%B8%B4%E6%80%8E%E6%A0%B7%E7%9A%84%E6%8C%91%E6%88%98%EF%BC%9F",
+      "published": "Tue, 15 Sep 2026 08:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "OL",
+        "EB",
+        "of",
+        "NSF",
+        "National"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源： 中国生物技术发展中心 摘要： 专家回避制度是维护重大科技计划公信力的重要程序安排。国家重点研发计划通过基于职责的专家分类和依托国家科技专家库遴选评审专家，防范专家参与项目管理全过程的利益冲突。本文面向16位科学家和管理者开展深度访谈，发现实践中该制度在“小同行”严格回避、利益冲突界定标准、纠偏机制与处置规则、专家库技术支撑以及治理理念适配性等方面还面临挑战。针对上述问题，提出制定统一的利益冲突与回避操作指南、推行分级分类回避、完善评审程序与复议机…",
+      "key_points": [
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源： 中国生物技术发展中心 摘要： 专家回避制度是维护重大科技计划公信力的重要程序安排。国家重点…",
+        "注：本文来自《中国科技论坛 》 2026年第8期，原标题《重大科技计划的专家回避制度研究—— —— 以 国家重点研发计划为例》，《知识分子》刊发时略有删节。该项…",
+        "本文研究方法 为了突破仅基于制度文本分析的局限，揭示专家回避制度 的运作逻辑及其面临的真实挑战 ，本研究采用质性研究中的深度访谈法，使用目的性抽样策略，选取深度…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "课外辅导少了，教育焦虑也少了吗？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E8%AF%BE%E5%A4%96%E8%BE%85%E5%AF%BC%E5%B0%91%E4%BA%86%EF%BC%8C%E6%95%99%E8%82%B2%E7%84%A6%E8%99%91%E4%B9%9F%E5%B0%91%E4%BA%86%E5%90%97%EF%BC%9F++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Tue, 15 Sep 2026 11:05:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "demand",
+        "to",
+        "has",
+        "buoyant",
+        "tutoring",
+        "academic"
+      ],
+      "summary": "本文选自经济学人中国版块 Sep 14th 2026 https://www.economist.com/china/2026/09/14/chinas-tutoring-crackdown-has-created-a-black-market 北京一位父亲，每学期花两万元给十岁的儿子上奥数和英语。奥数课没有招牌，对外说是“书法班”。教室也不好找，全靠家长口口相传。这不是悬疑小说里的接头，而是《经济学人》最近一篇文章中写到的一幕。 2021年“双减”落地后，大批学科培训机构退出市场。五年过去，培训产业确实变了，可家…",
+      "key_points": [
+        "本文选自经济学人中国版块 Sep 14th 2026 https://www.economist.com/china/2026/09/14/chinas-tut…",
+        "大批学科培训机构退出市场。五年过去，培训产业确实变了，可家长对额外辅导的需求并没有跟着消失。供给少了，补课更隐蔽，价格也随之上涨。一项原本希望减轻学生负担的政策…",
+        "年费会员： 会员中心每天更新一篇《经济学人》双语文章和一份 The World in Brief 全球早报。原文、译文、词汇、长难句和音频放在同一个页面里，读过…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "抢iPhone首发的人，今年换战场了?",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E6%8A%A2iPhone%E9%A6%96%E5%8F%91%E7%9A%84%E4%BA%BA%EF%BC%8C%E4%BB%8A%E5%B9%B4%E6%8D%A2%E6%88%98%E5%9C%BA%E4%BA%86%3F",
+      "published": "Tue, 15 Sep 2026 20:03:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "iPhone",
+        "Duo",
+        "Air",
+        "Apple",
+        "Eleven",
+        "http"
+      ],
+      "summary": "文 丨 阑夕 不出意外的，iPhone 18 Pro和18 ProMax的热门颜色，在各大电商平台上又卖断货了，官网订单也早已排到了下个月，火爆程度一如既往。 其实这几年再去争论苹果的遥遥领先亦或是遥遥落后，已经完全没意义了，因为iPhone就是iPhone，再怎么唱衰，那批雷打不动的用户——包括我在内——仍然还是会每年换新。 不过今年不一样的地方，在于话题性和关注度双双拉满的iPhone Duo下个月才会发售，据说iPhone 18和Air 2等产品线之所以会延迟发布，就是为了给Duo让渡产能。 所以已经能预见，…",
+      "key_points": [
+        "作为一个几乎每年都会密切关注新品的资深首发党，我今年看到的新风气是，有不少人把首发战场切换到了美团闪购上",
+        "但如今绝不会没苦硬吃的新时代小登们可能不太了解，以往抢一次iPhone首发的体验，堪称「渡劫」",
+        "大伙不妨回忆一下，以前的我们是怎么购置一部新手机的： 最开始，我们买手机需要专门跑趟门店，这是因为只有线下这一条购买渠道； 到了后来，各大电商平台成为了主流选项…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "构建我的被动收入",
+      "source": "构建我的被动收入",
+      "source_url": "https://www.bmpi.dev/index.xml",
+      "title": "置身 Agent 时代：当软件开始不再需要软件工程师",
+      "title_zh": null,
+      "url": "https://www.bmpi.dev/dev/agent-era-software-engineering/",
+      "published": "Tue, 15 Sep 2026 00:00:00 +0000",
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "Coding",
+        "Free4Chat",
+        "Review"
+      ],
+      "summary": "从 Free4Chat 和策引两个长期项目出发，记录当 Coding Agent 开始接管实现、Review、测试、故障分析与部分运维后，软件工程师的角色、经验价值和培养路径正在发生什么变化。",
+      "key_points": [
+        "从 Free4Chat 和策引两个长期项目出发，记录当 Coding Agent 开始接管实现、Review、测试、故障分析与部分运维后，软件工程师的角色、经验…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-16",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "为啥自然演化出轮子会那么难？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792542",
+      "published": "Sat, 12 Sep 2026 23:01:00 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "crystalline",
+        "officials",
+        "style"
+      ],
+      "summary": "小帽officials， 喜欢空洞骑士，05后，人文社科科普博主(不键政)，法律-情感-文学等相关咨询请私信 查看知乎原文 自然演化出轮子一点都不难，而是太简单了。 轮子是生物身上最容易演化出来的器官之一 看到下面这玩意儿了没有？ 细菌，身为最初级生命，他们基本上都是靠轮子移动的。 他屁股上那根毛，就是由一个 360 度无限旋转的轮子带动的 整体上由三部分组成。 定子（固定电机外壳） 转子（中心旋转轴） 鞭毛丝（外露螺旋桨叶片） 轮子在轴杆上可以顺时针转动，也可以逆时针转动。 普通大肠杆菌鞭毛每秒可旋转 100~2…",
+      "key_points": [
+        "喜欢空洞骑士，05后，人文社科科普博主(不键政)，法律-情感-文学等相关咨询请私信 自然演化出轮子一点都不难，而是太简单了",
+        "那确实可能会有生物进化出角质轮子 但是这种死轮子还要考虑磨损的问题…… 那这就是下个问题了，太复杂了，这里写不下，点赞到了 1000 就单独再开一张平坦星球，写…",
+        "地面凹凸不平，硬骨辐条无缓冲 天天这么跑，冲击力早就把内脏震烂了 机械车的轮子有减震三件套 也就是充气橡胶胎、避震弹簧和轴减震垫 但是这些都很难演化出来"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "关于拼多多不分红的问题",
+      "title_zh": null,
+      "url": "http://xueqiu.com/6308001210/409029408",
+      "published": "Sat, 12 Sep 2026 04:19:44 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "黄铮是拼多多的大股东，他在拼多多任职的时候只拿1元的薪水，辞职后0薪水。其他重要股东腾讯，网易，段永平和李录均为国内外知名企业和个人。以上这些人都不能从拼多多获得除股份外的利益，只能从分红或者股价上涨中获得利益。拼多多的管理层和员工也有大量股份和期权，他们的利益和分红及股价密切相关。但是股价变化和分红多少是偏中短期的东西，企业内在价值变化和发展前景及护城河变化是偏中长期的东西，目前看拼多多的主要股东都追求偏中长期的东西，牺牲中短期的东西。所以做拼多多的股东需要和这些大股东一样用中长期的视角看问题，这样才会舒服，道不…",
+      "key_points": [
+        "他在拼多多任职的时候只拿1元的薪水，辞职后0薪水。其他重要股东腾讯，网易，段永平和李录均为国内外知名企业和个人。以上这些人都不能从拼多多获得除股份外的利益，只能…",
+        "拼多多在目前的全球化快速发展的关键时刻，保持充足和过剩的资金状况是有必要的。站在企业发展的角度，目前分红和回购股票并不是好的选择",
+        "拼多多管理层很有信心地提出未来3年再造一个拼多多，需要投入2000亿巨资及人力物力，这是管理层目前努力的目标和重点，近期一切行为都要围绕这一目标展开，而且由于外…"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "卡拉比猜想证明50周年：丘成桐与一个几何王国的诞生",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E5%8D%A1%E6%8B%89%E6%AF%94%E7%8C%9C%E6%83%B3%E8%AF%81%E6%98%8E50%E5%91%A8%E5%B9%B4%EF%BC%9A%E4%B8%98%E6%88%90%E6%A1%90%E4%B8%8E%E4%B8%80%E4%B8%AA%E5%87%A0%E4%BD%95%E7%8E%8B%E5%9B%BD%E7%9A%84%E8%AF%9E%E7%94%9F",
+      "published": "Sat, 12 Sep 2026 10:04:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Calabi",
+        "doi.org",
+        "Eugenio",
+        "Gary",
+        "Horowitz",
+        "https"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2022 年 4 月，丘成桐在清华大学。图源：清华大学 撰文｜丘成桐 ‍ ● ● ● 1978 年， 29 岁的丘成桐在《纯粹与应用数学通讯》发表卡拉比猜想的完整证明，解决了复几何领域一个悬而未决二十余年的难题。 [1] 这是数学史上璀璨的一笔，开启了几何分析的新时代，由此发展出的成果甚至不断延伸至代数几何、拓扑学和理论物理等领域。 卡拉比猜想的证明工作实际上在 1976 年已经完成。当年圣诞节，丘成桐与猜想提出者卡拉比 （ Eugenio Calabi…",
+      "key_points": [
+        "图片来源：清华大学丘成桐数学科学中心 03 卡拉比-丘流形登场 寻找钻石的时候，幸运的话，你可能附带找到其他的宝石。我在 1977 年发表的一篇两页论文里，宣告…",
+        "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2022 年 4 月，丘成桐在清华大学。图源：清华大学 撰文｜丘成桐 ‍ ● ● ● 1978 年…",
+        "卡拉比猜想的证明工作实际上在 1976 年已经完成。当年圣诞节，丘成桐与猜想提出者卡拉比 （ Eugenio Calabi ） 及纽约大学数学家路易斯 · 尼伦…"
+      ]
+    }
+  ]
+}
