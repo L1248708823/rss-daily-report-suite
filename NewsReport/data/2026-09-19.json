@@ -1,0 +1,729 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T01:00:12.658286+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 100,
+    "fresh_candidates": 63,
+    "backfill_candidates": 37,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-19",
+      "fetched_at": "2026-09-19T01:00:07.351849+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3911.87,
+          "change": 36.27,
+          "change_pct": 0.94,
+          "volume": 485712507.0,
+          "amount": 99416945.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4378.29,
+          "change": 36.67000000000007,
+          "change_pct": 0.84,
+          "prev_close": 4341.62,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-19 04:54:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 942.7044586622084,
+          "change": 7.8955419808060014,
+          "change_pct": 0.8446156043135955,
+          "prev_close": 934.8089166814024,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-19 04:54:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-19",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "公募基金定期公开持仓，难道不怕被\"抄作业\"吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%85%AC%E5%8B%9F%E5%9F%BA%E9%87%91%E5%AE%9A%E6%9C%9F%E5%85%AC%E5%BC%80%E6%8C%81%E4%BB%93%EF%BC%8C%E9%9A%BE%E9%81%93%E4%B8%8D%E6%80%95%E8%A2%AB%22%E6%8A%84%E4%BD%9C%E4%B8%9A%22%E5%90%97%EF%BC%9F",
+      "published": "Fri, 18 Sep 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：我画你财 老王最近看中了一只公募基金，业绩稳得不行。 他发现每个季度都会公布前十大持仓，很纳闷： 这不等于把底牌都亮出来了吗？ 我不买基金，直接照着买股票，不就跟着赚钱了？ 这么操作，刚开始账户确实跟着涨，可很快净值开始往下掉。 他翻出季报又看了半天，才发现一个扎心的事实： 季报里披露的持仓是季度最后一天的，但公布要过20多天以后。 季报持仓公布的滞后性只是表象，背后还有三大原因，让我们绝对不能跟着抄作业！ 首先， 交易操作…",
+      "key_points": [
+        "我们完全抄不了，那基金公开持仓，到底有什么用呢",
+        "这或许就是公募基金的魅力",
+        "透明倒逼纪律。每个季度持仓都会被公开、被分析、被对比，他就不能随意偏离自己的投资框架"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "癌症之光，AI制药4.0",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1651958071/409670686",
+      "published": "Fri, 18 Sep 2026 10:45:04 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "mRNA",
+        "Twist",
+        "III",
+        "Moderna"
+      ],
+      "summary": "（以下内容仅为个人投研记录，不构成任何建议） AI制药（mRNA）4.0 持续连载。 9月16日， 字节跳动旗下AI制药公司 Anew Labs完成拆分后首轮融资2.9亿美元，估值15亿美元，红杉中国、IDG、高瓴领投，字节仍握56%股权。 9月16日， 诺和诺德 官宣联手 Anthropic ，用Claude Science平台做药物发现。 这里展开讲一下 Anthropic的ai制药布局 ： Anthropic指定Twist Bioscience做湿实验服务商，用Opus 4.8针对15个靶点设计了1320个m…",
+      "key_points": [
+        "AI深度参与的药物已经开始在人体试验里拿出硬数据。Moderna(MRNA) 与默沙东宣布个性化mRNA癌症疫苗intismeran（mRNA-4157/V94…",
+        "这里展开讲一下 Anthropic的ai制药布局 ： Anthropic指定Twist Bioscience做湿实验服务商，用Opus 4.8针对15个靶点设计…",
+        "字节跳动旗下AI制药公司 Anew Labs完成拆分后首轮融资2.9亿美元，估值15亿美元，红杉中国、IDG、高瓴领投，字节仍握56%股权"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "从卖水到分蛋糕：大模型定价的三次进化",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7516820417/409782632",
+      "published": "Fri, 18 Sep 2026 10:44:45 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Token",
+        "AI",
+        "API",
+        "Co-work",
+        "Coding",
+        "GLM-5.3"
+      ],
+      "summary": "大模型行业这两年讨论了很多宏大问题——AGI的时间表、Scaling的尽头、开源与闭源的战争。但有一个朴素的问题始终悬在半空： 模型到底该怎么收钱？ 智谱今天电话会上的两个细节，恰好把这个问题的答案推进了一格：一是ARR达到18亿美金、指引上调至30亿；二是Co-work场景一个月10亿人民币订单，定价&#34;建立在价值而非Token数量之上&#34;。叠加公司刚完成的&#34;小股大债&#34;配售（负利率可转债、T+2股价不降反升），市场情绪的热度盖过了商业模式本身的演进——但后者才是真正值得记录的变化。 回…",
+      "key_points": [
+        "第三次进化：价值分成——分蛋糕的逻辑 电话会里那段关于网络安全场景的描述，值得逐句读：一个被确认的漏洞有明确的严重等级和市场价格，&#34;定价建立在价值而非T…",
+        "大模型的定价方式其实经历了三次进化",
+        "大模型行业的估值之争吵了三年&#34;谁的模型更强&#34;，而商业模式的进化方向其实早写在了定价方式的变迁里。当一家公司开始按&#34;客户的收益&#34;而…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "投资银行股，看这篇就够了",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7675788116/409672371",
+      "published": "Fri, 18 Sep 2026 10:44:12 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PB",
+        "ROE",
+        "PE",
+        "ETF",
+        "gt",
+        "FDIC"
+      ],
+      "summary": "银行股是 A 股最便宜的板块，也是被误读最深的板块。 它常年破净、PE 不到 7 倍、股息率 4% 以上，看起来像是捡钱的机会。可它又一边每年分红 6000 多亿，一边接受国家注资 8000 多亿。这两件事摆在一起，怎么看都矛盾。 于是问题来了：买银行股到底在赚什么钱？它凭什么这么便宜？前些年跌到 0.47 倍 PB，是因为怕什么？现在又为什么能连创新高？国家掏钱注资，是不是意味着银行藏着大雷？ 这篇文章用 16 个问题 ，把这件事从头到尾讲清楚： 把&#34;股息率 + 净资产复利 + 估值修复&#34;这个收益…",
+      "key_points": [
+        "把这件事从头到尾讲清楚： 把&#34;股息率 + 净资产复利 + 估值修复&#34;这个收益公式手算一遍 拆解 房地产、地方隐性债务、净息差 这三座大山，以及它…",
+        "结语：一页纸总结 回到最初的问题：投资银行股，我们到底在挣什么钱",
+        "先看这轮行情走到哪了： 2024 年 ：银行板块全年上涨 34.39% ，在 31 个申万一级行业中排名第一，中、农、工、建四大行涨幅均超 40%； 2025…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "好坏兼说——加息、估值与AI资产的再定价",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3196557688/409614026",
+      "published": "Fri, 18 Sep 2026 10:44:02 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "FCC",
+        "http",
+        "Kevin",
+        "OCP",
+        "PE"
+      ],
+      "summary": "美联储加息25个基点，符合市场预期，靴子落地，但后续表态中性偏鹰。 先看现场问答： 问：这次加息，是否意味着美联储已经开启新一轮加息周期？ Kevin Warsh：今天的决定只代表今天、基于当前经济状况作出的政策调整，并不预先决定未来会议的政策行动。未来是否进一步加息，将取决于后续数据和经济前景。 个人简评：这是典型的数据依赖、不预设路径的措辞。表面中性，实则保留鹰派选项：不承诺继续加息，也不轻易转向鸽派，把政C灵活性留给未来数据。 个人的一些见解与感想： 一、若年内只再加一次息，对科技股影响不大。 因为单次25个…",
+      "key_points": [
+        "敬畏市场，跟踪产业 、 盈利，等待现金流验证 。加息不是AI产业的终点，而是AI资产定价的分水岭。对投资者而言，既不要因一次加息就线性外推“末日”，也不要因产业…",
+        "好坏兼说， 个人仍维持现阶段震荡修复的观点：短时FCC政C风险缓解、三季报、10月中旬的OCP大会等等催化共振，都提供了估值修复的重要契机",
+        "加息与否，短期并不能直接改写公司的盈利状况，但会影响市场愿意给它的估值，尤其是远端定价 。毕竟，利率是估值的地心引力：利率越高，越远的现金流越轻，越近的现金流越…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "微信AI团队开源WeKnora：给知识库装上“手脚”，AI 从能答到能做",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6466723.html",
+      "published": "Fri, 18 Sep 2026 10:02:43 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "WeKnora",
+        "Agent",
+        "Skill",
+        "Docker",
+        "https",
+        "AI"
+      ],
+      "summary": "当知识库不再满足于\"找答案\"，腾讯开源的WeKnora把文档解析、知识图谱、Agent沙箱与Skill生态串成一条完整链路。0.8.0版本为每个会话提供持久化运行时，让文件读写、脚本执行与产物生成在受控工作区中完成。本文解析这套框架如何让分散文档真正变成可推理、可执行的知识资产。 一份产品设计手册，可能同时包含文字、表格、流程图；一套企业制度会不断更新；一个研发项目的知识，又往往分散在文档、代码仓库、协作平台和网页里。 当我们把这些资料交给 AI，最常见的期待是“帮我找答案”。但真实工作并不会止于一次问答：AI 能…",
+      "key_points": [
+        "项目地址： https://github.com/Tencent/WeKnora 官网地址： https://weknora.weixin.qq.com 更新详…",
+        "新版本还增加了 GitLab 和腾讯 IMA 数据源，支持将更多团队协作内容同步进知识库；LiteLLM 成为一等的 chat、embedding 和 rera…",
+        "新版本还增加了“自动标签”能力。文档解析完成后，模型会从知识库已有标签中选择匹配项，以增量方式关联到文档；自动标签不会创建新标签，也不会覆盖人工标签。这样，知识…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "为什么中美头部Agent，不约而同走向开放？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6466487.html",
+      "published": "Fri, 18 Sep 2026 08:05:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "WorkBuddy",
+        "Claude",
+        "OpenAI",
+        "Code",
+        "Harness"
+      ],
+      "summary": "Agent 竞争白热化之际，OpenAI、Anthropic 和腾讯却纷纷开放自家 Agent 底座。从 Codex Harness 到 Claude Agent SDK，再到 WorkBuddy 生态，一场围绕 Context 与平台化的暗战已然打响。本文深度拆解三巨头的开放逻辑与差异化路径，揭示 Agent 从 coding 走向通用平台的必然趋势。 Agent 战场打得最凶的时候，跑在最前面的三家公司，却不约而同地打开了自己的“引擎舱”。 9 月 10 日，OpenAI 将 Codex 背后的 Harness…",
+      "key_points": [
+        "跑在最前面的三家公司，却不约而同地打开了自己的“引擎舱”",
+        "OpenAI、Anthropic 和腾讯却纷纷开放自家 Agent 底座。从 Codex Harness 到 Claude Agent SDK，再到 WorkB…",
+        "“WorkBuddy 下面的基座模型我是可以随便换的，但 WorkBuddy 的核心壁垒是用户愿不愿意把他的企业知识库、把企业的组织关系放到 WorkBuddy…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Anthropic 的\"安全\"生意：一边指控别人蒸馏，一边冲刺史上最大 IPO",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6466455.html",
+      "published": "Fri, 18 Sep 2026 07:45:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Anthropic",
+        "AI",
+        "Claude",
+        "IPO",
+        "OpenAI",
+        "API"
+      ],
+      "summary": "Anthropic 9 月发布威胁情报报告，点名 7 家中国公司对 Claude 实施「工业规模蒸馏」，是今年第三次同类指控。文章把它秘密递交 IPO、拒绝签署开源联名信、以及 15 亿美元版权和解等动作连起来看，追问「安全」是否已成商业壁垒。 9月10日，Anthropic发布了一份威胁情报报告，内容覆盖网络攻击、非法模型蒸馏等AI“滥用”行为。其中最受关注的部分，是报告点名7家中国AI公司，指控它们对Claude实施了“工业规模蒸馏”。 这已经是该公司今年以来第三次公开此类指控。 被置于指控中心的“蒸馏”，并不…",
+      "key_points": [
+        "Anthropic对“蒸馏”的指控逐级加码。2月，它首次公开指控DeepSeek、月之暗面、MiniMax三家公司通过约2.4万个虚假账户，与Claude产生超…",
+        "Anthropic向监管机构秘密递交IPO申请，冲刺一场可能成为史上规模最大的上市；7月，它成为硅谷唯一拒绝签署开源公开信的头部公司；9月12日，也就是报告发布…",
+        "尽管阿莫迪并没有明确表示要封禁开源模型，但他反复强调的AI安全，以及屡次指控开源模型厂商蒸馏攻击，都体现了他对于开源的“打压”。这就是“安全”作为商业武器的高明…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "从卖工具到收\"过路费\"：SAP、Salesforce 殊途同归的 Agent 生意",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6466441.html",
+      "published": "Fri, 18 Sep 2026 07:30:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "agent",
+        "AI",
+        "SAP",
+        "Salesforce",
+        "Intercom",
+        "Agent"
+      ],
+      "summary": "SAP 今年 4 月收紧 API 政策，外部 AI 智能体不能直连接口，必须走自家助手 Joule，集成网关也开始按调用次数计费，圈里管这叫「代理税」。Salesforce 走的是相反的路，把整个平台的能力拆成 60 多个工具、30 多项技能。 我要先分享一个数： 平均每家企业眼下大概跑着12个以上AI智能体。其中有一半呢？是在单干的；也就是说，他们谁不挨着谁，那这批员工很多公司连智能体的名字都没有，乱不乱？ 肯定很乱的，但是老牌厂商们把它分成了两排。 第一排，SAP。 今年 4 月，SAP 改了 API 政策。一…",
+      "key_points": [
+        "SAP 今年 4 月收紧 API 政策，外部 AI 智能体不能直连接口，必须走自家助手 Joule，集成网关也开始按调用次数计费，圈里管这叫「代理税」。Sale…",
+        "前两年做了个决定，官方说法是「为智能体重建 Salesforce」。今年 4 月兑现：整个 Salesforce 上的能力，全部变成了 API、MCP 工具和命…",
+        "只有 13%。另一份调查里，六成的企业，搭 AI 工具和流程不经过 IT。还有一家公司，一年没到，跑了 900多个 agent，才想起来该建个委员会"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "详情页秒变16 秒宣传片，Flova做电商设计夯爆了！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6466451.html",
+      "published": "Fri, 18 Sep 2026 07:11:10 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Flova",
+        "AI",
+        "MP4",
+        "fps",
+        "L1",
+        "AAC"
+      ],
+      "summary": "作者把一张写好商品参数与卖点的详情页交给豆包工作，再经已连接的 Flova AI 依次产出参考视觉、四镜分镜、配乐与时间线，最后导出 1920×1080、30fps 的 MP4。这条链路把原本分散的确认节点串成可检查、可修改的工作流。 9 月 8 日，Adobe 把视频与音效生成直接放进 Premiere 时间线，并让 AI Assistant 承接多步骤工作流。它释放出一个很明确的信号：AI 视频工具开始争夺的，不只是“生成一次”，而是让创作者尽量留在同一条工作流里完成作品。 Flova 给我的直观感受，正好对应…",
+      "key_points": [
+        "如果你正在做电商内容、产品视觉、品牌短片或 AI 创作，我建议第一次不要给自己安排太复杂的任务。选一张主图清楚、卖点明确的商品详情页，写清 15 秒、16:9、…",
+        "提示词 请使用已连接的 Flova AI，根据附件中的虚构商品详情页，制作一支 15 秒、横版 16:9 的商品宣传短片。先识别附件里的商品主图、参数和卖点，再…",
+        "作者把一张写好商品参数与卖点的详情页交给豆包工作，再经已连接的 Flova AI 依次产出参考视觉、四镜分镜、配乐与时间线，最后导出 1920×1080、30f…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "AI 碾碎了书，就像碾碎你的脑子那样",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+AI+%E7%A2%BE%E7%A2%8E%E4%BA%86%E4%B9%A6%EF%BC%8C%E5%B0%B1%E5%83%8F%E7%A2%BE%E7%A2%8E%E4%BD%A0%E7%9A%84%E8%84%91%E5%AD%90%E9%82%A3%E6%A0%B7",
+      "published": "Fri, 18 Sep 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "token",
+        "ADHD",
+        "blue1brown",
+        "Claude"
+      ],
+      "summary": "Anthropic 的巴拿马项目曝光之后，社交媒体上最让人不舒服的一张照片，是一摞被切掉书脊的书。 那些书曾经是完整的。封面、扉页、版权页、目录、正文、后记——所有构成一本书的部件，都还在。但图片中的它们已经不再是书了。书脊被液压切刀一刀切断，散开的书页被送入高速工业扫描仪，逐页过机，图像被提取，文字被 OCR，数据被喂进模型。剩下的纸页被送去回收，打成纸浆，重新变成纸——可能是下一本书的原料，也可能是一张快递单，或者一卷卫生纸。 那句话怎么说来着？书籍死了，书籍万岁。 碎书不是新鲜事 二十年前，科幻大师弗诺·文奇…",
+      "key_points": [
+        "他描述的是一种正在消失的行为。大多数人的注意力已经被短视频和信息流重新布线。今天你拿起一本书，翻开第一页，你可能还能读下去。到第五页，一种微妙的焦躁会开始升起，…",
+        "他想象了一个通过神经调制把人锁死在单一任务上的世界。聚能人士能够在他所指定的领域发挥超人的效能——代价是丧失不看什么的自由。你不能分心，不能走神，不能突然想起衣…",
+        "也许不是毁书机，不是聚能，而是一种认知世界的变迁。在那个世界里，深度阅读不是被禁止的，而是变得不可想象的，就像我们今天很难想象一个没有人追问然后呢的世界。或许我…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "英国国王召集AI安全峰会；OpenAI发布模型失控报告；玻利维亚发现猫科新物种",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%8B%B1%E5%9B%BD%E5%9B%BD%E7%8E%8B%E5%8F%AC%E9%9B%86AI%E5%AE%89%E5%85%A8%E5%B3%B0%E4%BC%9A%EF%BC%9BOpenAI%E5%8F%91%E5%B8%83%E6%A8%A1%E5%9E%8B%E5%A4%B1%E6%8E%A7%E6%8A%A5%E5%91%8A%EF%BC%9B%E7%8E%BB%E5%88%A9%E7%BB%B4%E4%BA%9A%E5%8F%91%E7%8E%B0%E7%8C%AB%E7%A7%91%E6%96%B0%E7%89%A9%E7%A7%8D",
+      "published": "Fri, 18 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "McGetchin",
+        "Cloudflare",
+        "NaviX",
+        "PAI1"
+      ],
+      "summary": "今天是9月18日，星期五。1977年的今天，NASA旅行者1号探测器在距地球约1166万公里处回望，拍下了人类历史上首张从深空同时看到地球和月球的合影。 重点新闻速览 1. OpenAI发布模型失控报告 2.英国国王查尔斯召集AI安全峰会 3.玻利维亚发现猫科新物种 科技 英国国王查尔斯召集AI安全峰会 9月17日，英国国王查尔斯三世在苏格兰举办AI安全峰会，邀请英伟达、谷歌DeepMind、OpenAI和Anthropic等公司高管参会。 查尔斯在致辞中警告AI开发者必须保持“道德价值”，防止技术构成威胁或落入恶…",
+      "key_points": [
+        "OpenAI发布模型失控报告 2.英国国王查尔斯召集AI安全峰会 3.玻利维亚发现猫科新物种 科技 英国国王查尔斯召集AI安全峰会 9月17日，英国国王查尔斯三…",
+        "查尔斯在致辞中警告AI开发者必须保持“道德价值”，防止技术构成威胁或落入恶意行为者手中。他表示“我们必须在一切为时已晚之前拥有足够的控制手段”。（Bloombe…",
+        "新形成的McGetchin撞击坑周围一个宽约7公里的神秘“冷斑”。科学家利用LRO搭载的Diviner热辐射仪测量发现，撞击坑周围月夜温度比周边低8至9开尔文。…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "DLSS 5 把显卡干趴下了，英伟达却觉得这很重要",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+DLSS+5+%E6%8A%8A%E6%98%BE%E5%8D%A1%E5%B9%B2%E8%B6%B4%E4%B8%8B%E4%BA%86%EF%BC%8C%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%8D%B4%E8%A7%89%E5%BE%97%E8%BF%99%E5%BE%88%E9%87%8D%E8%A6%81",
+      "published": "Fri, 18 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DLSS",
+        "AI",
+        "DLSS5",
+        "RTX",
+        "https",
+        "K27"
+      ],
+      "summary": "谁还记得 5 月份，黄仁勋来北京，仅仅一天内就受到两次冲击。一个是老北京豆汁儿，一个是路人阿姨的“暴力”美颜滤镜。 网图 很快这张图就在游戏玩家圈里流传开。有玩家用此来吐槽当时 DLSS 5 的展示效果，“极限磨皮”、“整容”、“AI 味”。 DLSS（又被戏称大力水手），可以先把它理解成英伟达推出的一套游戏图形技术。过去的 DLSS 主要帮游戏提高分辨率和帧数，DLSS 5 进一步升级，用 AI 渲染游戏画面的光影、材质和场景，逼近真实。 皮肤、光影、材质被 AI 重新渲染｜Digital Dreams 9 月…",
+      "key_points": [
+        "皮肤、光影、材质被 AI 重新渲染｜Digital Dreams 9 月 3 日，DLSS 5 随《NBA 2K27》正式上线。目前，英伟达官方版本只支持 RT…",
+        "英伟达自己也在把神经渲染放进一个比游戏更大的故事里。在 2026 年 SIGGRAPH 上，它把 3D 引导神经渲染（实时渲染画面，尤其是过去处理不好的光影、材…",
+        "同一个模型在不同生成强度下的表现｜英伟达 为了避免生成结果的出入——连续画面忽明忽暗，甚至突然变形，上一步的游戏引擎会把例如一只手的移动方向、距离、轨迹等组成的…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一种可能让孩子性早熟的东西，很多人给娃洗衣服时都在用……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E7%A7%8D%E5%8F%AF%E8%83%BD%E8%AE%A9%E5%AD%A9%E5%AD%90%E6%80%A7%E6%97%A9%E7%86%9F%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E7%BB%99%E5%A8%83%E6%B4%97%E8%A1%A3%E6%9C%8D%E6%97%B6%E9%83%BD%E5%9C%A8%E7%94%A8%E2%80%A6%E2%80%A6",
+      "published": "Fri, 18 Sep 2026 16:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "L.",
+        "of",
+        "R.",
+        "al.",
+        "amp",
+        "fragrance"
+      ],
+      "summary": "它就是—— 留香珠。 如果你不太熟悉这个名字，那你可能也在各种社交平台上见过这种产品，或者生活中其实已经用过了，它长这样—— 图片来源：小红书 留香珠属于近几年开始火起来的一种“洗衣伴侣”， 和洗衣液、洗衣凝珠、柔顺剂等不一样，留香珠可以没有清洁、柔顺效果，它的目的就是为织物增加香味的 ，属于近些年的一种新兴网红产品。 清新又甜润的香气充斥了所有感官！ 洗衣服被子的时候加点它，味道持久，仿佛回到了在妈妈肚子里，特别安心 隔着屏幕看到这些描述，小女孩大女孩都很扛住诱惑吧，毕竟，谁不希望自己从头到脚、到被窝都是香香的呢…",
+      "key_points": [
+        "图片来源：电商平台 留香珠的主要作用是“留香” 它的残留物可能增加儿童性早熟风险 作为一种香氛产品，留香珠中绝对不可缺少的就是香精",
+        "就算不给孩子的衣服用，大人自己洗衣服时用了之后，在晾晒、穿着过程中，这种量级的香氛释放，也很难避免会影响到孩子",
+        "那你可能也在各种社交平台上见过这种产品，或者生活中其实已经用过了，它长这样—— 图片来源：小红书 留香珠属于近几年开始火起来的一种“洗衣伴侣”， 和洗衣液、洗衣…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "希区柯克最独特的优点，是什么？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%B8%8C%E5%8C%BA%E6%9F%AF%E5%85%8B%E6%9C%80%E7%8B%AC%E7%89%B9%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%8C%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F",
+      "published": "Fri, 18 Sep 2026 21:28:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BFI",
+        "hongmomgs",
+        "irisfilm",
+        "Issac",
+        "qq.com",
+        "Samuel"
+      ],
+      "summary": "作者：Samuel Wigley 译者：Issac 校对：易二三 来源：BFI（2016年8月15日 ） 阿尔弗雷德·希区柯克1946年的经典电影《美人计》不仅仅是一部间谍片，它还是一个变态的爱情故事，呈现了美国电影中最痛苦的关系之一。 艾丽西亚：我的车停在外面。 德夫林：并不意外。 艾丽西亚：想要去兜兜风么？ 德夫林：当然。 1946年8月15日，阿尔弗雷德·希区柯克的《美人计》在纽约首映，70年后，你无法摆脱这样一种感觉：它是一部完美的电影——一部你不想改变其中任何东西的罕见的电影。 《美人计》（1948） 除…",
+      "key_points": [
+        "在高手云集的表演中，希区柯克拥有一些有史以来最完美的主演表演。英格丽·褒曼、加里·格兰特和克劳德·雷恩斯——这是电影界的三大主演。导演在1941年的《深闺疑云》…",
+        "《美人计》仍然是旧好莱坞力量和复杂性的持久证明。但它在快乐和痛苦之间，在诱人的表面和黑暗的深处之间的平衡，是希区柯克式的独特之处",
+        "《美人计》（1948） 除了1958年的《迷魂记》，这部电影无疑是悬疑大师希区柯克最严肃、最悲伤、最反常的作品"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "十年前，它是我的年度最佳",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8D%81%E5%B9%B4%E5%89%8D%EF%BC%8C%E5%AE%83%E6%98%AF%E6%88%91%E7%9A%84%E5%B9%B4%E5%BA%A6%E6%9C%80%E4%BD%B3",
+      "published": "Fri, 18 Sep 2026 21:28:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Butterworth",
+        "gay",
+        "hongmomgs",
+        "irisfilm",
+        "Jez",
+        "qq.com"
+      ],
+      "summary": "文 黄小米 如何面对生活的耗损？德国电影《托尼·厄德曼》里的父亲相信人们应该随时创造笑的片刻，希望时间停顿，而他的女儿则从A到B不断完成任务，最好忙得没空来想是否快乐这些大题目。 女儿与父亲 他们的隔阂不仅是代际间的，也单纯是人与人之间的，但亲情的尴尬处也许就在于常常让两类截然不同的人不得不同在一个屋檐下，甚至勉强维持表面的和平，本来也可以好好的，不过这部电影里的父亲却越界强行进入女儿的生活，将尴尬的父女关系以巴洛克式的风格推到极致。 电影里的老父从第一幕以幻想中的托尼·厄德曼的身份戏弄快递小哥开始，就让人想起英国…",
+      "key_points": [
+        "即将遭到驱逐的癫狂男主角打起鼓召唤传说中会保佑他的巨人，而《托尼》没有这样高潮的结尾，没了狗和母亲的老父只能召唤托尼这个小丑分身才能和女儿进行真心的交流，除此之…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "铭记，九一八！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E9%93%AD%E8%AE%B0%EF%BC%8C%E4%B9%9D%E4%B8%80%E5%85%AB%EF%BC%81",
+      "published": "Fri, 18 Sep 2026 07:30:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "今年是九一八事变爆发95周年！ 铭记历史 珍爱和平 如今 战争虽已远去 但那段历史应铭记于每位中国人的心中 不忘曾经烽烟起 心中长鸣警钟声 勿忘国耻，吾辈自强！ 文章原文",
+      "key_points": [
+        "今年是九一八事变爆发95周年",
+        "铭记历史 珍爱和平 如今 战争虽已远去 但那段历史应铭记于每位中国人的心中 不忘曾经烽烟起 心中长鸣警钟声 勿忘国耻，吾辈自强"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "技术恶性循环",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%8A%80%E6%9C%AF%E6%81%B6%E6%80%A7%E5%BE%AA%E7%8E%AF",
+      "published": "Fri, 18 Sep 2026 11:24:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Midjourney",
+        "Bitsea",
+        "PDF",
+        "V8.2"
+      ],
+      "summary": "我想，我们不能总是用技术手段解决技术带来的问题，那样会没完没了。 比如说，书太多看不完，让 AI 给一个简要总结。电影看不完，让 AI 给一个剧情介绍。AI 当然效率很高，高到产生新的问题：你会在短时间内得到一堆书籍简要总结，一堆电影剧情简介，那么，接下来你是不是要继续让 AI 做总结的总结，简介的简介？ 为什么书太多？因为印刷术和排版术带来的出版效率暴增。为什么影视剧太多？是因为带宽和流媒体技术带来的传输革命，以及现在 AI 提升了制作影视节目的效率。这些都是技术进步带来的丰饶，也因此带来了信息过载。 面对如此丰…",
+      "key_points": [
+        "就脱离了用技术手段解决技术问题的恶性循环。我不再把内心的问题外包给外部的技术手段，而是询问自己内心一个极为重要的问题，我想，这也许是许多人都应该询问自己的问题：…",
+        "也不愧疚，我就不需要额外引入技术手段去帮助我自己，安抚我自己。就像是我每天要专门花时间去小区里查看一枚石榴一样，走出去看它，这是件麻烦的事情，尤其是在刮风下雨的…",
+        "就等于是读了一本书，于是每天都有看不完的简要总结，然后总结迅速堆积起来，变成新的问题。很多人之前觉得选择一部影视剧打发时间太难，耗时太长，现在技术手段提供了可以…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "Science刊登中国研究：AI一次看146种病，医疗GPT时刻快来了？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+Science%E5%88%8A%E7%99%BB%E4%B8%AD%E5%9B%BD%E7%A0%94%E7%A9%B6%EF%BC%9AAI%E4%B8%80%E6%AC%A1%E7%9C%8B146%E7%A7%8D%E7%97%85%EF%BC%8C%E5%8C%BB%E7%96%97GPT%E6%97%B6%E5%88%BB%E5%BF%AB%E6%9D%A5%E4%BA%86%EF%BC%9F",
+      "published": "Fri, 18 Sep 2026 12:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CT",
+        "RADAR",
+        "GPT",
+        "Science",
+        "AUC"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 撰文｜李珊珊 ‍ ● ● ● “一个年轻的放射科医生最怕进哪个组？” “那肯定是腹部组。” 浙江大学医学院附属第一医院放射科主任肖文波的一句日常调侃，道出了腹部CT诊断的难度。多个器官挤在同一张影像里，上百种病变可能同时出现。对放射科医生而言，腹部CT一直是最考验阅片经验的场景之一。 现在，AI开始进入这片“禁区”。 一项9月18日发表于 Science 的研究显示：由阿里巴巴达摩院联合浙江大学医学院附属第一医院等机构研发的通用医疗影像AI模型DAMO…",
+      "key_points": [
+        "一项9月18日发表于 Science 的研究显示：由阿里巴巴达摩院联合浙江大学医学院附属第一医院等机构研发的通用医疗影像AI模型DAMO RADAR，在面向腹部…",
+        "专病模型的研究范式面临巨大挑战：一个疾病训练一个模型，开发周期漫长、人工标记成本高昂、跨场景泛化能力羸弱。此外，面对分诊不那么明确、器官相互遮掩、合并症频发的真…",
+        "一个专家级的通才医疗AI 04 医疗影像的GPT时刻和未竟之局 对医疗AI行业来说，RADAR的意义不只在于腹部CT上的数据表现。这项研究发表于《Science…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "咖啡太烫，真会增加癌症风险吗？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%92%96%E5%95%A1%E5%A4%AA%E7%83%AB%EF%BC%8C%E7%9C%9F%E4%BC%9A%E5%A2%9E%E5%8A%A0%E7%99%8C%E7%97%87%E9%A3%8E%E9%99%A9%E5%90%97%EF%BC%9F++%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Fri, 18 Sep 2026 13:41:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "hot",
+        "an",
+        "three-fold",
+        "to",
+        "analysis"
+      ],
+      "summary": "本文选自经济学人科技版块 Sep 11th 2026 https://www.economist.com/science-and-technology/2026/09/11/hot-coffee-could-cause-oesophageal-cancer 刚冲好的咖啡，不少人习惯趁热喝。但一项覆盖近100万名英国成年人的研究发现，偏爱“很烫”茶或咖啡的人，罹患食管鳞状细胞癌的风险约为偏爱温热饮品者的3倍。 对高温饮品的担忧并非今天才有。早在2016年，世界卫生组织下属的国际癌症研究机构就把65℃以上的热饮列为“可…",
+      "key_points": [
+        "本文选自经济学人科技版块 Sep 11th 2026 https://www.economist.com/science-and-technology/2026…",
+        "写在最后 这篇文章的完整双语版会在下周的 知行者联盟·365 天外刊阅读会员中心 ：年费会员：会员中心每天更新一篇《经济学人》双语文章和一份 The World…",
+        "这一风险高出约两倍，也就是达到原来的3倍；喜欢喝“烫”饮品的人，风险升幅相对较小。如果所有习惯喝“很烫”饮品的人都等它稍凉一些再喝，那么英国每年约3,200例相…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "云风",
+      "source": "云风的 BLOG",
+      "source_url": "http://blog.codingnow.com/atom.xml",
+      "title": "Caves of Qud 初体验",
+      "title_zh": null,
+      "url": "https://blog.codingnow.com/2026/09/caves_of_qud.html",
+      "published": "2026-09-18T07:29:14Z",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Roguelike",
+        "Caves",
+        "NetHack",
+        "of",
+        "Qud",
+        "AI"
+      ],
+      "summary": "关注 Caves of Qud（卡德洞窟）很久了，之前一直没下决心玩。最近发现它更新了多语言支持分支，在 steam 创意工坊里有了一个初步的中文 mod ，便试了试，果真很有趣。 我玩传统 Roguelike 很久了。最早是在 GBA 上用干电池玩特鲁尼克大冒险（以及后来风来的西林系列）。在 2008 年的时候就试过 NetHack 还尝试过做汉化 。ps. 现在已经有针对最新 5.0 版 NetHack 的中文版本了，在 AI 翻译的加持下，体验很不错。后来沉迷过很长时间（600+ 小时）的 Rogue's T…",
+      "key_points": [
+        "现在已经有针对最新 5.0 版 NetHack 的中文版本了，在 AI 翻译的加持下，体验很不错。后来沉迷过很长时间（600+ 小时）的 Rogue's Tal…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-19",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "给城里人搞点事情",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%BB%99%E5%9F%8E%E9%87%8C%E4%BA%BA%E6%90%9E%E7%82%B9%E4%BA%8B%E6%83%85",
+      "published": "Tue, 15 Sep 2026 12:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HYROX",
+        "Midjourney",
+        "AI",
+        "BA",
+        "Bitsea",
+        "City"
+      ],
+      "summary": "很久以前，我就发现下班之后的八小时很难打发。一方面是因为纠集一班朋友越来越难，有人要加班，有人要恋爱，有人要带孩子，另一方面是因为可以参与的项目极为有限，搞来搞去也就是那几样，而且每一次的体验也不确定。哪怕是你最喜欢的餐厅，也未必能做到每次去都满意。 所以，如何安排都市人口的这八个小时一直就是个问题。既要满足一些轻量社交的需求，又要有趣有挑战有成就感，还要能够形成一种潮流，起码要让一批人趋之若鹜。之前，已经有过马拉松，有过玩飞盘，有过自行车骑行，以及突然没了声息的「City Walk」。 说实话，没有一样能干得过广…",
+      "key_points": [
+        "类似HYROX这样的活动提供了一个思路，就是说人类吃完饭之后，总是有聚集在一起扔巨石玩的冲动，内心总希望还有一帮人在边上看着。无非是不同时代的巨石有不同选择，但…",
+        "我觉得这么无聊的事情谁会喜欢？但是我转念一想，可能自己还是想简单了。人类好像自古就有这种嗜好---一群人聚集起来，做一些朴实简单的动作，搞一搞比赛，大家却欢天喜…"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792588",
+      "published": "Mon, 14 Sep 2026 22:59:58 GMT",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GT",
+        "Author",
+        "Bowen",
+        "C-14"
+      ],
+      "summary": "瞎扯 · 给男朋友买 GT 1030 显卡，但他表情很怪怎么办? 知乎日报 查看知乎原文 Q： 给男朋友买 GT 1030 显卡，但他表情很怪怎么办? @物种多样性鉴定中 ：过情人节，你男朋友送你你个，你觉得怎么样 Q： 兔子为什么无法超越猫咪在宠物中的地位？ @Author Bowen ：现在的流浪猫已经进化到母猫会给小猫找领养家庭的地步了。 Q： 可以说一个比较小众的冷知识吗？ @往事并不如烟 ：博物馆文物展牌上标注的「距今 ×× 年」的「今」指的是 1950 年，而不是今年。 原因是 1950 年是 C-14…",
+      "key_points": [
+        "瞎扯 · 给男朋友买 GT 1030 显卡，但他表情很怪怎么办"
+      ]
+    }
+  ]
+}
