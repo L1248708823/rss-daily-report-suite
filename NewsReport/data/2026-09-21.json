@@ -1,0 +1,789 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T01:00:10.980519+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 2,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 3,
+    "items_collected": 98,
+    "fresh_candidates": 62,
+    "backfill_candidates": 36,
+    "items_published": 23,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-21",
+      "fetched_at": "2026-09-21T01:00:05.679931+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3911.87,
+          "change": 36.27,
+          "change_pct": 0.94,
+          "volume": 485712507.0,
+          "amount": 99416945.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4367.2,
+          "change": -11.090000000000146,
+          "change_pct": -0.25,
+          "prev_close": 4378.29,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-21 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 940.3166331763306,
+          "change": -2.3878254858777836,
+          "change_pct": -0.2532952362680395,
+          "prev_close": 942.7044586622084,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-21 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "先救五粮液，再救价值投资！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8848474473/409928599",
+      "published": "Sun, 20 Sep 2026 11:03:37 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH600519",
+        "SZ000858",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "2016年9月13日，A股市场情绪低迷，财经评论家水皮问李大霄：“国家队在哪？”李大霄回答：“国家队在这里，不要慌。”随后说出了一句后来被很多投资者记住的话：“先救香港，再救内地。” 十年过去了，我突然觉得，这句话放到今天的白酒板块，竟然有一种莫名的熟悉感。 如果价值投资真的需要重新建立信心，那么我想说一句：先救五粮液。为什么是五粮液？因为五粮液已经不是简单的跌多了，而是跌得太久了。 从2021年历史高点算起，这轮调整已经超过五年，跨越了六个年度。2021年2月，五粮液总市值一度达到约1.31万亿元，如今只剩270…",
+      "key_points": [
+        "那么我想说一句：先救五粮液。为什么是五粮液？因为五粮液已经不是简单的跌多了，而是跌得太久了",
+        "A股市场情绪低迷，财经评论家水皮问李大霄：“国家队在哪？”李大霄回答：“国家队在这里，不要慌。”随后说出了一句后来被很多投资者记住的话：“先救香港，再救内地。”…",
+        "从来不是在人声鼎沸的时候证明一家公司有多优秀，而是在所有人都开始怀疑它的时候，重新审视五粮液的价值"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "光进铜退，但是铜的价值却越来越高",
+      "title_zh": null,
+      "url": "http://xueqiu.com/8755156034/409945735",
+      "published": "Sun, 20 Sep 2026 11:02:31 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PCB",
+        "Serdes",
+        "Molex",
+        "AI",
+        "http",
+        "SH688629"
+      ],
+      "summary": "所谓“光进铜退”是：AI数据中心在不断地演进中，Serdes的传输速率越高，铜线所能覆盖的距离越短，这些部分就会被光传输所替代。但是这个口号，让小白们错误的认为，铜线产业快结束了，但事实是，铜线产业的产值越来越大，并且在不断地加速。 下表是铜线行业的两个典型企业近5年业绩变化，铜线的产业确实在超高速变大： 这就是因为一个非常重要的物理效应，也就是信号在铜线传输时候的 趋肤效应 ，导致了铜退，但是铜的价值不退，不仅不退，反而大幅提升。 不同的Serdes 速率，的趋肤效应参数如下，趋肤效应也带来了铜缆表面光滑度的需求…",
+      "key_points": [
+        "所谓“光进铜退”是：AI数据中心在不断地演进中，Serdes的传输速率越高，铜线所能覆盖的距离越短，这些部分就会被光传输所替代。但是这个口号，让小白们错误的认为…",
+        "下表是铜线行业的两个典型企业近5年业绩变化，铜线的产业确实在超高速变大： 这就是因为一个非常重要的物理效应，也就是信号在铜线传输时候的 趋肤效应 ，导致了铜退，…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "紫金矿业真的失去成长性，成为普通的矿业周期股？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4037253652/409896315",
+      "published": "Sun, 20 Sep 2026 11:02:18 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "SH601899",
+        "SH603993",
+        "SZ000630",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "$紫金矿业(SH601899)$ 加息之后，唱空有色的大V忽然多了起来，本人认真的看了几个，看看有没有道理，兼信则明，偏听则暗嘛，结果发现都是不讲数据的胡扯，比如色鬼们看中 紫金矿业，是因为他的成长性，但是这些大V认为紫金矿业过去是有成长性，但现在只能算一个普通的矿业周期股：价格涨它涨，价格跌它跌，它已经没有那种颠覆性的增量了。 他说：“紫金矿业当年只是一个县级小厂，后来做了一件对今天非常重要的事：2012年收购了刚果金的卡莫阿-卡库拉矿。那时铜价很低，很多矿亏损，国外大矿开始甩卖手里未开采的矿。当时他手里分毛没有…",
+      "key_points": [
+        "唱空有色的大V忽然多了起来，本人认真的看了几个，看看有没有道理，兼信则明，偏听则暗嘛，结果发现都是不讲数据的胡扯，比如色鬼们看中 紫金矿业，是因为他的成长性，但…",
+        "紫金矿业过去为什么成长得快？因为它收购的矿正好进入开采期，又正好赶上价格大涨，产量在增加、价格在上涨，成长性当然强。但是卡莫阿-卡库拉这些矿都投产了，它未来的增…",
+        "紫金成为矿业巨头后，是不是就失去了成长性，就象20岁2米的姚明，无法长到4米"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "以自身的确定性迎接未知的不确定-朝着六边形战士的方向前进",
+      "title_zh": null,
+      "url": "http://xueqiu.com/7123126150/409842183",
+      "published": "Sun, 20 Sep 2026 11:02:07 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "以自身的确定性迎接未知的不确定-朝着六边形战士的方向前进 股票投资作为参与度极高，门槛低的理财渠道，市场上有着很多的方法论，投资观，盈利模式。淮南之橘未必适应于淮北，找到适应自己的投资方法仍然尤为重要。本人作为参与市场19年的老投资者，认真学习过美国和中国优秀价值投资者的文章，也经历了两次牛熊大转换，自觉应该把自己的想法总结一下，供各位参考。 一，基础认知 投资股票的生意模式。股票本身的生意模式类似于重资产经营，风险前置的模式，即:全额投入在前，分享盈利在后。从这个角度讲，必须要慎之又慎，对于普通散户而言，与无风险…",
+      "key_points": [
+        "以自身的确定性迎接未知的不确定-朝着六边形战士的方向前进 股票投资作为参与度极高，门槛低的理财渠道，市场上有着很多的方法论，投资观，盈利模式。淮南之橘未必适应于…",
+        "而持仓的每一个公司都要类似于六边形战士。而六边形战士就是要综合看起来最稳最优。比如陕西煤业，在煤质，储量，经营，派息，估值等方面取得了一个较好的平衡。怎么看也是…",
+        "需求永续。对比了港口、水电与煤炭、油气等行业的长期需求，我认为港口和水电具备更强的永续经营属性，可以用极长的确定性对冲短期波动。反面案例是纺织业向东南亚转移——…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "奇怪了！利率不断走低，美元走高！人民币却破了6.7",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1843761023/409916036",
+      "published": "Sun, 20 Sep 2026 10:59:50 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "今年以来，10年国债利率不断走低，但人民币却不断升值，本周还破了6.7！ 放在以前，美元/人民币的走势和10年国债利率是负相关关系。 往往是利率走高，人民币升值；利率走低，人民币贬值。 为什么今年如此反常呢？是好事还是坏事呢？ 一、利率与汇率的关系 汇率升值，直接原因就是有资金大量流入。 至于资金为什么流入，原因就各有不同了。 但利率肯定是其中之一。 资金天然追逐高利润，如果一国的利率走高，就会更愿意进入这个国家。 但这并不绝对，还要看利率走高的原因。 如果利率走高是因为政府大量印钱引起通货膨胀的话，这种高利率恰好…",
+      "key_points": [
+        "10年国债利率不断走低，但人民币却不断升值，本周还破了6.7",
+        "二、内需强和外需强对利率的影响不同 如果是内需很强， 对应的是国内的投资和消费很旺盛，对人民币需求大，于是利率走高",
+        "如果10年国债利率上升到2%！现在的美元/人民币恐怕已经逼近6了"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "FDE这么火，产品经理要不要跟？我来泼点冷水",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6467287.html",
+      "published": "Sun, 20 Sep 2026 10:33:56 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FDE",
+        "AI",
+        "Agent",
+        "ToB",
+        "Palantir",
+        "Anthropic"
+      ],
+      "summary": "最近后台被问得最多的一个问题： “杰哥，FDE是不是产品经理的新出路？” 我理解大家为什么心动。你去看看FDE的面试题就知道了。有人在Reddit上整理了一份Anthropic的FDE面试指南，里面的题大概是这样的： 一家银行想用AI自动化分析师的工作，第一步干什么？ 客户买了AI、搭了系统，结果说不好用，是模型的锅、数据的锅、权限的锅，还是工作流选错了？ 老板要让Agent直接改生产系统，安全团队死活不同意，你听谁的？ 看完是不是有点熟悉？这哪是工程师面试，这分明是产品经理的日常啊。 所以很多人第一反应是：这岗位…",
+      "key_points": [
+        "最近后台被问得最多的一个问题： “杰哥，FDE是不是产品经理的新出路？” 我理解大家为什么心动。你去看看FDE的面试题就知道了。有人在Reddit上整理了一份A…",
+        "你看缺的是哪部分？懂业务、会判断、能推动。这恰恰是好产品经理的看家本领。而且说实话，让工程师补这些，比让产品经理补技术还难",
+        "先别急。我的观点很直接： FDE适合一部分产品经理，但绝对不是所有产品经理的升级路线。在中国，它甚至可能是个坑"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "又一家AI大厂发福利，无套路送75天会员",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6467247.html",
+      "published": "Sun, 20 Sep 2026 09:28:17 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Step",
+        "AI",
+        "Plan",
+        "Preview",
+        "Agent",
+        "Coding"
+      ],
+      "summary": "正准备睡个回笼觉呢，就看到一个可以顺手领的AI福利，怪哥就立马不困了，上线分享给大家。 这次做福利的是阶跃星辰的 Step Plan订阅会员 。领取后也不需要下载他们的客户端，可以在WorkBuddy、千问办公各种AI软件里配置自定义模型时候调用就行，这也太良心了。 阶跃AI这个名字可能很多人不太熟，但人家其实是国产第一梯队大模型，也是AI六小虎。今天刚刚发布了一款新的旗舰模型—— Step 5 Preview 。 这个模型还挺有意思。 600B总参数，每次只激活27B，支持 100 万 Token 上下文 ，还能…",
+      "key_points": [
+        "这次做福利的是阶跃星辰的 Step Plan订阅会员 。领取后也不需要下载他们的客户端，可以在WorkBuddy、千问办公各种AI软件里配置自定义模型时候调用就…",
+        "就看到一个可以顺手领的AI福利，怪哥就立马不困了，上线分享给大家"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6467184.html",
+      "published": "Sun, 20 Sep 2026 08:16:47 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Jev",
+        "LLM",
+        "TypeSafe",
+        "RLHF",
+        "Almeida"
+      ],
+      "summary": "一个不会写字、只做判断的新模型，来自前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI。这篇笔记梳理了它的 RLCD 训练法、把智能塞进旧壳子的四个比喻，以及十八个行业用例，也如实列出自测数字与「零幻觉」两处可疑的地方。 We’re building prod, not God. 我们要造能投入生产的东西，不是造神。 ——TypeSafe AI 这两天听到不少人提Jev，好奇去官网看了下，特别是他们的宣言印象深刻，又陆续看了一些相关内容，算我此刻的笔记，分享一下～ 一、RLHF的核…",
+      "key_points": [
+        "它真正的竞品可能不是前沿LLM： Jev要赢的不是GPT或Claude，而是蒸馏到极限的小模型、训练好的传统分类器、规则引擎；OpenAI Structured…",
+        "四、用例地图：它如何思考和软件的关系 官方文档里有一页Use Case Map，我觉得比新闻稿更能说明他们怎么想问题。五大方向： AI Automation S…",
+        "——TypeSafe AI 这两天听到不少人提Jev，好奇去官网看了下，特别是他们的宣言印象深刻，又陆续看了一些相关内容，算我此刻的笔记，分享一下～ 一、RLH…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "SDK实战：产品经理快速开发远程同步观影创意应用",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6467145.html",
+      "published": "Sun, 20 Sep 2026 06:47:50 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "SDK",
+        "Web",
+        "amycr",
+        "Android",
+        "API",
+        "APP"
+      ],
+      "summary": "音视频互动产品开发门槛高？成熟SDK早已抹平技术鸿沟。本文分享一次完整实操：如何依托云屋音视频SDK，3天落地「多人同步远程观影+实时连麦互动」小应用，从需求拆解到功能实现，全程聚焦产品思维与体验优化，为小团队快速验证创意提供可复用的方法论。 作为产品经理，我们常常陷入一个误区：觉得音视频类互动产品开发门槛极高，需要深耕流媒体传输、编码解码、网络适配、降噪防抖等底层技术，小团队根本无法快速落地。但实际上，成熟的音视频 SDK 早已抹平了技术鸿沟， 产品的核心竞争力，从来不是重复造轮子，而是用成熟技术快速落地创意场景…",
+      "key_points": [
+        "音视频互动产品开发门槛高？成熟SDK早已抹平技术鸿沟。本文分享一次完整实操：如何依托云屋音视频SDK，3天落地「多人同步远程观影+实时连麦互动」小应用，从需求拆…",
+        "于是敲定产品创意：打造一款轻量化远程同步观影小应用，核心定位「轻量、极速、同步、沉浸式互动」，主打异地好友同步看剧、线上影视沙龙、小型趣味观影分享场景",
+        "四、产品复盘：小团队做音视频创意应用的关键取舍 这次 3 天落地创意小应用的过程，让我对 “产品经理如何借力 SDK 做验证” 有了更具体的体会。很多团队一开始…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "教别人用AI，我赚翻了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6467113.html",
+      "published": "Sun, 20 Sep 2026 06:14:46 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "PPT",
+        "AIGC",
+        "One",
+        "API",
+        "ChatGPT"
+      ],
+      "summary": "AI 正在让越来越多技能变得廉价，但教别人怎么用 AI 反而成了一门越来越具体的生意。文章梳理了它的价格带：闲鱼上 9.9 元的教程半年能卖出上万份，有人靠几百元的付费社群聚集上千名学员，也有人把一对一咨询卖到 2000 元一小时。 AI正在让越来越多技能变得廉价，但“教别人怎么用AI”，反而成了一门越来越具体的生意。 它的价格跨度很大。闲鱼上，9.9元的AI教程半年能卖出上万份；有人依靠几百元的付费社群模式，聚集上千名学员；也有人把一对一咨询卖到2000元一小时，把企业顾问做到2万元一个月，甚至有单堂企业培训收费…",
+      "key_points": [
+        "再用课教人用AI 张羽明｜北京 AI应用顾问、企业培训师 我并不是专门做AI培训的。我的主业是做AI应用，医疗AI、企业咨询、短视频创作。出去讲课，教别人用AI…",
+        "我们找到了几位正在靠“教别人用AI”赚钱的人。有人把培训当成长期教育生意，也有人很清楚，自己能赚钱的时间只有这一两年的窗口期",
+        "AI只是副业，每个月赚三四千元。后来单子越来越多，我一个人做不过来，就建群免费教别人。里面有自由职业者，也有宝妈，有些人连算力都舍不得买，我就一起提供。我的想法…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "网友称欧洲西瓜硬到要用锯子切，为啥西瓜看起来这么硬？跟我们种的西瓜有啥区别吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792673",
+      "published": "Sat, 19 Sep 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Bouquet",
+        "Style",
+        "Fashion",
+        "Alfred",
+        "ball",
+        "C9"
+      ],
+      "summary": "Alfred大老虎， 拼多多小店：大老虎的农夫果园 查看知乎原文 这个问题跟我是专业对口了，我还是比较擅长玩西瓜的。 欧洲的主流西瓜品种都来源于美系，二战后引进了美国的三大西瓜品类：查尔斯顿灰、绯红甜心和糖宝宝。 美国种西瓜集中在南方两大种植带。一个是东南部亚热带温润区，如佛罗里达、佐治亚、南卡、德州东部。另一个是西南部干旱 / 半干旱荒漠区，如加州、亚利桑那。 从南方的佛罗里达运到北方的华盛顿，要跑 1800 公里。 从南方的加州帝国谷运到华盛顿，要跑 2200 公里。 美国的东北部 + 五大湖地区，人和合计 1…",
+      "key_points": [
+        "欧洲西瓜产区集中于西班牙、希腊、意大利这些低纬度南欧区域，考虑到运输难题，必须选硬皮的",
+        "而我们农场这种种植手法是东部地区的主流种瓜方式。（虽然大部分农场做不到我这么细致，主要是靠羊粪和鸡粪的混合） 因为我们没办法去跟新疆，甘肃，宁夏拼光热条件，我们…",
+        "硬皮系列有充足的木质素和纤维素保护，扛得住更猛的灌溉。我们国家东部地区种韧皮西瓜讲究用砂质的，排水性好的土壤。欧洲不需要，黏性大一点的也能种"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "一块烂木头，凭什么上中国人“上头”上千年？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%80%E5%9D%97%E7%83%82%E6%9C%A8%E5%A4%B4%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E4%B8%8A%E4%B8%AD%E5%9B%BD%E4%BA%BA%E2%80%9C%E4%B8%8A%E5%A4%B4%E2%80%9D%E4%B8%8A%E5%8D%83%E5%B9%B4%EF%BC%9F",
+      "published": "Sun, 20 Sep 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "mm",
+        "diy",
+        "mm+"
+      ],
+      "summary": "你有 没有 在某个困倦的午后，突然被一阵若有若无的香气击中？ 不浓烈，不张扬，却像一只无形的手，轻轻按住你的眉心——世界瞬间安静下来。 那可能就是沉香。 在中国人的香道谱系里，沉香从来不是“之一”，而是“唯一”。 它不像花香甜腻，不似果香活泼，而是一种裹挟着岁月感的沉静。千百年来，帝王将相、文人墨客，无不为这一缕香魂倾倒。 宋人丁谓在《天香传》中开篇便言：“香之为用，其利最溥。” 沉香，正是众香之首，万香之王。 一块“烂木头”竟然比黄金贵几十倍，你敢信？还能让帝王甘愿用三座城池来换它。 沉香为何能担得起“万香之王”…",
+      "key_points": [
+        "如果大家对沉香有好奇或者担心买到假货犹豫不敢入手， 一定要预约我们的直播，看看克价比黄金还高的“烂木头”，到底是怎么回事"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "包装上写了低糖、低GI的月饼，怎么还是死甜死甜的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8C%85%E8%A3%85%E4%B8%8A%E5%86%99%E4%BA%86%E4%BD%8E%E7%B3%96%E3%80%81%E4%BD%8EGI%E7%9A%84%E6%9C%88%E9%A5%BC%EF%BC%8C%E6%80%8E%E4%B9%88%E8%BF%98%E6%98%AF%E6%AD%BB%E7%94%9C%E6%AD%BB%E7%94%9C%E7%9A%84%EF%BC%9F",
+      "published": "Sun, 20 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "GI",
+        "GB",
+        "GL",
+        "guokr.com",
+        "sns",
+        "wikipedia"
+      ],
+      "summary": "现在的月饼，都开始卷健康了。包装上没有“低糖”“低GI”，似乎都不好意思摆出来卖。毕竟谁不想中秋多吃两口月饼，又少一点糖、少一点负担呢？ 问题来了：这些“健康月饼”，是真的能让我们吃得更放心，还是仅仅给月饼加了几个高级标签？ 要回答这个问题，我们得先搞清楚：一块月饼是怎么做到“低糖”“低GI”的？这些改变对一个健康的普通人来说，有多大意义？ 低糖月饼，糖不少，甜也不少 大家买低糖月饼的目的无非两个：想少吃点糖，想少吃点甜。 想少吃糖？ 如果目标是少吃点糖，那么低糖月饼的意义不大 。 从技术上来说，低糖月饼不难做，核…",
+      "key_points": [
+        "都开始卷健康了。包装上没有“低糖”“低GI”，似乎都不好意思摆出来卖。毕竟谁不想中秋多吃两口月饼，又少一点糖、少一点负担呢",
+        "但要是你连吃好几块，碳水化合物的总量大了，血糖负荷也会跟着上去，血糖升高还是在所难免 ；反过来说，一块月饼GI值很高，只吃一小口，实际摄入的碳水化合物很少，血糖…",
+        "咸月饼也需要委婉的甜味来调和风味。减少糖的使用后， 配方一般会使用代糖把甜味补回来 ，而代糖的使用量是不统计在“糖”里的。一块月饼完全可以做到低糖、无糖，但吃起…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "特朗普宣布将组建“人工智能部队”；Anthropic设立湿实验室开展生物学研究；研究利用GPT-6 Astra攻破9年未解数学难题",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%A3%E5%B8%83%E5%B0%86%E7%BB%84%E5%BB%BA%E2%80%9C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%83%A8%E9%98%9F%E2%80%9D%EF%BC%9BAnthropic%E8%AE%BE%E7%AB%8B%E6%B9%BF%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%BC%80%E5%B1%95%E7%94%9F%E7%89%A9%E5%AD%A6%E7%A0%94%E7%A9%B6%EF%BC%9B%E7%A0%94%E7%A9%B6%E5%88%A9%E7%94%A8GPT-6+Astra%E6%94%BB%E7%A0%B49%E5%B9%B4%E6%9C%AA%E8%A7%A3%E6%95%B0%E5%AD%A6%E9%9A%BE%E9%A2%98",
+      "published": "Sun, 20 Sep 2026 18:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Astra",
+        "GPT-6",
+        "Cell",
+        "Gemini"
+      ],
+      "summary": "今天是9月20日，星期日。1981年的今天，“风暴一号”运载火箭在酒泉卫星发射中心成功将三颗空间物理探测卫星送入预定轨道。中国成为世界上第四个掌握“一箭多星”技术的国家。 重点新闻速览 1.特朗普宣布将组建“人工智能部队” 2.Anthropic设立湿实验室开展生物学研究 3.研究利用GPT-6 Astra攻破9年未解数学难题 4.力箭一号“一箭9星”发射成功 5.我国首个“AI+脑机接口”医疗器械标准发布 科技 特朗普宣布将组建“人工智能部队” 9月19日，美国总统特朗普在社交媒体发文宣布，他将组建一支“人工智能…",
+      "key_points": [
+        "重点新闻速览 1.特朗普宣布将组建“人工智能部队” 2.Anthropic设立湿实验室开展生物学研究 3.研究利用GPT-6 Astra攻破9年未解数学难题 4…",
+        "该计划设两种授权：标准使用覆盖日常科研需求，可授予整个团队，每年续期，支持Mythos 5.1、Opus 5和Sonnet 5；高风险使用则移除所有生命科学安全…",
+        "团队利用301份陆地棉种质完成337套Hi-C数据，首次构建棉花群体泛三维基因组图谱，发现纤维品质不只取决于基因序列，还与基因在核内的空间折叠方式密切相关。团队…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "水果刺客界的新顶流，凭什么让大家一边骂一边买？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B0%B4%E6%9E%9C%E5%88%BA%E5%AE%A2%E7%95%8C%E7%9A%84%E6%96%B0%E9%A1%B6%E6%B5%81%EF%BC%8C%E5%87%AD%E4%BB%80%E4%B9%88%E8%AE%A9%E5%A4%A7%E5%AE%B6%E4%B8%80%E8%BE%B9%E9%AA%82%E4%B8%80%E8%BE%B9%E4%B9%B0%EF%BC%9F",
+      "published": "Sun, 20 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "amp",
+        "C+",
+        "CKHKVtdO1rzB7-NzXDaN2Q",
+        "dc_ps",
+        "EB",
+        "emo"
+      ],
+      "summary": "最近几年，水果市场流行一个词，叫“水果刺客”，就是当你在超市冷柜前，随手拿起一盒其貌不扬的小果子， 结账时收银员报出的数字…… 长得像大号儿桑葚的黑莓，就是这些刺客中的一份子。 一盒一百多克，动辄几十块，换算成斤，比牛肉都贵， 可你架不住它好看，紫黑发亮，像刚出炉的黑曜石，加上铺天盖地的“花青素”、“抗氧化”、“低热量”的相关文献证实，贵就贵吧， 把平时的奶茶钱转换成莓果采购基金，似乎也不是什么错误的选择。 图源：o**超市小程序 | 截图时间2026.9.17 但是！等你买回家一吃就发现事情好像不太对！ 那盒售价…",
+      "key_points": [
+        "水果市场流行一个词，叫“水果刺客”，就是当你在超市冷柜前，随手拿起一盒其貌不扬的小果子， 结账时收银员报出的数字…… 长得像大号儿桑葚的黑莓，就是这些刺客中的一…",
+        "顺丰空运【果浆饱满 一口爆汁】 云南高原黑莓果香浓郁（可乐黑莓&amp;花香红莓 双拼可选） 500g/盒 1盒/2盒 推文价： ￥118起 👇🏻 戳下图购买👇…",
+        "晚上用黑莓给自己回血，逻辑完全闭环，再说个数据吓唬你：有研究检测了全球3100多种食物，结果浆果的数值是 其他水果平均水平的整整8倍"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "今天来看，它得奥斯卡是对的",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%8A%E5%A4%A9%E6%9D%A5%E7%9C%8B%EF%BC%8C%E5%AE%83%E5%BE%97%E5%A5%A5%E6%96%AF%E5%8D%A1%E6%98%AF%E5%AF%B9%E7%9A%84",
+      "published": "Sun, 20 Sep 2026 20:29:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Chiron",
+        "Juan",
+        "Kevin",
+        "Riggs",
+        "aggot",
+        "AIDS"
+      ],
+      "summary": "文 Roxie 快十年前的那次奥斯卡颁奖典礼上，大家应该都还记得那次信封事故。 一顿 混乱之后，《月光男孩》成了第一部以同性恋 为主角 获得最佳影片的作品。 在奥斯卡将近九十年的历史里，《费城故事》《断背山》《米尔克》 都企图冲刺这个目标，但都没有达成，结果 一部全黑人卡司的独立电影 实现了 。 当时不觉得它真有那么独特，但十年后再看，它确实对同性电影有一些肉眼可见的改变。 最主要的一点体现在， 过去几十年同性电影最核心的 目标 ， 本来 是争取可见性。 这得从头说起。早年， 好莱坞黄金时代的同性恋角色只能靠暗示存…",
+      "key_points": [
+        "《断背山》 这部 影片的全部戏剧力量集中在同性欲望 和 异性恋规范的对峙上。即便假设《断背山》赢了 当年的奥斯卡 最佳影片，它完成的仍然是同一种政治工作 ， 证…",
+        "文 Roxie 快十年前的那次奥斯卡颁奖典礼上，大家应该都还记得那次信封事故",
+        "《 舌头不打结 》 Riggs拒绝二选一。他拍摄了纽约和旧金山卡斯特罗街区的黑人同性恋社群，包括舞者、诗歌朗诵会 、 游行队伍 ， 同时也拍下这些人在白人主导的…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "斯派克·李和伯内特对我影响巨大",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%96%AF%E6%B4%BE%E5%85%8B%C2%B7%E6%9D%8E%E5%92%8C%E4%BC%AF%E5%86%85%E7%89%B9%E5%AF%B9%E6%88%91%E5%BD%B1%E5%93%8D%E5%B7%A8%E5%A4%A7",
+      "published": "Sun, 20 Sep 2026 20:29:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "David",
+        "gay",
+        "hongmomgs",
+        "irisfilm",
+        "Nagenda",
+        "Netflix"
+      ],
+      "summary": "作者：David Remnick 译者：覃天 校对：易二三 来源：《纽约客》 （2022年2月25日） 2016年的电影《月光男孩》并不像《逃出绝命镇》或是《黑豹》那样在票房上大获成功，但就其本身而言，它同样具有不朽的意义。 它带着微妙、亲密的视角为我们刻画了奇伦这个男孩的形象，以及他从一名男孩成长为了成熟的男人的过程。 然而奇伦是在毒品泛滥的环境下长大的，成年后他开始努力正视自己的性取向。 《月光男孩》获得了当年奥斯卡的最佳影片、最佳改编剧本和最佳男配角三项大奖，这让巴里·詹金斯成为了最著名的青年导演之一。之后，…",
+      "key_points": [
+        "《紫色》（1985） 长大后我看了斯派克·李的电影，看到了真正由黑人拍的黑人电影。再之后我看了查尔斯·伯内特的《杀羊人》，这部电影对我的影响无疑是巨大的，它坚定…",
+        "巴里·詹金斯：正是如此。「改变电影业的环境」真是一个美好的说法。我觉得不同的创作者带着各自不同的能量进入了电影业。现在的环境和八九十年代是完全不同的，我可以想象…",
+        "我首先要说的是——向理查德·波特曼致敬，他就是你刚才提到的那位老师。他是我认识的第一个获得奥斯卡奖的人。他在70年代因为《猎鹿人》获得了奥斯卡最佳音响设计奖，还…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "江西篁岭，一个值得反复去的地方",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E6%B1%9F%E8%A5%BF%E7%AF%81%E5%B2%AD%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%80%BC%E5%BE%97%E5%8F%8D%E5%A4%8D%E5%8E%BB%E7%9A%84%E5%9C%B0%E6%96%B9",
+      "published": "Sun, 20 Sep 2026 20:14:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gt",
+        "lt"
+      ],
+      "summary": "篁岭，是江西省上饶市中一个依山而建、平地极少的村落，人们为了解决粮食晾晒问题，家家户户在房屋二楼外搭置原木晒台，又用竹篾编成一个个晒匾，久而久之，便形成了晒秋的民俗，“晒秋人家”的风景也逐渐吸引了不少游客前去游玩。2023年，篁岭村在联合国世界旅游组织全体大会上脱颖而出，入选“世界最佳旅游乡村”。 每当秋日降临，白墙黛瓦的徽派民居沿山坡层层叠叠，晒台上火红的辣椒、金黄的玉米、洁白的山药等作物在阳光下铺开，五彩缤纷。这个秋天，快@ 你的旅行搭子，一起来篁岭感受晒秋的魅力吧！ #婺源 #篁岭 #晒秋 #国庆去哪玩 #治…",
+      "key_points": [
+        "是江西省上饶市中一个依山而建、平地极少的村落，人们为了解决粮食晾晒问题，家家户户在房屋二楼外搭置原木晒台，又用竹篾编成一个个晒匾，久而久之，便形成了晒秋的民俗，…",
+        "白墙黛瓦的徽派民居沿山坡层层叠叠，晒台上火红的辣椒、金黄的玉米、洁白的山药等作物在阳光下铺开，五彩缤纷。这个秋天，快@ 你的旅行搭子，一起来篁岭感受晒秋的魅力吧",
+        "#婺源 #篁岭 #晒秋 #国庆去哪玩 #治愈系风景 #跟着地理君去旅行 敬请关注 中国国家地理文旅 云端赴山海，风景不间断"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "让我头大的两个问题",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E8%AE%A9%E6%88%91%E5%A4%B4%E5%A4%A7%E7%9A%84%E4%B8%A4%E4%B8%AA%E9%97%AE%E9%A2%98",
+      "published": "Sun, 20 Sep 2026 12:34:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "自从开始写作，我就掉头发。总结起来，应该有一半以上的头发是因为两个常见问题而掉落： ---当我介绍某种美食，留言区里一定会有人问：孕妇能不能吃？ ---当我介绍某部电影，留言区里一定会有人问：X 岁的孩子能看吗？ 我当然可以把这些问题简单理解为个人好奇，或者个人询问，并不必然意味着征询我的意见。但是，如果世界当真那么乐观的话，为什么大部分的药物说明书里，在禁忌一项里都有一句：孕妇禁用，或遵医嘱服用。药厂的不约而同背后是什么？不敢细想。 前阵子著名经典电影《肖申克的救赎》重映，我看到有家长带着 8 岁的孩子兴冲冲跑去…",
+      "key_points": [
+        "这是我真正头大的原因。如果换了是我朋友问我类似的问题，我不会有任何心理压力，照直说就行了。因为这么多年来，我们吃饭、搭车之前从未签署过免责协议书，我很清楚他们能…",
+        "我就掉头发。总结起来，应该有一半以上的头发是因为两个常见问题而掉落： ---当我介绍某种美食，留言区里一定会有人问：孕妇能不能吃",
+        "随口问，并不真的上心。不过作为文字爱好者，我始终认为语言文字是有意义的。一个人怎么说，一定程度上他的话语和文字就代表了他本人。一个惯于责任外包的人，向他提供建议…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "PM2.5下降已超五成，为什么空气治理还要加码？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+PM2.5%E4%B8%8B%E9%99%8D%E5%B7%B2%E8%B6%85%E4%BA%94%E6%88%90%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A9%BA%E6%B0%94%E6%B2%BB%E7%90%86%E8%BF%98%E8%A6%81%E5%8A%A0%E7%A0%81%EF%BC%9F",
+      "published": "Sun, 20 Sep 2026 08:10:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "PM2.5",
+        "Air",
+        "https",
+        "air",
+        "al.",
+        "DOI"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 工作人员进行空气质量监测。图源：联合国环境规划署 撰文｜戴晶晶 ‍ ● ● ● 一座城市的空气，达到什么水平才算合格？ 以PM2.5年均浓度为例，中国上一版《环境空气质量标准》规定的二级限值为35微克/立方米。今年3月起实施的新标准将这一限值收严至25微克/立方米，并分阶段实施——2030年底前按30微克/立方米过渡，自2031年起执行25微克/立方米。这意味着，过去符合标准的空气质量，今后可能不再达标 [1] 。 这次调整发生在中国空气质量已经大幅改善…",
+      "key_points": [
+        "联合国环境规划署与气候与清洁空气联盟发布《隐藏资本：气候与清洁空气行动的经济与健康依据》。报告评估了25项协同应对气候变化和空气污染的措施，发现每投入1美元，可…",
+        "这次调整发生在中国空气质量已经大幅改善之后。过去十多年，中国相继实施《大气污染防治行动计划》《打赢蓝天保卫战三年行动计划》和《空气质量持续改善行动计划》，即通常…",
+        "中国工程院院士、清华大学碳中和研究院院长贺克斌指出，仅靠末端治理，进一步减排的潜力已经有限，美丽中国建设与“双碳”目标行动将为持续改善空气质量提供新动能。团队的…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "经济增长7.8%，印度人为什么高兴不起来？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF7.8%25%EF%BC%8C%E5%8D%B0%E5%BA%A6%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E9%AB%98%E5%85%B4%E4%B8%8D%E8%B5%B7%E6%9D%A5%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sun, 20 Sep 2026 09:39:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "it",
+        "far",
+        "good",
+        "is",
+        "so",
+        "government"
+      ],
+      "summary": "本文选自《经济学人》亚洲版块 Sep 13th 2026 https://www.economist.com/asia/2026/09/13/why-indians-are-unhappy-about-78-economic-growth 截至六月底的三个月里，印度经济同比增长7.8%，远超分析师和央行的预期。放在中东战事恶化、能源价格上涨的背景下，这份成绩单相当亮眼。 莫迪很快在社交媒体上反击唱衰者，民间却没有多少庆祝气氛。城市一下雨便瘫痪，年轻人担心考试泄题、招聘放缓和AI冲击，漂亮的宏观数字很难盖过这些日常经…",
+      "key_points": [
+        "本文选自《经济学人》亚洲版块 Sep 13th 2026 https://www.economist.com/asia/2026/09/13/why-india…",
+        "作者为什么先肯定： 下一句马上就要质疑“举国上下充满幸福”。先承认经济增长和政府应对确有可取之处，后面的反问才不会显得为了批评而批评。这种写法比直接下结论更巧妙…",
+        "知行者联盟·365 天外刊阅读会员中心 ：年费会员：会员中心每天更新一篇《经济学人》双语文章和一份 The World in Brief 全球早报。原文、译文、…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "稚晖君的情书，正式发出来了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E7%A8%9A%E6%99%96%E5%90%9B%E7%9A%84%E6%83%85%E4%B9%A6%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%87%BA%E6%9D%A5%E4%BA%86",
+      "published": "Sun, 20 Sep 2026 19:39:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "T1",
+        "Coding",
+        "Q1",
+        "Tim",
+        "Vibe",
+        "AIBO"
+      ],
+      "summary": "文 ｜ 阑夕 看完启元机器人的新品发布会，有点话不吐不快。 一方面，今夏以来国内展会的机器人含量属实超标，从上海的WAIC到北京的世界机器人大会，包括只允许机器人参加的短跑比赛，节目效果好到不行。 行业形势一片大好，这是再乐观也不过分的事实。 另一方面，人形机器人的应用场景似乎被打上了「思想钢印」，除了表演跳舞打拳，就是执行高难操作，主打工业生产里的人类替换价值。 所以真的不怪人形机器人这条赛道争议缠身，倒不是否定机器人，而是关于人形设计的必要性，泼凉水的声音就没断过。 因为如果只用生产力的标准来做判断，就必然发现…",
+      "key_points": [
+        "他讲了一个自己训练这款机器人的实例： 「因为我平时经常拍视频嘛，我就在 想， 启元 T1 都能自己走、自己跟了，那能不能顺手帮我拍点东西？比如遥控拍摄、运镜走位…",
+        "启元Q1的身高是88厘米，大多数工程师在设计机器人高度时，考虑的是怎样适配元器件的安置，但稚晖君这么制定，是因为88厘米刚好接近中国2-3岁儿童的站立身高，孩子…",
+        "一辆克服物理定律、永远不会倒下的自行车，本身就是人性明亮部分的产物，五年过去，稚晖君把他对人工造物的好奇，装在了两台机器人里，想要送进千家万户"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "潮流周刊",
+      "source": "潮流周刊",
+      "source_url": "https://weekly.tw93.fun/rss.xml",
+      "title": "第283期 - 经典电影",
+      "title_zh": null,
+      "url": "https://weekly.tw93.fun/posts/283/",
+      "published": "Mon, 21 Sep 2026 00:00:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "https",
+        "AI",
+        "Mac",
+        "Mole",
+        "Agent",
+        "github.com"
+      ],
+      "summary": "封面图拍摄于这周六去电影院看《肖申克的救赎》的时候，非常感动，也很有感触，仿佛体会到了 1994 年人们在电影院看它的那种感觉。 记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知 潮流工具 Window Sweaters：给你的 Mac 窗口织毛衣 https://github.com/saragordic/window-sweaters 给 macOS 窗口套上针织边框的菜单栏小玩具，没什么实用价值，但完成度高，看着好有趣。 lazyrsync：Rust 写的 rsync 终…",
+      "key_points": [
+        "只要电影院上映之前的好电影，我就去看 周六下午去看了下《肖申克的救赎》，和之前用电脑、电视看的感觉完全不一样，很沉浸，很享受，仿佛体会到了 1994 年人们在电…",
+        "但是进电影院之前，剧情细节已经忘得差不多了，随着电影慢慢回忆起来的感觉真好。小时候看这个电影有一种在外面看里面人的感觉，现在稍微年长后看有一种从里面看外面人的感…",
+        "封面图拍摄于这周六去电影院看《肖申克的救赎》的时候，非常感动，也很有感触，仿佛体会到了 1994 年人们在电影院看它的那种感觉"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-21",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "如何评价克里斯托弗·诺兰执导的史诗电影《奥德赛》(The Odyssey)？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792628",
+      "published": "Thu, 17 Sep 2026 23:00:00 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "kleos",
+        "nobody",
+        "Hubris",
+        "BGM",
+        "kilos",
+        "Laestrygonians"
+      ],
+      "summary": "风飞扬， 祝好，陌生人! 查看知乎原文 信任，归乡，反战与文明的崩溃。 一位带领团队的男主，一个渴望回家的故事，一部反战主题的电影。还真是巧了，现在正在热映的两部电影都能用这句话介绍，原本龙餐馆应该是瞄准的 7 月中的档期因为协审问题一直拖到现在上映，而《奥德赛》也是 7 月 17 日全球上映内地晚了一个月上映，两者就这么巧地再相遇，主题还这么相似，真是命中注定。 关于《欢迎来龙餐馆》我写的已经很多了， 现在就来讲讲诺兰是怎么用今天的视角与手法改写了这个流传了三千多年的荷马史诗文本 。 先简评一下 这部诺兰的改编集…",
+      "key_points": [
+        "整体结构也像原著一样用了很多的闪回、倒叙、插叙手法，诺兰擅长的就是这个。看采访，令诺兰惊喜的是，《奥德赛》本身的结构也和他以往的叙事趣味惊人地相似。“多年来，我…",
+        "我们就来看看诺兰是如何具体对人物、原著情节进行改编的 比较有意思的是对于西农人设的改编（这个就是备受争议的变性人演员，不是演的网传的阿喀琉斯），西农这个人物是新…",
+        "这一部奥德赛里也几乎隐去了所有的性爱描写，他可能想讲的正是一个正在自我忏悔赎罪的人，怎么能有资格去享受欲望和欢娱呢？当然，这些肯定也会受到场外舆论考虑的影响，总…"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "“长聘制”正在改变，如何保障大学教师的创造力？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E2%80%9C%E9%95%BF%E8%81%98%E5%88%B6%E2%80%9D%E6%AD%A3%E5%9C%A8%E6%94%B9%E5%8F%98%EF%BC%8C%E5%A6%82%E4%BD%95%E4%BF%9D%E9%9A%9C%E5%A4%A7%E5%AD%A6%E6%95%99%E5%B8%88%E7%9A%84%E5%88%9B%E9%80%A0%E5%8A%9B%EF%BC%9F",
+      "published": "Thu, 17 Sep 2026 08:10:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AAUP",
+        "https",
+        "tenure",
+        "aaup-policies-reports",
+        "An",
+        "Andrade"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 图源：Unsplash / Edwin Andrade 撰文｜ 黄福涛 （广岛大学高等教育研究开发中心教授） ‍ ● ● ● 最近，围绕高校教师长聘制度的一轮讨论再次引起社会关注。 在很多公共讨论中，这个问题很容易被简化成两个相反的立场。一种观点认为，高校教师同样不能拥有“铁饭碗”，只有建立能进能出、能上能下的制度，才能防止获得高级职位以后“躺平”；另一种观点则担心，一旦大学教师长期处于考核和淘汰压力之下，就会破坏学术自由，增加职业焦虑，最终损害科研创新…",
+      "key_points": [
+        "这两个判断都有各自的现实依据。但如果讨论只停留在“大学教师该不该有铁饭碗”，反而容易错过一个更重要的问题：大学为什么曾经需要长聘制度？一个以创造知识为主要任务的…",
+        "关于长聘制度真正值得讨论的，也许不是大学教师还能不能保住一个“铁饭碗”，而是：当职业稳定不断减少以后，我们是否同时减少了学者承担长期研究风险的能力",
+        "美国大学教授协会 （AAUP） 关于 post-tenure review 的政策文件可以帮助理解这一边界。AAUP并不主张获得 tenure 之后完全不受评价…"
+      ]
+    }
+  ]
+}
