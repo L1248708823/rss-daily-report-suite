@@ -1,0 +1,721 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T01:00:16.693973+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 8,
+    "items_collected": 89,
+    "fresh_candidates": 53,
+    "backfill_candidates": 36,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-23",
+      "fetched_at": "2026-09-23T01:00:11.391362+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3952.13,
+          "change": 2.22,
+          "change_pct": 0.06,
+          "volume": 506148369.0,
+          "amount": 100799561.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4357.54,
+          "change": -0.7600000000002183,
+          "change_pct": -0.02,
+          "prev_close": 4358.3,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-23 08:59:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 938.6990294339865,
+          "change": -0.1637188097803346,
+          "change_pct": -0.01743799187757597,
+          "prev_close": 938.8627482437669,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-23 08:59:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "别让“最优方案”，成为你亏损的起点",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E5%88%AB%E8%AE%A9%E2%80%9C%E6%9C%80%E4%BC%98%E6%96%B9%E6%A1%88%E2%80%9D%EF%BC%8C%E6%88%90%E4%B8%BA%E4%BD%A0%E4%BA%8F%E6%8D%9F%E7%9A%84%E8%B5%B7%E7%82%B9",
+      "published": "Tue, 22 Sep 2026 21:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：薛洪言 来源：雪球 很多人对投资有一个致命误区 ： 以为只有算得准 、 想得透 、 踩得对 ， 才算专业 。 买前非要把内在价值精确到小数点后两位 ， 卖前非要等到那个完美的顶部 ， 组合非要调到理论最优 。 做不到 ， 就陷入自我怀疑 ， 觉得是自己研究不够透 。 但问题在于 ， 这个标准假设了一个不存在的人 。 你不是一张电子表格 ， 而是一个有情绪 、 会恐慌 、 精力有限 、 还经常被生活琐事分走注意力的真实的人 。…",
+      "key_points": [
+        "一份你坚持不了的最优方案 ， 到头来实际收益就是零",
+        "把一个 “ 大体合理 ” 的系统跑上二十年 ， 往往远胜过一个 “ 绝对正确 ” 却只撑了半年的方案",
+        "买前非要把内在价值精确到小数点后两位 ， 卖前非要等到那个完美的顶部 ， 组合非要调到理论最优"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "中一签浮盈26万！新股最高涨超940%！美股芯片带火A股，算力芯片引爆涨停潮，AI主线卷土重来？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E4%B8%AD%E4%B8%80%E7%AD%BE%E6%B5%AE%E7%9B%8826%E4%B8%87%EF%BC%81%E6%96%B0%E8%82%A1%E6%9C%80%E9%AB%98%E6%B6%A8%E8%B6%85940%25%EF%BC%81%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E5%B8%A6%E7%81%ABA%E8%82%A1%EF%BC%8C%E7%AE%97%E5%8A%9B%E8%8A%AF%E7%89%87%E5%BC%95%E7%88%86%E6%B6%A8%E5%81%9C%E6%BD%AE%EF%BC%8CAI%E4%B8%BB%E7%BA%BF%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%EF%BC%9F",
+      "published": "Tue, 22 Sep 2026 15:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Muse",
+        "PC",
+        "ABS",
+        "Agent",
+        "cm"
+      ],
+      "summary": "市场冲高回落，三大 指数 尾盘集体下挫，创业板指此前一度涨超2%。截至收盘， 沪指 涨0.06%，深成指跌0.05%，创业板指涨0.01%。 沪 深两市成交额2.14万亿，较上一个交易日放量1040亿。 全市场超3000只个股下跌。 盘面上，AI应用、 GPU 概念股走强，互联网、文化传媒、半导体、软件、电脑硬件、生物科技、汽车等板块涨幅居前。通信设备涨幅收窄，海运领跌，能源设备、餐饮旅游、石化、油气、银行等下跌。 01 AI应用掀涨停潮 南威软件 2 连板，光云科技、旋极信息 20cm 涨停，新炬网络、延华智能等…",
+      "key_points": [
+        "中一签（500股）浮盈约26万元",
+        "两家公司都是 国家级专精特新\"小巨人\" ，这也是本轮新股情绪的两个抓手： 中塑股份 专注改性工程塑料，核心产品包括改性PC、PC/ABS、PA、PPA、PBT、…",
+        "9月22日，小米发布并开源Xiaomi MiMo-V2.6系列，包含Pro与Flash两个原生全模态模型。官方称这是其探索RSI（ 递归自我改进 ）路径的关键一…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "用数据打破—纳指100投资信仰！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%94%A8%E6%95%B0%E6%8D%AE%E6%89%93%E7%A0%B4%E2%80%94%E7%BA%B3%E6%8C%87100%E6%8A%95%E8%B5%84%E4%BF%A1%E4%BB%B0%EF%BC%81",
+      "published": "Tue, 22 Sep 2026 15:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "deep",
+        "END-",
+        "seek"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：投资史记 来源：雪球 01 国内市场真有那么不堪吗 ？ 看到这个图 ， 你是感到否惊讶 ？ 如果把起点放在2005年 ， 沪深300并不比标普500差太多 。 deep seek搜了一下的确如此 ： 差异的主要原因是 ： 纳指成分股更偏科技属性 ， 标普和沪深300更有对比性 ， 相差不是太多 。 如果把对比终点换到2020年12月 ， 300全收益甚至跑赢了标普500 ， 如下图 ： 总结 ： A股市场的高波动性 ， 放大…",
+      "key_points": [
+        "持有时间和收益靠信仰 ， 不能人云亦云 ， 投资决策实施前应结合自身实际做最坏打算",
+        "deep seek搜了一下的确如此 ： 差异的主要原因是 ： 纳指成分股更偏科技属性 ， 标普和沪深300更有对比性 ， 相差不是太多",
+        "投资史记 来源：雪球 01 国内市场真有那么不堪吗"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "纳指一直在限购，场内却随便买——我能去场内买吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%BA%B3%E6%8C%87%E4%B8%80%E7%9B%B4%E5%9C%A8%E9%99%90%E8%B4%AD%EF%BC%8C%E5%9C%BA%E5%86%85%E5%8D%B4%E9%9A%8F%E4%BE%BF%E4%B9%B0%E2%80%94%E2%80%94%E6%88%91%E8%83%BD%E5%8E%BB%E5%9C%BA%E5%86%85%E4%B9%B0%E5%90%97%EF%BC%9F",
+      "published": "Tue, 22 Sep 2026 15:43:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "QDII",
+        "App",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：我画你财 你有没有遇到过这种情况： 看好一只QDII基金，准备场外申购，也就是用基金账户购买，结果App提示 暂停申购 或 单日限购100元 。 跑去股票软件一看，同一只基金在场内被炒得火热，价格天天涨，K线漂亮得让人心痒。 这时候一个念头冒出： 买不到场外的， 是不是可以 去场内买点？ 打住。你可能正站在一个大坑的边缘。 我们可以把一只基金想象成一个西瓜，拿到两条不同的街上卖。 场外，是一条安静的内街。 在这里卖西瓜，每天…",
+      "key_points": [
+        "你可能冒出一个新问题： 既然QDII这种基金限购和溢价都长期存在，那是不是意味着去场内买也没问题",
+        "其实结论很简单： 因为场外基金限购，就去买它的场内基金，容易因为溢价波动而变得风险很高",
+        "我画你财 你有没有遇到过这种情况： 看好一只QDII基金，准备场外申购，也就是用基金账户购买，结果App提示 暂停申购 或 单日限购100元"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "CPO/NPO：75%的ELSFP外置光源➕25%的ILS内置光源",
+      "title_zh": null,
+      "url": "http://xueqiu.com/4945521207/409940530",
+      "published": "Sun, 20 Sep 2026 10:59:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NPO",
+        "CPO",
+        "LITE",
+        "mw",
+        "ILS",
+        "cw"
+      ],
+      "summary": "最近似乎出现了一股风潮，宣扬在cpo/npo领域会以内置光源为主。其实这个问题本没有讨论的必要，最简单的就是放上9.9日LITE与花旗的会议原文就可以盖棺定论了，但是还是有很多人存在疑惑，那本文就结合会议原文来解释一下。 首先厘清一个概念，旭创新易盛，包括lite，cohe这些模块/芯片厂是没有能力决定技术路线的方向的，只有一定程度上的建议权，最后拍板走哪条技术路线的是大终端客户，比如云厂，nv，amd。所以任何公司推广/展示自己的某个内置/外置光源是不足以成为技术路线选择的证据的。那真正置信度高的证据来自哪里呢？…",
+      "key_points": [
+        "旭创新易盛，包括lite，cohe这些模块/芯片厂是没有能力决定技术路线的方向的，只有一定程度上的建议权，最后拍板走哪条技术路线的是大终端客户，比如云厂，nv，…",
+        "宣扬在cpo/npo领域会以内置光源为主。其实这个问题本没有讨论的必要，最简单的就是放上9.9日LITE与花旗的会议原文就可以盖棺定论了，但是还是有很多人存在疑…",
+        "总结一下： LITE的观点是未来市场上在CPO/NPO领域将会有大于75%的需求来自外置ELSFP，并且倾向于外置的客户的比例还在上升，只有少数NPO的场景会考…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Jev爆火，具身智能迎来大救星？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6468439.html",
+      "published": "Tue, 22 Sep 2026 10:49:26 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jev",
+        "Agent",
+        "AI",
+        "AIX",
+        "Token",
+        "TypeSafe"
+      ],
+      "summary": "一个只做判断、不生成文本的模型 Jev 走红，由前 OpenAI 研究员创立的 TypeSafe AI 发布，被归入 System One Models 这一新品类。文章拆解它的速度与成本优势，以及它对 Agent 调用结构和模型分工的可能影响。 最近，一个不聊天、不写代码的AI模型刷屏了。开发者把它塞进各种应用，有人拿它玩游戏，有人用它分邮件，还有人让它操控浏览器。 它叫Jev，由前OpenAI研究员Diogo Almeida等人联合创立的TypeSafe AI于9月15日发布，同时被冠以一个新品类的名字：Sys…",
+      "key_points": [
+        "接下来能接住这波红利的，包括三类玩家：个人开发者、企业、具身智能公司"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "大厂后训练视角看Jev模型的更新（大白话）",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6468130.html",
+      "published": "Tue, 22 Sep 2026 09:21:07 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Jev",
+        "RLHF",
+        "RLCD",
+        "TypeSafe",
+        "ChatGPT",
+        "Agent"
+      ],
+      "summary": "Jev 的爆火并非因为“读懂潜台词”的趣味截图，而是它试图用 RLCD 取代 RLHF，让大模型从“会聊天”转向“能决策”。本文用大白话拆解预训练、RLHF 到 RLCD 的演进，结合客服等场景，客观分析 Jev 的价值、局限与待验证之处。 Jev 最近因为各种“读懂潜台词”的趣味截图爆火，但它真正值得关注的，并不是会不会分析老板和对象，而是它尝试改变大模型的后训练目标。 本文将用 大白话讲清从预训练、RLHF到 RLCD 的变化 ，同时也会从数据和实际应用出发，客观看看 Jev 的价值、局限，以及它为什么仍需更多…",
+      "key_points": [
+        "Jev 的爆火并非因为“读懂潜台词”的趣味截图，而是它试图用 RLCD 取代 RLHF，让大模型从“会聊天”转向“能决策”。本文用大白话拆解预训练、RLHF 到…",
+        "Jev 最近因为各种“读懂潜台词”的趣味截图爆火，但它真正值得关注的，并不是会不会分析老板和对象，而是它尝试改变大模型的后训练目标",
+        "还要观察： 模型高置信度时到底有多准 哪些业务类型容易过度自信 信息不足时能不能表现出犹豫 阈值设成多少可以自动执行 自动化覆盖率提高后，错误率增加多少 数据分…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 桌面火了：把喜欢的人请进桌面，恶搞你的兄弟满地爬",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6468336.html",
+      "published": "Tue, 22 Sep 2026 08:58:14 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Codex",
+        "UI",
+        "CC0",
+        "ChatGPT",
+        "DIY"
+      ],
+      "summary": "之前在小红书上刷到过一个问题：怎么提升打工人的幸福感？答案是从每天面对的电脑屏幕下手，用AI做桌面宠物，一类是常驻桌面的真人形象，一类是能对话、能听候调遣的AI宠物，教程把角色三视图、背景图和合成视频分三步讲开。 之前在小红书上刷到过一个问题： 怎么提升打工人的幸福感？ 作为一天牛马生活中，至少 8 小时需要面对的电脑，直接从工作屏幕入手，做动手就能实现的桌面小惊喜，让你的一天直接耍起，其实非常能提升赛博幸福感。 目前，有两种火爆的桌面小惊喜，实际上都是借助 AI 实现的桌面宠物，复刻也非常简单。 第一个像是真人常…",
+      "key_points": [
+        "以后上班时候一打开电脑，既有喜欢的人冲我笑，又有恶搞的朋友在地上爬。简直完美！话不多说，我决定也来复刻一个",
+        "02 仇人爬行教程：让他叫“粑粑” 既然喜欢的人能放在电脑里，那讨厌的人岂不是也能",
+        "01 专理解痞老板、质疑痞老板、成为痞老板 抖音上一个叫“豆宝宝”的虚拟形象，由于她的长相和“国民伙伴”豆包极其相似，又没有豆包那么强烈的人机感，不少人用它做桌…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "原型只能截图发？我用Qoder Sites做成链接了！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6468419.html",
+      "published": "Tue, 22 Sep 2026 08:56:41 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Qoder",
+        "Sites",
+        "AI",
+        "Agent",
+        "React",
+        "Tailwind"
+      ],
+      "summary": "AI 生成能力正从效果演示走向能进生产管线。作者拿一张工作中的原型线框图，在 Qoder 里从空目录开始，把构建、预览、发布、反馈、改版、重新发布完整跑了一遍，并验证了反馈数据的持久化与同链接更新。 到2026年9月为止，大家对 AI 的要求好像发生了不小的变化，AI 生成需要从“效果演示”走到了“能进生产管线”。做出来只是开头，能被人接着用才算完成。 这句话我在 Qoder 上线 Sites 能力后又想了一遍。对设计师来说，真正麻烦的往往不是把原型画出来，而是后面的几步：让它跑起来、变成链接、别人也可以点开体验、…",
+      "key_points": [
+        "这句话我在 Qoder 上线 Sites 能力后又想了一遍。对设计师来说，真正麻烦的往往不是把原型画出来，而是后面的几步：让它跑起来、变成链接、别人也可以点开体…",
+        "（公众号现在放链接会违规这里就不展示出来了，实际上点Qoder中给出的链接就能直接打开） Qoder Sites 把本地原型变成了一个可管理、可继续发布的在线站…",
+        "AI 生成能力正从效果演示走向能进生产管线。作者拿一张工作中的原型线框图，在 Qoder 里从空目录开始，把构建、预览、发布、反馈、改版、重新发布完整跑了一遍，…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "飞猪如何飞出内外迷局",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/it/6468338.html",
+      "published": "Tue, 22 Sep 2026 08:54:46 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "App",
+        "QuestMobile",
+        "Agent",
+        "CTO",
+        "Flyai"
+      ],
+      "summary": "9月19日，飞猪出现在北京市市场监管局的立案调查名单里，而在不到两个月前，在线旅游行业刚迎来一张重磅罚单。QuestMobile数据显示，今年6月飞猪全景去重用户仅3248万，在主要综合旅游平台中降幅最为明显。 9 月 19 日，飞猪突然出现在北京市市场监管局的立案调查名单里。 对此，监管部门表示此次立案是在前期核查基础上，依据《反不正当竞争法》《电子商务法》展开。同一天，飞猪回应称将积极配合调查、全面落实监管要求。 然而当下，确是飞猪最不该分神的时候。 不到两个月前，在线旅游行业刚刚迎来一张足以震动市场的重磅罚单…",
+      "key_points": [
+        "多名员工向媒体透露，飞猪开发、测试、产品等多个岗位面临调整。部分交通业务相关团队员工称，其所在团队整体裁员比例超过 30%；另有员工透露，CTO 线人数一度从…",
+        "7 月 31 日有消费者向电诉宝投诉称，其于 7 月 22 日购买国泰航空在起飞当日收到飞猪短信，通知航班延误至 11:15 起飞并承诺免费退票。在消费者按飞猪…",
+        "飞猪发布首个全品类出行旅游技能插件 “flyai”。Flyai 提供覆盖机票、酒店、门票、用车、目的地玩乐等出行旅游商品的搜索、咨询、规划及预订服务，横跨导购到…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "“把白砂糖还给我们”，果葡糖浆比白砂糖坏多少？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E6%8A%8A%E7%99%BD%E7%A0%82%E7%B3%96%E8%BF%98%E7%BB%99%E6%88%91%E4%BB%AC%E2%80%9D%EF%BC%8C%E6%9E%9C%E8%91%A1%E7%B3%96%E6%B5%86%E6%AF%94%E7%99%BD%E7%A0%82%E7%B3%96%E5%9D%8F%E5%A4%9A%E5%B0%91%EF%BC%9F",
+      "published": "Tue, 22 Sep 2026 20:00:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "of",
+        "al.",
+        "et",
+        "fructose",
+        "review",
+        "systematic"
+      ],
+      "summary": "不知道从哪天起，总在饮料配料表里排第二位的白砂糖，被果葡糖浆悄悄替换掉了。 大家发现之后，将话题“ 把配料表中的白砂糖还给我们 ”顶上了热搜。评论区群情激愤，有人说果葡糖浆是工业糖，不如天然的白砂糖；还有人说果葡糖浆伤肝、伤肾、升尿酸和抑制钙吸收等等。 关注配料表是好事，但给果葡糖浆判死罪，又转头把白砂糖当健康，完全是批判错了方向。 很多人排斥果葡糖浆的原因之一是怕果糖，可白砂糖里一样也有果糖。 热搜话题｜微博截图@阿伟笑长 进了肚子，果葡糖浆和白砂糖是“同款” 大家想要召唤回来的白砂糖， 化学成分主要是蔗糖，由一…",
+      "key_points": [
+        "将话题“ 把配料表中的白砂糖还给我们 ”顶上了热搜。评论区群情激愤，有人说果葡糖浆是工业糖，不如天然的白砂糖；还有人说果葡糖浆伤肝、伤肾、升尿酸和抑制钙吸收等等",
+        "产量大、价格稳，工艺也简单，规模化后成本比白砂糖低大约30%。糖业公司嘉利高（Czapp）2019年时也做过一项分析，同样是甜味剂，果葡糖浆与食糖（白糖、冰糖等…",
+        "但给果葡糖浆判死罪，又转头把白砂糖当健康，完全是批判错了方向"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "阿里发布真武V900 AI芯片；Grok4.7发布；5大国产手机品牌接入中国地震预警网",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E9%98%BF%E9%87%8C%E5%8F%91%E5%B8%83%E7%9C%9F%E6%AD%A6V900+AI%E8%8A%AF%E7%89%87%EF%BC%9BGrok4.7%E5%8F%91%E5%B8%83%EF%BC%9B5%E5%A4%A7%E5%9B%BD%E4%BA%A7%E6%89%8B%E6%9C%BA%E5%93%81%E7%89%8C%E6%8E%A5%E5%85%A5%E4%B8%AD%E5%9B%BD%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6%E7%BD%91",
+      "published": "Tue, 22 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Grok",
+        "RSV",
+        "V900",
+        "Dex5-S",
+        "RADAR"
+      ],
+      "summary": "今天是9月22日，星期二。1953年的今天，全球首座多层互通式立交洛杉矶四叶立交桥正式启用，实现了全方向无信号灯通行。 重点新闻速览 1.5大国产手机品牌接入中国地震预警网 2.阿里发布真武V900 AI芯片 3.通用医疗影像AI模型一次扫描识别146种病症 4.宇树科技发布新一代灵巧手 5.钟南山提醒RSV即将进入流行高峰 科技 SpaceXAI发布最新旗舰模型Grok 4.7 当地时间9月21日，马斯克旗下SpaceXAI（原xAI）正式发布新一代旗舰模型Grok 4.7，目前已在Cursor、Grok Bui…",
+      "key_points": [
+        "重点新闻速览 1.5大国产手机品牌接入中国地震预警网 2.阿里发布真武V900 AI芯片 3.通用医疗影像AI模型一次扫描识别146种病症 4.宇树科技发布新一…",
+        "较上一代Grok 4.6的1.5万亿增长约40%。官方将其定位为最强编程与知识工作模型，采用更大基础模型并延长强化学习周期，训练任务加权偏向需数小时完成的复杂场…",
+        "只需在手机设置里搜索地震预警功能开启服务即可收到预警。预警信息到达后系统将依次触发信息弹窗、预警等级显示、手机响铃、语音提醒、地震波倒计时及避震指引等联动流程。…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "别耽误孩子了！小学，请不遗余力搞定这件事！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%88%AB%E8%80%BD%E8%AF%AF%E5%AD%A9%E5%AD%90%E4%BA%86%EF%BC%81%E5%B0%8F%E5%AD%A6%EF%BC%8C%E8%AF%B7%E4%B8%8D%E9%81%97%E4%BD%99%E5%8A%9B%E6%90%9E%E5%AE%9A%E8%BF%99%E4%BB%B6%E4%BA%8B%EF%BC%81",
+      "published": "Tue, 22 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Power",
+        "THiNK",
+        "APP",
+        "Up",
+        "UP1"
+      ],
+      "summary": "你有没有发现： 有的孩子学英语像喝水一样简单自然，而有的孩子费了很大劲儿，却一直在做无用功？ 而且大概率，不是孩子不聪明、不肯学， 是没有踩准英语学习的自然节奏。 👉🏻 顺着节奏走，孩子不费劲，家长不焦虑；逆着来，全家内耗，越学越累。 那这个节奏到底是什么？大多数家庭又被卡在哪儿？ 下面 这 4个真相 ，是我踩过的坑、验证过的答案。不管你家孩子几岁，避开一个，都能少走大半年弯路。 起点错配 你以为的开始，根本不是零起点 很多家长以为：既然学校开设英语课， 自然会从ABC教起，不必着急抢进度。 但你翻开现在的教材就会…",
+      "key_points": [
+        "后期只能硬抗 小学阶段 ，孩子时间相对宽裕、模仿能力强、对声音敏感——这本该是 大量听说、培养语感的黄金期， 却常常学得太浅、太碎 ，背背单词和对话就过去了",
+        "家长只用做一件事： 到点提醒孩子上课 ，非常省心",
+        "· 时间成本 ：每天要抽固定时间； · 精力成本 ：要选资源、买绘本、定计划、纠发音、控进度； · 情绪成本 ：孩子不配合、自己没耐心、三天打鱼两天晒网； 结果…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "水库里突然冒出长满树的“幽灵岛”，十几天后又突然消失？丨环境小喇叭",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%B0%B4%E5%BA%93%E9%87%8C%E7%AA%81%E7%84%B6%E5%86%92%E5%87%BA%E9%95%BF%E6%BB%A1%E6%A0%91%E7%9A%84%E2%80%9C%E5%B9%BD%E7%81%B5%E5%B2%9B%E2%80%9D%EF%BC%8C%E5%8D%81%E5%87%A0%E5%A4%A9%E5%90%8E%E5%8F%88%E7%AA%81%E7%84%B6%E6%B6%88%E5%A4%B1%EF%BC%9F%E4%B8%A8%E7%8E%AF%E5%A2%83%E5%B0%8F%E5%96%87%E5%8F%AD",
+      "published": "Tue, 22 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "https",
+        "news",
+        "B.C.",
+        "Hydro",
+        "Life"
+      ],
+      "summary": "大家好，这里是 环境小喇叭 栏目的第69期。这一期，我们为大家搜罗了以下值得一看的环境研究和新闻： 1）加拿大惊现神秘幽灵岛，少年派的奇幻漂流是真的！ 2）AI数据中心越建越多，电子垃圾堆积成山 3）海鸟体内塑料垃圾破纪录，单只胃里发现近900片塑料 4）太热了，高温让法国香槟酒精度上限放宽到15度 5）加拉帕戈斯群岛的动物可能扛不住这次超级厄尔尼诺 加拿大惊现神秘幽灵岛 在《少年派的奇幻漂流》中，派和老虎理查德·帕克曾遇到一座长着树林、漂浮在海上的神秘岛屿。类似的画面如今出现在加拿大的一个水库里，而且这座现浮岛在…",
+      "key_points": [
+        "电子垃圾堆积成山 3）海鸟体内塑料垃圾破纪录，单只胃里发现近900片塑料 4）太热了，高温让法国香槟酒精度上限放宽到15度 5）加拉帕戈斯群岛的动物可能扛不住这…",
+        "少年派里漂浮的神秘岛屿｜Life of Pi 这座浮岛出现在加拿大不列颠哥伦比亚省的威利斯顿水库中。由于当地人此前从未见过它，管理水库的水电公司 最初以为网上流…",
+        "这里是 环境小喇叭 栏目的第69期。这一期，我们为大家搜罗了以下值得一看的环境研究和新闻： 1）加拿大惊现神秘幽灵岛，少年派的奇幻漂流是真的"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "怎么说来说去都是尺度？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E6%80%8E%E4%B9%88%E8%AF%B4%E6%9D%A5%E8%AF%B4%E5%8E%BB%E9%83%BD%E6%98%AF%E5%B0%BA%E5%BA%A6%EF%BC%9F",
+      "published": "Tue, 22 Sep 2026 20:38:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 韩密 韩剧《挑情丑闻》大火，坊间都围着尺度聊，也是够了，这有啥没见过的？ 说来这是第 N 个改编自《危险关系》的影视剧了，的确它太适合改编。 作为素材，《危险关系》真正被反复征用的内核，并不是那套谈情说爱勾心斗角的情节模式，而在于它创建了一个复杂的关系结构，让两个聪明、骄傲，并且习惯于操纵他人的人，把诱惑当成游戏，又在游戏失控以后，发现自己也无可救药地被卷进去。 《危险关系》（1959） 每次改编，真正起作用的关键，是人物被放进怎样一个社会，他们的欲望受到怎样的约束。 2026 年网飞版的《挑情丑闻》把故事放到…",
+      "key_points": [
+        "一个看起来越来越冷，一个看起来越来越放荡。其实都是在保护自己，不再让感情决定自己的命运",
+        "说来这是第 N 个改编自《危险关系》的影视剧了，的确它太适合改编",
+        "坊间都围着尺度聊，也是够了，这有啥没见过的"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "这个不伦故事，全世界都热爱",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E8%BF%99%E4%B8%AA%E4%B8%8D%E4%BC%A6%E6%95%85%E4%BA%8B%EF%BC%8C%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E7%83%AD%E7%88%B1",
+      "published": "Tue, 22 Sep 2026 20:38:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 盛昊阳 论及影视改编次数最多的罗曼史小说，纯爱界的魁首是当之无愧的《傲慢与偏见》，不伦界的一番远没有这么名声响亮——拉克洛的《危险的关系》于1782年在法国出版，轰动一时后遭禁，二战后又突然引起世人关注，不仅在文坛翻案，也让诸位导演兴致大发。光是影视版本就有十余个，还不包括不计其数的舞台剧、歌剧和芭蕾舞剧改编。 《傲慢与偏见》开头就写，「凡是有钱的单身汉，必定需要娶位太太，这已经成了一条举世公认的真理」，所以后人将小说视作19世纪初英国财产继承与婚姻制度的风俗画并不算附会。 《傲慢与偏见》（2005） 有此独特…",
+      "key_points": [
+        "拉克洛亲自撰写的出版者弁言里说：「很难想象他们（故事人物）曾生活在我们这个世纪……作者显然希望通过贴近自己的时代和国家来引起读者更大的兴趣」。不管这是讽刺抑或本…",
+        "文 盛昊阳 论及影视改编次数最多的罗曼史小说，纯爱界的魁首是当之无愧的《傲慢与偏见》，不伦界的一番远没有这么名声响亮——拉克洛的《危险的关系》于1782年在法国…",
+        "《最毒妇人心》（1989） 唐斯尼取代死去的瓦尔蒙成为新一代「唐璜」，塞西尔也将取代容颜不再的梅尔特伊夫人，这是一个无尽的轮回，只有未死的托维尔夫人默默为瓦尔蒙…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "德宏·芒市：火烧云下的风味边城",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E5%BE%B7%E5%AE%8F%C2%B7%E8%8A%92%E5%B8%82%EF%BC%9A%E7%81%AB%E7%83%A7%E4%BA%91%E4%B8%8B%E7%9A%84%E9%A3%8E%E5%91%B3%E8%BE%B9%E5%9F%8E",
+      "published": "Tue, 22 Sep 2026 17:12:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "END",
+        "more",
+        "photos",
+        "Slide"
+      ],
+      "summary": "从北京起飞，四个半小时航程。飞机缓缓降落，落进一片漫无边际的浓绿里。 这里是中国西南的边陲。北、西、南三面，与缅甸山水相连。以汉族、傣族、景颇族、阿昌族、傈僳族、德昂族为主的40多个民族在此居住， 135.4 万人，把家安在云南省德宏傣族景颇族自治州。 初抵德宏州的首府芒市，感觉被一层朦胧的异域氛围感，轻轻裹住了。 芒市：云南省德宏州州府 小城卧在一方小小的盆地。抬眼望，四面八方皆是连绵山岭。山麓到峰顶，绿意层层叠叠，由浅转深，慢慢消融在灰蒙云絮之间。山是断块山，起伏如浪；盆是断陷盆地，狭长似叶，像一叶扁舟，漂荡在…",
+      "key_points": [
+        "4 从故乡到他乡 · 火烧云的远方开窗 很长一段时间以来，德宏的地道风味藏在西南边城，少为人知",
+        "不妨亲身奔赴德宏，走进那片火烧云日日升起的边城。若行色匆匆，也可以寻一家火烧云的门店落座，一筷入口，千里之外的山河气息，便顺着味蕾，悄然抵达",
+        "德宏姑娘黄静浩，在北京鼓楼租下一间小小的铺面。起点不过三十平米，六张桌子。如今，浩海火烧云已经开出八家门店。上海、北京、杭州、南京，东部一二线城市，都有它的身影…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "今年抱怨的人要比去年更多一些",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BB%8A%E5%B9%B4%E6%8A%B1%E6%80%A8%E7%9A%84%E4%BA%BA%E8%A6%81%E6%AF%94%E5%8E%BB%E5%B9%B4%E6%9B%B4%E5%A4%9A%E4%B8%80%E4%BA%9B",
+      "published": "Tue, 22 Sep 2026 12:55:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "在后台我每天都会收到很多留言，就我个人的感觉，今年抱怨的人要比去年更多一些，而去年抱怨的人又要比前年更多一些。 大多内容是抱怨伴侣，或者抱怨孩子，刚好都落在我的经验盲区。我知道，对方并不需要我出主意，只是想找个地方倾诉。但是看得多了，我开始担忧自己，担忧自己因此形成了关于婚恋和家庭教育的错误认知，觉得好像婚恋都很不乐观，孩子的培养也让人绝望，总之是没有什么大团圆的结局。 这样一来，很可能造成家族里我这一支的彻底灭绝。和姓且白族，这本来就很稀少，世界的多样性全靠我这样的人。 不过，我在生活里也有自己的观察，虽然是间接…",
+      "key_points": [
+        "就我个人的感觉，今年抱怨的人要比去年更多一些，而去年抱怨的人又要比前年更多一些",
+        "愿意来留言的人绝大多数都是抱怨，可能是幸福的人不爱说话。抱怨的人总相信存在另外的选项，而另外的选项可以解决一切问题。而我不认为解决方案是彼岸，没有弄清楚自己的航…",
+        "一个人过着怎样的生活，过着怎样的人生，取决于更早之前自己的所思所作，此刻无非是先前选择的结果成熟。同样的，未来会如何，也取决于现在的所思所作。婚恋只是整体生活的…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "他是诺奖热门人选，儿子是王虹的博士导师",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E4%BB%96%E6%98%AF%E8%AF%BA%E5%A5%96%E7%83%AD%E9%97%A8%E4%BA%BA%E9%80%89%EF%BC%8C%E5%84%BF%E5%AD%90%E6%98%AF%E7%8E%8B%E8%99%B9%E7%9A%84%E5%8D%9A%E5%A3%AB%E5%AF%BC%E5%B8%88",
+      "published": "Tue, 22 Sep 2026 08:11:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Guth",
+        "Alan",
+        "inflation",
+        "Starobinsky",
+        "Alexei",
+        "Andrei"
+      ],
+      "summary": "知识分子 The Intellectual 2026诺贝尔奖即将揭晓，物理学奖热门人选包括提出宇宙暴涨理论的三位先驱阿兰·古斯 （Alan Guth） ，安德烈·林德 （Andrei Linde） 和阿列克谢·斯塔罗宾斯基 （Alexei Starobinsky） 。 20 12年科学突破奖首次设立时，他们三人和另外6位物理学家成为 科学突破奖基础物理奖得主，每人奖金300万美元。2014年，他们三人分享了 卡夫利 天体物理学奖。 值得一提的是，Alan Guth和他的儿子Larry Guth都是麻省理工学院教授。…",
+      "key_points": [
+        "Alan Guth和他的儿子Larry Guth都是麻省理工学院教授。Alan Guth本硕博均毕业于麻省理工学院物理系。Larry Guth博士毕业于麻省理工…",
+        "知识分子 The Intellectual 2026诺贝尔奖即将揭晓，物理学奖热门人选包括提出宇宙暴涨理论的三位先驱阿兰·古斯 （Alan Guth） ，安德烈…",
+        "戴自更教授出任香港科技大学高等研究院院长。图源: 香港科技大学 就在二人的研究将要有所成果时，戴自海回国参加了一个会议，在那个通讯非常不便利的年代，二人只能结束…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "植物奶卖不动了，消费者又喝回牛奶 | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E6%A4%8D%E7%89%A9%E5%A5%B6%E5%8D%96%E4%B8%8D%E5%8A%A8%E4%BA%86%EF%BC%8C%E6%B6%88%E8%B4%B9%E8%80%85%E5%8F%88%E5%96%9D%E5%9B%9E%E7%89%9B%E5%A5%B6+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Tue, 22 Sep 2026 09:19:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "to",
+        "as",
+        "milk",
+        "in",
+        "by",
+        "has"
+      ],
+      "summary": "本文选自《经济学人》商业版块 Sep 17th 2026 https://www.economist.com/business/2026/09/17/alternatives-to-milk-are-losing-moomentum 前几年，咖啡店里出现燕麦奶，本身就带着一点时髦意味。现在风向变了：过去一年，美国植物奶销量下降5.4%，卖得最好的杏仁奶跌了7.9%；普通牛奶经历多年下滑后，销量却开始回升。 消费者并没有突然忘记气候问题。他们只是开始同时算价格、看配料表、比较蛋白质。植物奶过去靠“更环保”打开市场，如…",
+      "key_points": [
+        "本文选自《经济学人》商业版块 Sep 17th 2026 https://www.economist.com/business/2026/09/17/alter…",
+        "两段重点表达 plant-based alternatives to milk：植物基牛奶替代品 the bestselling variety：销量最高的品类…",
+        "今天读这两段 Business | Looking pail 商业 | 风光不再的“奶” Alternatives to milk are losing moo…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "【荐】阑夕",
+      "source": "【荐】阑夕",
+      "source_url": "https://plink.anyfeeder.com/weixin/techread",
+      "title": "看完这份旅游攻略，P人和J人都沉默了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E7%9C%8B%E5%AE%8C%E8%BF%99%E4%BB%BD%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5%EF%BC%8CP%E4%BA%BA%E5%92%8CJ%E4%BA%BA%E9%83%BD%E6%B2%89%E9%BB%98%E4%BA%86",
+      "published": "Tue, 22 Sep 2026 20:09:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "Agent",
+        "Google",
+        "OTA",
+        "All",
+        "Booking.com"
+      ],
+      "summary": "文 丨 阑夕 中秋、国庆黄金周将至，在这个出行集中的高峰节点，AI旅游总是不可避免地又要被拿出来重新讨论一遍。 为什么要说又呢？ 从大模型爆发开始，各行各业就一直致力于拿着锤子找钉子，生怕错过任何一个AI可以应用到的场景。 从道理上讲，这当然是没毛病的，不止AI，任何一项新技术在诞生之初，都势必要经历一个漫长的试错乃至走弯路的过程。 就像工业革命初期，人们一度摆脱不了工厂需要紧靠水源的陈旧思维，直到电力系统普及后，生产力才不必再依赖自然资源。 对新技术需要抱有耐心，这道理我懂，但问题在于，有些事情光有耐心是不够的。…",
+      "key_points": [
+        "作为一个几乎没有制定过旅游攻略的人，起初我抱着来都来了的心态，只是给元宝抛了个一句话的提示词： 而元宝会根据这句信息进行详细追问，包括但不限于交通方式、出行人群…",
+        "旅游本身已经变成一个复杂的信息协调工作，而一份文字版本的旅游攻略，是远远无法满足需求的",
+        "不仅是元宝端内带有地图卡片、按天规划、内容丰富的小应用，也通过刚上线的混元生图模型Hy Image3.5 preview一键生成便于分享的图片： 能理解了吗，只…"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "platform": "美团技术团队",
+      "source": "美团技术团队",
+      "source_url": "https://tech.meituan.com/feed/",
+      "title": "MTFM：美团统一推荐基座大模型在外卖多业务场景的落地实践",
+      "title_zh": null,
+      "url": "https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "MTFM",
+        "MTGR"
+      ],
+      "summary": "美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。",
+      "key_points": [
+        "美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-23",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "瞎扯 · 如何正确地吐槽",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792678",
+      "published": "Sat, 19 Sep 2026 22:59:58 GMT",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Chou",
+        "Choucroute",
+        "Croute",
+        "Kevin",
+        "Kraut",
+        "kraut"
+      ],
+      "summary": "瞎扯 · 为什么有环法自行车赛，却没有环中国自行车赛？ 知乎日报 查看知乎原文 Q： 为什么有环法自行车赛，却没有环中国自行车赛？ @MRJH ：图片取自网络，好消息路修通了，可以开赛了 Q： 语言学中有哪些类似「哈基米」的现象？ @SONG Kevin ：法语酸菜： Choucroute Chou：菜 Croute来自德语Kraut 德语酸菜：Sauerkraut sauer：酸的 kraut：菜 所以法语里的酸菜其实是菜菜的意思 Q： 你认为男生最加分的行为是什么？ @大陆诗人 ：加分的我不知道，但是扣分的应该…",
+      "key_points": [
+        "@SONG Kevin ：法语酸菜： Choucroute Chou：菜 Croute来自德语Kraut 德语酸菜：Sauerkraut sauer：酸的 kr…"
+      ]
+    }
+  ]
+}
