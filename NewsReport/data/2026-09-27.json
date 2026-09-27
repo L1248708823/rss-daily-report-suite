@@ -1,0 +1,732 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T01:00:12.574605+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 4,
+    "items_collected": 84,
+    "fresh_candidates": 51,
+    "backfill_candidates": 33,
+    "items_published": 22,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-27",
+      "fetched_at": "2026-09-27T01:00:07.281404+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3888.37,
+          "change": -48.15,
+          "change_pct": -1.22,
+          "volume": 438530412.0,
+          "amount": 78361300.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4285.12,
+          "change": 11.359999999999673,
+          "change_pct": 0.27,
+          "prev_close": 4273.76,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-26 04:55:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 924.7240327294356,
+          "change": 2.451475107303054,
+          "change_pct": 0.2658080940436543,
+          "prev_close": 922.2725576221326,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-26 04:55:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-27",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "牛市到底有没有结束？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%89%9B%E5%B8%82%E5%88%B0%E5%BA%95%E6%9C%89%E6%B2%A1%E6%9C%89%E7%BB%93%E6%9D%9F%EF%BC%9F",
+      "published": "Sat, 26 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "CPO",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者： 桃桃不迷路 来源：雪球 我们看到这轮自24年启动的牛市 ， 走到今年似乎有结束的味道 ， 4258会不会就是这轮牛市的最高点 ？ 如果单纯从上证指数来看 ， 上证指数从07年的6124 ， 15年的5178 ， 到今年的4258 ， 正好是一条A股的长期趋势线的上轨 。 从上证指数的月线来看 ， 指数确实碰到了趋势线的上轨 ， 历史上每一次来到这里都是顶部 。 很多人认为牛市已经结束 ， 牛市已经告一段落 ， 并没有所谓的…",
+      "key_points": [
+        "桃桃不迷路 来源：雪球 我们看到这轮自24年启动的牛市 ， 走到今年似乎有结束的味道 ， 4258会不会就是这轮牛市的最高点",
+        "牛市顶部新基金发行量是一个重要信号 ， 而这次并没有出现这种人声鼎沸 ， 没有出现大量的爆款基金",
+        "而且我们也没有看到牛市见顶的多重信号 ， 市场并没有出现过15年和21年那种疯狂的场景"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "主流资源股常识数据全披露：一文告诉你，锂矿股的景气周期是否已经结束！",
+      "title_zh": null,
+      "url": "http://xueqiu.com/9363345092/410532886",
+      "published": "Sat, 26 Sep 2026 06:04:17 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ROE",
+        "PR",
+        "PB",
+        "PE",
+        "http",
+        "xueqiu.com"
+      ],
+      "summary": "最近一段时间，锂矿股连续暴跌，供需之谜也成为了热议话题。即便是上月抄底的投资者，目前也处于“浅套”之中。接下来的问题则是：锂矿股的景气周期是否已经结束？明年开始是否会进入萧条周期？ 资源股的景气周期：普遍都在两年以上 文章的开篇，先说一个常识数据。如果把行业龙头实现12%以上的ROE，看作是资源股的景气周期。那么，多数资源股的景气周期，基本都在两年以上。包括中国海油、中国神华、紫金矿业、大全能源、协鑫科技，以及上一景气周期的天齐锂业和赣锋锂业均是如此。即便算上猪肉股，牧原股份和温氏股份也同样如此。反观现在的锂矿股，…",
+      "key_points": [
+        "资源股的景气周期：普遍都在两年以上 文章的开篇，先说一个常识数据。如果把行业龙头实现12%以上的ROE，看作是资源股的景气周期。那么，多数资源股的景气周期，基本…",
+        "预防小概率事件：所以还需要分散投资 长篇大论之后，是不是就意味着锂矿股的景气周期至少也要两年呢？非也！如果小概率事件发生，常识也没辙！为了预防小概率事件，所以才…",
+        "锂矿股连续暴跌，供需之谜也成为了热议话题。即便是上月抄底的投资者，目前也处于“浅套”之中。接下来的问题则是：锂矿股的景气周期是否已经结束？明年开始是否会进入萧条…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "加息正在验证黄金的长期逻辑：五国债务与利息成本压力测试",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3540620772/410561898",
+      "published": "Sat, 26 Sep 2026 06:02:34 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GDP",
+        "bp",
+        "TIPS",
+        "Bund",
+        "OAT",
+        "A+"
+      ],
+      "summary": "加息正在验证黄金的长期逻辑：五国债务与利息成本压力测试 $华安黄金ETF联接A(F000216)$ $紫金矿业(SH601899)$ $黄金ETF-SPDR(GLD)$ 短期看，加息压制金价；长期看，加息本身就是我们看多黄金的理由。 美联储9月16日加息25bp，是2023年7月以来的第一次。市场给10月27–28日再加一次的概率约70%。同一周，10年期TIPS实际收益率升到2.79%，是18年来的最高点；黄金现货从1月28日的历史高点5,589美元回落了24%，沪金Au99.99从8月的968元/克跌到9月中旬…",
+      "key_points": [
+        "加息正在验证黄金的长期逻辑：五国债务与利息成本压力测试 短期看，加息压制金价；长期看，加息本身就是我们看多黄金的理由",
+        "如果美伊谈不成、中美没有实质进展，10月加息几乎是必然的，金价会继续承压，沪金回到900元/克附近是合理的目标。长期，这一轮加息恰恰在验证我们的黄金逻辑： 各国…",
+        "什么情况下是错的 如果10月加息之后点阵图转向、美伊达成协议让油价回到80美元以下，美国的&#34;情景一&#34;就退化成&#34;基准&#34;，利息占支出…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "为什么选择AI端侧与消费电子",
+      "title_zh": null,
+      "url": "http://xueqiu.com/1553799558/410578825",
+      "published": "Sat, 26 Sep 2026 06:02:01 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "PCB",
+        "agent",
+        "http",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "AI端侧范围比较广 ，机器人、手机、物联网、边缘计算、智能穿戴等。 2026年7月中旬，我增加资金加仓消费电子。2026年9月21日，再次从场外转入资金加仓AI端侧。 我的投资过程有以下几步，先对市场作出假设。市场分析总结出盘面强弱势板块，选择行业增长并有板块效应，选择其中长期跟踪的公司。假设，归纳，演绎，预判，交易，再后是验证或反证。前面我讲过三个板块，3D打印材料，科学仪器，地产中介。地产中介没有这个过程，也没有参与。 我的判断，2026年7月21日是第一个底部，2026年9月18日确认市场底部成立。 假设这个…",
+      "key_points": [
+        "我增加资金加仓消费电子。2026年9月21日，再次从场外转入资金加仓AI端侧",
+        "认为影响消费电子及相关下游 。现在随着AI agent突破，可能会改变这些看法",
+        "基本都是小市值，科技，而且也算是消费电子方向"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "凭运气赚来的钱，是如何在四轮牛熊里凭实力还回去的？",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2884313460/410621710",
+      "published": "Sat, 26 Sep 2026 06:00:52 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HOMS",
+        "http",
+        "SH600887",
+        "SH600900",
+        "xueqiu.com",
+        "xz"
+      ],
+      "summary": "吴晓波在《大败局》的序言里写过一句话：如果你面对的是一家在几年甚至十几年的历程中一帆风顺、从未遭遇过挫折的企业，那么，要么它是一个上帝格外呵护的异类，要么它就是一个自欺欺人的泡沫。 企业如此，人在资本市场里的修行更是如此。没有经历过几轮牛熊摧残的投资者，不足以谈生存。 从上世纪90年代初跟着父亲进出证券营业部算起，我在A股这个熔炉里摸爬滚打，整整三十年。三十年间，我亲历了四轮波澜壮阔却又血雨腥风的大周期。每一次狂欢过后，都是遍地狼藉；而每一次剧痛，都在逼着我剥离人性的贪婪，重新审视财富与生命的底色。 第一轮（199…",
+      "key_points": [
+        "结语：从喧嚣归于平静 从90年代父辈财富的灰飞烟灭，到2000年科技股狂欢里的年少轻狂；从2007年地产股飙升后的盛极而衰，再到2015年杠杆崩塌下的绝望与灭顶…",
+        "人在资本市场里的修行更是如此。没有经历过几轮牛熊摧残的投资者，不足以谈生存",
+        "从上世纪90年代初跟着父亲进出证券营业部算起，我在A股这个熔炉里摸爬滚打，整整三十年。三十年间，我亲历了四轮波澜壮阔却又血雨腥风的大周期。每一次狂欢过后，都是遍…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "全球营销正在发生的“十大”变化",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/marketing/6470293.html",
+      "published": "Sat, 26 Sep 2026 09:16:35 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "AI",
+        "CMO",
+        "poppi",
+        "Mercado",
+        "Morketing",
+        "NIQ"
+      ],
+      "summary": "一位凡士林的科学家把凡士林涂在蛋壳上再给鸡蛋染色，用来验证社交平台流传的染发小技巧；沃尔玛在一个季度里做了超过11000项降价；乐高植物系列进入节日送礼场景。把这些放在一起，很难用消费升级或降级解释——本文沿十大变化梳理全球营销的重新分配，供大家参考。 一位凡士林的科学家，把凡士林涂在蛋壳上，再给鸡蛋染色。 她想验证的，是社交平台上流传的一个小技巧：染头发之前，先在皮肤上涂一层凡士林，能不能减少染色剂留下的痕迹？另一项测试更直接：把防水彩妆涂在前臂上，等至少十分钟，再试着卸掉。这些实验后来成为“Vaseline V…",
+      "key_points": [
+        "一位凡士林的科学家把凡士林涂在蛋壳上再给鸡蛋染色，用来验证社交平台流传的染发小技巧；沃尔玛在一个季度里做了超过11000项降价；乐高植物系列进入节日送礼场景。把…",
+        "我更愿意把正在发生的变化理解为一次重新分配： 消费者重新分配预算与时间，平台重新分配商业入口，企业重新分配能力和责任",
+        "这个世界正在翻天覆地的变化，但是到底在变什么？以下是个变化，来自不同市场的财报、研究与公开案例。它们发生的速度并不一致，却共同指向一个问题： 品牌需要重新解释，…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470288.html",
+      "published": "Sat, 26 Sep 2026 08:16:33 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Agent",
+        "AI",
+        "Jev",
+        "Judgment",
+        "Memory",
+        "Skill"
+      ],
+      "summary": "Jev之所以爆火，是因为它做了一件和行业潮流相反的事：不追求想得更久，只负责判断，接受一段状态就直接返回结构化概率。TypeSafe把这类模型称为System One Model，把经验沉淀成稳定判断可能是下一场竞争。 刘慈欣在《三体》里设计过一个很有意思的文明差异。 三体人的思想很难隐藏，思考和表达高度绑定。 但地球人不一样。 我们的内心是一个黑盒。我们当然会思考，但不需要把所有思考过程都表达出来。更重要的是，很多时候，判断甚至会先于解释发生。 一个开了十几年车的老司机，看到前面的车突然晃了一下，不会先在脑子里计…",
+      "key_points": [
+        "七、AI Agent 正在从“三体人”变成“地球人” 所以最后，我们再回到今天开头那个问题",
+        "AI Agent 真正要完成的进化，也许就是： 从每件事情都必须重新展开思考的“三体人”，变成一个能够把经验沉淀成直觉的“地球人”",
+        "所以我最近突然想到一个问题： 今天的大模型，其实特别像“三体人”"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 时代的 App Store 时刻到了？",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470284.html",
+      "published": "Sat, 26 Sep 2026 07:16:29 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Greg",
+        "Connector",
+        "Muse",
+        "AI",
+        "agent",
+        "App"
+      ],
+      "summary": "2008年苹果开放App Store，两年不到就向开发者支付了超过10亿美元分成。相似的结构性变化正在发生：Meta开放个人agent Muse并推出Connector机制，外部服务可在用户提出需求时被agent中途调用，分发不再靠搜索。 2008 年，苹果开放 App Store 的那一刻，有多少人意识到这是一个历史性的分水岭？ 当时大多数人只觉得这是一个让手机能下载应用的商店，但两年不到，苹果就向开发者支付了超过 10 亿美元的分成。 一个全新的市场就这样从零开始长了出来，无数个人开发者和小团队靠这个平台改变了…",
+      "key_points": [
+        "这三个路径背后有一个更底层的逻辑，就是在 AI agent 时代，你的服务能不能在用户自然的对话流里被发现，取决于两件事：一是你是不是真的在正确的时刻被调用，二…",
+        "Greg 特别强调了这件事的历史意义：在 App Store 时代，做一个高质量的移动 app 需要一两百万美元和一个十人团队，现在任何人打开 Claude C…",
+        "一个做设备租赁的 Connector 就可以在对话中途插进来，成为整个流程的一部分。这种“在需求链条中途被调用”的逻辑，是 AI agent 时代特有的分发方式…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "阿莫迪偷师姚顺雨，奥特曼偷师梁文锋",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470280.html",
+      "published": "Sat, 26 Sep 2026 06:16:28 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "token",
+        "DeepSeek",
+        "GPT-6",
+        "Luna",
+        "Opus",
+        "cache"
+      ],
+      "summary": "Opus 5.5和GPT-6 Luna刚发布，一个对上下文动手，一个对缓存动手。Artificial Analysis的智能指数里，max档位下前者每题平均要吐11.9万个token，后者只用2.7万——预训练见顶后，智能增量从哪来成了新分叉。 正所谓天下文章一大抄，看你会抄不会抄。 刚刚发布的Opus 5.5和GPT-6 Luna，一眼望去，这两个模型上面满满是姚顺雨和梁文锋的影子。 或许是因为两家公司都已经将预训练做到了极致，为了提升模型的智能以及降低算力成本，所以这两个新模型都选择开辟新的战场。 Opus 5…",
+      "key_points": [
+        "刚刚发布的Opus 5.5和GPT-6 Luna，一眼望去，这两个模型上面满满是姚顺雨和梁文锋的影子",
+        "阿莫迪和奥特曼还真抄得挺像那么回事",
+        "姚顺雨提出Tree of Thoughts（思维树）这个概念，其本质就是一种test-time"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "豆包新版创意设计内测：Seedream 5.0 Flash 画得快，改得动，文字也更稳了",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470199.html",
+      "published": "Sat, 26 Sep 2026 05:44:00 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Boss",
+        "Flash",
+        "Seedream",
+        "IP",
+        "STEP",
+        "UI"
+      ],
+      "summary": "实测豆包新版创意设计：一张画布就能走完从想法到成图，品牌视觉、角色表情包、名画改编与游戏界面五类任务一次跑通。Seedream 5.0 Flash 出图速度快、文字呈现也稳，细节要求多的任务仍需多轮调整。 最近，我申请体验了豆包新版「创意设计」功能。它把 创作过程放进一张画布里 ：从提出想法、生成方案，到围绕已有图片继续修改和延展，都能在同一处完成。 这次我用它做了品牌视觉、角色表情包、名画改编、游戏界面和创意简历。整体 出图速度很快 ，审美和文字呈现也有不少亮点；遇到细节要求较多的任务，仍 需要多轮调整 。 本次…",
+      "key_points": [
+        "实测豆包新版创意设计：一张画布就能走完从想法到成图，品牌视觉、角色表情包、名画改编与游戏界面五类任务一次跑通。Seedream 5.0 Flash 出图速度快、…",
+        "我申请体验了豆包新版「创意设计」功能。它把 创作过程放进一张画布里 ：从提出想法、生成方案，到围绕已有图片继续修改和延展，都能在同一处完成",
+        "豆包电脑版或网页版的入口在「工作任务」相关页面： STEP 1 进入「技能」找到创意设计 进入「工作任务」中的「技能」，选择 「创意设计」 ，输入需求后即可进入…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "鸡如果吃了水蛭，水蛭可以钻破鸡的肠胃，长期在鸡的体内吸血吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792829",
+      "published": null,
+      "category": "技术",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Gizzard",
+        "Limusaurus",
+        "pH",
+        "Psittacosaurus",
+        "Ball",
+        "Caudipteryx"
+      ],
+      "summary": "瞻云， 先让一部分知识有趣起来 查看知乎原文 你眼中的鸡： 水蛭眼中的鸡： 不，应该是这个： 这东西叫做球磨机，工作的时候内部是这样的： 鸡的肌胃可以说就是一台生物界「球磨机」。 肌胃 （Gizzard）也就是我们俗称的鸡胗。 杀过鸡的都知道，鸡胗的主要结构，就是强而有力的肌肉。 这简直就是天生的搅拌机器。 胃壁上有着坚韧的膜状角质结构，机械性能很高，且有很强的更新修复能力，石头都不能划破，更不用说水蛭了。 肌胃内部是鸡不断吃进肚子里的坚硬 胃石 （Gastrolith） [1] 。 我们知道，鸡天生没有牙齿。 包…",
+      "key_points": [
+        "先让一部分知识有趣起来 你眼中的鸡： 水蛭眼中的鸡： 不，应该是这个： 这东西叫做球磨机，工作的时候内部是这样的： 鸡的肌胃可以说就是一台生物界「球磨机」",
+        "但往往是吃下了尖锐或大块坚硬物体，水蛭柔软的身体和其它裹挟内容物，对鸡的消化道造不成任何威胁",
+        "水蛭首先进入的是 嗉囊 （Crop），虽然嗉囊不会对水蛭造成致命威胁，但依旧存在一定的分泌物、微生物发酵降低 pH 值，软化食物 [3] ，从而降低水蛭的活力"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "山上明明没有水库，为什么溪水一年到头流不完？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792846",
+      "published": null,
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "免渡河， 生态规划师，写知乎为摸鱼，以及安放我无处不在的表达欲。 查看知乎原文 因为有水流的时候，你管它叫溪水。 没水流的时候，你管它叫山沟沟。 现在的破乎，一部分人只管瞎提问，还有一部分人只管瞎回答。 没有人理会事实如何。 实际上大部分溪水，一年里有半年以上是没水的。 尤其是北方。 这一个星期来，我们一直都在永定河山峡段做植物调查。 东西 30 千米，南北 15 千米的区域里，我们跑遍了每一条沟。 可以很坦然的说，在这么大的范围内，我只在两个地方看见了流水。 一处是永定河干流，另一处是一眼山泉。 其它的十几条沟，…",
+      "key_points": [
+        "谁说山上溪水一年到头流不完呢",
+        "或许南方有一年到头流不完的溪水",
+        "因为长时间没有有效降水，山上的土壤都是干燥的，乔灌木都卷叶了，草本植物也提早枯黄了"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "不少人在海边捡到的诡异“独眼头骨”，竟属于“国宝”的亲戚？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%8D%E5%B0%91%E4%BA%BA%E5%9C%A8%E6%B5%B7%E8%BE%B9%E6%8D%A1%E5%88%B0%E7%9A%84%E8%AF%A1%E5%BC%82%E2%80%9C%E7%8B%AC%E7%9C%BC%E5%A4%B4%E9%AA%A8%E2%80%9D%EF%BC%8C%E7%AB%9F%E5%B1%9E%E4%BA%8E%E2%80%9C%E5%9B%BD%E5%AE%9D%E2%80%9D%E7%9A%84%E4%BA%B2%E6%88%9A%EF%BC%9F",
+      "published": "Sat, 26 Sep 2026 20:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "of",
+        "M.",
+        "doi.org",
+        "https",
+        "T."
+      ],
+      "summary": "本文经授权转载自：博物（ID:bowuzazhi） 想象一下，你正大摇大摆走在海边吹着海风唱着歌，突然，在沙滩上看见一个大骨头。 各平台都有不少提问 这不是恐怖故事，而是不少朋友的亲身经历。其中有类动物的头骨出现比例挺高。 摄影师：编号223 图中这个骨头长相属实有点邪门，除了形状一言难尽外，中间还有一个硕大的洞，之前有好几个朋友来问我时都认为那个洞就是眼睛， 以为自己发现了独眼海怪。 先说结论：海怪没有，水猴子没有，那么这个骨头究竟是谁的呢？ 这个你能分清正反么？丨摄影师：编号223 答案是：江豚。 你的小可爱突…",
+      "key_points": [
+        "奇怪的头骨 先从开篇那个诡异头骨开始讲起， 那个常被误认为“独眼”的洞实际上是头骨的鼻腔部分， 与江豚头顶的喷气孔相连，而喷气孔对应人类的鼻孔，如下图所示： 左…",
+        "你的小可爱突然出现 丨参考资料[1] 当然，也不一定都是江豚 等会儿，咱这不是海边吗，就算是个豚那也得是海豚吧，怎么能是江豚呢？这也不怪大家疑惑，这个名字确实容…",
+        "Kao/BioLib 印太江豚丨 phocaenoides © Cipher01/Wikipedia 东亚江豚在我国主要分布于渤海、黄海和东海等偏北海域，而印太…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "全网爆梗“狗熊哆嗦毛”和闪身步，司长看了都叫好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%85%A8%E7%BD%91%E7%88%86%E6%A2%97%E2%80%9C%E7%8B%97%E7%86%8A%E5%93%86%E5%97%A6%E6%AF%9B%E2%80%9D%E5%92%8C%E9%97%AA%E8%BA%AB%E6%AD%A5%EF%BC%8C%E5%8F%B8%E9%95%BF%E7%9C%8B%E4%BA%86%E9%83%BD%E5%8F%AB%E5%A5%BD",
+      "published": "Sat, 26 Sep 2026 16:00:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "gif",
+        "AI",
+        "guokr.com",
+        "sns"
+      ],
+      "summary": "这两天，打开任何一个短视频平台，你可能都会看到这样两种人。 第一种人，面无表情地站着，大喊一声“狗熊哆嗦毛”，然后突然全身一哆嗦，嘴里念念有词“隆咚框隆咚框”，脚下踩着十字步，上肢随着腰迅速左右摆动，像一只被电到的狗熊在抖。 抖音@吕快乐发财 丨gif 第二种人，身子一晃，脚往后一撤，一个闪身“嗖”地飘出去了，像被人点了穴之后突然解穴，又像你妈喊你全名时你的本能反应。 小红书@一坨奶昔丨gif 各个网红、明星抖个不亦乐乎，汪苏泷、杨迪、单依纯、闫妮、周笔畅、叶童等明星接力翻跳，综艺《喜人奇妙夜》也全员下场模仿，各种…",
+      "key_points": [
+        "其实是八百年民间舞蹈的入口 年轻人玩梗往往是“身体先入场，知识后补票”。很多网友正是因为刷到了闪身步和狗熊哆嗦毛，才第一次知道鼓子秧歌和花鼓灯。先觉得好玩，再产…",
+        "闪身步在非遗花鼓灯中的体现 丨gif 所以这波流量最好的走向，不是我们抖完就散，而是顺着“狗熊哆嗦毛”了解了山东鼓子秧歌，顺着“闪身步”搜到安徽花鼓灯，去看看完…",
+        "张力拉满。一位曾经管全国艺术事业的司长级人物，认认真真地跳着“狗熊哆嗦毛”，嘴里喊着“隆咚框”，这种“一本正经地做一件好笑的事”的反差，天然就适配短视频的传播逻…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "习惯这样戴耳机的人，离聋不远了……",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B9%A0%E6%83%AF%E8%BF%99%E6%A0%B7%E6%88%B4%E8%80%B3%E6%9C%BA%E7%9A%84%E4%BA%BA%EF%BC%8C%E7%A6%BB%E8%81%8B%E4%B8%8D%E8%BF%9C%E4%BA%86%E2%80%A6%E2%80%A6",
+      "published": "Sat, 26 Sep 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "DOSS",
+        "CES",
+        "citywalk",
+        "dc_ps",
+        "detail",
+        "DSP"
+      ],
+      "summary": "3年前，我经历了人生中的至暗时刻…… 耳机天天不离身已经成了很多人日常，但网上也出现了越来越多的耳机“受害者”， 长期戴入耳式耳机的都懂，耳道密闭闷热， 戴一两个小时就胀痛发痒，长期佩戴还容易引发耳道不适，妥妥的佩戴酷刑。 那有啥办法能在戴耳机的时候，保护自己的听力呢？ · 耳机的音量不应超过总音量的 60%， 选择能让自己听清楚的最小音量， 成年人连续戴耳机的时间不超过一小时。 · 根据不同的使用场景调整耳机种类，避免长期佩戴入耳式耳机， 尝试使用开放式的耳夹式耳机，来防止耳道长期闷堵。 随着科技发展以及生产力的…",
+      "key_points": [
+        "· 耳机的音量不应超过总音量的 60%， 选择能让自己听清楚的最小音量， 成年人连续戴耳机的时间不超过一小时",
+        "耳机早就不是什么高端智能设备了， 连接稳、戴着舒服、音质不拉胯、续航够用，兼顾日常各种场景的耳机越来越多， 耳机的款式也越来越多， 早就不是入耳式一家独大的局面…",
+        "我经历了人生中的至暗时刻…… 耳机天天不离身已经成了很多人日常，但网上也出现了越来越多的耳机“受害者”， 长期戴入耳式耳机的都懂，耳道密闭闷热， 戴一两个小时就…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "有没有看起来低调老钱贼显贵，其实特划算的秋装？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%9C%89%E6%B2%A1%E6%9C%89%E7%9C%8B%E8%B5%B7%E6%9D%A5%E4%BD%8E%E8%B0%83%E8%80%81%E9%92%B1%E8%B4%BC%E6%98%BE%E8%B4%B5%EF%BC%8C%E5%85%B6%E5%AE%9E%E7%89%B9%E5%88%92%E7%AE%97%E7%9A%84%E7%A7%8B%E8%A3%85%EF%BC%9F",
+      "published": "Sat, 26 Sep 2026 12:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "dc_ps",
+        "detail",
+        "End",
+        "INS",
+        "LP",
+        "ngl0q3yv20as6e"
+      ],
+      "summary": "入秋整理衣柜时，总想着先添件外套应对凉意，但其实更该先入手的， 其实是一件能贯穿早秋所有穿搭的羊毛衫！ 不止触感舒服，又 轻、又软、又暖， 也有它独特的美貌滤镜~ 不 管你平时爱穿甜妹风、INS简风，还是偏复古的穿搭，它都能轻松融入，随手一套就是好看的造型。 而所有羊毛衫里， 羊绒拉毛款 更是今年早秋的 “宝藏选择”—— 绒感细腻得像摸云朵， 一定要贴身穿一次，软乎乎不扎肤，细腻顺滑软糯 ，质感上看起来也比普通羊毛衫更显贵气感。 哪怕是基础色，也能穿出低调的精致感，妥妥的早秋 “氛围感利器”。 可是，现在一降温，应…",
+      "key_points": [
+        "羊绒拉毛款 更是今年早秋的 “宝藏选择”—— 绒感细腻得像摸云朵， 一定要贴身穿一次，软乎乎不扎肤，细腻顺滑软糯 ，质感上看起来也比普通羊毛衫更显贵气感",
+        "👇🏻 戳图加购 👇🏻 虽说是反季优惠价，但上手一摸就知道是好东西， 肉眼可见的软糯舒服，还有种撸猫既视感~ 天气逐渐凉下来，快趁着优惠把秋装提前置办起来吧~ 可…",
+        "🟤 V 领款： 第一次买可以先买这款！领口大小恰到好处，能自然露出锁骨线条， 修饰脸部轮廓的同时还能优化头肩比 ，穿起来优雅又得体，不管是搭西装还是配大衣都很合…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "BBC评的榜单，更有意思",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+BBC%E8%AF%84%E7%9A%84%E6%A6%9C%E5%8D%95%EF%BC%8C%E6%9B%B4%E6%9C%89%E6%84%8F%E6%80%9D",
+      "published": "Sat, 26 Sep 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBC",
+        "HBO",
+        "AMC",
+        "CBS",
+        "CK",
+        "FX"
+      ],
+      "summary": "文 西帕克 2021年10月，英国BBC公布了最新投票选出的21世纪百大剧集榜单。这份榜单由全球206位影评人、剧评人、学者和行业从业者共同选出，评选范围为2000年以来全球开播的所有电视或流媒体剧集，每人选择十部，最终按照票数评选出百大剧集。 前十名如下： 1.火线（2002-2008） 2.广告狂人（2007-2015） 3.绝命毒师（2008-2013） 4.伦敦生活（2016-2019） 5.权力的游戏（2011-2019） 6.我可以毁掉你（2020） 7.守望尘世（2014-2017） 8.美国谍梦（2…",
+      "key_points": [
+        "本次评选投票人来自全球各地，包括南美洲、中国、以色列以及北欧等，不乏小语种国家或地区，但仔细观察了每个投票人的榜单之后，还是会发现，英语剧集依然占据了绝大多数，…",
+        "顺应平权风潮 作为一个产生于2021年的榜单，我们也可以惊喜的发现，多部于2020和2021两年推出的剧集开始进入榜单，可见BBC的与时俱进。其中包括《我可以毁…",
+        "这很正常 BBC视角所限，再加上非英语剧很难跨国出圈（电视剧比电影的语言文化壁垒更高），所以这份只有7部非英语剧集的榜单，与其说是一次全球剧集评选，倒不如说是一…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "世纪百佳剧集，就这吗？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%B8%96%E7%BA%AA%E7%99%BE%E4%BD%B3%E5%89%A7%E9%9B%86%EF%BC%8C%E5%B0%B1%E8%BF%99%E5%90%97%EF%BC%9F",
+      "published": "Sat, 26 Sep 2026 20:30:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HBO",
+        "AMC",
+        "DVD",
+        "FBI",
+        "hongmomgs",
+        "irisfilm"
+      ],
+      "summary": "文 Nose 《纽约时报》 之前搞过一个世纪百佳电影榜，争议无数，最近又搞了一个世纪百佳剧集榜，我们来瞅瞅。 争议肯定是有的，榜单嘛，就是一个参考，每个人都有自己的口味，我这里说的也只是个人喜好。 先说总的评选情况，他们是向几百个 业内人士发出 了 问卷，最终 516人参与投票，每人最多提交10部 剧集名单，要求是 2000年1月1日以后首播 。 部分投票者还参加了随机剧集之间的两两比较，最终 ， 由《纽约时报》的数据部门综合两部分结果排出名次。 投票 的人 涵盖演员、编剧、制片人、高管 ，还有各种 行业人士，包括…",
+      "key_points": [
+        "文 Nose 《纽约时报》 之前搞过一个世纪百佳电影榜，争议无数，最近又搞了一个世纪百佳剧集榜，我们来瞅瞅",
+        "四集限定剧排到了第40位。一部投票时刚播完几个月的剧就被选入世纪百佳，还排在了许多已经经过完整生命周期考验的作品前面，这说明投票者群体存在显著的近因偏差",
+        "《我可以毁灭你》 榜单中最容易引发争议的是新近剧集的排名。《匹兹堡急诊室》 2025年才首播，就排到了第36位，高过了第37的《太空堡垒卡拉狄加》、第38的《国…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中秋国庆吃喝指南｜丰收季到贵州该吃点什么新鲜的？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E7%A7%8B%E5%9B%BD%E5%BA%86%E5%90%83%E5%96%9D%E6%8C%87%E5%8D%97%EF%BD%9C%E4%B8%B0%E6%94%B6%E5%AD%A3%E5%88%B0%E8%B4%B5%E5%B7%9E%E8%AF%A5%E5%90%83%E7%82%B9%E4%BB%80%E4%B9%88%E6%96%B0%E9%B2%9C%E7%9A%84%EF%BC%9F",
+      "published": "Sat, 26 Sep 2026 09:00:00 +0800",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "meishi388"
+      ],
+      "summary": "来贵州 刷新山地美食世界观 今年的中秋和国庆假期，你的心动目的地在哪里？ 在各大出行平台发布的中秋、国庆热门旅游省份榜单上，贵州常年位居前列。大家都往贵州走，可极致的山地风光，只是贵州的精彩一面， 贵州更接地气的那一面，在餐桌上。 一盘黄牛肉，可以化进汤底清鲜的 花溪牛肉粉 、酸辣鲜香的 凯里酸汤牛肉 ；一捧茶叶， 玉屏人炒着吃，威宁人、石阡人烤着喝 ，风味大不同；无根无叶的神奇植物天麻，在毕节大方能摆出一桌 天麻宴，能做成天麻月饼 。群山万壑，十里不同风，百里不同俗，也让贵州的每一种风物，都变得千姿百态。 贵州特…",
+      "key_points": [
+        "图/视频《贵州天麻有多神奇》 中秋国庆来贵州，值得换一张新的吃法清单：无论是劲道鲜香的黄牛美食，还是一杯茶里的“ 时间简史” ，抑或是天麻这种神奇植物的“ 七十…",
+        "在各大出行平台发布的中秋、国庆热门旅游省份榜单上，贵州常年位居前列。大家都往贵州走，可极致的山地风光，只是贵州的精彩一面， 贵州更接地气的那一面，在餐桌上",
+        "来贵州 刷新山地美食世界观 今年的中秋和国庆假期，你的心动目的地在哪里"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "第一次拜月娘",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8B%9C%E6%9C%88%E5%A8%98",
+      "published": "Sat, 26 Sep 2026 12:43:00 +0800",
+      "category": "生活",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "V8.2"
+      ],
+      "summary": "我经历过五十多个中秋，今年第一次在中秋夜拜月娘。 如果严格按照潮汕的拜月娘风俗，我最多只能帮着搬一下供桌和拜垫，上香这种事情根本轮不到我，因为在潮汕传统上拜月娘是女性的专属。月亮属阴，象征女性，自己人拜自己人很合理。 但我人在北京，一起赏月的一群人都不是本地人，而是一代移民。说起来，我们各自都是各家的家主，所以怎么过节，使用什么仪式，都是我们自己说了算，我这种蹭拜的行为也能理解。 之前很多年我都在文章里呼吁大家恢复春节的传统风俗，鼓励读者朋友去贴窗花、插梅花、 填字消寒、新年开笔，也不知道有没有效果。不过在社会上，…",
+      "key_points": [
+        "今年第一次在中秋夜拜月娘",
+        "如果中秋还有别的传统风俗我也愿意尝试一下。不过我个人的确很喜欢拜月娘的好意头，也很喜欢仪式里的种种。比如说家里有学生，那就在供桌上摆放课本，祈求月娘赐福。我为此…",
+        "拜月娘这件事里祭祀、供奉的意味比较淡，更像是维护某种亲戚关系，在八月十五的夜里相互走动一下。尤其是长辈带着小辈去拜月，更像是介绍和托付，有点今后还请多关照的意思…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "日本为何不断产生诺奖科学家？答案可能不在“培养”二字",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E6%97%A5%E6%9C%AC%E4%B8%BA%E4%BD%95%E4%B8%8D%E6%96%AD%E4%BA%A7%E7%94%9F%E8%AF%BA%E5%A5%96%E7%A7%91%E5%AD%A6%E5%AE%B6%EF%BC%9F%E7%AD%94%E6%A1%88%E5%8F%AF%E8%83%BD%E4%B8%8D%E5%9C%A8%E2%80%9C%E5%9F%B9%E5%85%BB%E2%80%9D%E4%BA%8C%E5%AD%97",
+      "published": "Sat, 26 Sep 2026 08:11:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "Nobel",
+        "n.d.",
+        "LED",
+        "Prize",
+        "Prize."
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 2008年诺贝尔奖得主合影。这一年日本有三位获奖者，分别是 化学奖下村脩、 物理学奖小林诚、益川敏英。图源：诺贝尔奖官网 撰文｜黄福 涛 ‍ ● ● ● 每年10月诺贝尔奖公布前后，中日两国媒体都会进入一年一度的“诺奖季”。哪些科学家可能获奖，哪些中日科学家的研究已经接近诺奖水平，往往成为媒体和社会关注的话题。2025年，大阪大学的坂口志文获得诺贝尔生理学或医学奖，京都大学的北川进获得诺贝尔化学奖。至此，在物理学、化学、生理学或医学三个自然科学领域，已经…",
+      "key_points": [
+        "是给还没有结果的研究留出制度空间 日本为什么不断产生诺贝尔奖科学家？如果一定要寻找一个共同点，我认为答案可能不是某一种特殊的教育方法，也不是日本曾经成功建立了一…",
+        "一个经常出现的问题是，日本为什么能够培养出这么多诺贝尔奖科学家？但如果认真观察这些获奖者的研究经历，也许首先需要重新考虑这个问题本身。日本的诺贝尔奖获得者当然存…",
+        "这也让人想到另一个问题：如果今天的日本大学越来越强调竞争性经费、短期绩效、量化评价和行政管理，那么 30 年以后，日本还能不能以同样的频率产生诺贝尔奖级的原创成…"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "AI替你写完文章，也可能替你省掉思考 | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+AI%E6%9B%BF%E4%BD%A0%E5%86%99%E5%AE%8C%E6%96%87%E7%AB%A0%EF%BC%8C%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9B%BF%E4%BD%A0%E7%9C%81%E6%8E%89%E6%80%9D%E8%80%83+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sat, 26 Sep 2026 14:22:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "of",
+        "AI",
+        "in",
+        "to",
+        "is",
+        "not"
+      ],
+      "summary": "本文选自《经 济学人》社论版块 Sep 24th 2026 https://www.economist.com/leaders/2026/09/24/dont-let-ai-kill-the-author 让 AI 写一篇文章，只要几十秒。它现在写得未必多好，可这个缺点大概不会持续太久。 《经济学人》本周社论文章给出两个很扎眼的数字：英国议会辩论里，约十分之一的措辞可能由 AI 起草；美国众议院更高，约七分之一。 等机器的文笔真的追上人类，我们还剩什么理由坚持自己写？ 今天读这两段 Any serious case…",
+      "key_points": [
+        "《经济学人》本周社论文章给出两个很扎眼的数字：英国议会辩论里，约十分之一的措辞可能由 AI 起草；美国众议院更高，约七分之一",
+        "知行者联盟·365 天外刊阅读会员中心 ：会员中心每天更新一篇《经济学人》双语文章和一份 The World in Brief 全球早报。原文、译文、词汇、长难…",
+        "适合译成“更不用说”“更谈不上”。整句可处理为：“人的思考会变得不够严密，原创就更无从谈起。” 两段重点表达 carry meaning and signifi…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-27",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "古代真的能女扮男装吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792807",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Rosetta",
+        "Wakeman",
+        "Sarah",
+        "Albert",
+        "Burgess",
+        "Campaign"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 总不能把身形健硕的女性开除女籍吧？ “花木兰”的故事太过久远没有画像可以证明她到底长啥样，但美国南北战争时期，大约有 400 名女扮男装的参军者，其中有人有照片留下来。 这是莎拉·罗塞塔·韦克曼（Sarah Rosetta Wakeman）穿军装的照片： 莎拉·罗塞塔·韦克曼（Sarah Rosetta Wakeman） 你能分辨出她是一个女人吗？ 莎拉·韦克曼出生于美国纽约州班布里奇的一个贫困农民家庭，她是家中九个孩子中的老大。 因为家庭贫困，债务缠身，身为长…",
+      "key_points": [
+        "“花木兰”的故事太过久远没有画像可以证明她到底长啥样，但美国南北战争时期，大约有 400 名女扮男装的参军者，其中有人有照片留下来",
+        "莎拉在华盛顿特区的监狱担任看守期间，曾奉命看管过一名因“女扮男装企图加入北军”而被捕的女性，而她自己当时就正穿着制服工作却无人发现",
+        "杰克逊·多恩仔细阅读并研究了这些信件的内容，震惊地发现了自己祖辈女扮男装入伍北军的秘密"
+      ]
+    }
+  ]
+}
