@@ -1,0 +1,705 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T01:00:15.302886+00:00",
+  "meta": {
+    "group_by": "platform",
+    "selected_keys": [],
+    "per_platform_limit": 10,
+    "fresh_window_days": 3,
+    "fallback_fresh_top_k": 3,
+    "backfill_daily_cap": 3,
+    "backfill_published": 1,
+    "min_items_floor": 20,
+    "floor_added": 0,
+    "floor_per_platform_cap": 3,
+    "min_score": 2.6,
+    "duration_seconds": 7,
+    "items_collected": 80,
+    "fresh_candidates": 45,
+    "backfill_candidates": 35,
+    "items_published": 21,
+    "sources_used": [
+      "https://plink.anyfeeder.com/zhihu/daily",
+      "https://www.zhihu.com/rss",
+      "https://plink.anyfeeder.com/zhihu/hotlist",
+      "https://www.ruanyifeng.com/blog/atom.xml",
+      "https://plink.anyfeeder.com/weixin/caozsay",
+      "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "https://plink.anyfeeder.com/initium/latest",
+      "https://plink.anyfeeder.com/reuters/cn",
+      "https://plink.anyfeeder.com/weixin/theeconomist",
+      "https://xueqiu.com/hots/topic/rss",
+      "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "https://plink.anyfeeder.com/weixin/worldofboss",
+      "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/dili360",
+      "http://hellogithub.com/rss",
+      "https://tech.meituan.com/feed/",
+      "https://tech.youzan.com/rss/",
+      "http://coolshell.cn/feed",
+      "http://blog.codingnow.com/atom.xml",
+      "https://draveness.me/feed.xml",
+      "https://www.bmpi.dev/index.xml",
+      "https://blog.t9t.io/atom.xml",
+      "https://www.ezindie.com/feed/rss.xml",
+      "https://weekly.tw93.fun/rss.xml",
+      "https://plink.anyfeeder.com/weixin/The-Intellectual",
+      "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "https://plink.anyfeeder.com/weixin/techread",
+      "https://plink.anyfeeder.com/weixin/Guokr42",
+      "https://www.phodal.com/blog/feeds/rss/",
+      "https://plink.anyfeeder.com/woshipm/popular",
+      "https://plink.anyfeeder.com/weixin/bitsea"
+    ],
+    "market": {
+      "requested_date": "2026-09-28",
+      "fetched_at": "2026-09-28T01:00:10.000957+00:00",
+      "note": "market snapshot is fetched at runtime (latest quote), not historical replay of requested_date",
+      "indicators": [
+        {
+          "id": "sh000001",
+          "name": "上证指数",
+          "value": 3888.37,
+          "change": -48.15,
+          "change_pct": -1.22,
+          "volume": 438530412.0,
+          "amount": 78361300.0,
+          "currency": "CNY",
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=s_sh000001",
+          "as_of": null
+        },
+        {
+          "id": "hf_XAU",
+          "name": "伦敦金（现货黄金）",
+          "value": 4228.67,
+          "change": -56.44999999999982,
+          "change_pct": -1.32,
+          "prev_close": 4285.12,
+          "unit": "raw",
+          "currency": null,
+          "provider": "tencent",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU",
+          "as_of": "2026-09-28 09:00:00"
+        },
+        {
+          "id": "gds_AU9999",
+          "name": "沪金99（元/克）",
+          "value": 912.5421867956983,
+          "change": -12.18184593373735,
+          "change_pct": -1.317349339108355,
+          "prev_close": 924.7240327294356,
+          "unit": "CNY/g",
+          "currency": "CNY",
+          "provider": "derived",
+          "source_url": "https://qt.gtimg.cn/q=hf_XAU; https://qt.gtimg.cn/q=fxUSDCNY",
+          "as_of": "2026-09-28 09:00:00"
+        }
+      ],
+      "errors": [
+        "Gold(CNY/g) failed: unexpected sina format"
+      ]
+    }
+  },
+  "items": [
+    {
+      "date": "2026-09-28",
+      "platform": "雪球",
+      "source": "雪球（公众号精选）",
+      "source_url": "https://plink.anyfeeder.com/weixin/xueqiujinghua",
+      "title": "牛市少赚、熊市多亏：你的投资交易损耗，从何而来？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9B%AA%E7%90%83+%E7%89%9B%E5%B8%82%E5%B0%91%E8%B5%9A%E3%80%81%E7%86%8A%E5%B8%82%E5%A4%9A%E4%BA%8F%EF%BC%9A%E4%BD%A0%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%A4%E6%98%93%E6%8D%9F%E8%80%97%EF%BC%8C%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5%EF%BC%9F",
+      "published": "Sun, 27 Sep 2026 21:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Wind",
+        "VS",
+        "END-"
+      ],
+      "summary": "风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。 作者：兴全多元资产 来源：雪球 最近市场波动不小，前期表现突出的风格出现了明显调整。每逢这种时候，一个熟悉的现象总会重演：行情火热时，很多人跟着进场；一旦回调打破心理预期，又匆匆赎回。至于产品是什么风格、投资逻辑是否变化，反而很少有人关注。很多投资者买入和卖出的决策，主要基于产品短期的涨跌表现和自己的心态变化。 几乎每个人都希望自己能低点买入、高点止盈，但我们通过实证，发现一个扎心的事实： 大多数投资者实际做出来的操作，恰恰是相反…",
+      "key_points": [
+        "不同波动范围下基金平均交易损耗 数据来源： Wind ， 2020/1/1-20 25/12/31 第二， 分年度视角看，无论牛熊，越是大涨大跌的基金，越容易触…",
+        "如果按波动率将基金分为三组，下表显示，低波动组别的交易损耗显著低于高波动组别。进一步验证了较大的波动率，对于基民而言，很难实现所谓“低点买入，高点卖出”的精准择…",
+        "02 从交易损耗视角看: 大多数择时是反向操作 我们筛选了 2020–2025 年间平均股票仓位不低于 60% 的主动权益基金（偏股混合型基金、普通股票型基金、…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "去宁德化之后：重新理解宁德时代的竞争壁垒",
+      "title_zh": null,
+      "url": "http://xueqiu.com/3549373056/410646989",
+      "published": "Sun, 27 Sep 2026 06:53:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Pack",
+        "AMD",
+        "BOM",
+        "CPU",
+        "HBM",
+        "Intel"
+      ],
+      "summary": "文笔不好，用语音记录之后，发给AI帮我整理了一下。最近去宁德化很火，我也来表达一下我的观点。 最近我花了很多时间思考去宁德化这个事情。 这个问题的起点，其实来自一个很直观的现象：越来越多车企开始引入宁德时代之外的电池供应商，甚至尝试自研电池、自己做Pack，或者将部分车型切换到欣旺达、中创新航等供应商。 于是市场上自然形成了一种叙事： 宁德时代过去利润太高、话语权太强，而整车厂利润率不断受到挤压。随着电池技术逐渐成熟、产品趋于标准化，车企会越来越倾向于选择更便宜的二线电池厂商，从而推动“去宁德化”。在这个过程中，宁…",
+      "key_points": [
+        "价格将成为最重要的竞争变量，宁德时代的利润率自然也应该下降",
+        "于是市场上自然形成了一种叙事： 宁德时代过去利润太高、话语权太强，而整车厂利润率不断受到挤压。随着电池技术逐渐成熟、产品趋于标准化，车企会越来越倾向于选择更便宜…",
+        "而这恰恰是我认为理解宁德时代最重要的一点"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "警惕\"快速衰减\"的生意",
+      "title_zh": null,
+      "url": "http://xueqiu.com/2386334596/410651202",
+      "published": "Sun, 27 Sep 2026 06:53:16 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "GMV",
+        "http",
+        "ROIC",
+        "SaaS",
+        "vs",
+        "xueqiu.com"
+      ],
+      "summary": "曾经有人极力向我推荐一个生意，让我出资盘下。定价确实诱人——如果按第一个月的盈利来推算，一年就能回本。 但我仔细研究，发现这是一门&#34;快速衰减&#34;的生意：这个月能赚1万，下个月可能只剩7千，再下个月或许就只有5千了。不到一年，收益就会趋近于零。要想维持下去，必须不断投入更多的人力物力去做销售。要是按第一个月的盈利计算年化收益率，哪怕只给1倍市盈率去买，也会亏得底裤都不剩。 不管是购买现实中的小生意还是资本市场的大生意，投资人首先要问自己的两个问题是：这门生意能赚多久？维持经营每年需要多大的资本开支？ 有…",
+      "key_points": [
+        "发现这是一门&#34;快速衰减&#34;的生意：这个月能赚1万，下个月可能只剩7千，再下个月或许就只有5千了。不到一年，收益就会趋近于零。要想维持下去，必须不断…",
+        "股市里的&#34;快速衰减型&#34;生意长什么样？其实股市里这类陷阱比现实中更隐蔽，因为财报会&#34;美化&#34;衰减曲线。几个典型： 消费电子/硬件类",
+        "巴菲特说过一句话特别适合总结这类生意：&#34;当你在一个很烂的生意里，你就像一个船长在漏水的船上，与其拼命划向彼岸，不如干脆换条船。&#34; 本话题在雪球有…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "西藏与非洲：未来十年金铜增量的主战场",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5798578993/410654036",
+      "published": "Sun, 27 Sep 2026 06:52:25 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "HK",
+        "SH",
+        "SZ",
+        "KFM",
+        "TFM",
+        "Bambas"
+      ],
+      "summary": "A股与港股二十家主要矿业公司资源量、储量、产能产量与建设进度全景（2026—2035年） 前言 西藏有两座世界级铜矿。一座叫巨龙。紫金矿业2020年6月接手，一期18个月建成投产；二期2024年6月动工、2026年1月投产，又是18个月。 另一座叫多龙，远景铜资源量超过两千万吨，体量比巨龙还大。可直到2026年9月，它连采矿许可证都还没拿到，什么时候能开工，没人给得出准信。 同样是海拔约五千米、含氧量不足平原六成、一年只有六到八个月施工期的生命禁区，同样是千万吨级的大矿，为什么一个快得惊人，一个一拖多年？ 答案不在…",
+      "key_points": [
+        "未来十年A股与港股主要矿业公司的金铜增量，重心在西藏与非洲",
+        "结论非常清楚，清楚到可能让一些人意外：未来十年的金铜增量，主要就来自两个地方——西藏，和非洲刚果（金）",
+        "西藏四大基地（巨龙、玉龙、多龙、甲玛）与非洲三座世界级铜矿（卡莫阿—卡库拉、TFM、KFM）构成铜供给增量的主体；黄金增量则分布于紫金系、招金海域、山东黄金深部…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "雪球",
+      "source": "雪球",
+      "source_url": "https://xueqiu.com/hots/topic/rss",
+      "title": "360°观察mTEC产业趋势的确定性和景气度",
+      "title_zh": null,
+      "url": "http://xueqiu.com/5672579962/410656364",
+      "published": "Sun, 27 Sep 2026 06:52:11 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "mTEC",
+        "CPO",
+        "NPO",
+        "HBM",
+        "AI",
+        "Coherent"
+      ],
+      "summary": "核心结论 Micro TEC（微型热电制冷器）正从光通信的 “可选配件” 升级为 AI 算力基础设施的 刚性标配 。其核心价值在于基于帕尔贴效应实现 ±0.01℃~±0.1℃级精准温控，解决高速光电器件与高带宽存储的波长漂移、热节流问题。光模块速率每升一代、集成度每进一阶，mTEC 的单台价值量与用量同步翻倍；CPO、OIO、NPO、HBM 四大新场景的爆发，更将其市场空间从光通信延伸至计算与存储核心芯片级温控，产业确定性与景气度双重共振。 一、从技术趋势看 mTEC：全路线收敛下的标配确定性 光通信核心器件中，磷…",
+      "key_points": [
+        "二、从产业链动向看 mTEC：全环节扩张下的景气度验证 技术趋势的确定性，正在被产业链上下游的真实动作持续验证，从龙头厂商布局到产能扩张，景气度逐步传导",
+        "核心结论 Micro TEC（微型热电制冷器）正从光通信的 “可选配件” 升级为 AI 算力基础设施的 刚性标配 。其核心价值在于基于帕尔贴效应实现 ±0.01…",
+        "三、产业总结 mTEC 是 AI 算力基础设施升级中 确定性极高、景气度持续向上 的细分赛道： 单器件价值量随产品代际持续翻倍，同时应用场景从光通信拓展至计算与…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "市值曾超百亿美元的Bumble要出售了？官宣放弃“左滑右滑”，转向AI红娘",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470494.html",
+      "published": "Sun, 27 Sep 2026 08:26:08 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Bumble",
+        "AI",
+        "Dating",
+        "https",
+        "Tinder",
+        "Herd"
+      ],
+      "summary": "Bumble 创始人 Whitney Wolfe Herd 在财报电话会议上确认，2026年第四季度将在部分市场取消沿用十余年的左滑右滑机制，改由 AI 红娘功能 Dates 接管匹配流程。上市时超百亿美元的估值已缩水至3.88亿美元，公司还在评估潜在出售。 26年5月7日，Bumble创始人、现任CEO Whitney Wolfe Herd 在财报电话会议上确认了一个让整个社交产品圈为之一震的消息： Bumble将在2026年第四季度于部分市场正式取消沿用十余年的“左滑右滑”匹配机制，改由全新的 AI 红娘功能“…",
+      "key_points": [
+        "Bumble 创始人 Whitney Wolfe Herd 在财报电话会议上确认，2026年第四季度将在部分市场取消沿用十余年的左滑右滑机制，改由 AI 红娘功…",
+        "而Bumble的这番决策也并非毫无缘由。据调查， Bumble的市值已经从21年上市时的超百亿美元估值缩水至3.88亿美元",
+        "Bumble创始人、现任CEO Whitney Wolfe Herd 在财报电话会议上确认了一个让整个社交产品圈为之一震的消息： Bumble将在2026年第四…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "AI 都能帮你干活了，这家公司却只做了三个会自己变化的按钮",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/chuangye/6468765.html",
+      "published": "Sun, 27 Sep 2026 07:34:42 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "AI",
+        "Dune",
+        "Aina",
+        "Agent",
+        "Shankar",
+        "Claude"
+      ],
+      "summary": "Dune 只有三个按键、没有屏幕，插在 MacBook 左侧，会根据当前使用的软件把三个键自动变成此刻最需要的功能：在 Zoom 是一套，切到 Chrome 又换一套。用户还能让 Claude 写一段自动化流程，把原来一连串步骤塞进一个按钮。 今天分享的是一个很小的硬件产品，是一个外接“ AI 键盘”，从产品思路到设计我都很喜欢，分享给大家：Dune， https://www.projectmirage.ai/ 现在电脑键盘上通常有七八十个甚至上百个按键。 但如果你一天大部分时间都在在线会议、在线文档协作平台、浏览…",
+      "key_points": [
+        "但和现在的 Oura、Ultrahuman 完全不是一个方向，它不监测身体，而是试图让用户不掏手机就能执行一些操作： 叫车、控制智能家居、接电话、触发SOS，这…",
+        "这也是为什么我觉得 Dune 更像这家公司对未来交互方式做的一次公开实验",
+        "Dune 更像是这家公司先放出来的一个试水的试验品"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "你的workbuddy vs 我的workbuddy，差距就在这里！！",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470483.html",
+      "published": "Sun, 27 Sep 2026 06:43:13 GMT",
+      "category": "商业/产品",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "PPT",
+        "workbuddy",
+        "WorkBuddy",
+        "AI",
+        "pptx",
+        "App"
+      ],
+      "summary": "内容写得漂漂亮亮却被一句「就是不够高端」打回，问题不在 WorkBuddy 的大模型能力，而是只调了文本模型，搞高端 PPT 得把设计能力调出来。同一份 AI 漫剧项目 9 月汇报，别人做完还得再花 1 天调视觉，这里把纯文本业务稿丢过去，5 分钟就能换脸。 不知道你有没有过这种经历：内容写得漂漂亮亮，PPT 却被一句话打回——「内容挺好，就是不够高端」？ 我之前跟抖音谈合作，要交一份汇报 PPT，图省事让 WorkBuddy 把资料整理成稿。结果出来怎么说呢。。。就很 PPT！点评的老师也直说：内容挺好，但 PP…",
+      "key_points": [
+        "内容写得漂漂亮亮却被一句「就是不够高端」打回，问题不在 WorkBuddy 的大模型能力，而是只调了文本模型，搞高端 PPT 得把设计能力调出来。同一份 AI…",
+        "现在这能力进 PPT，小菜一碟。WorkBuddy 里接上它，脸的事就有人管了",
+        "正好帮我补上视觉这环：一边读懂你的文件，一边管设计。设计从「找人」变成「调用」"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Google 的 AI 开始替你打电话，这句开场白改了8年",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470364.html",
+      "published": "Sun, 27 Sep 2026 06:03:05 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Google",
+        "AI",
+        "Gemini",
+        "https",
+        "Duplex",
+        "ElevenLabs"
+      ],
+      "summary": "9月24日，Google 开始让 Pixel 11 上的 Gemini 替用户打电话，开头要先表明自己是来自 Google 的 AI 助理。这段开场白 Google 用了八年才定下来：2018年 Duplex 演示时它还不说自己是谁，如今透明声明已写进帮助页和条款。 9月24日，Google 开始让 Pixel 11 手机上的 Gemini 替用户打电话。帮助页上举了几个例子，其中一个是让它去问主街上的干洗店，改裤脚要多少钱。用户在 Gemini 里把事情交代清楚，核对它要拨的号码和准备透露的个人信息，再点一下替我…",
+      "key_points": [
+        "Staniszewski 在多伦多的采访里说，公司的目标之一是让对话式 AI 通过图灵测试，也就是让人分不出来。他承认模型之间的质量差距仍然明显，要到三到五年以…",
+        "AI 打电话的开场白是怎么变过来的。Sense AI 依据美联社、Google 声明与帮助页整理 04 那时候，电话那头常常是人 Duplex 后来在美国多个州…",
+        "Google 开始让 Pixel 11 上的 Gemini 替用户打电话，开头要先表明自己是来自 Google 的 AI 助理。这段开场白 Google 用了八…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "人人都是产品经理",
+      "source": "人人都是产品经理",
+      "source_url": "https://plink.anyfeeder.com/woshipm/popular",
+      "title": "Meta Muse为超级智能买单",
+      "title_zh": null,
+      "url": "https://www.woshipm.com/ai/6470492.html",
+      "published": "Sun, 27 Sep 2026 05:32:26 GMT",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "Meta",
+        "AI",
+        "Muse",
+        "Amazon",
+        "App",
+        "Q2"
+      ],
+      "summary": "13天250万次下载，上线约10天登顶 App Store 第一，Meta 市值单日涨了约2000亿美元。但把 Muse 定位成「个人超级智能」，等于承诺一个24小时在线、替你跑腿的数字分身；2026年Q2 单季资本支出311亿美元。 我认为，Meta为Muse付出的承诺税，可能是AI行业近年最贵的一笔。 13天，250万次下载。上线约10天直接登顶App Store第一，干掉了ChatGPT。市场在狂欢，Meta市值单日涨了约2000亿美元。 看起来是一场漂亮的翻身仗，但它承诺了什么，又交付了什么，这两件事之间的…",
+      "key_points": [
+        "上线约10天登顶 App Store 第一，Meta 市值单日涨了约2000亿美元。但把 Muse 定位成「个人超级智能」，等于承诺一个24小时在线、替你跑腿的…",
+        "看看同行怎么做的： Apple Intelligence去年发布时，库克用的词是「个人化的」「有用的」，没有喊超级智能。功能也是一点一点放，Siri升级分阶段推…",
+        "国内厂商走的是另一条路： 豆包月活4亿，没有喊「超级智能」，而是从具体场景切入，办公、搜索、代码，一个一个问题解决；Kimi从长文本助手切入，把一个问题做到极致"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "好汉先走，歌声长流",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%A5%BD%E6%B1%89%E5%85%88%E8%B5%B0%EF%BC%8C%E6%AD%8C%E5%A3%B0%E9%95%BF%E6%B5%81",
+      "published": "Sun, 27 Sep 2026 20:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "guokr.com",
+        "High",
+        "sns"
+      ],
+      "summary": "9月25日，刘欢在上海病逝，享年63岁。 图源：人民日报 消息传来，很多人都错愕和惋惜，那个陪伴我们从小到大，无论我们看什么剧都在唱的刘欢老师，竟然去世了。 40年四代人的共同记忆 有人说，在中国，没有人能正常念出“大河向东流哇，天上的星星参北斗哇”。这一声一起，108个好汉就立在了每个人的面前。 图源：《水浒传》 但在这之前，咱们爸爸辈的，是在黑白电视机里就开始听他的歌的。 1987年，《雪城》的主题曲《心中的太阳》让全国听众记住了他。紧接着《便衣警察》的《少年壮志不言愁》传遍大街小巷，“几度风雨几度春秋，风霜雪…",
+      "key_points": [
+        "天上的星星参北斗。好汉先走，歌声长流",
+        "是极强的可塑性。刘欢把京剧“喊嗓”训练里那种高强度的声带压缩与咽音，引进了流行演唱，形成一种“线状”的、带金属芯的质感。听《千万次的问》，能感到那股在气息支撑下…",
+        "他为《三国演义》唱了三首插曲：《这一拜》《七步诗》《哭诸葛》。1998年央视版《水浒传》的《好汉歌》——“大河向东流哇，天上的星星参北斗哇”，一句就唱进了几代人…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "出门魔咒：为什么一有正事就长痘？",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%87%BA%E9%97%A8%E9%AD%94%E5%92%92%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%80%E6%9C%89%E6%AD%A3%E4%BA%8B%E5%B0%B1%E9%95%BF%E7%97%98%EF%BC%9F",
+      "published": "Sun, 27 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "ml",
+        "Replenix",
+        "TOPIX",
+        "Topix",
+        "dc_ps",
+        "detail"
+      ],
+      "summary": "我宣布，杀伤力最大的皮肤问题绝对有 【大红痘】 一项！ 夏天时不时火山爆发就算了，到了秋天，也可能因为 换季、熬夜、压力 等原因隔三岔五冒头。 果壳实拍 尤其这种 凸出来的大红痘 ，发又发不出来，消又消不下去，摸起来又硬又疼！而且总爱长 在眉心、鼻翼和下巴！ 虽然只有零星几个，但格外引人注目，厚厚的遮瑕和粉底在它面前都是欲盖弥彰，颜值直线下滑！ 果壳实拍 手贱的人还会忍不住一直去摸，结果越摸越严重，还容易 留坑留印！上一波痘印还没消干净，下一波痘又长出来了... 要想皮肤好、皮肤干净的秘诀之一，绝对有别挤脸这条！…",
+      "key_points": [
+        "还复配了多种修护养肤成分，所以对痘肌的整体管理也很棒， 包括 适度控油减少堵塞、舒缓长痘后的红印暗沉、维持肤况稳定 等等， 净痘维度足够周全",
+        "方便好上手 除了效果一绝，把它推荐给大家另外一个很重要的原因就是 方便【精准点涂】 ，这样我们周围不长痘的肌肤就不用被迫上战场了",
+        "直接拿棉签伸到瓶底蘸取粉末 ，在长痘痘的地方均匀涂抹就OK，不用等、不用洗，不用费心控制浓度和用量，非常方便"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "这座小城，被中国第一枚“金钉子”改变",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E8%BF%99%E5%BA%A7%E5%B0%8F%E5%9F%8E%EF%BC%8C%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%AC%AC%E4%B8%80%E6%9E%9A%E2%80%9C%E9%87%91%E9%92%89%E5%AD%90%E2%80%9D%E6%94%B9%E5%8F%98",
+      "published": "Sun, 27 Sep 2026 16:00:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "https",
+        "mp.weixin.qq.com",
+        "Boundary",
+        "Global",
+        "GSSP",
+        "hs24TyIVk3Toa9Q6BQh4gA"
+      ],
+      "summary": "2026年， 浙江常山和四川四姑娘山一起被联合国教科文组织纳入世界地质公园名录 。四姑娘山是大众熟悉的“户外天堂”，而常山这座浙西小城，很多人还是头回听说。凭什么是它？答案藏在一枚“金钉子”里。 什么是“金钉子”？ 向上滑动阅览 地球形成46亿年以来，在原始的地壳上，慢慢覆盖起层层的岩石，在地质学上，这些岩石便是地层。如同将地球46亿年的历史，压成了一本地层“天书”，那它的“每一页”就是其相应的一段地质年代。 然而，经过亿万年的板块运动、火山喷发、海陆变迁，沧海桑田的巨大变化，让这本“天书”早已被切割得支离破碎。…",
+      "key_points": [
+        "浙江常山和四川四姑娘山一起被联合国教科文组织纳入世界地质公园名录 。四姑娘山是大众熟悉的“户外天堂”，而常山这座浙西小城，很多人还是头回听说。凭什么是它？答案藏…",
+        "黄泥塘剖面是中国第一枚“金钉子”，也是全球奥陶系第一枚，全世界研究奥陶纪的科学家都绕不开它。更难得的是，常山还保存着从新元古代到新生代近10亿年连续不断的地层记…",
+        "提案经过国际地层委员会、国际地质科学联合会等机构的四轮投票通过——中国第一枚“金钉子”，钉在了常山"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "果壳网",
+      "source": "果壳网",
+      "source_url": "https://plink.anyfeeder.com/weixin/Guokr42",
+      "title": "在超市买到剧毒的13个角的八角？赶快数数家里的八角有几个角！",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%9C%A8%E8%B6%85%E5%B8%82%E4%B9%B0%E5%88%B0%E5%89%A7%E6%AF%92%E7%9A%8413%E4%B8%AA%E8%A7%92%E7%9A%84%E5%85%AB%E8%A7%92%EF%BC%9F%E8%B5%B6%E5%BF%AB%E6%95%B0%E6%95%B0%E5%AE%B6%E9%87%8C%E7%9A%84%E5%85%AB%E8%A7%92%E6%9C%89%E5%87%A0%E4%B8%AA%E8%A7%92%EF%BC%81",
+      "published": "Sun, 27 Sep 2026 16:00:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "amp",
+        "I.",
+        "Illicium",
+        "of",
+        "T.",
+        "Anisatin"
+      ],
+      "summary": "八角 大概是中餐里最常用的一种香料了。 然而谁能想到，炖肉中一颗看似普普通通的大料，竟然也能出幺蛾子！ 近日，浙江一位女士和她的孩子们发现，超市里买的一颗八角竟然有 13个角 ，查了资料，发现竟是 剧毒的“莽草” ！ 八角是什么，莽草又是什么？ 误食了“莽草”会怎样？ 怎么区分真假八角呢？ 真的只是看“角”的数量吗？ 一颗大料，能有什么坏心思呢？丨图虫创意 新鲜八角长在树上的样子丨gxmzwhw.com 来自古老家族的芬芳 读者们对菜肴中八角那种带着一点甜的醇厚香味，大概不会陌生。但你或许想不到的是，这种香味或许在…",
+      "key_points": [
+        "浙江一位女士和她的孩子们发现，超市里买的一颗八角竟然有 13个角 ，查了资料，发现竟是 剧毒的“莽草”",
+        "八角中所含主要香气物质示意图丨参考文献5 然而，八角的芬芳气息与独特风味掩盖不了一个事实： 它所在的八角属毒物辈出 。《中国植物志》上对于八角属的描述中明确提醒…",
+        "果瓣顶端较钝，没有尖细的刺状结构丨nync.yn.gov.cn 红茴香的果实，果瓣顶端呈尖细的刺状丨笔者 摄 红毒茴的果实，果瓣顶端尖细，且有钩状尖头丨笔者 摄…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "HelloGitHub 月刊",
+      "source": "HelloGitHub 月刊",
+      "source_url": "http://hellogithub.com/rss",
+      "title": "HelloGitHub 第 126 期",
+      "title_zh": null,
+      "url": "https://hellogithub.com/periodical/volume/126",
+      "published": "Mon, 28 Sep 2026 08:05:08 +0800",
+      "category": "技术",
+      "carrier": "项目",
+      "pin": null,
+      "quality_score": 3.7,
+      "keywords": [
+        "C++",
+        "Go",
+        "HelloGitHub",
+        "JavaScript",
+        "Python",
+        "Rust"
+      ],
+      "summary": "本期共有 39 个项目，包含 C 项目 (1)，C# 项目 (3)，C++ 项目 (1)，Go 项目 (4)，JavaScript 项目 (5)，Python 项目 (5)，Rust 项目 (3)，Skills (4)，Swift 项目 (4)，人工智能 (5)，其它 (4)",
+      "key_points": [
+        "包含 C 项目 (1)，C# 项目 (3)，C++ 项目 (1)，Go 项目 (4)，JavaScript 项目 (5)，Python 项目 (5)，Rust…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "他把《黑暗骑士》从诺兰手里偷走了",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E4%BB%96%E6%8A%8A%E3%80%8A%E9%BB%91%E6%9A%97%E9%AA%91%E5%A3%AB%E3%80%8B%E4%BB%8E%E8%AF%BA%E5%85%B0%E6%89%8B%E9%87%8C%E5%81%B7%E8%B5%B0%E4%BA%86",
+      "published": "Sun, 27 Sep 2026 20:29:00 +0800",
+      "category": "时事",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "BBC",
+        "Dan",
+        "Empire",
+        "hongmomgs",
+        "irisfilm",
+        "Issac"
+      ],
+      "summary": "作者：Dan Jolin 译者：易二三 校对：Issac 来源：Empire （2009年12月） 在《蝙蝠侠：黑暗骑士》上映之前，你可能想不到希斯·莱杰会带来这样的表演。上一个扮演「小丑」的人是传奇演员杰克·尼科尔森，他出演了1989年蒂姆·伯顿的第一部蝙蝠侠电影。然而第一眼莱杰就说服了我们，并在他第一次出镜的瞬间就把我们震撼了（对威廉·菲克纳来说，这是实打实的）。在下文中，该片台前幕后的多位工作人员谈论了过去十年中最强电影反派的演变…… 《蝙蝠侠：黑暗骑士》 查尔斯·罗文（制片人） ：当诺兰把他的愿景带给蝙蝠侠…",
+      "key_points": [
+        "Dan Jolin 译者：易二三 校对：Issac 来源：Empire （2009年12月） 在《蝙蝠侠：黑暗骑士》上映之前，你可能想不到希斯·莱杰会带来这样的…",
+        "迈克尔·凯恩爵士（饰 阿尔弗雷德） ：当克里斯打电话给我（聊关于《黑暗骑士》的事情）时，我问，「谁是大反派？」他说: 「小丑。」我想，「噢，杰克·尼科尔森，谁还…",
+        "诺兰 艾玛·托马斯（制片人） ：从筹备《蝙蝠侠：黑暗骑士》的一开始，当克里斯和大卫·高耶决定我们要跟着第一部电影的结局走，认真处理小丑这个角色的时候，我们就知道…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "虹膜",
+      "source": "虹膜",
+      "source_url": "https://plink.anyfeeder.com/weixin/IrisMagazine",
+      "title": "即使在奥斯卡中，这部片也是数一数二",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%B9%E8%86%9C+%E5%8D%B3%E4%BD%BF%E5%9C%A8%E5%A5%A5%E6%96%AF%E5%8D%A1%E4%B8%AD%EF%BC%8C%E8%BF%99%E9%83%A8%E7%89%87%E4%B9%9F%E6%98%AF%E6%95%B0%E4%B8%80%E6%95%B0%E4%BA%8C",
+      "published": "Sun, 27 Sep 2026 20:29:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "FBI",
+        "hongmomgs",
+        "irisfilm",
+        "qq.com"
+      ],
+      "summary": "文 赛人 在我开始试着将电影当作一门学问去对待的时候，恰逢《沉默的羔羊》拿下了奥斯卡含金量最高的五大奖项。 我匆匆看了一遍，知道好，但不知道好在何处。我当时的老师是从绘画转入电影的，他迷的是默片，说那里，才有真正的画面意识。他钟意的很多电影，我都不知所云。 我以为像《沉默的羔羊》这般平白如话的影片，不会入他的法眼。我小心翼翼的向他讨教之时，哪料他盛赞这部影片。夸的话，至今言犹在耳。他说，电影始于画面，但不可止于画面，而《沉默的羔羊》就是这样的一部电影。 《沉默的羔羊》 老师在给我还有其他人讲这部电影时，着重提到了门…",
+      "key_points": [
+        "但我不太认可这是一部女性主义电影，或者说，这部幽深悱恻的主方向并不在此。在那个FBI的训练营里，出现了两场演习，（其中的一场是为影片的最后对决作了铺垫，足见编剧…",
+        "《出租汽车司机》 朱迪·福斯特第一次夺得奥斯卡影后的《被告》，也是部关于男性凝视的电影，一个不检点的妇人在公共场所被轮暴，按现在通行的说法就是，我可以骚，你不能…",
+        "文 赛人 在我开始试着将电影当作一门学问去对待的时候，恰逢《沉默的羔羊》拿下了奥斯卡含金量最高的五大奖项"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "中国国家地理",
+      "source": "中国国家地理",
+      "source_url": "https://plink.anyfeeder.com/weixin/dili360",
+      "title": "中秋国庆放心追秋｜淘宝闪购买药24小时守护",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86+%E4%B8%AD%E7%A7%8B%E5%9B%BD%E5%BA%86%E6%94%BE%E5%BF%83%E8%BF%BD%E7%A7%8B%EF%BD%9C%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD%E4%B9%B0%E8%8D%AF24%E5%B0%8F%E6%97%B6%E5%AE%88%E6%8A%A4",
+      "published": "Sun, 27 Sep 2026 11:03:00 +0800",
+      "category": "其他",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [],
+      "summary": "（广告） 文章原文",
+      "key_points": [
+        "中秋国庆放心追秋｜淘宝闪购买药24小时守护"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "槽边往事",
+      "source": "槽边往事",
+      "source_url": "https://plink.anyfeeder.com/weixin/bitsea",
+      "title": "我的文化偏好",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E6%88%91%E7%9A%84%E6%96%87%E5%8C%96%E5%81%8F%E5%A5%BD",
+      "published": "Sun, 27 Sep 2026 13:26:00 +0800",
+      "category": "娱乐",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.0,
+      "keywords": [
+        "Midjourney",
+        "AI",
+        "Bitsea",
+        "ng",
+        "V8.2",
+        "VCD"
+      ],
+      "summary": "通知 《朋友的照片》更新了： 《 老友的照片（续） 》。 （ 以下正文 ） 因为我在中秋提到了拜月娘，很多读者就很疑惑：你什么时候对潮汕文化如此有兴趣了？ 我就想反问：我什么时候对地方文化没兴趣过？ 当然，面对提问的时候直接用反问的方式回应显得很不友善。那我还可以换一种回答：拜月娘又不是潮汕地区所独有，起码同源文化的福建地区也有，直接判定我对潮汕文化有兴趣很不严谨。 不过这样回答看起来更加不友善，直接硬掰对方的问题接近于抬杠的程度。 那我还可以再换一种回答：我感兴趣的不是某个特定地区的文化，而是发现跨地区的文化关联…",
+      "key_points": [
+        "那我还可以再换一种回答：我感兴趣的不是某个特定地区的文化，而是发现跨地区的文化关联",
+        "就像是我维持了几十年的习惯一样---我听人们讲普通话，根据蛛丝马迹猜测对方是哪里人，再请对方验证我的想法。然后，每一个人都会立即打开话匣子，和我聊他们家乡的事，…",
+        "我觉得有趣味，我花了大量时间去了解。在我看来，每一个市镇都差不多的样子，每一个小超市的货品都差不多的样子，但是人不同，人们的语言不同，风俗不同，各自都拥有一种秘…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "知识分子",
+      "source": "知识分子",
+      "source_url": "http://plink.anyfeeder.com/weixin/The-Intellectual",
+      "title": "《自然》调查：“欧洲工程院”们的院士秘密及华人操盘者",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9F%A5%E8%AF%86%E5%88%86%E5%AD%90+%E3%80%8A%E8%87%AA%E7%84%B6%E3%80%8B%E8%B0%83%E6%9F%A5%EF%BC%9A%E2%80%9C%E6%AC%A7%E6%B4%B2%E5%B7%A5%E7%A8%8B%E9%99%A2%E2%80%9D%E4%BB%AC%E7%9A%84%E9%99%A2%E5%A3%AB%E7%A7%98%E5%AF%86%E5%8F%8A%E5%8D%8E%E4%BA%BA%E6%93%8D%E7%9B%98%E8%80%85",
+      "published": "Sun, 27 Sep 2026 11:17:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "NAAI",
+        "of",
+        "Academy",
+        "AI",
+        "Engineering",
+        "https"
+      ],
+      "summary": "知识分子 ‍‍‍‍‍‍‍‍ The Intellectual 这张图片的大楼外立面写有瑞典语 “欧洲工程院” ，实际上它是哥德堡大学主楼。 ‍ ● ● ● 两个月前，欧洲工程院公布了2026当选院士名单。 据《自然》杂志9月25日报道 [1] ， 哥伦比亚大学教授朱莉娅·赫希伯格 （Julia Hirschberg） 获知自己当选了欧洲工程院院士，非常高兴。哥伦比亚大学工学院官网也特地发文表示祝贺。 哥伦比亚大学工学院官网曾经刊发Julia Hirschberg当选欧洲工程院院士和奥地利工程院院士的消息 此次当选的…",
+      "key_points": [
+        "沃尔夫化学奖得主、美国科学院院士、中国科学院外籍院士、清华大学深圳国际研究生院讲席教授 （该院官网发了李波当选欧洲工程院院士的消息） 中国机构的部分“美国国家人…",
+        "NAAI 2026新加坡年会现场。图源：NAAI 朱朝阳表示，他只直接负责运营国际工程心理学研究所，2026年5月已辞去美国国家人工智能科学院的行政职务，202…",
+        "欧洲工程院“院士”证书 根据“欧洲工程院”官网，该机构1992年成立于瑞典哥德堡。但《自然》在瑞典的公共机构登记数据库中没有查到这一名称，以及与其匹配的实体。“…"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "platform": "一天一篇经济学人",
+      "source": "一天一篇经济学人(双语)",
+      "source_url": "https://plink.anyfeeder.com/weixin/Economist_fans",
+      "title": "德国汽车工人每周35小时，车企为什么扛不住了？ | 经济学人",
+      "title_zh": null,
+      "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%A4%A9%E4%B8%80%E7%AF%87%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA%28%E5%8F%8C%E8%AF%AD%29+%E5%BE%B7%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%B7%A5%E4%BA%BA%E6%AF%8F%E5%91%A835%E5%B0%8F%E6%97%B6%EF%BC%8C%E8%BD%A6%E4%BC%81%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%9B%E4%B8%8D%E4%BD%8F%E4%BA%86%EF%BC%9F+%7C+%E7%BB%8F%E6%B5%8E%E5%AD%A6%E4%BA%BA",
+      "published": "Sun, 27 Sep 2026 14:23:00 +0800",
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "in",
+        "by",
+        "alone",
+        "offset",
+        "let",
+        "to"
+      ],
+      "summary": "本文选自《经济学人》商业版块 https://www.economist.com/business/2026/09/24/german-unions-are-fighting-to-defend-the-35-hour-week 1984年，德国工人罢工七周，才把每周工时从40小时降到35小时。四十多年后，梅赛德斯希望员工重新每周工作40小时，而且不加工资。工会当然不肯。这场争执却很难只用“劳资矛盾”概括。德国工人的时薪接近匈牙利工厂的三倍；过去三年，梅赛德斯在华销量下降27%，利润减少一半。35小时工作制碰上的，…",
+      "key_points": [
+        "本文选自《经济学人》商业版块 https://www.economist.com/business/2026/09/24/german-unions-are-f…",
+        "参考翻译 “在德国造车已经完全不符合商业逻辑了，”公司发言人奥利弗·芬茨尔表示。长期以来，德国的劳动力成本一直高于欧洲其他国家，更不用说中国了。不过在过去，廉价…",
+        "知行者联盟·365天外刊阅读会员中心 ：会员中心每天更新一篇《经济学人》双语文章和一份 The World in Brief 全球早报。原文、译文、词汇、长难句…"
+      ]
+    }
+  ],
+  "backfill_items": [
+    {
+      "date": "2026-09-28",
+      "platform": "知乎",
+      "source": "知乎日报（聚合）",
+      "source_url": "https://plink.anyfeeder.com/zhihu/daily",
+      "title": "一部电影会失传吗？",
+      "title_zh": null,
+      "url": "https://daily.zhihu.com/story/9792725",
+      "published": null,
+      "category": "财经",
+      "carrier": "文章",
+      "pin": null,
+      "quality_score": 3.3,
+      "keywords": [
+        "BBC",
+        "Doctor",
+        "Who",
+        "Hartnell",
+        "Patrick",
+        "Troughton"
+      ],
+      "summary": "知乎用户， 宁静慎独，讷于言，敏于行。 查看知乎原文 不要说小众电影了，很大众全球流行的国宝级影视剧都会失传。 吉尼斯世界纪录认证的“世界上最长寿的科幻电视剧”《神秘博士》（Doctor Who），就有大量剧集失传了。 1963 年，英国广播公司（BBC）创立了科幻神剧《神秘博士》，至今已走过 60 多年的岁月。 这部剧之所以能播 60 多年，在于它拥有一个天才般的设定：“博士”是一位神秘外星人，当他受致命伤或衰老时，体内的细胞会重组，变成一个拥有全新外貌、性别和性格的新人，但保留所有的记忆。 所以这部剧可以不断换…",
+      "key_points": [
+        "全球超过 75%的早期无声电影已经永久失传",
+        "很大众全球流行的国宝级影视剧都会失传",
+        "英国影视搜寻慈善机构的一位专家在清点一位去世的业余电影收藏家的遗产时，在一堆标有其他电影名字的破旧纸箱底层，意外发现了两卷 16 毫米微缩胶片"
+      ]
+    }
+  ]
+}
